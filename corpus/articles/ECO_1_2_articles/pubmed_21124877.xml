@@ -1,0 +1,1804 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21124877</article-id>
+      <article-id pub-id-type="pmc">2989922</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-10-00446</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0015528</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacterial Pathogens</subject>
+              <subj-group>
+                <subject>Gram Positive</subject>
+                <subject>Streptococci</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Biochemistry</subject>
+                <subject>Bacterial Biofilms</subject>
+                <subject>Bacterial Physiology</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Microbial Pathogens</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Signal Transduction</subject>
+              <subj-group>
+                <subject>Signaling in Cellular Processes</subject>
+                <subj-group>
+                  <subject>Transcriptional Signaling</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Activation of the SMU.1882 Transcription by CovR in <italic>Streptococcus mutans</italic></article-title>
+        <alt-title alt-title-type="running-head">Gene Activation by CovR in <italic>S. mutans</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Chong</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>&#xA4;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Chattoraj</surname>
+            <given-names>Partho</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Biswas</surname>
+            <given-names>Indranil</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Department of Microbiology, Molecular Genetics and Immunology, University of Kansas Medical Center, Kansas City, Kansas, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kaushal</surname>
+            <given-names>Deepak</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Tulane University, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>ibiswas@kumc.edu</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: IB PCN PCT. Performed the experiments: PCN PCT IB. Analyzed the data: IB PCN PCT. Wrote the paper: IB PCN.</p>
+        </fn>
+        <fn id="fn1" fn-type="current-aff">
+          <label>&#xA4;</label>
+          <p>Current address: Antimicrobial Resistance and Nosocomial Infections, National Microbiology Laboratory, Winnepeg, Canada</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>11</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>11</issue>
+      <elocation-id>e15528</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>8</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>10</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Chong, et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+      </permissions>
+      <abstract>
+        <p>In <italic>Streptococcus mutans</italic>, the global response regulator CovR plays an important role in biofilm formation, stress-tolerance response, and caries production. We have previously shown that CovR acts as a transcriptional repressor by binding to the upstream promoter regions of its target genes. Here, we report that <italic>in vivo</italic>, CovR activates the transcription of SMU.1882, which encodes a small peptide containing a double-glycine motif. We also show that SMU.1882 is transcriptionally linked to <italic>comA</italic> that encodes a putative ABC transporter protein. Several genes from <italic>man</italic> gene clusters that encode mannose phosphotranferase system flank SMU.1882 -<italic>comA</italic> genes. Genomic comparison with other streptococci indicates that SMU.1882 is uniquely present in <italic>S. mutans</italic>, while the <italic>man</italic> operon is conserved among all streptococci, suggesting that a genetic rearrangement might have taken place at this locus. With the use of a transcriptional reporter system and semi-quantitative RT-PCR, we demonstrated the transcriptional regulation of SMU.1882 by CovR. <italic>In vitro</italic> gel shift and DNase I foot-printing analyses with purified CovR suggest that CovR binds to a large region surrounding the -10 region of the P<italic><sub>1882</sub></italic>. Using this information and comparing with other CovR regulated promoters, we have developed a putative consensus binding sequence for CovR. Although CovR binds to P<italic><sub>1882</sub></italic>, in vitro experiments using purified <italic>S. mutans</italic> RpoD, <italic>E. coli</italic> RNA polymerase, and CovR did not activate transcription from this promoter. Thus, we speculate that <italic>in vivo</italic>, CovR may interfere with the binding of a repressor or requires a cofactor.</p>
+      </abstract>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Streptococcus mutans</italic>, which is a part of the normal flora of the human oral cavity, is considered to be the primary etiological agent in the formation of dental caries <xref ref-type="bibr" rid="pone.0015528-Loesche1">[1]</xref>, <xref ref-type="bibr" rid="pone.0015528-Hamada1">[2]</xref>. Dental caries is a global health problem that affects from 60&#x2013;90% of school children, as well as many adults in industrialized countries <xref ref-type="bibr" rid="pone.0015528-Peterson1">[3]</xref>, <xref ref-type="bibr" rid="pone.0015528-Kaste1">[4]</xref>, <xref ref-type="bibr" rid="pone.0015528-Pitts1">[5]</xref>. Although not fatal, dental caries is a costly disease, leading to annual expenditure in billions of dollars in the U.S. alone. <italic>S. mutans</italic> is also a leading cause of bacterial endocarditis, with greater than 14% of viridians streptococcus-induced endocarditis triggered by infections of <italic>S. mutans</italic> <xref ref-type="bibr" rid="pone.0015528-Horaud1">[6]</xref>. For colonization in the oral cavity, <italic>S. mutans</italic> metabolizes the dietary carbohydrates ingested by its host to produce glucan and to anchor itself to the tooth surface, forming densely populated microbial biofilms known as dental plaque that includes hundreds of species of other oral bacteria <xref ref-type="bibr" rid="pone.0015528-Tanzer1">[7]</xref>. The capacity of <italic>S. mutans</italic> to persist and to maintain a dominant presence in the oral cavity is due to its ability to adapt and respond to a variety of adverse growth-limiting conditions and production of antimicrobial peptides known as mutacins <xref ref-type="bibr" rid="pone.0015528-Nicolas1">[8]</xref>, <xref ref-type="bibr" rid="pone.0015528-Lemos1">[9]</xref>.</p>
+      <p>Bacteria have evolved several strategies to adapt to unexpected changes in their extracellular environment, but the predominant mechanism is the so-called two-component signal transductions system (TCS) <xref ref-type="bibr" rid="pone.0015528-Stock1">[10]</xref>. TCSs allow bacteria to coordinate a focused and appropriate physiological response to counter the effects of specific extracellular stimuli. A TCS typically consist of two main components: a membrane-bound sensor histidine kinase, which senses environmental cues, and a cytoplasmic response regulator, which upon activation by the cognate histidine kinase, elicits the appropriate cellular response, usually by binding to specific DNA target sequences, and acting as a transcriptional regulator to modulate the expression of various genes, depending on the growth condition <xref ref-type="bibr" rid="pone.0015528-Stock1">[10]</xref>.</p>
+      <p>The TCS CovRS has been extensively studied in streptococcal spp., particularly in group-A-streptococcus (GAS) <xref ref-type="bibr" rid="pone.0015528-Dalton1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015528-Engleberg1">[12]</xref>, <xref ref-type="bibr" rid="pone.0015528-Ferretti1">[13]</xref>, <xref ref-type="bibr" rid="pone.0015528-Federle1">[14]</xref>. CovRS directly or indirectly regulates approximately 15% of the GAS genome, including many virulence genes. CovRS also mediates the growth of GAS during periods of iron starvation as well as growth in the bloodstream <xref ref-type="bibr" rid="pone.0015528-Federle1">[14]</xref>, <xref ref-type="bibr" rid="pone.0015528-Heath1">[15]</xref>, <xref ref-type="bibr" rid="pone.0015528-Levin1">[16]</xref>. The vast majority of the CovR regulon is repressed by CovR <xref ref-type="bibr" rid="pone.0015528-Graham1">[17]</xref>. CovS is thought to be the cognate sensor kinase for the phosphorylation or dephosphorylation of CovR, which typically functions as a transcriptional repressor <xref ref-type="bibr" rid="pone.0015528-Churchward1">[18]</xref>; environmental stimuli, particularly during periods of stress, are recognized by CovS, which regulates the activity of the global response regulator CovR <xref ref-type="bibr" rid="pone.0015528-Dalton1">[11]</xref>. Although CovR regulates the expression of common sets of genes in different GAS strains, there are also variations in the CovR regulon that arise between strains <xref ref-type="bibr" rid="pone.0015528-Dalton2">[19]</xref>, <xref ref-type="bibr" rid="pone.0015528-Sumby1">[20]</xref>. CovRS is also associated with virulence in group-B-streptococcus (GBS) and in group-C-streptococcus (GCS) <xref ref-type="bibr" rid="pone.0015528-Graham1">[17]</xref>, <xref ref-type="bibr" rid="pone.0015528-Steiner1">[21]</xref>, <xref ref-type="bibr" rid="pone.0015528-Lamy1">[22]</xref>. Approximately 6% of the genome of GBS is regulated by CovRS, including some virulence factors <xref ref-type="bibr" rid="pone.0015528-Lamy1">[22]</xref>, <xref ref-type="bibr" rid="pone.0015528-Jiang1">[23]</xref>; as with GAS, the CovR regulon is mostly repressed by CovR.</p>
+      <p><italic>S. mutans</italic> encodes 14 putative TCS in its genome <xref ref-type="bibr" rid="pone.0015528-Ajdic1">[24]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas1">[25]</xref>; however, unlike other streptococcal spp., <italic>S. mutans</italic> does not encode <italic>covS</italic>, but does express CovR, also known as GcrR or TarC <xref ref-type="bibr" rid="pone.0015528-Sato1">[26]</xref>, <xref ref-type="bibr" rid="pone.0015528-Chong1">[27]</xref>, <xref ref-type="bibr" rid="pone.0015528-Idone1">[28]</xref>. Therefore, CovR appears to be an orphan response regulator in <italic>S. mutans.</italic> As with other streptococcal spp., CovR is an important global response regulator in <italic>S. mutans</italic>, as it regulates the expression of various virulence genes that are essential for biofilm formation, such as the glucosyltransferases (<italic>gtfB/C</italic>), glucan-binding proteins C (<italic>gbpC</italic>), and also of its own expression <xref ref-type="bibr" rid="pone.0015528-Chong1">[27]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>.</p>
+      <p>In GAS, CovR typically functions as a transcriptional repressor <xref ref-type="bibr" rid="pone.0015528-Federle1">[14]</xref>, <xref ref-type="bibr" rid="pone.0015528-Graham1">[17]</xref>. With respect to <italic>S. mutans</italic>, while CovR negatively regulates the expression of the afore-mentioned genes, our data indicates that CovR can also function as an activator of gene expression (Biswas, unpublished) one such example is an open reading frame encoded by SMU.1882. In order to gain further insight into the importance of CovR in the physiology of <italic>S. mutans</italic>, and the mechanism of gene regulation, we begin by having a look at the regulation of SMU.1882 by CovR. In this communication, we report that CovR, under <italic>in vivo</italic> conditions, activates the expression of SMU.1882. CovR directly binds to the putative promoter region of SMU.1882 and protects a region containing putative promoter elements against DNase I digestion. However, binding of CovR to the promoter of SMU.1882 did not stimulate transcription under <italic>in vitro</italic> conditions, suggesting other factors may be involved under <italic>in vivo</italic> conditions.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>SMU.1882 is unique to <italic>S. mutans</italic></title>
+        <p>Bioinformatics analysis of SMU.1882 gene (354-bp) reveals that it encodes a hypothetical protein of 117 amino acid residues in length containing three double-glycine (GG) motifs, one of which is at position 23. A recent <italic>in silico</italic> analysis suggests that the SMU.1882 peptide is a secretory molecule <xref ref-type="bibr" rid="pone.0015528-Dirix1">[31]</xref>; the GG motif at position 23 is thought to be the site at which the cleavage occurs. However, our analyses of the genome of <italic>S. mutans</italic> along with other streptococcal <italic>spp</italic>., including <italic>S. agalactiae</italic>, <italic>S. gordonii</italic>, <italic>S. mitis</italic>, <italic>S. pneumoniae</italic>, and <italic>S. pyogenes</italic>, <italic>S. thermophilus</italic>, using software at the Comprehensive Microbial Resource website (<ext-link ext-link-type="uri" xlink:href="http://cmr.jcvi.org/tigr-scripts/CMR/CmrHomePage.cgi">http://cmr.jcvi.org/tigr-scripts/CMR/CmrHomePage.cgi</ext-link>), revealed that SMU.1882 is unique to <italic>S. mutans</italic>, as it is apparently not found in these streptococcal <italic>spp</italic>. (data not shown); however, several small GG containing peptides and homologs of the upstream SMU.1883 gene are present in some streptococci. While SMU.1882 and the adjacent <italic>comA</italic> homolog, SMU.1881, are unique to the <italic>S. mutans</italic> strains, the flanking genes, which encode mannose-phosphotransferase system (man-PTS) are very well conserved among streptococci and other <italic>Firmicutes</italic> <xref ref-type="bibr" rid="pone.0015528-Abranches1">[32]</xref>.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Transcriptional organization of the SMU.1882 locus</title>
+        <p>A schematic diagram of the SMU.1882 locus and the genes in its vicinity are shown in <xref ref-type="fig" rid="pone-0015528-g001">Fig. 1A</xref>. Sequence analysis, confirmed using BPROM online software (Prediction of bacterial promoters, Softberry, <ext-link ext-link-type="uri" xlink:href="http://linux1.softberry.com">http://linux1.softberry.com</ext-link>), indicates the presence of putative -35 (GTGAGT) and -10 (TATAAT) box motifs 151- and 127-bp, respectively, upstream of the putative start codon with a putative ribosomal binding site (AGAGA) 11-bp upstream of the start codon. A putative rho-independent terminator sequence (<named-content content-type="gene">GCCTGACTACATAGATGTCAGGC</named-content>) was identified at position 402-bp downstream of SMU.1882 by TransTerm (transterm.dev.java.net) program.</p>
+        <fig id="pone-0015528-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0015528.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Transcriptional analysis of SMU.1882 locus.</title>
+            <p>(A) Schematic diagram of SMU.1882 locus. Open reading frames (orf) are designated by block arrows, and their orientations indicate the direction of transcription. The sequence upstream of SMU.1882 orf is shown below the diagram. (B) Stability of SMU.1882 transcript. The stability of SMU.1882 transcript was measured using cultures at mid-exponential growth phase (70 KU). RNA was extracted from <italic>S. mutans</italic> wild type strain UA159 at the time (in minutes) indicated above the lanes following addition of rifampin to block <italic>de novo</italic> transcription. The mRNA decay curve was plotted as a function of time (in minutes). (C) Northern blotting was carried out using the SMU.1882 orf as a probe. A major band of 1.5 kb and two minor bands (3.0 kb and 6.0 kb) were obtained. (D) Transcriptional linkage analysis. Transcription linkage between SMU.1882/<italic>comA</italic>, and SMU.1884/SMU.1882 was analyzed using the primer pair 1+2 and 3+4, respectively. K-DNA denotes genomic DNA. (E) Amino acid sequence encoded by SMU.1882. The conserved GG-motif, the putative site for the signal peptide cleavage, is underlined.</p>
+          </caption>
+          <graphic xlink:href="pone.0015528.g001"/>
+        </fig>
+        <p>Since the transcripts of many CovR regulated genes have relatively shorter half-life, we therefore evaluated the stability of SMU.1882 transcript. The results of the mRNA stability assay indicated that the chemical half-life of the SMU.1882 transcript was approximately 2&#x2013;3 minutes (<xref ref-type="fig" rid="pone-0015528-g001">Fig. 1B</xref>). Northern blot analysis indicated that there was one major band of 1.5-kb (which was used for the stability determination) and two other minor bands of approximately 3.0- and 6.0-kb, which constituted less than 5% of the total signal (<xref ref-type="fig" rid="pone-0015528-g001">Fig. 1C</xref>), suggesting that other genes may be cotranscribed along with SMU.1882. To determine whether the downstream <italic>comA</italic> (SMU.1881) was transcriptionally linked to SMU.1882, PCR analysis was performed using cDNA, with chromosomal DNA and RNA as the positive and negative controls, respectively. As shown in <xref ref-type="fig" rid="pone-0015528-g001">Fig. 1D</xref>, SMU.1882 appears to be transcriptionally linked with <italic>comA</italic>, which would account for the presence of the 3-kb transcript seen in the northern blot. This product could be generated due to read-through transcription from the SMU.1882 promoter.</p>
+      </sec>
+      <sec id="s2c">
+        <title>CovR upregulates transcription from P<italic><sub>1882</sub> in vivo</italic></title>
+        <p>To gain insight into the link between CovR and expression of SMU.1882, sqRT-PCR was used to quantify the level of CovR-dependent expression of SMU.1882. Wild-type <italic>S. mutans</italic> UA159, and its isogenic &#x394;<italic>covR</italic> derivative, IBS603, were grown to mid-exponential phase (KU70), followed by harvesting and extraction of RNA. The <italic>gyrA</italic> gene was included as control to ensure that equivalent amounts of RNA were being used for each reaction. <xref ref-type="fig" rid="pone-0015528-g002">Fig. 2A</xref> shows that higher levels of SMU.1882 transcript are being produced from the wild-type strain compared to the <italic>covR</italic> mutant strain, with approximately three-fold difference in expression of SMU.1882; complementation of the &#x394;<italic>covR</italic> mutant strain with plasmid pIB30 (IBS603/pIB30), which carries the full length, wild-type <italic>covR</italic> gene in <italic>trans</italic>, restores expression of SMU.1882 to the wild type level. Since SMU.1883 gene appears to be divergently transcribed from the promoter upstream of the SMU.1882, we also measured the level of SMU.1883 transcript by sqRT-PCR. We found no significant difference between the wild type and the <italic>covR</italic> mutant strains. Thus, although SMU.1882 and SMU.1883 share the same intergenic region, CovR appears to only activate transcription of the SMU1882 gene. The results of the sqRT-PCR were further supported by real-time RT-PCR analysis. As shown in <xref ref-type="fig" rid="pone-0015528-g002">Fig. 2B</xref>, we found that the transcript level in the <italic>covR</italic> mutant strain was approximately 2.5-fold lower compared to the wild type strain.</p>
+        <fig id="pone-0015528-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0015528.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>CovR is required for SMU.1882 expression.</title>
+            <p>(A). Semi-quantitative RT-PCR analysis of SMU.1882, SMU.1883, and <italic>gyrA</italic> for the strains UA159, &#x394;<italic>covR</italic> (IBS603) and &#x394;<italic>covR</italic> complemented with pIB30 (IBS603/pIB30). The <italic>gyrA</italic> gene was included as an internal control to ensure that equal amounts of RNA were loaded per lane. Experiments were repeated at least twice with two independent RNA isolations. (B) Quantitative real-time PCR analysis of SMU.1882 transcript in wild type, &#x394;<italic>covR</italic> (IBS603) and &#x394;<italic>covR</italic> complemented with pIB30 (IBS603/pIB30). The expression of SMU.1882 was normalized to the expression level of <italic>gyrA</italic> as an internal reference. Relative fold changes in gene expression are represented as histograms with error bars. Each histogram is the mean of four biological replicates. (C) Reporter fusion assay. The putative promoter of SMU.1882 was fused to a promoter-less <italic>gusA</italic> reporter gene and inserted into the <italic>S. mutans</italic> UA159 chromosome. Expression driven from the promoters was evaluated by measuring Gus activity. Gus values were measured from at least three independent cultures; mean values with standard deviations are shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0015528.g002"/>
+        </fig>
+        <p>To confirm that CovR can regulate SMU.1882 promoter at a non-native locus, we used a transcriptional reporter fusion for analysis to avoid any <italic>cis</italic>-effect that may alter the gene expression. Transcriptional fusion reporter strains were constructed by cloning the putative promoter region of SMU.1882 into plasmid pIB107, which contains a promoterless <italic>gusA</italic> gene <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>. This construct was inserted at the SMU.1405 locus, which is well separated from the native SMU.1882 locus <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>. When the wild type, <italic>covR</italic>-deletion mutant (IBS606), and complemented <italic>covR</italic>-deletion mutant (IBS606/pIB30) strains, containing the P<italic><sub>1882</sub></italic>-<italic>gusA</italic> transcriptional fusion reporter, were assayed for Gus activity. As shown in <xref ref-type="fig" rid="pone-0015528-g002">Fig. 2B</xref>, GusA activity was significantly reduced in the mutant strain IBS606, indicating that CovR is required to activate transcription from P<italic><sub>1882</sub></italic>. However, GusA activity was restored to the parental level when the &#x394;<italic>covR</italic> strain was complemented with <italic>covR</italic> in <italic>trans</italic> (IBS606/pIB30). Taken together, the results of the RT-PCR analyses and the reporter fusion assays indicate that expression of SMU.1882 is up regulated in the presence of CovR.</p>
+      </sec>
+      <sec id="s2d">
+        <title>CovR directly binds to P<italic>1882 in vitro</italic></title>
+        <p>Electrophoretic mobility shift assays (EMSA) and DNase I protection assays were used to demonstrate the specific binding of CovR to the putative promoter region of SMU.1882, P<italic><sub>1882</sub></italic>. As shown in <xref ref-type="fig" rid="pone-0015528-g003">Fig. 3A</xref>, incubation of the P<italic><sub>1882</sub></italic> DNA fragment with increasing amounts of CovR leads to retardation in the mobility of the DNA fragment. Incubation of the <sup>32</sup>P-labeled P<italic><sub>1882</sub></italic> fragment with a 25-fold higher amount of non-labeled P<italic><sub>1882</sub></italic> DNA fragment resulted in no shifting of the labeled band, while the addition of a 25-fold higher amount of a DNA fragment containing the promoter region for the <italic>nlmA</italic> gene (P<italic><sub>nlmA</sub></italic>), which encodes a peptide component of mutacin IV and is not regulated by CovR, did not inhibit shifting of the CovR-bound P<italic><sub>1882</sub></italic> fragment (<xref ref-type="fig" rid="pone-0015528-g003">Fig. 3A</xref>). This demonstrates that CovR binds specifically to the promoter region of SMU.1882.</p>
+        <fig id="pone-0015528-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0015528.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>CovR binds to SMU.1882 promoter region.</title>
+            <p>(A) In vitro binding of CovR to the promoter of SMU.1882. EMSA was performed with His-tagged CovR as described in the text. Lanes: 1, no CovR; 2, 14.97 pmol CovR; 3, 29.94 pmol CovR; 4, 59.88 pmol CovR; 5, 89.82 pmol CovR; 6, 119.76 pmol CovR; 7 and 8, 29.94 pmol CovR. 0.5 pmol labelled P<sub>1882</sub> was used in all the reactions. 25-fold molar excess of cold P<sub>1882</sub> and P<sub>nlmA</sub> were used in lanes 7 and 8 respectively. B: bound DNA; F: free DNA. (B) DNase I protection assay of the putative SMU.1882 promoter. 0.5 pmol labelled P<italic><sub>1882</sub></italic> was used in all the reactions. Lane: 1, no CovR; 2, 59.88 pmol CovR; 3, 89.82 pmol CovR; 4, 119.76 pmol CovR; 5, 187.125 pmol CovR. Footprints were run in an 8% sequencing gel next to sequencing ladders (G, A, T, and C). CovR binding regions are indicated by vertical lines at the side of the sequencing gels, while horizontal lines mark -10 and -35 regions of the promoter. All experiments were carried out at least thrice, and a representative gel is shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0015528.g003"/>
+        </fig>
+        <p>DNase I protection assays were performed to determine the portion of P<italic><sub>1882</sub></italic> that binds to CovR, using the same P<italic><sub>1882</sub></italic>-CovR mixtures prepared for EMSA, as described above. Analysis of the gel indicates that CovR binds to the DNA fragment from position -200 to -1, relative to the start codon, and protects this region against digestion by DNase I (<xref ref-type="fig" rid="pone-0015528-g003">Fig. 3B</xref>). This region also includes the putative ribosomal binding site, AGAGA, which is found 13-bp upstream of the start codon, as well as the putative -35 and -10 box regions. Taken together, the results of the EMSA and DNase I analyses suggest that CovR activates the expression of SMU.1882 by specifically binding to P<italic><sub>1882</sub></italic>.</p>
+      </sec>
+      <sec id="s2e">
+        <title>CovR regulation of SMU.1882 expression is not strain-specific</title>
+        <p>Bioinformatics analysis at the CMR website indicates that gene SMU.1882 is not found in streptococcal <italic>spp</italic>. outside of <italic>S. mutans</italic> strain UA159; however, it was not known whether SMU.1882 is conserved in other isolates of <italic>S. mutans</italic>. To determine whether SMU.1882 is present in other <italic>S. mutans</italic> strains, we used Southern hybridization to verify whether SMU.1882 was present in other isolates, from three different serotypes (c, e, and f) of <italic>S. mutans</italic>. A <sup>32</sup>P-labeled DNA fragment containing a 267-bp internal SMU.1882 sequence derived from the genome of UA159 was used as a probe against the <italic>Xmn</italic>I-digested chromosomal DNA from a number of <italic>S. mutans</italic> isolates. The results of the Southern hybridization analysis are shown in <xref ref-type="fig" rid="pone-0015528-g004">Figure 4A</xref>. Sequence analysis predicts that, a diagnostic 6-kb DNA fragment will be generated after <italic>Xmn</italic>I-digestion UA159 genomic DNA. As shown in <xref ref-type="fig" rid="pone-0015528-g004">Fig. 4A</xref>, with the exception of strains T8, 109C, and UA130 that did not produce bands, the hybridization pattern observed for the majority of the isolates was identical with that of UA159 (6 kb); however, the observed band for strain OMZ175 was 4-kb. The overall results suggest that SMU.1882 is conserved in most, but not all, strains of <italic>S. mutans</italic>.</p>
+        <fig id="pone-0015528-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0015528.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Presence of SMU.1882 locus in different strains of <italic>S. mutans</italic>.</title>
+            <p>(A) Southern hybridization blot of <italic>Xmn</italic>I digested chromosomal DNA from different <italic>S. mutans</italic> strains belonging to three serotypes (c, e and f). A 267-bp internal SMU.1882 sequence was used as a probe against the digested DNA. Semi-quantitative RT-PCR analysis (B) and quantitative real-time PCR analysis (C) of <italic>S. mutans</italic> strain GS-5, its isogenic &#x394;<italic>covR</italic> strain (IBS07) and the complementing strain (IBS07/pIB30). (D) Quantitative real-time PCR analysis of SMU.1882 transcript in NG-8, its isogenic &#x394;<italic>covR</italic> strain (IBS06) and &#x394;<italic>covR</italic> complemented with pIB30 (IBS06/pIB30). The expression of SMU.1882 was normalized to the expression level of <italic>gyrA</italic> as an internal reference for quantitative real-time PCR analyses.</p>
+          </caption>
+          <graphic xlink:href="pone.0015528.g004"/>
+        </fig>
+        <p>GS-5 and NG-8 are two other <italic>S. mutans</italic> strains that have been characterized to some degree. To determine whether CovR-activation of SMU.1882 is unique to strain UA159, sQRT-PCR analysis was performed on <italic>S. mutans</italic> strain GS-5 and its isogenic <italic>covR</italic> mutant derivative, IBS07; the results indicate that CovR-dependent regulation of SMU.1882 is not limited to strain UA159. <xref ref-type="fig" rid="pone-0015528-g004">Fig. 4B</xref> shows that there is a 1.8 to 2.0-fold drop in expression of SMU.1882 in IBS07 relative to the wild-type GS-5. Complementation of the <italic>covR</italic> mutant with full-length <italic>covR</italic> (IBS07/pIB30), in <italic>trans</italic>, restores the expression of SMU.1882 slightly higher than the wild-type level. sQ-RT results were further confirmed by real-time RT-PCR that showed a similar reduction of SMU.1882 transcript in IBS07 as compared with GS-5 (<xref ref-type="fig" rid="pone-0015528-g004">Fig. 4C</xref>). Furthermore, inactivation of <italic>covR</italic> in <italic>S. mutans</italic> strain NG8 also indicates that CovR activates the expression of SMU.1882 in this strain (<xref ref-type="fig" rid="pone-0015528-g004">Fig. 4D</xref>). Taken together, the results suggest that CovR regulation of SMU.1882 expression is not limited to the UA159 strain alone and the degree of reduction of SMU.1882 transcript in different strains appears to be similar.</p>
+      </sec>
+      <sec id="s2f">
+        <title>CovR does not activate expression of SMU.1882 <italic>in vitro</italic></title>
+        <p><italic>In vitro</italic> transcription assays were performed to demonstrate direct activation of expression from P<italic><sub>1882</sub></italic>. A 319-bp fragment, containing the first 82-bp of SMU.1882 as well as the putative promoter elements, was PCR-amplified from the <italic>S. mutans</italic> chromosome, and used as template for the <italic>in vitro</italic> transcription run-off assays, along with a 319-bp fragment containing P<italic>ami</italic> that was amplified from pIB163 which was used as a control. To perform the reaction, <italic>E. coli</italic> RNA polymerase core enzyme was reconstituted with purified his-tagged RpoD from <italic>S. mutans</italic>. As shown in <xref ref-type="fig" rid="pone-0015528-g005">Fig. 5</xref>, addition of reconstituted RNA polymerase holoenzyme, but not the core enzyme, generated expected size bands of 193-nt and 158-nt when P<italic><sub>1882</sub></italic> and P<italic><sub>ami</sub></italic>, respectively, were used as template (lanes 2 and 7). However, the addition of CovR did not lead to any observable increase in transcription from P<italic><sub>1882</sub></italic>. The level of transcription in the reaction mixes containing purified CovR (lanes 4&#x2013;6) did not appear to be any different than the lanes that did not contain CovR (Lane 3).</p>
+        <fig id="pone-0015528-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0015528.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Effect of CovR on transcription from P<italic><sub>1882</sub></italic>.</title>
+            <p>In vitro transcription was carried out using P<italic><sub>1882</sub></italic> and P<italic><sub>ami</sub></italic> template DNA according to the protocol as described in the text. Lanes 1&#x2013;3: no CovR; lanes 4&#x2013;6: increasing concentration of CovR (1, 4, and 10 pmole, respectively). The experiments were repeated at least twice and a representative gel is shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0015528.g005"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>Many bacterial TCS activate gene expression, but CovR in GAS and GBS typically acts to repress gene expression; of the 271 genes regulated by CovR in GAS, only 26 are upregulated by CovR (during late exponential phase) <xref ref-type="bibr" rid="pone.0015528-Graham1">[17]</xref>. Our own data suggest that CovR of <italic>S. mutans</italic> predominantly functions as a repressor <xref ref-type="bibr" rid="pone.0015528-Chong1">[27]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>. However, CovR can also act as a transcriptional activator in streptococci, either directly or indirectly <xref ref-type="bibr" rid="pone.0015528-Graham1">[17]</xref>, <xref ref-type="bibr" rid="pone.0015528-Gusa1">[33]</xref>; and in the case of <italic>S. mutans</italic>, one such gene that appears to be activated by CovR is SMU.1882. The goal of this study was to elucidate the nature of the regulatory interaction between CovR and SMU.1882.</p>
+      <p>In GAS, binding of CovR to the promoter sequences of the <italic>has</italic>, <italic>covR</italic>, and <italic>dppA</italic>, under <italic>in vitro</italic> conditions, requires the presence of a consensus binding sequence (CB) ATTARA, or the near-CB ATTAAC <xref ref-type="bibr" rid="pone.0015528-Gusa1">[33]</xref>, <xref ref-type="bibr" rid="pone.0015528-Federle2">[34]</xref>, <xref ref-type="bibr" rid="pone.0015528-Gusa2">[35]</xref>. However, the importance of this sequence in the promoter regions of <italic>S. mutans</italic> genes for CovR-binding is unclear, since the ATTARA sequence is not found in the intragenic sequences of some CovR-regulated genes of <italic>S. mutans</italic> <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>. Given the high degree of similarity between CovR of GAS and <italic>S. mutans</italic>, it is surprising that the ATTARA sequence is not more prevalent in the promoter regions of <italic>S. mutans</italic> genes. A single ATTAAA sequence is found 67-bp upstream of the start codon; whether this sequence is a CB for P<italic><sub>1882</sub></italic> remains to be studied. However, mutation of the ATTARA sites of P<italic>dppA</italic> in GAS did not inhibit transcription <italic>in vivo</italic>, although the ATTARA sequences appeared to be essential under <italic>in vitro</italic> conditions <xref ref-type="bibr" rid="pone.0015528-Gusa1">[33]</xref>. As such, it is possible that the lone ATTARA site in P<italic><sub>1882</sub></italic> may not function as a CB under <italic>in vivo</italic> conditions.</p>
+      <p>In <italic>S. mutans</italic>, CovR has been shown to bind directly to five promoters, including P<italic><sub>1882</sub></italic>, to modulate gene expression <xref ref-type="bibr" rid="pone.0015528-Chong1">[27]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>, <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>. However, a consensus DNA binding sequence (CBS) motif for CovR has not been developed. In an effort to create a CBS for CovR, we have used GLAM2 <xref ref-type="bibr" rid="pone.0015528-Frith1">[36]</xref> program on the five promoter sequences that are regulated by CovR to develop an optimized position weight matrix for CovR binding. We obtained four different CBSs with overall weight score varied from 78.4 to 67.8. The CBS with the highest score and the location of the CBS on five promoter regions are shown in <xref ref-type="fig" rid="pone-0015528-g006">Fig. 6</xref>. Interestingly for one promoter, P<italic>gtfC</italic>, this CBS was present twice, one on the sense and another on the nonsense strands. However, the significance of this newly derived CBS in CovR binding needs to be verified experimentally.</p>
+      <fig id="pone-0015528-g006" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0015528.g006</object-id>
+        <label>Figure 6</label>
+        <caption>
+          <title>Potential consensus sequence for CovR binding.</title>
+          <p>(A) WebLogo representation of the position weight matrices derived from five CovR regulated promoters using GLAM2 <xref ref-type="bibr" rid="pone.0015528-Frith1">[36]</xref>. (B) The location of the consensus sequence in the promoter region of the corresponding genes.</p>
+        </caption>
+        <graphic xlink:href="pone.0015528.g006"/>
+      </fig>
+      <p>The results of the sQRT-PCR and reporter expression analyses demonstrate that CovR is required for the increased expression of P<italic><sub>1882</sub></italic> under <italic>in vivo</italic> conditions, while <italic>in vitro</italic> gel shift and DNase I protection assays show that CovR directly binds to a portion of the intragenic region upstream of SMU.1882. Taken together, the results suggested to us that CovR might play a direct role in the activation of expression of SMU.1882. However, the results of the <italic>in vitro</italic> transcription assays appear to indicate otherwise, since activation of SMU.1882 expression was not observed with the addition of purified CovR. Our results are similar to the observations made with the <italic>in vitro</italic> transcription reactions with P<italic>dppA</italic> of GAS, where CovR appeared to be required for <italic>in vivo</italic> activation of transcription of <italic>dppA,</italic> but could not activate transcription under <italic>in vitro</italic> conditions <xref ref-type="bibr" rid="pone.0015528-Gusa1">[33]</xref>. It is always possible that the <italic>in vitro</italic> transcription reaction conditions were much different than the <italic>in vivo</italic> conditions or the role of CovR may not be to directly activate transcription of SMU.1882, but to displace other proteins that may be inhibiting or silencing transcription of SMU.1882. It is possible that the RpoD (sigma factor) does not functionally interact with <italic>E. coli</italic> RNA core polymerase and thus CovR's effect is not seen in vitro. However, we believe this scenario is unlikely since several heterologous sigma factors are shown to functionally interact both in vivo and in vitro with <italic>E. coli</italic> RNA polymerase <xref ref-type="bibr" rid="pone.0015528-Surzycki1">[37]</xref>, <xref ref-type="bibr" rid="pone.0015528-Steffen1">[38]</xref>, <xref ref-type="bibr" rid="pone.0015528-Malakooti1">[39]</xref>. Thus, how CovR activates SMU.1882 expression in vivo needs to be elucidated.</p>
+      <p>There are several possibilities by which CovR can activate gene transcription. For example, CovR can acts as an anti-silencer of gene expression. Recently, in <italic>Salmonella</italic>, it has been shown that response regulator such as PhoP <xref ref-type="bibr" rid="pone.0015528-Perez1">[40]</xref> or SsrB <xref ref-type="bibr" rid="pone.0015528-Walthers1">[41]</xref> can overcome H-NS (a nucleoid-binding protein) mediated gene silencing; however, the exact molecular mechanism by which these response regulators function as anti-silencers is not yet known. However, it is conceivable that HLP, an H-NS homolog, can also silence gene expression in <italic>S. mutans</italic> and the role of CovR is to overcome the silencing effect of HLP by replacing it from the promoter. We believe this scenario is very unlikely since the binding of HLP to P<italic><sub>1882</sub></italic> is non-specific as opposed to the silenced promoters where HLP binding is specific (data not shown). Furthermore, if a repressor protein, such as HLP, binds to the intergenic region between SMU.1882 and SMU.1883, then the expression of SMU.1883 would also be affected in the <italic>covR</italic> deleted strain, which was not the case (<xref ref-type="fig" rid="pone-0015528-g002">Fig. 2A</xref>). The SMU.1883 gene encodes a component of the man-PTS system (ManO) and is highly conserved among various streptococci <xref ref-type="bibr" rid="pone.0015528-Abranches1">[32]</xref>. Because other genes of the man-PTS system are not regulated by CovR in other bacteria <xref ref-type="bibr" rid="pone.0015528-Graham1">[17]</xref>, we believe that this gene is not under the CovR regulatory pathway.</p>
+      <p>The other possibility is that CovR might work alongside other regulatory proteins in order to interactively regulate the expression of target genes, similar to RcsB response regulator of <italic>Salmonella</italic>. In this case, RcsB requires a co-activator, RcsA, for the expression of certain genes such as <italic>ugd</italic> <xref ref-type="bibr" rid="pone.0015528-Mouslim1">[42]</xref>. On the other hand, a small molecule can bind to CovR and change its conformation/oligomerization state such that CovR can act as an activator. A well-know example of a transcriptional regulator that changes its conformation upon small molecule binding is TraR of <italic>Agrobacterium tumefaciens</italic>. In this case, when the cognate autoinducer ligand binds to TraR, it changes the conformation and the oligomerization of the TraR <xref ref-type="bibr" rid="pone.0015528-Zhu1">[43]</xref>. Further experiments are required to verify whether CovR interacts with other regulatory proteins or ligands as well as to understand the molecular mechanism by which CovR activates the transcription from the SMU.1882 promoter.</p>
+      <p>At the present time, the exact physiological role of SMU.1882 is unclear. This gene appears to be found only in <italic>S. mutans</italic>, but not in other <italic>streptococci</italic>. Based on the sequence and the presence of a GG motif at the N-terminal region coupled with the fact that SMU.1882 is topologically and transcriptionally associated with an ABC transporter (ComA) strongly suggest that SMU.1882 might encode a bacteriocin related peptide. Inactivation of SMU.1882 did not produce any noticeable phenotypes when tested against five streptococcal and one lactococcal species (data not shown). Analysis of the <italic>S. mutans</italic> UA159 genome by BAGEL <xref ref-type="bibr" rid="pone.0015528-deJong1">[44]</xref> suggests that this strain encodes at least 26 putative bacteriocins. Since <italic>S. mutans</italic> resides in the dental plaque that contains over 700 different bacterial species <xref ref-type="bibr" rid="pone.0015528-Aas1">[45]</xref>, it is possible that for successful colonization and survival, <italic>S. mutans</italic> may need such a high number of bacteriocins. Although the target species remain to be identified, we believe that SMU.1882 is one of such bacteriocin that may provide a fitness advantage to <italic>S. mutans</italic> by controlling the growth of other competing species in the dental plaque.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains and growth conditions</title>
+        <p><italic>Escherichia coli</italic> strain DH5&#x3B1; was grown in Luria-Bertani (LB) medium supplemented (when necessary) with ampicillin (50 or 100 &#xB5;g/ml) or kanamycin (50 &#xB5;g/ml). <italic>S. mutans</italic> strains UA159 and GS-5, and other mutans isolates, were typically grown in Todd-Hewitt medium (BBL, Becton Dickson) supplemented with 0.2% yeast extract (THY). Growth of the <italic>S. mutans</italic> cultures was monitored using a Klett-Summerson colorimeter with a red filter.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Extraction of RNA from <italic>S. mutans</italic> strain UA159</title>
+        <p>RNA, which was used for various experiments, was isolated from cultures of <italic>S. mutans</italic> strains UA159 (and its derivatives) and GS-5 (and its derivatives), grown to mid-exponential phase (Klett unit (KU) 70), under the growth conditions specified above. The cultures were harvested <italic>via</italic> centrifugation, re-suspended and incubated in RNA protect reagent (Qiagen) at room temperature for 30 min, and then re-centrifuged to form a pellet, which was either stored overnight at &#x2212;20&#xB0;C or processed immediately for RNA extraction. RNA extraction was performed as described by Biswas <italic>et al</italic>. <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Determination of the stability of the SMU.1882 transcript of <italic>S. mutans</italic></title>
+        <p>The stability of SMU.1882 mRNA was determined using a protocol described by Biswas <italic>et al</italic>. <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>. Upon reaching the desired optical density (O.D.), the RNA polymerase inhibitor rifampin was immediately added to each culture to prevent the <italic>de novo</italic> synthesis of RNA. RNA was then collected from aliquots of <italic>S. mutans</italic> at 8 time points, during a total incubation period of 30 minutes at 37&#xB0;C. At each time point, sodium azide (final concentration: 50 mM) was added to the culture to terminate cellular processes, and then immediately placed in dry ice. RNA (4 &#xB5;g) from each time point was denatured, loaded onto a 1% agarose gel, and separated <italic>via</italic> electrophoresis for northern blot analysis. DNA probes were synthesized <italic>via</italic> PCR amplification using the primer pairs Smu1882 F3 and Smu1882 R3 (for a list of primers see <xref ref-type="table" rid="pone-0015528-t001">Table 1</xref>), with chromosomal DNA of <italic>S. mutans</italic> UA159 as template. The probes were labeled using [&#x3B1;-32P] dATP, with a DECAprimeII kit (Ambion), and added to a hybridization tube containing the transfer membrane and ULTRAhyb buffer (Ambion), followed by overnight incubation. Following hybridization, the membrane was washed according to manufacturer's instructions, dried, and exposed to a phosphorimager plate and analyzed using a Typhoon phosphorimager (Molecular Dynamics).</p>
+        <table-wrap id="pone-0015528-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0015528.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Primers used in the analysis.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0015528-t001-1" xlink:href="pone.0015528.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Primer</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence</td>
+                  <td align="left" rowspan="1" colspan="1">Function</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NlmA-PF</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAAACAGCAAAAAGTAATCT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">P<italic>nlmA</italic> amplification</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NlmA-PR</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCGCATATGATAAACACCCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">P<italic>nlmA</italic> amplification</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882F1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCGCGGATCCTGAATAAATATATTTTATTATATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GusA assay, EMSA, DAP</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882R1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCGCCTCAGACAGCTTATTCAAACTTGTAGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GusA assay, EMSA, DAP</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882F2</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CAGCTATACTGCTGAGGCTCCCTAGATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>In vitro</italic> transcription</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882R2</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAGCTTTAAAATCTTCAAACGCTTGAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Linkage analysis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1881cR1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CTGAAACTACAGTCAAAAGAAGATAAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Linkage analysis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882F3</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCTGTCTTATACGACAGGTGGAGCTACTG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Southern, northern, sqRT-PCR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882R3</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CCACCTGTCGTATTACTTGAACTACTGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Southern, northern, sqRT-PCR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882F4</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCAGTAGTTCAAGTAATACGACAGGTGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Linkage analysis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1882R5</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CACCATCAGTAGCTCCACCTGTCGTAT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>In vitro</italic> transcription</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1883crevF1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CGCCAAGAAGAAATTTTCCCACTTTGCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Linkage analysis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1883crevR1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGAGCCAATGTCAATCGGAAAAAGGTCAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Linkage analysis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu1884cF1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGTCAGACACCTTATTCTTAAATTGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Linkage analysis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">PJRS F</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAAGGCTATTGGTGTTTATGGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">P<italic>ami</italic> amplification</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">PJRS R</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TACAATTGTCATCACCATTCTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">P<italic>ami</italic> amplification</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu-Nco-RpoD-F</td>
+                  <td align="left" rowspan="1" colspan="1">GGGCCATGGTAAATAATAAGAAAAAAACAT-CAAG</td>
+                  <td align="left" rowspan="1" colspan="1">RpoD expression</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Smu-Xho-RpoD-R</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCGCTCGAGATCTTCAACAAAATCACGTAACTGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">RpoD expression</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s4d">
+        <title>Semiquantitative and real-time RT-PCR analyses</title>
+        <p>Semi-quantitative (sq) RT-PCR was used to quantify the level of expression of various genes in UA159 and GS-5, along with the respective <italic>covR</italic> mutant strains. The <italic>S. mutans</italic> cultures were grown to mid-exponential phase (KU70), followed by RNA extraction. sqRT-PCR was performed as previously described <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref> using the Titan one-tube RT PCR system (Roche). The <italic>gyrA</italic> gene was included as control to ensure that equivalent amounts of RNA were being used for each reaction. For real-time RT-PCR, cDNA was prepared from samples as described above. cDNA levels were quantified in 7500 Fast real-time PCR machine (Applied Biosystems). The reactions were performed in 20 &#xB5;l final volume, consisting of 1X Fast SYBR Green Master Mix (Applied Biosystems) and 0.5 &#xB5;M of each sense and antisense primer pair. For every primer pair, four different cDNA concentrations were analysed in duplicate. Cycling conditions were as follows: 95&#xB0;C for 1 min, followed by 40 cycles of 95&#xB0;C for 15 s and 60&#xB0;C for 1 min with fluorescent measurement at the end of each cycle and one dissociation step of 95&#xB0;C for 15 s, 60&#xB0;C for 30 s and 95&#xB0;C for 15 s. <italic>gyrA</italic> housekeeping gene served as an internal control to normalize the expression levels between samples. No template controls were included in all real-time PCR reactions. Standard curves were plotted (GraphPad Prism) for all three samples using log input dilution series of K-DNA templates against cycle threshold values (Ct) of the performed qPCR. Slopes and R<sup>2</sup> values were obtained and were used to calculate real time PCR reaction efficiencies [E&#x200A;=&#x200A;10&#x302;<sup>(&#x2212;1/slope)</sup>]. The relative expression levels were calculated according to the method developed by Pfaffl <xref ref-type="bibr" rid="pone.0015528-Pfaffl1">[46]</xref>. GraphPad prism software was employed to analyze the experimental data. The data are presented as mean value +/&#x2212; SD.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Construction of CovR deleted strains</title>
+        <p>To create a <italic>covR</italic>-deleted strain, we used pIB10 <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref> that contains a 1.7-kb fragment containing the entire <italic>covR</italic> gene with flanking regions. A Km resistant cassette with flanking modified <italic>loxP</italic> sites, was amplified from pUC4&#x3A9;Km2 <xref ref-type="bibr" rid="pone.0015528-PerezCasal1">[47]</xref> using the primers lox71-Km-F and lox66-Km-R <xref ref-type="bibr" rid="pone.0015528-Banerjee1">[48]</xref> and cloned into the <italic>Bse</italic>RI -<italic>Nru</italic>I digested and T4-DNA polymerase blunted sites to generate pIB-601. Plasmid pIB-601 was linearized with <italic>Eco</italic>RI and transformed into <italic>S. mutans</italic> UA159 as previously described <xref ref-type="bibr" rid="pone.0015528-Banerjee1">[48]</xref>. Transformants were selected on THY plates containing Km; one such transformant was named IBS-601. To eliminate the <italic>lox</italic>P-Km<sup>r</sup> cassette from the chromosome, IBS-601 was transformed with pCrePA <xref ref-type="bibr" rid="pone.0015528-Banerjee1">[48]</xref>, which expresses the <italic>cre</italic> recombinase gene from a temperature-sensitive replicon (pWV01). Subsequently, Em<sup>r</sup> and Km<sup>s</sup> colonies were selected; those colonies contain pCrePA and lost the Km resistance gene from the chromosome. Subsequently, pCrePA plasmid was cured as described previously to generate IBS-603, which contains a markerless <italic>covR</italic> deletion.</p>
+        <p>To generate <italic>covR</italic> deletion construct in GS-5 and NG-8, plasmid pIB26 <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref> was used that contains a spectinomycin resistant gene inserted in the middle of the <italic>covR</italic> gene. This plasmid was linearized with <italic>Not</italic>I and used for <italic>S. mutans</italic> transformation.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Construction of P<italic><sub>1882</sub></italic>-<italic>gusA</italic> reporter strains and quantification of transcription from P<italic><sub>1882</sub></italic></title>
+        <p>To quantify transcription from P<italic><sub>1882</sub></italic> from <italic>S. mutans</italic> UA159, a reporter strain was constructed by cloning the putative promoter region of SMU.1882 into plasmid pIB107 <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>, which contains a promoterless <italic>gusA</italic> gene. The putative P<italic><sub>1882</sub></italic> region was amplified from <italic>S. mutans</italic> chromosomal DNA using primers Smu1882 F1 and Smu1882 R1, which contain <italic>Bam</italic>HI and <italic>Xho</italic>I sites, respectively (<xref ref-type="table" rid="pone-0015528-t001">Table 1</xref>). This fragment was digested using <italic>BamH</italic>I and <italic>Xho</italic>I, and cloned into <italic>BamH</italic>I-<italic>Xho</italic>I-digested pIB107 <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref> to yield plasmid pIB602, which was then transformed into <italic>E. coli</italic> DH5&#x3B1;. Plasmid pIB602 was purified from overnight grown cultures of <italic>E. coli</italic> DH5&#x3B1;, linearized with <italic>Bgl</italic>I, and used for the transformation of <italic>S. mutans</italic> strains UA159 (wild-type), IBS603 (&#x394;<italic>covR</italic>), and IBS603/pIB30 (&#x394;<italic>covR</italic>, complemented with wild-type <italic>covR</italic> in <italic>trans</italic>) to generate the reporter strains IBS602, IBS606, and IBS606/pIB30, respectively. The reporter strains were grown to mid-exponential phase (KU70) in THY broth containing Em to maintain the complementing plasmid. The cells were harvested <italic>via</italic> centrifugation and lysed for &#x3B2;-glucuronidase (GusA) assays, as described by Biswas <italic>et al</italic>. <xref ref-type="bibr" rid="pone.0015528-Biswas2">[29]</xref>.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Electrophoretic mobility shift assay (EMSA) and DNase I protection assay (DPA)</title>
+        <p>EMSA and DPA were used to demonstrate binding of CovR to P<italic><sub>1882</sub></italic>. Primer Smu1882 F1 was labeled with &#x3B3;<sup>32</sup>-ATP and, along with Smu1882 R1, was used to PCR amplify a DNA fragment containing P<italic><sub>1882</sub></italic>, with a radiolabel at the 5&#x2032;-end of the fragment. Each fragment was incubated with various concentrations of 6XHis-tagged CovR protein in binding buffer (final volume - 50 &#xB5;l) as described by Biswas <italic>et al</italic>. <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>. Following 40&#x2013;45 minutes incubation, at ambient room temperature, 10 &#xB5;l of the nucleo-protein mix was loaded onto a 4% (29&#x2236;1) native PAGE gel, buffered with 0.5X TBE buffer, pH 8.0. The loaded PAGE was then electrophoresed at room temperature, in the same buffer for 2 hours, 80 V. The gel was then dried and exposed to phosphorimager plate and developed using a Typhoon phosphorimager.</p>
+        <p>DPA was performed using the same P<italic><sub>1882</sub></italic> fragment with or without CovR. Reactions were prepared similarly to EMSA and after 40 min incubation, the mixtures were treated with a dilute DNase I solution (Epicentre) for 5 minutes, as described previously <xref ref-type="bibr" rid="pone.0015528-Biswas3">[30]</xref>. The samples were denatured and loaded onto an 8% denaturing PAGE gel containing urea and buffered with 1X TBE for electrophoresis. The gel was then dried and exposed to a phosphorimager plate.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Purification of His-RpoD</title>
+        <p>To synthesize His-RpoD, an 1127-bp DNA fragment, containing the entire <italic>rpoD</italic> gene without its stop codon, was PCR amplified from chromosomal DNA of <italic>S. mutans</italic> UA159, using the primer pair Smu-Nco-RpoD-F and Smu-Xho-RpoD-R. The DNA fragment was digested with <italic>Xho</italic>I and <italic>Nco</italic>I, and cloned into <italic>Xho</italic>I/<italic>Nco</italic>I-digested pET23D (Novagen), generating pIB611. Plasmid pIB611 was then transformed into <italic>E. coli</italic> BL21 DE3 pLysS. His-RopD was purified on Ni NTA column (Qiagen) following manufacturer's protocol and the purified protein was dialyzed against buffer B.</p>
+      </sec>
+      <sec id="s4i">
+        <title><italic>In vitro</italic> transcription (IVT) assay</title>
+        <p>A DNA fragment containing P<italic><sub>1882</sub></italic> was amplified from UA159 genomic DNA by PCR using the primer pair: smu1882-F2 and smu1882- R5. Similarly, the promoter P<italic><sub>ami</sub></italic>, which was originally isolated from a <italic>Streptococcus pneumoniae</italic> gene that encodes amidase, was amplified from pIB163 <xref ref-type="bibr" rid="pone.0015528-Biswas4">[49]</xref>using the primer pair: PJRS-F and PJRS-R. <italic>In vitro</italic> transcription assay was carried out with the desired templates in reaction buffer containing 50 mM Tris-Cl (pH 7.5), 150 mM NaCl, 2 mM MgCl2, 0.1 mM EDTA, and 0.1 mM DTT in 20 &#xB5;l volume. CovR (1&#x2013;10 pmol) was preincubated in the reaction buffer along with the template DNAs for 20 min at room temperature. After incubation, 500 &#xB5;M each (final conc.) of ATP, CTP, GTP, and 50 &#xB5;M UTP with 1.0 &#xB5;Ci of [&#x3B1;-<sup>32</sup>P] UTP [&#x223C;9000 Ci/mmol] were added to the reaction mixture. To initiate transcription, 0.25 U E. coli core RNA polymerase (Epicentre), RpoD (1.0 &#xB5;g), and RNase inhibitor (40 U, Promega). After the incubation at 37&#xB0;C for 15 min, samples were resolved by electrophoresis in a 4% urea gel. Transcripts were quantitated by densitometry with the ImageQuant software (GE Healthcare) by exposing the dried gel on a phosphorimager plate.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Saswati Biswas for some strain constructions.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This study was made possible by a National Institute of Dental and Craniofacial Research (NIDCR) grant (DE016686) to IB. The funding agency had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0015528-Loesche1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loesche</surname>
+              <given-names>WJ</given-names>
+            </name>
+          </person-group>
+          <year>1986</year>
+          <article-title>Role of <italic>Streptococcus mutans</italic> in human dental decay.</article-title>
+          <source>Microbiol Rev</source>
+          <volume>50</volume>
+          <fpage>353</fpage>
+          <lpage>380</lpage>
+          <pub-id pub-id-type="pmid">3540569</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Hamada1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamada</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Slade</surname>
+              <given-names>HD</given-names>
+            </name>
+          </person-group>
+          <year>1980</year>
+          <article-title>Biology, immunology, and cariogenicity of <italic>Streptococcus mutans.</italic></article-title>
+          <source>Microbiol Rev</source>
+          <volume>44</volume>
+          <fpage>331</fpage>
+          <lpage>384</lpage>
+          <pub-id pub-id-type="pmid">6446023</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Peterson1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peterson</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>The World Oral Health Report 2003.</article-title>
+          <source>Geneva</source>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Kaste1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaste</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Selwitz</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Oldakowski</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Brunelle</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Winn</surname>
+              <given-names>DM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1996</year>
+          <article-title>Coronal caries in the primary and permanent dentition of children and adolescents 1-17 years of age: United States, 1988-1991.</article-title>
+          <source>J Dent Res</source>
+          <volume>75</volume>
+          <issue>Spec No</issue>
+          <fpage>631</fpage>
+          <lpage>641</lpage>
+          <pub-id pub-id-type="pmid">8594087</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Pitts1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pitts</surname>
+              <given-names>NB</given-names>
+            </name>
+            <name>
+              <surname>Chestnutt</surname>
+              <given-names>IG</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Chadwick</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2006</year>
+          <article-title>The dentinal caries experience of children in the United Kingdom, 2003.</article-title>
+          <source>Br Dent J</source>
+          <volume>200</volume>
+          <fpage>313</fpage>
+          <lpage>320</lpage>
+          <pub-id pub-id-type="pmid">16568054</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Horaud1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horaud</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Delbos</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <year>1984</year>
+          <article-title>Viridans streptococci in infective endocarditis: species distribution and susceptibility to antibiotics.</article-title>
+          <source>Eur Heart J</source>
+          <volume>5</volume>
+          <issue>Suppl C</issue>
+          <fpage>39</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">6519085</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Tanzer1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanzer</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Livingston</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>The microbiology of primary dental caries in humans.</article-title>
+          <source>J Dent Educ</source>
+          <volume>65</volume>
+          <fpage>1028</fpage>
+          <lpage>1037</lpage>
+          <pub-id pub-id-type="pmid">11699974</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Nicolas1">
+        <label>8</label>
+        <mixed-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nicolas</surname>
+              <given-names>GG</given-names>
+            </name>
+            <name>
+              <surname>Lavoie</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>LaPointe</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Molecular Genetics, Genomics and Biochemistry of Mutacins: Global Science Books</article-title>
+          <fpage>193</fpage>
+          <lpage>208</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Lemos1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lemos</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Burne</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>A model of efficiency: stress tolerance by <italic>Streptococcus mutans</italic>.</article-title>
+          <source>Microbiology</source>
+          <volume>154</volume>
+          <fpage>3247</fpage>
+          <lpage>3255</lpage>
+          <pub-id pub-id-type="pmid">18957579</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Stock1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stock</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>VL</given-names>
+            </name>
+            <name>
+              <surname>Goudreau</surname>
+              <given-names>PN</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Two-component signal transduction.</article-title>
+          <source>Annu Rev Biochem</source>
+          <volume>69</volume>
+          <fpage>183</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="pmid">10966457</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Dalton1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dalton</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>CovS inactivates CovR and is required for growth under conditions of general stress in <italic>Streptococcus pyogenes</italic>.</article-title>
+          <source>J Bacteriol</source>
+          <volume>186</volume>
+          <fpage>3928</fpage>
+          <lpage>3937</lpage>
+          <pub-id pub-id-type="pmid">15175307</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Engleberg1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engleberg</surname>
+              <given-names>NC</given-names>
+            </name>
+            <name>
+              <surname>Heath</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Vardaman</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>DiRita</surname>
+              <given-names>VJ</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Contribution of CsrR-regulated virulence factors to the progress and outcome of murine skin infections by <italic>Streptococcus pyogenes</italic>.</article-title>
+          <source>Infect Immun</source>
+          <volume>72</volume>
+          <fpage>623</fpage>
+          <lpage>628</lpage>
+          <pub-id pub-id-type="pmid">14742501</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Ferretti1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferretti</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>McShan</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Ajdic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Savic</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Savic</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>Complete genome sequence of an M1 strain of <italic>Streptococcus pyogenes</italic>.</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>98</volume>
+          <fpage>4658</fpage>
+          <lpage>4663</lpage>
+          <pub-id pub-id-type="pmid">11296296</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Federle1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Federle</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>McIver</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>A response regulator that represses transcription of several virulence operons in the group A streptococcus.</article-title>
+          <source>Journal of Bacteriology</source>
+          <volume>181</volume>
+          <fpage>3649</fpage>
+          <lpage>3657</lpage>
+          <pub-id pub-id-type="pmid">10368137</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Heath1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heath</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>DiRita</surname>
+              <given-names>VJ</given-names>
+            </name>
+            <name>
+              <surname>Barg</surname>
+              <given-names>NL</given-names>
+            </name>
+            <name>
+              <surname>Engleberg</surname>
+              <given-names>NC</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>A two-component regulatory system, CsrR-CsrS, represses expression of three <italic>Streptococcus pyogenes</italic> virulence factors, hyaluronic acid capsule, streptolysin S, and pyrogenic exotoxin B.</article-title>
+          <source>Infection and Immunity</source>
+          <volume>67</volume>
+          <fpage>5298</fpage>
+          <lpage>5305</lpage>
+          <pub-id pub-id-type="pmid">10496909</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Levin1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levin</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Wessels</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Identification of <italic>csrR</italic>/<italic>csrS</italic>, a genetic locus that regulates hyaluronic acid capsule synthesis in group A Streptococcus.</article-title>
+          <source>Molecular Microbiology</source>
+          <volume>30</volume>
+          <fpage>209</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="pmid">9786197</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Graham1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graham</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Smoot</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Migliaccio</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Virtaneva</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sturdevant</surname>
+              <given-names>DE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Virulence control in group A Streptococcus by a two-component gene regulatory system: global expression profiling and in vivo infection modeling.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>99</volume>
+          <fpage>13855</fpage>
+          <lpage>13860</lpage>
+          <pub-id pub-id-type="pmid">12370433</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Churchward1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Churchward</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>The two faces of Janus: virulence gene regulation by CovR/S in group A streptococci.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>64</volume>
+          <fpage>34</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="pmid">17376070</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Dalton2">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dalton</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Hobb</surname>
+              <given-names>RI</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Analysis of the role of CovR and CovS in the dissemination of <italic>Streptococcus pyogenes</italic> in invasive skin disease.</article-title>
+          <source>Microb Pathog</source>
+          <volume>40</volume>
+          <fpage>221</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">16542816</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Sumby1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sumby</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Whitney</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Graviss</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>DeLeo</surname>
+              <given-names>FR</given-names>
+            </name>
+            <name>
+              <surname>Musser</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Genome-wide analysis of group a streptococci reveals a mutation that modulates global phenotype and disease specificity.</article-title>
+          <source>PLoS Pathog</source>
+          <volume>2</volume>
+          <fpage>e5</fpage>
+          <pub-id pub-id-type="pmid">16446783</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Steiner1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steiner</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Malke</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Dual control of streptokinase and streptolysin S production by the <italic>covRS</italic> and <italic>fasCAX</italic> two-component regulators in <italic>Streptococcus dysgalactiae</italic> subsp. <italic>equisimilis</italic>.</article-title>
+          <source>Infect Immun</source>
+          <volume>70</volume>
+          <fpage>3627</fpage>
+          <lpage>3636</lpage>
+          <pub-id pub-id-type="pmid">12065504</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Lamy1">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lamy</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Zouine</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Fert</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vergassola</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Couve</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>CovS/CovR of group B streptococcus: a two-component global regulatory system involved in virulence.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>54</volume>
+          <fpage>1250</fpage>
+          <lpage>1268</lpage>
+          <pub-id pub-id-type="pmid">15554966</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Jiang1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Cieslewicz</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Kasper</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Wessels</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Regulation of virulence by a two-component system in group B streptococcus.</article-title>
+          <source>J Bacteriol</source>
+          <volume>187</volume>
+          <fpage>1105</fpage>
+          <lpage>1113</lpage>
+          <pub-id pub-id-type="pmid">15659687</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Ajdic1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ajdic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>McShan</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>McLaughlin</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Savic</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title>Genome sequence of <italic>Streptococcus mutans</italic> UA159, a cariogenic dental pathogen.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>99</volume>
+          <fpage>14434</fpage>
+          <lpage>14439</lpage>
+          <pub-id pub-id-type="pmid">12397186</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Biswas1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biswas</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Drake</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Erkina</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Biswas</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Involvement of sensor kinases in the stress tolerance response of <italic>Streptococcus mutans</italic>.</article-title>
+          <source>J Bacteriol</source>
+          <volume>190</volume>
+          <fpage>68</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="pmid">17965153</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Sato1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kizaki</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Construction of region-specific partial duplication mutants (merodiploid mutants) to identify the regulatory gene for the glucan-binding protein C gene in vivo in <italic>Streptococcus mutans</italic>.</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <volume>186</volume>
+          <fpage>187</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="pmid">10802169</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Chong1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chong</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Drake</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Biswas</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Modulation of <italic>covR</italic> expression in <italic>Streptococcus mutans</italic> UA159.</article-title>
+          <source>J Bacteriol</source>
+          <volume>190</volume>
+          <fpage>4478</fpage>
+          <lpage>4488</lpage>
+          <pub-id pub-id-type="pmid">18469111</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Idone1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Idone</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Brendtro</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gillespie</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kocaj</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Effect of an Orphan Response Regulator on <italic>Streptococcus mutans</italic> Sucrose-Dependent Adherence and Cariogenesis.</article-title>
+          <source>Infect Immun</source>
+          <volume>71</volume>
+          <fpage>4351</fpage>
+          <lpage>4360</lpage>
+          <pub-id pub-id-type="pmid">12874312</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Biswas2">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biswas</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Biswas</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Regulation of the glucosyltransferase (gtfBC) operon by CovR in <italic>Streptococcus mutans</italic>.</article-title>
+          <source>J Bacteriol</source>
+          <volume>188</volume>
+          <fpage>988</fpage>
+          <lpage>998</lpage>
+          <pub-id pub-id-type="pmid">16428403</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Biswas3">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biswas</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Drake</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Biswas</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Regulation of <italic>gbpC</italic> expression in <italic>Streptococcus mutans.</italic></article-title>
+          <source>J Bacteriol</source>
+          <volume>189</volume>
+          <fpage>6521</fpage>
+          <lpage>6531</lpage>
+          <pub-id pub-id-type="pmid">17616585</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Dirix1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dirix</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Monsieurs</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Marchal</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Vanderleyden</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Michiels</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Screening genomes of Gram-positive bacteria for double-glycine-motif-containing peptides.</article-title>
+          <source>Microbiology</source>
+          <volume>150</volume>
+          <fpage>1121</fpage>
+          <lpage>1126</lpage>
+          <pub-id pub-id-type="pmid">15133070</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Abranches1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abranches</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>YY</given-names>
+            </name>
+            <name>
+              <surname>Burne</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Characterization of <italic>Streptococcus mutans</italic> strains deficient in EIIAB Man of the sugar phosphotransferase system.</article-title>
+          <source>Appl Environ Microbiol</source>
+          <volume>69</volume>
+          <fpage>4760</fpage>
+          <lpage>4769</lpage>
+          <pub-id pub-id-type="pmid">12902269</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Gusa1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gusa</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Froehlich</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Desai</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Stringer</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>CovR activation of the dipeptide permease promoter (P<italic>dppA</italic>) in Group A Streptococcus.</article-title>
+          <source>J Bacteriol</source>
+          <volume>189</volume>
+          <fpage>1407</fpage>
+          <lpage>1416</lpage>
+          <pub-id pub-id-type="pmid">16997962</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Federle2">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Federle</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Identification of binding sites for the group A streptococcal global regulator CovR.</article-title>
+          <source>Molecular Microbiology</source>
+          <volume>43</volume>
+          <fpage>1161</fpage>
+          <lpage>1172</lpage>
+          <pub-id pub-id-type="pmid">11918804</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Gusa2">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gusa</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>The CovR response regulator of group A streptococcus (GAS) acts directly to repress its own promoter.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>56</volume>
+          <fpage>1195</fpage>
+          <lpage>1207</lpage>
+          <pub-id pub-id-type="pmid">15882414</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Frith1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frith</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Saunders</surname>
+              <given-names>NF</given-names>
+            </name>
+            <name>
+              <surname>Kobe</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>TL</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Discovering sequence motifs with arbitrary insertions and deletions.</article-title>
+          <source>PLoS Comput Biol</source>
+          <volume>4</volume>
+          <fpage>e1000071</fpage>
+          <pub-id pub-id-type="pmid">18437229</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Surzycki1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Surzycki</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Shellenbarger</surname>
+              <given-names>DL</given-names>
+            </name>
+          </person-group>
+          <year>1976</year>
+          <article-title>Purification and characterization of a putative sigma factor from <italic>Chalamydomonas reinhardi</italic>.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>73</volume>
+          <fpage>3961</fpage>
+          <lpage>3965</lpage>
+          <pub-id pub-id-type="pmid">792879</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Steffen1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steffen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Goyard</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ullmann</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>The <italic>Bordetella pertussis</italic> sigma subunit of RNA polymerase confers enhanced expression of <italic>fha</italic> in Escherichia coli.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>23</volume>
+          <fpage>945</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="pmid">9076731</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Malakooti1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malakooti</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ely</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Principal sigma subunit of the <italic>Caulobacter crescentus</italic> RNA polymerase.</article-title>
+          <source>J Bacteriol</source>
+          <volume>177</volume>
+          <fpage>6854</fpage>
+          <lpage>6860</lpage>
+          <pub-id pub-id-type="pmid">7592478</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Perez1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perez</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Latifi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Groisman</surname>
+              <given-names>EA</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Overcoming H-NS-mediated transcriptional silencing of horizontally acquired genes by the PhoP and SlyA proteins in <italic>Salmonella enterica</italic>.</article-title>
+          <source>J Biol Chem</source>
+          <volume>283</volume>
+          <fpage>10773</fpage>
+          <lpage>10783</lpage>
+          <pub-id pub-id-type="pmid">18270203</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Walthers1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walthers</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Carroll</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Navarre</surname>
+              <given-names>WW</given-names>
+            </name>
+            <name>
+              <surname>Libby</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>FC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2007</year>
+          <article-title>The response regulator SsrB activates expression of diverse <italic>Salmonella</italic> pathogenicity island 2 promoters and counters silencing by the nucleoid-associated protein H-NS.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>65</volume>
+          <fpage>477</fpage>
+          <lpage>493</lpage>
+          <pub-id pub-id-type="pmid">17630976</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Mouslim1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mouslim</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Latifi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Groisman</surname>
+              <given-names>EA</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Signal-dependent requirement for the co-activator protein RcsA in transcription of the RcsB-regulated <italic>ugd</italic> gene.</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>50588</fpage>
+          <lpage>50595</lpage>
+          <pub-id pub-id-type="pmid">14514676</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Zhu1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Winans</surname>
+              <given-names>SC</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>The quorum-sensing transcriptional regulator TraR requires its cognate signaling ligand for protein folding, protease resistance, and dimerization.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>98</volume>
+          <fpage>1507</fpage>
+          <lpage>1512</lpage>
+          <pub-id pub-id-type="pmid">11171981</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-deJong1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de Jong</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>van Heel</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Kok</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kuipers</surname>
+              <given-names>OP</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>BAGEL2: mining for bacteriocins in genomic data.</article-title>
+          <source>Nucleic Acids Res</source>
+          <volume>38</volume>
+          <issue>Suppl</issue>
+          <fpage>W647</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="pmid">20462861</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Aas1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aas</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Paster</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Stokes</surname>
+              <given-names>LN</given-names>
+            </name>
+            <name>
+              <surname>Olsen</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Dewhirst</surname>
+              <given-names>FE</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Defining the normal bacterial flora of the oral cavity.</article-title>
+          <source>J Clin Microbiol</source>
+          <volume>43</volume>
+          <fpage>5721</fpage>
+          <lpage>5732</lpage>
+          <pub-id pub-id-type="pmid">16272510</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Pfaffl1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfaffl</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>A new mathematical model for relative quantification in real-time RT-PCR.</article-title>
+          <source>Nucleic Acids Res</source>
+          <volume>29</volume>
+          <fpage>e45</fpage>
+          <pub-id pub-id-type="pmid">11328886</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-PerezCasal1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perez-Casal</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Caparon</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <article-title>Mry, a trans-acting positive regulator of the M protein gene of <italic>Streptococcus pyogenes</italic> with similarity to the receptor proteins of two-component regulatory systems.</article-title>
+          <source>Journal of Bacteriology</source>
+          <volume>173</volume>
+          <fpage>2617</fpage>
+          <lpage>2624</lpage>
+          <pub-id pub-id-type="pmid">1849511</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Banerjee1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banerjee</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Biswas</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Markerless multiple-gene-deletion system for <italic>Streptococcus mutans</italic>.</article-title>
+          <source>Appl Environ Microbiol</source>
+          <volume>74</volume>
+          <fpage>2037</fpage>
+          <lpage>2042</lpage>
+          <pub-id pub-id-type="pmid">18263742</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0015528-Biswas4">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biswas</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Jha</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Fromm</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Shuttle expression plasmids for genetic studies in <italic>Streptococcus mutans.</italic></article-title>
+          <source>Microbiology</source>
+          <volume>154</volume>
+          <fpage>2275</fpage>
+          <lpage>2282</lpage>
+          <pub-id pub-id-type="pmid">18667560</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

@@ -1,0 +1,1021 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23823757</article-id>
+      <article-id pub-id-type="pmc">3688865</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-08218</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0066163</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>DNA-binding proteins</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Enzymes</subject>
+              <subject>Macromolecular Assemblies</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Identification and Analysis</subject>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Identification and Analysis</subject>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Gene Expression</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacterial Pathogens</subject>
+              <subj-group>
+                <subject>Gram Positive</subject>
+                <subject>Streptococci</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Physiology</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Expression of the <italic>fim</italic> Operon Is Crucial for the Survival of <italic>Streptococcus parasanguinis</italic> FW213 within Macrophages but Not Acid Tolerance</article-title>
+        <alt-title alt-title-type="running-head">Function and Regulation of <italic>S. parasanguinis</italic> fimCBA</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Yi-Ywan M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shieh</surname>
+            <given-names>Hui-Ru</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chang</surname>
+            <given-names>Ya-Ching</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Microbiology and Immunology, College of Medicine, Chang Gung University, Tao-Yuan, Taiwan</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Graduate Institute of Biomedical Sciences, College of Medicine, Chang Gung University, Tao-Yuan, Taiwan</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>van Veen</surname>
+            <given-names>Hendrik W.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University of Cambridge, United Kingdom</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>mchen@mail.cgu.edu.tw</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: YMC HS. Performed the experiments: HS YC. Analyzed the data: YMC HS. Wrote the paper: YMC.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>6</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>6</issue>
+      <elocation-id>e66163</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>2</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Chen et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The acquisition of transition metal ions is essential for the viability and in some cases the expression of virulence genes in bacteria. The <italic>fimCBA</italic> operon of <italic>Streptococcus parasanguinis</italic> FW213 encodes a Mn<sup>2+</sup>/Fe<sup>2+</sup>-specific ATP-binding cassette transporter. FimA, a lipoprotein in the system, is essential for the development of endocarditis, presumably by binding to fibrin monolayers on the damaged heart tissue. Recent sequence analysis revealed that Spaf_0344 was homologous to <italic>Streptococcus gordonii scaR</italic>, encoding a metalloregulatory protein for the Sca Mn<sup>2+</sup>-specific transporter. Based on the homology, Spaf_0344 was designated <italic>fimR</italic>. By using various <italic>fim</italic> promoter (p<italic><sub>fim</sub></italic>) derivatives fused with a promoterless chloramphenicol acetyltransferase gene, the functions of the <italic>cis</italic>-elements of p<italic><sub>fim</sub></italic> were analyzed in the wild-type and <italic>fimR</italic>-deficient hosts. The result indicated that FimR represses the expression of p<italic><sub>fim</sub></italic> and the palindromic sequences 5&#x2032; to <italic>fimC</italic> are involved in repression of p<italic><sub>fim</sub></italic>. A direct interaction between FimR and the palindromic sequences was further confirmed by <italic>in vitro</italic> electrophoresis gel mobility shift assay and <italic>in vivo</italic> chromatin immunoprecipitation assay (ChIP)-quantitative real-time PCR (qPCR). The result of the ChIP-qPCR analysis also indicated that FimR is activated by Mn<sup>2+</sup> and, to a lesser degree, Fe<sup>2+</sup>. Functional analysis indicated that the expression of FimA in <italic>S. parasanguinis</italic> was critical for wild-type levels of survival against oxidative stress and within phagocytes, but not for acid tolerance. Taken together, in addition to acting as an adhesin (FimA), the expression of the <italic>fim</italic> operon is critical for the pathogenic capacity of <italic>S. parasanguinis</italic>.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by the National Science Council of Taiwan, grant NSC-982320-B182-031 and Chang Gung Memorial Hospital of Taiwan, grant CMRPD1B0063. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Streptococcus parasanguinis</italic> is a primary colonizer of the tooth surface and an important member of the dental plaque <xref ref-type="bibr" rid="pone.0066163-Carlsson1">[1]</xref>, <xref ref-type="bibr" rid="pone.0066163-Jenkinson1">[2]</xref>. Occasionally, <italic>S. parasanguinis</italic> and other viridians streptococci can enter the bloodstream, causing a transient bacteremia and infective endocarditis on native and prosthetic heart valves <xref ref-type="bibr" rid="pone.0066163-Baddour1">[3]</xref>, <xref ref-type="bibr" rid="pone.0066163-vanderMeer1">[4]</xref>. Although the significance of <italic>S. parasanguinis</italic> in the oral ecosystem and systemic infection is well established, thus far the only known virulence factor associated with endocarditis is FimA of the FimCBA Mn<sup>2+</sup>/Fe<sup>3+</sup> ATP-binding cassette (ABC) transporter <xref ref-type="bibr" rid="pone.0066163-Oetjen1">[5]</xref>. FimA, a member of the lipoprotein receptor antigen I (LraI) family, participates in both metal transportation <xref ref-type="bibr" rid="pone.0066163-Oetjen1">[5]</xref> and adherence to fibrin <xref ref-type="bibr" rid="pone.0066163-BurnetteCurley1">[6]</xref>. Binding to the fibrin and platelets deposited on the damaged heart tissues is critical for vegetation formation; therefore, it is proposed that FimA mediates the development of endocarditis by binding to the fibrin monolayer <xref ref-type="bibr" rid="pone.0066163-BurnetteCurley1">[6]</xref>. A FimA-deficient <italic>S. parasanguinis</italic> is avirulent in an animal model <xref ref-type="bibr" rid="pone.0066163-BurnetteCurley1">[6]</xref>. Immunization with the purified FimA protein prior to infection with <italic>S. parasanguinis</italic> FW213 also reduces the frequency and severity of infection in the rat model <xref ref-type="bibr" rid="pone.0066163-Viscount1">[7]</xref>, further confirming the impact of FimA in disease development.</p>
+      <p>Genes encoding FimCBA transporter along with <italic>tpx</italic>, encoding a thiol peroxidase, are arranged as an operon in <italic>S. parasanguinis</italic> FW213 (<italic>fimCBA-tpx</italic>) <xref ref-type="bibr" rid="pone.0066163-Fenno1">[8]</xref>. The expression of the promoter located 5&#x2032; to <italic>fimC</italic> (p<italic><sub>fim</sub></italic>), which transcribes <italic>fimCBA</italic> and <italic>tpx</italic>
+<xref ref-type="bibr" rid="pone.0066163-Oetjen1">[5]</xref>, <xref ref-type="bibr" rid="pone.0066163-Fenno1">[8]</xref>, is inhibited by 10 &#xB5;M Mn<sup>2+</sup>, but neither Fe<sup>3+</sup> nor Mg<sup>2+</sup> influences the expression <xref ref-type="bibr" rid="pone.0066163-Oetjen1">[5]</xref>. An additional constitutive promoter, p<italic><sub>tpx</sub></italic>, is located in the intergenic region between <italic>fimA</italic> and <italic>tpx</italic>
+<xref ref-type="bibr" rid="pone.0066163-Fenno1">[8]</xref>, thus the expression of <italic>tpx</italic> is initiated from both p<italic><sub>fim</sub></italic> and p<italic><sub>tpx</sub></italic>
+<xref ref-type="bibr" rid="pone.0066163-Fenno1">[8]</xref>, <xref ref-type="bibr" rid="pone.0066163-Spatafora1">[9]</xref>.</p>
+      <p>The <italic>fimCBA-tpx</italic> operon arrangement of <italic>S. parasanguinis</italic> is similar to the <italic>psa</italic> operon of <italic>Streptococcus pneumoniae</italic>, the <italic>ssa</italic> operon of <italic>Streptococcus sanguinis</italic>, and the <italic>sca</italic> operon of <italic>Streptococcus gordonii</italic>
+<xref ref-type="bibr" rid="pone.0066163-Das1">[10]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0066163-McAllister1">[12]</xref>. A homologous operon, <italic>sloABCR</italic>, is present in <italic>Streptococcus mutans</italic>
+<xref ref-type="bibr" rid="pone.0066163-Paik1">[13]</xref>. However, instead of a <italic>tpx</italic>, the last gene of the <italic>slo</italic> operon encodes a metalloregulatory protein for the Slo system, whereas the loci encoding the specific regulators of the Psa, Ssa and Sca systems are not located in the flanking region of the structural genes <xref ref-type="bibr" rid="pone.0066163-Jakubovics1">[14]</xref>, <xref ref-type="bibr" rid="pone.0066163-Kitten1">[15]</xref>. In addition, FimA, along with PsaA of the Psa system, SsaB of the Ssa system, ScaA of the Sca system, and SloC of the Slo system all play a major role in the virulence capacity of the microbes <xref ref-type="bibr" rid="pone.0066163-Das1">[10]</xref>, <xref ref-type="bibr" rid="pone.0066163-McAllister1">[12]</xref>, <xref ref-type="bibr" rid="pone.0066163-Kitten1">[15]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0066163-Sampson1">[21]</xref>.</p>
+      <p>The expression of <italic>psa</italic>, <italic>sca</italic> and <italic>slo</italic> operons is subject to the regulation of PsaR, ScaR and SloR of the Diphtheria toxin repressor (DtxR) family, respectively, in the presence of excess amounts of cognate metal ions <xref ref-type="bibr" rid="pone.0066163-Jakubovics1">[14]</xref>, <xref ref-type="bibr" rid="pone.0066163-Kloosterman1">[22]</xref>, <xref ref-type="bibr" rid="pone.0066163-Rolerson1">[23]</xref>. The consensus binding sequence of DtxR and its homologues has been determined as the key <italic>cis</italic>-regulatory element in several systems <xref ref-type="bibr" rid="pone.0066163-Kitten1">[15]</xref>, <xref ref-type="bibr" rid="pone.0066163-Tao1">[24]</xref>. The binding sequences of PsaR, ScaR and SloR all contain a palindromic sequence rich in A/T, albeit the overall lengths of the proposed operators vary among the three. Specifically, the predicted operators for PsaR <xref ref-type="bibr" rid="pone.0066163-Kloosterman1">[22]</xref> and SloR <xref ref-type="bibr" rid="pone.0066163-ORourke1">[25]</xref> contain one palindrome of an 8-nucleotide (nt) inverted repeat spaced by 6 nt (<named-content content-type="gene">AAAATTAACTTGACTTAATTTT</named-content>), whereas the proposed operator of ScaR contains an additional imperfect inverted repeat of 9 nt (<named-content content-type="gene">TGTTAAGGTATATTAATA</named-content>), with a total length of 46 nt <xref ref-type="bibr" rid="pone.0066163-Jakubovics1">[14]</xref>. Although the second inverted repeat was also observed in <italic>psa</italic> and <italic>slo</italic> promoters with a distance to the first palindrome similar to that in <italic>sca</italic> operon, the function of the second palindrome in the binding of PsaR and SloR is unknown. Both PsaR and ScaR are activated by Mn<sup>2+</sup> and additional metal ions, such as Cd<sup>2+</sup>, but not Zn<sup>2+</sup>, and it is suggested that an excess amount of Zn<sup>2+</sup> could ensure an optimal uptake of Mn<sup>2+</sup> by inactivation of PsaR and ScaR <xref ref-type="bibr" rid="pone.0066163-Jacobsen1">[26]</xref>, <xref ref-type="bibr" rid="pone.0066163-Stoll1">[27]</xref>. On the other hand, SloR is a bifunctional regulator that exerts both positive and negative regulation when Mn<sup>2+</sup> is available. SloR is a repressor if the SloR recognition element (SRE) is located within 50 bp of the transcription initiation site of the target gene. When the SREs are located further upstream, SloR acts as an activator <xref ref-type="bibr" rid="pone.0066163-ORourke1">[25]</xref>. Moreover, like many other metalloregulatory proteins, both PsaR and SloR regulate other genes in addition to the cognate metal uptake system <xref ref-type="bibr" rid="pone.0066163-Kloosterman1">[22]</xref>, <xref ref-type="bibr" rid="pone.0066163-ORourke1">[25]</xref>, confirming the critical role of the intracellular metal homeostasis in the physiology and pathogenesis.</p>
+      <p>A <italic>scaR</italic> homologue (Spaf_0344), approximately 2 kbp 3&#x2032; to the <italic>fim</italic> operon, was identified previously by chromosomal walking (ACR24649). The recent transcriptomic analysis of <italic>S. parasanguinis</italic> FW213 further confirmed the expression of Spaf_0344 <xref ref-type="bibr" rid="pone.0066163-Geng1">[28]</xref>. In this study, we investigated the regulatory function of Spaf_0344 on <italic>fim</italic> operon expression, and the impact of the regulation on the pathogenic capacity of <italic>S. parasanguinis</italic> FW213. Our results indicated that in addition to acting as an adhesin (FimA), the expression of the <italic>fim</italic> operon in <italic>S. parasanguinis</italic> is critical for the optimal capacity against oxidative stress and wild-type levels of survival within phagocytes.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Identification of <italic>fimR</italic></title>
+        <p>Sequence analysis of the 3&#x2032; flanking region of <italic>fim</italic> operon revealed two open reading frames (ORFs), Spaf_0345 and Spaf_0344, in opposite orientations (<xref ref-type="fig" rid="pone-0066163-g001">Figure 1</xref>). Both ORFs began with an ATG translation start codon and were preceded by a putative ribosomal binding site (RBS). Two putative rho-independent terminators were located at 19 bp (&#x394;G&#xB0;&#x200A;=&#x200A;&#x2212;4.7 kcal mol<sup>&#x2212;1</sup>) and 52 bp (&#x394;G&#xB0;&#x200A;=&#x200A;&#x2212;4.2 kcal mol<sup>&#x2212;1</sup>) 3&#x2032; to the stop codon of Spaf_0345, respectively. An inverted repeat (&#x394;G&#xB0;&#x200A;=&#x200A;&#x2212;1.9 kcal mol<sup>&#x2212;1</sup>) was found 33 bp 3&#x2032; to the stop codon of Spaf_0344. The deduced amino acid (aa) sequence of Spaf_0345 shares significant homology with a hypothetical protein of <italic>Streptococcus australis</italic> ATCC 700641 (HMPREF9961_1041, 74% identity) and <italic>S. sanguinis</italic> SK36 (SSA_0258, 41% identity). Additional homologues were found in <italic>S. mutans</italic> UA159 (SMU.741, 38% identity) and <italic>Streptococcus agalactiae</italic> 2603V/R (SAG0713, 35% identity). Thus far no functional analysis of Spaf_0345 is available. Of note, the expression of Spaf_0345 was evident by reverse transcription (RT)-PCR analysis, albeit the expression level of Spaf_0345 is only approximately 15% of that of <italic>dnaA</italic> in cells at mid-exponential growth phase (data not shown). Spaf_0344 shares significant homology at the deduced aa level with ScaR (65% identity) of <italic>S. gordonii</italic> CH1 (AF182402_1) and with SloR (55% identity) of <italic>S. mutans</italic> UA159 (NP_720655.1). Both ScaR and SloR belong to the DtxR family proteins, which are composed of an N-terminal helix-turn-helix (HTH) motif, followed by a metal binding and dimerization domain. Both regions are present in Spaf_0344, and the conserved His-79, Glu-83 and His-98 in the metal binding region I of DtxR <xref ref-type="bibr" rid="pone.0066163-Pennella1">[29]</xref> all were found in the corresponding locations in Spaf_0344. On the other hand, among the conserved residues in the metal binding region II of DtxR, only His-106 was found in Spaf_0344. The expression level of Spaf_0344 is comparable with that of <italic>dnaA</italic> in the exponential growth phase (data not shown). As ScaR participates in the expression regulation of <italic>S. gordonii sca</italic> operon <xref ref-type="bibr" rid="pone.0066163-Jakubovics1">[14]</xref>, an ortholog of the <italic>S. parasanguinis</italic> FW213 <italic>fim</italic> operon, Spaf_0344 was designated <italic>fimR</italic>.</p>
+        <fig id="pone-0066163-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Schematic diagram of the <italic>fim</italic> operon and its flanking regions of <italic>S.</italic>
+<italic>parasanguinis</italic> FW213.</title>
+            <p>The relative location and transcription direction of each ORF are shown. Spaf_0345 and Spaf_0344 are indicated as 0345 and <italic>fimR</italic>, respectively. The limits of the sequence present in <xref ref-type="fig" rid="pone-0066163-g002">Figure 2A</xref> are indicated by two vertical arrows. The position of the <italic>erm</italic> in strain &#x394;<italic>fimR</italic> is indicated by an inverted triangle above the gene. The putative terminators for Spaf_0345 and <italic>fimR</italic> are indicated. The sizes of Spaf_0345 and <italic>fimR</italic> in nt, predicted molecular weight in kDa and pI of the gene products are shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>FimR Negatively Regulated the Expression of p<italic><sub>fim</sub></italic></title>
+        <p>Sequence analysis reveals two inverted repeats in the intergenic region of <italic>pepO</italic> and <italic>fimC</italic> (<xref ref-type="fig" rid="pone-0066163-g002">Figure 2A</xref>), the potential targets of the DtxR-family proteins <xref ref-type="bibr" rid="pone.0066163-Jakubovics1">[14]</xref>. To analyze the impact of FimR on <italic>fim</italic> operon expression and its possible binding region, a series of p<italic><sub>fim</sub>-</italic>chloramphenicol (Cm) acetyltransferase gene (<italic>cat</italic>) fusion derivatives with different lengths of the 5&#x2032; flanking region were established in the wild-type and <italic>fimR</italic>-deficient (&#x394;<italic>fimR</italic>) <italic>S. parasanguinis</italic> as detailed in the <xref ref-type="sec" rid="s4">materials and methods</xref>. Of note, all fusions were tagged with a spectinomycin (Sp) resistance gene (<italic>spe</italic>) <xref ref-type="bibr" rid="pone.0066163-LeBlanc1">[30]</xref> at the 5&#x2032; end of the fusion. The <italic>spe</italic> cassette contains a strong terminator and is in the same transcription direction as the fusion, thus preventing any possible read through effect from the 5&#x2032; flanking region. Since regulatory proteins of DtxR family are generally activated by multiple metal ions, the promoter activity in all strains was determined in cells grown in the complex medium, Todd-Hewitt (TH) broth. A basal and unregulated Cm acetyltransferase (CAT) expression was observed in strains with the p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic> fusion (<xref ref-type="fig" rid="pone-0066163-g002">Figure 2B</xref>). With all other fusion constructs, a lower level of CAT activity was detected in the wild-type background than that in &#x394;<italic>fimR</italic> (<italic>P</italic>&lt;0.01, Student&#x2019;s <italic>t</italic> test), indicating that FimR represses the expression of p<italic><sub>fim</sub></italic>. A comparable expression level was detected in strains harboring p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic>, p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic> and p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic> fusions, indicating that all <italic>cis</italic>-elements are located within the 151-base region. As p<italic><sub>fim</sub></italic>(445 b)<italic>-cat</italic> fusion contains the longest 5&#x2032; flanking region of p<italic><sub>fim</sub></italic>, this fusion was used as the full-length p<italic><sub>fim</sub></italic> control in the following analysis. Elevated CAT activities were detected in both the wild-type FW213 and &#x394;<italic>fimR</italic> harboring the p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic> fusion, suggesting that the sequence between &#x2212;151 and &#x2212;109 contains a negative regulatory element. Further shortening the length of p<italic><sub>fim</sub></italic> by 50 bases (p<italic><sub>fim</sub></italic>[59 b]-<italic>cat</italic>) reduced the CAT expression, suggesting that the sequence from &#x2212;109 to &#x2212;59 is essential for optimal expression. <italic>Trans</italic>-complementation of <italic>fimR</italic> on pDL276 (pHR6) in strain &#x394;<italic>fimR</italic> harboring p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic> restored wild-type p<italic><sub>fim</sub></italic> expression (<xref ref-type="supplementary-material" rid="pone.0066163.s001">Figure S1</xref>). Taken together, p<italic><sub>fim</sub></italic> is negatively regulated by FimR. The different expression levels in &#x394;<italic>fimR</italic> harboring various fusions also suggest the presence of additional regulators.</p>
+        <fig id="pone-0066163-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>The regulation of FimR on p<italic><sub>fim</sub></italic> expression.</title>
+            <p>(A) The nt sequence of the 5&#x2032; flanking region of <italic>fimC</italic>. The <italic>pepO</italic> and <italic>fimC</italic> are transcribed from the opposite DNA strands, thus the sequence of <italic>pepO</italic> presented here is the noncoding strand, and the sequence of <italic>fimC</italic> is the coding strand. The transcription initiation sites (+1) of <italic>fimC</italic> and <italic>pepO</italic> are shown by a solid triangle above the sequence, and two open triangles below the sequence, respectively. The putative &#x2212;10 and &#x2212;35 sequences of p<italic><sub>fim</sub></italic> are shaded. The potential Per box is underlined. The inverted repeat sequences are shown by horizontal arrows above the sequence. The sequence of the probe used in EMSA is boxed. The limits of the deletion derivatives are indicated by the numbers. (B) The CAT activities in wild-type FW213 and &#x394;<italic>fimR</italic> harboring various p<italic><sub>fim</sub></italic>-<italic>cat</italic> fusions. All strains were grown in TH. Values shown are means and standard deviations of three independent experiments. All experiments were done in triplicate reactions and negative controls were reactions carried out in the absence of Cm.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>The Expression of p<italic><sub>fim</sub></italic> was Modulated by both Mn<sup>2+</sup> and Fe<sup>2+</sup></title>
+        <p>Previous studies by Oetjen et al. demonstrated that <italic>fimCBA</italic> encodes an uptake system for manganese and iron <xref ref-type="bibr" rid="pone.0066163-Oetjen1">[5]</xref>. However, the expression of the <italic>fim</italic> operon is repressed only by Mn<sup>2+</sup> but not Fe<sup>3+</sup>. To investigate whether Fe<sup>2+</sup> is involved in the FimR-mediated regulation, the CAT activity in the wild-type FW213 and &#x394;<italic>fimR</italic> in the presence of various amounts of Mn<sup>2+</sup> and Fe<sup>2+</sup> was determined (<xref ref-type="fig" rid="pone-0066163-g003">Figure 3</xref>). To precisely control the content of the metal ions, cells were cultivated in the chemically-defined medium FMC supplemented with various amounts of metal ions as detailed in the <xref ref-type="sec" rid="s4">materials and methods</xref>. As expected, an up regulation of p<italic><sub>fim</sub></italic> expression was consistently observed in &#x394;<italic>fimR</italic> under all conditions used, confirming the negative effect of FimR on p<italic><sub>fim</sub></italic> expression. With 50 &#xB5;M of Mn<sup>2+</sup> and/or Fe<sup>2+</sup>, the p<italic><sub>fim</sub></italic> activity in &#x394;<italic>fimR</italic> was approximately twofold higher than that in the wild-type strain, and comparable expression levels were detected among the three conditions (<xref ref-type="fig" rid="pone-0066163-g003">Figure 3</xref>, lanes II to IV), indicating that FimR is active in the presence of Mn<sup>2+</sup> or Fe<sup>2+</sup>. However, when cells were grown under limited Mn<sup>2+</sup> (0.01 &#xB5;M) and Fe<sup>2+</sup> (0.1 &#xB5;M), a further up regulation was observed in both the wild-type and &#x394;<italic>fimR</italic> hosts (<xref ref-type="fig" rid="pone-0066163-g003">Figure 3</xref>, lane I), suggesting that additional regulation modulated by the amounts of Mn<sup>2+</sup> and Fe<sup>2+</sup> also participates in the regulation. To confirm that the observed differential expression in response to Mn<sup>2+</sup> and Fe<sup>2+</sup> was driven by the promoter but not the nature of CAT, we also monitored the activity of p<italic><sub>fap1</sub></italic>, whose expression is insensitive to Mn<sup>2+</sup> and/or Fe<sup>2+</sup> contents, under various metal conditions by using a <italic>S. parasanguinis</italic> p<italic><sub>fap1</sub></italic>-<italic>cat</italic> fusion stain. A comparable CAT activity was observed in this strain under all four metal conditions (<xref ref-type="supplementary-material" rid="pone.0066163.s002">Figure S2</xref>), confirming the regulation of p<italic><sub>fim</sub></italic> in response to metal conditions.</p>
+        <fig id="pone-0066163-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Effect of Mn<sup>2+</sup> and Fe<sup>2+</sup> on p<italic><sub>fim</sub></italic> expression.</title>
+            <p>Wild-type FW213 and &#x394;<italic>fimR</italic> harboring p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic> were grown in FMC containing 0.01 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> (I), 0.01 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (II), 50 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> (III), 50 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (IV). All cultures were supplemented with 1 mM MgSO<sub>4</sub> and 1 mM CaCl<sub>2</sub>. Values are means and standard deviations of three independent experiments. Significant differences between samples were determined by two-way ANOVA using SPSS Statistic 17.0. The <italic>P</italic> values between the wild-type strain and &#x394;<italic>fimR</italic> under all four conditions are less than 0.01. <italic>P</italic> values between condition I and II are indicated in the figure. *, <italic>P</italic>&lt;0.05; **, <italic>P</italic>&lt;0.01.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>FimR Binds to p<italic><sub>fim</sub></italic> Directly</title>
+        <p>As the predicted FimR binding site overlaps with &#x2212;35 and &#x2212;10 elements of p<italic><sub>fim</sub></italic>, the reporter assay described above does not allow us to analyze directly the impact of this region in p<italic><sub>fim</sub></italic> expression. Thus, electrophoretic mobility shift assay (EMSA) was used to determine if FimR directly interacts with p<italic><sub>fim</sub></italic>. A biotin-labeled DNA fragment containing both inverted repeats 5&#x2032; to the +1 of p<italic><sub>fim</sub></italic> (<xref ref-type="fig" rid="pone-0066163-g002">Figure 2A</xref>) was incubated with increasing amounts of purified histidine-tagged FimR (His-FimR) in the presence Mn<sup>2+</sup>. Two probe-FimR complexes were evident with 40 &#xB5;M His-FimR, and the complexes with the slower mobility become clear in the reaction with 80 &#xB5;M His-FimR (<xref ref-type="fig" rid="pone-0066163-g004">Figure 4</xref>). The shift pattern remained the same in the presence of additional unlabelled <italic>tcrB</italic> fragment, indicating that FimR binds specifically to the p<italic><sub>fim</sub></italic> probe. This result also suggests the presence of two FimR binding sites on the probe.</p>
+        <fig id="pone-0066163-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>EMSA demonstrating the interaction between FimR and p<bold><italic><sub>fim</sub></italic></bold><bold>.</bold></title>
+            <p>Lanes 1 to 4 are reactions containing 0, 20, 40, and 80 &#xB5;M His-FimR, respectively; lane 5 is reaction containing 80 &#xB5;M His-FimR and unlabeled <italic>tcrB</italic>. The positions of the FimR-probe complexes are indicated by triangles.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g004"/>
+        </fig>
+        <p>To confirm the <italic>in vivo</italic> binding of FimR to p<italic><sub>fim</sub></italic>, and to determine the impact of Mn<sup>2+</sup> and Fe<sup>2+</sup> on the binding activity of FimR, chromatin immunoprecipitation (ChIP) assay-quantitative real time PCR (qPCR) with anti-FimR antibody was employed as detailed in the <xref ref-type="sec" rid="s4">materials and methods</xref>. The strongest binding of FimR to p<italic><sub>fim</sub></italic> was detected in cells grown in the presence of 50 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (<xref ref-type="fig" rid="pone-0066163-g005">Figure 5</xref>, lane IV), whereas minimal amounts of MnCl<sub>2</sub> (0.01 &#xB5;M) and FeSO<sub>4</sub> (0.1 &#xB5;M) led to the weakest binding (<xref ref-type="fig" rid="pone-0066163-g005">Figure 5</xref>, lane I). Although both Fe<sup>2+</sup> and Mn<sup>2+</sup> at 50 &#xB5;M can activate FimR, an 1.8-fold increase in the relative quantity was observed when 50 &#xB5;M Mn<sup>2+</sup> was provided in the culture medium compared to medium containing 50 &#xB5;M Fe<sup>2+</sup> (<xref ref-type="fig" rid="pone-0066163-g005">Figure 5</xref>, lanes II and III), indicating that Mn<sup>2+</sup> is more effective than Fe<sup>2+</sup> for FimR activation. Taken together, in the presence of excess amounts of Mn<sup>2+</sup> or Fe<sup>2+</sup>, FimR repressed the expression of p<italic><sub>fim</sub></italic> by directly binding to the target sequence.</p>
+        <fig id="pone-0066163-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>ChIP-qPCR demonstrating the relative quantity of p<italic><sub>fim</sub></italic> bound by FimR.</title>
+            <p>Cells were grown under 0.01 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> (I), 0.01 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (II), 50 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> (III), and 50 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (IV). The &#x394;Cq of the sample from III was used as the reference. Significant differences between samples were determined using one-way ANOVA. A significant difference (<italic>P</italic>&lt;0.05) was detected between all pairs of comparison.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2e">
+        <title>FimA is Required for <italic>S. parasanguinis</italic> Defense against Oxidative Stress</title>
+        <p>As intracellular metal homeostasis is linked closely to the oxidative stress response, the possible role of FimA and FimR regulation in avoiding oxidative challenge was examined. Generally, regulatory proteins of DtxR family modulate not only metal homeostasis but also the expression of other genes, thus a <italic>fimA</italic> and <italic>fimR</italic> double mutant strain (VT930_&#x394;<italic>fimR</italic>) was also included in the following studies to differentiate the impact of <italic>fimA</italic> and other genes regulated by FimR. The growth of all strains in the presence of paraquat, a redox-cycling compound that can cause oxidative stress by generating superoxide radical in the cytoplasm, was monitored. It was noticed that inactivation of <italic>fimA</italic> (VT930) <xref ref-type="bibr" rid="pone.0066163-Fenno2">[31]</xref> or both <italic>fimA</italic> and <italic>fimR</italic> (VT930_&#x394;<italic>fimR</italic>) enhanced the growth in TH broth, whereas <italic>fimR</italic>-deficiency alone (&#x394;<italic>fimR</italic>) led to a longer doubling time than the wild-type strain (<xref ref-type="fig" rid="pone-0066163-g006">Figure 6A</xref>). The estimated doubling time for the wild-type FW213, VT930, &#x394;<italic>fimR</italic> and VT930_&#x394;<italic>fimR</italic> in TH is 80, 50, 105 and 50 min, respectively. In the presence of 2 mM paraquat, a reduced growth rate was detected in both the wild-type FW213 and &#x394;<italic>fimR</italic>. The lag phase in &#x394;<italic>fimR</italic> was slightly shorter than that in the wild-type strain in the presence of 2 mM paraquat (<xref ref-type="fig" rid="pone-0066163-g006">Figure 6B</xref>), and the difference between these two strains was more pronounced under 4 mM paraquat (<xref ref-type="fig" rid="pone-0066163-g006">Figure 6C</xref>). On the other hand, the growth of VT930 and VT930_&#x394;<italic>fimR</italic> was severely hampered in the presence of paraquat. Thus, a functional FimCBA transport system is essential for optimal oxidative stress responses in <italic>S. parasanguinis</italic>. As VT930 and VT930_&#x394;<italic>fimR</italic> bear a similar capacity against paraquat challenge, it is concluded that the expression of <italic>fimA</italic> plays a key role in this process.</p>
+        <fig id="pone-0066163-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Growth kinetics of the wild-type <italic>S.</italic>
+<italic>parasanguinis</italic>, VT930, &#x394;<italic>fimR</italic>, and VT930_&#x394;<italic>fimR</italic> grown in TH (A), TH containing 2 mM (B) and 4 mM (C) paraquat.</title>
+            <p>A representative figure of at least three experiments under each condition is shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g006"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>FimA Enhances the Intracellular Survival of <italic>S. parasanguinis</italic> within Macrophages</title>
+        <p>Macrophages are critical for defending microbial infection, thus the impact of FimA and FimR regulation in the survival of <italic>S. parasanguinis</italic> within macrophages was analyzed. Of note, inactivation of <italic>fimA</italic> does not inhibit the uptake of the bacteria by granulocytes <xref ref-type="bibr" rid="pone.0066163-BurnetteCurley1">[6]</xref>. The intracellular survival rate of VT930 and VT930_&#x394;<italic>fimR</italic> within THP1 was less than 50% of that of wild-type FW213, whereas the survival rate of &#x394;<italic>fimR</italic> was twofold greater than that of wild-type FW213 (<xref ref-type="fig" rid="pone-0066163-g007">Figure 7A</xref>). A similar survival pattern between wild-type FW213, VT930, &#x394;<italic>fimR</italic> and VT930_&#x394;<italic>fimR</italic> was detected in RAW264.7 macrophages (<xref ref-type="fig" rid="pone-0066163-g007">Figure 7B</xref>). As the expression of <italic>fim</italic> operon was negatively regulated by FimR, and VT930 and VT930_&#x394;<italic>fimR</italic> exhibited a comparable survival rate in both macrophages used, these results indicated that the expression of FimA is critical for wild-type levels of survival within macrophages.</p>
+        <fig id="pone-0066163-g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>The survival rate of the wild-type <italic>S.</italic>
+<italic>parasanguinis</italic> (I), VT930 (II), &#x394;<italic>fimR</italic> (III), and VT930_&#x394;<italic>fimR</italic> (IV) in THP1 (A) and RAW264.7 (B).</title>
+            <p>The numbers are means and standard deviations of three independent experiments. All experiments were done with triplicate samples. Significant differences between wild-type and recombinant strains were analyzed by one-way ANOVA. ***, <italic>P</italic>&lt;0.01; **, <italic>P</italic>&lt;0.05; *, <italic>P</italic>&lt;0. 1.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g007"/>
+        </fig>
+      </sec>
+      <sec id="s2g">
+        <title>The Expression of the <italic>fim</italic> Operon is not Required for the Acid Tolerance of <italic>S. parasanguinis</italic></title>
+        <p>As oxidative stress responses are known to overlap with acid tolerance <xref ref-type="bibr" rid="pone.0066163-Kim1">[32]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0066163-BrunoBarcena1">[35]</xref>, the possible function of FimA and FimR in acid tolerance was determined by an acid killing assay. When the survival rates at pH 3 was examined, a time-dependent decline in survival rate was observed with all strains tested. Interestingly, the viability of &#x394;<italic>fimR</italic> was lower than that of the wild-type FW213, whereas inactivation of <italic>fimA</italic> or both <italic>fimA</italic> and <italic>fimR</italic> enhanced the survival at pH 3 (<xref ref-type="fig" rid="pone-0066163-g008">Figure 8</xref>). These results indicated that, opposite to the oxidative stress responses, <italic>S. parasanguinis</italic> was more sensitive to acidic challenges when the <italic>fim</italic> operon was highly expressed.</p>
+        <fig id="pone-0066163-g008" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>Acid killing assay.</title>
+            <p>The means and standard deviations for three independent samples are shown. Significant differences between the wild-type and recombinant strains at 45 min were analyzed by one-way ANOVA. **, <italic>P</italic>&lt;0.05; *, <italic>P</italic>&lt;0. 1.</p>
+          </caption>
+          <graphic xlink:href="pone.0066163.g008"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>This study set to investigate the regulation and expression of the FimCBA transport system on the pathogenic capacity of <italic>S. parasanguinis</italic> FW213. We found that the expression of the <italic>fim</italic> operon is regulated by FimR and additional <italic>trans</italic>-acting element(s), and the expression of the <italic>fim</italic> operon is critical for the oxidative stress responses and survival of <italic>S. parasanguinis</italic> against phagocytic killing. Our results also indicated that the expression of p<italic><sub>fim</sub></italic> is sensitive to both Mn<sup>2+</sup> and Fe<sup>2+</sup>. Such regulation will ensure an adequate uptake of Mn<sup>2+</sup> and Fe<sup>2+</sup> for growth and avoid potential toxicity caused by excess amounts of intracellular Fe<sup>2+</sup>. As homologues of FimR are known global regulators, it is likely that <italic>S. parasanguinis</italic> possesses a FimR regulon. However, all phenotypes of &#x394;<italic>fimR</italic> observed in this study result from up regulation of the <italic>fim</italic> operon, indicating that the intracellular homeostasis of Mn<sup>2+</sup> and Fe<sup>2+</sup> is critical for the described phenotypes.</p>
+      <p>That metal uptake systems are regulated by multiple regulators is not unique to the <italic>S. parasanguinis</italic> FimCBA system. For instance, the expression of the <italic>mtsABC</italic> of <italic>Streptococcus pyogenes</italic>, encoding an ABC transporter for Mn<sup>2+</sup> (mainly) and Fe<sup>3+</sup>, is regulated by both MtsR and PerR <xref ref-type="bibr" rid="pone.0066163-Hanks1">[36]</xref>. Both MtsA and FimA belong to the LraI family <xref ref-type="bibr" rid="pone.0066163-Janulczyk1">[37]</xref>, and MtsR, a member of the DtxR family proteins, represses the expression of <italic>mtsABC</italic> in response to Mn<sup>2+</sup>. PerR, a paralogue of Fur, generally acts as a metal-dependent and oxidative-responsive repressor. However, PerR positively regulates the expression of <italic>mtsABC</italic> unresponsive to Mn<sup>2+</sup>, Fe<sup>3+</sup>, and Zn<sup>2+</sup> in <italic>S. pyogenes</italic>
+<xref ref-type="bibr" rid="pone.0066163-Hanks1">[36]</xref>, <xref ref-type="bibr" rid="pone.0066163-Ricci1">[38]</xref>. Sequencing analysis of the 5&#x2032; flanking region of <italic>S. parasanguinis fimC</italic> revealed a putative Per box located at &#x2212;71 to &#x2212;57 of p<italic><sub>fim</sub></italic> (<xref ref-type="fig" rid="pone-0066163-g002">Figure 2A</xref>). This motif differs from the consensus sequence (TTANAATNATTNTAA) derived from <italic>Bacillus subtilis</italic> and <italic>S. pyogenes</italic>
+<xref ref-type="bibr" rid="pone.0066163-Brenot1">[39]</xref> by 3 bases (<xref ref-type="fig" rid="pone-0066163-g002">Figure 2A</xref>). Furthermore, the BlastX search result found that Spaf_616 encodes a Fur family transcriptional regulator that shares 83% identity with the PerR of <italic>S. pyogenes</italic> MGAS6180 (AAX71273). As a positive effect on expression was detected between &#x2212;109 to &#x2212;59 of p<italic><sub>fim</sub></italic>, it is possible that the expression of the <italic>fim</italic> operon in <italic>S. parasanguinis</italic> is positively regulated by Spaf_616. Unfortunately, multiple tries failed to generate a Spaf_616 mutant, thus the possible involvement of Spaf_616 in <italic>fim</italic> operon expression remains unknown.</p>
+      <p>It is peculiar that the highest p<italic><sub>fim</sub></italic> activity was detected in strain p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic>, whereas both extending and reducing the promoter by 42 b (p<italic><sub>fim</sub></italic>[151 b]-<italic>cat</italic>) and 50 b (p<italic><sub>fim</sub></italic>[59 b]-<italic>cat</italic>), respectively, reduced the promoter activity (<xref ref-type="fig" rid="pone-0066163-g002">Figure 2C</xref>). Further sequence analysis revealed a putative catabolite responsive element (<italic>cre</italic>) (<named-content content-type="gene">TGTAAACGTACCAT</named-content>), the binding sequence of the catabolic control protein A (CcpA), located at &#x2212;146 to &#x2212;133 of p<italic><sub>fim</sub></italic>. This motif is only 2 bases different from the proposed <italic>cre</italic> of <italic>S. pyogenes</italic> (TGWAANSBHTWHHW) <xref ref-type="bibr" rid="pone.0066163-Kinkel1">[40]</xref>. Interestingly, inactivation of <italic>ccpA</italic> led to a higher CAT activity in FW213 harboring p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic>. However, the increase in CAT activity was also detected in strains p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic> and p<italic><sub>fim</sub></italic>(59 b)-<italic>cat</italic> (data not shown), indicating that the predicted <italic>cre</italic> is not involved in the regulation and CcpA modulates p<italic><sub>fim</sub></italic> expression indirectly. As the FimCBA transport system also transports iron, presumably the CcpA-mediated repression of p<italic><sub>fim</sub></italic> could provide an additional control of the intracellular iron and subsequently reduce the oxidative damage resulting from the Fenton reaction. The link between metabolism and oxidative stress response via the regulation of CcpA has been reported in <italic>Lactococcus lactis</italic>
+<xref ref-type="bibr" rid="pone.0066163-Gaudu1">[41]</xref>. CcpA activates the expression of FhuR, the repressor for the haem uptake system FhuBGD, and thus prevents oxidative damage caused by excess amounts of intracellular iron at the onset of exponential growth in <italic>L. lactis</italic>
+<xref ref-type="bibr" rid="pone.0066163-Gaudu1">[41]</xref>. Of note, no potential <italic>cre</italic> was detected in the 5&#x2032; flanking region of <italic>fimR</italic>, thus, the function of CcpA on p<italic><sub>fim</sub></italic> remains unclear.</p>
+      <p>The intracellular manganese and zinc homeostasis are co-regulated by PsaR and AdcR in <italic>S. pneumoniae</italic>
+<xref ref-type="bibr" rid="pone.0066163-Jacobsen1">[26]</xref>. AdcR is the repressor of the AdcCBA Zn<sup>2+</sup> ABC transporter that represses the expression of <italic>adcCBA</italic> in the presence of excess amounts of Zn<sup>2+</sup>
+<xref ref-type="bibr" rid="pone.0066163-ReyesCaballero1">[42]</xref>. Excess amounts of intracellular Zn<sup>2+</sup> resulted from <italic>adcR</italic>-deficiency can compete with Mn<sup>2+</sup> in binding to PsaR, albeit at a lower efficiency, and subsequently derepress <italic>psa</italic> operon <xref ref-type="bibr" rid="pone.0066163-Jacobsen1">[26]</xref>. An <italic>adcRCBA</italic> homologue is present in the genome of <italic>S. parasanguinis</italic> FW213. However, in contrast to the regulation in <italic>S. pneumoniae</italic>, inactivation of <italic>adcR</italic> with a non-polar <italic>erm</italic> lowered p<italic><sub>fim</sub></italic> expression in <italic>S. parasanguinis</italic>, regardless the amount of Zn<sup>2+</sup> in the growth medium (data now shown), indicating that AdcR positively regulates p<italic><sub>fim</sub></italic> expression. As we did not observe any potential AdcR binding sequence in the 5&#x2032; region of <italic>fimC</italic>, nor did we detect any interaction between AdcR and p<italic><sub>fim</sub></italic> DNA fragment in EMSA (data now shown), it is more likely that AdcR binds to a yet-to-be-identified protein and regulates p<italic><sub>fim</sub></italic> indirectly.</p>
+      <p>The generation of reactive oxygen species and reactive nitrogen species by activated immune cells is essential for animal and plant innate immune defenses against invading pathogens. It has also been suggested that phagocytes control the replication of invading bacteria within phagosomes partially via the activity of <italic>n</italic>atural <italic>r</italic>esistance-<italic>a</italic>ssociated <italic>m</italic>acrophage <italic>p</italic>rotein (Nramp1), which catalyzes the efflux of divalent cations in a H<sup>+</sup>-dependent manner <xref ref-type="bibr" rid="pone.0066163-Forbes1">[43]</xref>. Mn<sup>2+</sup> is an important cofactor for several bacterial enzymes, including the Mn<sup>+</sup>-dependent superoxide dismutase (MnSOD), and enzymes participating in carbon metabolism and stringent response <xref ref-type="bibr" rid="pone.0066163-PappWallace1">[44]</xref>, therefore an elevated Mn<sup>2+</sup> uptake capacity, as seen in &#x394;<italic>fimR</italic>, will enhance the survival of <italic>S. parasanguinis</italic> within phagocytes. Although we could not rule out the possibility that additional genes/operons regulated by FimR may also contribute to the survival of <italic>S. parasanguinis</italic> within phagocytes, the impact of FimA in this process is very clear.</p>
+      <p>Studies by Bruno-B&#xE1;rcena revealed that activation of MnSOD can enhance the resistance of <italic>Streptococcus thermophilus</italic> against acid stress by reducing the frequency of the intracellular iron-mediated oxidative stress <xref ref-type="bibr" rid="pone.0066163-BrunoBarcena1">[35]</xref>. Such regulation also suggests that a low intracellular iron concentration coincides with optimal acid tolerance. As the content of iron in brain-heart-infusion-based medium is approximately 100-fold higher than that of manganese <xref ref-type="bibr" rid="pone.0066163-Jacobsen1">[26]</xref>, it is possible that inactivation of <italic>fimR</italic> could lead to an increased intracellular concentration of iron over manganese via the transportation of the FimCBA system, and subsequently enhanced Fenton reaction and reduced survival at pH 3. On the other hand, inactivation of <italic>fimA</italic> would result in a minimal amount of intracellular Mn<sup>2+</sup>/Fe<sup>2+</sup> and enhanced acid tolerance.</p>
+      <sec id="s3a">
+        <title>Conclusions</title>
+        <p>In conclusion, this study demonstrated that the expression of the <italic>fim</italic> operon in <italic>S. parasanguinis</italic> provides protection against phagocytic killing. Over expression of this system disrupts the acid survival in <italic>S. parasanguinis</italic>, presumably via an enhanced intracellular Fenton reaction. The complexity of the p<italic><sub>fim</sub></italic> regulation suggests that an optimal expression of the <italic>fim</italic> operon is critical for the survival of <italic>S. parasanguinis</italic>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacteria Strains, Plasmids, Culture Media and Growth Conditions</title>
+        <p><italic>S. parasanguinis</italic> FW213 <xref ref-type="bibr" rid="pone.0066163-Cole1">[45]</xref> and its derivatives were cultivated routinely in TH broth at 37&#xB0;C in a 10% CO<sub>2</sub> atmosphere. Where indicated, spectinomycin (Sp) at 500 &#xB5;g ml<sup>&#x2212;1</sup>, erythromycin (Em) at 5 &#xB5;g ml<sup>&#x2212;1</sup>, or kanamycin (Km) at 200 &#xB5;g ml<sup>&#x2212;1</sup> were included in the media for maintaining recombinant <italic>S. parasanguinis</italic> strains. To analyze the effects of metal ions on growth, the chemically defined medium FMC <xref ref-type="bibr" rid="pone.0066163-Terleckyj1">[46]</xref> was used with modifications. Where indicated, the FMC was treated with Chelex-100 (Sigma, United States) at 55&#xB0;C for 24 h to remove all divalent metal ions. The essential metal ions were then refurnished by the addition of 0.01 or 50 &#xB5;M MnCl<sub>2</sub>, 0.1 or 50 &#xB5;M FeSO<sub>4</sub>, 1 mM MgSO<sub>4</sub>, and 1 mM CaCl<sub>2</sub>. Recombinant <italic>E. coli</italic> strains were routinely cultured in LB broth containing ampicillin (Ap) at 100 &#xB5;g ml<sup>&#x2212;1</sup>, Km at 50 &#xB5;g ml<sup>&#x2212;1</sup>, Em at 200 &#xB5;g ml<sup>&#x2212;1</sup>, or Cm at 25 &#xB5;g ml<sup>&#x2212;1</sup> as needed. The bacterial strains and plasmids used in this study are listed in <xref ref-type="table" rid="pone-0066163-t001">Table 1</xref>.</p>
+        <table-wrap id="pone-0066163-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Bacterial strains and plasmids used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0066163-t001-1" xlink:href="pone.0066163.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strain or Plasmid</td>
+                  <td align="left" rowspan="1" colspan="1">Relevant phenotypes<sup>a</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Description</td>
+                  <td align="left" rowspan="1" colspan="1">Source</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Strains</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>S. parasanguinis</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">FW213</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Wild-type strain</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0066163-Cole1">[45]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 harboring p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p<italic><sub>fim</sub></italic>(59 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 harboring p<italic><sub>fim</sub></italic>(599 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 harboring p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 harboring p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 harboring p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 harboring p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VT930</td>
+                  <td align="left" rowspan="1" colspan="1">Km<sup>r</sup>, FimA<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">FW213 <italic>fimA</italic>::<italic>aphA3</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0066163-Fenno2">[31]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VT930_&#x394;<italic>fimR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Km<sup>r</sup>, Em<sup>r</sup>, FimA<sup>&#x2212;</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">VT930 containing a deletion in <italic>fimR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;R_p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>fimR</italic>-deletion mutant harboring p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;R_p<italic><sub>fim</sub></italic>(59 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>fimR</italic>-deletion mutant harboring p<italic><sub>fim</sub></italic>(59 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;R_p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>fimR</italic>-deletion mutant harboring p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;R_p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>fimR</italic>-deletion mutant harboring p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;R_p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>fimR</italic>-deletion mutant harboring p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;R_p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, FimR<sup>&#x2212;</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>fimR</italic>-deletion mutant harboring p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic> at <italic>tcrB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">&#x394;<italic>fimR</italic>/pHR6</td>
+                  <td align="left" rowspan="1" colspan="1">Sp<sup>r</sup>, Em<sup>r</sup>, Km<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Strain &#x394;R_p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic> harboring pHR6</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Plasmids</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pDL276</td>
+                  <td align="left" rowspan="1" colspan="1">Km<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Streptococcus-E. coli</italic> shuttle vector</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0066163-Dunny1">[52]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pGEM3Zf(+)</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">General <italic>E. coli</italic> cloning vector</td>
+                  <td align="left" rowspan="1" colspan="1">Promega</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pHR3</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup>, Sp<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">pGEM3ZF(+)/<italic>tcrB</italic>::<italic>spe-</italic>p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pHR6</td>
+                  <td align="left" rowspan="1" colspan="1">Km<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">pDL276/<italic>fimR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pQE30</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Expression vector of His-tagged proteins</td>
+                  <td align="left" rowspan="1" colspan="1">Qiagen</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pQE30/fimR</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">pQE30 harboring the coding sequence of <italic>fimR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pSU21</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">pACYC184-based <italic>E. coli</italic> cloning vector</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0066163-Bartolome1">[51]</xref>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a,r</label>
+              <p>resistance; -, deficiency.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s4b">
+        <title>General Genetic Techniques</title>
+        <p>Genomic DNA and total cellular RNA were isolated from <italic>S. parasanguinis</italic> as previously described <xref ref-type="bibr" rid="pone.0066163-Chen1">[47]</xref>, <xref ref-type="bibr" rid="pone.0066163-Chen2">[48]</xref>. Plasmid DNA was isolated from recombinant streptococcal strains by the method of Anderson and McKay <xref ref-type="bibr" rid="pone.0066163-Anderson1">[49]</xref>. Plasmid DNA was introduced into <italic>S. parasanguinis</italic> and its derivatives via electroporation as previously described <xref ref-type="bibr" rid="pone.0066163-Chen2">[48]</xref>. PCRs were carried out by using Vent&#xAE; (NEB, United States) or Blend Taq<italic>&#xAE;</italic> DNA polymerase (TOYOBO, Japan). All primers used in this study are listed in <xref ref-type="table" rid="pone-0066163-t002">Table 2</xref>.</p>
+        <table-wrap id="pone-0066163-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0066163.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Primers used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0066163-t002-2" xlink:href="pone.0066163.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Primer</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence<xref ref-type="table-fn" rid="nt102">a</xref></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimC/ASBamHI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAATCAT<underline>GGATCC</underline>GCTCCTTTACTATT</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimC/AS5025</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATGGTTGGACCCTGGATGGTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimC_5&#x2032;/S4731</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCTGTCTCAGCCCATTCCCCGTTGACG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/AS9576SmaI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AAA<underline>CCCGGG</underline>CTTCTTTGTTTGGTGTCATG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/AS10331PstI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAGTCC<underline>CTGCAG</underline>AACGAGGGATCTTT</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/AS10915SacI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCCG<underline>GAGCTC</underline>TACTCTGTTAAGCGTAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/S8023SpeI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGG<underline>ACTAGT</underline>ACCTCTTTTCTATATCTAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/S9221BamHI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CATGA<underline>GGATCC</underline>TCAACAAGTCTTGGGC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/S9761SmaI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AAA<underline>CCCGGG</underline>TCTCTGATCTCTACCG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/MSSacI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAGAAAAGAG<underline>GAGCTC</underline>ATGACACC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fimR/stopASPstI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAAGCATGCA<underline>CTGCAG</underline>TTAGACTGCA</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pDS-1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ATCAAGTCCATAAAACCAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pDS-2</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CATCTTGTAAACGTACCATGATC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pDS-3</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CTAATAACCTTATCAAAAATAGGAAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pDS-4</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATCTAAATTATTTTATAAATTAACTTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pDS-5</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTGACTTAATTTTTTTATTTATGTATATTA</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pepO/AS320SacI</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GTACC<underline>GAGCTC</underline>GCTGGTATAGTCTT</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pfimbox/AS</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTACTATTAATATACATAAATAAAAAAATTAAGTCAAGTTAATTTATAAAATA</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pfimbox/S</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTTTATAAATTAACTTGACTTAATTTTTTTATTTATGTATATTAATAGTAA</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spe/AS</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCAACTGCAGATTGTTTTCTAAAATCTGATT</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">tcrB/AS</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CTATTTCTAAGGCTTGGCGG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">tcrB/S</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGGCGATGAAGTAATCGGGG</named-content>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt102">
+              <label>a</label>
+              <p>inserted restriction recognition sites are underlined.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s4c">
+        <title>Construction of the Recombination <italic>S. parasanguinis</italic> p<italic><sub>fim</sub>-cat</italic> Fusion Strain and its Deletion Derivatives</title>
+        <p>The p<italic><sub>fim</sub></italic> fragment, containing the 445 bp 5&#x2032; to the transcription initiation site (+1) of p<italic><sub>fim</sub></italic> and the region from +1 to the translation start codon of <italic>fimC</italic> (p<italic><sub>fim</sub></italic>[445 b]), was amplified from <italic>S. parasanguinis</italic> by PCR using primer pair pepO/AS320SacI and fimC/ASBamHI. A <italic>Sac</italic>I and a <italic>Bam</italic>HI recognition site were incorporated in the two primers, respectively, to facilitate the cloning. The promoter region was subsequently ligated to the 5&#x2032; end of a promoterless <italic>cat</italic> from <italic>Staphylococcus aureus</italic> pC194 <xref ref-type="bibr" rid="pone.0066163-Horinouchi1">[50]</xref>. The p<italic><sub>fim</sub></italic>(445 b)<italic>-cat</italic> fusion was confirmed by sequencing analysis, and a <italic>spe</italic> cassette was subsequently cloned into the 5&#x2032; end of the correct fusion. To facilitate the integration into FW213 chromosome, an internal fragment of <italic>tcrB</italic>, encoding a copper-(or silver)-translocating P-type ATPase, was amplified by PCR with primers tcrB/S and tcrB/AS, and subsequently cloned into pGEM3Zf(+). The <italic>spe</italic>-p<italic><sub>fim</sub>-cat</italic> fusion was then cloned into the <italic>Eco</italic>RV site within <italic>tcrB</italic> to generate pHR3. To generate p<italic><sub>fim</sub></italic> deletion derivatives, an inverse PCR approach was employed by using pHR3 as the template. Briefly, five sense primers, pDS-1, 2, 3, 4, and 5, starting at 239, 151, 109, 59 and 33 bases 5&#x2032; to the +1 of p<italic><sub>fim</sub></italic>, were paired with an antisense primer, spe/AS, and used in inverse PCRs. The PCR products were subsequently self-ligated and established in <italic>E. coli</italic>. The identity of each clone was confirmed by sequencing analysis. Plasmid pHR3 and the 5 derivatives were introduced into <italic>S. parasanguinis</italic>, and the correct double-crossover recombination event at the <italic>tcrB</italic> locus was verified by colony PCR using a <italic>tcrB</italic>-specific primer pair. The resulting recombinant strains were designated p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic>, p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic>, p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic>, p<italic><sub>fim</sub></italic>(59 b)-<italic>cat</italic> and p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic>, respectively.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Construction of the <italic>fimR</italic>-deficient Strain, the <italic>fimR</italic>-<italic>fimA</italic> Double Deficient Mutant and Complementation of <italic>fimR</italic>-deficiency</title>
+        <p>A 2.9-kbp amplicon containing <italic>fimR</italic> and its flanking region was generated by PCR using the primer pair fimR/S8023SpeI and fimR/AS10915SacI. The PCR product was subsequently cloned into the <italic>Xba</italic>I and <italic>Sac</italic>I sites of pSU21 <xref ref-type="bibr" rid="pone.0066163-Bartolome1">[51]</xref>. The 19<sup>th</sup> to 203<sup>rd</sup> nt 3&#x2032; to the ATG start codon of <italic>fimR</italic> was deleted by inverse PCR with primers fimR/AS9576SmaI and fimR/S9761SmaI and replaced by an Em resistance gene (<italic>erm</italic>). The resulting plasmid was introduced into VT930, the wild-type p<italic><sub>fim</sub></italic>(445 b)<italic>-cat</italic> strain and its derivatives to inactivate <italic>fimR</italic> by allelic exchange. The correct inactivation was confirmed by colony PCR using a <italic>fimR</italic>-specific primer pair, and the resulting recombinant strains were designated VT930_&#x394;<italic>fimR</italic>, &#x394;R_p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic>, &#x394;R_p<italic><sub>fim</sub></italic>(239 b)-<italic>cat</italic>, &#x394;R_p<italic><sub>fim</sub></italic>(151 b)-<italic>cat</italic>, &#x394;R_p<italic><sub>fim</sub></italic>(109 b)-<italic>cat</italic>, &#x394;R_p<italic><sub>fim</sub></italic>(59 b)-<italic>cat</italic>, and &#x394;R_p<italic><sub>fim</sub></italic>(33 b)-<italic>cat</italic>, respectively. To generate a <italic>fimR</italic> complementation strain, a DNA fragment containing the intact <italic>fimR</italic>, its 5&#x2032; flanking region of 340 bp, and its 3&#x2032; flanking region of 120 bp was generated by PCR using primers fimR/S9221BamHI and fimR/AS10331PstI. The product was subsequently cloned into the <italic>E. coli</italic>-streptococcal shuttle vector, pDL276 <xref ref-type="bibr" rid="pone.0066163-Dunny1">[52]</xref>. The identity of the PCR fragment was confirmed by sequencing analysis, and the correct chimeric plasmid (pHR6) was introduced into &#x394;R_p<italic><sub>fim</sub></italic>(445 b)-<italic>cat</italic> to generate strain &#x394;<italic>fimR</italic>/pHR6. The presence of pHR6 in the complementation strain was confirmed by plasmid isolation and restriction endonuclease analysis.</p>
+      </sec>
+      <sec id="s4e">
+        <title>CAT Assay</title>
+        <p>Mid-log phase cultures (optical density at 600 nm [OD<sub>600</sub>]&#x200A;=&#x200A;0.6) grown in TH or FMC containing various amounts of metal ions were harvested, washed once with 10 mM Tris, pH 7.8, and resuspended in 2.5% of the original culture volume in the same buffer. Total protein lysates from concentrated cell suspensions were obtained as described previously <xref ref-type="bibr" rid="pone.0066163-Chen3">[53]</xref>. The protein concentration was measured by Bio-Rad protein assay (United States) and bovine serum albumin (BSA) was served as the standard. CAT activities were determined by the method of Shaw <xref ref-type="bibr" rid="pone.0066163-Shaw1">[54]</xref>, and the specific activities were calculated as nmole Cm acetylated min<sup>&#x2212;1</sup> (mg total protein) <sup>&#x2212;1</sup>.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Purification of His-FimR and Preparation of Polyclonal Antiserum</title>
+        <p>The coding region of <italic>fimR</italic> was amplified from wild-type FW213 by PCR using primers fimR/MSSacI and fimR/stopASPstI. The amplicon was digested with <italic>Sac</italic>I and <italic>Pst</italic>I, and cloned into pQE30 (Qiagen, United States) at the compatible sites to generate pQE30/fimR. The identity of pQE30/fimR was confirmed by sequencing analysis. The induction and purification of His-FimR under native conditions was carried out according to the manufacturer&#x2019;s instruction. Briefly, the <italic>E. coli</italic> strain harboring pQE30/fimR was grown to an OD<sub>600</sub> of 0.2 initially, to which IPTG was added to a final concentration of 1 mM and the culture was incubated at 37&#xB0;C for an additional hour to induce the expression of His-FimR. At the end of the induction, cells were collected, washed and lysed by French Press. His-FimR was purified from the total cell lysate by using the nickel-affinity chromatography. The bound protein was eluted with 250 mM imidazole. The identity of the purified His-FimR was further confirmed by Matrix-Assisted Laser Desorption/Ionization Time of Flight Mass Spectrometry (MALDI-TOF). For EMSA, the purified protein was dialyzed against 5 liter of buffer containing 10 mM Tris, pH 7.5, 1 mM DTT, 1 mM EDTA and 1% (v/v) glycerol, at 4&#xB0;C for 16 h prior to use. To generate polyclonal anti-FimR antiserum in rabbits (Yao-Hong Biotechnology Inc., Taiwan), the isolated protein was first separated on 12% PAGE. The region containing His-FimR was excised and then used as an antigen. The specificity and titer of the antiserum were examined by Western blot analysis (<xref ref-type="supplementary-material" rid="pone.0066163.s003">Figure S3</xref>).</p>
+      </sec>
+      <sec id="s4g">
+        <title>EMSA</title>
+        <p>Two 53-mer oligos (pfimbox/S and pfimbox/AS) containing the complementary sequences of the 13<sup>th</sup> to 65<sup>th</sup> nt 5&#x2032; to the ATG of <italic>fimC</italic> were annealed and end-labeled with biotin using Biotin 3&#x2032; end DNA labeling kit (Pierce, United States). The binding reaction between the His-FimR and p<italic><sub>fim</sub></italic> probe was carried out in the presence of 0.1 mM MnCl<sub>2</sub>, 5 mM MgCl<sub>2</sub>, 50 mM KCl, 1 mM DTT, 5% (v/v) glycerol, 10 mM Tris (pH 7.5), 250 &#xB5;g ml<sup>&#x2212;1</sup> BSA and 50 &#xB5;g ml<sup>&#x2212;1</sup> poly(dI-dC). To each 20 &#xB5;l binding reaction, 40 fmol labeled probe was used. Non-specific competition was carried out by including an internal fragment of <italic>tcrB</italic> (300 bp) without labeling in 10-fold excess in the reaction mixture. All reactions were incubated at room temperature for 20 min and then resolved on 6% native polyacrylamide gels. The DNA and protein complex was electro-transferred on to Nylon membranes, and detected by using Chemiluminescent nucleic acid detection module kit (Pierce).</p>
+      </sec>
+      <sec id="s4h">
+        <title>ChIP-qPCR</title>
+        <p>ChIP assay was performed by the method of Grainger et al. <xref ref-type="bibr" rid="pone.0066163-Grainger1">[55]</xref> with minor modifications. Briefly, the mid-exponential phase culture of <italic>S. parasanguinis</italic> FW213 in FMC supplemented with 0.01 or 50 &#xB5;M MnCl<sub>2</sub>, 0.1 or 50 &#xB5;M FeSO<sub>4</sub>, 1 mM MgSO<sub>4</sub>, and 1 mM CaCl<sub>2</sub> was cross-linked with formaldehyde, washed, and then resuspended in 1/50 of the original culture volume in the lysis buffer <xref ref-type="bibr" rid="pone.0066163-Grainger1">[55]</xref>. The cell suspensions were subjected to mechanical disruption as described above, and the cellular DNA in the clear lysate was shared by sonication to generate DNA fragments with an average size of 0.5 to 1 kbp. Prior to precipitation with the antiserum, the DNA suspension was incubated first with A/G agarose (Merck Millipore, United States), salmon sperm DNA and BSA at 4&#xB0;C for 1 h. The insoluble complexes were removed by centrifugation and an aliquot of the supernatant was used in immuoprecipitation reactions with the polyclonal anti-FimR antiserum. The negative control was carried out by using the pre-immunized rabbit serum, and the supernatant of this reaction was used as an input control. Immunoprecipitated samples were uncross-linked at 65&#xB0;C for 12 h. DNA was then purified from the samples by phenol chloroform extraction and precipitation. 1/15 of the final product was then used in the qPCR analysis. The qPCR was carried out using the Power SYBR&#xAE; Green PCR Master Mix and 7500 Fast real-time PCR system (Applied Biosystem, United States). The data were analyzed by using 7500 software v2.0.5. Each PCR reaction contains 250 nM of primers fimC/AS5025 and fimC_5&#x2032;/S4731. Thermal cycler conditions were as follows: 95&#xB0;C for 10 min followed by 40 cycles of 95&#xB0;C for 15 sec and 60&#xB0;C for 1 min. Each reaction was run in triplicates, and at least three samples were analyzed. Of note, a melting curve analysis was performed at the end of the amplification to ensure the amplification efficiency. The &#x394;Cq of each sample was normalized with pre-immunized serum control and input control. As Mn<sup>2+</sup> is a known cofactor for FimR, the &#x394;Cq derived from the sample grown in 50 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> was used as the reference. The relative quantity of each sample was calculated as the &#x394;Cq of the sample compared to the reference using the formula 2<sup>&#x394;&#x394;Cq</sup>.</p>
+      </sec>
+      <sec id="s4i">
+        <title>The Effect of Paraquat on Growth</title>
+        <p>To examine the sensitivity of <italic>S. parasanguinis</italic> to oxidative stressors, cultures at OD<sub>600</sub>&#x200A;=&#x200A;0.4 were diluted at 1&#x2236;50 in TH medium containing various amounts of paraquat. The growth was monitored at OD<sub>600</sub> using a Bioscreen C growth monitor (Oy Growth Curves AB Ltd., Finland). Sterile mineral oil was added over the cell suspension to create a reduced oxygen environment, and the plate was shaken for 15 s prior to each reading. For each strain and condition, at least four samples were examined.</p>
+      </sec>
+      <sec id="s4j">
+        <title>Acid Killing</title>
+        <p>Cultures at OD<sub>600</sub>&#x200A;=&#x200A;0.4 were harvested, washed once with 0.1 M glycine buffer, pH 7, and then resuspended in 1/10 of the original culture volume in 0.1 M glycine buffer at pH 3. The viable counts of the bacterial suspension in pH 3 at 15, 30, and 45 min were determined by serial dilution and plating. The survival rate was expressed as a percentage of the viable count at each time point compared to the count prior to acid treatment. For each strain, at least three independent experiments were performed and all plating was done in triplicates.</p>
+      </sec>
+      <sec id="s4k">
+        <title>Macrophage Survival Assays</title>
+        <p>Human monocytic cell line, THP-1, and mouse RAW264.7 macrophages (Bioresource Collection and Research Center, Taiwan) were maintained in RPMI 1640 supplemented with 10% (v/v) heat-inactivated fetal calf serum and 2 mM L-glutamine. THP-1 cells (2&#xD7;10<sup>5</sup> ml<sup>&#x2212;1</sup>) were activated by phorbol 12-myristate 13-acetate (PMA) at a final concentration of 1 &#xB5;g ml<sup>&#x2212;1</sup> for two days before use. Mouse RAW264.7 macrophages (3&#xD7;10<sup>5</sup> ml<sup>&#x2212;1</sup>) were allowed to adhere to plastic plates for 12 h prior to infection with bacteria. <italic>S. parasanguinis</italic> FW213 and its derivatives were grown to OD<sub>600</sub>&#x200A;=&#x200A;0.4, washed once with PBS and resuspended in RPMI1640 or IMDM (without serum) at 2&#x223C;8&#xD7;10<sup>8</sup> cells ml<sup>&#x2212;1</sup>. All infections were done at a MOI of 100 for 1 h. At the end of infection, non-internalized bacteria were removed by washing twice with PBS and the remaining extracellular bacteria were killed by adding penicillin-gentamicin at a final concentration of 100 units ml<sup>&#x2212;1</sup> and 200 &#xB5;g ml<sup>&#x2212;1</sup>, respectively, followed by incubation at 37&#xB0;C for 1 h. The culture medium was removed and washed twice with PBS to remove the residual antibiotic. The cells were lysed in PBS containing 0.1% Triton X-100 for 10 min. Bacterial counts in the cell lysates were then determined by serial dilutions and plating. The survival rate was calculated as a percentage of the recovered bacterial counts compared to the number of bacteria used in each infection.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0066163.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>The CAT activities in wild-type </bold><bold><italic>S. parasanguinis</italic></bold><bold> FW213, &#x394;</bold><bold><italic>fimR</italic></bold><bold>, and the </bold><bold><italic>fimR</italic></bold><bold> complementation strain (&#x394;</bold><bold><italic>fimR</italic></bold><bold>/pHR6) harboring a single copy of p</bold><bold><italic><sub>fim</sub></italic></bold><bold>(445 b)</bold><bold><italic>-cat</italic></bold><bold> at the </bold><bold><italic>tcrB</italic></bold><bold> locus.</bold> All strains were grown in TH to OD<sub>600</sub>&#x200A;=&#x200A;0.6. Values are means and standard deviations of three independent experiments.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0066163.s001.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0066163.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>The activity of p</bold><bold><italic><sub>fap1</sub></italic></bold><bold> under various metal growth conditions.</bold>
+<italic>S. parasanguinis</italic> FW213 harboring a single copy of p<italic><sub>fap1</sub>-cat</italic> at the <italic>tcrB</italic> locus was cultivated in FMC containing 0.01 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> (I), 0.01 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (II), 50 &#xB5;M MnCl<sub>2</sub> and 0.1 &#xB5;M FeSO<sub>4</sub> (III), 50 &#xB5;M MnCl<sub>2</sub> and 50 &#xB5;M FeSO<sub>4</sub> (IV). All cultures were supplemented with 1 mM MgSO<sub>4</sub> and 1 mM CaCl<sub>2</sub>. Values are means and standard deviations of three independent experiments.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0066163.s002.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0066163.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p><bold>Western analysis with the anti-FimR antiserum.</bold> 25 &#xB5;g of total cellular proteins prepared from wild-type <italic>S. parasanguinis</italic> FW213 (I) and the <italic>fimR</italic>-deficient strain (II) were separated on 12% SDS-PAGE, transferred to a piece of membrane and probed with the polyclonal antibody against FimR. The primary antibody was used at a dilution of 1&#x2236;200000 (A) and 1&#x2236;10000 (B), respectively, and the secondary antibody, goat anti-rabbit IgG, was used at 1&#x2236;10000. The molecular weight of FimR in kDa is indicated.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0066163.s003.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Y. Chen for assistance with statistical analysis and P. Fives-Taylor for review of this manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0066163-Carlsson1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Carlsson</surname><given-names>J</given-names></name>, <name><surname>Grahnen</surname><given-names>H</given-names></name>, <name><surname>Jonsson</surname><given-names>G</given-names></name>, <name><surname>Wikner</surname><given-names>S</given-names></name> (<year>1970</year>) <article-title>Establishment of <italic>Streptococcus sanguis</italic> in the mouths of infants</article-title>. <source>Arch Oral Biol</source><volume>15</volume>: <fpage>1143</fpage>&#x2013;<lpage>1148</lpage><pub-id pub-id-type="pmid">5280120</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Jenkinson1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Jenkinson</surname><given-names>HF</given-names></name>, <name><surname>Lamont</surname><given-names>RJ</given-names></name> (<year>1997</year>) <article-title>Streptococcal adhesion and colonization</article-title>. <source>Crit Rev Oral Biol Med</source><volume>8</volume>: <fpage>175</fpage>&#x2013;<lpage>200</lpage><pub-id pub-id-type="pmid">9167092</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Baddour1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Baddour</surname><given-names>LM</given-names></name> (<year>1994</year>) <article-title>Virulence factors among gram-positive bacteria in experimental endocarditis</article-title>. <source>Infect Immun</source><volume>62</volume>: <fpage>2143</fpage>&#x2013;<lpage>2148</lpage><pub-id pub-id-type="pmid">8188334</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-vanderMeer1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>van der Meer</surname><given-names>JT</given-names></name>, <name><surname>van Vianen</surname><given-names>W</given-names></name>, <name><surname>Hu</surname><given-names>E</given-names></name>, <name><surname>van Leeuwen</surname><given-names>WB</given-names></name>, <name><surname>Valkenburg</surname><given-names>HA</given-names></name>, <etal>et al</etal> (<year>1991</year>) <article-title>Distribution, antibiotic susceptibility and tolerance of bacterial isolates in culture-positive cases of endocarditis in The Netherlands</article-title>. <source>Eur J Clin Microbiol Infect Dis</source><volume>10</volume>: <fpage>728</fpage>&#x2013;<lpage>734</lpage><pub-id pub-id-type="pmid">1810724</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Oetjen1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Oetjen</surname><given-names>J</given-names></name>, <name><surname>Fives-Taylor</surname><given-names>P</given-names></name>, <name><surname>Froeliger</surname><given-names>EH</given-names></name> (<year>2002</year>) <article-title>The divergently transcribed <italic>Streptococcus parasanguis</italic> virulence-associated <italic>fimA</italic> operon encoding an Mn(2+)-responsive metal transporter and <italic>pepO</italic> encoding a zinc metallopeptidase are not coordinately regulated</article-title>. <source>Infect Immun</source><volume>70</volume>: <fpage>5706</fpage>&#x2013;<lpage>5714</lpage><pub-id pub-id-type="pmid">12228300</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-BurnetteCurley1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Burnette-Curley</surname><given-names>D</given-names></name>, <name><surname>Wells</surname><given-names>V</given-names></name>, <name><surname>Viscount</surname><given-names>H</given-names></name>, <name><surname>Munro</surname><given-names>CL</given-names></name>, <name><surname>Fenno</surname><given-names>JC</given-names></name>, <etal>et al</etal> (<year>1995</year>) <article-title>FimA, a major virulence factor associated with <italic>Streptococcus parasanguis</italic> endocarditis</article-title>. <source>Infect Immun</source><volume>63</volume>: <fpage>4669</fpage>&#x2013;<lpage>4674</lpage><pub-id pub-id-type="pmid">7591121</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Viscount1">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Viscount</surname><given-names>HB</given-names></name>, <name><surname>Munro</surname><given-names>CL</given-names></name>, <name><surname>Burnette-Curley</surname><given-names>D</given-names></name>, <name><surname>Peterson</surname><given-names>DL</given-names></name>, <name><surname>Macrina</surname><given-names>FL</given-names></name> (<year>1997</year>) <article-title>Immunization with FimA protects against <italic>Streptococcus parasanguis</italic> endocarditis in rats</article-title>. <source>Infect Immun</source><volume>65</volume>: <fpage>994</fpage>&#x2013;<lpage>1002</lpage><pub-id pub-id-type="pmid">9038308</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Fenno1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Fenno</surname><given-names>JC</given-names></name>, <name><surname>Shaikh</surname><given-names>A</given-names></name>, <name><surname>Spatafora</surname><given-names>G</given-names></name>, <name><surname>Fives-Taylor</surname><given-names>P</given-names></name> (<year>1995</year>) <article-title>The <italic>fimA</italic> locus of <italic>Streptococcus parasanguis</italic> encodes an ATP-binding membrane transport system</article-title>. <source>Mol Microbiol</source><volume>15</volume>: <fpage>849</fpage>&#x2013;<lpage>863</lpage><pub-id pub-id-type="pmid">7596287</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Spatafora1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Spatafora</surname><given-names>G</given-names></name>, <name><surname>Van Hoeven</surname><given-names>N</given-names></name>, <name><surname>Wagner</surname><given-names>K</given-names></name>, <name><surname>Fives-Taylor</surname><given-names>P</given-names></name> (<year>2002</year>) <article-title>Evidence that ORF3 at the <italic>Streptococcus parasanguis fimA</italic> locus encodes a thiol-specific antioxidant</article-title>. <source>Microbiology</source><volume>148</volume>: <fpage>755</fpage>&#x2013;<lpage>762</lpage><pub-id pub-id-type="pmid">11882710</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Das1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Das</surname><given-names>S</given-names></name>, <name><surname>Kanamoto</surname><given-names>T</given-names></name>, <name><surname>Ge</surname><given-names>X</given-names></name>, <name><surname>Xu</surname><given-names>P</given-names></name>, <name><surname>Unoki</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Contribution of lipoproteins and lipoprotein processing to endocarditis virulence in <italic>Streptococcus sanguinis</italic></article-title>. <source>J Bacteriol</source><volume>191</volume>: <fpage>4166</fpage>&#x2013;<lpage>4179</lpage><pub-id pub-id-type="pmid">19395487</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Kolenbrander1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Kolenbrander</surname><given-names>PE</given-names></name>, <name><surname>Andersen</surname><given-names>RN</given-names></name>, <name><surname>Baker</surname><given-names>RA</given-names></name>, <name><surname>Jenkinson</surname><given-names>HF</given-names></name> (<year>1998</year>) <article-title>The adhesion-associated <italic>sca</italic> operon in <italic>Streptococcus gordonii</italic> encodes an inducible high-affinity ABC transporter for Mn<sup>2+</sup> uptake</article-title>. <source>J Bacteriol</source><volume>180</volume>: <fpage>290</fpage>&#x2013;<lpage>295</lpage><pub-id pub-id-type="pmid">9440518</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-McAllister1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>McAllister</surname><given-names>LJ</given-names></name>, <name><surname>Tseng</surname><given-names>HJ</given-names></name>, <name><surname>Ogunniyi</surname><given-names>AD</given-names></name>, <name><surname>Jennings</surname><given-names>MP</given-names></name>, <name><surname>McEwan</surname><given-names>AG</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Molecular analysis of the <italic>psa</italic> permease complex of <italic>Streptococcus pneumoniae</italic></article-title>. <source>Mol Microbiol</source><volume>53</volume>: <fpage>889</fpage>&#x2013;<lpage>901</lpage><pub-id pub-id-type="pmid">15255900</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Paik1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Paik</surname><given-names>S</given-names></name>, <name><surname>Brown</surname><given-names>A</given-names></name>, <name><surname>Munro</surname><given-names>CL</given-names></name>, <name><surname>Cornelissen</surname><given-names>CN</given-names></name>, <name><surname>Kitten</surname><given-names>T</given-names></name> (<year>2003</year>) <article-title>The <italic>sloABCR</italic> operon of <italic>Streptococcus mutans</italic> encodes an Mn and Fe transport system required for endocarditis virulence and its Mn-dependent repressor</article-title>. <source>J Bacteriol</source><volume>185</volume>: <fpage>5967</fpage>&#x2013;<lpage>5975</lpage><pub-id pub-id-type="pmid">14526007</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Jakubovics1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Jakubovics</surname><given-names>NS</given-names></name>, <name><surname>Smith</surname><given-names>AW</given-names></name>, <name><surname>Jenkinson</surname><given-names>HF</given-names></name> (<year>2000</year>) <article-title>Expression of the virulence-related Sca (Mn<sup>2+</sup>) permease in <italic>Streptococcus gordonii</italic> is regulated by a diphtheria toxin metallorepressor-like protein ScaR</article-title>. <source>Mol Microbiol</source><volume>38</volume>: <fpage>140</fpage>&#x2013;<lpage>153</lpage><pub-id pub-id-type="pmid">11029696</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Kitten1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Kitten</surname><given-names>T</given-names></name>, <name><surname>Munro</surname><given-names>CL</given-names></name>, <name><surname>Michalek</surname><given-names>SM</given-names></name>, <name><surname>Macrina</surname><given-names>FL</given-names></name> (<year>2000</year>) <article-title>Genetic characterization of a <italic>Streptococcus mutans</italic> LraI family operon and role in virulence</article-title>. <source>Infect Immun</source><volume>68</volume>: <fpage>4441</fpage>&#x2013;<lpage>4451</lpage><pub-id pub-id-type="pmid">10899841</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Anderton1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Anderton</surname><given-names>JM</given-names></name>, <name><surname>Rajam</surname><given-names>G</given-names></name>, <name><surname>Romero-Steiner</surname><given-names>S</given-names></name>, <name><surname>Summer</surname><given-names>S</given-names></name>, <name><surname>Kowalczyk</surname><given-names>AP</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>E-cadherin is a receptor for the common protein pneumococcal surface adhesin A (PsaA) of <italic>Streptococcus pneumoniae</italic></article-title>. <source>Microb Pathog</source><volume>42</volume>: <fpage>225</fpage>&#x2013;<lpage>236</lpage><pub-id pub-id-type="pmid">17412553</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Berry1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Berry</surname><given-names>AM</given-names></name>, <name><surname>Paton</surname><given-names>JC</given-names></name> (<year>1996</year>) <article-title>Sequence heterogeneity of PsaA, a 37-kilodalton putative adhesin essential for virulence of <italic>Streptococcus pneumoniae</italic></article-title>. <source>Infect Immun</source><volume>64</volume>: <fpage>5255</fpage>&#x2013;<lpage>5262</lpage><pub-id pub-id-type="pmid">8945574</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Ganeshkumar1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Ganeshkumar</surname><given-names>N</given-names></name>, <name><surname>Hannam</surname><given-names>PM</given-names></name>, <name><surname>Kolenbrander</surname><given-names>PE</given-names></name>, <name><surname>McBride</surname><given-names>BC</given-names></name> (<year>1991</year>) <article-title>Nucleotide sequence of a gene coding for a saliva-binding protein (SsaB) from <italic>Streptococcus sanguis</italic> 12 and possible role of the protein in coaggregation with actinomyces</article-title>. <source>Infect Immun</source><volume>59</volume>: <fpage>1093</fpage>&#x2013;<lpage>1099</lpage><pub-id pub-id-type="pmid">1671775</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Kolenbrander2">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Kolenbrander</surname><given-names>PE</given-names></name>, <name><surname>Andersen</surname><given-names>RN</given-names></name>, <name><surname>Ganeshkumar</surname><given-names>N</given-names></name> (<year>1994</year>) <article-title>Nucleotide sequence of the <italic>Streptococcus gordonii</italic> PK488 coaggregation adhesin gene, <italic>scaA</italic>, and ATP-binding cassette</article-title>. <source>Infect Immun</source><volume>62</volume>: <fpage>4469</fpage>&#x2013;<lpage>4480</lpage><pub-id pub-id-type="pmid">7927711</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Marra1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Marra</surname><given-names>A</given-names></name>, <name><surname>Lawson</surname><given-names>S</given-names></name>, <name><surname>Asundi</surname><given-names>JS</given-names></name>, <name><surname>Brigham</surname><given-names>D</given-names></name>, <name><surname>Hromockyj</surname><given-names>AE</given-names></name> (<year>2002</year>) <article-title><italic>In vivo</italic> characterization of the <italic>psa</italic> genes from <italic>Streptococcus pneumoniae</italic> in multiple models of infection</article-title>. <source>Microbiology</source><volume>148</volume>: <fpage>1483</fpage>&#x2013;<lpage>1491</lpage><pub-id pub-id-type="pmid">11988523</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Sampson1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Sampson</surname><given-names>JS</given-names></name>, <name><surname>O&#x2019;Connor</surname><given-names>SP</given-names></name>, <name><surname>Stinson</surname><given-names>AR</given-names></name>, <name><surname>Tharpe</surname><given-names>JA</given-names></name>, <name><surname>Russell</surname><given-names>H</given-names></name> (<year>1994</year>) <article-title>Cloning and nucleotide sequence analysis of <italic>psaA</italic>, the <italic>Streptococcus pneumoniae</italic> gene encoding a 37-kilodalton protein homologous to previously reported <italic>Streptococcus</italic> sp. adhesins</article-title>. <source>Infect Immun</source><volume>62</volume>: <fpage>319</fpage>&#x2013;<lpage>324</lpage><pub-id pub-id-type="pmid">7505262</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Kloosterman1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Kloosterman</surname><given-names>TG</given-names></name>, <name><surname>Witwicki</surname><given-names>RM</given-names></name>, <name><surname>van der Kooi-Pol</surname><given-names>MM</given-names></name>, <name><surname>Bijlsma</surname><given-names>JJ</given-names></name>, <name><surname>Kuipers</surname><given-names>OP</given-names></name> (<year>2008</year>) <article-title>Opposite effects of Mn<sup>2+</sup> and Zn<sup>2+</sup> on PsaR-mediated expression of the virulence genes <italic>pcpA</italic>, <italic>prtA</italic>, and <italic>psaBCA</italic> of <italic>Streptococcus pneumoniae</italic></article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>5382</fpage>&#x2013;<lpage>5393</lpage><pub-id pub-id-type="pmid">18515418</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Rolerson1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Rolerson</surname><given-names>E</given-names></name>, <name><surname>Swick</surname><given-names>A</given-names></name>, <name><surname>Newlon</surname><given-names>L</given-names></name>, <name><surname>Palmer</surname><given-names>C</given-names></name>, <name><surname>Pan</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The SloR/Dlg metalloregulator modulates <italic>Streptococcus mutans</italic> virulence gene expression</article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>5033</fpage>&#x2013;<lpage>5044</lpage><pub-id pub-id-type="pmid">16816176</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Tao1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Tao</surname><given-names>X</given-names></name>, <name><surname>Murphy</surname><given-names>JR</given-names></name> (<year>1992</year>) <article-title>Binding of the metalloregulatory protein DtxR to the diphtheria <italic>tox</italic> operator requires a divalent heavy metal ion and protects the palindromic sequence from DNase I digestion</article-title>. <source>J Biol Chem</source><volume>267</volume>: <fpage>21761</fpage>&#x2013;<lpage>21764</lpage><pub-id pub-id-type="pmid">1400485</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-ORourke1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>O&#x2019;Rourke</surname><given-names>KP</given-names></name>, <name><surname>Shaw</surname><given-names>JD</given-names></name>, <name><surname>Pesesky</surname><given-names>MW</given-names></name>, <name><surname>Cook</surname><given-names>BT</given-names></name>, <name><surname>Roberts</surname><given-names>SM</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Genome-wide characterization of the SloR metalloregulome in <italic>Streptococcus mutans</italic></article-title>. <source>J Bacteriol</source><volume>192</volume>: <fpage>1433</fpage>&#x2013;<lpage>1443</lpage><pub-id pub-id-type="pmid">19915021</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Jacobsen1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Jacobsen</surname><given-names>FE</given-names></name>, <name><surname>Kazmierczak</surname><given-names>KM</given-names></name>, <name><surname>Lisher</surname><given-names>JP</given-names></name>, <name><surname>Winkler</surname><given-names>ME</given-names></name>, <name><surname>Giedroc</surname><given-names>DP</given-names></name> (<year>2011</year>) <article-title>Interplay between manganese and zinc homeostasis in the human pathogen <italic>Streptococcus pneumoniae</italic></article-title>. <source>Metallomics</source><volume>3</volume>: <fpage>38</fpage>&#x2013;<lpage>41</lpage><pub-id pub-id-type="pmid">21275153</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Stoll1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Stoll</surname><given-names>KE</given-names></name>, <name><surname>Draper</surname><given-names>WE</given-names></name>, <name><surname>Kliegman</surname><given-names>JI</given-names></name>, <name><surname>Golynskiy</surname><given-names>MV</given-names></name>, <name><surname>Brew-Appiah</surname><given-names>RA</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Characterization and structure of the manganese-responsive transcriptional regulator ScaR</article-title>. <source>Biochemistry</source><volume>48</volume>: <fpage>10308</fpage>&#x2013;<lpage>10320</lpage><pub-id pub-id-type="pmid">19795834</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Geng1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Geng</surname><given-names>J</given-names></name>, <name><surname>Chiu</surname><given-names>CH</given-names></name>, <name><surname>Tang</surname><given-names>P</given-names></name>, <name><surname>Chen</surname><given-names>Y</given-names></name>, <name><surname>Shieh</surname><given-names>HR</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Complete genome and transcriptomes of <italic>Streptococcus parasanguinis</italic> FW213: phylogenic relations and potential virulence mechanisms</article-title>. <source>PLoS One</source><volume>7</volume>: <fpage>e34769</fpage><pub-id pub-id-type="pmid">22529932</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Pennella1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Pennella</surname><given-names>MA</given-names></name>, <name><surname>Giedroc</surname><given-names>DP</given-names></name> (<year>2005</year>) <article-title>Structural determinants of metal selectivity in prokaryotic metal-responsive transcriptional regulators</article-title>. <source>Biometals</source><volume>18</volume>: <fpage>413</fpage>&#x2013;<lpage>428</lpage><pub-id pub-id-type="pmid">16158234</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-LeBlanc1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>LeBlanc</surname><given-names>DJ</given-names></name>, <name><surname>Lee</surname><given-names>LN</given-names></name>, <name><surname>Inamine</surname><given-names>JM</given-names></name> (<year>1991</year>) <article-title>Cloning and nucleotide base sequence analysis of a spectinomycin adenyltransferase AAD(9) determinant from <italic>Enterococcus faecalis</italic></article-title>. <source>Antimicrob Agents Chemother</source><volume>35</volume>: <fpage>1804</fpage>&#x2013;<lpage>1810</lpage><pub-id pub-id-type="pmid">1659306</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Fenno2">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Fenno</surname><given-names>JC</given-names></name>, <name><surname>Shaikh</surname><given-names>A</given-names></name>, <name><surname>Fives-Taylor</surname><given-names>P</given-names></name> (<year>1993</year>) <article-title>Characterization of allelic replacement in <italic>Streptococcus parasanguis</italic>: transformation and homologous recombination in a &#x2018;nontransformable&#x2019; streptococcus</article-title>. <source>Gene</source><volume>130</volume>: <fpage>81</fpage>&#x2013;<lpage>90</lpage><pub-id pub-id-type="pmid">8344531</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Kim1">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>JS</given-names></name>, <name><surname>Sung</surname><given-names>MH</given-names></name>, <name><surname>Kho</surname><given-names>DH</given-names></name>, <name><surname>Lee</surname><given-names>JK</given-names></name> (<year>2005</year>) <article-title>Induction of manganese-containing superoxide dismutase is required for acid tolerance in <italic>Vibrio vulnificus</italic></article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>5984</fpage>&#x2013;<lpage>5995</lpage><pub-id pub-id-type="pmid">16109940</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-MartinGaliano1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Martin-Galiano</surname><given-names>AJ</given-names></name>, <name><surname>Overweg</surname><given-names>K</given-names></name>, <name><surname>Ferrandiz</surname><given-names>MJ</given-names></name>, <name><surname>Reuter</surname><given-names>M</given-names></name>, <name><surname>Wells</surname><given-names>JM</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Transcriptional analysis of the acid tolerance response in <italic>Streptococcus pneumoniae</italic></article-title>. <source>Microbiology</source><volume>151</volume>: <fpage>3935</fpage>&#x2013;<lpage>3946</lpage><pub-id pub-id-type="pmid">16339938</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Wen1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Wen</surname><given-names>ZT</given-names></name>, <name><surname>Burne</surname><given-names>RA</given-names></name> (<year>2004</year>) <article-title>LuxS-mediated signaling in <italic>Streptococcus mutans</italic> is involved in regulation of acid and oxidative stress tolerance and biofilm formation</article-title>. <source>J Bacteriol</source><volume>186</volume>: <fpage>2682</fpage>&#x2013;<lpage>2691</lpage><pub-id pub-id-type="pmid">15090509</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-BrunoBarcena1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Bruno-Barcena</surname><given-names>JM</given-names></name>, <name><surname>Azcarate-Peril</surname><given-names>MA</given-names></name>, <name><surname>Hassan</surname><given-names>HM</given-names></name> (<year>2010</year>) <article-title>Role of antioxidant enzymes in bacterial resistance to organic acids</article-title>. <source>Appl Environ Microbiol</source><volume>76</volume>: <fpage>2747</fpage>&#x2013;<lpage>2753</lpage><pub-id pub-id-type="pmid">20305033</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Hanks1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Hanks</surname><given-names>TS</given-names></name>, <name><surname>Liu</surname><given-names>M</given-names></name>, <name><surname>McClure</surname><given-names>MJ</given-names></name>, <name><surname>Fukumura</surname><given-names>M</given-names></name>, <name><surname>Duffy</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Differential regulation of iron- and manganese-specific MtsABC and heme-specific HtsABC transporters by the metalloregulator MtsR of group A <italic>Streptococcus</italic></article-title>. <source>Infect Immun</source><volume>74</volume>: <fpage>5132</fpage>&#x2013;<lpage>5139</lpage><pub-id pub-id-type="pmid">16926405</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Janulczyk1">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Janulczyk</surname><given-names>R</given-names></name>, <name><surname>Pallon</surname><given-names>J</given-names></name>, <name><surname>Bjorck</surname><given-names>L</given-names></name> (<year>1999</year>) <article-title>Identification and characterization of a <italic>Streptococcus pyogenes</italic> ABC transporter with multiple specificity for metal cations</article-title>. <source>Mol Microbiol</source><volume>34</volume>: <fpage>596</fpage>&#x2013;<lpage>606</lpage><pub-id pub-id-type="pmid">10564500</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Ricci1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Ricci</surname><given-names>S</given-names></name>, <name><surname>Janulczyk</surname><given-names>R</given-names></name>, <name><surname>Bjorck</surname><given-names>L</given-names></name> (<year>2002</year>) <article-title>The regulator PerR is involved in oxidative stress response and iron homeostasis and is necessary for full virulence of <italic>Streptococcus pyogenes</italic></article-title>. <source>Infect Immun</source><volume>70</volume>: <fpage>4968</fpage>&#x2013;<lpage>4976</lpage><pub-id pub-id-type="pmid">12183543</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Brenot1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Brenot</surname><given-names>A</given-names></name>, <name><surname>King</surname><given-names>KY</given-names></name>, <name><surname>Caparon</surname><given-names>MG</given-names></name> (<year>2005</year>) <article-title>The PerR regulon in peroxide resistance and virulence of <italic>Streptococcus pyogenes</italic></article-title>. <source>Mol Microbiol</source><volume>55</volume>: <fpage>221</fpage>&#x2013;<lpage>234</lpage><pub-id pub-id-type="pmid">15612930</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Kinkel1">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Kinkel</surname><given-names>TL</given-names></name>, <name><surname>McIver</surname><given-names>KS</given-names></name> (<year>2008</year>) <article-title>CcpA-mediated repression of streptolysin S expression and virulence in the group A streptococcus</article-title>. <source>Infect Immun</source><volume>76</volume>: <fpage>3451</fpage>&#x2013;<lpage>3463</lpage><pub-id pub-id-type="pmid">18490461</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Gaudu1">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Gaudu</surname><given-names>P</given-names></name>, <name><surname>Lamberet</surname><given-names>G</given-names></name>, <name><surname>Poncet</surname><given-names>S</given-names></name>, <name><surname>Gruss</surname><given-names>A</given-names></name> (<year>2003</year>) <article-title>CcpA regulation of aerobic and respiration growth in <italic>Lactococcus lactis</italic></article-title>. <source>Mol Microbiol</source><volume>50</volume>: <fpage>183</fpage>&#x2013;<lpage>192</lpage><pub-id pub-id-type="pmid">14507373</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-ReyesCaballero1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Reyes-Caballero</surname><given-names>H</given-names></name>, <name><surname>Guerra</surname><given-names>AJ</given-names></name>, <name><surname>Jacobsen</surname><given-names>FE</given-names></name>, <name><surname>Kazmierczak</surname><given-names>KM</given-names></name>, <name><surname>Cowart</surname><given-names>D</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The metalloregulatory zinc site in <italic>Streptococcus pneumoniae</italic> AdcR, a zinc-activated MarR family repressor</article-title>. <source>J Mol Biol</source><volume>403</volume>: <fpage>197</fpage>&#x2013;<lpage>216</lpage><pub-id pub-id-type="pmid">20804771</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Forbes1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Forbes</surname><given-names>JR</given-names></name>, <name><surname>Gros</surname><given-names>P</given-names></name> (<year>2001</year>) <article-title>Divalent-metal transport by NRAMP proteins at the interface of host-pathogen interactions</article-title>. <source>Trends Microbiol</source><volume>9</volume>: <fpage>397</fpage>&#x2013;<lpage>403</lpage><pub-id pub-id-type="pmid">11514223</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-PappWallace1">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Papp-Wallace</surname><given-names>KM</given-names></name>, <name><surname>Maguire</surname><given-names>ME</given-names></name> (<year>2006</year>) <article-title>Manganese transport and the role of manganese in virulence</article-title>. <source>Annu Rev Microbiol</source><volume>60</volume>: <fpage>187</fpage>&#x2013;<lpage>209</lpage><pub-id pub-id-type="pmid">16704341</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Cole1">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Cole</surname><given-names>RM</given-names></name>, <name><surname>Calandra</surname><given-names>GB</given-names></name>, <name><surname>Huff</surname><given-names>E</given-names></name>, <name><surname>Nugent</surname><given-names>KM</given-names></name> (<year>1976</year>) <article-title>Attributes of potential utility in differentiating among &#x201C;group H&#x201D; streptococci or <italic>Streptococcus sanguis</italic></article-title>. <source>J Dent Res</source><volume>55</volume>: <fpage>A142</fpage>&#x2013;<lpage>153</lpage><pub-id pub-id-type="pmid">1060637</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Terleckyj1">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Terleckyj</surname><given-names>B</given-names></name>, <name><surname>Willett</surname><given-names>NP</given-names></name>, <name><surname>Shockman</surname><given-names>GD</given-names></name> (<year>1975</year>) <article-title>Growth of several cariogenic strains of oral streptococci in a chemically defined medium</article-title>. <source>Infect Immun</source><volume>11</volume>: <fpage>649</fpage>&#x2013;<lpage>655</lpage><pub-id pub-id-type="pmid">1091546</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Chen1">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>YY</given-names></name>, <name><surname>Clancy</surname><given-names>KA</given-names></name>, <name><surname>Burne</surname><given-names>RA</given-names></name> (<year>1996</year>) <article-title><italic>Streptococcus salivarius</italic> urease: genetic and biochemical characterization and expression in a dental plaque streptococcus</article-title>. <source>Infect Immun</source><volume>64</volume>: <fpage>585</fpage>&#x2013;<lpage>592</lpage><pub-id pub-id-type="pmid">8550211</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Chen2">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>YY</given-names></name>, <name><surname>Weaver</surname><given-names>CA</given-names></name>, <name><surname>Mendelsohn</surname><given-names>DR</given-names></name>, <name><surname>Burne</surname><given-names>RA</given-names></name> (<year>1998</year>) <article-title>Transcriptional regulation of the <italic>Streptococcus salivarius</italic> 57.I urease operon</article-title>. <source>J Bacteriol</source><volume>180</volume>: <fpage>5769</fpage>&#x2013;<lpage>5775</lpage><pub-id pub-id-type="pmid">9791132</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Anderson1">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Anderson</surname><given-names>DG</given-names></name>, <name><surname>McKay</surname><given-names>LL</given-names></name> (<year>1983</year>) <article-title>Simple and rapid method for isolating large plasmid DNA from lactic streptococci</article-title>. <source>Appl Environ Microbiol</source><volume>46</volume>: <fpage>549</fpage>&#x2013;<lpage>552</lpage><pub-id pub-id-type="pmid">6416164</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Horinouchi1">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Horinouchi</surname><given-names>S</given-names></name>, <name><surname>Weisblum</surname><given-names>B</given-names></name> (<year>1982</year>) <article-title>Nucleotide sequence and functional map of pC194, a plasmid that specifies inducible chloramphenicol resistance</article-title>. <source>J Bacteriol</source><volume>150</volume>: <fpage>815</fpage>&#x2013;<lpage>825</lpage><pub-id pub-id-type="pmid">6950931</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Bartolome1">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Bartolome</surname><given-names>B</given-names></name>, <name><surname>Jubete</surname><given-names>Y</given-names></name>, <name><surname>Martinez</surname><given-names>E</given-names></name>, <name><surname>de la Cruz</surname><given-names>F</given-names></name> (<year>1991</year>) <article-title>Construction and properties of a family of pACYC184-derived cloning vectors compatible with pBR322 and its derivatives</article-title>. <source>Gene</source><volume>102</volume>: <fpage>75</fpage>&#x2013;<lpage>78</lpage><pub-id pub-id-type="pmid">1840539</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Dunny1">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Dunny</surname><given-names>GM</given-names></name>, <name><surname>Lee</surname><given-names>LN</given-names></name>, <name><surname>LeBlanc</surname><given-names>DJ</given-names></name> (<year>1991</year>) <article-title>Improved electroporation and cloning vector system for gram-positive bacteria</article-title>. <source>Appl Environ Microbiol</source><volume>57</volume>: <fpage>1194</fpage>&#x2013;<lpage>1201</lpage><pub-id pub-id-type="pmid">1905518</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Chen3">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>YY</given-names></name>, <name><surname>Betzenhauser</surname><given-names>MJ</given-names></name>, <name><surname>Burne</surname><given-names>RA</given-names></name> (<year>2002</year>) <article-title><italic>cis</italic>-Acting elements that regulate the low-pH-inducible urease operon of <italic>Streptococcus salivarius</italic></article-title>. <source>Microbiology</source><volume>148</volume>: <fpage>3599</fpage>&#x2013;<lpage>3608</lpage><pub-id pub-id-type="pmid">12427950</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Shaw1">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Shaw</surname><given-names>WV</given-names></name> (<year>1975</year>) <article-title>Chloramphenicol acetyltransferase from chloramphenicol-resistant bacteria</article-title>. <source>Methods Enzymol</source><volume>43</volume>: <fpage>737</fpage>&#x2013;<lpage>755</lpage><pub-id pub-id-type="pmid">1094240</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0066163-Grainger1">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Grainger</surname><given-names>DC</given-names></name>, <name><surname>Overton</surname><given-names>TW</given-names></name>, <name><surname>Reppas</surname><given-names>N</given-names></name>, <name><surname>Wade</surname><given-names>JT</given-names></name>, <name><surname>Tamai</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Genomic studies with <italic>Escherichia coli</italic> MelR protein: applications of chromatin immunoprecipitation and microarrays</article-title>. <source>J Bacteriol</source><volume>186</volume>: <fpage>6938</fpage>&#x2013;<lpage>6943</lpage><pub-id pub-id-type="pmid">15466047</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

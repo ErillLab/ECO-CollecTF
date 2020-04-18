@@ -1,0 +1,2457 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Microbiol</journal-id>
+      <journal-id journal-id-type="publisher-id">mmi</journal-id>
+      <journal-title>Molecular Microbiology</journal-title>
+      <issn pub-type="ppub">0950-382X</issn>
+      <issn pub-type="epub">1365-2958</issn>
+      <publisher>
+        <publisher-name>Blackwell Publishing Ltd</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">18554322</article-id>
+      <article-id pub-id-type="pmc">2610376</article-id>
+      <article-id pub-id-type="doi">10.1111/j.1365-2958.2008.06326.x</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Articles</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Type III secretion system 1 genes in <italic>Vibrio parahaemolyticus</italic> are positively regulated by ExsA and negatively regulated by ExsD</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Xiaohui</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shah</surname>
+            <given-names>Devendra H</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Konkel</surname>
+            <given-names>Michael E</given-names>
+          </name>
+          <xref ref-type="aff" rid="au2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Call</surname>
+            <given-names>Douglas R</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+        <aff id="au1">
+          <label>1</label>
+          <institution>Department of Veterinary Microbiology and Pathology, Washington State University</institution>
+          <addr-line>Pullman, WA, USA</addr-line>
+        </aff>
+        <aff id="au2">
+          <label>2</label>
+          <institution>School of Molecular Biosciences, Washington State University</institution>
+          <addr-line>Pullman, WA, USA</addr-line>
+        </aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1">*For correspondence. E-mail <email>drcall@wsu.edu</email>; Tel. (+1) 509 335 6313, Fax (+1) 509 335 8529.</corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>8</month>
+        <year>2008</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>6</month>
+        <year>2008</year>
+      </pub-date>
+      <volume>69</volume>
+      <issue>3</issue>
+      <fpage>747</fpage>
+      <lpage>764</lpage>
+      <history>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>5</month>
+          <year>2008</year>
+        </date>
+      </history>
+      <copyright-statement>&#xA9; 2008 The Authors Journal compilation &#xA9; 2008 Blackwell Publishing Ltd</copyright-statement>
+      <copyright-year>2008</copyright-year>
+      <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.5/">
+        <p>Re-use of this article is permitted in accordance with the Creative Commons Deed, Attribution 2.5, which does not permit commercial exploitation.</p>
+      </license>
+      <abstract>
+        <p><italic>Vibrio parahaemolyticus</italic> harbours two distinct type III secretion systems (T3SS1 and T3SS2). A subset of 10 T3SS1 genes are transcribed when <italic>V. parahaemolyticus</italic> is grown in tissue culture medium [Dulbecco's modified Eagle's medium (DMEM)], while transcription of these genes (except <italic>exsD</italic>) is minimal upon growth in Luria&#x2013;Bertani-Salt (LB-S). Transcription of T3SS1 genes and cytotoxicity towards HeLa cells was prevented by deletion of <italic>exsA</italic> while complementation with <italic>exsA</italic> restored these traits. Overexpression of ExsA in the wild-type strain, NY-4, activated the transcription of T3SS1 genes when bacteria were grown in LB-S. Thus, ExsA is necessary and sufficient to induce the transcription of T3SS1 genes. Deletion of the <italic>exsD</italic> permitted the transcription of T3SS1 genes when bacteria were grown in the LB-S medium and complementation with the wild-type <italic>exsD</italic> gene-blocked transcription of T3SS1 genes. Overexpression of ExsD in NY-4 prevented the transcription of T3SS1 gene when bacteria were grown in DMEM. A gel mobility shift assay demonstrated that purified ExsA protein binds a novel motif in the upstream region of <italic>vp1668</italic> and <italic>vp1687,</italic> indicating that ExsA interacts directly with the promoter sequences of T3SS1 genes. ExsA positively regulates the expression and secretion of Vp1656 while ExsD negatively regulates the expression and secretion of Vp1656.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p><italic>Vibrio parahaemolyticus</italic> is a Gram-negative, halophilic pathogen that is commonly associated with consumption of raw or undercooked seafood (<xref ref-type="bibr" rid="b24">Joseph <italic>et al</italic>., 1982</xref>). Infection with <italic>V. parahaemolyticus</italic> results in diarrhoea, nausea, vomiting, headache, fever and chills. In addition to typical gastrointestinal infections, <italic>c.</italic> 5% of <italic>V. parahaemolyticus</italic> infections advance to septicemia (<xref ref-type="bibr" rid="b20">Hlady and Klontz, 1996</xref>) and these infections may be fatal, especially in immunocompromised patients or those with pre-existing medical conditions, such as liver disease or diabetes (<xref ref-type="bibr" rid="b59">Yeung and Boor, 2004</xref>).</p>
+      <p>Thermostable direct haemolysin (TDH) is a major virulence factor of <italic>V. parahaemolyticus</italic>. TDH forms pores in red blood cells, causes increased short circuit current, increases Cl<sup>-</sup> secretion in human colonic epithelia cells and enhances Ca<sup>2+</sup> entry from the extracellular medium (<xref ref-type="bibr" rid="b50">Takahashi <italic>et al</italic>., 2001</xref>). TDH-related haemolysin is another toxin (<xref ref-type="bibr" rid="b47">Sochard and Colwell, 1977</xref>) that is heat-labile and also induces Ca<sup>2+</sup>-activated Cl<sup>-</sup> channel leading to altered ion flux and secretory diarrhoea (<xref ref-type="bibr" rid="b50">Takahashi <italic>et al</italic>., 2001</xref>). A <italic>tdh</italic> deletion mutant has reduced the ability to cause fluid accumulation in ileal loops of a rabbit model (<xref ref-type="bibr" rid="b28">Lin <italic>et al</italic>., 1993</xref>). In contrast, <xref ref-type="bibr" rid="b42">Park <italic>et al</italic>. (2004)</xref> recently demonstrated that a <italic>tdh</italic> deletion mutant retains the ability to cause fluid accumulation. Furthermore, both <italic>V. parahaemolyticus</italic> TDH-positive and -negative strains disrupt epithelial tight junctions, possibly resulting in the dissemination of bacteria into the host circulation system (<xref ref-type="bibr" rid="b29">Lynch <italic>et al</italic>., 2005</xref>). These studies indicate that there are factors, in addition to TDH, that contribute to the pathogenesis of <italic>V. parahaemolyticus</italic>. Some of these include cell-associated haemagglutinin (<xref ref-type="bibr" rid="b37">Nagayama <italic>et al</italic>., 1994</xref>), pili (<xref ref-type="bibr" rid="b38">Nakasone and Iwanaga, 1990</xref>, <xref ref-type="bibr" rid="b39">1992</xref>), vibrioferrin (<xref ref-type="bibr" rid="b7">Dai <italic>et al</italic>., 1992</xref>) and ToxR (<xref ref-type="bibr" rid="b28">Lin <italic>et al</italic>., 1993</xref>).</p>
+      <p>Type III secretion systems (T3SSs) enable bacteria to translocate proteins directly into host cells where they interfere with normal cellular functions (<xref ref-type="bibr" rid="b6">Cornelis and Van Gijsegem, 2000</xref>; <xref ref-type="bibr" rid="b5">Cornelis, 2006</xref>). T3SSs are divided into three parts: the secretion apparatus, translocators and effectors (<xref ref-type="bibr" rid="b22">Hueck, 1998</xref>). The secretion apparatus forms an injector complex in the surface of Gram-negative bacteria. The translocator is a needle structure, which when inserted into the membrane of host cells, allows the effectors to be transported through the cell membrane into the cytosol or other compartments of host cells (<xref ref-type="bibr" rid="b22">Hueck, 1998</xref>). While genes encoding the secretion apparatus are conserved among different bacteria, genes encoding effectors can be unique to different organisms (<xref ref-type="bibr" rid="b52">Troisfontaines and Cornelis, 2005</xref>).</p>
+      <p>The genome sequence of <italic>V. parahaemolyticus</italic> shows that this organism harbours two distinct T3SSs encoded in chromosomes 1 (T3SS1) and 2 (T3SS2) (<xref ref-type="bibr" rid="b32">Makino <italic>et al</italic>., 2003</xref>). T3SS1 is similar to the Ysc secretion system in <italic>Yersinia</italic> and the T3SS2 is similar to the Inv-Mxi-Spa secretion system in <italic>Salmonella</italic> and <italic>Shigella</italic> (<xref ref-type="bibr" rid="b52">Troisfontaines and Cornelis, 2005</xref>). The Ysc secretion system is typically associated with cytotoxicity while the Inv-Mxi-Spa secretion system usually contributes to host cell invasion (<xref ref-type="bibr" rid="b52">Troisfontaines and Cornelis, 2005</xref>). T3SS1 of <italic>V. parahaemolyticus</italic> induces host cell death characterized by cell swelling, vacuole formation in the cytosol and pore formation in the membrane of host cells that is caspase-independent (X. Zhou, M.E. Konkel, and D.R. Call, submitted). T3SS2 appears to be involved in the intestinal fluid accumulation (<xref ref-type="bibr" rid="b42">Park <italic>et al</italic>., 2004</xref>).</p>
+      <p>Secretion of effector proteins is stimulated by contact with host cells, but secretion can also be induced by growing bacteria under suitable conditions (<xref ref-type="bibr" rid="b22">Hueck, 1998</xref>). For example, the T3SSs of <italic>Pseudomonas</italic> and <italic>Yersinia</italic> can be activated by growing in media containing a chelator, such as nitriloacetate or ethylene glycol tetraacetic acid, which is conventionally referred to as low-calcium media (<xref ref-type="bibr" rid="b49">Straley <italic>et al</italic>., 1993</xref>; <xref ref-type="bibr" rid="b54">Vallis <italic>et al</italic>., 1999</xref>). Activation of the T3SS of <italic>Shigella</italic> is induced by culturing bacteria in media containing Congo red (<xref ref-type="bibr" rid="b3">Bahrani <italic>et al</italic>., 1997</xref>). The mechanism of transcriptional control of T3SS genes in some bacteria has been described. For example, expression of <italic>Pseudomonas</italic> T3SS genes in low-calcium media is controlled at the transcriotional level by an AraC-like transcriptional activator, ExsA (<xref ref-type="bibr" rid="b58">Yahr <italic>et al</italic>., 1995</xref>). ExsA binds to a consensus sequence (TNAAANA) approximately 50 bp pairs upstream of the transcriptional start site of the T3SS genes, leading to the transcription of T3SS genes (<xref ref-type="bibr" rid="b21">Hovey and Frank, 1995</xref>). ExsA also binds a negative regulator, ExsD, whose overexpression inhibits T3SS gene transcription (<xref ref-type="bibr" rid="b31">McCaw <italic>et al</italic>., 2002</xref>).</p>
+      <p>The T3SS1 of <italic>V. parahaemolyticus</italic> is composed of <italic>c.</italic> 42 genes (<italic>vp1656&#x2013;vp1697</italic>) of which 30 genes have sequence similarity with genes encoding the apparatus in <italic>Yersinia</italic> while the remaining 12 open reading frames are hypothetical genes and may encode effectors proteins. It is unclear how the transcriptional activation of these 42 genes is controlled. At the terminus of the T3SS1 gene cluster, there are two genes, <italic>vp1699</italic> and <italic>vp1698</italic>, that share sequence similarity with the <italic>Pseudomonas</italic> genes <italic>exsA (</italic>40%) and <italic>exsD</italic> (30%) respectively. We hypothesize that the <italic>V. parahaemolyticus vp1699</italic> and <italic>vp1698</italic>, designated from this point forward as <italic>exsA</italic> and <italic>exsD</italic>, serve as transcriptional regulators in <italic>V. parahaemolyticus.</italic> In this study, we examined the conditions that induce the transcription of T3SS genes and demonstrate how ExsA and ExsD regulate transcription of T3SS1 genes.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>T3SS1 genes of <italic>V. parahaemolyticus</italic> are transcribed in Dulbecco's modified Eagle's medium, but not transcribed in Luria&#x2013;Bertani-salt media</title>
+        <p><italic>Vibrio parahaemolyticus</italic> was grown in Luria&#x2013;Bertani (LB) medium supplemented with 2.5% sodium chloride [LB-salt (LB-S)] and Dulbecco's modified Eagle's medium (DMEM) supplemented with 1% FBS. We selected 10 T3SS1 genes from the T3SS1 gene cluster to monitor gene expression by RT-PCR. All 10 genes were transcribed when bacterial were grown in DMEM (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). Only <italic>exsD</italic> was clearly transcribed when bacterial were grown in LB-S (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). <italic>Vp1656</italic>, <italic>vp1670</italic>, <italic>vp1687</italic> and <italic>vp1696</italic> were very weakly transcribed (faint bands) when bacteria were grown in LB-S (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). Transcription of the house-keeping gene, <italic>secY</italic>, was similar for all culture conditions. In the absence of reverse transcriptase, PCR results were negative, indicating no DNA contamination for these samples. These results demonstrated that T3SS1 genes of <italic>V. parahaemolyticus</italic> are transcribed when cultured in DMEM. Hereafter we refer to DMEM and LB-S as the inducing condition and non-inducing condition, respectively, for the transcription of T3SS1 genes.</p>
+        <fig id="fig01" position="float">
+          <label>Fig. 1</label>
+          <caption>
+            <p>RT-PCR showing expression of several apparatus, effector and hypothetical regulatory genes from T3SS1. cDNA (+) made from total RNA isolated from <italic>V. parahaemolyticus</italic> strain NY-4 under different conditions (LB-S, DMEM) was used as template for PCR. Mock reactions (&#x2212;), which did not contain reverse transcriptase in the RT reaction, were used as controls against genomic contamination of the RNA preparations. <italic>SecY</italic> was a house-keeping gene used as an internal control to ensure that RNA was present in all samples.</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f1"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>ExsA is required for cytotoxicity induced by wild-type <italic>V. parahaemolyticus</italic></title>
+        <p>Because ExsA is a positive regulator of T3SS genes in <italic>Pseudomonas</italic>, we determined if an <italic>exsA</italic> knockout is attenuated for cytotoxicity. Cytotoxicity was determined by measuring the lactate dehydrogenase (LDH) release by HeLa cells after infection with <italic>V. parahaemolyticus</italic> strains. Four hours after infection with the wild-type NY-4 strain, <italic>c.</italic> 95% of the HeLa cells were lysed, which is consistent with a previous report (X. Zhou, M.E. Konkel, and D.R. Call, submitted), while the &#x394;<italic>exsA</italic> strain induced less than 5% of HeLa cell death (<xref ref-type="fig" rid="fig02">Fig. 2A</xref>). HeLa cells infected with wild-type strain appeared rounded (<xref ref-type="fig" rid="fig02">Fig. 2C</xref>) while HeLa cell infected with &#x394;<italic>exsA</italic> strain were similar to uninfected cells (Fig. D and data not shown). To avoid the possibility that deletion of <italic>exsA</italic> had polar effects, we ectopically expressed ExsA-6xHis in a plasmid and measured if cytotoxicity was restored. Western blot showed that the predicted protein was expressed in &#x394;<italic>exsA</italic> complemented with an <italic>exsA</italic> plasmid (<xref ref-type="fig" rid="fig02">Fig. 2B</xref>, lane 3) and the complemented strain recovered the full phenotype with <italic>c.</italic>100% of the HeLa cells lysed after infection (<xref ref-type="fig" rid="fig02">Fig. 2A</xref>). Cell rounding was also restored when HeLa cells were infected with complemented strain (<xref ref-type="fig" rid="fig02">Fig. 2E</xref>). These results demonstrated that ExsA is required for <italic>V. parahaemolyticus</italic> to induce host cell death.</p>
+        <fig id="fig02" position="float">
+          <label>Fig. 2</label>
+          <caption>
+            <p>Mutation of <italic>exsA</italic> gene and overexpression of <italic>exsD</italic> gene in wild-type strains attenuated the ability of <italic>V. parahaemolyticus</italic> to induce host cell death.</p>
+            <p>A. HeLa cells were lysed by wild-type (NY-4) and <italic>exsA</italic> complement (&#x394;<italic>exsA</italic> : p<italic>exsA</italic>) strains of <italic>V. parahaemolyticus</italic> while strain &#x394;<italic>exsA</italic> and wild-type strain transformed with <italic>exsD</italic> plasmid (NY-4 : p<italic>exsD</italic>) had significantly lower levels of cytotoxicity against HeLa cells (bars = standard deviation for three replicates; star represents statistical difference <italic>P</italic> &lt; 0.05).</p>
+            <p>B. Expression of <italic>exsA</italic> and <italic>exsD</italic> in &#x394;<italic>exsA</italic> and wild-type strains respectively. Anti-His antibody detected the ExsA and ExsD in the strains of &#x394;<italic>exsA</italic> : p<italic>exsA</italic> and NY-4 : p<italic>exsD</italic> respectively (Lanes 3 and 4), but not in the wild-type or &#x394;<italic>exsA</italic> controls. Morphological observations under light microscope for HeLa cells infected with (C) NY-4 strain, (D) &#x394;<italic>exsA</italic> strain, (E) &#x394;<italic>exsA</italic> : p<italic>exsA</italic> strain and (F) NY-4 : p<italic>exsD</italic> strain.</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>ExsA is required for the transcription of T3SS1 genes in DMEM and is sufficient to activate the transcription of T3SS1 genes in LB-S medium</title>
+        <p>Deletion of the <italic>exsA</italic> eliminated transcription of T3SS1 genes in the DMEM while expression of ExsA ectopically from a plasmid restored the transcription of T3SS1 genes (<xref ref-type="fig" rid="fig03">Fig. 3</xref>), indicating that ExsA is necessary for the transcription of T3SS1 genes in DMEM. Ectopic expression of ExsA in the wild-type strain permitted the transcription of T3SS1 genes even when bacteria were grown in non-inducing medium (i.e. LB-S) (<xref ref-type="fig" rid="fig03">Fig. 3</xref>), indicating that ExsA is sufficient to activate the transcription of T3SS1 genes even when bacterial were grown in non-inducing conditions. These results also indicate that T3SS1 transcriptional activation by environmental signals requires transcription of <italic>exsA</italic>.</p>
+        <fig id="fig03" position="float">
+          <label>Fig. 3</label>
+          <caption>
+            <p>RT-PCR showing expression of T3SS1 genes and <italic>secY</italic>. cDNA (+) made from total RNA isolated from &#x394;<italic>exsA</italic>, &#x394;<italic>exsA</italic> : p<italic>exsA</italic> strains under the inducing (DMEM) growth condition, and NY-4 : p<italic>exsA</italic> strains under non-inducing (LB-S) growth condition was used as template for the RT reactions. Mock reactions (&#x2212;), which did not contain reverse transcriptase, were used as controls against genomic contamination of the RNA preparations.</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f3"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>ExsD is a negative regulator of T3SS1 genes of <italic>V. parahaemolyticus</italic></title>
+        <p>Because <italic>exsD</italic> in <italic>Pseudomonas</italic> negatively regulates the transcription of T3SS genes, we determined if <italic>V. parahaemolyticus vp1698</italic>, the putative <italic>exsD</italic> homologue, has a similar function. Deletion of <italic>exsD</italic> permitted transcription of T3SS1 genes when bacteria were grown in LB-S, indicating that transcriptional suppression of T3SS1 genes in non-inducing condition is due to the expression of <italic>exsD</italic> (<xref ref-type="fig" rid="fig04">Fig. 4</xref>). To determine if T3SS1 genes of the &#x394;<italic>exsD</italic> strain growing in LB-S are transcribed at levels comparable to the wild-type strain under inducing conditions, we diluted the cDNA templates from NY-4 strain growing in DMEM and &#x394;<italic>exsD</italic> strain growing in LB-S and tested these dilutions using RT-PCR. The results showed that the abundance of expression of each T3SS1 gene is similar between NY-4 growing in DMEM and &#x394;<italic>exsD</italic> growing in LB-S, consistent with T3SS1 genes being transcribed at normal levels for the &#x394;<italic>exsD</italic> strain grown in LB-S (<xref ref-type="supplementary-material" rid="SD1">Fig. S1</xref>). To control for any polar effects of <italic>exsD</italic> deletion, the &#x394;<italic>exsD</italic> strain was provided with a wild-type <italic>exsD</italic>-6xHis gene <italic>in trans</italic> and the ectopic expression of ExsD was confirmed by Western blot (<xref ref-type="fig" rid="fig02">Fig. 2B</xref>, lane 4). Complementation of &#x394;<italic>exsD</italic> strain with a wild-type <italic>exsD</italic> restored inhibition of T3SS1 gene transcription in non-inducing conditions, indicating that expression of ExsD is sufficient to repress the transcription of T3SS1 genes in non-inducing condition (<xref ref-type="fig" rid="fig04">Fig. 4</xref>). Ectopic expression of ExsD in the wild-type strain prevented transcription of T3SS1 genes when the bacteria were grown in DMEM. Furthermore, ectopic expression of ExsD significantly reduced the ability of <italic>V. parahaemolyticus</italic> wild-type strain to induce host cell death (<xref ref-type="fig" rid="fig02">Fig. 2A and F</xref>). These results demonstrated that ExsD is a negative regulator of T3SS1 gene transcription in <italic>V. parahaemolyticus</italic>.</p>
+        <fig id="fig04" position="float">
+          <label>Fig. 4</label>
+          <caption>
+            <p>RT-PCR showing expression of T3SS1 genes and <italic>secY.</italic> cDNA (+) made from total RNA isolated from &#x394;<italic>exsD,</italic> &#x394;<italic>exsD :</italic> p<italic>exsD</italic> under the non-inducing (LB-S) growth condition and NY-4 : p<italic>exsD</italic> under inducing (DMEM) growth condition was used as template for the RT reactions. Mock reactions (&#x2212;), which did not contain reverse transcriptase, were used as controls against genomic contamination of the RNA preparations.</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>ExsA but not ExsD binds the promoter sequences of <italic>vp1668</italic> and <italic>vp1687</italic></title>
+        <p>We determined if purified proteins ExsA and ExsD were able to bind the promoter sequences of T3SS1 genes. We selected promoter regions upstream of <italic>vp1668</italic> and <italic>vp1687</italic> because these two regions have hypothetical binding motifs. His-tagged recombinant ExsA, ExsD and Vp1656 proteins were purified to apparent homogeneity as shown by SDS-PAGE and Coomassie brilliant blue staining (<xref ref-type="supplementary-material" rid="SD1">Fig. S2</xref>). Increasing amounts of protein ExsA and ExsD were mixed with &#x223C;180 bp PCR fragment encompassing the putative promoter region of <italic>vp1668</italic> and <italic>vp1687</italic>. Mixtures were size-fractionated by native acrylamide gel eletrophoresis, followed by ethidium bromide staining and visualization. At lower concentrations of ExsA, a low-molecular-weight shifted band was observed while at higher concentrations of ExsA, another high-molecular-weight complex was detected for the promoters of <italic>vp1668</italic> and <italic>vp1687</italic> (<xref ref-type="fig" rid="fig05">Fig. 5A and B</xref>). The negative control protein, Vp1656, did not bind the promoter of <italic>vp1668</italic> (<xref ref-type="fig" rid="fig05">Fig. 5A</xref>). Furthermore, when excessive DNA probe was used, a shifted band as well as an unshifted band (<xref ref-type="fig" rid="fig05">Fig. 5A</xref>) was detected, indicating that binding can be saturated.</p>
+        <fig id="fig05" position="float">
+          <label>Fig. 5</label>
+          <caption>
+            <p>ExsA binds the promoter regions of <italic>vp1668</italic> and <italic>vp1687</italic>.</p>
+            <p>A. Gel shift analysis using &#x223C;180 bp of DNA sequence from the putative promoter region of <italic>vp1668</italic> and purified ExsA.</p>
+            <p>B. Gel shift analysis using &#x223C;180 bp of DNA sequence from the putative promoter region of <italic>vp1687</italic> and purified ExsA.</p>
+            <p>C. Diagram of the DNA fragments within the promoter region of <italic>vp1668</italic> in which the DNA sequences are shown for the black bar; similar sequences to the ExsA binding motif in <italic>Pseudomonas</italic> are shown in bold and putative ExsA binding motif in <italic>V. parahaemolyticus</italic> is underlined; potential ExsA binding sequences are replaced with unrelated boxed sequences (upper panel); Gel shift analysis using each DNA fragment and purified ExsA (0.2 &#x3BC;g) (lower panel).</p>
+            <p>D. Diagram of the DNA fragments within the promoter region of <italic>vp1687</italic> in which the DNA sequences are shown for the black bar; similar sequences to the ExsA binding motif in <italic>Pseudomonas</italic> are shown in bold and a putative ExsA binding motif in <italic>V. parahaemolyticus</italic> is underlined; potential ExsA binding sequences are replaced with unrelated boxed sequences (upper panel); Gel shift analysis using each DNA fragment and purified ExsA (0.3 &#x3BC;g) (lower panel).</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f5"/>
+        </fig>
+        <p>To determine if ExsA binds to specific motif(s) within these two regions, DNA fragments with &#x223C;20 bp truncations at the 3&#x2032; end (<xref ref-type="fig" rid="fig05">Fig. 5C and D</xref>, upper panel) were amplified and subjected to gel mobility shift assay. For promoter <italic>vp1668</italic>, DNA fragments 1&#x2013;4 have the ability to bind ExsA while fragments 5&#x2013;8 lose the ability to bind ExsA (<xref ref-type="fig" rid="fig05">Fig. 5C</xref>), indicating that at least a portion of the last 22 bp segment of fragment 4 is necessary for ExsA binding. For promoter <italic>vp1687</italic>, DNA fragments 1&#x2013;4 bind ExsA while fragment 5 does not bind ExsA (<xref ref-type="fig" rid="fig05">Fig. 5D</xref>), indicating that at least a portion of the last 29 bp segment of fragment 4 is necessary for binding ExsA. To exclude the possibility that product length affects the ability of ExsA to bind fragment 5 from <italic>vp1668</italic> (128 bp), we generated a shorter DNA fragment 9 (112 bp) from 3&#x2032; end of the promoter region encompassing the last 22 bp segment of fragment 4. The results showed that fragment 9 is able to bind ExsA (<xref ref-type="fig" rid="fig05">Fig. 5C</xref>). Thus, loss of binding is not related to the product length. Because the last 22 bp of fragment 4 in <italic>vp1668</italic> and the last 29 bp of fragment 4 in <italic>vp1687</italic> share a consensus sequence, TTTAGN<sub>4</sub>TT, we replaced TTTAGGGCGTTT with CCCCCGGCGTCC (fragment 10) in <italic>vp1668</italic> and replaced TTTAGCATATT with CCCCCCATACC (fragment 6) in <italic>vp1687</italic>. The results showed that both fragment 10 of <italic>vp1668</italic> and fragment 6 of <italic>vp1687</italic> lost the ability to bind ExsA (<xref ref-type="fig" rid="fig05">Fig. 5C and D</xref>), indicating that TTTAGN<sub>4</sub>TT is the probable ExsA binding motif. In addition, when we used a single concentration of ExsA, two shifted bands appeared in fragments 1 and 2 (possibly 3) of promoter <italic>vp1668</italic> while the shifted band with higher molecular weight disappeared for fragments 3&#x2013;8 (<xref ref-type="fig" rid="fig05">Fig. 5C</xref>). When we tested fragment 9, the higher molecular weight band is again evident. These data strongly suggest the presence of a second ExsA binding motif that is independent of the motif described above. ExsD was mixed with promoter <italic>vp1668</italic> and <italic>vp1687</italic> and no shifted bands were observed (<xref ref-type="supplementary-material" rid="SD1">Fig. S3A and S3B</xref>), indicating that ExsD does not directly bind the promoter regions of <italic>vp1668</italic> and <italic>vp1687</italic>.</p>
+      </sec>
+      <sec>
+        <title>Activity of promoter <italic>vp1668</italic> and promoter <italic>exsA</italic> increases with inducing conditions</title>
+        <p>We characterized the promoter activity of <italic>vp1668</italic> and <italic>exsA</italic> in different growth conditions and different strains. For unknown reasons, we were unable to generate the single copy of transcriptional <italic>lacZ</italic> reporter fusion in the bacterial chromosome for promoter <italic>vp1687</italic>. A single copy of promoters <italic>vp1668&#x2013;lacZ</italic> and <italic>exsA&#x2013;lacZ</italic> was introduced into wild-type, &#x394;<italic>exsA</italic> and &#x394;<italic>exsD</italic> strains of <italic>V. parahaemolyticus</italic>, and &#x3B2;-galactosidase activities were measured. The activity of the promoter <italic>vp1668</italic> increased five to six times when the wild-type strain of <italic>V. parahaemolyticus</italic> was grown in DMEM or after contact with HeLa cells respectively, compared with bacteria grown in LB-S (<xref ref-type="fig" rid="fig06">Fig. 6A</xref>). The activity of the promoter <italic>exsA</italic> increased three to four times when wild-type strain of <italic>V. parahaemolyticus</italic> was grown in DMEM or contact with HeLa cells respectively, compared with bacteria grown in LB-S (<xref ref-type="fig" rid="fig06">Fig. 6B</xref>). These results indicate that the promoter activity of <italic>vp1668</italic> and <italic>exsA</italic> increases when the bacteria are grown in DMEM, and that contact with eukaryotic cells produces an additive effect. Promoter activity of <italic>vp1668</italic> in &#x394;<italic>exsA</italic> strain was about five times less than the wild-type strain when bacteria were grown in DMEM, suggesting that ExsA is crucial for activating promoter <italic>vp1668</italic>. Contact with HeLa cells did not increase the promoter activity of <italic>vp1668</italic> in the &#x394;<italic>exsA</italic> strain (<xref ref-type="fig" rid="fig06">Fig. 6A</xref>), indicating that eukaryotic contact does not override the requirement of ExsA for the activation of promoter <italic>vp1668</italic>. The activity of promoter <italic>vp1668</italic> in &#x394;<italic>exsD</italic> strain increased approximately eight times compared with the wild-type strain when the bacteria were grown in LB-S (<xref ref-type="fig" rid="fig06">Fig. 6A</xref>), verifying that promoter activity of <italic>vp1668</italic> is inhibited by ExsD when bacteria are grown in LB-S (<xref ref-type="fig" rid="fig04">Fig. 4</xref>). Promoter activity of <italic>exsA</italic> in the &#x394;<italic>exsA</italic> strain is similar to that of the wild-type strain when bacteria were grown in DMEM or contact with HeLa cells (<xref ref-type="fig" rid="fig06">Fig. 6B</xref>), indicating that <italic>exsA</italic> transcription is not affected by ExsA. Finally, promoter activity of <italic>exsA</italic> in &#x394;<italic>exsD</italic> strain increased about three times compared with that of the wild-type strain when bacteria were grown in LB-S, confirming an inhibitory role of ExsD in the expression of ExsA (<xref ref-type="fig" rid="fig06">Fig. 6B</xref>).</p>
+        <fig id="fig06" position="float">
+          <label>Fig. 6</label>
+          <caption>
+            <p>Promoter activity of (A) <italic>vp1668</italic> and (B) <italic>exsA</italic> in different strains and conditions. Bacteria were grown in LB-S, DMEM or contact with HeLa cells for 4 h and levels of &#x3B2;-galactosidase activity were measured (<italic>y</italic>-axis). The values represent the means &#xB1; SD of three replicates. Asterisks represent statistical difference (<italic>P</italic> &lt; 0.05).</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f6"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Expression and secretion of Vp1656 is regulated by ExsA and ExsD</title>
+        <p>Vp1656 was shown previously to be secreted by T3SS1 of <italic>V. parahaemolyticus</italic> (<xref ref-type="bibr" rid="b42">Park <italic>et al</italic>., 2004</xref>; <xref ref-type="bibr" rid="b41">Ono <italic>et al</italic>. 2006</xref>), so we determined if the expression and secretion of Vp1656 were regulated by ExsA and ExsD. Polyclonal antibody against Vp1656 was generated by immunizing mice with the recombinant protein Vp1656 and the specificity of the polyclonal antibody was analysed by Western blot (<xref ref-type="fig" rid="fig07">Fig. 7A</xref>). Two bands were detected in the &#x394;<italic>exsD</italic> strain growing in LB-S while the lower band disappeared in the &#x394;<italic>vp1656 exsD</italic> mutant strain, consistent with the lower band being Vp1656 as specifically recognized by the polyclonal antibody while the upper band is a non-specific protein (<xref ref-type="fig" rid="fig07">Fig. 7A</xref>). After the NY-4 strain was grown in DMEM for 2 h, Vp1656 was expressed (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 12) while Vp1656 was not expressed when bacteria were grown in LB-S (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 13). Furthermore, expression of Vp1656 was increased after contact of wild-type strain with HeLa cells for 2 h compared with grown in DMEM (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 11), confirming that eukaryotic cell contact acts in an additive manner on expression of Vp1656. Interestingly, Vp1656 was not detected in the wild-type strain after 4 h of incubation in both DMEM and LB-S (data not shown). We were not able to detect Vp1656 in the supernatant for the wild-type strain (<xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lane 7 and 8). This is possibly due to insufficient assay sensitivity for these conditions. Vp1656 was not detected when the &#x394;<italic>exsA</italic> strain was grown in DMEM for 2 h (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 6; <xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lane 3), or after contact with HeLa cells (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 5). These results indicate that ExsA is required for the expression of Vp1656 in DMEM and eukaryotic cell contact does not override the requirement of ExsA for the expression of Vp1656. Ectopic expression of ExsA in the &#x394;<italic>exsA</italic> strain and wild-type strain resulted in significant expression of Vp1656 (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lanes 1&#x2013;4; <xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lanes 1 and 2). Thus, ExsA is sufficient for the expression and secretion of Vp1656 even when bacteria were grown in the non-inducing condition. Vp1656 was expressed and secreted in &#x394;<italic>exsD</italic> strain (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 10; <xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lane 6) and complementation of &#x394;<italic>exsD</italic> strain with a wild-type <italic>exsD</italic> gene <italic>in trans</italic> prevented Vp1656 expression and secretion when bacteria were grown in LB-S (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 9; <xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lane 5). The wild-type strain provided with an <italic>exsD</italic> gene <italic>in trans</italic> blocked Vp1656 expression and secretion when bacteria were grown in DMEM or in contact with HeLa cells (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lanes 7 and 8; <xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lane 4). Thus, ExsD is sufficient to repress the expression and secretion of Vp1656 and eukaryotic cell contact does not override the inhibitory role of ExsD.</p>
+        <fig id="fig07" position="float">
+          <label>Fig. 7</label>
+          <caption>
+            <p>A. Western blot showing the specificity for the polyclonal antibody against Vp1656 for the &#x394;<italic>exsD</italic> strain (right lane) and the &#x394;<italic>vp1656 exsD</italic> strain (left lane). A non-specific protein band (&#x2018;N&#x2019;) was detected with this antisera and serves as a positive detection control in these experiments.</p>
+            <p>B. Expression of Vp1656 after bacteria were grown for 2 h in different conditions. Lane 1 shows purified protein Vp1656-6xHis.</p>
+            <p>C. Secretion of Vp1656 after bacteria were grown for 2 h in different conditions.</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f7"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Expression of T3SS1 genes in the absence of ExsD is ExsA-dependent</title>
+        <p>ExsA is required for the expression of T3SS1 genes in the wild-type strain grown under inducing conditions or after contact with HeLa cells (<xref ref-type="fig" rid="fig03">Figs 3</xref> and <xref ref-type="fig" rid="fig07">7</xref>). We next determined if ExsA is also required for the <italic>exsD</italic> mutant strain to express T3SS1 genes when bacteria were grown in non-inducing condition. T3SS1 genes were not transcribed in a &#x394;<italic>exsA exsD</italic> double mutant strain growing in LB-S (<xref ref-type="fig" rid="fig08">Fig. 8A</xref>), while transcription of T3SS1 genes was detected when &#x394;<italic>exsA exsD</italic> double mutant strain was provided with a wild-type <italic>exsA</italic> gene <italic>in trans</italic>. As expected, transcription of <italic>exsD</italic> gene was not detected for both double mutant strain and the complemented strain (<xref ref-type="fig" rid="fig08">Fig. 8A</xref>). After the &#x394;<italic>exsA exsD</italic> double mutant strain was grown in LB-S, Vp1656 was not expressed (<xref ref-type="fig" rid="fig08">Fig. 8B</xref>, upper right panel) or secreted (<xref ref-type="fig" rid="fig08">Fig. 8B</xref>, lower right panel), while addition of the double mutant strain with a wild-type <italic>exsA</italic> gene <italic>in trans</italic> restored the expression (<xref ref-type="fig" rid="fig08">Fig. 8B</xref>, upper left panel) and secretion of Vp1656 (<xref ref-type="fig" rid="fig08">Fig. 8B</xref>, lower left panel). These results indicated that expression of T3SS1 genes by &#x394;<italic>exsD</italic> strain under non-inducing condition is dependent on ExsA. These results also indicated that transcriptional activity of <italic>exsA</italic> is independent of ExsD.</p>
+        <fig id="fig08" position="float">
+          <label>Fig. 8</label>
+          <caption>
+            <p>Expression of T3SS1 genes in the absence of ExsD is dependent on ExsA.</p>
+            <p>A. RT-PCR showing that T3SS1 genes are not transcribed in the &#x394;<italic>exsA exsD</italic> strain while transcription of T3SS1 genes is restored in &#x394;<italic>exsA exsD</italic> : p<italic>exsA</italic> strain growing in LB-S. Mock reactions (&#x2212;), which did not contain reverse transcriptase in the RT reaction, were used as controls against genomic contamination of the RNA preparations. <italic>SecY</italic> was a house-keeping gene used as an internal control to ensure that RNA was present in all samples.</p>
+            <p>B. Western blot showing expression and secretion of Vp1656 for the double mutant strain &#x394;<italic>exsA exsD</italic> and &#x394;<italic>exsA exsD</italic> strain complemented with a wild-type <italic>exsA</italic> gene <italic>in trans</italic> when grown in LB-S for 4 h. Vp1656 was detected with polyclonal anti-Vp1656 antibody and &#x2018;N&#x2019; in the upper panel represents a non-specific band that serves as a positive detection control.</p>
+          </caption>
+          <graphic xlink:href="mmi0069-0747-f8"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>Transcription and expression of T3SS genes are controlled by specific environmental conditions and a subsequent regulatory cascade. Signals that induce transcription include contact between bacteria and eukaryotic cells or other specific growth conditions. For example, transcription and expression of T3SS genes in <italic>Pseudomonas</italic> and <italic>Yersinia</italic> are activated in response to low concentration of calcium (<xref ref-type="bibr" rid="b14">Finck-Barbancon <italic>et al</italic>., 1997</xref>; <xref ref-type="bibr" rid="b54">Vallis <italic>et al</italic>., 1999</xref>; <xref ref-type="bibr" rid="b23">Jackson <italic>et al</italic>., 2004</xref>) while in <italic>Salmonella</italic>, T3SS genes are activated in high-osmolarity and low-oxygen conditions (<xref ref-type="bibr" rid="b27">Lee and Falkow, 1990</xref>; <xref ref-type="bibr" rid="b4">Bajaj <italic>et al</italic>., 1996</xref>; <xref ref-type="bibr" rid="b18">Gunn <italic>et al</italic>., 1996</xref>; <xref ref-type="bibr" rid="b2">Arricau <italic>et al</italic>., 1998</xref>). Co-ordinate regulation of T3SS genes ensures that these genes are properly expressed and fully functional during infection; presumably they are not expressed in other environmental conditions to conserve energy. A previous study showed that secretion of protein can be induced when <italic>V. parahaemolyticus</italic> was cultured in DMEM (<xref ref-type="bibr" rid="b26">Kodama <italic>et al</italic>., 2007</xref>); thus we reasoned that DMEM culture conditions activate the transcription of T3SS1 genes. In this study, we determined transcription patterns for 10 T3SS1 genes in <italic>V. parahaemolyticus</italic> of which five genes encode apparatus proteins, three genes encode T3SS substrates, and two genes encode regulatory proteins. We showed that when LB-S was used as growth medium, there is minimal transcription of these genes in the wild-type strain NY-4. <italic>ExsD</italic> is transcribed in LB-S at what appears to be low levels (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). When bacteria were grown in tissue culture medium (DMEM), all of the T3SS1 genes tested here were transcribed. For other bacteria, others have shown that tissue culture medium (DMEM) activates a variety of virulence genes including bundle-forming pili (<xref ref-type="bibr" rid="b44">Puente <italic>et al</italic>., 1996</xref>), EspA and EspB proteins (<xref ref-type="bibr" rid="b11">Ebel <italic>et al</italic>., 1996</xref>) and Tir and Intimin (<xref ref-type="bibr" rid="b46">Shin <italic>et al</italic>., 2001</xref>; <xref ref-type="bibr" rid="b1">Abe <italic>et al</italic>., 2002</xref>). In one study, investigators demonstrated that NaHCO<sub>3</sub> in DMEM was responsible for the activation of EspA and EspB proteins in <italic>Escherichia coli</italic> (<xref ref-type="bibr" rid="b1">Abe <italic>et al</italic>., 2002</xref>). The specific factor(s) responsible for the activation of T3SS1 gene transcription in <italic>V. parahaemolyticus</italic> remain to be determined.</p>
+      <p>Mutational analysis demonstrated that environmental regulation of T3SS1 genes in <italic>V. parahaemolyticus</italic> is through the positive regulator, ExsA, and negative regulator, ExsD. ExsA is a member of AraC family of transcriptional activators that are defined by a 100-amino-acid segment of sequence that corresponds to a DNA binding domain of two helix-turn-helix DNA binding motifs (<xref ref-type="bibr" rid="b16">Gallegos <italic>et al</italic>., 1997</xref>). Proteins belonging to AraC family regulate many processes in bacteria, including sugar (<xref ref-type="bibr" rid="b36">Mota <italic>et al</italic>., 1999</xref>; <xref ref-type="bibr" rid="b43">Plumbridge and Pellegrini, 2004</xref>; <xref ref-type="bibr" rid="b45">Raposo <italic>et al</italic>., 2004</xref>), amino acid (<xref ref-type="bibr" rid="b61">Zeng and Jin, 2003</xref>; <xref ref-type="bibr" rid="b30">Ma <italic>et al</italic>., 2004</xref>) and alcohol degradation (<xref ref-type="bibr" rid="b40">Onaca <italic>et al</italic>., 2007</xref>), stress responses (<xref ref-type="bibr" rid="b48">van der Straaten <italic>et al</italic>., 2004</xref>) and pathogenesis (<xref ref-type="bibr" rid="b9">DiRita, 1992</xref>; <xref ref-type="bibr" rid="b16">Gallegos <italic>et al</italic>., 1997</xref>; <xref ref-type="bibr" rid="b12">Egan, 2002</xref>). Virulence-associated AraC-type proteins regulate gene expression in response to environmental conditions, such as temperature, osmolarity, pH and metal ions (<xref ref-type="bibr" rid="b15">Gallegos <italic>et al</italic>., 1993</xref>; <xref ref-type="bibr" rid="b16">1997</xref>). Some of the AraC-type regulators control gene expression by direct interaction with specific molecules. For example, TxtR, an AraC regulator in <italic>Streptomyces,</italic> activates thaxtomin biosynthesis gene expression by binding with cellobiose, an inducer of thaxtomin production (<xref ref-type="bibr" rid="b25">Joshi <italic>et al</italic>., 2007</xref>). Another example is UreR protein of <italic>Providencia stuartii</italic> that binds urea directly, which significantly increases the affinity of the protein for its DNA binding sites (<xref ref-type="bibr" rid="b51">Thomas and Collins, 1999</xref>; <xref ref-type="bibr" rid="b17">Gendlina <italic>et al</italic>., 2002</xref>). Other AraC proteins regulate gene expression by binding directly the promoter region of target genes. In <italic>Pseudomonas</italic>, ExsA activates the transcription of T3SS genes by directly binding to the promoter sequences of T3SS genes in the calcium-limited condition and the consensus binding site within the promoter sequences are TNAAANA, which is centered &#x223C;15 base pairs upstream of the &#x2212;35 RNA polymerase binding sites (<xref ref-type="bibr" rid="b56">Yahr and Frank, 1994</xref>; <xref ref-type="bibr" rid="b21">Hovey and Frank, 1995</xref>; <xref ref-type="bibr" rid="b58">Yahr <italic>et al</italic>., 1995</xref>).</p>
+      <p>Sequence analysis of the genomic island of T3SS1 genes in <italic>V. parahaemolyticus</italic> indicated that there were several intergenic spaces that might serve as promoter regions. The first region is between <italic>vp1667</italic> and <italic>vp1668,</italic> and this region may serve as a promoter to initiate the transcription of genes downstream of <italic>vp1667</italic> and <italic>vp1668</italic> because <italic>vp1667</italic> and <italic>vp1668</italic> are transcribed in the opposite directions. The second region is between <italic>vp1687</italic> and <italic>vp1688</italic> and this region may serve as promoter to initiate the transcription of genes downstream of <italic>vp1687</italic>. The third region is between <italic>vp1694</italic> and <italic>vp1695</italic> and the fourth region is between <italic>vp1698</italic> and <italic>vp1699</italic>. Further analysis indicated that putative promoter regions for <italic>vp1668</italic> and <italic>vp1687</italic> contain the DNA sequence of TCAAAATCA and TGAAAAATA respectively, consistent to the ExsA protein binding motif, TNAAANA in <italic>Pseudomonas</italic>. Electrophoretic mobility shift assay (EMSA) results (<xref ref-type="fig" rid="fig05">Fig. 5A and B</xref>) demonstrated that purified ExsA protein is able to directly bind these two DNA regions. Surprisingly, DNA fragment 5 from the <italic>vp1668</italic> promoter region, which encompasses a putative binding motif (TCAAAATCA), but does not bind ExsA (<xref ref-type="fig" rid="fig05">Fig. 5C</xref>). DNA fragment 4 from the <italic>vp1687</italic> promoter does not encompass its putative binding motif (TGAAAAATA), yet this fragment binds ExsA (<xref ref-type="fig" rid="fig05">Fig. 5D</xref>). Further analysis between the last 20 residues of fragment 4 within the promoter region of <italic>vp1668</italic> (<xref ref-type="fig" rid="fig05">Fig. 5C,</xref> upper panel) and the last 29 residues of fragment 4 within the promoter region of <italic>vp1687</italic> (<xref ref-type="fig" rid="fig05">Fig. 5D,</xref> upper panel) identified a consensus sequence TTTAGN<sub>4</sub>TT. Mutation of this consensus sequence blocks ExsA binding, and thus the consensus sequence encompasses a unique binding motif. Binding of ExsA within the promoter region results in the transcription and expression of Vp1668, Vp1687 and their downstream genes, because transcription of T3SS1 genes and expression of Vp1656 were blocked in the &#x394;<italic>exsA</italic> strain while addition of <italic>exsA in trans</italic> restored T3SS1 transcription and Vp1656 expression (<xref ref-type="fig" rid="fig03">Figs 3</xref> and <xref ref-type="fig" rid="fig07">7</xref>). Promoter activity of <italic>vp1668</italic> in &#x394;<italic>exsA</italic> strain decreased to the baseline, indicating that the promoter activity of <italic>vp1668</italic> requires the expression of ExsA.</p>
+      <p>In <italic>Pseudomonas</italic>, ExsD is a cytosolic protein that directly interacts with ExsA and inhibits ExsA-dependent transcription (<xref ref-type="bibr" rid="b31">McCaw <italic>et al</italic>., 2002</xref>). Deletion of ExsD allows transcription of T3SS genes in <italic>Pseudomonas</italic>. We found that under non-inducing condition, only <italic>exsD</italic> was clearly transcribed in <italic>V. parahaemolyticus</italic> (<xref ref-type="fig" rid="fig01">Fig. 1</xref>), consistent with ExsD repression of T3SS1 genes. We demonstrated that transcription of T3SS1 genes (<xref ref-type="fig" rid="fig04">Fig. 4</xref>) and expression of Vp1656 (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lane 10; <xref ref-type="fig" rid="fig07">Fig. 7C</xref>, lane 6) occurred in the &#x394;<italic>exsD</italic> strain when bacteria were grown in non-inducing conditions. Furthermore, promoter activity of <italic>vp1668</italic> and <italic>exsA</italic> was significantly increased in &#x394;<italic>exsD</italic> strain compared with the wild-type strain grown in non-inducing conditions (<xref ref-type="fig" rid="fig06">Fig. 6A and B</xref>). These results demonstrated that <italic>V. parahaemolyticus</italic> ExsD functions as an inhibitor of T3SS1 gene expression. With inducing conditions, overexpression of ExsD in wild-type strain inhibited the transcription of T3SS1 genes (<xref ref-type="fig" rid="fig04">Fig. 4</xref>). Furthermore, overexpression of ExsD inhibited the expression of Vp1656 when bacteria were grown in DMEM or while in contact with eukaryotic cells (<xref ref-type="fig" rid="fig07">Fig. 7B</xref>, lanes 7 and 8). These results demonstrate that <italic>V. parahaemolyticus</italic> ExsD alone is sufficient to block transcription and expression of T3SS1 genes. Because ExsD is not able to bind the promoter of <italic>vp1668</italic> and <italic>vp1687</italic> (<xref ref-type="supplementary-material" rid="SD1">Fig. S3A and S3B</xref>), it is unlikely that ExsD regulates the transcription of T3SS1 genes directly. Furthermore, when grown in LB-S, the activity of the <italic>exsA</italic> promoter in the wild-type strain is significantly less than <italic>exsA</italic> promoter activity in the &#x394;<italic>exsD</italic> strain (<xref ref-type="fig" rid="fig06">Fig. 6B</xref>), In this situation, there are not environmental signals for transcription of <italic>exsA</italic> and, therefore, this is clear evidence that ExsD blocks transcription of <italic>exsA</italic> [probably in conjunction with another interacting protein(s)].</p>
+      <p>One interesting finding is that transcription of <italic>exsD</italic> is lower in non-inducing condition than in inducing condition (<xref ref-type="fig" rid="fig01">Fig. 1</xref>). In addition, transcription of <italic>exsD</italic> is lower in the &#x394;<italic>exsA</italic> strain compared with the strain complemented with a wild-type <italic>exsA</italic> gene (<xref ref-type="fig" rid="fig03">Fig. 3</xref>). These results indicate that expression of ExsA facilitates the transcription of <italic>exsD</italic> and expression of ExsD blocks transcription of <italic>exsA</italic> (<xref ref-type="fig" rid="fig04">Fig. 4</xref>). This appears to be a negative feedback system that modulates transcription and expression of T3SS1 genes. <italic>Pseudomonas</italic> has two additional T3SS gene regulators, <italic>exsC</italic> and <italic>exsE</italic> (<xref ref-type="bibr" rid="b57">Yahr and Wolfgang, 2006</xref>). ExsC is able to bind ExsD and prevent binding of ExsD with ExsA and thereby permit T3SS gene transcription (<xref ref-type="bibr" rid="b8">Dasgupta <italic>et al</italic>., 2004</xref>). ExsE, a substrate of T3SS, accumulates within the bacterium when bacteria are grown in non-inducing condition and binds ExsC (<xref ref-type="bibr" rid="b53">Urbanowski <italic>et al</italic>., 2005</xref>). Binding of ExsE with ExsC allows ExsD to bind ExsA, leading to the transcriptional repression of T3SS genes (<xref ref-type="bibr" rid="b53">Urbanowski <italic>et al</italic>., 2005</xref>). Sequence analysis showed that <italic>vp1701</italic> in <italic>V. parahaemolyticus</italic> shares 29% similarity with <italic>exsC</italic> in <italic>Pseudomonas</italic>, and thus it would be interesting to determine if <italic>vp1701</italic> is also involved in the regulation of T3SS1 genes.</p>
+      <p>We have also found that expression of Vp1656 in wild-type strain was only observed when bacteria were incubated for 2 h while after 4 h of incubation, expression of Vp1656 was not detectable. This is consistent with an earlier report showing that quorum sensing negatively regulates the expression of Vp1656 (<xref ref-type="bibr" rid="b19">Henke and Bassler, 2004</xref>). Vp1656 is produced and secreted only when quorum sensing was knocked out (<xref ref-type="bibr" rid="b19">Henke and Bassler, 2004</xref>). Our study showed that deletion of <italic>exsD</italic> resulted in the constitutive expression and secretion of Vp1656, suggesting a possible interaction between <italic>exsD</italic> with quorum sensing. Furthermore, overexpression of ExsA also led to the constitutive expression and secretion of Vp1656, indicating that ExsA might play a role in the repression of quorum sensing in <italic>V. parahaemolyticus</italic>. Regulation of quorum sensing by AraC proteins has been observed in <italic>Pseudomonas aeruginosa</italic> (<xref ref-type="bibr" rid="b10">Dong <italic>et al</italic>. 2005</xref>) and <italic>V. parahaemolyticus</italic> (<xref ref-type="bibr" rid="b13">Enos-Berlage <italic>et al</italic>. 2005</xref>), and here we suggest another possible mechanism to regulate quorum sensing via the <italic>exsA</italic> gene in <italic>V. parahaemolyticus</italic>. We also found that contact with eukaryotic cells increased the expression of Vp1656 in an additive manner compared with growth in DMEM alone.</p>
+      <p>Based on our results, it appears that when <italic>V. parahaemolyticus</italic> is grown in non-inducing condition (e.g. LB-S), ExsD is expressed and blocks transcription of <italic>exsA</italic>. When <italic>V. parahaemolyticus</italic> is grown under inducing conditions (e.g. DMEM), <italic>exsA</italic> is transcribed by an environmental signalling pathway and ExsA binds directly to the promoter region of T3SS1 genes, leading to their expression. At the same time, ExsA increases the transcription of <italic>exsD</italic> (<xref ref-type="fig" rid="fig03">Fig. 3</xref>), which in turn provides a negative feedback to downregulate and thereby modulate the expression of T3SS1 genes. Our results suggest that the most parsimonious pathway by which ExsD exerts its effects is by blocking transcription of <italic>exsA</italic> rather than by blocking the environmental signalling pathway or by blocking transcription of individual T3SS1 genes.</p>
+      <p>In summary, we identified conditions that induce the expression of T3SS1 genes of <italic>V. parahaemolyticus</italic> and showed that ExsA activates their expression by directly binding the promoter region of T3SS1 genes. In addition, transcription of T3SS1 genes is blocked by overexpression of ExsD while deletion of <italic>exsD</italic> gene permitted the transcription of T3SS1 genes under non-inducing conditions. Either deletion of <italic>exsA</italic> or overexpression of ExsD attenuates the ability of <italic>V. parahaemolyticus</italic> to induce host cell death.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Experimental procedures</title>
+      <sec>
+        <title>Bacterial strains, plasmids and growth conditions</title>
+        <p>The strains used in this study are listed in <xref ref-type="table" rid="tbl1">Table 1</xref>. All <italic>V. parahaemolyticus</italic> strains were derived from the wild-type strain NY-4 (X. Zhou, M.E. Konkel, and D.R. Call, submitted). Strains were grown in LB broth or LB agar supplemented with 2.5% sodium chloride at 37&#xB0;C. <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> was used in gene deletion experiments and was cultured in LB medium. Plasmid pMMB207 was used in complementation experiments and plasmid pDM4 was used for gene knockout experiments. Other derivative plasmids are listed in <xref ref-type="table" rid="tbl1">Table 1</xref>. When appropriate, antibiotics were added at the following concentrations: ampicillin, 100 &#x3BC;g ml<sup>&#x2212;1</sup>; chloramphenicol, 25 &#x3BC;g ml<sup>&#x2212;1</sup> for <italic>E. coli</italic> and 5 &#x3BC;g ml<sup>&#x2212;1</sup> for <italic>V. parahaemolyticus</italic>.</p>
+        <table-wrap id="tbl1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Strains and plasmids used in this study.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Strains and plasmids</th>
+                <th align="left" rowspan="1" colspan="1">Descriptions</th>
+                <th align="left" rowspan="1" colspan="1">Sources</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">
+                  <italic>E. coli</italic>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-1&#x3BB;<italic>pir</italic></td>
+                <td align="left" rowspan="1" colspan="1"><italic>thi pro hsdR hsdM</italic><sup>+</sup><italic>recA</italic> RP4-2-Tc::Mu-Km::Tn<italic>7</italic>&#x3BB;<italic>pir</italic></td>
+                <td align="left" rowspan="1" colspan="1">
+                  <xref ref-type="bibr" rid="b33">Milton <italic>et al</italic>. (1992)</xref>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-<italic>exsA&#x2013;lacZ</italic></td>
+                <td align="left" rowspan="1" colspan="1">S17 carrying pNK8-<italic>exsA&#x2013;lacZ</italic></td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-1668<italic>&#x2013;lacZ</italic></td>
+                <td align="left" rowspan="1" colspan="1">S17 carrying pNK8-1668&#x2013;lacZ</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-pMMB207-RBS-<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">S17 carrying pMMB207-RBS-<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-pMMB207-<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">S17 carrying pMMB207-<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-pDM4-1699-1F + 2R</td>
+                <td align="left" rowspan="1" colspan="1">S17 carrying pDM4-1699-1F + 2R</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;S17-pDM4-1698-1F + 2R</td>
+                <td align="left" rowspan="1" colspan="1">S17 carrying pDM4-1698-1F + 2R</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">
+                  <italic>V parahaemolyticus</italic>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;NY-4</td>
+                <td align="left" rowspan="1" colspan="1">Clinical isolate O3 : K6</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1"><italic>exsA</italic> (<italic>vp1699</italic>) deletion mutant</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>exsA</italic> : <italic>pexsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">&#x394;<italic>exsA</italic> complemented with <italic>exsA</italic> gene located in the plasmid of pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;NY-4 : p<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">Wild-type strain containing <italic>exsA</italic> gene located in the plasmid of pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;<italic>vp1668&#x2013;lacZ</italic>::NY-4</td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>vp1668</italic> was inserted in the upstream of <italic>lacZ</italic> gene in NY-4 strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;<italic>vp1668&#x2013;lacZ</italic>::&#x394;<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of vp1668 was inserted in the upstream of lacZ gene in &#x394;<italic>exsA</italic> strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;<italic>vp1668&#x2013;lacZ</italic>::&#x394;<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>vp1668</italic> was inserted in the upstream of <italic>lacZ</italic> gene in &#x394;<italic>exsD</italic> strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;<italic>vp1699&#x2013;lacZ</italic>::NY-4</td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>vp1699</italic> was inserted in the upstream of <italic>lacZ</italic> gene in NY-4 strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;<italic>vp1699&#x2013;lacZ</italic>::&#x394;<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>vp1699</italic> was inserted in the upstream of <italic>lacZ</italic> gene in &#x394;<italic>exsA</italic> strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;<italic>vp1699&#x2013;lacZ</italic>::&#x394;<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>vp1699</italic> was inserted in the upstream of <italic>lacZ</italic> gene in &#x394;<italic>exsD</italic> strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1"><italic>exsD (vp1698</italic>) deletion mutant</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>exsD</italic> : p<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">&#x394;<italic>exsD</italic> complemented with <italic>exsD</italic> gene located in the plasmid of pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;NY-4 : p<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">Wild-type strain containing <italic>exsD</italic> gene located in the plasmid of pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>exsA exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1"><italic>exsA</italic> and <italic>exsD</italic> double mutant strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>exsA exsD</italic> : p<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1">&#x394;<italic>exsA exsD</italic> complemented with <italic>exsA</italic> gene located in the plasmid of pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x394;<italic>vp1656 exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1">Insertional mutation of <italic>vp1656</italic> on the background of &#x394;<italic>exsD</italic> strain</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">
+                  <italic>Yersenia enterocolitica</italic>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;JB580v</td>
+                <td align="left" rowspan="1" colspan="1">Serogroup O : 8, Nal<sup>r</sup>&#x394;<italic>yenR</italic> (r<sup>-</sup> m<sup>+</sup>)</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <xref ref-type="bibr" rid="b60">Young and Young (2002)</xref>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">Plasmids</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">RSF1010 derivative, <italic>IncQ lacI</italic><sup>q</sup> Cm<sup>r</sup> P<italic>tac oriT</italic></td>
+                <td align="left" rowspan="1" colspan="1">
+                  <xref ref-type="bibr" rid="b35">Morales <italic>et al</italic>. (1991)</xref>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pNK8</td>
+                <td align="left" rowspan="1" colspan="1">MobRP4 oriR6K, transcriptional reporter vector</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <xref ref-type="bibr" rid="b55">Walker and Miller (2004)</xref>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pDM4</td>
+                <td align="left" rowspan="1" colspan="1">A suicide vector with ori R6K <italic>sacB</italic>; Cm<sup>r</sup></td>
+                <td align="left" rowspan="1" colspan="1">
+                  <xref ref-type="bibr" rid="b34">Milton <italic>et al</italic>. (1996)</xref>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pMMB207-RBS-<italic>exsA</italic></td>
+                <td align="left" rowspan="1" colspan="1"><italic>exsA</italic> coding sequences and the sequences for 6 His amino acids at the C-terminus cloned into pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pMMB207-<italic>exsD</italic></td>
+                <td align="left" rowspan="1" colspan="1"><italic>exsD</italic> coding sequences and the sequences for 6 His amino acids at the C-terminus cloned into pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pMMB207-1656</td>
+                <td align="left" rowspan="1" colspan="1">Vp1656 coding sequences and the sequences for 6 His amino acids at the C-terminus cloned into pMMB207</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pNK8-<italic>exsA&#x2013;lacZ</italic></td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>exsA</italic> cloned into pNK8</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pNK8-1668&#x2013;lacZ</td>
+                <td align="left" rowspan="1" colspan="1">Promoter sequences of <italic>vp1668</italic> cloned into pNK8</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pDM4-1699-1F + 2R</td>
+                <td align="left" rowspan="1" colspan="1">Flanking region sequences of <italic>exsA</italic> cloned into pDM4</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pDM4-1699-1F + 2R</td>
+                <td align="left" rowspan="1" colspan="1">Flanking region sequences of <italic>exsD</italic> cloned into pDM4</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pDM4-1656insertion</td>
+                <td align="left" rowspan="1" colspan="1">Internal region of <italic>vp1656</italic> cloned into pDM4</td>
+                <td align="left" rowspan="1" colspan="1">This study</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Construction of deletion mutants</title>
+        <p>Deletion mutants were generated by homologous recombination. A chromosomal deletion in the <italic>exsA</italic> gene wasconstructed by allelic exchange using a suicide vector, pDM4, carrying DNA fragments corresponding to <italic>exsA</italic> flanking regions (<xref ref-type="bibr" rid="b34">Milton <italic>et al</italic>., 1996</xref>). Two DNA fragments were amplified by PCR with <italic>V. parahaemolyticus</italic> strain NY-4 chromosomal DNA as a template with primer pairs 1699-1F and 1699-1R and 1699-2F and 1699-2R respectively (<xref ref-type="table" rid="tbl2">Table 2</xref>). Fragment 1 (approximately 1000 bp upstream of the start codon) amplified with 1699-1F and 1699-1R was digested with XhoI and BglII and fragment 2 (approximately 1000 bp downstream of the stop codon) amplified with 1699-2F and 1699-2R was digested with BglII and XbaI. These two digested fragments were ligated into the pDM4 suicide vector, which had been digested with XhoI and XbaI. The resultant plasmid was designated pDM4-1699-1F + 2R. This plasmid was transformed into <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic>, resulting in the strain S17-pDM4-1699-1F + 2R. pDM4-1699-1F + 2R was then transferred into the <italic>V. parahaemolyticus</italic> NY-4 wild-type strain by conjugation, and both ampicillin- and chloramphenicol-resistant transconjugants were selected. Ampicillin was used to select against <italic>E. coli</italic> and chloramphenicol was used to select for transconjugants. To complete the allelic exchange, the integrated suicide plasmid was induced to excise from the chromosome by growth on LB-S medium containing 5% sucrose. Chloramphenicol-sensitive clones were obtained and screened by PCR with primers 1699-up and 1699-down that lie adjacent to the <italic>vp1699</italic>. One clone was selected with the <italic>exsA</italic> gene deletion and designated as &#x394;<italic>exsA</italic>. Construction of <italic>exsD</italic> deletion mutant was performed in the same manner by using the following primers: 16981-F, 1698-1R, 1698-2F, 1698-2R, 1698-up and 1698-down (<xref ref-type="table" rid="tbl2">Table 2</xref>). One PCR-confirmed clone was isolated and designated as &#x394;<italic>exsD</italic>. Double mutant strain was generated by conjugating the plasmid pDM4-1699-1F + 2R from <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> to &#x394;<italic>exsD</italic> strain and one PCR-confirmed clone was isolated and designated as &#x394;<italic>exsA exsD</italic>. For construction of &#x394;<italic>vp1656 exsD</italic>, primers1656insertion_FW and 1656insertion_RE were used to amplify the internal region of <italic>vp1656</italic>. PCR fragment was digested with XhoI and BglII and were ligated into pDM4 digested with the same enzyme. The resultant plasmid was designated pDM4-1656insertion and conjugated into &#x394;<italic>exsD</italic> strain. One PCR-confirmed clone was isolated and designated as &#x394;<italic>vp1656 exsD.</italic></p>
+        <table-wrap id="tbl2" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>Primers used in this study.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Primer name</th>
+                <th align="left" rowspan="1" colspan="1">Sequences (5&#x2032;-3&#x2032;)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-1F</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAAACTCGAGCAAACAGCTCATCCGTCGAG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-1R</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGAGGGCAGTATATGTTAGATAAAATG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-2F</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGACCCTTTCGAACACTCCAGAAT</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-2R</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGAGATCTGTAGAAAATGGATGTGTCAGG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-up</td>
+                <td align="left" rowspan="1" colspan="1">TTTTCTCCGGCAATAAAAGGCC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-down</td>
+                <td align="left" rowspan="1" colspan="1">TTTTGAAAGTCACCGACGGAC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-His-up</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAGAATTCTAAGGAGGTAGGATAATAATGCGGAGAAGAACACAAATG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-His-down</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGATTAATGGTGATGGTGATGGTGAATCTGGCTGAGATGGTTACAAG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-1F</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAAACTCGAGTCGTTATAAACCACGTCACATGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-1R</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGAAATGACTTATGACTAAAATTTTC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-2F</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGATTTCTACCCTTCATAATTTTTAATTTC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-2R</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGAGATCTTGTTATTGACTGGATGCGCTC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-up</td>
+                <td align="left" rowspan="1" colspan="1">TTCATTTGTGTTCTTCTCCGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-down</td>
+                <td align="left" rowspan="1" colspan="1">CTTTGCTTCTTTAATTGAAATTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-His-up</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAGGATCCTAAGGAGGTAGGATAATAATGGATGTGTCAGGCCAACT</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-His-down</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGATTAATGGTGATGGTGATGGTGATTCGCGATGGCGACTTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">lacZ-exsA-FW</td>
+                <td align="left" rowspan="1" colspan="1">AGGATATCTAGAGTGATTTATGATTATATCCTACGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">lacZ-exsA-RE</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGAGATCTTTTCTACCCTTCATAATTTTTAAT</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">lacZ-1668-FW</td>
+                <td align="left" rowspan="1" colspan="1">AGGATATCTAGAAATACTCAT TCACTTGCACTC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">lacZ-1668-RE</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGAGATCTAATGTAAAAAATATGCGCAATG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Promoter1668-FW</td>
+                <td align="left" rowspan="1" colspan="1">AATACTCATTCACTTGCACTC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Promoter1668-RE</td>
+                <td align="left" rowspan="1" colspan="1">AATGTAAAAAATATGCGCAATG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Promoter1687-FW</td>
+                <td align="left" rowspan="1" colspan="1">CAGAGTAGGGCATCACCG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Promoter1687-RE</td>
+                <td align="left" rowspan="1" colspan="1">TTGAATGAATAATCCTATAGTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668FW_motif</td>
+                <td align="left" rowspan="1" colspan="1">CGGACCGATGCATCAAAC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif1</td>
+                <td align="left" rowspan="1" colspan="1">ATTGATGCTGGGAGAATAG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif2</td>
+                <td align="left" rowspan="1" colspan="1">GGATGAGGTGGTATTTATAG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif3</td>
+                <td align="left" rowspan="1" colspan="1">TATTGGTCGGGAGTTTTTAG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif4</td>
+                <td align="left" rowspan="1" colspan="1">AAACGCCCTAAAAAAACACG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif5</td>
+                <td align="left" rowspan="1" colspan="1">GTCTGATTTTGACAGCCTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif6</td>
+                <td align="left" rowspan="1" colspan="1">CAGCCTGATAAAAACGCAC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif7</td>
+                <td align="left" rowspan="1" colspan="1">TCATATAATTCGCTTGTATTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif8</td>
+                <td align="left" rowspan="1" colspan="1">ACGAAAGGAGTGCAAGTGA</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668FW_motif9</td>
+                <td align="left" rowspan="1" colspan="1">CAGGCTGTCAAAATCAGACG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668RE_motif10</td>
+                <td align="left" rowspan="1" colspan="1">GGACGCCGGGGGAAAACACGTCTGATTTTGAC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif_FW</td>
+                <td align="left" rowspan="1" colspan="1">AAACAACTCAGTGAGCGG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif1_RE</td>
+                <td align="left" rowspan="1" colspan="1">GTCATGAAAACAGAGTGACC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif2_RE</td>
+                <td align="left" rowspan="1" colspan="1">AGAGCCGTTTTGATGCTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif3_RE</td>
+                <td align="left" rowspan="1" colspan="1">TATTTTTCATCATTCGGCGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif4_RE</td>
+                <td align="left" rowspan="1" colspan="1">TAATATGCTAAAGATGGTCGG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif5_RE</td>
+                <td align="left" rowspan="1" colspan="1">CGTTTTAAGACGTTTGAAAAC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">EMSA1687motif6_RE</td>
+                <td align="left" rowspan="1" colspan="1">TGGTATGGGGGGGATGGTCGGATTTTTTTCG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1656insertion_FW</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAAACTCGAGATTAGATGGGCCGAAAGCTC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1656insertion_RE</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGAGATCTCGAATGTGCACGTTTTACTTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">vp1656-up</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAGAATTCAGGAGATATACCATGTTGGATAAAATTGGTGGAAC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">vp1656-down</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGATTAATGGTGATGGTGATGGTGCACTGTCGGGATAGATGCGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1662&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">GTCACGCAAAAAGGCATGAGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1662&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">AAAACGCAGGTGAATTCCCGG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">CAAGAGCCAAGTGCTTGGTATC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1668&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">CATGTCGTCACCTTCGACCA</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1670&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">AGAGCGCTCTCTTGCGTCAC,</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1670&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">TTTGGGATGTTCATCATTCGGG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1686&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">ATTCTAAATGAAGGCAAACTCAGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1686&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">GTTTAAATCCGTACTTGCGAGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1687&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">ATGGCTAATGGATTTATTACCG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1687&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">TTACACCCTTAATGTAGAGAATTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1695&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">GGATGTCAGGACGTAACCATC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1695&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">CCGTCAGCAGCAACGTGC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1696&#x2013;600-up</td>
+                <td align="left" rowspan="1" colspan="1">ATGTGGTACTTCGATGGCG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1696&#x2013;600-down</td>
+                <td align="left" rowspan="1" colspan="1">TTGTGGCTGATCGAGTTGAG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-600-up</td>
+                <td align="left" rowspan="1" colspan="1">GTTGTCCACGTGAATCACCGA</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1698-600-down</td>
+                <td align="left" rowspan="1" colspan="1">GTAGTCCGCCAGTTCTTTCAA</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-600-up</td>
+                <td align="left" rowspan="1" colspan="1">GTCGTTCACAATGGTCAATTACG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1699-600-down</td>
+                <td align="left" rowspan="1" colspan="1">CGTCAGCAAAAGCTTGTGTG</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">secY1</td>
+                <td align="left" rowspan="1" colspan="1">AGGATAAACTCGAGTGGTGCTCTGGAGCGTGCATC</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">secY2</td>
+                <td align="left" rowspan="1" colspan="1">AGTTAGTCTAGACCTTGTTGACGCTTCGCGTAG</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Complementation</title>
+        <p>Primers 1699-His-up and 1699-His-down were used to amplify the complete gene of <italic>exsA</italic> with a 6xHis tag added at the C-terminus of the gene. Amplified PCR product was digested with BamHI and XbaI and ligated into the plasmid pMMB207 (digested with the same enzymes), resulting in the plasmid pMMB207-RBS-<italic>exsA</italic>. Plasmid pMMB207-RBS-<italic>exsA</italic> was transformed into <italic>E. coli</italic> S17 &#x3BB;<italic>pir,</italic> resulting in the strain S17-pMMB207-RBS-<italic>exsA,</italic> and then conjugated from <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> into &#x394;<italic>exsA</italic>, &#x394;<italic>exsA exsD</italic> and the <italic>V. parahaemolyticus</italic> NY-4 wild-type strain, resulting in &#x394;<italic>exsA</italic> : p<italic>exsA</italic>, &#x394;<italic>exsA exsD</italic> : p<italic>exsA</italic> and NY-4 : p<italic>exsA</italic> respectively. Primers 1698-His-up and 1698-His-down were used to amplify the complete gene of <italic>exsD</italic> with a 6xHis tag added at the C-terminus of the gene. Amplified PCR product was digested with EcoRI and XbaI and ligated into the plasmid pMMB207 digested with the same enzymes, resulting in the plasmid pMMB207-<italic>exsD</italic>. Plasmid pMMB207-<italic>exsD</italic> was transformed into <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> by electroporation and then conjugated from <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> into &#x394;<italic>exsD</italic> and wild-type NY-4 strain, resulting in &#x394;<italic>exsD</italic> : p<italic>exsD</italic> and NY-4 : p<italic>exsD</italic> respectively (<xref ref-type="table" rid="tbl1">Table 1</xref>).</p>
+      </sec>
+      <sec>
+        <title>Construction of single-copy <italic>lacZ</italic> reporter fusions in the bacterial chromosom</title>
+        <p>Transcriptional <italic>lacZ</italic> reporter fusions were constructed by cloning the upstream region of <italic>exsA</italic> and <italic>vp1668</italic> into a suicide vector, pKN8. For the <italic>exsA</italic> promoter, approximately 500 bp DNA fragment upstream of <italic>exsA</italic> gene was amplified by PCR using primers lacZ-exsA-FW and lacZ-exsA-RE (<xref ref-type="table" rid="tbl2">Table 2</xref>). PCR product was digested with XbaI and BglII and cloned into pNK8 (digested with the same enzymes) resulting in the plasmid pNK8-<italic>exsA&#x2013;lacZ</italic>. For <italic>vp1668</italic> promoter, approximately 160 bp DNA fragment upstream of <italic>vp1668</italic> was amplified by PCR using primers lacZ-1668-FW and lacZ-1668-RE. PCR product was digested with XbaI and BglII and cloned into pNK8 (digested with the same enzymes), resulting in the plasmid pNK8-1668&#x2013;lacZ. These two plasmids were transformed into <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> by electroporation, resulting in the strains S17-<italic>exsA&#x2013;lacZ</italic> and S17-1668&#x2013;lacZ respectively. pNK8-1668&#x2013;lacZ and pNK8-<italic>exsA&#x2013;lacZ</italic> were integrated into <italic>V. parahaemolyticus</italic> strains of NY-4, &#x394;<italic>exsA</italic> and &#x394;<italic>exsD</italic> by conjugation, resulting in the <italic>lacZ</italic> transcriptional fusion strains: <italic>vp1668&#x2013;lacZ</italic>::NY-4, <italic>vp1668&#x2013;lacZ</italic>::&#x394;<italic>exsA</italic>, <italic>vp1668&#x2013;lacZ</italic>::&#x394;<italic>exsD</italic>, <italic>vp1699&#x2013;lacZ</italic>::NY-4, <italic>vp1699&#x2013;lacZ</italic>::&#x394;<italic>exsA</italic>, <italic>vp1699&#x2013;lacZ</italic>::&#x394;<italic>exsD</italic> (<xref ref-type="table" rid="tbl1">Table 1</xref>).</p>
+      </sec>
+      <sec>
+        <title>Infection and LDH assay</title>
+        <p><italic>Vibrio parahaemolyticus</italic> was harvested from an overnight broth culture and pelleted by centrifugation at &#x223C;6000 <italic>g</italic> r.p.m. at room temperature. The bacterial pellets were re-suspended in DMEM (Invitrogen, Carlsbad, CA) containing 1% (v/v) Fetal Bovine Serum (HyClone, Logan, Utah). Bacterial suspensions (10 &#x3BC;l) were added to the wells of a 12-well plate, where each well contained HeLa cells (10<sup>6</sup>) (CCL-2), to achieve a multiplicity of infection (m.o.i.) of &#x223C;100 cfu per cell. Plates were centrifuged at &#x223C;600 <italic>g</italic> to synchronize bacteria&#x2013;HeLa host cell contact. For LDH release assay, the FBS concentration in the medium was reduced from 10% to 1% to reduce background LDH activity. Supernatants were collected at 4 h post infection and LDH activity was measured with Cytotoxicity Detection Kit (Promega, Madison, WI) according to manufacturer's instructions. Maximum LDH release was achieved by lysis of cells with lysis buffer provided in the kit. Spontaneous LDH release in the supernatant of uninfected cells was also measured as described. Percentage cytotoxicity was calculated with the formula:
+<disp-formula><graphic xlink:href="mmi0069-0747-mu1.jpg" mimetype="image" position="float"/></disp-formula></p>
+      </sec>
+      <sec>
+        <title>RNA isolation and RT-PCR</title>
+        <p>For bacterial growth in DMEM, an overnight culture (1.5 ml) was centrifuged and the pellet was re-suspended in 15 ml of DMEM supplemented with 1% FBS. For bacterial growth in LB-S, overnight culture (0.15 ml) was directly inoculated into 15 ml of LB-S medium. After 3 h incubation, total RNA was isolated by RNA Easy kit (Qiagen, Valencia, CA). Isolated RNA was treated with DNase I for 30 min to remove DNA and was reverse-transcribed into cDNA using 2 &#x3BC;g of RNA, 200 ng of random hexamers and Superscript III (Invitrogen, Carlsbad, CA). PCR was performed according to the manufacturer's instructions (1 U of Master <italic>Taq</italic> polymerase, 200 &#x3BC;M each of the four dNTPs and 1 &#x3BC;M each primer). Primer pairs (the last 22 primers listed in <xref ref-type="table" rid="tbl2">Table 2</xref>) amplifying internal fragments were used for semi-quantitative analysis of gene expression. Cycling parameters were identical for all primer sets (<xref ref-type="table" rid="tbl2">Table 2</xref>): one cycle of 94&#xB0;C for 4 min; 30 cycles of 95&#xB0;C for 1 min, 52&#xB0;C for 1 min and 72&#xB0;C for 1 min; and a final incubation at 72&#xB0;C for 5 min.</p>
+      </sec>
+      <sec>
+        <title>Cloning and expression of <italic>exsA</italic>, <italic>exsD</italic> and <italic>vp1656</italic></title>
+        <p>For cloning of <italic>vp1656</italic>, primers vp1656-up and vp1656-down were used to amplify the entire coding sequences along with sequences for 6 His amino acids at the C-terminus. PCR product digested with EcoRI and XbaI was cloned into pMMB207 (digested with the same enzymes), resulting in the plasmid pMMB207-1656. Plasmid pMMB207-1656 was transformed into <italic>E. coli</italic> S17 &#x3BB;<italic>pir,</italic> resulting in the strain S17-pMMB207-1656, which was conjugated into <italic>Yersinia enterocolitica</italic> for expression. For expression of <italic>exsA</italic> and <italic>exsD</italic>, the plasmids pMMB207-RBS-<italic>exsA</italic> and pMMB207-<italic>exsD</italic> were conjugated from <italic>E. coli</italic> S17 &#x3BB;<italic>pir</italic> into <italic>Y. enterocolitica</italic>. We used <italic>Y. enterocolitica</italic> to express these proteins because ExsA and ExsD were insoluble when expressed in the heterologous host strain <italic>E. coli</italic> BL21. An overnight culture (20 ml) of <italic>Y. enterocolitica</italic> containing each plasmid was diluted into 500 ml of LB medium and incubated for 2 h with shaking at 26&#xB0;C before adding 1 mM IPTG. Protein expression was induced for 12 h in 26&#xB0;C with vigorous shaking before pelletting cells. Pellets were re-suspended in 15 ml of binding buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 8.0, 0.5 M NaCl, 10 mM imidazole) and sonicated for 15 min. Insoluble cell fractions were removed by centrifugation at &#x223C;3000 <italic>g</italic> for 10 min and the supernatant were loaded into an Ni<sup>2+</sup> resin column (Invitrogen). After binding for 1 h, the column was washed 15&#xD7; with washing buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 8.0, 0.5 M NaCl, 50 mM immidazole) before being eluted with elution buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 8.0, 0.5 M NaCl, 300 mM immidazole). The concentration of recombinant proteins was determined by measuring OD<sub>280</sub> with a NanoDrop (NanoDrop Technologies, Wilmington, DE). Purity of the protein samples was analysed by SDS-PAGE and gel staining. Purified protein Vp1656 was submitted to Monoclonal Antibody Center at Washington State University for immunization of two mice to raise polyclonal antibody against Vp1656.</p>
+      </sec>
+      <sec>
+        <title>The EMSA</title>
+        <p>DNA fragments of approximately 180 bp, corresponding to sequences upstream of <italic>vp1668</italic> and <italic>vp1687</italic> start codons, were amplified by PCR using primers promoter1668-FW/promoter1668-RE and promoter1687-FW/promoter1687-RE. Forward primer for fragements 1&#x2013;8 in <xref ref-type="fig" rid="fig05">Fig. 5C</xref> is 1668FW_motif and the reverse primers are 1668RE_motif1&#x2013;8 respectively. Fragment 9 in <xref ref-type="fig" rid="fig05">Fig. 5C</xref> was amplified with primers 1668FW_motif9 and 1668RE_motif1. Fragment 10 in <xref ref-type="fig" rid="fig05">Fig. 5C</xref> was amplified with primers 1668FW_motif and 1668RE_motif10. Forward primer for fragments 1&#x2013;3 in <xref ref-type="fig" rid="fig05">Fig. 5D</xref> is promoter1687-FW and the reverse primers are EMSA1687motif1_RE, EMSA1687motif2_RE and EMSA1687motif3_RE respectively. Forward primer for fragments 4&#x2013;6 in <xref ref-type="fig" rid="fig05">Fig. 5D</xref> is EMSA1687motif_FW and the reverse primers are EMSA1687motif4_RE, EMSA1687motif5_RE and EMSA1687motif6_RE respectively. Increasing amounts of the purified proteins were mixed with 200 ng of DNA probes (PCR products) in buffer containing 10 mM Tris (pH 7.5), 1 mM EDTA, 100 mM KCl, 0.1 mM DTT, 5% v/v glycerol and 0.01 mg ml<sup>&#x2212;1</sup> BSA, and binding reactions were incubated at room temperature for 30 min before loading onto a 6% native polyacrylamide gel in 0.5&#xD7; TBE buffer (45 mM Tris-HCl, 45 mM boric acid, 1 mM EDTA, pH 8.0). DNA&#x2013;protein complexes were electrophoresed for 70 min at 120 V followed by staining with ethidium bromide and imaging.</p>
+      </sec>
+      <sec>
+        <title>Preparation of proteins and Western blot analysis</title>
+        <p>To collect extracellular proteins, overnight culture grown in LB-S was diluted into LB-S (1:100) and DMEM (1:10) with addition of antibiotics as necessary. Diluted samples were grown for 2 and 4 h at 37&#xB0;C with shaking. Protein expression was induced by the addition of IPTG to the final concentration of 1 mM. The cells were removed from 15 ml culture by centrifugation at &#x223C;3000 <italic>g</italic> for 15 min and the supernatant for each sample was passed through a 0.22 &#x3BC;m syringe filter to exclude the remaining bacteria within the supernatant. Trichloroacetic acid was added to the supernatant to achieve a final concentration of 10% (v/v) and incubated on ice overnight to precipitate proteins. The samples were centrifuged at 4&#xB0;C for 20 min at &#x223C;12 000 <italic>g</italic> followed by washing once with ice-cold acetone and the protein pellets were re-suspended in 50 &#x3BC;l of 1&#xD7; loading buffer (40 mM Tris/HCl pH 8.0; 5% mercaptoethanol; 1% SDS; 5% glycerin; 1% bromphenol blue). To collect the total proteins for detection of Vp1656, an overnight culture was diluted into LB-S or DMEM and grown for 2 or 4 h with addition of antibiotics and IPTG as needed. The bacterial cultures (15 ml) was centrifuged for 20 min at &#x223C;3000 <italic>g</italic> and the pellets were re-suspended in 500 &#x3BC;l PBS, followed by sonication and the addition of equal volume of 2&#xD7; loading buffer. To collect proteins for detection of recombinant 6xHis-tagged ExsA and ExsD, an overnight culture for each recombinant strain was diluted 1:100 into LB-S and grown for 6 h before collecting proteins as described above. To collect the proteins from infected HeLa samples, overnight culture was centrifuged and re-suspended into equal volume of DMEM and bacterial suspension (40 &#x3BC;l) was added to each well of 6-well plate containing &#x223C;10<sup>6</sup> HeLa cells to achieve an m.o.i. of 25 cfu per cell. Plates were centrifuged at 600 <italic>g</italic> to synchronize bacteria&#x2013;host cell contact. Two or four hours post infection, the infected cells were scraped from the well and re-suspended in 200 &#x3BC;l of PBS. After sonication, an equal volume of 2&#xD7; loading buffer was added into each sample for SDS-PAGE and Western blot analysis. For Western blot analysis, all the samples were heated at 100&#xB0;C for 5 min and loaded on a 12% (w/v) polyacrylamide gel. After electrophoresis, proteins were electrophoretically transferred to a nitrocellulose membrane for 12 h. The membrane was blocked with 5% skim milk in PBS containing 0.1% Tween 20 and probed with monoclonal anti-His antibody (1:2000) (Invitrogen) or polyclonal anti-Vp1656 (1:1000) for 1 h at room temperature. The secondary antibody was an anti-mouse immunoglobulin conjugated to horseradish peroxidase and was diluted in PBS with 5% milk at 1:5000. The blots were developed by using the Western blotting kit according to the manufacturer's instructions (Bio-Rad, Hercules, CA).</p>
+      </sec>
+      <sec>
+        <title>&#x3B2;-Galactosidase assay</title>
+        <p>Overnight culture for each strain was diluted 1:10 into DMEM and 1:100 into LB-S with addition of antibiotics as needed. After 4 h of incubation with shaking, 0.5 ml of the culture was centrifuged and the pellets were re-suspended in PBS (0.5 ml) and permeabilized by adding 50 &#x3BC;l of SDS (0.5%) before measuring OD<sub>600</sub>. To determine the &#x3B2;-galactosidase activity after contact with HeLa cells, overnight culture (0.5 ml) suspended in DMEM medium was added into a 25 m<sup>2</sup> flask containing confluent adhered HeLa cells (&#x223C;10<sup>7</sup>). The flask was centrifuged to synchronize bacteria&#x2013;HeLa host cell contact. After 2 h incubation, nonadherent as well adherent bacteria were collected by carefully washing the HeLa cells and re-suspending in PBS (0.5 ml). The suspension of the bacteria was permeabilized by adding 50 &#x3BC;l of SDS (0.5%) before measuring OD<sub>600</sub>. O-nitrophenyl-beta-galactoside (4 mg ml<sup>&#x2212;1</sup>) (200 &#x3BC;l; Sigma, St. Louis, MO) was added to the permeabilized samples and the reaction was incubated until sufficient yellow colour developed before adding stop solution (0.1 ml of 1 M Na<sub>2</sub>CO<sub>3</sub>). OD<sub>414</sub> for each sample was recorded and &#x3B2;-galactosidase activity was calculated by using the following formula:
+<disp-formula><graphic xlink:href="mmi0069-0747-mu2.jpg" mimetype="image" position="float"/></disp-formula></p>
+      </sec>
+      <sec>
+        <title>Statistical analysis</title>
+        <p>Statistical analysis was performed with <sc>anova</sc> and <italic>P</italic>-values &lt; 0.05 were considered statistically significant. Pairwise comparisons were conducted using a Tukey&#x2013;Kramer test and the analyses were conducted using <sc>ncss</sc> 2004 (Number Cruncher Statistical Systems, Kaysville, UT).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We acknowledge excellent technical assistance from Lisa Orfe, Stacey LaFrentz and Pat Friel and services provided through Washington State University Monoclonal Antibody Center. Dr Kathryn J. Boor provided the wild-type strain of <italic>V. parahaemolyticus</italic> (NY-4). Dr Anthony Garza provided assistance with implementation of our gel mobility shift assay. This project was supported in part by National Institute of Health, Department of Health and Human Services under the contract number No1-AI-30055 and by the Agricultural Animal Health Program, College of Veterinary Medicine, Washington State University.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abe</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Tatsuno</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Tobe</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Okutani</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sasakawa</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Bicarbonate ion stimulates the expression of locus of enterocyte effacement-encoded genes in enterohemorrhagic <italic>Escherichia coli</italic> O157: H7</article-title>
+          <source>Infect Immun</source>
+          <year>2002</year>
+          <volume>70</volume>
+          <fpage>3500</fpage>
+          <lpage>3509</lpage>
+          <pub-id pub-id-type="pmid">12065489</pub-id>
+        </citation>
+      </ref>
+      <ref id="b2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arricau</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Hermant</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Waxin</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ecobichon</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Duffey</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Popoff</surname>
+              <given-names>MY</given-names>
+            </name>
+          </person-group>
+          <article-title>The RcsB-RcsC regulatory system of <italic>Salmonella</italic> typhi differentially modulates the expression of invasion proteins, flagellin and Vi antigen in response to osmolarity</article-title>
+          <source>Mol Microbiol</source>
+          <year>1998</year>
+          <volume>29</volume>
+          <fpage>835</fpage>
+          <lpage>850</lpage>
+          <pub-id pub-id-type="pmid">9723922</pub-id>
+        </citation>
+      </ref>
+      <ref id="b3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bahrani</surname>
+              <given-names>FK</given-names>
+            </name>
+            <name>
+              <surname>Sansonetti</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Parsot</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Secretion of Ipa proteins by <italic>Shigella flexneri</italic>: inducer molecules and kinetics of activation</article-title>
+          <source>Infect Immun</source>
+          <year>1997</year>
+          <volume>65</volume>
+          <fpage>4005</fpage>
+          <lpage>4010</lpage>
+          <pub-id pub-id-type="pmid">9316999</pub-id>
+        </citation>
+      </ref>
+      <ref id="b4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bajaj</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Lucas</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-ordinate regulation of <italic>Salmonella typhimurium</italic> invasion genes by environmental and regulatory factors is mediated by control of <italic>hilA</italic> expression</article-title>
+          <source>Mol Microbiol</source>
+          <year>1996</year>
+          <volume>22</volume>
+          <fpage>703</fpage>
+          <lpage>714</lpage>
+          <pub-id pub-id-type="pmid">8951817</pub-id>
+        </citation>
+      </ref>
+      <ref id="b5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cornelis</surname>
+              <given-names>GR</given-names>
+            </name>
+          </person-group>
+          <article-title>The type III secretion injectisome</article-title>
+          <source>Nat Rev Microbiol</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <fpage>811</fpage>
+          <lpage>825</lpage>
+          <pub-id pub-id-type="pmid">17041629</pub-id>
+        </citation>
+      </ref>
+      <ref id="b6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cornelis</surname>
+              <given-names>GR</given-names>
+            </name>
+            <name>
+              <surname>Van Gijsegem</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Assembly and function of type III secretory systems</article-title>
+          <source>Annu Rev Microbiol</source>
+          <year>2000</year>
+          <volume>54</volume>
+          <fpage>735</fpage>
+          <lpage>774</lpage>
+          <pub-id pub-id-type="pmid">11018143</pub-id>
+        </citation>
+      </ref>
+      <ref id="b7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>YS</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>HC</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of iron limitation on production of a siderophore, outer membrane proteins, and hemolysin and on hydrophobicity, cell adherence, and lethality for mice of <italic>Vibrio parahaemolyticus</italic></article-title>
+          <source>Infect Immun</source>
+          <year>1992</year>
+          <volume>60</volume>
+          <fpage>2952</fpage>
+          <lpage>2956</lpage>
+          <pub-id pub-id-type="pmid">1535342</pub-id>
+        </citation>
+      </ref>
+      <ref id="b8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dasgupta</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Lykken</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Wolfgang</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel anti-anti-activator mechanism regulates expression of the <italic>Pseudomonas aeruginosa</italic> type III secretion system</article-title>
+          <source>Mol Microbiol</source>
+          <year>2004</year>
+          <volume>53</volume>
+          <fpage>297</fpage>
+          <lpage>308</lpage>
+          <pub-id pub-id-type="pmid">15225323</pub-id>
+        </citation>
+      </ref>
+      <ref id="b9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DiRita</surname>
+              <given-names>VJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-ordinate expression of virulence genes by ToxR in <italic>Vibrio cholerae</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>1992</year>
+          <volume>6</volume>
+          <fpage>451</fpage>
+          <lpage>458</lpage>
+          <pub-id pub-id-type="pmid">1560773</pub-id>
+        </citation>
+      </ref>
+      <ref id="b10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dong</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>XF</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>LH</given-names>
+            </name>
+          </person-group>
+          <article-title>VqsM, a novel AraC-type global regulator of quorum-sensing signalling and virulence in <italic>Pseudomonas aeruginosa</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2005</year>
+          <volume>58</volume>
+          <fpage>552</fpage>
+          <lpage>564</lpage>
+          <pub-id pub-id-type="pmid">16194239</pub-id>
+        </citation>
+      </ref>
+      <ref id="b11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ebel</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Deibel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kresse</surname>
+              <given-names>AU</given-names>
+            </name>
+            <name>
+              <surname>Guzman</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Chakraborty</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Temperature- and medium-dependent secretion of proteins by Shiga toxin-producing <italic>Escherichia coli</italic></article-title>
+          <source>Infect Immun</source>
+          <year>1996</year>
+          <volume>64</volume>
+          <fpage>4472</fpage>
+          <lpage>4479</lpage>
+          <pub-id pub-id-type="pmid">8890194</pub-id>
+        </citation>
+      </ref>
+      <ref id="b12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Egan</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Growing repertoire of AraC/XylS activators</article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>184</volume>
+          <fpage>5529</fpage>
+          <lpage>5532</lpage>
+          <pub-id pub-id-type="pmid">12270809</pub-id>
+        </citation>
+      </ref>
+      <ref id="b13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Enos-Berlage</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Guvener</surname>
+              <given-names>ZT</given-names>
+            </name>
+            <name>
+              <surname>Keenan</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>McCarter</surname>
+              <given-names>LL</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic determinants of biofilm development of opaque and translucent <italic>Vibrio parahaemolyticus</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2005</year>
+          <volume>55</volume>
+          <fpage>1160</fpage>
+          <lpage>1182</lpage>
+          <pub-id pub-id-type="pmid">15686562</pub-id>
+        </citation>
+      </ref>
+      <ref id="b14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Finck-Barbancon</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Goranson</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Sawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wiener-Kronish</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Fleiszig</surname>
+              <given-names>SM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ExoU expression by <italic>Pseudomonas aeruginosa</italic> correlates with acute cytotoxicity and epithelial injury</article-title>
+          <source>Mol Microbiol</source>
+          <year>1997</year>
+          <volume>25</volume>
+          <fpage>547</fpage>
+          <lpage>557</lpage>
+          <pub-id pub-id-type="pmid">9302017</pub-id>
+        </citation>
+      </ref>
+      <ref id="b15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gallegos</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Michan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>JL</given-names>
+            </name>
+          </person-group>
+          <article-title>The XylS/AraC family of regulators</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1993</year>
+          <volume>21</volume>
+          <fpage>807</fpage>
+          <lpage>810</lpage>
+          <pub-id pub-id-type="pmid">8451183</pub-id>
+        </citation>
+      </ref>
+      <ref id="b16">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gallegos</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Schleif</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Bairoch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>JL</given-names>
+            </name>
+          </person-group>
+          <article-title>Arac/XylS family of transcriptional regulators</article-title>
+          <source>Microbiol Mol Biol Rev</source>
+          <year>1997</year>
+          <volume>61</volume>
+          <fpage>393</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="pmid">9409145</pub-id>
+        </citation>
+      </ref>
+      <ref id="b17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gendlina</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Gutman</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>Urea-dependent signal transduction by the virulence regulator UreR</article-title>
+          <source>J Biol Chem</source>
+          <year>2002</year>
+          <volume>277</volume>
+          <fpage>37349</fpage>
+          <lpage>37358</lpage>
+          <pub-id pub-id-type="pmid">12147687</pub-id>
+        </citation>
+      </ref>
+      <ref id="b18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gunn</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Hohmann</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>SI</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of <italic>Salmonella</italic> virulence: a PhoQ periplasmic domain mutation results in increased net phosphotransfer to PhoP</article-title>
+          <source>J Bacteriol</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>6369</fpage>
+          <lpage>6373</lpage>
+          <pub-id pub-id-type="pmid">8892844</pub-id>
+        </citation>
+      </ref>
+      <ref id="b19">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henke</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing regulates type III secretion in <italic>Vibrio harveyi</italic> and <italic>Vibrio parahaemolyticus</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>3794</fpage>
+          <lpage>3805</lpage>
+          <pub-id pub-id-type="pmid">15175293</pub-id>
+        </citation>
+      </ref>
+      <ref id="b20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hlady</surname>
+              <given-names>WG</given-names>
+            </name>
+            <name>
+              <surname>Klontz</surname>
+              <given-names>KC</given-names>
+            </name>
+          </person-group>
+          <article-title>The epidemiology of <italic>Vibrio infections</italic>. Florida, 1981&#x2013;93</article-title>
+          <source>J Infect Dis</source>
+          <year>1996</year>
+          <volume>173</volume>
+          <fpage>1176</fpage>
+          <lpage>1183</lpage>
+          <pub-id pub-id-type="pmid">8627070</pub-id>
+        </citation>
+      </ref>
+      <ref id="b21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hovey</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Frank</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <article-title>Analyses of the DNA-binding and transcriptional activation properties of ExsA, the transcriptional activator of the <italic>Pseudomonas aeruginosa</italic> exoenzyme S regulon</article-title>
+          <source>J Bacteriol</source>
+          <year>1995</year>
+          <volume>177</volume>
+          <fpage>4427</fpage>
+          <lpage>4436</lpage>
+          <pub-id pub-id-type="pmid">7635828</pub-id>
+        </citation>
+      </ref>
+      <ref id="b22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hueck</surname>
+              <given-names>CJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Type III protein secretion systems in bacterial pathogens of animals and plants</article-title>
+          <source>Microbiol Mol Biol Rev</source>
+          <year>1998</year>
+          <volume>62</volume>
+          <fpage>379</fpage>
+          <lpage>433</lpage>
+          <pub-id pub-id-type="pmid">9618447</pub-id>
+        </citation>
+      </ref>
+      <ref id="b23">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jackson</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Silva-Herzog</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Plano</surname>
+              <given-names>GV</given-names>
+            </name>
+          </person-group>
+          <article-title>The ATP-dependent ClpXP and Lon proteases regulate expression of the <italic>Yersinia pestis</italic> type III secretion system via regulated proteolysis of YmoA, a small histone-like protein</article-title>
+          <source>Mol Microbiol</source>
+          <year>2004</year>
+          <volume>54</volume>
+          <fpage>1364</fpage>
+          <lpage>1378</lpage>
+          <pub-id pub-id-type="pmid">15554975</pub-id>
+        </citation>
+      </ref>
+      <ref id="b24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Joseph</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Colwell</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Kaper</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Vibrio parahaemolyticus</italic> and related halophilic Vibrios</article-title>
+          <source>Crit Rev Microbiol</source>
+          <year>1982</year>
+          <volume>10</volume>
+          <fpage>77</fpage>
+          <lpage>124</lpage>
+          <pub-id pub-id-type="pmid">6756788</pub-id>
+        </citation>
+      </ref>
+      <ref id="b25">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Joshi</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>Bignell</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>EG</given-names>
+            </name>
+            <name>
+              <surname>Sparks</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Loria</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>The AraC/XylS regulator TxtR modulates thaxtomin biosynthesis and virulence in <italic>Streptomyces scabies</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2007</year>
+          <volume>66</volume>
+          <fpage>633</fpage>
+          <lpage>642</lpage>
+          <pub-id pub-id-type="pmid">17919290</pub-id>
+        </citation>
+      </ref>
+      <ref id="b26">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kodama</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rokuda</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Cantarelli</surname>
+              <given-names>VV</given-names>
+            </name>
+            <name>
+              <surname>Matsuda</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Iida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and characterization of VopT, a novel ADP-ribosyltransferase effector protein secreted via the <italic>Vibrio parahaemolyticus</italic> type III secretion system 2</article-title>
+          <source>Cell Microbiol</source>
+          <year>2007</year>
+          <volume>9</volume>
+          <fpage>2598</fpage>
+          <lpage>2609</lpage>
+          <pub-id pub-id-type="pmid">17645751</pub-id>
+        </citation>
+      </ref>
+      <ref id="b27">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Falkow</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The ability of <italic>Salmonella</italic> to enter mammalian cells is affected by bacterial growth state</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1990</year>
+          <volume>87</volume>
+          <fpage>4304</fpage>
+          <lpage>4308</lpage>
+          <pub-id pub-id-type="pmid">2349239</pub-id>
+        </citation>
+      </ref>
+      <ref id="b28">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Kumagai</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Baba</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Mekalanos</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Nishibuchi</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Vibrio parahaemolyticus</italic> has a homolog of the <italic>Vibrio cholerae</italic> toxRS operon that mediates environmentally induced regulation of the thermostable direct hemolysin gene</article-title>
+          <source>J Bacteriol</source>
+          <year>1993</year>
+          <volume>175</volume>
+          <fpage>3844</fpage>
+          <lpage>3855</lpage>
+          <pub-id pub-id-type="pmid">8509337</pub-id>
+        </citation>
+      </ref>
+      <ref id="b29">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lynch</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Livingstone</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Buenaventura</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lutter</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fedwick</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Buret</surname>
+              <given-names>AG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title><italic>Vibrio parahaemolyticus</italic> disruption of epithelial cell tight junctions occurs independently of toxin production</article-title>
+          <source>Infect Immun</source>
+          <year>2005</year>
+          <volume>73</volume>
+          <fpage>1275</fpage>
+          <lpage>1283</lpage>
+          <pub-id pub-id-type="pmid">15731024</pub-id>
+        </citation>
+      </ref>
+      <ref id="b30">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of EvgAS-YdeO-GadE branched regulatory circuit governing glutamate-dependent acid resistance in <italic>Escherichia coli</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>7378</fpage>
+          <lpage>7389</lpage>
+          <pub-id pub-id-type="pmid">15489450</pub-id>
+        </citation>
+      </ref>
+      <ref id="b31">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCaw</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Lykken</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+          </person-group>
+          <article-title>ExsD is a negative regulator of the <italic>Pseudomonas aeruginosa</italic> type III secretion regulon</article-title>
+          <source>Mol Microbiol</source>
+          <year>2002</year>
+          <volume>46</volume>
+          <fpage>1123</fpage>
+          <lpage>1133</lpage>
+          <pub-id pub-id-type="pmid">12421316</pub-id>
+        </citation>
+      </ref>
+      <ref id="b32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Makino</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Oshima</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kurokawa</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yokoyama</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Uda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Tagomori</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome sequence of <italic>Vibrio parahaemolyticus</italic>: a pathogenic mechanism distinct from that of V cholerae</article-title>
+          <source>Lancet</source>
+          <year>2003</year>
+          <volume>361</volume>
+          <fpage>743</fpage>
+          <lpage>749</lpage>
+          <pub-id pub-id-type="pmid">12620739</pub-id>
+        </citation>
+      </ref>
+      <ref id="b33">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milton</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Norqvist</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wolf-Watz</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning of a metalloprotease gene involved in the virulence mechanism of <italic>Vibrio anguillarum</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1992</year>
+          <volume>174</volume>
+          <fpage>7235</fpage>
+          <lpage>7244</lpage>
+          <pub-id pub-id-type="pmid">1429449</pub-id>
+        </citation>
+      </ref>
+      <ref id="b34">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milton</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>O'Toole</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Horstedt</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Wolf-Watz</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Flagellin A is essential for the virulence of <italic>Vibrio anguillarum</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>1310</fpage>
+          <lpage>1319</lpage>
+          <pub-id pub-id-type="pmid">8631707</pub-id>
+        </citation>
+      </ref>
+      <ref id="b35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales</surname>
+              <given-names>VM</given-names>
+            </name>
+            <name>
+              <surname>Backman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bagdasarian</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>A series of wide-host-range low-copy-number vectors that allow direct screening for recombinants</article-title>
+          <source>Gene</source>
+          <year>1991</year>
+          <volume>97</volume>
+          <fpage>39</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="pmid">1847347</pub-id>
+        </citation>
+      </ref>
+      <ref id="b36">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mota</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Tavares</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Nogueira</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Mode of action of AraR, the key regulator of 1-arabinose metabolism in <italic>Bacillus subtilis</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>1999</year>
+          <volume>33</volume>
+          <fpage>476</fpage>
+          <lpage>489</lpage>
+          <pub-id pub-id-type="pmid">10417639</pub-id>
+        </citation>
+      </ref>
+      <ref id="b37">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagayama</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Oguchi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Arita</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlation between cell-associated mannose-sensitive hemagglutination by <italic>Vibrio parahaemolyticus</italic> and adherence to a human colonic cell line Caco-2</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>1994</year>
+          <volume>120</volume>
+          <fpage>207</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="pmid">7914500</pub-id>
+        </citation>
+      </ref>
+      <ref id="b38">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakasone</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Iwanaga</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Pili of a <italic>Vibrio parahaemolyticus</italic> strain as a possible colonization factor</article-title>
+          <source>Infect Immun</source>
+          <year>1990</year>
+          <volume>58</volume>
+          <fpage>61</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="pmid">1967172</pub-id>
+        </citation>
+      </ref>
+      <ref id="b39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakasone</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Iwanaga</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of pili in colonization of the rabbit intestine by <italic>Vibrio parahaemolyticus</italic> Na2</article-title>
+          <source>Microbiol Immunol</source>
+          <year>1992</year>
+          <volume>36</volume>
+          <fpage>123</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="pmid">1350048</pub-id>
+        </citation>
+      </ref>
+      <ref id="b40">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Onaca</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kieninger</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Engesser</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Altenbuchner</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of alkyl methyl ketones by <italic>Pseudomonas veronii</italic> MEK700</article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>3759</fpage>
+          <lpage>3767</lpage>
+          <pub-id pub-id-type="pmid">17351032</pub-id>
+        </citation>
+      </ref>
+      <ref id="b41">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ono</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Ueta</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Iida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of proteins secreted via <italic>Vibrio parahaemolyticus</italic> type III secretion system 1</article-title>
+          <source>Infect Immun</source>
+          <year>2006</year>
+          <volume>74</volume>
+          <fpage>1032</fpage>
+          <lpage>1042</lpage>
+          <pub-id pub-id-type="pmid">16428750</pub-id>
+        </citation>
+      </ref>
+      <ref id="b42">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Ono</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rokuda</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Jang</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Iida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional characterization of two type III secretion systems of <italic>Vibrio parahaemolyticus</italic></article-title>
+          <source>Infect Immun</source>
+          <year>2004</year>
+          <volume>72</volume>
+          <fpage>6659</fpage>
+          <lpage>6665</lpage>
+          <pub-id pub-id-type="pmid">15501799</pub-id>
+        </citation>
+      </ref>
+      <ref id="b43">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plumbridge</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pellegrini</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of the chitobiose operon of <italic>Escherichia coli</italic> is regulated by three transcription factors: NagC, ChbR and CAP</article-title>
+          <source>Mol Microbiol</source>
+          <year>2004</year>
+          <volume>52</volume>
+          <fpage>437</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="pmid">15066032</pub-id>
+        </citation>
+      </ref>
+      <ref id="b44">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puente</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Bieber</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ramer</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Schoolnik</surname>
+              <given-names>GK</given-names>
+            </name>
+          </person-group>
+          <article-title>The bundle-forming pili of enteropathogenic <italic>Escherichia coli</italic>: transcriptional regulation by environmental signals</article-title>
+          <source>Mol Microbiol</source>
+          <year>1996</year>
+          <volume>20</volume>
+          <fpage>87</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="pmid">8861207</pub-id>
+        </citation>
+      </ref>
+      <ref id="b45">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raposo</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Inacio</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Mota</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>de Sa-Nogueira</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of genes encoding arabinan-degrading enzymes in <italic>Bacillus subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>1287</fpage>
+          <lpage>1296</lpage>
+          <pub-id pub-id-type="pmid">14973026</pub-id>
+        </citation>
+      </ref>
+      <ref id="b46">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Castanie-Cornet</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Crawford</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Brinkley</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kaper</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <article-title>An activator of glutamate decarboxylase genes regulates the expression of enteropathogenic <italic>Escherichia coli</italic> virulence genes through control of the plasmid-encoded regulator, Per</article-title>
+          <source>Mol Microbiol</source>
+          <year>2001</year>
+          <volume>41</volume>
+          <fpage>1133</fpage>
+          <lpage>1150</lpage>
+          <pub-id pub-id-type="pmid">11555293</pub-id>
+        </citation>
+      </ref>
+      <ref id="b47">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sochard</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Colwell</surname>
+              <given-names>RR</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxin isolation from a Kanagawa-phenomenon negative strain of <italic>Vibrio parahaemolyticus</italic></article-title>
+          <source>Microbiol Immunol</source>
+          <year>1977</year>
+          <volume>21</volume>
+          <fpage>243</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">887001</pub-id>
+        </citation>
+      </ref>
+      <ref id="b48">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van der Straaten</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Zulianello</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>van Diepen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Granger</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Janssen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>van Dissel</surname>
+              <given-names>JT</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Salmonella enterica</italic> serovar Typhimurium RamA, intracellular oxidative stress response, and bacterial virulence</article-title>
+          <source>Infect Immun</source>
+          <year>2004</year>
+          <volume>72</volume>
+          <fpage>996</fpage>
+          <lpage>1003</lpage>
+          <pub-id pub-id-type="pmid">14742546</pub-id>
+        </citation>
+      </ref>
+      <ref id="b49">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Straley</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Plano</surname>
+              <given-names>GV</given-names>
+            </name>
+            <name>
+              <surname>Skrzypek</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Haddix</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Fields</surname>
+              <given-names>KA</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation by Ca2+ in the <italic>Yersinia</italic> low-Ca2+ response</article-title>
+          <source>Mol Microbiol</source>
+          <year>1993</year>
+          <volume>8</volume>
+          <fpage>1005</fpage>
+          <lpage>1010</lpage>
+          <pub-id pub-id-type="pmid">8361348</pub-id>
+        </citation>
+      </ref>
+      <ref id="b50">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Iida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Naim</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Naykaya</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Chloride secretion induced by thermostable direct haemolysin of <italic>Vibrio parahaemolyticus</italic> depends on colonic cell maturation</article-title>
+          <source>J Med Microbiol</source>
+          <year>2001</year>
+          <volume>50</volume>
+          <fpage>870</fpage>
+          <lpage>878</lpage>
+          <pub-id pub-id-type="pmid">11599736</pub-id>
+        </citation>
+      </ref>
+      <ref id="b51">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>VJ</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of UreR binding sites in the Enterobacteriaceae plasmid-encoded and Proteus mirabilis urease gene operons</article-title>
+          <source>Mol Microbiol</source>
+          <year>1999</year>
+          <volume>31</volume>
+          <fpage>1417</fpage>
+          <lpage>1428</lpage>
+          <pub-id pub-id-type="pmid">10200962</pub-id>
+        </citation>
+      </ref>
+      <ref id="b52">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Troisfontaines</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Cornelis</surname>
+              <given-names>GR</given-names>
+            </name>
+          </person-group>
+          <article-title>Type III secretion: more systems than you think</article-title>
+          <source>Physiology (Bethesda)</source>
+          <year>2005</year>
+          <volume>20</volume>
+          <fpage>326</fpage>
+          <lpage>339</lpage>
+          <pub-id pub-id-type="pmid">16174872</pub-id>
+        </citation>
+      </ref>
+      <ref id="b53">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urbanowski</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Lykken</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+          </person-group>
+          <article-title>A secreted regulatory protein couples transcription to the secretory activity of the <italic>Pseudomonas aeruginosa</italic> type III secretion system</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>9930</fpage>
+          <lpage>9935</lpage>
+          <pub-id pub-id-type="pmid">15985546</pub-id>
+        </citation>
+      </ref>
+      <ref id="b54">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vallis</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Finck-Barbancon</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Frank</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <article-title>Biological effects of <italic>Pseudomonas aeruginosa</italic> type III-secreted proteins on CHO cells</article-title>
+          <source>Infect Immun</source>
+          <year>1999</year>
+          <volume>67</volume>
+          <fpage>2040</fpage>
+          <lpage>2044</lpage>
+          <pub-id pub-id-type="pmid">10085057</pub-id>
+        </citation>
+      </ref>
+      <ref id="b55">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of the Ysa type III secretion system of <italic>Yersinia enterocolitica</italic> by YsaE/SycB and YsrS/YsrR</article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>4056</fpage>
+          <lpage>4066</lpage>
+          <pub-id pub-id-type="pmid">15205407</pub-id>
+        </citation>
+      </ref>
+      <ref id="b56">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Frank</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional organization of the trans-regulatory locus which controls exoenzyme S synthesis in <italic>Pseudomonas aeruginosa</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1994</year>
+          <volume>176</volume>
+          <fpage>3832</fpage>
+          <lpage>3838</lpage>
+          <pub-id pub-id-type="pmid">8021164</pub-id>
+        </citation>
+      </ref>
+      <ref id="b57">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Wolfgang</surname>
+              <given-names>MC</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of the <italic>Pseudomonas aeruginosa</italic> type III secretion system</article-title>
+          <source>Mol Microbiol</source>
+          <year>2006</year>
+          <volume>62</volume>
+          <fpage>631</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="pmid">16995895</pub-id>
+        </citation>
+      </ref>
+      <ref id="b58">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yahr</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Hovey</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Kulich</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Frank</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional analysis of the <italic>Pseudomonas aeruginosa</italic> exoenzyme S structural gene</article-title>
+          <source>J Bacteriol</source>
+          <year>1995</year>
+          <volume>177</volume>
+          <fpage>1169</fpage>
+          <lpage>1178</lpage>
+          <pub-id pub-id-type="pmid">7868588</pub-id>
+        </citation>
+      </ref>
+      <ref id="b59">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yeung</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Boor</surname>
+              <given-names>KJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Epidemiology, pathogenesis, and prevention of foodborne <italic>Vibrio parahaemolyticus</italic> infections</article-title>
+          <source>Foodborne Pathog Dis</source>
+          <year>2004</year>
+          <volume>1</volume>
+          <fpage>74</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="pmid">15992266</pub-id>
+        </citation>
+      </ref>
+      <ref id="b60">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>GM</given-names>
+            </name>
+          </person-group>
+          <article-title>YplA is exported by the Ysc, Ysa, and flagellar type III secretion systems of <italic>Yersinia enterocolitica</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>184</volume>
+          <fpage>1324</fpage>
+          <lpage>1334</lpage>
+          <pub-id pub-id-type="pmid">11844761</pub-id>
+        </citation>
+      </ref>
+      <ref id="b61">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeng</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>aph(3&#x2032;)-IIb, a gene encoding an aminoglycoside-modifying enzyme, is under the positive control of surrogate regulator HpaA</article-title>
+          <source>Antimicrob Agents Chemother</source>
+          <year>2003</year>
+          <volume>47</volume>
+          <fpage>3867</fpage>
+          <lpage>3876</lpage>
+          <pub-id pub-id-type="pmid">14638496</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary material</title>
+      <p>This material is available as part of the online article from: <ext-link ext-link-type="uri" xlink:href="http://www.blackwell-synergy.com/doi/abs/10.1111/">http://www.blackwell-synergy.com/doi/abs/10.1111/</ext-link></p>
+      <p>j.1365-2958.2008.06326.x</p>
+      <p>(This link will take you to the article abstract).</p>
+      <p>Please note: Blackwell Publishing is not responsible for the content or functionality of any supplementary materials supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.</p>
+      <supplementary-material content-type="local-data" id="SD1">
+        <media xlink:href="mmi0069-0747-SD1.pdf" xlink:type="simple" id="N0x1d047b0N0x3409ea0" position="anchor" mimetype="application" mime-subtype="pdf"/>
+      </supplementary-material>
+    </sec>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

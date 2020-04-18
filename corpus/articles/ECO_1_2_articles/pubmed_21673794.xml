@@ -1,0 +1,836 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21673794</article-id>
+      <article-id pub-id-type="pmc">3105977</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-11-03781</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0020081</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genomics</subject>
+            <subj-group>
+              <subject>Functional Genomics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Physiology</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Novel Roles of cAMP Receptor Protein (CRP) in Regulation of Transport and Metabolism of Carbon Sources</article-title>
+        <alt-title alt-title-type="running-head">Novel Regulatory Roles of CRP</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shimada</surname>
+            <given-names>Tomohiro</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fujita</surname>
+            <given-names>Nobuyuki</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yamamoto</surname>
+            <given-names>Kaneyoshi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ishihama</surname>
+            <given-names>Akira</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Frontier Bioscience, Hosei University, Koganei, Tokyo, Japan</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Micro-Nanotechnology Research Center, Hosei University, Koganei, Tokyo, Japan</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Department of Biotechnology, National Institute of Technology and Evaluation, Shibuya-ku, Tokyo, Japan</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Herman</surname>
+            <given-names>Christophe</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Baylor College of Medicine, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>aishiham@hosei.ac.jp</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: AI TS NF KY. Performed the experiments: TS NF AI. Analyzed the data: TS NF AI. Contributed reagents/materials/analysis tools: TS NF AI. Wrote the paper: AI TS.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>1</day>
+        <month>6</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>6</issue>
+      <elocation-id>e20081</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>2</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>4</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Shimada et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+      </permissions>
+      <abstract>
+        <p>CRP (cAMP receptor protein), the global regulator of genes for carbon source utilization in the absence of glucose, is the best-studied prokaryotic transcription factor. A total of 195 target promoters on the <italic>Escherichia coli</italic> genome have been proposed to be under the control of cAMP-bound CRP. Using the newly developed Genomic SELEX screening system of transcription factor-binding sequences, however, we have identified a total of at least 254 CRP-binding sites. Based on their location on the <italic>E. coli</italic> genome, we predict a total of at least 183 novel regulation target operons, altogether with the 195 hitherto known targets, reaching to the minimum of 378 promoters as the regulation targets of cAMP-CRP. All the promoters selected from the newly identified targets and examined by using the <italic>lacZ</italic> reporter assay were found to be under the control of CRP, indicating that the Genomic SELEX screening allowed to identify the CRP targets with high accuracy. Based on the functions of novel target genes, we conclude that CRP plays a key regulatory role in the whole processes from the selective transport of carbon sources, the glycolysis-gluconeogenesis switching to the metabolisms downstream of glycolysis, including tricarboxylic acid (TCA) cycle, pyruvate dehydrogenase (PDH) pathway and aerobic respiration. One unique regulation mode is that a single and the same CRP molecule bound within intergenic regions often regulates both of divergently transcribed operons.</p>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The central metabolism of carbon source catabolism for energy production consists of three pathways, the main glycolysis (Embden-Meyerhof-Parnas; EMP) pathway, pentose-phosphate (PP) pathway and tri-carboxylic-acid (TCA) cycle <xref ref-type="bibr" rid="pone.0020081-SaierMH1">[1]</xref>. These three pathways also provide a number of building blocks for synthesis of a number of components for construction of cell architecture <xref ref-type="bibr" rid="pone.0020081-SaierMH1">[1]</xref>. The catabolic functions and regulations of the individual enzymes involved in these processes have been characterized in details for both prokaryotes and eukaryotes. Expression regulation of the genes coding for these enzymes has been studied in details using the model prokaryote <italic>Escherichia coli</italic> (for reviews see <xref ref-type="bibr" rid="pone.0020081-Lemuth1">[2]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Perrenoud1">[4]</xref>), raising the concept that CRP (cAMP receptor protein) or CAP (catabolite gene activator protein) is the global regulator controlling transcription of these genes.</p>
+      <p>CRP was the first purified <xref ref-type="bibr" rid="pone.0020081-Zubay1">[5]</xref>, the first crystallized <xref ref-type="bibr" rid="pone.0020081-McKay1">[6]</xref> and the best studied transcription activator from <italic>Escherichia coli</italic> <xref ref-type="bibr" rid="pone.0020081-Fic1">[7]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Kolb1">[13]</xref>, and plays a key role in activation of a number of the genes for utilization of carbon sources other than glucose (for reviews see 7, <xref ref-type="bibr" rid="pone.0020081-Grainger1">[14]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Pyles1">[16]</xref>). The CRP regulon includes the genes encoding the transporters and the catabolic enzymes of non-glucose sugars <xref ref-type="bibr" rid="pone.0020081-Deutscher1">[9]</xref>, <xref ref-type="bibr" rid="pone.0020081-Harman1">[11]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Kolb1">[13]</xref>, <xref ref-type="bibr" rid="pone.0020081-Zheng1">[15]</xref>. Expression of these genes is activated in the absence of glucose through functional conversion of CRP into an active form after interaction with an effector cAMP <xref ref-type="bibr" rid="pone.0020081-Pastan1">[17]</xref>, which is synthesized by the membrane-bound adenylate cyclase. The cyaA gene encoding adenylate cyclase is activated in the absence of glucose <xref ref-type="bibr" rid="pone.0020081-Pastan1">[17]</xref>. The intracellular level of cAMP is controlled in response to glucose availability <xref ref-type="bibr" rid="pone.0020081-Harman1">[11]</xref>, <xref ref-type="bibr" rid="pone.0020081-Kolb1">[13]</xref>, <xref ref-type="bibr" rid="pone.0020081-Mori1">[18]</xref>. The functional CRP protomer is composed of two molecules of CRP, each being associated with cAMP. The C-terminal domain contains the characteristic helix-turn-helix (H-T-H) motif that is responsible for interaction with CRP-box consisting of a plindromic TGTGAnnnnnnTCACA sequence associated with target promoters <xref ref-type="bibr" rid="pone.0020081-Berg1">[19]</xref>. Binding of cAMP to its N-terminal domain leads to activate the C-terminal DNA-binding domain <xref ref-type="bibr" rid="pone.0020081-Kim1">[20]</xref>, <xref ref-type="bibr" rid="pone.0020081-Passner1">[21]</xref>. When cAMP-CRP binds DNA, it induces DNA bending of about 87<sup>O</sup> <xref ref-type="bibr" rid="pone.0020081-Pyles1">[16]</xref>, <xref ref-type="bibr" rid="pone.0020081-Lin1">[22]</xref>, <xref ref-type="bibr" rid="pone.0020081-Parkinson1">[23]</xref>.</p>
+      <p>cAMP-CRP is a dual regulator, acting as an activator or a repressor <xref ref-type="bibr" rid="pone.0020081-Kolb1">[13]</xref>, <xref ref-type="bibr" rid="pone.0020081-Mori1">[18]</xref>. The mode of transcription regulation by cAMP-CRP correlates with the position of DNA binding relative to the target promoter <xref ref-type="bibr" rid="pone.0020081-Ishihama1">[24]</xref>, <xref ref-type="bibr" rid="pone.0020081-Ishihama2">[25]</xref>. CRP was the first transcription regulator that was identified to interact directly with the promoter-bound RNA polymerase for function <xref ref-type="bibr" rid="pone.0020081-Ishihama1">[24]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Busby1">[26]</xref>. Up to the present time, a total of 195 target promoters have been recorded in Regulon DB <xref ref-type="bibr" rid="pone.0020081-GamaCastro1">[27]</xref>, including a large number of the genes encoding transporters and catabolic enzymes of sugars other than glucose (note that some of the regulation targets were predicted based on the presence of CRP-binding sequences).</p>
+      <p>As a short-cut approach for identification of the whole set of genes under the control of a given transcription factor (TF), we developed an improved &#x201C;Genetic SELEX&#x201D; screening system <xref ref-type="bibr" rid="pone.0020081-Shimada1">[28]</xref>. Initially we cloned and sequenced TF-associated genome DNA fragments for mapping on the <italic>E. coli</italic> genome, but later improved by employing DNA tilling array for mapping of SELEX fragments on the <italic>E. coli</italic> genome <xref ref-type="bibr" rid="pone.0020081-Teramoto1">[29]</xref>, <xref ref-type="bibr" rid="pone.0020081-Shimada2">[30]</xref>. After Genomic SELEX screening of Cra, originally identified as the repressor FruR but later renamed to Cra (catabolite repressor and activator) <xref ref-type="bibr" rid="pone.0020081-Geerse1">[31]</xref>, its regulation targets suddenly increased more than 8-fold to 178 <xref ref-type="bibr" rid="pone.0020081-Shimada2">[30]</xref>, the number as many as that of CRP targets. We then proposed a novel model that Cra is another global regulator of the genes for carbon metabolism, playing a role in balancing the level of enzymes involved in glycolysis. This finding raises the need for reevaluation of the differential roles of two global regulators, CRP and Cra, in the overall regulation network of carbon source metabolism.</p>
+      <p>In this study, we performed a systematic search for the whole set of regulation targets of cAMP-CRP by using the Genomic SELEX screening system. Using the collection of 254 different CRP-binding sequences thus identified, a total of at least 183 promoters have been newly identified as the regulation targets of CRP. By using the LacZ reporter assay, some of these novel CRP target promoters were confirmed to be under the control of CRP in vivo. Including the hitherto identified targets, the total number of operons under the direct control of cAMP-CRP was estimated to range from minimum 378 to maximum more than 500. After analysis of the functions of newly identified regulation target operons, we propose some novel regulatory roles and the regulation modes of CRP.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Bacterial strains and plasmids</title>
+        <p><italic>Escherichia coli</italic> BW25113 (W3110 <italic>lacI</italic>q <italic>rrnBT14 Insert &gt; symbol D</italic>&#x394;<italic>lacZWJ16 hsdR514</italic> &#x394;<italic>araBADAH33</italic> &#x394;<italic>rhaBADLD78</italic>), and <italic>crp</italic> disruptant JW5702 were the products of the Keio collection <xref ref-type="bibr" rid="pone.0020081-Baba1">[32]</xref> and obtained from the <italic>E. coli</italic> Stock Center (National Institute of Genetics, Mishima, Japan). Cells were grown in LB medium at 37&#xB0;C under aeration with constant shaking at 140 rpm. Cell growth was monitored by measuring the turbidity at 600 nm. Plasmid pRS551 was used for the reporter assay of CRP-depending promoters (see below). For maintenance of pRS551, ampicilin and kanamycin were added each at a final concentration of 50 mg/ml.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Purification of CRP protein</title>
+        <p><italic>E. coli</italic> BL21(DE3) transformant with the CRP expression plasmid pCRP encoding His-tagged CRP was grown in LB broth, and protein expression was induced by adding 1 mM IPTG. After 3 h of induction, cells were harvested and subjected to CRP purification. Purification of His-tagged CRP was performed according to the standard procedure <xref ref-type="bibr" rid="pone.0020081-Shimada3">[33]</xref>, <xref ref-type="bibr" rid="pone.0020081-Yamamoto1">[34]</xref>. In brief, lysozyme-treated cells were sonicated in the presence of 100 mM phenylmethylsulfonyl fluoride. After centrifugation of cell lysate (30 ml) at 15,000 rpm for 60 min at 4&#xB0;C, the resulting supernatant was mixed with 2 ml of 50% Ni-nitrilotriacetic acid (Ni-NTA) agarose solution (Qiagen) and loaded onto a column. After being washed with 10 ml of lysis buffer, the column was washed with 10 ml of washing buffer (50 mM Tris-HCl, pH 8.0, at 4&#xB0;C, 100 mM NaCl). Proteins were then eluted with 2 ml of an elution buffer (200 mM imidazole, 50 mM Tris-HCl, pH 8.0, at 4&#xB0;C, 100 mM NaCl) and dialyzed against a storage buffer (50 mM Tris-HCl, pH 7.6, 200 mM KCl, 10 mM MgCl2, 0.1 mM EDTA, 1 mM dithiothreitol, and 50% glycerol). CRP used throughout this study was &gt;95% pure as judged by sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE).</p>
+      </sec>
+      <sec id="s2c">
+        <title>Genomic SELEX search for the CRP-binding sequences</title>
+        <p>The genomic SELEX method was carried out as previously described <xref ref-type="bibr" rid="pone.0020081-Shimada1">[28]</xref>. A mixture of DNA fragments of the <italic>E. coli</italic> K-12 W3110 genome was prepared after sonication of purified genome DNA, and cloned into a multi-copy plasmid pBR322. In each SELEX screening, the DNA mixture was regenerated by PCR. For SELEX screening, 5 pmol of the mixture of DNA fragments and 10 pmol each of His-tagged CRP were mixed in a binding buffer (10 mM Tris-HCl, pH 7.8 at 4&#xB0;C, 3 mM magnesium acetate, 150 mM NaCl, and 1.25 mg/ml bovine serum albumin) and incubated for 30 min at 37&#xB0;C. For the effector(+) reaction of CRP, 10 insert&gt;symbol m&#xB5;M adenosine 2&#x2032;,3&#x2032;-cyclic monophosphate (cAMP) (SIGMA) was added during the binding reaction and also subsequent isolation procedure of CRP-DNA complexes. The DNA-transcription factor mixture was applied to a Ni-NTA column, and after washing out unbound DNA with the binding buffer containing 10 mM imidazole, DNA-protein complexes were eluted with an elution buffer containing 200 mM imidazole. DNA fragments recovered from the complexes were PCR-amplified.</p>
+        <p>For SELEX-clos (cloning-sequencing) analysis, PCR products were cloned into pT7 Blue-T vector (Novagen) and transformed into <italic>E. coli</italic> DH5a. Sequencing of each clone was carried out using the T7 primer (<named-content content-type="gene">5&#x2032;-TAATACGACTCACTATAGGG-3&#x2032;</named-content>). For SELEX-chip (DNA tilling-array chip) analysis, PCR-amplified products of the isolated DNA-protein complexes obtained in the presence or absence of the effecter were labeled with Cy5, and mixed with the original mixture of genome DNA fragments labeled with Cy3. The fluorescent labaled DNA mixtures were hybridized to a DNA microarray consisting of 43,450 species of 60 b-long DNA probe, which are designed to cover the entire <italic>E. coli</italic> genome at 105 bp interval (Oxford Gene Technology, Oxford, UK). The Cy5 fluorescent intensity of test sample at each probe was normalized with that of the corresponding peak of Cy3 fluorescence of the original library. The Cy5/Cy3 ratio was measured and plotted along the <italic>E. coli</italic> genome.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Reporter assay of the promoter activity and regulation</title>
+        <p>To measure the activity and regulation of promoters, a LacZ-reporter assay was employed using pRS551 plasmid vector <xref ref-type="bibr" rid="pone.0020081-Ishii1">[35]</xref>. Promoter fragments of approximately 500 bp in length between the initiation codon and 500 bp upstream sequence were amplified by PCR using a pair of primers (F and R) (for sequences see <xref ref-type="supplementary-material" rid="pone.0020081.s002">Table S1</xref>). The fragments were digested with <italic>Bam</italic>HI and <italic>Eco</italic>RI, and then ligated to pRS551. Construction of the plasmids was confirmed by DNA sequencing. Plasmids were transformed into test <italic>E. coli</italic> strains, wild-type BW25113, crp mutant JW5702. Overnight cultures in LB medium were diluted 1&#x2236;1000 into fresh medium, and cells were grown for 4 hrs to an OD<sub>600</sub> of 0.4&#x2013;0.5. The activity of &#x3B2;-galactosidase was measured according to the standard Miller method <xref ref-type="bibr" rid="pone.0020081-Miller1">[36]</xref>. The measurement was performed four times to get the average values.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Search for the regulation targets of CRP by using Genomic SELEX screening: SELEX-clos analysis</title>
+        <p>In order to get insight into the genome regulation by CRP for control of carbon source utilization in <italic>E. coli</italic>, we first tried to identify the whole set of target promoters, genes and operons under the control of CRP. For this purpose, we employed &#x2018;Genomic SELEX&#x2019; screening, in which DNA fragments carrying the recognition sequence by CRP were isolated as CRP-DNA complexes from a mixture of genome DNA fragments (28). For screening of DNA sequences with affinity to CRP, purified His-tagged CRP was mixed with a collection of <italic>E. coli</italic> genome fragments of 200&#x2013;300 bp in length, and CRP-bound DNA fragments were affinity-purified. Since CRP exhibits functional inter-conversion depending on the presence or absence of specific effector cAMP <xref ref-type="bibr" rid="pone.0020081-Harman1">[11]</xref>, we carried out Genomic SELEX in the presence and absence of cAMP. The original substrate mixture of genomic DNA fragments used for the Genomic SELEX screening formed smear bands on PAGE. After repeating the Genomic SELEX cycle in the continuous presence of cAMP, DNA fragments with affinity to CRP were enriched, leading to form sharp PAGE bands. In contrast, the gel pattern of DNA fragments isolated after Genomic SELEX in the absence of cAMP did not change from the original DNA mixture, indicating that little enrichment of specific DNA fragments.</p>
+        <p>For identification of the sequences of DNA fragments bound to CRP, we first performed SELEX-clos (cloning-sequencing) analysis. A total of 160 SELEX fragments were cloned and sequenced, which were classified into 29 CRP-binding sequences, including 13 previously identified loci and 16 newly identified sites (<xref ref-type="supplementary-material" rid="pone.0020081.s003">Table S2</xref>). When the CRP-binding sequences are located upstream or near promoters of the flanking genes, these genes are predicted to be under the control of CRP. A number of genes encoding transporters were included in the collection of SELEX-clos clones (see <xref ref-type="supplementary-material" rid="pone.0020081.s003">Table S2</xref>), including transporters of not only sugars such as maltose (<italic>malK</italic>), fucose (<italic>fucP</italic>), and mannitol (<italic>mtlA</italic>) but also amino acids and nucleosides such as alanine (<italic>cycA</italic>), serine (<italic>dsdX</italic>) and uridine (<italic>nupC</italic>).</p>
+        <p>In the case of cAMP-CRP, the binding sites are mostly located in intergenic spacer regions between divergently transcribed genes. As an initial screening, we predicated that only of the divergent promoters is under the control of cAMP-CRP (however, note that both promoters are often regulated by cAMP-CRP bound within intergenic regions). For instance, the most abundant 59 clones carried the intergenic sequence between the divergently transcribed yecJ and yecR, of which one is counted as a CRP target (<xref ref-type="supplementary-material" rid="pone.0020081.s003">Table S2</xref>). Likewise, the collection of next abundant 38 clones carried the intergenic sequence between <italic>yibI</italic> and <italic>mltA</italic>, both being located downstream of the cAMP-CRP binding sequence, of which the <italic>mtlA</italic> operon encoding mannitol-specific PTS permease is known to be activated by cAMP-CRP <xref ref-type="bibr" rid="pone.0020081-Bettenbrock1">[37]</xref>. SELEX-clos is useful to get information on the order of binding affinity between regulation targets by test DNA-binding transcription factors because the number of isolated DNA sequences by SELEX-clos correlates with the affinity to the test factor (28, 38). SELEX-clos is dominated by high affinity sites, consequently, a massive number of sites would have to be sequenced in order to identify the many weaker low abundant sites.</p>
+      </sec>
+      <sec id="s3b">
+        <title>Search for the regulation targets of CRP by using Genomic SELEX screening: SELEX-chip analysis</title>
+        <p>For identification of the whole set of binding sequences by CRP, we then subjected the mixture of SELEX fragments to the newly developed DNA tilling array analysis (SELEX-chip) <xref ref-type="bibr" rid="pone.0020081-Teramoto1">[29]</xref>, <xref ref-type="bibr" rid="pone.0020081-Shimada2">[30]</xref>. Genomic SELEX fragments obtained with or without the effector cAMP were labeled with Cy5 while the original DNA library was labeled with Cy3. Two sets of the mixture of fluorescent-labeled samples were hybridized separately to the DNA tilling microarray (Oxford Gene Technology, Oxford, UK) <xref ref-type="bibr" rid="pone.0020081-Shimada4">[39]</xref>. For elimination of the bias of library DNA, the ratio of fluorescence intensity bound to each probe between the test sample and the original library DNA was measured, and plotted against the corresponding position along the <italic>E. coli</italic> genome (<xref ref-type="fig" rid="pone-0020081-g001">Fig. 1</xref>). On the DNA tilling array used, the 60 b-long probes are aligned along the <italic>E. coli</italic> genome at 105 bp-intervals, and therefore approximately 300 bp-long SELEX fragments should bind to two or more consecutive probes. This criterion was employed for identification of positive peaks of CRP binding (or elimination of false-positive peaks).</p>
+        <fig id="pone-0020081-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Identification of cAMP-CRP-binding sites on the <italic>E. coli</italic> genome.</title>
+            <p>Genomic SELEX search of cAMP-CRP-binding sequences was performed using the standard procedure <xref ref-type="bibr" rid="pone.0020081-Shimada1">[28]</xref> in the presence (filled circles) and absence of cAMP (open circles). SELEX fragments were subjected to SELEX-chip analysis using the tilling DNA microarray as described previously (39). Regulation target genes of CRP were predicted from the location of CRP-binding sites (for details see text). The genes associated with the peaks at the cut-off level above 30 are indicated. When the CRP-binding site is located upstream of divergently transcribed genes, two genes are shown, being connected with a flash mark. Genes under light green background represent newly identified CRP targets while those under pale orange background represent the CRP targets listed in Regulon DB <xref ref-type="bibr" rid="pone.0020081-GamaCastro1">[27]</xref>. The level of CRP binding (Y-axis) represents the fluorescent intensity ratio between SELEX samples in the presence and absence of CRP.</p>
+          </caption>
+          <graphic xlink:href="pone.0020081.g001"/>
+        </fig>
+        <p>By setting the cut-off level of intensity ratio at 30, a total of 19 high-level peaks with strong affinity to cAMP-CRP were identified (<xref ref-type="fig" rid="pone-0020081-g001">Fig. 1</xref>) while the number of peaks increased to 50 by decreasing the cut-off level to 20. The number of CRP-binding peaks further increased to 277 by setting the cut-off level of 4.0. In the absence of cAMP, no specific peaks were identified for CRP (<xref ref-type="fig" rid="pone-0020081-g001">Fig. 1</xref>, open circles; but note that open circles are hidden behind closed circles), indicating that the peaks thus identified represent specific binding of cAMP-bound CRP. Of the total of 277 CRP-binding peaks, 258 peak sequences (93%) were found to locate upstream of genes (<xref ref-type="table" rid="pone-0020081-t001">Table 1</xref>; for details of the mapping see <xref ref-type="supplementary-material" rid="pone.0020081.s004">Table S3</xref>), either upstream of one specific gene or upstream of divergently aligned genes. The rest of 19 peaks (7%) are located downstream of genes. The cAMP-CRP-binding sequences identified by SELEX-clos (<xref ref-type="supplementary-material" rid="pone.0020081.s003">Table S2</xref>) were all included in the list of cAMP-CRP-binding loci identified by SELEX-chip (<xref ref-type="supplementary-material" rid="pone.0020081.s004">Table S3</xref>). The cAMP-dependent binding of CRP to some of these target sites was confirmed by PAGE gel shift assay (data not shown).</p>
+        <table-wrap id="pone-0020081-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Known regulation targets of cAMP-CRP.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0020081-t001-1" xlink:href="pone.0020081.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">A. Targets identified by Genomic SELEX (total, 92)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>araB, araC, araE, araF, ascF, aspA, caiF, caiT, cdd, cpdB, csiD, cstA, cytR, dadA, dctA, dgsA, deoC, dsdX, dusB, epd, exuT, fadL, fixA, flhD, fucA, fucP, galP, gapA, gatY, galS, gcd, gdhA, glgS, glnL glpA, glpT, gltA, gntK, gntP, gntT, guaB, hpt, hyfA, idnD, idnK, isrB, ivbL, kbaZ, lacZ, lsrA, malE, malI, malK, malS, malT, malX, manX, maoC, mglB, mtlA, nagB, nagE, nanC, nmpC, nupC, nupG, ompF, paaA, ppiA, proP, psiE, ptsG, ptsH, putP, raiA, rhaB, rhaS, rpoH, sdhC, serA, serC, tdcA, treB, tsx, udp, uhpT, uidA, ulaA, uxaC, uxuA, xseA, yeiT</italic>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">B. Targets not identified by Genomic SELEX (total, 103)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aceB, acnA, acnB, acs, aer, agp, aldA, aldB, ansB, araJ, argG, bglG, chbB, cirA, crp, csgD, csiE, cyaA, cyaR, cyoA, dcuB, dcuR, dsdA, ebgA, entC, fadD, feaR, fecA, fepA, fiu, focA, fumA, fur, gadA, gadB, gadE, galE, glcC, glgC, glnA, glpD, glpE, glpF, gltB, gntX, grpE, gyrA, hlyE, hofM, hupA, hupB, isrB, lpd, marR, mdh, melA, melR, metK, metY, mhpA, modA, mpl, murQ, nanA, nirB, nrdA, ompA, ompR, osmY, oxyR, pdhR, pncB, ppdD, prpB, prpR, rbsD, relA, rrhaT, rpoS, sbmC, sdhD, sfsA, sodA, sodB, sohB, speC, spf, srlA, tnaC, trg, trxA, ubiG, ugpB, uxaB, uxuR, xylA, xylF, ychH, yfiD, yhfA, yiaJ, yiaK, ykgR, zraS</italic>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>The regulation targets of cAMP-CRP listed in RegulonDB <xref ref-type="bibr" rid="pone.0020081-GamaCastro1">[27]</xref> are classified into two groups. (A) A total of 91 targets identified by SELEX-chip; and (B) a total of 104 targets not identified by SELEX-chip.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>CRP is the best-studied global regulator of <italic>E. coli</italic>, and a total of 195 genes or operons are listed as the regulation targets of cAMP-CRP in <italic>E. coli</italic> databases such as Regulon DB (27) (<xref ref-type="table" rid="pone-0020081-t001">Table 1</xref>). Among the hitherto identified targets, 92 were included in the list of targets identified by Genomic SELEX (<xref ref-type="table" rid="pone-0020081-t001">Table 1</xref>, group-A; for details see <xref ref-type="supplementary-material" rid="pone.0020081.s004">Table S3</xref>). Except for these 92 known targets, the rest of 183 targets were newly identified by SELEX-chip in this study. Even though a total of 103 known CRP targets were not included in the SELEX-chip list of CRP-binding sites (<xref ref-type="table" rid="pone-0020081-t001">Table 1</xref>, group-B), it is noteworthy that the targets were identified from the SELEX-chip pattern by setting the high cut-off level to avoid background noises (see above). In addition, it should be noted that a number of the known CRP targets in Regulon DB were predicted, without experimental evidence, simply after search of the CRP-box sequence (for details see <xref ref-type="sec" rid="s4">Discussion</xref>).</p>
+        <p>The locations of CRP-binding sites relative to the gene or operon organization around these newly identified CRP-binding sites are summarized in <xref ref-type="table" rid="pone-0020081-t002">Table 2</xref>. When the CRP-binding site is located upstream of a single gene or operon (and downstream of another neighboring gene), we predicted these downstream genes or operons as regulation targets of CRP (<xref ref-type="table" rid="pone-0020081-t002">Table 2</xref>, group-A). In <italic>E. coli</italic>, transcription factors bound within an intergenic region between divergently organized genes or operons generally regulate transcription toward one direction. A group of CRP-binding sites are located between divergently organized genes or operons (<xref ref-type="table" rid="pone-0020081-t002">Table 2</xref>, group-B). For this group of CRP-binding loci, we tentatively counted only one of the divergently transcribed genes or operons as the regulation target (<xref ref-type="table" rid="pone-0020081-t002">Table 2</xref>, group-B1 and group-B2). In the case of group-B1 (50 CRP-binding sites), CRP binds to non-coding intergenic regions while in the case of group-B2 (14 CRP-binding sites), CRP binds on to open reading frames near the boundary with intergenic spacers. In both group-B1 and group&#x2013;B2 cases, we tentatively estimated that CRP regulates one of the divergently transcribed genes or operons. However, we noticed such a unique feature of CRP regulation that CRP bound within an intergenic region often regulates both of the divergently transcribed genes or operons (see below). Thus, it can not be excluded yet that for some of group-B1 and &#x2013;B2 cases, both of the divergently transcribed operons are regulated by cAMP-CRP bound within intergenic regions. Within a total of 195 hitherto identified CRP targets in Regulon DB, the binding sites of 63 targets are located within intergenic regions of divergently transcribed operons (<xref ref-type="table" rid="pone-0020081-t002">Table 2</xref>, goup-C). In these cases, it is not ruled out that CRP regulates transcription toward opposite directions.</p>
+        <table-wrap id="pone-0020081-t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Novel regulation targets of cAMP-CRP on the <italic>E. coli</italic> genome.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0020081-t002-2" xlink:href="pone.0020081.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">A. Newly identified targets (total, 119)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>amn, argT, aroM, atpI*, cmtB*, cobU, creD, cycA, deaD, dppA, eco, emrB, eptB, eutS, fadH, fbaB, frlA, fruB*, fryB, galF, gcvT, glk*, gltI, hchA, hda, hemB, hslU, kdgT, kdpE, maa, malZ, moaA, mraZ, mscS, murD, narZ, nepI, nrdD, nuoA*, otsB, pck*, pgi*, pheP, polB, pphB, ppiB, ppsA*, pscK, purM, rihB, rmf, rnk, rplT, rppH, rrfA, rrfB, rrfD, rrfE, rrfG, rrfH, rsmB, setB*, spr, talA*, tppB, tyrT, ubiC, udk,uspF, xapA, valV, visC, wbbJ, xylE, yahL, ybfM, ybhH, ybiH, ybiI, ybiJ, ybiV, ycdZ, yciS, ycjN, ydbJ, ydcC, ydeA, ydeN, ydfZ, ydhP, ydiH, ydjF, ydjN, ydiS, yeaQ, yeaV, yeeR, yehP, yejG, yfaX, yffQ, yffS, yfgM, yfjT, ygfK, yghG, ygiS, yhaO, yhcN, yidK, yjhI, ykfA, ynaJ, yneE, ynfF, yobF, yqgA, yqiI, ysaB</italic>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">B1. Prediicted targets (divergently transcribed gene sets) (total, 50)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aaeX&lt;&gt;aaeR, abgA&lt;&gt;abgR, adhE&lt;&gt;ychE, allD&lt;&gt;fdrA, aqpZ&lt;&gt;ybjD, cspD&lt;&gt;clpS, dacD&lt;&gt;sbcB, ddlA&lt;&gt;iraP, dsrA&lt;&gt;yedP, dusC&lt;&gt;yohJ, elbB&lt;&gt;ryhA, fdoG&lt;&gt;fdhD, garP&lt;&gt;garD, gcvA&lt;&gt;gcvB, glyA&lt;&gt;hmp, insG&lt;&gt;yjhB, mipA&lt;&gt;yeaG, mltA&lt;&gt;metZ, ppa&lt;&gt;ytfQ, ptsA&lt;&gt;frwC, puuA&lt;&gt;puuD, rhtA&lt;&gt;ompX, rpiR&lt;&gt;rpiB, wza&lt;&gt;yegH, yagT&lt;&gt;yagU, ybgH&lt;&gt;ybgI, ybiS&lt;&gt;ybiT, ybjJ&lt;&gt;ybjK, ycaC&lt;&gt;ycaD, ycfQ&lt;&gt;bhsA, yciC&lt;&gt;ompW, yehU&lt;&gt;mlrA, ygbI&lt;&gt;ygbJ, ygcW&lt;&gt;yqcE, ygeV&lt;&gt;ygeW, ygfT&lt;&gt;ygfU, yhjA&lt;&gt;treF, yicO&lt;&gt;ade, yieP&lt;&gt;rrsC, yihU&lt;&gt;yihV, yjbS&lt;&gt;aphA, yjcB&lt;&gt;yjcC, yjeH&lt;&gt;groS, yjfO&lt;&gt;yjfP, yjfY&lt;&gt;rpsF, yjiY&lt;&gt;tsr, ykgM&lt;&gt;insE, ymfE&lt;&gt;lit, yncL&lt;&gt;ydcX, ytfJ&lt;&gt;ytfK</italic>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">B2. Predicted targets (divergently transcribed gene sets with CRP sites on ORF of spacer genes) (total, 14)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>azoR&lt;hrpA&gt;ydcF, csrB&lt;syd&gt;queF, garP&lt;garD&gt;sohA, kduI&lt;yqeF&gt;yqeG, lpxH&lt;ppiB&gt;cysB, lysP&lt;yeiE&gt;yeiH, matA&lt;matB&gt;matC, minD&lt;minC&gt;ycgJ, rplM&lt;yhcM&gt;yhcB, uraA&lt;upp&gt;purM, yebA&lt;znuA&gt;znuC, yeaZ&lt;yoaA&gt;yoaB, yedJ&lt;yedR&gt;xseX, yqfF&lt;argP&gt;scpA</italic>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">C. Predicted targets (genes transcribed toward opposite directly from known target gene) (total, 63)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>acnB, acs, aer, araF, ascF, aspA, cpdB, csgD, cyaA, dadA, deoC, dsdX, entC, fadL, feaR, fepA, fumA, gapA, gdhA, glcC, glgS, glnA, glnL, glpF, gltB, gntX, grpE, hlyE, hofM, ivbL, kbaZ, tsrA, malS, malT, manX, marR, mdh, mhpA, mtlA, murQ, nanC, nmpC, nrdA, nupC, ompR, oxyR, pdhR, pncB, ppiA, putP, serA, sohB, speC, srlA, tdcA, treB, trxA, udp, ulaA, ychH, yfiD, ykgR, zraS</italic>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <p>Overall the total number of regulation target genes or operons of cAMP-CRP could be minimum 378 (183 novel targets including 119 group-A, 50 group-B1, and 14 group-B2; plus 195 known targets). The number of CRP targets should be more because: 1) both of the divergently transcribed genes or operons might be regulated for some of group-B and group-C cases and even for some known targets; and 2) regulation targets increase if the cut-off level of SELEX-chip is set at lower levels [note that only about half of the known CRP targets were picked up at the cut-off level herein employed].</p>
+      </sec>
+      <sec id="s3c">
+        <title>Consensus recognition sequences of CRP</title>
+        <p>The consensus recognition sequences of CRP have been proposed after sequence analysis of the hitherto identified targets (for a review see <xref ref-type="bibr" rid="pone.0020081-Ishihama3">[38]</xref>). As a test of the accuracy of Genomic SELEX screening for cAMP-CRP binding sequences, we searched for the CRP-box sequence using the whole set of 323 CRP-binding sequences from a total of 275 CRP targets (183 novel plus 92 known targets) identified in this study [note that some of the CRP targets carry multiple CRP-box sequences] (for details see <xref ref-type="supplementary-material" rid="pone.0020081.s005">Table S4</xref>). A collection of 500-bp sequences centered on each peak and using BioProspector (<ext-link ext-link-type="uri" xlink:href="http://ai.stanford.edu/~xsliu/BioProspector/">http://ai.stanford.edu/~xsliu/BioProspector/</ext-link>), which was successfully employed for identification of RutR box sequence <xref ref-type="bibr" rid="pone.0020081-Shimada3">[33]</xref>, we identified the 16-bp sequence CRP-box motif for all 323 CRP-binding sites (<xref ref-type="fig" rid="pone-0020081-g002">Fig. 2A</xref>). The CRP box-consensus sequence, 5&#x2032;-TGTGA-N6-TCACA-3&#x2032;, agrees well with the hitherto identified <xref ref-type="bibr" rid="pone.0020081-Ishihama3">[38]</xref>, but indicates clearly that G at position 4 and C at position 13 of the CRP-box are highly conserved in good agreement of their key roles to exhibit the high affinity to CRP. In the Genomic SELEX screening herewith employed, a total of 92 known targets (47%) were identified from a total of 195 CRP targets deposited in Regulon RD. After separate analysis of CRP-box sequence for two groups of CRP targets from Regulon DB, it turned clear that the consensus CRP-box sequence is highly conserved for the CRP targets identified by Genomic SELEX (<xref ref-type="fig" rid="pone-0020081-g002">Fig. 2B</xref>). In contrast, the level of CRP-box sequence conservation is significantly lower for the group of unidentified CRP targets (<xref ref-type="fig" rid="pone-0020081-g002">Fig. 2C</xref>). This finding supports the usefulness of Genomic SELEX screening for quick identification of the whole set of regulation targets by cAMP-CRP with high accuracy.</p>
+        <fig id="pone-0020081-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>The consensus sequences of CRP binding.</title>
+            <p>The binding sequences of cAMP-CRP were subjected to the Logo analysis for determinatin of the consensus sequences for the following samples: (A) the whole set of CRP targets (total 323 sequences) identified by Genomic SELEX screening in this study; (B) the set of CRP targets (165 sequences) that are listed in Regulon DB and identified by Genomic SELEX; (C) the set of CRP targets (129 sequences) that are listed in Regulon DB but not identified by Genomic SELEX; (D) the whole set of CRP targets (294 sequences) listed in Regulon DB.</p>
+          </caption>
+          <graphic xlink:href="pone.0020081.g002"/>
+        </fig>
+      </sec>
+      <sec id="s3d">
+        <title>Location of the CRP-binding sites</title>
+        <p>CRP has been identified to regulate some of the enzymes for central carbon metabolism, including <italic>fbaA</italic>, <italic>gapA</italic>, and <italic>pgk</italic>. In addition, we identified in this study the binding of cAMP-CRP to the genes encoding <italic>glk</italic> (glucokinase), <italic>fruK</italic> (1-phosphofructokinase), <italic>yggF</italic> (type II fructose-1,6-bisphosphatase), <italic>ppsA</italic> (phosphoenolpyruvate synthase), <italic>talA</italic> (transaldolase) and tktB (transketolase II). In order to further confirm the accuracy of target prediction by the Genomic SELEX screening, we performed the <italic>lacZ</italic> promoter assay for some of the newly identified target promoters, together with some known targets, in both wild-type and <italic>crp</italic> deletion mutant. <xref ref-type="fig" rid="pone-0020081-g003">Fig. 3</xref> shows the activity of 12 representative promoters that were predicted to be under the control cAMP-CRP after SELEX-chip analysis, together with 4 known promoters, <italic>ptsG</italic> (glucose-specific PTS), <italic>dgsA</italic> (global regulator of carbon metabolism), <italic>ptsH</italic> (PTS Hpr component) and glpF (glycerol facilitator), that are activated by cAMP-CRP. All the putative target genes examined were indeed found to be under the control of CRP, classified in group-A in <xref ref-type="table" rid="pone-0020081-t002">Table 2</xref>, supporting the prediction that the Genomic SELEX screening allows the identification of regulation targets of cAMP-CRP with high accuracy.</p>
+        <fig id="pone-0020081-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Analysis of promoter regulation <italic>in vivo</italic> by CRP using LacZ fusion.</title>
+            <p>The predicted CRP-target promoters were inserted into the <italic>lacZ</italic> expression plasmid to construct a collection of promoter-<italic>lacZ</italic> fusions. The promoter-dependent expression of LacZ was determined in both wild-type <italic>E. coli</italic> and <italic>crp</italic>-defective mutants (Y-axis, &#x3B2;-galactosidase activity in Miller unit). Except for the <italic>talA and fbaB</italic> promoters (shown under gray background), the activity of all other promoters decreased in the absence of activator CRP, indicating the involvement of CRP as an activator. The newly identified promoters are shown under black background. As references, some known CRP target promoters such as <italic>ptsG</italic>, <italic>dgsA</italic>, <italic>ptsH</italic> and <italic>glpF</italic> (shown under white background) were examined in parallel under the same conditions.</p>
+          </caption>
+          <graphic xlink:href="pone.0020081.g003"/>
+        </fig>
+        <p>Based on the promoter assay, we can also predict the mode of regulation <italic>in vivo</italic>, either activation or repression, for the novel targets. Two promoters, <italic>talA</italic> (transaldolase) and <italic>fbaB</italic> (fructose bisphosphate aldolase), showed increased activity in the <italic>crp</italic>-disrupted mutant, indicating that these two promoters are repressed by cAMP-CRP. All other promoters tested showed decreased activity in the <italic>crp</italic> mutant, including <italic>pps</italic> (phosphoenolpyruvate synthetase), <italic>fruB</italic> (fructose-specific PTS), <italic>setB</italic> (lactose/glucose efflux system), <italic>nuoA</italic> (NADH:ubiquinone oxidoreductase), <italic>glk</italic> (glucokinase), <italic>cmtB</italic> (mannitol-specific PTS), <italic>pck</italic> (phosphoenolpyruvate carboxykinase), <italic>gpmM</italic> (phosphoglycerate mutase), <italic>atpI</italic> (ATP synthase) and <italic>pgi</italic> (glucosephosphate isomerase). For this group of promoters, cAMP-CRP is involved as an activator. The binding sites of activator CRP were mostly located upstream from the promoters while those of repressor CRP were located downstream from the target promoters (<xref ref-type="supplementary-material" rid="pone.0020081.s001">Fig. S1</xref>) in agreement with the initial mapping of CRP-binding sites on various CRP-regulated promoters <xref ref-type="bibr" rid="pone.0020081-Ishihama1">[24]</xref>, <xref ref-type="bibr" rid="pone.0020081-Ishihama2">[25]</xref>. The binding sites of activator CRP are located upstream of the respective promoters, showing a clear periodical pattern of about 10 bp spacing with peak positions starting from &#x2212;40 (data not shown), in agreement with the direct protein-protein contact model of upstream bound CRP and RNA polymerase on the same DNA surface <xref ref-type="bibr" rid="pone.0020081-Murakami1">[40]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Murakami3">[42]</xref>. In contrast, the binding sites of repressor CRP overlap with the target promoters or downstream from the promoters.</p>
+      </sec>
+      <sec id="s3e">
+        <title>Regulation of divergently transcribed genes by CRP</title>
+        <p>In <italic>E. coli</italic>, it is rare that a single and the same regulator controls divergently aligned promoters, which direct transcription toward opposite directions. After a systematic comparison of the CRP-binding sites within intergenic regions of divergent promoters, both being under the control of cAMP-CRP, a single CRP-binding site was detected for a total of 11 cases, <italic>araBAD-araC</italic>, <italic>gcd-hpt</italic>, <italic>maoC-paaABCDEFGHIJK</italic>, <italic>gltA-sdhCDAB</italic>, <italic>guaBA-xseA</italic>, <italic>metY-argG</italic>, <italic>glpEGR-glpD</italic>, <italic>xylAB-xylFGHR</italic>, <italic>prpR-prpBCDE</italic>, <italic>rhaT-sodA</italic> and <italic>fruBKA-setB</italic> (<xref ref-type="fig" rid="pone-0020081-g004">Fig. 4A</xref>). One unique feature of the regulation mode by cAMP-CRP is that a single and the same transcription factor bound within an intergenic spacer region controls both of the divergently aligned promoters. Using a model system, El-Robh and Busby <xref ref-type="bibr" rid="pone.0020081-ElRobh1">[43]</xref> performed a detailed study of transcription activation of divergent promoters by a single CRP molecule.</p>
+        <fig id="pone-0020081-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Regulation of the divergently transcribed promoters by CRP.</title>
+            <p>Some of the divergently aligned promoters are controlled by CRP molecule(s) bound within spacers. The gene organization and the binding sites of CRP within the spacer regions are shown: (A) divergent promoters are regulated by single and the same CRP bound within spacers; (B) divergent promoters are regulated by different CRP molecules bound within spacers; and (C) multiple CRP molecules bind to spacer between divergent promoters, but the role of each CRP remains unidentified. The numbers above DNA indicate the distance between the initiation sites of divergent transcription.</p>
+          </caption>
+          <graphic xlink:href="pone.0020081.g004"/>
+        </fig>
+        <p>Except for the above 11 cases, there are a number of the divergent promoters, both being apparently under the control of cAMP-CRP. Detailed analysis, however, indicated the presence of multiple CRP-binding sites within intergenic spacers. In three cases including <italic>caiTABCDE-fixABCX</italic>, <italic>malI-malXY</italic> and <italic>rhaBAD-rhaSR</italic>, however, the divergent promoters are regulated by different CRP molecules (<xref ref-type="fig" rid="pone-0020081-g004">Fig. 4B</xref>). For other 8 pairs including <italic>nagBACD-nagE</italic>, <italic>yiaJ-yiaKLMN0lyxKsgbHUE</italic>, <italic>malEFG-malKlamBmalM</italic>, <italic>glpTQ-glpABC</italic>, <italic>melR-melAB</italic>, <italic>idnDOTR-idnK</italic>, <italic>gntP-uxuAB</italic> and <italic>yfhA-crp</italic>, multiple sites of CRP binding exist even though the regulatory role of each CRP site has not yet been established (<xref ref-type="fig" rid="pone-0020081-g004">Fig. 4C</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>Carbon availability in the environment influences the expression pattern of a number of genes in E. coli in various ways. The effector cAMP is a signal generated after sensing the external carbon source availability in the absence of glucose. cAMP-bound active form of CRP is then regulates transcription of a number of genes that are involved in the utilization of non-glucose carbon sources in the absence of glucose <xref ref-type="bibr" rid="pone.0020081-Deutscher1">[9]</xref>, <xref ref-type="bibr" rid="pone.0020081-Harman1">[11]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Kolb1">[13]</xref>, and thus it is an antagonist of catabolite repression <xref ref-type="bibr" rid="pone.0020081-Deutscher1">[9]</xref>, <xref ref-type="bibr" rid="pone.0020081-Stlke1">[12]</xref>.</p>
+      <sec id="s4a">
+        <title>The whole set of regulation targets of CRP</title>
+        <p>A number of approaches <italic>in vitro</italic>, <italic>in vivo</italic> and <italic>in silico</italic> have been employed for the identification of regulation targets by cAMP-CRP, and mixed together, a total of 195 target promoters are listed In Regulon DB. Some of these previously known CRP sites were predicted after <italic>in silico</italic> searching for the known CRP-box consensus sequence without experimental confirmation. After Genomic SELEX screening, however, we identified a total of 245 different sequences of CRP binding, and predicted a total of 275 target promoters under the control of CRP. Of the 195 known targets, 92 promoters are included in this list of candidate targets selected at the cut-off level of 4.0 on the SELEX-chip pattern (see <xref ref-type="fig" rid="pone-0020081-g001">Fig. 1</xref>). If the rest of 103 CRP targets that are listed in Regulon DB but has not been identified by the Genomic SELEX are added, the total number of CRP targets should increase to at least 378 promoters, leading to about 2-fold sudden increase in the regulation target of CRP (378/195).</p>
+        <p>More than 50% (103/195) of the CRP targets in Regulon DB was, however, not identified in the Genomic SELEX screening under the conditions herewith employed, but it is noteworthy that the level of consensus sequence conservation is lower for CRP-binding sequences included in these unselected promoters (see <xref ref-type="fig" rid="pone-0020081-g002">Fig. 2</xref>). The number of CRP targets should increase by changing the experimental conditions such as that: i) the number of SELEX cycles was reduced to pick up DNA sequences with weak affinity to CRP; or ii) the cut-off level of SELEX-chip pattern was set at lower levels. The number of CRP targets should also increase if CRP bound within intergenic regions between divergent promoters regulates transcription toward both directions.</p>
+        <p>The marked increase in the numbers of target genes under the control of CRP indicates that the regulation targets by each of a total 300 species of transcription factors in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0020081-Ishihama3">[38]</xref>, <xref ref-type="bibr" rid="pone.0020081-Ishihama4">[44]</xref> must also be more than those so far identified. In fact, the number of regulation targets of Cra increased 8-fold from 20 to 178 after the Genomic SELEX screening <xref ref-type="bibr" rid="pone.0020081-Geerse1">[31]</xref>. In the case of PdhR, the regulator for the genes encoding pyruvate dehydrogenase (PDH) multienzyme complex, was found to control the genes for the downstream metabolism, <italic>i.e.</italic>, the respiratory electron transport pathway, including <italic>ndh</italic> (NADH dehydrogenase) and <italic>cyoABCDE</italic> (cytochrome boptype oxidase) <xref ref-type="bibr" rid="pone.0020081-Ogasawara1">[45]</xref>. Thus, the Genomic SELEX screening should be a useful experimental screening system for search of the whole set of regulation targets for each transcription factor.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Regulatory roles of CRP: Regulation of the genes for transport of carbon sources</title>
+        <p>The most important regulatory role of CRP has been believed to be the control of central metabolism <xref ref-type="bibr" rid="pone.0020081-Fic1">[7]</xref>, <xref ref-type="bibr" rid="pone.0020081-Pyles1">[16]</xref>. The genes for glucose metabolism including both glycolysis and gluconeogenesis can be divided into 4 groups: (<italic>a</italic>) the genes for carbon source transporters; (<italic>b</italic>) a large number of genes coding for enzymes participating in the reversible reactions of the central carbon metabolism; (<italic>c</italic>) a small number of the genes coding for rate-controlling enzymes in the carbon metabolism; and (<italic>d</italic>) the genes for side pathways linked to the central carbon metabolism. The group-a genes encoding transporters of carbon sources are organized into more than 40 transcription units, of which more than 30 have been identified to be under the control of CRP <xref ref-type="bibr" rid="pone.0020081-Deutscher1">[9]</xref>, <xref ref-type="bibr" rid="pone.0020081-Stlke1">[12]</xref>.</p>
+        <p><italic>E. coli</italic> contains a set of substrate-specific transport systems, which are classified on the basis of molecular composition into PTS (phosphoenolpuruvate: sugar phosphotransferase) <xref ref-type="bibr" rid="pone.0020081-SaierMH2">[46]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Tchieu1">[48]</xref>, ABC (ATP-binding cassette transporter) <xref ref-type="bibr" rid="pone.0020081-Linton1">[49]</xref>, MFS systems (major facilitator superfamily) <xref ref-type="bibr" rid="pone.0020081-Pao1">[50]</xref> and several unclassified transporters. A total of 25 PTS members have been identified in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0020081-SaierMH2">[46]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Tchieu1">[48]</xref> (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>). After Genomic SELEX screening, some additional PTS system genes for sugar transport were found to belong the CRP regulon, including <italic>fruBKA</italic> for fructose <xref ref-type="bibr" rid="pone.0020081-Charbit1">[51]</xref>, <xref ref-type="bibr" rid="pone.0020081-Feldheim1">[52]</xref>, <italic>manXYZ</italic> for mannose transport <xref ref-type="bibr" rid="pone.0020081-Postma1">[47]</xref>, <italic>ptsG</italic> for glucose transport <xref ref-type="bibr" rid="pone.0020081-Postma1">[47]</xref>, <italic>mtlAD</italic> for mannitol transport <xref ref-type="bibr" rid="pone.0020081-Postma1">[47]</xref> and <italic>ptsH</italic> encoding HPr component of PTS <xref ref-type="bibr" rid="pone.0020081-Postma1">[47]</xref>. Transcription of <italic>fruAB</italic>, <italic>ptsH</italic> and <italic>pstG</italic> was confirmed to be down-regulated in the crp mutant (see <xref ref-type="fig" rid="pone-0020081-g003">Fig. 3</xref>). As a result, almost all the genes for transport of carbon sources are now identified to be under the direct control of cAMP-CRP.</p>
+        <fig id="pone-0020081-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Regulatory roles of CRP.</title>
+            <p><bold>Upper panel:</bold> The genes under the control of CRP are indicated under either purple background (the genes for sugar transport systems) or blue background (the genes for metabolic enzymes). CRP regulates the majority of genes for three pathways of sugar transport (MFS, PTS and ABC). The number in boxes represent in the order from left to right: The number of CRP target genes listed in Regulon DB (white); the number of genes identified to be regulated by CRP in this study (green); the number of genes predicted to be under the control of CRP in this study (yellow); the total number of genes under the control of CRP (orange). The numbers shown in parenthesis represent total number of genes constituting the respective transport systems, including those not regulated by CRP. <bold>Lower panel:</bold> Most of the genes for the enzymes involved in glycolysis are controlled by Cra <xref ref-type="bibr" rid="pone.0020081-Shimada2">[30]</xref> while only three genes, <italic>fbaA, gapA</italic> and <italic>pgk</italic>, had been identified as the regulation targets of CRP (shown in while under blue background). In this study, we identified a number of novel targets of CRP (shown in green under blue background). Furthermore a number of the genes involved in the metabolism downstream of glycolysis including PDH pathway and aerobic respiration were found to be the targets of CRP regulation. The number of target 0.5 represents such a particular case as <italic>fbaB</italic>&lt;CRP&gt;<italic>yegT</italic> (see <xref ref-type="supplementary-material" rid="pone.0020081.s004">Table S3</xref>), in which one (<italic>fbaB</italic>) of the divergent promoters is known under the control of CRP but possible regulation of the opposite promoter (<italic>yegT</italic>) by CRP can not be ruled out.</p>
+          </caption>
+          <graphic xlink:href="pone.0020081.g005"/>
+        </fig>
+        <p>ATP-binding cassette (ABC) transporters belong to the primary transporters, which use the energy released from ATP hydrolysis to drive ions or solutes across membranes. In <italic>E. coli</italic>, ABC transporter consists of import systems that involve the substrate binding protein, transporters of substrates, and outer membrane receptors or porins <xref ref-type="bibr" rid="pone.0020081-Higgins1">[53]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Moussatova1">[55]</xref>. In this study, we identified some ABC-family transporter for carbon sources such as <italic>ugpB</italic> for glycerol-3-phosphate transport <xref ref-type="bibr" rid="pone.0020081-Wu1">[56]</xref> and <italic>xylF</italic> for xylose transport <xref ref-type="bibr" rid="pone.0020081-Wu1">[56]</xref> as the novel regulation targets of CRP. Including these newly identified targets, all the ABC family transporters for carbon source transport in <italic>E. coli</italic> are now recognized to be all under the control of cAMP-CRP (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>). Likewise, at least 11 or 12 members of a total of 16 MFS (major facilitator superfamily) transporters <xref ref-type="bibr" rid="pone.0020081-Law1">[57]</xref>, <xref ref-type="bibr" rid="pone.0020081-Paulsen1">[58]</xref> were found to belong to the CRP regulon. Taken all these observations together, we conclude that one of the major regulatory roles of CRP is the sorting of transport of carbon sources by controlling the level of substrate-specific transporters within the membranes.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Regulatory roles of CRP: Regulation of the genes for carbon metabolism</title>
+        <p>A limited number of the genes encoding the enzymes involved in glycolysis had been found to be regulated by CRP, including <italic>fabA</italic> (fructose-1,6-bisphosphate aldolase), <italic>gapA</italic> (glyceraldehyde-3-phosphate dehydrogenase) and <italic>pgk</italic> (phosphoglycerate kinase) (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>). In addition, we identified by Genemic SELEX screening that <italic>glk</italic> (glucokinase), <italic>fruK</italic> (1-phosphofructokinase), <italic>yggF</italic> (type II fructose-1,6-bisphosphatase), ppsA (phosphoenolpyruvate synthase), <italic>talA</italic> (transaldolase) and tktB (transketolase II) are under the control of activator cAMP-CRP (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>). Furthermore the <italic>in vivo</italic> reporter assay indicated that both pgi (glucosephosphate isomerase) and <italic>gpmM</italic> (phosphoglycero mutase III) promoters were activated by CRP while the <italic>fbaB</italic> (class-I fructose-bisphosphate aldolase) promoter was repressed by CRP (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>; for experimental details see <xref ref-type="fig" rid="pone-0020081-g003">Fig. 3</xref>) even though these genes were not detected by Genomic SELEX screening under the experimental conditions and the cut-off level of SELEX-chip pattern herein employed.</p>
+        <p>The pentose phosphate (PP) pathway, also called hexose monophosphate shunt, is one of the three essential pathways, EMP (Embden-Meyerof-Parnas pathway), PP (pentose-phosphate) and TCA (tri-carboxylic-acid pathway) pathways of the central metabolism. At the entry gate, D-glucose-6P is converted to D-glucono-lactone-6P by Zwf <xref ref-type="bibr" rid="pone.0020081-Rowley1">[59]</xref>, which is metabolized to D-glycraldehyde-3-phosphate by a set of enzymes, Pgi, Gnd, RpiAB, and TktAB, for re-use in the central metabolism <xref ref-type="bibr" rid="pone.0020081-Iida1">[60]</xref>, <xref ref-type="bibr" rid="pone.0020081-Katz1">[61]</xref>. After Genomic SELEX, we found that CRP activates <italic>tktAB</italic> and <italic>talAB</italic> encoding the last step enzymes.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Regulatory roles of CRP: Regulation of the genes for aerobic respiratory</title>
+        <p>CRP was found to regulate a number of the genes coding for enzymes involved in the metabolism downstream of glycolysis, including pyruvate dehydrogenase (PDH) complex, and most of the TCA cycle enzymes. Previously we identified by Genomic SELEX screening that PdhR, originally identified as the regulator of genes coding for components of PDH complex, regulates <italic>ndh</italic> encoding NADH dehydrogenase II and <italic>cyoABCDE</italic> encoding the cytochrome <italic>bo</italic>-type oxidate, both together forming the pathway of respiratory electron transport downstream from the PDH cycle <xref ref-type="bibr" rid="pone.0020081-Ogasawara1">[45]</xref>, <xref ref-type="bibr" rid="pone.0020081-Ingledew1">[62]</xref>. Likewise CRP was found to regulate NADH-ubiquinone oxidoreductase I encoded by the <italic>nuoABCDEFGHIJKLMN</italic> operon, NADH-ubiquinone oxidoreductase II encoded by <italic>ndh</italic>, and the cytochrome <italic>bo</italic> terminal oxidase encoded by the <italic>cyoABCDE</italic> operon. Furthermore the <italic>atpIBFHAGDC</italic> operon coding for the ATPase F1 and F0 complexes was also found to be under the control of CRP (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>).</p>
+      </sec>
+      <sec id="s4e">
+        <title>Regulatory roles of CRP: Switching control between glycolysis and gluconeogenesis</title>
+        <p>Several step reactions of the central carbon metabolism are apparently irreversible, different enzymes being involved in catalysis of forward and backward reactions. These irreversible reactions, sometimes called rate-controlling reactions, are considered to be involved in switching control between glycolysis and gluconeogenesis. There are 4 steps of the irreversible reactions in <italic>E. coli</italic>, two steps at the entry gate of the central metabolism for supply of fructose-1,6-bisphosphate (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>), <italic>i.e.</italic>, one way reaction of the conversion of glucose to glucose-6-phosphate catalyzed by glucokinase (Glk) <xref ref-type="bibr" rid="pone.0020081-Meyer1">[63]</xref>; and the synthesis of fructose-1,6-bisphosphate from fructose-6-phosphate catalyzed by 6-phosphofructokinase (PfkA and PfkB) <xref ref-type="bibr" rid="pone.0020081-Daldal1">[64]</xref> and the reverse reaction catalyzed by four isozymes (Fbp, GlpX, YbhA and YggF) <xref ref-type="bibr" rid="pone.0020081-Brown1">[65]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0020081-Kuznetsova1">[68]</xref>, and two steps at the exit gate from the glycolysis pathway (<xref ref-type="fig" rid="pone-0020081-g005">Fig. 5</xref>), <italic>i.e.</italic>, the conversion of phosphoenolpyruvate to pyruvate by two pyruvate kinase isozymes (PykA and PykF) <xref ref-type="bibr" rid="pone.0020081-Boiteux1">[69]</xref>, <xref ref-type="bibr" rid="pone.0020081-Malcovati1">[70]</xref> and the reverse reaction catalyzed by phosphoenolpyruvate synthetase (PpsA) <xref ref-type="bibr" rid="pone.0020081-Cooper1">[71]</xref>; and one way reaction of the synthesis of phosphoenolpyruvate from oxaloacetate by phosphoenolpyruvate carboxykinase (Pck) <xref ref-type="bibr" rid="pone.0020081-Krebs1">[72]</xref>. When the reactions leading to accumulate fructose-1,6-bisphosphatase are activated, the overall reaction of carbon metabolism is directed toward gluconeogenesis. Among the enzymes involved in these four steps reactions for entry to and exist from the central glycolysis pathway, only one enzyme, GlpX, had been identified as a regulation target of CRP. Here we identified novel targets, Glk, YggF, PpsA, and Pck, indicating that CRP plays a major role in switch control between glycolysis and gluconeogenesis. CRP is activated in the absence of glucose (see below), leading to activate the genes for shifting to gluconeogenesis.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Transcription factor networks under the control of CRP</title>
+        <p>Promoters for the genes encoding the key metabolic enzymes and the essential cell architectures are under the control of multiple regulators, each monitoring different environmental conditions or metabolic states <xref ref-type="bibr" rid="pone.0020081-Ishihama3">[38]</xref>. After Genomic SELEX screening, we discovered that a number of genes encoding transcription factors are under the control of CRP (<xref ref-type="fig" rid="pone-0020081-g006">Fig. 6</xref>). In the case of CRP, a total of 70 transcription factors are included in the whole set of 349 CRP targets, forming a big hierarchy of transcription factor network. A total of 28 CRP targets including CRP itself are the specific regulators of carbon metabolism (shown under green background in <xref ref-type="fig" rid="pone-0020081-g006">Fig. 6</xref>), while 13 are the regulators of nitrogen metabolism (orange background in <xref ref-type="fig" rid="pone-0020081-g006">Fig. 6</xref>). Some of this-group regulators such as ArgR and GlnG control a large number of genes (more than 40 by ArgR and more than 50 by GlnG). A total of 14 factors are involved in regulation of the genes for response to external stresses (purple background in <xref ref-type="fig" rid="pone-0020081-g006">Fig. 6</xref>). Stationary phase-specific sigma RpoS is also under the control of CRP.</p>
+        <fig id="pone-0020081-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0020081.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>The hierarchy of regulation network of CRP.</title>
+            <p>A total of 70 genes for transcription factors are organized under the control of CRP. Transcription factors are classified on the basis of regulation targets: regulators for carbon metabolism (green background), nitrogen metabolism (orange background), and for stress-response (purple background). Some nucleoid proteins play not only architectural roles but also regulatory roles (blue-green background). A number of genes for uncharacterized transcription factors are under the control of CRP (black background). The set of newly identified CRP targets in this study are shown by asterisk.</p>
+          </caption>
+          <graphic xlink:href="pone.0020081.g006"/>
+        </fig>
+        <p>Of the 70 transcription factors under the control of CRP, a total of 24 were newly identified in this study (marked with stars in <xref ref-type="fig" rid="pone-0020081-g006">Fig. 6</xref>). One advantage of Genomic SELEX screening system is that regulation targets can be identified even for uncharacterized transcription factors, and thus except for YiaJ, all other transcription factors with unknown functions (black background in <xref ref-type="fig" rid="pone-0020081-g006">Fig. 6</xref>) were newly identified to be under the control of CRP.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0020081.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Location of CRP-binding sites on the regulation target promoters.</bold> The CRP-dependent promoters were predicted by Genomic SELEX screening (<xref ref-type="fig" rid="pone-0020081-g001">Fig. 1</xref> and <xref ref-type="table" rid="pone-0020081-t001">Tables 1</xref> and <xref ref-type="table" rid="pone-0020081-t002">2</xref>) and the influence of CRP on some representative promoters was analyzed <italic>in vivo</italic> using the <italic>lacZ</italic> fusion (<xref ref-type="fig" rid="pone-0020081-g003">Fig. 3</xref>). The location of CRP-box within 500-bp sequences (between &#x2212;300 to +200) of these CRP-dependent promoters are indicated by ellipse symbols. Arrows show transcription initiation sites. The numbers represent the distance (bp) from the initiation site of P1 transcription. A: Promoters activated by CRP. B: Promoters repressed by CRP.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0020081.s001.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0020081.s002">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Primers used for promoter assay.</bold>
+          </p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pone.0020081.s002.xls" mimetype="application" mime-subtype="vnd.ms-excel">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0020081.s003">
+        <label>Table S2</label>
+        <caption>
+          <p>
+            <bold>CRP-binding sequences identified by SELEX-clos.</bold>
+          </p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pone.0020081.s003.xls" mimetype="application" mime-subtype="vnd.ms-excel">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0020081.s004">
+        <label>Table S3</label>
+        <caption>
+          <p>
+            <bold>Regulation targets of cAMP-CRP.</bold>
+          </p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pone.0020081.s004.xls" mimetype="application" mime-subtype="vnd.ms-excel">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0020081.s005">
+        <label>Table S4</label>
+        <caption>
+          <p>
+            <bold>CRP-binding sequences on regulation target promoters.</bold>
+          </p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pone.0020081.s005.xls" mimetype="application" mime-subtype="vnd.ms-excel">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Hiroshi Ogasawara and Jun Teramoto for discussion, and Ayako Kori and Kayoko Yamada for preparation of proteins and technical support. This work was performed as a Nano-Biology Project of the Micro-Nano Technology Research Center of Hosei University.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This work was supported by Grants-in-aid 21710198, 17076016, 8310133 and 21241047 from the Ministry of Education, Culture, Sports, Science and Technology of Japan. The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0020081-SaierMH1">
+        <label>1</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Saier MH</surname><suffix>Jr</suffix></name></person-group>             <year>1998</year>             <article-title>Multiple mechanisms controlling carbon metabolism in bacteria.</article-title>             <source>Biotechnol Bioeng</source>             <volume>58</volume>             <fpage>170</fpage>             <lpage>174</lpage>          <pub-id pub-id-type="pmid">10191387</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Lemuth1">
+        <label>2</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lemuth</surname><given-names>K</given-names></name><name><surname>Hardiman</surname><given-names>T</given-names></name><name><surname>Winter</surname><given-names>S</given-names></name><name><surname>Pfeiffer</surname><given-names>D</given-names></name><name><surname>Keller</surname><given-names>MA</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Global transcription and metabolic flux analysis of <italic>Escherichia coli</italic> in glucose-limited fed-batch cultivations.</article-title>             <source>Appl Environ Microbiol</source>             <volume>74</volume>             <fpage>7002</fpage>             <lpage>7015</lpage>          <pub-id pub-id-type="pmid">18806003</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Nanchen1">
+        <label>3</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Nanchen</surname><given-names>A</given-names></name><name><surname>Schicker</surname><given-names>A</given-names></name><name><surname>Revelles</surname><given-names>O</given-names></name><name><surname>Sauer</surname><given-names>U</given-names></name></person-group>             <year>2008</year>             <article-title>Cyclic AMP-dependent catabolite repression is the dominant control mechanism of metabolic fluxes under glucose limitation in <italic>Escherichia coli</italic>.</article-title>             <source>J Bacteriol</source>             <volume>190</volume>             <fpage>2323</fpage>             <lpage>2330</lpage>          <pub-id pub-id-type="pmid">18223071</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Perrenoud1">
+        <label>4</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Perrenoud</surname><given-names>A</given-names></name><name><surname>Sauer</surname><given-names>U</given-names></name></person-group>             <year>2005</year>             <article-title>Impact of global transcriptional regulation by ArcA, ArcB, Cra, Crp, Cya, Fnr, and Mlc on glucose catabolism in <italic>Escherichia coli</italic>.</article-title>             <source>J Bacteriol</source>             <volume>187</volume>             <fpage>3171</fpage>             <lpage>3179</lpage>          <pub-id pub-id-type="pmid">15838044</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Zubay1">
+        <label>5</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zubay</surname><given-names>G</given-names></name><name><surname>Schwartz</surname><given-names>D</given-names></name><name><surname>Beckwith</surname><given-names>J</given-names></name></person-group>             <year>1970</year>             <article-title>Mechanism of activation of catabolite-sensitive genes: a positive control system.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>66</volume>             <fpage>104</fpage>             <lpage>110</lpage>          <pub-id pub-id-type="pmid">4320461</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-McKay1">
+        <label>6</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>McKay</surname><given-names>DB</given-names></name><name><surname>Steitz</surname><given-names>TA</given-names></name></person-group>             <year>1981</year>             <article-title>Structure of catabolite gene activator protein at 2.9 A resolution suggests binding to left-handed B-DNA.</article-title>             <source>Nature</source>             <volume>290</volume>             <fpage>744</fpage>             <lpage>749</lpage>          <pub-id pub-id-type="pmid">6261152</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Fic1">
+        <label>7</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Fic</surname><given-names>E</given-names></name><name><surname>Bonarek</surname><given-names>P</given-names></name><name><surname>Grecki</surname><given-names>A</given-names></name><name><surname>Kedracka-Krok</surname><given-names>S</given-names></name><name><surname>Mikolajczak</surname><given-names>J</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>cAMP receptor protein from <italic>Escherichia coli</italic> as a model of signal transduction in proteins &#x2013; a review.</article-title>             <source>J Mol Microbiol Biotechnol</source>             <volume>17</volume>             <fpage>1</fpage>             <lpage>11</lpage>          <pub-id pub-id-type="pmid">19033675</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Won1">
+        <label>8</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Won</surname><given-names>HS</given-names></name><name><surname>Lee</surname><given-names>YS</given-names></name><name><surname>Lee</surname><given-names>SH</given-names></name><name><surname>Lee</surname><given-names>BJ</given-names></name></person-group>             <year>2009</year>             <article-title>Structural overview on the allosteric activation of cyclic AMP receptor protein.</article-title>             <source>Biochim Biophys Acta</source>             <volume>1794</volume>             <fpage>1299</fpage>             <lpage>1308</lpage>          <pub-id pub-id-type="pmid">19439203</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Deutscher1">
+        <label>9</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Deutscher</surname><given-names>J</given-names></name></person-group>             <year>2008</year>             <article-title>The mechanisms of carbon catabolite repression in bacteria.</article-title>             <source>Curr Opin Microbiol</source>             <volume>11</volume>             <fpage>87</fpage>             <lpage>93</lpage>          <pub-id pub-id-type="pmid">18359269</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Lawson1">
+        <label>10</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lawson</surname><given-names>CL</given-names></name><name><surname>Swigon</surname><given-names>D</given-names></name><name><surname>Murakami</surname><given-names>K</given-names></name><name><surname>Darst</surname><given-names>SA</given-names></name><name><surname>Berman</surname><given-names>HM</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Catabolite activator protein (CAP): DNA binding and transcription activation.</article-title>             <source>Curr Opin Struct Biol</source>             <volume>14</volume>             <fpage>10</fpage>             <lpage>20</lpage>          <pub-id pub-id-type="pmid">15102444</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Harman1">
+        <label>11</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Harman</surname><given-names>JG</given-names></name></person-group>             <year>2001</year>             <article-title>Allosteric regulation of the cAMP receptor protein.</article-title>             <source>Biochim Biophys Acta</source>             <volume>154</volume>             <fpage>1</fpage>             <lpage>17</lpage>          <pub-id pub-id-type="pmid">11343786</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Stlke1">
+        <label>12</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>St&#xFC;lke</surname><given-names>J</given-names></name><name><surname>Hillen</surname><given-names>W</given-names></name></person-group>             <year>1999</year>             <article-title>Carbon catabolite repression in bacteria.</article-title>             <source>Curr Opin Microbiol</source>             <volume>2</volume>             <fpage>195</fpage>             <lpage>201</lpage>          <pub-id pub-id-type="pmid">10322165</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Kolb1">
+        <label>13</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kolb</surname><given-names>A</given-names></name><name><surname>Busby</surname><given-names>S</given-names></name><name><surname>Buc</surname><given-names>H</given-names></name><name><surname>Garges</surname><given-names>G</given-names></name><name><surname>Adhya</surname><given-names>S</given-names></name></person-group>             <year>1993</year>             <article-title>Transcriptional regulation by cAMP receptor protein of <italic>Escherichia coli</italic>.</article-title>             <source>Annu Rev Biochem</source>             <volume>62</volume>             <fpage>749</fpage>             <lpage>795</lpage>          <pub-id pub-id-type="pmid">8394684</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Grainger1">
+        <label>14</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Grainger</surname><given-names>DC</given-names></name><name><surname>Hurd</surname><given-names>D</given-names></name><name><surname>Harrison</surname><given-names>M</given-names></name><name><surname>Holdstock</surname><given-names>J</given-names></name><name><surname>Busby</surname><given-names>SJ</given-names></name></person-group>             <year>2005</year>             <article-title>Studies of the distribution of <italic>Escherichia coli</italic> cAMP-receptor protein and RNA polymerase along the <italic>E. coli</italic> chromosome.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>102</volume>             <fpage>17693</fpage>             <lpage>17698</lpage>          <pub-id pub-id-type="pmid">16301522</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Zheng1">
+        <label>15</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zheng</surname><given-names>D</given-names></name><name><surname>Constantinidou</surname><given-names>C</given-names></name><name><surname>Hobman</surname><given-names>JL</given-names></name><name><surname>Minchin</surname><given-names>SD</given-names></name></person-group>             <year>2004</year>             <article-title>Identification of the CRP regulon using <italic>in vitro</italic> and <italic>in vivo</italic> transcriptional profiling.</article-title>             <source>Nucleic Acids Res</source>             <volume>32</volume>             <fpage>5874</fpage>             <lpage>5893</lpage>          <pub-id pub-id-type="pmid">15520470</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Pyles1">
+        <label>16</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Pyles</surname><given-names>EA</given-names></name><name><surname>Lee</surname><given-names>JC</given-names></name></person-group>             <year>1996</year>             <article-title>Mode of selectivity in cyclic AMP receptor protein-dependent promoters in <italic>Escherichia coli</italic>.</article-title>             <source>Biochemistry</source>             <volume>35</volume>             <fpage>1162</fpage>             <lpage>1172</lpage>          <pub-id pub-id-type="pmid">8573570</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Pastan1">
+        <label>17</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Pastan</surname><given-names>I</given-names></name><name><surname>Perlman</surname><given-names>R</given-names></name></person-group>             <year>1970</year>             <article-title>Cyclic adenosine monophosphate in bacteria.</article-title>             <source>Science</source>             <volume>169</volume>             <fpage>339</fpage>             <lpage>344</lpage>          <pub-id pub-id-type="pmid">4317896</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Mori1">
+        <label>18</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Mori</surname><given-names>K</given-names></name><name><surname>Aiba</surname><given-names>H</given-names></name></person-group>             <year>1985</year>             <article-title>Evidence for negative control of <italic>cya</italic> transcription by cAMP and cAMP receptor protein in intact <italic>Escherichia coli</italic> cells.</article-title>             <source>J Biol Chem 260:</source>             <volume>14838-14843</volume>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Berg1">
+        <label>19</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Berg</surname><given-names>OG</given-names></name><name><surname>von Hippel</surname><given-names>PH</given-names></name></person-group>             <year>1988</year>             <article-title>Selection of DNA binding sites by regulatory proteins. II. The binding specificity of cyclic AMP receptor protein to recognition sites.</article-title>             <source>J Mol Biol</source>             <volume>200</volume>             <fpage>709</fpage>             <lpage>723</lpage>          <pub-id pub-id-type="pmid">3045325</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Kim1">
+        <label>20</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kim</surname><given-names>J</given-names></name><name><surname>Adhya</surname><given-names>S</given-names></name><name><surname>Garges</surname><given-names>S</given-names></name></person-group>             <year>1992</year>             <article-title>Allosteric changes in the cAMP receptor protein of <italic>Escherichia coli</italic>: hinge reorientation.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>89</volume>             <fpage>770</fpage>             <lpage>1773</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Passner1">
+        <label>21</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Passner</surname><given-names>JM</given-names></name><name><surname>Steitz</surname><given-names>TA</given-names></name></person-group>             <year>1997</year>             <article-title>The structure of a CAP&#x2013;DNA complex having two cAMP molecules bound to each monomer.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>94</volume>             <fpage>843</fpage>             <lpage>2847</lpage>          <pub-id pub-id-type="pmid">9023344</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Lin1">
+        <label>22</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lin</surname><given-names>SH</given-names></name><name><surname>Lee</surname><given-names>JC</given-names></name></person-group>             <year>2003</year>             <article-title>Determinants of DNA bending in the DNA-cyclic AMP receptor protein complexes in <italic>Escherichia coli</italic>.</article-title>             <source>Biochemistry</source>             <volume>42</volume>             <fpage>4809</fpage>             <lpage>4818</lpage>          <pub-id pub-id-type="pmid">12718521</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Parkinson1">
+        <label>23</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Parkinson</surname><given-names>G</given-names></name><name><surname>Wilson</surname><given-names>C</given-names></name><name><surname>Gunasekera</surname><given-names>A</given-names></name><name><surname>Ebright</surname><given-names>YW</given-names></name><name><surname>Ebright</surname><given-names>RE</given-names></name><etal/></person-group>             <year>1996</year>             <article-title>Structure of the CAP&#x2013;DNA complex at 2.5 A resolution: a complete picture of the protein&#x2013;DNA interface.</article-title>             <source>J Mol Biol</source>             <volume>304</volume>             <fpage>847</fpage>             <lpage>859</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Ishihama1">
+        <label>24</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>1993</year>             <article-title>Protein-protein communication within the transcription apparatus.</article-title>             <source>J Bacteriol</source>             <volume>175</volume>             <fpage>2483</fpage>             <lpage>2489</lpage>          <pub-id pub-id-type="pmid">8478317</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Ishihama2">
+        <label>25</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>1992</year>             <article-title>Role of the RNA polymerase &#x3B1; subunit in transcription activation.</article-title>             <source>Mol Microbiol</source>             <volume>6</volume>             <fpage>3283</fpage>             <lpage>3288</lpage>          <pub-id pub-id-type="pmid">1484484</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Busby1">
+        <label>26</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Busby</surname><given-names>S</given-names></name><name><surname>Ebright</surname><given-names>RH</given-names></name></person-group>             <year>1999</year>             <article-title>Transcription activation by catabolite activator protein.</article-title>             <source>J Mol Biol</source>             <volume>293</volume>             <fpage>199</fpage>             <lpage>213</lpage>          <pub-id pub-id-type="pmid">10550204</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-GamaCastro1">
+        <label>27</label>
+        <element-citation publication-type="other">             <person-group person-group-type="author"><name><surname>Gama-Castro</surname><given-names>S</given-names></name><name><surname>Jemenez-Jacinto</surname><given-names>V</given-names></name><name><surname>Peralta-Gil</surname><given-names>M</given-names></name><name><surname>Santos-Zavaleta</surname><given-names>A</given-names></name><name><surname>Penaloza-Spinola</surname><given-names>MI</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>RegulonDB (version 6.0): gene regulation model of Escherichia coli K-12 beyond transcription, active (experimental) annotated promoters and Textpresso navigation.</article-title>             <source>Nucleic Acids Res 36 (database issue)</source>             <fpage>D120</fpage>             <lpage>4</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Shimada1">
+        <label>28</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Shimada</surname><given-names>T</given-names></name><name><surname>Fujita</surname><given-names>N</given-names></name><name><surname>Maeda</surname><given-names>M</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2005</year>             <article-title>Systematic search for the Cra-binding promoters using genomic SELEX system.</article-title>             <source>Genes Cells</source>             <volume>10</volume>             <fpage>907</fpage>             <lpage>918</lpage>          <pub-id pub-id-type="pmid">16115199</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Teramoto1">
+        <label>29</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Teramoto</surname><given-names>J</given-names></name><name><surname>Yoshimura</surname><given-names>SH</given-names></name><name><surname>Takeyasu</surname><given-names>K</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2010</year>             <article-title>A novel nucleoid protein of <italic>Escherichia coli</italic> induced under anaerobic growth conditions.</article-title>             <source>Nucleic Acids Res</source>             <volume>38</volume>             <fpage>3605</fpage>             <lpage>3618</lpage>          <pub-id pub-id-type="pmid">20156994</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Shimada2">
+        <label>30</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Shimada</surname><given-names>T</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2011</year>             <article-title>Novel members of the Cra regulon involved in carbon metabolism in <italic>Escherichia coli</italic>.</article-title>             <source>J Bacteriol</source>             <volume>193</volume>             <fpage>649</fpage>             <lpage>659</lpage>          <pub-id pub-id-type="pmid">21115656</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Geerse1">
+        <label>31</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Geerse</surname><given-names>RH</given-names></name><name><surname>van der Pluijm</surname><given-names>J</given-names></name><name><surname>Postma</surname><given-names>PW</given-names></name></person-group>             <year>1989</year>             <article-title>The repressor of the PEP-fructose phosphotransferase system is required for the transcription of the <italic>pps</italic> gene of <italic>Escherichia coli</italic>.</article-title>             <source>Mol Gen Genet</source>             <volume>218</volume>             <fpage>348</fpage>             <lpage>352</lpage>          <pub-id pub-id-type="pmid">2674659</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Baba1">
+        <label>32</label>
+        <element-citation publication-type="other">             <person-group person-group-type="author"><name><surname>Baba</surname><given-names>T</given-names></name><name><surname>Ara</surname><given-names>T</given-names></name><name><surname>Hasegawa</surname><given-names>M</given-names></name><name><surname>Takai</surname><given-names>Y</given-names></name><name><surname>Okumura</surname><given-names>Y</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Construction of <italic>Escherichia coli</italic> K-12 in-frame, single-gene knockout mutants: the Keio collection.</article-title>             <comment>Mol Syst Biol doi:10.1038/msb4100050</comment>                       </element-citation>
+      </ref>
+      <ref id="pone.0020081-Shimada3">
+        <label>33</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Shimada</surname><given-names>T</given-names></name><name><surname>Hirao</surname><given-names>K</given-names></name><name><surname>Kori</surname><given-names>A</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2007</year>             <article-title>RutR is the uracil/thymine-sensing master regulator of a set of genes for synthesis and degradation of pyrimidines.</article-title>             <source>Mol Microbiol</source>             <volume>66</volume>             <fpage>744</fpage>             <lpage>757</lpage>          <pub-id pub-id-type="pmid">17919280</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Yamamoto1">
+        <label>34</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Hirano</surname><given-names>K</given-names></name><name><surname>Ohshima</surname><given-names>T</given-names></name><name><surname>Aiba</surname><given-names>H</given-names></name><name><surname>Utsumi</surname><given-names>R</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Functional characterization <italic>in vitro</italic> of all two-component signal transduction systems from <italic>Escherichia coli</italic>.</article-title>             <source>J Biol Chem</source>             <volume>280</volume>             <fpage>1448</fpage>             <lpage>1456</lpage>          <pub-id pub-id-type="pmid">15522865</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Ishii1">
+        <label>35</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ishii</surname><given-names>D</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name></person-group>             <year>2009</year>             <article-title>Two modes of autoregulation of the <italic>murR</italic> repressor in <italic>Escherichia coli.</italic></article-title>             <source>Biosci Biotechnol Biochem</source>             <volume>73</volume>             <fpage>2528</fpage>             <lpage>2530</lpage>          <pub-id pub-id-type="pmid">19897902</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Miller1">
+        <label>36</label>
+        <element-citation publication-type="other">             <person-group person-group-type="author"><name><surname>Miller</surname><given-names>JH</given-names></name></person-group>             <year>1972</year>             <article-title>Experiments in Molecular Genetics.</article-title>             <comment>Cold Spring Harbor Laboratory, New York</comment>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Bettenbrock1">
+        <label>37</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Bettenbrock</surname><given-names>K</given-names></name><name><surname>Sautere</surname><given-names>T</given-names></name><name><surname>Jahreis</surname><given-names>K</given-names></name><name><surname>Kremling</surname><given-names>A</given-names></name><name><surname>Lengeier</surname><given-names>JW</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>Correlation between growth rates, EIICrr phosphorylaiton and intracellular AMP levels in <italic>Escherichia coli</italic> K-12.</article-title>             <source>J Bacteriol</source>             <volume>189</volume>             <fpage>6891</fpage>             <lpage>6900</lpage>          <pub-id pub-id-type="pmid">17675376</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Ishihama3">
+        <label>38</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2010</year>             <article-title>Prokaryotic genome regulation: Multi-factor promoters, multi-target regulators and hierarchic networks.</article-title>             <source>FEMS Microbiol Rev</source>             <volume>34</volume>             <fpage>628</fpage>             <lpage>645</lpage>          <pub-id pub-id-type="pmid">20491932</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Shimada4">
+        <label>39</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Shimada</surname><given-names>T</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name><name><surname>Busby</surname><given-names>SJ</given-names></name><name><surname>Grainger</surname><given-names>DC</given-names></name></person-group>             <year>2008</year>             <article-title>The <italic>Escherichia coli</italic> RutR transcription factor binds at targets within genes as well as intergenic regions.</article-title>             <source>Nucleic Acids Res</source>             <volume>36</volume>             <fpage>3950</fpage>             <lpage>3955</lpage>          <pub-id pub-id-type="pmid">18515344</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Murakami1">
+        <label>40</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Murakami</surname><given-names>K</given-names></name><name><surname>Kimura</surname><given-names>M</given-names></name><name><surname>Owens</surname><given-names>JT</given-names></name><name><surname>Meares</surname><given-names>CF</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>1997</year>             <article-title>The two &#x3B1; subunits of <italic>Escherichia coli</italic> RNA polymerase are asymmetrically arranged and contact diferent halves of the DNA upstream element.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>94</volume>             <fpage>1709</fpage>             <lpage>1714</lpage>          <pub-id pub-id-type="pmid">9050843</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Murakami2">
+        <label>41</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Murakami</surname><given-names>K</given-names></name><name><surname>Owens</surname><given-names>JT</given-names></name><name><surname>Belyaeva</surname><given-names>TA</given-names></name><name><surname>Meares</surname><given-names>CF</given-names></name><name><surname>Busby</surname><given-names>SJW</given-names></name><etal/></person-group>             <year>1997</year>             <article-title>Positioning of two alpha subunits carboxy-terminal domains of RNA polymerase at promoters by two transcription factors.</article-title>             <source>Proc Natl Acad Sci UISA</source>             <volume>94</volume>             <fpage>11274</fpage>             <lpage>11278</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Murakami3">
+        <label>42</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Murakami</surname><given-names>K</given-names></name><name><surname>Fujita</surname><given-names>N</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>1996</year>             <article-title>Transcription factor recognition surface on the RNA polymerase &#x3B1; subunit is involved in contact with the DNA enhancer element.</article-title>             <source>EMBO J</source>             <volume>15</volume>             <fpage>4358</fpage>             <lpage>4367</lpage>          <pub-id pub-id-type="pmid">8861963</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-ElRobh1">
+        <label>43</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>El-Robh</surname><given-names>MS</given-names></name><name><surname>Busby</surname><given-names>SJW</given-names></name></person-group>             <year>2002</year>             <article-title>The <italic>Escherichia coli</italic> cAMP receptor protein bound at a single target can activate transcription initiation at divergent promoters: a systematic study that exploits new probe plasmids.</article-title>             <source>Biochem J</source>             <volume>368</volume>             <fpage>835</fpage>             <lpage>843</lpage>          <pub-id pub-id-type="pmid">12350222</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Ishihama4">
+        <label>44</label>
+        <element-citation publication-type="other">             <person-group person-group-type="author"><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2009</year>             <article-title>The nucleoid: an overview.</article-title>             <comment>EcoSal &#x2013; <italic>Escherichia coli</italic> and <italic>Salmonella</italic>: Cellular and Molecular Biology (Boek A, Curtiss R III, Kaper JB, Karp PD, Neidhardt FC, et al., eds). ASM Press, Washington, DC</comment>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Ogasawara1">
+        <label>45</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ogasawara</surname><given-names>H</given-names></name><name><surname>Ishida</surname><given-names>Y</given-names></name><name><surname>Yamada</surname><given-names>K</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2007</year>             <article-title>PdhR (pyruvate dehydrogenase complex regulator) controls the respiratory electron transport system in <italic>Escherichia coli</italic>.</article-title>             <source>J Bacteriol</source>             <volume>189</volume>             <fpage>5534</fpage>             <lpage>554152</lpage>          <pub-id pub-id-type="pmid">17513468</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-SaierMH2">
+        <label>46</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Saier MH</surname><suffix>Jr</suffix></name><name><surname>Reizer</surname><given-names>J</given-names></name></person-group>             <year>1994</year>             <article-title>The bacterial phosphotransferase system: new frontiers 30 years later.</article-title>             <source>Mol Microbiol</source>             <volume>13</volume>             <fpage>755</fpage>             <lpage>764</lpage>          <pub-id pub-id-type="pmid">7815935</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Postma1">
+        <label>47</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Postma</surname><given-names>PW</given-names></name><name><surname>Lengeler</surname><given-names>JW</given-names></name><name><surname>Jacobson</surname><given-names>GR</given-names></name></person-group>             <year>1993</year>             <article-title>Phosphoenolpyruvate:carbohydrate phosphotransferase systems of bacteria.</article-title>             <source>Microbiol Rev</source>             <volume>57</volume>             <fpage>543</fpage>             <lpage>594</lpage>          <pub-id pub-id-type="pmid">8246840</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Tchieu1">
+        <label>48</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Tchieu</surname><given-names>JH</given-names></name><name><surname>Norris</surname><given-names>V</given-names></name><name><surname>Edwards</surname><given-names>JS</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>             <year>2001</year>             <article-title>The complete phosphotransferase system in <italic>Escherichia coli</italic>.</article-title>             <source>J Mol Microbial Biotechnol</source>             <volume>3</volume>             <fpage>329</fpage>             <lpage>346</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Linton1">
+        <label>49</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Linton</surname><given-names>KJ</given-names></name><name><surname>Higgins</surname><given-names>CF</given-names></name></person-group>             <year>1988</year>             <article-title>The Escherichia coli ATP-binding cassette (ABC) protein.</article-title>             <source>Mol Microbiol</source>             <volume>28</volume>             <fpage>5</fpage>             <lpage>13</lpage>          <pub-id pub-id-type="pmid">9593292</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Pao1">
+        <label>50</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Pao</surname><given-names>SS</given-names></name><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>             <year>1998</year>             <article-title>Major facilitator superfamily.</article-title>             <source>Microbiol Mol Biol Rev</source>             <volume>62</volume>             <fpage>1</fpage>             <lpage>34</lpage>          <pub-id pub-id-type="pmid">9529885</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Charbit1">
+        <label>51</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Charbit</surname><given-names>A</given-names></name><name><surname>Reizer</surname><given-names>J</given-names></name><name><surname>Saier</surname><given-names>MH</given-names></name></person-group>             <year>1996</year>             <article-title>Function of the duplicated IIB domain and oligomeric structure of the fructose permease of <italic>Escherichia coli.</italic></article-title>             <source>J Biol Chem</source>             <volume>271</volume>             <fpage>9997</fpage>             <lpage>10003</lpage>          <pub-id pub-id-type="pmid">8626640</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Feldheim1">
+        <label>52</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Feldheim</surname><given-names>DA</given-names></name><name><surname>Chin</surname><given-names>AM</given-names></name><name><surname>Nierva</surname><given-names>CT</given-names></name><name><surname>Feucht</surname><given-names>BU</given-names></name><name><surname>Cao</surname><given-names>YW</given-names></name><etal/></person-group>             <year>1990</year>             <article-title>Physiological consequences of the complete loss of phosphoryl-transfer proteins HPr and FPr of the phosphoenolpyruvate:sugar phosphotransferase sysem and analysis of fructose (<italic>fru</italic>) operon expression in <italic>Salmonella typhimurium</italic>.</article-title>             <source>J Bacteriol</source>             <volume>172</volume>             <fpage>5459</fpage>             <lpage>5469</lpage>          <pub-id pub-id-type="pmid">2203752</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Higgins1">
+        <label>53</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Higgins</surname><given-names>CF</given-names></name></person-group>             <year>2001</year>             <article-title>ABC transporters: physiology, structure and mechanism &#x2013; an overview.</article-title>             <source>Res Microbiol</source>             <volume>152</volume>             <fpage>205</fpage>             <lpage>210</lpage>          <pub-id pub-id-type="pmid">11421269</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Locher1">
+        <label>54</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Locher</surname><given-names>KP</given-names></name></person-group>             <year>2004</year>             <article-title>Structure and mechanism of ABC transporters.</article-title>             <volume>14</volume>             <fpage>426</fpage>             <lpage>431</lpage>             <comment>Curr Opin Struct Biol</comment>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Moussatova1">
+        <label>55</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Moussatova</surname><given-names>A</given-names></name><name><surname>Kandt</surname><given-names>C</given-names></name><name><surname>O'Hara</surname><given-names>CM</given-names></name><name><surname>Tieleman</surname><given-names>DP</given-names></name></person-group>             <year>2008</year>             <article-title>ATP-depending cassette transporters in <italic>Escherichia coli.</italic></article-title>             <source>Biochim Biophys Acta</source>             <volume>1778</volume>             <fpage>1757</fpage>             <lpage>1771</lpage>          <pub-id pub-id-type="pmid">18634750</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Wu1">
+        <label>56</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Wu</surname><given-names>LF</given-names></name><name><surname>Mandrand-Berthelot</surname><given-names>MA</given-names></name></person-group>             <year>1995</year>             <article-title>A family of homologous substrate-binding proteins with a broad range of substrate specificity and dissimilar biological functions.</article-title>             <source>Biochimie</source>             <volume>77</volume>             <fpage>744</fpage>             <lpage>750</lpage>          <pub-id pub-id-type="pmid">8789466</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Law1">
+        <label>57</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Law</surname><given-names>CJ</given-names></name><name><surname>Maloney</surname><given-names>PC</given-names></name><name><surname>Wang</surname><given-names>D-N</given-names></name></person-group>             <year>2008</year>             <article-title>Ins and outs of major facilitator superfamily antiporters.</article-title>             <source>Ann Rev Microbiol</source>             <volume>62</volume>             <fpage>289</fpage>             <lpage>305</lpage>          <pub-id pub-id-type="pmid">18537473</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Paulsen1">
+        <label>58</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Brown</surname><given-names>MH</given-names></name><name><surname>Skurray</surname><given-names>RA</given-names></name></person-group>             <year>1996</year>             <article-title>Proton-dependent multidrug efflux systems.</article-title>             <source>Microbiol Rev</source>             <volume>60</volume>             <fpage>575</fpage>             <lpage>608</lpage>          <pub-id pub-id-type="pmid">8987357</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Rowley1">
+        <label>59</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Rowley</surname><given-names>DL</given-names></name><name><surname>Wolf</surname><given-names>RE</given-names></name></person-group>             <year>1991</year>             <article-title>Molecular characterization of the <italic>Escherichia coli</italic> K-12 <italic>zwf</italic> gene encoding glucose 6-phosphate dehydrogenase.</article-title>             <source>J Bacteriol</source>             <volume>173</volume>             <fpage>968</fpage>             <lpage>977</lpage>          <pub-id pub-id-type="pmid">1704005</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Iida1">
+        <label>60</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Iida</surname><given-names>A</given-names></name><name><surname>Teshiba</surname><given-names>S</given-names></name><name><surname>Mizobuchi</surname><given-names>K</given-names></name></person-group>             <year>1993</year>             <article-title>Identification and characterization of the <italic>tktB</italic> gene encoding a second transketolase in <italic>Escherichia coli</italic> K-12.</article-title>             <source>J Bacteriol</source>             <volume>175</volume>             <fpage>5375</fpage>             <lpage>5383</lpage>          <pub-id pub-id-type="pmid">8396116</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Katz1">
+        <label>61</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Katz</surname><given-names>J</given-names></name><name><surname>Rognstad</surname><given-names>R</given-names></name></person-group>             <year>1967</year>             <article-title>The labeling of pentose phosphate from glucose-14C and estimation of the rates of transaldolase, transketolase, the contribution of the pentose cycle, and ribose phosphate synthesis.</article-title>             <source>Biochemistry</source>             <volume>6</volume>             <fpage>2227</fpage>             <lpage>2247</lpage>          <pub-id pub-id-type="pmid">6049456</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Ingledew1">
+        <label>62</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ingledew</surname><given-names>WJ</given-names></name><name><surname>Poole</surname><given-names>RK</given-names></name></person-group>             <year>1984</year>             <article-title>The respiratory chains of <italic>Escherichia coli.</italic></article-title>             <source>Microbiol Rev</source>             <volume>48</volume>             <fpage>222</fpage>             <lpage>271</lpage>          <pub-id pub-id-type="pmid">6387427</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Meyer1">
+        <label>63</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Meyer</surname><given-names>D</given-names></name><name><surname>Schneider-Fresenius</surname><given-names>C</given-names></name><name><surname>Horlacher</surname><given-names>R</given-names></name><name><surname>Peist</surname><given-names>R</given-names></name><name><surname>Boos</surname><given-names>W</given-names></name></person-group>             <year>1997</year>             <article-title>Molecular characterization of glucokinase from <italic>Escherichia coli</italic> K-12.</article-title>             <source>J Bacteriol</source>             <volume>179</volume>             <fpage>1298</fpage>             <lpage>1306</lpage>          <pub-id pub-id-type="pmid">9023215</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Daldal1">
+        <label>64</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Daldal</surname><given-names>F</given-names></name></person-group>             <year>1983</year>             <article-title>Molecular cloning of the gene for phosphofructokinase-2 of <italic>Escherichia coli</italic> and the nature of a mutation, <italic>pfkB1</italic>, causing a high level of the enzyme.</article-title>             <source>J Mol Biol</source>             <volume>168</volume>             <fpage>285</fpage>             <lpage>305</lpage>          <pub-id pub-id-type="pmid">6310120</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Brown1">
+        <label>65</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Brown</surname><given-names>G</given-names></name><name><surname>Singer</surname><given-names>A</given-names></name><name><surname>Lunin</surname><given-names>VV</given-names></name><name><surname>Proudfoot</surname><given-names>M</given-names></name><name><surname>Skarina</surname><given-names>T</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Structural and biochemical characterization of the type II fructose-1,6-bisphosphatase GlpX from <italic>Escherichia coli</italic>.</article-title>             <source>J Biol Chem</source>             <volume>284</volume>             <fpage>3784</fpage>             <lpage>3792</lpage>          <pub-id pub-id-type="pmid">19073594</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Donahue1">
+        <label>66</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Donahue</surname><given-names>JL</given-names></name><name><surname>Bownas</surname><given-names>JL</given-names></name><name><surname>Niehaus</surname><given-names>WG</given-names></name><name><surname>Larson</surname><given-names>TJ</given-names></name></person-group>             <year>2000</year>             <article-title>Purification and characterization of <italic>glpX</italic>-encoded fructose 1, 6-bisphosphatase, a new enzyme of the glycerol 3-phosphate regulon of <italic>Escherichia coli</italic>.</article-title>             <source>J Bacteriol</source>             <volume>182</volume>             <fpage>5624</fpage>             <lpage>5627</lpage>          <pub-id pub-id-type="pmid">10986273</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Fraenkel1">
+        <label>67</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Fraenkel</surname><given-names>DG</given-names></name><name><surname>Horecker</surname><given-names>BL</given-names></name></person-group>             <year>1965</year>             <article-title>Fructose-1, 6-diphosphatase and acid hexose phosphatase of <italic>Escherichia coli</italic>.</article-title>             <source>J Bacteriol</source>             <volume>90</volume>             <fpage>837</fpage>             <lpage>842</lpage>          <pub-id pub-id-type="pmid">4284917</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Kuznetsova1">
+        <label>68</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kuznetsova</surname><given-names>E</given-names></name><name><surname>Proudfoot</surname><given-names>M</given-names></name><name><surname>Gonzalez</surname><given-names>CF</given-names></name><name><surname>Brown</surname><given-names>G</given-names></name><name><surname>Omelchenko</surname><given-names>MV</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Genome-wide analysis of substrate specificities of the <italic>Escherichia coli</italic> haloacid.</article-title>             <source>J Biol Chem</source>             <volume>281</volume>             <fpage>36149</fpage>             <lpage>36161</lpage>          <pub-id pub-id-type="pmid">16990279</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Boiteux1">
+        <label>69</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Boiteux</surname><given-names>A</given-names></name><name><surname>Markus</surname><given-names>M</given-names></name><name><surname>Plesser</surname><given-names>T</given-names></name><name><surname>Hess</surname><given-names>B</given-names></name><name><surname>Malcovati</surname><given-names>M</given-names></name></person-group>             <year>1983</year>             <article-title>Analysis of progress curves. Interaction of pyruvate kinase from <italic>Escherichia coli</italic> with fructose 1,6-bisphosphate and calcium ions.</article-title>             <source>Biochem J</source>             <volume>211</volume>             <fpage>631</fpage>             <lpage>640</lpage>          <pub-id pub-id-type="pmid">6349612</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Malcovati1">
+        <label>70</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Malcovati</surname><given-names>M</given-names></name><name><surname>Valentini</surname><given-names>G</given-names></name></person-group>             <year>1982</year>             <article-title>AMP- and fructose 1,6-bisphosphate-activated pyruvate kinases from <italic>Escherichia coli</italic>.</article-title>             <source>Methods Enzymol 90: Pt, E</source>             <volume>170-179</volume>          </element-citation>
+      </ref>
+      <ref id="pone.0020081-Cooper1">
+        <label>71</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Cooper</surname><given-names>RA</given-names></name><name><surname>Kornberg</surname><given-names>HL</given-names></name></person-group>             <year>1967</year>             <article-title>The direct synthesis of phosphoenolpyruvate from pyruvate by <italic>Escherichia coli</italic>.</article-title>             <source>Proc R Soc Lond Biol Sci</source>             <volume>168</volume>             <fpage>263</fpage>             <lpage>280</lpage>          <pub-id pub-id-type="pmid">4383554</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0020081-Krebs1">
+        <label>72</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Krebs</surname><given-names>A</given-names></name><name><surname>Bridger</surname><given-names>WA</given-names></name></person-group>             <year>1980</year>             <article-title>The kinetic properties of phosphoenolpyruvate carboxykinase of <italic>Escherichia coli</italic>.</article-title>             <source>Can J Biochem</source>             <volume>58</volume>             <fpage>309</fpage>             <lpage>318</lpage>          <pub-id pub-id-type="pmid">6991069</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

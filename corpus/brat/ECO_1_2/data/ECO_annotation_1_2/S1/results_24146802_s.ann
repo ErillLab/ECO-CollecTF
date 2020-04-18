@@ -1,0 +1,55 @@
+T1	ECO 965 989	proteins were identified
+A1	Category T1 Phen
+A2	ECOConfidence T1 Low
+A3	NextSentence T1 Yes
+A4	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0001118	protein sequencing assay evidence
+#1	AnnotatorNotes T1	Annotated by Stephen. Protein sequencing is going on here, but I don't know if "proteins were identified" is enough to go on without outside context.
+T2	ECO 5404 5426	EMSAs were carried out
+A5	Category T2 MolFn
+A6	ECOConfidence T2 High
+A7	NextSentence T2 Yes
+A8	AssertionStrength T2 Low
+N2	Reference T2 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#2	AnnotatorNotes T2	Annotated by Stephen. The assertion is a little weak, but I think it's still worth annotating. 
+T3	ECO 5657 5723	consensus DNA motif for binding of the BCARR protein was predicted
+A9	Category T3 SeqFeat
+A10	ECOConfidence T3 High
+A11	NextSentence T3 No
+A12	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0005532	consensus search evidence
+#3	AnnotatorNotes T3	Annotated by Stephen. I picked medium confidence just because it said "predicted" (even though I know everything in bioinformatics is mostly a prediction). Question: should I also annotate the reference to MEME?
+T4	ECO 6007 6046	predicted to be the BCARR binding motif
+A13	Category T4 SeqFeat
+A14	ECOConfidence T4 High
+A15	NextSentence T4 No
+A16	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0005531	motif discovery evidence
+#4	AnnotatorNotes T4	Annotated by Stephen. I picked discovery over similarity since the sentence does not state that this is a conserved motif previously observed.
+T5	ECO 9532 9553;9593 9626	Phylogenetic analysis revealed the presence of homologs
+A17	Category T5 Tax
+A18	ECOConfidence T5 High
+A19	NextSentence T5 No
+A20	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0000201	sequence orthology evidence
+#5	AnnotatorNotes T5	Annotated by Stephen
+T6	ECO 7857 7884	the BCARR protein protected
+A21	Category T6 MolFn
+N6	Reference T6 brat_eco:ECO:0000136	nucleic acid binding evidence
+A22	ECOConfidence T6 Low
+A23	AssertionStrength T6 Medium
+#6	AnnotatorNotes T6	Annotated by Stephen. I chose low since just the word "protected" doesn't really say a whole lot. 
+T7	ECO 8550 8573;8636 8704	a possible domain motif protein was predicted (131 - 235 aa) by PSI-BLAST homology searching
+A24	Category T7 SeqFeat
+A25	ECOConfidence T7 High
+A26	NextSentence T7 No
+A27	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000208	protein BLAST evidence
+#7	AnnotatorNotes T7	Annotated by Stephen. Protein sequencing falls under sequence feature, right?
+T8	ECO 9132 9163	Based on the alignment analysis
+A28	Category T8 SeqFeat
+A29	ECOConfidence T8 High
+A30	NextSentence T8 No
+A31	AssertionStrength T8 Medium
+N8	Reference T8 brat_eco:ECO:0000200	sequence alignment evidence
+#8	AnnotatorNotes T8	Annotated by Stephen.

@@ -1,0 +1,2462 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Genomics</journal-id>
+      <journal-id journal-id-type="iso-abbrev">BMC Genomics</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Genomics</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2164</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23642041</article-id>
+      <article-id pub-id-type="pmc">3662644</article-id>
+      <article-id pub-id-type="publisher-id">1471-2164-14-301</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2164-14-301</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genome wide analysis of the complete GlnR nitrogen-response regulon in <italic>Mycobacterium smegmatis</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Jenkins</surname>
+            <given-names>Victoria A</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>victoria.jenkins07@imperial.ac.uk</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Barton</surname>
+            <given-names>Geraint R</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>g.barton@imperial.ac.uk</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A3">
+          <name>
+            <surname>Robertson</surname>
+            <given-names>Brian D</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>b.robertson@imperial.ac.uk</email>
+        </contrib>
+        <contrib contrib-type="author" id="A4">
+          <name>
+            <surname>Williams</surname>
+            <given-names>Kerstin J</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>kerstin.williams@imperial.ac.uk</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>MRC Centre for Molecular Bacteriology and Infection, Imperial College London, South Kensington, London SW7 2AZ, UK</aff>
+      <aff id="I2"><label>2</label>Centre for Integrative Systems Biology and Bioinformatics, Imperial College London, South Kensington, London SW7 2AZ, UK</aff>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>4</day>
+        <month>5</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>301</fpage>
+      <lpage>301</lpage>
+      <history>
+        <date date-type="received">
+          <day>1</day>
+          <month>3</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>4</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2013 Jenkins et al.; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Jenkins et al.; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.biomedcentral.com/1471-2164/14/301"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>Nitrogen is an essential element for bacterial growth and an important component of biological macromolecules. Consequently, responding to nitrogen limitation is critical for bacterial survival and involves the interplay of signalling pathways and transcriptional regulation of nitrogen assimilation and scavenging genes. In the soil dwelling saprophyte <italic>Mycobacterium smegmatis</italic> the OmpR-type response regulator GlnR is thought to mediate the transcriptomic response to nitrogen limitation. However, to date only ten genes have been shown to be in the GlnR regulon, a vastly reduced number compared to other organisms.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>We investigated the role of GlnR in the nitrogen limitation response and determined the entire GlnR regulon<italic>,</italic> by combining expression profiling of <italic>M. smegmatis</italic> wild type and <italic>glnR</italic> deletion mutant, with GlnR-specific chromatin immunoprecipitation and high throughput sequencing. We identify 53 GlnR binding sites during nitrogen limitation that control the expression of over 100 genes, demonstrating that GlnR is the regulator controlling the assimilation and utilisation of nitrogen. We also determine a consensus GlnR binding motif and identify key residues within the motif that are required for specific GlnR binding.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>We have demonstrated that GlnR is the global nitrogen response regulator in <italic>M. smegmatis,</italic> directly regulating the expression of more than 100 genes. GlnR controls key nitrogen stress survival processes including primary nitrogen metabolism pathways, the ability to utilise nitrate and urea as alternative nitrogen sources, and the potential to use cellular components to provide a source of ammonium. These studies further our understanding of how mycobacteria survive nutrient limiting conditions.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>Mycobacteria belong to the GC-rich Actinomycetes, and as a genus contain diverse species including human pathogens, such as <italic>Mycobacterium tuberculosis</italic> and <italic>Mycobacterium leprae,</italic> as well as free-living non-pathogenic soil bacteria such as <italic>Mycobacterium smegmatis</italic>[<xref ref-type="bibr" rid="B1">1</xref>]. Mycobacteria must compete for nutrients and adapt to changing environments in order to survive, and nitrogen is essential for the synthesis of cellular macromolecules such as amino acids, nucleotides and cell wall components [<xref ref-type="bibr" rid="B2">2</xref>]. Consequently, bacteria have developed complex systems that allow them to sense internal and external nitrogen levels and adjust their metabolism accordingly. The metabolic response to nitrogen limitation has been extensively studied in <italic>E. coli</italic>[<xref ref-type="bibr" rid="B3">3</xref>-<xref ref-type="bibr" rid="B6">6</xref>] which is often proposed as the prokaryotic model for this. However the regulation of nitrogen metabolism has also been studied in other Actinomycetes, such as <italic>Corynebacterium glutamicum</italic> and <italic>Streptomyces</italic> species, and the signals, regulation and response mechanisms are different in these organisms, both compared to <italic>E. coli</italic> and to each other [<xref ref-type="bibr" rid="B7">7</xref>-<xref ref-type="bibr" rid="B13">13</xref>]. Therefore, it is likely that mycobacteria also possess unique responses to nitrogen limitation, but this has not been studied in detail.</p>
+      <p><italic>M. smegmatis</italic>, presumably as a consequence of living in the soil, contains the largest number of genes predicted to be involved in nitrogen metabolism within the genus [<xref ref-type="bibr" rid="B14">14</xref>]. Notably it contains three ammonium transporters (Amt1, AmtA and AmtB) in the cell wall, more than any other mycobacterial species, suggesting ammonium is an important nitrogen source for this organism [<xref ref-type="bibr" rid="B14">14</xref>]. Once ammonium has entered the cell via diffusion across the cytoplasmic membrane or by protein-dependent transport, it is assimilated into the major biosynthetic nitrogen donors L-glutamate and L-glutamine through one of two pathways, depending on nitrogen availability. The low ammonium affinity glutamate dehydrogenase (GDH) enzyme is favourable in situations of nitrogen excess, whereas during nitrogen limitation the energy-requiring, higher affinity glutamine synthetase/glutamate synthase (glutamine:2-oxoglutarate aminotransferase) (GS/GOGAT) enzymes are required to meet the metabolic needs of the cell (for mycobacterial nitrogen metabolism reviews see [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>]). Not only does nitrogen limitation lead to the switching of biosynthetic pathways, it also induces the expression of several key mycobacterial nitrogen metabolism genes, including the <italic>amtB</italic> operon encoding the AmtB ammonium transporter, a GlnK (PII) signalling protein and an adenylyl transferase (GlnD), the two other ammonium transporters <italic>amt1</italic> and <italic>amtA</italic>, glutamine synthetase (<italic>glnA1</italic>) and glutamate synthase (<italic>gltBD</italic>) [<xref ref-type="bibr" rid="B17">17</xref>-<xref ref-type="bibr" rid="B19">19</xref>]. Post translational modifications of key nitrogen control enzymes also occurs in response to nitrogen limitation. GlnD adenylylates the GlnK (PII) signalling protein on a conserved tyrosine residue in response to nitrogen limitation [<xref ref-type="bibr" rid="B20">20</xref>] which causes the PII protein to dissociate from AmtB porin channel, where it is bound [<xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref>], permitting increased ammonium influx [<xref ref-type="bibr" rid="B23">23</xref>]. The GS enzyme is also post-translationally modified during nitrogen limitation, undergoing de-adenylylation by GlnE. The de-adenylylated GS enzyme is fully active [<xref ref-type="bibr" rid="B24">24</xref>] ensuring maximal glutamine and glutamate synthesis occurs during times of nitrogen austerity. However, there are still many important gaps in our knowledge of nitrogen metabolism and its regulation in mycobacteria. For instance, the signal of nitrogen cellular status is unknown. Recent studies in our laboratory have shown that the intracellular ratio of 2-oxoglutarate:glutamine in <italic>M. smegmatis</italic> greatly increases during nitrogen limitation and decreases when nitrogen is replenished, suggesting this may be the intracellular signal in mycobacteria [<xref ref-type="bibr" rid="B25">25</xref>]. However, how this signal is detected and transmitted into transcriptional and post-translational responses is unknown. The role of the PII proteins in mycobacterial nitrogen control is also unclear. In <italic>E. coli</italic> PII-UMP controls the activity of the NtrC response regulator [<xref ref-type="bibr" rid="B26">26</xref>], yet in mycobacteria PII-AMP does not mediate the transcriptional response to nitrogen limitation [<xref ref-type="bibr" rid="B20">20</xref>]. Finally, the regulator(s) responsible for the transcriptional response to nitrogen limitation in <italic>M. smegmatis</italic> and the genes that make up this response are currently unknown.</p>
+      <p>In enteric bacteria, the transcriptional response to nitrogen limitation is mediated by the NtrBC two-component system [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B6">6</xref>], which activates the expression of over 100 genes [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B6">6</xref>]. In <italic>C. glutamicum</italic>, the TetR-type response regulator AmtR controls the transcriptional of at least 33 genes [<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B17">17</xref>], and in <italic>Streptomyces,</italic> the OmpR-type response regulator GlnR control nitrogen metabolism [<xref ref-type="bibr" rid="B27">27</xref>], at least 50 nitrogen response genes in <italic>S. coelicolor</italic> and at least 44 genes in <italic>S. venezuelae</italic>[<xref ref-type="bibr" rid="B28">28</xref>-<xref ref-type="bibr" rid="B30">30</xref>]. <italic>M. smegmatis</italic> does not contain an NtrBC homolog, but does contain homologs of both <italic>S. coelicolor</italic> GlnR (MSMEG5784; 60% identity) and <italic>C. glutamicum</italic> AmtR (MSMEG4300; 42% identity) [<xref ref-type="bibr" rid="B14">14</xref>]. To date no role has been reported for AmtR in mycobacteria, and no <italic>C. glutamicum</italic> AmtR binding site motifs have been identified in any mycobacterial genome [<xref ref-type="bibr" rid="B14">14</xref>]. However, the <italic>S. coelicolor</italic> GlnR binding site motif has been identified in mycobacteria with three highly conserved <italic>cis</italic> elements located upstream of <italic>M. smegmatis amtB-glnK-glnD</italic> operon, <italic>amt1</italic> and <italic>glnA1</italic> genes [<xref ref-type="bibr" rid="B14">14</xref>]. Experimental confirmation of these binding sites led to the assignment of these five genes to the <italic>M. smegmatis</italic> GlnR regulon [<xref ref-type="bibr" rid="B31">31</xref>]. We have recently shown that <italic>M. smegmatis</italic> GlnR also regulates the expression of <italic>amtA</italic>, <italic>nirB/D</italic> (nitrite reductase) and <italic>gltB/D</italic> in response to nitrogen stress [<xref ref-type="bibr" rid="B32">32</xref>]. However, given the number of nitrogen metabolism-related genes in the <italic>M. smegmatis</italic> genome, it is likely that many more are GlnR-regulated, or that there are additional nitrogen response regulators.</p>
+      <p>Therefore the aim of this study was to apply a global approach to the <italic>in vivo</italic> identification of GlnR regulated genes in <italic>M. smegmatis</italic>. We combined genome-wide expression profiling, comparing a <italic>glnR</italic> mutant to the wild-type strain during nitrogen limited growth, with global analysis of GlnR-DNA interactions by Chromatin Immunoprecipitation (ChIP) and high-throughput sequencing (ChIP-seq). We show that GlnR is the global nitrogen regulator in mycobacteria and plays a key role in regulating the assimilation and utilisation of nitrogen, controlling the expression of over 100 genes. We demonstrate that GlnR can control the expression of divergent genes, and that it functions as both an activator and repressor of transcription. We also identify the consensus DNA-binding motif found in all the GlnR binding sites and determine key nucleotides in the motif for specific GlnR binding.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>GlnR is the global regulator of gene expression in response to nitrogen limitation</title>
+        <p>We studied the expression profiles of <italic>M. smegmatis</italic> wild type and &#x394;<italic>glnR</italic> deletion mutant [<xref ref-type="bibr" rid="B32">32</xref>] grown in nitrogen limiting conditions, in order to identify the genes under GlnR control. <italic>M. smegmatis</italic> wild type and &#x394;<italic>glnR</italic> mutant were harvested one hour after nitrogen run-out, total RNA was extracted and cDNA hybridised to the <italic>M. smegmatis</italic> microarray. Data was normalised and genes were considered significantly differentially expressed when they showed greater than 2-fold difference in expression between the wild type and &#x394;<italic>glnR</italic> mutant with an FDR corrected p-value of &lt;0.01. Fully annotated microarray data have been deposited in B&#x3BC;G@Sbase (accession number E-BUGS-143; <ext-link ext-link-type="uri" xlink:href="http://bugs.sgul.ac.uk/E-BUGS-143">http://bugs.sgul.ac.uk/E-BUGS-143</ext-link>) and also ArrayExpress (accession number E-BUGS-143). The 10 previously identified GlnR-regulated genes were all confirmed to be under GlnR control during nitrogen stress (i.e. differential expression in the wild type compared to the &#x394;<italic>glnR</italic> mutant), but in addition a total of 392 genes were significantly up-regulated and 291 significantly down regulated (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S1). This indicates that GlnR mediates (directly or indirectly) the expression of over 680 genes.</p>
+      </sec>
+      <sec>
+        <title>Identification of GlnR binding sites across the genome during nitrogen limitation</title>
+        <p>In order to identify which of the genes identified by transcriptional profiling are directly regulated by GlnR we used ChIP-seq to identify the location of GlnR binding sites in the genome during nitrogen limitation. Cells were grown in 1 mM (limiting) or 30 mM (excess) ammonium sulphate, and DNA-protein complexes were cross-linked one hour after ammonium depletion; nitrogen excess samples were cross-linked at the same time point, cells were then lysed and the DNA sheared by sonication. GlnR-bound DNA fragments were immunoprecipitated using affinity-purified anti-GlnR polyclonal antibody. We performed quantitative PCR on the glutamine synthetase (<italic>glnA1</italic>) and nitrite reductase (<italic>nirB</italic>) promoter regions to confirm the enrichment of GlnR binding regions in nitrogen limited cells compared to nitrogen replete; a gene thought not to be GlnR regulated (MSMEG3224) was included as a negative control (Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>: Figure S1).</p>
+        <p>Immunoprecipitated DNA was then prepared for sequencing using the Illumina ChIP-seq library kit, and DNA libraries sequenced using an Illumina HiSeq2000, which generated approximately 160 million reads per sample that were then mapped to the <italic>M. smegmatis</italic> genome using Bowtie [<xref ref-type="bibr" rid="B33">33</xref>]. All ChIP-seq data files have been deposited into ArrayExpress (accession number E-MTAB-1456). GlnR binding regions were identified using the peak-calling algorithm SISSRs (<underline>S</underline>ite <underline>I</underline>dentification for <underline>S</underline>hort <underline>S</underline>equence <underline>R</underline>eads) [<xref ref-type="bibr" rid="B34">34</xref>], with peaks defined as significant if they showed greater than 5-fold enrichment in the immunoprecipitated sample compared to the input control at a p value of&#x2009;&lt;&#x2009;0.005. This identified 53 GlnR binding sites during nitrogen limitation (Table&#x2009;<xref ref-type="table" rid="T1">1</xref>), 5 of which were also observed in nitrogen excess conditions (Table&#x2009;<xref ref-type="table" rid="T2">2</xref>), but with much lower peak intensity values. For example a GlnR binding site was identified under both conditions upstream of <italic>glnA</italic> (MSMEG4290) with a peak intensity value of 6.3 in nitrogen excess and 184.7 in nitrogen limitation (Table&#x2009;<xref ref-type="table" rid="T2">2</xref>). All GlnR binding sites were located in the promoter regions of genes, except peak number 52, which was located within MSMEG6817.</p>
+        <table-wrap position="float" id="T1">
+          <label>Table 1</label>
+          <caption>
+            <p>
+              <bold>GlnR binding regions identified by ChIP-seq and corresponding gene expression fold change (wild type vs </bold>
+              <bold>
+                <italic>glnR </italic>
+              </bold>
+              <bold>deletion strain) in </bold>
+              <bold>
+                <italic>M. smegmatis </italic>
+              </bold>
+              <bold>during nitrogen limitation</bold>
+            </p>
+          </caption>
+          <table frame="hsides" rules="groups" border="1">
+            <colgroup>
+              <col align="left"/>
+              <col align="left"/>
+              <col align="left"/>
+              <col align="left"/>
+              <col align="left"/>
+              <col align="left"/>
+            </colgroup>
+            <thead valign="top">
+              <tr>
+                <th align="left">
+                  <bold>Peak no.</bold>
+                  <sup>
+                    <bold>a</bold>
+                  </sup>
+                </th>
+                <th align="left">
+                  <bold>Coordinates</bold>
+                  <sup>
+                    <bold>b</bold>
+                  </sup>
+                </th>
+                <th align="left">
+                  <bold>Peak intensity</bold>
+                  <sup>
+                    <bold>c</bold>
+                  </sup>
+                </th>
+                <th align="left">
+                  <bold>Adjacent gene (s)</bold>
+                  <sup>
+                    <bold>d</bold>
+                  </sup>
+                </th>
+                <th align="left">
+                  <bold>Fold change in gene expression</bold>
+                  <sup>
+                    <bold>e</bold>
+                  </sup>
+                </th>
+                <th align="left">
+                  <bold>Gene annotation</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="left" valign="bottom">1<hr/></td>
+                <td align="left" valign="bottom">501431-501471<hr/></td>
+                <td align="left" valign="bottom">8.4<hr/></td>
+                <td align="left" valign="bottom">MSMEG0427*<hr/></td>
+                <td align="left" valign="bottom">76.4<hr/></td>
+                <td align="left" valign="bottom"><italic>nirB</italic> Nitrite reductase, large subunit<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">2<hr/></td>
+                <td align="left" valign="bottom">508651-508691<hr/></td>
+                <td align="left" valign="bottom">42.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG0432*<hr/></td>
+                <td align="left" valign="bottom">18.3<hr/></td>
+                <td align="left" valign="bottom"><italic>nnaR</italic> Transcriptional regulator<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">3<hr/></td>
+                <td align="left" valign="bottom">510091-510131<hr/></td>
+                <td align="left" valign="bottom">8.4<hr/></td>
+                <td align="left" valign="bottom">MSMEG0433<hr/></td>
+                <td align="left" valign="bottom">24.6<hr/></td>
+                <td align="left" valign="bottom"><italic>narK3</italic> Nitrate extrusion protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">4<hr/></td>
+                <td align="left" valign="bottom">647871-647911<hr/></td>
+                <td align="left" valign="bottom">27.1<hr/></td>
+                <td align="left" valign="bottom">MSMEG0572*<hr/></td>
+                <td align="left" valign="bottom">263.4<hr/></td>
+                <td align="left" valign="bottom">Putative uncharacterised protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">5<hr/></td>
+                <td align="left" valign="bottom">864391-864431<hr/></td>
+                <td align="left" valign="bottom">6.1<hr/></td>
+                <td align="left" valign="bottom">MSMEG0780L*<hr/></td>
+                <td align="left" valign="bottom">23.0<hr/></td>
+                <td align="left" valign="bottom">Phosphotransferase enzyme family protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG0781R<hr/></td>
+                <td align="left" valign="bottom">8.4<hr/></td>
+                <td align="left" valign="bottom">Amino acid permease<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">6<hr/></td>
+                <td align="left" valign="bottom">1121631-1121671<hr/></td>
+                <td align="left" valign="bottom">54.3<hr/></td>
+                <td align="left" valign="bottom">MSMEG1052<hr/></td>
+                <td align="left" valign="bottom">6.3<hr/></td>
+                <td align="left" valign="bottom">Amino acid carrier protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">7<hr/></td>
+                <td align="left" valign="bottom">1142851-1142891<hr/></td>
+                <td align="left" valign="bottom">6.5<hr/></td>
+                <td align="left" valign="bottom">MSMEG1078L<hr/></td>
+                <td align="left" valign="bottom">-3.8<hr/></td>
+                <td align="left" valign="bottom">Hydrolase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG1079R*<hr/></td>
+                <td align="left" valign="bottom">3.4<hr/></td>
+                <td align="left" valign="bottom">Putative uncharacterised protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">8<hr/></td>
+                <td align="left" valign="bottom">1146711-1146751<hr/></td>
+                <td align="left" valign="bottom">71.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG1082<hr/></td>
+                <td align="left" valign="bottom">277.4<hr/></td>
+                <td align="left" valign="bottom">Putative response regulator, LuxR family<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">9<hr/></td>
+                <td align="left" valign="bottom">1238491-1238531<hr/></td>
+                <td align="left" valign="bottom">19.3<hr/></td>
+                <td align="left" valign="bottom">MSMEG1177L<hr/></td>
+                <td align="left" valign="bottom">10.7<hr/></td>
+                <td align="left" valign="bottom">Cytosine/purines/uracil/thiamine/allantoin permease<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG1178R<hr/></td>
+                <td align="left" valign="bottom">3.5<hr/></td>
+                <td align="left" valign="bottom">Transcriptional regulator<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">10<hr/></td>
+                <td align="left" valign="bottom">1385631-1385671<hr/></td>
+                <td align="left" valign="bottom">6.48<hr/></td>
+                <td align="left" valign="bottom">MSMEG1292L*<hr/></td>
+                <td align="left" valign="bottom">2.4<hr/></td>
+                <td align="left" valign="bottom">Dehydrogenase protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG1293R*<hr/></td>
+                <td align="left" valign="bottom">4.2<hr/></td>
+                <td align="left" valign="bottom">Xanthine/uracil permeases family protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">11<hr/></td>
+                <td align="left" valign="bottom">1684231-1684271<hr/></td>
+                <td align="left" valign="bottom">64.6<hr/></td>
+                <td align="left" valign="bottom">MSMEG1597<hr/></td>
+                <td align="left" valign="bottom">2.8<hr/></td>
+                <td align="left" valign="bottom">Transcription factor WhiB<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">12<hr/></td>
+                <td align="left" valign="bottom">1832291-1832331<hr/></td>
+                <td align="left" valign="bottom">46.5<hr/></td>
+                <td align="left" valign="bottom">MSMEG1738<hr/></td>
+                <td align="left" valign="bottom">-13.2<hr/></td>
+                <td align="left" valign="bottom">Probable conserved transmembrane protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">13<hr/></td>
+                <td align="left" valign="bottom">1965171-1965211<hr/></td>
+                <td align="left" valign="bottom">19.3<hr/></td>
+                <td align="left" valign="bottom">MSMEG1886<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Fatty acid desaturase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">14<hr/></td>
+                <td align="left" valign="bottom">2000471-2000511<hr/></td>
+                <td align="left" valign="bottom">10.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG1919<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Transcription factor WhiB<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">15<hr/></td>
+                <td align="left" valign="bottom">2070111-2070151<hr/></td>
+                <td align="left" valign="bottom">9.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG1987*<hr/></td>
+                <td align="left" valign="bottom">120.7<hr/></td>
+                <td align="left" valign="bottom">Putative uncharacterised protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">16<hr/></td>
+                <td align="left" valign="bottom">2081471-2081511<hr/></td>
+                <td align="left" valign="bottom">19.5<hr/></td>
+                <td align="left" valign="bottom">MSMEG1999<hr/></td>
+                <td align="left" valign="bottom">-2.1<hr/></td>
+                <td align="left" valign="bottom">Putative uncharacterised protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">17<hr/></td>
+                <td align="left" valign="bottom">2260871-2260911<hr/></td>
+                <td align="left" valign="bottom">39.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG2183L<hr/></td>
+                <td align="left" valign="bottom">2.3<hr/></td>
+                <td align="left" valign="bottom">Conserved hypothetical protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG2184R*<hr/></td>
+                <td align="left" valign="bottom">38.8<hr/></td>
+                <td align="left" valign="bottom">Amino acid permease<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">18<hr/></td>
+                <td align="left" valign="bottom">2414891-2414931<hr/></td>
+                <td align="left" valign="bottom">67.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG2332<hr/></td>
+                <td align="left" valign="bottom">10.1<sup>g</sup><hr/></td>
+                <td align="left" valign="bottom">Amino acid carrier protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">19<hr/></td>
+                <td align="left" valign="bottom">2508191-2508231<hr/></td>
+                <td align="left" valign="bottom">101.5<hr/></td>
+                <td align="left" valign="bottom">MSMEG2425*<hr/></td>
+                <td align="left" valign="bottom">98.8<hr/></td>
+                <td align="left" valign="bottom"><italic>amtB</italic> Ammonium transporter<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">20<hr/></td>
+                <td align="left" valign="bottom">2592931-2592971<hr/></td>
+                <td align="left" valign="bottom">18.6<hr/></td>
+                <td align="left" valign="bottom">MSMEG2506*<hr/></td>
+                <td align="left" valign="bottom">-4.1<hr/></td>
+                <td align="left" valign="bottom">Carboxyvinyl-carboxyphosphonate phosphorylmutase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">21<hr/></td>
+                <td align="left" valign="bottom">2608351-2608391<hr/></td>
+                <td align="left" valign="bottom">171.1<hr/></td>
+                <td align="left" valign="bottom">MSMEG2522*<hr/></td>
+                <td align="left" valign="bottom">165.9<hr/></td>
+                <td align="left" valign="bottom">Efflux ABC transporter, permease protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">22<hr/></td>
+                <td align="left" valign="bottom">2612531-2612571<hr/></td>
+                <td align="left" valign="bottom">331.2<hr/></td>
+                <td align="left" valign="bottom">MSMEG2526<hr/></td>
+                <td align="left" valign="bottom">782.4<hr/></td>
+                <td align="left" valign="bottom">Copper amine oxidase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">23<hr/></td>
+                <td align="left" valign="bottom">2655531-2655571<hr/></td>
+                <td align="left" valign="bottom">56.3<hr/></td>
+                <td align="left" valign="bottom">MSMEG2570*<hr/></td>
+                <td align="left" valign="bottom">50.8<hr/></td>
+                <td align="left" valign="bottom">Xanthine/uracil permease<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">24<hr/></td>
+                <td align="left" valign="bottom">3048291-3048331<hr/></td>
+                <td align="left" valign="bottom">105.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG2982*<hr/></td>
+                <td align="left" valign="bottom">583.8<hr/></td>
+                <td align="left" valign="bottom">Putative periplasmic binding protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">25<hr/></td>
+                <td align="left" valign="bottom">3206851-3206891<hr/></td>
+                <td align="left" valign="bottom">8.7<hr/></td>
+                <td align="left" valign="bottom">MSMEG3131L<hr/></td>
+                <td align="left" valign="bottom">-1.44<hr/></td>
+                <td align="left" valign="bottom">Polypeptide: AMP-binding protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG3132R<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Polypeptide: DNA-binding protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">26<hr/></td>
+                <td align="left" valign="bottom">3237471-3237511<hr/></td>
+                <td align="left" valign="bottom">6.5<hr/></td>
+                <td align="left" valign="bottom">MSMEG3166<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Enzyme: beta-lactamase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">27<hr/></td>
+                <td align="left" valign="bottom">3471571-3471611<hr/></td>
+                <td align="left" valign="bottom">8.2<hr/></td>
+                <td align="left" valign="bottom">MSMEG3400*<hr/></td>
+                <td align="left" valign="bottom">228.0<hr/></td>
+                <td align="left" valign="bottom">Glutamyl-tRNA(Gln) amidotransferase subunit A<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">28<hr/></td>
+                <td align="left" valign="bottom">4043191-4043231<hr/></td>
+                <td align="left" valign="bottom">22.8<hr/></td>
+                <td align="left" valign="bottom">MSMEG3975<hr/></td>
+                <td align="left" valign="bottom">2.1<hr/></td>
+                <td align="left" valign="bottom">Putative regulatory protein, PucR family<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">29<hr/></td>
+                <td align="left" valign="bottom">4069251-4069291<hr/></td>
+                <td align="left" valign="bottom">58.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG3995<hr/></td>
+                <td align="left" valign="bottom">9.7<hr/></td>
+                <td align="left" valign="bottom">N-carbomoyl-L-amino acid amidohydrolase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">30<hr/></td>
+                <td align="left" valign="bottom">4070051-4070091<hr/></td>
+                <td align="left" valign="bottom">13.2<hr/></td>
+                <td align="left" valign="bottom">MSMEG3996L<hr/></td>
+                <td align="left" valign="bottom">8.3<hr/></td>
+                <td align="left" valign="bottom"><italic>hydA</italic> Dihydropyrimidinase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG3997R<hr/></td>
+                <td align="left" valign="bottom">6.5<hr/></td>
+                <td align="left" valign="bottom">Regulatory protein, PucR family<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">31<hr/></td>
+                <td align="left" valign="bottom">4082411-4082451<hr/></td>
+                <td align="left" valign="bottom">77.2<hr/></td>
+                <td align="left" valign="bottom">MSMEG4008*<hr/></td>
+                <td align="left" valign="bottom">49.2<hr/></td>
+                <td align="left" valign="bottom">Oxidoreductase, 2OG-Fe(II) oxygenase family protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">32<hr/></td>
+                <td align="left" valign="bottom">4136531-4136571<hr/></td>
+                <td align="left" valign="bottom">7.4<hr/></td>
+                <td align="left" valign="bottom">MSMEG4063<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Polypeptide: amidohydrolase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">33<hr/></td>
+                <td align="left" valign="bottom">4290471-4290511<hr/></td>
+                <td align="left" valign="bottom">8.0<hr/></td>
+                <td align="left" valign="bottom">MSMEG4206<hr/></td>
+                <td align="left" valign="bottom">115.7<hr/></td>
+                <td align="left" valign="bottom">Molybdopterin oxidoreductase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">34<hr/></td>
+                <td align="left" valign="bottom">4374791-4374831<hr/></td>
+                <td align="left" valign="bottom">184.7<hr/></td>
+                <td align="left" valign="bottom">MSMEG4290<hr/></td>
+                <td align="left" valign="bottom">20.0<hr/></td>
+                <td align="left" valign="bottom"><italic>glnA</italic> Glutamine synthetase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">35<hr/></td>
+                <td align="left" valign="bottom">4381891-4381931<hr/></td>
+                <td align="left" valign="bottom">49.8<hr/></td>
+                <td align="left" valign="bottom">MSMEG4294<hr/></td>
+                <td align="left" valign="bottom">12.6<hr/></td>
+                <td align="left" valign="bottom"><italic>glnA</italic> Glutamine synthetase, type I<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">36<hr/></td>
+                <td align="left" valign="bottom">4580191-4580231<hr/></td>
+                <td align="left" valign="bottom">384.4<hr/></td>
+                <td align="left" valign="bottom">MSMEG4501<hr/></td>
+                <td align="left" valign="bottom">103.3<hr/></td>
+                <td align="left" valign="bottom">Sodium:dicarboxylate symporter<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">37<hr/></td>
+                <td align="left" valign="bottom">4722511-4722551<hr/></td>
+                <td align="left" valign="bottom">17.1<hr/></td>
+                <td align="left" valign="bottom">MSMEG4635*<hr/></td>
+                <td align="left" valign="bottom">102.0<hr/></td>
+                <td align="left" valign="bottom"><italic>amtA</italic> Ammonium transporter<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">38<hr/></td>
+                <td align="left" valign="bottom">4726751-4726791<hr/></td>
+                <td align="left" valign="bottom">63.6<hr/></td>
+                <td align="left" valign="bottom">MSMEG4639*<hr/></td>
+                <td align="left" valign="bottom">57.3<hr/></td>
+                <td align="left" valign="bottom">Putative uncharacterised protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">39<hr/></td>
+                <td align="left" valign="bottom">4729431-4729471<hr/></td>
+                <td align="left" valign="bottom">11.1<hr/></td>
+                <td align="left" valign="bottom">MSMEG4643<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Resuscitation-promoting factor<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">40<hr/></td>
+                <td align="left" valign="bottom">4729931-4729971<hr/></td>
+                <td align="left" valign="bottom">34.4<hr/></td>
+                <td align="left" valign="bottom">MSMEG4643<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Resuscitation-promoting factor<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">41<hr/></td>
+                <td align="left" valign="bottom">5183411-5183451<hr/></td>
+                <td align="left" valign="bottom">57.5<hr/></td>
+                <td align="left" valign="bottom">MSMEG5084*<hr/></td>
+                <td align="left" valign="bottom">27.1<hr/></td>
+                <td align="left" valign="bottom">Glycosyl transferase, group 2 family protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">42<hr/></td>
+                <td align="left" valign="bottom">5440611-5440651<hr/></td>
+                <td align="left" valign="bottom">233.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG5358<hr/></td>
+                <td align="left" valign="bottom">14.9<hr/></td>
+                <td align="left" valign="bottom">Acetamidase/Formamidase family protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">43<hr/></td>
+                <td align="left" valign="bottom">5442051-5442091<hr/></td>
+                <td align="left" valign="bottom">27.2<hr/></td>
+                <td align="left" valign="bottom">MSMEG5360*<hr/></td>
+                <td align="left" valign="bottom">29.1<hr/></td>
+                <td align="left" valign="bottom">Formate/nitrate transporter<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">44<hr/></td>
+                <td align="left" valign="bottom">5651011-5651051<hr/></td>
+                <td align="left" valign="bottom">18.6<hr/></td>
+                <td align="left" valign="bottom">MSMEG5561<hr/></td>
+                <td align="left" valign="bottom">1.40<hr/></td>
+                <td align="left" valign="bottom">HPP family protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">45<hr/></td>
+                <td align="left" valign="bottom">5840591-5840631<hr/></td>
+                <td align="left" valign="bottom">11.6<hr/></td>
+                <td align="left" valign="bottom">MSMEG5765<hr/></td>
+                <td align="left" valign="bottom">4.1<hr/></td>
+                <td align="left" valign="bottom"><italic>glbN</italic> Globin<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">46<hr/></td>
+                <td align="left" valign="bottom">6177591-6177631<hr/></td>
+                <td align="left" valign="bottom">31.6<hr/></td>
+                <td align="left" valign="bottom">MSMEG6116<hr/></td>
+                <td align="left" valign="bottom">24.8<hr/></td>
+                <td align="left" valign="bottom">Putative allantoicase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">47<hr/></td>
+                <td align="left" valign="bottom">6323551-6323591<hr/></td>
+                <td align="left" valign="bottom">23.7<hr/></td>
+                <td align="left" valign="bottom">MSMEG6259<hr/></td>
+                <td align="left" valign="bottom">255.9<hr/></td>
+                <td align="left" valign="bottom"><italic>amt1</italic> Ammonium transporter<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">48<hr/></td>
+                <td align="left" valign="bottom">6714291-6714331<hr/></td>
+                <td align="left" valign="bottom">16.3<hr/></td>
+                <td align="left" valign="bottom">MSMEG6660<hr/></td>
+                <td align="left" valign="bottom">8.1<hr/></td>
+                <td align="left" valign="bottom">Cytosine/purine/uracil/thiamine/allantoin permease<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">49<hr/></td>
+                <td align="left" valign="bottom">6747051-6747091<hr/></td>
+                <td align="left" valign="bottom">9.9<hr/></td>
+                <td align="left" valign="bottom">MSMEG6695L<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">Cytochrome P450<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">&#xA0;<hr/></td>
+                <td align="left" valign="bottom">MSMEG6697R<hr/></td>
+                <td align="left" valign="bottom">No DE<hr/></td>
+                <td align="left" valign="bottom">IS1096, tnpA protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">50<hr/></td>
+                <td align="left" valign="bottom">6782771-6782811<hr/></td>
+                <td align="left" valign="bottom">17.7<hr/></td>
+                <td align="left" valign="bottom">MSMEG6735*<hr/></td>
+                <td align="left" valign="bottom">128.3<hr/></td>
+                <td align="left" valign="bottom">Amino acid permease, putative<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">51<hr/></td>
+                <td align="left" valign="bottom">6865371-6865411<hr/></td>
+                <td align="left" valign="bottom">199.7<hr/></td>
+                <td align="left" valign="bottom">MSMEG6816<hr/></td>
+                <td align="left" valign="bottom">385.3<hr/></td>
+                <td align="left" valign="bottom">Molybdopterin oxidoreductase<hr/></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom">
+                  <italic>52</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">
+                  <italic>6867931-6867971</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">
+                  <italic>12.7</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">
+                  <italic>N/A</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">
+                  <italic>N/A</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">
+                  <italic>N/A</italic>
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">53</td>
+                <td align="left">6930751-6930791</td>
+                <td align="left">10.8</td>
+                <td align="left">MSMEG6881</td>
+                <td align="left">5.8</td>
+                <td align="left">Transcriptional regulator, GntR family</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup><bold>a</bold></sup>assigned peak number, <sup>b</sup>peak coordinates on the <italic>M. smegmatis</italic> genome, <sup>c</sup>fold enrichment of each peak compared to the input control calculated using SISSRs, <sup>d</sup>adjacent gene(s) to peak, <sup>e</sup>fold change in gene expression (WT vs &#x394;<italic>gln</italic>R) and <sup>g</sup>fold change in gene expression normalized to <italic>sigA</italic> from qRT-PCR (WT vs &#x394;<italic>gln</italic>R). L&#x2009;=&#x2009;left and R&#x2009;=&#x2009;right indicates the direction of the gene in relation to GlnR binding where GlnR is proposed to control divergent genes. Genes in operons are denoted by *. Peaks that represent binding sites with no corresponding differential expression of adjacent genes are labelled no DE.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <table-wrap position="float" id="T2">
+          <label>Table 2</label>
+          <caption>
+            <p>
+              <bold>Five GlnR binding sites identified in </bold>
+              <bold>
+                <italic>M. smegmatis </italic>
+              </bold>
+              <bold>during nitrogen excess</bold>
+            </p>
+          </caption>
+          <table frame="hsides" rules="groups" border="1">
+            <colgroup>
+              <col align="center"/>
+              <col align="center"/>
+              <col align="center"/>
+              <col align="center"/>
+              <col align="center"/>
+              <col align="left"/>
+            </colgroup>
+            <thead valign="top">
+              <tr>
+                <th align="center">
+                  <bold>Peak</bold>
+                </th>
+                <th align="center">
+                  <bold>Coordinates</bold>
+                </th>
+                <th align="center">
+                  <bold>Peak intensity in N excess</bold>
+                </th>
+                <th align="center">
+                  <bold>Peak intensity in N limitation</bold>
+                </th>
+                <th align="center">
+                  <bold>Gene ID</bold>
+                </th>
+                <th align="left">
+                  <bold>Gene description</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="center" valign="bottom">1<hr/></td>
+                <td align="center" valign="bottom">1832291 - 1832331<hr/></td>
+                <td align="center" valign="bottom">6.7<hr/></td>
+                <td align="center" valign="bottom">46.5<hr/></td>
+                <td align="center" valign="bottom">MSMEG1738<hr/></td>
+                <td align="left" valign="bottom">Probable transmembrane protein<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">2<hr/></td>
+                <td align="center" valign="bottom">2508171 - 2508211<hr/></td>
+                <td align="center" valign="bottom">5.38<hr/></td>
+                <td align="center" valign="bottom">101.46<hr/></td>
+                <td align="center" valign="bottom">MSMEG2425*<hr/></td>
+                <td align="left" valign="bottom"><italic>amtB</italic> Ammonium transporter<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">3<hr/></td>
+                <td align="center" valign="bottom">4374771-4374811<hr/></td>
+                <td align="center" valign="bottom">6.27<hr/></td>
+                <td align="center" valign="bottom">184.71<hr/></td>
+                <td align="center" valign="bottom">MSMEG4290<hr/></td>
+                <td align="left" valign="bottom"><italic>glnA</italic> Glutamine synthetase<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">4<hr/></td>
+                <td align="center" valign="bottom">4381891 - 4381931<hr/></td>
+                <td align="center" valign="bottom">6.94<hr/></td>
+                <td align="center" valign="bottom">49.84<hr/></td>
+                <td align="center" valign="bottom">MSMEG4294<hr/></td>
+                <td align="left" valign="bottom"><italic>glnA </italic>Glutamine synthetase, type I<hr/></td>
+              </tr>
+              <tr>
+                <td align="center">5</td>
+                <td align="center">5651011 -5651051</td>
+                <td align="center">5.51</td>
+                <td align="center">18.6</td>
+                <td align="center">MSMEG5561</td>
+                <td align="left">HPP family protein</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>Fold enrichment of each GlnR binding sites (peaks) observed in nitrogen excess with peak intensity in nitrogen limitation given for comparison. Genes in operons are denoted by *.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>The identification of the three previously known GlnR binding sites (upstream of <italic>amt1</italic>, <italic>amtB</italic> and <italic>glnA1</italic>) in our ChIP-seq data (Figure&#x2009;<xref ref-type="fig" rid="F1">1</xref>) validated our approach. However, we used purified GlnR protein and electromobility shift assays (EMSA) to further validate four of the novel GlnR DNA binding regions identified in this study. DNA sequences (200 bp) representing the promoter regions of peak 19 (<italic>amtB</italic>, included as a positive control), peak 17 (MSMEG2184), peak 21 (MSMEG2522), peak 22 (MSMEG2526), and peak 42 (MSMEG5358), all showed specific GlnR binding, with the DNA/protein complex shift dependent on DNA concentration. The promoter region of MSMEG3224, a region not identified as a GlnR binding site in this study and included as a negative control, showed no GlnR binding (Figure&#x2009;<xref ref-type="fig" rid="F2">2</xref>).</p>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>GlnR binding sites identified by ChIP-seq during nitrogen limitation. </bold>Examples of peaks obtained for genes known to be GlnR-regulated. Binding sites were visualised by aligning the 160 million sequence reads to the <italic>M. smegmatis </italic>genome using IGV. The upper track indicates ChIP-seq data for GlnR immunoprecipitated DNA in nitrogen excess conditions, middle track shows the ChIP-seq data for GlnR immunoprecipitated DNA in nitrogen limiting conditions and the total DNA input control is shown in the bottom track. GlnR binding sites were identified upstream of (<bold>A</bold>) <italic>amtB</italic><bold>, (B</bold>) <italic>glnA1 </italic>and <bold>(C</bold>) <italic>amt1.</italic></p>
+          </caption>
+          <graphic xlink:href="1471-2164-14-301-1"/>
+        </fig>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Novel GlnR binding sites identified upstream of differentially expressed genes, with corresponding EMSA to confirm specific GlnR binding. </bold>EMSA were performed by incubating increasing amounts of His-GlnR recombinant protein with labelled DNA corresponding to the promoter regions of the genes downstream of the GlnR binding site. GlnR binding was visualised in IGV. The top track represents GlnR binding in nitrogen excess, the second track represents GlnR binding in nitrogen limiting conditions , and the third track represents input control DNA. Bar height is representative of fold change in gene expression in the WT compared to the &#x394;<italic>glnR </italic>mutant in nitrogen limitation. Levels of gene expression are indicated in the bottom track. Vertical lines through the peak indicate GlnR binding sites. <bold>(A</bold>). Peak 9, MSMEG2425 (<italic>amtB</italic>),<bold> (B</bold>). Peak 22, MSMEG2526, <bold>(C</bold>). Peak 17, MSMEG2184,<bold> (D</bold>). Peak 42, MSMEG5358,<bold> (E</bold>). Peak 21, MSMEG2522 and <bold>(F</bold>). Negative control, MSMEG3224.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-14-301-2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Delineation of the GlnR regulon during nitrogen limitation</title>
+        <p>In order to identify the genes controlled directly by GlnR and thus forming the GlnR regulon, we mapped the 53 binding sites onto the profile of transcripts regulated by GlnR during nitrogen limitation, using the Integrated Genome Viewer [<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref>], examples of which can be seen in Figure&#x2009;<xref ref-type="fig" rid="F2">2</xref> (all 53 binding sites in nitrogen limitation can be viewed in Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>: Figure S2). Forty-four GlnR binding sites corresponded to the differential expression of 103 genes, 91 of which were located in 21 operons (Table&#x2009;<xref ref-type="table" rid="T1">1</xref>). Interestingly as well as the 96 genes up-regulated by GlnR during nitrogen limitation, 7 genes (4 singles plus one operon of 3) were down regulated, indicating that GlnR functions as both an activator and repressor of transcription. GlnR binding also controlled the expression of 6 pairs of divergent genes (Table&#x2009;<xref ref-type="table" rid="T1">1</xref>).</p>
+        <p>Genes adjacent to 9 of the 53 GlnR binding sites did not show any differential expression during nitrogen limitation (non-DE binding sites) (Table&#x2009;<xref ref-type="table" rid="T1">1</xref>). One of those sites, peak 52, was the only one not in an intergenic region, but located in the 3&#x2019; end of MSMEG6817. Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>: Figure S3 shows the binding site identified for peak 52, with little evidence of a clear peak; this is likely a mis-call by the SISSRs programme. To confirm this, rate limiting qPCR was performed using DNA immunoprecipitated from nitrogen limiting and excess conditions, and no enrichment was observed (data not shown), therefore this binding site was excluded from the GlnR regulon. Two binding sites (peaks 18 and 49) were upstream of genes not present in the microarray, therefore these genes were analysed by qRT-PCR. MSMEG2332 (adjacent to peak 18) showed significant differential expression in the WT compared to the &#x394;<italic>glnR</italic> mutant under nitrogen limitation (10.1 average fold change; p value &lt;0.01; n&#x2009;=&#x2009;3) and was therefore deemed to be part of the GlnR regulon, but the gene adjacent to peak 49, MSMEG6697, was not differentially expressed (data not shown).</p>
+        <p>In order to further investigate the other 8 binding sites showing no DE, rate limiting qPCR was performed on immunoprecipitated DNA from cells grown under nitrogen limiting and excess conditions. Additional file <xref ref-type="supplementary-material" rid="S5">5</xref>: Figure S4 shows enrichment of the 8 promoter regions in nitrogen limitation compared to nitrogen excess; GlnR binding to peak 13 was also confirmed by EMSA (Additional file <xref ref-type="supplementary-material" rid="S6">6</xref>: Figure S5). Therefore these 8 peaks may be part of the GlnR regulon, although it would appear that GlnR does not alter transcription of these genes under the conditions tested. The complete GlnR regulon, including these 8 putative members, is provided in Additional file <xref ref-type="supplementary-material" rid="S7">7</xref>: Table S2.</p>
+      </sec>
+      <sec>
+        <title>Identification and analysis of the M. smegmatis GlnR consensus binding motif</title>
+        <p>The nucleotide sequence (200 bp) for each of the enriched GlnR-binding regions was extracted using the R package Biostrings and submitted to the motif discovery tool Multiple EM (Expectation Maximization) for Motif Elicitation (MEME) [<xref ref-type="bibr" rid="B37">37</xref>] to identify a consensus GlnR binding motif. A consensus motif (AC/T-n9-AC) present once in all 53 GlnR binding sites was identified with an E value of 6.5 &#xD7; 10<sup>-30</sup> (Figure&#x2009;<xref ref-type="fig" rid="F3">3</xref>). No direct correlation was observed between either the specific GlnR binding sequence, or the proximity of the binding site to a gene start site, and the level of gene expression (Additional file <xref ref-type="supplementary-material" rid="S8">8</xref>: Table S1). To identify key residues required for specific GlnR binding we mutated the highly conserved AC-n9-AC and AT-n9-AC DNA binding motifs. Figure&#x2009;<xref ref-type="fig" rid="F4">4</xref> shows that the highly conserved adenosine residues in the motif are critical as GlnR binding is abolished when these residues are mutated. Substitution of the AC dinucleotide, with either GG or GC, and the AT dinucleotide, with GG or GT, completely abolished GlnR binding (Figure&#x2009;<xref ref-type="fig" rid="F4">4</xref>A and <xref ref-type="fig" rid="F4">4</xref>B). The 9 base pair distance between these key adenosine residues was also investigated, and we found either increasing this to 12 nucleotides or decreasing it to 6 base pairs diminished GlnR binding (Figure&#x2009;<xref ref-type="fig" rid="F4">4</xref>C).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold><italic>M. smegmatis </italic></bold><bold>GlnR consensus binding motif derived from the 53 GlnR binding regions identified during nitrogen limitation. </bold>(<bold>A</bold>) MEME generated GlnR motif from 200 bp DNA sequences surrounding the 53 peaks. <bold>(B</bold>) Alignment of sequences in the 53 peaks with the MEME generated motif. Highly conserved residues are highlighted in dark grey, less conserved residues in light grey.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-14-301-3"/>
+        </fig>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Mutation of the GlnR binding motif adenosine residues and alteration of the distance between the residues both affect GlnR binding. </bold>(<bold>A</bold>) 30 bp binding site sequence of peak 24, with the wild type sequence and with the AT n9 Ac residues mutated, (<bold>B</bold>) 30 bp binding site sequence of peak 2, with the wild type sequence and the conserved AC n9 AC residues mutated and (<bold>C</bold>) 30 bp binding site of peak 2, with the wild type sequence and the distance between AC n9 AC altered.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-14-301-4"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>In this report we have combined transcriptomics and ChIP-seq to delineate the regulon controlled by the OmpR-type response regulator GlnR and to investigate the role <italic>M. smegmatis</italic> GlnR plays in regulating the transcriptomic response to nitrogen limitation.</p>
+      <sec>
+        <title>Delineation of the GlnR regulon</title>
+        <p>We compared the global expression profile of <italic>M. smegmatis</italic> wild type to a &#x394;<italic>glnR</italic> deletion mutant during nitrogen limitation, and found over 680 genes were significantly differentially expressed (Suppl Data File S1), with 392 genes up regulated and 291 down regulated. This large number of DE genes (approximately 10% of the genome) shows that a major GlnR-dependent transcriptomic response is initiated by <italic>M. smegmatis</italic> during nitrogen limitation. However, not all of these genes are directly regulated by GlnR, since the set includes 7 genes themselves annotated as response regulators, making the genes under the control of these other response regulators only indirectly controlled by GlnR. To identify the directly controlled genes we used ChIP-seq to identify GlnR-DNA binding sites and combined this with the transcriptional data.</p>
+        <p>ChIP-seq identified 53 GlnR binding sites in <italic>M. smegmatis</italic> during nitrogen limitation. Forty-four of these are upstream of GlnR-dependant transcripts identified in our microarray analysis; controlling 103 genes in total, including those predicted to be in operons (Additional file <xref ref-type="supplementary-material" rid="S7">7</xref>: Table S2). GlnR can act as a dual transcriptional regulator, both activating and repressing gene expression, as has been shown for other OmpR type regulators [<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B38">38</xref>], with approximately 7% of the genes in the <italic>M. smegmatis</italic> GlnR regulon repressed during nitrogen limitation. GlnR also controlled the expression of 6 pairs of divergently transcribed genes (Table&#x2009;<xref ref-type="table" rid="T1">1</xref>). The genes associated with two GlnR regulated genes (peaks 18 and 49) were missing absent from the microarray, but qRT-PCR showed MSMEG2332, encoding an amino acid carrier protein, was under GlnR control (increasing the regulon to 103 genes), whereas MSMEG6697, encoding a putative <italic>tnpA</italic> transposase, was not.</p>
+        <p>The remaining 9 GlnR-binding sites were not associated with GlnR-regulated transcripts. Of these, peak 52 is located within a coding region and visual inspection of the region indicated it was not a true peak (Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>: Figure S4). This was also confirmed by rate limiting qPCR. Peaks 39 and 40 both appear in the promoter region of MSMEG4643, possibly indicating multiple GlnR binding sites for the regulation of this gene; rate limiting qPCR showed enrichment of this and the other 7 binding sites (Additional file <xref ref-type="supplementary-material" rid="S5">5</xref>: Figure S2). There are 10 genes downstream of these 8 GlnR-binding sites, 3 of which are down regulated, but less than 2 fold. The remaining 7 do not show any significant DE, but are included as putative members of the GlnR regulon by virtue of the binding sites upstream (Suppl Data File S2). In summary, we have demonstrated that the entire GlnR regulon during nitrogen limitation consists of a minimum of 103 genes.</p>
+        <p>GlnR also binds to 5 sites during nitrogen excess (Table&#x2009;<xref ref-type="table" rid="T2">2</xref>), but with significantly lower peak intensity values than observed in nitrogen limitation. These genes may be required for general nitrogen metabolism under all conditions, with increased gene expression required during nitrogen limitation. We have confirmed this experimentally for one of these genes, <italic>glnA1</italic>, which shows a higher basal level of transcription in nitrogen excess compared to other nitrogen genes, but is still induced upon nitrogen limitation [<xref ref-type="bibr" rid="B32">32</xref>]. The absence of other GlnR DNA binding sites during nitrogen excess is intriguing, since <italic>glnR</italic> transcript levels do not differ significantly under high versus low nitrogen levels [<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref>], yet under nitrogen stress GlnR protein binds to 52 sites. This could imply that the GlnR present in nitrogen-rich cells is inactive and is activated during nitrogen limitation, perhaps due to a post-translational modification (such as phosphorylation) and/or the binding of small molecules. Either of these processes could promote dimerization during nitrogen limitation to stabilise the protein, resulting in DNA binding. Alternatively GlnR could be sequestered in the cell, perhaps to the cell membrane [<xref ref-type="bibr" rid="B39">39</xref>], which would permit a rapid response to nitrogen stress. Studies to investigate how GlnR is activated during nitrogen limitation are in progress.</p>
+      </sec>
+      <sec>
+        <title>Role of GlnR in primary nitrogen metabolism</title>
+        <p>As expected, genes that known or predicted to be involved in nitrogen metabolism form the majority in the GlnR regulon. We confirmed that the three ammonium transporters (<italic>amt1</italic>, <italic>amtA</italic> and the <italic>amtB-glnK-glnD</italic> operon) are GlnR-regulated during nitrogen limitation [<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref>]; this presumably allows the cell to scavenge available ammonium from the surrounding environment. GS/GOGAT is the main ammonium assimilation pathway in most bacteria and the other members of this pathway (<italic>glnA1</italic>, <italic>gltB</italic> and <italic>gltD</italic>) are also up-regulated by GlnR. Interestingly the GDH enzyme (MSMEG5442), which is active until nitrogen becomes limiting, is not GlnR regulated. Two additional GDH homologs have been proposed (MSMEG4699 and MSMEG6272) [<xref ref-type="bibr" rid="B19">19</xref>], but neither are controlled by GlnR, so the mechanisms reducing the activity or levels of this enzyme in nitrogen limitation remain unknown.</p>
+        <p>Glutamine synthetase (GS) is a key nitrogen metabolism enzyme, identified as a potential drug target in <italic>M. tuberculosis</italic>[<xref ref-type="bibr" rid="B40">40</xref>-<xref ref-type="bibr" rid="B42">42</xref>]. Four GS are present in mycobacteria (<italic>glnA1-glnA4</italic>), with <italic>M. smegmatis</italic> containing at least 10 genes annotated as putative glutamine synthetases [<xref ref-type="bibr" rid="B14">14</xref>]. The <italic>glnA1</italic> and <italic>glnA2</italic> genes are found in all mycobacterial genomes together with <italic>glnE</italic>, which regulates glutamine synthetase activity [<xref ref-type="bibr" rid="B24">24</xref>]. Here we show that both <italic>glnA1</italic> (MSMEG4290) and <italic>glnA2</italic> (MSMEG4294) are under GlnR control but none of the other 8 GS homologs are GlnR regulated and the function of these enzymes is unknown.</p>
+      </sec>
+      <sec>
+        <title>Role of GlnR in nitrogen scavenging</title>
+        <p>The largest category of genes in the GlnR regulon is nitrogen scavenging. This is logical from an evolutionary perspective, as the soil dwelling <italic>M. smegmatis</italic> encounters various nitrogen sources in the environment and must compete with other soil microbes for nutrients. Twenty-seven genes (over 25% of the GlnR regulon) encode nitrogen transporter and binding proteins. In addition to the three ammonium transporters, uptake systems for nitrate/nitrite (MSMEG0433), urea (MSMEG2978&#x2013;2982), and amino acids/ peptides (MSMEG0781, MSMEG1052, MSMEG2522 and MSMEG 2524) are all up-regulated by GlnR in nitrogen limitation. The <italic>M. smegmatis</italic> genome also encodes enzymes involved in the complete degradation of urea to ammonium suggesting that urea is an important alternative nitrogen source during limiting conditions, however although these urea hydrolysis genes (MSMEG3623-3627) are up-regulated in <italic>M. smegmatis</italic> during nitrogen limitation (K. Williams, unpublished data), this is not controlled by GlnR.</p>
+        <p>A similar situation is observed for nitrate/nitrite uptake and assimilation in that <italic>M. smegmatis</italic> contains two nitrate/nitrite transporters, NarK (MSMEG5141) and NarK3 (MSMEG0433), with only NarK3 up-regulated by GlnR; NarK is constitutively expressed during nitrogen limitation (K. Williams, unpublished data). For nitrate to be assimilated it must be converted to ammonium via a two-step process; reduction of nitrate to nitrite by nitrate reductase (NarGHJI; MSMEG5137-5140) followed by reduction of nitrite to ammonium by nitrite reductase (NirBD; MSMEG0427-0428). As reported previously, and confirmed in this study, the nitrite reductase NirBD enzyme is up regulated by GlnR in nitrogen limitation [<xref ref-type="bibr" rid="B32">32</xref>], but the nitrate reductase enzyme is not. Therefore the uptake and assimilation of nitrite, not nitrate, appears to be an important nitrogen stress response in <italic>M. smegmatis</italic>. In this study we also identified a GlnR regulated transcriptional regulator, NnaR (MSMEG0432), the homologue of which in <italic>S. coelicolor</italic> is essential for GlnR function and growth on nitrate [<xref ref-type="bibr" rid="B43">43</xref>]. However, the precise role of this regulator and nitrate/nitrite respiration in the nitrogen stress response in <italic>M. smegmatis</italic> requires further investigation.</p>
+        <p>One further intriguing observation is that GlnR increases the expression of genes encoding enzymes predicted to be involved in processes that break down cellular components into ammonium. For example, an amine oxidase (MSMEG2526) which break down amines into ammonia and an aldehyde, a urea amidolyase (MSMEG2187) that converts urea to CO<sub>2</sub> and ammonia, a deaminase (MSMEG1298) which breaks down nucleotides into nucleosides and ammonia, and several hydrolases which act on carbon-nitrogen bonds (MSMEG0571, MSMEG1078, MSMEG2189, MSMEG6733) are all GlnR regulated. These cellular components may either originate from other organisms in the environment, or from within the cell. For example, <italic>E. coli</italic> can use its own peptidoglycan D-Ala-D-Ala as a nitrogen source [<xref ref-type="bibr" rid="B4">4</xref>]. Therefore it is conceivable that in times of extreme nitrogen austerity, mycobacteria could use cellular components to provide the ammonium required for growth and survival in the short term until nitrogen again becomes available.</p>
+      </sec>
+      <sec>
+        <title>Determination of the GlnR binding site motif and Key residues</title>
+        <p>MEME identified a 17 bp consensus GlnR binding sequence of Gn<sub>2</sub>AC-n<sub>6</sub>GnAACA present once in all the GlnR binding sites. Streptomyces has a 16 bp GlnR DNA binding motif [<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref>], which is similar to the one identified here. Tiffert <italic>et al.</italic> (2008) proposed the existence of two GlnR motifs within the binding motif in <italic>S. coelicolor</italic>; an &#x201C;a site&#x201D; (gTnAc) and a highly conserved &#x201C;b site&#x201D; (GaAAc)&#x2013;located 6 bp apart&#x2013;in which the &#x201C;b site&#x201D; has a higher affinity for GlnR than the &#x201C;a site&#x201D;. However, the motif identified in <italic>S. venezuelae</italic>, GTnAC-n<sub>6</sub>-GTnAC only contains two copies of an &#x201C;a site&#x201D;. The <italic>M. smegmatis</italic> GlnR binding motif contains two different sites, a variable a-type site (Gn<sub>2</sub>AC) separated by 6 bp from a &#x201C;b site&#x201D; (GnAAC) that is highly similar to the <italic>S. coelicolor</italic> &#x201C;b site&#x201D; sequence. Pullan <italic>et al.</italic> suggested that conservation of the &#x201C;b site&#x201D; might be indicative of strong GlnR regulation in terms of gene expression. However, we did not find any correlation between the presence or absence of the b-site. For example MSMEG4501 and MSMEG5358 have the b-site, whilst MSMEG6816, MSMEG2982 and MSMEG2526 do not, yet all exhibit similar differential gene expression (Additional file <xref ref-type="supplementary-material" rid="S8">8</xref>: Table S1). Consequently the conserved &#x201C;b site&#x201D; is not the sole determinant of the strength of GlnR regulation, and additional transcription factors may contribute. However, there is a highly conserved AC-n<sub>9</sub>-AC motif present in both <italic>M. smegmatis</italic> and <italic>Streptomyces</italic>, and we have shown that spacing between the dinucleotides, as well as the presence of adenosine are both crucial for GlnR binding. The 9 bp distance between these adenosine residues represents one turn of the major groove of the DNA helix, ensuring both are available to interact with GlnR.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>Conclusions</title>
+      <p>In summary, we have demonstrated that GlnR is the global nitrogen response regulator in <italic>M. smegmatis</italic>, directly regulating the expression of more than 100 genes. GlnR controls key nitrogen stress survival processes including primary nitrogen metabolism pathways, the ability to utilise nitrate and urea as alternative nitrogen sources, and the potential to use cellular components to provide a source of ammonium. Although we have shown that GlnR plays a central role in nitrogen metabolism in mycobacteria, several questions remain unanswered. For instance, the mechanism of activation of GlnR is not known. GlnR is an orphan response regulator and the corresponding kinase (if one exists) has not yet been identified. Investigations are also in progress to identify the signal(s) indicating cellular nitrogen status and the mechanisms by which this signal is detected and translated into GlnR activation. These studies are important for furthering our understanding of how mycobacteria survive nutrient limiting conditions.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Growth conditions</title>
+        <p><italic>M. smegmatis mc</italic><sup><italic>2</italic></sup><italic>155</italic> wild type (ATCC 700084) [<xref ref-type="bibr" rid="B44">44</xref>] and <italic>M. smegmatis mc</italic><sup><italic>2</italic></sup><italic>155</italic> &#x394;<italic>glnR</italic>[<xref ref-type="bibr" rid="B32">32</xref>] were used in this study. The <italic>M. smegmatis</italic> &#x394;<italic>glnR</italic> mutant was constructed by recombineering [<xref ref-type="bibr" rid="B45">45</xref>] replacing the entire <italic>glnR</italic> gene with a hygromycin resistance cassette [<xref ref-type="bibr" rid="B32">32</xref>]. <italic>M. smegmatis</italic> was grown aerobically in Middlebrook 7H9 liquid broth (supplemented with 0.2% glycerol, 0.05% Tween 80 and 10% OADC) at 37&#xB0;C, 180 rpm. Optimised nitrogen limiting conditions have been described [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B32">32</xref>]. Briefly, an overnight culture of <italic>M. smegmatis</italic> was washed twice in nitrogen free Sauton&#x2019;s medium (0.05% (w/v) KH<sub>2</sub>PO<sub>4</sub>, 0.05% (w/v) MgSO<sub>4</sub>, 0.2% (w/v) citric acid, 0.005% (w/v) ferric citrate, 0.2% (v/v) glycerol, 0.0001% (v/v) ZnSO<sub>4</sub>, 0.015% (v/v) Tyloxapol) and inoculated into Sauton&#x2019;s nitrogen free medium, supplemented with 1 mM (nitrogen limiting) or 30 mM (nitrogen excess) ammonium sulphate (Ultra pure; Sigma) to a starting OD<sub>600</sub> of 0.08 (Biochrom). Growth was monitored by OD<sub>600</sub>. Ammonium ions in the culture medium were quantified using an AquaQuant Ammonium detection kit (Merck).</p>
+      </sec>
+      <sec>
+        <title>Purification of recombinant GlnR</title>
+        <p>The <italic>M. smegmatis glnR</italic> (MSMEG5784) and <italic>M. tuberculosis glnR</italic> (Rv0818) genes were PCR amplified from genomic DNA using specific primers (Additional file <xref ref-type="supplementary-material" rid="S9">9</xref>: Table S2). Digested fragments were cloned into pET28b (Novagen) to construct tagged protein with His-tag at the N-terminus and ligations transformed into BL21 (DE3) pLysS <italic>E.coli</italic> (Promega). Recombinant <italic>E. coli</italic> strains were cultivated at 37&#xB0;C in LB broth supplemented with 50 &#x3BC;g ml<sup>-1</sup> Kanamycin until mid-log phase, when 1 mM IPTG was added and incubation continued at 20&#xB0;C for 3 hours. Cells were harvested, centrifuged and pellet re-suspended in lysis buffer (PBS, EDTA-free protease inhibitor tablet (Roche), 100 &#x3BC;g/ml lysozyme, 85.5 units deoxyribonuclease I (<italic>Invitrogen</italic>)) before probe sonication. Soluble protein extract was loaded onto a pre-charged nickel column (GE Healthcare) and purified via affinity chromatography using a FPLC AKTA Purifier (GE Healthcare). Pooled fractions containing His-GlnR were dialysed into storage buffer (10 mM Tris&#x2013;HCl pH 8, 50 mM NaCl, 20% (v/v) glycerol, 0.1 mM EDTA) for antibody production or (10 mM Tris&#x2013;HCl pH 8, 50 mM NaCl, 5% (v/v) glycerol) for gel shift assays. Protein concentration was determined using the BCA protein assay kit (Pierce) according to manufacturer&#x2019;s instructions.</p>
+      </sec>
+      <sec>
+        <title>Generation of GlnR polyclonal antibody and purification</title>
+        <p>Purified <italic>M. tuberculosis</italic> His-GlnR was used to raise polyclonal rabbit antibody (Eurogentec, Belgium). Polyclonal anti-GlnR serum was affinity purified using recombinant <italic>M. smegmatis</italic> His-GlnR. His-GlnR (50 &#x3BC;g) was separated via SDS PAGE, transferred to a nitrocellulose membrane and visualised with Ponceau S (Sigma). A membrane slice containing His-GlnR was blocked (PBS with 5% milk powder) for 1 hr at RT, followed by incubation overnight at 4&#xB0;C with 5 ml serum diluted in 25 ml Block. The membrane was washed in PBS before the antibody was eluted with 100 mM glycine pH 2.7. The pH of the eluate was neutralised with 1.5 M Tris&#x2013;HCl pH 8.8. Purified antibody was dialysed against PBS and stored at -20&#xB0;C.</p>
+      </sec>
+      <sec>
+        <title>Electromobility shift assay (EMSA)</title>
+        <p>To analyse GlnR binding to gene promoter regions, DNA fragments were PCR amplified from <italic>M. smegmatis</italic> genomic DNA and used in electromobility shift assays (Additional file <xref ref-type="supplementary-material" rid="S9">9</xref>: Table S4). To identify key nucleotides required for GlnR binding, complementary oligonucleotides were designed to mutate or alter the distance of key residues and annealed to generate DNA fragments for EMSAs (Additional file <xref ref-type="supplementary-material" rid="S9">9</xref>: Table S4). DNA fragments were labelled using a DIG Oligonucleotide 3&#x2019;-End Labelling Kit (Roche). DNA:protein binding reactions contained 0.4 ng of labelled DNA, 0.5 &#x3BC;g poly d(A-T), 0&#x2013;0.9 &#x3BC;g His-GlnR, 25 mM Hepes (pH 7.9), 150 mM NaCl, 2.5 mM MgCl<sub>2</sub>. The reaction mixture was incubated at 37&#xB0;C for 15 min, before separation on a pre-run 6% DNA retardation gel (Invitrogen). Labelled DNA was transferred to a nylon membrane (Amersham) using a wet transfer XCell SureLock Blot module (<italic>Invitrogen</italic>). DNA was cross-linked to the membrane with a UV Stratalinker and membrane development proceeded according to manufacturer&#x2019;s instructions (Roche). Bands were visualised using a LAS-3000 Fuji imager.</p>
+      </sec>
+      <sec>
+        <title>Rate-limiting PCR</title>
+        <p>To identify enrichment in GlnR-immunoprecipitated DNA a rate-limiting PCR was performed. DNA was immunoprecipitated and purified as described under chromatin-immunoprecipitation. DNA sequences were amplified using primers listed in Additional file <xref ref-type="supplementary-material" rid="S9">9</xref>: Table S2. Reaction mixtures consisted of GlnR-immunoprecipitated DNA (0.3 ng), 1 &#xD7; BioMix (Bioline), 1 &#x3BC;M of each primer and 5% (v/v) dimethyl sulfoxide (DMSO; Sigma). PCR was carried out in a thermocyler T3000 (Biometra); 95&#xB0;C for 5 min, 23 cycles of 95&#xB0;C 30 sec, 55&#xB0;C 30 sec, 72&#xB0;C 1 min, with final extension 72&#xB0;C for 8 min. DNA was visualised on a 2% agarose gel.</p>
+      </sec>
+      <sec>
+        <title>RNA isolation</title>
+        <p><italic>M. smegmatis</italic> strains were grown in triplicate in nitrogen limiting conditions until external nitrogen was depleted. Total RNA was extracted from exponentially growing cells using the GTC/Trizol method [<xref ref-type="bibr" rid="B46">46</xref>]. Extracted RNA was purified using the RNeasy kit (Qiagen) and residual DNA removed by TURBO DNA-free (Ambion Life Technologies) treatment. Superase (ABI Life Technologies) was added and RNA was stored at -80&#xB0;C. Quality and quantity of RNA was determined using a Bio-analyser (Agilent).</p>
+      </sec>
+      <sec>
+        <title>Quantitative real-time PCR (qRT-PCR)</title>
+        <p>cDNA was amplified from 100 ng of RNA using the SuperScript III First-Strand Synthesis SuperMix (Invitrogen). qRT-PCR reactions were carried out in a final volume of 10 &#x3BC;l (1 &#x3BC;l of cDNA, 5 &#x3BC;l of TaqMan PCR master mix (Applied Biosystems), 0.5 &#x3BC;l TaqMan probe (Applied Biosystems)). Amplification was performed on an Applied Biosystems 7500 Real-Time System (50&#xB0;C 5 min, 95&#xB0;C 10 min, and 40 cycles of 95&#xB0;C 15 sec, 60&#xB0;C 1 min). Linear amplification and amplification efficiencies for each TaqMan primer/probe was determined. Real-time analysis was performed on RNA from three independent cultures and quantification of <italic>sigA</italic> expression served as an internal control. Fold change was calculated as a ratio of the arbitrary expression units, standardised to <italic>sigA</italic>. Statistical analysis of data was performed using a Student&#x2019;s <italic>t</italic>-test, a <italic>P</italic> value of&#x2009;&#x2264;&#x2009;0.01 was considered significant. Primers and Taqman probe sequences for each gene studied are given in Additional file <xref ref-type="supplementary-material" rid="S10">10</xref>: Table S5.</p>
+      </sec>
+      <sec>
+        <title>Preparation of labelled cDNA from total RNA</title>
+        <p>Labelled cDNA was prepared from 1 &#x3BC;g total RNA using Cy3-dCTP (GE Healthcare) and SuperScript II reverse transcriptase with random hexamer primers (<italic>Invitrogen</italic>). Labelled cDNA was purified by Qiagen MinElute column, combined with 10&#xD7; CGH blocking agent and 2&#xD7; Hi-RPM hybridisation buffer (Agilent) and heated (95&#xB0;C for 5 min) prior to loading onto microarray slides. Slides were incubated overnight in an Agilent rotating oven at 65&#xB0;C, 20 rpm. After hybridization slides were washed (5 min at room temperature) with CGH Wash Buffer 1 (Agilent) and 1 min at 37&#xB0;C with CGH Wash buffer 2 (Agilent). Slides were scanned immediately, using an Agilent High Resolution Microarray Scanner, at 2 &#x3BC;m resolution, 100% PMT. Scanned images were quantified using Feature Extraction software v 10.7.3.1.</p>
+      </sec>
+      <sec>
+        <title>Microarray design</title>
+        <p>The microarray was constructed by determining all unique genes from the 6887 chromosomal predicted coding sequences of <italic>M. smegmatis</italic> strain MC2 155, downloaded from Ensembl Bacteria Release 5 (<ext-link ext-link-type="uri" xlink:href="http://bacteria.ensembl.org/">http://bacteria.ensembl.org/</ext-link>). Multiple optimal hybridisation 60-mer oligonucleotide sequences were designed (Oxford Gene Technologies), from which a minimal non-redundant subset of oligonucleotides were selected with target coverage of three 60-mers per gene. Arrays were manufactured on the Inkjet in-situ synthesized platform (Agilent) using the 8&#xD7;60 k format.</p>
+      </sec>
+      <sec>
+        <title>Statistical analyses of differential gene expression</title>
+        <p>Statistical analyses of the gene expression data was carried out using the statistical analysis software environment R together with packages available as part of the Bioconductor project (<ext-link ext-link-type="uri" xlink:href="http://www.bioconductor.org">http://www.bioconductor.org</ext-link>). Data generated from the Agilent Feature Extraction software for each sample was imported into R. Replicate probes were mean summarised and quantile normalised using the pre-process Core R package. The limma R package [<xref ref-type="bibr" rid="B47">47</xref>] was used to compute empirical Bayes moderated <italic>t</italic>-statistics to identify differentially expressed genes between time points. Generated p-values were corrected for multiple testing using the Benjamini and Hochberg False Discovery Rate. A corrected p-value cut-off of less than 0.01 was used to determine significant differential expression.</p>
+      </sec>
+      <sec>
+        <title>Chromatin-immunoprecipitation (ChIP)</title>
+        <sec>
+          <title>Cell preparation and cross-linking</title>
+          <p><italic>M. smegmatis</italic> was grown as specified before cross-linking with the addition of formaldehyde (Sigma) (1% (v/v)). Cross-linking proceeded for 20 min at 37&#xB0;C, before glycine addition (125 mM) for 5 min at 37&#xB0;C. Cells were harvested and washed twice with TBS. The pellet was frozen at -80&#xB0;C until required. For DNA fragmentation the pellet was re-suspended in immunoprecipitation (IP) buffer (50 mM HEPES-KOH pH 7.5, 150 mM NaCl, 1 mM EDTA, 1% (v/v) Triton X-100, 0.1% (w/v) Na deoxycholate, 0.1% (w/v) SDS) supplemented with EDTA- free complete protease inhibitor cocktail (Roche), before sonication [100% amp, 30 sec pulses for 10 min] (Misonix Ultrasonic Processor S4000). Debris was removed by centrifugation and the supernatant recovered. A 100 &#x3BC;l sample was taken and stored at -20&#xB0;C, this served as the &#x2018;input&#x2019; sample and was subjected to protein degradation as described. The rest of the sample was used for immunoprecipitation.</p>
+        </sec>
+        <sec>
+          <title>Immunoprecipitation and elution of DNA</title>
+          <p>Purified rabbit anti-GlnR polyclonal antibody was added to the sonicated extract and incubated overnight at 4&#xB0;C. Sheep anti-rabbit IgG Dynal beads (<italic>Invitrogen</italic>) were prepared by washing 2&#xD7; PBS and 2&#xD7; IP buffer, before bead saturation overnight in blocking solution (IP buffer, EDTA-free protease inhibitor tablet, 1 mg/ml BSA). Blocking solution was removed and bead-sonicated sample complex incubated for 3 hours at 4&#xB0;C. To harvest the bead-antibody-DNA complex a magnet was used. The complex was then subject to a series of washing steps; 2&#xD7; IP buffer, IP buffer plus 500 mM NaCl, wash II (10 mM Tris pH 8, 250 mM LiCl, 1 mM EDTA, 0.5% Nonidet-P40, 0.5% (w/v) Na deoxycholate), TE buffer (50 mM Tris, 10 mM EDTA pH 7.5). Elution of DNA was performed by addition of elution buffer (50 mM Tris&#x2013;HCl pH 7.5, 10 mM EDTA, 1% (w/v) SDS) and incubation at 65&#xB0;C for 40 min. Beads were separated by magnetism and the supernatant harvested. Elucidate was diluted 2-fold in nuclease free H<sub>2</sub>O (Qiagen), followed by protein degradation with the addition of 4 mg/ml Pronase and incubated: 42&#xB0;C for 2 hours and 65&#xB0;C for 6 hours. DNA was subsequently purified using the Qiagen MiniElute kit and DNA quantified using the dsDNA Qubit (<italic>Invitrogen</italic>).</p>
+        </sec>
+        <sec>
+          <title>Library preparation</title>
+          <p>DNA was prepared for next generation sequencing using the Illumina ChIP-seq DNA sample preparation kit according to the manufacturer&#x2019;s protocol, with the addition of a second gel extraction step after PCR amplification, to remove excess primer dimers. DNA size and purity was confirmed by DNA Bioanalyser (Agilent) and sequencing conducted on an Illumina HiSeq2000 sequencer (MRC Clinical Sciences Centre, Hammersmith). All sequencing data have been deposited in ArrayExpress (accession number E-MTAB-1456).</p>
+        </sec>
+        <sec>
+          <title>Supporting data</title>
+          <p>The full microarray design is available in B&#x3BC;G@Sbase (A-BUGS-39) and also in ArrayExpress (ArrayExpress: A-BUGS-39). Fully annotated microarray data have been deposited in B&#x3BC;G@Sbase (accession number E-BUGS-143; <ext-link ext-link-type="uri" xlink:href="http://bugs.sgul.ac.uk/E-BUGS-143">http://bugs.sgul.ac.uk/E-BUGS-143</ext-link>) and also ArrayExpress (accession number E-BUGS-143). The other data sets supporting the results of this article are included within the article and its additional files.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec>
+      <title>Competing interests</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </sec>
+    <sec>
+      <title>Authors&#x2019; contributions</title>
+      <p>VAJ and KJW performed the experiments and carried out the genome analysis, participated in the design of the study and drafted the manuscript. GRB carried out the bioinformatics analysis. BDR conceived the study, participated in its design and coordination, and drafted the manuscript. All authors read and approved the final manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1: Table S1</title>
+          <p>List of genes displaying differential expression by microarray during nitrogen limitation, comparing <italic>M. smegmatis </italic>WT vs &#x394;<italic>glnR.</italic></p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S1.xlsx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S2">
+        <caption>
+          <title>Additional file 2: Figure S1</title>
+          <p>Rate limiting qPCR confirmed enrichment of known GlnR regulated genes in nitrogen limiting conditions. (A) Promoter region of <italic>glnA1, </italic>(B) Promoter region of <italic>nirB</italic> and (C) Promoter region of MSMEG3224 (negative control). Rate-limiting PCR involving 23 cycles of amplification, with 0.3 ng of GlnR-immunoprecipitated DNA from nitrogen excess and limiting conditions. Input-excess and input-limiting represents the total DNA prior to immunoprecipitation from the excess and limiting samples respectively.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S2.pptx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S3">
+        <caption>
+          <title>Additional file 3: Figure S2</title>
+          <p>Screen shots from IGV of all 53 GlnR binding sites identified by ChIP-seq.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S3.pptx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S4">
+        <caption>
+          <title>Additional file 4: Figure S3</title>
+          <p>Screenshot from IGV showing peaks 51 and 52 and highlighting the mis-calling of peak 52 by SISSRs. Binding data was visualised using IGV. Upper track indicates ChIP-seq data from the Input sample representing the total DNA, middle track is nitrogen excess conditions and then ChIP-seq data from nitrogen limiting conditions. Aligned to the bottom track is the SISSRs value for the peaks highlighted by the vertical black bars.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S4.pptx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S5">
+        <caption>
+          <title>Additional file 5: Figure S4</title>
+          <p>Rate limiting qPCR confirmed enrichment of the 8 putative GlnR binding sites during nitrogen limitation. (A) Promoter region of MSMEG3224 (negative control), (B) Promoter region of peak 13, (C) Promoter region of peak 14, (D) Promoter region of peak 26, (E) Promoter region of peak 32, (F) Promoter region of peak 39, (G) Promoter region of peak 40, (H) Promoter region of peak 44 and (I) Promoter region of peak 49. Rate-limiting PCR involving 23 cycles of amplification, with 0.3 ng of GlnR-immunoprecipitated DNA from nitrogen excess and limiting conditions. Input excess and input limiting represents the total DNA subject to immunoprecipitation from the excess and limiting samples respectively.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S5.pptx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S6">
+        <caption>
+          <title>Additional file 6: Figure S5</title>
+          <p>Confirmation of specific GlnR binding to the 200 bp region representing peak 13 by EMSA with the corresponding peak in nitrogen limiting conditions in IGV. EMSAs were performed by incubating increasing amounts of His-GlnR recombinant protein with labelled DNA corresponding to the GlnR binding site peak 13. The addition of non-specific DNA did not affect GlnR binding, confirming this as a specific GlnR binding site. GlnR binding was visualised in IGV. Upper track indicates ChIP-seq data from the Input sample representing the total DNA, middle track is nitrogen excess conditions and the ChIP-seq data from nitrogen limiting conditions aligned at the third track. Levels of gene expression are indicated in the bottom track. Vertical line through the peak indicates the GlnR binding site.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S6.pptx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S7">
+        <caption>
+          <title>Additional file 7: Table S2</title>
+          <p>Complete list of genes in the M. smegmatis GlnR regulon.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S7.xlsx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S8">
+        <caption>
+          <title>Additional file 8: Table S3</title>
+          <p>MEME-derived GlnR consensus binding site with corresponding ChIP-seq peak intensity and fold change in gene expression.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S8.doc">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S9">
+        <caption>
+          <title>Additional file 9: Table S4</title>
+          <p>Primer sequences used in this study.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S9.doc">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S10">
+        <caption>
+          <title>Additional file 10: Table S5</title>
+          <p>Custom Taqman <italic>M. smegmatis </italic>gene expression primer and probe sequences used in this study.</p>
+        </caption>
+        <media xlink:href="1471-2164-14-301-S10.doc">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgments</title>
+      <p>We thank Dr Claudia Sala for invaluable ChIP-seq advice. We also thank Dr Kate Gould and the team at B&#x3BC;G@S (Bacterial Microarray Group at St George&#x2019;s, University of London) for the <italic>M. smegmatis</italic> microarray design and hybridisations. We also acknowledge Dr Laurence Game and the team at the MRC Clinical Sciences Centre Genomics Lab, Imperial College, for performing the high throughput next generation sequencing. This work was funded by an MRC studentship to VJ and by Grant BB/G020434/1 from the Biotechnology and Biological Sciences Research Council, UK; the funders played no other role in the study.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>McMurray</surname>
+            <given-names>DN</given-names>
+          </name>
+          <person-group person-group-type="editor">Baron S</person-group>
+          <article-title>Mycobacteria and Nocardia</article-title>
+          <source>Medical Microbiology</source>
+          <year>1996</year>
+          <publisher-name>Galveston TX: The University of Texas Medical Branch at Galveston</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Reitzer</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Schneider</surname>
+            <given-names>BL</given-names>
+          </name>
+          <article-title>Metabolic context and possible physiological themes of sigma(54)-dependent genes in <italic>Escherichia coli</italic></article-title>
+          <source>Microbiol Mol Biol Rev</source>
+          <year>2001</year>
+          <volume>65</volume>
+          <issue>3</issue>
+          <fpage>422</fpage>
+          <lpage>444</lpage>
+          <comment>table of contents</comment>
+          <pub-id pub-id-type="doi">10.1128/MMBR.65.3.422-444.2001</pub-id>
+          <pub-id pub-id-type="pmid">11528004</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Leigh</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Dodsworth</surname>
+            <given-names>JA</given-names>
+          </name>
+          <article-title>Nitrogen regulation in bacteria and archaea</article-title>
+          <source>Annu Rev Microbiol</source>
+          <year>2007</year>
+          <volume>61</volume>
+          <fpage>349</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.micro.61.080706.093409</pub-id>
+          <pub-id pub-id-type="pmid">17506680</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Reitzer</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Nitrogen assimilation and global regulation in <italic>Escherichia coli</italic></article-title>
+          <source>Annu Rev Microbiol</source>
+          <year>2003</year>
+          <volume>57</volume>
+          <fpage>155</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.micro.57.030502.090820</pub-id>
+          <pub-id pub-id-type="pmid">12730324</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Merrick</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Edwards</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>Nitrogen control in bacteria</article-title>
+          <source>Microbiol Rev</source>
+          <year>1995</year>
+          <volume>59</volume>
+          <issue>4</issue>
+          <fpage>604</fpage>
+          <lpage>622</lpage>
+          <pub-id pub-id-type="pmid">8531888</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zimmer</surname>
+            <given-names>DP</given-names>
+          </name>
+          <name>
+            <surname>Soupene</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>HL</given-names>
+          </name>
+          <name>
+            <surname>Wendisch</surname>
+            <given-names>VF</given-names>
+          </name>
+          <name>
+            <surname>Khodursky</surname>
+            <given-names>AB</given-names>
+          </name>
+          <name>
+            <surname>Peter</surname>
+            <given-names>BJ</given-names>
+          </name>
+          <name>
+            <surname>Bender</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>Kustu</surname>
+            <given-names>S</given-names>
+          </name>
+          <article-title>Nitrogen regulatory protein C-controlled genes of <italic>Escherichia coli</italic>: scavenging as a defense against nitrogen limitation</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2000</year>
+          <volume>97</volume>
+          <issue>26</issue>
+          <fpage>14674</fpage>
+          <lpage>14679</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.97.26.14674</pub-id>
+          <pub-id pub-id-type="pmid">11121068</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>I do it my way: Regulation of ammonium uptake and ammonium assimilation in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Arch Microbiol</source>
+          <year>2003</year>
+          <volume>179</volume>
+          <issue>2</issue>
+          <fpage>83</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="pmid">12560985</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Reuther</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Wohlleben</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Nitrogen metabolism in <italic>Streptomyces coelicolor</italic>: transcriptional and post-translational regulation</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2007</year>
+          <volume>12</volume>
+          <issue>1&#x2013;2</issue>
+          <fpage>139</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">17183221</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Nitrogen control in <italic>Corynebacterium glutamicum</italic>: proteins, mechanisms, signals</article-title>
+          <source>J Microbiol Biotechnol</source>
+          <year>2007</year>
+          <volume>17</volume>
+          <issue>2</issue>
+          <fpage>187</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="pmid">18051748</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Ammonium assimilation and nitrogen control in <italic>Corynebacterium glutamicum</italic> and its relatives: an example for new regulatory mechanisms in actinomycetes</article-title>
+          <source>FEMS Microbiol Rev</source>
+          <year>2003</year>
+          <volume>27</volume>
+          <issue>5</issue>
+          <fpage>617</fpage>
+          <lpage>628</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0168-6445(03)00067-6</pub-id>
+          <pub-id pub-id-type="pmid">14638415</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lewis</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>Shahi</surname>
+            <given-names>SK</given-names>
+          </name>
+          <name>
+            <surname>Laing</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Bucca</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Efthimiou</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Bushell</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Smith</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Genome-wide transcriptomic analysis of the response to nitrogen limitation in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>BMC Res Notes</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>78</fpage>
+          <pub-id pub-id-type="doi">10.1186/1756-0500-4-78</pub-id>
+          <pub-id pub-id-type="pmid">21429225</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schmi</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Uhlemann</surname>
+            <given-names>EM</given-names>
+          </name>
+          <name>
+            <surname>Nolden</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Wersch</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Hecker</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Hermann</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Marx</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Response to nitrogen starvation in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2000</year>
+          <volume>187</volume>
+          <issue>1</issue>
+          <fpage>83</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.2000.tb09141.x</pub-id>
+          <pub-id pub-id-type="pmid">10828405</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lewis</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>Shahi</surname>
+            <given-names>SK</given-names>
+          </name>
+          <name>
+            <surname>Laing</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Bucca</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Efthimiou</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Bushell</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Smith</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Genome-wide transcriptomic analysis of the response to nitrogen limitation in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>BMC Res Notes</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>78</fpage>
+          <pub-id pub-id-type="doi">10.1186/1756-0500-4-78</pub-id>
+          <pub-id pub-id-type="pmid">21429225</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Amon</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Titgemeyer</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>A genomic view on nitrogen metabolism and nitrogen control in mycobacteria</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2009</year>
+          <volume>17</volume>
+          <issue>1</issue>
+          <fpage>20</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1159/000159195</pub-id>
+          <pub-id pub-id-type="pmid">18824837</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Amon</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Titgemeyer</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Common patterns - unique features: nitrogen metabolism and regulation in Gram-positive bacteria</article-title>
+          <source>FEMS Microbiol Rev</source>
+          <year>2010</year>
+          <volume>34</volume>
+          <issue>4</issue>
+          <fpage>588</fpage>
+          <lpage>605</lpage>
+          <pub-id pub-id-type="pmid">20337720</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Harper</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Hayward</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Wiid</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>van Helden</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Regulation of nitrogen metabolism in Mycobacterium tuberculosis: a comparison with mechanisms in <italic>Corynebacterium glutamicum</italic> and Streptomyces coelicolor</article-title>
+          <source>IUBMB Life</source>
+          <year>2008</year>
+          <volume>60</volume>
+          <issue>10</issue>
+          <fpage>643</fpage>
+          <lpage>650</lpage>
+          <pub-id pub-id-type="doi">10.1002/iub.100</pub-id>
+          <pub-id pub-id-type="pmid">18493948</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Beckers</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Strosser</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Hildebrandt</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Kalinowski</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Farwick</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kramer</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Regulation of AmtR-controlled gene expression in <italic>Corynebacterium glutamicum</italic>: mechanism and characterization of the AmtR regulon</article-title>
+          <source>Mol Microbiol</source>
+          <year>2005</year>
+          <volume>58</volume>
+          <issue>2</issue>
+          <fpage>580</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2005.04855.x</pub-id>
+          <pub-id pub-id-type="pmid">16194241</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Buchinger</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Strosser</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Rehm</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Hanssler</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Hans</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Bathe</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Schomburg</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Kramer</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Burkovski</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>A combination of metabolome and transcriptome analyses reveals new targets of the <italic>Corynebacterium glutamicum</italic> nitrogen regulator AmtR</article-title>
+          <source>J Biotechnol</source>
+          <year>2009</year>
+          <volume>140</volume>
+          <issue>1&#x2013;2</issue>
+          <fpage>68</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="pmid">19041910</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Harper</surname>
+            <given-names>CJ</given-names>
+          </name>
+          <name>
+            <surname>Hayward</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Kidd</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Wiid</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>van Helden</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Glutamate dehydrogenase and glutamine synthetase are regulated in response to nitrogen availability in <italic>Myocbacterium smegmatis</italic></article-title>
+          <source>BMC Microbiol</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <fpage>138</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2180-10-138</pub-id>
+          <pub-id pub-id-type="pmid">20459763</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Williams</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>Bennett</surname>
+            <given-names>MH</given-names>
+          </name>
+          <name>
+            <surname>Barton</surname>
+            <given-names>GR</given-names>
+          </name>
+          <name>
+            <surname>Jenkins</surname>
+            <given-names>VA</given-names>
+          </name>
+          <name>
+            <surname>Robertson</surname>
+            <given-names>BD</given-names>
+          </name>
+          <article-title>Adenylylation of mycobacterial Glnk (PII) protein is induced by nitrogen limitation</article-title>
+          <source>Tuberculosis</source>
+          <year>2013</year>
+          <volume>93</volume>
+          <issue>2</issue>
+          <fpage>198</fpage>
+          <lpage>206</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tube.2012.12.003</pub-id>
+          <pub-id pub-id-type="pmid">23352854</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Radchenko</surname>
+            <given-names>MV</given-names>
+          </name>
+          <name>
+            <surname>Thornton</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Merrick</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Control of AmtB-GlnK complex formation by intracellular levels of ATP, ADP, and 2-oxoglutarate</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <issue>40</issue>
+          <fpage>31037</fpage>
+          <lpage>31045</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.153908</pub-id>
+          <pub-id pub-id-type="pmid">20639578</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Javelle</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Merrick</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Complex formation between AmtB and GlnK: an ancestral role in prokaryotic nitrogen control</article-title>
+          <source>Biochem Soc Trans</source>
+          <year>2005</year>
+          <volume>33</volume>
+          <issue>Pt 1</issue>
+          <fpage>170</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="pmid">15667297</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gruswitz</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Stroud</surname>
+            <given-names>RM</given-names>
+          </name>
+          <collab>O&#x2019;Connell J, 3rd</collab>
+          <article-title>Inhibitory complex of the transmembrane ammonia channel, AmtB, and the cytosolic regulatory protein, GlnK, at 1.96 A</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2007</year>
+          <volume>104</volume>
+          <issue>1</issue>
+          <fpage>42</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0609796104</pub-id>
+          <pub-id pub-id-type="pmid">17190799</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Carroll</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Pashley</surname>
+            <given-names>CA</given-names>
+          </name>
+          <name>
+            <surname>Parish</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Functional analysis of GlnE, an essential adenylyl transferase in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <issue>14</issue>
+          <fpage>4894</fpage>
+          <lpage>4902</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00166-08</pub-id>
+          <pub-id pub-id-type="pmid">18469098</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Behrends</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Williams</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>Jenkins</surname>
+            <given-names>VA</given-names>
+          </name>
+          <name>
+            <surname>Robertson</surname>
+            <given-names>BD</given-names>
+          </name>
+          <name>
+            <surname>Bundy</surname>
+            <given-names>JG</given-names>
+          </name>
+          <article-title>Free glucosylglycerate is a novel marker of nitrogen stress in <italic>Mycobacterium smegmatis</italic></article-title>
+          <source>J Proteome Res</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <issue>7</issue>
+          <fpage>3888</fpage>
+          <lpage>3896</lpage>
+          <pub-id pub-id-type="doi">10.1021/pr300371b</pub-id>
+          <pub-id pub-id-type="pmid">22650367</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pioszak</surname>
+            <given-names>AA</given-names>
+          </name>
+          <name>
+            <surname>Jiang</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Ninfa</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>The <italic>Escherichia coli</italic> PII signal transduction protein regulates the activities of the two-component system transmitter protein NRII by direct interaction with the kinase domain of the transmitter module</article-title>
+          <source>Biochemistry</source>
+          <year>2000</year>
+          <volume>39</volume>
+          <issue>44</issue>
+          <fpage>13450</fpage>
+          <lpage>13461</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi000795m</pub-id>
+          <pub-id pub-id-type="pmid">11063581</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Fink</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Weissschuh</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Reuther</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Wohlleben</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Engels</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Two transcriptional regulators GlnR and GlnRII are involved in regulation of nitrogen metabolism in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Mol Microbiol</source>
+          <year>2002</year>
+          <volume>46</volume>
+          <issue>2</issue>
+          <fpage>331</fpage>
+          <lpage>347</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2002.03150.x</pub-id>
+          <pub-id pub-id-type="pmid">12406212</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tiffert</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Franz-Wachtel</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Fladerer</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Nordheim</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Reuther</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Wohlleben</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Mast</surname>
+            <given-names>Y</given-names>
+          </name>
+          <article-title>Proteomic analysis of the GlnR-mediated response to nitrogen limitation in <italic>Streptomyces coelicolor</italic> M145</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>2011</year>
+          <volume>89</volume>
+          <issue>4</issue>
+          <fpage>1149</fpage>
+          <lpage>1159</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00253-011-3086-9</pub-id>
+          <pub-id pub-id-type="pmid">21229241</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tiffert</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Supra</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Wurm</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Wohlleben</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Wagner</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Reuther</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>The <italic>Streptomyces coelicolor</italic> GlnR regulon: identification of new GlnR targets and evidence for a central role of GlnR in nitrogen metabolism in actinomycetes</article-title>
+          <source>Mol Microbiol</source>
+          <year>2008</year>
+          <volume>67</volume>
+          <issue>4</issue>
+          <fpage>861</fpage>
+          <lpage>880</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2007.06092.x</pub-id>
+          <pub-id pub-id-type="pmid">18179599</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pullan</surname>
+            <given-names>ST</given-names>
+          </name>
+          <name>
+            <surname>Chandra</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Bibb</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Merrick</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Genome-wide analysis of the role of GlnR in <italic>Streptomyces venezuelae</italic> provides new insights into global nitrogen regulation in actinomycetes</article-title>
+          <source>BMC Genomics</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>175</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2164-12-175</pub-id>
+          <pub-id pub-id-type="pmid">21463507</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Amon</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Brau</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Grimrath</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Hanssler</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Hasselt</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Holler</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Jessberger</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Ott</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Szokol</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Titgemeyer</surname>
+            <given-names>F</given-names>
+          </name>
+          <article-title>Nitrogen control in <italic>Mycobacterium smegmatis</italic>: nitrogen-dependent expression of ammonium transport and assimilation proteins depends on the OmpR-type regulator GlnR</article-title>
+          <source>J Bacteriol</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <issue>21</issue>
+          <fpage>7108</fpage>
+          <lpage>7116</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00855-08</pub-id>
+          <pub-id pub-id-type="pmid">18689485</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jenkins</surname>
+            <given-names>VA</given-names>
+          </name>
+          <name>
+            <surname>Robertson</surname>
+            <given-names>BD</given-names>
+          </name>
+          <name>
+            <surname>Williams</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <article-title>Aspartate D48 is essential for the GlnR-mediated transcriptional response to nitrogen limitation in <italic>Mycobacterium smegmatis</italic></article-title>
+          <source>FEMS Micro Lett</source>
+          <year>2012</year>
+          <volume>330</volume>
+          <issue>1</issue>
+          <fpage>38</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.2012.02530.x</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Langmead</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Trapnell</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Pop</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Salzberg</surname>
+            <given-names>SL</given-names>
+          </name>
+          <article-title>Ultrafast and memory-efficient alignment of short DNA sequences to the human genome</article-title>
+          <source>Genome Biol</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <issue>3</issue>
+          <fpage>R25</fpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2009-10-3-r25</pub-id>
+          <pub-id pub-id-type="pmid">19261174</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Narlikar</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Jothi</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>ChIP-Seq data analysis: identification of protein-DNA binding sites with SISSRs peak-finder</article-title>
+          <source>Methods Mol Biol</source>
+          <year>2012</year>
+          <volume>802</volume>
+          <fpage>305</fpage>
+          <lpage>322</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-1-61779-400-1_20</pub-id>
+          <pub-id pub-id-type="pmid">22130889</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Robinson</surname>
+            <given-names>JT</given-names>
+          </name>
+          <name>
+            <surname>Thorvaldsdottir</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Winckler</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Guttman</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Lander</surname>
+            <given-names>ES</given-names>
+          </name>
+          <name>
+            <surname>Getz</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Mesirov</surname>
+            <given-names>JP</given-names>
+          </name>
+          <article-title>Integrative genomics viewer</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2011</year>
+          <volume>29</volume>
+          <issue>1</issue>
+          <fpage>24</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt.1754</pub-id>
+          <pub-id pub-id-type="pmid">21221095</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Thorvaldsdottir</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Robinson</surname>
+            <given-names>JT</given-names>
+          </name>
+          <name>
+            <surname>Mesirov</surname>
+            <given-names>JP</given-names>
+          </name>
+          <article-title>Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration</article-title>
+          <source>Brief Bioinform</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <issue>2</issue>
+          <fpage>178</fpage>
+          <lpage>192</lpage>
+          <pub-id pub-id-type="doi">10.1093/bib/bbs017</pub-id>
+          <pub-id pub-id-type="pmid">22517427</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bailey</surname>
+            <given-names>TL</given-names>
+          </name>
+          <name>
+            <surname>Elkan</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Fitting a mixture model by expectation maximization to discover motifs in biopolymers</article-title>
+          <source>Proc Int Conf Intell Syst Mol Biol</source>
+          <year>1994</year>
+          <volume>2</volume>
+          <fpage>28</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="pmid">7584402</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mizuno</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Kato</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Jo</surname>
+            <given-names>YL</given-names>
+          </name>
+          <name>
+            <surname>Mizushima</surname>
+            <given-names>S</given-names>
+          </name>
+          <article-title><bold>Interaction of OmpR, a positive regulator, with the osmoregulated ompC and ompF genes of </bold><bold><italic>Escherichia coli.</italic></bold> Studies with wild-type and mutant OmpR proteins</article-title>
+          <source>J Biol Chem</source>
+          <year>1988</year>
+          <volume>263</volume>
+          <issue>2</issue>
+          <fpage>1008</fpage>
+          <lpage>1012</lpage>
+          <pub-id pub-id-type="pmid">3275653</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gu</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Dobos</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Bradbury</surname>
+            <given-names>EM</given-names>
+          </name>
+          <name>
+            <surname>Belisle</surname>
+            <given-names>JT</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>X</given-names>
+          </name>
+          <article-title>Comprehensive proteomic profiling of the membrane constituents of a <italic>Mycobacterium tuberculosis</italic> strain</article-title>
+          <source>Mol Cell Proteomics</source>
+          <year>2003</year>
+          <volume>2</volume>
+          <issue>12</issue>
+          <fpage>1284</fpage>
+          <lpage>1296</lpage>
+          <pub-id pub-id-type="doi">10.1074/mcp.M300060-MCP200</pub-id>
+          <pub-id pub-id-type="pmid">14532352</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nilsson</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Krajewski</surname>
+            <given-names>WW</given-names>
+          </name>
+          <name>
+            <surname>Yellagunda</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Prabhumurthy</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Chamarahally</surname>
+            <given-names>GN</given-names>
+          </name>
+          <name>
+            <surname>Siddamadappa</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Srinivasa</surname>
+            <given-names>BR</given-names>
+          </name>
+          <name>
+            <surname>Yahiaoui</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Larhed</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Karlen</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Structural basis for the inhibition of <italic>Mycobacterium tuberculosis</italic> glutamine synthetase by novel ATP-competitive inhibitors</article-title>
+          <source>J Mol Biol</source>
+          <year>2009</year>
+          <volume>393</volume>
+          <issue>2</issue>
+          <fpage>504</fpage>
+          <lpage>513</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmb.2009.08.028</pub-id>
+          <pub-id pub-id-type="pmid">19695264</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Odell</surname>
+            <given-names>LR</given-names>
+          </name>
+          <name>
+            <surname>Nilsson</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Gising</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Lagerlund</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Muthas</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Nordqvist</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Karlen</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Larhed</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Functionalized 3-amino-imidazo[1,2-a]pyridines: a novel class of drug-like <italic>Mycobacterium tuberculosis</italic> glutamine synthetase inhibitors</article-title>
+          <source>Bioorg Med Chem Lett</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <issue>16</issue>
+          <fpage>4790</fpage>
+          <lpage>4793</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bmcl.2009.06.045</pub-id>
+          <pub-id pub-id-type="pmid">19560924</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tullius</surname>
+            <given-names>MV</given-names>
+          </name>
+          <name>
+            <surname>Harth</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Horwitz</surname>
+            <given-names>MA</given-names>
+          </name>
+          <article-title>Glutamine synthetase GlnA1 is essential for growth of <italic>Mycobacterium tuberculosis</italic> in human THP-1 macrophages and guinea pigs</article-title>
+          <source>Infect Immun</source>
+          <year>2003</year>
+          <volume>71</volume>
+          <issue>7</issue>
+          <fpage>3927</fpage>
+          <lpage>3936</lpage>
+          <pub-id pub-id-type="doi">10.1128/IAI.71.7.3927-3936.2003</pub-id>
+          <pub-id pub-id-type="pmid">12819079</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Amin</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Reuther</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Bera</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Wohlleben</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Mast</surname>
+            <given-names>Y</given-names>
+          </name>
+          <article-title>A novel GlnR target gene, nnaR, is involved in nitrate/nitrite assimilation in <italic>Streptomyces coelicolor</italic></article-title>
+          <source>Microbiology</source>
+          <year>2012</year>
+          <volume>158</volume>
+          <issue>Pt 5</issue>
+          <fpage>1172</fpage>
+          <lpage>1182</lpage>
+          <pub-id pub-id-type="pmid">22301911</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Snapper</surname>
+            <given-names>SB</given-names>
+          </name>
+          <name>
+            <surname>Melton</surname>
+            <given-names>RE</given-names>
+          </name>
+          <name>
+            <surname>Mustafa</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Kieser</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Jacobs</surname>
+            <given-names>WR</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <article-title>Isolation and characterization of efficient plasmid transformation mutants of <italic>Mycobacterium smegmatis</italic></article-title>
+          <source>Molec Microbiol</source>
+          <year>1990</year>
+          <volume>4</volume>
+          <issue>11</issue>
+          <fpage>1911</fpage>
+          <lpage>1919</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.1990.tb02040.x</pub-id>
+          <pub-id pub-id-type="pmid">2082148</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>van Kessel</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Hatfull</surname>
+            <given-names>GF</given-names>
+          </name>
+          <article-title>Recombineering in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Nat Methods</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>147</fpage>
+          <lpage>152</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth996</pub-id>
+          <pub-id pub-id-type="pmid">17179933</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schnappinger</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Ehrt</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Voskuil</surname>
+            <given-names>MI</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Mangan</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Monahan</surname>
+            <given-names>IM</given-names>
+          </name>
+          <name>
+            <surname>Dolganov</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Efron</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Butcher</surname>
+            <given-names>PD</given-names>
+          </name>
+          <name>
+            <surname>Nathan</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Transcriptional Adaptation of <italic>Mycobacterium tuberculosis</italic> within Macrophages: Insights into the Phagosomal Environment</article-title>
+          <source>J Exp Med</source>
+          <year>2003</year>
+          <volume>198</volume>
+          <issue>5</issue>
+          <fpage>693</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20030846</pub-id>
+          <pub-id pub-id-type="pmid">12953091</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Smyth</surname>
+            <given-names>GK</given-names>
+          </name>
+          <article-title>Linear models and empirical bayes methods for assessing differential expression in microarray experiments</article-title>
+          <source>Stat Appl Genet Mol Biol</source>
+          <year>2004</year>
+          <volume>3</volume>
+          <fpage>Article3</fpage>
+          <pub-id pub-id-type="pmid">16646809</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

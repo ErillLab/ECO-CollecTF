@@ -1,0 +1,122 @@
+Results
+
+Identification of Zur-regulated genes by cDNA microarray
+
+By the standard dual-fluorescent microarray hybridization experiments, mRNA level of each gene was compared between WT and Deltazur upon exposure to zinc rich conditions.
+Totally, the transcription of 154 genes was found to be affected by the zur disruption.
+Among them, 90 genes were down-regulated in Deltazur, while 64 genes up-regulated.
+According to the genome annotation of Y. pestis CO92, these Zur-dependent genes were distributed in 15 functional categories (Additional file 3).
+Their products included regulators, membrane-related proteins, transport/binding proteins, biosynthesis and metabolism related proteins and lots of unknown proteins.
+Additional file 4 showed the complete list of differentially regulated genes, giving an overall picture of the alteration of the global gene transcription pattern of Y. pestis affected by Zur with sufficient zinc.
+The microarray data (GSE15183) had been deposited in Gene Expression Omnibus (GEO).
+
+
+
+Validation of microarray data by Real-time RT-PCR
+
+Microarray results are influenced by various factors, and thereby should be validated by at least one traditional method.
+Accordingly, the real-time quantitative RT-PCR, using RNA preparations as described in the microarray analysis, was performed to validate the microarray data.
+Based on gene classification, genomic location and transcriptional changes, 17 genes were chosen for RT-PCR (Additional file 5).
+The log-transformed change in relative quantity of mRNA level between WT and Deltazur was calculated for each gene.
+The resulting real-time RT-PCR data were then plotted against the average log ratio values obtained by microarray analysis.
+There was a strong positive correlation (R2 = 0.796) between the two techniques (Additional file 5).
+It should be noted that these 17 genes gave a 100% consistency for differential regulation between microarray and RT-PCR data, confirming the reliability of our microarray data.
+
+
+
+Characterization of DNA-binding ability of Zur by EMSA
+
+We prepared a recombinant Y. pestis Zur protein by overproducing it in E. coli and examined its DNA-binding activity by EMSA (Fig. 1).
+Increasing amounts (from 0 to 160 pmol) of the purified Zur protein were incubated with 10 fmol of32P-labeled znuA promoter region (it contained a strongly predicted Zur binding site; see Fig. 1a) in the presence of 100 muM ZnCl2 (Fig. 1b).
+From 1.25 pmol of Zur, the Zur-DNA complex (i.e. gel retardation) emerged; with the Zur amount increased, gel retardation appeared more and more heavily and reached to the peak at 80 pmol of Zur.
+
+It should be noted that the target DNA was progressively and continuously retarded (i.e. a gradual increase was observed in the gel mobility shift) with the increase in Zur concentration, and that 80 pmol Zur appeared to be a maximum for DNA binding (Fig. 1b).
+These results could be due to a second lower affinity binding site recognized by Zur at higher concentrations.
+Alternatively, like another regulator Fur [22], larger amounts of Zur proteins in the buffered environments would promote the formation of much more dimmers or even polymers, and thus there might be multiple Zur molecules bound to a single DNA site.
+
+In assaying EMSA reactions containing either no zinc or increasing concentrations of zinc (from 0.61 to 2500 muM), 5 pmol of Zur was incubated with 10 fmol labeled znuA promoter region (Fig. 1c).
+With zinc concentrations increased, gel retardation occurred more and more heavily and reach the peak at 78 muM; since then, the efficacy of gel retardation decreased gradually, and a complete inhibition of Zur-DNA binding was observed when zinc concentration arising to 1250 muM.
+Accordingly, an optimized concentration of zinc at 100 muM was proposed for EMSA.
+Zur bound to target DNA even without added zinc, which might be due to the contamination of trace amount of Zn or other bivalent metal ions in the EMSA reactions, or due to the fact that the purified Zur protein might already contain some bound zinc with it.
+
+To further validate the effect of zinc, with 5 pmol of Zur and 10 fmol of target DNA, EDTA at increasing concentrations (from 0.61 to 2500 muM) was added into different EMSA reactions respectively, so as to chelate zinc or other contaminated bivalent metal ions in the reaction mixture (Fig. 1d and 1e).
+The complete inhibition of Zur-DNA binding occurred from 78 muM EDTA without addition of zinc (Fig. 1d), while that occurred from 312.5 muM EDTA when 100 muM zinc was added (Fig. 1e).
+
+The above results indicated that either zinc or Zur within a certain range of amounts was crucial for the Zur-DNA recognition.
+Generally, contaminated zinc or other bivalent metal ions was enough to ensure the Zur-DNA recognition in EMSA, but it would be promoted by addition of appropriate amounts of zinc into the reaction mixture.
+
+To confirm the specificity of Zur-DNA association in EMSA, the EMSA experiments still included a rovA upstream DNA fragment for which no predicted Zur binding site was found (Table 1 and Fig. 1f).
+The negative EMSA results were observed, even though the Zur protein was increased to 160 pmol in a single reaction mixture (Fig. 1g).
+
+In all of the following EMSA experiments, 10 fmol of target DNA and 100 muM zinc without addition of EDTA were used in the reaction mixture.
+
+
+
+Screening for potential direct Zur targets by computational promoter analysis
+
+We further performed computational pattern matching analysis to predict direct Zur targets from the Zur-dependent genes disclosed by microarray.
+The regulatory consensus elements of Zur were analyzed (Fig. 2), and a position count matrix (Fig. 2c) was generated to statistically represent the conserved signals recognized by Zur, and subsequently used to screen for the potential Zur binding sites within the promoter sequences of the Zur-dependent genes uncovered by cDNA microarray.
+This analysis generated a score value for each promoter sequence, and the larger numbers of these scores would corresponded to the more highly consensus-like sequences in the promoters, i.e., the higher probability of Zur direct binding [20].
+
+Four genes (ykgM, znuC, znuA and astA) giving the largest score values (Table 1) were picked out for further investigation.
+The former three genes represent the first genes of three distinct putative operons, namely ykgM-rpmJ2, znuCB and znuA, respectively.
+ykgM and rpmJ2 encoded ribosomal proteins, while znuA, znuC and znuB encoded the Zn2+ uptake system ZnuABC.
+The znuCB and znuA operons were transcribed with opposite direction and separated by a short intergenic region (73 bp in length in Y. pestis) [17].
+astA is the second gene of the astCADBE operon responsible for the arginine succinyltransferase pathway of arginine catabolism.
+
+
+
+Zur binds to DNA regions upstream znuA, znuCB and ykgM-rpmJ2
+
+The real-time RT-PCR validated that Zur repressed the first gene of each of the three operons, znuA, znuCB and ykgM-rpmJ2 (Additional file 5).
+Herein, the DNA regions upstream these first genes (generated as indicated in Fig. 1a) were subjective to EMSA.
+It was demonstrated that the purified Zur protein bound to each of these potential target promoter regions in a Zur dose-dependent manner in vitro (Fig. 3).
+Thus, a direct association of Zur with the promoter regions of znuA, znuCB and ykgM-rpmJ2 was detected.
+
+The EMSA experiments still included three additional genes, astC, astA and rovA (Fig. 3).
+As expected, the negative control rovA gave negative EMSA result.
+astC and astA were the first and second genes of the astCADBE operon, respectively.
+The whole operon was induced by Zur as determined by cDNA microarray, and real-time RT-PCR confirmed the up-regulation of astC by Zur (Additional file 5).
+astA gave a high score value (8.2) in the computational promoter analysis, while astC presented a very low value of 4.4 (Table 1).
+Both of astC and astA gave the negative EMSA results (Fig. 3).
+Herein, neither astCADB nor astADB was thought to be under the direct control of Zur by directly binding to a cis-acting element within corresponding upstream promoter region.
+
+
+
+Zur represses promoter activity of znuA, znuCB and ykgM-rpmJ2
+
+To further validate the effect of Zur on the promoter activity of znuCB, znuA and ykgM-rpmJ2, we constructed the znuC::lacZ, znuA::lacZ and ykgM::lacZ fusion promoters each consisting of an upstream DNA of the corresponding gene, and then each of them was transformed into WT and Deltazur, respectively.
+The beta-galactosidase production of these lacZ fusions was measured in both WT and Deltazur, which represented the promoter activity of the corresponding gene in each strain.
+
+It should be noted that the zur mutation had an effect on the copy number of recombinant or empty pRS551 plasmid, and accordingly a normalized Miller unit was used to calculate the fold change in the activity of each fusion promoter in Deltazur in relative to WT (Table 2).
+For each of the three genes, there was a significant increase of beta-galactosidase activity in Deltazur compared to WT when they grew in TMH with the addition of zinc.
+Thus, Zur repressed the promoter activities of znuC, znuA and ykgM.
+Taken all the above results together, it could be rational to say that znuA, znuCB and ykgM-rpmJ2 were under the direct and negative control of Zur.
+
+
+
+Structural organization of Zur-dependent znuCB, znuA and ykgM-rpmJ2 promoters
+
+Primer extension assay was performed to determine the transcription start sites of znuC, znuA and ykgM (Fig. 4).
+A strong primer extension product was detected for both znuC and ykgM, while three primer extension products were detected for znuA.
+Since the shorter extension products might represent the premature stops due to difficulties of polymerase in passing difficult sequences, only the longest product was chosen for the transcription start site of znuA.
+Accordingly, a transcription start site was identified for each of the three genes, and thereby a Zur-dependent promoter was transcribed for each of them.
+The nucleotide number of each transcription start site was taken as '+1', and the -10 and -35 core promoter elements recognized by sigma factor 70 were predicted upstream the transcription start sites.
+
+To precisely determine the Zur binding sites of znuCB, znuA and ykgM-rpmJ2, DNase I footprinting assay was performed in the presence of zinc (both coding and noncoding strands) (Fig. 5).
+DNase I footprinting results confirmed the binding of Zur to these promoter regions in vitro.
+Zur protected a distinct DNA region (i.e. Zur binding site) against DNase I digestion in a dose-dependent pattern for ykgM (Fig. 5).
+As expected, the Zur box was found in this footprint region.
+znuCB and znuA are transcribed with opposite direction.
+Two separated footprint regions (sites 1 and 2) were detected within the znuCB-znuA intergenic region.
+The Zur box was found in site 1 rather than site 2.
+
+The DNase I footprinting assay still included two additional genes astA and gst.
+The gst upstream DNA region gave no predicted Zur site (Table 1), while EMSA indicated that Zur could not bind the astA promoter region in vitro (Fig. 3).
+As expected, no Zur-protected region was detected within the promoter DNA regions for both astA and gst (Fig. 5).
+
+The determination of Zur binding sites, transcription start sites, and core promoter elements (-10 and -35 regions) promoted us to depict the structural organization of Zur-activated znuCB, znuA and ykgM-rpmJ2 promoters (Fig. 6), giving a map of Zur-promoter DNA interaction for these genes.
+
+
+
+

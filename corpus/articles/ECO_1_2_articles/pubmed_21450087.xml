@@ -1,0 +1,3076 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Microbiol</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Microbiology</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2180</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21450087</article-id>
+      <article-id pub-id-type="pmc">3078092</article-id>
+      <article-id pub-id-type="publisher-id">1471-2180-11-64</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2180-11-64</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Fnr (EtrA) acts as a fine-tuning regulator of anaerobic metabolism in <italic>Shewanella oneidensis </italic>MR-1</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Cruz-Garc&#xED;a</surname>
+            <given-names>Claribel</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I10">10</xref>
+          <email>claribel.cruz-garcia@ce.gatech.edu</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Murray</surname>
+            <given-names>Alison E</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I11">11</xref>
+          <email>Alison@dri.edu</email>
+        </contrib>
+        <contrib contrib-type="author" id="A3">
+          <name>
+            <surname>Rodrigues</surname>
+            <given-names>Jorge LM</given-names>
+          </name>
+          <xref ref-type="aff" rid="I4">4</xref>
+          <email>Jorge@uta.edu</email>
+        </contrib>
+        <contrib contrib-type="author" id="A4">
+          <name>
+            <surname>Gralnick</surname>
+            <given-names>Jeffrey A</given-names>
+          </name>
+          <xref ref-type="aff" rid="I5">5</xref>
+          <email>gralnick@umn.edu</email>
+        </contrib>
+        <contrib contrib-type="author" id="A5">
+          <name>
+            <surname>McCue</surname>
+            <given-names>Lee Ann</given-names>
+          </name>
+          <xref ref-type="aff" rid="I6">6</xref>
+          <email>leeann.mccue@pnl.gov</email>
+        </contrib>
+        <contrib contrib-type="author" id="A6">
+          <name>
+            <surname>Romine</surname>
+            <given-names>Margaret F</given-names>
+          </name>
+          <xref ref-type="aff" rid="I6">6</xref>
+          <email>Margie.romine@pnl.gov</email>
+        </contrib>
+        <contrib contrib-type="author" id="A7">
+          <name>
+            <surname>L&#xF6;ffler</surname>
+            <given-names>Frank E</given-names>
+          </name>
+          <xref ref-type="aff" rid="I7">7</xref>
+          <xref ref-type="aff" rid="I8">8</xref>
+          <xref ref-type="aff" rid="I9">9</xref>
+          <email>frank.loeffler@utk.edu</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A8">
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>James M</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>tiedjej@msu.edu</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Center for Microbial Ecology, Michigan State University, East Lansing, Michigan 48824-1325, USA</aff>
+      <aff id="I2"><label>2</label>Department of Crop and Soil Sciences, Michigan State University, East Lansing, Michigan 48824-1325, USA</aff>
+      <aff id="I3"><label>3</label>Department of Microbiology and Molecular Genetics, Michigan State University, East Lansing, Michigan 48824-1325, USA</aff>
+      <aff id="I4"><label>4</label>Department of Biology, University of Texas at Arlington, Arlington, Texas 76019, USA</aff>
+      <aff id="I5"><label>5</label>Department of Microbiology, University of Minnesota, St. Paul, MN 55108, USA</aff>
+      <aff id="I6"><label>6</label>Pacific Northwest National Laboratory, Richland, Washington 99352, USA</aff>
+      <aff id="I7"><label>7</label>Department of Microbiology, University of Tennessee, Knoxville, MN 37996, USA</aff>
+      <aff id="I8"><label>8</label>Department of Civil and Environmental Engineering, University of Tennessee, Knoxville, MN 37996, USA</aff>
+      <aff id="I9"><label>9</label>Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA</aff>
+      <aff id="I10"><label>10</label>Georgia Institute of Technology, School of Civil and Environmental Engineering, 311 Ferst Drive, Atlanta, GA 30332-0512, USA</aff>
+      <aff id="I11"><label>11</label>Division of Earth and Ecosystem Sciences, Desert Research Institute, Reno, NV 89512, USA</aff>
+      <pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>3</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>11</volume>
+      <fpage>64</fpage>
+      <lpage>64</lpage>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>7</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>3</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9;2011 Cruz-Garc&#xED;a et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <copyright-holder>Cruz-Garc&#xED;a et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.biomedcentral.com/1471-2180/11/64"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>EtrA in <italic>Shewanella oneidensis </italic>MR-1, a model organism for study of adaptation to varied redox niches, shares 73.6% and 50.8% amino acid sequence identity with the oxygen-sensing regulators Fnr in <italic>E. coli </italic>and Anr in <italic>Pseudomonas aeruginosa</italic>, respectively; however, its regulatory role of anaerobic metabolism in <italic>Shewanella </italic>spp. is complex and not well understood.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>The expression of the <italic>nap </italic>genes, <italic>nrfA, cymA </italic>and <italic>hcp </italic>was significantly reduced in <italic>etrA </italic>deletion mutant EtrA7-1; however, limited anaerobic growth and nitrate reduction occurred, suggesting that multiple regulators control nitrate reduction in this strain. Dimethyl sulfoxide (DMSO) and fumarate reductase gene expression was down-regulated at least 2-fold in the mutant, which, showed lower or no reduction of these electron acceptors when compared to the wild type, suggesting both respiratory pathways are under EtrA control. Transcript analysis further suggested a role of EtrA in prophage activation and down-regulation of genes implicated in aerobic metabolism.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>In contrast to previous studies that attributed a minor regulatory role to EtrA in <italic>Shewanella </italic>spp., this study demonstrates that EtrA acts as a global transcriptional regulator and, in conjunction with other regulators, fine-tunes the expression of genes involved in anaerobic metabolism in <italic>S. oneidensis </italic>strain MR-1. Transcriptomic and sequence analyses of the genes differentially expressed showed that those mostly affected by the mutation belonged to the "Energy metabolism" category, while stress-related genes were indirectly regulated in the mutant possibly as a result of a secondary perturbation (e.g. oxidative stress, starvation). We also conclude based on sequence, physiological and expression analyses that this regulator is more appropriately termed Fnr and recommend this descriptor be used in future publications.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>Due to its respiratory versatility, <italic>Shewanella oneidensis </italic>strain MR-1 serves as a model organism for studying the regulation of aerobic and anaerobic growth [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B3">3</xref>]. In contrast to <italic>Escherichia coli</italic>, the regulatory systems that control transcription of genes responsible for different respiratory processes are poorly understood in environmentally relevant <italic>Shewanella </italic>spp. [<xref ref-type="bibr" rid="B4">4</xref>-<xref ref-type="bibr" rid="B7">7</xref>]. In <italic>E. coli</italic>, the transition from aerobic to anaerobic metabolism is primarily regulated by Fnr (<underline>f</underline>umarate and <underline>n</underline>itrate <underline>r</underline>eduction regulator) and by the two-component regulatory system ArcAB (<underline>a</underline>erobic <underline>r</underline>espiration <underline>c</underline>ontrol) [<xref ref-type="bibr" rid="B8">8</xref>-<xref ref-type="bibr" rid="B11">11</xref>]. A gene expression study in <italic>E. coli </italic>K12 indicated that one-third of its 4,290 genes were differentially expressed during aerobic versus anaerobic growth [<xref ref-type="bibr" rid="B12">12</xref>]. Among the differentially expressed genes, 712 (49%) genes were directly or indirectly affected by Fnr. Fnr possesses a [4Fe-4S]<sup>2+ </sup>cluster that acts as an oxygen sensory domain [<xref ref-type="bibr" rid="B13">13</xref>]. Fnr in its active dimeric form binds to target DNA sequences inducing or repressing transcription [<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>]. Under aerobic conditions, or when oxygen levels increase, an Fe<sup>2+ </sup>atom in the [4Fe-4S]<sup>2+ </sup>cluster is oxidized resulting in the formation of a [2Fe-2S]<sup>2+ </sup>cluster via a [3Fe-4S]<sup>1+ </sup>intermediate. This oxidation causes a conformation change in Fnr, thus altering its affinity to DNA and regulatory control of transcription [<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>].</p>
+      <p>Studies with strain MR-1 mutants have identified three important regulators of anaerobic metabolism: EtrA (<underline>e</underline>lectron <underline>t</underline>ransport <underline>r</underline>egulator protein), ArcA and CRP (<underline>c</underline>yclic AMP <underline>r</underline>eceptor <underline>p</underline>rotein) [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B16">16</xref>-<xref ref-type="bibr" rid="B19">19</xref>]. Sequence alignment of the protein encoded by <italic>etrA </italic>reveal that the four cysteine residues that form the [4Fe-4S]<sup>2+ </sup>cluster in Fnr are conserved in EtrA [<xref ref-type="bibr" rid="B16">16</xref>]. In a gene replacement study, <italic>etrA </italic>of strain MR-1 restored wild type physiology of an <italic>E. coli fnr </italic>deletion mutant [<xref ref-type="bibr" rid="B16">16</xref>]. EtrA shares 73.6% and 50.8% of amino acid sequence identity with Fnr in <italic>E. coli </italic>and Anr (<underline>a</underline>rginine deaminase and <underline>n</underline>itrate reductase anaerobic <underline>r</underline>egulator) in <italic>Pseudomonas aeruginosa</italic>, respectively. This high degree of similarity suggests that EtrA has a regulatory function in MR-1, possibly by sensing oxygen. Despite the lack of physiological evidence to support a regulatory role of EtrA in the anaerobic metabolism of strain MR-1 [<xref ref-type="bibr" rid="B7">7</xref>], a gene expression study using a partial microarray (691 ORFs) of the strain MR-1's genome suggested involvement of EtrA in the regulation of the transcription of genes associated with aerobic and anaerobic metabolism [<xref ref-type="bibr" rid="B6">6</xref>]. Growth experiments with an <italic>etrA </italic>deletion mutant in <italic>S. oneidensis </italic>strain DSP10 (a spontaneous rifampicin resistant mutant of MR-1) implicated EtrA in the regulation of genes related to aerobic and anaerobic metabolism, similar to what has been observed for Fnr in <italic>E. coli </italic>[<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B20">20</xref>]. Unfortunately, the implications of these findings cannot be interpreted unambiguously since the rifampicin resistance of strain DSP10 influences electron transport [<xref ref-type="bibr" rid="B21">21</xref>].</p>
+      <p>To examine the regulatory role of EtrA in strain MR-1 in more detail, we generated an <italic>etrA </italic>knockout mutant EtrA7-1 in a wild type background. Growth and phenotypic characterization of this mutant combined with a whole genome transcriptome analysis confirms that EtrA regulates nitrate and fumarate reduction, plus provides experimental evidence for its positive regulatory role in DMSO reduction. Our genome-wide expression analysis shows differential expression of 612 genes for which sequence analysis recognized a EtrA motif for 72 of the operons encoding 118 genes, suggesting that their regulation is via direct interaction of EtrA with its promoters. Most of these genes are associated with metabolic functions.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Genotypic and phenotypic characterization of a &#x394;<italic>etrA</italic>::<italic>loxP </italic>mutant</title>
+        <p>The growth of the <italic>etrA </italic>knockout mutant EtrA7-1 with nitrate was significantly impaired as cultures reached a maximum OD<sub>600 </sub>of 0.02, at least 5-fold lower than the wild type strain (Figure <xref ref-type="fig" rid="F1">1</xref>). In addition, the doubling time for the mutant under these conditions was approximately 10 h compared to a doubling time of 2 h for the wild type. Plasmid pCCG03 carrying <italic>etrA</italic>, but not the parental pCM62 vector lacking <italic>etrA</italic>, restored near wild type growth to the EtrA7-1 mutant, which confirms that the observed phenotype was attributable to the deletion of <italic>etrA</italic>. After 10 h of incubation, nitrate was reduced in wild type and complemented EtrA7-1 cultures though less nitrate was reduced in the latter consistent with its slightly slower growth (Figure <xref ref-type="fig" rid="F2">2</xref>). After 23 h, both the wild type and EtrA7-1 complement had completely converted nitrate and nitrite to ammonia, while nitrite was the major product in cultures of the EtrA7-1 mutant and the control strain harboring pCM62 (Figure <xref ref-type="fig" rid="F2">2</xref>).</p>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Anaerobic growth of EtrA7-1 and the wild type strains on lactate and nitrate</bold>. Wild type strain (closed diamonds), EtrA7-1 complement strain (open squares), EtrA7-1 (open diamonds) and EtrA7-1 harboring pCM62 (open triangles) served as a negative control. Data are means and SD from three independent cultures.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-64-1"/>
+        </fig>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Nitrate consumption and products formed during growth of the EtrA7-1 and wild type strains in Figure 1</bold>. Samples were collected after 10 h (panel A) and 23 h (panel B) and analyzed for nitrate (black bar), nitrite (gray bar) and ammonium (white bar). Data are means and SD from three independent cultures.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-64-2"/>
+        </fig>
+        <p>Anaerobic cultures of the mutant and the wild type strain were analyzed for the reduction of different electron acceptors with lactate as the electron donor. No growth of the EtrA7-1 mutant was observed with fumarate as electron acceptor whereas the wild type strain reached an OD<sub>600 </sub>of 0.053 &#xB1; 0.005. Limited growth (approximately 50% lower OD<sub>600 </sub>compared with the wild type cultures) was observed in mutant cultures amended with trimethylamine N-oxide (TMAO) or thiosulfate (data not shown). No OD increases with the mutant and the wild type were measured with DMSO provided as electron acceptor at 2 and 10 mM; however, HPLC analyses of cultures with 2 mM DMSO revealed that DMSO was completely consumed in wild type cultures, whereas no DMSO consumption was evident in the mutant cultures (Figure <xref ref-type="fig" rid="F3">3</xref>). No changes in DMSO concentrations were observed in cultures with 10 mM DMSO. No significant differences in Fe(III), Mn(IV) and sulfite reduction rates were observed between the wild type and the EtrA7-1 deletion mutant (Figure <xref ref-type="fig" rid="F3">3</xref>). Anaerobic cultures of the mutant and the wild type strains grown with pyruvate instead of lactate as electron donor showed similar results, i.e., the mutant showed limited or no growth with nitrate, fumarate and DMSO provided as electron acceptors compared to the wild type (Figure <xref ref-type="fig" rid="F4">4</xref>). Similar to the lactate-amended cultures, the rates of nitrate, fumarate and DMSO reduction in wild type cultures exceeded those measured in cultures of the mutant strain (Table <xref ref-type="table" rid="T1">1</xref>). Resting cell assays corroborated these findings and nitrate reduction and ammonium production occurred at higher rates in assays with wild type cells. Complete stoichiometric conversion to ammonium also occurred in the assays with mutant cells, although lower rates and a 3-fold longer incubation were required for complete reduction (i.e., 24 h for the EtrA7-1 versus 8 h for the wild type) (Figure <xref ref-type="fig" rid="F5">5</xref>).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>Substrate consumption and intermediate production in anaerobic cultures of the wild type (closed symbols) and EtrA7-1 (open symbols) mutant strains grown with lactate and different electron acceptors</bold>. DMSO consumption, squares; Fe(II) production, triangles; Mn(II) production, diamonds and sulfite consumption, circles. Data are means and SD from three independent cultures.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-64-3"/>
+        </fig>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Growth of the wild type (closed symbols) and Etra7-1 (open symbols) strains with pyruvate and the indicated electron acceptor</bold>. (Panel A) DMSO consumption - squares (Panel B), fumarate consumption - diamonds (Panel C) and nitrate comsumption - triangles (Panel D). Data are means and SD from three independent cultures.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-64-4"/>
+        </fig>
+        <table-wrap id="T1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Comparison of reduction rates of several electron acceptors with pyruvate as electron donor by <italic>S. oneidensis </italic>MR-1 wild type strain and <italic>etrA </italic>knockout strain EtrA7-1.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Electron acceptor</th>
+                <th align="center">
+                  <bold>Wild type (&#x3BC;M min</bold>
+                  <sup>
+                    <bold>-1</bold>
+                  </sup>
+                  <bold>)</bold>
+                </th>
+                <th align="center">
+                  <bold>ETRA7-1 (&#x3BC;M min</bold>
+                  <sup>
+                    <bold>-1</bold>
+                  </sup>
+                  <bold>)</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">Nitrate</td>
+                <td align="center">1.2 &#xB1; 0.1</td>
+                <td align="center">0.3 &#xB1; 0.01</td>
+              </tr>
+              <tr>
+                <td align="left">Fumarate</td>
+                <td align="center">6.4 &#xB1; 0.6</td>
+                <td align="center">3.8 &#xB1; 0.2</td>
+              </tr>
+              <tr>
+                <td align="left">DMSO</td>
+                <td align="center">0.8 &#xB1; 0.2</td>
+                <td align="center">0.4 &#xB1; 0.1</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>Data are means &#xB1; the standard deviation from three independent cultures.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <fig id="F5" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Nitrate reduction in resting cell assays with the wild type (closed symbols) and the ETRA7-1 (open symbols) mutant strains</bold>. Nitrate - triangles, nitrite - squares and ammonium - circles. Nitrate measurements in killed controls did not change, while nitrite and ammonium were not detected (data not shown).</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-64-5"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Effects of <italic>etrA </italic>deletion on transcription</title>
+        <p>The global transcriptome profile of mutant strain EtrA7-1 grown anaerobically with nitrate as the sole electron acceptor was compared to that of the wild type under the same growth conditions. A complete list of all the genes differentially expressed two-fold or higher is provided as supplemental information (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>). Out of 612 differentially transcribed genes in the EtrA7-1 mutant relative to the wild type, 289 were up-regulated and 323 were down-regulated. The differentially transcribed genes were classified in 19 functional "TIGR Role" categories (Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>) based on the MR-1 genome annotation (GenBank accession number <ext-link ext-link-type="gen" xlink:href="AE014299">AE014299</ext-link>) [<xref ref-type="bibr" rid="B22">22</xref>]. Genes with unknown functions represented the largest category of up-regulated (14.8%) and the second most common category of down-regulated genes (17.3%). Genes associated with energy metabolism were the largest category (17.6%) of down-regulated genes (Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>). Among the up-regulated genes, the "Protein synthesis" category ranked second (12.5%) and the "Other categories" ranked third (11.4%). This latter category included phage-, transposase- and plasmid-related genes. The "Energy metabolism" category represented 9.7%, ranking fourth.</p>
+      </sec>
+      <sec>
+        <title>Identification of putative EtrA binding sites</title>
+        <p>The promoters of the differentially expressed genes were examined for putative EtrA binding sites in order to identify those genes that were likely directly regulated by EtrA from the many genes whose expression changes were most likely due to secondary effects. For example, the up-regulation of phage-related genes is likely a response to stress, and not a direct result of the <italic>etrA </italic>deletion. Putative EtrA binding sites were identified for those genes that showed at least 2.5 fold change in the EtrA7-1 mutant relative to the wild type by extracting the upstream intergenic sequences and applying the Gibbs centroid sampler to identify a putative binding site motif. A motif was identified (Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>) that displays similarities to the <italic>E. coli </italic>Fnr and Crp binding sites motifs; this motif was present upstream of 44 operons that encode a total of 78 genes. The largest proportion of these genes is in the "Energy metabolism" category (Table <xref ref-type="table" rid="T2">2</xref> and <xref ref-type="table" rid="T3">3</xref>, Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>). Binding sites were detected upstream of an additional 28 operons when the detected motif (Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>) was used to scan the upstream intergenic regions of all genes listed in Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>.</p>
+        <table-wrap id="T2" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>Genes induced in the "Energy Metabolism" category in anaerobic cultures of EtrA7-1 relative to the wild type (reference strain).</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Gene ID</th>
+                <th align="left">Gene name</th>
+                <th align="center">
+                  <bold>Relative expression</bold>
+                  <sup>
+                    <bold>a</bold>
+                  </sup>
+                </th>
+                <th align="center">
+                  <bold>Predicted EtrA binding sites</bold>
+                  <sup>
+                    <bold>c</bold>
+                  </sup>
+                </th>
+                <th align="left">COG Annotation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">SO0162</td>
+                <td align="left">
+                  <italic>pckA</italic>
+                </td>
+                <td align="center">2.21 (&#xB1; 0.48)<sup>b</sup></td>
+                <td align="center">TGTGAGCTGGATCATT</td>
+                <td align="left">phosphoenolpyruvate carboxykinase (ATP)</td>
+              </tr>
+              <tr>
+                <td align="left">SO0747</td>
+                <td align="left">
+                  <italic>fpr</italic>
+                </td>
+                <td align="center">2.17 (&#xB1; 1.01)</td>
+                <td/>
+                <td align="left">ferredoxin--NADP reductase</td>
+              </tr>
+              <tr>
+                <td align="left">SO1103</td>
+                <td align="left">
+                  <italic>nqrA-2</italic>
+                </td>
+                <td align="center">2.25 (&#xB1; 0.54)</td>
+                <td align="center">TCTGCGCTAGCTCAAT CGTGATTGCGATCGCA</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, alpha subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1104</td>
+                <td align="left">
+                  <italic>nqrB-2</italic>
+                </td>
+                <td align="center">2.70 (&#xB1; 1.01)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, hydrophobic membrane protein NqrB</td>
+              </tr>
+              <tr>
+                <td align="left">SO1105</td>
+                <td align="left">
+                  <italic>nqrC-2</italic>
+                </td>
+                <td align="center">3.15 (&#xB1; .080)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, gamma subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1106</td>
+                <td align="left">
+                  <italic>nqrD-2</italic>
+                </td>
+                <td align="center">4.65 (&#xB1; 2.07)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, hydrophobic membrane protein NqrD</td>
+              </tr>
+              <tr>
+                <td align="left">SO1107</td>
+                <td align="left">
+                  <italic>nqrE-2</italic>
+                </td>
+                <td align="center">3.63 (&#xB1; 1.61)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, hydrophobic membrane protein NqrE</td>
+              </tr>
+              <tr>
+                <td align="left">SO1108</td>
+                <td align="left">
+                  <italic>nqrF-2</italic>
+                </td>
+                <td align="center">4.21 (&#xB1; 2.05)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, beta subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1891</td>
+                <td align="left">
+                  <italic>scoB</italic>
+                </td>
+                <td align="center">3.77 (&#xB1; 1.80)</td>
+                <td/>
+                <td align="left">Acetyl-CoA:acetoacetate CoA transferase, alpha subunit AtoA</td>
+              </tr>
+              <tr>
+                <td align="left">SO1892</td>
+                <td align="left">
+                  <italic>scoA</italic>
+                </td>
+                <td align="center">3.21 (&#xB1; 2.14)</td>
+                <td/>
+                <td align="left">acetate CoA-transferase, beta subunit AtoD</td>
+              </tr>
+              <tr>
+                <td align="left">SO1927</td>
+                <td align="left">
+                  <italic>sdhC</italic>
+                </td>
+                <td align="center">2.47 (&#xB1; 1.26)</td>
+                <td/>
+                <td align="left">succinate dehydrogenase, cytochrome b556 subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1930</td>
+                <td align="left">
+                  <italic>sucA</italic>
+                </td>
+                <td align="center">3.02 (&#xB1; 1.22)</td>
+                <td/>
+                <td align="left">2-oxoglutarate dehydrogenase, E1 component</td>
+              </tr>
+              <tr>
+                <td align="left">SO1931</td>
+                <td align="left">
+                  <italic>sucB</italic>
+                </td>
+                <td align="center">3.60 (&#xB1; 1.58)</td>
+                <td/>
+                <td align="left">2-oxoglutarate dehydrogenase, E2 component, dihydrolipoamide succinyltransferase</td>
+              </tr>
+              <tr>
+                <td align="left">SO1932</td>
+                <td align="left">
+                  <italic>sucC</italic>
+                </td>
+                <td align="center">3.29 (&#xB1; 0.98)</td>
+                <td/>
+                <td align="left">succinyl-CoA synthase, beta subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1933</td>
+                <td align="left">
+                  <italic>sucD</italic>
+                </td>
+                <td align="center">3.28 (&#xB1; 1.24)</td>
+                <td/>
+                <td align="left">succinyl-CoA synthase, alpha subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO2361</td>
+                <td align="left">
+                  <italic>ccoP</italic>
+                </td>
+                <td align="center">2.30 (&#xB1; 0.92)</td>
+                <td align="center">&#x2191;</td>
+                <td align="left">cytochrome c oxidase, cbb3-type, subunit III</td>
+              </tr>
+              <tr>
+                <td align="left">SO2362</td>
+                <td align="left">
+                  <italic>ccoQ</italic>
+                </td>
+                <td align="center">3.44 (&#xB1; 1.16)</td>
+                <td align="center">&#x2191;</td>
+                <td align="left">cytochrome c oxidase, cbb3-type, CcoQ subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO2364</td>
+                <td align="left">
+                  <italic>ccoN</italic>
+                </td>
+                <td align="center">2.76 (&#xB1; 1.07)</td>
+                <td align="center">CTTGAGCCATGTCAAA GTTGATCTAGATCAAT</td>
+                <td align="left">cytochrome c oxidase, cbb3-type, subunit I</td>
+              </tr>
+              <tr>
+                <td align="left">SO4509</td>
+                <td align="left">
+                  <italic>fdhA-1</italic>
+                </td>
+                <td align="center">2.33 (&#xB1; 0.56)</td>
+                <td/>
+                <td align="left">formate dehydrogenase, alpha subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO4510</td>
+                <td align="left">
+                  <italic>fdhB-1</italic>
+                </td>
+                <td align="center">4.03 (&#xB1; 1.57)</td>
+                <td/>
+                <td align="left">formate dehydrogenase, iron-sulfur subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO4511</td>
+                <td align="left">
+                  <italic>fdhC-1</italic>
+                </td>
+                <td align="center">2.53 (&#xB1; 0.31)</td>
+                <td/>
+                <td align="left">formate dehydrogenase, C subunit, putative</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>The relative expression is presented as the ratio of the dye intensity of the anaerobic cultures with 2 mM KNO<sub>3 </sub>of EtrA7-1 to that of MR-1 (reference).</p>
+            <p><sup>b </sup>The standard deviation was calculated from six data points, which included three independent biological samples and two technical samples for each biological sample.</p>
+            <p><sup>c </sup>The arrows indicate that the gene is regulated by the binding site that follows. The direction of the arrow indicates the location of the gene. An arrow pointing down indicates the gene or operon is in the plus or sense strand and the arrow pointing up indicates the gene or operon is in the minus or anti-sense strand.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <table-wrap id="T3" position="float">
+          <label>Table 3</label>
+          <caption>
+            <p>Genes repressed in the "Energy metabolism" category in anaerobic cultures of EtrA7-1 grown on lactate and nitrate relative to the wild type (reference strain).</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Gene ID</th>
+                <th align="left">Gene name</th>
+                <th align="center">
+                  <bold>Relative expression</bold>
+                  <sup>
+                    <bold>a</bold>
+                  </sup>
+                </th>
+                <th align="center">
+                  <bold>Predicted EtrA binding sites</bold>
+                  <sup>
+                    <bold>c</bold>
+                  </sup>
+                </th>
+                <th align="left">COG Annotation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">SO0274</td>
+                <td align="left">
+                  <italic>ppc</italic>
+                </td>
+                <td align="center">0.48 (&#xB1; 0.19)</td>
+                <td/>
+                <td align="left">phosphoenolpyruvate carboxylase</td>
+              </tr>
+              <tr>
+                <td align="left">SO0398</td>
+                <td align="left">
+                  <italic>frdA</italic>
+                </td>
+                <td align="center">0.30 (&#xB1;0.16)<sup>b</sup></td>
+                <td/>
+                <td align="left">fumarate reductase flavoprotein subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO0399</td>
+                <td align="left">
+                  <italic>frdB</italic>
+                </td>
+                <td align="center">0.39 (&#xB1; 0.06)</td>
+                <td/>
+                <td align="left">fumarate reductase iron-sulfur protein</td>
+              </tr>
+              <tr>
+                <td align="left">SO0845</td>
+                <td align="left">
+                  <italic>napB</italic>
+                </td>
+                <td align="center">0.15 (&#xB1; 0.04)</td>
+                <td/>
+                <td align="left">cytochrome c-type protein NapB</td>
+              </tr>
+              <tr>
+                <td align="left">SO0846</td>
+                <td align="left">
+                  <italic>napH</italic>
+                </td>
+                <td align="center">0.18 (&#xB1; 0.11)</td>
+                <td/>
+                <td align="left">iron-sulfur cluster-binding protein napH</td>
+              </tr>
+              <tr>
+                <td align="left">SO0847</td>
+                <td align="left">
+                  <italic>napG</italic>
+                </td>
+                <td align="center">0.14 (&#xB1; 0.07)</td>
+                <td/>
+                <td align="left">iron-sulfur cluster-binding protein NapG</td>
+              </tr>
+              <tr>
+                <td align="left">SO0848</td>
+                <td align="left">
+                  <italic>napA</italic>
+                </td>
+                <td align="center">0.18 (&#xB1; 0.13)</td>
+                <td align="center">&#x2191;</td>
+                <td align="left">periplasmic nitrate reductase</td>
+              </tr>
+              <tr>
+                <td align="left">SO0849</td>
+                <td align="left">
+                  <italic>napD</italic>
+                </td>
+                <td align="center">0.30 (&#xB1; 0.04)</td>
+                <td align="center">GTCGATCGGGATCAAA CGTGATCTAACTCTCA</td>
+                <td align="left">napD protein</td>
+              </tr>
+              <tr>
+                <td align="left">SO0903</td>
+                <td align="left">
+                  <italic>nqrB-1</italic>
+                </td>
+                <td align="center">0.34 (&#xB1; 0.15)</td>
+                <td align="center">TTTGCTGTAAAGCAAA TGTGCATGGAATCGCC</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, hydrophobic membrane protein NqrB</td>
+              </tr>
+              <tr>
+                <td align="left">SO0904</td>
+                <td align="left">
+                  <italic>nqrC-1</italic>
+                </td>
+                <td align="center">0.28 (&#xB1; 0.09)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, gamma subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO0905</td>
+                <td align="left">
+                  <italic>nqrD-1</italic>
+                </td>
+                <td align="center">0.27 (&#xB1; 0.14)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, hydrophobic membrane protein NqrD</td>
+              </tr>
+              <tr>
+                <td align="left">SO0906</td>
+                <td align="left">
+                  <italic>nqrE-1</italic>
+                </td>
+                <td align="center">0.23 (&#xB1; 0.07)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, hydrophobic membrane protein NqrE</td>
+              </tr>
+              <tr>
+                <td align="left">SO0907</td>
+                <td align="left">
+                  <italic>nqrF-1</italic>
+                </td>
+                <td align="center">0.23 (&#xB1; 0.08)</td>
+                <td/>
+                <td align="left">NADH:ubiquinone oxidoreductase, Na translocating, beta subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO0970</td>
+                <td align="left">
+                  <italic>fccA</italic>
+                </td>
+                <td align="center">0.31 (&#xB1;0.17)</td>
+                <td/>
+                <td align="left">Periplasmic fumarate reductase, FccA</td>
+              </tr>
+              <tr>
+                <td align="left">SO1018</td>
+                <td align="left">
+                  <italic>nuoE</italic>
+                </td>
+                <td align="center">0.44 (&#xB1; 0.17)</td>
+                <td/>
+                <td align="left">NADH dehydrogenase I, E subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1019</td>
+                <td align="left">
+                  <italic>nuoCD</italic>
+                </td>
+                <td align="center">0.35 (&#xB1; 0.13)</td>
+                <td/>
+                <td align="left">NADH dehydrogenase I, C/D subunits</td>
+              </tr>
+              <tr>
+                <td align="left">SO1020</td>
+                <td align="left">
+                  <italic>nuoB</italic>
+                </td>
+                <td align="center">0.40 (&#xB1; 0.10)</td>
+                <td/>
+                <td align="left">NADH dehydrogenase I, B subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1363</td>
+                <td align="left">
+                  <italic>hcp</italic>
+                </td>
+                <td align="center">0.13 (&#xB1; 0.08)</td>
+                <td/>
+                <td align="left">prismane protein</td>
+              </tr>
+              <tr>
+                <td align="left">SO1364</td>
+                <td align="left">
+                  <italic>hcr</italic>
+                </td>
+                <td align="center">0.12 (&#xB1; 0.07)</td>
+                <td/>
+                <td align="left">iron-sulfur cluster-binding protein</td>
+              </tr>
+              <tr>
+                <td align="left">SO1429</td>
+                <td align="left">
+                  <italic>dmsA-1</italic>
+                </td>
+                <td align="center">0.43 (&#xB1; 0.09)</td>
+                <td align="center">TGTGATACAATTCAAA</td>
+                <td align="left">anaerobic dimethyl sulfoxide reductase, A subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1430</td>
+                <td align="left">
+                  <italic>dmsB-1</italic>
+                </td>
+                <td align="center">0.29 (&#xB1; 0.04)</td>
+                <td align="center">&#x2193;</td>
+                <td align="left">anaerobic dimethyl sulfoxide reductase, B subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO1490</td>
+                <td align="left">
+                  <italic>adhB</italic>
+                </td>
+                <td align="center">0.28 (&#xB1; 0.12)</td>
+                <td align="center">TGTGATCTAGATCGGT TTGGAACTAGATAACT</td>
+                <td align="left">alcohol dehydrogenase II</td>
+              </tr>
+              <tr>
+                <td align="left">SO1776</td>
+                <td align="left">
+                  <italic>mtrB</italic>
+                </td>
+                <td align="center">0.22 (&#xB1; 0.04)</td>
+                <td/>
+                <td align="left">outer membrane protein precursor MtrB</td>
+              </tr>
+              <tr>
+                <td align="left">SO1777</td>
+                <td align="left">
+                  <italic>mtrA</italic>
+                </td>
+                <td align="center">0.25 (&#xB1; 0.06)</td>
+                <td/>
+                <td align="left">decaheme cytochrome c MtrA</td>
+              </tr>
+              <tr>
+                <td align="left">SO1778</td>
+                <td align="left">
+                  <italic>mtrC</italic>
+                </td>
+                <td align="center">0.30 (&#xB1; 0.09)</td>
+                <td/>
+                <td align="left">decaheme cytochrome c MtrC</td>
+              </tr>
+              <tr>
+                <td align="left">SO1779</td>
+                <td align="left">
+                  <italic>omcA</italic>
+                </td>
+                <td align="center">0.30 (&#xB1; 0.05)</td>
+                <td align="center">GTGGAATTAGATCCCA TGTGATTGAGATCTGA TTTGAGGTAGATAACA</td>
+                <td align="left">decaheme cytochrome c</td>
+              </tr>
+              <tr>
+                <td align="left">SO2097</td>
+                <td align="left">
+                  <italic>hyaC</italic>
+                </td>
+                <td align="center">0.07 (&#xB1; 0.04)</td>
+                <td/>
+                <td align="left">quinone-reactive Ni/Fe hydrogenase, cytochrome b subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO2098</td>
+                <td align="left">
+                  <italic>hyaB</italic>
+                </td>
+                <td align="center">0.11 (&#xB1; 0.10)</td>
+                <td/>
+                <td align="left">quinone-reactive Ni/Fe hydrogenase, large subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO2099</td>
+                <td align="left">
+                  <italic>hyaA</italic>
+                </td>
+                <td align="center">0.07 (&#xB1; 0.11)</td>
+                <td/>
+                <td align="left">quinone-reactive Ni/Fe hydrogenase, small subunit precursor</td>
+              </tr>
+              <tr>
+                <td align="left">SO2136</td>
+                <td align="left">
+                  <italic>adhE</italic>
+                </td>
+                <td align="center">0.40 (&#xB1; 0.10)</td>
+                <td/>
+                <td align="left">aldehyde-alcohol dehydrogenase</td>
+              </tr>
+              <tr>
+                <td align="left">SO2912</td>
+                <td align="left">
+                  <italic>pflB</italic>
+                </td>
+                <td align="center">0.18 (&#xB1; 0.11)</td>
+                <td align="center">TTTGAGCTGAAACAAA</td>
+                <td align="left">formate acetyltransferase</td>
+              </tr>
+              <tr>
+                <td align="left">SO2913</td>
+                <td align="left">
+                  <italic>pflA</italic>
+                </td>
+                <td align="center">0.20 (&#xB1; 0.13)</td>
+                <td/>
+                <td align="left">pyruvate formate-lyase 1 activating enzyme</td>
+              </tr>
+              <tr>
+                <td align="left">SO2915</td>
+                <td align="left">
+                  <italic>ackA</italic>
+                </td>
+                <td align="center">0.23 (&#xB1;0.16)</td>
+                <td/>
+                <td align="left">acetate kinase</td>
+              </tr>
+              <tr>
+                <td align="left">SO2916</td>
+                <td align="left">
+                  <italic>pta</italic>
+                </td>
+                <td align="center">0.23 (&#xB1; 0.14)</td>
+                <td/>
+                <td align="left">phosphate acetyltransferase</td>
+              </tr>
+              <tr>
+                <td align="left">SO3144</td>
+                <td align="left">
+                  <italic>etfA</italic>
+                </td>
+                <td align="center">0.36 (&#xB1; 0.13)</td>
+                <td/>
+                <td align="left">electron transfer flavoprotein, alpha subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO3285</td>
+                <td align="left">
+                  <italic>cydB</italic>
+                </td>
+                <td align="center">0.21 (&#xB1; 0.06)</td>
+                <td align="center">&#x2191;</td>
+                <td align="left">cytochrome d ubiquinol oxidase, subunit II</td>
+              </tr>
+              <tr>
+                <td align="left">SO3286</td>
+                <td align="left">
+                  <italic>cydA</italic>
+                </td>
+                <td align="center">0.22 (&#xB1; 0.10)</td>
+                <td align="center">TTTGATTCAAATCAAT</td>
+                <td align="left">cytochrome d ubiquinol oxidase, subunit I</td>
+              </tr>
+              <tr>
+                <td align="left">SO3980</td>
+                <td align="left">
+                  <italic>nrfA</italic>
+                </td>
+                <td align="center">0.18 (&#xB1; 0.06)</td>
+                <td align="center">TTTGCGCTAGATCAAA</td>
+                <td align="left">cytochrome c552 nitrite reductase</td>
+              </tr>
+              <tr>
+                <td align="left">SO4513</td>
+                <td align="left">
+                  <italic>fdhA-2</italic>
+                </td>
+                <td align="center">0.06 (&#xB1; 0.02)</td>
+                <td align="center">ACTGTTCTAGATCAAA</td>
+                <td align="left">formate dehydrogenase, alpha subunit</td>
+              </tr>
+              <tr>
+                <td align="left">SO4515</td>
+                <td align="left">
+                  <italic>fdhC-2</italic>
+                </td>
+                <td align="center">0.07 (&#xB1; 0.01)</td>
+                <td/>
+                <td align="left">formate dehydrogenase, C subunit, putative</td>
+              </tr>
+              <tr>
+                <td align="left">SO4591</td>
+                <td align="left">
+                  <italic>cymA</italic>
+                </td>
+                <td align="center">0.39 (&#xB1; 0.27)</td>
+                <td/>
+                <td align="left">tetraheme cytochrome c</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>The relative expression is presented as the ratio of the dye intensity of the anaerobic cultures with 2 mM KNO<sub>3 </sub>of EtrA7-1 to that of MR-1 (reference).</p>
+            <p><sup>b</sup>The standard deviation was calculated from six data points, which included three independent biological samples and two technical samples for each biological sample.</p>
+            <p><sup>c </sup>The arrows indicate that the gene is regulated by the binding site that follows. The direction of the arrow indicates the location of the gene. An arrow pointing down indicates the gene or operon is in the plus or sense strand and the arrow pointing up indicates the gene or operon is in the minus or anti-sense strand.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Regulatory role of EtrA in energy metabolism</title>
+        <p>Since the "Energy metabolism" category contained the largest group of genes responsive to EtrA, these genes were analyzed in more detail. Up-regulated genes (Table <xref ref-type="table" rid="T2">2</xref>) in this group included genes encoding a cytochrome <italic>c </italic>oxidase (<italic>ccoPQN </italic>[SO2361-2362, SO2364]), proteins involved in gluconeogenesis such as PckA (SO0162), and <italic>nqrABCDEF</italic>-2 genes (SO1103-1108) encoding NADH:ubiquinone oxidoreductases. From this group, only the <italic>nqr </italic>gene clusters had a putative EtrA binding site.</p>
+        <p>While the <italic>nqr-</italic>2 gene cluster was up-regulated in the <italic>etrA </italic>knockout mutant, the <italic>nqr-</italic>1 gene cluster (SO0903-0907) was down-regulated. Nqr is a Na<sup>+ </sup>pump that during respiration generates a sodium motive force to mediate solute transport, flagellar motility and ATP synthesis [<xref ref-type="bibr" rid="B23">23</xref>]. Both <italic>nqr </italic>gene clusters had putative EtrA binding sites. The microarray data indicated that EtrA affects the transcription pattern of these genes differently. Similarly, the <italic>etrA </italic>deletion had a distinct effect on the expression of the <italic>fdh </italic>gene clusters encoding a formate dehydrogenase. The <italic>fdh</italic>-1 genes (SO4508-4511) were up-regulated whereas the <italic>fdh</italic>-2 gene cluster (SO4512-4515) was down-regulated. An EtrA binding site was only identified for the <italic>fdh</italic>-2 cluster and not for the <italic>fdh-1 </italic>cluster, indicating EtrA affects both clusters differently.</p>
+        <p>Other up-regulated genes in the "Energy metabolism" category included the succinate dehydrogenase gene <italic>sdhC </italic>(SO1927), the succinyl-CoA synthase operon <italic>sucABCD </italic>(SO1930-1933), the butyryl-CoA:acetate CoA-transferase and the acetyl CoA-synthase genes (SO1891-1892).</p>
+        <p>Down-regulated genes in the "Energy metabolism" category (Table <xref ref-type="table" rid="T3">3</xref>), which were predicted for direct regulation by EtrA, included genes involved in anaerobic metabolism, especially in nitrate respiration like the <italic>napBHGAD </italic>operon (SO0845-0849, strongly repressed with all subunit genes except <italic>napD </italic>with ratios &#x2264; 0.18), and the <italic>nrfA </italic>(SO3980) genes. <italic>cymA </italic>(SO4591; ratio 0.39), the prismane protein <italic>hcp </italic>gene (SO1363), and neighboring protein <italic>hcr </italic>gene (SO1364), both of which were strongly repressed (ratios &#x2264; 0.13) and have been associated with the nitrate reduction pathway [<xref ref-type="bibr" rid="B24">24</xref>-<xref ref-type="bibr" rid="B27">27</xref>], did not show evidence of EtrA binding sites. Also indirectly down-regulated were the fumarate reductase genes <italic>frdAB </italic>(SO0398-0399) and <italic>fccA </italic>(SO0970), the <italic>ackA </italic>and the <italic>pta </italic>(SO2915-16) genes involved in acetate production and the <italic>ppc </italic>(SO0274) gene encoding an acetate phosphoenol pyruvate carboxylase. The <italic>hyaCBA </italic>(SO2097-2099) genes encoding a quinone-reactive Ni/Fe hydrogenase were highly indirectly repressed (ratio &#x2264; 0.11). Among the genes identified as directly down-regulated are all the genes in the operon that encodes the anaerobic DMSO reductase (<italic>dmsAB</italic>) (SO1428-32), the <italic>cydAB </italic>genes (SO3285-3286) encoding a cytochrome <italic>d </italic>oxidase complex, as well as genes involved in metabolism of organic compounds such as the <italic>pflAB </italic>(SO2912-2913).</p>
+        <p>Other down-regulated genes grouped in different categories included genes encoding ABC transporters (<italic>cydCD </italic>[SO3779-3780], SO4446-4448), TonB-dependent receptors (<italic>nosA </italic>[SO0630]), and L-lactate permease (<italic>lldP </italic>[SO0827]) and a putative lactate permease (SO1522). The only gene directly down-regulated from this later group is <italic>lldP </italic>(SO0827), for which an EtrA binding site was predicted (Table <xref ref-type="table" rid="T3">3</xref>). As expected, the cDNA for <italic>etrA</italic>, shows no significant hybridization signal in EtrA7-1 mutant (ratio 0.05).</p>
+      </sec>
+      <sec>
+        <title>Stress response caused by the <italic>etrA </italic>deletion</title>
+        <p>We detected induction of genes from various categories, which have been associated with stress response i.e., starvation, phage infection and oxidative stress, possibly due to accumulation of nitrogen oxide reactive species. Up-regulated genes (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>) were dominated by genes grouped in "Other categories". The majority of up-regulated genes were phage-related. For example, 25 genes of the LambdaSo phage (SO2940-2974), a gene encoding a viral capsid protein of the MuSo1 phage (SO0675), and genes of MuSo2 phage (SO2684-2685, SO2687, SO2702) were up-regulated. In contrast, the gene encoding the LambdaSo phage transcriptional regulator of the Cro/CI family (SO2990) was down-regulated (ratio 0.43). Transcriptional changes of most of these genes are likely indirect effects due to the deletion of the <italic>etrA </italic>gene and only for the LambdaSo phage genes S02957-2962 was an EtrA binding site predicted.</p>
+        <p>The category "Transport and binding proteins" contains a large number of genes associated with stress response. Up-regulated genes in this group contain genes encoding heavy metal efflux pumps (SO0520, SO4596-4598, SOA0153) and genes for phosphate transport (SO1560, SO1723-1724 including <italic>pstB-1 </italic>[SO1725], <italic>pstB-2 </italic>[SO4289] and <italic>pstA </italic>[SO4290]). There was up-regulation of <italic>phoBR </italic>(SO1558-59) and <italic>phoU </italic>(SO1726) genes, which regulate the phosphate transporters genes during phosphate starvation [<xref ref-type="bibr" rid="B28">28</xref>-<xref ref-type="bibr" rid="B32">32</xref>].</p>
+        <p>Up-regulated genes in response to stress conditions i.e., starvation, phage infection, oxidative stress, include a stringent starvation protein encoded by the <italic>sspAB </italic>genes (SO0611-0612)[<xref ref-type="bibr" rid="B33">33</xref>], and a phage shock protein operon <italic>pspABC </italic>(SO1807-1809)[<xref ref-type="bibr" rid="B34">34</xref>]. Other up-regulated stress-related genes were the RNA polymerase sigma-70 factor <italic>rpoD </italic>(SO1284)[<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B35">35</xref>], a GTP-binding protein that regulates the TCA cycle and responds to starvation (<italic>era </italic>[SO1349])[<xref ref-type="bibr" rid="B36">36</xref>], and a DNA repair protein (<italic>recO </italic>[SO1350])[<xref ref-type="bibr" rid="B37">37</xref>].</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>The results of this study demonstrate that EtrA positively regulates dissimilatory nitrate, fumarate and DMSO reduction pathways in <italic>S. oneidensis </italic>MR-1. The generation of <italic>etrA </italic>knockout mutant EtrA7-1 in the wild type strain MR-1 background eliminated any possible secondary effects on the phenotype, such as the electron transfer perturbation suspected with the rifampicin resistant DSP10 strain [<xref ref-type="bibr" rid="B6">6</xref>]. Similar to other <italic>etrA </italic>mutants of strain MR-1, EtrA7-1 retained its ability to reduce nitrate [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B16">16</xref>]; however, our results show that the anaerobic growth of the mutant was significantly impaired compared to the wild type when nitrate was the only electron acceptor. Likewise, the <italic>etrA </italic>deletion mutant lost its ability to reduce fumarate and DMSO with both lactate and pyruvate as electron donor. Regulation of DMSO reduction by EtrA in strain MR-1 was suggested previously [<xref ref-type="bibr" rid="B6">6</xref>] however this study provides physiological evidence that confirm its role. The ability of the EtrA7-1 mutant to reduce TMAO and thiosulfate also decreased; however the reduction of Fe(III) citrate, Mn(IV) and sulfite was not affected by the deletion. No differences in growth performance between the wild type and the mutant were observed under aerobic conditions (data not shown).</p>
+      <p>The transcriptome analysis provides a genome-wide expression profile of <italic>S. oneidensis </italic>MR-1 instead of the partial genome array that was previously evaluated (691 ORFs [<xref ref-type="bibr" rid="B6">6</xref>] vs 4,648 genes in this study). We observed in 612 (13%) differentially expressed genes represented though some are likely due to differences in growth rate between the mutant strain and the wild type strain. Nonetheless, the expression patterns of genes are consistent with the physiological data and with the transcription data reported for Fnr in <italic>E. coli </italic>[<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B20">20</xref>] and with the more limited data by Beliaev et al. [<xref ref-type="bibr" rid="B6">6</xref>]. Genes involved in nitrate reduction (<italic>napDAHGB, nrfA</italic>, and <italic>hcp</italic>) were significantly down-regulated by the <italic>etrA </italic>deletion as well as those encoding the fumarate reduction (<italic>frdAB, fccA</italic>) and all the genes encoding for the DMSO reductases (<italic>dmsAB</italic>). All of these genes have been considered candidates for EtrA regulation in previous studies; however, results were not conclusive [<xref ref-type="bibr" rid="B5">5</xref>-<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B16">16</xref>]. Sequence analysis of the regulatory regions of the differentially expressed genes, indicated possible EtrA recognition sites for most genes in the "Energy metabolism" category, some of which i.e. <italic>napDAHGB, nrfA, frdAB and dmsAB</italic>, confirms previous results [<xref ref-type="bibr" rid="B6">6</xref>] and further suggests that regulation of these genes is via direct interaction of EtrA with their promoters. Putative recognition sites for EtrA were also identified for the two <italic>nqr </italic>gene clusters, which had not been identified previously. Also, the regulatory regions for <italic>fdh </italic>gene clusters were evaluated and an EtrA binding site was recognized for only <italic>fdhA</italic>-1. The <italic>fdh</italic>-2 cluster does not possess an EtrA binding site, suggesting a different regulatory system.</p>
+      <p>Our data indicate that EtrA is a global regulator acting in cooperation with other regulatory proteins to control anaerobic metabolic processes in strain MR-1 [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B16">16</xref>], therefore, the expression of these genes cannot be expected to be under an "all or none" regulatory mechanism. Rather, these global regulators respond to multiple stimuli (e.g., oxygen levels, substrates) and fine-tune regulation via transcriptional control and interactions between regulatory proteins. Studies in <italic>S. oneidensis </italic>and in other <italic>Shewanella </italic>species that indicate the combined action of transcriptional regulators for the anaerobic metabolism in this organism [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B17">17</xref>-<xref ref-type="bibr" rid="B19">19</xref>]. For example, recent studies showed that CRP, EtrA and the product of the <italic>cya </italic>genes act as expression regulators of several anaerobic respiratory systems, including nitrate reduction in <italic>S. oneidensis </italic>MR-1 and <italic>Shewanella </italic>sp. strain ANA-3 [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B17">17</xref>-<xref ref-type="bibr" rid="B19">19</xref>]. In <italic>E. coli</italic>, Fnr and NarP positively regulate the <italic>nap </italic>and <italic>nrf </italic>genes [<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B38">38</xref>,<xref ref-type="bibr" rid="B39">39</xref>]. MR-1 possesses the genes for a homolog of the two-component regulatory system in <italic>E. coli </italic>NarQ/NarP (SO3981-3982). The presence of alternate regulators that partially fulfill the function of EtrA can explain why nitrate reduction even though impaired, still occurred in the EtrA7-1 knockout mutant.</p>
+      <p>Down-regulation of genes for lactate transport was also observed. Since lactate was the source of reducing equivalents and carbon, a lack of electron donor and carbon may have contributed to the impaired growth of the EtrA7-1 mutant. Induction of transport proteins for carbon sources and electron acceptors has also been credited to Fnr in <italic>E. coli </italic>[<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B20">20</xref>], and a putative EtrA binding site was predicted for the gene encoding a lactate permease (SO0827) in MR-1.</p>
+      <p>Impaired growth of EtrA7-1 could also be due to stress factors caused or enhanced by the deletion (e.g. accumulation of nitrogen oxide reactive species and starvation). The expression of phage-related genes induced in response to irradiation in strain MR-1 has been reported [<xref ref-type="bibr" rid="B40">40</xref>]. Up-regulation of the genes involved in activation of the strain MR-1 prophages LambdaSo, MuSo1 and MuSo2 in the EtrA7-1 mutant was observed, suggesting phage activity. Induction of bacterial genes (e.g., <italic>nusAG</italic>) required to stabilize the Lambda protein antitermination complex in <italic>E. coli </italic>was also shown [<xref ref-type="bibr" rid="B41">41</xref>,<xref ref-type="bibr" rid="B42">42</xref>]. Conversely, there is repression of the LambdaSo transcription regulator Cro/CI family, which represses the transcription of the Lambda genes in <italic>E. coli </italic>[<xref ref-type="bibr" rid="B43">43</xref>]. Also, the induction of genes associated with starvation, i.e., a condition that could activate the lytic cycle of prophages [<xref ref-type="bibr" rid="B43">43</xref>], was confirmed in the expression analysis.</p>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>The involvement of several regulatory controls has complicated the interpretation of gene expression patterns and functions in <italic>Shewanella </italic>spp. Results from the above <italic>etrA </italic>deletion mutant studies suggest a global regulatory role for EtrA, but one which works in conjunction with other regulators to fine-tune the expression of key genes in anaerobic metabolic pathways in <italic>S. oneidensis </italic>strain MR-1. Besides confirming and clarifying previous reports on Fnr regulation, we also provide experimental evidence for a positive regulatory role of EtrA in the DMSO reduction pathway of strain MR-1. Furthermore, our whole-genome transcriptional profile shows the effects of EtrA on the expression of genes not previously evaluated (e.g. <italic>nqr</italic>, <italic>fdh</italic>-1, phage- and stress-related genes), and differences in the expression pattern of genes previously analyzed (e.g. <italic>cydAB </italic>and <italic>sdhC</italic>)[<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B12">12</xref>]. These observations are consistent with results obtained by Gralnick et al. [<xref ref-type="bibr" rid="B4">4</xref>] suggesting a distinctive regulatory system, although very similar to Fnr in <italic>E. coli</italic>. A stringent sequence analysis of the regulatory region of the genes affected by the mutation suggest direct interaction of EtrA to those in the "Energy metabolism" category, while stress- and phage-related genes are up-regulated indirectly as a consequence of a secondary perturbation. This and previous work taken together suggest that this regulator is more properly termed Fnr.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Bacterial strains and culture conditions</title>
+        <p>The bacterial strains, plasmids, primers and, probes used in this study are described in Table <xref ref-type="table" rid="T4">4</xref>. <italic>S. oneidensis </italic>strain MR-1 and its mutant strains were grown in HEPES medium as described [<xref ref-type="bibr" rid="B44">44</xref>]. The medium was supplemented with 20 mM lactate and KNO<sub>3 </sub>was added as electron acceptor in concentrations specified below. Oxygen was removed from the medium by boiling and purging with helium [<xref ref-type="bibr" rid="B45">45</xref>]. Cultures of <italic>E. coli </italic>strain &#x3B2;2155 (auxotroph of diaminopimelic acid [DAP]) were grown in Luria-Bertani (LB) medium supplemented with 100 &#x3BC;g/ml of DAP at 37&#xB0;C. <italic>S. oneidensis </italic>strain MR-1 was cultivated in aerobic LB medium at 30&#xB0;C during the mutagenesis process. Antibiotics used for the selection of MR-1 transformants were added in the following concentrations: 25 &#x3BC;g/ml of kanamycin, 7.5 &#x3BC;g/ml of gentamycin, and 10 &#x3BC;g/ml of tetracycline. Vessels that received no inoculum or no KNO<sub>3 </sub>served as negative controls.</p>
+        <table-wrap id="T4" position="float">
+          <label>Table 4</label>
+          <caption>
+            <p>Bacterial strains, plasmids, primers and oligonucleotides used in this study.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Strain/plasmid/primer/Probe</th>
+                <th align="left">
+                  <bold>Relevant genotype or sequence</bold>
+                  <sup>
+                    <bold>a,b</bold>
+                  </sup>
+                </th>
+                <th align="left">Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left"><italic>Escherichia coli </italic>K-12</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x3B2;2155</td>
+                <td align="left">DAP auxotroph</td>
+                <td align="left">[<xref ref-type="bibr" rid="B61">61</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>Shewanella oneidensis</italic>
+                </td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;MR-1 (ATCC 700550<sup>T</sup>)</td>
+                <td align="left">wild type</td>
+                <td align="left">[<xref ref-type="bibr" rid="B62">62</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;EtrA7-1</td>
+                <td align="left">As MR-1 but &#x394;<italic>etrA</italic>::<italic>loxP</italic></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;EtrA7-1 complement</td>
+                <td align="left">EtrA7-1 complemented with the <italic>etrA </italic>gene (SO2356) cloned into</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td/>
+                <td align="left">pCM62</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;EtrA7-1 with pCM62</td>
+                <td align="left">EtrA7-1 harboring the pCM62 as a negative control for complementation</td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">Plasmids</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pCM62</td>
+                <td align="left">Tc<sup>r</sup>; <italic>traJ' trfA oriT oriV</italic></td>
+                <td align="left">[<xref ref-type="bibr" rid="B63">63</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pCM157</td>
+                <td align="left">Tc<sup>r</sup>; <italic>trfA oriT oriV </italic>ColE1 <italic>ori; lacZ</italic>p-<italic>cre</italic></td>
+                <td align="left">[<xref ref-type="bibr" rid="B46">46</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pCM184</td>
+                <td align="left">Ap<sup>r </sup>Tc<sup>r</sup>; <italic>loxP-</italic>kan-<italic>loxP</italic></td>
+                <td align="left">[<xref ref-type="bibr" rid="B46">46</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pKNOCK-Gm</td>
+                <td align="left">Gm<sup>r</sup>; <italic>ori</italic><sub>R6K </sub><italic>oriT</italic><sub>RP4</sub></td>
+                <td align="left">[<xref ref-type="bibr" rid="B64">64</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pCCG02</td>
+                <td align="left">As pKNOCK-Gm but <italic>etrA'</italic>-<italic>loxP-</italic>kan-<italic>loxP-'etrA</italic></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pCCG03</td>
+                <td align="left">As pCM62 but <italic>lacZ</italic>p-<italic>etrA</italic></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">Primers<sup>c</sup></td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAN Fwd</td>
+                <td align="left">G<underline>CCGCGG</underline>TCATGTCGGTTCTCAAGT</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAN Rev</td>
+                <td align="left">C<underline>GAGCTC</underline>CGACAGCTATCTGTTAGTCT</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAC Fwd</td>
+                <td align="left">C<underline>GAATTC</underline>AAATCACCGCTTTTAACTTG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAC Rev</td>
+                <td align="left">G<underline>CATATG</underline>CCAGATAAATCACACCTTTT</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAScreenout</td>
+                <td align="left">AATTCTTCAGGCATTTGACTCG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;Fwd</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAScreenout</td>
+                <td align="left">GGCCGTATCTTGAGTTATACCC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;Rev</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAcomp Fwd</td>
+                <td align="left"><underline>GGATCC</underline>AGGTGTGATTTATCTGGCG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;etrAcomp Rev</td>
+                <td align="left"><underline>GAATTC</underline>CCGACATGACAATAGAGCAGA</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;23SRT Fwd</td>
+                <td align="left">TAGCGAAATTCCTTGTCGGG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;23SRT Rev</td>
+                <td align="left">GAGACAGCGTGGCCATCATT</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;23Stemp Rev</td>
+                <td align="left">GTATCAGTTAGCTCAACGCCTC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;napART Fwd</td>
+                <td align="left">AGAAAGCCCTGTTAACCGTGG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;napART Rev</td>
+                <td align="left">TCATCCGCAGCAATGGTGT</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;napAtemp Rev</td>
+                <td align="left">GATCGAAGCTACGGTTCTCG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;nrfART Fwd</td>
+                <td align="left">GCCACATGTATGCCGTGACT</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;nrfART Rev</td>
+                <td align="left">TTTACAGCTCCAGCAAGCCA</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;nrfAtemp Rev</td>
+                <td align="left">ACGTTTCATACTCGGGATGC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">Probes</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;23SRTProbe</td>
+                <td align="left">AGTTCCGACCTGCACGAATGGCG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;napARTProbe</td>
+                <td align="left">CTGTATTAAAGGTTACTTCCTGTCGAAAATCATGTACGG</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;nrfARTProbe</td>
+                <td align="left">CGTAATACCTTGCGTACTGGCGCGC</td>
+                <td/>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>The sequence for the primers is written from the 5'end to the 3'end.</p>
+            <p><sup>b </sup>Primers were designed using putative gene sequences of <italic>S. oneidensis </italic>MR-1.</p>
+            <p><sup>c </sup>For primer sequences, the restriction sites incorporated are underlined. CATATG, NdeI; GAATTC, EcoRI; GAGCTC, SacI; CCGCGG, SacII.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Construction of a chromosomal &#x394;<italic>etrA</italic>::<italic>loxP </italic>allele</title>
+        <p>PCR primers were designed with Vector NTI<sup>&#xAE; </sup>software (InforMax, Inc., Frederick, MD) and synthesized at Integrated DNA Technologies (<ext-link ext-link-type="uri" xlink:href="http://www.idtdna.com">http://www.idtdna.com</ext-link>).</p>
+        <p>A deletion mutant of the <italic>etrA </italic>gene (SO2356) was constructed by allelic replacement as described [<xref ref-type="bibr" rid="B44">44</xref>]. Primers <italic>etrA</italic>N Rev (<italic>Sac</italic>I) and <italic>etrA</italic>N Fwd <italic>(Sac</italic>II) generated a 520 bp fragment containing about two-thirds of the upstream SO2357 gene, the SO2357-<italic>etrA </italic>intergenic region, and the first four base pairs of the 753-bp <italic>etrA </italic>gene (Table <xref ref-type="table" rid="T4">4</xref>). Primers <italic>etrA</italic>C Rev (<italic>Nde</italic>II) and <italic>etrA</italic>C Fwd (<italic>Eco</italic>RI) generated a 526 bp fragment containing the last five base pairs of the <italic>etrA </italic>gene, the <italic>etrA</italic>-SO2355 intergenic region and about half of the downstream SO2355 gene (Table <xref ref-type="table" rid="T4">4</xref>). The resulting 'SO2357<italic>-etrA'-loxP-kan-loxP-'etrA-</italic>SO2355<italic>' </italic>assembly was cloned into the conditionally-replicating plasmid pKNOCK-Gm (Table <xref ref-type="table" rid="T4">4</xref>), which encodes resistance to gentamycin, to generate plasmid pCCG02. <italic>S. oneidensis </italic>MR-1 Km<sup>r </sup>Gm<sup>s </sup>colonies were screened by PCR using primers <italic>etrA</italic>Screenout Fwd and <italic>etrA</italic>Screenout Rev (Table <xref ref-type="table" rid="T4">4</xref>) to identify recombinants in which the <italic>etrA </italic>gene was replaced by the loxP-kan-loxP cassette.</p>
+        <p>The <italic>kan </italic>gene was subsequently removed from the mutant MR-1 genome by Cre recombination [<xref ref-type="bibr" rid="B44">44</xref>,<xref ref-type="bibr" rid="B46">46</xref>]. PCR and DNA sequence analyses confirmed the presence of the chromosomal &#x394;<italic>etrA</italic>::<italic>loxP </italic>allele. DNA sequencing was performed at the Genomics Technical Support Facility at Michigan State University.</p>
+      </sec>
+      <sec>
+        <title>&#x394;<italic>etrA</italic>::<italic>loxP </italic>mutant complementation</title>
+        <p>Plasmid pCM62 (Table <xref ref-type="table" rid="T4">4</xref>) was used as the vector for the expression of the <italic>etrA </italic>gene in a &#x394;<italic>etrA</italic>::<italic>loxP </italic>mutant (strain EtrA7-1). The <italic>etrA </italic>gene (SO2356) was PCR amplified from <italic>S. oneidensis </italic>MR-1 genomic DNA using the etrAcomp Fwd (<italic>Bam</italic>HI) and etrAcomp Rev (<italic>Eco</italic>RI)(Table <xref ref-type="table" rid="T4">4</xref>). The amplicon was double digested with <italic>Bam</italic>HI and <italic>Eco</italic>RI and ligated to the multiple cloning site in pCM62. This construct (pCCG03) was transformed into EtrA7-1 by conjugation from <italic>E. coli </italic>&#x3B2;2155. Ligation, electroporation into <italic>E. coli </italic>&#x3B2;2155, and conjugation in strain EtrA7-1 were performed as described [<xref ref-type="bibr" rid="B44">44</xref>]. Plasmid pCM62 was also transformed into EtrA7-1 via conjugation from <italic>E. coli </italic>&#x3B2;2155 and used as a control for any plasmid effects. Transformants were selected by streaking on LB plates with tetracycline. EtrA7-1 Tc<sup>r </sup>colonies were diagnosed by PCR using the etrAcomp primers (Table <xref ref-type="table" rid="T4">4</xref>) and subsequently sequenced to verify the deletion of the <italic>etrA </italic>gene.</p>
+      </sec>
+      <sec>
+        <title>Phenotypic characterization of the &#x394;<italic>etrA</italic>::<italic>loxP </italic>mutant</title>
+        <p>Cultures of the wild type, EtrA7-1, EtrA7-1 complement and EtrA7-1 harboring pCM62 were grown anaerobically with 3 mM KNO<sub>3 </sub>in HEPES medium. Growth was monitored periodically by OD measurements at 600 nm. Samples (2 mL) were periodically withdrawn for analysis of nitrate, nitrite and ammonium concentrations as described [<xref ref-type="bibr" rid="B44">44</xref>,<xref ref-type="bibr" rid="B47">47</xref>].</p>
+        <p>Cultures of the wild type and EtrA7-1 were also cultivated anaerobically with ferric citrate (10 mM), fumarate (10 mM), disodium thiosulfate (10 mM), trimethylamine <italic>N-</italic>oxide (TMAO; 10 mM), manganese dioxide (1 mM, nominal concentration), dimethyl sulfoxide (DMSO; 2 and 10 mM) and disodium sulfite (1 mM), as electron acceptors. The ferric citrate and the manganese dioxide were prepared as described [<xref ref-type="bibr" rid="B48">48</xref>]. Evidence of growth via reduction of TMAO, thiosulfate and fumarate was determined by OD<sub>600 </sub>measurements. Fe(III) reduction was determined by the ferrozine assay following HCl extraction [<xref ref-type="bibr" rid="B49">49</xref>,<xref ref-type="bibr" rid="B50">50</xref>]. Mn(IV) reduction was assayed colorimetrically [<xref ref-type="bibr" rid="B48">48</xref>]. Cultures supplied with DMSO as the terminal electron acceptor were analyzed by high-performance liquid chromatography (HPLC) for lactate consumption and acetate formation [<xref ref-type="bibr" rid="B51">51</xref>]. Sulfite consumption was measured using a DX-100 ion chromatograph (Dionex Corp., Sunnyvale, CA) equipped with an IonPac AS14A Column.</p>
+        <p>To determine the effects of lactate on the reduction of DMSO, nitrate and fumarate, cultures of the wild type and the EtrA7-1 mutant strain were grown anaerobically with 20 mM sodium pyruvate as the electron donor and dimethyl sulfoxide (DMSO; 1 mM), fumarate (10 mM) or nitrate (2 mM) as electron acceptors. DMSO and fumarate reduction were monitored as mentioned above. Nitrate reduction was measured using a Dionex ICS-3000 ion chromatograph (Dionex Corp., Sunnyvale, CA) equipped with an IonPac AS14 Column.</p>
+      </sec>
+      <sec>
+        <title>Resting cell assays</title>
+        <p>Cells of the wild type strain MR-1 and the EtrA7-1 mutant were grown aerobically in HEPES medium with 20 mM lactate as the electron donor to OD<sub>600 </sub>= 0.2. Cells were harvested by centrifuging for 10 min at 3,000 <italic>g</italic>, washed twice with 50 mM saline phosphate buffer (pH 7.0) [<xref ref-type="bibr" rid="B52">52</xref>,<xref ref-type="bibr" rid="B53">53</xref>], and resuspended in the same buffer to an OD<sub>600 </sub>= 1.0 under anoxic conditions. The cells were incubated with 5 mM KNO<sub>3</sub>, and after 0, 1, 2, 4, 8 and 24 h were removed by centrifugation and three 1-mL replicate samples of the supernatant were assayed to determine nitrate and nitrite reduction rates. Assays with autoclaved wild type cells served as negative controls. Nitrate, nitrite and ammonium concentrations were determined as described [<xref ref-type="bibr" rid="B44">44</xref>].</p>
+      </sec>
+      <sec>
+        <title>Total RNA preparations</title>
+        <p>Total RNA was extracted from triplicate cultures of strains MR-1 and EtrA7-1 grown with 2 mM nitrate as the sole electron acceptor. The RNA was extracted with RNAwiz Solution following the instructions of the manufacturer (Ambion, Inc., Austin, TX). RNA samples were treated with RNase-free DNaseI (Roche Pharmaceuticals, Basel, Switzerland) and purified by phenol:chloroform (1:1) and chloroform extractions [<xref ref-type="bibr" rid="B54">54</xref>], and stored in ethanol at -80&#xB0;C until use. Quality of the RNA was verified using the RNA 6000 Pico LabChip kit and the 2100 Bioanalyzer (Agilent Technologies, Inc., Santa Clara, CA).</p>
+      </sec>
+      <sec>
+        <title>Global expression analyses</title>
+        <p>A <italic>S. oneidensis </italic>strain MR-1 whole genome microarrays [<xref ref-type="bibr" rid="B55">55</xref>] were provided by Liyou Wu and Jizhong Zhou (Oak Ridge National Laboratory, Oak Ridge, TN). cDNA preparation and labeling were performed as described [<xref ref-type="bibr" rid="B56">56</xref>] using a 2:3 ratio of 5-(3-aminoallyl)-dUTP and dTTP. Hybridization and post-hybridization washes were done as described [<xref ref-type="bibr" rid="B57">57</xref>]. Three biological replicates per treatment were used for the hybridization of six microarray slides including technical duplicates (dye-swap). Data analysis was performed using the GeneSpring 6.0 software (Silicon Genetics, Redwood City, CA). The data were normalized per chip and per gene (Lowess Normalization) and the spots with less than 55% pixel intensity above background plus two standard deviations were eliminated from the analyses [<xref ref-type="bibr" rid="B58">58</xref>]. The data were filtered using the Benjamini and Hochberg false discovery rate with 95% confidence and only those genes with a &gt; 2-fold change in expression were considered significant.</p>
+      </sec>
+      <sec>
+        <title>Microarray data accession number</title>
+        <p>The raw microarray intensity data has been deposited in the GenBank Gene Expression Omnibus (GEO) database under the accession number GSE26935.</p>
+      </sec>
+      <sec>
+        <title>Identification of putative EtrA binding sites</title>
+        <p>Regulatory motifs were predicted in the intergenic regions of differentially expressed genes using the Gibbs centroid sampler [<xref ref-type="bibr" rid="B59">59</xref>]. Intergenic regions were extracted, based on the <italic>S. oneidensis </italic>MR-1 genome annotation, that were at least 50 bp in length and upstream of differentially expressed genes or operons whose change in expression (average &#xB1; one standard deviation) was at least 2.5-fold. A total of 170 genes met these requirements: 55 had expression levels minus one standard deviation of &#x2265; 2.5 (up-regulated genes) and 115 had expression levels plus one standard deviation of &#x2264; 0.4 (down-regulated genes). For these genes, 118 upstream intergenic regions were extracted for analysis, after accounting for multiple genes within an operon. The parameters for the Gibbs centroid sampler used on these sequences were the following: up to two motif models were allowed, where each model was specified to be palindromic and 16-24 bases long, a maximum of three sites per intergenic was allowed, a position-specific background model [<xref ref-type="bibr" rid="B60">60</xref>] was employed, and centroid sampling was performed with 1000 burn-in iterations, 5000 sampling iterations and 10 random seeds. The results from four independent runs were compared, and the subset of 47 intergenic regions extracted that contained a predicted regulatory motif in at least one of those runs. These 47 intergenic sequences were analyzed with the Gibbs centroid sampler, using the same parameters as above, except that only one motif model was specified. Additional binding sites were detected using dscan (<ext-link ext-link-type="uri" xlink:href="http://ccmbweb.ccv.brown.edu/cgi-bin/dscan.pl">http://ccmbweb.ccv.brown.edu/cgi-bin/dscan.pl</ext-link>) to search the set of promoters for all the genes that exhibited &#x2265; 2-fold change in expression (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>). This set included a total of 424 intergenic regions.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>All authors contributed in the organization and design of experiments as well as data interpretation and manuscript preparation. CCG, FEL, and JMT wrote the paper. CCG designed and carried out the majority of the experimental work including mutant construction, cDNA microarray experiments and analysis, and growth studies. AEM, MFR and LAM contributed in experimental design and cDNA microarray data analysis and interpretation. JLMR performed resting cell assays. JAG replicated DMSO physiological experiments. LAM performed EtrA binding site identification. MFR provided updated genome sequence annotation. FEL provided laboratory equipment, materials, and funding and supervision for the phenotypic characterization work. JMT supervised experimental work. All authors read and approved the final version of the manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1</title>
+          <p><bold>Supplemental Table SI1. Genes differentially expressed in anaerobic cultures of MR-1 and Etra7-1 at different concentrations of KNO3</bold>. Complete list of genes differentially expressed including relative expression, standard deviation, "TIGR role" and predicted EtrA binding sites.</p>
+        </caption>
+        <media xlink:href="1471-2180-11-64-S1.PDF" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S2">
+        <caption>
+          <title>Additional file 2</title>
+          <p><bold>Figure SI1. Distribution of differentially expressed genes (&gt; 2-fold change) grouped in 19 functional categories in anaerobic cultures of EtrA7-1 compared to the wild type grown on lactate and nitrate</bold>. The total of genes down-regulated is 323 and the up-regulated is 289. Each bar represents the number of up-regulated (white) and down-regulated (black) genes for each functional category. Abreviations: [PS], Protein synthesis; [DM], DNA Metabolism; [RF], Regulatory Function; [CIM], Central Intermediary Metabolism; [EM], Energy Metabolism; [OC], Other Categories; [UF], Unknown Function; [TBP], Transport Binding Proteins; [PF], Protein Fate; [HP], Hypothetical Protein; [AAB], Amino Acid Biosynthesis; [FAPM], Fatty Acid and Phospholipid Metabolism; [DRF], Disrupted Reading Frame; [CP], Cellular Processes; [BCPGC], Biosynthesis of Cofactors, Prosthetic Groups, and Carriers; [CE], Cell Envelope; [ST], Signal Transduction; [T], Transcription; and [PPNN], Purines, Pyrimidines, Nucleosides and Nucleotides.</p>
+        </caption>
+        <media xlink:href="1471-2180-11-64-S2.DOC" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S3">
+        <caption>
+          <title>Additional file 3</title>
+          <p><bold>Figure SI2. Sequence logo (<ext-link ext-link-type="uri" xlink:href="http://weblogo.berkeley.edu/logo.cgi">http://weblogo.berkeley.edu/logo.cgi</ext-link>) of the identified EtrA binding site motif for <italic>S. oneidensis </italic>MR-1</bold>. The logo represents the palindromic model of the aligned sites, showing the relative frequency of each base at each position of the motif. The Y-axis indicates the information content measured in bits. All of the predicted sites that contribute to the model are in Table SI1 in the supplementary materials.</p>
+        </caption>
+        <media xlink:href="1471-2180-11-64-S3.PDF" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We thank Xiaoyun Qiu for advice on the DNA microarray work, Valley Stewart and Joel Klappenbach for advice and discussion. We thank Benjamin K. Amos, Jed Costanza, Qingzhong Wu and Sara H. Thomas for technical assistance in the phenotypic characterization of the EtrA7-1 strain. We also acknowledge members of the <italic>Shewanella </italic>Federation for helpful discussions.</p>
+      <p>This study was supported by Department of Energy grants DE-FG02-02ER63342 from the Genomics Program, Office of Biological and Environmental Research (awarded to JMT), DE-FG02-04ER63718.25 from the Environmental Remediation Science Division, Biological and Environmental Research (awarded to FEL) and DE-FG02-04ER63942 from the Genomes to Life Program, Office of Biological and Environmental Research (awarded to LAM). Contributions by MFR and LAM were performed at Pacific Northwest National Laboratory, which is operated by Battelle for the United States Department of Energy under Contract DE-AC05-76RL01830.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Holden</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Bentley</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Sebaihia</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Thompson</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Cerde&#xF1;o-T&#xE1;rraga</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Parkhill</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>The magnificent seven</article-title>
+          <source>Trends Microbiol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <fpage>12</fpage>
+          <lpage>14.22</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0966-842X(02)00009-4</pub-id>
+          <pub-id pub-id-type="pmid">12526849</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title><italic>Shewanella</italic>-the environmentally versatile genome</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2002</year>
+          <volume>20</volume>
+          <fpage>1093</fpage>
+          <lpage>1094</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt1102-1093</pub-id>
+          <pub-id pub-id-type="pmid">12410251</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Heidelberg</surname>
+            <given-names>JF</given-names>
+          </name>
+          <name>
+            <surname>Paulsen</surname>
+            <given-names>IT</given-names>
+          </name>
+          <name>
+            <surname>Nelson</surname>
+            <given-names>KE</given-names>
+          </name>
+          <name>
+            <surname>Gaidos</surname>
+            <given-names>EJ</given-names>
+          </name>
+          <name>
+            <surname>Nelson</surname>
+            <given-names>WC</given-names>
+          </name>
+          <name>
+            <surname>Read</surname>
+            <given-names>TD</given-names>
+          </name>
+          <name>
+            <surname>Eisen</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Seshadri</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Ward</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Methe</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Clayton</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>Meyer</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Tsapin</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Scott</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Beanan</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Brinkac</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Daugherty</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>DeBoy</surname>
+            <given-names>RT</given-names>
+          </name>
+          <name>
+            <surname>Dodson</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <name>
+            <surname>Durkin</surname>
+          </name>
+          <name>
+            <surname>Haft</surname>
+            <given-names>DH</given-names>
+          </name>
+          <name>
+            <surname>Kolonay</surname>
+            <given-names>JF</given-names>
+          </name>
+          <name>
+            <surname>Madupu</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Peterson</surname>
+            <given-names>JD</given-names>
+          </name>
+          <name>
+            <surname>Umayam</surname>
+            <given-names>LA</given-names>
+          </name>
+          <name>
+            <surname>White</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Wolf</surname>
+            <given-names>AM</given-names>
+          </name>
+          <name>
+            <surname>Vamathevan</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Weidman</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Impraim</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Berry</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Mueller</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Khouri</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Gill</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Utterback</surname>
+            <given-names>TR</given-names>
+          </name>
+          <name>
+            <surname>McDonald</surname>
+            <given-names>LA</given-names>
+          </name>
+          <name>
+            <surname>Feldblyum</surname>
+            <given-names>TV</given-names>
+          </name>
+          <name>
+            <surname>Smith</surname>
+            <given-names>HO</given-names>
+          </name>
+          <name>
+            <surname>Venter</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Nealson</surname>
+            <given-names>KH</given-names>
+          </name>
+          <name>
+            <surname>Fraser</surname>
+            <given-names>CM</given-names>
+          </name>
+          <article-title>Genome sequence of the dissimilatory metal ion-reducing bacterium <italic>Shewanella oneidensis</italic></article-title>
+          <source>Nat Biotechnol</source>
+          <year>2002</year>
+          <volume>20</volume>
+          <fpage>1118</fpage>
+          <lpage>1123</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt749</pub-id>
+          <pub-id pub-id-type="pmid">12368813</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gralnick</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Brown</surname>
+            <given-names>CT</given-names>
+          </name>
+          <name>
+            <surname>Newman</surname>
+            <given-names>DK</given-names>
+          </name>
+          <article-title>Anaerobic regulation by an atypical Arc system in <italic>Shewanella oneidensis</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2005</year>
+          <volume>56</volume>
+          <fpage>1347</fpage>
+          <lpage>1357</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2005.04628.x</pub-id>
+          <pub-id pub-id-type="pmid">15882425</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Saffarini</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Schultz</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Beliaev</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Involvement of cyclic AMP (cAMP) and cAMP receptor protein in anaerobic respiration of <italic>Shewanella oneidensis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>185</volume>
+          <fpage>3668</fpage>
+          <lpage>3671</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.185.12.3668-3671.2003</pub-id>
+          <pub-id pub-id-type="pmid">12775705</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Beliaev</surname>
+            <given-names>AS</given-names>
+          </name>
+          <name>
+            <surname>Thompson</surname>
+            <given-names>DK</given-names>
+          </name>
+          <name>
+            <surname>Fields</surname>
+            <given-names>MW</given-names>
+          </name>
+          <name>
+            <surname>Wu</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lies</surname>
+            <given-names>DP</given-names>
+          </name>
+          <name>
+            <surname>Nealson</surname>
+            <given-names>KH</given-names>
+          </name>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Microarray transcription profiling of a <italic>Shewanella oneidensis etrA </italic>mutant</article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>184</volume>
+          <fpage>4612</fpage>
+          <lpage>4616</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.184.16.4612-4616.2002</pub-id>
+          <pub-id pub-id-type="pmid">12142431</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Maier</surname>
+            <given-names>TM</given-names>
+          </name>
+          <name>
+            <surname>Myers</surname>
+            <given-names>CR</given-names>
+          </name>
+          <article-title>Isolation and characterization of a <italic>Shewanella putrefaciens </italic>MR-1 electron transport regulator <italic>etrA </italic>mutant: reassessment of the role of EtrA</article-title>
+          <source>J Bacteriol</source>
+          <year>2001</year>
+          <volume>183</volume>
+          <fpage>4918</fpage>
+          <lpage>4926</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.183.16.4918-4926.2001</pub-id>
+          <pub-id pub-id-type="pmid">11466298</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Darwin</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Ziegelhoffer</surname>
+            <given-names>EC</given-names>
+          </name>
+          <name>
+            <surname>Kiley</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Stewart</surname>
+            <given-names>V</given-names>
+          </name>
+          <article-title>Fnr, NarP, and NarL regulation of <italic>E. coli </italic>K-12 <italic>napF </italic>(periplasmic nitrate reductase) operon transcription in vitro</article-title>
+          <source>J Bacteriol</source>
+          <year>1998</year>
+          <volume>180</volume>
+          <fpage>4192</fpage>
+          <lpage>4198</lpage>
+          <pub-id pub-id-type="pmid">9696769</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Darwin</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Stewart</surname>
+            <given-names>V</given-names>
+          </name>
+          <article-title>Nitrate and nitrite regulation of the Fnr-dependent <italic>aeg-46.5 </italic>promoter of <italic>E. coli </italic>K-12 is mediated by competition between homologous response regulators (NarL and NarP) for a common DNA-binding site</article-title>
+          <source>J Mol Biol</source>
+          <year>1997</year>
+          <volume>251</volume>
+          <fpage>15</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1995.0412</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Choe</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Reznikoff</surname>
+            <given-names>WS</given-names>
+          </name>
+          <article-title>Anaerobically expressed <italic>Escherichia coli </italic>genes identified by operon fusion techniques</article-title>
+          <source>J Bacteriol</source>
+          <year>1991</year>
+          <volume>173</volume>
+          <fpage>6139</fpage>
+          <lpage>6146</lpage>
+          <pub-id pub-id-type="pmid">1917846</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Shalel-Levanon</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>San</surname>
+            <given-names>KY</given-names>
+          </name>
+          <name>
+            <surname>Bennett</surname>
+            <given-names>GN</given-names>
+          </name>
+          <article-title>Effect of ArcA and FNR on the expression of genes related to the oxygen regulation and the glycolysis pathway in Escherichia coli under microaerobic growth conditions</article-title>
+          <source>Metab Eng</source>
+          <year>2005</year>
+          <volume>7</volume>
+          <fpage>445</fpage>
+          <lpage>456</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ymben.2005.07.001</pub-id>
+          <pub-id pub-id-type="pmid">16143552</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Weber</surname>
+            <given-names>KD</given-names>
+          </name>
+          <name>
+            <surname>Qiu</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Kiley</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Blattner</surname>
+            <given-names>FR</given-names>
+          </name>
+          <article-title>Genome-wide expression analysis indicates that FNR of Escherichia coli K-12 regulates a large number of genes of unknown function</article-title>
+          <source>J Bacteriol</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>1135</fpage>
+          <lpage>1160</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.187.3.1135-1160.2005</pub-id>
+          <pub-id pub-id-type="pmid">15659690</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Crack</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Green</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Thomson</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>Mechanism of oxygen sensing by the bacterial transcription factor fumarate-nitrate reduction (FNR)</article-title>
+          <source>J Biol Chem</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>9278</fpage>
+          <lpage>9286</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M309878200</pub-id>
+          <pub-id pub-id-type="pmid">14645253</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Outten</surname>
+            <given-names>FW</given-names>
+          </name>
+          <article-title>Iron-sulfur clusters as oxygen-responsive molecular switches</article-title>
+          <source>Nat Chem Biol</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <fpage>206</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1038/nchembio0407-206</pub-id>
+          <pub-id pub-id-type="pmid">17372605</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Moore</surname>
+            <given-names>LJ</given-names>
+          </name>
+          <name>
+            <surname>Mettert</surname>
+            <given-names>EL</given-names>
+          </name>
+          <name>
+            <surname>Kiley</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <article-title>Regulation of FNR dimerization by subunit charge repulsion</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>33268</fpage>
+          <lpage>33275</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M608331200</pub-id>
+          <pub-id pub-id-type="pmid">16959764</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Saffarini</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Nealson</surname>
+            <given-names>KH</given-names>
+          </name>
+          <article-title>Sequence and genetic characterization of <italic>etr</italic>A, an <italic>fnr </italic>analog that regulates anaerobic respiration in <italic>Shewanella putrefaciens </italic>MR-1</article-title>
+          <source>J Bacteriol</source>
+          <year>1993</year>
+          <volume>175</volume>
+          <fpage>7938</fpage>
+          <lpage>7944</lpage>
+          <pub-id pub-id-type="pmid">8253682</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Charania</surname>
+            <given-names>MA</given-names>
+          </name>
+          <name>
+            <surname>Brockman</surname>
+            <given-names>KL</given-names>
+          </name>
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Banerjee</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Pinchuk</surname>
+            <given-names>GE</given-names>
+          </name>
+          <name>
+            <surname>Fredrickson</surname>
+            <given-names>JK</given-names>
+          </name>
+          <name>
+            <surname>Beliaev</surname>
+            <given-names>AS</given-names>
+          </name>
+          <name>
+            <surname>Saffarini</surname>
+            <given-names>DA</given-names>
+          </name>
+          <article-title>Involvement of a membrane-bound class III adenylate cyclase in regulation of anaerobic respiration in <italic>Shewanella oneidensis </italic>MR-1</article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>4298</fpage>
+          <lpage>4306</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01829-08</pub-id>
+          <pub-id pub-id-type="pmid">19395492</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Murphy</surname>
+            <given-names>JN</given-names>
+          </name>
+          <name>
+            <surname>Saltikov</surname>
+            <given-names>CW</given-names>
+          </name>
+          <article-title>The ArsR repressor mediates arsenite-dependent regulation of arsenate respiration and detoxification operons of <italic>Shewanella </italic>sp. Strain ANA-3</article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>6722</fpage>
+          <lpage>6731</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00801-09</pub-id>
+          <pub-id pub-id-type="pmid">19717602</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Murphy</surname>
+            <given-names>JN</given-names>
+          </name>
+          <name>
+            <surname>Durbin</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>Saltikov</surname>
+            <given-names>CW</given-names>
+          </name>
+          <article-title>Functional roles of <italic>arcA</italic>, <italic>etrA</italic>, cyclic AMP (cAMP)-cAMP receptor protein, and <italic>cya </italic>in the arsenate respiration pathway in <italic>Shewanella </italic>sp. strain ANA-3</article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>1035</fpage>
+          <lpage>1043</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01293-08</pub-id>
+          <pub-id pub-id-type="pmid">19060154</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Overton</surname>
+            <given-names>TW</given-names>
+          </name>
+          <name>
+            <surname>Griffiths</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Patel</surname>
+            <given-names>MD</given-names>
+          </name>
+          <name>
+            <surname>Hobman</surname>
+            <given-names>JL</given-names>
+          </name>
+          <name>
+            <surname>Penn</surname>
+            <given-names>CW</given-names>
+          </name>
+          <name>
+            <surname>Cole</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Constantinidou</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Microarray analysis of gene regulation by oxygen, nitrate, nitrite, FNR, NarL and NarP during anaerobic growth of <italic>Escherichia coli</italic>: new insights into microbial physiology</article-title>
+          <source>Biochem Soc T</source>
+          <year>2006</year>
+          <volume>34</volume>
+          <fpage>104</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="doi">10.1042/BST0340104</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Myers</surname>
+            <given-names>CR</given-names>
+          </name>
+          <name>
+            <surname>Myers</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>Role of the tetraheme cytochrome CymA in anaerobic electron transport in cells of <italic>Shewanella putrefaciens </italic>MR-1 with normal levels of menaquinone</article-title>
+          <source>J Bacteriol</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>67</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.182.1.67-75.2000</pub-id>
+          <pub-id pub-id-type="pmid">10613864</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Fredrickson</surname>
+            <given-names>JK</given-names>
+          </name>
+          <name>
+            <surname>Romine</surname>
+            <given-names>MF</given-names>
+          </name>
+          <article-title>Genome-assisted analysis of dissimilatory metal-reducing bacteria</article-title>
+          <source>Curr Opin Biotechnol</source>
+          <year>2005</year>
+          <volume>16</volume>
+          <fpage>269</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.copbio.2005.04.001</pub-id>
+          <pub-id pub-id-type="pmid">15961027</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hayashi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hirai</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Unemoto</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Sequencing and the alignment of structural genes in the nqr operon encoding the Na(+)-translocating NADH-quinone reductase from <italic>Vibrio alginolyticus.</italic></article-title>
+          <source>FEBS Lett</source>
+          <year>1995</year>
+          <volume>363</volume>
+          <fpage>75</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.1016/0014-5793(95)00283-F</pub-id>
+          <pub-id pub-id-type="pmid">7729558</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Filenko</surname>
+            <given-names>NA</given-names>
+          </name>
+          <name>
+            <surname>Browning</surname>
+            <given-names>DF</given-names>
+          </name>
+          <name>
+            <surname>Cole</surname>
+            <given-names>JA</given-names>
+          </name>
+          <article-title>Transcriptional regulation of a hybrid cluster (prismane) protein</article-title>
+          <source>Biochem Soc Trans</source>
+          <year>2005</year>
+          <volume>33</volume>
+          <fpage>195</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1042/BST0330195</pub-id>
+          <pub-id pub-id-type="pmid">15667305</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Cabello</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Pino</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Olmo-Mira</surname>
+            <given-names>MF</given-names>
+          </name>
+          <name>
+            <surname>Castillo</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Rold&#xE1;n</surname>
+            <given-names>MD</given-names>
+          </name>
+          <name>
+            <surname>Moreno-Vivi&#xE1;n</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Hydroxylamine assimilation by <italic>Rhodobacter capsulatus </italic>E1F1. requirement of the <italic>hcp </italic>gene (hybrid cluster protein) located in the nitrate assimilation <italic>nas </italic>gene region for hydroxylamine reduction</article-title>
+          <source>J Biol Chem</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>45485</fpage>
+          <lpage>45494</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M404417200</pub-id>
+          <pub-id pub-id-type="pmid">15322098</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wolfe</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Heo</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Garavelli</surname>
+            <given-names>JS</given-names>
+          </name>
+          <name>
+            <surname>Ludden</surname>
+            <given-names>PW</given-names>
+          </name>
+          <article-title>Hydroxylamine reductase activity of the hybrid cluster protein from <italic>Escherichia coli</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>184</volume>
+          <fpage>5898</fpage>
+          <lpage>5902</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.184.21.5898-5902.2002</pub-id>
+          <pub-id pub-id-type="pmid">12374823</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>van den Berg</surname>
+            <given-names>WA</given-names>
+          </name>
+          <name>
+            <surname>Hagen</surname>
+            <given-names>WR</given-names>
+          </name>
+          <name>
+            <surname>van Dongen</surname>
+            <given-names>WM</given-names>
+          </name>
+          <article-title>The hybrid-cluster protein ('prismane protein') from <italic>Escherichia coli</italic>. Characterization of the hybrid-cluster protein, redox properties of the [2Fe-2S] and [4Fe-2S-2O] clusters and identification of an associated NADH oxidoreductase containing FAD and [2Fe-2S]</article-title>
+          <source>Eur J Biochem</source>
+          <year>2000</year>
+          <volume>267</volume>
+          <fpage>666</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1432-1327.2000.01032.x</pub-id>
+          <pub-id pub-id-type="pmid">10651802</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>White</surname>
+            <given-names>AK</given-names>
+          </name>
+          <name>
+            <surname>Metcalf</surname>
+            <given-names>WW</given-names>
+          </name>
+          <article-title>The <italic>htx </italic>and <italic>ptx </italic>operons of <italic>Pseudomonas stutzeri </italic>WM88 are new members of the <italic>pho </italic>regulon</article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>5876</fpage>
+          <lpage>5882</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.17.5876-5882.2004</pub-id>
+          <pub-id pub-id-type="pmid">15317793</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>White</surname>
+            <given-names>AK</given-names>
+          </name>
+          <name>
+            <surname>Metcalf</surname>
+            <given-names>WW</given-names>
+          </name>
+          <article-title>Isolation and biochemical characterization of hypophosphite/2-oxoglutarate dioxygenase. A novel phosphorus-oxidizing enzyme from <italic>Pseudomonas stutzeri </italic>WM88</article-title>
+          <source>J Biol Chem</source>
+          <year>2002</year>
+          <volume>277</volume>
+          <fpage>38262</fpage>
+          <lpage>38271</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M204605200</pub-id>
+          <pub-id pub-id-type="pmid">12161433</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>ZD</given-names>
+          </name>
+          <name>
+            <surname>Greenberg</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Natarro</surname>
+            <given-names>JP</given-names>
+          </name>
+          <name>
+            <surname>Stephen</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>DuPont</surname>
+            <given-names>HL</given-names>
+          </name>
+          <article-title>Rate of occurrence and pathogenic effect of enteroaggregative <italic>Escherichia coli </italic>virulence factors in international travelers</article-title>
+          <source>J Clin Microbiol</source>
+          <year>2002</year>
+          <volume>40</volume>
+          <fpage>4185</fpage>
+          <lpage>4190</lpage>
+          <pub-id pub-id-type="doi">10.1128/JCM.40.11.4185-4190.2002</pub-id>
+          <pub-id pub-id-type="pmid">12409395</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Metcalf</surname>
+            <given-names>WW</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>KS</given-names>
+          </name>
+          <name>
+            <surname>Wanner</surname>
+            <given-names>BL</given-names>
+          </name>
+          <article-title>Molecular cloning, mapping, and regulation of Pho regulon genes for phosphonate breakdown by the phosphonatase pathway of <italic>Salmonella typhimurium </italic>LT2</article-title>
+          <source>J Bacteriol</source>
+          <year>1995</year>
+          <volume>177</volume>
+          <fpage>6411</fpage>
+          <lpage>6421</lpage>
+          <pub-id pub-id-type="pmid">7592415</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kim</surname>
+            <given-names>SK</given-names>
+          </name>
+          <name>
+            <surname>Makino</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Amemura</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Nakata</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Shinagawa</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Mutational analysis of the role of the first helix region 4.2 of the sigma 70 subunit of <italic>Escherichia coli </italic>RNA polymerase in transcriptional activation by activator protein PhoB</article-title>
+          <source>Mol Gen Genet</source>
+          <year>1995</year>
+          <volume>248</volume>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02456607</pub-id>
+          <pub-id pub-id-type="pmid">7651320</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hansen</surname>
+            <given-names>AM</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Li</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Andrykovitch</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Waugh</surname>
+            <given-names>DS</given-names>
+          </name>
+          <name>
+            <surname>Jin</surname>
+            <given-names>DJ</given-names>
+          </name>
+          <name>
+            <surname>Ji</surname>
+            <given-names>X</given-names>
+          </name>
+          <article-title>Structural basis for the function of stringent starvation protein a as a transcription factor</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>17380</fpage>
+          <lpage>17391</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M501444200</pub-id>
+          <pub-id pub-id-type="pmid">15735307</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jovanovic</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Weiner</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Model</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Identification, nucleotide sequence, and characterization of PspF, the transcriptional activator of the <italic>Escherichia coli </italic>stress-induced <italic>psp </italic>operon</article-title>
+          <source>J Bacteriol</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>1936</fpage>
+          <lpage>1945</lpage>
+          <pub-id pub-id-type="pmid">8606168</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Klancnik</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Bottledoorn</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Herman</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Mozina</surname>
+            <given-names>SS</given-names>
+          </name>
+          <article-title>Survival and stress induced expression of <italic>groEL </italic>and <italic>rpoD </italic>of <italic>Campylobacter jejuni </italic>from different growth phases</article-title>
+          <source>Int J Food Microbiol</source>
+          <year>2006</year>
+          <volume>112</volume>
+          <fpage>200</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijfoodmicro.2006.03.015</pub-id>
+          <pub-id pub-id-type="pmid">16782221</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pillutla</surname>
+            <given-names>RC</given-names>
+          </name>
+          <name>
+            <surname>Ahnn</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Inouye</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Deletion of the putative effector region of Era, an essential GTP-binding protein in <italic>Escherichia coli</italic>, causes a dominant-negative phenotype</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>1996</year>
+          <volume>143</volume>
+          <fpage>47</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.1996.tb08460.x</pub-id>
+          <pub-id pub-id-type="pmid">8807801</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Luisi-DeLuca</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Kolodner</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Purification and characterization of the <italic>Escherichia coli </italic>RecO protein</article-title>
+          <source>J Mol Biol</source>
+          <year>1994</year>
+          <volume>236</volume>
+          <fpage>124</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1994.1123</pub-id>
+          <pub-id pub-id-type="pmid">8107098</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Cotter</surname>
+            <given-names>PA</given-names>
+          </name>
+          <name>
+            <surname>Gunsalus</surname>
+            <given-names>RP</given-names>
+          </name>
+          <article-title>Oxygen, nitrate and molybdenum regulation of <italic>dmsABC </italic>genes expression in <italic>Escherichia coli.</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1989</year>
+          <volume>171</volume>
+          <fpage>3817</fpage>
+          <lpage>3823</lpage>
+          <pub-id pub-id-type="pmid">2544558</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Stewart</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Bledsoe</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Williams</surname>
+            <given-names>SB</given-names>
+          </name>
+          <article-title>Dual overlapping promoters control <italic>napF </italic>(periplasmic nitrate reductase) operon expression in <italic>Escherichia coli </italic>K-12</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>185</volume>
+          <fpage>5862</fpage>
+          <lpage>5870</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.185.19.5862-5870.2003</pub-id>
+          <pub-id pub-id-type="pmid">13129959</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Qiu</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Sundin</surname>
+            <given-names>GW</given-names>
+          </name>
+          <name>
+            <surname>Wu</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>Comparative analysis of differentially expressed genes in Shewanella oneidensis MR-1 following exposure to UVC, UVB, and UVA radiation</article-title>
+          <source>J Bacteriol</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>3556</fpage>
+          <lpage>3564</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.187.10.3556-3564.2005</pub-id>
+          <pub-id pub-id-type="pmid">15866945</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bonin</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Muhlberger</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Bourenkov</surname>
+            <given-names>GP</given-names>
+          </name>
+          <name>
+            <surname>Huber</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Bacher</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Richter</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Wahl</surname>
+            <given-names>WC</given-names>
+          </name>
+          <article-title>Structural basis for the interaction of <italic>Escherichia coli </italic>NusA with protein N of phage lambda</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <fpage>13762</fpage>
+          <lpage>13767</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0405883101</pub-id>
+          <pub-id pub-id-type="pmid">15365170</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Torres</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Balada</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Zellars</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Squires</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Squires</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>In vivo effect of NusB and NusG on rRNA transcription antitermination</article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>1304</fpage>
+          <lpage>1310</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.5.1304-1310.2004</pub-id>
+          <pub-id pub-id-type="pmid">14973028</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Voyles</surname>
+            <given-names>BA</given-names>
+          </name>
+          <source>The biology of viruses</source>
+          <year>1993</year>
+          <publisher-name>Mosby-Year Book, Inc., St. Louis, MO</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Cruz-Garc&#xED;a</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Murray</surname>
+            <given-names>AE</given-names>
+          </name>
+          <name>
+            <surname>Klappenbach</surname>
+            <given-names>NJA</given-names>
+          </name>
+          <name>
+            <surname>Stewart</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>Respiratory Nitrate Ammonification by <italic>Shewanella oneidensis </italic>MR-1</article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>656</fpage>
+          <lpage>662</lpage>
+          <pub-id pub-id-type="pmid">17098906</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Balch</surname>
+            <given-names>WE</given-names>
+          </name>
+          <name>
+            <surname>Wolfe</surname>
+            <given-names>RS</given-names>
+          </name>
+          <article-title>New approach to the cultivation of methanogenic bacteria: 2-mercaptoethanesulfonic acid (HS-CoM)-dependent growth of <italic>Methanobacterium ruminantium </italic>in a pressureized atmosphere</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1976</year>
+          <volume>32</volume>
+          <fpage>781</fpage>
+          <lpage>791</lpage>
+          <pub-id pub-id-type="pmid">827241</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Marx</surname>
+            <given-names>CJ</given-names>
+          </name>
+          <name>
+            <surname>Lidstrom</surname>
+            <given-names>ME</given-names>
+          </name>
+          <article-title>Broad-host-range cre-lox system for antibiotic marker recycling in gram-negative bacteria</article-title>
+          <source>Biotechniques</source>
+          <year>2002</year>
+          <volume>33</volume>
+          <fpage>1062</fpage>
+          <lpage>1067</lpage>
+          <pub-id pub-id-type="pmid">12449384</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nelson</surname>
+            <given-names>DW</given-names>
+          </name>
+          <article-title>Determination of ammonium in KCl extracts of soils by the salicylate method</article-title>
+          <source>Comm Soil Sci Plant Anal</source>
+          <year>1983</year>
+          <volume>14</volume>
+          <fpage>1051</fpage>
+          <lpage>1062</lpage>
+          <pub-id pub-id-type="doi">10.1080/00103628309367431</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Burlage</surname>
+            <given-names>RS</given-names>
+          </name>
+          <name>
+            <surname>Atlas</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Stahl</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Gessey</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Sayler</surname>
+            <given-names>G</given-names>
+          </name>
+          <source>Techniques in Microbial Ecology</source>
+          <year>1988</year>
+          <publisher-name>Oxford University Press US, New York, NY</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lovley</surname>
+            <given-names>DR</given-names>
+          </name>
+          <name>
+            <surname>Phillips</surname>
+            <given-names>EJP</given-names>
+          </name>
+          <article-title>Novel Mode of Microbial Energy Metabolism: Organic Carbon oxidation Coupled to Dissimilatory Reduction of Iron or Manganese</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1988</year>
+          <volume>54</volume>
+          <fpage>1472</fpage>
+          <lpage>1480</lpage>
+          <pub-id pub-id-type="pmid">16347658</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B50">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lovley</surname>
+            <given-names>DR</given-names>
+          </name>
+          <name>
+            <surname>Phillips</surname>
+            <given-names>EJP</given-names>
+          </name>
+          <article-title>Availability of Ferric Iron Microbial Reduction in Bottom Sediments of the Freshwater Tidal Potomac River</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1986</year>
+          <volume>52</volume>
+          <fpage>751</fpage>
+          <lpage>757</lpage>
+          <pub-id pub-id-type="pmid">16347168</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B51">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>He</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Ritalahti</surname>
+            <given-names>RM</given-names>
+          </name>
+          <name>
+            <surname>Aiello</surname>
+            <given-names>MR</given-names>
+          </name>
+          <name>
+            <surname>L&#xF6;ffler</surname>
+            <given-names>FE</given-names>
+          </name>
+          <article-title>Complete Detoxification of Vinyl Chloride by an Anaerobic Enrichment Culture and Identification of the Reductively Dechlorinating Population as a <italic>Dehalococcoides </italic>species</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2003</year>
+          <volume>69</volume>
+          <fpage>996</fpage>
+          <lpage>1003</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.69.2.996-1003.2003</pub-id>
+          <pub-id pub-id-type="pmid">12571022</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B52">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rodrigues</surname>
+            <given-names>JLM</given-names>
+          </name>
+          <name>
+            <surname>Maltseva</surname>
+            <given-names>OV</given-names>
+          </name>
+          <name>
+            <surname>Tsoi</surname>
+            <given-names>TV</given-names>
+          </name>
+          <name>
+            <surname>Helton</surname>
+            <given-names>RR</given-names>
+          </name>
+          <name>
+            <surname>Quensen</surname>
+            <given-names>JF</given-names>
+            <suffix>III</suffix>
+          </name>
+          <name>
+            <surname>Fukuda</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>Development of a <italic>Rhodococcus </italic>recombinant strain for degradation of products from anaerobic dechlorination of PCBs</article-title>
+          <source>Environ Sci Technol</source>
+          <year>2001</year>
+          <volume>35</volume>
+          <fpage>663</fpage>
+          <lpage>668</lpage>
+          <pub-id pub-id-type="doi">10.1021/es001308t</pub-id>
+          <pub-id pub-id-type="pmid">11349275</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B53">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>L&#xF6;ffler</surname>
+            <given-names>FE</given-names>
+          </name>
+          <name>
+            <surname>Champine</surname>
+            <given-names>JE</given-names>
+          </name>
+          <name>
+            <surname>Ritalahti</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Sprague</surname>
+            <given-names>SJ</given-names>
+          </name>
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>Complete reductive dechlorination of 1,2-dichloropropane by anaerobic bacteria</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1997</year>
+          <volume>63</volume>
+          <fpage>2870</fpage>
+          <lpage>2875</lpage>
+          <pub-id pub-id-type="pmid">16535654</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B54">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Sambrook</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Russell</surname>
+            <given-names>DW</given-names>
+          </name>
+          <source>Molecular Cloning: A Laboratory Manual</source>
+          <year>2001</year>
+          <publisher-name>Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B55">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gao</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Yan</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Wu</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Alm</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Arkin</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Thompson</surname>
+            <given-names>DK</given-names>
+          </name>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Global transcriptome analysis of the heat shock response of <italic>Shewanella oneidensis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>7796</fpage>
+          <lpage>7803</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.22.7796-7803.2004</pub-id>
+          <pub-id pub-id-type="pmid">15516594</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B56">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schroeder</surname>
+            <given-names>RG</given-names>
+          </name>
+          <name>
+            <surname>Peterson</surname>
+            <given-names>LM</given-names>
+          </name>
+          <name>
+            <surname>Fleischmann</surname>
+            <given-names>RD</given-names>
+          </name>
+          <article-title>Improved quantitation and reproducibility in <italic>Mycobacterium tuberculosis </italic>DNA microarrays</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2002</year>
+          <volume>4</volume>
+          <fpage>123</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="pmid">11873907</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B57">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hedge</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Qi</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Abernathy</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Gay</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Dharap</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Gaspard</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Earlehughes</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Snesrud</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Quackenbush</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>A concise guide to cDNA microarray analysis</article-title>
+          <source>BioTechniques</source>
+          <year>2000</year>
+          <volume>29</volume>
+          <fpage>548</fpage>
+          <lpage>562</lpage>
+          <pub-id pub-id-type="pmid">10997270</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B58">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Murray</surname>
+            <given-names>AE</given-names>
+          </name>
+          <name>
+            <surname>Lies</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Li</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Nealson</surname>
+            <given-names>KH</given-names>
+          </name>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Tiedje</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>DNA/DNA hybridization to microarrays reveals gene-specific differences between closely related microbial genomes</article-title>
+          <source>Proc Natl Acad Sci</source>
+          <year>2001</year>
+          <volume>98</volume>
+          <fpage>9853</fpage>
+          <lpage>9858</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.171178898</pub-id>
+          <pub-id pub-id-type="pmid">11493693</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B59">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Thompson</surname>
+            <given-names>WA</given-names>
+          </name>
+          <name>
+            <surname>Newberg</surname>
+            <given-names>LA</given-names>
+          </name>
+          <name>
+            <surname>Conlan</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>McCue</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lawrence</surname>
+            <given-names>CE</given-names>
+          </name>
+          <article-title>The Gibbs centroid sampler</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2007</year>
+          <volume>35</volume>
+          <fpage>W232</fpage>
+          <lpage>237</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkm265</pub-id>
+          <pub-id pub-id-type="pmid">17483517</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B60">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liu</surname>
+            <given-names>JS</given-names>
+          </name>
+          <name>
+            <surname>Lawrence</surname>
+            <given-names>CE</given-names>
+          </name>
+          <article-title>Bayesian inference on biopolymer models</article-title>
+          <source>Bioinformatics</source>
+          <year>1999</year>
+          <volume>15</volume>
+          <fpage>38</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/15.1.38</pub-id>
+          <pub-id pub-id-type="pmid">10068691</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B61">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Demarre</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Gu&#xE9;rout</surname>
+            <given-names>AM</given-names>
+          </name>
+          <name>
+            <surname>Matsumoto-Mashimo</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Rowe-Magnus</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Marli&#xE8;re</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Mazel</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>A new family of mobilizable suicide plasmids based on broad host range R388 plasmid (IncW) and RP4 plasmid (IncP&#x3B1;) conjugative machineries and their cognate <italic>Escherichia coli </italic>host strains</article-title>
+          <source>Res Microbiol</source>
+          <year>2005</year>
+          <volume>156</volume>
+          <fpage>245</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="pmid">15748991</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B62">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Myers</surname>
+            <given-names>CR</given-names>
+          </name>
+          <name>
+            <surname>Nealson</surname>
+            <given-names>KH</given-names>
+          </name>
+          <article-title>Bacterial manganese reduction and growth with manganese oxide as the sole electron acceptor</article-title>
+          <source>Science</source>
+          <year>1988</year>
+          <volume>240</volume>
+          <fpage>1319</fpage>
+          <lpage>1321</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.240.4857.1319</pub-id>
+          <pub-id pub-id-type="pmid">17815852</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B63">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Marx</surname>
+            <given-names>CJ</given-names>
+          </name>
+          <name>
+            <surname>Chistoserdova</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Development of versatile broad-host-range vectors for use in methylotrophs and other gram-negative bacteria</article-title>
+          <source>Microbiology</source>
+          <year>2001</year>
+          <volume>147</volume>
+          <fpage>2065</fpage>
+          <lpage>2075</lpage>
+          <pub-id pub-id-type="pmid">11495985</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B64">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Alexeyev</surname>
+            <given-names>MF</given-names>
+          </name>
+          <article-title>The pKNOCK series of broad-host-range mobilizable suicide vectors for gene knockout and targeted DNA insertion into the chromosome of gram-negative bacteria</article-title>
+          <source>BioTechniques</source>
+          <year>1999</year>
+          <volume>26</volume>
+          <fpage>824</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="pmid">10337469</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

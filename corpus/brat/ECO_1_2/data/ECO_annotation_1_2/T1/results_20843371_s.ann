@@ -1,0 +1,109 @@
+T1	ECO 86 113	Bacterial one-hybrid assays
+A1	Category T1 MolFn
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0000294	bacterial one-hybrid evidence
+T2	ECO 681 685	grew
+A4	Category T2 MolFn
+A5	ECOConfidence T2 Medium
+A6	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0001020	cell counting evidence
+T5	ECO 2432 2463	surface plasmon resonance (SPR)
+A14	Category T5 MolFn
+A15	ECOConfidence T5 High
+A16	NextSentence T5 Yes
+A17	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0001127	surface plasmon resonance evidence
+T6	ECO 2939 2966	DNase I footprinting assays
+A18	Category T6 MolFn
+A19	ECOConfidence T6 High
+A20	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001810	DNAse footprinting evidence
+T7	ECO 3915 3919	EMSA
+A21	Category T7 MolFn
+A22	ECOConfidence T7 High
+A23	NextSentence T7 Yes
+A24	AssertionStrength T7 Medium
+N7	Reference T7 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T4	ECO 1144 1156	chip surface
+A10	Category T4 MolFn
+A11	ECOConfidence T4 Medium
+A12	NextSentence T4 Yes
+A13	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0001601	protein-binding microarray evidence
+#4	AnnotatorNotes T4	GO:0043565
+#5	AnnotatorNotes T1	GO:0043565
+#6	AnnotatorNotes T2	GO:0043565
+T14	ECO 1924 1943	short DNA fragments
+A44	Category T14 MolFn
+A45	ECOConfidence T14 Medium
+A46	NextSentence T14 Yes
+A47	AssertionStrength T14 High
+N14	Reference T14 brat_eco:ECO:0000136	nucleic acid binding evidence
+#9	AnnotatorNotes T14	GO:0043565
+#10	AnnotatorNotes T5	GO:0043565
+T15	ECO 3066 3076	Protection
+A48	Category T15 MolFn
+A49	ECOConfidence T15 Low
+A50	NextSentence T15 Yes
+A51	AssertionStrength T15 Medium
+N15	Reference T15 brat_eco:ECO:0001810	DNAse footprinting evidence
+#11	AnnotatorNotes T15	GO:0043565
+T8	ECO 4278 4294	DNA/protein band
+A25	Category T8 MolFn
+A26	ECOConfidence T8 Low
+A27	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#12	AnnotatorNotes T8	GO:0043565
+T16	ECO 4627 4649	specific shifted bands
+A28	Category T16 MolFn
+A52	ECOConfidence T16 Low
+A53	AssertionStrength T16 High
+N16	Reference T16 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#13	AnnotatorNotes T16	GO:0043565
+T17	ECO 5891 5925	scanning electron microscopy (SEM)
+A54	Category T17 Phen
+A55	ECOConfidence T17 High
+A56	NextSentence T17 Yes
+A57	AssertionStrength T17 High
+N17	Reference T17 brat_eco:ECO:0000324	imaging assay evidence
+T19	ECO 6756 6773	expression levels
+A62	Category T19 BioProc
+A63	ECOConfidence T19 High
+A64	AssertionStrength T19 High
+N19	Reference T19 brat_eco:ECO:0000008	expression pattern evidence
+#15	AnnotatorNotes T19	GO:0010467
+T20	ECO 7119 7135	expression level
+A65	Category T20 BioProc
+A66	ECOConfidence T20 High
+A67	AssertionStrength T20 High
+N20	Reference T20 brat_eco:ECO:0000008	expression pattern evidence
+#16	AnnotatorNotes T20	Drug resistance
+T21	ECO 7119 7135	expression level
+A68	Category T21 Phen
+A69	ECOConfidence T21 High
+A70	AssertionStrength T21 High
+N21	Reference T21 brat_eco:ECO:0000008	expression pattern evidence
+T3	ECO 935 939	chip
+A7	Category T3 MolFn
+A8	ECOConfidence T3 Medium
+N3	Reference T3 brat_eco:ECO:0000226	chromatin immunoprecipitation evidence
+#7	AnnotatorNotes T3	GO:0043565
+A9	AssertionStrength T3 High
+T9	ECO 5120 5145	mRNA antisense expression
+A29	Category T9 BioProc
+A30	ECOConfidence T9 High
+A31	AssertionStrength T9 Medium
+N9	Reference T9 brat_eco:ECO:0000009	transcript expression evidence
+#17	AnnotatorNotes T9	GO:42493
+T22	ECO 5527 5543	inhibited growth
+A71	ECOConfidence T22 Low
+N22	Reference T22 brat_eco:ECO:0001563	cell growth assay evidence
+A72	Category T22 Phen
+A73	AssertionStrength T22 Medium
+A58	NextSentence T19 Yes
+T12	ECO 1924 1943	short DNA fragments
+A38	Category T12 SeqFeat
+A39	ECOConfidence T12 Medium
+A40	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0000200	sequence alignment evidence

@@ -1,0 +1,135 @@
+RESULTS AND DISCUSSION
+
+Strategy for the identification of candidate Fur-binding sites in A. ferrooxidans
+
+In order to identify A. ferrooxidans genes directly targeted by the Fur regulator, a genome-wide search for conserved Fur boxes was carried out using the computational and experimental approach outlined in Figure 1.
+
+
+The strategy involves the following steps:
+A Fur recognition weight matrix was derived from a pool of recognized Fur-binding sites of several bacteria as described in Methods (Supplementary Data S1A).
+This matrix was used to locate potential Fur-binding sites by computing the information content of each 19 base pair sequence of a sliding window passed over the complete genome of A. ferrooxidans.
+After reducing potential false positives, a set of 90 candidate sites (Supplementary Data S1B) was selected for further analysis.
+
+A gene library of A. ferrooxidans was transformed into the E. coli FURTA strain H1717 carrying a Fur regulated lacZ fusion as a reporter gene (fhuF::lacZ) in order to identify A. ferrooxidans sequences capable of sequestering E. coli Fur.
+After re-streaking positive candidates three times to fresh media, clones with reproducible LacZ+ phenotypes were sequenced and potential Fur-binding sites were identified using information theory (Table 3).
+
+A set of candidate Fur-binding sequences derived from bioinformatic predictions (Information Theory) and in vivo isolated candidate Fur-regulated promoters (FURTA) were evaluated for in vitro binding of Fur from A. ferrooxidans (FurAF) using the EMSA (Supplementary Data S1C).
+
+The EMSA-validated sequences were used to construct a HMM profile for further screening of the A. ferrooxidans genome.
+This strategy aimed to set a more stringent search-criteria in order to locate potential 'species specific' Fur-binding sites and to reduce the rate of false positives.
+The DNA sequences of binding sites with scores higher than the weakest experimentally confirmed Fur box are provided in Supplementary Data S1D.
+
+
+
+First, Fur boxes were identified upstream of conserved A. ferrooxidans genes whose orthologs encode Fur-regulated functions in other microorganisms.
+This set of genes not only provides interesting insights into the iron uptake strategies of A. ferrooxidans but also strengthens the validity of the prediction pipeline.
+Second, through this genome-wide search, Fur regulatory targets were predicted that are associated with a variety of other cellular functions (metal uptake, utilization and efflux; phosphate utilization; transcriptional regulators and redox balance) providing the first model of the Fur-dependent iron regulon in A. ferrooxidans.
+Selected predicted targets were functionally evaluated for Fur binding in vitro through (i) gel shift assays (EMSA) and (ii) Fur-mediated metal-dependent control determined by in vitro transcription analysis in the presence of purified Fur from A. ferrooxidans and the metal co-repressor.
+
+
+
+Identification of A. ferrooxidans candidate Fur-binding sites and associated genes
+
+Genes associated with predicted Fur-binding sites were classified into five functional categories (Table 3).
+The first two categories include several genes orthologous to well characterized iron and/or Fur-regulated genes from other bacteria, encoding iron acquisition and iron utilization functions, respectively.
+Most Fur regulons described to date overlap at the level of iron uptake and iron utilizing protein functions.
+The fact that these two gene categories are also well represented in the A. ferrooxidans candidate target gene list, attests to the efficacy of the prediction pipeline outlined above.
+
+The following predicted gene function categories correspond to those listed in Table 3.
+
+Iron acquisition includes a predicted GTP-driven FeoB ferrous iron uptake transporter, one ortholog of the NRAMP family of proton-coupled FeII/MnII transporters known in bacteria as MntH and a number of genes predicted to be involved in the uptake of ferric iron by means of TonB dependent outer membrane ferri-siderophores receptors (Tdr) (Figure 2).
+Among the latter Fur regulatory targets are two adjacent genes encoding TonB-dependent OMRs with probable affinity for catechol siderophores (tdr of the cirA-type), a 13 gene cluster encoding for all necessary siderophore mediated ferric iron uptake functions and four loci encoding TonB/ExbBD biopolymer transport proteins.
+
+
+Iron utilization functions contain several genes predicted to encode redox proteins and/or Fe - S binding proteins, including electron transporting ferredoxins, oxido/reductases (NuoI, NoxA), heme biosynthesis coproporphyrinogen III dehydrogenase (HemN), a high potential iron protein (HppH) and a subuntit of the Hup reductase involved in hydrogenase maturation (DrsK-like), and several genes implicated in Fe - S cluster assembly such as a cysteine desulfurase NifS, accessory protein NifV and an Fe - Mo nitrogen fixation protein (NifX) (Figure 2).
+
+Transporters were identified belonging to diverse functional families (Figure 2) including two distinct efflux permeases of the ATP-dependent family of transmembrane efflux pumps (secretion ABC).
+One of these systems consists of adjacent genes encoding, respectively, a protein with a permease motif characteristic of the FatC Fe(III) -anguibactin efflux permease of Bartonella quintana (CAF26500) and an uncharacterized permease similar to YvsF (CAB69806) from Bacillus cereus.
+The other permease transporter is similar to CvaB of E. coli (P22520), and forms part of a predicted operon encoding a microcin exporter system that has been shown to be iron regulated via a well conserved Fur box in E. coli (38).
+Shared organization and associated Fur box suggest a similar regulatory behavior in A. ferrooxidans.
+Two gene clusters encoding resistance-nodulation-cell division (RND) family efflux pumps and one cluster encoding for a translocase of the major facilitator superfamily (MSF) are preceded by Fur boxes in A. ferrooxidans.
+RND complexes typically transport cations (39) or a chemically diverse group of organic substances (40) from the cytoplasm across the periplasmic space to the outside of the cell, driven by proton motive force.
+Additionally, trans-envelope efflux pumps of the RND have been proposed to be involved in the secretion of iron siderophores under conditions of iron starvation in P. aeruginosa (41,42) and Acinetobacter baumannii (43).
+Recently, several MSFs sharing the signature COG0477 of the EmrB/QacA subfamily of MFS have been implicated in the proton motive force-driven and iron-regulated transport of siderophores in a number of bacteria (43 - 48).
+The gene context of RND-1 and the presence of Fur boxes in the promoters of both the RND-1 and the MSF gene clusters suggest that their expression is regulated by iron and by Fur in A. ferrooxidans and suggests a role for these proteins in the secretion of xenosiderophores.
+In addition, a hybrid operon (Figure 2) consisting of an unusual combination of transport components including an ABC solute-binding protein (AbcS4), an RND-type outer membrane factor (Rnd1) similar to OprD and a cation diffusion facilitator (Cdf1), was found in A. ferrooxidans.
+The solute-binding protein shares 70% similarity to the sulfate/molybdate-binding protein ModA (COG0725) and weak similarity (<30%) to the ABC-type Fe(III)-binding protein AfuA (COG1840), while the CDF (pfam01545) carries a C-terminal signature (MTH1175) found in several uncharacterized proteins belonging to the Fe - Mo cluster binding proteins.
+Since members of the CDF family are metal-specific pumps that serve as secondary filters for various divalent cations (48 - 50), a role for Mo or Fe efflux facilitation can be envisioned.
+Finally, three predicted ATP dependent translocases of charged ions of the P-type ATPases superfamily were found to have upstream Fur boxes.
+These membrane pathways can either actively take up or extrude inorganic monovalent cations such as Cu(I)/Ag(I), divalent Zn(II)/Cd(II)/Pb(II) or H(I)/Na(I)/K(I) (48).
+One of the A. ferrooxidans candidate Fur-regulated P-type ATPases potentially encodes a plasma-membrane proton-efflux transporter [EC 3.6.3.6], and the other two are predicted to be copper P-type ATPases (CPx-type; EC 3.6.1.3) with similarity, respectively, to the well-studied CopA (61% S to P32113) and CopB (68% S to P05425) copper homeostasis proteins in Enterococcus hirae.
+
+Transcriptional regulators were identified belonging to six different protein families: IscR, Irr, PhoB, NtrC, MarR and ArsR (Figure 2).
+Some of these regulators exhibit iron and/or Fur-dependent expression in other bacteria and therefore are reasonable targets for Fur control in A. ferrooxidans.
+For example, the IscR regulator of E. coli controls the negative feedback expression of a housekeeping Fe - S assembly gene-cluster (51) and the Irr regulator of alpha-proteobacteria is known to control heme biosynthesis (52).
+The PhoB-like transcriptional regulator in A. ferrooxidans is the first gene of a predicted operon containing the three components of the TonB iron acquisition system known to be a Fur target in other organisms (53) and an acid phosphatase similar to AcpA of Burkholderia sp.
+The other three transcriptional regulators are located upstream (ArsR) or divergent to (NtrC and MarR) gene clusters encoding proteins that have predicted roles in redox balance maintenance (e.g. rhodanases, glutaredoxins, thiorredoxins, GST).
+The presence of these Fur boxes suggests the necessity to control intracellular iron-mediated effects on oxidative stress.
+
+In addition, several genes that encode a variety of functions such as ribosomal proteins, transposase etc., or genes with unknown functions were identified with predicted Fur boxes.
+Their possible role in Fur-regulated activities remains to be addressed.
+
+
+
+Experimental validation of selected candidate Fur boxes
+
+Fur titration assays (FURTA)
+
+Evidence for the capacity of Fur from E. coli to recognize and bind target DNA sequences in our model system was obtained by transforming a gene library of A. ferrooxidans into the E. coli FURTA reporter strain H1717 (15).
+Clones with LacZ-positive phenotype were recovered and the plasmids purified for DNA sequencing.
+Isolated genome fragments were inspected bioinformatically for the presence of ORFs, promoter regions and Fur-binding sites.
+FURTA positive clones retained after filtering as likely Fur targets in A. ferrooxidans are shown in Table 3.
+
+Sequence analysis of FURTA-positive clones revealed sequences with genes and/or promoters known to be regulated by Fur in other organisms such as the ferrous iron transporters feoPABC and mntH, several ferri-siderophore transport components (tdr, tonB, abc) and a variety of proteins that use iron as a cofactor in the form of heme groups or Fe - S clusters (fdx1, hemN, hppH, dsrK, hdrC, iscR).
+In addition, the majority of these sequences contained predictions for Fur boxes according to information theory screens, based on a heterologous Fur box weight matrix, and/or by HMM profile searches based on EMSA-validated A. ferrooxidans Fur boxes.
+These experimental results provide evidence that (i) there are several genomic sequences in A. ferrooxidans carrying Fur-binding site motifs, (ii) that at least a part of the population of Fur-binding sites present in A. ferrooxidans are recognizable by the Fur protein of E. coli in vivo and (iii) that several of the Fur-binding sites found within these genomic fragments coincide with the bioinformatically predicited Fur boxes presented above (Table 3).
+
+
+
+FurAF binding to candidate Fur boxes (EMSA)
+
+Gel shift assays with purified regulatory proteins is a well recognized method to reveal putative DNA-binding sites in a DNA probe that represent direct targets for the concerned regulator.
+To evaluate the functionality of the predicted Fur boxes, we assayed the capacity of A. ferrooxidans purified Fur protein to form FurAF - DNA complexes in vitro using the EMSA.
+
+FurAF was able to shift the promoter regions of the iron acquisition genes gloA and feoB (Figure 3A).
+Probes encompassing the Fur box predicted upstream of the transporter genes copB and abcS4 (Figure 3B), the transcriptional regulators iscR and phoB (Figure 3C) and the iron-containing protein encoding genes hppH (Figure 3D) and fdx1 (Figure 3E) were bound and shifted in vitro by 300 nM purified FurAF.
+No FurAF-dependent shift was achieved with the probe for the predicted copA Fur box, indicating that FurAF is unable to bind the region under the conditions used or else that this Fur box prediction is a false positive.
+
+
+These reactions were demonstrated to be Fur specific by supershifting in the presence of anti-Fur antiserum (Figure 3, A - D lane 3; E lane 4).
+A complete loss of the shift was also observed when excess unlabeled DNA probe was used to compete out the labeled probe (Figure 3, E lane 5).
+No effect on the migration of the labeled probes could be detected in the absence of purified FurAF (Figure 3, A - E lane 1) or in the presence of the antiserum alone (Figure 3, E lane 6).
+Purified FurAF up to 400 nM was unable to shift a non-specific probe (no Fur box prediction) (Figure 3, F lanes 2 - 5).
+At 500 nM FurAF non-specific binding was observed to occur (Figure 3, F lane 6).
+Therefore, an upper limit of 400 nM FurAF was set for specific binding assays.
+
+EMSA results confirm that DNA fragments containing the predicted Fur boxes for gloA, feoB, copB, abcS4, iscR, phoB, hppH and fdx1 could be recognized by purified FurAFin vitro and can thus be considered as bona fide sites.
+An additional predicted Fur box associated with mntH has been previously validated by EMSA (36).
+
+
+
+Transcriptional repression of Fur-dependent promoters by FurAF using in vitro transcription assays (IVTA)
+
+To evaluate the effect of FurAF binding on transcription expression, predicted EMSA Fur targets were analyzed by in vitro transcription in the presence of the metal co-repressor Mn(II) (Figure 4).
+
+
+All Fur boxes evaluated overlap with predicted -10 or -35 elements of the corresponding promoters (Figure 4A).
+In the presence of 300 nM purified FurAF protein, 100 microM Mn(II) and E. coli's RNA polymerase, disappearance of the expected transcripts for the iron transporter genes feoP and gloA, the copper transporter copB and the transcriptional regulator phoB is observed (Figure 4B).
+These results indicate that A. ferrooxidans regulator is involved in a classical divalent metal dependent Fur-mediated repression of transcription of the genes directly linked to the tested promoters and, by implication, also of the genes clustered with them in predicted operons.
+
+
+
+
+
+Fur-binding site consensus sequence and organization in A. ferrooxidans
+
+Candidate A. ferrooxidans Fur-binding sites derived from both bioinformatic prediction routines (Figure 5C and D) and from experimental validations (Figure 5E) were aligned and used to derive the corresponding logos.
+Acidithobacillus ferrooxidans HMM-predicted species-specific Fur boxes, and the nine targets bound in vitro by FurAF (including previously validated mntH), are conserved with respect to the E. coli Fur box consensus (Figure 5A) in 10 - 12 out of 19 positions including those deemed critical for Fur binding (31,32,54).
+
+
+Each of the candidate A. ferrooxidans Fur box sequences contains a conserved core region encompassing two contiguous imperfect repeats with additional bases present in a poorly conserved third repeat offset either to the right or left of the central hexamer (Figure 5F).
+Although the key residues known to interact with Fur are conserved between E. coli and A. ferrooxidans, the latter Fur box consensus exhibits a less conserved third flanking hexamer suggesting either that a single dimer of Fur binds to the box or else that the architecture of the box in A. ferrooxidans might alter the capacity of Fur to polymerize along the site.
+
+
+
+

@@ -1,0 +1,87 @@
+T1	ECO 2115 2131	in silico search
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 Medium
+A3	NextSentence T1 No
+A4	NegativeStatement T1 No
+A5	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000202	match to sequence model evidence
+T2	ECO 2403 2439	Electrophoretic mobility shift assay
+A6	Category T2 MolFn
+A7	ECOConfidence T2 High
+A8	NextSentence T2 No
+A9	NegativeStatement T2 No
+A10	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T3	ECO 2451 2476	surface plasmon resonance
+A11	Category T3 MolFn
+A12	ECOConfidence T3 High
+A13	NextSentence T3 No
+A14	NegativeStatement T3 No
+A15	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0001127	surface plasmon resonance evidence
+T4	ECO 2952 2964	SPR analysis
+A16	Category T4 BioProc
+A17	ECOConfidence T4 High
+A18	NextSentence T4 No
+A19	NegativeStatement T4 No
+A20	AssertionStrength T4 Low
+N4	Reference T4 brat_eco:ECO:0001127	surface plasmon resonance evidence
+#1	AnnotatorNotes T4	The assertion is very weak, but GO: 0031647 is sort of applicable. 
+T5	ECO 3087 3107	DNase I footprinting
+A21	Category T5 MolFn
+A22	ECOConfidence T5 High
+A23	NextSentence T5 No
+A24	NegativeStatement T5 No
+A25	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0001810	DNAse footprinting evidence
+T6	ECO 4290 4310	DNase I footprinting
+A26	Category T6 MolFn
+A27	ECOConfidence T6 High
+A28	NextSentence T6 No
+A29	NegativeStatement T6 Yes
+A30	AssertionStrength T6 Low
+N6	Reference T6 brat_eco:ECO:0001810	DNAse footprinting evidence
+T7	ECO 4416 4428	SPR analyses
+A31	Category T7 MolFn
+A32	ECOConfidence T7 High
+A33	NextSentence T7 No
+A34	NegativeStatement T7 No
+A35	AssertionStrength T7 Low
+N7	Reference T7 brat_eco:ECO:0001127	surface plasmon resonance evidence
+T8	ECO 4481 4530	towards oriCDeltaA1A2 than towards wild-type oriC
+A36	Category T8 MolFn
+A37	ECOConfidence T8 High
+A38	NextSentence T8 No
+A39	NegativeStatement T8 No
+A40	AssertionStrength T8 Low
+T9	ECO 4621 4647	Mutation of the A1A2 boxes
+A41	Category T9 MolFn
+A42	ECOConfidence T9 High
+A43	NextSentence T9 No
+A44	NegativeStatement T9 Yes
+A45	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0005528	site-directed mutagenesis evidence
+T10	ECO 4854 4899	binding of AdpA to the analysed DNA fragments
+#2	AnnotatorNotes T10	???
+T11	ECO 5507 5519	SPR analyses
+A46	Category T11 MolFn
+A47	ECOConfidence T11 High
+A48	NextSentence T11 No
+A49	NegativeStatement T11 No
+A50	AssertionStrength T11 Low
+N10	Reference T11 brat_eco:ECO:0001127	surface plasmon resonance evidence
+#3	AnnotatorNotes T11	ATP prevents DNA binding
+T12	ECO 5703 5718	we cross-linked
+A51	Category T12 BioProc
+A52	ECOConfidence T12 High
+A53	NextSentence T12 Yes
+A54	NegativeStatement T12 No
+A55	AssertionStrength T12 Medium
+N11	Reference T12 brat_eco:ECO:0001033	cross-linking evidence
+A56	Category T10 BioProc
+A57	ECOConfidence T10 Low
+A58	NextSentence T10 Yes
+A59	NegativeStatement T10 No
+A60	AssertionStrength T10 High
+N12	Reference T10 brat_eco:ECO:0000136	nucleic acid binding evidence
+N8	Reference T8 brat_eco:ECO:0001038	deletion mutation evidence

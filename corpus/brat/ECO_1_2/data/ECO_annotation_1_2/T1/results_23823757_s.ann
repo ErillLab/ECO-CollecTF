@@ -1,0 +1,118 @@
+T1	ECO 33 50	Sequence analysis
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 Low
+A3	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000202	match to sequence model evidence
+T2	ECO 33 50	Sequence analysis
+A4	Category T2 SeqFeat
+A5	ECOConfidence T2 Low
+A6	NextSentence T2 Yes
+A7	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0000202	match to sequence model evidence
+T3	ECO 372 386	DeltaG degrees
+A8	Category T3 SeqFeat
+A9	ECOConfidence T3 High
+A10	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0000000	evidence
+T4	ECO 522 536	DeltaG degrees
+A11	Category T4 SeqFeat
+A12	ECOConfidence T4 High
+A13	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0000000	evidence
+T5	ECO 771 783	74% identity
+A14	Category T5 Tax
+A15	ECOConfidence T5 High
+A16	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0000044	sequence similarity evidence
+T6	ECO 895 907	38% identity
+A17	Category T6 Tax
+A18	ECOConfidence T6 High
+A19	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0000044	sequence similarity evidence
+T7	ECO 1338 1350	65% identity
+A20	Category T7 Tax
+A21	ECOConfidence T7 High
+A22	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000044	sequence similarity evidence
+T8	ECO 2268 2285	Sequence analysis
+A23	Category T8 SeqFeat
+A24	ECOConfidence T8 Low
+A25	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0000202	match to sequence model evidence
+T9	ECO 3418 3435	fusion constructs
+A26	Category T9 BioProc
+A27	ECOConfidence T9 High
+A28	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0000049	reporter gene assay evidence
+#1	AnnotatorNotes T9	GO:0010629
+T10	ECO 3487 3530	wild-type background than that in DeltafimR
+A29	Category T10 BioProc
+A30	ECOConfidence T10 High
+A31	AssertionStrength T10 High
+N10	Reference T10 brat_eco:ECO:0000015	mutant phenotype evidence
+#2	AnnotatorNotes T10	GO:0010629
+T11	ECO 4018 4047	wild-type FW213 and DeltafimR
+A32	Category T11 SeqFeat
+A33	ECOConfidence T11 High
+A34	AssertionStrength T11 Medium
+N11	Reference T11 brat_eco:ECO:0000015	mutant phenotype evidence
+T12	ECO 4062 4084	pfim(109 b)-cat fusion
+A35	Category T12 SeqFeat
+A36	ECOConfidence T12 High
+A37	AssertionStrength T12 Medium
+N12	Reference T12 brat_eco:ECO:0000049	reporter gene assay evidence
+T13	ECO 4736 4752	Previous studies
+A38	Category T13 BioProc
+A39	ECOConfidence T13 High
+A40	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0000006	experimental evidence
+#3	AnnotatorNotes T13	GO:0033212 (iron uptake)
+T14	ECO 5353 5385	up regulation of pfim expression
+A41	Category T14 BioProc
+A42	ECOConfidence T14 High
+A43	AssertionStrength T14 High
+N14	Reference T14 brat_eco:ECO:0000008	expression pattern evidence
+#4	AnnotatorNotes T14	GO:0010629
+T15	ECO 6450 6462	CAT activity
+A44	Category T15 BioProc
+A45	ECOConfidence T15 High
+A46	AssertionStrength T15 High
+N15	Reference T15 brat_eco:ECO:0000049	reporter gene assay evidence
+#5	AnnotatorNotes T15	GO:0010038 response to metal ion
+T16	ECO 7319 7332	shift pattern
+A47	Category T16 MolFn
+A48	ECOConfidence T16 Low
+A49	AssertionStrength T16 High
+N16	Reference T16 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#6	AnnotatorNotes T16	GO:0043565
+T17	ECO 7319 7332	shift pattern
+A50	Category T17 SeqFeat
+A51	ECOConfidence T17 Low
+A52	NextSentence T17 Yes
+A53	AssertionStrength T17 Medium
+N17	Reference T17 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T18	ECO 7672 7748	chromatin immunoprecipitation (ChIP) assay-quantitative real time PCR (qPCR)
+A54	Category T18 MolFn
+A55	ECOConfidence T18 High
+A56	NextSentence T18 Yes
+A57	AssertionStrength T18 High
+N18	Reference T18 brat_eco:ECO:0000228	chromatin immunoprecipitation-qPCR evidence
+#7	AnnotatorNotes T18	GO:0043565
+T19	ECO 10225 10250	VT930 and VT930_DeltafimR
+A58	Category T19 BioProc
+A59	ECOConfidence T19 High
+A60	AssertionStrength T19 High
+N19	Reference T19 brat_eco:ECO:0000015	mutant phenotype evidence
+#8	AnnotatorNotes T19	GO:1901562
+T20	ECO 6413 6429	pfap1-cat fusion
+A61	Category T20 BioProc
+A62	ECOConfidence T20 High
+A63	NextSentence T20 Yes
+A64	AssertionStrength T20 High
+N20	Reference T20 brat_eco:ECO:0000049	reporter gene assay evidence
+#9	AnnotatorNotes T20	GO:0010038
+T21	ECO 11162 11187	VT930 and VT930_DeltafimR
+A65	Category T21 BioProc
+A66	ECOConfidence T21 High
+A67	AssertionStrength T21 High
+N21	Reference T21 brat_eco:ECO:0000015	mutant phenotype evidence

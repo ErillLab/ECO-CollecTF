@@ -1,0 +1,105 @@
+T1	ECO 1144 1148	chip
+A1	Category T1 MolFn
+A2	ECOConfidence T1 Low
+A3	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0000226	chromatin immunoprecipitation evidence
+A4	NextSentence T1 Yes
+T2	ECO 1390 1394	chip
+A5	Category T2 MolFn
+A6	ECOConfidence T2 Medium
+A7	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0000226	chromatin immunoprecipitation evidence
+T3	ECO 1472 1476	chip
+A8	Category T3 MolFn
+A9	ECOConfidence T3 High
+A10	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0000226	chromatin immunoprecipitation evidence
+T4	ECO 1696 1700	chip
+A11	Category T4 MolFn
+A12	ECOConfidence T4 High
+A13	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0000226	chromatin immunoprecipitation evidence
+T5	ECO 2074 2102	specific protein/DNA complex
+A14	Category T5 MolFn
+A15	ECOConfidence T5 Low
+A16	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0000024	protein binding evidence
+#1	AnnotatorNotes T5	not really sure if this is the evidence
+T6	ECO 2432 2469	surface plasmon resonance (SPR) assay
+A17	ECOConfidence T6 Medium
+N6	Reference T6 brat_eco:ECO:0001127	surface plasmon resonance evidence
+A18	AssertionStrength T6 Medium
+T7	ECO 2760 2775	sequence motifs
+A19	Category T7 MolFn
+A20	ECOConfidence T7 High
+A21	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000028	motif similarity evidence
+T8	ECO 2939 2966	DNase I footprinting assays
+A22	Category T8 MolFn
+A23	ECOConfidence T8 High
+A24	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0001810	DNAse footprinting evidence
+A25	NextSentence T8 Yes
+T9	ECO 3915 3926	EMSA assays
+A26	Category T9 BioProc
+A27	ECOConfidence T9 High
+A29	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T10	ECO 6140 6147	qRT-PCR
+A28	Category T10 Phen
+A30	ECOConfidence T10 High
+A31	AssertionStrength T10 High
+N10	Reference T10 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+T11	ECO 6448 6464	wild-type strain
+A32	Category T11 Phen
+A33	ECOConfidence T11 Medium
+A34	AssertionStrength T11 Medium
+N11	Reference T11 brat_eco:ECO:0000015	mutant phenotype evidence
+T13	ECO 6756 6788	expression levels of these genes
+A38	Category T13 BioProc
+A39	ECOConfidence T13 Medium
+A40	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0000009	transcript expression evidence
+T14	ECO 6994 7021	inhibition of the mtrA gene
+A41	Category T14 BioProc
+A42	ECOConfidence T14 Low
+A43	AssertionStrength T14 Low
+N14	Reference T14 brat_eco:ECO:0000020	specific protein inhibition evidence
+T15	ECO 7119 7152	expression level of the mtrA gene
+A44	Category T15 BioProc
+A45	ECOConfidence T15 Low
+A46	AssertionStrength T15 Low
+N15	Reference T15 brat_eco:ECO:0000075	gene expression similarity evidence
+#2	AnnotatorNotes T15	not sure if this is the right ECO term.
+T16	ECO 3066 3076	Protection
+A47	Category T16 BioProc
+A48	ECOConfidence T16 Low
+A49	NextSentence T16 Yes
+A50	AssertionStrength T16 Medium
+N16	Reference T16 brat_eco:ECO:0000136	nucleic acid binding evidence
+T17	ECO 86 113	Bacterial one-hybrid assays
+A51	Category T17 MolFn
+A52	ECOConfidence T17 Medium
+A53	NextSentence T17 No
+A54	AssertionStrength T17 High
+N17	Reference T17 brat_eco:ECO:0000294	bacterial one-hybrid evidence
+A55	NextSentence T6 Yes
+T18	ECO 5120 5145	mRNA antisense expression
+A56	Category T18 BioProc
+A57	ECOConfidence T18 Medium
+A58	NextSentence T18 No
+A59	AssertionStrength T18 High
+N18	Reference T18 brat_eco:ECO:0000009	transcript expression evidence
+T19	ECO 5527 5543	inhibited growth
+A60	Category T19 Phen
+A61	ECOConfidence T19 Low
+A62	NextSentence T19 No
+A63	AssertionStrength T19 Medium
+N19	Reference T19 brat_eco:ECO:0001563	cell growth assay evidence
+T20	ECO 5891 5924	scanning electron microscopy (SEM
+A64	Category T20 Phen
+A65	ECOConfidence T20 High
+A66	NextSentence T20 Yes
+A67	AssertionStrength T20 Medium
+N20	Reference T20 brat_eco:ECO:0000324	imaging assay evidence
+A68	NextSentence T13 Yes

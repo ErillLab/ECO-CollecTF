@@ -1,0 +1,1077 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plospath</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Pathogens</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7366</issn>
+      <issn pub-type="epub">1553-7374</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22479184</article-id>
+      <article-id pub-id-type="pmc">3315491</article-id>
+      <article-id pub-id-type="publisher-id">PPATHOGENS-D-11-02481</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.ppat.1002621</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Virulence Regulator EspR of <italic>Mycobacterium tuberculosis</italic> Is a Nucleoid-Associated Protein</article-title>
+        <alt-title alt-title-type="running-head">EspR Nucleoid-Associated Protein and TB Virulence</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blasco</surname>
+            <given-names>Benjamin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Jeffrey M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hartkoorn</surname>
+            <given-names>Ruben</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sala</surname>
+            <given-names>Claudia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Uplekar</surname>
+            <given-names>Swapna</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rougemont</surname>
+            <given-names>Jacques</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pojer</surname>
+            <given-names>Florence</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cole</surname>
+            <given-names>Stewart T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Global Health Institute, Ecole Polytechnique F&#xE9;d&#xE9;rale de Lausanne (EPFL), Lausanne, Switzerland</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Swiss Institute of Bioinformatics, Lausanne, Switzerland</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Rubin</surname>
+            <given-names>Eric J.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Harvard School of Public Health, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>stewart.cole@epfl.ch</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: BB JMC RH CS FP STC. Performed the experiments: BB JMC RH CS. Analyzed the data: BB JMC RH CS SU JR FP STC. Wrote the paper: BB STC.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>3</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>3</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>3</issue>
+      <elocation-id>e1002621</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>8</day>
+          <month>11</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>2</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Blasco et al.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The principal virulence determinant of <italic>Mycobacterium tuberculosis</italic> (<italic>Mtb</italic>), the ESX-1 protein secretion system, is positively controlled at the transcriptional level by EspR. Depletion of EspR reportedly affects a small number of genes, both positively or negatively, including a key ESX-1 component, the <italic>espACD</italic> operon. EspR is also thought to be an ESX-1 substrate. Using EspR-specific antibodies in ChIP-Seq experiments (chromatin immunoprecipitation followed by ultra-high throughput DNA sequencing) we show that EspR binds to at least 165 loci on the <italic>Mtb</italic> genome. Included in the EspR regulon are genes encoding not only EspA, but also EspR itself, the ESX-2 and ESX-5 systems, a host of diverse cell wall functions, such as production of the complex lipid PDIM (phenolthiocerol dimycocerosate) and the PE/PPE cell-surface proteins. EspR binding sites are not restricted to promoter regions and can be clustered. This suggests that rather than functioning as a classical regulatory protein EspR acts globally as a nucleoid-associated protein capable of long-range interactions consistent with a recently established structural model. EspR expression was shown to be growth phase-dependent, peaking in the stationary phase. Overexpression in <italic>Mtb</italic> strain H37Rv revealed that EspR influences target gene expression both positively or negatively leading to growth arrest. At no stage was EspR secreted into the culture filtrate. Thus, rather than serving as a specific activator of a virulence locus, EspR is a novel nucleoid-associated protein, with both architectural and regulatory roles, that impacts cell wall functions and pathogenesis through multiple genes.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>A major infection mechanism employed by the causative agent of tuberculosis, <italic>Mycobacterium tuberculosis (Mtb)</italic>, is the ESX-1 secretion system. It has been postulated that the DNA-binding protein EspR controls the virulence of <italic>Mtb</italic> by specifically regulating expression of the exported EspA protein, which is required for ESX-1 to function. Previous structural studies indicated that EspR forms dimers capable of multimerizing on DNA and forming loop structures, thus bringing together otherwise distant chromosomal regions. Such characteristics are reminiscent of nucleoid-associated proteins (NAPs), the histone equivalent in bacteria. Here we use ChIP-Seq technology to map EspR binding sites on the <italic>Mtb</italic> chromosome in living bacterial cells. Genome-wide analysis of EspR identified hundreds of binding-sites, with almost equal inter- and intra-genic distribution, and mostly found in proximity to genes associated with cell wall function. We validated a subset of EspR-binding sites experimentally and identified a consensus motif required for optimal binding affinity. Moreover, our study reveals that EspR expression varies with bacterial growth and that intracellular levels are not linked to EspR secretion. These findings corroborate the NAP nature of EspR and its dual roles, architectural and regulatory, that impact the <italic>Mtb</italic> chromosome and pathogenesis globally rather than the ESX-1 loci specifically.</p>
+      </abstract>
+      <counts>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Details of the genetic control mechanisms governing the pathogenicity of the etiological agent of human tuberculosis are starting to emerge <xref rid="ppat.1002621-Homolka1" ref-type="bibr">[1]</xref>. It has been postulated that the DNA-binding protein EspR <xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref> controls the virulence of <italic>Mycobacterium tuberculosis</italic> (<italic>Mtb</italic>) by specifically regulating expression of EspA, an exported protein <xref rid="ppat.1002621-Fortune1" ref-type="bibr">[3]</xref>, <xref rid="ppat.1002621-Garces1" ref-type="bibr">[4]</xref>, which is required for the ESX-1 system to function normally. There are five genetically related ESX-systems in <italic>Mtb</italic> but functional information is scarce for all of them, although ESX-1 is by far the most studied <xref rid="ppat.1002621-Abdallah1" ref-type="bibr">[5]</xref>, <xref rid="ppat.1002621-Simeone1" ref-type="bibr">[6]</xref>. ESX-1 is widely considered to be the principal virulence determinant of <italic>Mtb</italic> since it secretes the EsxAB (ESAT-6 and CFP10) proteins and ESX-1 secretion-associated proteins (Esps) <xref rid="ppat.1002621-Bitter1" ref-type="bibr">[7]</xref>. Although mechanistic details are limited, some of these secreted proteins act as effector proteins that perturb host cell activities, permeabilize the phagosomal membrane and allow the tubercle bacillus to escape into the cytoplasm <xref rid="ppat.1002621-Simeone1" ref-type="bibr">[6]</xref>, <xref rid="ppat.1002621-Hsu1" ref-type="bibr">[8]</xref>, <xref rid="ppat.1002621-vanderWel1" ref-type="bibr">[9]</xref>.</p>
+      <p>Structural studies revealed that EspR is a homodimer with two domains: an N-terminal DNA-binding domain with a helix-turn-helix (hth) motif and C-terminal domain that mediates dimerization <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>, <xref rid="ppat.1002621-Rosenberg1" ref-type="bibr">[11]</xref>. Removal of 10 amino-acid residues from the C-terminus, as in the EspR&#x394;10 protein, does not affect DNA-binding activity but prevents dimerization and ablates activation of the <italic>espACD</italic> locus <xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref>, <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. A model has been proposed, based on the results of co-crystallization with DNA and molecular dynamic simulations, wherein EspR employs an atypical DNA-recognition mechanism involving a dimer of dimers. Since, for sterical reasons, only one hth from each dimer is capable of inserting into the major groove of DNA at a given binding site, the second hth of each dimer remains free to act at other binding sites <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. Consequently, dimers can dimerize then multimerize and recognize distal DNA binding sites in a cooperative manner as has been observed by atomic force microscopy (AFM) of EspR-nucleoprotein complexes at the <italic>espA</italic> locus, where DNA bending and bridging resulted in loop formation <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. This behavior is characteristic of nucleoid-associated proteins (NAPs) rather than that of a classical gene activator protein <xref rid="ppat.1002621-Browning1" ref-type="bibr">[12]</xref>, <xref rid="ppat.1002621-Dillon1" ref-type="bibr">[13]</xref>. NAPs are the bacterial equivalent of histones that organize the chromosome and act by stabilizing long-range structures in the genome through cooperative binding to multiple sites. This results in modulation of the accessibility of free DNA to the transcription machinery via the state of DNA compaction. NAPs thus function in a quite different manner to transcriptional activators, which typically recognize a limited number of sites in the genome and promote transcription through direct interaction with RNA polymerase.</p>
+      <p>To test the hypothesis that EspR might be a NAP and to gain more insight into the extent of EspR-mediated regulation in living mycobacteria, ChIP-Seq analysis of the <italic>Mtb</italic> H37Rv genome was performed. Unlike cDNA hybridization to micro-arrays, ChIP-Seq generates quantitative information with single nucleotide resolution. The complete repertoire of EspR-binding sites across the chromosome was established with the majority of the gene targets appearing to impact cell wall function generally rather than ESX-1 expression in particular. The ChIP-Seq findings were confirmed independently by ChIP followed by quantitative real-time PCR (ChIP-qPCR), by gel shift and DNase I footprinting assays, as well as by transcript analysis, and a binding motif was deduced using bioinformatics. Finally, the expression levels of EspR and its subcellular localization were monitored and quantified during the growth cycle. Altogether, these data provide a genome-wide view of EspR regulatory functions and place EspR firmly in the NAP family.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Genome-wide analysis of the EspR regulon</title>
+        <p>We investigated EspR-binding to the chromosome of <italic>Mtb</italic> strain H37Rv during exponential growth by ChIP-Seq, chromatin immunoprecipitation followed by ultra-high throughput DNA sequencing <xref rid="ppat.1002621-Sala1" ref-type="bibr">[14]</xref>. Sequence reads obtained from two independent ChIP-Seq experiments using EspR-specific antibodies were mapped to the <italic>Mtb</italic> H37Rv genome. Based on the peak detection criteria, we identified 165 enriched loci harboring 582 EspR-binding peaks (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>, <xref ref-type="supplementary-material" rid="ppat.1002621.s009">Table S2</xref>), that were enriched by &gt;1.5-fold and these were not present in ChIP-Seq datasets from control experiments conducted without antibody or with unrelated antibodies (data not shown). These 165 loci occurred across the genome (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref> and <xref ref-type="fig" rid="ppat-1002621-g002">Fig. 2A</xref>) and were sited both in intergenic regions (45%) and within genes (55%) implying that EspR is not a classical transcriptional regulator.</p>
+        <fig id="ppat-1002621-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Genome-wide mapping of EspR binding sites.</title>
+            <p>UCSC Genome Browser (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu">http://genome.ucsc.edu</ext-link>) view of EspR binding across the <italic>Mtb</italic> genome as determined by ChIP-Seq. Peak height (y-axis) indicates the sequencing read depth at each genomic position (x-axis). Inset boxes show major EspR binding sites identified over (from left to right) the <italic>pe_pgrs19</italic> and <italic>pe_pgrs20</italic> genes, the <italic>rv1490</italic> gene, the <italic>ppe24</italic> gene, the <italic>rv2929</italic> and <italic>fadD26</italic> genes from the PDIM/PGL locus and the <italic>espACD</italic> operon promoter region.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002621.g001"/>
+        </fig>
+        <fig id="ppat-1002621-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Binding of EspR to the <italic>Mtb</italic> chromosome.</title>
+            <p>(<bold>A</bold>) Pie chart of EspR-binding peaks annotated relatively to the nearest gene translation start using the <italic>ChIPpeakAnno</italic> package <xref rid="ppat.1002621-Zhu1" ref-type="bibr">[38]</xref>. (<bold>B</bold>) Bar chart displaying the percentage of genes of the EspR regulon compared to the <italic>Mtb</italic> H37Rv genome belonging to functional categories defined in the TubercuList database (<ext-link ext-link-type="uri" xlink:href="http://tuberculist.epfl.ch/">http://tuberculist.epfl.ch/</ext-link>). (<bold>C</bold>) Most significant motif derived from ChIP-Seq binding sequences returned by the MEME tool <xref rid="ppat.1002621-Bailey1" ref-type="bibr">[19]</xref>. The height of each letter represents the relative frequency of each base at different positions in the consensus.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002621.g002"/>
+        </fig>
+        <p>Diverse functions are encoded by genes where EspR bound upstream and classification by functional category reveals over-representation of cell wall/cell processes and the surface-exposed PE/PPE proteins (<ext-link ext-link-type="uri" xlink:href="http://tuberculist.epfl.ch/">http://tuberculist.epfl.ch/</ext-link>; <xref ref-type="fig" rid="ppat-1002621-g002">Fig. 2B</xref>). Internal sites were found within AT-rich genes encoding proteins belonging to the PPE family (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>), like <italic>ppe24</italic> (<italic>rv1753c</italic>), and some of these, such as <italic>ppe58</italic> (<italic>rv3426</italic>), also bind EspR at their 5&#x2032;-ends. Binding sites were present within genes that are thought to have been acquired by horizontal transfer <xref rid="ppat.1002621-Becq1" ref-type="bibr">[15]</xref> like the <italic>rv0986-rv0989c</italic> region.</p>
+        <p>A survey of the ten top scoring peaks (<xref ref-type="table" rid="ppat-1002621-t001">Table 1</xref>) highlighted the major EspR-binding gene targets. Two of the top three sites (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>) occurred at a locus encoding an enzyme system that produces the complex lipids phthiocerol dimycocerosate (PDIM) and phenolic glycolipid (PGL) <xref rid="ppat.1002621-Camacho1" ref-type="bibr">[16]</xref>, <xref rid="ppat.1002621-Cox1" ref-type="bibr">[17]</xref>. The second highest scoring site overlaps the translational start of <italic>rv1490</italic>, which encodes a membrane protein of unknown function, and this was followed by three other peaks of lower intensity, separated by &#x223C;300&#x2013;400 bp, spread across <italic>rv1490</italic> (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>). The fourth and eighth highest scoring sites affect two genes, <italic>pe-pgrs19</italic> and <italic>pe-pgrs20</italic>
+<xref rid="ppat.1002621-Cole1" ref-type="bibr">[18]</xref>, encoding mycobacteria-restricted PE_PGRS proteins, while the <italic>espACD</italic> locus, which is preceded by three EspR-binding sites (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>), occurred in the fifth position of the top ten ChIP-Seq hits (<xref ref-type="table" rid="ppat-1002621-t001">Table 1</xref>). The ninth peak is sited in the intergenic region between <italic>lipF</italic> (<italic>rv3487c</italic>), encoding a lipid esterase, and <italic>rv3488</italic>, whereas the last peak of the top ten ChIP-Seq list was found at the 3&#x2032;-end of <italic>fadB2</italic> (<italic>rv0468</italic>) encoding a beta-hydroxybutyryl-CoA dehydrogenase and upstream of <italic>umaA</italic> (<italic>rv0469</italic>) coding for a mycolic acid synthase. EspR binds to multiple sites in the ESX-1, ESX-2 and ESX-5 loci (<xref ref-type="supplementary-material" rid="ppat.1002621.s002">Fig. S2</xref>), as well as to two sites upstream of its own gene (<xref ref-type="fig" rid="ppat-1002621-g003">Fig. 3</xref>), thus implying autogenous control. Taken together, these data suggest that EspR may be involved in regulating cell wall function.</p>
+        <fig id="ppat-1002621-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>EspR autoregulation.</title>
+            <p>(<bold>A</bold>) Pattern of EspR ChIP-Seq peaks (denominated peaks <bold>a</bold> and <bold>b</bold>) identified upstream of the <italic>espR</italic> start codon. (<bold>B</bold>) EMSA showing concentration-dependent EspR binding of DNA fragments covering the center sequences of peaks <bold>a</bold> and <bold>b</bold> shown in (A). (<bold>C</bold>) DNase I footprint from binding of EspR to peak <bold>a</bold> of <italic>espR</italic>. Red and black peaks represent DNA without or with 10 &#xB5;M EspR, respectively. Both reactions were partially digested with DNase I and analysed by capillary electrophoresis in a genetic analyser (Applied Biosystems 3130xl). The corresponding nucleotide sequence is shown below. Regions I and II protected from DNase I digestion by EspR are denoted by black brackets and positions relative to the translational start are indicated. (<bold>D</bold>) Analysis of the <italic>espR</italic> promoter. The 5&#x2032; end of the transcript was determined by 5&#x2032; RACE using RNA extracted from <italic>Mtb</italic> H37Rv at mid-log phase. Translational stop of <italic>rv3848</italic> and translational start of <italic>espR</italic> are highlighted in red with +1 corresponding to the first base of the <italic>espR</italic> open reading frame. Transcriptional start mapped by 5&#x2032; RACE is boxed and indicated by a bent arrow. &#x2212;10 and &#x2212;35 positions for putative sigma factor binding sites are indicated. ChIP-Seq peak sequences are highlighted in gray, EspR consensus motifs framed and sites protected from DNase I cleavage bracketed as in (C).</p>
+          </caption>
+          <graphic xlink:href="ppat.1002621.g003"/>
+        </fig>
+        <table-wrap id="ppat-1002621-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Top 10 EspR binding loci from ChIP-Seq.</title>
+          </caption>
+          <alternatives>
+            <graphic id="ppat-1002621-t001-1" xlink:href="ppat.1002621.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Gene</td>
+                  <td align="left" rowspan="1" colspan="1">Position</td>
+                  <td align="left" rowspan="1" colspan="1">Gene description</td>
+                  <td align="left" rowspan="1" colspan="1">Functional category</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv2930</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">inside</td>
+                  <td align="left" rowspan="1" colspan="1">FadD26, fatty-acid-CoA synthetase, PDIM production</td>
+                  <td align="left" rowspan="1" colspan="1">lipid metabolism</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv1490</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">overlaps start</td>
+                  <td align="left" rowspan="1" colspan="1">Rv1490, probable membrane protein</td>
+                  <td align="left" rowspan="1" colspan="1">cell wall and cell processes</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv2929</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">overlaps start</td>
+                  <td align="left" rowspan="1" colspan="1">Rv2929, PDIM production</td>
+                  <td align="left" rowspan="1" colspan="1">conserved hypotheticals</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv1067c</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">overlaps start</td>
+                  <td align="left" rowspan="1" colspan="1">PE_PGRS family protein, PE_PGRS19</td>
+                  <td align="left" rowspan="1" colspan="1">PE/PPE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv3616c</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">upstream</td>
+                  <td align="left" rowspan="1" colspan="1">EspA, ESX-1 secretion-associated protein A</td>
+                  <td align="left" rowspan="1" colspan="1">cell wall and cell processes</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv1753c</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">inside</td>
+                  <td align="left" rowspan="1" colspan="1">PPE family protein, PPE24</td>
+                  <td align="left" rowspan="1" colspan="1">PE/PPE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv0986</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">inside</td>
+                  <td align="left" rowspan="1" colspan="1">ATP-binding protein of ABC transporter</td>
+                  <td align="left" rowspan="1" colspan="1">cell wall and cell processes</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv1068c</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">upstream</td>
+                  <td align="left" rowspan="1" colspan="1">PE-PGRS family protein, PE_PGRS20</td>
+                  <td align="left" rowspan="1" colspan="1">PE/PPE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv3487c</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">upstream</td>
+                  <td align="left" rowspan="1" colspan="1">LipF, probable esterase/lipase</td>
+                  <td align="left" rowspan="1" colspan="1">lipid metabolism</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rv0469</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">upstream</td>
+                  <td align="left" rowspan="1" colspan="1">UmaA, Mycolic methyltransferase A 1</td>
+                  <td align="left" rowspan="1" colspan="1">lipid metabolism</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s2b">
+        <title>Consensus sequence</title>
+        <p>An EspR consensus sequence was identified in the ChIP-Seq peaks using the MEME suite <xref rid="ppat.1002621-Bailey1" ref-type="bibr">[19]</xref> and the binding motif deduced (<xref ref-type="fig" rid="ppat-1002621-g002">Fig. 2C</xref>). FIMO (Find Individual Motif Occurrences) detected 736 occurrences of this motif (<italic>p</italic>-value&#x2264;0.001) distributed among 80% of the EspR peak sequences analyzed. Of these motifs, 59% were localized within open reading frames (ORF). The entire <italic>Mtb</italic> genome sequence was searched for potential EspR-binding sites using the <named-content content-type="gene">TTTGC</named-content>[<named-content content-type="gene">TC</named-content>][<named-content content-type="gene">GA</named-content>] consensus sequence and 199 putative intergenic and 827 intragenic sites were identified, of which 163 (43 intergenic and 120 intragenic) correspond to known ChIP-Seq peak sites. Further experimental support for the consensus sequence is available from footprinting studies of the <italic>espA</italic>
+<xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref> and <italic>espR</italic> promoter regions (see below), which revealed EspR protection from DNase I digestion at sites comprising at least one <named-content content-type="gene">TTTGC</named-content>-like motif.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Confirmation of <italic>in vivo</italic> EspR binding</title>
+        <p>To obtain independent confirmation for selected parts of the <italic>in vivo</italic> dataset, we initially focused on the EspR-dependent <italic>espACD</italic> operon <xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref>. Our previous <italic>in vitro</italic> work revealed two EspR binding sites separated by 19 bp and located between 506 and 444 bp upstream of <italic>espACD</italic>
+<xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>, consistent with the presence of a ChIP-Seq peak in this region (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>). On closer inspection, two additional major peaks of EspR-enrichment were found further upstream of <italic>espA</italic> (centered between &#x2212;857 bp and &#x2212;695 bp and between &#x2212;1214 bp and &#x2212;1113 bp, respectively). While this work was in progress, another report of the presence of two additional sites upstream of <italic>espACD</italic> appeared <xref rid="ppat.1002621-Rosenberg1" ref-type="bibr">[11]</xref>. The existence of these sites also corroborates results we obtained previously using AFM to visualize nucleoprotein complexes of EspR and a 1360 bp <italic>espACD</italic> promoter fragment <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. AFM revealed loop structures stabilized by multiple EspR dimer of dimers suggesting the presence of several distant EspR binding sites in the <italic>espACD</italic> upstream region. The 5&#x2032;-end of the <italic>espA</italic> mRNA was located 66 bp upstream of the translation start codon using 5&#x2032; RACE (<xref ref-type="supplementary-material" rid="ppat.1002621.s003">Fig. S3</xref>). Consequently, the nearest EspR binding site is positioned over 300 bp upstream of the promoter.</p>
+        <p>To further validate EspR-binding peaks, with varying degrees of enrichment, we performed ChIP followed by quantitative PCR on 11 selected sites (four located within intergenic regions, three within ORFs and three overlapping a translational start) and two non-peak regions (within <italic>rv0888</italic> and <italic>sigA</italic> ORF) as controls. All of the selected EspR-binding regions exhibited enrichment comparable to that observed from ChIP-Seq analysis (<xref ref-type="supplementary-material" rid="ppat.1002621.s004">Fig. S4</xref>), thus confirming that all peaks were genuine EspR-targets.</p>
+        <p>To obtain further confirmation of the <italic>in vivo</italic> EspR binding sites, we performed electrophoretic mobility shift assays (EMSAs) using &#x223C;100 bp DNA sequences covering the top five binding sites (<xref ref-type="supplementary-material" rid="ppat.1002621.s005">Fig. S5</xref> and <xref ref-type="table" rid="ppat-1002621-t001">Table 1</xref>) and a DNA fragment of the same size from within the <italic>espA</italic> ORF as a negative control. EspR was shown to bind to all five sites in a concentration dependent manner, while the negative control fragment remained unbound at an equal protein concentration. However, clear differences in affinity between the fragments were visible. For example, the top-scoring <italic>fadD26</italic> peak bound EspR less strongly compared to the four others suggesting that other determinants, like long-range protein-protein or protein-DNA interactions, could contribute to the high-affinity binding observed <italic>in vivo</italic>.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Autogenous regulation at the <italic>espR</italic> promoter</title>
+        <p>The presence of twin peaks upstream of <italic>espR</italic> (<bold>a</bold>, <bold>b</bold> in <xref ref-type="fig" rid="ppat-1002621-g003">Fig. 3A</xref>) is suggestive of autoregulation. To test this possibility, we performed EMSA, DNase I footprinting and 5&#x2032; RACE analysis of the <italic>espR</italic> promoter region. Peaks <bold>a</bold> and <bold>b</bold> were both shown to bind EspR using EMSA (<xref ref-type="fig" rid="ppat-1002621-g003">Fig. 3B</xref>). Two regions within peak <bold>a</bold> were protected from DNase I by EspR; region I, covering 17 bp, and region II, 55 bp-long, are situated 101 and 76 bp upstream of the <italic>espR</italic> translational start codon, respectively (<xref ref-type="fig" rid="ppat-1002621-g003">Fig. 3C and 3D</xref>). This binding pattern is reminiscent of that described previously at the <italic>espA</italic> promoter <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. When incubated with the dimerization deficient EspR&#x394;10 protein, only part of region II and none of region I was protected (IIa<sub>&#x394;10</sub>, 14 bp and IIb<sub>&#x394;10</sub>, 12 bp, see <xref ref-type="supplementary-material" rid="ppat.1002621.s006">Fig. S6</xref>). This implies that oligomerization enables cooperative binding between multiple EspR dimers, leading to the formation of higher-order oligomers. The zone protected by EspR&#x394;10 contains an inverted repeat of two consensus motifs: <named-content content-type="gene">CAGCAAA</named-content>&lt;16&gt;<named-content content-type="gene">TTTGCTC</named-content>.</p>
+        <p>5&#x2032; RACE analysis was employed to localize the <italic>espR</italic> promoter using RNA extracted from <italic>Mtb</italic> H37Rv grown to mid-log phase. The <italic>espR</italic> transcript starts with a poly-G (7) sequence 144 bp upstream of the translational start codon. The promoter is therefore situated in a region between peaks <bold>a</bold> and <bold>b</bold> so simultaneous occupation by EspR of both the <bold>a</bold> and <bold>b</bold> sites might form a repression loop. Expression data presented below indicate a negative effect of EspR on its own transcription.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Target gene regulation on EspR binding</title>
+        <p>To confirm the prediction that binding of EspR directly affects target gene expression, we exploited a pristinamycin-inducible system <xref rid="ppat.1002621-Forti1" ref-type="bibr">[20]</xref>, <xref rid="ppat.1002621-Hartkoorn1" ref-type="bibr">[21]</xref> to overexpress <italic>espR</italic> conditionally in <italic>Mtb</italic> (strain H37Rv::pMYespR; <xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4</xref>). Compared to the controls, it is noteworthy that <italic>espR</italic> over-expression significantly decreased growth after 24 h (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4A</xref>) while <italic>espR</italic> transcript and EspR protein levels were found to be &#x223C;8-fold and &#x223C;3-fold higher than in the control after 72 h, respectively (<xref ref-type="fig" rid="ppat-1002621-g004">Figs. 4C and 4B</xref>). When the relative amounts of target transcripts in untreated and pristinamycin IA-treated H37Rv::pMYespR cells were measured by quantitative RT-PCR, significantly increased transcript levels were detected for <italic>rv1490</italic>, <italic>espA</italic>, and the ABC-transporter <italic>rv0986</italic> (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4D</xref>). Conversely, repression of <italic>lipF</italic> transcription was also observed upon EspR overexpression, whereas transcription of some target genes appeared unchanged (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4D</xref>). Using a discriminatory RT-PCR assay it was possible to measure the impact of EspR overproduction on expression of the chromosomal copy of <italic>espR</italic> and, again, this appeared to act negatively (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4C</xref>).</p>
+        <fig id="ppat-1002621-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Gene expression associated with EspR binding.</title>
+            <p>(<bold>A</bold>) Growth of H37Rv::pMYespR without (&#x2212;P) or with (+P) pristinamycin IA. Growth was monitored at the designated time points measuring OD<sub>600</sub>. (<bold>B</bold>) Immunoblot analysis of EspR expression in the absence (&#x2212;P) or presence (+P) of pristinamycin IA after 3 days growth using rat polyclonal antibodies specific for EspR. Equivalent amounts of total protein lysates were loaded. (<bold>C</bold>, <bold>D</bold>) Quantitative RT-PCR analysis of relative mRNA levels extracted from H37Rv::pMYespR cells treated with 0 &#xB5;g/ml or 2 &#xB5;g/ml of pristinamycin using primers specific for the following regions: (<bold>C</bold>) the <italic>espR</italic> coding region (annealing to both endogenous and vector copies of <italic>espR</italic>) or to the 5&#x2032;-UTR region of <italic>espR</italic> (<italic>PespR</italic>) (specific to endogenous <italic>espR</italic>). (<bold>D</bold>) The coding regions of genes related to the top 10 EspR binding peaks as obtained in ChIP-Seq experiments (see <xref ref-type="table" rid="ppat-1002621-t001">Table 1</xref>). Relative gene expression was normalized against <italic>sigA</italic> and displayed as fold-induction (log-2 scale) relative to the untreated sample (0 &#xB5;g/ml pristinamycin). Shown are the mean &#xB1; s.d. of a minimum of duplicate measurements from the average of three independent experiments. Statistical significance was evaluated using Students T-test. * indicates P&lt;0.05, ** P&lt;0.01 and *** P&lt;0.001.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002621.g004"/>
+        </fig>
+        <p>The combined findings suggest that EspR is capable of both positive and negative transcriptional regulation. Moreover, the inability to observe direct EspR-dependent regulation at some major EspR binding sites suggests that EspR has no or little effect on these genes in the conditions tested or that other regulators counter-balance the effect of increased EspR levels.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Growth phase dependent expression of EspR</title>
+        <p>It has been proposed that intracellular levels of EspR are regulated via its secretion by the ESX-1 system and that blocking EspR secretion results in enhanced EspR-mediated transcriptional effects <xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref>. This suggested that the intracellular requirements for EspR could change during the growth phase of <italic>Mtb</italic> since the secretion of other ESX-1 substrates, such as EsxA (ESAT-6), is known to occur early in the growth cycle. To determine whether levels were constant or variable during growth and to estimate the number of EspR molecules per cell, kinetic experiments were performed. We monitored EspR protein levels by quantitative Western blotting at different time points corresponding to the early-log (day 2), mid-log (day 3) and stationary (days 4 and 5) phases of growth. Analysis of equivalent cell numbers showed that the intracellular concentration of EspR increases throughout the bacterial growth cycle, ranging from &#x223C;20,000 molecules at early log-phase (day 2) to &#x223C;100,000 molecules per cell at stationary phase (day 5) (<xref ref-type="fig" rid="ppat-1002621-g005">Fig. 5A</xref>). Peak cell concentration of EspR in stationary phase is consistent with the growth arrest observed upon its premature induction (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4A</xref>). To determine if this peak was due to protein accumulation or to increased expression of the <italic>espR</italic> gene, we performed quantitative RT-PCR on RNA samples isolated from cells at different time points (<xref ref-type="fig" rid="ppat-1002621-g005">Fig. 5B</xref>). Interestingly, throughout the growth cycle, the levels of <italic>espR</italic> mRNA varied in a manner inversely proportional to the amounts of EspR protein, suggesting that EspR stably accumulates in the bacteria while autorepression may limit its own gene expression at late time points.</p>
+        <fig id="ppat-1002621-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Growth phase-dependent variation of EspR intracellular levels.</title>
+            <p>Time course analysis of <italic>Mtb</italic> H37Rv at the following phases of growth: early log (day 2), mid-log (day 3) and stationary (days 4 and 5). (<bold>A</bold>) Immunoblot analysis of cell lysates (CL) from equivalent amount of cells (approx. 2*10&#x2227;7). For quantification purposes, the indicated amounts of purified EspR were electroblotted onto the same membrane as cell lysates. GroEL2 is used as a loading control and corresponding Western blot signals are used to normalize small loading discrepancies. The number of EspR molecules per cell was estimated from Western blot analysis correlated to OD<sub>600</sub> measurements, assuming that OD<sub>600</sub> 0.2&#x200A;=&#x200A;10<sup>8</sup> cells <xref rid="ppat.1002621-Tufariello1" ref-type="bibr">[40]</xref>. The results are plotted in the bottom chart, with solid circles representing optical density at 600 nm (OD<sub>600</sub>) while open squares represent the total number of EspR molecules per cell from one representative of four experiments. (<bold>B</bold>) Relative <italic>espR</italic> transcript amounts measured in total RNA harvested at the different time points by quantitative RT-PCR and normalized to <italic>sigA</italic> expression. The means and standard deviations of triplicate measurements are shown from two experiments.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002621.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2g">
+        <title>EspR is not secreted</title>
+        <p>To determine if the low intracellular levels of EspR observed at the early and mid-log phases of growth were due to intensive EspR secretion, we measured intra- and extra-cellular levels of EspR from strains <italic>Mtb</italic> H37Rv and <italic>Mtb</italic> H37Rv&#x394;RD1 cultured in Sauton's medium to mid-log phase. Under these conditions, we were unable to detect EspR among the culture filtrate (CF) proteins in either case, whereas EsxA was present in the CF of <italic>Mtb</italic> H37Rv, as expected, but not in CF from the ESX-1 mutant H37Rv&#x394;RD1 that lacks <italic>esxA</italic> among other genes (<xref ref-type="fig" rid="ppat-1002621-g006">Fig. 6A</xref>).</p>
+        <fig id="ppat-1002621-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002621.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>EspR is not a secreted protein.</title>
+            <p>(<bold>A</bold>) Immunoblot analysis of 10 &#xB5;g of culture filtrate (CF) and 5 &#xB5;g of cell lysates (CL) of wild-type H37Rv (left) and H37Rv&#x394;RD1 (right) strains grown for 4 days after transfer into Sauton's medium without Tween-80. GroEL2 was used as a control for autolysis, SodA as a loading control for CF and CL samples and EsxA as a control for ESX-1-dependent secretion. (<bold>B</bold>) Immunoblot analysis of H37Rv CL shown in (<bold>A</bold>) fractionated into cell wall/cell membrane (W/M) and cytosolic (CYT) components by ultracentrifugation. GroEL2 was used as a loading control. (<bold>C</bold>) Immunoblot analysis of Erdman CF (20 &#xB5;g) for each of the time points indicated.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002621.g006"/>
+        </fig>
+        <p>To investigate whether EspR was exported from the cytosol but retained in the cell envelope, whole cell lysate (CL) was fractionated by ultracentrifugation into the cell wall/cell membrane (W/M) and cytosolic (CYT) components. Since the chromosome is known to be attached to the plasma membrane <xref rid="ppat.1002621-Shapiro1" ref-type="bibr">[22]</xref>, half of the samples were treated with DNase I. EspR was detected in both of the untreated fractions but was mainly in the cytosol after DNase I treatment (<xref ref-type="fig" rid="ppat-1002621-g006">Fig. 6B</xref>). Since previous studies were performed with the Erdman strain of <italic>Mtb</italic>, this provided a possible explanation for the localization discrepancy. Consequently, we repeated the experiment with the <italic>Mtb</italic> Erdman strain and the ESX-1 mutant <italic>Mtb</italic> Erdman 36&#x2013;72 that fails to secrete EsxA <xref rid="ppat.1002621-Brodin1" ref-type="bibr">[23]</xref>. Again, EspR was below the level of detection in the CF of either strain, whereas EsxA appeared in the CF of <italic>Mtb</italic> Erdman (<xref ref-type="supplementary-material" rid="ppat.1002621.s007">Fig. S7</xref>). We then examined CF at different time points of Erdman cultures for the presence of EspR and the cytosolic marker GroEL2. EspR first appeared in the culture filtrate after 8 days of growth when it was accompanied by GroEL2, indicating that cell lysis had likely occurred (<xref ref-type="fig" rid="ppat-1002621-g006">Fig. 6C</xref>).</p>
+      </sec>
+      <sec id="s2h">
+        <title>Discussion</title>
+        <p>The EspR protein has attracted considerable interest because of its role in the regulation of virulence in <italic>Mtb</italic> and the remarkable, and most unusual, property of being secreted by the very secretion system ESX-1 whose expression it controls <xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref>. This has led to the suggestion that a negative feedback loop modulates EspR secretion and is critical to successful infection. Studies of the three-dimensional structure of EspR and its truncated variant, EspR&#x394;10, together with models of DNA recognition and AFM analysis of single molecule EspR nucleoprotein complexes, indicate that EspR employs an atypical DNA recognition mechanism <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>, <xref rid="ppat.1002621-Rosenberg1" ref-type="bibr">[11]</xref>. A dimer of dimers is thought to bind to DNA via one monomer of each dimer leaving the second monomer free to contact another site. Cooperative interactions then lead to multimerization and the formation of looped structures in which EspR acts as a bridge between two separated, or even remote, sites on DNA <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>, <xref rid="ppat.1002621-Rosenberg1" ref-type="bibr">[11]</xref>. Such structures are typically formed by nucleoid-associated proteins (NAPs), like H-NS and Fis <xref rid="ppat.1002621-Browning1" ref-type="bibr">[12]</xref>, <xref rid="ppat.1002621-Dame1" ref-type="bibr">[24]</xref>, <xref rid="ppat.1002621-Skoko1" ref-type="bibr">[25]</xref>. Collectively, these features led us to consider the possibility that EspR functions as a NAP rather than as a specific transcriptional activator of a limited number of genes required for pathogenesis.</p>
+        <p>To test this possibility, ChIP-Seq analysis was performed to assess the genome-wide distribution of EspR and to identify the sites and genes to which it binds. This resulted in the identification of at least 165 loci, often containing multiple peaks of EspR-binding, throughout the genome. Binding sites were distributed more or less evenly between intragenic and intergenic regions. The majority of the genes (&#x223C;50%) were involved in cell envelope functions. Among them were genes that contribute to ESX-1, ESX-2 and ESX-5-related activities, and others that contribute to mycobacterial virulence, such as <italic>lipF</italic> and the PDIM locus. Surprisingly, the latter harbored the major peak of EspR binding in the genome whereas the previously reported site preceding the <italic>espACD</italic> operon was less prominent (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref> and <xref ref-type="table" rid="ppat-1002621-t001">Table 1</xref>).</p>
+        <p>Confirmation of EspR binding to a selection of major sites was obtained <italic>in vitro</italic>, from a combination of studies performed with highly purified EspR (<xref ref-type="fig" rid="ppat-1002621-g003">Fig. 3</xref>), and <italic>in vivo</italic>, following overexpression of the protein (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4</xref>). This resulted in the definition of a consensus sequence, <named-content content-type="gene">TTTGC</named-content>[<named-content content-type="gene">TC</named-content>][<named-content content-type="gene">GA</named-content>], that agrees well with the motif predicted previously by molecular dynamic simulations, involving computation of the binding energy of the optimal interaction of EspR with the intergenic region upstream of <italic>espA</italic>
+<xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. These predictions were consistent with the findings of DNase footprinting or EMSA studies of the same locus. Using an <italic>in silico</italic> approach to scan the genome sequence &gt;1,000 potential EspR sites were found, of which 163 had been detected experimentally by ChIP-Seq. While some of the <italic>in silico</italic> predictions may be fortuitous, this does raise the possibility that occupancy of EspR-binding sites may vary with growth phase or physiological conditions and that more sites will be uncovered. Furthermore, the EspR-binding motif deduced here should be considered as a core sequence for high affinity nucleation sites from where cooperative binding between EspR dimers can initiate and extend to form long oligomers and hence reach more distant sites <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. The number of such sites and the distance between them most probably enables EspR to structure the chromosome.</p>
+        <p>The number of EspR molecules per cell was estimated by quantitative Western blotting at different stages of the growth cycle. There was a steady increase in concentration until &#x223C;100,000 molecules/cell were found at day 5. These levels are about 30-fold higher than those of well-characterized transcriptional activators, like Fnr in <italic>E. coli</italic>, but are comparable to levels of major NAPs, such as Fis or HU, during the exponential growth phase of <italic>E. coli</italic>
+<xref rid="ppat.1002621-Dillon1" ref-type="bibr">[13]</xref>, <xref rid="ppat.1002621-Azam1" ref-type="bibr">[26]</xref>. The intracellular EspR concentration is clearly in excess of that required to occupy all the experimentally detected (582) or computer predicted (1026) binding sites.</p>
+        <p>The results of subcellular fractionation of <italic>Mtb</italic> H37Rv cells from mid-log phase indicate that EspR is predominantly a cytosolic protein although it can be found attached to cell membrane-bound DNA, a trait of the nucleoid. Prior treatment of this fraction with DNase I releases most of the EspR to the cytosol (<xref ref-type="fig" rid="ppat-1002621-g006">Fig. 6B</xref>). In contrast to the findings of a previous report <xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref>, we were unable to detect the secreted form of EspR in the culture filtrates of ESX-1 proficient and deficient strains of H37Rv nor in the Erdman strains at early time points. Since EspR is a relatively abundant protein and only found in the culture filtrate together with the cytosolic marker GroEL2, we conclude that it is released via cell lysis rather than secretion mediated by ESX-1.</p>
+        <p>EspR seemingly acts as an activator or a repressor depending on its binding position relative to the genes it controls. EspR production appears to be autoregulated as the protein binds to its own promoter region and downregulates expression in certain conditions (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4C</xref>). Interaction at the <italic>espR</italic> regulatory site occurs in a contrasting manner to that seen at the <italic>espACD</italic> locus where there are three prominent binding sites situated far upstream of the promoter (<xref ref-type="fig" rid="ppat-1002621-g001">Fig. 1</xref>). Interestingly, some tubercle bacilli, including <italic>M. bovis</italic> and <italic>M. microti</italic>, have incurred the RD8 deletion in this region of the genome <xref rid="ppat.1002621-Gordon1" ref-type="bibr">[27]</xref> that completely removes the three major EspR-binding sites. Two EspR-binding sites flank the <italic>espR</italic> promoter thus evoking an autoregulatory mechanism whereby EspR forms a loop at the promoter that either occludes RNA polymerase (RNAP) or traps RNAP that has already bound. In ChIP-Seq experiments performed with RNAP-antibodies, a major polymerase binding site was localized (data not shown) that partially overlaps EspR peak <bold>a</bold> (<xref ref-type="fig" rid="ppat-1002621-g003">Fig. 3</xref>), consistent with the promoter prediction from 5&#x2032; RACE.</p>
+        <p>Loss of EspR strongly attenuates <italic>Mtb</italic>
+<xref rid="ppat.1002621-Raghavan1" ref-type="bibr">[2]</xref>, suggesting that this is due to reduced functioning of the ESX-1 system as a result of insufficient EspA levels. However, in light of the present findings, this appears to be an oversimplification as expression of the genes for several other known virulence determinants are clearly subject to EspR regulation. Foremost among these is a major locus that encodes an enzyme system required for synthesis of PDIM, and in some strains PGL, both of which contribute extensively to virulence <xref rid="ppat.1002621-Camacho1" ref-type="bibr">[16]</xref>, <xref rid="ppat.1002621-Cox1" ref-type="bibr">[17]</xref>. Another enzyme that has an important role in pathogenesis is the lipase, LipF <xref rid="ppat.1002621-Camacho1" ref-type="bibr">[16]</xref>, which has been implicated in modification of the mycobacterial cell wall as an adaptive response to acid damage <xref rid="ppat.1002621-Richter1" ref-type="bibr">[28]</xref>. LipF is also thought to degrade host lipids during infection <xref rid="ppat.1002621-Camacho1" ref-type="bibr">[16]</xref>. The EspR binding site (<xref ref-type="table" rid="ppat-1002621-t001">Table 1</xref>) located far upstream of the <italic>lipF</italic> coding sequence overlaps the previously identified 59 bp acid-inducible promoter region, situated 515 bp from the start codon <xref rid="ppat.1002621-Richter1" ref-type="bibr">[28]</xref>. Occlusion of this site by EspR would therefore explain the observed repression of <italic>lipF</italic> transcription (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4D</xref>). The <italic>lipF</italic> gene, together with a number of other EspR gene targets like <italic>fadD26</italic> and <italic>espA</italic>, is also regulated by PhoP <xref rid="ppat.1002621-GonzaloAsensio1" ref-type="bibr">[29]</xref>, <xref rid="ppat.1002621-Walters1" ref-type="bibr">[30]</xref> and CRP <xref rid="ppat.1002621-Rickman1" ref-type="bibr">[31]</xref>, frequently with opposite effects on transcription.</p>
+        <p>Regulation of transcription orchestrated by EspR seems to occur at two levels. EspR binding at promoter regions, as in the case of <italic>espR</italic> or <italic>lipF</italic>, resembles global transcriptional regulators where repression of transcription stems from occlusion of RNAP whereas activation of transcription occurs via favorable interaction with RNAP and/or other proteins. On the other hand, our genome-wide analysis revealed that more than half of the EspR-binding sites are intragenic and this refutes, at least partially, the hypothesis that EspR acts as a transcription factor <italic>per se</italic>. Moreover, EspR overexpression had little effect on some major EspR-bound genes (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4D</xref>), suggesting that EspR-binding does not necessarily affect transcription locally but rather serves as anchoring points to organize chromosome domains. NAPs with DNA-bridging activity, such as EspR, are often located at the boundaries of chromosomal domain loops <xref rid="ppat.1002621-Dillon1" ref-type="bibr">[13]</xref> where they control gene expression in a temporal or spatial manner. In many bacteria, NAP expression levels are dependent on the growth phase <xref rid="ppat.1002621-Dame1" ref-type="bibr">[24]</xref>. This is true of <italic>Mtb</italic> since low EspR levels were detected at early- and mid-log phase compared to stationary phase, and premature conditional overexpression causes growth to slow down. The interplay between different NAPs alters chromosome structure and organization thereby influencing patterns of gene expression in a temporal manner.</p>
+        <p>Lsr2 is a DNA-bridging protein that also performs NAP functions in <italic>Mtb</italic> by recognizing AT-rich and xenogeneic regions. Binding sites of Lsr2 in <italic>Mtb</italic> have been mapped by Gordon <italic>et al.</italic> using ChIP-on-chip technology <xref rid="ppat.1002621-Gordon2" ref-type="bibr">[32]</xref>. Comparison of the Lsr2 ChIP-on-chip and EspR ChIP-Seq results showed that 77% of the genes in the EspR regulon are also likely recognized by Lsr2 <xref rid="ppat.1002621-Gordon2" ref-type="bibr">[32]</xref> owing to an extensive overlap between their repertoires (<xref ref-type="supplementary-material" rid="ppat.1002621.s002">Fig. S2</xref>). For example, all three genes significantly upregulated upon EspR overexpression (<xref ref-type="fig" rid="ppat-1002621-g004">Fig. 4D</xref>) also bind Lsr2 and major ChIP-Seq peaks of EspR are located close to Lsr2 binding sites in the ChIP-on-chip enriched regions (<xref ref-type="supplementary-material" rid="ppat.1002621.s002">Fig. S2</xref>).</p>
+        <p>While Lsr2 and EspR are both subject to autoregulation there is no evidence for cross-regulation and Lsr2 seems to impact many more regions. Lsr2 has an N-terminal dimerization domain and a C-terminal DNA-binding domain whereas in EspR the opposite configuration exists. A further difference lies in the DNA recognition mechanisms since Lsr2 interacts with the minor groove while EspR binding is predicted to occur via the major groove. Together, this suggests that EspR and Lsr2 may control gene expression, including that of many cell wall functions, in a divergent manner with EspR possibly replacing Lsr2 at certain sites and vice-versa. It is striking that in all sequenced mycobacterial genomes <italic>espR</italic> is very close to the <italic>hns</italic> gene encoding another NAP <xref rid="ppat.1002621-Werlang1" ref-type="bibr">[33]</xref> and this may also indicate functional interplay. These hypotheses can be tested experimentally by using the corresponding antibodies to perform ChIP-Seq experiments on <italic>Mtb</italic> strains at different stages in the growth cycle to localize their binding sites. The contribution of other global regulators that intersect with the EspR regulon, like PhoP and CRP, should also be examined. A regulatory scheme is emerging in which growth of <italic>Mtb</italic>, and hence pathogenesis, is controlled by chromosome remodeling, effected by different NAPs, thereby resulting in pleiotropic regulation of gene expression. EspR may thus play a central role in regulating virulence gene expression analagous to that of H-NS in enteropathogenic bacteria <xref rid="ppat.1002621-Browning1" ref-type="bibr">[12]</xref>, <xref rid="ppat.1002621-Dillon1" ref-type="bibr">[13]</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="materials|methods" id="s3">
+      <title>Materials and Methods</title>
+      <sec id="s3a">
+        <title>Bacterial strains and culture conditions</title>
+        <p>
+<italic>Mycobacterium tuberculosis</italic> (<italic>Mtb</italic>) H37Rv and Erdman were grown in 7H9 Broth (Difco) supplemented with 0.2% glycerol, Middlebrook albumin-dextrose-catalase (ADC) enrichment and 0.05% Tween 80 or on solid Middlebrook 7H11 medium (Difco) supplemented with oleic acid-albumin-dextrose-catalase (OADC). <italic>Mtb</italic> cells prepared for secretion analysis and cell fractionation were grown in Sauton liquid medium. <italic>Escherichia coli</italic> BL21(DE3) was used for expression of His<sub>9</sub>-tagged EspR as described <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>.</p>
+      </sec>
+      <sec id="s3b">
+        <title>ChIP-Seq</title>
+        <p>Chromatin immunoprecipitation was performed essentially as previously described <xref rid="ppat.1002621-Sala2" ref-type="bibr">[34]</xref> but with some variations. Briefly, <italic>Mtb</italic> H37Rv cultures (50 ml) grown to OD<sub>600</sub> 0.4&#x2013;0.6 were treated with formaldehyde (final concentration 1%) for 10 min at 37&#xB0;C. Cross-linking was quenched by addition of glycine to a final concentration of 125 mM. Harvested cells were washed twice with Tris-buffered saline (20 mM Tris-HCl pH 7.5, 150 mM NaCl), re-suspended in 600 &#xB5;l Immunoprecipitation (IP) buffer (50 mM Hepes-KOH pH 7.5, 150 mM NaCl, 1 mM EDTA, 1% Triton X-100, 0.1% sodium deoxycholate, 0.1% SDS, mini-protease inhibitor cocktail (Roche)) and sonicated to shear DNA to an average size of 100&#x2013;500 bp. Insoluble cellular debris was removed by centrifugation and the supernatant used as input sample in IP experiments. 300 &#xB5;l of input was incubated with either no antibody (mock-IP) or 20 &#xB5;l of serum containing rat anti-EspR polyclonal antibodies (kindly generated by Ida Rosenkrands) and then with 50 &#xB5;l of Dynabeads sheep anti-rat IgG (Dynal Biotech) pre-saturated with 0.1 mg/ml salmon sperm DNA and 1 mg/ml Bovine Serum Albumin (BSA) in IP buffer. Washing and crosslink reversal of protein-DNA complexes, as well as purification of the resulting DNA was carried out as previously described <xref rid="ppat.1002621-Sala2" ref-type="bibr">[34]</xref>. Prior to sequencing, DNA fragment sizes were checked and enrichment was verified by gene-specific quantitative PCR (ChIP-qPCR).</p>
+      </sec>
+      <sec id="s3c">
+        <title>EspR ChIP-Seq library construction and sequencing</title>
+        <p>DNA fragments (150 to 250 bp) were selected for library construction and sequencing libraries prepared using the ChIP-Seq Sample Preparation Kit (Illumina; San Diego, California, USA; Cat. No. IP-102-1001) according to the protocol supplied with the reagents. Prior and post library construction, chromatin immunoprecipitation products were quantified using the Qubit fluorometer (Invitrogen; Carlsbad, California, USA). One lane of each library was sequenced on the Illumina Genome Analyzer IIx using the Single-Read Cluster Generation Kit v4 and 36 Cycle Sequencing Kit v4. Data were processed using the Illumina Pipeline Software v1.60.</p>
+      </sec>
+      <sec id="s3d">
+        <title>ChIP-Seq data analysis</title>
+        <p>ChIP-Seq experiments, with two independent mid-log phase cultures, generated 25.6 and 22 million reads, of which 95% could be successfully mapped to the <italic>Mtb</italic> H37Rv genome (NCBI accession NC_000962.2) using Bowtie <xref rid="ppat.1002621-Langmead1" ref-type="bibr">[35]</xref> allowing up to 3 mismatches and up to 10 hits per read. As a control, input DNA was also sequenced and mapped to the <italic>Mtb</italic> H37Rv genome to identify sequencing artifacts and calculate enrichment values. Since comparison of the two ChIP-Seq datasets showed excellent correlation in binding signals (<xref ref-type="supplementary-material" rid="ppat.1002621.s001">Fig. S1</xref>), sequenced DNA reads from both experiments were pooled together. In order to estimate the binding location in the enriched regions, we used a deconvolution algorithm that models the expected tag distribution on both strands <xref rid="ppat.1002621-Rey1" ref-type="bibr">[36]</xref>. Based on the deconvoluted profile, a score was calculated for each peak that was proportional to the read density in the peak. Considering the high genome coverage, only peaks with more than 600 reads per position were selected. Reads mapped to the forward and reverse strands were shifted (by 80 bp) and merged together to generate single peak profiles, which were visualized on the UCSC Genome Browser database <xref rid="ppat.1002621-Fujita1" ref-type="bibr">[37]</xref>. Annotation of the peaks was performed using the <italic>ChipPeakAnno</italic> package from Bioconductor <xref rid="ppat.1002621-Zhu1" ref-type="bibr">[38]</xref>. The read count at each binding region (400 bp width) was determined as the total number of reads mapping to the region divided by the length of the region normalized to the total number of mapped reads across the whole genome. The enrichment at each locus was obtained as the ratio of the average read count from the ChIP sample (from two datasets) to the read count from the input DNA sample. Peaks with an enrichment ratio lower than 1.5 were filtered out. The ChIP-Seq data files have been deposited in NCBI's Gene Expression Omnibus <xref rid="ppat.1002621-Edgar1" ref-type="bibr">[39]</xref> and can be accessed through GEO Series accession number GSE35149. Lsr2 data were retrieved from this database (accession number GSE18652).</p>
+      </sec>
+      <sec id="s3e">
+        <title>Motif detection</title>
+        <p>Sequences of 102 bp covering the center of the 582 peaks that fulfilled the peak selection criteria were extracted and used for motif analysis using MEME <xref rid="ppat.1002621-Bailey1" ref-type="bibr">[19]</xref> with motif occurrence set as &#x201C;zero or one per sequence&#x201D;, minimum width as 5 and other parameters as default. Since many EspR binding sites are found within the highly repetitive sequences belonging to <italic>pe</italic> and <italic>ppe</italic> genes, the initial motif returned by MEME was biased and reflected a <italic>pe</italic>-<italic>ppe</italic> motif. Thus, from the 582 sequences, those belonging to the <italic>pe</italic> and <italic>ppe</italic> categories were excluded, leaving 416 sequences that were reanalyzed using MEME. This led to the identification of an unbiased overrepresented motif shown in <xref ref-type="fig" rid="ppat-1002621-g002">Fig. 2</xref>. This motif was further used in FIMO (Find Individual Motif Occurences) from the MEME Suite web server <xref rid="ppat.1002621-Bailey1" ref-type="bibr">[19]</xref> to search for motif occurrence in the entire set of EspR binding sequences setting the <italic>p</italic>-value threshold to 0.001.</p>
+      </sec>
+      <sec id="s3f">
+        <title>Electrophoretic mobility shift assays (EMSA) and DNase I footprinting</title>
+        <p>EspR protein was produced and purified as previously described <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref> and used in EMSA, DNase I footprinting and quantitative Western Blot experiments, as well as to immunize rats. EspR-DNA gel retardation assays were performed as recently described <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref> using 5&#x2032;-biotin-labeled forward primers and unlabeled reverse primers in PCR reactions designed to yield DNA probes of 99 to 120 bp encompassing selected ChIP-Seq peak sequences for analysis. DNase I footprinting assay was carried out using 6-FAM-labeled probes as described in <xref rid="ppat.1002621-Blasco1" ref-type="bibr">[10]</xref>. 6-FAM-labeled forward primers and unlabeled reverse primers were used to synthesize a 361 bp DNA fragment starting 208 bp upstream of the <italic>espR</italic> translational start by PCR. The nucleotide sequences of protected regions were determined by DNA sequencing.</p>
+      </sec>
+      <sec id="s3g">
+        <title>5&#x2032; RACE</title>
+        <p>RNA was extracted from <italic>Mtb</italic> H37Rv cells in the mid-log phase. 5&#x2032; RACE was performed as previously described <xref rid="ppat.1002621-Sala2" ref-type="bibr">[34]</xref> using the 5&#x2032;/3&#x2032; RACE kit (2nd Generation, Roche) and primers specific for <italic>espA</italic> and <italic>espR</italic> for 5&#x2032;-end mapping (see <xref ref-type="supplementary-material" rid="ppat.1002621.s008">Table S1</xref>).</p>
+      </sec>
+      <sec id="s3h">
+        <title>Inducible overexpression of EspR in <italic>Mtb</italic> H37Rv</title>
+        <p>Construction of the pMYespR vector for pristinamycin IA-inducible overexpression of <italic>espR</italic> was undertaken as previously described <xref rid="ppat.1002621-Hartkoorn1" ref-type="bibr">[21]</xref>. Plasmids pMYespR and the control pMY769 were transformed into H37Rv strain by electroporation, clones were selected on 7H11 agar plates containing 100 &#xB5;g/ml spectinomycin and plasmid integration verified by PCR. The resulting H37Rv::pMYEspR strain was grown to mid-log phase (OD<sub>600</sub> 0.4&#x2013;0.6), diluted to OD<sub>600</sub>&#x200A;=&#x200A;0.1 (day 0) and split into two 30 ml volumes prior to addition of 0 or 2 &#xB5;g/ml pristinamycin IA. Cells were harvested at day 3.</p>
+        <p>For whole cell Western blot analysis, bacteria were pelleted, washed twice in PBS containing 0.05% Tween 80 and resuspended in lysis buffer (10 mM Tris pH 7.9, 500 mM NaCl, 1 mM &#x3B2;-mercaptoethanol, 5% glycerol, 0.1 mM EDTA) prior to sonication (15 min at 4&#xB0;C). Cell debris was then pelleted and the supernatant filter sterilized. After total protein quantification using Bradford reagent (Sigma), 10 &#xB5;g of cell lysates were separated by SDS-PAGE, and specific proteins visualized by immunoblot as described below.</p>
+      </sec>
+      <sec id="s3i">
+        <title>Immunoblot analysis</title>
+        <p>Proteins were separated on NuPAGE Novex 4&#x2013;12% bis-Tris gels (Invitrogen) and transferred to nitrocellulose membranes. Membranes were incubated in TNT blocking buffer (25 mM Tris pH 7.5, 150 mM NaCl, 0.05% Tween 20) with 5% w/v skim milk powder for 2 h prior to incubation with primary antibodies diluted in TNT with 1% BSA overnight. Membranes were washed in TNT five times, then incubated with secondary antibodies for 1 h before washing. Immunoblotting were performed with rat polyclonal anti-EspR antibodies (kindly provided by Ida Rosenkrands), mouse monoclonal anti-EsxA antibodies (Hyb 76-8), mouse monoclonal anti-GroEL2 antibodies (IT-70), rabbit polyclonal anti-EsxB and anti-SodA antibodies. All antibodies were used at a dilution 1&#x2236;1,000 except for anti-GroEL2 (1&#x2236;5,000), anti-EsxB (1&#x2236;500) and anti-SodA (1&#x2236;50). Horseradish peroxidase (HRP) conjugated rabbit polyclonal anti-rat IgG, rabbit polyclonal anti-mouse IgG or goat polyclonal anti-rabbit IgG secondary antibodies (Sigma) were used at dilutions of 1&#x2236;100,000. Secondary antibodies were visualized using chemiluminescent substrates (Sigma).</p>
+      </sec>
+      <sec id="s3j">
+        <title>Quantitative RT-PCR</title>
+        <p>Quantitative RT-PCR reactions were performed with the 7900HT Fast Real-Time PCR System (Applied Biosystems) with the following parameters: 50&#xB0;C for 2 min, 95&#xB0;C for 10 min, followed by 40 cycles of 95&#xB0;C for 15 s and 60&#xB0;C for 60 s. Melt curve analysis was used to confirm specific amplification for each primer pair. Threshold cycle values were determined automatically using the SDS software.</p>
+        <p>Enrichment of ChIP DNA samples was measured by quantitative RT-PCR using peak-specific primer pairs (<xref ref-type="supplementary-material" rid="ppat.1002621.s008">Table S1</xref>), IP or mock-IP DNA as template and SYBR-Green master mix (Applied Biosystems). To calculate the amount of amplified DNA, standard curves were generated for each primer pair using 10-fold dilutions of input DNA as template. All reactions were done in duplicate and averaged to determine the enrichment ratio calculated as [IP DNA]/[mock-IP DNA].</p>
+        <p>For gene expression analysis, RNA was extracted with Trizol reagent (Invitrogen) and treated with DNase I (Roche) prior to generation of the cDNA template. cDNA was synthesized using the RevertAid First Strand cDNA Synthesis Kit (Fermentas) according to the manufacturer's instructions using random hexamers primer. cDNA corresponding to 10 ng of input RNA was used in each RT-PCR reaction supplemented with specific primer pairs (200 nM each) listed in <xref ref-type="supplementary-material" rid="ppat.1002621.s008">Table S1</xref> and SYBR-Green master mix (Applied Biosystems). Relative mRNA levels were calculated using the &#x394;&#x394;Ct method, normalizing transcript levels to <italic>sigA</italic> signals and are average of three biological replicates.</p>
+      </sec>
+      <sec id="s3k">
+        <title>Time course expression analysis</title>
+        <p>
+<italic>Mtb</italic> H37Rv cells were grown to OD<sub>600</sub> 0.6 and then diluted in 100 ml with a starting OD<sub>600</sub> of 0.05 (day 0). At various time points corresponding to the early-log (day 2), mid-log (day 3) and stationary (days 4 and 5) phase of growth, the number of cells was estimated from OD<sub>600</sub> and culture aliquots were pelleted by centrifugation for RNA and protein analysis. For protein analysis, 400 to 100 &#xB5;l cell aliquots were resuspended in a 1&#xD7; NuPAGE sample buffer (Invitrogen) and boiled for 45 min. For all time points, equivalent amounts of cells were subjected to SDS-PAGE together with purified EspR protein standards (40, 30, 20, 15, 10 and 7.5 ng) and proteins detected by immunoblotting. Quantification was performed by densitometry of scanned blots using the ImageJ software. A standard curve was made from the intensity of the purified EspR bands and was shown to be linear in the 7.5 to 40 ng range. Quantification of expression levels at each time point was estimated from the standard curve after correction for small sample loading discrepancies using GroEL2 band intensity for normalization. The experiment was repeated four times and a typical immunoblot pattern of EspR expression is shown in <xref ref-type="fig" rid="ppat-1002621-g005">Fig. 5A</xref>. For transcript analysis, RNA isolation and quantitative RT-PCR was performed as described above.</p>
+      </sec>
+      <sec id="s3l">
+        <title>EspR secretion analysis</title>
+        <p>
+<italic>Mtb</italic> starter cultures were first grown in complete 7H9 broth to late-logarithmic phase (OD<sub>600</sub>&#x223C;0.8&#x2013;1). These were then used to inoculate Sauton's medium supplemented with 0.05% Tween-80, at starting OD<sub>600</sub> of 0.1. Cells were grown to mid-log phase of growth (OD<sub>600</sub>&#x223C;0.6), centrifuged, washed once with phosphate buffered saline (PBS), resuspended in a volume of Sauton's medium without Tween-80 such that the OD<sub>600</sub> was again &#x223C;0.6 then grown further at 37&#xB0;C with shaking. Cultures were harvested at required times post-transfer by centrifugation to obtain culture filtrates and cell pellets. Culture filtrates (CF) were filtered sequentially through 0.4 and 0.2 micron filters to remove any residual cells and concentrated in Vivaspin columns with 5-kDa molecular weight cut-off membranes (Sartorius Stedim Biotech GmbH, Goettingen, Germany). Cell lysates (CL) were prepared by resuspending cell pellets in lysis buffer (PBS containing Roche mini-protease inhibitor cocktail tablets) followed by bead beating with 100 micron glass beads and centrifuged. Total protein concentration of all preparations was determined using the BCA assays (Pierce) with BSA as the standard. Equivalent total protein concentrations of CF and CL were analyzed by SDS-PAGE and immunoblotting. For cell fractionation experiments, CL samples were split into two equivalent volumes and treated with either 50 &#xB5;l PBS or 50 &#xB5;l of 1,000 units/ml DNase I overnight at 4&#xB0;C. CL samples were centrifuged at 200,000 g for 4 h at 4&#xB0;C in a Beckman-Coulter ultracentrifuge (TLA-100.3 rotor) to obtain the cell wall/cell membrane (W/M) fraction. Supernatants containing the cytosolic (CYT) fractions were carefully recovered and the W/M fractions resuspended in PBS with 0.1% Triton X-100 and mini-protease inhibitor cocktail. Equivalent amounts of the different cell fractions were separated by SDS-PAGE and specific proteins were visualized by immunoblotting.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s4">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>Correlation plot showing the reproducibility of EspR ChIP-Seq.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>Comparison of EspR and Lsr2 binding sites on the <italic>Mtb</italic> genome. (A) Venn diagram showing significant overlap between the gene targets of Lsr2 <xref rid="ppat.1002621-Gordon2" ref-type="bibr">[32]</xref> as obtained by ChIP-on-chip and EspR as obtained by ChIP-Seq (this study). (B&#x2013;F) UCSC Genome Browser (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu">http://genome.ucsc.edu</ext-link>) view of selected binding profiles as determined by ChIP-Seq for EspR (green, this study) and by ChIP-on-chip for Lsr2 (red, <xref rid="ppat.1002621-Gordon2" ref-type="bibr">[32]</xref>). Shown are (B) the <italic>rv1490</italic> region; (C) the <italic>rv0986</italic>-<italic>7</italic>-<italic>8</italic> operon region; (D) the <italic>espA</italic>-<italic>ephA</italic> intergenic region; (E) the ESX-1 (<italic>rv3864</italic>-<italic>3883c</italic>) and ESX-2 (<italic>rv3884c</italic>-<italic>rv3895c</italic>) regions; and (F) the PDIM/PGL locus (<italic>rv2928</italic>-<italic>rv2962c</italic>). The GC content of <italic>Mtb</italic> H37Rv genome (in 20 bp windows) normalized to the median GC content (65.6%) and the gene positions are indicated below.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Analysis of the <italic>espA</italic> promoter. RNA extracted from <italic>Mtb</italic> H37Rv at mid-log phase was used for the 5&#x2032; RACE. Translational starts are highlighted in red with +1 corresponding to the first base of the <italic>espA</italic> open reading frame. Transcriptional start mapped by 5&#x2032; RACE is boxed and indicated by a bent arrow. &#x2212;10 and &#x2212;35 positions for putative sigma factor binding sites are indicated. ChIP-Seq peak sequences are highlighted in gray.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>Validation of 11 EspR-binding sites selected among a wide range of scores by quantitative RT-PCR. The <italic>sigA</italic> and <italic>rv0888</italic> genes, showing no peak in EspR ChIP-Seq, were used as negative controls. Plot showing log<sub>2</sub> enrichment calculated from ChIP-Seq and ChIP-qPCR experiments shows a good correlation between the output of the two experiments. The log<sub>2</sub> enrichment values have also been indicated in the table below along with additional details about the peaks. The column &#x201C;Peak feature&#x201D; indicates where the EspR-binding site is located relative to the known gene annotation. &#x201C;NA&#x201D; denotes not applicable.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>EMSA showing binding to the top five ChIP-Seq peak sequences related to the following genes: <italic>fadD26</italic>, <italic>rv1490</italic>, <italic>rv2929</italic>, <italic>pe_pgrs19</italic>, <italic>espA</italic>. A DNA fragment from within the <italic>espA</italic> coding region where no ChIP-Seq enrichment was observed was used as negative control.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s005.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>DNase I footprint at peak &#x201C;a&#x201D; of the <italic>espR</italic> promoter. Red and black peaks represent DNA incubated without or with 10 &#xB5;M EspR proteins, respectively. Both reactions were partially digested with DNase I and analysed by capillary electrophoresis in a genetic analyser (Applied Biosystems 3130xl). The corresponding sequencing reaction of the DNA fragment is shown at bottom. Regions I and II protected from DNase I digestion by EspR and regions IIa&#x394;10 and IIb&#x394;10 protected from DNase I digestion by EspR&#x394;10 are denoted by square brackets. Positions indicated are relative to the translational start.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s006.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s007">
+        <label>Figure S7</label>
+        <caption>
+          <p>Immunoblot analysis of 10 &#xB5;g of culture filtrate (CF) and 5 &#xB5;g of cell lysates (CL) of <italic>Mtb</italic> Erdman wild-type (left) and 36&#x2013;72 (transposon insertion in the <italic>pe35</italic> promoter blocking <italic>esxA</italic> expression and therefore ESX-1 function <xref rid="ppat.1002621-Brodin1" ref-type="bibr">[23]</xref>) (right); strains were grown for 4 days after transfer into Sauton's medium without Tween-80. GroEL2 was used as a control for autolysis, SodA as a loading control for CF and CL samples and EsxA as a control for ESX-1-dependent secretion.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s007.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s008">
+        <label>Table S1</label>
+        <caption>
+          <p>List of primers used in this study.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s008.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002621.s009">
+        <label>Table S2</label>
+        <caption>
+          <p>List of the EspR ChIP-Seq peaks on the <italic>Mtb</italic> H37Rv genome sorted by score (highest to lowest). Peaks are numbered by order of appearance in the genome. The column &#x201C;Feature&#x201D; indicates where the EspR-binding site is located relative to the known gene annotation. The &#x201C;Distance to feature&#x201D; column designates the distance (in bp) from the midpoint position of the calculated peak to the closest translational start site. Values in the &#x201C;Score&#x201D; column are arbitrary units proportional to the peak density. The &#x201C;Enrichment&#x201D; column represents the ratio between the average ChIP-Seq read count at a particular locus (400 bp) and the input DNA read count at that locus.</p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="ppat.1002621.s009.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Stefanie Boy and Philippe Busso for technical assistance. Antibodies against GroEL2 and SodA were received as part of the National Institutes of Health, National Institute of Allergy and Infectious Diseases contract (no. HHSN266200400091c) entitled &#x201C;Tuberculosis Vaccine Testing and Research Materials&#x201D;, awarded to Colorado State University.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>The research leading to these results has received funding from the European Community's Seventh Framework Programme ([FP7/2007-2013]) under grant agreement n&#xB0;201762, SystemsX.ch and the Swiss National Science Foundation under grant n&#xB0;31003A-125061. F.P. is a Swiss National Science Foundation MHV Post-doctoral Fellow. J.M.C. is a recipient of Canadian Thoracic Society and Canadian Institutes of Health Research Post-doctoral Fellowships. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="ppat.1002621-Homolka1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Homolka</surname><given-names>S</given-names></name><name><surname>Niemann</surname><given-names>S</given-names></name><name><surname>Russell</surname><given-names>DG</given-names></name><name><surname>Rohde</surname><given-names>KH</given-names></name></person-group>
+<year>2010</year>
+<article-title>Functional genetic diversity among Mycobacterium tuberculosis complex clinical isolates: delineation of conserved core and lineage-specific transcriptomes during intracellular survival.</article-title>
+<source>PLoS Pathog</source>
+<volume>6</volume>
+<fpage>e1000988</fpage>
+<pub-id pub-id-type="pmid">20628579</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Raghavan1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raghavan</surname><given-names>S</given-names></name><name><surname>Manzanillo</surname><given-names>P</given-names></name><name><surname>Chan</surname><given-names>K</given-names></name><name><surname>Dovey</surname><given-names>C</given-names></name><name><surname>Cox</surname><given-names>JS</given-names></name></person-group>
+<year>2008</year>
+<article-title>Secreted transcription factor controls Mycobacterium tuberculosis virulence.</article-title>
+<source>Nature</source>
+<volume>454</volume>
+<fpage>717</fpage>
+<lpage>721</lpage>
+<pub-id pub-id-type="pmid">18685700</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Fortune1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fortune</surname><given-names>SM</given-names></name><name><surname>Jaeger</surname><given-names>A</given-names></name><name><surname>Sarracino</surname><given-names>DA</given-names></name><name><surname>Chase</surname><given-names>MR</given-names></name><name><surname>Sassetti</surname><given-names>CM</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Mutually dependent secretion of proteins required for mycobacterial virulence.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>10676</fpage>
+<lpage>10681</lpage>
+<pub-id pub-id-type="pmid">16030141</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Garces1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garces</surname><given-names>A</given-names></name><name><surname>Atmakuri</surname><given-names>K</given-names></name><name><surname>Chase</surname><given-names>MR</given-names></name><name><surname>Woodworth</surname><given-names>JS</given-names></name><name><surname>Krastins</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>EspA acts as a critical mediator of ESX1-dependent virulence in Mycobacterium tuberculosis by affecting bacterial cell wall integrity.</article-title>
+<source>PLoS Pathog</source>
+<volume>6</volume>
+<fpage>e1000957</fpage>
+<pub-id pub-id-type="pmid">20585630</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Abdallah1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abdallah</surname><given-names>AM</given-names></name><name><surname>Gey van Pittius</surname><given-names>NC</given-names></name><name><surname>Champion</surname><given-names>PA</given-names></name><name><surname>Cox</surname><given-names>J</given-names></name><name><surname>Luirink</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Type VII secretion&#x2013;mycobacteria show the way.</article-title>
+<source>Nat Rev Microbiol</source>
+<volume>5</volume>
+<fpage>883</fpage>
+<lpage>891</lpage>
+<pub-id pub-id-type="pmid">17922044</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Simeone1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simeone</surname><given-names>R</given-names></name><name><surname>Bottai</surname><given-names>D</given-names></name><name><surname>Brosch</surname><given-names>R</given-names></name></person-group>
+<year>2009</year>
+<article-title>ESX/type VII secretion systems and their role in host-pathogen interaction.</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>12</volume>
+<fpage>4</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="pmid">19155186</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Bitter1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bitter</surname><given-names>W</given-names></name><name><surname>Houben</surname><given-names>EN</given-names></name><name><surname>Bottai</surname><given-names>D</given-names></name><name><surname>Brodin</surname><given-names>P</given-names></name><name><surname>Brown</surname><given-names>EJ</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Systematic genetic nomenclature for type VII secretion systems.</article-title>
+<source>PLoS Pathog</source>
+<volume>5</volume>
+<fpage>e1000507</fpage>
+<pub-id pub-id-type="pmid">19876390</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Hsu1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsu</surname><given-names>T</given-names></name><name><surname>Hingley-Wilson</surname><given-names>SM</given-names></name><name><surname>Chen</surname><given-names>B</given-names></name><name><surname>Chen</surname><given-names>M</given-names></name><name><surname>Dai</surname><given-names>AZ</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The primary mechanism of attenuation of bacillus Calmette-Guerin is a loss of secreted lytic function required for invasion of lung interstitial tissue.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>12420</fpage>
+<lpage>12425</lpage>
+<pub-id pub-id-type="pmid">14557547</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-vanderWel1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van der Wel</surname><given-names>N</given-names></name><name><surname>Hava</surname><given-names>D</given-names></name><name><surname>Houben</surname><given-names>D</given-names></name><name><surname>Fluitsma</surname><given-names>D</given-names></name><name><surname>van Zon</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>M. tuberculosis and M. leprae translocate from the phagolysosome to the cytosol in myeloid cells.</article-title>
+<source>Cell</source>
+<volume>129</volume>
+<fpage>1287</fpage>
+<lpage>1298</lpage>
+<pub-id pub-id-type="pmid">17604718</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Blasco1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blasco</surname><given-names>B</given-names></name><name><surname>Stenta</surname><given-names>M</given-names></name><name><surname>Alonso-Sarduy</surname><given-names>L</given-names></name><name><surname>Dietler</surname><given-names>G</given-names></name><name><surname>Peraro</surname><given-names>MD</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Atypical DNA recognition mechanism used by the EspR virulence regulator of Mycobacterium tuberculosis.</article-title>
+<source>Mol Microbiol</source>
+<volume>82</volume>
+<fpage>251</fpage>
+<lpage>264</lpage>
+<pub-id pub-id-type="pmid">21883526</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Rosenberg1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenberg</surname><given-names>OS</given-names></name><name><surname>Dovey</surname><given-names>C</given-names></name><name><surname>Tempesta</surname><given-names>M</given-names></name><name><surname>Robbins</surname><given-names>RA</given-names></name><name><surname>Finer-Moore</surname><given-names>JS</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>EspR, a key regulator of Mycobacterium tuberculosis virulence, adopts a unique dimeric structure among helix-turn-helix proteins.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>108</volume>
+<fpage>13450</fpage>
+<lpage>13455</lpage>
+<pub-id pub-id-type="pmid">21795602</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Browning1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Browning</surname><given-names>DF</given-names></name><name><surname>Grainger</surname><given-names>DC</given-names></name><name><surname>Busby</surname><given-names>SJ</given-names></name></person-group>
+<year>2010</year>
+<article-title>Effects of nucleoid-associated proteins on bacterial chromosome structure and gene expression.</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>13</volume>
+<fpage>773</fpage>
+<lpage>780</lpage>
+<pub-id pub-id-type="pmid">20951079</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Dillon1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dillon</surname><given-names>SC</given-names></name><name><surname>Dorman</surname><given-names>CJ</given-names></name></person-group>
+<year>2010</year>
+<article-title>Bacterial nucleoid-associated proteins, nucleoid structure and gene expression.</article-title>
+<source>Nat Rev Microbiol</source>
+<volume>8</volume>
+<fpage>185</fpage>
+<lpage>195</lpage>
+<pub-id pub-id-type="pmid">20140026</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Sala1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sala</surname><given-names>C</given-names></name><name><surname>Grainger</surname><given-names>DC</given-names></name><name><surname>Cole</surname><given-names>ST</given-names></name></person-group>
+<year>2009</year>
+<article-title>Dissecting regulatory networks in host-pathogen interaction using chIP-on-chip technology.</article-title>
+<source>Cell Host Microbe</source>
+<volume>5</volume>
+<fpage>430</fpage>
+<lpage>437</lpage>
+<pub-id pub-id-type="pmid">19454347</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Becq1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Becq</surname><given-names>J</given-names></name><name><surname>Gutierrez</surname><given-names>MC</given-names></name><name><surname>Rosas-Magallanes</surname><given-names>V</given-names></name><name><surname>Rauzier</surname><given-names>J</given-names></name><name><surname>Gicquel</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Contribution of horizontally acquired genomic islands to the evolution of the tubercle bacilli.</article-title>
+<source>Mol Biol Evol</source>
+<volume>24</volume>
+<fpage>1861</fpage>
+<lpage>1871</lpage>
+<pub-id pub-id-type="pmid">17545187</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Camacho1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Camacho</surname><given-names>LR</given-names></name><name><surname>Ensergueix</surname><given-names>D</given-names></name><name><surname>Perez</surname><given-names>E</given-names></name><name><surname>Gicquel</surname><given-names>B</given-names></name><name><surname>Guilhot</surname><given-names>C</given-names></name></person-group>
+<year>1999</year>
+<article-title>Identification of a virulence gene cluster of Mycobacterium tuberculosis by signature-tagged transposon mutagenesis.</article-title>
+<source>Mol Microbiol</source>
+<volume>34</volume>
+<fpage>257</fpage>
+<lpage>267</lpage>
+<pub-id pub-id-type="pmid">10564470</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Cox1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cox</surname><given-names>JS</given-names></name><name><surname>Chen</surname><given-names>B</given-names></name><name><surname>McNeil</surname><given-names>M</given-names></name><name><surname>Jacobs</surname><given-names>WR</given-names><suffix>Jr</suffix></name></person-group>
+<year>1999</year>
+<article-title>Complex lipid determines tissue-specific replication of Mycobacterium tuberculosis in mice.</article-title>
+<source>Nature</source>
+<volume>402</volume>
+<fpage>79</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="pmid">10573420</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Cole1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cole</surname><given-names>ST</given-names></name><name><surname>Brosch</surname><given-names>R</given-names></name><name><surname>Parkhill</surname><given-names>J</given-names></name><name><surname>Garnier</surname><given-names>T</given-names></name><name><surname>Churcher</surname><given-names>C</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Deciphering the biology of <italic>Mycobacterium tuberculosis</italic> from the complete genome sequence.</article-title>
+<source>Nature</source>
+<volume>393</volume>
+<fpage>537</fpage>
+<lpage>544</lpage>
+<pub-id pub-id-type="pmid">9634230</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Bailey1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bailey</surname><given-names>TL</given-names></name><name><surname>Boden</surname><given-names>M</given-names></name><name><surname>Buske</surname><given-names>FA</given-names></name><name><surname>Frith</surname><given-names>M</given-names></name><name><surname>Grant</surname><given-names>CE</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>MEME SUITE: tools for motif discovery and searching.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>37</volume>
+<fpage>W202</fpage>
+<lpage>208</lpage>
+<pub-id pub-id-type="pmid">19458158</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Forti1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forti</surname><given-names>F</given-names></name><name><surname>Crosta</surname><given-names>A</given-names></name><name><surname>Ghisotti</surname><given-names>D</given-names></name></person-group>
+<year>2009</year>
+<article-title>Pristinamycin-inducible gene regulation in mycobacteria.</article-title>
+<source>J Biotechnol</source>
+<volume>140</volume>
+<fpage>270</fpage>
+<lpage>277</lpage>
+<pub-id pub-id-type="pmid">19428723</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Hartkoorn1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hartkoorn</surname><given-names>RC</given-names></name><name><surname>Sala</surname><given-names>C</given-names></name><name><surname>Magnet</surname><given-names>SJ</given-names></name><name><surname>Chen</surname><given-names>JM</given-names></name><name><surname>Pojer</surname><given-names>F</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Sigma factor F does not prevent rifampin inhibition of RNA polymerase or cause rifampin tolerance in Mycobacterium tuberculosis.</article-title>
+<source>J Bacteriol</source>
+<volume>192</volume>
+<fpage>5472</fpage>
+<lpage>5479</lpage>
+<pub-id pub-id-type="pmid">20729364</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Shapiro1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shapiro</surname><given-names>L</given-names></name><name><surname>McAdams</surname><given-names>HH</given-names></name><name><surname>Losick</surname><given-names>R</given-names></name></person-group>
+<year>2009</year>
+<article-title>Why and how bacteria localize proteins.</article-title>
+<source>Science</source>
+<volume>326</volume>
+<fpage>1225</fpage>
+<lpage>1228</lpage>
+<pub-id pub-id-type="pmid">19965466</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Brodin1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brodin</surname><given-names>P</given-names></name><name><surname>Majlessi</surname><given-names>L</given-names></name><name><surname>Marsollier</surname><given-names>L</given-names></name><name><surname>de Jonge</surname><given-names>MI</given-names></name><name><surname>Bottai</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Dissection of ESAT-6 system 1 of Mycobacterium tuberculosis and impact on immunogenicity and virulence.</article-title>
+<source>Infect immun</source>
+<volume>74</volume>
+<fpage>88</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">16368961</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Dame1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dame</surname><given-names>RT</given-names></name></person-group>
+<year>2005</year>
+<article-title>The role of nucleoid-associated proteins in the organization and compaction of bacterial chromatin.</article-title>
+<source>Mol Microbiol</source>
+<volume>56</volume>
+<fpage>858</fpage>
+<lpage>870</lpage>
+<pub-id pub-id-type="pmid">15853876</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Skoko1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Skoko</surname><given-names>D</given-names></name><name><surname>Yoo</surname><given-names>D</given-names></name><name><surname>Bai</surname><given-names>H</given-names></name><name><surname>Schnurr</surname><given-names>B</given-names></name><name><surname>Yan</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Mechanism of chromosome compaction and looping by the Escherichia coli nucleoid protein Fis.</article-title>
+<source>J Mol Biol</source>
+<volume>364</volume>
+<fpage>777</fpage>
+<lpage>798</lpage>
+<pub-id pub-id-type="pmid">17045294</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Azam1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Azam</surname><given-names>TA</given-names></name><name><surname>Iwata</surname><given-names>A</given-names></name><name><surname>Nishimura</surname><given-names>A</given-names></name><name><surname>Ueda</surname><given-names>S</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Growth phase-dependent variation in protein composition of the Escherichia coli nucleoid.</article-title>
+<source>J Bacteriol</source>
+<volume>181</volume>
+<fpage>6361</fpage>
+<lpage>6370</lpage>
+<pub-id pub-id-type="pmid">10515926</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Gordon1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gordon</surname><given-names>SV</given-names></name><name><surname>Brosch</surname><given-names>R</given-names></name><name><surname>Billault</surname><given-names>A</given-names></name><name><surname>Garnier</surname><given-names>T</given-names></name><name><surname>Eiglmeier</surname><given-names>K</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Identification of variable regions in the genomes of tubercle bacilli using bacterial artificial chromosome arrays.</article-title>
+<source>Mol Microbiol</source>
+<volume>32</volume>
+<fpage>643</fpage>
+<lpage>655</lpage>
+<pub-id pub-id-type="pmid">10320585</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Richter1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Richter</surname><given-names>L</given-names></name><name><surname>Tai</surname><given-names>W</given-names></name><name><surname>Felton</surname><given-names>J</given-names></name><name><surname>Saviola</surname><given-names>B</given-names></name></person-group>
+<year>2007</year>
+<article-title>Determination of the minimal acid-inducible promoter region of the lipF gene from Mycobacterium tuberculosis.</article-title>
+<source>Gene</source>
+<volume>395</volume>
+<fpage>22</fpage>
+<lpage>28</lpage>
+<pub-id pub-id-type="pmid">17434691</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-GonzaloAsensio1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonzalo-Asensio</surname><given-names>J</given-names></name><name><surname>Mostowy</surname><given-names>S</given-names></name><name><surname>Harders-Westerveen</surname><given-names>J</given-names></name><name><surname>Huygen</surname><given-names>K</given-names></name><name><surname>Hernandez-Pando</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>PhoP: a missing piece in the intricate puzzle of Mycobacterium tuberculosis virulence.</article-title>
+<source>PLoS ONE</source>
+<volume>3</volume>
+<fpage>e3496</fpage>
+<pub-id pub-id-type="pmid">18946503</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Walters1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walters</surname><given-names>SB</given-names></name><name><surname>Dubnau</surname><given-names>E</given-names></name><name><surname>Kolesnikova</surname><given-names>I</given-names></name><name><surname>Laval</surname><given-names>F</given-names></name><name><surname>Daffe</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The Mycobacterium tuberculosis PhoPR two-component system regulates genes essential for virulence and complex lipid biosynthesis.</article-title>
+<source>Mol Microbiol</source>
+<volume>60</volume>
+<fpage>312</fpage>
+<lpage>330</lpage>
+<pub-id pub-id-type="pmid">16573683</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Rickman1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rickman</surname><given-names>L</given-names></name><name><surname>Scott</surname><given-names>C</given-names></name><name><surname>Hunt</surname><given-names>DM</given-names></name><name><surname>Hutchinson</surname><given-names>T</given-names></name><name><surname>Menendez</surname><given-names>MC</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>A member of the cAMP receptor protein family of transcription regulators in Mycobacterium tuberculosis is required for virulence in mice and controls transcription of the rpfA gene coding for a resuscitation promoting factor.</article-title>
+<source>Mol Microbiol</source>
+<volume>56</volume>
+<fpage>1274</fpage>
+<lpage>1286</lpage>
+<pub-id pub-id-type="pmid">15882420</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Gordon2">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gordon</surname><given-names>BR</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>L</given-names></name><name><surname>Sintsova</surname><given-names>A</given-names></name><name><surname>van Bakel</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Lsr2 is a nucleoid-associated protein that targets AT-rich sequences and virulence genes in Mycobacterium tuberculosis.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>107</volume>
+<fpage>5154</fpage>
+<lpage>5159</lpage>
+<pub-id pub-id-type="pmid">20133735</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Werlang1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Werlang</surname><given-names>IC</given-names></name><name><surname>Schneider</surname><given-names>CZ</given-names></name><name><surname>Mendonca</surname><given-names>JD</given-names></name><name><surname>Palma</surname><given-names>MS</given-names></name><name><surname>Basso</surname><given-names>LA</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Identification of Rv3852 as a nucleoid-associated protein in Mycobacterium tuberculosis.</article-title>
+<source>Microbiology</source>
+<volume>155</volume>
+<fpage>2652</fpage>
+<lpage>2663</lpage>
+<pub-id pub-id-type="pmid">19477901</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Sala2">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sala</surname><given-names>C</given-names></name><name><surname>Haouz</surname><given-names>A</given-names></name><name><surname>Saul</surname><given-names>FA</given-names></name><name><surname>Miras</surname><given-names>I</given-names></name><name><surname>Rosenkrands</surname><given-names>I</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Genome-wide regulon and crystal structure of BlaI (Rv1846c) from Mycobacterium tuberculosis.</article-title>
+<source>Mol Microbiol</source>
+<volume>71</volume>
+<fpage>1102</fpage>
+<lpage>1116</lpage>
+<pub-id pub-id-type="pmid">19154333</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Langmead1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Langmead</surname><given-names>B</given-names></name><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Pop</surname><given-names>M</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>
+<year>2009</year>
+<article-title>Ultrafast and memory-efficient alignment of short DNA sequences to the human genome.</article-title>
+<source>Genome Biol</source>
+<volume>10</volume>
+<fpage>R25</fpage>
+<pub-id pub-id-type="pmid">19261174</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Rey1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rey</surname><given-names>G</given-names></name><name><surname>Cesbron</surname><given-names>F</given-names></name><name><surname>Rougemont</surname><given-names>J</given-names></name><name><surname>Reinke</surname><given-names>H</given-names></name><name><surname>Brunner</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Genome-wide and phase-specific DNA-binding rhythms of BMAL1 control circadian output functions in mouse liver.</article-title>
+<source>PLoS Biol</source>
+<volume>9</volume>
+<fpage>e1000595</fpage>
+<pub-id pub-id-type="pmid">21364973</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Fujita1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fujita</surname><given-names>PA</given-names></name><name><surname>Rhead</surname><given-names>B</given-names></name><name><surname>Zweig</surname><given-names>AS</given-names></name><name><surname>Hinrichs</surname><given-names>AS</given-names></name><name><surname>Karolchik</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>The UCSC Genome Browser database: update 2011.</article-title>
+<source>Nucleic acids res</source>
+<volume>39</volume>
+<fpage>D876</fpage>
+<lpage>882</lpage>
+<pub-id pub-id-type="pmid">20959295</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Zhu1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhu</surname><given-names>LJ</given-names></name><name><surname>Gazin</surname><given-names>C</given-names></name><name><surname>Lawson</surname><given-names>ND</given-names></name><name><surname>Pages</surname><given-names>H</given-names></name><name><surname>Lin</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>ChIPpeakAnno: a Bioconductor package to annotate ChIP-seq and ChIP-chip data.</article-title>
+<source>BMC bioinformatics</source>
+<volume>11</volume>
+<fpage>237</fpage>
+<pub-id pub-id-type="pmid">20459804</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Edgar1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edgar</surname><given-names>R</given-names></name><name><surname>Domrachev</surname><given-names>M</given-names></name><name><surname>Lash</surname><given-names>AE</given-names></name></person-group>
+<year>2002</year>
+<article-title>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository.</article-title>
+<source>Nucleic acids res</source>
+<volume>30</volume>
+<fpage>207</fpage>
+<lpage>210</lpage>
+<pub-id pub-id-type="pmid">11752295</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002621-Tufariello1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tufariello</surname><given-names>JM</given-names></name><name><surname>Jacobs</surname><given-names>WR</given-names><suffix>Jr</suffix></name><name><surname>Chan</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Individual Mycobacterium tuberculosis resuscitation-promoting factor homologues are dispensable for growth in vitro and in vivo.</article-title>
+<source>Infect immun</source>
+<volume>72</volume>
+<fpage>515</fpage>
+<lpage>526</lpage>
+<pub-id pub-id-type="pmid">14688133</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

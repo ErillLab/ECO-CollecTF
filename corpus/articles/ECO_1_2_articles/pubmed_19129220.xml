@@ -1,0 +1,1083 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19129220</article-id>
+      <article-id pub-id-type="pmc">2651793</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkn1052</article-id>
+      <article-id pub-id-type="publisher-id">gkn1052</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Molecular Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Oxidation of a single active site suffices for the functional inactivation of the dimeric <italic>Bacillus subtilis</italic> OhrR repressor <italic>in vitro</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eiamphungporn</surname>
+            <given-names>Warawan</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Soonsanga</surname>
+            <given-names>Sumarin</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>Jin-Won</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Helmann</surname>
+            <given-names>John D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="AFF1"><sup>1</sup>Department of Microbiology, Cornell University, Ithaca, NY 14853-8101, USA and <sup>2</sup>Department of Life Science, Hanyang University, Seoul, South Korea</aff>
+      <author-notes>
+        <corresp id="COR1">*To whom correspondence should be addressed. Tel: <phone>+1 607 255 6570</phone>; Fax: <fax>+1 607 255 3904</fax>; Email: <email>jdh9@cornell.edu</email></corresp>
+        <fn>
+          <p>Present address: Sumarin Soonsanga, Engineering Laboratory, National Center for Genetic Engineering and Biotechnology, 113 Thailand Science Park, Phahonyothin Road, Klong 1, Klong Luang, Pathumthani 12120, Thailand</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>7</day>
+        <month>1</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>7</day>
+        <month>1</month>
+        <year>2009</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>37</volume>
+      <issue>4</issue>
+      <fpage>1174</fpage>
+      <lpage>1181</lpage>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>10</month>
+          <year>2008</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>16</day>
+          <month>12</month>
+          <year>2008</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>12</month>
+          <year>2008</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2009 The Author(s)</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/2.0/uk/">
+          <license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/2.0/uk/">http://creativecommons.org/licenses/by-nc/2.0/uk/</ext-link>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><italic>Bacillus subtilis</italic> OhrR is a dimeric repressor that senses organic peroxides and regulates the expression of the OhrA peroxiredoxin. Derepression results from oxidation of an active site cysteine which ultimately results in formation of a mixed disulfide with a low molecular weight thiol, a cyclic sulfenamide, or overoxidation to the sulfinic or sulfonic acids. We expressed a single-chain OhrR (scOhrR) in which the two monomers were connected by a short amino-acid linker. scOhrR variants containing only one active site cysteine were fully functional as repressors and still responded, albeit with reduced efficacy, to organic peroxides <italic>in vivo</italic>. Biochemical analyses indicate that oxidation at a single active site is sufficient for derepression regardless of the fate of the active site cysteine. scOhrR with only one active site cysteine in the amino-terminal domain is inactivated at rates comparable to wild-type whereas when the active site is in the carboxyl-terminal domain the protein is inactivated much more slowly. The incomplete derepression noted for single active site variants of scOhrR <italic>in vivo</italic> is consistent with the hypothesis that protein reduction regenerates active repressor and that, in the cell, oxidation of the second active site may also contribute to derepression.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body><sec><title>INTRODUCTION</title><p><italic>Bacillus subtilis</italic> OhrR is a homodimeric repressor protein in both the DNA-bound and unbound states (<xref ref-type="bibr" rid="B1">1</xref>). When cells are exposed to low levels of organic peroxides, OhrR is functionally inactivated, leading to the derepression of the <italic>ohrA</italic>-encoded thiol peroxidase (<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>). <italic>B. subtilis</italic> OhrR is the prototype for a subgroup of organic peroxide-sensing repressors that have a single cysteine residue in each monomer (the 1-Cys family). In contrast, <italic>Xanthomonas campestris</italic> OhrR is representative of those family members that have an additional cysteine near the carboxy-terminus that can react with the active site cysteine to form an intersubunit disulfide (2-Cys family) (<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref>).</p><p>OhrR proteins are, at the structural level, the best characterized members of the MarR (multiple-antibiotic resistance) family of winged helix-turn-helix DNA-binding proteins. High resolution structural data are available for <italic>B. subtilis</italic> OhrR in both the free and DNA-bound states (<xref ref-type="bibr" rid="B1">1</xref>) and for <italic>X. campestris</italic> OhrR in both the oxidized and reduced states (<xref ref-type="bibr" rid="B6">6</xref>). Additional members of this family that also use a cysteine-based redox-sensing mechanism include the <italic>Staphylococcus aureus</italic> MgrA virulence regulator and the <italic>Pseudomonas aeruginosa</italic> MexR regulator (<xref ref-type="bibr" rid="B7 B8 B9">7&#x2013;9</xref>). More distantly related members of the MarR family for which structural information is available include the <italic>Escherichia coli</italic> and <italic>Methanobacterium thermoautotrophicum</italic> MarR repressors (<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>). While these proteins all function as dimeric, DNA-binding proteins that respond to ligands (or oxidants), the stoichiometry and consequences of ligand interaction differ significantly between systems. For example, MarR proteins bind up to two salicylates per monomer, although the physiological relevance of the various binding sites observed in the crystal structures has been controversial (<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>). Conversely, <italic>P. aeruginosa</italic> MexR binds one molecule of peptide inducer (ArmR) per dimer (<xref ref-type="bibr" rid="B9">9</xref>).</p><p>Previous biochemical and structural analyses have demonstrated that oxidation of OhrR can lead to a number of chemically distinct outcomes (<xref ref-type="bibr" rid="B13">13</xref>). Indeed, oxidation can be either reversible or irreversible depending on the oxidant and the solution conditions (<xref ref-type="bibr" rid="B14">14</xref>). Initially, organic hydroperoxides react with the lone cysteine residue in <italic>B. subtilis</italic> OhrR, C15, to generate the cysteine sulfenic acid (-SOH) derivative (<xref ref-type="bibr" rid="B3">3</xref>) which, however, retains DNA-binding activity (<xref ref-type="bibr" rid="B13">13</xref>). The functional inactivation of the protein requires further reaction of the sulfenate to form any of a number of possible products. For example, in cells treated with cumene hydroperoxide (CHP), OhrR accumulates as a mixture of S-thiolated protein (mixed disulfides with cysteine and other low molecular weight thiols) and protein that contains a cyclic sulfenamide (a product in which the sulfenate condenses with a neighboring backbone amide). Both of these products can be reduced by reaction with thiol reductants thereby regenerating active repressor (<xref ref-type="bibr" rid="B13">13</xref>). In contrast, in cells treated with linoleic acid hydroperoxide (LHP), OhrR accumulates largely as the overoxidized protein in which the sulfenate is irreversibly oxidized to the sulfinic and sulfonic acids (<xref ref-type="bibr" rid="B14">14</xref>). We have also demonstrated that introduction of a second cysteine residue into the carboxyl-terminal region of OhrR, at positions analogous to those seen in 2-Cys family members, converts <italic>B. subtilis</italic> OhrR to a protein that rapidly forms intersubunit disulfides upon exposure to oxidant (<xref ref-type="bibr" rid="B15">15</xref>).</p><p>We have monitored the products of OhrR oxidation and correlated the oxidation states of the protein with activity using both <italic>in vivo</italic> and <italic>in vitro</italic> assays. Our results indicate that the C15 residues in both monomers of the dimer can be simultaneously oxidized. Specifically, mass spectrometry studies indicate (i) quantitative S-cysteinylation of C15 <italic>in vitro</italic> in protein treated with CHP in the presence of cysteine, (ii) quantitative C15 oxidation <italic>in vivo</italic> as judged by a lack of residual reactivity with iodoacetamide and (iii) formation of two intersubunit disulfide bonds in protein dimers engineered to contain a second, carboxyl-terminal Cys residue that can trap the C15 sulfenate as a disulfide (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B16">16</xref>). Furthermore, structural analysis of the oxidized <italic>X. campestris</italic> OhrR revealed the simultaneous formation of two intersubunit disulfide bonds (<xref ref-type="bibr" rid="B6">6</xref>). These results indicate that oxidation of OhrR can occur at both active sites and that any conformational changes elicited by the first oxidation event do not preclude a second oxidation event. However, these results do not address the question of whether a singly oxidized protein dimer is functional as a repressor.</p><p>Here, we report analyses of single-chain OhrR variants (scOhrR) in which the two monomers are fused into a single protein chain by addition of a short amino-acid linker. We have monitored both protein oxidation (using mass spectrometry) and functional inactivation (using a fluorescence-based DNA-binding assay) of wild-type scOhrR (WT-WT), variants that contain only a single active site C15 residue, and a variant that additionally contains an introduced cysteine to enable formation of a protein disulfide. In aggregate, our results indicate that oxidation of a single active site in the scOhrR proteins is sufficient to inactivate the repressor <italic>in vitro</italic>. However, scOhrR variants with only a single active site do not respond as well as wild-type scOhrR to oxidant <italic>in vivo</italic>, implying that the second oxidation event is important for generating and/or maintaining the induced state in the cellular environment.</p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Expression of scOhrR dimers in <italic>B. subtilis</italic></title><p>Both monomeric wild-type and the scOhrR variants were expressed in <italic>B. subtilis</italic> using the integational plasmid pDG1731 (<xref ref-type="bibr" rid="B17">17</xref>). Plasmid constructs were integrated by double crossover recombination into the <italic>thrC</italic> locus and each protein was expressed under the control of its native promoter elements. Monomeric OhrR was expressed from the integrational plasmid pDG1731-<italic>ohrR</italic> which recombines by double-crossover recombination into the <italic>thrC</italic> locus.</p><p>For expression of scOhrR variants we followed the construction strategy presented by Lee <italic>et al.</italic> (<xref ref-type="bibr" rid="B18">18</xref>). The first <italic>ohrR</italic> copy with a 5-amino-acid (GGGGS) linker was PCR-amplified using primer #2437 (5&#x2032;-CTTTCT<underline>AAGCTT</underline>TTTAAACATGCTATG-3&#x2032;, HindIII site underlined) and #3147 (5&#x2032;-TTCCATCGATCCTCCTCCTC<italic>CAT</italic>TTTTTTGATGAAGTGTTTCCAGTAA-3&#x2032;; complement of <italic>ohrR</italic> stop codon italicized) with pDG1731-<italic>ohrR</italic> as template. The resulting product includes 91 bp of DNA upstream of the <italic>ohrR</italic> coding sequence including the promoter site (<xref ref-type="bibr" rid="B3">3</xref>). The second copy of <italic>ohrR</italic> was amplified using primer #3148 (5&#x2032;-AAAAATGGAGGAGGAGGATCG<italic>ATG</italic>GAAAATAAATTTGATCATATGAAA-3&#x2032;, <italic>ohrR</italic> start codon italicized) and #2621 (5&#x2032;-GACACTT<underline>GAATTC</underline>GCTGAATAAATAAA-3&#x2032;, EcoRI site underlined). A similar strategy was used to introduce a 10-amino-acid linker using primers #3400 (5&#x2032;-CATCGATCCTCCTCCTCCCGATCCTCCTCCTCCATTTTTTTGATGAAGTGTTTCCAGTA-3&#x2032;) and #3401 (5&#x2032;-AATGGAGGAGGAGGATCGGGAGGAGGAGGATCGATGGAAAATAAATTTGATCATATGAA-3&#x2032;). The fused-<italic>ohrR</italic> gene was generated in a joining PCR reaction containing both <italic>ohrR</italic> copies, and primers #2437 and #2621. The reaction was denatured at 95&#xB0;C for 3 min, followed by 10 cycles of 95&#xB0;C for 30 s, 55&#xB0;C for 5 min, and extension at 72&#xB0;C for 1 min 15 s. This was followed by 20 cycles of 95&#xB0;C for 30 s, 47&#xB0;C for 30 s, and extension at 72&#xB0;C for 2 min 30 s. The desired PCR product was gel purified, digested with HindIII and EcoRI, and cloned into pDG1731 (<xref ref-type="bibr" rid="B17">17</xref>). The resulting plasmid was integrated into <italic>thrC</italic> in strain HB2013 [CU1065 SP<italic>&#x3B2;c</italic>2&#x394;2::Tn<italic>917</italic>::(<italic>ohrA-cat-lacZ</italic>) <italic>ohrR::kan</italic>; (<xref ref-type="bibr" rid="B3">3</xref>)]. The sequences of the fused-<italic>ohrR</italic> genes were verified by sequencing. For construction of the C15S scOhrR variants, a previously described site-directed mutant (<xref ref-type="bibr" rid="B19">19</xref>) was used as the template for PCR amplification as described above. To construct the C15S,G120C double mutant, the pDG1731-based plasmid expressing the C15S-WT scOhrR protein was used as template for site-directed mutagenesis using previously described primers to introduce the G120C mutation (<xref ref-type="bibr" rid="B15">15</xref>).</p></sec><sec><title>Transcription fusion analysis</title><p>Cells were grown in Luria broth at 37&#xB0;C with aeration until OD<sub>600</sub> &#x223C; 0.4. The cells were either untreated or treated with 100 &#x3BC;M CHP or 5 &#xB5;M LHP for 15 min which had previously been determined to be the optimal concentrations for <italic>in vivo</italic> responsiveness (<xref ref-type="bibr" rid="B14">14</xref>). Samples were harvested and assayed for &#x3B2;-galactosidase activity (<xref ref-type="bibr" rid="B20">20</xref>).</p></sec><sec><title>scOhrR overexpression and purification</title><p>The fused-<italic>ohrR</italic> genes were PCR-amplified by using primers #527 (5&#x2032;-GGTGAACA<underline>CCATGG</underline>AAAATAAATT-3&#x2032;; NcoI site containg <italic>ohrR</italic> start codon underlined) and #528 (5&#x2032;-CC<underline>GGATCC</underline>GTTGCTGAATAAATAAA-3&#x2032;; BamHI site underlined), and were cloned into pET16b (Novagen) and verified by DNA sequencing. The scOhrR proteins were overexpressed in <italic>E. coli</italic> BL21/DE3(pLysS) (Novagen) and purified as previously described for the dimeric repressor (<xref ref-type="bibr" rid="B19">19</xref>). Purified proteins were &gt;90% pure as judged by coomassie-stained SDS&#x2013;PAGE (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkn1052/DC1">Supplementary Figure S1</ext-link>).</p></sec><sec><title>Northern analysis</title><p>Total RNA was isolated from mid-logarithmic cells (OD<sub>600</sub> &#x223C; 0.4), which were either untreated or treated with 100 &#x3BC;M CHP for 15 min, using an RNeasy mini kit (Qiagen) following the manufacturer's protocol. Ten micrograms of total RNA was run on a 1% formaldehyde denaturing gel using NorthernMax denaturing gel buffer and running buffer (Ambion). The RNA was transferred to Zeta-Probe blotting membrane (Bio-Rad) using 10 &#xD7; SSC (1 &#xD7; SSC is 0.15 M NaCl plus 0.015 M sodium citrate) and prehybridized at 42&#xB0;C for 1 h. The <italic>ohrA</italic> probe was amplified with forward primer (#4268; 5&#x2032;-CTTGAGCTTGATGTCGCAAT-3&#x2032;) and reverse primer (#4269; 5&#x2032;-CAATTCTGATGCACTGACTC-3&#x2032;) and end-labeled with T4 polynucleotide kinase (New England Biolabs) using [&#x3B3;-<sup>32</sup>P]ATP. Hybridization of the probe was performed with ULTRAhyd (Ambion) overnight at 42&#xB0;C, and the membrane was washed twice with a 2 &#xD7; SSPE (1 &#xD7; SSPE is 0.18 M NaCl, 10 mM NaH<sub>2</sub>PO<sub>4</sub>, and 1 mM EDTA, pH 7.7; Ambion) low-stringency wash for 5 min at room temperature and once with a 0.1 &#xD7; SSPE high-stringency wash for 15 min at 42&#xB0;C, before detection of the signal using a PhosphorImager (GE Healthcare).</p></sec><sec><title>Electrospray ionization&#x2013;mass spectrometry (ESI&#x2013;MS) analysis</title><p>One milliliter of reaction mixture was mixed with 110 &#x3BC;l of 100% TCA and proteins were recovered by centrifugation at 16 100 &#xD7; <italic>g</italic> for 10 min. After additional washing with 10% TCA, samples were dissolved in 30 &#x3BC;l of 2% acetic acid (v/v) and 50% methanol (v/v) and analyzed with an Esquire-LC ion trap mass spectrometer (Bruker, Billerica, MA). The spectra were deconvoluted by using the Daltoniks Data Analysis program (Bruker).</p></sec><sec><title>Fluorescence anisotropy (FA)</title><p>A 6-carboxyfluorescein-(6F-)-labeled DNA fragment containing the <italic>ohrA</italic> operator site was generated by annealing 5&#x2032;-6F-TACAATTAAATTGTATACAATTAAATTGTA-3&#x2032; (Integrated DNA technologies) and its unlabeled complementary strand. FA measurements (<italic>&#x3BB;</italic><sub>ex</sub> = 495 nM; slit width = 15 nM, <italic>&#x3BB;</italic><sub>em</sub> = 520 nM; slit width = 20 nM, integration time = 1 s) were performed with 50 nM DNA and 300 nM scOhrR in 3 ml of 20 mM Tris (pH 8.0) containing 150 mM NaCl, and 5% (v/v) glycerol. FA values were recorded automatically every 10 s. using a Perkin&#x2013;Elmer LS55 luminescence spectrometer. The g-factor for the experiments was 1.07 &#xB1; 0.01.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Peroxide-sensing by single-chain OhrR repressor proteins (scOhrR)</title><p>To determine whether oxidation of one or two active sites (per dimer) is required for the functional inactivation of OhrR we generated a single chain OhrR (scOhrR) in which the two protein monomers were linked by a 5-amino-acid linker (<xref ref-type="fig" rid="F1">Figure 1</xref>) or a 10-amino-acid linker (which yielded comparable results; data not shown). Four different scOhrR variants were characterized. One contained two wild-type OhrR domains (WT-WT), one contained a C15S substitution mutation in the amino-terminal domain (C15S-WT) and another in the carboxyl-terminal domain (WT-C15&#x2032;S; where the prime indicates residues from the C-terminal, momomer domain), and one contained two mutations in the amino-terminal domain (C15S,G120C-WT) to allow formation of a disulfide bond upon oxidation as previously reported (<xref ref-type="bibr" rid="B15">15</xref>). The single-chain repressors were expressed under the control of their native promoter and regulatory elements from a plasmid integrated in single copy into the <italic>thrC</italic> locus.
+<fig id="F1" position="float"><label>Figure 1.</label><caption><p>Ribbon structure of scOhrR. The protein structure, based on the solved crystal structure (<xref ref-type="bibr" rid="B1">1</xref>) is shown in a side view (<bold>A</bold>) and top view (<bold>B</bold>) with the DNA-binding helices located at the bottom in (A). The first monomer is shown in green and the second in blue. The active site C15 residues are in yellow and circled. The dotted line represents a linker between the C-terminus of the first monomer and the N-terminus of the second monomer. Note that only residues Met8 through His144 were visible in the crystal structure (out of 147 residues), so the N- and C-termini are not accurately defined in this model. In (B), the active sites from the N- and C-terminal monomers are indicated. The linker contains five amino acids (GGGGS) (5L) or two repeats of this sequence in the 10L variants.</p></caption><graphic xlink:href="gkn1052f1"/></fig></p><p>To monitor the activity of the scOhrR proteins, we used an integrated <italic>ohrA-lacZ</italic> reporter fusion as described (<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B16">16</xref>). All four scOhrR repressors were fully functional as repressors as judged by complementation of the <italic>ohrR</italic> mutant strain (<xref ref-type="fig" rid="F2">Figure 2</xref>). The WT-WT scOhrR responded normally to organic peroxides <italic>in vivo</italic> as compared to the monomeric OhrR (expressed from the integrational plasmid pDG1731-OhrR). In contrast, those scOhrR variants that retained only a single active site cysteine were significantly reduced in their ability to respond to CHP. This relatively poor responsiveness was observed regardless of which monomer domain contained the active site C15 residue (<xref ref-type="fig" rid="F2">Figure 2</xref>A) and was observed with both the 5 and 10 amino-acid linkers (data not shown). The scOhrR with the active site within the C-terminal domain responded better to oxidant under all conditions tested. When cells were treated with LHP, a similar pattern of responsiveness was observed, and in this case the C15S-WT scOhrR variant allowed approximately 50% derepression relative to the WT-WT scOhrR and monomeric WT OhrR controls (<xref ref-type="fig" rid="F2">Figure 2</xref>B). This pattern of responsiveness was further confirmed by using northern blot analyses to directly monitor expression of the <italic>ohrA</italic> mRNA (<xref ref-type="fig" rid="F2">Figure 2</xref>C).
+<fig id="F2" position="float"><label>Figure 2.</label><caption><p>Peroxide-responsiveness of scOhrR <italic>in vivo</italic>. &#x3B2;-Galactosidase and northern analyses of strains expressing scOhrR and containing an <italic>ohrA-cat-lacZ</italic> fusion. (<bold>A</bold>) Cells were either untreated (empty bars) treated (filled bars) with 100 &#x3BC;M CHP for 15 min. (<bold>B</bold>) Cells were either untreated (empty bars) treated (filled bars) with 5 &#x3BC;M LHP for 15 min. Error bars represent the SD (<italic>n</italic> = 3). (<bold>C</bold>) Northern blot analysis of the <italic>ohrA</italic> transcript in cells with and without CHP treatment, as in (A).</p></caption><graphic xlink:href="gkn1052f2"/></fig></p><p>It is not obvious how to interpret these partially responsive phenotypes. The fact that significant responsiveness is still observed with scOhrR repressors containing a single active site suggests that oxidation at one site is sufficient for sensing and responding to peroxides. On the other hand, the reduced responsiveness (particularly for the WT-C15S scOhrR) suggests that full derepression may normally require oxidation at two active sites (at least for the scOhrR protein).</p></sec><sec><title>Functional inactivation of scOhrR in response to a single S-cysteinylation event</title><p>To more closely monitor the correlation between protein oxidation and DNA-binding, we purified each of the scOhrR repressors (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkn1052/DC1">Supplementary Figure S1</ext-link>) and monitored DNA-binding using a FA-based assay (<xref ref-type="fig" rid="F3">Figure 3</xref>A). As reported previously for the wild-type dimeric protein, the WT-WT scOhrR was completely inactivated by treatment with 6 &#x3BC;M CHP in buffer containing 10 &#x3BC;M free cysteine (<xref ref-type="bibr" rid="B13">13</xref>). As expected, protein inactivation was due to S-cysteinylation since activity was rapidly and quantitatively restored by addition of dithiothreitol (DTT).
+<fig id="F3" position="float"><label>Figure 3.</label><caption><p>Correlation between scOhrR inactivation and S-cysteinylation. (<bold>A</bold>) FA assays monitoring inactivation of WT-WT (black), WT-C15&#x2032;S (red) and C15S-WT (blue). The reactions contain 50 nM DNA, 300 nM scOhrR and 10 &#x3BC;M Cys. At 5 min (300 s), 6 &#x3BC;M CHP was added (filled arrowhead), and 10 mM DTT was added after completion of inactivation (open arrowhead). (<bold>B&#x2013;D</bold>) ESI&#x2013;MS analysis of scOhrR proteins (as indicated) prior to and 10 and 30 min after CHP addition (times indicated by thin arrows in panel A) in reactions parallel to those in (A), but without DTT addition.</p></caption><graphic xlink:href="gkn1052f3"/></fig></p><p>Next, we monitored the oxidation state of the scOhrR proteins by ESI&#x2013;MS at 10 and 30 min after addition of CHP. After 10 min, a time when DNA-binding activity was quantitatively lost, the majority of the WT-WT scOhrR was present as the singly S-cysteinylated protein (<xref ref-type="fig" rid="F3">Figure 3</xref>B). By 30 min an increased amount of the doubly modified protein was detected, although the second S-cysteinylation modification occurred at a much slower rate than the first. A similar rate of S-cysteinylation was observed for the WT-C15&#x2032;S variant which was also quantitatively inactivated under these conditions (<xref ref-type="fig" rid="F3">Figure 3</xref>D).</p><p>When oxidation on the C15S-WT scOhrR was monitored the rate of functional inactivation was greatly reduced with only &#x223C;70% loss of DNA-binding activity after 30 min. of treatment. As expected, ESI&#x2013;MS analysis of this protein indicated only a single S-cysteinylation event and the amount of S-cysteinylated protein was correlated with the loss of DNA-binding activity (<xref ref-type="fig" rid="F3">Figure 3</xref>C).</p><p>Together, these results indicate that oxidation of a single active site to yield the S-cysteinylated species is sufficient for loss of high affinity DNA-binding. Dimeric OhrR normally binds to the <italic>ohrA</italic> operator site with a K<sub>d</sub> &#x223C;5 nM under these conditions (<xref ref-type="bibr" rid="B13">13</xref>). Since these FA analyses are conducted with 300 nM scOhrR, this suggests that oxidation leads to at least a 100-fold reduction in DNA-binding affinity. Furthermore, oxidation of the WT-WT scOhrR was biphasic with oxidation of one C15 complete within 10 min. followed by much slower oxidation of the second active site cysteine (protein was not fully oxidized even after 30 min; <xref ref-type="fig" rid="F3">Figure 3</xref>C). These results indicate that the two active sites are no longer functionally equivalent in scOhrR, presumably due to restraints imposed by the linker. Oxidation of C15 (in the amino-terminal domain of the scOhrR) is rapid (comparable to wild-type protein; <xref ref-type="fig" rid="F3">Figure 3</xref>B versus 3D), whereas oxidation of C15&#x2032; is significantly slower (<xref ref-type="fig" rid="F3">Figure 3</xref>C). The slow rate of oxidation at C15&#x2032; may result from the fact that this Cys residue is closer both in primary sequence and in space to the linker (<xref ref-type="fig" rid="F1">Figure 1</xref>B).</p></sec><sec><title>Oxidation of scOhrR by CHP in the presence and absence of free cysteine</title><p>We have previously shown that oxidation of OhrR in the presence of free cysteine leads to S-cysteinylation (as in <xref ref-type="fig" rid="F3">Figure 3</xref>), whereas in the absence of cysteine the initially formed protein sulfenate slowly condenses with a backbone amide to generate an inactive protein sulfenamide (<xref ref-type="bibr" rid="B13">13</xref>). Like the S-cysteinylated protein, the OhrR sulfenamide was reactivated by incubation with 10 mM DTT, but at a greatly reduced rate as judged using the FA DNA-binding assay.</p><p>We next compared the extent and rate of inactivation of all four purified scOhrR variants by CHP in the presence and absence of 10 &#x3BC;M free cysteine. In the presence of cysteine, the WT-WT and the WT-C15S proteins were rapidly and reversibly inactivated by CHP (as in <xref ref-type="fig" rid="F3">Figure 3</xref>A) while the C15S-WT scOhrR reacted slowly as noted above (<xref ref-type="fig" rid="F4">Figure 4</xref>A). The C15S,G120C-WT scOhrR also reacted slowly although in this case the additional cysteine residue can capture the initially formed cysteine&#x2013;sulfenate to generate a protein disulfide.
+<fig id="F4" position="float"><label>Figure 4.</label><caption><p>Sensitivity of scOhrR to CHP with and without 10 &#x3BC;M cysteine. FA assays monitoring inactivation of WT-WT (black), WT-C15&#x2032;S (red), C15S-WT (blue) and C15S, G120C-WT (green). The reactions contained 50 nM DNA, 300 nM scOhrR with (<bold>A</bold>) or without (<bold>B</bold>) 10 &#x3BC;M Cys. At 5 min, 6 &#x3BC;M CHP was added (closed arrowhead), and 10 mM DTT was added to reactivate OhrR as indicated by open arrowheads.</p></caption><graphic xlink:href="gkn1052f4"/></fig></p><p>When the scOhrR proteins were inactivated by CHP in buffer lacking free cysteine, the initially formed sulfenate is expected to slowly react to form the inactive protein sulfenamide (<xref ref-type="bibr" rid="B13">13</xref>). Both the WT-WT and WT-C15S scOhrR proteins formed sulfenamides as judged by the characteristic (slow) rate of reactivation upon exposure to 10 mM DTT (<xref ref-type="fig" rid="F4">Figure 4</xref>B). The C15S-WT protein also formed an inactive sulfenamide as judged by the rate of reactivation, but protein inactivation was slower than for the WT-WT and WT-C15&#x2032;S scOhrR proteins. Again, this is consistent with the notion that in this case initial protein oxidation (at the more slowly reacting C15&#x2032; residue) is rate-limiting and is slower than the rate of cyclization to the inactive sulfenamide. As expected based on studies of the analogous dimeric protein (<xref ref-type="bibr" rid="B15">15</xref>), the C15S, G120C-WT protein was functionally inactivated by formation of a protein-disulfide since it is rapidly and quantitatively reactivated by 10 mM DTT even in the absence of free cysteine (<xref ref-type="fig" rid="F4">Figure 4</xref>B). Interestingly, the rate of inactivation of the C15S,G120C-WT protein was faster than that observed for the C15S-WT scOhrR. This might reflect a change in the rate of oxidation of the slowly reacting C15&#x2032; residue or, alternatively, a change in reaction pathway. In this scOhrR, for example, CHP could initially oxidize the C120 residue to the sulfenate which could then form a disulfide by reaction with the C15&#x2032; thiolate. Regardless of the reaction pathway, these results indicate that formation of a single disulfide bond is sufficient to mediate protein dissociation.</p></sec><sec><title>Oxidation of scOhrR by LHP in the presence and absence of free cysteine</title><p>Unlike CHP, LHP reacts rapidly both with both C15 and the initially formed C15-sulfenate to generate overoxidized OhrR sulfinic (and sulfonic) acid derivatives (<xref ref-type="bibr" rid="B14">14</xref>). The overoxidation of OhrR by LHP can be prevented, in part, by high concentrations of cysteine (which compete for the initial sulfenate product with LHP) or by addition of a second cysteine at position 120 to allow trapping of the sulfenate as a protein disulfide (<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>).</p><p>Exposure of either the WT-WT or the WT-C15&#x2032;S scOhrR proteins to LHP in the presence of 1 mM cysteine led to rapid and quantitative inactivation of the protein (<xref ref-type="fig" rid="F5">Figure 5</xref>A). Under these conditions (1 mM cysteine) protein inactivation is due to S-cysteinylation at C15 as also noted with CHP treatment (<xref ref-type="fig" rid="F4">Figure 4</xref>A). However, the very high concentrations of cysteine needed to compete for the transiently formed C15-sulfenate also serves as a reductant of the S-cysteinylated protein, as shown previously for WT OhrR (<xref ref-type="bibr" rid="B13">13</xref>). This can account for the slow regeneration of active protein prior to the addition of DTT. Upon addition of 10 mM DTT, the protein is fully reactivated suggesting that there is little if any irreversible overoxidation under these conditions. The C15S-WT and C15S, G120C-WT scOhrR proteins are only partially inactivated under these conditions. This likely reflects the fact that oxidation at C15&#x2032; is much slower than at C15 and the presence of high concentrations of free cysteine leads to protein re-reduction that now occurs on the same time scale as oxidation.
+<fig id="F5" position="float"><label>Figure 5.</label><caption><p>Sensitivity of scOhrR to LHP with and without 1 mM cysteine. FA assays monitoring inactivation of WT-WT (black), WT-C15&#x2032;S (red) and C15S-WT (blue) and C15S, G120C-WT (green). The reactions contained 50 nM DNA, 300 nM scOhrR with (<bold>A</bold>) or without (<bold>B</bold>) 1 mM Cys. At 5 min, 1 &#x3BC;M LHP was added (closed arrowhead), and 10 mM DTT was added to reactivate OhrR as indicated by open arrowheads.</p></caption><graphic xlink:href="gkn1052f5"/></fig></p><p>When these same reactions were repeated in the absence of added cysteine, both the WT-WT and WT-C15&#x2032;S proteins were rapidly inactivated. In this case, addition of 10 mM DTT was able to restore only a small fraction of the DNA-binding activity. The poor recovery of DNA-binding activity with the WT-WT protein is consistent with irreversible protein overoxidation (<xref ref-type="bibr" rid="B14">14</xref>). The inactivation of the WT-C15&#x2032;S protein under these conditions suggests that overoxidation of a single active site is sufficient for protein inactivation. The recovery of activity was slightly greater (&#x223C;40%) with the WT-C15&#x2032;S protein which suggests that in this case the rate of sulfenamide formation was comparable to the rate of protein overoxidation. Under these same conditions, the C15S, G120C-WT protein was quantitatively inactivated and, in this case, activity could be fully and rapidly restored by 10 mM DTT (<xref ref-type="fig" rid="F5">Figure 5</xref>B). This indicates that formation of a single intraprotein disulfide bond is sufficient to trigger protein dissociation, consistent with the results with CHP (<xref ref-type="fig" rid="F4">Figure 4</xref>B). Finally, we note that the C15S-WT protein was inactivated very slowly under these conditions and the inactive protein appears to be largely in the form of the protein sulfenamide. This is consistent with a model in which access to the active site C15&#x2032; residue is impeded in the fused dimer leading to both a slow initial oxidation, and an ineffective second oxidation event, thereby allowing ample time for the cyclization of the initial sulfenate to the sulfenamide.</p></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>Most structurally characterized DNA-binding regulatory proteins from bacterial systems are rotationally symmetric homodimers and recognize palindromic (inverted repeat) DNA sequences (<xref ref-type="bibr" rid="B21">21</xref>). Functionally, the interaction of a homodimer with DNA significantly extends the length of the contacted DNA and thereby increases the specificity of the interaction. A single recognition helix (in a helix-turn-helix unit, for example) typically specifies &#x223C;5&#x2013;6 bp which is not enough to uniquely define a binding site amidst the complexity of genomic DNA. A dimer, on the other hand, that recognizes two such sites (often called half-sites) with a defined spacing has sufficient selectivity to bind to one or a few sites per genome with high selectivity (<xref ref-type="bibr" rid="B22">22</xref>).</p><p>One important consequence of the evolution of dimeric DNA-binding regulators is that these proteins generally contain two regulatory domains as well as two DNA-binding domains. One can then pose the question, is ligand binding (or chemical modification) of both monomers required to effect regulation? For some proteins, negative cooperativity between the two ligand binding sites suggests that binding of a single ligand is sufficient to effect regulation. Examples include the cAMP-receptor protein (CRP) (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>), the mercury-sensing activator MerR (<xref ref-type="bibr" rid="B25">25</xref>), and ArsR family metalloregulators <italic>M. tuberculosis</italic> CmtR and <italic>Anabaena</italic> AztR (<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref>) and <italic>S. aureus</italic> CzrA (<xref ref-type="bibr" rid="B18">18</xref>). In other cases, binding of effectors to both monomers is required to elicit a regulatory response. For example, both active sites in TetR need to be occupied by ligand in order to trigger derepression (<xref ref-type="bibr" rid="B28">28</xref>). Similarly, the metal sensors CadC (<xref ref-type="bibr" rid="B29">29</xref>) and <italic>Synechococcus</italic> SmtB (<xref ref-type="bibr" rid="B30">30</xref>) must bind metal at both active sites to effect regulation. Within the MarR superfamily of proteins, <italic>M. thermoautrotrophicum</italic> is thought to bind two salicylate ligands per dimer to effect regulation (<xref ref-type="bibr" rid="B11">11</xref>), whereas other members (including <italic>S. aureus</italic> QacR and <italic>P. aeruginosa</italic> MexR) respond to the binding of a single effector molecule per dimer (<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B31">31</xref>).</p><p>In this study, we have used engineered single-chain variants of <italic>B. subtilis</italic> OhrR (scOhrR) to monitor the DNA-binding activity of proteins oxidized at either one or two active sites per dimer. Fortuitously, the introduction of a flexible linker connecting the C-terminus of the first monomer to the N-terminus of the second significantly reduced the rate of reaction at the C-terminal active site (containing C15&#x2032;). As a result, even the WT-WT scOhrR variant forms predominantly singly oxidized protein during short times of incubation. ESI&#x2013;MS analysis of the WT-WT dimers after only 10 min of treatment with CHP (in the presence of cysteine) clearly demonstrated a complete loss of DNA binding at a time when the majority of the protein was singly oxidized (<xref ref-type="fig" rid="F3">Figure 3</xref>). Similarly, the WT-C15S variant is rapidly and reversibly inactivated by CHP under these conditions. In sum, our studies clearly demonstrate that oxidation at a single active site (per dimer) is sufficient to mediate derepression <italic>in vitro</italic> (<xref ref-type="fig" rid="F3 F4 F5">Figures 3&#x2013;5</xref>) and this is true regardless of whether the protein is oxidized to the mixed disulfide (with cysteine), an intraprotein disulfide, the cyclic sulfenamide or overoxidized.</p><p>Despite the ability of scOhrR variants to be functionally inactivated by oxidation at one active site <italic>in vitro</italic>, these same variants were not completely inactivated <italic>in vivo</italic>. One notable difference between the <italic>in vitro</italic> and <italic>in vivo</italic> reactions is the presence of reductant in the latter that can regenerate active OhrR. We have suggested previously that the re-reduction of OhrR to an active form is likely to be enzyme catalyzed since the rate of reduction in the presence of physiological levels of cysteine (a major low molecular weight thiol in <italic>B. subtilis</italic>) is likely too slow to be meaningful (<xref ref-type="bibr" rid="B13">13</xref>). Since the physiological reductant for OhrR is not yet known, we were not able to test this hypothesis genetically. However, it is reasonable to propose that oxidation of the second active site [which clearly can and does occur in the native, dimeric protein; (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B15">15</xref>)] would allow the inactivated protein to accumulate <italic>in vivo</italic> as the doubly oxidized protein and that two cycles of reduction would be required to regenerate functional repressor. In contrast, with those variants that can only become singly oxidized, a single reduction step will immediately regenerate active repressor. This model is consistent with the finding that LHP, which leads to significant overoxidation (thereby blocking enzymatic re-reduction), is a better inducer than CHP in the cell. It is also curious that the scOhrR variant with a single active site that reacts slowest <italic>in vitro</italic> (C15S-WT) is induced better <italic>in vivo</italic> than its more reactive counterpart (WT-C15&#x2032;S) (<xref ref-type="fig" rid="F2">Figure 2</xref>). This might reflect differences not in the rate of inactivation (which is clearly slower), but in the rate of reactivation by cellular reductants (which we postulate is even more dramatically impaired by the steric constraints imposed by the introduced linker region). Further studies will be required to ascertain if these effects account for the relatively poor responsiveness of these scOhrR variants to oxidants <italic>in vivo</italic>.</p></sec><sec><title>FUNDING</title><p>This work was supported by a grant from the National Science Foundation (MCB-0640616). Funding for open access charge: NSF (MCB-0640616).</p><p><italic>Conflict of interest statement</italic>. None declared.</p></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>[Supplementary Data]</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="gkn1052_index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="msword" xlink:href="gkn1052_nar-02260-w-2008-File003.doc"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>We thank the members of the Helmann Laboratory for helpful comments on this manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Fuangthong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of an OhrR-<italic>ohrA</italic> operator complex reveals the DNA binding mechanism of the MarR family</article-title>
+          <source>Mol. Cell</source>
+          <year>2005</year>
+          <volume>20</volume>
+          <fpage>131</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="pmid">16209951</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mongkolsuk</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of inducible peroxide stress responses</article-title>
+          <source>Mol. Microbiol</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <fpage>9</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="pmid">12100544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuangthong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Atichartpongkul</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mongkolsuk</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>OhrR is a repressor of <italic>ohrA</italic>, a key organic hydroperoxide resistance determinant in <italic>Bacillus subtilis</italic></article-title>
+          <source>J. Bacteriol.</source>
+          <year>2001</year>
+          <volume>183</volume>
+          <fpage>4134</fpage>
+          <lpage>4141</lpage>
+          <pub-id pub-id-type="pmid">11418552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panmanee</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Vattanaviboon</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Eiamphungporn</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Whangsuk</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Sallabhan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Mongkolsuk</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>OhrR, a transcription repressor that senses and responds to changes in organic peroxide levels in <italic>Xanthomonas campestris</italic> pv. phaseoli</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <fpage>1647</fpage>
+          <lpage>1654</lpage>
+          <pub-id pub-id-type="pmid">12354231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panmanee</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Vattanaviboon</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>LB</given-names>
+            </name>
+            <name>
+              <surname>Mongkolsuk</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel organic hydroperoxide-sensing and responding mechanisms for OhrR, a major bacterial sensor and regulator of organic hydroperoxide stress</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>1389</fpage>
+          <lpage>1395</lpage>
+          <pub-id pub-id-type="pmid">16452421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Newberry</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Fuangthong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Panmanee</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Mongkolsuk</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural mechanism of organic hydroperoxide induction of the transcription regulator OhrR</article-title>
+          <source>Mol. Cell</source>
+          <year>2007</year>
+          <volume>28</volume>
+          <fpage>652</fpage>
+          <lpage>664</lpage>
+          <pub-id pub-id-type="pmid">18042459</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>PR</given-names>
+            </name>
+            <name>
+              <surname>Lan</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Hicks</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Dinner</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>Pseudomonas aeruginosa</italic> multidrug efflux regulator MexR uses an oxidation-sensing mechanism</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>13586</fpage>
+          <lpage>13591</lpage>
+          <pub-id pub-id-type="pmid">18757728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>PR</given-names>
+            </name>
+            <name>
+              <surname>Bae</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>WA</given-names>
+            </name>
+            <name>
+              <surname>Duguid</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Rice</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Schneewind</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>An oxidation-sensing mechanism is used by the global regulator MgrA in <italic>Staphylococcus aureus</italic></article-title>
+          <source>Nat. Chem. Biol.</source>
+          <year>2006</year>
+          <volume>2</volume>
+          <fpage>591</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="pmid">16980961</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilke</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Heller</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Creagh</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Haynes</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>McIntosh</surname>
+              <given-names>LP</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Strynadka</surname>
+              <given-names>NC</given-names>
+            </name>
+          </person-group>
+          <article-title>The crystal structure of MexR from <italic>Pseudomonas aeruginosa</italic> in complex with its antirepressor ArmR</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>14832</fpage>
+          <lpage>14837</lpage>
+          <pub-id pub-id-type="pmid">18812515</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alekshun</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Mealy</surname>
+              <given-names>TR</given-names>
+            </name>
+            <name>
+              <surname>Seaton</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Head</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>The crystal structure of MarR, a regulator of multiple antibiotic resistance, at 2.3 &#xC5; resolution</article-title>
+          <source>Nat. Struct. Biol.</source>
+          <year>2001</year>
+          <volume>8</volume>
+          <fpage>710</fpage>
+          <lpage>714</lpage>
+          <pub-id pub-id-type="pmid">11473263</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saridakis</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Shahinas</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Christendat</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural insight on the mechanism of regulation of the MarR family of proteins: high-resolution crystal structure of a transcriptional repressor from <italic>Methanobacterium thermoautotrophicum</italic></article-title>
+          <source>J. Mol. Biol.</source>
+          <year>2008</year>
+          <volume>377</volume>
+          <fpage>655</fpage>
+          <lpage>667</lpage>
+          <pub-id pub-id-type="pmid">18272181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Grove</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Ligand-responsive transcriptional regulation by members of the MarR family of winged helix proteins</article-title>
+          <source>Curr. Issues Mol. Biol.</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>51</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="pmid">16450885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Soonsanga</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>A complex thiolate switch regulates the <italic>Bacillus subtilis</italic> organic peroxide sensor OhrR</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2007</year>
+          <volume>104</volume>
+          <fpage>8743</fpage>
+          <lpage>8748</lpage>
+          <pub-id pub-id-type="pmid">17502599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soonsanga</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidant-dependent switching between reversible and sacrificial oxidation pathways for <italic>Bacillus subtilis</italic> OhrR</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2008</year>
+          <volume>68</volume>
+          <fpage>978</fpage>
+          <lpage>986</lpage>
+          <pub-id pub-id-type="pmid">18363800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soonsanga</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Conversion of <italic>Bacillus subtilis</italic> OhrR from a 1-Cys to a 2-Cys peroxide sensor</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <fpage>5738</fpage>
+          <lpage>5745</lpage>
+          <pub-id pub-id-type="pmid">18586944</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soonsanga</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Fuangthong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutational analysis of active site residues essential for sensing of organic hydroperoxides by <italic>Bacillus subtilis</italic> OhrR</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>7069</fpage>
+          <lpage>7076</lpage>
+          <pub-id pub-id-type="pmid">17660290</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guerout-Fleury</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Frandsen</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Stragier</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Plasmids for ectopic integration in <italic>Bacillus subtilis</italic></article-title>
+          <source>Gene</source>
+          <year>1996</year>
+          <volume>180</volume>
+          <fpage>57</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="pmid">8973347</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Arunkumar</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Giedroc</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural insights into homo- and heterotropic allosteric coupling in the zinc sensor <italic>S. aureus</italic> CzrA from covalently fused dimers</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2006</year>
+          <volume>128</volume>
+          <fpage>1937</fpage>
+          <lpage>1947</lpage>
+          <pub-id pub-id-type="pmid">16464095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuangthong</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Helmann</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>The OhrR repressor senses organic hydroperoxides by reversible formation of a cysteine-sulfenic acid derivative</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>6690</fpage>
+          <lpage>6695</lpage>
+          <pub-id pub-id-type="pmid">11983871</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <source>Experiments in Molecular Genetics</source>
+          <year>1972</year>
+          <publisher-loc>Cold Spring Harbor, NY</publisher-loc>
+          <publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+          <fpage>352</fpage>
+          <lpage>355</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aravind</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Anantharaman</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Balaji</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Babu</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Iyer</surname>
+              <given-names>LM</given-names>
+            </name>
+          </person-group>
+          <article-title>The many faces of the helix-turn-helix domain: transcription regulation and beyond</article-title>
+          <source>FEMS Microbiol. Rev.</source>
+          <year>2005</year>
+          <volume>29</volume>
+          <fpage>231</fpage>
+          <lpage>262</lpage>
+          <pub-id pub-id-type="pmid">15808743</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>von Hippel</surname>
+              <given-names>PH</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>OG</given-names>
+            </name>
+          </person-group>
+          <article-title>On the specificity of DNA-protein interactions</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1986</year>
+          <volume>83</volume>
+          <fpage>1608</fpage>
+          <lpage>1612</lpage>
+          <pub-id pub-id-type="pmid">3456604</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shanblatt</surname>
+              <given-names>SH</given-names>
+            </name>
+            <name>
+              <surname>Revzin</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Two catabolite activator protein molecules bind to the galactose promoter region of <italic>Escherichia coli</italic> in the presence of RNA polymerase</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1983</year>
+          <volume>80</volume>
+          <fpage>1594</fpage>
+          <lpage>1598</lpage>
+          <pub-id pub-id-type="pmid">6300859</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heyduk</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Escherichia coli</italic> cAMP receptor protein: evidence for three protein conformational states with different promoter binding affinities</article-title>
+          <source>Biochemistry</source>
+          <year>1989</year>
+          <volume>28</volume>
+          <fpage>6914</fpage>
+          <lpage>6924</lpage>
+          <pub-id pub-id-type="pmid">2554959</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shewchuk</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Verdine</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>CT</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional switching by the metalloregulatory MerR protein: initial characterization of DNA and mercury (II) binding activities</article-title>
+          <source>Biochemistry</source>
+          <year>1989</year>
+          <volume>28</volume>
+          <fpage>2331</fpage>
+          <lpage>2339</lpage>
+          <pub-id pub-id-type="pmid">2719955</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Golden</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Giedroc</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>A zinc(II)/lead(II)/cadmium(II)-inducible operon from the Cyanobacterium anabaena is regulated by AztR, an alpha3N ArsR/SmtB metalloregulator</article-title>
+          <source>Biochemistry</source>
+          <year>2005</year>
+          <volume>44</volume>
+          <fpage>8673</fpage>
+          <lpage>8683</lpage>
+          <pub-id pub-id-type="pmid">15952774</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cavet</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Graham</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>NJ</given-names>
+            </name>
+          </person-group>
+          <article-title>A cadmium-lead-sensing ArsR-SmtB repressor with novel sensory sites. Complementary metal discrimination by NmtR AND CmtR in a common cytosol</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>44560</fpage>
+          <lpage>44566</lpage>
+          <pub-id pub-id-type="pmid">12939264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kamionka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Majewski</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Bertram</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kraft</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hillen</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of single chain tetracycline repressor requires the binding of two inducers</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2006</year>
+          <volume>34</volume>
+          <fpage>3834</fpage>
+          <lpage>3841</lpage>
+          <pub-id pub-id-type="pmid">16899452</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Rosen</surname>
+              <given-names>BP</given-names>
+            </name>
+          </person-group>
+          <article-title>Both metal binding sites in the homodimer are required for metalloregulation by the CadC repressor</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>44</volume>
+          <fpage>1323</fpage>
+          <lpage>1329</lpage>
+          <pub-id pub-id-type="pmid">12068812</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eicken</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Pennella</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Koshlap</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>VanZile</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Sacchettini</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Giedroc</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>A metal-ligand-mediated intersubunit allosteric switch in related SmtB/ArsR zinc sensor proteins</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>2003</year>
+          <volume>333</volume>
+          <fpage>683</fpage>
+          <lpage>695</lpage>
+          <pub-id pub-id-type="pmid">14568530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schumacher</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Grkovic</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Skurray</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural mechanisms of QacR induction and multidrug recognition</article-title>
+          <source>Science</source>
+          <year>2001</year>
+          <volume>294</volume>
+          <fpage>2158</fpage>
+          <lpage>2163</lpage>
+          <pub-id pub-id-type="pmid">11739955</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

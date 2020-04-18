@@ -1,0 +1,597 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24260461</article-id>
+      <article-id pub-id-type="pmc">3834315</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-27043</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0080716</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Transcriptional and Proteolytic Regulation of the Toxin-Antitoxin Locus <italic>vapBC10</italic> (<italic>ssr2962/slr1767</italic>) on the Chromosome of <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+        <alt-title alt-title-type="running-head">Regulation of the vapBC10 Locus in Synechocysitis</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ning</surname>
+            <given-names>Degang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Shuibing</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Weidong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhuang</surname>
+            <given-names>Qiang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wen</surname>
+            <given-names>Chongwei</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tang</surname>
+            <given-names>Xiaoxia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Environment Sciences, School of the Environment, Jiangsu University, Zhenjiang, Jiangsu, China</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Pharmaceutical engineering, School of Pharmacy, Jiangsu University, Xuefu Road, Zhenjiang, Jiangsu, China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Hayes</surname>
+            <given-names>Finbarr</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University of Manchester, United Kingdom</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>306502@ujs.edu.cn</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: DN. Performed the experiments: DN SL WX QZ CW XT. Analyzed the data: DN SL WX. Contributed reagents/materials/analysis tools: SL WX QZ XT. Wrote the paper: DN SL.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>11</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>11</issue>
+      <elocation-id>e80716</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>1</day>
+          <month>7</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>10</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Ning et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>VapBC toxin-antitoxin (TA) systems are defined by the association of a PIN-domain toxin with a DNA-binding antitoxin, and are thought to play important physiological roles in bacteria and archaea. Recently, the PIN-associated gene pair PIN-COG2442 was proposed to encode VapBC-family TA system and found to be abundant in cyanobacteria. However, the features of these predicted TA loci remain under investigation. We here report characterization of the PIN-COG2442 locus <italic>vapBC10</italic> (<italic>ssr2962/slr1767</italic>) on the chromosome of <italic>Synechocystis</italic> sp. PCC 6803. RT-PCR analysis revealed that the <italic>vapBC10</italic> genes were co-transcribed under normal growth conditions. Ectopic expression of the PIN-domain protein VapC10 caused growth arrest of <italic>Escherichia coli</italic> that does not possess <italic>vapBC</italic> TA locus. Coincidentally, this growth-inhibition effect could be neutralized by either simultaneous or subsequent production of the COG2442-domain protein VapB10 through formation of the TA complex VapBC10 <italic>in vivo</italic>. In contrast to the transcription repression activity of the well-studied antitoxins, VapB10 positively auto-regulated the transcription of its own operon via specific binding to the promoter region. Furthermore, <italic>in vivo</italic> experiments in <italic>E. coli</italic> demonstrated that the <italic>Synechocystis</italic> protease ClpXP2s, rather than Lons, could cleave VapB10 and proteolytically activate the VapC10 toxicity. Our results show that the PIN-COG2442 locus <italic>vapBC10</italic> encodes a functional VapBC TA system with an alternative mechanism for the transcriptional auto-regulation of its own operon.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was financially supported by a grant from the National Natural Science Foundation of China (grant no. 30771176). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Bacterial toxin-antitoxin (TA) systems are complexes of a stable toxic protein and its unstable inhibitor, which are typically encoded by a bicistronic operon. TA loci were originally found in low-copy-number plasmids and characterized as addiction modules to stabilize them by post-segregational killing <xref ref-type="bibr" rid="pone.0080716-Jaffe1">[1]</xref>. Since then, such genetic modules are also discovered to be strikingly abundant and diverse on bacterial and archaeal chromosomes <xref ref-type="bibr" rid="pone.0080716-Pandey1">[2]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0080716-Leplae1">[4]</xref>. Their ubiquity and diversity suggests that TA systems may play alternative roles other than protection of mobile DNA <xref ref-type="bibr" rid="pone.0080716-Magnuson1">[5]</xref>, <xref ref-type="bibr" rid="pone.0080716-VanMelderen1">[6]</xref>. Based on biochemical nature and action mode of antitoxins, five types of TA systems have been proposed to date <xref ref-type="bibr" rid="pone.0080716-Schuster1">[7]</xref>. The antitoxins of type I or III systems are small RNAs that inhibit toxin expression (type I) or activity (type III). In type II, IV or V TA systems, the antitoxins are low molecular weight proteins which inhibit toxin activity by forming nontoxic TA complexes (type II), shielding of toxin targets (type IV) or specific degradation of toxin mRNAs (type V).</p>
+      <p>Type II TA systems (hereafter referred to as TA systems) are most prevalent, and are further subdivided into several families according to the molecular identity of toxins <xref ref-type="bibr" rid="pone.0080716-Makarova1">[3]</xref>, <xref ref-type="bibr" rid="pone.0080716-Leplae1">[4]</xref>. TA toxins exert their effects in different ways. For example, most identified toxins (e. g. RelE, MazF, YafQ, HigB, HicA, MqsR, VapC) are endoribonucleases and inhibit protein synthesis <xref ref-type="bibr" rid="pone.0080716-Yamaguchi1">[8]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0080716-Prysak1">[13]</xref>. TA antitoxins are metabolically unstable due to proteolytic degradation by ATP-dependent proteases Lon and ClpP, and typically consist of a N-terminus DNA-binding domain and a C-terminus toxin-binding domain. The DNA-binding domain, belonging to Helix&#x2013;Turn&#x2013;Helix (HTH), Ribbon&#x2013;Helix&#x2013;Helix (RHH), AbrB or Phd/YefM class, mediates auto-repression of the TA operon transcription by the antitoxin both alone and in TA complexes, and the toxin-binding domain is responsible for neutralization of the cognate toxin via formation of the TA complex <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>. Interestingly, a particular group of toxins can form TA systems with antitoxins from different protein families <xref ref-type="bibr" rid="pone.0080716-Anantharaman1">[15]</xref>. Under favorable growth conditions, the co-expression of an antitoxin in excess of the toxin inhibits the toxin's toxicity through TA complex formation and suppresses the TA operon transcription mediated by the DNA-binding domain present in the antitoxin <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Yamaguchi2">[16]</xref>. When bacteria encounter some circumstances (e.g. amino acid starvation, loss of plasmid) which abolish antitoxin production, degradation by cellular proteases leads to a reduction in antitoxin levels. Consequently, the antitoxin-mediated repression of the TA operon transcription is relieved, and the toxin is released from the TA complex <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Yamaguchi2">[16]</xref>. Thus, both transcriptional and post-transcriptional regulation contribute to diminishing levels of antitoxin and activate the cognate toxin that causes reversible growth inhibition <xref ref-type="bibr" rid="pone.0080716-Pedersen2">[17]</xref> or cell death <xref ref-type="bibr" rid="pone.0080716-Amitai1">[18]</xref>, <xref ref-type="bibr" rid="pone.0080716-Nariya1">[19]</xref>. This finely tuned regulation of TA systems leads to a proposal that activation of the latent toxin via direct TA complex disruption or some alternative mechanisms may be exploited as a novel bacteria-control strategy <xref ref-type="bibr" rid="pone.0080716-Williams1">[20]</xref>.</p>
+      <p>Vap (Virulence associated protein) systems are the largest TA family and are defined by the presence of a PIN-domain protein as the toxic component (VapC) <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Arcus1">[21]</xref>. Yet they are the least well characterized. The PIN domain (PFAM: PF01850) was originally annotated based on sequence similarity to the N-terminal domain of the type IV pili protein, pilT, from <italic>Myxococcus Xanthus</italic> (PIN, PilT N-terminus). Although sharing low sequence similarity, the PIN domain proteins have a highly conserved three-dimensional structure which causes a clustering of four conserved acidic residues to constitute the active site <xref ref-type="bibr" rid="pone.0080716-Arcus2">[22]</xref>. In VapBC TA systems, the identified toxins show functional conservation in their sequence-specific endoribonuclease activity <xref ref-type="bibr" rid="pone.0080716-Winther1">[23]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0080716-Sharp1">[25]</xref>, and the antitoxins can have any of four DNA-binding motifs found in TA antitoxins <xref ref-type="bibr" rid="pone.0080716-Makarova1">[3]</xref>. Recently, many genes encoding COG2442 (DUF433) domain proteins of function unknown are found to be associated with PIN family genes, and were proposed to encode VapBC TA systems <xref ref-type="bibr" rid="pone.0080716-Makarova1">[3]</xref>. However, the COG2442 domain proteins are unrelated to studied TA antitoxins in sequence or secondary structure <xref ref-type="bibr" rid="pone.0080716-Makarova1">[3]</xref>, thus their functional features remain unknown.</p>
+      <p>The PIN-COG2442 loci are seen in various bacterial genomes but are most abundant in cyanobacteria and chloroflexi. The cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803 (hereafter, <italic>Synechocystis</italic>) encodes at least 16 putative <italic>vapBC</italic> loci on the chromosome <xref ref-type="bibr" rid="pone.0080716-Makarova1">[3]</xref>, <xref ref-type="bibr" rid="pone.0080716-Leplae1">[4]</xref>, as summarized in <xref ref-type="supplementary-material" rid="pone.0080716.s004">Table S1</xref> in Supplemental material. Four (<italic>vapBC10</italic>&#x223C;<italic>vapBC13</italic>) of those loci encode the COG2442 domain proteins. In this work, we first show that the PIN-COG2442 locus <italic>vapBC10</italic> (<italic>ssr2962/slr1767</italic>) encodes a TA system using <italic>Escherichia coli</italic> which has been successfully used as a host for verification of heterogenic TA modules <xref ref-type="bibr" rid="pone.0080716-Florek1">[26]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0080716-Syed1">[28]</xref>. We also demonstrate that the <italic>vapBC10</italic> operon is transcriptionally activated by the antitoxin VapB10 which is degraded by the protease ClpXP2s from <italic>Synechocystis</italic>. This atypical transcription regulation of the <italic>vapBC10</italic> operon is discussed.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Strains, enzymes and chemicals</title>
+        <p><italic>E. coli</italic> strains were grown in LB medium unless otherwise noted. When required, media were supplemented with spectinomycin (100 mg/l) and kanamycin (50 mg/l). All the enzymes including restriction enzymes, ligase, T4 DNA polymerase, T4 polynucleotide kinase and Taq DNA polymerase were purchased from TaKaRa Biotech. PrimeScript 1<sup>st</sup> strand cDNA synthesis kit was purchased from TaKaRa Biotech as well. [&#x3B3;-<sup>32</sup>P] ATP was obtained from FuRiDa Biotech. 5&#x2032; RACE system for rapid amplification of cDNA ends and Ni-NTA Resin for purification of the expressed proteins were purchased from Invitrogen. Polyclonal goat-anti mouse IgG AP conjugate and chemiluminescence reagent were obtained from Beyotime Biotech. PCR primers are listed in <xref ref-type="supplementary-material" rid="pone.0080716.s005">Table S2</xref>.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Plasmid construction</title>
+        <p>For assays of toxicity, anti-toxicity and growth rescue, selection-expression plasmids were constructed based on the vector pJS298, which contains the arabinose-inducible promoter <italic>P<sub>BAD</sub></italic> and the isopropyl &#x3B2;-D-thiogalactopyranoside (IPTG)-inducible promoter <italic>P<sub>T7lac</sub></italic> as well as the genes <italic>araC</italic> and <italic>lacI</italic> encoding the regulator proteins of the respective promoters <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref>. The gene <italic>vapB10</italic> was amplified by PCR using the primers slr1767-N and slr1767-K, digested with <italic>Nde</italic>I and <italic>Kpn</italic>I, and cloned behind the promoter <italic>P<sub>T7lac</sub></italic> of pJS298 generating pJS340. The <italic>vapC10</italic> gene was amplified with the primers ssr2962-S and ssr2962-K, digested with <italic>Sac</italic>I and <italic>Kpn</italic>I, and then placed under the promoter <italic>P<sub>BAD</sub></italic> of pJS340 obtaining pJS350.</p>
+        <p>Proteolytic activation plasmids were constructed based on the vectors pJS371 and pJS391 <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref>, which contain the <italic>Synechosystis</italic> protease genes <italic>lons</italic> and <italic>clPX2s</italic> under control of <italic>P<sub>T7lac</sub></italic>, respectively. The fragment containing both <italic>vapB10</italic> and <italic>vapC10</italic> was amplified using primers ssr2962-S and slr1767-K, digested with <italic>Sac</italic>I and <italic>Kpn</italic>I, and cloned under <italic>P<sub>BAD</sub></italic> in pJS371 and pJS391 obtaining pJS427 and pJS429, respectively. The <italic>vapB10</italic> gene was amplified using primers ssr2962-S and ssr2962-K, digested with <italic>Sac</italic>I and <italic>Kpn</italic>I, and sub-cloned under <italic>P<sub>BAD</sub></italic> in pJS371 and pJS391, producing pJS882 and pJS883, respectively.</p>
+        <p>For co-expression of <italic>vapB10</italic> with <italic>vapC10</italic>, the fragment containing both <italic>vapB10</italic> and <italic>vapC10</italic> was PCR amplified with the ssr2962-N and slr1767-X. After digested with <italic>Nde</italic>I and <italic>Xho</italic>I, the resulting fragment was cloned into pET30a obtaining pJS653, which allows co-production of VapB10 with the C-terminally hexa-histidine (His<sub>6</sub>)-tagged VapC10 (VapC-His<sub>6</sub>) in <italic>E. coli</italic> BL21(DE3) upon addition of IPTG.</p>
+        <p>To create <italic>vapBC10</italic>-<italic>lacZ</italic> fusions, we first constructed a reporter vector containing the promoter-less <italic>lacZ</italic> gene of <italic>E. coli</italic>. The 1.2-kb fragment containing a part of the <italic>Synechosystis slr0168</italic>, was PCR generated using primers slr0168-1 and slr0168-2. The PCR product was blunted with T4 DNA polymerase and ligated to the <italic>Pvu</italic>II-digested pUC18 producing pJS378. A <italic>Dra</italic>I fragment containing the &#x3A9; cassette, which confers resistance to spectinomycin and streptomycin, from pRL57 <xref ref-type="bibr" rid="pone.0080716-Cai1">[30]</xref> was inserted into the blunted <italic>Sal</italic>I site of the <italic>lacZ</italic>-containing plasmid pHB1117 <xref ref-type="bibr" rid="pone.0080716-Gao1">[31]</xref>, obtaining pJS387. The &#x3A9;-<italic>lacZ</italic> fragment was excised with <italic>Pst</italic>I and <italic>XbaI</italic>, blunted and then inserted into the blunted <italic>Eco</italic>RI site of pJS378, obtaining the reporter vector pJS759 (<xref ref-type="supplementary-material" rid="pone.0080716.s001">Figure S1</xref>). On the basis of vector, we then constructed a series of operon-<italic>lacZ</italic> fusions. The fragment containing the assumed promoter region of <italic>vapBC-10</italic> (<italic>P<sub>vapBC-10</sub></italic>) was amplified using the primers P<sub>vapBC10</sub>-1 and P<sub>vapBC10</sub>-E2, digested with <italic>Bam</italic>HI and then inserted into the <italic>Bgl</italic>II site of pJS759. The clones with the inserted fragment in the same direction as <italic>lacZ</italic> were identified by PCR analysis with the primers P<sub>vapBC10</sub>-1 and lacZ-R, obtaining the reporter plasmid pJS778 (containing the <italic>P<sub>vapBC10</sub></italic>-<italic>lacZ</italic> fusion). Similarly, the fragments <italic>P<sub>vapBC10</sub>-vapB10</italic>, <italic>P<sub>vapBC10</sub></italic>-<italic>vapB10-vapC10</italic> and promoter-less <italic>vapBC10</italic> were generated with the primer pairs P<sub>vapBC10</sub>-1/ssr2962-B2, P<sub>vapBC10</sub>-B1/slr1767-B and ssr2962-B1/slr1767-B, respectively. After <italic>Bam</italic>HI digestion, the fragments were cloned into pJS759, obtaining pJS878 (containing the <italic>P<sub>vapBC10</sub>-vapB10-lacZ</italic> fusion), pJS1028 (containing the <italic>P<sub>vapBC10</sub>-vapB10-vapC10-lacZ</italic> fusion) and pJS1472 (containing the <italic>vapB10-vapC10-lacZ</italic> fusion).</p>
+      </sec>
+      <sec id="s2c">
+        <title>RNA extraction, RT-PCR reaction and rapid amplification of cDNA ends (RACE)</title>
+        <p><italic>Synechocystis</italic> cells were collected from 200 ml culture with an OD<sub>720</sub> of about 1.0 by centrifugation. The pellet was used for RNA extraction as described previously <xref ref-type="bibr" rid="pone.0080716-Ning2">[32]</xref>. Total RNA was converted to cDNA by reverse transcription using PrimeScript 1<sup>st</sup> strand cDNA synthesis kit according to the manufacturer's instructions. Using 1 &#xB5;g of cDNA per reaction, the transcript of <italic>vapBC10</italic> was determined by PCR amplification using the primers ssr2962-R and slr1767-R1.</p>
+        <p>The 5&#x2032; end of <italic>vapBC10</italic> transcript was identified using a 5&#x2032; RACE system for rapid amplification of cDNA ends kit following the manufacturer's instructions. Briefly, first strand cDNA synthesis was carried out using the total RNA, reverse transcriptase, and the gene specific primer slr1767-R1. The cDNA was purified using the SNAP columns provided in the kit and poly(dC) tails were added to the 3&#x2032;ends using terminal deoxynucleotidyl transferase. PCR amplification of the tailed cDNA was conducted using the 5&#x2032; RACE abridged anchor primer and the first nested primer slr1767-R2. A dilution of the PCR mixture was then subjected to re-amplification using the abridged universal amplification primer with the second nested primer slr1767-R3. The PCR product was sequenced.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Bacterial growth assays</title>
+        <p>To investigate toxicity, anti-toxicity and proteolytic activation of VapBC10, drop growth tests were performed, as previously described <xref ref-type="bibr" rid="pone.0080716-Ning3">[33]</xref>. For induction of gene expression under control of the promoter <italic>P<sub>T7lac</sub></italic> or <italic>P<sub>BAD</sub></italic>, 0.05 mM IPTG or 0.2% (w/v) arabinose was added to M9 medium containing 0.4% (v/v) glycerol (M9+Gly), which served as a single carbon source. Under non-inducing conditions, 0.4% (w/v) glucose instead of 0.4% glycerol was added to M9 medium (M9+Glu), which served as a single carbon source and minimized leaky expression from the <italic>P<sub>T7lac</sub></italic>/<italic>P<sub>BAD</sub></italic>-based selection-expression plasmids. <italic>E. coli</italic> BL21(DE3) strains transformed with the respective selection-expression plasmids were grown to exponential phase (an OD<sub>600</sub> of about 0.6) in LB with 0.4% glucose. Cultures were then spun down, washed twice with liquid M9+Gly medium. The washed cells were resuspended to an OD<sub>600</sub> of 0.2 in M9+Gly medium, and serially diluted in 10-fold steps. 2 &#xB5;l of each of diluted samples was dropped on the M9+Glu plates and the M9+Gly plates with IPTG (M9+Gly+IPTG), arabinose (M9+Gly+Ara) as well as IPTG and arabinose (M9+Gly+IPTG+Ara), then incubated at 37&#xB0;C for 30 h.</p>
+        <p>For assays of growth rescue, the <italic>E. coli</italic> BL21(DE3) strain containing the selection-expression plasmid pJS350 was grown in LB containing 0.4% glucose. When OD<sub>600</sub> reached to 0.6, 0.05 mM IPTG was added for induction of <italic>vapC10</italic> expression. At time zero or later time points, aliquots from the IPTG-induced culture were taken, spun down and rinsed twice with M9+Gly medium. The washed cells were resuspended in an equal volume of M9+Gly medium. 100 &#xB5;l of appropriately diluted samples was spread on the plates M9+Glu (<italic>vapBC10</italic> repressed), M9+Gly+IPTG (<italic>vapC10</italic> continuously induced) and M9+Gly+Ara (<italic>vapB10</italic> induced). The colony-forming unit (CFU) was counted after incubation at 37&#xB0;C for 30 h.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Over-expression, purification and antibody preparation of VapB10 and VapC10</title>
+        <p>The mid-logarithmic-phase culture (OD<sub>600</sub> of 0.6) of <italic>E. coli</italic> BL21(DE3) containing pJS653 was induced with 1 mM IPTG for 3 h. The cells harvested from the induced culture were sonicated in ice-cold lysis buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, 0.3 M NaCl, 10 mM imidazole, 5 mM &#x3B2;-mercaptoethanol, pH 8). Co-purification of the induced proteins from the cleared lysate was conducted by affinity chromatography using Ni-NTA resin under native conditions according to the manufacturer's instructions. Individual purification of VapB10 and VapC10-His<sub>6</sub> was performed as previously described <xref ref-type="bibr" rid="pone.0080716-Pedersen2">[17]</xref>. Briefly, the cleared lysate was incubated with Ni-NTA agarose and subsequently loaded onto a column. The column was washed extensively in buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, 0.3 M NaCl, 35 mM imidazole, 5 mM &#x3B2;-mercaptoethanol, pH 8). The protein VapB10 was eluted from the protein complex with denaturing buffer (100 mM NaH<sub>2</sub>PO<sub>4</sub>, 10 mM Tris-HCl, 8 M Urea, pH 8), and then the protein VapC10-His<sub>6</sub> was eluted from the column with denaturing elution buffer (100 mM NaH<sub>2</sub>PO<sub>4</sub>, 10 mM Tris-HCl, 8 M Urea, pH 4.5). The purified proteins under denaturing conditions were refolded by a series of sequential dialyses: 1&#xD7;PBS (pH 8), 0.1% (v/v) TritonX-100, 5 mM DTT; 1&#xD7;PBS (pH 8), 5 mM DTT; 1&#xD7;PBS (pH 8), 5 mM DTT and 1&#xD7;PBS (pH 8), 20% (v/v) glycerol, 5 mM DTT. Concentrations of the purified proteins were determined by the Bradford method.</p>
+        <p>The recombinant proteins were detected by 18% SDS-PAGE, and the densitometries of the expected protein bands were analyzed using Image J (<ext-link ext-link-type="uri" xlink:href="http://rsb.info.nih.gov/nih-image/">http://rsb.info.nih.gov/nih-image/</ext-link>). The co-purified proteins were determined by MALDI-TOF mass spectrometry (MS) analysis as described before <xref ref-type="bibr" rid="pone.0080716-Ning3">[33]</xref>. Polyclonal antibodies were produced by immunizing New Zealand rabbit with the purified VapB10 and VapC10-His<sub>6</sub> as previously described <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref>.</p>
+      </sec>
+      <sec id="s2f">
+        <title>&#x3B2;-galactosidase activity assay</title>
+        <p>The <italic>E. coli</italic> DH5&#x3B1; strains containing the corresponding reporter plasmids were grown to an OD<sub>600</sub> of 0.8, and their &#x3B2;-galactosidase activities were measured and calculated as described previously <xref ref-type="bibr" rid="pone.0080716-Miller1">[34]</xref>.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Electrophoretic mobility shift assay (EMSA)</title>
+        <p>The DNA fragments containing different regions of the promoter <italic>P<sub>vapBC10</sub></italic> were amplified with the respective primers (<xref ref-type="supplementary-material" rid="pone.0080716.s004">Table S1</xref>). These DNA fragments were labeled at the 5&#x2032; end with [&#x3B3;-<sup>32</sup>P] ATP using T4 polynucleotide Kinase. For specific and nonspecific binding experiments, the unlabeled fragment (about 1 &#xB5;M) containing the <italic>P<sub>vapBC10</sub></italic> or <italic>P<sub>BAD</sub></italic> region was used as a competitor DNA. Mixtures containing the labeled DNA (about 10 nM) and increasing concentrations of the purified protein were incubated in EMSA buffer (100 mM Tris-HCl, pH 8.0, 100 mM NaCl, 1 mM DTT and 10% glycerol) with 0.1 mg/ml sonicated salmon sperm DNA. Reactions were incubated for 30 min at room temperature, then subjected to 5% native PAGE with 0.5&#xD7;TBE at 150 V at room temperature for about 1.5 h. Radioactive gels were exposed to a storage phosphor screen, and the images were acquired (GE healthcare).</p>
+      </sec>
+      <sec id="s2h">
+        <title>Western blot analysis</title>
+        <p>To detect the stability of VapB10 and VapC10, Western blot experiments were performed using the <italic>E. coli</italic> cells containing the corresponding proteolytic activation plasmids. The cells were grown in the presence of 0.2% arabinose to an OD<sub>600</sub> of about 0.5, and then 0.1 mM IPTG was added. After further incubation for 30 min (at time zero), 100 mg/ml spectinomycin was supplemented to inhibit protein synthesis. Aliquots from the treated cultures were removed at 20-min intervals for 120 min. Same sample volume was loaded in each well of an SDS-PAGE gel. Protein levels were detected by Western blot analysis using the rabbit polyclonal antibody to VapB10, VapC10, Lons <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref> or ClpP2s <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref> and a polyclonal goat-anti mouse IgG AP conjugate. The immunoreactive bands on the blot were visualized with enhanced chemiluminescence reagent and exposed to film. Images from exposed film were then analyzed densitometrically using Image J, and the half-lives were calculated using Prism 5 (Graphpad).</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Promoter characterization and transcription analysis of the <italic>vapBC10</italic> locus</title>
+        <p>To determine the transcriptional start point (TSP) of the promoter <italic>P<sub>vapBC10</sub></italic>, a 5&#x2032;-RACE experiment was carried out. Once the TSP was determined, the promoter region was manually checked and was adjusted according to the nucleotide distribution within the <italic>Synechocystis</italic> promoter sequences <xref ref-type="bibr" rid="pone.0080716-Mitschke1">[35]</xref>. Results are summarized in <xref ref-type="fig" rid="pone-0080716-g001">Figure 1A</xref>. The <italic>vapBC-10</italic> TSP (+1) is located at an adenine at 45 bp upstream from the ATG codon of <italic>vapB10</italic>. The two conserved regions of the <italic>P<sub>vapBC10</sub></italic> promoter are TTGTTA and AAAAAT for the -35 and -10 regions, respectively, and are separated by 15 bp. A direct repeat (DR, 5&#x2032;-TTTTGATA-6N-TTTTGTTA-3&#x2032;) and an imperfect inverted repeat (IR, 5&#x2032;-TTTCCCT-2N-AGGGTAA-3&#x2032;) are found in the promoter region, and located at -62 bp and -28 bp upstream of TSP, respectively. Interestingly, the downstream half of the DR overlaps the deduced -35 hexamer.</p>
+        <fig id="pone-0080716-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>The promoter region and the transcription of the <italic>vapBC10</italic> operon.</title>
+            <p>(A) Schematic representation of the genetic structure of <italic>vapBC10</italic>. DR, direct repeat sequence; IR, inverted repeat sequence; -10, -35 and the transcriptional starting point (TSP) are underlined. (B) Transcription of <italic>vapBC10</italic> determined by RT-PCR analysis using the primers ssr2962-R and slr1767-R1. Lanes: M, molecular weight standard; 1, the genomic DNA; 2, total RNA; 3, cDNA.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g001"/>
+        </fig>
+        <p>To assess whether both <italic>vapB10</italic> and <italic>vapC10</italic> are co-transcribed in <italic>Synechocystis</italic>, a RT-PCR analysis was performed using the primer pair that anneal to the 3&#x2032; part of <italic>vapB10</italic> and the 5&#x2032; part of <italic>vapC10</italic>. As seen in <xref ref-type="fig" rid="pone-0080716-g001">Figure 1B</xref>, a specific amplification product of about 390 bp was observed for the cDNA (lane 3), similar to that of the chromosomal DNA (lane 1). No amplification product was observed for total RNA without reverse transcription (lane 2), eliminating the possibility of DNA contamination. These indicate that both small genes <italic>vapB10</italic> and <italic>vapC10</italic> are co-transcribed, thus forming a bicistronic operon.</p>
+      </sec>
+      <sec id="s3b">
+        <title>VapC10 inhibits <italic>E. coli</italic> growth which is counteracted by VapB10</title>
+        <p>Although sharing little sequence similarity to the characterized VapC proteins, VapC10 contains a PIN domain with highly conserved quartet of acidic residues at positions 6, 40, 61 and 104 (<xref ref-type="supplementary-material" rid="pone.0080716.s002">Figure S2</xref>). The secondary structure of VapC10 (<xref ref-type="supplementary-material" rid="pone.0080716.s002">Figure S2</xref>), predicted with the 3DJIGSAW prediction tool <xref ref-type="bibr" rid="pone.0080716-Bates1">[36]</xref> and the DALI server <xref ref-type="bibr" rid="pone.0080716-Holm1">[37]</xref>, exhibited homology with several well studied VapC toxins, such as the first PIN domain structure for the protein PAE2754 from the archae bacterium <italic>Pyrobaculum aerophilum</italic> (30). To test toxicity and anti-toxicity effects of VapBC10 components, drop growth tests were performed, as described in Materials and methods, using the <italic>E. coli</italic> strains harboring the corresponding selection-expression plasmids (<xref ref-type="fig" rid="pone-0080716-g002">Figure 2A</xref>). The strain BL21(DE3)(pJS340) can produce VapC10 upon IPTG induction but does not express VapB10. However, BL21(DE3)(pJS350) can produce VapC10 and/or VapB10 in the presence of IPTG and/or arabinose, respectively. As seen in <xref ref-type="fig" rid="pone-0080716-g002">Figure 2B</xref>, all the tested strains showed no difference in drop growth under non-inducing conditions (M9+Glu). However, BL21(DE3)(pJS340) exhibited growth arrest in the presence of IPTG (M9+Gly+IPTG and M9+Gly+IPTG+Ara) but could grow normally in the absence of IPTG (M9+Gly+Ara) compared to the BL21(DE3)(pJS298) control. Also, BL21(DE3)(pJS350) showed growth arrest in the presence of IPTG alone (M9+Gly+IPTG) but could grow under other inducing conditions (M9+Gly+Ara and M9+Gly+IPTG+Ara). Similar growth profiles of these strains were observed in liquid media with the corresponding inducers (data not shown). These indicate that the expression of <italic>vapC10</italic> alone led to growth arrest of <italic>E. coli</italic>, and the simultaneous expression of <italic>vapB10</italic> could neutralize this growth-inhibition effect, suggesting that <italic>vapC10</italic> encodes a TA toxin and <italic>vapB10</italic> encodes the cognate antitoxin.</p>
+        <fig id="pone-0080716-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Effects of VapB and/or VapC10 on <italic>E. coli</italic> growth.</title>
+            <p>(A) Schematic diagram showing the structures of the selection expression plasmids. (B) Drop growth experiments of the corresponding selection expression strains. The <italic>E. coli</italic> strain BL21(DE3)(pJS298) was used as the negative control. Diluted samples of each culture were dropped on the indicated M9 plates. (C) CFU counts of the <italic>E. coli</italic> strain BL21(DE3)(pJS350) after the stop of VapC10 production or the subsequent production of VapB10. The IPTG-induced cells of BL21(DE3)(pJS350) were transferred at the indicated time points to the plates M9+Glu (Glu+IPTG&#x2192;Glu), M9+Gly+IPTG (Glu+IPTG&#x2192;Gly+IPTG) and M9+Gly+Ara (Glu+IPTG&#x2192;Gly+Ara). CFUs were counted after incubation at 37&#xB0;C for 30 h. Error bars indicate the standard errors of the means from three independent experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g002"/>
+        </fig>
+      </sec>
+      <sec id="s3c">
+        <title>VapC10-induced growth arrest can be rescued by the subsequent production of VapB10</title>
+        <p>To test whether the VapC10-induced growth arrest can be recovered or not, rescue experiments were performed with the strain BL21(DE3)(pJS350). After the culture was induced and treated, as described in Materials and methods, CFUs were enumerated on the plates M9+Glu (<italic>vapBC10</italic> repressed), M9+Gly+IPTG (<italic>vapC10</italic> continuously induced) and M9+Gly+Ara (<italic>vapB10</italic> induced). As seen in <xref ref-type="fig" rid="pone-0080716-g002">Figure 2C</xref>, either continuous induction (Glu+IPTG&#x2192;Gly+IPTG) or stopping induction (Glu+IPTG&#x2192;Glu, after 180-min induction) of <italic>vapC10</italic> resulted in an about 1000-fold drop in CFU relative to that in which the toxin was not induced (Glu+IPTG&#x2192;Glu, at time zero). However, no reduction in CFU was observed when <italic>vapB10</italic> was subsequently induced (Glu+IPTG&#x2192;Gly+Ara). These indicate that the VapC10-induced growth arrest could be overcome by the subsequent expression of VapB10 but not by the stop of VapC10 expression, suggesting a bacteriostatic effect of VapC10.</p>
+      </sec>
+      <sec id="s3d">
+        <title>Interaction between VapB10 and VapC10</title>
+        <p>To test the possible interaction between VapB10 and VapC10, <italic>E. coli</italic> BL21(DE3)(pJS653) was induced with IPTG, and the recombinant proteins were affinity-purified with a Ni-NTA column. As shown in <xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>, a 8.2-kDa protein and a 13.5-kDa protein were produced after 3 h of induction with IPTG (lane 3), and are consistent with the expected masses of VapB10 and VapC10-His<sub>6</sub>, respectively. A stoichiometry analysis showed that the molar amount of VapB10 exceeded VapC10-His<sub>6</sub> (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>, lane 3), suggesting that <italic>vapB10</italic> is expressed more effectively than the downstream gene <italic>vapC10</italic> under control of the P<italic><sub>T7</sub></italic> promoter in the IPTG-induced cells. In addition, VapB10 was successfully co-purified with VapC-His<sub>6</sub> under native conditions (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>, lane 4). The MS analyses showed that two VapB10 peaks (836.437, 1584.789 <italic>m</italic>/<italic>z</italic>) and three VapC10-His<sub>6</sub> peaks (1049.526, 1299.733 and 1455.853 <italic>m</italic>/<italic>z</italic>) were detected in MS-DIGEST program, indicating that both VapB10 and VapC10-His<sub>6</sub> had the expected peptide masses (<xref ref-type="supplementary-material" rid="pone.0080716.s003">Figure S3</xref>). These results suggest that VapB10 binds to VapC10-His<sub>6</sub> forming the TA complex VapBC10 <italic>in vivo</italic>, which may cause the counteraction of the VapC10-induced growth arrest (<xref ref-type="fig" rid="pone-0080716-g002">Figure 2</xref>). Besides, the stoichiometry of the Coomassie-stained VapBC10 proteins upon affinity co-purification appears to an approximate 1&#x2236;1 ratio of VapB10 to VapC10-His<sub>6</sub> (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>, lane 4)), indicating that the molar ratio of VapB10 to VapC10-His<sub>6</sub> is about 1&#x2236;1 in the VapBC10 complex. Thus, the co-existence of two different forms of VapB10 bound and unbound to VapC10 during artificial induction <italic>in vivo</italic> is suggested by the observed difference in the molar ratio of VapB10 to VapC10 between the IPTG-induced cells (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>, lane 3) and the affinity-purified VapBC10 complexes (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>, lane 4).</p>
+        <fig id="pone-0080716-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>SDS-PAGE analysis of the recombinant proteins from the IPTG-induced cells of <italic>E. coli</italic> BL21(DE3)(pJS653).</title>
+            <p>Lanes: 1, protein molecular weight standard; 2, crude extract of un-induced cells; 3, crude extract of IPTG-induced cells; 4, co-purified proteins under native conditions; 5 and 6, purified and refolded proteins VapB10 and VapC10-His<sub>6</sub>, respectively. The densitometry values and the relative molar ratio of VapB10 to VapC10-His<sub>6</sub> are shown at the bottom panel.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g003"/>
+        </fig>
+      </sec>
+      <sec id="s3e">
+        <title>VapB10 positively auto-regulates the <italic>vapBC10</italic> transcription</title>
+        <p>It has been demonstrated that TA operons are all negatively auto-regulated at the transcription level by direct binding of antitoxins to the TA operon promoters <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Yamaguchi2">[16]</xref>. To investigate self-regulation of the <italic>vapBC10</italic> transcription, the &#x3B2;-galactosidase activities of the <italic>E. coli</italic> DH5&#x3B1; cells containing the corresponding reporter plasmids (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>) were measured. The strain which harbors the promoter-less <italic>lacZ</italic> vector pJS759 (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>) was used as a negative control, and showed a poor &#x3B2;-galactosidase activity. The strain harboring pJS836 that contains the <italic>P<sub>vapBC10</sub></italic>-<italic>lacZ</italic> fusion had a similar &#x3B2;-galactosidase activity (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>) with that of the negative control strain. When <italic>vapB10</italic> was introduced, &#x3B2;-galactosidase activity of the strain harboring pJS878 (containing <italic>P<sub>vapBC10</sub></italic>-<italic>vapB10</italic>-<italic>lacZ</italic> fusion) increased dramatically (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>). However, the strain carrying pJS1028 (containing <italic>P<sub>vapBC10</sub></italic>-<italic>vapB10</italic>-<italic>vapC10</italic>-<italic>lacZ</italic> fusion) showed an enzymatic activity significantly lower than that of the strain containing pJS878 but remarkably higher than that of the strain containing pJS836 (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>). Furthermore, the strain containing pJS1472 (containing <italic>vapB10-vapC10-lacZ</italic> fusion) showed a &#x3B2;-galactosidase activity similar to that of the negative control strain (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>), eliminating the possibility of a potential promoter present in the <italic>vapBC10</italic> encoding sequence. Therefore, these results suggest that VapB10 is capable of activating the <italic>P<sub>vapBC10</sub></italic> transcription activity, and the presence of VapC10 partially inhibits this activation effect. Given that the molar ratio of VapB10 to VapC10 produced from the native promoter is similar to that from the IPTG-inducible promoter of pJS653 in <italic>E. coli</italic> (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>), then VapB10 also exists both alone and in the VapBC10 complexes in the <italic>E. coli</italic> strain containing pJS1028 (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>). Depending on this scenario that may or is expected to occur, one possibility for the transcription inhibition by VapC10 (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>, as indicated by pJS1028) is that the VapC10-bound VapB10 in the VapBC10 complex fails to activate the <italic>P<sub>vapBC10</sub></italic> transcription, and only the free VapB10 exerts the effect of transcription activation. Another possibility, not mutually exclusive with the first, is that introduction of the <italic>vapC10</italic> DNA sequence between <italic>P<sub>vapBC10</sub></italic> and <italic>lacZ</italic> decreases the transcriptional readthrough of the reporter gene. Also, the results of transcription fusion analyses, in agreement with that seen in the RT-PCR analysis (<xref ref-type="fig" rid="pone-0080716-g001">Figure 1B</xref>), further indicate that <italic>vapB10</italic> and <italic>vapC10</italic> form a bicistronic operon.</p>
+        <fig id="pone-0080716-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Transcriptional regulation roles and DNA-binding activities of VapBC10 proteins.</title>
+            <p>(A) Effects of VapBC10 components on the transcriptional activity of <italic>P<sub>vapBC10</sub></italic> measured by &#x3B2;-galactosidase activity assay. The structures of <italic>lacZ</italic> reporter plasmids are shown in the left panel, and the &#x3B2;-galactosidase activities are presented in the right panel. The values are the averages of three independent experiments. Error bars represent standard deviation. (B) EMSAs for the binding of VapBC10 components to the <italic>P<sub>vapBC10</sub></italic> DNA. A 296-bp DNA fragment P, containing <italic>P<sub>vapBC10</sub></italic>, was prepared by PCR using the primers P<sub>vapBC10</sub>-E1 and P<sub>vapBC10</sub>-E2. The labeled fragment P was incubated with final concentrations of VapB10 (lanes 1&#x2013;8) or with VapC10-His<sub>6</sub> (lanes 9&#x2013;15) as indicated at the bottom panel. Specific and nonspecific binding events are shown using 1 &#xB5;M of the unlabeled fragment P (lane 7) or <italic>P<sub>BAD</sub></italic> (lane 8) obtained from pJS298 by PCR amplification using the primers P<sub>BAD</sub>-F and P<sub>BAD</sub>-R. P indicates unbound DNA and arrows shifted DNA-protein complexes. - symbolizes the absence of the competitor DNA. (C) EMSAs for the binding of the complex VapBC10 to the <italic>P<sub>vapBC10</sub></italic> DNA. The labeled fragment P was incubated with increasing concentrations of the VapBC10 complex.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g004"/>
+        </fig>
+      </sec>
+      <sec id="s3f">
+        <title>VapB10 specifically binds the <italic>P<sub>vapBC10</sub></italic> DNA which is abolished by VapC10</title>
+        <p>The antitoxin VapB10 belongs to the COG2442 protein family. The structure of one of the COG2442 proteins from <italic>Anabana variabilis</italic> has been solved (PDB:2GA1) by Joint Center for Structural Genomics (JCSG) and has a winged-helix DNA binding domain with a DNA/RNA-binding 3-helical bundle in SCOP (<ext-link ext-link-type="uri" xlink:href="http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.bgi.b.c.html">http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.bgi.b.c.html</ext-link>). Our structure analysis with the 3DJIGSAW prediction tool <xref ref-type="bibr" rid="pone.0080716-Bates1">[36]</xref> and the DALI server <xref ref-type="bibr" rid="pone.0080716-Holm1">[37]</xref> revealed that VapB10 also contains a DNA/RNA-binding 3-helical bundle fold at its N-terminus (<xref ref-type="supplementary-material" rid="pone.0080716.s003">Figure S3</xref>), suggesting VapB10 as a DNA-binding antitoxin involved in the auto-regulation of <italic>vapBC10</italic> transcription as seen in <xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>.</p>
+        <p>In order to determine the roles of the VapBC proteins in the observed regulation of <italic>vapBC10</italic> transcription (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>), EMSAs were performed with the purified VapB10 (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3, lane 5</xref>), VapC10-His<sub>6</sub> (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3, lane 6</xref>) or VapBC10 complex (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3, lane 4</xref>) as well as the labeled 296-bp DNA DNA fragment P containing the <italic>P<sub>vapBC10</sub></italic> region. The obtained results revealed that VapB10 was capable of binding to the fragment P (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4B, lane 1&#x2013;6</xref>). In contrast, VapC10 had no DNA-binding activity (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4B</xref>, lane 9), and exhibited to neutralize the DNA-binding effect of VapB10 with its increasing amount (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4B, lane 10&#x2013;15</xref>). Furthermore, the purified VapBC10 complexes (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3, lane 4</xref>) at the increasing concentrations showed marginal DNA-binding signals (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4C</xref>), which may arise from the insignificant amount of VapB10 released from the TA complexes. These indicate that the VapBC10 complex could not bind to the fragment P, and suggest that the transcription-inhibition effect of VapC10 (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>, indicated as pJS1028) may arise from the inability of the bound VapB10 in the VapBC10 complexes to activate the <italic>P<sub>vapBC10</sub></italic> activity. Additional control EMSA results showed that, as expected, only the unlabeled fragment P (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4B</xref>, lanes 7), and not the unlabeled non-specific fragment P<sub>BAD</sub> (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4B</xref>, lane 8), could competitively inhibit the binding of VapB10 to the labeled fragment P, suggesting a specific physical interaction between VapB10 and the <italic>P<sub>vapBC10</sub></italic> promoter region. Taken together, these binding results support the notion of a direct regulatory role of VapB10 in <italic>vapBC10</italic> transcription, as suggested by our <italic>lacZ</italic> transcription fusion data (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4A</xref>).</p>
+      </sec>
+      <sec id="s3g">
+        <title>The IR is required for VapB10 binding to the <italic>P<sub>vapBC10</sub></italic> region</title>
+        <p>In order to identify which sequences within the <italic>P<sub>vapBC10</sub></italic> promoter region are required for VapB10 binding, three labeled amplicons, namely, P1, P2 and P3, which contain different sections of the promoter region, were generated (<xref ref-type="fig" rid="pone-0080716-g005">Figure 5A</xref>). The results obtained from the corresponding EMSAs showed that the VapB10 binding site is localized within a fragment between positions -88 and -59 (<xref ref-type="fig" rid="pone-0080716-g005">Figure 5B</xref>). This region contains an imperfect IR (5&#x2032;-TTTCCCT-2N-AGGGTAA-3&#x2032;), and does not contain the DR (5&#x2032;-TTTTGATA-6N-TTTTGTTA-3&#x2032;), suggesting that the IR plays a role in VapB10 binding.</p>
+        <fig id="pone-0080716-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>DNA binding regions of VapB10 in the P<italic><sub>vapBC10</sub></italic> promoter.</title>
+            <p>(A) Schematic representation of the DNA fragments used in EMSAs. The numbers indicate the ends of the fragments relative to the transcriptional start site. + or &#x2212; indicates that VapB10 binds to the DNA fragment or not. (B) EMSAs of VapB10 binding to the different regions of the promoter <italic>P<sub>vapBC10</sub></italic>. The DNA fragments P1, P2 and P3 were PCR amplified with the primer pairs P<sub>vapBC10</sub>-E3/P<sub>vapBC10</sub>-E4, P<sub>vapBC10</sub>-E5/P<sub>vapBC10</sub>-E6 and P<sub>vapBC10</sub>-E7/P<sub>vapBC10</sub>-E2. The labeled fragment P1 (lanes 1-5), P2 (lanes 6-10) and P3 (lanes 11-15) were incubated with increasing concentrations of VapB10 (see the Figure 5 legend for further details), respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g005"/>
+        </fig>
+      </sec>
+      <sec id="s3h">
+        <title>ClpXP2s can proteolytically activates VapBC10 in <italic>E. coli</italic></title>
+        <p>It has been demonstrated that ATP-dependent proteases Lon and ClpP could proteolytically regulate activities of some TA toxins through specific degradation of the antitoxins <xref ref-type="bibr" rid="pone.0080716-Christensen1">[9]</xref>, <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Christensen2">[38]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0080716-Donegan1">[42]</xref>. Our previous study showed that both <italic>Synechocystis</italic> proteases Lons and ClpP2s could cleave the RelN antitoxin thus activating RelNE TA system <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref>. In order to determine the roles of these two proteases in regulation of the VapC10 toxicity, drop growth experiments were performed using the <italic>E. coli</italic> BL21(DE3) strains containing the proteolytic activation plasmids (<xref ref-type="fig" rid="pone-0080716-g006">Figure 6A</xref>). These proteolytic activation strains could conditionally express the <italic>Synechocystis</italic> protease (Lons or ClpXP2s) and/or the VapBC10 components (VapB10 or together with VapC10) upon induction of IPTG and/or arabinose. Because our previous study showed that the growth of the <italic>E. coli</italic> strain containing pJS371 or pJS391 was not affected in the presence of arabinose and/or IPTG <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref>, here either strain was used as the negative control. As seen in <xref ref-type="fig" rid="pone-0080716-g006">Figure 6B</xref>, all the tested strains showed no difference in growth under non-inducing conditions (M9+Glu). However, the strain BL21(DE3)(pJS429) exhibited growth inhibition in the presence of both IPTG and arabinose (M9+Gly+IPTG+Ara) but could grow in the presence IPTG or arabinose (M9+Gly+Ara or M9+Gly+IPTG). Under the same conditions, no difference in drop growth was observed between the other strains tested (<xref ref-type="fig" rid="pone-0080716-g006">Figure 6B</xref>). These results indicate that the simultaneous expression of <italic>clpXP2s</italic> along with <italic>vapBC10</italic> caused <italic>E. coli</italic> growth arrest. Since the production of VapC10 caused <italic>E. coli</italic> growth arrest in the absence of VapB10 (<xref ref-type="fig" rid="pone-0080716-g002">Figure 2B and C</xref>), we speculated that ClpXP2s, rather than Lons, may activate VapC10 via specific proteolysis of VapB10, allowing VapC10 to be released from the VapBC10 complexes.</p>
+        <fig id="pone-0080716-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Proteolytic activation effect of the <italic>Synechocystis</italic> protease Lons or ClpXP on VapBC10.</title>
+            <p>(A) Schematic diagram showing the structures of the proteolytic activation plasmids. (B) Drop growth experiments of the corresponding proteolytic activation strains as presented in the right panel. Diluted samples of each culture were dropped on the M9 plates, as described in the <xref ref-type="fig" rid="pone-0080716-g002">Figure 2B</xref> legend.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g006"/>
+        </fig>
+      </sec>
+      <sec id="s3i">
+        <title>VapB10 is specifically degraded by ClpXP2s</title>
+        <p>To determine the possible proteolytic degradation, we investigated the stability of VapBC10 proteins in the presence of ClpXP2s or Lons. The strains containing the corresponding proteolytic activation plasmids were grown and treated, as described in Materials and methods, and the treaded cells were subjected to Western blot analysis to monitor VapB10, VapC10, ClpP2s or Lons with the respective primary antibodies. Based on densitometrical analyses of Western blots, the percentage of the related protein amount at each time point compared to that at time zero was calculated, and the half-lives of proteins were determined. We first probed the proteolysis effects of <italic>E. coli</italic> proteases on VapB10 and VapC10 using the strain <italic>E. coli</italic> BL21(DE3)(pJS653) (for co-expression of VapB10 with VapC10 in <xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>). The results revealed that the levels of VapB10 and VapC10 remained unaltered during translation stall elicited by spectinomycin addition, indicating that the <italic>E. coli</italic> proteases degraded neither VapB10 nor VapC10. To test the role of ClpXP2s in the proteolysis of VapBC10 proteins, the stability of VapB10 or with VapC10 was investigated in the strain BL21(DE3)(pJS883) or BL21(DE3)(pJS429). The results showed that ClpP2s remained stable in the BL21(DE3)(pJS883) cells during translation inhibition, while the VapB10 level rapidly decreased with a half-life of about 40 min (<xref ref-type="fig" rid="pone-0080716-g007">Figure 7B</xref>). In the BL21(DE3)(pJS429) cells, the levels of ClpP2s and VapC10 remained unchanged over a 2-hour period of translation arrest, but the VapB10 level showed to be decreased with a half-life (<xref ref-type="fig" rid="pone-0080716-g007">Figure 7C</xref>) similar to that observed in the strain BL21(DE3)(pJS883) (<xref ref-type="fig" rid="pone-0080716-g007">Figure 7B</xref>). These indicate that ClpXP2s could degrade VapB10 regardless of the presence or absence of VapC10. As suggested by the result of drop growth experiments (<xref ref-type="fig" rid="pone-0080716-g006">Figure 6B</xref>), ClpXP2s could degrade VapB10 in the TA complexes and consequently activate the latent toxicity of the VapBC10 system. When we determined the proteolysis role of Lons in VapBC10 proteins by Western blot analysis using the strains BL21(DE3)(pJS882) and BL21(DE3)(pJS427), the levels of VapB10 and VapC10 remained stable over the course of translation inhibition (<xref ref-type="fig" rid="pone-0080716-g007">Figure 7D and E</xref>). Thus, Lon could not degrade VapBC10 proteins, consistent with our drop growth evidence (<xref ref-type="fig" rid="pone-0080716-g006">Figure 6B</xref>).</p>
+        <fig id="pone-0080716-g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0080716.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Stability of VapB10 and VapC10 in the presence of ClpPXP2s or Lons.</title>
+            <p>The <italic>E. coli</italic> strains BL21(DE3)(pJS653) (A), BL21(DE3)(pJS883) (B), BL21(DE3)(pJS429) (C), BL21(DE3)(pJS882) (D) and BL21(DE3)(pJS427) (E) were grown, induced and translationally stalled as described in Materials and methods. The cells treated at various points of time were subjected to Western blot analysis to monitor VapB10, VapC10, ClpP2s or Lons with the respective primary antibodies. The corresponding graph represents the percentages of the related protein amount at each time point compared to that at time zero.</p>
+          </caption>
+          <graphic xlink:href="pone.0080716.g007"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>An important step toward understanding the function of VapBC TA systems is the elucidation of their features. We here characterized the <italic>Synechocystis</italic> chromosomal PIN-COG2442 locus <italic>vapBC10</italic>. The <italic>vapB10</italic> gene was transcriptionally coupled with the <italic>vapC10</italic> gene, forming a bicistronic operon (<xref ref-type="fig" rid="pone-0080716-g001">Figure 1</xref> and <xref ref-type="fig" rid="pone-0080716-g004">4</xref>). The production of the PIN-domain protein VapC10 inhibited <italic>E. coli</italic> growth, which could be overcome by the simultaneous or subsequent production of the COG2442 domain protein VapB10 <italic>in trans</italic> (<xref ref-type="fig" rid="pone-0080716-g002">Figure 2</xref>) through formation of the protein-protein complex (<xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref>). These suggest that the <italic>vapBC10</italic> operon encodes a VapBC TA system. It has been demonstrated that the characterized VapC toxins share conservation of function in their ribonuclease activity although little sequence homology. For example, the <italic>Shigella</italic> and <italic>Salmonella</italic> VapC toxins were shown to cleave fMet tRNA at a single site between the anti-codon stem and loop <xref ref-type="bibr" rid="pone.0080716-Winther1">[23]</xref>. The <italic>Mycobacterium tuberculosis</italic> VapC (Rv0595c) also exhibited comparatively weak RNA endoribonuclease activity <xref ref-type="bibr" rid="pone.0080716-Sharp1">[25]</xref>. Recently, the sequence-specific ribonuclease activities of four VapC proteins were successfully determined from two different organisms <italic>Pyrobaculum aerophilum</italic> (PAE0151 and PAE2754) and <italic>M. tuberculosis</italic> (Rv0065 and Rv0617) <xref ref-type="bibr" rid="pone.0080716-McKenzie1">[24]</xref>. Therefore, it is conceivable that VapC10 may exert its growth-arrest effect via translation inhibition similar to the identified VapC toxins although its biochemical mechanism of action still remains to be determined.</p>
+      <p>Generally, TA operon transcription is auto-repressed by the antitoxin both alone and in TA complexes, and toxin activity is regulated by proteases Lon and ClpP <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Yamaguchi2">[16]</xref>. It is proposed that normal growth conditions allow to inhibit toxin activity by nontoxic TA complex formation which also represses TA expression, while particular circumstances cause derepression of TA expression and activation of toxins due to antitoxin proteolysis by proteases <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Yamaguchi2">[16]</xref>. Interestingly, our results from both <italic>lacZ</italic> transcription fusion analysis in <italic>E. coli</italic> and EMSA indicate that VapB10 positively auto-regulated <italic>vapBC10</italic> expression via its binding to the <italic>P<sub>vapBC10</sub></italic> region that includes an IR that is a strong candidate for recognition by the protein, while the TA complex VapBC10 exhibited no regulation activity due to its inability to bind the promoter <italic>P<sub>vapBC10</sub></italic> (<xref ref-type="fig" rid="pone-0080716-g004">Figure 4</xref> and <xref ref-type="fig" rid="pone-0080716-g005">5</xref>). These suggest that the <italic>vapBC10</italic> operon may possess a regulatory mechanism different from those of the characterized TA systems. However, because of possible involvement of specific host factors that might substantially change the regulatory pattern observed here, an exact mechanism of transcriptional regulation of the <italic>vapBC10</italic> operon remains to be elucidated in the native host <italic>Synechocystis</italic>. Nevertheless, our characterization of the transcriptional auto-regulation of the <italic>vapBC10</italic> operon here provides important information for further research directions.</p>
+      <p>A recent study suggests a new paradigm for regulation of TA operon transcription by a specific host factor <xref ref-type="bibr" rid="pone.0080716-Cline1">[43]</xref>. In Nontypeable <italic>Haemophilus influenza</italic> (NTHi), Fis (a global trans-activator factor for inversion stimulation) stimulates the <italic>vapBC-1</italic> operon expression on growth resumption. The TA complex VapBC-1 can transcriptionally suppress its own operon when <italic>fis</italic> expression drops in early log phase growth. However, VapBC-1 auto-regulates its own operon through VapC-1 binding to DNA, with VapB1 targeting the TA complex to the translation initiation region (TIR) of <italic>vapB-1</italic>. During nutrient deprivation or environmental stress, VapB-1 would be degraded by proteases Lon and Clp, freeing VapC-1 from nontoxic VapBC-1 complexes <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>. Since the VapC-1 interaction with vapB-1 TIR appears less stable in the absence of VapB-1, it may be readily displaced by Fis-induced structural changes in the promoter when conditions favor the resumption of bacterial growth. Based on this unusual mode for auto-regulation of TA operon transcription, it is tempting to speculate that other transcriptional factor(s) in <italic>Synechocystis</italic>, similar to the NTHi Fis, may be involved in the regulation of <italic>vapBC10</italic> transcription under certain growth conditions. In addition, our sequence analysis of the <italic>Syenchocystis</italic> VapBC TA systems (<xref ref-type="supplementary-material" rid="pone.0080716.s004">Table S1</xref>) revealed that the components of the four PIN-COG2442 VapBC systems share the most homology relative to those of the others in <italic>Synechocystis</italic>. VapC10 has 24.1% and 17.1% sequence identity to VapC12 and VapC13, and VapB10 has 28.4%, 41.9% and 31.1% identity to VapB11, VapB12 and VapB13, respectively. The occurrence in <italic>Synechocystis</italic> of multiple COG2442-PIN VapBC components that are related in sequence raises the possibility that interactions occur between noncognate pairs. Such noncognate interactions may also be involved in regulation of <italic>vapBC10</italic> transcription and VapC10 activity. Our experiments are underway to determine the affinity between noncognate VapBC protein pairs.</p>
+      <p>Another concern is the <italic>Synechocystis</italic> proteases because ATP-dependant proteases generally regulated both TA operon transcription and toxin activity via antitoxin proteolysis. Compared to other bacteria, cyanobacteria have quite complex protease system which remains largely unexplained. In <italic>Synechocystis</italic>, the genes <italic>slr0542</italic>, <italic>sllo534</italic>, <italic>slr0165</italic> and <italic>slr0164</italic> are predicted to encode four distinct proteolytic subunits ClpP1s, ClpP2s, ClpP3s and ClpRs, and <italic>sll0020</italic>, <italic>sll0535</italic>, <italic>slr0156</italic> and <italic>slr1641</italic> encode four ClpP ATPase-chaperones ClpCs, ClpXs, ClpB1s and ClpB2s <xref ref-type="bibr" rid="pone.0080716-Kaneko1">[44]</xref>. The gene <italic>clpP2s</italic> (<italic>sll0534</italic>) overlaps with <italic>clpXs</italic> (<italic>sll0535</italic>) by 3 nucleotides. Our sequence analysis showed that ClpP2s is homologous (ca. 61.4% sequence identity) to the single ClpP of <italic>E</italic>. <italic>coli</italic>, and ClpXs has 64.1% sequence identity to the <italic>E. coli</italic> ClpX. The gene <italic>slr0195</italic> encodes the <italic>E. coli</italic> Lon homolog Lons (ca 20.7% sequence identity). These suggest that the <italic>Synechocystis</italic> proteases Lons and ClpP2s may be responsible for proteolysis of TA antitoxins, as their homologs described in other bacteria <xref ref-type="bibr" rid="pone.0080716-Christensen1">[9]</xref>, <xref ref-type="bibr" rid="pone.0080716-Gerdes1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080716-Christensen2">[38]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0080716-Donegan1">[42]</xref>. Our studies also demonstrated that both proteases Lons and ClpP2s could degrade the antitoxin RelN of the RelNE TA system <xref ref-type="bibr" rid="pone.0080716-Ning1">[29]</xref>, while ClpXP2s, rather than Lon, proteolytically regulate the VapC10 activity by cleaving VapB10 (<xref ref-type="fig" rid="pone-0080716-g006">Figure 6</xref> and <xref ref-type="fig" rid="pone-0080716-g007">7</xref>). Neverthless, the possible involvement of other <italic>Synechocystis</italic> ClpP proteases in VapB10 proteolysis and their physiological roles remain under further investigation. The cyanobacterium <italic>Synechococcus elongate</italic> possesses a <italic>clp</italic> gene set and organization similar to those of <italic>Synechocystis</italic>. In this strain, <italic>clpP2</italic> inactivation does not cause obvious phenotypic changes under the conditions tested <xref ref-type="bibr" rid="pone.0080716-Schelin1">[45]</xref>, while loss of ClpP1 significantly affects the ability of <italic>Synechococcus</italic> to acclimate to some adverse growth conditions <xref ref-type="bibr" rid="pone.0080716-Clarke1">[46]</xref>, <xref ref-type="bibr" rid="pone.0080716-Porankiewicz1">[47]</xref>. Either <italic>clpR</italic> or <italic>clpP3</italic> is essential for cell viability, and thus cannot be deleted <xref ref-type="bibr" rid="pone.0080716-Schelin2">[48]</xref>, <xref ref-type="bibr" rid="pone.0080716-Clarke2">[49]</xref>. Unfortunately, our repeated attempts to obtain a <italic>Synechocystis</italic> mutant with complete deletion of <italic>clpP2s</italic> have been unsuccessful, suggesting different physiological roles of ClpP homologs in various cyanobacteria species.</p>
+      <p>Exploiting the properties of TA systems has led to a number of applications for various purposes. For example, the finely tuned regulation of inherent anti-bacterial activity of TA toxins could be employed to inhibit bacterial growth by artificial activation of TA systems <xref ref-type="bibr" rid="pone.0080716-Williams1">[20]</xref>. As a novel anti-bacterial strategy, TA toxins could be activated by preventing or disrupting TA complex formation. One of the prerequisites for successful application of this strategy is to select functional TA systems suitable for artificial activator. If the TA system VapBC10 shares the properties, especially the potential toxicity and the positive auto-regulation, in its native host <italic>Synechocystis</italic> as those here seen in <italic>E. coli</italic>, it may be a desirable target for study of TA system-mediated anti-bacteria strategy. Thus, characterization of such TA systems in cyanobacteria represents a promising avenue for developing novel and effective strategies for cyanobacteria-bloom control.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0080716.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>The schematic representation of the reporter vector pJS759.</bold> The start codon of the promoter-less <italic>lacZ</italic> is in bold face. The ribosome binding site (RBS) is underlined. The boxed triad bases are the three stop codons in different potential reading frames to keep from a translational fusion with the <italic>lacZ</italic> reporter gene. The stem-loop symbols at both ends of the &#x3A9; cassette indicate the short inverted repeats that terminate background transcription.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0080716.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0080716.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Sequences and structures of VapB10 and VapC10.</bold> Shown are the amino acid sequences of VapC10 and VapB10 with their secondary structure elements assigned according to structure analysis with the 3DJIGSAW prediction tool and the DALI server. Putative catalytic residues of VapV10 are marked with a star.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0080716.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0080716.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p><bold>Identification of VapB10 and VapC10-His<sub>6</sub> by MS analysis</bold>. Both VapB10 (A) and VapC10-His<sub>6</sub> (B) from lane 4 in the <xref ref-type="fig" rid="pone-0080716-g003">Figure 3</xref> were confirmed by MS analysis. Shown below are amino acid sequences and predicted m/z values of VapB10 and VapC10 by online analysis using the MS-DIGEST program (<ext-link ext-link-type="uri" xlink:href="http://prospector.ucsf.edu">http://prospector.ucsf.edu</ext-link>).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0080716.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0080716.s004">
+        <label>Table S1</label>
+        <caption>
+          <p>The putative <italic>vapBC</italic> TA loci on the <italic>Synechoycystis</italic> chromosome.</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0080716.s004.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0080716.s005">
+        <label>Table S2</label>
+        <caption>
+          <p>The PCR primers used in this study.</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0080716.s005.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Professor Xudong Xu (Institute of Hydrobiology, Chinese Academy of Sciences) for providing the cyanobacterial strain <italic>Synechocystis</italic> sp. PCC 6803 and some vectors, bachelor students Xiaolong Wang and Fu Chen (School of Pharmacy, Jiangsu University) for helping plasmid construction.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0080716-Jaffe1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Jaffe</surname><given-names>A</given-names></name>, <name><surname>Ogura</surname><given-names>T</given-names></name>, <name><surname>Hiraga</surname><given-names>S</given-names></name> (<year>1985</year>) <article-title>Effects of the <italic>ccd</italic> function of the F plasmid on bacterial growth</article-title>. <source>J Bacteriol</source><volume>163</volume>: <fpage>841</fpage>&#x2013;<lpage>849</lpage><pub-id pub-id-type="pmid">3897195</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Pandey1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Pandey</surname><given-names>DP</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2005</year>) <article-title>Toxin-antitoxin loci are highly abundant in free-living but lost from host-associated prokaryotes</article-title>. <source>Nucleic Acids Res</source><volume>33</volume>: <fpage>966</fpage>&#x2013;<lpage>976</lpage><pub-id pub-id-type="pmid">15718296</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Makarova1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">Makarova K, Wolf Y, Koonin E (2009) Comprehensive comparative-genomic analysis of Type 2 toxin-antitoxin systems and related mobile stress response systems in prokaryotes. Biol Direct <volume>4</volume><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1745-6150-1184-1119">10.1186/1745-6150-1184-1119</ext-link></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Leplae1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Leplae</surname><given-names>R</given-names></name>, <name><surname>Geeraerts</surname><given-names>D</given-names></name>, <name><surname>Hallez</surname><given-names>R</given-names></name>, <name><surname>Guglielmini</surname><given-names>J</given-names></name>, <name><surname>Dreze</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Diversity of bacterial type II toxin-antitoxin systems: a comprehensive search and functional analysis of novel families</article-title>. <source>Nucleic Acids Res</source><volume>39</volume>: <fpage>5513</fpage>&#x2013;<lpage>5525</lpage><pub-id pub-id-type="pmid">21422074</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Magnuson1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Magnuson</surname><given-names>RD</given-names></name> (<year>2007</year>) <article-title>Hypothetical functions of toxin-antitoxin systems</article-title>. <source>J Bacteriol</source><volume>189</volume>: <fpage>6089</fpage>&#x2013;<lpage>6092</lpage><pub-id pub-id-type="pmid">17616596</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-VanMelderen1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Van Melderen</surname><given-names>L</given-names></name>, <name><surname>Saavedra De Bast</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Bacterial toxin-antitoxin systems: more than selfish entities?</article-title><source>PLoS Genet</source><volume>5</volume>: <fpage>e1000437</fpage><pub-id pub-id-type="pmid">19325885</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Schuster1">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Schuster</surname><given-names>CF</given-names></name>, <name><surname>Bertram</surname><given-names>R</given-names></name> (<year>2013</year>) <article-title>Toxin-antitoxin systems are ubiquitous and versatile modulators of prokaryotic cell fate</article-title>. <source>FEMS Microbiol Lett</source><volume>340</volume>: <fpage>73</fpage>&#x2013;<lpage>85</lpage><pub-id pub-id-type="pmid">23289536</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Yamaguchi1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Yamaguchi</surname><given-names>Y</given-names></name>, <name><surname>Park</surname><given-names>JH</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>MqsR, a crucial regulator for quorum sensing and biofilm formation, is a GCU-specific mRNA interferase in <italic>Escherichia coli</italic></article-title>. <source>J Biol Chem</source><volume>284</volume>: <fpage>28746</fpage>&#x2013;<lpage>28753</lpage><pub-id pub-id-type="pmid">19690171</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Christensen1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Christensen</surname><given-names>SK</given-names></name>, <name><surname>Pedersen</surname><given-names>K</given-names></name>, <name><surname>Hansen</surname><given-names>FG</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2003</year>) <article-title>Toxin-antitoxin loci as stress-response-elements: ChpAK/MazF and ChpBK cleave translated RNAs and are counteracted by tmRNA</article-title>. <source>J Mol Biol</source><volume>332</volume>: <fpage>809</fpage>&#x2013;<lpage>819</lpage><pub-id pub-id-type="pmid">12972253</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-ChristensenDalsgaard1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Christensen-Dalsgaard</surname><given-names>M</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2006</year>) <article-title>Two <italic>higBA</italic> loci in the <italic>Vibrio cholerae</italic> superintegron encode mRNA cleaving enzymes and can stabilize plasmids</article-title>. <source>Mol Microbiol</source><volume>62</volume>: <fpage>397</fpage>&#x2013;<lpage>411</lpage><pub-id pub-id-type="pmid">17020579</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Jrgensen1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>J&#xF8;rgensen</surname><given-names>MG</given-names></name>, <name><surname>Pandey</surname><given-names>DP</given-names></name>, <name><surname>Jaskolska</surname><given-names>M</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2009</year>) <article-title>HicA of <italic>Escherichia coli</italic> defines a novel family of translation-independent mRNA interferases in bacteria and archaea</article-title>. <source>J Bacteriol</source><volume>191</volume>: <fpage>1191</fpage>&#x2013;<lpage>1199</lpage><pub-id pub-id-type="pmid">19060138</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Pedersen1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Pedersen</surname><given-names>K</given-names></name>, <name><surname>Zavialov</surname><given-names>AV</given-names></name>, <name><surname>Pavlov</surname><given-names>MY</given-names></name>, <name><surname>Elf</surname><given-names>J</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>The bacterial toxin RelE displays codon-specific cleavage of mRNAs in the ribosomal A site</article-title>. <source>Cell</source><volume>112</volume>: <fpage>131</fpage>&#x2013;<lpage>140</lpage><pub-id pub-id-type="pmid">12526800</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Prysak1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Prysak</surname><given-names>MH</given-names></name>, <name><surname>Mozdzierz</surname><given-names>CJ</given-names></name>, <name><surname>Cook</surname><given-names>AM</given-names></name>, <name><surname>Zhu</surname><given-names>L</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Bacterial toxin YafQ is an endoribonuclease that associates with the ribosome and blocks translation elongation through sequence-specific and frame-dependent mRNA cleavage</article-title>. <source>Mol Microbiol</source><volume>71</volume>: <fpage>1071</fpage>&#x2013;<lpage>1087</lpage><pub-id pub-id-type="pmid">19210620</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Gerdes1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Gerdes</surname><given-names>K</given-names></name>, <name><surname>Christensen</surname><given-names>SK</given-names></name>, <name><surname>Lobner-Olesen</surname><given-names>A</given-names></name> (<year>2005</year>) <article-title>Prokaryotic toxin-antitoxin stress response <italic>loci</italic></article-title>. <source>Nat Rev Microbiol</source><volume>3</volume>: <fpage>371</fpage>&#x2013;<lpage>382</lpage><pub-id pub-id-type="pmid">15864262</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Anantharaman1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Anantharaman</surname><given-names>V</given-names></name>, <name><surname>Aravind</surname><given-names>L</given-names></name> (<year>2003</year>) <article-title>New connections in the prokaryotic toxin-antitoxin network: relationship with the eukaryotic nonsense-mediated RNA decay system</article-title>. <source>Genome Biol</source><volume>4</volume>: <fpage>R81</fpage><pub-id pub-id-type="pmid">14659018</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Yamaguchi2">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Yamaguchi</surname><given-names>Y</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name> (<year>2011</year>) <article-title>Regulation of growth and death in <italic>Escherichia coli</italic> by toxin-antitoxin systems</article-title>. <source>Nat Rev Microbiol</source><volume>9</volume>: <fpage>779</fpage>&#x2013;<lpage>790</lpage><pub-id pub-id-type="pmid">21927020</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Pedersen2">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Pedersen</surname><given-names>K</given-names></name>, <name><surname>Christensen</surname><given-names>S</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2002</year>) <article-title>Rapid induction and reversal of a bacteriostatic condition by controlled expression of toxins and antitoxins</article-title>. <source>Mol Microbiol</source><volume>45</volume>: <fpage>501</fpage>&#x2013;<lpage>510</lpage><pub-id pub-id-type="pmid">12123459</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Amitai1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Amitai</surname><given-names>S</given-names></name>, <name><surname>Yassin</surname><given-names>Y</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2004</year>) <article-title>MazF-mediated cell death in <italic>Escherichia coli</italic>: a point of no return</article-title>. <source>J Bacteriol</source><volume>186</volume>: <fpage>8295</fpage>&#x2013;<lpage>8300</lpage><pub-id pub-id-type="pmid">15576778</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Nariya1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Nariya</surname><given-names>H</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>MazF, an mRNA interferase, mediates programmed cell death during multicellular <italic>Myxococcus</italic> development</article-title>. <source>Cell</source><volume>132</volume>: <fpage>55</fpage>&#x2013;<lpage>66</lpage><pub-id pub-id-type="pmid">18191220</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Williams1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Williams</surname><given-names>JJ</given-names></name>, <name><surname>Hergenrother</surname><given-names>PJ</given-names></name> (<year>2012</year>) <article-title>Artificial activation of toxin-antitoxin systems as an antibacterial strategy</article-title>. <source>Trends Microbiol</source><volume>20</volume>: <fpage>291</fpage>&#x2013;<lpage>298</lpage><pub-id pub-id-type="pmid">22445361</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Arcus1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Arcus</surname><given-names>VL</given-names></name>, <name><surname>McKenzie</surname><given-names>JL</given-names></name>, <name><surname>Robson</surname><given-names>J</given-names></name>, <name><surname>Cook</surname><given-names>GM</given-names></name> (<year>2011</year>) <article-title>The PIN-domain ribonucleases and the prokaryotic VapBC toxin-antitoxin array</article-title>. <source>Protein Eng Des Sel</source><volume>24</volume>: <fpage>33</fpage>&#x2013;<lpage>40</lpage><pub-id pub-id-type="pmid">21036780</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Arcus2">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Arcus</surname><given-names>VL</given-names></name>, <name><surname>McKenzie</surname><given-names>JL</given-names></name>, <name><surname>Robson</surname><given-names>J</given-names></name>, <name><surname>Cook</surname><given-names>GM</given-names></name> (<year>2011</year>) <article-title>The PIN-domain ribonucleases and the prokaryotic VapBC toxin-antitoxin array</article-title>. <source>Protein Eng Des Sel</source><volume>24</volume>: <fpage>33</fpage>&#x2013;<lpage>40</lpage><pub-id pub-id-type="pmid">21036780</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Winther1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Winther</surname><given-names>KS</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2011</year>) <article-title>Enteric virulence associated protein VapC inhibits translation by cleavage of initiator tRNA</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>108</volume>: <fpage>7403</fpage>&#x2013;<lpage>7407</lpage><pub-id pub-id-type="pmid">21502523</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-McKenzie1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>McKenzie</surname><given-names>JL</given-names></name>, <name><surname>Duyvestyn</surname><given-names>JM</given-names></name>, <name><surname>Smith</surname><given-names>T</given-names></name>, <name><surname>Bendak</surname><given-names>K</given-names></name>, <name><surname>MacKay</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Determination of ribonuclease sequence-specificity using Pentaprobes and mass spectrometry</article-title>. <source>RNA</source><volume>18</volume>: <fpage>1267</fpage>&#x2013;<lpage>1278</lpage><pub-id pub-id-type="pmid">22539524</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Sharp1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Sharp</surname><given-names>JD</given-names></name>, <name><surname>Cruz</surname><given-names>JW</given-names></name>, <name><surname>Raman</surname><given-names>S</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name>, <name><surname>Husson</surname><given-names>RN</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Growth andtranslation inhibition through sequence-specific RNA binding by <italic>Mycobacterium tuberculosis</italic> VapC Toxin</article-title>. <source>J Biol Chem</source><volume>287</volume>: <fpage>12835</fpage>&#x2013;<lpage>12847</lpage><pub-id pub-id-type="pmid">22354968</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Florek1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Florek</surname><given-names>P</given-names></name>, <name><surname>Muchova</surname><given-names>K</given-names></name>, <name><surname>Pavelcikova</surname><given-names>P</given-names></name>, <name><surname>Barak</surname><given-names>I</given-names></name> (<year>2008</year>) <article-title>Expression of functional <italic>Bacillus</italic> SpoIISAB toxin-antitoxin modules in <italic>Escherichia coli</italic></article-title>. <source>FEMS Microbiol Lett</source><volume>278</volume>: <fpage>177</fpage>&#x2013;<lpage>184</lpage><pub-id pub-id-type="pmid">18096016</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Zhao1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhao</surname><given-names>LX</given-names></name>, <name><surname>Zhang</surname><given-names>JJ</given-names></name> (<year>2008</year>) <article-title>Biochemical characterization of a chromosomal toxin-antitoxin system in <italic>Mycobacterium tuberculosis</italic></article-title>. <source>FEBS Lett</source><volume>582</volume>: <fpage>710</fpage>&#x2013;<lpage>714</lpage><pub-id pub-id-type="pmid">18258191</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Syed1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Syed</surname><given-names>MA</given-names></name>, <name><surname>Koyanagi</surname><given-names>S</given-names></name>, <name><surname>Sharma</surname><given-names>E</given-names></name>, <name><surname>Jobin</surname><given-names>MC</given-names></name>, <name><surname>Yakunin</surname><given-names>AF</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>The chromosomal <italic>mazEF</italic> Locus of <italic>Streptococcus mutans</italic> encodes a functional type II toxin-antitoxin addiction system</article-title>. <source>J Bacteriol</source><volume>193</volume>: <fpage>1122</fpage>&#x2013;<lpage>1130</lpage><pub-id pub-id-type="pmid">21183668</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Ning1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Ning</surname><given-names>D</given-names></name>, <name><surname>Ye</surname><given-names>S</given-names></name>, <name><surname>Liu</surname><given-names>B</given-names></name>, <name><surname>Chang</surname><given-names>J</given-names></name> (<year>2011</year>) <article-title>The proteolytic activation of the <italic>relNEs</italic> (<italic>ssr1114/slr0664</italic>) toxin-antitoxin system by both proteases Lons and ClpP2s/Xs of <italic>Synechocystis</italic> sp. PCC 6803</article-title>. <source>Curr Microbiol</source><volume>63</volume>: <fpage>496</fpage>&#x2013;<lpage>502</lpage><pub-id pub-id-type="pmid">21909782</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Cai1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Cai</surname><given-names>Y</given-names></name>, <name><surname>Wolk</surname><given-names>CP</given-names></name> (<year>1990</year>) <article-title>Use of a conditionally lethal gene in <italic>Anabaena</italic> sp. strain PCC 7120 to select for double recombinants and to entrap insertions</article-title>. <source>J Bacteriol</source><volume>172</volume>: <fpage>3138</fpage>&#x2013;<lpage>3145</lpage><pub-id pub-id-type="pmid">2160938</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Gao1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Gao</surname><given-names>H</given-names></name>, <name><surname>Xu</surname><given-names>X</given-names></name> (<year>2007</year>) <article-title>Construction of copper induced gene expression platform in <italic>Synechosystis</italic> sp. PCC6803</article-title>. <source>Acta Hydrobiologica Sinica</source><volume>31</volume>: <fpage>240</fpage>&#x2013;<lpage>244</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Ning2">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Ning</surname><given-names>D</given-names></name>, <name><surname>Xu</surname><given-names>X</given-names></name> (<year>2004</year>) <article-title><italic>alr0117</italic>, a two-component histidine kinase gene, is involved in heterocyst development in <italic>Anabaena</italic> sp. PCC 7120</article-title>. <source>Microbiology</source><volume>150</volume>: <fpage>447</fpage>&#x2013;<lpage>453</lpage><pub-id pub-id-type="pmid">14766923</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Ning3">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Ning</surname><given-names>DG</given-names></name>, <name><surname>Jiang</surname><given-names>Y</given-names></name>, <name><surname>Liu</surname><given-names>ZY</given-names></name>, <name><surname>Xu</surname><given-names>QG</given-names></name> (<year>2013</year>) <article-title>Characterization of a chromosomal type II toxin-Antitoxin system <italic>mazEaFa</italic> in the cyanobacterium <italic>Anabaena</italic> sp PCC 7120</article-title>. <source>PLoS One</source><volume>8(2)</volume>: <fpage>e56035</fpage><pub-id pub-id-type="pmid">23451033</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Miller1">
+        <label>34</label>
+        <mixed-citation publication-type="other">Miller JH (1972) Experiments in molecular genetics. Cold Spring Harbor Laboratory Pr. pp. 352&#x2013;355.</mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Mitschke1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Mitschke</surname><given-names>J</given-names></name>, <name><surname>Georg</surname><given-names>J</given-names></name>, <name><surname>Scholz</surname><given-names>I</given-names></name>, <name><surname>Sharma</surname><given-names>CM</given-names></name>, <name><surname>Dienst</surname><given-names>D</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>An experimentally anchored map of transcriptional start sites in the model cyanobacterium <italic>Synechocystis</italic> sp PCC6803</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>108</volume>: <fpage>2124</fpage>&#x2013;<lpage>2129</lpage><pub-id pub-id-type="pmid">21245330</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Bates1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Bates</surname><given-names>PA</given-names></name>, <name><surname>Kelley</surname><given-names>LA</given-names></name>, <name><surname>MacCallum</surname><given-names>RM</given-names></name>, <name><surname>MJE</surname><given-names>S</given-names></name> (<year>2001</year>) <article-title>Enhancement of protein modelling by human intervention in applying the automatic programs 3D-JIGSAW and 3D-PSSM</article-title>. <source>Protein Struct Funct Genet (Suppl)</source><volume>5</volume>: <fpage>39</fpage>&#x2013;<lpage>46</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Holm1">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Holm</surname><given-names>L</given-names></name>, <name><surname>Rosenstrom</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Dali server: conservation mapping in 3D</article-title>. <source>Nucleic Acids Res</source><volume>38</volume>: <fpage>W545</fpage>&#x2013;<lpage>549</lpage><pub-id pub-id-type="pmid">20457744</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Christensen2">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Christensen</surname><given-names>SK</given-names></name>, <name><surname>Mikkelsen</surname><given-names>M</given-names></name>, <name><surname>Pedersen</surname><given-names>K</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2001</year>) <article-title>RelE, a global inhibitor of translation, is activated during nutritional stress</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>98</volume>: <fpage>14328</fpage>&#x2013;<lpage>14333</lpage><pub-id pub-id-type="pmid">11717402</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Roberts1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Roberts</surname><given-names>RC</given-names></name>, <name><surname>Str&#xF6;m</surname><given-names>AR</given-names></name>, <name><surname>Helinski</surname><given-names>DR</given-names></name> (<year>1994</year>) <article-title>The <italic>parDE</italic> operon of the broad-host-range plasmid RK2 specifies growth inhibition associated with plasmid loss</article-title>. <source>J Mol Biol</source><volume>237</volume>: <fpage>35</fpage>&#x2013;<lpage>51</lpage><pub-id pub-id-type="pmid">8133518</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Hilliard1">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Hilliard</surname><given-names>JJ</given-names></name>, <name><surname>Simon</surname><given-names>LD</given-names></name>, <name><surname>Van Melderen</surname><given-names>L</given-names></name>, <name><surname>Maurizi</surname><given-names>MR</given-names></name> (<year>1998</year>) <article-title>PinA inhibits ATP hydrolysis and energy-dependent protein degradation by Lon protease</article-title>. <source>J Biol Chem</source><volume>273</volume>: <fpage>524</fpage>&#x2013;<lpage>527</lpage><pub-id pub-id-type="pmid">9417111</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Cherny1">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Cherny</surname><given-names>I</given-names></name>, <name><surname>Gazit</surname><given-names>E</given-names></name> (<year>2004</year>) <article-title>The YefM antitoxin defines a family of natively unfolded proteins: implications as a novel antibacterial target</article-title>. <source>J Biol Chem</source><volume>279</volume>: <fpage>8252</fpage>&#x2013;<lpage>8261</lpage><pub-id pub-id-type="pmid">14672926</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Donegan1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Donegan</surname><given-names>NP</given-names></name>, <name><surname>Thompson</surname><given-names>ET</given-names></name>, <name><surname>Fu</surname><given-names>Z</given-names></name>, <name><surname>Cheung</surname><given-names>AL</given-names></name> (<year>2010</year>) <article-title>Proteolytic regulation of toxin-antitoxin systems by ClpPC in <italic>Staphylococcus aureus</italic></article-title>. <source>J Bacteriol</source><volume>192</volume>: <fpage>1416</fpage>&#x2013;<lpage>1422</lpage><pub-id pub-id-type="pmid">20038589</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Cline1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Cline</surname><given-names>SD</given-names></name>, <name><surname>Saleem</surname><given-names>S</given-names></name>, <name><surname>Daines</surname><given-names>DA</given-names></name> (<year>2012</year>) <article-title>Regulation of the vapBC-1 Toxin-Antitoxin Locus in Nontypeable <italic>Haemophilus influenzae</italic></article-title>. <source>PLoS One</source><volume>7(3)</volume>: <fpage>e32199</fpage><pub-id pub-id-type="pmid">22427824</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Kaneko1">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Kaneko</surname><given-names>T</given-names></name>, <name><surname>Sato</surname><given-names>S</given-names></name>, <name><surname>Kotani</surname><given-names>H</given-names></name>, <name><surname>Tanaka</surname><given-names>A</given-names></name>, <name><surname>Asamizu</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Sequence analysis of the genome of the unicellular cyanobacterium <italic>Synechocystis</italic> sp. strain PCC6803. II. Sequence determination of the entire genome and assignment of potential protein-coding regions</article-title>. <source>DNA Res</source><volume>3</volume>: <fpage>109</fpage>&#x2013;<lpage>136</lpage><pub-id pub-id-type="pmid">8905231</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Schelin1">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Schelin</surname><given-names>J</given-names></name>, <name><surname>Lindmark</surname><given-names>F</given-names></name>, <name><surname>Clarke A</surname><given-names>K</given-names></name> (<year>2002</year>) <article-title>The <italic>clpP</italic> multigene family for the ATPdependent Clp protease in the cyanobacterium <italic>Synechococcus</italic></article-title>. <source>Microbiology</source><volume>14</volume>: <fpage>2255</fpage>&#x2013;<lpage>2265</lpage><pub-id pub-id-type="pmid">12101312</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Clarke1">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Clarke</surname><given-names>AK</given-names></name>, <name><surname>Schelin</surname><given-names>J</given-names></name>, <name><surname>Porankiewicz</surname><given-names>J</given-names></name> (<year>1998</year>) <article-title>Inactivation of the clpPI gene for the proteolytic subunit of the ATP-dependent Clp protease in the cyanobacterium <italic>Synechococcus</italic> limits growth and light acclimation</article-title>. <source>Plant Mol Biol</source><volume>37</volume>: <fpage>791</fpage>&#x2013;<lpage>801</lpage><pub-id pub-id-type="pmid">9678574</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Porankiewicz1">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Porankiewicz</surname><given-names>J</given-names></name>, <name><surname>Schelin</surname><given-names>J</given-names></name>, <name><surname>Clarke</surname><given-names>AK</given-names></name> (<year>1998</year>) <article-title>The ATP-dependent Clp protease is essential for acclimation to UV-B and low temperature in the cyanobacterium <italic>Synechococcus</italic></article-title>. <source>Mol Microbiol</source><volume>29</volume>: <fpage>275</fpage>&#x2013;<lpage>283</lpage><pub-id pub-id-type="pmid">9701820</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Schelin2">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Schelin</surname><given-names>J</given-names></name>, <name><surname>Lindmark</surname><given-names>F</given-names></name>, <name><surname>Clarke</surname><given-names>AK</given-names></name> (<year>2002</year>) <article-title>The clpP multigene family for the ATP-dependent Clp protease in the cyanobacterium <italic>Synechococcus</italic></article-title>. <source>Microbiology</source><volume>148</volume>: <fpage>2255</fpage>&#x2013;<lpage>2265</lpage><pub-id pub-id-type="pmid">12101312</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0080716-Clarke2">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Clarke</surname><given-names>AK</given-names></name>, <name><surname>Eriksson</surname><given-names>MJ</given-names></name> (<year>1996</year>) <article-title>The cyanobacterium <italic>Synechococcus</italic> sp. PCC 7942 possesses a close homologue to the chloroplast ClpC protein of higher plants</article-title>. <source>Plant Mol Biol</source><volume>31</volume>: <fpage>721</fpage>&#x2013;<lpage>730</lpage><pub-id pub-id-type="pmid">8806403</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

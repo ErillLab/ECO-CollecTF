@@ -1,0 +1,727 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21966533</article-id>
+      <article-id pub-id-type="pmc">3180457</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-11-01593</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0025484</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacterial Pathogens</subject>
+              <subject>Bacteriology</subject>
+              <subject>Microbial Growth and Development</subject>
+              <subject>Microbial Physiology</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Molecular Characterization of Transcriptional Regulation of <italic>rovA</italic> by PhoP and RovA in <italic>Yersinia pestis</italic></article-title>
+        <alt-title alt-title-type="running-head">Regulation of <italic>rovA</italic> by PhoP and RovA</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yiquan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Gao</surname>
+            <given-names>He</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Li</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xiao</surname>
+            <given-names>Xiao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tan</surname>
+            <given-names>Yafang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guo</surname>
+            <given-names>Zhaobiao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Dongsheng</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Ruifu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>State Key Laboratory of Pathogen and Biosecurity, Beijing Institute of Microbiology and Epidemiology, Beijing, People&#x2019;s Republic of China</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>State Key Laboratory for Infectious Disease Prevention and Control, National Institute for Communicable Disease Control and Prevention, Chinese Centre for Disease Control and Prevention, Beijing, People&#x2019;s Republic of China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kaushal</surname>
+            <given-names>Deepak</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Tulane University, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>dongshengzhou1977@gmail.com</email> (DZ); <email>ruifuyang@gmail.com</email> (RY)</corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: DZ RY. Performed the experiments: YZ HG LW XX YT ZG DZ. Analyzed the data: YZ DZ. Contributed reagents/materials/analysis tools: YZ DZ. Wrote the paper: DZ RY YZ.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>9</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>9</issue>
+      <elocation-id>e25484</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>1</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>9</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Zhang et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p><italic>Yersinia pestis</italic> is the causative agent of plague. The two transcriptional regulators, PhoP and RovA, are required for the virulence of <italic>Y. pestis</italic> through the regulation of various virulence-associated loci. They are the global regulators controlling two distinct large complexes of cellular pathways.</p>
+        </sec>
+        <sec>
+          <title>Methodology/Principal Findings</title>
+          <p>Based on the LacZ fusion, primer extension, gel mobility shift, and DNase I footprinting assays, RovA is shown to recognize both of the two promoters of its gene in <italic>Y. pestis</italic>. The autoregulation of RovA appears to be a conserved mechanism shared by <italic>Y. pestis</italic> and its closely related progenitor, <italic>Y. pseudotuberculosis</italic>. In <italic>Y. pestis</italic>, the PhoP regulator responds to low magnesium signals and then negatively controls only one of the two promoters of <italic>rovA</italic> through PhoP-promoter DNA association.</p>
+        </sec>
+        <sec>
+          <title>Conclusions/Significance</title>
+          <p>RovA is a direct transcriptional activator for its own gene in <italic>Y. pestis</italic>, while PhoP recognizes the promoter region of <italic>rovA</italic> to repress its transcription. The direct regulatory association between PhoP and RovA bridges the PhoP and RovA regulons in <italic>Y. pestis</italic>.</p>
+        </sec>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Yersinia pestis</italic> is one of the most dangerous bacterial pathogens. Humans infected with <italic>Y. pestis</italic> manifest three main forms: pneumonic, septicemic, and bubonic plagues, and it has a very high mortality rate without timely and effective antibiotic treatment <xref ref-type="bibr" rid="pone.0025484-Perry1">[1]</xref>. There have been at least three plague pandemics in human history, including the Black Death, which accounted for the death of at least one-third of the European population between 1347 and 1353. Plague remains a great threat to public health because rodent plague epidemics are frequent in various natural plague foci, especially in Asia, America, and Africa, human plague infections are reported every year, and <italic>Y. pestis</italic> can possibly be used as a biowarfare or bioterrorism agent.</p>
+      <p>PhoP and PhoQ constitute a classic regulatory two-component system <xref ref-type="bibr" rid="pone.0025484-Groisman1">[2]</xref>. The sensor protein PhoQ responds to low environmental Mg<sup>2+</sup>, acidic pH, and host-secreted antimicrobial peptides, and then phosphorylates the response regulator PhoP. As a transcription factor, phosphorylated PhoP either activates or represses its target genes through binding to their promoter-proximal DNA regions. Intracellular growth of <italic>Y. pestis</italic> in macrophages occurs at early stages of systemic infection <xref ref-type="bibr" rid="pone.0025484-Lukaszewski1">[3]</xref>. A <italic>phoP</italic> null mutant of <italic>Y. pestis</italic> showed reduced ability to survive in macrophages and human neutrophils, as well as under <italic>in vitro</italic> conditions of low pH, oxidative stress, high osmolarity, and antimicrobial peptides <xref ref-type="bibr" rid="pone.0025484-Oyston1">[4]</xref>, <xref ref-type="bibr" rid="pone.0025484-Hitchen1">[5]</xref>, <xref ref-type="bibr" rid="pone.0025484-OLoughlin1">[6]</xref>; this mutant is slightly attenuated in mice <xref ref-type="bibr" rid="pone.0025484-Oyston1">[4]</xref>. As a global regulator, PhoP controls a very complex regulatory cascade in <italic>Y. pestis</italic> <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez1">[8]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez2">[9]</xref>. The PhoP regulons in <italic>Y. pestis</italic> and <italic>Salmonella enterica</italic> have considerable differences in terms of the functional changes in PhoP itself, as well as in the architecture of PhoP-dependent promoters. This allows the PhoP regulators to incorporate newly acquired genes into the ancestral regulatory circuits yet retain control of the core regulon members in these two bacteria <xref ref-type="bibr" rid="pone.0025484-Perez1">[8]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez2">[9]</xref>. The proven direct PhoP targets in <italic>Y. pestis</italic> include several genes that function in detoxification, protection against DNA damage, resistance to antimicrobial peptides, and adaptation to magnesium limitation <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, especially the <italic>mgtCB</italic> and <italic>udg</italic> loci that encodes an Mg<sup>2+</sup> transport system and a UDP-glucuronate decarboxylase for LPS modification, respectively, required for the replication of <italic>Y. pestis</italic> in macrophages <xref ref-type="bibr" rid="pone.0025484-Grabenstein1">[10]</xref>. These PhoP-dependent mechanisms used by <italic>Y. pestis</italic> contribute to intracellular growth of this pathogen.</p>
+      <p>As a member of the MarR/SlyA family of transcriptional regulators that control the virulence of multiple bacterial pathogens <xref ref-type="bibr" rid="pone.0025484-Ellison1">[11]</xref>, RovA is required for the virulence of all three pathogenic yersiniae (<italic>Y. pestis</italic>, <italic>Y. pseudotuberculosis</italic>, and <italic>Y. enterocolitica</italic>) through regulation of various virulence loci <xref ref-type="bibr" rid="pone.0025484-Cathelyn1">[12]</xref>, <xref ref-type="bibr" rid="pone.0025484-Dube1">[13]</xref>, <xref ref-type="bibr" rid="pone.0025484-Nagel1">[14]</xref>, <xref ref-type="bibr" rid="pone.0025484-Revell1">[15]</xref>, <xref ref-type="bibr" rid="pone.0025484-Ellison2">[16]</xref>. In <italic>Y. pseudotuberculosis</italic> and <italic>Y. enterocolitica</italic>, RovA stimulates the transcription of <italic>inv</italic>, which encodes an invasin that mediates translocation across the intestinal epithelium <xref ref-type="bibr" rid="pone.0025484-Nagel1">[14]</xref>, <xref ref-type="bibr" rid="pone.0025484-Revell1">[15]</xref>, <xref ref-type="bibr" rid="pone.0025484-Ellison2">[16]</xref>, <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>. However, the <italic>inv</italic> gene is naturally inactivated in <italic>Y. pestis</italic> due to the insertion of an IS200-like element within its coding region <xref ref-type="bibr" rid="pone.0025484-Simonet1">[18]</xref>. The <italic>rovA</italic> null mutant of <italic>Y. pestis</italic> is much more attenuated after subcutaneous inoculation than after intranasal or intraperitoneal route, indicating a more important role for RovA in subcutaneous infection than in the pneumonic or systemic one <xref ref-type="bibr" rid="pone.0025484-Cathelyn1">[12]</xref>. In <italic>Y. pestis</italic>, RovA stimulates the transcription of the <italic>psaEF</italic>, <italic>psaABC</italic>, and CUS-2 prophage loci <xref ref-type="bibr" rid="pone.0025484-Cathelyn1">[12]</xref>. The pH6 antigen encoded by <italic>psaABC</italic> acts as an antiphagocytic factor <xref ref-type="bibr" rid="pone.0025484-Huang1">[19]</xref> and plays a more important role in bubonic plague than in the pneumonic and septicemic forms, closely mimicking the role for RovA <xref ref-type="bibr" rid="pone.0025484-Cathelyn1">[12]</xref>. The CUS-2 prophage is acquired by the <italic>Y. pestis</italic> ancestor and its genome forms an unstable episome in <italic>Antiqua</italic> and <italic>Medievalis</italic>, and a stably integrated one in <italic>Orientalis</italic> <xref ref-type="bibr" rid="pone.0025484-Derbise1">[20]</xref>, <xref ref-type="bibr" rid="pone.0025484-Li2">[21]</xref>. The acquisition of this prophage does not correlate to flea transmission, but contributes to virulence in mice <xref ref-type="bibr" rid="pone.0025484-Derbise1">[20]</xref>. The RovA regulator still plays critical roles in the construction and functioning of the bacterial membrane, indicating the regulatory functions of RovA in antibiotic resistance and environmental adaptation <xref ref-type="bibr" rid="pone.0025484-Yang1">[22]</xref>.</p>
+      <p>The <italic>rovA</italic> gene transcribes with two distinct promoters, and the autoregulation of <italic>rovA</italic> has been established in <italic>Y. pseudotuberculosis</italic>, but whether both of the two promoters are dependent on RovA is unclear <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>, <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref>. This study indicates that the autoregulatory mechanism is also conserved in <italic>Y. pestis</italic>, and further discloses that RovA stimulates both of the two promoters. In addition, PhoP responses to low magnesium signals, and recognizes the promoter region of <italic>rovA</italic> to repress its transcription in <italic>Y. pestis</italic>. The direct regulatory association between PhoP and RovA bridges the two distinct complexes of the cellular pathways governed by the two regulators.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Bacterial strains</title>
+        <p>The wild-type (WT) <italic>Y. pestis</italic> biovar <italic>Microtus</italic> strain 201, avirulent to humans but highly virulent to mice, was isolated from <italic>Microtus brandti</italic> in Inner Mongolia, China, <xref ref-type="bibr" rid="pone.0025484-Zhou1">[24]</xref>. The base pairs 41 to 362 of <italic>rovA</italic> (432 bp in total length) or 41 to 631 of <italic>phoP</italic> (672 in total) were replaced with the kanamycin resistance cassette using the one-step inactivation method based on the lambda Red phage recombination system with the helper plasmid pKD46 <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>. This generated the <italic>rovA</italic> and <italic>phoP</italic> mutants of <italic>Y. pestis</italic>, designated as <italic>&#x394;rovA</italic> and <italic>&#x394;phoP</italic>, respectively. Chromosomal integration of the mutagenic cassette was confirmed by PCR and sequencing using oligonucleotides external to the integrated cassette. The elimination of pKD46 in the mutants was verified by PCR. All primers used in this study are listed in <xref ref-type="table" rid="pone-0025484-t001">Table 1</xref>.</p>
+        <table-wrap id="pone-0025484-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Oligonucleotide primers used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0025484-t001-1" xlink:href="pone.0025484.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Target</td>
+                  <td align="left" rowspan="1" colspan="1">Primers (forward/reverse, 5'&#x2013;3')</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Construction of mutants</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">TTGGAATCGACATTAGGATCTGATCTAGCACGATTAGTTCAGATTGCAGCATTACACG/<named-content content-type="gene">CTCAAGCTTATCGATTAGGCCTGATAACACTGCAATTTCATGTAACGCACTGAGAAGC</named-content></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>phoP</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">ATGCGGGTTCTGGTTGTGGAAGATAACGCGTTGTTGCGTCAGTTGTGTCTCAAAATCTCTG/<named-content content-type="gene">CTAGTTGACGTCAAAACGATATCCCTGACCACGAATAGTCGAAAGCCGCCGTCCCGTCAAG</named-content></td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Complementation of mutants</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>phoP</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GCGGGATCCCGTGAACATCGCCTATCGTC/GCGAAGCTTTGCCACTGTGCCAGACTG</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GATCGATATCGCTCAGTTGCCGCCTTC/GATCGGATCCCTGCTGTGAATAAAGTCTTTGAAC</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>RT-PCR</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>phoP</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">TTGTTGCGTCACCATCTG/GGCTTAACCCGTCTTCAC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">TTACCACCAGAGCAATCACAG/ATCACGCCATCAACCTGTTC</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>LacZ fusion</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GCGGGATCCCGTTCGTTACTCTGCCCATC/GCGAAGCTTTTGTGATTGCTCTGGTGGTAAAC</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Primer extension</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">/GTATCCTCATTACCCAGCATCG</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">/GTGCTAGATCAGATCCTAATGTCG</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Protein expression</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GCGGGATCCTTGGAATCGACATTAGGATC/GCGGTCGACTTACTTAGTTTGTAATTGAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>phoP</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">GCGGGATCCATGCGGGTTCTGGTTGTGG/GCGAAGCTTTTAGTTGACGTCAAAACGATATCCC</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>EMSA</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">CGTTCGTTACTCTGCCCATC/TGTGATTGCTCTGGTGGTAAAC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">TGCTCCCGACGCTAAGTG/TAGAAAATTTGTTCCCCTCGAC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">CTGAAAGCGAGGCGATGC/TCAGCCGATGGTCAATTAATGC</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>DNase I footprinting</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rovA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">TGCTCCCGACGCTAAGTG/TAGAAAATTTGTTCCCCTCGAC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">CTGAAAGCGAGGCGATGC/TCAGCCGATGGTCAATTAATGC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ACCAAATCTGAAAGCGAGGCG/GTGCTAGATCAGATCCTAATGTCG</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <p>A PCR-generated DNA fragment containing the <italic>rovA</italic> or <italic>phoP</italic> coding region with its promoter-proximal region (&#x223C;500 bp upstream the coding sequence) and transcriptional terminator (&#x223C;300 bp downstream) were cloned into the pACYC184 vector that harbors a chloramphenicol resistance gene (GenBank accession number X06403), as verified by DNA sequencing. The recombinant plasmid was subsequently introduced into <italic>&#x394;rovA</italic> and <italic>&#x394;phoP</italic>, yielding the complemented mutant strains <italic>C-rovA</italic> and <italic>C-phoP</italic>, respectively.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Bacterial growth</title>
+        <p>The original chemically defined TMH medium <xref ref-type="bibr" rid="pone.0025484-Straley1">[26]</xref> [called &#x201C;high magnesium, neutral pH&#x201D; (I)] and its different modifications were used for <italic>Y. pestis</italic> cultivation. The 20 mM MgCl<sub>2</sub> in the original TMH was changed to 10 &#xB5;M to simulate the &#x2018;low magnesium&#x2019; (II) condition. To simulate &#x2018;mild acidic pH&#x2019; (III), the pH value of 7.2 in the original TMH was changed to 5.8. Overnight cell culture with an optical density (OD<sub>620</sub>) of about 1.0 in each medium was diluted 1&#x2236;20 into 18 ml of the corresponding fresh medium for further cultivation.</p>
+        <p>Cells were harvested at the middle-exponential or stationary phase for the followed primer extension or LacZ fusion assay. For cell harvest at the middle-exponential phase, bacteria were grown at 26&#xB0;C with shaking at 230 rpm to enter the exponential phase; and then, half of the cell cultures were incubated at 37&#xB0;C for 3 h and the remaining half were allowed to grow continuously at 26&#xB0;C for 3 h. For harvest at the stationary phase, bacteria were grown at 26&#xB0;C to enter the stationary phase; the cell cultures were then divided to grow at 37 and 26&#xB0;C, respectively, for 3 h as above. The detailed time points for cell harvest were defined according to the bacterial growth curves (<xref ref-type="fig" rid="pone-0025484-g001">Fig. 1</xref>). The above cultures grown at 37 and 26&#xB0;C were designated as &#x201C;shift from 26 to 37&#xB0;C (#)&#x201D; and &#x201C;26&#xB0;C continuously (&amp;),&#x201D; respectively, so as to determine the effect of temperature on gene transcription.</p>
+        <fig id="pone-0025484-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Bacterial growth curves at 26&#xB0;C.</title>
+            <p>Overnight cell culture with an OD<sub>620</sub> value of about 1.0 in each medium was diluted 1&#x2236;20 into 18 ml of the corresponding fresh medium. Bacteria were then grown at 26&#xB0;C with shaking at 230 rpm, and the OD<sub>620</sub> values were monitored for each culture with a 3 or 4 h interval until the cultures reached the stationary growth phase (a, b, and c). Experiments were done with three biological replicates. Shown also is the design (d) for cell harvest for subsequent biochemical assays.</p>
+          </caption>
+          <graphic xlink:href="pone.0025484.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>Primer extension assay</title>
+        <p>Total bacterial RNAs were extracted using the TRIzol Reagent (Invitrogen) <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>. Immediately before harvesting, bacterial cultures were mixed with RNAprotect Bacteria Reagent (Qiagen) to minimize RNA degradation. RNA quality was monitored by agarose gel electrophoresis and RNA quantity was determined by spectrophotometry. For the primer extension assay <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>, an oligonucleotide primer complementary to a portion of the RNA transcript of <italic>rovA</italic> gene was employed to synthesize cDNAs from the RNA templates. About 10 &#xB5;g of the total RNA from each strain was annealed with 1 pmol of [&#x3B3;&#x2212;<sup>32</sup>P] end-labeled reverse primer using a Primer Extension System (Promega) according to the manufacturer&#x2019;s instructions. The same labeled primer was also used for sequencing with the fmol&#xAE; DNA Cycle Sequencing System (Promega). The primer extension products and sequencing materials were concentrated and analyzed in a 6% polyacrylamide/8 M urea gel. The result was detected by autoradiography (Kodak film).</p>
+      </sec>
+      <sec id="s2d">
+        <title>LacZ fusion and &#x3B2;-galactosidase assay</title>
+        <p>The 889 bp promoter-proximal DNA region of <italic>rovA</italic> was obtained by PCR with the ExTaq&#x2122; DNA polymerase (Takara) using <italic>Y. pestis</italic> 201 genome DNA as the template. PCR fragments were then directionally cloned into the <italic>Eco</italic>RI and <italic>Bam</italic>HI sites of low-copy-number plasmid pRW50 that harbor a tetracycline resistance gene and a promoterless <italic>lacZ</italic> reporter gene <xref ref-type="bibr" rid="pone.0025484-ElRobh1">[27]</xref>. Correct cloning was verified by DNA sequencing. An empty pRW50 plasmid was also introduced into each strain tested as the negative control. The <italic>Y. pestis</italic> strains transformed with the recombinant plasmids and the empty pRW50 plasmid were grown as previously described to measure the &#x3B2;-galactosidase activity in the cellular extracts using the &#x3B2;-Galactosidase Enzyme Assay System (Promega) <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>. Assays were performed with at least three biological replicates.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Purification of PhoP and RovA proteins</title>
+        <p>Preparation of the purified PhoP and RovA proteins were performed as previously described <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>. The entire coding region of the <italic>phoP</italic> and <italic>rovA</italic> genes of strain 201 was directionally cloned into the <italic>BamH</italic>I and <italic>Hind</italic>III sites of plasmid pET28a (Novagen). The recombinant plasmid encoding the 6&#xD7; His-tagged PhoP and RovA proteins (His-PhoP and His-RovA, respectively) were transformed into <italic>Escherichia coli</italic> BL21&#x3BB;DE3 cells. Expression of His-PhoP or His-RovA was induced by the addition of 1 mM IPTG (isopropyl-b-D-thiogalactoside). The overproduced proteins were purified under native conditions using an Ni-NTA Agarose Column (Qiagen). The purified protein was concentrated with the Amicon Ultra-15 centrifugal filter device (Millipore) and the protein purity was verified by SDS-PAGE.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Gel mobility shift assay (EMSA)</title>
+        <p>The <italic>rovA</italic> promoter-proximal regions were amplified by PCR. For EMSA <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>, the 5' ends of DNA were labeled using [&#x3B3;&#x2212;<sup>32</sup>P] ATP and T4 polynucleotide kinase. DNA binding was performed in a 10 &#xB5;l reaction volume containing binding buffer [1 mM MgCl<sub>2</sub>, 0.5 mM EDTA, 0.5 mM DTT, 50 mM NaCl, 10 mM Tris-HCl (pH 7.5) and 0.05 mg/ml poly-(dI-dC)], labeled DNA (1000 to 2000 c.p.m/&#xB5;l), and increasing amounts of the His-PhoP or His-RovA protein. Three controls were included in each EMSA experiment: 1) cold probe as specific DNA competitor (the same promoter-proximal DNA region unlabeled), 2) negative probe as nonspecific DNA competitor (the unlabeled coding region of the 16S rRNA gene), and 3) nonspecific protein competitor [rabbit anti-F1-protein polyclonal antibodies]. After incubation at room temperature for 30 min, the products were loaded onto a native 4% (w/v) polyacrylamide gel and electrophoresed in 0.5&#xD7; TBE buffer for about 50 min at 220 V. Radioactive species were detected by autoradiography after exposure to Kodak film at &#x2212;70&#xB0;C.</p>
+      </sec>
+      <sec id="s2g">
+        <title>DNase I footprinting</title>
+        <p>For DNase I footprinting <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Zhan1">[25]</xref>, the <italic>rovA</italic> promoter-proximal DNA regions with a single <sup>32</sup>P-labeled end were PCR amplified with either the sense or antisense primer being end-labeled. The PCR products were purified using MinElute reaction cleanup columns (Qiagen). Increasing amounts of His-PhoP or His-RovA were incubated with the purified, labeled DNA fragment (2 to 5 pmol) for 30 min at room temperature, in a final 10 &#xB5;l reaction volume containing the binding buffer used in EMSA. Before DNA digestion, 10 &#xB5;l of Ca<sup>2+</sup>/Mg<sup>2+</sup> solution (5 mM CaCl<sub>2</sub> and 10 mM MgCl<sub>2</sub>) was added, followed by incubation for 1 min at room temperature. The optimized RQ1 RNase-Free DNase I (Promega) was then added to the reaction mixture, and the mixture was incubated at room temperature for 40 to 90 s. The reaction was quenched by adding 9 &#xB5;l of stop solution (200 mM NaCl, 30 mM EDTA, and 1% SDS), followed by incubation for 1 min at room temperature. The partially digested DNA samples were extracted with phenol/chloroform, precipitated with ethanol, and analyzed in 6% polyacrylamide/8 M urea gel. Protected regions were identified by comparison with the sequence ladders. For sequencing, we used the <italic>fmol</italic>&#xAE; DNA Cycle Sequencing System (Promega). The templates for sequencing were the same as the DNA fragments of DNase I footprinting assays. Radioactive species were detected as previously described.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Mutation and complementation</title>
+        <p>Real-time RT-PCR experiments were performed to assess the relative mRNA levels of <italic>phoP</italic> and <italic>rovA</italic> in the corresponding WT, mutant, and complemented mutant strains. The <italic>phoP</italic> transcript was lacking in <italic>&#x394;phoP</italic>, but was restored in <italic>C-phoP</italic> relative to WT, and moreover similar results were observed for the <italic>rovA</italic> transcript in WT, <italic>&#x394;rovA</italic>, and <italic>C-rovA</italic> (data not shown). These data indicates the successful mutation and complementation of <italic>phoP</italic> and <italic>rovA</italic>.</p>
+        <p>To test whether the <italic>phoP</italic> or <italic>rovA</italic> mutation had the polar effect, the primer extension assays were conducted to detect the yield of the <italic>rovA</italic> primer extension product that represents the <italic>rovA</italic> transcriptional levels in the corresponding WT, mutant, and complemented mutant strains (<xref ref-type="supplementary-material" rid="pone.0025484.s001">Figure S1</xref>). As determined by several distinct methods (see below), the <italic>rovA</italic> gene was positively regulated by RovA under condition I, whereas it was under the negative control of PhoP under condition II. As determined by the primer extension assays herein, the <italic>rovA</italic> transcription under condition I was significantly repressed in <italic>&#x394;rovA</italic> relative to WT, and restored in <italic>C-rovA</italic>; its transcription under condition II was significantly elevated in <italic>&#x394;phoP</italic> relative to both <italic>C-phoP</italic> and WT (<xref ref-type="supplementary-material" rid="pone.0025484.s001">Figure S1</xref>). The <italic>rovA</italic> gene yielded almost the same transcriptional levels between the paired WT/<italic>&#x394;phoP</italic> or WT/<italic>&#x394;rovA</italic> strains. This complementation analysis confirmed that the observed PhoP or RovA-dependent transcription of <italic>rovA</italic> was due to the <italic>phoP</italic> or <italic>rovA</italic> mutation, respectively, rather than a polar mutation.</p>
+      </sec>
+      <sec id="s3b">
+        <title>Growth of WT, &#x394;rovA, and &#x394;phoP</title>
+        <p>The growth curves of the WT, <italic>&#x394;rovA</italic>, and <italic>&#x394;phoP</italic> strains grown at 26&#xB0;C under three different conditions I, II, and III were determined (<xref ref-type="fig" rid="pone-0025484-g001">Fig. 1</xref>). Under condition I, both <italic>&#x394;rovA</italic> and <italic>&#x394;phoP</italic> exhibited growth rates lower than WT (<xref ref-type="fig" rid="pone-0025484-g001">Fig. 1a</xref>). Under condition II, growth restriction was observed for <italic>&#x394;phoP</italic> rather than <italic>&#x394;rovA</italic> relative to WT (<xref ref-type="fig" rid="pone-0025484-g001">Fig. 1b</xref>). The three strains showed indistinguishable growth rates under condition III (<xref ref-type="fig" rid="pone-0025484-g001">Fig. 1c</xref>). For each strain, bacterial growth was impeded under suboptimal conditions II and III relative to the original condition I. In particular, bacterial cells exhibited very poor growth when each of strain was grown under condition II.</p>
+        <p>Bacterial cells were harvested at the middle-exponential or stationary phase for the following cell culture-related biochemical assays, and the time points for cell harvest were defined strictly according to the growth curves (<xref ref-type="fig" rid="pone-0025484-g001">Fig. 1d</xref>). It should be noted that bacterial cells grown under different conditions or those of different isogenic stains were harvested at the identical growth phase, rather than the identical optical density, which would devoid the secondary effects of growth rate or phase. In addition, temperature upshift from 26 to 37&#xB0;C was designed prior to cell harvest, generating 26 (&#x201C;26&#xB0;C continuously&#x201D;) and 37&#xB0;C (&#x201C;shift from 26 to 37&#xB0;C&#x201D;) grown cells.</p>
+      </sec>
+      <sec id="s3c">
+        <title>Transcription of rovA under different temperatures</title>
+        <p>The primer extension experiments (<xref ref-type="fig" rid="pone-0025484-g002">Fig. 2</xref>) were then conducted to determine the yields of primer extension product of <italic>rovA</italic> (i.e., the relative <italic>rovA</italic> transcription levels, or the relative <italic>rovA</italic> promoter activities) in WT upon the above temperature upshift. The primer extension assay detected two transcriptional start sites located at 343 and 78 bp upstream of <italic>rovA</italic> (<xref ref-type="fig" rid="pone-0025484-g002">Fig. 2</xref>); therefore, two promoters (named P2 and P1, respectively) were transcribed for <italic>rovA</italic>. At the middle-exponential growth phase (<xref ref-type="fig" rid="pone-0025484-g002">Fig. 2a</xref>), the P2 promoter activity showed no obvious change upon the temperature upshift under conditions I, II, and III; yet, the P1 promoter activity decreased upon temperature upshift under all the three growth conditions. At the stationary growth phase (<xref ref-type="fig" rid="pone-0025484-g002">Fig. 2b</xref>), the promoter activities of both P2 and P1 decreased upon temperature upshift under all the three growth conditions. In conclusion, the temperature shift from 26 to 37&#xB0;C triggered the down-regulation of both P2 and P1 promoters of <italic>rovA</italic> at the stationary growth phase. However, the down-regulatory effect occurred only for P2 at the middle-exponential growth phase.</p>
+        <fig id="pone-0025484-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Transcription of <italic>rovA</italic> upon temperature shift from 26 to 37&#xB0;C.</title>
+            <p>Two oligonucleotide primers were designed to be complementary to the RNA transcript of <italic>rovA</italic>. The primer extension products were analyzed with 8 M urea&#x2212;6% acrylamide sequencing gel. Lanes C, T, A, and G represent the Sanger sequencing reactions. Only the WT strain was tested to grow under conditions I, II and III, respectively. Bacterial cells were harvested at the middle-exponential (a) or stationary (b) phase. Temperature upshift was designed prior to cell harvest, generating two kinds of cultures: &#x2018;26&#xB0;C continuously&#x2019; (&amp;) and &#x2018;shift from 26 to 37&#xB0;C&#x2019; ( #). Detected were the two promoters P1 and P2 located at 78 (nucleotide T ) and 343 (G) bp upstream of <italic>rovA</italic>, respectively. Images shown are representative of the results from at least three biological replicates.</p>
+          </caption>
+          <graphic xlink:href="pone.0025484.g002"/>
+        </fig>
+        <p>For subsequent experiments, only bacterial cultures of &#x201C;shift from 26 to 37&#xB0;C&#x201D; were analyzed, as 37&#xB0;C is the temperature during human infections.</p>
+      </sec>
+      <sec id="s3d">
+        <title>Autoregulation of RovA</title>
+        <p>A <italic>rovA-lacZ</italic> fusion vector, containing the 889 bp promoter-proximal region of <italic>rovA</italic> and the promoterless <italic>lacZ</italic>, was transformed into both WT and <italic>&#x394;rovA</italic> to compare the <italic>rovA</italic> promoter activities in these two strains grown under conditions I, II, and III, respectively (<xref ref-type="fig" rid="pone-0025484-g003">Fig. 3a</xref>). Under all the three conditions, the expression of <italic>rovA</italic> significantly decreased in <italic>&#x394;rovA</italic> relative to WT. In addition, the primer extension experiments (<xref ref-type="fig" rid="pone-0025484-g003">Fig. 3b</xref>) were conducted to compare the yields of primer extension product of <italic>rovA</italic> in WT and <italic>&#x394;rovA</italic>; the activities of both P1 and P2 promoters were under the positive control of RovA under all the three growth conditions, which was consistent with the above <italic>lacZ</italic> fusion data. Interestingly, the <italic>rovA</italic> transcription in WT were up-regulated under condition III relative to the other two conditions (<xref ref-type="fig" rid="pone-0025484-g002">Fig. 2a and 2b</xref>), and thus mild acid appeared to stimulate the <italic>rovA</italic> expression.</p>
+        <fig id="pone-0025484-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>RovA stimulated transcription of its own gene.</title>
+            <p>Only the bacterial cells of &#x201C;shift from 26 to 37&#xB0;C&#x201D; at the middle-exponential growth phase were analyzed herein. <bold>a) LacZ fusion.</bold> A promoter-proximal region 743 bp upstream to 146 bp downstream of <italic>rovA</italic> was cloned into pRW50 containing a promoterless <italic>lacZ</italic> reporter gene, and then transformed into WT or <italic>&#x394;rovA</italic> to determine the &#x3B2;-galactosidase activity in cellular extracts. Shown are the <italic>rovA</italic> promoter activities (Miller units) in <italic>&#x394;rovA</italic> or WT grown under conditions I, II and III, respectively. <bold>b) Primer extension.</bold> The P1 and P2 promoters of <italic>rovA</italic> were detected in <italic>&#x394;rovA</italic> or WT grown as described above. Lanes C, T, A, and G represent the Sanger sequencing reactions. <bold>c) EMSA.</bold> The radioactively labeled DNA fragment from the 743<sup>rd</sup> bp upstream to the 146<sup>th</sup> bp downstream of <italic>rovA</italic> was incubated with increasing amounts of purified His-RovA protein, and then subjected to 4% (w/v) polyacrylamide gel electrophoresis. The band of free DNA disappeared with increasing amounts of His-RovA protein, and a retarded DNA band with decreased mobility turned up, which presumably represented the DNA-RovA complex. Shown on the lower side of the figure is the schematic representation of the EMSA design. <bold>d) DNase I footprinting.</bold> Labeled coding or non-coding DNA probes were incubated with increasing amounts of purified His-RovA (Lanes 1, 2, 3, and 4 containing 0, 4, 8, and 12 pmol, respectively), and subjected to DNase I footprinting assay. Lanes G, A, T, and C represent the Sanger sequencing reactions. The protected regions (vertical bars) are indicated on the right side of the image. The negative numbers indicate the nucleotide positions upstream of <italic>rovA</italic>.</p>
+          </caption>
+          <graphic xlink:href="pone.0025484.g003"/>
+        </fig>
+        <p>The 889 bp promoter-proximal region of <italic>rovA</italic> tested in the LacZ fusion assay was amplified, radioactively labeled, and subjected to EMSA with a purified His-RovA protein (<xref ref-type="fig" rid="pone-0025484-g003">Fig. 3c</xref>). The results show that His-RovA is able to bind to this DNA fragment in a dose-dependent manner <italic>in vitro</italic> (<xref ref-type="fig" rid="pone-0025484-g003">Fig. 3c</xref>). As further determined by DNase I footprinting (<xref ref-type="fig" rid="pone-0025484-g003">Fig. 3d</xref>), the purified His-RovA protected two distinct regions upstream of <italic>rovA</italic> against DNase I digestion in a dose-dependent manner. These two footprints, located from 592 to 502 bp (RovA site 2) and from 39 to 6 bp (Site 1) upstream of <italic>rovA</italic>, respectively, were considered RovA sites. Taken together, RovA is able to recognize all the promoters of its own gene to stimulate their activity in <italic>Y. pestis</italic>.</p>
+        <p>To test the affinity of RovA to Sites 1 and 2, EMSA was performed with two distinct <italic>rovA</italic> upstream DNA fragments containing Sites 1 and 2, respectively (<xref ref-type="fig" rid="pone-0025484-g004">Fig. 4</xref>). DNA retardation occurred at 0.74 pmol of His-RovA for the fragment containing Site 2 (<xref ref-type="fig" rid="pone-0025484-g004">Fig. 4a</xref>), whereas it was observed at 2.46 pmol for that containing Site 1 (<xref ref-type="fig" rid="pone-0025484-g004">Fig. 4b</xref>). This indicated that RovA had a much higher affinity to Site 2 than Site 1. The RovA proteins at all amounts used could not bind to the 16S rDNA fragment as the negative control, confirming the specificity of EMSA in this study (<xref ref-type="fig" rid="pone-0025484-g004">Fig. 4c</xref>).</p>
+        <fig id="pone-0025484-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Affinity of RovA to its Sites 1 and 2.</title>
+            <p>Labeled DNA fragments (a and b), which contained RovA Sites 1 and 2 respectively, were incubated with increasing amounts of purified His-RovA. The EMSA experiment was conducted with a coding region of the 16S rRNA gene (c) as the negative control. Also shown is the schematic representation of the EMSA design (d).</p>
+          </caption>
+          <graphic xlink:href="pone.0025484.g004"/>
+        </fig>
+      </sec>
+      <sec id="s3e">
+        <title>Negative regulation of rovA by PhoP</title>
+        <p>The <italic>rovA</italic>-lacZ fusion vector (<xref ref-type="fig" rid="pone-0025484-g003">Fig. 3a</xref>) was transformed into both WT and <italic>&#x394;phoP</italic> to compare the <italic>rovA</italic> promoter activities in the two strains grown under conditions I, II, and III (<xref ref-type="fig" rid="pone-0025484-g005">Fig. 5a</xref>). Under conditions I and III, there was no significant difference in the <italic>rovA</italic> promoter activities in the WT and <italic>&#x394;phoP</italic> strains. Under condition II, the expression of <italic>rovA</italic> was significantly enhanced in the <italic>&#x394;phoP</italic> relative to the WT. Further primer extension experiments for <italic>rovA</italic> (<xref ref-type="fig" rid="pone-0025484-g005">Fig. 5b</xref>) again detected the two promoters, P1 and P2, when the bacterial cells were grown under the three conditions. P1 activity was under the negative control of PhoP under condition II, and independent of this regulator under the other two growth conditions. PhoP had no effect on P2 activity under all the three conditions. The EMSA assay disclosed that the purified His-PhoP protein was able to bind to the 889 promoter-proximal region of <italic>rovA</italic> in a dose-dependent manner <italic>in vitro</italic> (<xref ref-type="fig" rid="pone-0025484-g005">Fig. 5c</xref>). Subsequent DNase I footprinting experiments (<xref ref-type="fig" rid="pone-0025484-g005">Fig. 5d</xref>) indicated that His-PhoP protected a single region located from 102 to 47 bp upstream of <italic>rovA</italic>. This footprint was considered the PhoP site. Therefore, the <italic>rovA</italic> transcription is negatively controlled by the PhoP regulator under the low magnesium conditions through the PhoP-promoter DNA association.</p>
+        <fig id="pone-0025484-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>PhoP repressed <italic>rovA</italic> transcription.</title>
+            <p>Only the bacterial cells of &#x201C;shift from 26 to 37&#xB0;C&#x201D; at the middle-exponential growth phase were analyzed herein. <bold>a) LacZ fusion</bold>. The <italic>rovA-lacZ</italic> fusion vector as described in <xref ref-type="fig" rid="pone-0025484-g003">Fig. 3a</xref> was transformed into WT or <italic>&#x394;phoP</italic> to determine the <italic>rovA</italic> promoter activity (Miller units) when the bacteria were grown under conditions I, II and III, respectively. <bold>b) Primer extension.</bold> The P1 and P2 promoters of <italic>rovA</italic> were detected in <italic>&#x394;phoP</italic> or WT grown as described above. Lanes C, T, A, and G represent the Sanger sequencing reactions. <bold>c) EMSA.</bold> The labeled promoter-proximal fragment of <italic>rovA</italic> as described in <xref ref-type="fig" rid="pone-0025484-g003">Fig. 3c</xref> was incubated with increasing amounts of purified His-PhoP. Shown on the lower side is the schematic representation of the EMSA design. Lanes C, T, A, and G represent the Sanger sequencing reactions. <bold>d) DNase I footprinting.</bold> The labeled DNA fragment from 228 bp upstream to 31 bp downstream of <italic>rovA</italic> was incubated with increasing amounts of His-PhoP. Lanes 1, 2, 3, 4 and 5 contained 0, 34.6, 41.5, 48.4 and 59.3 pmol, respectively. Vertical bars indicate the protected regions, whereas the negative numbers denote the nucleotide positions upstream of <italic>rovA</italic>. Lanes C, T, A, and G represent the Sanger sequencing reactions.</p>
+          </caption>
+          <graphic xlink:href="pone.0025484.g005"/>
+        </fig>
+      </sec>
+      <sec id="s3f">
+        <title>Promoter structure of rovA</title>
+        <p>In this study, DNase I footprinting experiments precisely determined the PhoP and RovA sites for <italic>rovA</italic>. The primer extension assays mapped two promoters (P1 and P2) for <italic>rovA</italic>. Accordingly, the core promoter &#x2212;10 and &#x2212;35 elements for RNA polymerase recognition were predicted. Collection of data on the translation/transcription start sites, Shine-Dalgarno sequence (a ribosomal binding site in the mRNA), promoter &#x2212;10 and &#x2212;35 elements, as well as PhoP and RovA sites enabled us to depict the organization of PhoP and RovA-dependent promoters of <italic>rovA</italic> characterized herein (<xref ref-type="fig" rid="pone-0025484-g006">Fig. 6</xref>). The <italic>Y. pestis rovA</italic> promoter-proximal region is essentially identical to the <italic>Y. pseudotuberculosis</italic> one <xref ref-type="bibr" rid="pone.0025484-Chain1">[28]</xref>. The two RovA sites within the <italic>rovA</italic> promoter-proximal region in <italic>Y. pestis</italic> are very similar to, although slightly different from, those determined in <italic>Y. pseudotuberculosis</italic> <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>. <italic>Y. pseudotuberculosis</italic> and <italic>Y. pestis</italic> have the same P2 promoter, but P1 in <italic>Y. pestis</italic> is 2 bp upstream of that in <italic>Y. pseudotuberculosis</italic>. The slight differences observed in the P1 sites and the RovA site sequences might be due to the personal inclination during DNA sequence reading.</p>
+        <fig id="pone-0025484-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0025484.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Organization of the <italic>rovA</italic> promoter-proximal region.</title>
+            <p>The DNA sequence was derived from the genomic data of <italic>Y. pestis</italic> 91001 and the start codon was shown at the 3' terminal. The bent arrows indicate the two promoters P1 and P2 (transcription start sites). Predicted promoters &#x2212;10 and &#x2212;35 elements, and Shine-Dalgarno box are enclosed in boxes. The RovA, PhoP, H-NS, and RovM sites are underlined with different lines. The H-NS <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>, <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref> and RovM <xref ref-type="bibr" rid="pone.0025484-Heroven2">[36]</xref> sites are derived from those determined in <italic>Y. pseudotuberculosis</italic>, since the <italic>Y. pestis rovA</italic> promoter-proximal region is essentially identical to the <italic>Y. pseudotuberculosis</italic> one.</p>
+          </caption>
+          <graphic xlink:href="pone.0025484.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <sec id="s4a">
+        <title>Bacterial growth under magnesium-limitation conditions</title>
+        <p>The magnesium cation (Mg<sup>2+</sup>) is one of the essential elements for bacterial cell growth due to its function as a cofactor of enzymes. When grown under the condition II, <italic>Y. pestis</italic> cells exhibited poor growth, and moreover a extremely heavy restriction of growth was observed for <italic>&#x394;phoP</italic>. The Mg<sup>2+</sup> transport systems are positively controlled by the Mg<sup>2+</sup>-responsive PhoP regulator in <italic>Y. pestis</italic> <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Zhou2">[29]</xref>, and the <italic>phoP</italic> mutation will impair the magnesium homeostasis of <italic>&#x394;phoP</italic> under Mg<sup>2+</sup>-limiting environments <xref ref-type="bibr" rid="pone.0025484-Groisman1">[2]</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Regulation of rovA by growth temperature</title>
+        <p>The three pathogenic yersiniae <italic>Y. pestis, Y. pseudotuberculosis</italic>, and <italic>Y. enterocolitica</italic> are ranked at different linkages in the evolution of the <italic>Yersinia</italic> genus <xref ref-type="bibr" rid="pone.0025484-Chen1">[30]</xref>. The <italic>Y. pseudotuberculosis</italic>&#x2013;<italic>Y. pestis</italic> clade diverged from <italic>Y. enterocolitica</italic> hundreds of millions of years ago, whereas <italic>Y. pestis</italic> from <italic>Y. pseudotuberculosis</italic> within thousands of years <xref ref-type="bibr" rid="pone.0025484-Achtman1">[31]</xref>, <xref ref-type="bibr" rid="pone.0025484-Skurnik1">[32]</xref>. Consistently, <italic>Y. pseudotuberculosis</italic> and <italic>Y. pestis</italic> are very divergent from <italic>Y. enterocolitica</italic>, but share a very high level of genomic homology with each other.</p>
+        <p>As previously shown <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>, <xref ref-type="bibr" rid="pone.0025484-Lawrenz1">[33]</xref>, two (P1 and P2) and three promoters are transcribed for <italic>rovA</italic> in <italic>Y. pseudotuberculosis</italic> and <italic>Y. enterocolitica</italic>, respectively, at room temperature (20 to 26&#xB0;C), but a down-regulation was observed at 37&#xB0;C. In addition to the mechanism of transcriptional regulation, the temperature control of <italic>rovA</italic> expression occur also at the post-transcriptional level in <italic>Y. pseudotuberculosis</italic> <xref ref-type="bibr" rid="pone.0025484-Herbst1">[34]</xref>. In this study, P1 and P2 were also detected for <italic>rovA</italic> in <italic>Y. pestis.</italic> The temperature shift from 26 to 37&#xB0;C triggered the down-regulation of P1 promoter in <italic>Y. pesti</italic>s at both stationary and middle-exponential growth phase. However, the down-regulation of P2 upon temperature upshift occurred only at the stationary phase rather than the middle-exponential one, indicating a growth phase-dependent effect for P2.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Regulation of rovA by transcriptional regulators</title>
+        <p>This study confirms that the autoregulation of <italic>rovA</italic> in <italic>Y. pestis</italic> is identical to that reported in <italic>Y. pseudotuberculosis</italic>, and further discloses that RovA stimulates the activity of both of the two promoters of its own gene in <italic>Y. pestis</italic>.</p>
+        <p>The nucleoid-associated protein H-NS silences target genes by selectively targeting their upstream DNA sequences with GC contents lower than that of the resident genome <xref ref-type="bibr" rid="pone.0025484-Stoebel1">[35]</xref>. Similarly, <italic>Y. pseudotuberculosis</italic> H-NS binds to a long DNA region upstream of P2 (<xref ref-type="fig" rid="pone-0025484-g006">Fig. 6</xref>), and represses the <italic>rovA</italic> transcription <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>, <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref>. In addition, a LysR-type regulator RovM specifically binds to a short region closely upstream of the &#x2212;35 element of P1 and far downstream of P2 (<xref ref-type="fig" rid="pone-0025484-g006">Fig. 6</xref>), and participates in the repression of <italic>rovA</italic> in <italic>Y. pseudotuberculosis</italic> <xref ref-type="bibr" rid="pone.0025484-Heroven2">[36]</xref>. Interestingly, the cooperation of RovM and H-NS is required for efficient silencing of <italic>rovA</italic> transcription <xref ref-type="bibr" rid="pone.0025484-Heroven2">[36]</xref>. It seems that the interaction of RovM and H-NS on the <italic>rovA</italic> promoter-proximal regions, which is accompanied by H-NS/RovM-DNA association, promotes the formation of a stable repressor complex to silence the <italic>rovA</italic> transcription <xref ref-type="bibr" rid="pone.0025484-Heroven2">[36]</xref>.</p>
+        <p>The RovA Site 2 overlaps the H-NS site for <italic>rovA</italic> (<xref ref-type="fig" rid="pone-0025484-g006">Fig. 6</xref>), and RovA alleviates the H-NS-mediated repression of <italic>rovA</italic> by antagonizing the H-NS-promoter DNA association <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>, <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref>. The RovA Site 2 is upstream of the &#x2212;35 elements of both P1 and P2, and thus the transcriptional activation of P1 and P2 by RovA is a Class I stimulation dependent on the RNA polymerase &#x3B1; subunit C-terminal domain (&#x3B1;CTD) for function <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref>, <xref ref-type="bibr" rid="pone.0025484-Ishihama1">[37]</xref>. With the development of RovA autostimulation, the cellular RovA reaches a certain level; in this case, the low-affinity Site 1 is occupied by RovA. Notably, Site 1 is downstream of both P1 and P2, and accordingly the RovA Site 1 association blocks the entry of the RNA polymerase, which destroys the &#x201C;endless&#x201D; RovA-mediated activation of <italic>rovA</italic> transcription <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref>, <xref ref-type="bibr" rid="pone.0025484-Ishihama1">[37]</xref>, <xref ref-type="bibr" rid="pone.0025484-Heroven3">[38]</xref>. This RovA concentration-dependent regulation of its own gene allows the bacterium to finely modulate the cellular RovA levels for the most favorable production of RovA-dependent virulence factors <xref ref-type="bibr" rid="pone.0025484-Tran1">[23]</xref>, <xref ref-type="bibr" rid="pone.0025484-Ishihama1">[37]</xref>, <xref ref-type="bibr" rid="pone.0025484-Heroven3">[38]</xref>.</p>
+        <p>As shown in this study, the PhoP regulator recognizes a single site within the <italic>rovA</italic> promoter-proximal region, and negatively controls the <italic>rovA</italic> transcription under magnesium-limiting conditions. It is further confirmed that PhoP as the responsive regulator of the PhoP/PhoQ two-component system responds to low magnesium signals <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez1">[8]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez2">[9]</xref> rather than magnesium-rich or acidic pH conditions. An 18-bp PhoP box sequence (<underline>TGTTTAW</underline>N<sub>4</sub><underline>TGTTTAW</underline>), which is consisted of a direct repeat of the hepta-nucleotide consensus (underlined), has been established previously in <italic>Y. pestis</italic> <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>. This box consensus represents the conserved signals for PhoP recognition in <italic>Y. pestis</italic>. Herein, a PhoP box-like sequence (<underline><named-content content-type="gene">TGTGTTT</named-content></underline><named-content content-type="gene">TTAA<underline>TGTTAAT</underline></named-content>) is found in the PhoP site for <italic>rovA</italic>. Notably, the promoter activity of P1, but not P2, is dependent on PhoP. The PhoP site overlaps the &#x2212;10 region of the P1 promoter, and thus the PhoP-promoter association is thought to block RNA polymerase-DNA association, thereby repressing the transcription of <italic>rovA</italic>. This mode of regulator-promoter DNA interaction for transcriptional repression is frequently observed in transcriptional repressors, such as Fur <xref ref-type="bibr" rid="pone.0025484-Gao1">[39]</xref> and Zur <xref ref-type="bibr" rid="pone.0025484-Li3">[40]</xref> in <italic>Y. pestis</italic>. PhoP and RovA control distinct complexes of cellular pathways, especially including those involved in virulence and host-adaptation <xref ref-type="bibr" rid="pone.0025484-Li1">[7]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez1">[8]</xref>, <xref ref-type="bibr" rid="pone.0025484-Perez2">[9]</xref>, <xref ref-type="bibr" rid="pone.0025484-Cathelyn1">[12]</xref>, <xref ref-type="bibr" rid="pone.0025484-Heroven1">[17]</xref>, <xref ref-type="bibr" rid="pone.0025484-Cathelyn2">[41]</xref>. The two regulons governed by PhoP and RovA, respectively, have evolved to merge into a single global regulatory circuit, due to the direct transcriptional association between PhoP and RovA.</p>
+        <p>The <italic>rovA</italic> upstream DNA regions are identical in <italic>Y. pestis</italic> and <italic>Y. pseudotuberculosis</italic>, and moreover all the four regulators (RovA, PhoP, H-NS, and RovM) involved in the regulation of <italic>rovA</italic> are extremely conserved in these two bacteria. Therefore, the mechanisms that regulate <italic>rovA</italic> discussed above are conserved in these two bacteria.</p>
+        <p><italic>S. typhimurium</italic> has the homolgous gene (named <italic>slyA</italic>) of <italic>rovA</italic>. SlyA and PhoP formed a complex positive feedback circuit in <italic>S. typhimurium</italic> <xref ref-type="bibr" rid="pone.0025484-Song1">[42]</xref>. The <italic>slyA</italic> transcription is activated by the PhoP/PhoQ system under low Mg<sup>2+</sup> conditions <xref ref-type="bibr" rid="pone.0025484-Norte1">[43]</xref>, <xref ref-type="bibr" rid="pone.0025484-Shi1">[44]</xref>, and PhoP footprints the <italic>slyA</italic> upstream region <xref ref-type="bibr" rid="pone.0025484-Norte1">[43]</xref>, which indicating that PhoP stimulates <italic>slyA</italic> directly through PhoP-promoter DNA association. H-NS binds to the <italic>phoP</italic> upstream region to silence the transcription of <italic>phoPQ</italic> operon under high Mg<sup>2+</sup> conditions <xref ref-type="bibr" rid="pone.0025484-Kong1">[45]</xref>. PhoP binds to the <italic>phoP</italic> upstream region and activates (i.e., autoregulates) the <italic>phoP</italic> transcription under low Mg<sup>2+</sup> conditions <xref ref-type="bibr" rid="pone.0025484-Soncini1">[46]</xref>, <xref ref-type="bibr" rid="pone.0025484-Lejona1">[47]</xref>. SlyA also footrpints with the <italic>phoP</italic> upstream region, and competes with H-NS since they share the same footprint that is adjacent to the PhoP site within the <italic>phoP</italic> upstream region <xref ref-type="bibr" rid="pone.0025484-Song1">[42]</xref>. Thus, the association between the <italic>phoP</italic> upstream region and SlyA will facilitate PhoP binding to the PhoP site by reducing the inhibitory activity of the H-NS protein <xref ref-type="bibr" rid="pone.0025484-Song1">[42]</xref>. Whether <italic>Y. pestis</italic> employs a regulatory feedback circuit involving in RovA and PhoP/PhoQ needs to be elucidated. In addition to <italic>Y. pestis</italic> and <italic>Y. pseudotuberculosis,</italic> the genus <italic>Yersinia</italic> still contains another pathogenic species, i.e., <italic>Y. enterocolitica</italic>, which shows a widely genetic diversity from the <italic>Y. pseudotuberculosis</italic>/<italic>Y. pestis</italic> clade. The DNA upstream of <italic>rovA</italic> in <italic>Y. enterocolitica</italic> differs greatly from the relevant <italic>Y. pseudotuberculosis</italic>/<italic>Y. pestis</italic> DNA. The <italic>Y. enterocolitica rovA</italic> gene is transcribed with the P1 and P2 promoters that are identical to those in <italic>Y. pseudotuberculosis</italic>/<italic>Y. pestis</italic>, and moreover a third promoter P3 downstream of P1 is detected. The differences in the promoters result in significantly lower levels of <italic>rovA</italic> transcription in <italic>Y. enterocolitica</italic>. H-NS binds to two regions upstream of <italic>rovA</italic> to repress the <italic>rovA</italic> transcription in <italic>Y. enterocolitica</italic>. H-NS shows much lower affinities for either of the two sites than for the reported single <italic>Y. pseudotuberculosis</italic>/<italic>Y. pestis</italic> site. RovA stimulates the <italic>rovA</italic> transcription in <italic>Y. enterocolitica</italic> although the lack of observable RovA binding to the <italic>Y. enterocolitica</italic> promoter. RovM binds to a single region upsteam of <italic>rovA</italic> to repress the <italic>rovA</italic> transcription, as reported for <italic>Y. pseudotuberculosis</italic>. Together, the <italic>cis</italic>-acting DNA region of <italic>rovA</italic> has undergone great genetic variation between <italic>Y. enterocolitica</italic> and <italic>Y. pseudotuberculosis</italic>/<italic>Y. pestis</italic>, which will lead to the remodeling in the mechanisms for controlling the <italic>rovA</italic> transcription, although the relevant trans-acting factors (H-NS, RovA, and RovM) are highly conserved in the three pathogenic yersiniae.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0025484.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Primer extension assay for validation of non-polar mutation.</bold> The <italic>rovA</italic> or <italic>phop</italic> null mutant (<italic>&#x394;rovA</italic> or <italic>&#x394;phop</italic>, respectively) was generated from the wild-type strain 201 (WT), and then the corresponding complemented mutant strain (<italic>C-rovA</italic> or <italic>C-phop</italic>, respectively) was constructed. As determined by several distinct methods (see the text of manuscript), the P1 promoter of <italic>rovA</italic> was positively regulated by RovA when the bacteria were grown in the original TMH medium, but negatively controlled by PhoP when grown in the TMH containing 10&#x3BC;M MgCl<sub>2</sub>. Herein, an oligonucleotide primer, which was complementary to the RNA transcript of <italic>rovA</italic>, was employed to detect the primer extension product that represented the relative P1 promoter activity in the corresponding strains. The primer extension products were analyzed with 8 M urea&#x2212;6% acrylamide sequencing gel. Lanes C, T, A, and G represent the Sanger sequencing reactions. Shown on the right side of the image is the transcription start site (nucleotide T, corresponding to the P1 promoter) that was located at 78 bp upstream of <italic>rovA</italic>. The P1 promoter was significantly repressed in <italic>&#x394;rovA</italic> relative to both <italic>C-rovA</italic> and WT gown in the original TMH; yet, it was significantly enhanced in <italic>&#x394;phoP</italic> relative to both <italic>C-phoP</italic> and WT grown in the TMH containing 10&#x3BC;M MgCl<sub>2</sub> The P1 promoter was transcribed at almost the same level in every paired WT and complemented mutant. These results confirmed that the <italic>phoP</italic> or <italic>rovA</italic> mutation was nonpolar.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0025484.s001.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>The English writing of the manuscript was polished by EnPapers.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>Financial support for this study came from the National Natural Science Foundation of China (30930001, 30900823, and 30771179) The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0025484-Perry1">
+        <label>1</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Perry</surname><given-names>RD</given-names></name><name><surname>Fetherston</surname><given-names>JD</given-names></name></person-group>             <year>1997</year>             <article-title>Yersinia pestis&#x2013;etiologic agent of plague.</article-title>             <source>Clin Microbiol Rev</source>             <volume>10</volume>             <fpage>35</fpage>             <lpage>66</lpage>          <pub-id pub-id-type="pmid">8993858</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Groisman1">
+        <label>2</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Groisman</surname><given-names>EA</given-names></name></person-group>             <year>2001</year>             <article-title>The pleiotropic two-component regulatory system PhoP-PhoQ.</article-title>             <source>J Bacteriol</source>             <volume>183</volume>             <fpage>1835</fpage>             <lpage>1842</lpage>          <pub-id pub-id-type="pmid">11222580</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Lukaszewski1">
+        <label>3</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lukaszewski</surname><given-names>RA</given-names></name><name><surname>Kenny</surname><given-names>DJ</given-names></name><name><surname>Taylor</surname><given-names>R</given-names></name><name><surname>Rees</surname><given-names>DG</given-names></name><name><surname>Hartley</surname><given-names>MG</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Pathogenesis of Yersinia pestis infection in BALB/c mice: effects on host macrophages and neutrophils.</article-title>             <source>Infect Immun</source>             <volume>73</volume>             <fpage>7142</fpage>             <lpage>7150</lpage>          <pub-id pub-id-type="pmid">16239508</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Oyston1">
+        <label>4</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Oyston</surname><given-names>PC</given-names></name><name><surname>Dorrell</surname><given-names>N</given-names></name><name><surname>Williams</surname><given-names>K</given-names></name><name><surname>Li</surname><given-names>SR</given-names></name><name><surname>Green</surname><given-names>M</given-names></name><etal/></person-group>             <year>2000</year>             <article-title>The response regulator PhoP is important for survival under conditions of macrophage-induced stress and virulence in Yersinia pestis.</article-title>             <source>Infect Immun</source>             <volume>68</volume>             <fpage>3419</fpage>             <lpage>3425</lpage>          <pub-id pub-id-type="pmid">10816493</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Hitchen1">
+        <label>5</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Hitchen</surname><given-names>PG</given-names></name><name><surname>Prior</surname><given-names>JL</given-names></name><name><surname>Oyston</surname><given-names>PC</given-names></name><name><surname>Panico</surname><given-names>M</given-names></name><name><surname>Wren</surname><given-names>BW</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>Structural characterization of lipo-oligosaccharide (LOS) from Yersinia pestis: regulation of LOS structure by the PhoPQ system.</article-title>             <source>Mol Microbiol</source>             <volume>44</volume>             <fpage>1637</fpage>             <lpage>1650</lpage>          <pub-id pub-id-type="pmid">12067350</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-OLoughlin1">
+        <label>6</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>O'Loughlin</surname><given-names>JL</given-names></name><name><surname>Spinner</surname><given-names>JL</given-names></name><name><surname>Minnich</surname><given-names>SA</given-names></name><name><surname>Kobayashi</surname><given-names>SD</given-names></name></person-group>             <year>2010</year>             <article-title>Yersinia pestis two-component gene regulatory systems promote survival in human neutrophils.</article-title>             <source>Infect Immun</source>             <volume>78</volume>             <fpage>773</fpage>             <lpage>782</lpage>          <pub-id pub-id-type="pmid">19933831</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Li1">
+        <label>7</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Li</surname><given-names>YL</given-names></name><name><surname>Gao</surname><given-names>H</given-names></name><name><surname>Qin</surname><given-names>L</given-names></name><name><surname>Li</surname><given-names>B</given-names></name><name><surname>Han</surname><given-names>YP</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Identification and characterization of PhoP regulon members in Yersinia pestis biovar Microtus.</article-title>             <source>BMC Genomics</source>             <volume>9</volume>             <fpage>143</fpage>          <pub-id pub-id-type="pmid">18366809</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Perez1">
+        <label>8</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Perez</surname><given-names>JC</given-names></name><name><surname>Shin</surname><given-names>D</given-names></name><name><surname>Zwir</surname><given-names>I</given-names></name><name><surname>Latifi</surname><given-names>T</given-names></name><name><surname>Hadley</surname><given-names>TJ</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Evolution of a bacterial regulon controlling virulence and Mg(2+) homeostasis.</article-title>             <source>PLoS Genet</source>             <volume>5</volume>             <fpage>e1000428</fpage>          <pub-id pub-id-type="pmid">19300486</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Perez2">
+        <label>9</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Perez</surname><given-names>JC</given-names></name><name><surname>Groisman</surname><given-names>EA</given-names></name></person-group>             <year>2009</year>             <article-title>Transcription factor function and promoter architecture govern the evolution of bacterial regulons.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>106</volume>             <fpage>4319</fpage>             <lpage>4324</lpage>          <pub-id pub-id-type="pmid">19251636</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Grabenstein1">
+        <label>10</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Grabenstein</surname><given-names>JP</given-names></name><name><surname>Fukuto</surname><given-names>HS</given-names></name><name><surname>Palmer</surname><given-names>LE</given-names></name><name><surname>Bliska</surname><given-names>JB</given-names></name></person-group>             <year>2006</year>             <article-title>Characterization of phagosome trafficking and identification of PhoP-regulated genes important for survival of Yersinia pestis in macrophages.</article-title>             <source>Infection and immunity</source>             <volume>74</volume>             <fpage>3727</fpage>             <lpage>3741</lpage>          <pub-id pub-id-type="pmid">16790745</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Ellison1">
+        <label>11</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ellison</surname><given-names>DW</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2006</year>             <article-title>Regulation of virulence by members of the MarR/SlyA family.</article-title>             <source>Curr Opin Microbiol</source>             <volume>9</volume>             <fpage>153</fpage>             <lpage>159</lpage>          <pub-id pub-id-type="pmid">16529980</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Cathelyn1">
+        <label>12</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Cathelyn</surname><given-names>JS</given-names></name><name><surname>Crosby</surname><given-names>SD</given-names></name><name><surname>Lathem</surname><given-names>WW</given-names></name><name><surname>Goldman</surname><given-names>WE</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2006</year>             <article-title>RovA, a global regulator of Yersinia pestis, specifically required for bubonic plague.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>103</volume>             <fpage>13514</fpage>             <lpage>13519</lpage>          <pub-id pub-id-type="pmid">16938880</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Dube1">
+        <label>13</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Dube</surname><given-names>PH</given-names></name><name><surname>Handley</surname><given-names>SA</given-names></name><name><surname>Revell</surname><given-names>PA</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2003</year>             <article-title>The rovA mutant of Yersinia enterocolitica displays differential degrees of virulence depending on the route of infection.</article-title>             <source>Infect Immun</source>             <volume>71</volume>             <fpage>3512</fpage>             <lpage>3520</lpage>          <pub-id pub-id-type="pmid">12761136</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Nagel1">
+        <label>14</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Nagel</surname><given-names>G</given-names></name><name><surname>Lahrz</surname><given-names>A</given-names></name><name><surname>Dersch</surname><given-names>P</given-names></name></person-group>             <year>2001</year>             <article-title>Environmental control of invasin expression in Yersinia pseudotuberculosis is mediated by regulation of RovA, a transcriptional activator of the SlyA/Hor family.</article-title>             <source>Molecular microbiology</source>             <volume>41</volume>             <fpage>1249</fpage>             <lpage>1269</lpage>          <pub-id pub-id-type="pmid">11580832</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Revell1">
+        <label>15</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Revell</surname><given-names>PA</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2000</year>             <article-title>A chromosomally encoded regulator is required for expression of the Yersinia enterocolitica inv gene and for virulence.</article-title>             <source>Molecular microbiology</source>             <volume>35</volume>             <fpage>677</fpage>             <lpage>685</lpage>          <pub-id pub-id-type="pmid">10672189</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Ellison2">
+        <label>16</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ellison</surname><given-names>DW</given-names></name><name><surname>Lawrenz</surname><given-names>MB</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2004</year>             <article-title>Invasin and beyond: regulation of Yersinia virulence by RovA.</article-title>             <source>Trends in microbiology</source>             <volume>12</volume>             <fpage>296</fpage>             <lpage>300</lpage>          <pub-id pub-id-type="pmid">15165608</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Heroven1">
+        <label>17</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Heroven</surname><given-names>AK</given-names></name><name><surname>Nagel</surname><given-names>G</given-names></name><name><surname>Tran</surname><given-names>HJ</given-names></name><name><surname>Parr</surname><given-names>S</given-names></name><name><surname>Dersch</surname><given-names>P</given-names></name></person-group>             <year>2004</year>             <article-title>RovA is autoregulated and antagonizes H-NS-mediated silencing of invasin and rovA expression in Yersinia pseudotuberculosis.</article-title>             <source>Molecular microbiology</source>             <volume>53</volume>             <fpage>871</fpage>             <lpage>888</lpage>          <pub-id pub-id-type="pmid">15255899</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Simonet1">
+        <label>18</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Simonet</surname><given-names>M</given-names></name><name><surname>Riot</surname><given-names>B</given-names></name><name><surname>Fortineau</surname><given-names>N</given-names></name><name><surname>Berche</surname><given-names>P</given-names></name></person-group>             <year>1996</year>             <article-title>Invasin production by Yersinia pestis is abolished by insertion of an IS200-like element within the inv gene.</article-title>             <source>Infect Immun</source>             <volume>64</volume>             <fpage>375</fpage>             <lpage>379</lpage>          <pub-id pub-id-type="pmid">8557370</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Huang1">
+        <label>19</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Huang</surname><given-names>XZ</given-names></name><name><surname>Lindler</surname><given-names>LE</given-names></name></person-group>             <year>2004</year>             <article-title>The pH 6 antigen is an antiphagocytic factor produced by Yersinia pestis independent of Yersinia outer proteins and capsule antigen.</article-title>             <source>Infect Immun</source>             <volume>72</volume>             <fpage>7212</fpage>             <lpage>7219</lpage>          <pub-id pub-id-type="pmid">15557646</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Derbise1">
+        <label>20</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Derbise</surname><given-names>A</given-names></name><name><surname>Chenal-Francisque</surname><given-names>V</given-names></name><name><surname>Pouillot</surname><given-names>F</given-names></name><name><surname>Fayolle</surname><given-names>C</given-names></name><name><surname>Prevost</surname><given-names>MC</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>A horizontally acquired filamentous phage contributes to the pathogenicity of the plague bacillus.</article-title>             <source>Mol Microbiol</source>             <volume>63</volume>             <fpage>1145</fpage>             <lpage>1157</lpage>          <pub-id pub-id-type="pmid">17238929</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Li2">
+        <label>21</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Dai</surname><given-names>E</given-names></name><name><surname>Cui</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>M</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Different region analysis for genotyping Yersinia pestis isolates from China.</article-title>             <source>PLoS ONE</source>             <volume>3</volume>             <fpage>e2166</fpage>          <pub-id pub-id-type="pmid">18478120</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Yang1">
+        <label>22</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Yang</surname><given-names>F</given-names></name><name><surname>Ke</surname><given-names>Y</given-names></name><name><surname>Tan</surname><given-names>Y</given-names></name><name><surname>Bi</surname><given-names>Y</given-names></name><name><surname>Shi</surname><given-names>Q</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>Cell membrane is impaired, accompanied by enhanced type III secretion system expression in Yersinia pestis deficient in RovA regulator.</article-title>             <source>PLoS One</source>             <volume>5.e12840</volume>          </element-citation>
+      </ref>
+      <ref id="pone.0025484-Tran1">
+        <label>23</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Tran</surname><given-names>HJ</given-names></name><name><surname>Heroven</surname><given-names>AK</given-names></name><name><surname>Winkler</surname><given-names>L</given-names></name><name><surname>Spreter</surname><given-names>T</given-names></name><name><surname>Beatrix</surname><given-names>B</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Analysis of RovA, a transcriptional regulator of Yersinia pseudotuberculosis virulence that acts through antirepression and direct transcriptional activation.</article-title>             <source>J Biol Chem</source>             <volume>280</volume>             <fpage>42423</fpage>             <lpage>42432</lpage>          <pub-id pub-id-type="pmid">16257976</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Zhou1">
+        <label>24</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zhou</surname><given-names>D</given-names></name><name><surname>Tong</surname><given-names>Z</given-names></name><name><surname>Song</surname><given-names>Y</given-names></name><name><surname>Han</surname><given-names>Y</given-names></name><name><surname>Pei</surname><given-names>D</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Genetics of metabolic variations between Yersinia pestis biovars and the proposal of a new biovar, microtus.</article-title>             <source>J Bacteriol</source>             <volume>186</volume>             <fpage>5147</fpage>             <lpage>5152</lpage>          <pub-id pub-id-type="pmid">15262951</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Zhan1">
+        <label>25</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zhan</surname><given-names>L</given-names></name><name><surname>Han</surname><given-names>Y</given-names></name><name><surname>Yang</surname><given-names>L</given-names></name><name><surname>Geng</surname><given-names>J</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>The cyclic AMP receptor protein, CRP, is required for both virulence and expression of the minimal CRP regulon in Yersinia pestis biovar microtus.</article-title>             <source>Infect Immun</source>             <volume>76</volume>             <fpage>5028</fpage>             <lpage>5037</lpage>          <pub-id pub-id-type="pmid">18710863</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Straley1">
+        <label>26</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Straley</surname><given-names>SC</given-names></name><name><surname>Bowmer</surname><given-names>WS</given-names></name></person-group>             <year>1986</year>             <article-title>Virulence genes regulated at the transcriptional level by Ca2+ in Yersinia pestis include structural genes for outer membrane proteins.</article-title>             <source>Infect Immun</source>             <volume>51</volume>             <fpage>445</fpage>             <lpage>454</lpage>          <pub-id pub-id-type="pmid">3002984</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-ElRobh1">
+        <label>27</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>El-Robh</surname><given-names>MS</given-names></name><name><surname>Busby</surname><given-names>SJ</given-names></name></person-group>             <year>2002</year>             <article-title>The Escherichia coli cAMP receptor protein bound at a single target can activate transcription initiation at divergent promoters: a systematic study that exploits new promoter probe plasmids.</article-title>             <source>Biochem J</source>             <volume>368</volume>             <fpage>835</fpage>             <lpage>843</lpage>          <pub-id pub-id-type="pmid">12350222</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Chain1">
+        <label>28</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Chain</surname><given-names>PS</given-names></name><name><surname>Carniel</surname><given-names>E</given-names></name><name><surname>Larimer</surname><given-names>FW</given-names></name><name><surname>Lamerdin</surname><given-names>J</given-names></name><name><surname>Stoutland</surname><given-names>PO</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Insights into the evolution of Yersinia pestis through whole-genome comparison with Yersinia pseudotuberculosis.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>101</volume>             <fpage>13826</fpage>             <lpage>13831</lpage>          <pub-id pub-id-type="pmid">15358858</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Zhou2">
+        <label>29</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zhou</surname><given-names>D</given-names></name><name><surname>Han</surname><given-names>Y</given-names></name><name><surname>Qin</surname><given-names>L</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><name><surname>Qiu</surname><given-names>J</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Transcriptome analysis of the Mg2+-responsive PhoP regulator in Yersinia pestis.</article-title>             <source>FEMS Microbiol Lett</source>             <volume>250</volume>             <fpage>85</fpage>             <lpage>95</lpage>          <pub-id pub-id-type="pmid">16061330</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Chen1">
+        <label>30</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Chen</surname><given-names>PE</given-names></name><name><surname>Cook</surname><given-names>C</given-names></name><name><surname>Stewart</surname><given-names>AC</given-names></name><name><surname>Nagarajan</surname><given-names>N</given-names></name><name><surname>Sommer</surname><given-names>DD</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>Genomic characterization of the Yersinia genus.</article-title>             <source>Genome Biol</source>             <volume>11</volume>             <fpage>R1</fpage>          <pub-id pub-id-type="pmid">20047673</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Achtman1">
+        <label>31</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Achtman</surname><given-names>M</given-names></name><name><surname>Zurth</surname><given-names>K</given-names></name><name><surname>Morelli</surname><given-names>G</given-names></name><name><surname>Torrea</surname><given-names>G</given-names></name><name><surname>Guiyoule</surname><given-names>A</given-names></name><etal/></person-group>             <year>1999</year>             <article-title>Yersinia pestis, the cause of plague, is a recently emerged clone of Yersinia pseudotuberculosis.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>96</volume>             <fpage>14043</fpage>             <lpage>14048</lpage>          <pub-id pub-id-type="pmid">10570195</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Skurnik1">
+        <label>32</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Skurnik</surname><given-names>M</given-names></name><name><surname>Peippo</surname><given-names>A</given-names></name><name><surname>Ervela</surname><given-names>E</given-names></name></person-group>             <year>2000</year>             <article-title>Characterization of the O-antigen gene clusters of Yersinia pseudotuberculosis and the cryptic O-antigen gene cluster of Yersinia pestis shows that the plague bacillus is most closely related to and has evolved from Y. pseudotuberculosis serotype O:1b.</article-title>             <source>Mol Microbiol</source>             <volume>37</volume>             <fpage>316</fpage>             <lpage>330</lpage>          <pub-id pub-id-type="pmid">10931327</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Lawrenz1">
+        <label>33</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lawrenz</surname><given-names>MB</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2007</year>             <article-title>Comparative analysis of the regulation of rovA from the pathogenic yersiniae.</article-title>             <source>J Bacteriol</source>             <volume>189</volume>             <fpage>5963</fpage>             <lpage>5975</lpage>          <pub-id pub-id-type="pmid">17573476</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Herbst1">
+        <label>34</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Herbst</surname><given-names>K</given-names></name><name><surname>Bujara</surname><given-names>M</given-names></name><name><surname>Heroven</surname><given-names>AK</given-names></name><name><surname>Opitz</surname><given-names>W</given-names></name><name><surname>Weichert</surname><given-names>M</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Intrinsic thermal sensing controls proteolysis of Yersinia virulence regulator RovA.</article-title>             <source>PLoS Pathog</source>             <volume>5</volume>             <fpage>e1000435</fpage>          <pub-id pub-id-type="pmid">19468295</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Stoebel1">
+        <label>35</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Stoebel</surname><given-names>DM</given-names></name><name><surname>Free</surname><given-names>A</given-names></name><name><surname>Dorman</surname><given-names>CJ</given-names></name></person-group>             <year>2008</year>             <article-title>Anti-silencing: overcoming H-NS-mediated repression of transcription in Gram-negative enteric bacteria.</article-title>             <source>Microbiology</source>             <volume>154</volume>             <fpage>2533</fpage>             <lpage>2545</lpage>          <pub-id pub-id-type="pmid">18757787</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Heroven2">
+        <label>36</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Heroven</surname><given-names>AK</given-names></name><name><surname>Dersch</surname><given-names>P</given-names></name></person-group>             <year>2006</year>             <article-title>RovM, a novel LysR-type regulator of the virulence activator gene rovA, controls cell invasion, virulence and motility of Yersinia pseudotuberculosis.</article-title>             <source>Mol Microbiol</source>             <volume>62</volume>             <fpage>1469</fpage>             <lpage>1483</lpage>          <pub-id pub-id-type="pmid">17074075</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Ishihama1">
+        <label>37</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2000</year>             <article-title>Functional modulation of Escherichia coli RNA polymerase.</article-title>             <source>Annu Rev Microbiol</source>             <volume>54</volume>             <fpage>499</fpage>             <lpage>518</lpage>          <pub-id pub-id-type="pmid">11018136</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Heroven3">
+        <label>38</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Heroven</surname><given-names>AK</given-names></name><name><surname>Bohme</surname><given-names>K</given-names></name><name><surname>Rohde</surname><given-names>M</given-names></name><name><surname>Dersch</surname><given-names>P</given-names></name></person-group>             <year>2008</year>             <article-title>A Csr-type regulatory system, including small non-coding RNAs, regulates the global virulence regulator RovA of Yersinia pseudotuberculosis through RovM.</article-title>             <source>Mol Microbiol</source>             <volume>68</volume>             <fpage>1179</fpage>             <lpage>1195</lpage>          <pub-id pub-id-type="pmid">18430141</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Gao1">
+        <label>39</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Gao</surname><given-names>H</given-names></name><name><surname>Zhou</surname><given-names>D</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Guo</surname><given-names>Z</given-names></name><name><surname>Han</surname><given-names>Y</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>The iron-responsive Fur regulon in Yersinia pestis.</article-title>             <source>J Bacteriol</source>             <volume>190</volume>             <fpage>3063</fpage>             <lpage>3075</lpage>          <pub-id pub-id-type="pmid">18281395</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Li3">
+        <label>40</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Qiu</surname><given-names>Y</given-names></name><name><surname>Gao</surname><given-names>H</given-names></name><name><surname>Guo</surname><given-names>Z</given-names></name><name><surname>Han</surname><given-names>Y</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Characterization of Zur-dependent genes and direct Zur targets in Yersinia pestis.</article-title>             <source>BMC Microbiol</source>             <volume>9</volume>             <fpage>128</fpage>          <pub-id pub-id-type="pmid">19552825</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Cathelyn2">
+        <label>41</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Cathelyn</surname><given-names>JS</given-names></name><name><surname>Ellison</surname><given-names>DW</given-names></name><name><surname>Hinchliffe</surname><given-names>SJ</given-names></name><name><surname>Wren</surname><given-names>BW</given-names></name><name><surname>Miller</surname><given-names>VL</given-names></name></person-group>             <year>2007</year>             <article-title>The RovA regulons of Yersinia enterocolitica and Yersinia pestis are distinct: evidence that many RovA-regulated genes were acquired more recently than the core genome.</article-title>             <source>Mol Microbiol</source>             <volume>66</volume>             <fpage>189</fpage>             <lpage>205</lpage>          <pub-id pub-id-type="pmid">17784909</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Song1">
+        <label>42</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Song</surname><given-names>H</given-names></name><name><surname>Kong</surname><given-names>W</given-names></name><name><surname>Weatherspoon</surname><given-names>N</given-names></name><name><surname>Qin</surname><given-names>G</given-names></name><name><surname>Tyler</surname><given-names>W</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Modulation of the regulatory activity of bacterial two-component systems by SlyA.</article-title>             <source>J Biol Chem</source>             <volume>283</volume>             <fpage>28158</fpage>             <lpage>28168</lpage>          <pub-id pub-id-type="pmid">18678876</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Norte1">
+        <label>43</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Norte</surname><given-names>VA</given-names></name><name><surname>Stapleton</surname><given-names>MR</given-names></name><name><surname>Green</surname><given-names>J</given-names></name></person-group>             <year>2003</year>             <article-title>PhoP-responsive expression of the Salmonella enterica serovar typhimurium slyA gene.</article-title>             <source>Journal of bacteriology</source>             <volume>185</volume>             <fpage>3508</fpage>             <lpage>3514</lpage>          <pub-id pub-id-type="pmid">12775687</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Shi1">
+        <label>44</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Shi</surname><given-names>Y</given-names></name><name><surname>Latifi</surname><given-names>T</given-names></name><name><surname>Cromie</surname><given-names>MJ</given-names></name><name><surname>Groisman</surname><given-names>EA</given-names></name></person-group>             <year>2004</year>             <article-title>Transcriptional control of the antimicrobial peptide resistance ugtL gene by the Salmonella PhoP and SlyA regulatory proteins.</article-title>             <source>The Journal of biological chemistry</source>             <volume>279</volume>             <fpage>38618</fpage>             <lpage>38625</lpage>          <pub-id pub-id-type="pmid">15208313</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Kong1">
+        <label>45</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kong</surname><given-names>W</given-names></name><name><surname>Weatherspoon</surname><given-names>N</given-names></name><name><surname>Shi</surname><given-names>Y</given-names></name></person-group>             <year>2008</year>             <article-title>Molecular mechanism for establishment of signal-dependent regulation in the PhoP/PhoQ system.</article-title>             <source>J Biol Chem</source>             <volume>283</volume>             <fpage>16612</fpage>             <lpage>16621</lpage>          <pub-id pub-id-type="pmid">18434315</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Soncini1">
+        <label>46</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Soncini</surname><given-names>FC</given-names></name><name><surname>Vescovi</surname><given-names>EG</given-names></name><name><surname>Groisman</surname><given-names>EA</given-names></name></person-group>             <year>1995</year>             <article-title>Transcriptional autoregulation of the Salmonella typhimurium phoPQ operon.</article-title>             <source>J Bacteriol</source>             <volume>177</volume>             <fpage>4364</fpage>             <lpage>4371</lpage>          <pub-id pub-id-type="pmid">7543474</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0025484-Lejona1">
+        <label>47</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lejona</surname><given-names>S</given-names></name><name><surname>Aguirre</surname><given-names>A</given-names></name><name><surname>Cabeza</surname><given-names>ML</given-names></name><name><surname>Garcia Vescovi</surname><given-names>E</given-names></name><name><surname>Soncini</surname><given-names>FC</given-names></name></person-group>             <year>2003</year>             <article-title>Molecular characterization of the Mg2+-responsive PhoP-PhoQ regulon in Salmonella enterica.</article-title>             <source>J Bacteriol</source>             <volume>185</volume>             <fpage>6287</fpage>             <lpage>6294</lpage>          <pub-id pub-id-type="pmid">14563863</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

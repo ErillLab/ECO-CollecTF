@@ -1,0 +1,765 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23861975</article-id>
+      <article-id pub-id-type="pmc">3702619</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-18290</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0069554</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A New Transcriptional Repressor of the <italic><named-content content-type="genus-species">Pseudomonas aeruginosa</named-content></italic> Quorum Sensing Receptor Gene <italic>lasR</italic></article-title>
+        <alt-title alt-title-type="running-head">A New Repressor of <italic>P. aeruginosa</italic> QS and Virulence</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Longo</surname>
+            <given-names>Francesca</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rampioni</surname>
+            <given-names>Giordano</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bond&#xEC;</surname>
+            <given-names>Roslen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Imperi</surname>
+            <given-names>Francesco</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fimia</surname>
+            <given-names>Gian Maria</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Visca</surname>
+            <given-names>Paolo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zennaro</surname>
+            <given-names>Elisabetta</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leoni</surname>
+            <given-names>Livia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref rid="aff1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Sciences, University Roma Tre, Rome, Italy</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Biology and Biotechnology &#x201C;Charles Darwin&#x201D;, Sapienza University, Rome, Italy</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line> National Institute for Infectious Disease &#x201C;Lazzaro Spallanzani&#x201D;, Rome, Italy</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Coenye</surname>
+            <given-names>Tom</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Ghent University, Belgium</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>livia.leoni@uniroma3.it</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: FL GR EZ PV LL. Performed the experiments: FL GR RB FI GMF. Analyzed the data: FL GR RB FI GMF PV EZ LL. Wrote the manuscript: LL. </p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>5</day>
+        <month>7</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>7</issue>
+      <elocation-id>e69554</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>6</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Longo et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><italic><named-content content-type="genus-species">Pseudomonas aeruginosa</named-content></italic> pathogenic potential is controlled <italic>via</italic> multiple regulatory pathways, including three quorum sensing (QS) systems. LasR is a key QS signal receptor since it acts as a global transcriptional regulator required for optimal expression of main virulence factors. <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> modulates the QS response by integrating this cell density-dependent circuit to environmental and metabolic cues. Hence, QS also controls the adaptation to challenging environmental niches, such as infection sites. However, little is known about the molecular mechanisms connecting QS and other signalling pathways. In this work, DNA-affinity chromatography was used to identify new <italic>lasR</italic> transcriptional regulators. This approach led to the identification and functional characterization of the TetR-like transcriptional repressor PA3699. This protein was purified and shown to directly bind to the <italic>lasR</italic> promoter region <italic>in vitro</italic>. The induction of PA3699 expression in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 cultures repressed <italic>lasR</italic> promoter activity and the production of LasR-dependent virulence factors, such as elastase, pyocyanin, and proteases. These findings suggest a role for PA3699 in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> pathogenicity. <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> genome encodes at least 38 TetR-family proteins, and PA3699 is the eighth member of this group functionally characterized so far and the first one shown to bind the <italic>lasR</italic> promoter <italic>in vitro.</italic></p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by grants from the Ministry of University and Research of Italy (Futuro in Ricerca 2010 - RBFR10LHD1; <ext-link ext-link-type="uri" xlink:href="http://www.miur.it">www.miur.it</ext-link>), University Roma Tre (Internationalization Project; <ext-link ext-link-type="uri" xlink:href="http://www.uniroma3.it">www.uniroma3.it</ext-link>), and the Italian Cystic Fibrosis Research Foundation (FFC 14/2010 and FFC 13/2011; <ext-link ext-link-type="uri" xlink:href="http://www.fibrosicisticaricerca.it">www.fibrosicisticaricerca.it</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The definition of quorum sensing (QS) was coined about 20 years ago to describe a communication system based on the production, detection, and response to signal molecules, allowing bacterial populations to trigger a coordinated response at a threshold cell density [<xref ref-type="bibr" rid="B1">1</xref>]. Today it is well known that QS regulation plays a key role in a number of relevant bacterial processes, including colonization of plants and animal tissues, and production of antibiotics [<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>].</p>
+      <p>In many bacteria, the QS regulatory device is interwoven with other global regulatory networks responsive to different environmental cues (e.g., temperature, pH, osmolarity, oxidative stress, nutrient starvation). These networks cross-talk in the bacterial cell in order to determine the optimal survival strategy [<xref ref-type="bibr" rid="B4">4</xref>]. The advantage of integrating QS with other regulatory pathways becomes a compelling necessity when the QS response controls multiple functions and its activation commits bacteria to a strong reorganization of the whole cellular metabolism [<xref ref-type="bibr" rid="B5">5</xref>].</p>
+      <p>One of the most studied model organisms in QS research is <italic><named-content content-type="genus-species">Pseudomonas aeruginosa</named-content></italic>. This versatile bacterium is able to thrive in a wide range of environmental niches, including the human body. The high adaptability of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> is reflected by its behaviour as a pathogen. In humans, <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> causes community- and hospital-acquired infections, colonizing different body districts like lungs, eyes, ears, urinary tract, injured skin (burns and wounds). Such infections are often difficult to eradicate as a consequence of antibiotic resistance and biofilm formation [<xref ref-type="bibr" rid="B6">6</xref>]. In particular, <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> chronic lung infection is the major cause of death in cystic fibrosis patients, a genetic disease affecting about 1/3,000 newborns in the Caucasian population [<xref ref-type="bibr" rid="B6">6</xref>].</p>
+      <p><italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> pathogenicity strongly depends on the fine and coordinated regulation of a wide array of virulence factors [<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref>]. This is achieved thanks to a complex network of regulatory and signalling pathways controlling virulence-related phenotypes, in response to environmental cues and bacterial population structure [<xref ref-type="bibr" rid="B9">9</xref>]. Among these pathways, a preeminent role in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> virulence is played by three interconnected QS systems, based on the production of different signal molecules. The QS signal molecule <italic>N</italic>-3-oxo-dodecanoyl-homoserine lactone (3OC<sub>12</sub>-HSL) is synthesized by LasI, encoded by the <italic>lasI</italic> gene, and its cognate receptor is the cytoplasmic transcriptional regulator LasR, encoded by the <italic>lasR</italic> gene. 3OC<sub>12</sub>-HSL progressively accumulates in the bacterial culture and at a threshold concentration it binds LasR. The LasR/3OC<sub>12</sub>-HSL complex, in turn, activates transcription of hundreds of genes, including the genes coding for the receptors of the other two QS systems, based on <italic>N</italic>-butanoylhomoserine lactone (C<sub>4</sub>-HSL) and 2-heptyl-3-hydroxy-4-quinolone (PQS) signal molecules. As a whole, the <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> QS circuit has a key role in pathogenesis, regulating the production of virulence factors, the formation of biofilm and the expression of antibiotic efflux pumps [<xref ref-type="bibr" rid="B10">10</xref>].</p>
+      <p>The three QS systems of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> are interwoven and connected to other regulatory pathways [<xref ref-type="bibr" rid="B10">10</xref>&#x2013;<xref ref-type="bibr" rid="B12">12</xref>]. Indeed the expression of genes involved in the synthesis and perception of QS signal molecules is finely regulated at the transcriptional and post-transcriptional level in response to various metabolic and environmental stimuli [<xref ref-type="bibr" rid="B12">12</xref>&#x2013;<xref ref-type="bibr" rid="B15">15</xref>]. However, the proteins involved in this regulation and their mechanisms of action are largely unknown [<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>]. To date only few transcriptional regulators have been shown to directly bind the promoters of genes involved in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> QS signal synthesis and perception. In particular, RsaL directly represses <italic>lasI</italic> transcription [<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref>], while Vfr directly activates the <italic>lasR</italic> promoter region [<xref ref-type="bibr" rid="B18">18</xref>]. Moreover, AlgR2 (AlgQ), besides acting as an anti-sigma factor for the vegetative sigma RpoD [<xref ref-type="bibr" rid="B19">19</xref>], can also bind to and downregulate the <italic>lasR</italic> promoter [<xref ref-type="bibr" rid="B20">20</xref>]. However, the stimuli controlling the transcriptional activity of Vfr, AlgR2 (AlgQ) and RsaL are still unknown.</p>
+      <p>The objective of this work has been the identification of novel transcriptional regulators of LasR expression. To this aim, <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> cytoplasmic proteins able to bind the <italic>lasR</italic> promoter region have been picked-up by DNA-affinity chromatography and identified by mass spectrometry. This led to the functional characterization of the TetR-like protein PA3699, which acts as a novel repressor of <italic>lasR</italic> transcription and of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> virulence factors production.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results and Discussion</title>
+      <sec id="s2.1">
+        <title>Identification of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> proteins interacting with the <italic>lasR</italic> promoter</title>
+        <p>To increase the probability of fishing proteins interacting with the <italic>lasR</italic> promoter (P<italic>lasR</italic>), the activity of P<italic>lasR</italic> was preliminarily monitored along the <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 growth curve by means of a P<italic>lasR</italic>::<italic>lacZ</italic> transcriptional fusion (<xref ref-type="fig" rid="pone-0069554-g001">Figure 1A</xref>
+<xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>). P<italic>lasR</italic> activity increased steadily during the exponential phase and reached a plateau at the onset of the stationary phase. The maximal promoter activity was maintained for about four hours, and then declined (<xref ref-type="fig" rid="pone-0069554-g001">Figure 1A)</xref>, suggesting that at the end of the exponential phase and during the stationary phase of growth, one or more transcriptional regulator(s) bind to P<italic>lasR</italic> and affect its promoter activity. Hence, crude protein extracts were prepared from <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 cultures grown to A<sub>600</sub> = 2.0 and A<sub>600</sub>= 5.0, corresponding to late exponential and stationary phase of growth, respectively (<xref ref-type="fig" rid="pone-0069554-g001">Figure 1A)</xref>.</p>
+        <fig id="pone-0069554-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0069554.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>P<italic>lasR</italic> activity and P<italic>lasR</italic>-affinity chromatography.</title>
+            <p>(A) Growth curve of the <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 wild type strain carrying the pMP<italic>lasR</italic>::<italic>lacZ</italic> plasmid (dashed line) and corresponding P<italic>lasR</italic> promoter activity (solid line). The points of the growth curve at which the protein crude extracts for DNA-affinity chromatography were prepared are indicated by arrows. (B) SDS-PAGE analysis of proteins bound to the P<italic>lasR</italic> promoter region. Protein crude extracts were prepared from <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 cultures grown in LB broth to the indicated cell densities (A<sub>600</sub>). Bands analysed by MALDI-TOF mass spectrometry are indicated by arrows, and the corresponding protein name is reported.</p>
+          </caption>
+          <graphic xlink:href="pone.0069554.g001"/>
+        </fig>
+        <p>To prepare the DNA-affinity chromatography matrix, a biotinylated double-stranded DNA fragment, corresponding to the <italic>lasR</italic> promoter region cloned in the P<italic>lasR</italic>::<italic>lacZ</italic> transcriptional fusion, was immobilized on a streptavidin-conjugated chromatography resin. Protein crude extracts were independently incubated with the matrix and, after extensive washing, proteins specifically bound to P<italic>lasR</italic> were eluted, separated by SDS-PAGE, and identified by MALDI-TOF mass spectrometry (<xref ref-type="table" rid="tab1">Table 1)</xref>. The experiment was performed in duplicate for each crude extract. Examples of SDS-PAGE gels are shown in <xref ref-type="fig" rid="pone-0069554-g001">Figure 1B</xref>. Overall, twelve protein bands were reproducibly detected on the SDS-PAGE gels (<xref ref-type="table" rid="tab1">Table 1)</xref>, while no protein bands were visible in control experiments with beads uncoupled to DNA (data not shown). Among these, RpoA, Ssb and TufB are involved in general DNA processing, while the PhaF phasin is involved in polyhydroxyalkanoate segregation during cell division [<xref ref-type="bibr" rid="B21">21</xref>]. Moreover three proteins not involved in DNA processing (i.e., Lon, PepA and GroEL) were also retrieved (<xref ref-type="table" rid="tab1">Table 1)</xref>.</p>
+        <table-wrap id="tab1" orientation="portrait" position="float">
+          <label>Table 1</label>
+          <caption>
+            <title>List of P<italic>lasR</italic>-binding proteins identified by MALDI-TOF analysis from the SDS-PAGE gels shown in <xref ref-type="fig" rid="pone-0069554-g001">Figure 1B</xref>.</title>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup width="45" span="1">
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">
+                  <bold>PA number <sup>a b</sup></bold>
+                </th>
+                <th rowspan="1" colspan="1">
+                  <bold>Gene name<sup>a</sup></bold>
+                </th>
+                <th rowspan="1" colspan="1">
+                  <bold>Functional class<sup>a</sup></bold>
+                </th>
+                <th rowspan="1" colspan="1">
+                  <bold>Predicted molecular mass (kDa)</bold>
+                </th>
+                <th colspan="2" rowspan="1">
+                  <bold>Protein score<sup><xref rid="ngtab1.2"><italic>c</italic></xref></sup> &#x2013; No. of peptides matched</bold>
+                  <hr/>
+                </th>
+              </tr>
+              <tr>
+                <th rowspan="1" colspan="1"/>
+                <th rowspan="1" colspan="1"/>
+                <th rowspan="1" colspan="1"/>
+                <th rowspan="1" colspan="1"/>
+                <th rowspan="1" colspan="1">A<sub>600</sub> = 2.0</th>
+                <th rowspan="1" colspan="1">A<sub>600</sub> = 5.0</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">
+                  <bold>PA0123</bold>
+                </td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">probable transcriptional regulator</td>
+                <td rowspan="1" colspan="1">33.5</td>
+                <td rowspan="1" colspan="1">447-10</td>
+                <td rowspan="1" colspan="1">708-21</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+                  <bold>PA0448</bold>
+                </td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">probable transcriptional regulator</td>
+                <td rowspan="1" colspan="1">34.1</td>
+                <td rowspan="1" colspan="1">652-18</td>
+                <td rowspan="1" colspan="1">777-19</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+                  <bold>PA0652</bold>
+                </td>
+                <td rowspan="1" colspan="1">
+                  <italic>vfr</italic>
+                </td>
+                <td rowspan="1" colspan="1">Transcriptional regulator Vfr</td>
+                <td rowspan="1" colspan="1">24.5</td>
+                <td rowspan="1" colspan="1">564-14</td>
+                <td rowspan="1" colspan="1">621-16</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA0779</td>
+                <td rowspan="1" colspan="1">
+                  <italic>lon</italic>
+                </td>
+                <td rowspan="1" colspan="1">probable ATP-dependent protease</td>
+                <td rowspan="1" colspan="1">88.6</td>
+                <td rowspan="1" colspan="1">276-11</td>
+                <td rowspan="1" colspan="1">709-34</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+                  <bold>PA3699</bold>
+                </td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">probable transcriptional regulator</td>
+                <td rowspan="1" colspan="1">26.3</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">279-13</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA3831</td>
+                <td rowspan="1" colspan="1">
+                  <italic>pepA</italic>
+                </td>
+                <td rowspan="1" colspan="1">leucine aminopeptidase</td>
+                <td rowspan="1" colspan="1">52.6</td>
+                <td rowspan="1" colspan="1">891-24</td>
+                <td rowspan="1" colspan="1">412-20</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+                  <bold>PA4135</bold>
+                </td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">probable transcriptional regulator</td>
+                <td rowspan="1" colspan="1">16.5</td>
+                <td rowspan="1" colspan="1">293-10</td>
+                <td rowspan="1" colspan="1">258-9</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA4232</td>
+                <td rowspan="1" colspan="1">
+                  <italic>ssb</italic>
+                </td>
+                <td rowspan="1" colspan="1">single-stranded DNA-binding protein</td>
+                <td rowspan="1" colspan="1">18.5</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">134-6</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA4238</td>
+                <td rowspan="1" colspan="1">
+                  <italic>rpoA</italic>
+                </td>
+                <td rowspan="1" colspan="1">DNA-directed RNA polymerase alpha chain</td>
+                <td rowspan="1" colspan="1">39.7</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">390-14</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA4277</td>
+                <td rowspan="1" colspan="1">
+                  <italic>tufB</italic>
+                </td>
+                <td rowspan="1" colspan="1">elongation factor Tu</td>
+                <td rowspan="1" colspan="1">43.7</td>
+                <td rowspan="1" colspan="1">709-21</td>
+                <td rowspan="1" colspan="1">-</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA4385</td>
+                <td rowspan="1" colspan="1">
+                  <italic>groEL</italic>
+                </td>
+                <td rowspan="1" colspan="1">GroEL protein</td>
+                <td rowspan="1" colspan="1">57.1</td>
+                <td rowspan="1" colspan="1">1210-22</td>
+                <td rowspan="1" colspan="1">723-21</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">PA5060</td>
+                <td rowspan="1" colspan="1">
+                  <italic>phaF</italic>
+                </td>
+                <td rowspan="1" colspan="1">polyhydroxyalkanoate synthesis protein PhaF</td>
+                <td rowspan="1" colspan="1">30.6</td>
+                <td rowspan="1" colspan="1">439-11</td>
+                <td rowspan="1" colspan="1">456-20</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="ngtab1.1">
+              <label>a</label>
+              <p> PA number, gene name and functional class refer to the <named-content content-type="genus-species">Pseudomonas</named-content> Genome Database annotation [22].</p>
+            </fn>
+            <fn>
+              <p><sup>b</sup> Proteins identified only when using P<italic>lasR</italic> as DNA bait are in bold characters.</p>
+            </fn>
+            <fn id="ngtab1.2">
+              <label>c</label>
+              <p> The protein score is according to the Mascot programme (scores &#x2265; 76 correspond to an error probability <italic>p</italic> &lt; 0.05 in our data set) [37].</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Of the two transcription factors previously known to bind P<italic>lasR</italic> (i.e., Vfr and AlgR2) [<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B20">20</xref>], only Vfr was picked-up (<xref ref-type="table" rid="tab1">Table 1)</xref>, indicating that the DNA-affinity chromatography approach here described allows identification of some, but not all, the transcription factors specific for P<italic>lasR</italic>. Therefore, besides AlgR2, other regulators of this promoter may have escaped our analysis.</p>
+        <p>Last, but of primary importance with respect to our aims, among the picked-up proteins PA0123, PA0448, PA3699 and PA4135 were annotated in the <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> genome as putative transcription factors with unknown function (<xref ref-type="table" rid="tab1">Table 1)</xref>. On the basis of their sequence, PA0123 and PA0448 are annotated as putative LysR-like family transcriprional regulators [<xref ref-type="bibr" rid="B22">22</xref>]. Interestingly, the three-dimensional structure of PA3699 and PA4135 has been recently solved (Protein Data Bank accession numbers, 3KKD and 2FBI, respectively). On the basis of primary sequence and structural features, PA3699 and PA4135 can be assigned to the TetR-like and MarR-like family of transcriptional regulators, respectively [<xref ref-type="bibr" rid="B22">22</xref>]. In this view, the above results provide the first experimental evidence that PA0123, PA0448, PA3699 and PA4135 are expressed in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> cultures and able to bind DNA <italic>in vitro</italic>. On the basis of the above considerations, these four factors were selected for further analysis as novel putative <italic>lasR</italic> regulators (<xref ref-type="table" rid="tab1">Table 1)</xref>.</p>
+      </sec>
+      <sec id="s2.2">
+        <title><italic>In vivo characterization</italic> of putative <italic>lasR</italic> transcriptional regulators</title>
+        <p>In order to study the <italic>in vivo</italic> effect of PA0123, PA0448, PA3699 and PA4135 on P<italic>lasR</italic> activity, a set of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 in frame deletion mutants in the corresponding genes was generated. As a control, also a mutation in the <italic>vfr</italic> gene was introduced in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1. A genetic cassette carrying the P<italic>lasR</italic>::<italic>lux</italic> transcriptional fusion was introduced in a chromosomal neutral site of the five mutant strains and of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> wild type to conveniently measure P<italic>lasR</italic> activity as a function of light emission along the growth curve. The DNA region cloned in this genetic cassette was identical to that used as a bait in the DNA-affinity chromatography experiment.</p>
+        <p>In accordance with literature data, P<italic>lasR</italic> activity was strongly decreased as a consequence of <italic>vfr</italic> mutation (<xref ref-type="supplementary-material" rid="pone.0069554.s001">Figure S1</xref>) [<xref ref-type="bibr" rid="B18">18</xref>], while no significant differences with respect to the wild type activity were observed in the PA0123, PA0448, PA3699 and PA4135 mutant strains (<xref ref-type="supplementary-material" rid="pone.0069554.s001">Figure S1</xref>). Similar results were obtained by using the P<italic>lasR</italic>::<italic>lacZ</italic> transcriptional fusion as reporter system (data not shown).</p>
+        <p>It was surprising that inactivation of the four new putative regulators able to bind P<italic>lasR in vitro</italic> did not affect the activity of this promoter <italic>in vivo</italic>. However, the DNA-affinity chromatography allows the purification of proteins present in a synthetic binding buffer, a condition that is unlikely to mimic the intracellular milieu. Thus, some of the factors picked-up <italic>in vitro</italic> using P<italic>lasR</italic> as bait could be not sufficiently expressed and/or active <italic>in vivo</italic> under the experimental conditions used for the promoter activity assay. To overcome this problem, the PA0123, PA0448, PA3699, and PA4135 genes were cloned in the expression vector pHERD30T, under the control of an <sc>l</sc>-arabinose-inducible promoter (<xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>) [<xref ref-type="bibr" rid="B23">23</xref>]. The resulting plasmids were independently introduced in the wild type <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 strain carrying the P<italic>lasR</italic>::<italic>lux</italic> transcriptional fusion, and promoter activity was measured along the growth curve in the presence of <sc>l</sc>-arabinose; the pHERD30T empty vector was used as control. With the only exception of PA0448, <sc>l</sc>-arabinose-induced expression of the tested proteins reduced the activity of the P<italic>lasR</italic>::<italic>lux</italic> fusion. However, induction of PA0123 and PA4135 also resulted in a strong inhibition of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> growth (<xref ref-type="fig" rid="pone-0069554-g002">Figure 2A)</xref>. Since bioluminescence emission is an energy demanding process, we hypothesized that PA0123 and PA4135 induction might affect growth only in a <italic>lux</italic> proficient background. However, PA0123 and PA4135 induction had a negative effect on <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> growth also in the PAO1 wild type strain lacking the P<italic>lasR</italic>::<italic>lux</italic> fusion in the chromosome (data not shown). Overall, these results indicate that PA0123 and PA4135 are toxic for <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> when their expression is induced, at least in the growth conditions used in our experimental setting.</p>
+        <fig id="pone-0069554-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0069554.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Effect of the induction of P<italic>lasR</italic>-bound proteins on P<italic>lasR</italic> promoter activity. </title>
+            <p>(A) Histogram reporting P<italic>lasR</italic> maximal promoter activity (grey bars) and the corresponding cell density (white bars) measured in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 P<italic>lasR::lux</italic> strains carrying the plasmids indicated below the graph, grown in LB supplemented with 0.1% (w/v) <sc>l</sc>-arabinose. (B) Graph reporting P<italic>lasR</italic> promoter activity (filled symbols) and cell density (open symbols) measured during the growth curve in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 P<italic>lasR::lux</italic> carrying pHERD30T (triangles) or pR3699 (circles), grown in LB supplemented with 0.1% (w/v) <sc>l</sc>-arabinose. (C) Histogram reporting P<italic>lasR</italic> maximal promoter activity measured in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 P<italic>lasR::lux</italic> strains carrying pHERD30T (grey bars) or pR3699 (white bars) grown in LB supplemented with different <sc>l</sc>-arabinose concentrations (%, w/v), indicated below the graph. In (A), (B) and (C) the average of three independent experiments is reported with standard deviations; in (A) and (C) statistical significance with respect to <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 P<italic>lasR::lux</italic> (pHERD30T) is indicated with one asterisk (<italic>p</italic> &lt; 0.01).</p>
+          </caption>
+          <graphic xlink:href="pone.0069554.g002"/>
+        </fig>
+        <p>Since an effect on bacterial growth is particularly meaningful when studying a cell density-dependent pathway like QS, further studies were focused on PA3699, the only protein that, once induced, strongly inhibited P<italic>lasR</italic> activity without affecting <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> growth (<xref ref-type="fig" rid="pone-0069554-g002">Figure 2A)</xref>.</p>
+        <p>It could be reasonably argued that the procedure described in the above paragraphs could isolate DNA binding proteins that do not play a role <italic>in vivo</italic> on the regulation of the target promoter and that the overexpression of transcriptional regulators could lead to pleiotropic effects/phenotypes. These causalities likely occurred in the case of PA0448, PA0123 and PA4135, since the first protein has no effect on P<italic>lasR</italic> activity and the other two are toxic to the cell when overexpressed. Conversely, PA3699 induction did not affect growth, while it repressed P<italic>lasR</italic> activity during the whole growth curve and proportionally to the amount of <sc>l</sc>-arabinose present in the growth medium (<xref ref-type="fig" rid="pone-0069554-g002">Figure 2B and 2C)</xref>. All these features argue for a <italic>bona fide</italic> repressor activity of PA3699 on P<italic>lasR</italic>.</p>
+      </sec>
+      <sec id="s2.3">
+        <title>PA3699 binds the <italic>lasR</italic> promoter region in EMSA assays</title>
+        <p>In order to confirm DNA-affinity chromatography results, electrophoretic mobility shift assay (EMSA) of a DNA probe (P<italic>lasRp</italic>) encompassing the promoter region of <italic>lasR</italic> were conducted using the purified PA3699 protein. To this purpose, PA3699 was fused to a six-histidine tag (6xHis) at the N-terminal domain and purified by nickel-nitrilotriacetic acid (Ni-NTA)-affinity chromatography. The 6&#xD7;His tag was subsequently cleaved by thrombin digestion, yielding the native PA3699 protein in soluble and highly pure form (<xref ref-type="fig" rid="pone-0069554-g003">Figure 3A and 3B)</xref>.</p>
+        <fig id="pone-0069554-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0069554.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>PA3699 purification and P<italic>lasR</italic>-binding assay. </title>
+            <p>(A) SDS-PAGE analysis of samples withdrawn at different steps of PA3699 purification. Lane L, PageRuler Unstained Protein Ladder (Fermentas); lane 1, non-induced protein crude extract; lane 2, induced protein crude extract; lane 3, soluble fraction of the induced protein crude extract; lane 4, purified protein; line 5, purified protein after thrombin cleavage. (B) Western blot analysis performed with mouse anti-6xHis primary antibody and anti-mouse peroxidase-conjugated secondary antibody on a gel identical to the one shown in (A). (C) Autoradiography of an EMSA showing direct interaction between a DNA probe encompassing the <italic>lasR</italic> promoter region and purified PA3699. PA3699 concentration (&#x3BC;M) is indicated above each lane. An unspecific probe was added in the reaction mixture as control. The PA3699-P<italic>lasR</italic> complex and the free DNA probes are indicated.</p>
+          </caption>
+          <graphic xlink:href="pone.0069554.g003"/>
+        </fig>
+        <p>As shown in <xref ref-type="fig" rid="pone-0069554-g003">Figure 3C</xref>, incubation of the P<italic>lasRp</italic> probe with purified PA3699 led to the formation of a complex endowed with lower electrophoretic motility with respect to the free probe, and the amount of the shifted complex was proportional to the concentration of purified PA3699. Since the electrophoretic motility of an unspecific DNA probe did not change in the presence of PA3699, the binding of this protein to P<italic>lasRp</italic> is specific (<xref ref-type="fig" rid="pone-0069554-g003">Figure 3C)</xref>.</p>
+        <p>Altogether, these data provide an unequivocal proof of the direct molecular interaction between PA3699 and the <italic>lasR</italic> promoter region.</p>
+      </sec>
+      <sec id="s2.4">
+        <title>PA3699 affects the production of QS-controlled virulence factors</title>
+        <p>The LasR/3OC<sub>12</sub>-HSL complex is required for full expression of most <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> virulence factors, including elastase, pyocyanin, and proteases [<xref ref-type="bibr" rid="B24">24</xref>].</p>
+        <p>In order to assess whether the repression exerted by PA3699 on LasR expression may affect <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> pathogenic potential, the expression of LasR-dependent virulence phenotypes was compared in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> carrying either the pHERD30T empty vector or its derivative plasmid for <sc>l</sc>-arabinose-dependent induction of PA3699 (pR3699). Consistent with the strong repressive effect exerted by PA3699 induction on P<italic>lasR</italic> activity, results showed that also the production of LasR-dependent phenotypes such as elastase, pyocyanin, and proteases was strongly decreased in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> upon PA3699 induction (<xref ref-type="fig" rid="pone-0069554-g004">Figure 4)</xref>. However, pyocyanin, elastase and protease production remained unaffected in the <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PA3699 mutant strain with respect to the wild type, consistently with what observed for the P<italic>lasR</italic> promoter activity (data not shown).</p>
+        <fig id="pone-0069554-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0069554.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Effect of PA3699 induction on <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> virulence factors production. </title>
+            <p>Histogram reporting elastase, pyocyanin and proteases production measured in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 carrying pHERD30T (grey bars) or pR3699 (white bars), grown in LB supplemented with 0.1% (w/v) <sc>l</sc>-arabinose. The average of three independent experiments is reported with standard deviations; statistical significance with respect to <italic>P</italic>. <italic>aeruginosa</italic> PAO1 (pHERD30T) is indicated with one asterisk (<italic>p</italic> &lt; 0.01).</p>
+          </caption>
+          <graphic xlink:href="pone.0069554.g004"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>CONCLUDING REMARKS</title>
+      <p>The masterly management of an enormous metabolic potential <italic>via</italic> multiple regulative networks and signalling systems allows <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> adaptation to the most challenging environments, including the human host [<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>].</p>
+      <p>The <italic><named-content content-type="genus-species">P. aeruginosa</named-content> las</italic> QS system is among the most studied and best characterized bacterial regulatory pathways, also because it is considered a promising target for anti-virulence therapies [<xref ref-type="bibr" rid="B25">25</xref>&#x2013;<xref ref-type="bibr" rid="B27">27</xref>]. Nevertheless, its interconnections with other <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> regulative networks and signalling systems are still poorly understood [<xref ref-type="bibr" rid="B9">9</xref>].</p>
+      <p>So far, <italic>in vivo</italic> (genetic) approaches led to the identification of a number of genes involved in the modulation of the <italic>las</italic> system activity/response, highlighting the multiplicity of pathways connecting cell-density and environmental/metabolic signalling. However, the transcriptional factors directly controlling the expression of the <italic>las</italic> genes in response to environmental/metabolic stimuli are mostly unknown [<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B15">15</xref>]. In this work, DNA-affinity chromatography has been used for the first time for the identification of transcriptional regulators of the <italic>lasR</italic> gene, encoding the 3OC<sub>12</sub>-HSL receptor.</p>
+      <p>Unexpectedly, the genetic inactivation of the four putative P<italic>lasR</italic> transcription factors identified by <italic>in vitro</italic> DNA-affinity chromatography (i.e., PA0123, PA0448, PA3699, and PA4135) did not affect the activity of P<italic>lasR in vivo</italic>. A possible explanation for this result is that at least some of these factors are not sufficiently expressed and/or active <italic>in vivo</italic> under the conditions used in the promoter activity assay. This hypothesis is supported by the observation that a progressive increase of PA3699 induction caused a parallel decrease in P<italic>lasR</italic> activity, indicating this factor as a novel transcriptional repressor of P<italic>lasR</italic>.</p>
+      <p>According to its structural features, PA3699 belongs to the TetR-family, a preeminent group of transcriptional regulators in bacteria [<xref ref-type="bibr" rid="B28">28</xref>]. Transcriptional regulators of the TetR-family typically activate upon binding of a specific ligand to an allosteric site [<xref ref-type="bibr" rid="B28">28</xref>]. Thus, it is likely that PA3699 regulates <italic>lasR</italic> transcription only in the presence of a specific ligand when expressed at a physiological level. Since the interaction of a transcriptional regulator with its DNA target sequence is governed by a thermodynamic equilibrium between the bound and unbound form, the induction of PA3699 expression could shift this equilibrium to the bound state, resulting in P<italic>lasR</italic> regulation also in the absence of the actual stimulus/ligand. Phenotypic microarray experiments are in progress to identify the growth conditions leading to PA3699 full activity and/or expression.</p>
+      <p><italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> genome encodes at least 38 TetR-family proteins, and PA3699 is the eighth member of this group functionally characterized so far and the first one shown to bind the <italic>lasR</italic> promoter <italic>in vitro</italic> [<xref ref-type="bibr" rid="B28">28</xref>&#x2013;<xref ref-type="bibr" rid="B33">33</xref>].</p>
+      <p>Overall, DNA-affinity chromatography combined with induction of selected factors has been proven as a useful approach for the identification of regulators that are not highly expressed or active under standard laboratory conditions, but that might be relevant in specific environmental niches, like for instance infection sites.</p>
+      <p>Although further studies are required to assess the involvement of PA3699 in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> physiology and pathogenesis, this work represents a further step toward the disclosure of the complex network controlling cell-cell communication, social behaviours and host adaptability of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic>, and hopefully toward the identification of new promising targets for future drug-research programmes.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4.1">
+        <title>Bacterial strains and media</title>
+        <p>The bacterial strains used in this study are listed in <xref ref-type="supplementary-material" rid="pone.0069554.s002">Table S1</xref> (Supporting Information). All <italic><named-content content-type="genus-species">E. coli</named-content></italic> and <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> strains were routinely grown at 37&#xB0;C in Luria-Bertani broth (LB), LB supplemented with 1.5% (w/v) agar, or Pseudomonas Isolation Agar (PIA) [<xref ref-type="bibr" rid="B34">34</xref>]. Unless otherwise stated, antibiotics were added at the following concentrations: <italic><named-content content-type="genus-species">E. coli</named-content></italic>, 20 &#xB5;g/ml gentamicin (Gm), 100 &#xB5;g/ml ampicillin (Ap), 25 &#xB5;g/ml kanamycin (Km), 30 &#xB5;g/ml chloramphenicol (Cm), 10 &#xB5;g/ml tetracycline (Tc), 10 &#xB5;g/ml nalidixic acid (Nal); <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic>, 100 &#xB5;g/ml Gm, 400 &#xB5;g/ml Cm, 100 &#xB5;g/ml Tc, 300 &#xB5;g/ml carbenicillin (Cb). When required, media were supplemented with glucose, isopropyl &#x3B2;-D-1-thiogalactopyranoside (IPTG) or <sc>l</sc>-arabinose at the concentration reported in the text.</p>
+      </sec>
+      <sec id="s4.2">
+        <title>Recombinant DNA techniques</title>
+        <p>Plasmids used or generated in this study and details on their construction are reported in <xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref> (Supporting Information). Preparation of plasmid DNA, purification of DNA fragments, restrictions, ligations, and transformations of <italic><named-content content-type="genus-species">E. coli</named-content></italic> were carried out by standard procedures [<xref ref-type="bibr" rid="B34">34</xref>]. PCR amplifications were performed using Bio Red-Taq DNA polymerase (Bioline) or Accuzyme DNA polymerase (Bioline). The oligonucleotides used in this study are listed in <xref ref-type="supplementary-material" rid="pone.0069554.s004">Table S3</xref> (Supporting Information). Automated sequencing was performed by Genechron sequence service (Genechron).</p>
+        <p>When required, plasmids were transferred from <italic><named-content content-type="genus-species">E. coli</named-content></italic> S17.1 &#x3BB;<italic>pir</italic> to <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 by bi-parental conjugation, and from <italic><named-content content-type="genus-species">E. coli</named-content></italic> DH5&#x3B1; to <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 by tri-parental conjugation with the helper strain <italic><named-content content-type="genus-species">E. coli</named-content></italic> HB101 pRK2013 [<xref ref-type="bibr" rid="B35">35</xref>].</p>
+      </sec>
+      <sec id="s4.3">
+        <title>DNA-affinity chromatography</title>
+        <p>DNA-affinity purification was performed as previously described [<xref ref-type="bibr" rid="B36">36</xref>]. A biotinylated DNA fragment encompassing the <italic>lasR</italic> promoter region (from nucleotide -359 to +13 relative to the <italic>lasR</italic> start codon) was PCR amplified with primers FW381 and RV334 (<xref ref-type="supplementary-material" rid="pone.0069554.s004">Table S3</xref>); primer FW381 was biotinylated.</p>
+        <p><italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 protein crude extracts were obtained from cells grown in 300 ml of LB at 37&#xB0;C to an absorbance at 600 nm wavelength (A<sub>600</sub>) of 2.0 or 5.0, with 200 r.p.m. shaking. Bacterial cells were harvested by centrifugation and suspended in 2 ml of Sonication Buffer [10 mM Tris-HCl pH 8.0, 100 mM NaCl, 1 mM ethylenediaminetetraacetic acid (EDTA), 0.05% (v/v) Triton X-100] supplemented with 1 mg/ml lysozyme. After 30 min of incubation at 37&#xB0;C, cells were disrupted by sonication. Cellular debris were removed by centrifugation and subsequent filtration. Protein concentration in the supernatant was determined with the Bradford Protein Assay Kit (Bio-Rad) according to manufacturer&#x2019;s instruction.</p>
+        <p>One mg of paramagnetic streptavidin-conjugated resin (Dynabeads M-280, Invitrogen) was equilibrated in 200 &#xB5;l of Wash Buffer 2X [10 mM Tris-HCl pH 7.5, 1 mM EDTA, 2 M NaCl, 0.05% (v/v) Triton X-100], and then incubated with 20 &#xB5;g of the biotin-labelled PCR product for 25 min at 22&#xB0;C. Unbound DNA was removed by magnetic separation in a magnet particle concentrator (Dynal, Invitrogen). Dynabeads were washed three times with 1 ml Wash Buffer 1X, and then incubated with 50 mg of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> protein crude extract for 2 hours at 22&#xB0;C. Unbound proteins were removed by magnetic separation in a magnet particle concentrator, and the Dynabeads were washed six times with Sonication Buffer. Proteins specifically bound to the DNA-bead complexes were eluted in 20 &#xB5;l of Elution Buffer [1.2 M NaCl, 10 mM Tris-HCl pH 8.0, 1 mM EDTA, 0.05% (v/v) Triton X100]. Eluted proteins were separated by Sodium Dodecyl Sulphate PolyAcrylamide Gel Electrophoresis (SDS-PAGE) on a 12% (v/v) polyacrylamide gel and stained with Coomassie Brilliant Blue [<xref ref-type="bibr" rid="B34">34</xref>]. Protein identity was determined by Matrix-Assisted Laser Desorption/Ionization-Time Of Flight (MALDI-TOF) mass spectrometry. MALDI-TOF analyses were performed as previously described [<xref ref-type="bibr" rid="B37">37</xref>].</p>
+      </sec>
+      <sec id="s4.4">
+        <title>Construction of <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> mutants</title>
+        <p><italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> in frame deletion mutants were generated using the pDM4 plasmid as previously described [<xref ref-type="bibr" rid="B38">38</xref>]. Briefly, the flanking DNA regions (about 650 bp each) of the selected genes were PCR amplified with primers listed in <xref ref-type="supplementary-material" rid="pone.0069554.s004">Table S3</xref> and sequentially cloned in pDM4. The resulting pDM4-derivative plasmids, listed in <xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>, were independently introduced in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 by conjugation. Clones with a chromosomal insertion of the pDM4-derivative plasmids were selected on LB agar plates supplemented with 400 &#xB5;g/ml Cm e 10 &#xB5;g/ml Nal. Plasmid excision from the chromosome was subsequently selected on LB agar plates supplemented with 10% (w/v) sucrose. Mutant strains were checked by PCR analysis.</p>
+      </sec>
+      <sec id="s4.5">
+        <title>Construction of <italic>PlasR</italic> transcriptional fusions</title>
+        <p>The DNA region encompassing the <italic>lasR</italic> promoter (spanning from nucleotide -359 to +13 relative to the <italic>lasR</italic> start codon) was PCR amplified with the primers FW333 and RV334 (<xref ref-type="supplementary-material" rid="pone.0069554.s004">Table S3</xref>) and cloned by EcoRI-PstI restriction in the pMP220 and mini-CTX-<italic>lux</italic> plasmids [<xref ref-type="bibr" rid="B39">39</xref>,<xref ref-type="bibr" rid="B40">40</xref>]. The resulting pMP<italic>lasR</italic>::<italic>lacZ</italic> and mini-CTX-P<italic>lasR</italic>::<italic>lux</italic> plasmids (<xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>) were conjugated in selected <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> strains. The mini-CTX plasmid backbone was removed from the <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> strains carrying the P<italic>lasR::lux</italic> cassette by using the pFLP2 plasmid (<xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>). pFLP2 was subsequently cured by sucrose counterselection as previously described [<xref ref-type="bibr" rid="B41">41</xref>].</p>
+      </sec>
+      <sec id="s4.6">
+        <title>Over-expression of putative <italic>lasR</italic> regulators</title>
+        <p>The PA0123, PA0448, PA3699 and PA4135 genes were PCR amplified using the primers listed in <xref ref-type="supplementary-material" rid="pone.0069554.s004">Table S3</xref> and cloned in the pHERD30T vector [<xref ref-type="bibr" rid="B23">23</xref>], generating the plasmids pR0123, pR0448, pR3699 and pR4135, respectively (<xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>). These plasmids were introduced in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 carrying the P<italic>lasR::lux</italic> transcriptional fusion by conjugation. Positive clones were selected on PIA plates supplemented with 100 &#xB5;g/ml Gm.</p>
+      </sec>
+      <sec id="s4.7">
+        <title>Promoter activity assay</title>
+        <p>P<italic>lasR</italic> activity in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 carrying the pMP<italic>lasR</italic>::<italic>lacZ</italic> plasmid was measured by standard Miller assay [<xref ref-type="bibr" rid="B42">42</xref>]. An over-night culture was diluted to an A<sub>600</sub> of 0.05 in fresh LB, and incubated for 18 hrs at 37&#xB0;C. Promoter activity (M.u.) and cell density (A<sub>600</sub>) were determined every 2 hr for 18 hrs.</p>
+        <p>P<italic>lasR</italic> activity in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> strains carrying the P<italic>lasR</italic>::<italic>lux</italic> chromosomally-inserted transcriptional fusion was determined as bioluminescence emission per cell by using the automated luminometer-spectrometer Wallac 1420 VICTOR 3V (PerkinElmer). Over-night cultures were diluted to an A<sub>600</sub> of 0.05 in fresh LB, and 0.2 ml of these cultures were grown at 37&#xB0;C in microtiter plates. Luminescence and cell density (A<sub>600</sub>) were determined every 1 hr for 16 hrs. Promoter activity is given as Light Counts Per Second (LCPS) divided by A<sub>600</sub>. The strains carrying the pHERD30T-derivative plasmids were grown in LB supplemented with Gm 100 &#xB5;g/ml and 0.1% <sc>l</sc>-arabinose. For both the <italic>lacZ</italic>- and <italic>lux</italic>-based promoter assays average values and standard deviations were calculated from three independent experiments.</p>
+      </sec>
+      <sec id="s4.8">
+        <title>PA3699 purification</title>
+        <p>The PA3699 gene was cloned in the pET-28b(+) vector (Novagen), generating the pE3699-N6 plasmid (for more details see <xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>). In this plasmid the PA3699 gene is transcriptionally-coupled in frame with a sequence coding for a 6 histidine tag (6xHis) at the N-terminus.</p>
+        <p>The pE3699-N6 plasmid was transformed in <italic><named-content content-type="genus-species">E. coli</named-content></italic> BL21 (DE3, pLysS) (Novagen). The resulting strain was grown over-night at 37&#xB0;C with 200 r.p.m. shaking in LB supplemented with 25 &#xB5;g/ml Km, 30 &#xB5;g/ml Cm and 0.2% (w/v) glucose. The over-night culture was diluted 1:100 in 250 ml of the same medium and after 1 hr growth at 37&#xB0;C with 200 r.p.m. shaking it was induced for 4 hrs with 0.5 mM IPTG.</p>
+        <p>PA3699-N6 purification was performed with the QIAexpress&#xAE; Ni-NTA Fast Start Kit (Qiagen), according to manufacturer&#x2019;s instructions. The PA3699-N6 recombinant protein was eluted from the Ni-NTA resin with 1 ml of Elution Buffer Native, dialyzed 1:1000 in Dialysis Buffer (20 mM Tris-HCl pH 7.5, 500 mM NaCl), and concentrated with Centricon YM-10 centrifugal filter device (Amicon). PA3699-N6 identity was verified by SDS-PAGE and Western blot analysis performed with anti-6xHis primary antibody (Qiagen) and peroxidase-conjugated anti-mouse IgG secondary antiboby (Sigma-Aldrich) on aliquots withdrawn at different steps of the purification process [<xref ref-type="bibr" rid="B34">34</xref>]. The 6&#xD7;His tag was subsequently cleaved from 1 mg of purified PA3699-N6 by digestion with 100 &#xB5;g thrombin in Thrombin Buffer (50 mM Tris-HCl pH 8.0, 150 mM NaCl, 3.3 mM CaCl<sub>2</sub>). The PA3699 protein was further purified by gel permeation chromatography on a Superdex 200 HR column (Amersham Pharmacia Biotech), dialyzed 1:1000 in Storage buffer (50 mM Tris-HCl pH 8.0, 150 mM NaCl, 50% glycerol) and stored at -20&#xB0;C.</p>
+        <p>Protein concentration was determined with the Bradford protein assay kit (Bio-Rad) according to manufacturer&#x2019;s instruction.</p>
+      </sec>
+      <sec id="s4.9">
+        <title>Electrophoretic Mobility Shift Assay (EMSA)</title>
+        <p>A 210 bp DNA fragment encompassing the <italic>lasR</italic> promoter region (from nucleotides -359 to -150 relative to the <italic>lasR</italic> start codon) was PCR amplified with primers FW 333 and RV 535 (<xref ref-type="supplementary-material" rid="pone.0069554.s004">Table S3</xref>) from <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 genome and T/A cloned in the pDRIVE-T-EASY vector (Qiagen), generating pDP<italic>lasR</italic> (for more details see <xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>). pDP<italic>lasR</italic> was digested with EcoRI, and the resulting 218 bp DNA fragment was labeled with [&#x3B1;-<sup>32</sup>P] dATP by fill-in with Klenow enzyme [<xref ref-type="bibr" rid="B43">43</xref>]. The radio-labelled DNA probe was purified with SigmaSpin post-reaction purification columns (Sigma-Aldrich) followed by phenol-chloroform (1:1) extraction and ethanol precipitation.</p>
+        <p>In the EMSA experiments, the labelled DNA probe (0.2 nM) was incubated with different protein concentrations, in Binding Buffer [20 mM Tris-HCl, 2 mM EDTA, 5 mM MgCl<sub>2</sub>, 30 mM KCl, 5% (v/v) glycerol, 0.025% (v/v) nonidet P-40, 30 &#xB5;g/ml poly(dI): (dC); pH 8.0]. A labelled aspecific probe (0.2 nM) was added to the binding mix. After 15 min of incubation at 22&#xB0;C the reaction mixtures were loaded onto a 30 min pre-run 6% (w/v) polyacrylamide gel under non-denaturing conditions. The ratio acrylamide: bis-acrylamide was 37.5:1. The electrophoresis was carried out at 22&#xB0;C in TBE 0.5X [<xref ref-type="bibr" rid="B34">34</xref>] at 5 V/cm for 4 hrs. Gel was then dried and autoradiographed.</p>
+      </sec>
+      <sec id="s4.10">
+        <title>Phenotypic assays</title>
+        <p><italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 wild type carrying the pHERD30T empty vector or the pR3699 plasmid (see <xref ref-type="supplementary-material" rid="pone.0069554.s003">Table S2</xref>) were grown over night at 37&#xB0;C in LB supplemented with 100 &#xB5;g/ml Gm. Cultures were diluted to an A<sub>600</sub> of 0.02 in LB supplemented with 0.1% <sc>l</sc>-arabinose, and supernatants were collected for elastolytic, proteolytic and pyocyanin assays after 6 hrs incubation at 37&#xB0;C with 200 r.p.m shaking.</p>
+        <p>Elastolytic and proteolytic activities were determined by elastin-Congo red and azocasein assays, as previously described [<xref ref-type="bibr" rid="B44">44</xref>&#x2013;<xref ref-type="bibr" rid="B46">46</xref>]. Pyocyanin quantification was performed as previously described [<xref ref-type="bibr" rid="B47">47</xref>]. The amount of pyocyanin, in &#x3BC;g/ml, was calculated using the following formula: A<sub>520</sub>/A<sub>600</sub> X 17.072 = &#x3BC;g of pyocyanin per ml [<xref ref-type="bibr" rid="B48">48</xref>].</p>
+        <p>The average data and standard deviations of the phenotypic assays were calculated from three independent experiments.</p>
+      </sec>
+      <sec id="s4.11">
+        <title>Statistical analysis</title>
+        <p>Statistical significance was determined by calculating the <italic>p</italic>-values using the two-tailed Student-t test for unpaired data sets; differences with a <italic>p</italic>-value &#x2264; 0.01 are considered as statistically significant.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0069554.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>Effect of the mutations in the genes coding for the new putative <italic>lasR</italic> transcriptional regulators on P<italic>lasR</italic> activity.</p>
+          <p>Graph reporting P<italic>lasR</italic> promoter activity measured in <italic><named-content content-type="genus-species">P. aeruginosa</named-content></italic> PAO1 wild type (black line) and in isogenic clear deletion mutants in the PA0123 (green line), PA0448 (red line), PA3699 (blue line), PA4135 (yellow line) or <italic>vfr</italic> (grey line) gene. Each strain contained the P<italic>lasR</italic>::<italic>lux</italic> transcriptional fusion in the chromosomal <italic>attB</italic> neutral site, and was grown for 16 hrs in LB at 37&#xB0;C with 200 r.p.m. shaking. P<italic>lasR</italic> activity is given as Light Counts Per Second (LCPS) divided by cell density (A<sub>600</sub>). The average values and standard deviations were calculated from three independent experiments. Statistical significance with respect to the <italic>P</italic>. <italic>aeruginosa</italic> PAO1 wild type strain is indicated with one asterisk (<italic>p</italic> &lt; 0.01).</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0069554.s001.pdf" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0069554.s002">
+        <label>Table S1</label>
+        <caption>
+          <p>Bacterial strains used in this study.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0069554.s002.pdf" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0069554.s003">
+        <label>Table S2</label>
+        <caption>
+          <p>Plasmids used in this study.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0069554.s003.pdf" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0069554.s004">
+        <label>Table S3</label>
+        <caption>
+          <p>Oligonucleotides used in this study.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0069554.s004.pdf" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank G. Bertoni, P. Landini and M. Oggioni for helpful discussions. We acknowledge H.D. Yu and F.H. Damron for kindly providing the pHERD30T plasmid, and Federica Tavassi for excellent technical assistance.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Fuqua</surname><given-names>WC</given-names></name>, <name><surname>Winans</surname><given-names>SC</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>1994</year>) <article-title>Quorum sensing in bacteria: the LuxR/LuxI family of cell density-responsive transcriptional regulators</article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>269</fpage>-<lpage>275</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8288518">8288518</ext-link><pub-id pub-id-type="pmid">8288518</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Mangwani</surname><given-names>N</given-names></name>, <name><surname>Dash</surname><given-names>HR</given-names></name>, <name><surname>Chauhan</surname><given-names>A</given-names></name>, <name><surname>Das</surname><given-names>S</given-names></name> (<year>2012</year>) <article-title>Bacterial quorum sensing: functional features and potential applications in biotechnology</article-title>. <source>J Mol Microbiol Biotechnol</source><volume>22</volume>: <fpage>215</fpage>-<lpage>227</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4014/jmb.1109.09062">10.4014/jmb.1109.09062</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22964521">22964521</ext-link><pub-id pub-id-type="pmid">22964521</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <mixed-citation publication-type="other"><name><surname>Rutherford</surname><given-names>ST</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name> (<year>2012</year>) <article-title>Bacterial quorum sensing: its role in virulence and possibilities for its control. Cold Spring Harb Perspect Med</article-title>. <comment>p.</comment><fpage>2</fpage><comment>(11). Available: </comment><ext-link ext-link-type="uri" xlink:href="http://perspectivesinmedicine.cshlp.org/content/2/11/a012427.long">http://perspectivesinmedicine.cshlp.org/content/2/11/a012427.long</ext-link></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Williams</surname><given-names>P</given-names></name>, <name><surname>Winzer</surname><given-names>K</given-names></name>, <name><surname>Chan</surname><given-names>WC</given-names></name>, <name><surname>C&#xE1;mara</surname><given-names>M</given-names></name> (<year>2007</year>) <article-title>Look who&#x2019;s talking: communication and quorum sensing in the bacterial world</article-title>. <source>Philos Trans R Soc Lond B Biol Sci</source><volume>362</volume>: <fpage>1119</fpage>-<lpage>1134</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rstb.2007.2039">10.1098/rstb.2007.2039</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17360280">17360280</ext-link><pub-id pub-id-type="pmid">17360280</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Venturi</surname><given-names>V</given-names></name>, <name><surname>Rampioni</surname><given-names>G</given-names></name>, <name><surname>Pongor</surname><given-names>S</given-names></name>, <name><surname>Leoni</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>The virtue of temperance: built-in negative regulators of quorum sensing in <italic>Pseudomonas</italic></article-title>. <source>Mol Microbiol</source><volume>82</volume>: <fpage>1060</fpage>-<lpage>1070</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2958.2011.07890.x">10.1111/j.1365-2958.2011.07890.x</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22060261">22060261</ext-link><pub-id pub-id-type="pmid">22060261</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Driscoll</surname><given-names>JA</given-names></name>, <name><surname>Brody</surname><given-names>SL</given-names></name>, <name><surname>Kollef</surname><given-names>MH</given-names></name> (<year>2007</year>) <article-title>The epidemiology, pathogenesis and treatment of <italic>Pseudomonas aeruginosa</italic> infections</article-title>. <source>Drugs</source><volume>67</volume>: <fpage>351</fpage>-<lpage>368</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2165/00003495-200767030-00003">10.2165/00003495-200767030-00003</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17335295">17335295</ext-link><pub-id pub-id-type="pmid">17335295</pub-id></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Wolfgang</surname><given-names>MC</given-names></name>, <name><surname>Kulasekara</surname><given-names>BR</given-names></name>, <name><surname>Liang</surname><given-names>X</given-names></name>, <name><surname>Boyd</surname><given-names>D</given-names></name>, <name><surname>Wu</surname><given-names>K</given-names></name><etal>et al.</etal> (<year>2003</year>) <article-title>Conservation of genome content and virulence determinants among clinical and environmental isolates of <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Proc Natl Acad Sci U S A</source><volume>100</volume>: <fpage>8484</fpage>-<lpage>8489</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0832438100">10.1073/pnas.0832438100</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12815109">12815109</ext-link><pub-id pub-id-type="pmid">12815109</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>DG</given-names></name>, <name><surname>Urbach</surname><given-names>JM</given-names></name>, <name><surname>Wu</surname><given-names>G</given-names></name>, <name><surname>Liberati</surname><given-names>NT</given-names></name>, <name><surname>Feinbaum</surname><given-names>RL</given-names></name><etal>et al.</etal> (<year>2006</year>) <article-title>Genomic analysis reveals that <italic>Pseudomonas aeruginosa</italic> virulence is combinatorial</article-title>. <source>Genome Biol</source><volume>7</volume>: <fpage>R90</fpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/gb-2006-7-10-r90">10.1186/gb-2006-7-10-r90</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17038190">17038190</ext-link><pub-id pub-id-type="pmid">17038190</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Jimenez</surname><given-names>PN</given-names></name>, <name><surname>Koch</surname><given-names>G</given-names></name>, <name><surname>Thompson</surname><given-names>JA</given-names></name>, <name><surname>Xavier</surname><given-names>KB</given-names></name>, <name><surname>Cool</surname><given-names>RH</given-names></name><etal>et al.</etal> (<year>2012</year>) <article-title>The multiple signaling systems regulating virulence in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Microbiol Mol Biol Rev</source><volume>76</volume>: <fpage>46</fpage>-<lpage>65</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/MMBR.05007-11">10.1128/MMBR.05007-11</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22390972">22390972</ext-link><pub-id pub-id-type="pmid">22390972</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Schuster</surname><given-names>M</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>2006</year>) <article-title>A network of networks: quorum-sensing gene regulation in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Int J Med Microbiol</source><volume>296</volume>: <fpage>73</fpage>-<lpage>81</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijmm.2006.01.036">10.1016/j.ijmm.2006.01.036</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16476569">16476569</ext-link><pub-id pub-id-type="pmid">16476569</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Venturi</surname><given-names>V</given-names></name> (<year>2006</year>) <article-title>Regulation of quorum sensing in <italic>Pseudomonas</italic></article-title>. <source>FEMS Microbiol Rev</source><volume>30</volume>: <fpage>274</fpage>-<lpage>291</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1574-6976.2005.00012.x">10.1111/j.1574-6976.2005.00012.x</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16472307">16472307</ext-link><pub-id pub-id-type="pmid">16472307</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Williams</surname><given-names>P</given-names></name>, <name><surname>C&#xE1;mara</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Quorum sensing and environmental adaptation in <italic>Pseudomonas aeruginosa</italic>: a tale of regulatory networks and multifunctional signal molecules</article-title>. <source>Curr Opin Microbiol</source><volume>12</volume>: <fpage>182</fpage>-<lpage>191</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.mib.2009.01.005">10.1016/j.mib.2009.01.005</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19249239">19249239</ext-link><pub-id pub-id-type="pmid">19249239</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Sober&#xF3;n-Ch&#xE1;vez</surname><given-names>G</given-names></name>, <name><surname>Aguirre-Ram&#xED;rez</surname><given-names>M</given-names></name>, <name><surname>Ord&#xF3;&#xF1;ez</surname><given-names>L</given-names></name> (<year>2005</year>) <article-title>Is <italic>Pseudomonas aeruginosa</italic> only "sensing quorum"?</article-title><source>Crit Rev Microbiol</source><volume>31</volume>: <fpage>171</fpage>-<lpage>182</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/10408410591005138">10.1080/10408410591005138</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16170907">16170907</ext-link><pub-id pub-id-type="pmid">16170907</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Dunn</surname><given-names>AK</given-names></name>, <name><surname>Stabb</surname><given-names>EV</given-names></name> (<year>2006</year>) <article-title>Beyond quorum sensing: the complexities of prokaryotic parliamentary procedures</article-title>. <source>Anal Bioanal Chem</source><volume>387</volume>: <fpage>391</fpage>-<lpage>398</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16953316">16953316</ext-link><pub-id pub-id-type="pmid">16953316</pub-id></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Duan</surname><given-names>K</given-names></name>, <name><surname>Surette</surname><given-names>MG</given-names></name> (<year>2007</year>) <article-title>Environmental regulation of <italic>Pseudomonas aeruginosa</italic> PAO1 Las and Rhl quorum-sensing systems</article-title>. <source>J Bacteriol</source><volume>189</volume>: <fpage>4827</fpage>-<lpage>4836</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JB.00043-07">10.1128/JB.00043-07</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17449617">17449617</ext-link><pub-id pub-id-type="pmid">17449617</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Rampioni</surname><given-names>G</given-names></name>, <name><surname>Bertani</surname><given-names>I</given-names></name>, <name><surname>Zennaro</surname><given-names>E</given-names></name>, <name><surname>Polticelli</surname><given-names>F</given-names></name>, <name><surname>Venturi</surname><given-names>V</given-names></name><etal>et al.</etal> (<year>2006</year>) <article-title>The quorum-sensing negative regulator RsaL of <italic>Pseudomonas aeruginosa</italic> binds to the <italic>lasI</italic> promoter</article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>815</fpage>-<lpage>819</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JB.188.2.815-819.2006">10.1128/JB.188.2.815-819.2006</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16385073">16385073</ext-link><pub-id pub-id-type="pmid">16385073</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Rampioni</surname><given-names>G</given-names></name>, <name><surname>Schuster</surname><given-names>M</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name>, <name><surname>Bertani</surname><given-names>I</given-names></name>, <name><surname>Grasso</surname><given-names>M</given-names></name><etal>et al.</etal> (<year>2007</year>) <article-title>RsaL provides quorum sensing homeostasis and functions as a global regulator of gene expression in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Mol Microbiol</source><volume>66</volume>: <fpage>1557</fpage>-<lpage>1565</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2958.2007.06029.x">10.1111/j.1365-2958.2007.06029.x</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18045385">18045385</ext-link><pub-id pub-id-type="pmid">18045385</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Albus</surname><given-names>AM</given-names></name>, <name><surname>Pesci</surname><given-names>EC</given-names></name>, <name><surname>Runyen-Janecky</surname><given-names>LJ</given-names></name>, <name><surname>West</surname><given-names>SE</given-names></name>, <name><surname>Iglewski</surname><given-names>BH</given-names></name> (<year>1997</year>) <article-title>Vfr controls quorum sensing in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Bacteriol</source><volume>179</volume>: <fpage>3928</fpage>-<lpage>3935</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9190808">9190808</ext-link><pub-id pub-id-type="pmid">9190808</pub-id></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Ambrosi</surname><given-names>C</given-names></name>, <name><surname>Tiburzi</surname><given-names>F</given-names></name>, <name><surname>Imperi</surname><given-names>F</given-names></name>, <name><surname>Putignani</surname><given-names>L</given-names></name>, <name><surname>Visca</surname><given-names>P</given-names></name> (<year>2005</year>) <article-title>Involvement of AlgQ intranscriptional regulation of pyoverdine genes in <italic>Pseudomonas aeruginosa</italic> PAO1</article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>5097</fpage>-<lpage>5107</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JB.187.15.5097-5107.2005">10.1128/JB.187.15.5097-5107.2005</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16030202">16030202</ext-link><pub-id pub-id-type="pmid">16030202</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Ledgham</surname><given-names>F</given-names></name>, <name><surname>Soscia</surname><given-names>C</given-names></name>, <name><surname>Chakrabarty</surname><given-names>A</given-names></name>, <name><surname>Lazdunski</surname><given-names>A</given-names></name>, <name><surname>Foglino</surname><given-names>M</given-names></name> (<year>2003</year>) <article-title>Global regulation in <italic>Pseudomonas aeruginosa</italic>: the regulatory protein AlgR2 (AlgQ) acts as a modulator of quorum sensing</article-title>. <source>Res Microbiol</source><volume>154</volume>: <fpage>207</fpage>-<lpage>213</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0923-2508(03)00024-X">10.1016/S0923-2508(03)00024-X</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12706510">12706510</ext-link><pub-id pub-id-type="pmid">12706510</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Gal&#xE1;n</surname><given-names>B</given-names></name>, <name><surname>Dinjaski</surname><given-names>N</given-names></name>, <name><surname>Maestro</surname><given-names>B</given-names></name>, <name><surname>de Eugenio</surname><given-names>LI</given-names></name>, <name><surname>Escapa</surname><given-names>IF</given-names></name><etal>et al.</etal> (<year>2011</year>) <article-title>Nucleoid-associated PhaF phasin drives intracellular location and segregation of polyhydroxyalkanoate granules in <italic>Pseudomonas putida</italic> KT2442</article-title>. <source>Mol Microbiol</source><volume>79</volume>: <fpage>402</fpage>-<lpage>418</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2958.2010.07450.x">10.1111/j.1365-2958.2010.07450.x</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21219460">21219460</ext-link><pub-id pub-id-type="pmid">21219460</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Winsor</surname><given-names>GL</given-names></name>, <name><surname>Lam</surname><given-names>DK</given-names></name>, <name><surname>Fleming</surname><given-names>L</given-names></name>, <name><surname>Lo</surname><given-names>R</given-names></name>, <name><surname>Whiteside</surname><given-names>MD</given-names></name><etal>et al.</etal> (<year>2011</year>) <article-title><italic>Pseudomonas</italic> Genome Database: improved comparative analysis and population genomics capability for <italic>Pseudomonas</italic> genomes</article-title>. <source>Nucleic Acids Res</source><volume>39</volume>: <fpage>D596</fpage>-<lpage>D600</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkq869">10.1093/nar/gkq869</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20929876">20929876</ext-link><pub-id pub-id-type="pmid">20929876</pub-id></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Qiu</surname><given-names>D</given-names></name>, <name><surname>Damron</surname><given-names>FH</given-names></name>, <name><surname>Mima</surname><given-names>T</given-names></name>, <name><surname>Schweizer</surname><given-names>HP</given-names></name>, <name><surname>Yu</surname><given-names>HD</given-names></name> (<year>2008</year>) <article-title>PBAD-based shuttle vectors for functional analysis of toxic and highly regulated genes in <italic>Pseudomonas</italic> and <italic>Burkholderia</italic> spp. and other bacteria</article-title>. <source>Appl Environ Microbiol</source><volume>74</volume>: <fpage>7422</fpage>-<lpage>7426</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/AEM.01369-08">10.1128/AEM.01369-08</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18849445">18849445</ext-link><pub-id pub-id-type="pmid">18849445</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>RS</given-names></name>, <name><surname>Iglewski</surname><given-names>BH</given-names></name> (<year>2003</year>) <article-title><italic>Pseudomonas aeruginosa</italic> quorum-sensing systems and virulence</article-title>. <source>Curr Opin Microbiol</source><volume>6</volume>: <fpage>56</fpage>-<lpage>60</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1369-5274(03)00008-0">10.1016/S1369-5274(03)00008-0</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12615220">12615220</ext-link><pub-id pub-id-type="pmid">12615220</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Rasko</surname><given-names>DA</given-names></name>, <name><surname>Sperandio</surname><given-names>V</given-names></name> (<year>2010</year>) <article-title>Anti-virulence strategies to combat bacteria-mediated disease</article-title>. <source>Nat Rev Drug Discov</source><volume>9</volume>: <fpage>117</fpage>-<lpage>128</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nrd3013">10.1038/nrd3013</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20081869">20081869</ext-link><pub-id pub-id-type="pmid">20081869</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Amara</surname><given-names>N</given-names></name>, <name><surname>Krom</surname><given-names>BP</given-names></name>, <name><surname>Kaufmann</surname><given-names>GF</given-names></name>, <name><surname>Meijler</surname><given-names>MM</given-names></name> (<year>2011</year>) <article-title>Macromolecular inhibition of quorum sensing: enzymes, antibodies, and beyond</article-title>. <source>Chem Rev</source><volume>111</volume>: <fpage>195</fpage>-<lpage>208</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/cr100101c">10.1021/cr100101c</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21087050">21087050</ext-link><pub-id pub-id-type="pmid">21087050</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Imperi</surname><given-names>F</given-names></name>, <name><surname>Massai</surname><given-names>F</given-names></name>, <name><surname>Ramachandran Pillai</surname><given-names>C</given-names></name>, <name><surname>Longo</surname><given-names>F</given-names></name>, <name><surname>Zennaro</surname><given-names>E</given-names></name><etal>et al.</etal> (<year>2013</year>) <article-title>New life for an old drug: the anthelmintic drug niclosamide inhibits <italic>Pseudomonas aeruginosa</italic> quorum sensing</article-title>. <source>Antimicrob Agents Chemother</source><volume>57</volume>: <fpage>996</fpage>-<lpage>1005</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/AAC.01952-12">10.1128/AAC.01952-12</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23254430">23254430</ext-link><pub-id pub-id-type="pmid">23254430</pub-id></mixed-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Ramos</surname><given-names>JL</given-names></name>, <name><surname>Mart&#xED;nez-Bueno</surname><given-names>M</given-names></name>, <name><surname>Molina-Henares</surname><given-names>AJ</given-names></name>, <name><surname>Ter&#xE1;n</surname><given-names>W</given-names></name>, <name><surname>Watanabe</surname><given-names>K</given-names></name><etal>et al.</etal> (<year>2005</year>) <article-title>The TetR family of transcriptional repressors</article-title>. <source>Microbiol Mol Biol Rev</source><volume>69</volume>: <fpage>326</fpage>-<lpage>356</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/MMBR.69.2.326-356.2005">10.1128/MMBR.69.2.326-356.2005</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15944459">15944459</ext-link><pub-id pub-id-type="pmid">15944459</pub-id></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Morita</surname><given-names>Y</given-names></name>, <name><surname>Cao</surname><given-names>L</given-names></name>, <name><surname>Gould</surname><given-names>VC</given-names></name>, <name><surname>Avison</surname><given-names>MB</given-names></name>, <name><surname>Poole</surname><given-names>K</given-names></name> (<year>2006</year>) <article-title><italic>nalD</italic> encodes a second repressor of the <italic>mexAB</italic>-<italic>oprM</italic> multidrug efflux operon of <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>8649</fpage>-<lpage>8654</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JB.01342-06">10.1128/JB.01342-06</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17028276">17028276</ext-link><pub-id pub-id-type="pmid">17028276</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>MacEachran</surname><given-names>DP</given-names></name>, <name><surname>Stanton</surname><given-names>BA</given-names></name>, <name><surname>O&#x2019;Toole</surname><given-names>GA</given-names></name> (<year>2008</year>) <article-title>Cif is negatively regulated by the TetR family repressor CifR</article-title>. <source>Infect Immun</source><volume>76</volume>: <fpage>3197</fpage>-<lpage>3206</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/IAI.00305-08">10.1128/IAI.00305-08</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18458065">18458065</ext-link><pub-id pub-id-type="pmid">18458065</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Kazakov</surname><given-names>AE</given-names></name>, <name><surname>Rodionov</surname><given-names>DA</given-names></name>, <name><surname>Alm</surname><given-names>E</given-names></name>, <name><surname>Arkin</surname><given-names>AP</given-names></name>, <name><surname>Dubchak</surname><given-names>I</given-names></name><etal>et al.</etal> (<year>2009</year>) <article-title>Comparative genomics of regulation of fatty acid and branched-chain amino acid utilization in proteobacteria</article-title>. <source>J Bacteriol</source><volume>191</volume>: <fpage>52</fpage>-<lpage>64</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/JB.01175-08">10.1128/JB.01175-08</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18820024">18820024</ext-link><pub-id pub-id-type="pmid">18820024</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>F&#xF6;rster-Fromme</surname><given-names>K</given-names></name>, <name><surname>Jendrossek</surname><given-names>D</given-names></name> (<year>2010</year>) <article-title>AtuR is a repressor of acyclic terpene utilization (Atu) gene cluster expression and specifically binds to two 13 bp inverted repeat sequences of the <italic>atuA</italic>-<italic>atuR</italic> intergenic region</article-title>. <source>FEMS Microbiol Lett</source><volume>308</volume>: <fpage>166</fpage>-<lpage>174</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20487029">20487029</ext-link><pub-id pub-id-type="pmid">20487029</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Ghosh</surname><given-names>S</given-names></name>, <name><surname>Cremers</surname><given-names>CM</given-names></name>, <name><surname>Jakob</surname><given-names>U</given-names></name>, <name><surname>Love</surname><given-names>NG</given-names></name> (<year>2011</year>) <article-title>Chlorinated phenols control the expression of the multidrug resistance efflux pump MexAB-OprM in <italic>Pseudomonas aeruginosa</italic> by interacting with NalC</article-title>. <source>Mol Microbiol</source><volume>79</volume>: <fpage>1547</fpage>-<lpage>1556</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2958.2011.07544.x">10.1111/j.1365-2958.2011.07544.x</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21231970">21231970</ext-link><pub-id pub-id-type="pmid">21231970</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <mixed-citation publication-type="book"><name><surname>Sambrook</surname><given-names>J</given-names></name>, <name><surname>Fritsch</surname><given-names>EF</given-names></name>, <name><surname>Maniatis</surname><given-names>T</given-names></name> (<year>1989</year>) <source>Molecular cloning: a laboratory manual</source>, <edition>2nd</edition> ed. <publisher-loc>Cold Spring Harbor, NY</publisher-loc>: <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Figurski</surname><given-names>DH</given-names></name>, <name><surname>Helinski</surname><given-names>DR</given-names></name> (<year>1979</year>) <article-title>Replication of an origin-containing derivative of plasmid RK2 dependent on a plasmid function provided in trans</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>76</volume>: <fpage>1648</fpage>-<lpage>1652</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.76.4.1648">10.1073/pnas.76.4.1648</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/377280">377280</ext-link><pub-id pub-id-type="pmid">377280</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Imperi</surname><given-names>F</given-names></name>, <name><surname>Tiburzi</surname><given-names>F</given-names></name>, <name><surname>Fimia</surname><given-names>GM</given-names></name>, <name><surname>Visca</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Transcriptional control of the <italic>pvdS</italic> iron starvation sigma factor gene by the master regulator of sulfur metabolism CysB in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Environ Microbiol</source><volume>12</volume>: <fpage>1630</fpage>-<lpage>1642</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20370820">20370820</ext-link><pub-id pub-id-type="pmid">20370820</pub-id></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Imperi</surname><given-names>F</given-names></name>, <name><surname>Ciccosanti</surname><given-names>F</given-names></name>, <name><surname>Perdomo</surname><given-names>AB</given-names></name>, <name><surname>Tiburzi</surname><given-names>F</given-names></name>, <name><surname>Mancone</surname><given-names>C</given-names></name><etal>et al.</etal> (<year>2009</year>) <article-title>Analysis of the periplasmic proteome of <italic>Pseudomonas aeruginosa</italic>, a metabolically versatile opportunistic pathogen</article-title>. <source>Proteomics</source><volume>9</volume>: <fpage>1901</fpage>-<lpage>1915</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/pmic.200800618">10.1002/pmic.200800618</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19333994">19333994</ext-link><pub-id pub-id-type="pmid">19333994</pub-id></mixed-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Milton</surname><given-names>DL</given-names></name>, <name><surname>O&#x2019;Toole</surname><given-names>R</given-names></name>, <name><surname>Horstedt</surname><given-names>P</given-names></name>, <name><surname>Wolf-Watz</surname><given-names>H</given-names></name> (<year>1996</year>) <article-title>Flagellin A is essential for the virulence of <italic>Vibrio anguillarum</italic></article-title>. <source>J Bacteriol</source><volume>178</volume>: <fpage>1310</fpage>-<lpage>1319</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8631707">8631707</ext-link><pub-id pub-id-type="pmid">8631707</pub-id></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Spaink</surname><given-names>HP</given-names></name>, <name><surname>Okker</surname><given-names>RJH</given-names></name>, <name><surname>Wijffelman</surname><given-names>CA</given-names></name>, <name><surname>Pees</surname><given-names>E</given-names></name>, <name><surname>Lugtenberg</surname><given-names>BJJ</given-names></name> (<year>1987</year>) <article-title>Promoters in the nodulation region of the <italic>Rhizobium leguminosarum</italic> Sym plasmid pRL1J1</article-title>. <source>Plant Mol Biol</source><volume>9</volume>: <fpage>27</fpage>-<lpage>39</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00017984">10.1007/BF00017984</ext-link></mixed-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Becher</surname><given-names>A</given-names></name>, <name><surname>Schweizer</surname><given-names>HP</given-names></name> (<year>2000</year>) <article-title>Integration-proficient <italic>Pseudomonas aeruginosa</italic> vectors for isolation of single-copy chromosomal <italic>lacZ</italic> and <italic>lux</italic> gene fusions</article-title>. <source>BioTechniques</source><volume>29</volume>: <fpage>948</fpage>-<lpage>950</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11084852">11084852</ext-link><pub-id pub-id-type="pmid">11084852</pub-id></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Hoang</surname><given-names>TT</given-names></name>, <name><surname>Karkhoff-Schweizer</surname><given-names>RR</given-names></name>, <name><surname>Kutchma</surname><given-names>AJ</given-names></name>, <name><surname>Schweizer</surname><given-names>HP</given-names></name> (<year>1998</year>) <article-title>A broadhost-range Flp-FRT recombination system for site-specific excision of chromosomally located DNA sequences: application for isolation of unmarked <italic>Pseudomonas aeruginosa</italic> mutants</article-title>. <source>Gene</source><volume>212</volume>: <fpage>77</fpage>-<lpage>86</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0378-1119(98)00130-9">10.1016/S0378-1119(98)00130-9</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9661666">9661666</ext-link><pub-id pub-id-type="pmid">9661666</pub-id></mixed-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <mixed-citation publication-type="book"><name><surname>Miller</surname><given-names>JH</given-names></name> (<year>1972</year>) <source>Experiments in molecular genetics</source>. <publisher-loc>Cold Spring Harbor, NY</publisher-loc>: <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name></mixed-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Santos</surname><given-names>PM</given-names></name>, <name><surname>Leoni</surname><given-names>L</given-names></name>, <name><surname>Di Bartolo</surname><given-names>I</given-names></name>, <name><surname>Zennaro</surname><given-names>E</given-names></name> (<year>2002</year>) <article-title>Integration host factor is essential for the optimal expression of the <italic>styABCD</italic> operon in <italic>Pseudomonas fluorescens</italic> ST</article-title>. <source>Res Microbiol</source><volume>153</volume>: <fpage>527</fpage>-<lpage>536</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0923-2508(02)01358-X">10.1016/S0923-2508(02)01358-X</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12437214">12437214</ext-link><pub-id pub-id-type="pmid">12437214</pub-id></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Ohman</surname><given-names>DE</given-names></name>, <name><surname>Burns</surname><given-names>RP</given-names></name>, <name><surname>Iglewski</surname><given-names>BH</given-names></name> (<year>1980</year>) <article-title>Corneal infections in mice with toxin A and elastase mutants of <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Infect Dis</source><volume>142</volume>: <fpage>547</fpage>-<lpage>555</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/infdis/142.4.547">10.1093/infdis/142.4.547</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/6904461">6904461</ext-link><pub-id pub-id-type="pmid">6904461</pub-id></mixed-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <mixed-citation publication-type="other"><name><surname>Kessler</surname><given-names>E</given-names></name>, <name><surname>Israel</surname><given-names>M</given-names></name>, <name><surname>Landshman</surname><given-names>N</given-names></name>, <name><surname>Chechick</surname><given-names>A</given-names></name>, <name><surname>Blumberg</surname><given-names>S</given-names></name> (<year>1982</year>) <article-title><italic>In vitro</italic> inhibition of <italic>Pseudomonas aeruginosa</italic> elastase by metal-chelating peptide derivatives Infect Immun</article-title><comment>38: 716-723</comment></mixed-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Rampioni</surname><given-names>G</given-names></name>, <name><surname>Schuster</surname><given-names>M</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name>, <name><surname>Zennaro</surname><given-names>E</given-names></name>, <name><surname>Leoni</surname><given-names>L</given-names></name> (<year>2009</year>) <article-title>Contribution of the RsaL global regulator to <italic>Pseudomonas aeruginosa</italic> virulence and biofilm formation</article-title>. <source>FEMS Microbiol Lett</source><volume>301</volume>: <fpage>210</fpage>-<lpage>217</lpage>.<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1574-6968.2009.01817.x">10.1111/j.1574-6968.2009.01817.x</ext-link> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19878323">19878323</ext-link><pub-id pub-id-type="pmid">19878323</pub-id></mixed-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Cox</surname><given-names>CD</given-names></name> (<year>1986</year>) <article-title>Role of pyocyanin in the acquisition of iron from transferrin</article-title>. <source>Infect Immun</source><volume>52</volume>: <fpage>263</fpage>-<lpage>270</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2937736">2937736</ext-link><pub-id pub-id-type="pmid">2937736</pub-id></mixed-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Essar</surname><given-names>DW</given-names></name>, <name><surname>Eberly</surname><given-names>L</given-names></name>, <name><surname>Hadero</surname><given-names>A</given-names></name>, <name><surname>Crawford</surname><given-names>IP</given-names></name> (<year>1990</year>) <article-title>Identification and characterization of genes for a second anthranilate synthase in <italic>Pseudomonas aeruginosa</italic>: interchangeability of the two anthranilate synthases and evolutionary implications</article-title>. <source>J Bacteriol</source><volume>172</volume>: <fpage>884</fpage>-<lpage>900</lpage> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2153661">2153661</ext-link><pub-id pub-id-type="pmid">2153661</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

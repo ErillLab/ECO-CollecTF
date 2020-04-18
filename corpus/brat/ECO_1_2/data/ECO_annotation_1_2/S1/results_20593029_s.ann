@@ -1,0 +1,93 @@
+T1	ECO 690 724	beta-galactosidase activity assays
+A1	Category T1 BioProc
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	NegativeStatement T1 No
+A5	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+T2	ECO 5489 5518	the beta-galactosidase levels
+A6	Category T2 BioProc
+A7	ECOConfidence T2 High
+A8	NextSentence T2 Yes
+A9	NegativeStatement T2 No
+A10	AssertionStrength T2 Low
+N2	Reference T2 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+#1	AnnotatorNotes T2	Low because it says "role" but does not define that role.
+T3	ECO 6546 6575	retarded band seems to appear
+A11	Category T3 SeqFeat
+A12	ECOConfidence T3 Low
+A13	NextSentence T3 No
+A14	NegativeStatement T3 No
+A15	AssertionStrength T3 Low
+N3	Reference T3 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#2	AnnotatorNotes T3	Technically they're asserting something about the promoter, but this is a poor assertion in my opinion. Still, it has the necessary pieces so it needs annotation.
+T5	ECO 1784 1809	beta-galactosidase levels
+A16	Category T5 SeqFeat
+A17	ECOConfidence T5 High
+A18	NextSentence T5 No
+A19	NegativeStatement T5 No
+A20	AssertionStrength T5 High
+N4	Reference T5 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+T6	ECO 829 867	when compared to the wild-type strains
+A21	Category T6 SeqFeat
+A22	ECOConfidence T6 High
+A23	NextSentence T6 No
+A24	NegativeStatement T6 No
+A25	AssertionStrength T6 High
+N5	Reference T6 brat_eco:ECO:0000015	mutant phenotype evidence
+T7	ECO 6900 6925	nrdHIEF expression levels
+A26	Category T7 BioProc
+A27	ECOConfidence T7 High
+A28	NextSentence T7 Yes
+A29	NegativeStatement T7 No
+A30	AssertionStrength T7 Medium
+N6	Reference T7 brat_eco:ECO:0000008	expression pattern evidence
+T4	ECO 5434 5462	by site-specific mutagenesis
+A31	Category T4 BioProc
+A32	ECOConfidence T4 High
+A33	NextSentence T4 Yes
+A34	NegativeStatement T4 No
+A35	AssertionStrength T4 High
+N7	Reference T4 brat_eco:ECO:0005528	site-directed mutagenesis evidence
+T8	ECO 3443 3465	phylogenetic profiling
+A36	ECOConfidence T8 High
+N8	Reference T8 brat_eco:ECO:0000080	phylogenetic evidence
+A37	Category T8 SeqFeat
+A38	NextSentence T8 No
+A39	NegativeStatement T8 No
+A40	AssertionStrength T8 High
+T9	ECO 3456 3495	profiling in numerous bacterial genomes
+A41	Category T9 SeqFeat
+A42	ECOConfidence T9 Low
+A43	NextSentence T9 No
+A44	NegativeStatement T9 No
+A45	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0005531	motif discovery evidence
+T10	ECO 9065 9100	single and double mutants were used
+A46	ECOConfidence T10 High
+N10	Reference T10 brat_eco:ECO:0000054	double mutant phenotype evidence
+A47	Category T10 BioProc
+A48	NextSentence T10 Yes
+A49	NegativeStatement T10 Yes
+A50	AssertionStrength T10 Medium
+T11	ECO 11872 11889	different mutants
+A51	Category T11 BioProc
+A52	ECOConfidence T11 High
+A53	NextSentence T11 Yes
+A54	NegativeStatement T11 No
+A55	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0000015	mutant phenotype evidence
+T12	ECO 11872 11889	different mutants
+A56	Category T12 BioProc
+A57	ECOConfidence T12 High
+A58	NextSentence T12 Yes
+A59	NegativeStatement T12 No
+A60	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0000015	mutant phenotype evidence
+T13	ECO 11872 11889	different mutants
+A61	Category T13 BioProc
+A62	ECOConfidence T13 High
+A63	NextSentence T13 Yes
+A64	NegativeStatement T13 Yes
+A65	AssertionStrength T13 Medium
+N13	Reference T13 brat_eco:ECO:0000015	mutant phenotype evidence

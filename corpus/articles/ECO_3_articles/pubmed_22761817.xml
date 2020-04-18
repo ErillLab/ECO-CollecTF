@@ -1,0 +1,978 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22761817</article-id>
+      <article-id pub-id-type="pmc">3382589</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-10482</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0039538</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subject>Microbial Metabolism</subject>
+              <subject>Microbial Physiology</subject>
+              <subject>Plant Microbiology</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Infectious Diseases</subject>
+            <subj-group>
+              <subject>Bacterial Diseases</subject>
+              <subj-group>
+                <subject>Pseudomonas Infections</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Transcriptional Activation of Pyoluteorin Operon Mediated by the LysR-Type Regulator PltR Bound at a 22 bp <italic>lys</italic> Box in <italic>Pseudomonas aeruginosa</italic> M18</article-title>
+        <alt-title alt-title-type="running-head">Transcriptional Activation of Pyoluteorin Operon</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Li</surname>
+            <given-names>Sainan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Huang</surname>
+            <given-names>Xianqing</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Guohao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Yuquan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>State Key Laboratory of Microbial Metabolism and School of Life Sciences &amp; Biotechnology, Shanghai Jiao Tong University, Shanghai, People's Republic of China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Janssen</surname>
+            <given-names>Paul Jaak</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Belgian Nuclear Research Centre SCK/CEN, Belgium</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>xqhuang11@gmail.com</email> (XH); <email>xuyq@sjtu.edu.cn</email> (YX)</corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: SNL XQH YQX. Performed the experiments: SNL XQH GHW. Analyzed the data: SNL XQH. Contributed reagents/materials/analysis tools: XQH YQX. Wrote the paper: SNL XQH.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>6</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>6</issue>
+      <elocation-id>e39538</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>4</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>5</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Li et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+      </permissions>
+      <abstract>
+        <p><italic>Pseudomonas aeruginosa</italic> M18, a rhizosphere-isolated bacterial strain showing strong antifungal activity, can produce secondary metabolites such as phenazine-1-carboxylic acid and pyoluteorin (Plt). The LysR-type transcriptional regulator PltR activates the Plt biosynthesis operon <italic>pltLABCDEFG</italic>, the expression of which is induced by Plt. Here, we identified and characterized the non-conserved <italic>pltL</italic> promoter (<italic>pltLp</italic>) specifically activated by PltR and its upstream neighboring <italic>lys</italic> box from the complicated <italic>pltR&#x2013;pltL</italic> intergenic sequence. The 22 bp palindromic <italic>lys</italic> box, which consists of two 9 bp complementary inverted repeats interrupted by 4 bp, was found to contain the conserved, GC-rich LysR-binding motif (T-N<sub>11</sub>-A). Evidence obtained <italic>in vivo</italic> from mutational and <italic>lacZ</italic> report analyses and <italic>in vitro</italic> from electrophoretic mobility shift assays reveals that the PltR protein directly bound to the <italic>pltLp</italic> region as the indispensable binding motif &#x201C;<italic>lys</italic> box&#x201D;, thereby transcriptionally activating the <italic>pltLp</italic>-driven <italic>plt</italic> operon expression. Plt, as a potential non-essential coinducer of PltR, specifically induced the <italic>pltLp</italic> expression and thus strengthened its biosynthetic <italic>plt</italic> operon expression.</p>
+      </abstract>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Pyoluteorin (Plt) is a <italic>Pseudomonas</italic>-produced antifungal compound with a resorcinol ring linked to a bichlorinated pyrrole moiety produced by a polyketide synthase&#x2013;non-ribosomal peptide synthetase (PKS/NRPS) hybrid biosynthetic pathway <xref ref-type="bibr" rid="pone.0039538-Bender1">[1]</xref>. The Plt biosynthetic gene cluster, which is approximately 32 kb long, has been cloned and characterized in <italic>Pseudomonas fluorescens</italic> Pf-5 <xref ref-type="bibr" rid="pone.0039538-Brodhagen1">[2]</xref>, <xref ref-type="bibr" rid="pone.0039538-NowakThompson1">[3]</xref> and <italic>P. aeruginosa</italic> M18 <xref ref-type="bibr" rid="pone.0039538-Huang1">[4]</xref>, <xref ref-type="bibr" rid="pone.0039538-Huang2">[5]</xref>, and identified through complete genome sequencing in <italic>P. aeruginosa</italic> LESB58 <xref ref-type="bibr" rid="pone.0039538-Winstanley1">[6]</xref>. The <italic>plt</italic> locus shows a high level of conservation in gene organization and size among these three <italic>Pseudomonas</italic> strains. <italic>P. aeruginosa</italic> M18 shares 99% nucleotide sequence identity in the <italic>plt</italic> gene locus with LESB58 <xref ref-type="bibr" rid="pone.0039538-Winstanley1">[6]</xref>, <xref ref-type="bibr" rid="pone.0039538-Wu1">[7]</xref>, but shows a certain degree of difference in nucleotide sequence, especially for the non-coding sequence from Pf-5 <xref ref-type="bibr" rid="pone.0039538-Paulsen1">[8]</xref>. Intriguingly, strain LESB58 cannot produce Plt <xref ref-type="bibr" rid="pone.0039538-Kidarsa1">[9]</xref> because of a frameshift mutation in the <italic>pltB</italic> gene <xref ref-type="bibr" rid="pone.0039538-Winstanley1">[6]</xref>. The <italic>plt</italic> gene cluster is composed of two pairs of divergently transcribed operons: one pair is the <italic>pltLABCDEFG</italic> and <italic>pltRM</italic> operons responsible for Plt biosynthesis and its activation, the other pair is the <italic>pltHIJKNO</italic> and <italic>pltZ</italic> operons involved in Plt export and its repression. However, the <italic>plt</italic> gene cluster has not yet been experimentally dissected for the <italic>pltR</italic> and <italic>pltL</italic> intergenic non-coding region (485 bp for Pf-5 and 652 bp for M18) containing a number of promoters and <italic>cis</italic>-acting elements in two opposite directions <xref ref-type="bibr" rid="pone.0039538-Brodhagen1">[2]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0039538-Huang2">[5]</xref>.</p>
+      <p>Plt biosynthesis is regulated by the Gac/Rsm regulatory cascade, a ubiquitous global regulatory pathway that consists of the two-component signal transduction system GacS/GacA, the sRNAs RsmY and RsmZ, and the RNA-binding repressor protein RsmA repressing access to the ribosome binding site (RBS) <xref ref-type="bibr" rid="pone.0039538-Haas1">[10]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0039538-Ge1">[13]</xref>. Our previous studies have also shown that Plt biosynthesis is strongly repressed by three quorum sensing (QS) systems, namely, LasI/LasR, RhlI/RhlR, and PQS/PqsR, in <italic>P. aeruginosa</italic> M18 <xref ref-type="bibr" rid="pone.0039538-Lu1">[14]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0039538-Chen1">[16]</xref>. Aside from these global regulatory systems, the pathway-specific regulator PltR, a typical LysR-type transcriptional regulator (LTTR), is responsible for the transcriptional activation of the <italic>pltLABCDEFG</italic> biosynthetic operon <xref ref-type="bibr" rid="pone.0039538-NowakThompson1">[3]</xref>, <xref ref-type="bibr" rid="pone.0039538-Yan2">[17]</xref>. Expression of the <italic>plt</italic> operon is induced by Plt <xref ref-type="bibr" rid="pone.0039538-Huang1">[4]</xref>, <xref ref-type="bibr" rid="pone.0039538-Brodhagen2">[18]</xref>. In addition, the TetR-type regulator PltZ negatively regulates the divergently transcribed <italic>pltHIJKNO</italic> ABC (ATP-binding cassette) export operon and, thus, indirectly downregulates Plt production <xref ref-type="bibr" rid="pone.0039538-Huang1">[4]</xref>, <xref ref-type="bibr" rid="pone.0039538-Huang2">[5]</xref>. However, the molecular mechanism underlying the transcriptional activation and autoinduction of the <italic>plt</italic> biosynthetic operon, for example, PltR's target DNA motif, Plt's receptor protein, and the effect of Plt on PltR&#x2013;DNA interaction, remains unknown.</p>
+      <p>The LTTR family represents one of the largest classes of bacterial transcriptional regulatory proteins <xref ref-type="bibr" rid="pone.0039538-Maddocks1">[19]</xref>, <xref ref-type="bibr" rid="pone.0039538-Schell1">[20]</xref>. Typically, the conservative LTTR protein comprises a helix-turn-helix (HTH) DNA-binding motif at the N-terminus and a cofactor-binding motif at the C-terminus. LTTRs are mostly characterized as transcriptional activators of a single divergently transcribed gene or operon and negative autoregulators <xref ref-type="bibr" rid="pone.0039538-Maddocks1">[19]</xref>. With the continuous identification of large numbers of LTTRs, some of them have been extended to function as global transcriptional activators or repressors of unlinked genes or operons involved in metabolism, QS, virulence, and so on. These LTTRs include PqsR, a response regulator in the PQS (<italic>Pseudomonas</italic> quinoline signal)-mediated QS system <xref ref-type="bibr" rid="pone.0039538-Lu1">[14]</xref>, <xref ref-type="bibr" rid="pone.0039538-Xiao1">[21]</xref>. Aside from repressing Plt biosynthesis, PqsR can also activate the phenazine-1-carboxylic acid (PCA) biosynthesis in <italic>P. aeruginosa</italic> M18 <xref ref-type="bibr" rid="pone.0039538-Lu1">[14]</xref>. Two LTTRs with opposite effects on the <italic>plt</italic> operon, PltR and PqsR, likely differ in molecular regulatory mechanisms. The mechanisms of both remain uncharacterized.</p>
+      <p>Autoinduction of microbiological metabolism, including the QS signal and antibiotic biosynthesis, is widespread in the microbial community. The <italic>N</italic>-acyl homoserine lactones (AHLs) in Gram-negative bacteria typically induce the expression of their own LuxI-type biosynthetic genes in collaboration with the LuxR-type response regulators <xref ref-type="bibr" rid="pone.0039538-Venturi1">[22]</xref>. Aside from the autoinduction of Plt biosynthesis involved in the present study, an increasing number of secondary metabolites produced by <italic>Pseudomonas</italic> spp., including 2,4-diacetylphloroglucinol <xref ref-type="bibr" rid="pone.0039538-SchniderKeel1">[23]</xref>, PCA <xref ref-type="bibr" rid="pone.0039538-Li1">[24]</xref>, and pyoverdine <xref ref-type="bibr" rid="pone.0039538-Lamont1">[25]</xref>, have been shown to induce their own biosynthesis in a concentration-dependent manner.</p>
+      <p>The current study identifies three promoters in the <italic>pltL</italic> direction, including the non-conserved <italic>pltL</italic> promoter (<italic>pltLp</italic>) specifically activated by PltR, and one <italic><underline>pltR</underline></italic> promoter in the <italic>pltR</italic> direction within the intergenic region between the divergently transcribed <italic>pltL</italic> and <italic>pltR</italic> genes. The LTTR PltR directly binds to the <italic>pltLp</italic> region at the indispensable and intact 22 bp palindromic <italic>lys</italic> box and, thus, specifically activating <italic>plt</italic> operon expression. Plt, as a potential and non-essential cofactor of PltR, specifically induces the <italic>pltLp</italic> and thus strengthens the <italic>plt</italic> operon expression.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Identification of the promoter in the intergenic region between divergently transcribed <italic>pltL</italic> and <italic>pltR</italic> genes</title>
+        <p>In the Plt biosynthetic structural, regulatory, and transport gene cluster of <italic>P. aeruginosa</italic> M18 (Genbank accession number AY394844), the divergently transcribed <italic>pltL</italic> and <italic>pltR</italic> genes were separated by a large and complex intergenic region (652 bp) that likely contains a number of promoters and regulatory elements. Generally, putative promoters predicted by the NNPP software (<italic>P</italic>&gt;0.8) need further experimental confirmation through <italic>lacZ</italic> reporter fusion analysis. The NNPP analysis showed five putative promoters in both the <italic>pltR</italic> and <italic>pltL</italic> directions. These predicted promoter fragments were respectively amplified and fused with the promoterless <italic>lacZ</italic> gene in the plasmid pME6522 (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1A and 1C</xref>). &#x3B2;-Galactosidase activity expressed from these putative promoter&#x2013;<italic>lacZ</italic> fusion plasmids were assayed in <italic>E. coli</italic> DH5&#x3B1; and <italic>P. aeruginosa</italic> M18. As shown in <xref ref-type="fig" rid="pone-0039538-g001">Fig. 1B</xref>, among the <italic>R1</italic> to <italic>R4&#x2013;lacZ</italic> fusion plasmids that carried five putative promoters in the <italic>pltR</italic> direction (the R3 fragment contains two putative promoters), only the <italic>R4</italic>&#x2013;<italic>lacZ</italic> fusion expressed a significantly higher &#x3B2;-galactosidase activity in both DH5&#x3B1; and M18. The <italic>R1</italic> to <italic>R3</italic>&#x2013;<italic>lacZ</italic> fusions did not display noticeable differences in &#x3B2;-galactosidase expression from the empty plasmid pME6522 as the control. The result indicates that the R4 fragment, spanning from&#x2212;116 bp to +10 bp relative to the putative TSS (transcriptional start site, +1) of <italic>pltR</italic>, harbors an actual <italic>pltR</italic> promoter that also shows a certain level of basal expression activity in <italic>E. coli</italic> DH5&#x3B1;.</p>
+        <fig id="pone-0039538-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Detection of promoter activity in the intergenic region between divergently transcribed <italic>pltR</italic> and <italic>pltLABCDEFG</italic> genes using the <italic>lacZ</italic> reporter gene.</title>
+            <p>(<bold>A</bold> and <bold>B</bold>) Promoter detection in the <italic>pltR</italic> direction. (A) Four fragments, R1 to R4, containing five putative promoters in the <italic>pltR</italic> direction (predicted by the NNPP promoter online prediction with a score cutoff 0.80) were fused with the promoterless <italic>lacZ</italic> gene on the plasmid pME6522. The R3 fragment includes two putative promoters. The putative +1 site indicates the putative TSS of the fifth predicted promoter. (B) &#x3B2;-Galactosidase expression (Miller Units) from above these <italic>lacZ</italic> fusion plasmids was assayed in both <italic>E. coli</italic> DH5&#x3B1; and <italic>P. aeruginosa</italic> M18 after 15 h of growth in KMB. The R4 fragment was detected to include a true promoter (shown by an asterisk). (<bold>C</bold> and <bold>D</bold>) Promoter detection in the <italic>pltLABCDEFG</italic> operon direction. (C) Five fragments, L1 to L5, which contain five putative promoters in the <italic>pltL</italic> direction, were respectively fused into the upstream of the promoterless <italic>lacZ</italic> gene on pME6522. Putative +1 indicates the putative TSS of the third predicted promoter. (D) &#x3B2;-Galactosidase expression from the above <italic>lacZ</italic> fusion recombined plasmids was measured in both DH5&#x3B1; and M18. The L1 fragment (marked with a triangle) exhibited a certain degree of promoter activity in DH5&#x3B1;, but not in M18. The other four fragments, L2 to L5, did not show any evident promoter activity. (<bold>E</bold> and <bold>F</bold>) Detection of promoter or its elements by prolongation analysis within the DNA fragment spanning from +10 to the <italic>pltL</italic> ATG, which was not predicted to carry promoters. (E) Four prolonging fragments based on L3, namely, L3&#x2013;1 to L3&#x2013;4, were respectively fused with the <italic>lacZ</italic> gene in pME6522. (F) The resulting <italic>lacZ</italic> fusion plasmids were assayed for &#x3B2;-galactosidase expressions in both DH5&#x3B1; and M18. The region covering +66 to +124 bp (relative to the putative +1 site) contained either a stronger promoter or its elements (marked with an asterisk). The <italic>L3&#x2013;3&#x2013;lacZ</italic> fusion expression significantly decreased, compared with that in the <italic>L3&#x2013;2&#x2013;lacZ</italic> fusion expression in <italic>E. coli</italic> DH5&#x3B1;, which implies that the promoter located at +66 to +124bp is not likely <italic>pltLp</italic> activated by PltR. Moreover, the region from +124 to +205 bp (marked with a triangle) possibly contains another promoter under the transcriptional activation of PltR. (<bold>G</bold> and <bold>H</bold>) Distinguishing <italic>pltLp</italic> activated by PltR from other promoters by deletion analysis. (G) Four fragments (L6 and its shortened derivative fragments, namely, L6&#x2013;1 to L6&#x2013;3), four continuously prolonged fragments based on L6&#x2013;3 (L6-3-1 to L6-3-4), and the L6&#x2013;4 fragment, were respectively cloned into pME6522. The L6 fragment was not predicted (score cutoff 0.60) to contain putative promoter regions. (H) The &#x3B2;-galactosidase expression from these recombinant <italic>lacZ</italic> reporter plasmids was analyzed in <italic>E. coli</italic> DH5&#x3B1;, <italic>P. aeruginosa</italic> M18, and the <italic>pltR</italic> mutant M18pltR. An intact promoter contained in the region from +66 to +124 (marked with an asterisk) was not controlled by PltR. The <italic>pltLp</italic> activated by PltR was located from +124 to +205 bp (marked with a triangle), relative to the putative +1 site.</p>
+          </caption>
+          <graphic xlink:href="pone.0039538.g001"/>
+        </fig>
+        <p>Similarly, five predicted promoter fragments (L1 to L5) in the <italic>pltL</italic> direction were respectively fused with the <italic>lacZ</italic> gene of pME6522 (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1C</xref>). Two of the predicted promoters extended into the <italic>pltL</italic> ORF. In the M18 strain, all five putative promoters did not show any significant expression compared with the pME6522 control (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1D</xref>). However, the <italic>L1&#x2013;lacZ</italic> fusion showed a relatively higher expression (approximately 160 Miller units) in <italic>E. coli</italic> DH5&#x3B1;, but was almost entirely inhibited in <italic>P. aeruginosa</italic> M18. This occurrence is probably due to the presence of negative specific repressors in M18. The 164 bp L1 fragment was partially overlapped with the <italic>pltR</italic> promoter (R4) and showed similar levels of promoter activity, implying that this region likely contains a bidirectional promoter.</p>
+        <p>With the highest score of 0.94 in the NNPP promoter prediction, the putative promoter contained in the L3 fragment was supposed to be the most probable <italic>pltL</italic> promoter. However, no promoter activity was detected in the L3 fragment by the above <italic>lacZ</italic> fusion analysis (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1D</xref>). For this, four fragments that continuously extended from the right side of L3, namely, L3&#x2013;1 to L3&#x2013;4, were respectively cloned into the plasmid pME6522 to construct the corresponding <italic>lacZ</italic> fusion reporter plasmids (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1E</xref>). The results of the &#x3B2;-galactosidase assay in the M18 strain showed that the <italic>L3&#x2013;2&#x2013;lacZ</italic> fusion displayed stronger expression (approximately 900 Miller units) in the presence of the fragment ranging from +66 bp to +124 bp relative to the putative <italic>+</italic>1 site (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1F</xref>), implying that this 59 bp fragment likely contains strong promoters or additional activating <italic>cis</italic>-regulatory motifs. In addition, the <italic>L3&#x2013;2&#x2013;lacZ</italic> fusion also expressed approximately 70 Miller units of &#x3B2;-galactosidase activity in <italic>E. coli</italic> DH5&#x3B1;. The <italic>L3&#x2013;3&#x2013;lacZ</italic> fusion carrying an additional extended sequence showed similar expression levels of &#x3B2;-galactosidase as the <italic>L3&#x2013;2&#x2013;lacZ</italic> fusion in the M18 strain. However, <italic>L3&#x2013;3&#x2013;lacZ</italic> fusion expression was inhibited to the level of the control plasmid in DH5&#x3B1; (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1E</xref>). These results suggest that the promoter activity expressed by the fragment ranging from +66 bp to +124 bp is probably independent of the transcriptional activator PltR and inhibited by the presence of one inhibitory motif within the region from +124 to +205 bp (relative to the putative +1). Therefore, the search for the PltR-activated <italic>pltLp</italic> in the +124 to +205 bp region was continued.</p>
+        <p>Based on the <italic>L3&#x2013;1</italic> to <italic>L3&#x2013;4&#x2013;lacZ</italic> fusion analysis results (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1E</xref>), the 235 bp L6 fragment (+19 bp to +253 bp) (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1G</xref>), which was not predicted by NNPP (even above a minimum promoter score of 0.6) to carry any promoters, could be speculated to actually harbor strong promoters. As expected, the <italic>L6&#x2013;lacZ</italic> fusion showed stronger expression activity in the M18 strain (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1H</xref>). In addition, the expression of <italic>L6&#x2013;lacZ</italic> fusion was almost entirely inhibited in the <italic>pltR</italic> mutant M18pltR (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1H</xref>), suggesting that one promoter contained in the L6 fragment is dependent on PltR. To narrow down the key promoter region, three <italic>lacZ</italic> fusion plasmids, which respectively contains three truncated fragments L6&#x2013;1, L6&#x2013;2 and L6&#x2013;3, were constructed (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1G</xref>). These three <italic>lacZ</italic> fusions all expressed relatively higher levels of &#x3B2;-galactosidase activity in <italic>E. coli</italic> DH5&#x3B1;, <italic>P. aeruginosa</italic> M18, and M18pltR (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1H</xref>). Therefore, the L6&#x2013;3 fragment ranging from +66 to +124 bp contains an intact PltR-independent promoter that may be a non-<italic>pltLp</italic> promoter.</p>
+        <p>Based on the differential expression between the <italic>L6&#x2013;lacZ</italic> and <italic>L6&#x2013;1</italic>&#x2013;<italic>lacZ</italic> fusions in both <italic>E. coli</italic> DH5&#x3B1; and <italic>P. aeruginosa</italic> M18pltR (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1H</xref>), as well as the differential expression between the <italic>L3&#x2013;2&#x2013;lacZ</italic> and the <italic>L3&#x2013;3&#x2013;lacZ</italic> fusions in DH5&#x3B1; (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1F</xref>), the fragment from +124 bp to +205 bp contains a potential promoter activated by PltR. Another set of <italic>lacZ</italic> fusion plasmids, which contains four continually prolonged fragments L6-3-1 to L6-3-4 based on L6&#x2013;3, were constructed and assayed for &#x3B2;-galactosidase expression in strains DH5&#x3B1;, M18, and M18pltR (<xref ref-type="fig" rid="pone-0039538-g001">Figs. 1F and 1H</xref>). Interestingly, the relatively higher level of <italic>L6&#x2013;3&#x2013;lacZ</italic> fusion expression was almost entirely inhibited by a short sequence prolongation (+124 bp to +143 bp) in all three strains. This inhibited expression in the <italic>L6-3-1</italic> to <italic>L6-3-3&#x2013;lacZ</italic> fusion was reversed to the greatest extent only in M18 when the L6-3-4 fragment extended to +205 (i.e., L6-3-4) (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1H</xref>). In addition, the <italic>L6&#x2013;4&#x2013;lacZ</italic> fusion expression was almost entirely abolished in both DH5&#x3B1; and M18pltR (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1H</xref>). These results strongly suggest that the <italic>pltLp</italic> activated by PltR is located from +124 to +205 bp. Moreover, this region was also shown to carry an inhibitory <italic>cis</italic>-element (+124 bp to +143 bp) for the upstream promoter contained in the L6&#x2013;3 fragment covering from +66 bp to +124 bp relative to the putative <italic>pltL</italic> +1 site.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Mapping the TSSs of <italic>pltL</italic> and <italic>pltR</italic></title>
+        <p>To better define the promoter region and <italic>cis</italic>-elements responsible for the regulation of <italic>plt</italic> operon expression, the TSS (+1) of the <italic>pltL</italic> and <italic>pltR</italic> genes were mapped using 5&#x2032;RACE (5&#x2032;Rapid amplification of cDNA end). The results are shown in <xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>. The actual +1 site of <italic>pltR</italic>, which is identical to the putative +1 site, was located at 63 bp upstream from the <italic>pltR</italic> translational start codon ATG (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>). The actual <italic>pltR</italic> promoter identified by 5&#x2032;RACE was basically consistent with the putative <italic>pltR</italic> promoter (predicted by NNPP) contained in the R4 fragment (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1A</xref>).</p>
+        <fig id="pone-0039538-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Mapping the TSSs and promoters of <italic>pltR</italic> and <italic>pltL</italic> genes through 5&#x2032;RACE and the above <italic>lacZ</italic> reporter analysis (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1</xref>).</title>
+            <p>P<sub>R</sub>, the <italic>pltR</italic> promoter; P<sub>L</sub>, the <italic>pltLp</italic> which needs to be specifically activated by PltR; P<sub>X</sub>, a non-PltR controlled promoter closely neighboring the upstream of P<sub>L</sub>; P<sub>Y</sub>, another potential promoter silent in <italic>P. aeruginosa</italic> M18, but active in <italic>E. coli</italic> DH5&#x3B1;. The TSS (+1) of the <italic>pltR</italic> transcript was located at 63 bp upstream of the <italic>pltR</italic> translational start codon ATG, which is identical to the predicted +1 site. The TSS of the <italic>plt</italic> operon was located at 46 bp upstream of the <italic>pltL</italic> ATG. Closely linked to the <italic>pltLp</italic> with the P<sub>x</sub> promoter, a palindromic <italic>lys</italic> box, including two 9 bp inverted complementary sequences separated by 4 bases, is boxed and highlighted by two head-to-head arrows.</p>
+          </caption>
+          <graphic xlink:href="pone.0039538.g002"/>
+        </fig>
+        <p>Relative to <italic>pltR</italic>, the composition of the promoters and regulatory elements in the <italic>pltL</italic> direction were more complex and diverse. The 5&#x2032;RACE result shows that the <italic>pltL</italic> TSS is located 46 bp upstream from the <italic>pltL</italic> ATG site (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>). The L6 fragment (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1G</xref>), which was not predicted by NNPP to carry any promoter, actually contains two promoters, namely, the <italic>pltLp</italic> activated by PltR and its neighboring upstream promoter (P<sub>x</sub>). The putative &#x2212;10 and &#x2212;35 regions in these promoters differ substantially from each other and are also markedly different from the canonical &#x2212;10 (TTGACA) and &#x2212;35 (TATAAT) sequences. As positively activated genes or operons generally have poor &#x2212;35 and/or &#x2212;10 regions their transcription mostly relies on the assistance of an activator protein to stabilize promoter-RNAP interaction. The fact that PltR regulates the <italic>pltL</italic> promoter but not the P<sub>x</sub> promoter is consistent with the low level of conservation between the &#x2212;10 and &#x2212;35 regions of the two promoters. The P<sub>x</sub> promoter was located at the &#x2212;143 bp to &#x2212;86 bp relative to the <italic>pltL</italic> TSS (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>), which corresponds to the L6&#x2013;3 fragment (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1G</xref>). However, several attempts to experimentally identify the TSS of the P<sub>x</sub> promoter failed. Remarkably, a perfect palindromic motif composed of two 9 bp reverse complementary sequences separated by 4 bp was sandwiched exactly between the pltL and P<sub>x</sub> promoters (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>). The preceding results show that the presence of half of this palindromic motif could abolish the expression of the P<sub>x</sub> promoter (<xref ref-type="fig" rid="pone-0039538-g001">Figs. 1G and 1H</xref>, L6-3-1). Furthermore, the 22-bp interrupted palindromic motif perfectly matched the conservative LTTR binding site (T-N<sub>11</sub>-A) <xref ref-type="bibr" rid="pone.0039538-Maddocks1">[19]</xref>. Therefore, this motif, designated as the <italic>lys</italic> box hereafter, was supposed to function as the target site of the LTTR protein PltR, which was verified by the following experiments.</p>
+      </sec>
+      <sec id="s2c">
+        <title>The <italic>pltLp</italic> promoter region (&#x2212;84 bp to +1) was directly bound and activated by PltR</title>
+        <p>Among the two neighboring promoters (<italic>pltLp</italic> and P<sub>x</sub>) in the <italic>pltL</italic> direction, P<sub>x</sub> was not controlled by PltR (<xref ref-type="fig" rid="pone-0039538-g001">Figs. 1G and 1F</xref>). The next focus was on characterizing the PltR-activated <italic>pltLp</italic>. To confirm the activation function of PltR on the experimentally positioned <italic>pltLp</italic>, the <italic>pltLp&#x2013;lacZ</italic> transcriptional fusion plasmid (p6522&#x2013;pltLp) containing the <italic>pltLp</italic> and its upstream palindromic <italic>lys</italic> box (&#x2212;84 bp to +1), was constructed and transformed into <italic>E. coli</italic> DH5&#x3B1;, <italic>P. aeruginosa</italic> M18, the <italic>pltR</italic> mutant M18pltR and its complementary strain M18pltR/pBBR&#x2013;pltR. The &#x3B2;-galactosidase activity was measured in KMB to compare <italic>pltLp&#x2013;lacZ</italic> fusion expression between the presence and absence of <italic>pltR</italic>. As shown in <xref ref-type="fig" rid="pone-0039538-g003">Fig. 3A</xref>, the expression of the <italic>pltLp&#x2013;lacZ</italic> fusion was completely inhibited in M18pltR when compared with that (approximately 200 Miller units) in the wild-type strain M18. With the introduction of the <italic>pltR</italic> overexpression plasmid pBBR&#x2013;pltR, the <italic>pltLp&#x2013;lacZ</italic> expression in the <italic>pltR</italic> mutant was restored and even significantly increased, compared with that in the M18 strain. The result clearly demonstrates that the 85 bp promoter region comprising its neighboring <italic>lys</italic> box needed to be activated by PltR (<xref ref-type="fig" rid="pone-0039538-g003">Fig. 3A</xref>). In addition, no evident expression in the <italic>pltLp&#x2013;lacZ</italic> fusion was detected in <italic>E. coli</italic> DH5&#x3B1; (<xref ref-type="fig" rid="pone-0039538-g003">Fig. 3A</xref>). The <italic>pltLp&#x2013;lacZ</italic> expression was not restored in the DH5&#x3B1; strain harboring the double plasmids, pBBR&#x2013;pltR, and p6522&#x2013;pltLp (data not shown), indicating that the <italic>pltLp</italic> expression requires the participation of other activation factors aside from the indispensable activator PltR.</p>
+        <fig id="pone-0039538-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>PltR transcriptionally activated <italic>pltLABCDEFG</italic> operon expression <italic>via</italic> direct binding to the <italic>pltLp</italic> region from &#x2212;84 bp to +1.</title>
+            <p>(<bold>A</bold>) Transcriptional activation of <italic>pltLp</italic> by PltR. The &#x3B2;-galactosidase expression (Miller Units) from <italic>pltLp&#x2013;lacZ</italic> transcriptional fusion (p6522&#x2013;pltLp) was assayed in M18, M18pltR, M18pltR/pBBR&#x2013;pltR, and DH5&#x3B1;. The <italic>pltLp</italic>&#x2013;<italic>lacZ</italic> expression was entirely inhibited in the <italic>pltR</italic> mutant M18pltR, which, in turn, was reversed and even enormously enhanced by the exogenous <italic>pltR</italic> overexpression from the plasmid pBBR&#x2013;pltR. (<bold>B</bold>) Direct binding of PltR to <italic>pltLp</italic>, assessed by EMSA. 0.5 nM biotin-labelled <italic>pltLp</italic> promoter fragment (&#x2212;84 bp to +1) were respectively incubated with increasing amounts of His&#x2013;PltR protein (0 to 70 &#x3BC;M, Lane 1 to 13). For competition reactions, 0.5 &#x3BC;M unlabeled <italic>pltLp</italic> fragment was included in the binding reaction in molar as shown in Lane 14. The Hfq protein was used as a negative control (Lane 15).</p>
+          </caption>
+          <graphic xlink:href="pone.0039538.g003"/>
+        </fig>
+        <p>EMSA was further designed to detect whether PltR directly binds to the <italic>pltLp</italic> region. The <italic>pltLp</italic> fragment (&#x2212;84 bp to +1) was chosen to assess its binding affinity with PltR. As presented in <xref ref-type="fig" rid="pone-0039538-g003">Fig. 3B</xref> (Lanes 1 to 13), when 0.5 nM biotin-labeled <italic>pltLp</italic> fragments were incubated with increasing amounts of PltR protein (0 to 70 &#x3BC;M) in a 10 &#x3BC;l reaction system, the PltR protein showed specific binding activity with <italic>pltLp</italic>. Accompanied by the increasing concentration of PltR, the lagged bands representing the PltR-<italic>pltLp</italic> complex gradually strengthened while the biotin-labled free DNA probes significantly declined and was almost entirely bound by 20 &#x3BC;M PltR. The Hfq protein, as negative control, showed no binding activity with <italic>pltLp</italic>. A 1000-fold molar excess of unlabeled <italic>pltLp</italic> probes entirely displaced the biotin-labeled probes from PltR. Based on these data, it can be concluded that PltR directly binds the <italic>pltLp</italic>, thereby activating <italic>plt</italic> operon expression. This observation deserves further investigation to define the key sequence responsible for the binding of PltR to <italic>pltLp</italic>.</p>
+      </sec>
+      <sec id="s2d">
+        <title>The 22 bp palindromic <italic>lys</italic> box is indispensable to the binding and activation of the <italic>pltLp</italic> by PltR</title>
+        <p>A putative secondary structure folded from <italic>pltLp</italic> and its upstream palindromic box (&#x2212;84 bp to +1) by Mfold 3.2 is shown in <xref ref-type="fig" rid="pone-0039538-g004">Fig. 4A</xref>. The 22 bp <italic>lys</italic> box (&#x2212;74 bp to &#x2212;53 bp) constituting a typical T-N<sub>11</sub>-A LTTR binding site was supposed to form into a stem loop structure for binding and activation by PltR. Another two stem loops located from &#x2212;47 bp to &#x2212;4 bp were assumed as the <italic>cis</italic>-elements (&#x2212;10 and &#x2212;35 sequences) for RNA polymerase. Two <italic>pltLp&#x2013;lacZ</italic> derivative plasmids, p6522&#x2013;pltLp-2 and p6522&#x2013;pltLp-3, which respectively carry a deletion of half or the entire <italic>lys</italic> box, were constructed to assess the effect of the <italic>lys</italic> box on <italic>pltLp</italic> activity (<xref ref-type="fig" rid="pone-0039538-g004">Fig. 4B</xref>). As shown in <xref ref-type="fig" rid="pone-0039538-g004">Fig. 4C</xref>, half and entire deletion of the <italic>lys</italic> box induced complete inhibition of the <italic>pltLp&#x2013;lacZ</italic> fusion expression to approximately the expression level of the empty plasmid pME6522. Without the presence of the complete <italic>lys</italic> box, the <italic>pltLp</italic> could not be initiated. This confirms that the <italic>lys</italic> box is indispensable for the initiation and activation of the <italic>pltLp</italic>.</p>
+        <fig id="pone-0039538-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>The 22 bp lys box (&#x2212;74 to &#x2212;53 bp) neighboring upstream of pltLp was indispensable to the transcriptional activation of PltR on the plt operon and the direct binding of PltR to pltLp.</title>
+            <p>(<bold>A</bold>) The putative DNA secondary structure (by MEME) of the pltLp region (&#x2212;84 bp to +1). (<bold>B</bold>) The <italic>pltLp</italic> fragment (<italic>pltLp</italic>, &#x2212;84 bp to +1) and two truncated fragments with a half or entire deletion of the palindrome motif (<italic>pltLp-2</italic> and <italic>pltLp-3</italic>) were respectively fused with the <italic>lacZ</italic> reporter gene in pME6522. The palindrome <italic>lys</italic> box is shown with two thick arrows. (<bold>C</bold>) &#x3B2;-Galactosidase expression (Miller Units) from three <italic>lacZ</italic> fusion plasmids (p6522&#x2013;pltLp, pltLp-2, pltLp-3) was assayed in the M18 strain. A half or entire deletion of the palindrome motif resulted in complete inhibition of the <italic>pltLp</italic>&#x2013;<italic>lacZ</italic> expression in the M18 strain. (<bold>D</bold>) Direct binding of PltR to <italic>pltLp</italic> was eliminated by a half or entire deletion in the palindrome <italic>lys</italic> box. 0.5 nM <italic>pltLp</italic> and two truncated fragments (<italic>pltLp-2</italic> and <italic>pltLp-3</italic>) were respectively incubated with increasing amounts of His&#x2013;PltR protein.</p>
+          </caption>
+          <graphic xlink:href="pone.0039538.g004"/>
+        </fig>
+        <p>Correspondingly, the biotin-labeled <italic>pltLp</italic>, <italic>pltLp-2</italic>, and <italic>pltLp-3</italic> DNA probes (0.5 nM) were respectively utilized to carry out the EMSA analysis with increasing PltR concentrations (0 to 60 &#x3BC;M). The results are shown in <xref ref-type="fig" rid="pone-0039538-g004">Fig. 4D</xref>. The PltR protein displayed stronger binding affinity with the <italic>pltLp</italic> fragment with the intact <italic>lys</italic> box. As expected, half or whole deletion of the <italic>lys</italic> box completely abolished the binding of <italic>pltLp</italic> with PltR. No evident binding complexes were observed in the EMSA between the biotin-labeled <italic>pltLp-2</italic> or <italic>pltLp-3</italic> probe and the PltR protein (<xref ref-type="fig" rid="pone-0039538-g004">Fig. 4D</xref>, Lanes 4 to 9 and Lanes 10 to 15). The results suggest that PltR directly binds to the <italic>pltLp</italic> region at the indispensable and intact palindromic <italic>lys</italic> box and thus activate the <italic>pltLp</italic> expression.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Effects of point mutations in the <italic>lys</italic> box on the expression and PltR binding of <italic>pltLp</italic></title>
+        <p>To determine the effects of the <italic>lys</italic> box mutations on <italic>plt</italic> operon expression and PltR&#x2013;<italic>pltLp</italic> binding, four <italic>pltLp</italic> derivative fragments carrying a serial of point mutations in the <italic>lys</italic> box were amplified and used to construct <italic>lacZ</italic> fusion plasmids and carry out an EMSA analysis. To open the putative stem-loop structure formed by the <italic>lys</italic> box (<xref ref-type="fig" rid="pone-0039538-g004">Fig. 4A</xref>), 2 bp (M2), 4 bp (M4), and 6 bp (M6) substitutions were designed in one of two 9 bp reversely complementary sequences in the <italic>lys</italic> box (<xref ref-type="fig" rid="pone-0039538-g005">Fig. 5A</xref>). The other 4 bp replacement was introduced to the M4 mutant to be complementary to the originally replaced 4 bp, producing the M4-M <italic>pltLp</italic> mutant, which could regenerate a 22 bp stem-loop structure with different base arrangements from the wild-type <italic>pltLp</italic>. The &#x3B2;-galactosidase activity expressed from the <italic>pltLp&#x2013;lacZ</italic> fusion wild-type plasmid (p6522&#x2013;pltLp) and its four derived mutant plasmids were assayed in <italic>P. aeruginosa</italic> M18. As depicted in <xref ref-type="fig" rid="pone-0039538-g005">Fig. 5B</xref>, the <italic>pltLp&#x2013;lacZ</italic> fusion expression was significantly reduced, even entirely abolished, by the four <italic>lys</italic>-box mutants (<xref ref-type="fig" rid="pone-0039538-g005">Fig. 5B</xref>). The &#x3B2;-galactosidase expression of <italic>pltLp&#x2013;lacZ</italic>, <italic>pltLp</italic>-<italic>M2</italic>&#x2013;<italic>lacZ</italic>, <italic>pltLp</italic>-<italic>M4</italic>&#x2013;<italic>lacZ</italic>, to <italic>pltLp</italic>-<italic>M6</italic>&#x2013;<italic>lacZ</italic> fusion, showed a gradual and significant decreasing trend with the gradual opening of the stem-loop structure, which suggests that the secondary structure of the <italic>lys</italic> box plays a key role in the binding and activation of the <italic>pltLp</italic> by PltR. In addition, the inhibited &#x3B2;-galactosidase expression from the <italic>pltLp-M4</italic>&#x2013;<italic>lacZ</italic> fusion was not restored; it continued to decrease to the expression level of the empty plasmid pME6522 by a complementary 4 bp substitution carried by the M4-M mutant. This finding implies that the sequence specificity of the <italic>lys</italic> box is also essential for the binding and activation of the <italic>pltLp</italic> by PltR.</p>
+        <fig id="pone-0039538-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Effects of <italic>lys</italic> box mutations on <italic>pltLp</italic> expression and the interaction between PltR and <italic>pltLp</italic>.</title>
+            <p>(<bold>A</bold>) Construction map of the mutagenized <italic>pltLp</italic> with <italic>lys</italic> box mutations. Three <italic>pltLp</italic> mutant fragments, <italic>pltLp-M2</italic>, <italic>-M4</italic>, and <italic>-M6</italic>, respectively carried 2 bp, 4 bp, and 6 bp replacements in the <italic>lys</italic> box. The <italic>pltLp</italic> mutant M4-M was constructed by introducing a 4 bp complementary replacement into the <italic>pltLp-M4</italic> mutant. The above four <italic>pltLp</italic> mutagenized fragments were respectively cloned into pME6522. (<bold>B</bold>) &#x3B2;-galactosidase expression (Miller Units) from the above <italic>lacZ</italic> fusion plasmids was measured in the M18 strain. The <italic>pltLp</italic> expression gradually and significantly decreased, even entirely inhibited, with the opening of the <italic>lys</italic> box formed stem loop (Fig. 4A) by base substitutions. (<bold>C</bold>) The binding of PltR to <italic>pltLp</italic> was significantly weakened and even eliminated by the <italic>lys</italic> box mutations. <italic>pltLp</italic> and its derivative mutated fragments (0.5 nM) were respectively incubated with increasing amounts of PltR protein. The concentration of PltR was 0, 10, and 60 &#x3BC;M, respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0039538.g005"/>
+        </fig>
+        <p>Biotin-labeled DNA probes corresponding to the wild-type and mutagenized fragments of <italic>pltLp</italic> were subjected to an EMSA to assess the influence of point mutations in the <italic>lys</italic> box on the PltR&#x2013;<italic>pltLp</italic> binding interaction. Subsequently, 0.5 nM biotin-labeled DNA probes were co-incubated with 0, 10, and 60 &#x3BC;M PltR. As shown in <xref ref-type="fig" rid="pone-0039538-g005">Fig. 5C</xref>, a 2 bp (or 4 bp, 6 bp) substitution and an 8 bp complementary substitution in the <italic>lys</italic> box resulted in significant decrease in the <italic>pltLp</italic> binding activity by PltR. The decrease was clearly reflected by an enormous reduction in the intensity of the retarded PltR&#x2013;<italic>pltLp</italic>-M2 (or M4, M6, M4-M) complex bands, compared with those of the PltR&#x2013;<italic>pltLp</italic>&#x2013;wt complex bands. With the number of substituted bases increasing from 2 bp to 6 bp, the stem-loop structure formed by the <italic>lys</italic> box was opened step by step and thus the binding between the DNA probes and PltR gradually declined. Although the stem-loop structure was reshaped by a 4 bp complementary substitution in <italic>pltLp&#x2013;M4-M</italic>, its binding with PltR was not restored to levels exceeding that of <italic>pltLp-M4</italic> with PltR. This experiment confirms that the secondary structure and the primary sequence of the <italic>lys</italic> box are crucial for the PltR-activated expression of the <italic>plt</italic> operon.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Plt specifically induce the <italic>pltL</italic> promoter and thus enhance the <italic>plt</italic> operon expression</title>
+        <p>The autoinduction phenomenon, wherein Plt enhance the expression of its own biosynthetic operon <italic>pltLABCDEFG</italic>, has been reported in <italic>P. fluorescens</italic> Pf-5 <xref ref-type="bibr" rid="pone.0039538-Brodhagen2">[18]</xref> and <italic>P. aeruginosa</italic> M18 <xref ref-type="bibr" rid="pone.0039538-Huang1">[4]</xref>. To assess whether the <italic>pltLp</italic> is specifically induced by Plt, two <italic>lacZ</italic> fusion plasmids, p6522&#x2013;pltLp and p6522&#x2013;L6-1, which respectively carry the <italic>pltLp</italic> and its upstream P<sub>x</sub> promoter, were transformed into M18pltB mutant not producing Plt. &#x3B2;-Galactosidase activity was assayed in KMB media amended without or with 10 &#xB5;g ml<sup>&#x2212;1</sup> exogenous Plt. As depicted in <xref ref-type="fig" rid="pone-0039538-g006">Figs. 6A and 6B</xref>, the <italic>pltLp&#x2013;lacZ</italic> fusion expression was significantly enhanced by the addition of exogenous Plt, whereas the <italic>P<sub>x</sub>&#x2013;lacZ</italic> fusion expression did not reveal any noticeable difference between the KMB with and without 10 &#xB5;g ml<sup>&#x2212;1</sup> exogenous Plt. The data clearly suggests that the PltR-activated <italic>pltLp</italic> was specifically induced by the secondary metabolite Plt. Moreover, the qRT-PCR result also shows that the transcript accumulation of <italic>pltA</italic>, which is the second gene in the <italic>pltLABCDEFG</italic> biosynthetic structural operon, in the M18pltB strain was strongly increased in KMB with 10 &#xB5;g ml<sup>&#x2212;1</sup> exogenous Plt compared with that in KMB without the addition of Plt (<xref ref-type="fig" rid="pone-0039538-g006">Fig. 6C</xref>).</p>
+        <fig id="pone-0039538-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Exogenous Plt specifically induced the <italic>pltLp</italic> promoter expression and thus enhanced the <italic>plt</italic> operon transcription.</title>
+            <p>(<bold>A</bold> and <bold>B</bold>) &#x3B2;-galactosidase expression (Miller Units) from p6522&#x2013;pltLp and p6522&#x2013;L6-1, which respectively carry <italic>pltLp</italic> (&#x2212;84 bp to +1) and its upstream P<sub>x</sub> promoter (+66 bp to +124 bp), was assayed in the KMB without or with 10 &#x3BC;g mL<sup>&#x2212;1</sup> exogenous Plt. The addition of 10 &#x3BC;g ml<sup>&#x2212;1</sup> exogenous Plt significantly enhanced the <italic>pltLp&#x2013;lacZ</italic> expression (A), but did not influence <italic>P<sub>X</sub>&#x2013;lacZ</italic> fusion expression (B) in the Plt-defective mutant M18pltB. (<bold>C</bold>) qRT-PCR analysis of the <italic>pltA</italic> transcript level in the strain M18pltB grown in the KMB without or with 10 &#x3BC;g ml<sup>&#x2212;1</sup> exogenous Plt. The <italic>pltA</italic> transcript level was significantly enhanced by the addition of exogenous Plt.</p>
+          </caption>
+          <graphic xlink:href="pone.0039538.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>In this study, we identified three promoters in the <italic>pltL</italic> direction, including the <italic>pltL</italic> promoter (<italic>pltLp</italic>) that is specifically activated by PltR and its upstream closely neighboring promoter (P<sub>x</sub>) that is not controlled by PltR, and one promoter (<italic>pltR</italic> promoter) in the <italic>pltR</italic> direction from the complex intergenic region between the divergently transcribed <italic>pltR</italic> and <italic>pltLABCDEFG</italic> operons (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>). PltR, a pathway-specific transcriptional activator of the <italic>plt</italic> operon, was shown to directly bind to the <italic>pltLp</italic> region at the indispensable <italic>lys</italic> box, a 22 bp palindromic sequence closely linking two neighboring promoters <italic>pltLp</italic> and P<sub>x</sub>. Plt, as a potential and non-essential cofactor of PltR, specifically induces the expression of the <italic>pltLp</italic> promoter and thus enhance Plt's own biosynthetic operon expression and biosynthesis. These are summarized in a proposed model describing transcriptional activation and autoinduction of Plt biosynthesis in <italic>P. aeruginosa</italic> M18 (<xref ref-type="fig" rid="pone-0039538-g007">Fig. 7A</xref>). In addition to the pathway-specific regulation, the <italic>plt</italic> biosynthetic operon is also subject to extensive global regulation from the Las, Rhl, and PQS QS systems <xref ref-type="bibr" rid="pone.0039538-Lu1">[14]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0039538-Chen1">[16]</xref> and the Gac/Rsm signal transduction system <xref ref-type="bibr" rid="pone.0039538-Zhang1">[12]</xref>, <xref ref-type="bibr" rid="pone.0039538-Ge1">[13]</xref>.</p>
+      <fig id="pone-0039538-g007" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0039538.g007</object-id>
+        <label>Figure 7</label>
+        <caption>
+          <title>Proposed model for the transcriptional activation of PltR and autoinduction of pyoluteorin on Plt biosynthetic operon in <italic>P. aeruginosa</italic> M18.</title>
+          <p>(<bold>A</bold>)<bold/> Thick arrows indicate activation, autoinduction, and positive regulation; thin arrows indicate biogenesis. P<sub>L</sub> and P<sub>R</sub> denote the promoters of <italic>pltL</italic> and <italic>pltR</italic>. P<sub>X</sub> and P<sub>Y</sub> are two uncharacterized promoters. The TSS is shown with +1. The LysR-type regulator PltR transcriptionally activates the <italic>plt</italic> operon expression by directly binding to the <italic>pltLp</italic> region at the indispensable palindromic <italic>lys</italic> box. PltR also functions as a candidate receptor of Plt. Plt, as a potential and nonessential cofactor of PltR, specifically induces the expression of the <italic>pltL</italic> promoter and thus the <italic>plt</italic> operon. (<bold>B</bold>) <bold>The PltR protein comprise two domains:</bold> the N-terminal LysR-family HTH (helix-turn-helix) DNA-binding domain and the C-terminal co-inducer binding domain (predicted by Pfam 25.0). aa, amino acids.</p>
+        </caption>
+        <graphic xlink:href="pone.0039538.g007"/>
+      </fig>
+      <p>LTTRs are known to bind mostly at the palindromic <italic>lys</italic> box neighboring or overlapping the upstream region of the target promoter. The <italic>lys</italic> box typically consists of the T-N<sub>11</sub>-A sequence <xref ref-type="bibr" rid="pone.0039538-Maddocks1">[19]</xref>. Similarly, as a typical LTTR protein, PltR contains a DNA-binding HTH motif for the potential binding of <italic>pltLp</italic> and a co-inducer binding motif as the candidate binding site of Plt (<xref ref-type="fig" rid="pone-0039538-g007">Fig. 7B</xref>). The target <italic>lys</italic> box of PltR, a 22 bp interrupted (by 4 bp) palindromic sequence, was localized from &#x2212;53 bp to &#x2212;84 bp upstream of the <italic>pltL</italic> gene TSS. Moreover, it also carries the classic T-N<sub>11</sub>-A sequence. Interestingly, this 22 bp palindromic sequence was shown (by BLAST analysis) to be the only homologous sequence commonly shared by two <italic>pltR</italic>&#x2013;<italic>pltL</italic> intergenic regions from <italic>P. aeruginosa</italic> M18 and <italic>P. fluorescens</italic> Pf-5 (data not shown). This phenomenon suggests that the common mechanisms involved in PltR activation and Plt autoinduction may exist between both these strains.</p>
+      <p>Studies on transcriptional activation by several members of the LTTR family have revealed many mechanistic details, and the &#x201C;sliding dimer&#x201D; model, a general model for inducer-dependent activation, has been proposed <xref ref-type="bibr" rid="pone.0039538-Maddocks1">[19]</xref>, <xref ref-type="bibr" rid="pone.0039538-Porrua1">[26]</xref>. According to this model, two binding sites, designated RBS (regulatory binding site) and ABS (activation binding site), was respectively occupied by two dimers and thus induced to form a sharp bending. However, the <italic>pltLp</italic> activation by PltR may not comply with the &#x201C;sliding dimer&#x201D; model because of the presence of the P<sub>x</sub> promoter closely neighboring upstream of the <italic>pltLp</italic>. Intriguingly, the gradual opening of the <italic>lys</italic> box formed stem-loop through a 2 bp to 6 bp substitution gave rise to a significant decrease and even complete inhibition in both the <italic>pltLp</italic> activity and the PltR&#x2013;<italic>pltLp</italic> binding. This decrease was not restored by the reformation of similar stem-loops via a complementary mutation of a 4 bp replacement (<xref ref-type="fig" rid="pone-0039538-g004">Figs. 4A</xref> and <xref ref-type="fig" rid="pone-0039538-g005">5</xref>). Thus, not only secondary structure but also primary sequence of the target DNA may be critical for the specific binding of PltR&#x2013;<italic>pltLp</italic>.</p>
+      <p>Autoinduction is widespread in gene regulation involved in bacterial secondary metabolism, such as QS signal and antibiotic biosynthesis <xref ref-type="bibr" rid="pone.0039538-Kidarsa1">[9]</xref>, <xref ref-type="bibr" rid="pone.0039538-Brodhagen2">[18]</xref>, <xref ref-type="bibr" rid="pone.0039538-SchniderKeel1">[23]</xref>, <xref ref-type="bibr" rid="pone.0039538-Lamont1">[25]</xref>. In contrast to that the transcriptional activator PltR mediated the induction of <italic>plt</italic> operon expression by Plt, the TetR-type transcriptional repressor PhlF was confirmed to mediate the induction of <italic>phl</italic> operon expression by 2,4-DAPG (diacetylphloroglucinol) in <italic>P. fluorescens</italic> CHA0 <xref ref-type="bibr" rid="pone.0039538-SchniderKeel1">[23]</xref>. PhlF represses <italic>phlA</italic> transcription by binding to the <italic>phlA</italic> operator in <italic>P. fluorescens</italic> F113 <xref ref-type="bibr" rid="pone.0039538-Abbas1">[27]</xref>, which in turn can be derepressed potentially through the dissociation of PhlF from the <italic>phlA</italic> operator by 2,4-DAPG <xref ref-type="bibr" rid="pone.0039538-SchniderKeel1">[23]</xref>. Phloroglucinol, a precursor of 2,4-DAPG, was reported to mediate cross-talk between Plt and 2,4-DAPG biosynthetic pathways in <italic>P. fluorescens</italic> Pf-5 <xref ref-type="bibr" rid="pone.0039538-Kidarsa1">[9]</xref>. In the present study, Plt may directly bind to its candidate receptor PltR, thereby promoting the binding of PltR with the <italic>pltLp</italic> at the <italic>lys</italic> box and transcriptional activation efficiency of PltR. However, further research is needed to confirm the direct binding of Plt to PltR and to assess whether the Plt binding causes the binding enhancement and allosteric transition of the PltR&#x2013;DNA complex.</p>
+      <p>Two promoters, <italic>pltLp</italic> and P<sub>x</sub> (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2</xref>), which were not identified by the NNPP prediction program, might not carry the conserved promoter sequence. The concurrent presence of three promoters in the <italic>pltL</italic> direction implies that these promoters may be recognized by different sigma factors in response to different signals. An <italic>rpoS</italic> mutant or multiple copies of <italic>rpoD</italic> reportedly stimulates the overproduction of Plt and DAPG in <italic>P. fluorescens</italic> Pf-5 and CHA0 <xref ref-type="bibr" rid="pone.0039538-Sarniguet1">[28]</xref>, <xref ref-type="bibr" rid="pone.0039538-Schnider1">[29]</xref> and Plt overproduction in <italic>P. aeruginosa</italic> M18 <xref ref-type="bibr" rid="pone.0039538-Ge2">[30]</xref>, <xref ref-type="bibr" rid="pone.0039538-Zhu1">[31]</xref>. Further research is needed to identify the TSS and function of P<sub>x</sub>, define the relationship between the <italic>pltLp</italic> and P<sub>x</sub>, and assess the possibility of the occurrence of sRNA within the <italic>pltR&#x2013;pltL</italic> intergenic region. In addition, the result that the LacZ expression deriving from p6522-L1 was started in <italic>E. coli</italic> DH5&#x3B1;, whereas was entirely inhibited in <italic>P. aeruginosa</italic> M18 (<xref ref-type="fig" rid="pone-0039538-g001">Figs. 1C and 1D</xref>) suggests that a potential promoter (P<sub>Y</sub>) in the <italic>pltL</italic> direction is far from the neighboring <italic>pltLp</italic> and P<sub>x</sub> promoters. The P<sub>Y</sub> promoter was shown to partly overlap with the <italic>pltR</italic> promoter (P<sub>R</sub>) (<xref ref-type="fig" rid="pone-0039538-g001">Figs. 1A and 1C</xref>); they displayed similar expression in <italic>E. coli</italic> DH5&#x3B1;(<xref ref-type="fig" rid="pone-0039538-g001">Figs. 1B and 1D</xref>). However, whether the P<sub>Y</sub> and P<sub>R</sub> promoters constitute a bidirectional promoter remains unknown.</p>
+      <p>In summary, <italic>pltLp</italic> and its upstream neighboring <italic>lys</italic> box have been identified and characterized for PltR binding from the complicated <italic>pltR&#x2013;pltL</italic> intergenic region. Plt, a potential and non-essential cofactor of PltR, specifically induces the <italic>pltLp</italic> expression and thus strengthens its own <italic>plt</italic> biosynthetic operon. Further work is needed to assess the possibility for the direct binding of Plt by PltR and ascertain whether the Plt binding causes the enhancement and conformation transition of PltR-<italic>pltLp</italic> binding and thereby promotes the transcriptional activation efficiency of PltR. In addition, we will focus on elaborating the complicated regulatory mechanisms hidden within the 652 bp <italic>pltR&#x2013;pltL</italic> intergenic sequence, including the promoters, <italic>cis</italic>-elements, and potential sRNAs involved in the regulation of Plt biosynthesis in <italic>P. aeruginosa</italic> M18.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains, plasmids, oligonucleotides, and culture conditions</title>
+        <p>The bacterial strains, plasmids, and primers used in the present study are listed in <xref ref-type="table" rid="pone-0039538-t001">Table 1</xref> and <xref ref-type="supplementary-material" rid="pone.0039538.s001">Table S1</xref>. <italic>Escherichia coli</italic> was cultured in Luria&#x2013;Bertani (LB) broth at 37&#xB0;C <xref ref-type="bibr" rid="pone.0039538-Sambrook1">[32]</xref>. <italic>P. aeruginosa</italic> M18 and its derivatives were grown in King's medium B (KMB) at 28&#xB0;C <xref ref-type="bibr" rid="pone.0039538-King1">[33]</xref>. When needed, 0.5 mM IPTG and 20 &#x3BC;g ml<sup>&#x2212;1</sup> X-Gal were used for blue/white screening, and 4 mg ml<sup>&#x2212;1</sup> ortho-nitrophenyl-&#x3B2;-<sc>d</sc>-galactopyranoside (ONPG) in 100 mM phosphate buffer (pH 7.0) were used for &#x3B2;-galactosidase assays. Antibiotics were added in the following final concentrations (&#x3BC;g ml<sup>&#x2212;1</sup>): for <italic>Pseudomonas</italic>, spectinomycin (Sp) 100, tetracycline (Tc) 120, gentamicin (Gm) 45, kanamycin (Km) 50 and chloramphenicol (Cm) 200 for <italic>Pseudomonas</italic>; Tc 15, Gm 10, Km 50 and Cm 40 for <italic>E. coli</italic>.</p>
+        <table-wrap id="pone-0039538-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0039538.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Bacterial strains and plasmids used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0039538-t001-1" xlink:href="pone.0039538.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strains/plasmids</td>
+                  <td align="left" rowspan="1" colspan="1">Genotype and relevant characteristics</td>
+                  <td align="left" rowspan="1" colspan="1">Reference</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>
+                      <italic>E. coli</italic>
+                    </bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">DH5&#x3B1;</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>supE</italic>44&#x394;<italic>lac</italic>U169(&#x3A6;80<italic>lacZ</italic>&#x394;M15)<italic>hsdR</italic>17 <italic>recA</italic>1 <italic>endA</italic>1 <italic>gyrA</italic>96 <italic>thi-</italic>1 <italic>relA</italic>1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">BL21 (DE3)</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>E.coli B,</italic> F- , <italic>ompT, hsdSB(rB-mB-), gal, dcm</italic> (DE3)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>
+                      <italic>P. aeruginosa</italic>
+                    </bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">M18WT</td>
+                  <td align="left" rowspan="1" colspan="1">Wild type</td>
+                  <td align="left" rowspan="1" colspan="1">Huang <italic>et al.</italic>
+<xref ref-type="bibr" rid="pone.0039538-Huang2">[5]</xref></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">M18pltR</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>pltR</italic>::Gm<sup>r</sup>, Sp<sup>r</sup> Gm<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Yan <italic>et al.</italic>
+<xref ref-type="bibr" rid="pone.0039538-Yan1">[15]</xref></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">M18pltB</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>pltB</italic>::Gm<sup>r</sup>, Sp<sup>r</sup> Gm<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Huang <italic>et al.</italic>
+<xref ref-type="bibr" rid="pone.0039538-Huang1">[4]</xref></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Plasmids</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pME6522</td>
+                  <td align="left" rowspan="1" colspan="1">pVS1-p15A <italic>E.coli</italic> &#x2013; <italic>Pseudomonas</italic> shuttle vector for transcriptional <italic>lacZ</italic> fusions and promoter probing, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Blumer <italic>et al.</italic>
+<xref ref-type="bibr" rid="pone.0039538-Blumer1">[38]</xref></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-R1 to R4</td>
+                  <td align="left" rowspan="1" colspan="1">Four fragments, R1 to R4, which respectively harbor five putative promoters in the <italic>pltR</italic> direction (R3 includes two putative promoters), were fused with the upstream of promoter-less <italic>lacZ</italic> gene on pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-L1 to L5</td>
+                  <td align="left" rowspan="1" colspan="1">Five fragments, L1 to L5, which contain five putative promoters in the <italic>pltL</italic> direction, were respectively fused into the upstream of <italic>lacZ</italic> gene in pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-L3-1 to L3-4</td>
+                  <td align="left" rowspan="1" colspan="1">Four prolonging fragments based on L3, L3-1 to L3-4, was respectively fused with the <italic>lacZ</italic> gene in pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">P6522-L6</td>
+                  <td align="left" rowspan="1" colspan="1">The L6 fragment (covering 235 bp upstream the <italic>pltL</italic> translational start codon) in the <italic>pltL</italic> direction, which was not predicted to contain promoter, was fused into the upstream of <italic>lacZ</italic> gene in pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">P6522-L6-1 to L6-3</td>
+                  <td align="left" rowspan="1" colspan="1">Three shortened derivative fragments based on L6, L6&#x2013;1 to L6&#x2013;3, and the L6&#x2013;4 fragment, were respectively cloned into pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-L6-3-1 to L6-3-4</td>
+                  <td align="left" rowspan="1" colspan="1">Five continuously prolonged fragments based on L6&#x2013;3, L6-3-1 to L6-3-4, were respectively cloned into pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-pltLp</td>
+                  <td align="left" rowspan="1" colspan="1">The 85 bp <italic>pltL</italic> promoter fragment was cloned into pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-pltLp-2 to pltLp-3</td>
+                  <td align="left" rowspan="1" colspan="1">Two mutagenized <italic>pltL</italic> promoter fragments (64 bp) with a half or entire deletion of palindromic <italic>lys</italic> box were respectively cloned into pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">p6522-pltLp-M2 to pltLp-M6</td>
+                  <td align="left" rowspan="1" colspan="1">Three mutant fragments of <italic>pltLp</italic> promoter, <italic>pltLp-M2</italic>, <italic>-M4</italic>, and <italic>-M6</italic>, which respectively carry 2-bp, 4-bp, and 6-bp replacement in the <italic>lys</italic> box, were cloned into pME6522, Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">P6522-pltLp-M4-M</td>
+                  <td align="left" rowspan="1" colspan="1">The <italic>pltLp-M4-M</italic> fragment, which was generated by introducing a 4-bp complementary replacement in the <italic>lys</italic> box into the <italic>pltLp-M4</italic> mutant, was cloned into pME6522; Tc<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pBBR1MCS</td>
+                  <td align="left" rowspan="1" colspan="1">Cloning vector, broad host range, IncP IncQ, Cm<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Kovach <italic>et al.</italic>
+<xref ref-type="bibr" rid="pone.0039538-Kovach1">[39]</xref></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pBBR-pltR</td>
+                  <td align="left" rowspan="1" colspan="1">A 1198 bp <italic>BamH</italic>I-<italic>Hind</italic>III fragment containing the 1032 bp entire ORF of <italic>pltR</italic> and its upstream promoter/operator region was cloned into pBBR1MCS, Cm<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET28a</td>
+                  <td align="left" rowspan="1" colspan="1">T7 expression vector, Km<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Novagen</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET-pltR</td>
+                  <td align="left" rowspan="1" colspan="1">A 1052 bp <italic>Nde</italic>I-<italic>Hind</italic>III fragment containing the 1032 bp entire ORF of <italic>pltR</italic> was cloned into pET28a, Km<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s4b">
+        <title>DNA manipulation and analyses</title>
+        <p>All molecular biology methods not depicted in detail were carried out using standard procedures <xref ref-type="bibr" rid="pone.0039538-Sambrook1">[32]</xref>. General molecular biological reagents or kits were used according to the manufacturers' specifications, including Taq, LA Taq (TaKaRa), and KOD <italic>plus</italic> DNA polymerase (Toyobo), restriction endonucleases, DNA ligase, DNA and protein markers, plasmid DNA (TaKaRa or BioDev) and genomic DNA extraction kits (BBI), and DNA gel recovery kits (Qiagen or Axygen). DNA was synthesized by Shanghai Sangon Biological Engineering Technology and Services Co., Ltd., and sequenced by the Invitrogen Biotechnology Corporation and the Beijing HuaDa Genomics Institute.</p>
+        <p>Neural Network Promoter Prediction (NNPP) software (v. 2.2) was used to identify putative promoter elements of the <italic>pltR</italic>&#x2013;<italic>pltL</italic> intergenic region, with a minimum promoter score of 0.8 <xref ref-type="bibr" rid="pone.0039538-Reese1">[34]</xref>. The secondary structure of the <italic>pltLp</italic> sequence was predicted by Mfold 3.2 at 28&#xB0;C. The most stable structure was chosen when multiple structures were generated <xref ref-type="bibr" rid="pone.0039538-Zuker1">[35]</xref>. The probable protein domain analysis of PltR was performed using Pfam <xref ref-type="bibr" rid="pone.0039538-Bateman1">[36]</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>5&#x2032;Rapid amplification of cDNA end (5&#x2032;RACE) for identifying the transcriptional start sites (TSS) of <italic>pltR</italic> and <italic>pltLABCDEFG</italic></title>
+        <p>5&#x2032;RACE was performed using an Invitrogen 5&#x2032;RACE system. Total RNAs were isolated using the NucleoSpin&#xAE; RNA II kit (Macherey&#x2013;Nagel). The first strand cDNAs of <italic>pltR</italic> and <italic>pltL</italic> were respectively synthesized from total RNA templates using DNA specific primers Ptsr1 and Ptsl1, and purified with a S.N.A.P column. A homopolymeric C tail was then added to the 3&#x2032;-end of cDNAs using deoxynucleotidyl transferase (TdT) and dCTP. PCR amplification of the dC-tailed cDNA was carried out using the novel deoxyinosine-containing abridged anchor primer (AAP) and the nested DNA specific primers Ptsr2 or Ptsl2. The PCR products were purified and cloned into the pMD18-T vectors (TaKaRa). The TSSs were identified through the sequencing of multiple independent clones.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Construction of <italic>lacZ</italic> fusion plasmids and &#x3B2;-galactosidase activity assay</title>
+        <p>The reporter plasmid pME6522, which carries a promoterless <italic>E. coli lacZ</italic> gene downstream from a multiple cloning site and encodes Tc resistance, was used to probe unknown promoter activity or construct transcriptional fusion plasmid. As shown in <xref ref-type="fig" rid="pone-0039538-g001">Figs. 1A and 1C</xref>, two sets of DNA fragments containing all putative promoters (predicted by NNPP, <italic>P</italic>&gt;0.8) at the 5&#x2032;-terminals of <italic>pltR</italic> and <italic>pltL</italic> operons were respectively amplified and cloned into the <italic>Eco</italic>RI/<italic>Pst</italic>I-digested pME6522 to identify actual promoter activity. Four fragments (L3&#x2013;1 to L3&#x2013;4), which extend continuously from the right of the L3 fragment, were cloned into pME6522 to probe for potential promoter activity and location within the L6 fragment not predicted to carry any promoters of the <italic>pltLABCDEFG</italic> operon (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1E</xref>). The L6 fragment and its eight systematically deleted fragments were inserted into the plasmid pME6522 to analyze the <italic>cis-</italic>regulatory elements in the 5&#x2032;-leader of the <italic>plt</italic> operon, including promoters and the PltR's acting site (<xref ref-type="fig" rid="pone-0039538-g001">Fig. 1G</xref>).</p>
+        <p>The <italic>pltLp&#x2013;lacZ</italic> transcriptional fusion plasmid (p6522&#x2013;pltLp) was constructed by introducing a 85 bp DNA fragment, which ranges from &#x2212;84 bp to the actual TSS (+1) and harbors the <italic>pltLp</italic> and its upstream neighboring palindromic <italic>lys</italic> box (<xref ref-type="fig" rid="pone-0039538-g002">Fig. 2A</xref>), into the plasmid pME6522, thereby generating p6522&#x2013;pltLp (<xref ref-type="fig" rid="pone-0039538-g003">Fig. 3A</xref> and <xref ref-type="fig" rid="pone-0039538-g004">4B</xref>). The <italic>pltLp</italic> fragments with deletion of half or the entire <italic>lys</italic> box were cloned into pME6522, generating two fusion plasmids, p6522&#x2013;pltLp-2 and p6522&#x2013;pltLp-3 (<xref ref-type="fig" rid="pone-0039538-g004">Fig. 4B</xref>). All recombined <italic>lacZ</italic> reporter plasmids in this study have been verified by sequencing with a <italic>lacZ</italic> primer.</p>
+        <p><italic>P. aeruginosa</italic> M18 and its derivative strains carrying the <italic>lacZ</italic> reporter plasmids above were inoculated from the overnight culture into 500-ml Erlenmeyer flasks containing 100 ml KMB media to a final concentration of OD<sub>600</sub> &#x200A;=&#x200A;0.05, and grown at 28&#xB0;C with shaking at 200 rpm. &#x3B2;-Galactosidase activities were measured according to the method by Miller <xref ref-type="bibr" rid="pone.0039538-Miller1">[37]</xref> and as described by Huang <italic>et al.</italic>
+<xref ref-type="bibr" rid="pone.0039538-Huang2">[5]</xref>.</p>
+      </sec>
+      <sec id="s4e">
+        <title>qRT-PCR</title>
+        <p><italic>P. aeruginosa</italic> M18 and its derivative mutant M18pltB were grown in KMB with or without 10 &#xB5;g ml<sup>&#x2212;1</sup> Plt. Cells were harvested from 0.5 ml of cultures with an OD<sub>600</sub> of 3.5 to 5 and submitted to quantify the accumulation level of <italic>pltA</italic> mRNA by quantitative reverse transcription PCR (qRT-PCR). Total RNA was isolated with NucleoSpin RNA II kit (Macherey&#x2013;Nagel) and treated with RQ1 RNase-free DNase (Promega). First strand cDNA was synthesized using RevertAid&#x2122; First Strand cDNA Synthesis Kit (MBI Fermentas) and quantified using a RealMasterMix (SYBR Green) RT-PCR Kit (Tiangen). The qRT-PCR amplicons of <italic>pltA</italic> (157 bp) and the reference gene <italic>rpoD</italic> (173 bp) were synthesized from their first strand cDNA templates with the corresponding gene-specific primers. The results were normalized using the constitutively expressed gene <italic>rpoD</italic> as the internal control. Experiments were carried out in triplicate.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Overexpression and purification of PltR</title>
+        <p>An 1178 bp fragment, including the entire <italic>pltR</italic> gene (1032 bp) and its operator/promoter region (146 bp), was amplified and cloned into the <italic>E. coli&#x2013;Pseudomonas</italic> shuttle vector pBBR1MCS at the <italic>Bam</italic>HI and <italic>Hind</italic>III sites, thus constructing the <italic>pltR</italic> overexpression plasmid pBBR&#x2013;pltR.</p>
+        <p>The entire <italic>pltR</italic> ORF (1032 bp) was amplified and inserted into the <italic>Nde</italic>I/<italic>Bam</italic>HI-digested pET28a plasmid. The resulting plasmid, pET&#x2013;pltR, was transformed into <italic>E. coli</italic> BL21 for overexpression and purification of the C-terminus His<sub>6</sub>&#x2013;tagged PltR protein. <italic>E. coli</italic> BL21 carrying the pET28a&#x2013;<italic>pltR</italic> plasmid was grown at 37&#xB0;C in 1000 ml LB media, with shaking to an OD<sub>600</sub> of 0.8, and induced with 0.5 mM IPTG. Subsequently, cell cultures were incubated at 16&#xB0;C for 16 h. The cells were harvested by centrifugation and resuspended in 10 ml nickel A buffer (20 mM imidazole, 300 mM NaCl, 25 mM Tris&#x2013;HCl at pH 8.0). The resuspending solution was added 1 &#x3BC;g ml<sup>&#x2212;1</sup> leupeptin, 1 &#x3BC;g ml<sup>&#x2212;1</sup> aprotinin, and 50 &#x3BC;M phenylmethylsulfonyl fluoride (PMSF) and shaken at 4&#xB0;C for 30 min. The cells were lysed in ultrasonic cell disruptor. The protein extract was loaded onto a Ni&#x2013;NTA agarose column (GE healthcare) and washed twice with 5 ml nickel buffer. The PltR protein was eluted with the elution buffer containing 500 mM imidazole. The purified PltR protein was stored in a buffer containing 20 mM Tris&#x2013;HCl (pH 8.0), 200 mM NaCl, 1 mM DTT, and 1 mM EDTA at &#x2212;80&#xB0;C after removing the imidazole by HPLC (AKTA).</p>
+      </sec>
+      <sec id="s4g">
+        <title>Electrophoretic mobility shift assay (EMSA) of DNA&#x2013;protein interaction</title>
+        <p>DNA probes were generated by PCR with the corresponding biotin-labeled primers (<xref ref-type="supplementary-material" rid="pone.0039538.s001">Table S1</xref>). EMSA was performed using a Thermo Scientific LightShift Chemiluminescent EMSA Kit (No. 20148). A total of 0.5 nM biotin-labeled DNA probes were incubated with increasing concentrations of PltR protein in 10 ul binding buffer. The reaction mixtures were incubated for 20 min to 40 min at room temperature. Subsequently, 6 ul of the samples were separated by electrophoresis on 6% native polyacrylamide gel and electrotransferred to a positively charged nylon membrane (Ambion). The transferred PltR&#x2013;DNA complexes and free DNA probes were cross-linked to the membrane for 2 min with a 320 nm UV light cross-linking instrument. Finally, the biotin-labeled bands were detected using a Thermo Scientific Chemiluminescent Nucleic Acid Detection Module.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Site-directed mutagenesis of the 22 bp palindromic <italic>lys</italic> box</title>
+        <p>Three mutants of the <italic>pltLp</italic> region (&#x2212;84 bp to +1), which respectively carried 2 bp (M2: G74T, C73A), 4 bp (M4: G74T, C73A, T71G, T70C), and 6 bp replacements (M6: G74T, C73A, T71G, T70C, G68A, C67T) in the <italic>lys</italic> box (<xref ref-type="fig" rid="pone-0039538-g005">Fig. 5A</xref>), were generated by PCR amplification with the respective mutant forward primer and the same non- or biotin-labeled reverse primer (<xref ref-type="supplementary-material" rid="pone.0039538.s001">Table S1</xref>). Similarly, a 4 bp complementary replacement was introduced to the M4 mutant to construct the M4-M (G74T, C73A, T71G, T70C, and A57G, A56C, G54T, C53A) <italic>pltLp</italic> mutant (<xref ref-type="fig" rid="pone-0039538-g005">Fig. 5A</xref>). The mutant PCR products were cloned into the <italic>Eco</italic>RI/<italic>Pst</italic>I-digested pME6522, producing the corresponding <italic>lacZ</italic> fusion reporter plasmids. In addition, the biotin-labeled mutant PCR products were used for the EMSA analysis.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Effect of exogenous Plt on the <italic>pltLp</italic> and <italic>plt</italic> operon expression</title>
+        <p>The <italic>pltB</italic> mutant M18pltB carrying the <italic>lacZ</italic> reporter plasmid p6522&#x2013;pltLp or p6522&#x2013;L6-1 was grown in KMB with or without Plt at a final concentration of 10 &#x3BC;g ml<sup>&#x2212;1</sup> (dissolved in methanol). &#x3B2;-Galactosidase activity was measured to confirm the specific induction of <italic>pltLp</italic> by Plt. Similarly, the <italic>pltA</italic> mRNA level of the M18pltB strain was assayed by qRT-PCR in KMB with or without 10 &#x3BC;g ml<sup>&#x2013;1</sup> Plt.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0039538.s001">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Primers used in this study.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+        <media xlink:href="pone.0039538.s001.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Dr. Dieter Hass for providing the <italic>lacZ</italic> fusion reporter plasmid pME6522 in this study. We thank Dr. Geng Wu for providing the protein purification equipment.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This work was supported by grants from the National Natural Science Foundation of China (No. 30800009), the National High-Tech Research and Development Program (863 Program) of China (No. 2007AA02Z215), the National Key Basic Research Program (973 Program) of China (No. 2009CB118906), the Key Project of the Shanghai Committee of Science and Technology (No. 08391911900), and the Shanghai Leading Academic Discipline Project (No. B203). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0039538-Bender1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bender</surname><given-names>C</given-names></name><name><surname>Rangaswamy</surname><given-names>V</given-names></name><name><surname>Loper</surname><given-names>J</given-names></name></person-group>
+<year>1999</year>
+<article-title>Polyketide production by plant-associated <italic>Pseudomonads</italic>.</article-title>
+<source>Annu Rev Phytopathol</source>
+<volume>37</volume>
+<fpage>175</fpage>
+<lpage>196</lpage>
+<pub-id pub-id-type="pmid">11701821</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Brodhagen1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brodhagen</surname><given-names>M</given-names></name><name><surname>Paulsen</surname><given-names>I</given-names></name><name><surname>Loper</surname><given-names>JE</given-names></name></person-group>
+<year>2005</year>
+<article-title>Reciprocal regulation of pyoluteorin production with membrane transporter gene expression in <italic>Pseudomonas fluorescens</italic> Pf-5.</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>71</volume>
+<fpage>6900</fpage>
+<lpage>6909</lpage>
+<pub-id pub-id-type="pmid">16269724</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-NowakThompson1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nowak-Thompson</surname><given-names>B</given-names></name><name><surname>Chaney</surname><given-names>N</given-names></name><name><surname>Wing</surname><given-names>JS</given-names></name><name><surname>Gould</surname><given-names>SJ</given-names></name><name><surname>Loper</surname><given-names>JE</given-names></name></person-group>
+<year>1999</year>
+<article-title>Characterization of the pyoluteorin biosynthetic gene cluster of <italic>Pseudomonas fluorescens</italic> Pf-5.</article-title>
+<source>J Bacteriol</source>
+<volume>181</volume>
+<fpage>2166</fpage>
+<lpage>2174</lpage>
+<pub-id pub-id-type="pmid">10094695</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Huang1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Yan</surname><given-names>A</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Xu</surname><given-names>Y</given-names></name></person-group>
+<year>2006</year>
+<article-title>Identification and characterization of a putative ABC transporter PltHIJKN required for pyoluteorin production in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>Gene</source>
+<volume>376</volume>
+<fpage>68</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="pmid">16581203</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Huang2">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Zhu</surname><given-names>D</given-names></name><name><surname>Ge</surname><given-names>Y</given-names></name><name><surname>Hu</surname><given-names>H</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Identification and characterization of <italic>pltZ</italic>, a gene involved in the repression of pyoluteorin biosynthesis in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>FEMS Microbiol Lett</source>
+<volume>232</volume>
+<fpage>197</fpage>
+<lpage>202</lpage>
+<pub-id pub-id-type="pmid">15033239</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Winstanley1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Winstanley</surname><given-names>C</given-names></name><name><surname>Langille</surname><given-names>MG</given-names></name><name><surname>Fothergill</surname><given-names>JL</given-names></name><name><surname>Kukavica-Ibrulj</surname><given-names>I</given-names></name><name><surname>Paradis-Bleau</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Newly introduced genomic prophage islands are critical determinants of in vivo competitiveness in the Liverpool Epidemic Strain of <italic>Pseudomonas aeruginosa</italic>.</article-title>
+<source>Genome Res</source>
+<volume>19</volume>
+<fpage>12</fpage>
+<lpage>23</lpage>
+<pub-id pub-id-type="pmid">19047519</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Wu1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>DQ</given-names></name><name><surname>Ye</surname><given-names>J</given-names></name><name><surname>Ou</surname><given-names>HY</given-names></name><name><surname>Wei</surname><given-names>X</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Genomic analysis and temperature-dependent transcriptome profiles of the rhizosphere originating strain <italic>Pseudomonas aeruginosa</italic> M18.</article-title>
+<source>BMC Genomics</source>
+<volume>12</volume>
+<fpage>438</fpage>
+<pub-id pub-id-type="pmid">21884571</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Paulsen1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Press</surname><given-names>CM</given-names></name><name><surname>Ravel</surname><given-names>J</given-names></name><name><surname>Kobayashi</surname><given-names>DY</given-names></name><name><surname>Myers</surname><given-names>GS</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Complete genome sequence of the plant commensal <italic>Pseudomonas fluorescens</italic> Pf-5.</article-title>
+<source>Nat Biotechnol</source>
+<volume>23</volume>
+<fpage>873</fpage>
+<lpage>878</lpage>
+<pub-id pub-id-type="pmid">15980861</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Kidarsa1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kidarsa</surname><given-names>TA</given-names></name><name><surname>Goebel</surname><given-names>NC</given-names></name><name><surname>Zabriskie</surname><given-names>TM</given-names></name><name><surname>Loper</surname><given-names>JE</given-names></name></person-group>
+<year>2011</year>
+<article-title>Phloroglucinol mediates cross-talk between the pyoluteorin and 2,4-diacetylphloroglucinol biosynthetic pathways in <italic>Pseudomonas fluorescens</italic> Pf-5.</article-title>
+<source>Mol Microbiol</source>
+<volume>81</volume>
+<fpage>395</fpage>
+<lpage>414</lpage>
+<pub-id pub-id-type="pmid">21564338</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Haas1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haas</surname><given-names>D</given-names></name><name><surname>Keel</surname><given-names>C</given-names></name></person-group>
+<year>2003</year>
+<article-title>Regulation of antibiotic production in root-colonizing <italic>Pseudomonas spp.</italic> and relevance for biological control of plant disease.</article-title>
+<source>Ann Rev Phytopathol</source>
+<volume>41</volume>
+<fpage>117</fpage>
+<lpage>153</lpage>
+<pub-id pub-id-type="pmid">12730389</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Lapouge1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lapouge</surname><given-names>K</given-names></name><name><surname>Schubert</surname><given-names>M</given-names></name><name><surname>Allain</surname><given-names>FHT</given-names></name><name><surname>Haas</surname><given-names>D</given-names></name></person-group>
+<year>2008</year>
+<article-title>Gac/Rsm signal transduction pathway of gamma-proteobacteria: from RNA recognition to regulation of social behaviour.</article-title>
+<source>Mol Microbiol</source>
+<volume>67</volume>
+<fpage>241</fpage>
+<lpage>253</lpage>
+<pub-id pub-id-type="pmid">18047567</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Zhang1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Wang</surname><given-names>S</given-names></name><name><surname>Geng</surname><given-names>H</given-names></name><name><surname>Ge</surname><given-names>Y</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Differential regulation of <italic>rsmA</italic> gene on biosynthesis of pyoluteorin and phenazine-1-carboxylic acid in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>W J Microbiol Biotechnol</source>
+<volume>21</volume>
+<fpage>883</fpage>
+<lpage>889</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0039538-Ge1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ge</surname><given-names>Y</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Wang</surname><given-names>S</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Xu</surname><given-names>Y</given-names></name></person-group>
+<year>2004</year>
+<article-title>Phenazine-1-carboxylic acid is negatively regulated and pyoluteorin positively regulated by <italic>gacA</italic> in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>FEMS Microbiol Lett</source>
+<volume>237</volume>
+<fpage>41</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="pmid">15268936</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Lu1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>J</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Li</surname><given-names>K</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Zhang</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>LysR family transcriptional regulator PqsR as repressor of pyoluteorin biosynthesis and activator of phenazine-1-carboxylic acid biosynthesis in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>J Biotechnol</source>
+<volume>143</volume>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">19539673</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Yan1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yan</surname><given-names>A</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Liu</surname><given-names>H</given-names></name><name><surname>Dong</surname><given-names>D</given-names></name><name><surname>Zhang</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>An <italic>rhl</italic>-like quorum-sensing system negatively regulates pyoluteorin production in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>Microbiology</source>
+<volume>153</volume>
+<fpage>16</fpage>
+<lpage>28</lpage>
+<pub-id pub-id-type="pmid">17185531</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Chen1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Xu</surname><given-names>Y</given-names></name></person-group>
+<year>2008</year>
+<article-title>Las-like quorum-sensing system negatively regulates both pyoluteorin and phenazine-1-carboxylic acid production in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>Sci China C Life Sci</source>
+<volume>51</volume>
+<fpage>174</fpage>
+<lpage>181</lpage>
+<pub-id pub-id-type="pmid">18239896</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Yan2">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yan</surname><given-names>A</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Xu</surname><given-names>Y</given-names></name></person-group>
+<year>2007</year>
+<article-title>LysR family factor PltR positively regulates pyoluteorin production in a pathway-specific manner in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>Sci China Ser C-Life Sci</source>
+<volume>37</volume>
+<fpage>325</fpage>
+<lpage>332</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0039538-Brodhagen2">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brodhagen</surname><given-names>M</given-names></name><name><surname>Henkels</surname><given-names>MD</given-names></name><name><surname>Loper</surname><given-names>JE</given-names></name></person-group>
+<year>2004</year>
+<article-title>Positive autoregulation and signaling properties of pyoluteorin, an antibiotic produced by the biological control organism <italic>Pseudomonas fluorescens</italic> Pf-5.</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>70</volume>
+<fpage>1758</fpage>
+<lpage>1766</lpage>
+<pub-id pub-id-type="pmid">15006802</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Maddocks1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maddocks</surname><given-names>SE</given-names></name><name><surname>Oyston</surname><given-names>PC</given-names></name></person-group>
+<year>2008</year>
+<article-title>Structure and function of the LysR-type transcriptional regulator (LTTR) family proteins.</article-title>
+<source>Microbiology</source>
+<volume>154</volume>
+<fpage>3609</fpage>
+<lpage>3623</lpage>
+<pub-id pub-id-type="pmid">19047729</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Schell1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schell</surname><given-names>MA</given-names></name></person-group>
+<year>1993</year>
+<article-title>Molecular biology of the LysR family of transcriptional regulators.</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>47</volume>
+<fpage>597</fpage>
+<lpage>626</lpage>
+<pub-id pub-id-type="pmid">8257110</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Xiao1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xiao</surname><given-names>GP</given-names></name><name><surname>Deziel</surname><given-names>E</given-names></name><name><surname>He</surname><given-names>JX</given-names></name><name><surname>Lepine</surname><given-names>F</given-names></name><name><surname>Lesic</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>MvfR, a key <italic>Pseudomonas aeruginosa</italic> pathogenicity LTTR-class regulatory protein, has dual ligands.</article-title>
+<source>Mol Microbiol</source>
+<volume>62</volume>
+<fpage>1689</fpage>
+<lpage>1699</lpage>
+<pub-id pub-id-type="pmid">17083468</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Venturi1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Venturi</surname><given-names>V</given-names></name></person-group>
+<year>2006</year>
+<article-title>Regulation of quorum sensing in <italic>Pseudomonas</italic>.</article-title>
+<source>FEMS Microbiol Rev</source>
+<volume>30</volume>
+<fpage>274</fpage>
+<lpage>291</lpage>
+<pub-id pub-id-type="pmid">16472307</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-SchniderKeel1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schnider-Keel</surname><given-names>U</given-names></name><name><surname>Seematter</surname><given-names>A</given-names></name><name><surname>Maurhofer</surname><given-names>M</given-names></name><name><surname>Blumer</surname><given-names>C</given-names></name><name><surname>Duffy</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Autoinduction of 2,4-diacetylphloroglucinol biosynthesis in the biocontrol agent <italic>Pseudomonas fluorescens</italic> CHA0 and repression by the bacterial metabolites salicylate and pyoluteorin.</article-title>
+<source>J Bacteriol</source>
+<volume>182</volume>
+<fpage>1215</fpage>
+<lpage>1225</lpage>
+<pub-id pub-id-type="pmid">10671440</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Li1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Du</surname><given-names>X</given-names></name><name><surname>Lu</surname><given-names>ZJ</given-names></name><name><surname>Wu</surname><given-names>D</given-names></name><name><surname>Zhao</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Regulatory feedbackloop of two <italic>phz</italic> gene clusters through 5'-untranslated regions in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>PLoS One</source>
+<volume>6</volume>
+<fpage>e19413</fpage>
+<pub-id pub-id-type="pmid">21559370</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Lamont1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lamont</surname><given-names>IL</given-names></name><name><surname>Beare</surname><given-names>PA</given-names></name><name><surname>Ochsner</surname><given-names>U</given-names></name><name><surname>Vasil</surname><given-names>AI</given-names></name><name><surname>Vasil</surname><given-names>ML</given-names></name></person-group>
+<year>2002</year>
+<article-title>Siderophore-mediated signaling regulates virulence factor production in <italic>Pseudomonas aeruginosa</italic>.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>7072</fpage>
+<lpage>7077</lpage>
+<pub-id pub-id-type="pmid">11997446</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Porrua1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Porrua</surname><given-names>O</given-names></name><name><surname>Platero</surname><given-names>AI</given-names></name><name><surname>Santero</surname><given-names>E</given-names></name><name><surname>del Solar</surname><given-names>G</given-names></name><name><surname>Govantes</surname><given-names>F</given-names></name></person-group>
+<year>2010</year>
+<article-title>Complex interplay between the LysR-type regulator AtzR and its binding site mediates <italic>atzDEF</italic> activation in response to two distinct signals.</article-title>
+<source>Molecular Microbiology</source>
+<volume>76</volume>
+<fpage>331</fpage>
+<lpage>347</lpage>
+<pub-id pub-id-type="pmid">20199600</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Abbas1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abbas</surname><given-names>A</given-names></name><name><surname>Morrissey</surname><given-names>JP</given-names></name><name><surname>Marquez</surname><given-names>PC</given-names></name><name><surname>Sheehan</surname><given-names>MM</given-names></name><name><surname>Delany</surname><given-names>IR</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Characterization of interactions between the transcriptional repressor PhlF and its binding site at the phlA promoter in <italic>Pseudomonas fluorescens</italic> F113.</article-title>
+<source>J Bacteriol</source>
+<volume>184</volume>
+<fpage>3008</fpage>
+<lpage>3016</lpage>
+<pub-id pub-id-type="pmid">12003942</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Sarniguet1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sarniguet</surname><given-names>A</given-names></name><name><surname>Kraus</surname><given-names>J</given-names></name><name><surname>Henkels</surname><given-names>MD</given-names></name><name><surname>Muehlchen</surname><given-names>AM</given-names></name><name><surname>Loper</surname><given-names>JE</given-names></name></person-group>
+<year>1995</year>
+<article-title>The sigma factor sigma s affects antibiotic production and biological control activity of <italic>Pseudomonas fluorescens</italic> Pf-5.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>92</volume>
+<fpage>12255</fpage>
+<lpage>12259</lpage>
+<pub-id pub-id-type="pmid">8618880</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Schnider1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schnider</surname><given-names>U</given-names></name><name><surname>Keel</surname><given-names>C</given-names></name><name><surname>Blumer</surname><given-names>C</given-names></name><name><surname>Troxler</surname><given-names>J</given-names></name><name><surname>Defago</surname><given-names>G</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Amplification of the housekeeping sigma factor in Pseudomonas fluorescens CHA0 enhances antibiotic production and improves biocontrol abilities.</article-title>
+<source>J Bacteriol</source>
+<volume>177</volume>
+<fpage>5387</fpage>
+<lpage>5392</lpage>
+<pub-id pub-id-type="pmid">7665535</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Ge2">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ge</surname><given-names>Y</given-names></name><name><surname>Pei</surname><given-names>D</given-names></name><name><surname>Li</surname><given-names>W</given-names></name><name><surname>Zhao</surname><given-names>Y</given-names></name><name><surname>Xu</surname><given-names>Y</given-names></name></person-group>
+<year>2006</year>
+<article-title>Insertional mutation of the <italic>rpoS</italic> gene contributes to alteration in biosynthesis of antifungal agents in <italic>Pseudomonas</italic> sp. M18.</article-title>
+<source>Biol Control</source>
+<volume>39</volume>
+<fpage>186</fpage>
+<lpage>192</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0039538-Zhu1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhu</surname><given-names>D</given-names></name><name><surname>Xu</surname><given-names>W</given-names></name><name><surname>Geng</surname><given-names>H</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Xu</surname><given-names>Y</given-names></name></person-group>
+<year>2003</year>
+<article-title>Gene cloning of <italic>rpoD</italic> and its impact on biosynthesis of antibiotics in fluorescent <italic>Pseudomonas</italic> M18.</article-title>
+<source>Wei Sheng Wu Xue Bao</source>
+<volume>43</volume>
+<fpage>315</fpage>
+<lpage>323</lpage>
+<pub-id pub-id-type="pmid">16279196</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Sambrook1">
+        <label>32</label>
+        <element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Sambrook</surname><given-names>J</given-names></name><name><surname>Russell</surname><given-names>DW</given-names></name></person-group>
+<year>2001</year>
+<article-title>Cold Spring Harbor: CSH Press.</article-title>
+<comment>Molecular cloning: a laboratory manual 3rd edn.</comment>
+</element-citation>
+      </ref>
+      <ref id="pone.0039538-King1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>King</surname><given-names>EO</given-names></name><name><surname>Ward</surname><given-names>MK</given-names></name><name><surname>Raney</surname><given-names>DE</given-names></name></person-group>
+<year>1954</year>
+<article-title>Two simple media for the demonstration of pyocyanin and fluorescin.</article-title>
+<source>J Lab Clin Med</source>
+<volume>44</volume>
+<fpage>301</fpage>
+<lpage>307</lpage>
+<pub-id pub-id-type="pmid">13184240</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Reese1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reese</surname><given-names>MG</given-names></name></person-group>
+<year>2001</year>
+<article-title>Application of a time-delay neural network to promoter annotation in the <italic>Drosophila melanogaster</italic> genome.</article-title>
+<source>Comput Chem</source>
+<volume>26</volume>
+<fpage>51</fpage>
+<lpage>56</lpage>
+<pub-id pub-id-type="pmid">11765852</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Zuker1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zuker</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Mfold web server for nucleic acid folding and hybridization prediction.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>31</volume>
+<fpage>3406</fpage>
+<lpage>3415</lpage>
+<pub-id pub-id-type="pmid">12824337</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Bateman1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bateman</surname><given-names>A</given-names></name><name><surname>Birney</surname><given-names>E</given-names></name><name><surname>Cerruti</surname><given-names>L</given-names></name><name><surname>Durbin</surname><given-names>R</given-names></name><name><surname>Etwiller</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The Pfam protein families database.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>30</volume>
+<fpage>276</fpage>
+<lpage>280</lpage>
+<pub-id pub-id-type="pmid">11752314</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Miller1">
+        <label>37</label>
+        <element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>JH</given-names></name></person-group>
+<year>1972</year>
+<article-title>Experiments in Molecular Genetics. Cold Spring Harbor, N.Y., USA.</article-title>
+<source>: Cold Spring Harbor Laboratory Press</source>
+</element-citation>
+      </ref>
+      <ref id="pone.0039538-Blumer1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blumer</surname><given-names>C</given-names></name><name><surname>Heeb</surname><given-names>S</given-names></name><name><surname>Pessi</surname><given-names>G</given-names></name><name><surname>Haas</surname><given-names>D</given-names></name></person-group>
+<year>1999</year>
+<article-title>Global GacA-steered control of cyanide and exoprotease production in <italic>Pseudomonas fluorescens</italic> involves specific ribosome binding sites.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>14073</fpage>
+<lpage>14078</lpage>
+<pub-id pub-id-type="pmid">10570200</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0039538-Kovach1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<collab>Kovach ME, Phillips RW, Elzer PH, Roop RM, 2nd, Peterson KM</collab>
+<year>1994</year>
+<article-title>pBBR1MCS: a broad-host-range cloning vector.</article-title>
+<source>Biotechniques</source>
+<volume>16</volume>
+<fpage>800</fpage>
+<lpage>802</lpage>
+<pub-id pub-id-type="pmid">8068328</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

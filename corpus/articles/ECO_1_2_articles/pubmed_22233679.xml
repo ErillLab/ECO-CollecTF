@@ -1,0 +1,1286 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">mBio</journal-id>
+      <journal-id journal-id-type="iso-abbrev">MBio</journal-id>
+      <journal-id journal-id-type="hwp">mbio</journal-id>
+      <journal-id journal-id-type="pmc">mbio</journal-id>
+      <journal-id journal-id-type="publisher-id">mBio</journal-id>
+      <journal-title-group>
+        <journal-title>mBio</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2150-7511</issn>
+      <publisher>
+        <publisher-name>American Society of Microbiology</publisher-name>
+        <publisher-loc>1752 N St., N.W., Washington, DC</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22233679</article-id>
+      <article-id pub-id-type="pmc">3252764</article-id>
+      <article-id pub-id-type="publisher-id">mBio00285-11</article-id>
+      <article-id pub-id-type="doi">10.1128/mBio.00285-11</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Novel Sigma Factor-Like Regulator RpoQ Controls Luminescence, Chitinase Activity, and Motility in <italic>Vibrio fischeri</italic></article-title>
+        <alt-title>Regulation by RpoQ in <italic>V. fischeri</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cao</surname>
+            <given-names>Xiaodan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1 aff2">
+<sup>a,b</sup></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Studer</surname>
+            <given-names>Sarah V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>a</sup></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wassarman</surname>
+            <given-names>Karen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>c</sup></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yuanxing</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>b</sup></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ruby</surname>
+            <given-names>Edward G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>a</sup></xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miyashiro</surname>
+            <given-names>Tim</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>a</sup></xref>
+        </contrib>
+        <aff id="aff1">Department of Medical Microbiology and Immunology, University of Wisconsin School of Medicine and Public Health, Madison, Wisconsin, USA<label><sup>a</sup></label>; </aff>
+        <aff id="aff2">State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai, China<label><sup>b</sup></label>; and </aff>
+        <aff id="aff3">Department of Bacteriology, University of Wisconsin&#x2014;Madison, Madison, Wisconsin, USA<label><sup>c</sup></label></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="coror1">Address correspondence to Edward G. Ruby, <email>egruby@wisc.edu</email>.</corresp>
+        <fn fn-type="edited-by">
+          <p><bold>Editor </bold> E. Peter Greenberg, University of Washington</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>1</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <season>Jan-Feb</season>
+        <year>2012</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>1</issue>
+      <elocation-id>e00285-11</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>11</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>12</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2012 Cao et al. </copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Cao et al.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</ext-link>, which permits unrestricted noncommercial use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>ABSTRACT</title>
+        <p><italic>Vibrio fischeri</italic>, the bacterial symbiont of the Hawaiian bobtail squid, <italic>Euprymna scolopes</italic>, uses quorum sensing to control genes involved in bioluminescence, host colonization, and other biological processes. Previous work has shown that AinS/R-directed quorum sensing also regulates the expression of <italic>rpoQ</italic> (<italic>VF_A1015</italic>), a gene annotated as an RpoS-like sigma factor. In this study, we demonstrate using phylogenetics that RpoQ is related to, but distinct from, the stationary-phase sigma factor RpoS. Overexpression of <italic>rpoQ</italic> results in elevated chitinase activity but decreased motility and luminescence, three activities associated with symbiosis. The reduction in bacterial luminescence associated with the overexpression of <italic>rpoQ</italic> occurs both in culture and within the light-emitting organ of the squid host. This suppression of bioluminescence is due to the repression of the <italic>luxICDABEG</italic> promoter. Our results highlight RpoQ as a novel regulatory component, embedded in the quorum-signaling network that controls several biological processes in <italic>V. fischeri</italic>.</p>
+      </abstract>
+      <abstract abstract-type="executive-summary">
+        <title>IMPORTANCE</title>
+        <p>Quorum signaling is a widely occurring phenomenon that functions in diverse bacterial taxa. It is most often found associated with species that interact with animal or plant hosts, either as mutualists or pathogens, and controls the expression of genes critical to tissue colonization. We present the discovery of <italic>rpoQ</italic>, which encodes a new regulatory component in the quorum-signaling pathway of <italic>Vibrio fischeri</italic>. RpoQ is a novel protein in the RpoS family of stationary-phase sigma factors. Unlike many other regulatory proteins involved in the quorum-signaling pathways of the <italic>Vibrionaceae</italic>, the distribution of RpoQ appears to be restricted to only two closely related species. The role of this regulator is to enhance some quorum-signaling outputs (chitinase activity) while suppressing others (luminescence). We propose that RpoQ may be a recently evolved or acquired component in <italic>V. fischeri</italic> that provides this organism with an additional level of regulation to modulate its existing quorum-signaling pathway.</p>
+      </abstract>
+      <counts>
+        <page-count count="12"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>January/February 2012</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="h0.0">
+      <title>Introduction</title>
+      <p>The marine bacterium <italic>Vibrio fischeri</italic> can exist either as a free-living organism or in symbiosis with certain bioluminescent animals, including the Hawaiian bobtail squid, <italic>Euprymna scolopes</italic> (<xref ref-type="bibr" rid="B1">1</xref>). Like other bacteria, <italic>V. fischeri</italic> must be able to specifically adapt to different or changing environments. Two widely distributed and functionally distinct regulatory mechanisms by which bacteria react transcriptionally to changes in their environment include quorum-sensing-mediated signaling to alter transcription factor activity (<xref ref-type="bibr" rid="B2">2</xref>) and alternative sigma factors to modify the core transcription machinery (<xref ref-type="bibr" rid="B3">3</xref>).</p>
+      <p>Quorum signaling enables many species of bacteria to coordinate gene expression according to the presence of molecules called autoinducers. <italic>V. fischeri</italic> encodes three quorum-sensing systems, each of which depends on a specific type of autoinducer (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1</xref>). Together, these quorum-sensing systems regulate the expression of genes involved in luminescence and colonization (<xref ref-type="bibr" rid="B2">2</xref>, <xref ref-type="bibr" rid="B4">4</xref>&#x2013;<xref ref-type="bibr" rid="B8">8</xref>). The LuxI-LuxR system directly controls the genes responsible for light production. Briefly, at low cell density, LuxI synthesizes low levels of the autoinducer <italic>N</italic>-3-oxo-hexanoyl homoserine lactone (3-oxo-C6). As the culture reaches high cell density, 3-oxo-C6 accumulates to a threshold level and binds to the transcriptional regulator LuxR. The LuxR/3-oxo-C6 complex directly activates transcription of the <italic>luxICDABEG</italic> operon (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1</xref>), which is responsible for the bacterium&#x2019;s ability to produce luciferase and bioluminescence (<xref ref-type="bibr" rid="B9">9</xref>, <xref ref-type="bibr" rid="B10">10</xref>).</p>
+      <fig id="fig1" position="float">
+        <label>FIG&#xA0;1 </label>
+        <caption>
+          <p>Model of quorum-sensing systems in <italic>V. fischeri</italic>. When the levels of octanoyl homoserine lactone (C8; octagons) and AI-2 (pentagons) are low, AinR and the LuxP/Q complex phosphorylate LuxU. Phosphorylated LuxU, in turn, phosphorylates LuxO, which activates the expression of the small RNA (sRNA) Qrr1. Qrr1 destabilizes the mRNA encoding LitR. Conversely, when the level of C8 and AI-2 autoinducers is high, the signaling cascade is inactivated, resulting in stable LitR production. LitR transcriptionally activates <italic>luxR</italic>, which encodes the transcriptional regulator LuxR. In the presence of the accumulating autoinducer 3-oxo-hexanoyl homoserine lactone (3-oxo-C6; hexagons), LuxR activates several genes, including the <italic>luxCDABEG</italic> locus, which is responsible for luciferase production and activity. The dashed arrows indicate phosphoryl group transfers. The question mark indicates an unknown number of steps.</p>
+        </caption>
+        <graphic xlink:href="mbo0011212130001"/>
+      </fig>
+      <p>Upstream of LuxI/R within this regulatory network are two other quorum-sensing systems, AinS/R and, to a lesser extent, LuxS/PQ, which each signal through the LuxU-LuxO phosphorelay (<xref ref-type="bibr" rid="B5">5</xref>). At low cell density, these two systems are silent, resulting in the phosphorylation of the phosphotransferase LuxU, which in turn phosphorylates the response regulator LuxO. Phosphorylated LuxO activates the expression of a noncoding RNA, <italic>qrr1</italic>, which destabilizes the mRNA of the master regulator LitR in an Hfq-dependent manner (<xref ref-type="bibr" rid="B11">11</xref>). As cell density increases, so does signaling by AinS/R and LuxS/PQ. As a result, LuxO is dephosphorylated, <italic>litR</italic> mRNA is stabilized and translated, and LitR positively regulates the expression of <italic>luxR</italic> (<xref ref-type="bibr" rid="B12">12</xref>). At even higher cell density, when 3-oxo-C6 accumulates and binds LuxR, <italic>luxICDABEG</italic> is expressed (<xref ref-type="bibr" rid="B6">6</xref>), resulting in light production (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1</xref>).</p>
+      <p>In addition to luminescence and squid colonization, quorum sensing regulates other biological processes in <italic>V. fischeri</italic>. Signaling via AinS regulates the acetate switch by inducing <italic>acs</italic>, which encodes acetyl coenzyme A (acetyl-CoA) synthetase, leading to a removal of previously excreted acetate and thus to a decrease in medium acidification (<xref ref-type="bibr" rid="B13">13</xref>). AinS, as well as LitR, was shown to also regulate motility (<xref ref-type="bibr" rid="B6">6</xref>). In particular, disruption of either <italic>ainS</italic> or <italic>litR</italic> results in hypermotile cells.</p>
+      <p>Alternative sigma factors provide a different mechanism for transcriptional control through the replacement of the primary sigma factor, RpoD (<xref ref-type="bibr" rid="B14">14</xref>). RpoS is a particularly well-characterized example of the &#x3C3;<sup>70</sup> family of sigma factors, which controls cellular responses to stress conditions, including the presence of reactive oxygen species, starvation, DNA damage, extreme temperature, ethanol, and hyperosmolarity (<xref ref-type="bibr" rid="B15">15</xref>&#x2013;<xref ref-type="bibr" rid="B17">17</xref>). In some bacteria, RpoS is required for virulence as well as quorum-sensing regulation (<xref ref-type="bibr" rid="B18">18</xref>&#x2013;<xref ref-type="bibr" rid="B22">22</xref>). In <italic>V. fischeri</italic>, RpoS regulates catalase activity but is not involved in the regulation of quorum-regulated genes like <italic>acs</italic> (<xref ref-type="bibr" rid="B13">13</xref>, <xref ref-type="bibr" rid="B23">23</xref>). The sigma factor &#x3C3;<sup>54</sup>, encoded by <italic>rpoN</italic>, can control nitrogen metabolism, motility, bioluminescence, and host colonization in many bacteria (<xref ref-type="bibr" rid="B24">24</xref>&#x2013;<xref ref-type="bibr" rid="B27">27</xref>). Similarly, RpoN contributes to the regulation of these activities and to biofilm formation in <italic>V. fischeri</italic> (<xref ref-type="bibr" rid="B28">28</xref>).</p>
+      <p>Recently, in addition to an authentic RpoS factor, RpoS-like sigma factors have been identified in several bacteria, such as <italic>Vibrio alginolyticus</italic> ZJ-51 and 12G01, <italic>Vibrio&#xA0;splendidus</italic> LGP32, <italic>Vibrio</italic> sp. MED222, and <italic>Vibrio&#xA0;campbellii</italic> BAA_1116. There are no studies about any of these RpoS-like sigma factors except for RpoX in <italic>V. alginolyticus</italic> ZJ-51 (<xref ref-type="bibr" rid="B29">29</xref>). While RpoS and RpoX are both involved in biofilm formation and stress response, they have different functions. In this study, we focus on <italic>VF_A1015</italic>, which is annotated as encoding an RpoS-like sigma factor and is positively regulated by <italic>ainS</italic> (<xref ref-type="bibr" rid="B6">6</xref>). This gene is located on the second chromosome of <italic>V. fischeri</italic> and is linked to other genes predicted to be involved in signaling. Because of its apparent regulation by quorum signaling, we have renamed <italic>VF_A1015</italic> as <italic>rpoQ</italic> (<xref ref-type="bibr" rid="B30">30</xref>); here we present evidence of both its position and role within the <italic>V. fischeri</italic> quorum-signaling pathways.</p>
+    </sec>
+    <sec sec-type="results" id="h1">
+      <title>RESULTS</title>
+      <sec id="h1.1">
+        <title><italic>rpoQ</italic> encodes a novel sigma factor-like protein regulated by quorum sensing.</title>
+        <p>
+<italic>VF_A1015</italic>, here designated <italic>rpoQ</italic>, was originally annotated as encoding an RpoS-like sigma factor (<xref ref-type="bibr" rid="B6">6</xref>). This annotation arose because the amino acid sequence of RpoQ is 45% identical, and is of similar length, to that of RpoS. In contrast to <italic>rpoS</italic>, which is present within all fully-sequenced members of the <italic>Vibrionaceae</italic>, we were able to identify <italic>rpoQ</italic> homologues within the genomes of only two species: <italic>V. fischeri</italic> and <italic>Aliivibrio</italic> (<italic>Vibrio</italic>) <italic>salmonicida</italic> (<italic>VSAL_II0319</italic>). Examination using the Pfam database revealed that RpoQ contains four conserved domains: (i) &#x3C3;<sup>70</sup> region 1.2, (ii) &#x3C3;<sup>70</sup> region 2, (iii) &#x3C3;<sup>70</sup> region 3, and (iv) &#x3C3;<sup>70</sup> region 4, each of which is significant except &#x3C3;<sup>70</sup> region 3 (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2A</xref>). In contrast, RpoS and RpoD of <italic>V. fischeri</italic> each have an identifiable &#x3C3;<sup>70</sup> region 3 in the predicted location. Region 3 is involved in binding to the core RNA polymerase and recognition of the extended &#x2212;10 promoter. Only regions 2 and 4 are highly conserved and play important roles in binding the core RNA polymerase and in recognition of the &#x2212;10 and &#x2212;35 promoters, respectively (<xref ref-type="bibr" rid="B31">31</xref>). Phylogenetic analysis of the amino acid sequences spanning from region 2 to region 4 of the RpoQ, RpoS, and RpoD homologues among two species of the <italic>Vibrionaceae</italic> (<italic>V. fischeri</italic> and <italic>A.&#xA0;salmonicida</italic>) and <italic>Escherichia coli</italic> indicates that RpoQ is a protein that is distinct from RpoS (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2B</xref>).</p>
+        <fig id="fig2" position="float">
+          <label>FIG&#xA0;2 </label>
+          <caption>
+            <p>Structure and phylogeny of Rpo proteins. (A) Domain comparison between the <italic>V. fischeri</italic> RpoD, RpoS, and RpoQ proteins. Numbers above the conserved domains indicate amino acid positions. (B) Neighbor-joining phylogenetic analysis of RpoQ. Sequences spanning region 2 through region 4 were used to generate the phylogenetic tree with the PHYLIP software program. The tree was bootstrapped with 1,000 replicates, and all nodes were supported 100%. Abbreviations used are as follows: <italic>Vf</italic>, <italic>Vibrio fischeri</italic>; <italic>As</italic>, <italic>Aliivibrio salmonicida</italic>; <italic>Ec</italic>, <italic>Escherichia coli</italic>. The scale bar represents genetic distances in substitutions per residue.</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130002"/>
+        </fig>
+        <p>Previous results from a global transcriptional analysis (<xref ref-type="bibr" rid="B6">6</xref>) suggested that expression of <italic>rpoQ</italic> is controlled by the response regulator LuxO, which is involved in quorum sensing (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1</xref>). To validate and extend this analysis, we used quantitative reverse transcriptase PCR (qRT-PCR) to measure the expression of <italic>rpoQ</italic> in different mutant backgrounds of <italic>V. fischeri</italic>. Consistent with the previous study, the level of <italic>rpoQ</italic> expression is elevated about 2-fold in a &#x394;<italic>luxO</italic> mutant when compared to that of a wild-type strain (<xref ref-type="fig" rid="fig3">Fig.&#xA0;3</xref>). In contrast to the &#x394;<italic>luxO</italic> mutant, both a &#x394;<italic>litR</italic> single mutant and a &#x394;<italic>luxO</italic> &#x394;<italic>litR</italic> double mutant exhibited 4-fold-lower levels of <italic>rpoQ</italic> expression than the wild type (<xref ref-type="fig" rid="fig3">Fig.&#xA0;3</xref>), demonstrating that the regulation of <italic>rpoQ</italic> by LuxO operates through LitR.</p>
+        <fig id="fig3" position="float">
+          <label>FIG&#xA0;3 </label>
+          <caption>
+            <p>qRT-PCR analysis of <italic>rpoQ</italic> expression in <italic>V. fischeri</italic> strains MJM1100 (wild type [WT]), TIM305 (&#x394;<italic>luxO</italic>), TIM358 (&#x394;<italic>litR</italic>), and TIM355 (&#x394;<italic>luxO</italic>&#x394;<italic>litR</italic>). The strains were grown in LBS medium and harvested at an OD<sub>600</sub> of 0.5. The transcript levels of <italic>rpoD</italic> were used as a normalizing control. Data are relative to wild-type levels, set at 1.0. Graphical and error bars indicate the averages and standard deviations of data from three independent experiments, respectively. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate that there is a significant difference (<italic>P</italic> &lt; 0.01) in <italic>rpoQ</italic> transcript levels between those strains (analysis of variance [ANOVA] and Tukey&#x2019;s honestly significant difference [HSD] test).</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130003"/>
+        </fig>
+      </sec>
+      <sec id="h1.2">
+        <title>RpoQ regulates gene expression in V. <italic>fischeri</italic>.</title>
+        <p>To determine whether RpoQ regulates expression of other genes in <italic>V. fischeri</italic>, we generated a &#x394;<italic>rpoQ</italic> in-frame deletion mutant that avoids potential polar effects on the downstream gene <italic>VF_A1014</italic> (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4A</xref>). Previous work suggested that, like <italic>rpoQ</italic>, the genes <italic>VF_A1016</italic> and <italic>VF_A1017</italic>, which are predicted to encode a histidine kinase and a response regulator, respectively, are also regulated by the LuxO (<xref ref-type="bibr" rid="B6">6</xref>). Due to the genetic linkage between this operon and <italic>rpoQ</italic> (they are divergently described, with a 449-nucleotide intergenic region) (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4A</xref>), we explored the possibility that the LuxO-dependent regulation of <italic>VF_A1016</italic> and <italic>VF_A1017</italic> requires RpoQ activity. Consistent with the previous report (<xref ref-type="bibr" rid="B6">6</xref>), we found that the expression level of <italic>VF_A1016</italic> was elevated more than 2-fold in a &#x394;<italic>luxO</italic> mutant over that in the wild-type strain (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4B</xref>). In contrast, <italic>VF_A1016</italic> expression levels were similar to wild-type levels in a &#x394;<italic>rpoQ</italic> mutant and remained low in the &#x394;<italic>luxO &#x394;rpoQ</italic> double mutant. These data indicate that RpoQ is required for LuxO-dependent changes in <italic>VF_A1016</italic>. Furthermore, when <italic>rpoQ</italic> was integrated into the Tn<italic>7</italic> site of the chromosome of a &#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic> double mutant (strain CA6), the transcription level of <italic>VF_A1016</italic> was partially restored relative to that for the &#x394;<italic>luxO</italic> single mutant (see <xref ref-type="supplementary-material" rid="figS1">Fig.&#xA0;S1</xref> in the supplemental material). Based on the finding that <italic>VF_A1016</italic> was regulated by quorum signaling, we were led to test the possibility that transcription of <italic>VF_A1016</italic> is reduced in the &#x394;<italic>rpoQ</italic> mutant at a higher cell density. As predicted, the transcription level of <italic>VF_A1016</italic> is higher (12-fold) in the wild-type strain than in the &#x394;<italic>rpoQ</italic> mutant (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4C</xref>). In addition, RT-PCR analysis indicated that <italic>VF_A1016</italic> and <italic>VF_A1017</italic> are cotranscribed (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4D</xref>). Together, these results suggest that the LuxO signaling system transcriptionally controls RpoQ, which in turn activates transcription of a two-component system. Using 5&#x2032; rapid amplification of cDNA ends (RACE), we mapped the transcriptional start sites of <italic>rpoQ</italic> and <italic>VF_A1016</italic> (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4A</xref>). Neither start site was detected in the &#x394;<italic>rpoQ</italic> mutant, supporting the idea that transcription of <italic>rpoQ</italic> and <italic>VF_A1016</italic> requires RpoQ (data not shown).</p>
+        <fig id="fig4" position="float">
+          <label>FIG&#xA0;4 </label>
+          <caption>
+            <p>LuxO and RpoQ regulate transcription of the <italic>VF_A1016</italic>-<italic>VF_A1017</italic> operon. (A) Schematic representation of the <italic>rpoQ</italic> locus. Open reading frames (ORFs) are indicated as the four block arrows. <italic>VF_A1014</italic> is predicted to encode a GGDEF-EAL-domain-containing protein of unknown function. <italic>VF_A1016</italic> and <italic>VF_A1017</italic> are predicted to encode a two-component histidine kinase sensor and response regulator, respectively. Numbers on the scale bar indicate the location (in bp from the origin) along the second chromosome of <italic>V. fischeri</italic>. Transcriptional start sites of <italic>rpoQ</italic> and <italic>VF_A1016</italic> determined by 5&#x2032;-RACE are shown upstream of corresponding genes. Primer sites used in RT-PCR analysis shown in panel D are indicated by arrows. (B) qRT-PCR analysis of <italic>VF_A1016</italic> expression in <italic>V. fischeri</italic> strains MJM1100 (WT), TIM305 (&#x394;<italic>luxO</italic>), CA1 (&#x394;<italic>rpoQ</italic>), and CA4 (&#x394;<italic>luxO</italic>&#x394;<italic>rpoQ</italic>). The strains were grown in LBS medium and harvested at an OD<sub>600</sub> of 0.5. The transcript levels of <italic>rpoD</italic> were used to normalize <italic>VF_A1016</italic> levels. Data are relative to wild-type levels, set at 1.0. Graphical and error bars indicate the averages and standard deviations of data from three independent experiments, respectively. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate that there is a significant difference (<italic>P</italic> &lt; 0.05) in <italic>VF_A1016</italic> transcript levels between those strains (ANOVA and Tukey&#x2019;s HSD test). (C) qRT-PCR analysis of <italic>VF_A1016</italic> expression in <italic>V. fischeri</italic> strains MJM1100 (WT) and CA1 (&#x394;<italic>rpoQ</italic>) at a high cell density. The strains were grown in LBS medium and harvested at an OD<sub>600</sub> of 3.0, which is 6 times denser than the cultures used for panel B. The transcript levels of <italic>rpoD</italic> were used to normalize <italic>VF_A1016</italic> levels. Graphical and error bars indicate the averages and standard deviations, respectively, of data from three independent experiments. Different letters indicate that there is a significant difference (<italic>P</italic> &lt; 0.001) in <italic>VF_A1016</italic> transcript levels between the WT and the &#x394;<italic>rpoQ</italic> mutant (Student&#x2019;s <italic>t</italic>&#xA0;test). (D) RT-PCR analysis of <italic>VF_A1016</italic>-<italic>VF_A1017</italic> transcripts. Templates used are genomic DNA (lane 1), cDNA (lane 2), and RNA (lane 3). The location of the primer pair (A1016-17F/A1016-17R) is shown in panel A. Lane M contains molecular size standards (size range, in bp, from top to bottom: 1,517, 1,200, 1,000, 900, 800, 700, 600, 500/517, 400, 300, 200, and 100).</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130004"/>
+        </fig>
+      </sec>
+      <sec id="h1.3">
+        <title>RpoQ represses luminescence in vivo and in vitro.</title>
+        <p>Because quorum signaling controls both early and late colonization genes (<xref ref-type="bibr" rid="B4">4</xref>, <xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B8">8</xref>, <xref ref-type="bibr" rid="B12">12</xref>), we asked whether RpoQ regulates factors involved in light-organ symbiosis. Juvenile squid colonized by the &#x394;<italic>rpoQ</italic> mutant exhibited normal symbiont population levels and luminescence over the first 48&#xA0;h postcolonization (data not shown), during which the symbionts have expressed both early and late quorum-sensing responses (<xref ref-type="bibr" rid="B6">6</xref>). Furthermore, cocolonization experiments using the &#x394;<italic>rpoQ</italic> mutant and a wild-type strain did not reveal a competition defect in the absence of RpoQ (data not shown). Together, these results suggest that the initial steps of bacterial colonization of the host, involving known early and late quorum-regulated colonization factors, do not require RpoQ.</p>
+        <p>As an alternative approach to examine RpoQ function during colonization, we constructed a plasmid (pXCD10) that conditionally (i.e., in the presence of isopropyl-&#x3B2;-<sc>d</sc>-thiogalactopyranoside [IPTG]) overexpresses RpoQ, by cloning <italic>rpoQ</italic> downstream of the <italic>trc</italic> promoter (<xref ref-type="bibr" rid="B32">32</xref>). Such approaches, with caveats for possible artifacts, have been used successfully to manipulate target genes of other extracytoplasmic function (ECF) sigma factors (<xref ref-type="bibr" rid="B33">33</xref>&#x2013;<xref ref-type="bibr" rid="B37">37</xref>). Juvenile squid colonized with wild-type <italic>V. fischeri</italic> harboring pXDC10 were placed in seawater, either with or without IPTG. The level of luminescence of symbionts overexpressing RpoQ was significantly lower than (i.e., &lt;20% of) that of wild-type cells harboring the control plasmid, pTM214 (<xref ref-type="fig" rid="fig5">Fig.&#xA0;5A</xref>). In contrast, there were no significant differences in luminescence per CFU between animals colonized with wild-type cells harboring pTM214 (vector control) with or without IPTG or wild-type cells harboring pXDC10 without IPTG; in addition, the CFU levels were similar among all animals (data not shown), indicating that overexpressing RpoQ did not affect the ability of <italic>V. fischeri</italic> to colonize the host.</p>
+        <fig id="fig5" position="float">
+          <label>FIG&#xA0;5 </label>
+          <caption>
+            <p>The impact of RpoQ on luminescence. (A) Squid luminescence (per CFU) of wild-type <italic>V. fischeri</italic> cells harboring either pTM214 (vector) or pXDC10 (<italic>P<sub>trc</sub>-rpoQ</italic>) in the presence (black bars) or absence (white bars) of 1&#xA0;mM IPTG. Graphical and error bars indicate the averages and standard deviations. One representative experiment performed in triplicate is analyzed. (B) Culture luminescence per CFU of wild-type MJM1100 harboring pTM214 (vector), pXDC10 (<italic>P<sub>trc</sub>-rpoQ</italic>), pXDC35 (<italic>P<sub>trc</sub>-rpoS</italic>), and pXDC36 (<italic>P<sub>trc</sub>-rpoD</italic>), with (black bars) or without (white bars) IPTG addition. Graphical and error bars indicate, respectively, the averages and standard deviations, respectively, of data from three independent experiments. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate a significant difference (<italic>P</italic> &lt; 0.001 in panel A and P &lt; 0.05 in panel B) between the luminescence levels (ANOVA and Tukey&#x2019;s HSD test).</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130005"/>
+        </fig>
+        <p>Consistent with the results described above, the luminescence emitted by cells in culture was reduced more than 10-fold when <italic>rpoQ</italic> was overexpressed (<xref ref-type="fig" rid="fig5">Fig.&#xA0;5B</xref>). In contrast, overexpression of two other sigma factors, <italic>rpoS</italic> and <italic>rpoD</italic>, did not repress luminescence. Taken together, these results provide evidence that the cells are not disturbed by these overexpression studies and show that RpoQ represses luminescence both <italic>in vivo</italic> and <italic>in vitro</italic>, as well as further demonstrating a functional distinction between RpoQ and RpoS.</p>
+      </sec>
+      <sec id="h1.4">
+        <title>RpoQ represses the luxICDABEG promoter.</title>
+        <p>Because overexpression of RpoQ leads to repressed luminescence, we hypothesized that RpoQ affects transcription of the <italic>lux</italic> operon. To facilitate experiments that test this idea, we integrated the IPTG-inducible <italic>rpoQ</italic> gene into the chromosome at the Tn<italic>7</italic> site, resulting in strain TIM366. Overexpression of this single copy of <italic>rpoQ</italic> by IPTG addition also repressed luminescence but to only 31% of the extent seen when <italic>rpoQ</italic> is induced from the multicopy plasmid pXDC10. A two-color fluorescent reporter of <italic>luxICDABEG</italic> promoter activity (<xref ref-type="bibr" rid="B11">11</xref>) was used to determine whether RpoQ affects transcription of this promoter. The reporter plasmid (pTM280) was constructed by cloning the <italic>luxICDABEG</italic> promoter upstream of <italic>gfp</italic>, which encodes green fluorescent protein (GFP). This plasmid also constitutively expresses the red fluorescent protein mCherry. The <italic>luxICDABEG</italic> transcription level is quantitatively measured by the GFP/mCherry fluorescence ratio; this normalization accounts for potential variations in either growth rates or copy number of the reporter plasmid in different strains. We found that there was a significant difference in the level of <italic>luxICDABEG</italic> transcription in strain TIM366 when <italic>rpoQ</italic> was induced (<xref ref-type="fig" rid="fig6">Fig.&#xA0;6</xref>). As predicted, <italic>luxICDABEG</italic> transcription was higher in a &#x394;<italic>luxO</italic> mutant and lower in a &#x394;<italic>litR</italic> mutant than that in the wild-type strain, independent of supplemented IPTG. In contrast, overexpression of <italic>rpoQ</italic> had no effect on <italic>luxR</italic> promoter activity (data not shown), and overexpression of VF_A1016 did not affect luminescence (see <xref ref-type="supplementary-material" rid="figS2">Fig.&#xA0;S2</xref> in the supplemental material).</p>
+        <fig id="fig6" position="float">
+          <label>FIG&#xA0;6 </label>
+          <caption>
+            <p>Transcriptional activity of <italic>luxICDABEG</italic>. Relative expression levels of <italic>luxICDABEG</italic> (GFP/mCherry) for strains TIM313 (WT vector), TIM315 (&#x394;<italic>luxO</italic> vector), CA19 (&#x394;<italic>litR</italic> vector), and TIM366 (WT Tn<italic>7</italic>::<italic>P</italic><sub>trc</sub><italic>-rpoQ</italic>) either with (black bars) or without (white bars) the addition of 1&#xA0;mM IPTG. Each strain carried the two-color fluorescent reporter plasmid pTM280 (<italic>P<sub>luxI</sub>-gfp P<sub>tetA</sub>-mCherry</italic>). Graphical and error bars indicate the averages and standard deviations of data from three independent experiments, respectively. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate a significant difference (<italic>P</italic> &lt; 0.05) between <italic>luxICDABEG</italic> transcript levels (ANOVA and Tukey&#x2019;s HSD test).</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130006"/>
+        </fig>
+        <p>We next asked whether the repression of the <italic>luxICDABEG</italic> promoter by RpoQ functioned through (i) LitR, the transcriptional regulator known to affect the activity of the <italic>luxICDABEG</italic> promoter, (ii) <italic>VF_A1014</italic>, which is the gene downstream of <italic>rpoQ</italic> that encodes a GGDEF- and EAL-domain-containing protein, (iii) a nearby gene encoding the response regulator VF_A1017, or (iv) ArcA, the recently discovered negative regulator of luminescence (<xref ref-type="bibr" rid="B38">38</xref>). We moved the inducible <italic>rpoQ</italic>-bearing plasmid pXDC10 into the &#x394;<italic>litR</italic> (TIM358), &#x394;<italic>VF</italic>_A1014 (CA8), <italic>VF_A1017</italic> (KV1612), and &#x394;<italic>arcA</italic> (AMJ2) mutants and measured their effect on the level of culture luminescence. Overexpression of RpoQ repressed luminescence in all of the strains tested (data not shown), suggesting that the repression of luminescence by RpoQ is independent of transcriptional regulation by LitR, VF_A1014, VF_A1017, or ArcA.</p>
+      </sec>
+      <sec id="h1.5">
+        <title>Overexpression of RpoQ decreases motility.</title>
+        <p>To investigate whether RpoQ is involved in the regulation of other quorum-signaling-dependent phenotypes besides luminescence, we examined the impact of overexpressing RpoQ on <italic>V. fischeri</italic> flagellar motility. The &#x394;<italic>litR</italic> mutant displayed hypermotile phenotypes, as previously reported (<xref ref-type="bibr" rid="B6">6</xref>). In contrast, when RpoQ was overexpressed in either the wild type or the &#x394;<italic>litR</italic> mutant, both were essentially nonmotile (<xref ref-type="fig" rid="fig7">Fig.&#xA0;7</xref>), suggesting that quorum signaling regulates motility, at least in part, through an RpoQ mechanism downstream of LitR. Interestingly, overexpression of VF_A1016 had a small positive effect on wild-type motility (see <xref ref-type="supplementary-material" rid="figS3">Fig.&#xA0;S3</xref> in the supplemental material).</p>
+        <fig id="fig7" position="float">
+          <label>FIG&#xA0;7 </label>
+          <caption>
+            <p>The motility of wild-type <italic>V. fischeri</italic> cells harboring either pTM214 (WT vector) or pXDC10 (WT <italic>P</italic><sub>trc</sub><italic>-rpoQ</italic>), compared to strain TIM358 harboring either pTM214 (&#x394;<italic>litR</italic> vector) or pXDC10 (&#x394;<italic>litR P<sub>trc</sub>-rpoQ</italic>). Relative rates of motility were determined in minimal medium containing 1&#xA0;mM IPTG and solidified with 0.25% agar. One representative experiment of three is shown. Growth rates of the strains were comparable in the minimal medium (data not shown).</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130007"/>
+        </fig>
+      </sec>
+      <sec id="h1.6">
+        <title>RpoQ elevates chitinase activity.</title>
+        <p>Quorum signaling negatively regulates chitinase activity in <italic>Vibrio&#xA0;harveyi</italic>; however, in <italic>Chromobacterium violaceum</italic> it leads to its activation (<xref ref-type="bibr" rid="B39">39</xref>, <xref ref-type="bibr" rid="B40">40</xref>). To test whether and how RpoQ might control chitinase activity in <italic>V. fischeri</italic>, we examined the spent culture supernatants of the wild type and the &#x394;<italic>rpoQ</italic> mutant carrying the vector plasmid (pTM214) and the inducible <italic>rpoQ</italic> allele (pXDC10), as well as the &#x394;<italic>litR</italic> mutant harboring the vector plasmid (pTM214). The supernatant of a culture of the &#x394;<italic>rpoQ</italic> mutant showed chitinase activity that was significantly lower (about 50%) than that of the wild type (<xref ref-type="fig" rid="fig8">Fig.&#xA0;8A</xref>). In contrast, the supernatants of both the wild type and the &#x394;<italic>rpoQ</italic> mutant overexpressing RpoQ showed chitinase activity that was 2.3- to 2.8-fold-higher than that of the wild type carrying the vector. These results indicate that an increased level of RpoQ elevates chitinase activity in <italic>V. fischeri</italic>. Interestingly, there was no difference in chitinase activity between the wild-type strain and a &#x394;<italic>litR</italic> mutant (<xref ref-type="fig" rid="fig8">Fig.&#xA0;8A</xref>), suggesting that the basal levels of RpoQ present even in a &#x394;<italic>litR</italic> mutant are sufficient to result in normal chitinase activity (<xref ref-type="fig" rid="fig9">Fig.&#xA0;9</xref>). Furthermore, the supernatant of the wild type overexpressing VF_A1016 also showed chitinase activity that was 2.4-fold higher than that of the wild type carrying the vector (see <xref ref-type="supplementary-material" rid="figS4">Fig.&#xA0;S4</xref> in the supplemental material), supporting the possibility that RpoQ may elevate chitinase activity through VF_A1016.</p>
+        <fig id="fig8" position="float">
+          <label>FIG&#xA0;8 </label>
+          <caption>
+            <p>Regulation of chitinase genes by RpoQ. (A) Exochitinase activity of wild-type <italic>V. fischeri</italic> cells harboring either pTM214 (WT vector) or pXDC10 (WT <italic>P</italic><sub>trc</sub><italic>-rpoQ</italic>), strain CA1 harboring either pTM214 (&#x394;<italic>rpoQ</italic> vector) or pXDC10 (&#x394;<italic>rpoQ P<sub>trc</sub>-rpoQ</italic>), and TIM358 harboring pTM214 (&#x394;<italic>litR</italic> vector). Secreted chitinase activity was determined in the cell-free supernatant. Graphical and error bars indicate, respectively, the averages and standard deviations of data from three independent experiments. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate a significant difference (<italic>P</italic> &lt; 0.05) in exochitinase activity between those strains (ANOVA and Tukey&#x2019;s HSD test). (B) Wild-type cells carrying the empty vector plasmid (pTM214; white bars) or the inducible <italic>rpoQ</italic> allele (pXDC10; black bars) were grown in LBS medium supplemented with 1&#xA0;mM IPTG and harvested at an OD<sub>600</sub> of 1.4 to 1.5. VF_0986, chitodextrinase; VF_0655, endochitinase; VF_1598, exochitinase; VF_A0715, chitodextrinase precursor; VF_1146, chitodextrinase precursor; VF_1390, chitinase; VF_1059, chitinase. Graphical and error bars indicate, respectively, the averages and standard deviations of data from four independent experiments. The asterisks indicate a significant difference in transcription levels between each set of paired strains.</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130008"/>
+        </fig>
+        <fig id="fig9" position="float">
+          <label>FIG&#xA0;9 </label>
+          <caption>
+            <p>A model of RpoQ regulation of quorum-sensing-dependent phenotypes in <italic>V. fischeri</italic>. (A) At low cell density (no quorum signaling), LitR has little effect on basal levels of motility (high) and luminescence (low). (B) At moderate cell density, LitR signaling represses motility and induces luminescence as previously described (<xref ref-type="bibr" rid="B5">5</xref>); LitR also activates transcription of RpoQ. However, while this level of RpoQ remains insufficient to affect motility and luminescence, it does lead to increased chitinase activity. (C) At high cell density, LitR signaling increases enough to induce RpoQ to a higher level, leading to a strong repression of both motility and luminescence, as well as an induction of chitinase activity. Lines with arrowheads indicate positive regulation, while those with a bar at the end indicate negative regulation; the lines may represent a pathway with several steps of regulation.</p>
+          </caption>
+          <graphic xlink:href="mbo0011212130009"/>
+        </fig>
+        <p>Previous studies predicted that there are 7 chitinase genes encoded by <italic>V. fischeri</italic> ES114: <italic>VF_0655</italic>, <italic>VF_0986</italic>, <italic>VF_1059</italic>, <italic>VF_1146</italic>, <italic>VF_1390</italic>, <italic>VF_1598</italic>, and <italic>VF_A0715</italic> (<xref ref-type="bibr" rid="B41">41</xref>). To test which of these chitinase genes is regulated by RpoQ, qRT-PCR was carried out using the wild-type strain carrying either the empty vector plasmid (pTM214) or the inducible <italic>rpoQ</italic> allele (pXDC10) in the present of IPTG. The transcription levels of four of the genes (<italic>VF_0986</italic>, <italic>VF_0655</italic>, <italic>VF_1598</italic>, and <italic>VF_1390</italic>) were significant higher when RpoQ was overexpressed (<xref ref-type="fig" rid="fig8">Fig.&#xA0;8B</xref>). In contrast, the transcription levels of <italic>VF_A0715</italic>, <italic>VF_1146</italic>, and <italic>VF_1059</italic> were independent of RpoQ. These data reveal that RpoQ activates the transcription of some chitinase genes, resulting in elevated levels of secreted exochitinase activity.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="h2">
+      <title>DISCUSSION</title>
+      <p>In this study, we have shown that RpoQ is a novel component that functions downstream of the core LuxO-LitR quorum-signaling system of <italic>V. fischeri</italic> (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1</xref>). The domain structure and phylogenic similarities between RpoQ and RpoS (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2</xref>) suggest that the former could have been evolutionarily derived from the latter, perhaps after the divergence between the clade containing <italic>V. fischeri</italic> and <italic>A.&#xA0;salmonicida</italic> and the rest of the <italic>Vibrionaceae</italic> (<xref ref-type="bibr" rid="B42">42</xref>). Interestingly, <italic>rpoQ</italic> and its <italic>A.&#xA0;salmonicida</italic> homologue, <italic>VSAL_II0319</italic>, are found on the smaller, second chromosomes of <italic>V. fischeri</italic> and <italic>A.&#xA0;salmonicida</italic>, respectively, where many paralogs and nonessential genes are also located (<xref ref-type="bibr" rid="B43">43</xref>). Such a position would be consistent with our hypothesis that <italic>rpoQ</italic> is a recently duplicated gene and diverged in the <italic>Vibrionaceae</italic> (<xref ref-type="bibr" rid="B44">44</xref>, <xref ref-type="bibr" rid="B45">45</xref>).</p>
+      <p>RpoS has been shown to participate in bacterial quorum sensing; for instance, in <italic>Vibrio&#xA0;anguillarum</italic>, RpoS induces expression of the LitR homologue, VanT, in a manner independent of the LuxO homologue, VanO (<xref ref-type="bibr" rid="B21">21</xref>). Because of the role of VanT in inducing pigment and metalloprotease production, these authors suggest that <italic>V.&#xA0;anguillarum</italic> RpoS works with the quorum-signaling system to regulate survival and stress responses. Similarly, in <italic>Vibrio&#xA0;cholerae</italic>, RpoS can upregulate the expression of its LitR homologue, HapR (<xref ref-type="bibr" rid="B19">19</xref>, <xref ref-type="bibr" rid="B46">46</xref>). However, in this species, HapR in turn induces the expression of RpoS, which reinforces the stress response (<xref ref-type="bibr" rid="B47">47</xref>). In contrast, RpoS does not affect quorum-sensing regulation in <italic>V.&#xA0;harveyi</italic> (<xref ref-type="bibr" rid="B15">15</xref>). Yet another pattern is seen within <italic>Pseudomonas aeruginosa</italic>, in which quorum sensing regulates the transcription of <italic>rpoS</italic>. RpoS, in turn, induces expression of <italic>lasR</italic> and <italic>rhlR</italic>, which encode homologues of the <italic>V. fischeri</italic> activator LuxR (<xref ref-type="bibr" rid="B20">20</xref>). In addition, RpoS is involved in the repression of <italic>rhlI</italic>, which encodes one of the autoinducer synthases in <italic>P.&#xA0;aeruginosa</italic> (<xref ref-type="bibr" rid="B21">21</xref>). Thus, in <italic>P.&#xA0;aeruginosa</italic>, whose quorum-signaling pathway has no LuxU-LuxO phosphorelay nor LitR master regulator homologs, the impact of RpoS functions instead through the LuxR and LuxI homologs. This mode of regulation contrasts with that of <italic>V. fischeri</italic> RpoQ, which has no effect on <italic>luxR</italic> expression. As described above, other than in <italic>V. fischeri</italic>, we can identify an <italic>rpoQ</italic> homolog only within the genome of the closely related <italic>A.&#xA0;salmonicida</italic>. Because homologs of other quorum-sensing regulators can also be found in this species (<xref ref-type="bibr" rid="B11">11</xref>, <xref ref-type="bibr" rid="B48">48</xref>), we hypothesize that RpoQ is a component of quorum signaling in <italic>A.&#xA0;salmonicida</italic> as well.</p>
+      <p>Numerous studies have shown that quorum sensing controls functions important for host interaction, such as luminescence, motility, and chitin utilization (<xref ref-type="bibr" rid="B4">4</xref>, <xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B8">8</xref>, <xref ref-type="bibr" rid="B40">40</xref>). Our results revealed that RpoQ is involved in regulation of each of those functions (<xref ref-type="fig" rid="fig9">Fig.&#xA0;9</xref>). The <italic>lux</italic> regulon is responsible for the production of bioluminescence and has served as a model for the genetic regulation underlying quorum sensing (<xref ref-type="bibr" rid="B10">10</xref>, <xref ref-type="bibr" rid="B49">49</xref>, <xref ref-type="bibr" rid="B50">50</xref>). Several genetic elements (e.g., those encoding ArcA and LexA) have been reported to negatively affect luminescence by repressing the expression of the <italic>luxICDABEG</italic> operon (<xref ref-type="bibr" rid="B38">38</xref>, <xref ref-type="bibr" rid="B51">51</xref>, <xref ref-type="bibr" rid="B52">52</xref>). Our finding that overexpression of RpoQ leads to repressed luminescence suggests that RpoQ is also a source of negative regulation in the circuit controlling <italic>lux</italic> expression.</p>
+      <p>In addition to luminescence, the quorum-sensing system also regulates motility in several different bacteria (<xref ref-type="bibr" rid="B53">53</xref>). In <italic>V. fischeri</italic>, the AinS-LitR pathway has been shown to be involved in the repression of motility (<xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B12">12</xref>). Similarly, overexpression of RpoQ resulted in a significant motility defect (<xref ref-type="fig" rid="fig7">Fig.&#xA0;7</xref>), suggesting that RpoQ may regulate the disappearance of flagellation at the extremely high cell density found within the light organ (<xref ref-type="bibr" rid="B54">54</xref>), thereby not only conserving nutrients and energy but also allowing the cells to pack more tightly.</p>
+      <p>Recently, transcriptional evidence has suggested that the <italic>V. fischeri</italic> population in the mature squid light-organ symbiosis ferments chitin at night, resulting in the production of formic and acetic acids (<xref ref-type="bibr" rid="B55">55</xref>). This hypothesis has been supported by the discovery that host blood cells carry particulate chitin to the tissue surrounding the symbionts (<xref ref-type="bibr" rid="B56">56</xref>). Essentially all <italic>Vibrio</italic> species encode numerous chitinases (<xref ref-type="bibr" rid="B41">41</xref>), and the elevated chitinase activity associated with high RpoQ levels may allow <italic>V. fischeri</italic> to more effectively use host-derived chitin as a nutrient.</p>
+      <p>How might LitR and RpoQ work together to regulate these three quorum-sensing-dependent phenotypes? At low LitR levels (e.g., in uninduced cells or the &#x394;<italic>litR</italic> mutant), cells produce low luminescence and are highly motile (<xref ref-type="fig" rid="fig9">Fig.&#xA0;9A</xref>). However, low LitR has no effect on chitinase activity. As quorum signaling leads to higher levels of LitR, its increased activity results in higher luminescence and lower motility (<xref ref-type="fig" rid="fig9">Fig.&#xA0;9B</xref>). Meanwhile, at this early stage of induction, LitR activates transcription of <italic>rpoQ</italic>. However, while inducing chitinase activity, RpoQ levels remain insufficient to have an effect on motility and luminescence. At very high LitR levels, RpoQ is highly induced and begins to have a dominant effect on other downstream genes, reversing luminescence output and increasing the loss of motility, as well as further activating chitinase activity (<xref ref-type="fig" rid="fig9">Fig.&#xA0;9C</xref>). This model is also supported by the observation that luminescence (see <xref ref-type="supplementary-material" rid="figS2">Fig.&#xA0;S2</xref> in the supplemental material) and motility (see <xref ref-type="supplementary-material" rid="figS3">Fig.&#xA0;S3</xref>) but not chitinase activity (see <xref ref-type="supplementary-material" rid="figS4">Fig.&#xA0;S4</xref>) are directly regulated by LitR.</p>
+      <p>At this point in our analyses, we do not know whether RpoQ regulates using a sigma-like activity. Nevertheless, the results of a domain comparison suggest that RpoQ is a group 2 sigma factor (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2A</xref>), which generally play a role in upregulating transcription initiation at target promoters (<xref ref-type="bibr" rid="B31">31</xref>). Therefore, while it is possible that RpoQ directly binds to the promoter regions of the <italic>luxICDABEG</italic> operon or motility-related genes, thereby repressing transcription, we favor the hypothesis that RpoQ upregulates transcription of an unknown factor(s) that then represses transcription of the target genes identified here.</p>
+      <p>In summary, the novel <italic>V. fischeri</italic> sigma-like factor RpoQ is similar to but distinct from the alternative sigma factor, RpoS, and is regulated by the quorum-sensing system. RpoQ is involved in the regulation of several quorum-sensing-dependent phenotypes at high cell density (<xref ref-type="fig" rid="fig9">Fig.&#xA0;9</xref>), suggesting that it acts as a global regulator of symbiotic maintenance in the host, enhancing some of those phenotypes while attenuating others.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="h3">
+      <title>MATERIALS AND METHODS</title>
+      <sec id="h3.1">
+        <title>Bacterial strains and media.</title>
+        <p>Bacterial strains and plasmids used in this study are listed in <xref ref-type="table" rid="tab1">Table&#xA0;1</xref>. <italic>Escherichia coli</italic> strains were grown at 37&#xB0;C in LB medium (1% [wt/vol] tryptone, 0.5% [wt/vol] yeast extract, and 1% [wt/vol] NaCl). Liquid cultures of <italic>V. fischeri</italic> were grown at 28&#xB0;C with aeration either in LBS medium (1% [wt/vol] tryptone, 0.5% [wt/vol] yeast extract, 2% [wt/vol] NaCl, 50&#xA0;mM Tris-HCl [pH&#xA0;7.5]) or in SWT medium (<xref ref-type="bibr" rid="B57">57</xref>). When necessary, antibiotics were used at the following concentrations: 25&#xA0;&#xB5;g&#xA0;ml<sup>&#x2212;1</sup> chloramphenicol (Cam) and 50&#xA0;&#xB5;g&#xA0;ml<sup>&#x2212;1</sup> kanamycin (Kan) for <italic>E.&#xA0;coli</italic> or 2.5&#xA0;&#xB5;g&#xA0;ml<sup>&#x2212;1</sup> Cam and 5&#xA0;&#xB5;g&#xA0;ml<sup>&#x2212;1</sup> erythromycin (Erm) for <italic>V. fischeri</italic>. Stock solutions of the <italic>N</italic>-3-oxo-hexanoyl homoserine lactone autoinducer (3-oxo-C6) were made in dimethyl sulfoxide.</p>
+        <table-wrap id="tab1" position="float">
+          <label>TABLE&#xA0;1 </label>
+          <caption>
+            <p>Strains and plasmids used in this study</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Strain or plasmid</th>
+                <th rowspan="1" colspan="1">Relevant genotype</th>
+                <th rowspan="1" colspan="1">Source or reference(s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">Strain</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">MJM1100</td>
+                <td rowspan="1" colspan="1">Sequenced wild-type <italic>V. fischeri</italic> ES114</td>
+                <td rowspan="1" colspan="1">30, 43</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">TIM305</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>luxO</italic></td>
+                <td rowspan="1" colspan="1">11</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">TIM355</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>luxO</italic> &#x394;<italic>litR</italic></td>
+                <td rowspan="1" colspan="1">11</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">TIM358</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>litR</italic></td>
+                <td rowspan="1" colspan="1">11</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">TIM313</td>
+                <td rowspan="1" colspan="1">ES114 Tn<italic>7</italic>::pEVS107 (<italic>erm</italic>)</td>
+                <td rowspan="1" colspan="1">11</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">TIM315</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>luxO</italic> Tn<italic>7</italic>::pEVS107 (<italic>erm</italic>)</td>
+                <td rowspan="1" colspan="1">11</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">TIM366</td>
+                <td rowspan="1" colspan="1">ES114 Tn<italic>7</italic>::pTM319 (<italic>Ptrc-rpoQ</italic>)</td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CA1</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>rpoQ</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CA4</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CA6</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic> Tn<italic>7</italic>::<italic>rpoQ</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CA8</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>VFA1014</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CA19</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>litR</italic> Tn<italic>7</italic>::pEVS107 (<italic>erm</italic>)</td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">KV1612</td>
+                <td rowspan="1" colspan="1">ES114 <italic>VFA1017::kan</italic></td>
+                <td rowspan="1" colspan="1">66</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">AMJ2</td>
+                <td rowspan="1" colspan="1">ES114 &#x394;<italic>arcA</italic></td>
+                <td rowspan="1" colspan="1">38</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Plasmid</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pEVS79</td>
+                <td align="char" char="+" rowspan="1" colspan="1">pBC SK(+) <italic>oriT cat</italic></td>
+                <td rowspan="1" colspan="1">62</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pEVS104</td>
+                <td rowspan="1" colspan="1">R6KoriRP4 <italic>oriT trb tra kan</italic></td>
+                <td rowspan="1" colspan="1">62</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pEVS107</td>
+                <td rowspan="1" colspan="1">R6Kori <italic>oriT</italic> mini-Tn<italic>7 mob erm kan</italic></td>
+                <td rowspan="1" colspan="1">64</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pVSV105</td>
+                <td rowspan="1" colspan="1">R6Kori <italic>ori</italic>(pES213) RP4 <italic>oriT cat</italic></td>
+                <td rowspan="1" colspan="1">67</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pUX-BF13</td>
+                <td rowspan="1" colspan="1">R6Kori <italic>tns bla</italic></td>
+                <td rowspan="1" colspan="1">65</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pSVS112</td>
+                <td rowspan="1" colspan="1">pEVS79 &#x394;<italic>rpoQ</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pTM214</td>
+                <td rowspan="1" colspan="1">pVSV105 <italic>P<sub>trc</sub>-mCherry</italic></td>
+                <td rowspan="1" colspan="1">63</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pTM280</td>
+                <td rowspan="1" colspan="1">pVSV105 <italic>P<sub>luxI</sub>-gfp</italic> + <italic>PtetA-mCherry</italic></td>
+                <td rowspan="1" colspan="1">11</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pTM319</td>
+                <td rowspan="1" colspan="1">pEVS107 <italic>lacI</italic><sup>q</sup><italic>P<sub>trc</sub>-rpoQ</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pXDC1</td>
+                <td rowspan="1" colspan="1">pEVS79 &#x394;<italic>VFA1014</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pXDC10</td>
+                <td rowspan="1" colspan="1">pTM214 <italic>P<sub>trc</sub>-rpoQ</italic> &#x394;<italic>mCherry</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pXDC23</td>
+                <td rowspan="1" colspan="1">pTM214 <italic>P<sub>trc</sub>-VF_A1016</italic> &#x394;<italic>mCherry</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pXDC35</td>
+                <td rowspan="1" colspan="1">pTM214 <italic>P<sub>trc</sub>-rpoS</italic> &#x394;<italic>mCherry</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">pXDC36</td>
+                <td rowspan="1" colspan="1">pTM214 <italic>P<sub>trc</sub>-rpoD</italic> &#x394;<italic>mCherry</italic></td>
+                <td rowspan="1" colspan="1">This study</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec id="h3.2">
+        <title>Bioinformatics analysis.</title>
+        <p>Homologues of <italic>V. fischeri</italic> RpoQ (VF_A1015) were identified in <italic>A.&#xA0;salmonicida</italic> strain LFI1238 (VSAL_II0319) by BLAST analysis (<xref ref-type="bibr" rid="B58">58</xref>). Homologues of <italic>V. fischeri</italic> RpoD (VF_2254) and RpoS (VF_2067) were identified in <italic>E.&#xA0;coli</italic> strain MG1655 and <italic>A.&#xA0;salmonicida</italic> strain LFI1238 by BLAST. The conserved domains of these sigma factors were found using the Pfam database (<xref ref-type="bibr" rid="B59">59</xref>). Amino acid sequences were aligned using the ClustalX 2.0.11 software program (<xref ref-type="bibr" rid="B60">60</xref>) and used to generate a neighbor-joining tree using the PHYLIP program (<xref ref-type="bibr" rid="B61">61</xref>).</p>
+      </sec>
+      <sec id="h3.3">
+        <title>Plasmid and strain construction.</title>
+        <p>All the restriction enzymes used were from NEB (New England Biolabs, Ipswich, MA). <italic>V. fischeri</italic> mutants CA1 (&#x394;<italic>rpoQ</italic>), CA4 (&#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic>), and CA8 (&#x394;<italic>VF</italic>_A1014) were constructed using allelic exchange based on pEVS79 (<xref ref-type="bibr" rid="B62">62</xref>). To construct the plasmid pSVS112, which contains the &#x394;<italic>rpoQ</italic> allele as an in-frame deletion of the sequence encoding amino acids 10 to 288, the homologous regions upstream and downstream of <italic>rpoQ</italic> were amplified by PCR using the primer pairs rpoQF1/rpoQR1 and rpoQF2/rpoQR2 (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>), digested by XhoI/SalI and SalI/SpeI, and ligated into the Cam resistance-encoding vector pEVS79 (<xref ref-type="bibr" rid="B62">62</xref>), which had been digested with XhoI/SpeI. To construct the plasmid pXDC1, which contains the &#x394;<italic>VF</italic>_A1014 allele as an in-frame deletion of the sequence encoding amino acids 34 to 421, the homologous regions upstream and downstream of <italic>VF_A1014</italic> were amplified by PCR using the primer pairs VF_A1014F1/VF_A1014R1 and VF_A1014F2/VF_A1014R2 (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>), digested by XhoI/EcoRI and EcoRI/BamHI, and ligated into pEVS79, which had been digested with XhoI/BamHI. Each of these allelic-exchange vectors was then moved into <italic>V. fischeri</italic> by triparental mating using the conjugal helper plasmid pEVS104 (<xref ref-type="bibr" rid="B62">62</xref>). Conjugants were selected on LBS agar medium containing Cam, after which the appearance of a second recombination event was screened for on LBS agar medium containing no antibiotic. Colonies were purified, and their sequence was confirmed by PCR using the primers rpoQF3/rpoQR3 and rpoQF4/rpoQR4 or VF_A1014F3/VF_A1014R3 and VF_A1014F4/VF_A1014R4. Verification that the expected mutations were fixed in the chromosome was obtained by sequencing.</p>
+        <table-wrap id="tab2" position="float">
+          <label>TABLE&#xA0;2 </label>
+          <caption>
+            <p>Primers used in this study</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col span="1"/>
+              <col span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Primer</th>
+                <th rowspan="1" colspan="1">Sequence (<named-content content-type="gene">5&#x2032;&#x2013;3&#x2032;</named-content>)<xref rid="ngtab2.1"><sup><italic>a</italic></sup></xref></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">A1016-17F</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GAGATCCGGAAAGTAGAAAAAAACC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">A1016-17R</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GAAGTCGATGAAAAGTAATGCGTAT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CrpoDF</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GAATACCGCCGTGGTTACAAA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CrpoDR</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">TTGACGCGAGATACGATTCAGT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CrpoQF</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">TCCTTGCTGAAACATCCCC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CrpoQR</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">AAGTTAGATATGAGAGTCTGCGAAG</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CVF_A1016F</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CACGAAATAAGAACACCACTCAATG</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">CVF_A1016R</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">TATCGTTAATCAAAACAAGCAAGGTT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RpoD-eF</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GG<bold>GGTACC</bold>ATGGATCAAAATCCGCAGTCACAGC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RpoD-eR</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GC<bold>GTCGAC</bold>TTATTCGTCTAAGAAGCTACGTAAT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RpoQ-eF</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">C<bold>GAGCTC</bold>GCTAGGTACAAGGATATGTTATGG</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RpoQ-eR</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GC<bold>GATATC</bold>TCAACCCAGTGCTATTTCTAAATCC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RpoS-eF</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GG<bold>GGTACC</bold>ATGAGTAAAAGCAATGCAGTAACTA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RpoS-eR</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">TTAGTATTCTTCAACTGCAAATAAT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQF1</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CC<bold>CTCGAG</bold>AACGCCAGACATACCAATAATACC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQR1</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GC<bold>GTCGAC</bold>TCTCATATCTAACTTTGCATAAGC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQF2</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GC<bold>GTCGAC</bold>TTAGAAATAGCACTGGGTTGATAT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQR2</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GG<bold>ACTAGT</bold>ATTTCGCACTTTTCATACCCTTTA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQF3</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">ACAGCACCAAGATCTAAGGCACGA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQR3</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CACTTCACGTACATTGCTTGGCTG</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQF4</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GTATTGCCGCTTGTTAGTCT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQR4</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">ACAACCTCAACATATCCATGACA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RNA-linker</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">AUAUGCGCGAAUUCCUGUAGAACGAACACUAGAAGAAA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">RACE-adapter</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GCGCGAATTCCTGTAGA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQ-RACE</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CTGATAGCGATTTATTTCCTTTAA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">rpoQ-RACE-nested</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GTTCTTCGCAGACTCTCATATCTA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1016-RACE</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GAGAGATAAGAATTAAGGGAACAA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1016-RACE-nested</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GACCAAAACTCTTGATTTGATAGA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014F1</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CG<bold>CTCGAG</bold>ACGGTATTGCCGCTTGTTAGTCTTT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014R1</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CG<bold>GAATTC</bold>ATTATTCTTAACAAGATCATA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014F2</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CG<bold>GAATTC</bold>GGTACAGGGTACTCCTCTTTAT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014R2</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">CG<bold>GGATCC</bold>AATTAGCCTGTAATCGTTGGCTTT</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014F3</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">GTTATTTAATGTGGCGGCCTATGAC</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014R3</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">AACGCTTTCGCGACTCTAACAAGCA</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014F4</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">TGGATTTAGAAATAGCACTGGGTTG</named-content>
+</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">VF_A1014R4</td>
+                <td rowspan="1" colspan="1">
+<named-content content-type="gene">ATGTGCAAGATAAATCGTCGATGCC</named-content>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="ngtab2.1">
+              <label>
+                <sup>a</sup>
+              </label>
+              <p> Nucleotides in bold represent restriction enzyme sites added to the 5&#x2032; region of the primer.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>To construct the plasmid pXDC10, which is an <italic>rpoQ</italic> overexpression vector, <italic>rpoQ</italic> was amplified by PCR using the primer pair RpoQ-eF/RpoQ-eR (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>), digested with SacI/EcoRV, and ligated into the vector pTM214 (<xref ref-type="bibr" rid="B58">58</xref>) after digestion with SacI/XmnI. To construct the plasmid pXDC35, which is an <italic>rpoS</italic> overexpression vector, <italic>rpoS</italic> was amplified by PCR using primer pair RpoS-eF/RpoS-eR (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>), digested with KpnI, and ligated into the vector pTM214 (<xref ref-type="bibr" rid="B63">63</xref>) after digestion with KpnI/XmnI. To construct the plasmid pXDC36, which is an <italic>rpoD</italic> overexpression vector, <italic>rpoD</italic> was amplified by PCR using primer pair RpoD-eF/RpoD-eR (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>), digested by KpnI/SalI, and ligated into the vector pTM214 (<xref ref-type="bibr" rid="B63">63</xref>). All constructs were verified by sequencing and then conjugated into the wild-type strain MJM1100 using pEVS104 (<xref ref-type="bibr" rid="B62">62</xref>). Conjugates were selected on LBS agar medium containing Cam.</p>
+        <p>To generate the plasmid pTM319, pXDC10 was digested by NotI and made blunt by T4 DNA polymerase. The resulting product was cut by SpeI and ligated into pEVS107 (<xref ref-type="bibr" rid="B64">64</xref>) after digestion with KpnI, making the end blunt with T4 DNA polymerase and cutting by SpeI. Integration of pTM319 into the Tn<italic>7</italic> site of <italic>V. fischeri</italic> was performed using the helper plasmids pEVS104 (<xref ref-type="bibr" rid="B62">62</xref>) and pUX-BF13 (<xref ref-type="bibr" rid="B65">65</xref>). Conjugants were selected on LBS agar medium containing Erm.</p>
+      </sec>
+      <sec id="h3.4">
+        <title>Quantitative qRT-PCR measurements.</title>
+        <p>Total RNA from <italic>V. fischeri</italic> cultures was isolated using a QuickExtract RNA extraction kit and DNase I (Epicentre Biotechnologies, Madison, WI). RNA served as the template for cDNA synthesis with random hexamer primers and avian myeloblastosis virus (AMV) reverse transcriptase (Promega, Madison, WI). Quantitative reverse transcriptase PCR (qRT-PCR) measurements were performed using an iCycler thermal cycler (Bio-Rad Laboratories, Hercules, CA), as described previously (<xref ref-type="bibr" rid="B11">11</xref>). Amplification was performed at 95&#xB0;C for 5&#xA0;min, followed by 40 cycles of 95&#xB0;C for 15&#xA0;s, 55&#xB0;C for 30&#xA0;s, and 72&#xB0;C for 30&#xA0;s. The primer sequences used (CrpoDF/CrpoDR, CrpoQF/CrpoQR, and CVF_A1016F/CVF_A1016R) are listed in <xref ref-type="table" rid="tab2">Table&#xA0;2</xref>. The <italic>C<sub>T</sub></italic> values of the genes are between 20 and 30.</p>
+      </sec>
+      <sec id="h3.5">
+        <title>RT-PCR analyses.</title>
+        <p>Total RNA from <italic>V. fischeri</italic> cultures was isolated as described above, and RT-PCR was performed using the Access RT-PCR system (Promega, Madison, WI). Wild-type genomic DNA was used as the positive control, while an RNA sample with no reverse transcriptase added was the negative control. Primer pairs A1016-17F/A1016-17R (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>) were used to amplify the intergenic regions between <italic>VF_A1016</italic> and <italic>VF_A1017</italic>.</p>
+      </sec>
+      <sec id="h3.6">
+        <title>5&#x2032; RACE.</title>
+        <p>Six micrograms of total RNA was extracted from &#x394;<italic>luxO</italic> (TIM305) and &#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic> (CA4) cultures grown to an optical density at 600 nm (OD<sub>600</sub>) of 0.9 and subjected to dephosphorylation by tobacco acid pyrophosphatase (TAP) (Epicentre Biotechnologies, Madison, WI) for 30&#xA0;min at 37&#xB0;C. The RNA oligoRNA linker was ligated to total RNA using T4 RNA ligase (New England Biolabs, Inc., Ipswich, MA) according to the manufacturer&#x2019;s instructions. cDNA was synthesized using AMV RT (Promega Corp., Madison, WI) according to the manufacturer&#x2019;s instructions with the <italic>rpoQ</italic>-specific primer rpoQ-RACE and the <italic>VF_A1016</italic>-specific primer VF_A1016-RACE, respectively. PCR amplification was performed using the nested primers RACE-adapter and either rpoQ-RACE-nested or VF_A1016-RACE-nested. The single band that was present within the reaction containing TAP but absent from the TAP-minus control reaction was subcloned using the Topo TA cloning kit (Invitrogen) and sequenced as recommended by the manufacturer.</p>
+      </sec>
+      <sec id="h3.7">
+        <title>Culture luminescence assays.</title>
+        <p>Luminescence assays were performed using cultures of <italic>V. fischeri</italic> as described previously (<xref ref-type="bibr" rid="B11">11</xref>) with the following modification. Overnight cultures were diluted 1:100 in LBS medium either with or without 1&#xA0;mM IPTG and grown at 28&#xB0;C for 2&#xA0;h. Cultures were then diluted 1:10 in medium containing 120&#xA0;nM of the autoinducer 3-oxo-C6. After 3&#xA0;h, luminescence and CFU were measured and reported in relative luminescence units (RLU), where 1 RLU corresponds to 1.9 &#xD7; 10<sup>4</sup> quanta s<sup>&#x2212;1</sup>.</p>
+      </sec>
+      <sec id="h3.8">
+        <title>Squid colonization and luminescence experiments.</title>
+        <p>Overnight cultures of <italic>V. fischeri</italic> were diluted 1:100 in fresh LBS medium and grown aerobically at 28&#xB0;C to an OD<sub>600</sub> of 1.0. Cultures were diluted to between 2,000 and 5,000&#xA0;CFU/ml in filter-sterilized artificial seawater (Instant Ocean; IO) (Spectrum Brands Inc., Atlanta, GA) containing newly hatched squid. At 24&#xA0;h postinoculation, sets of animals were placed in fresh IO either with or without 1&#xA0;mM IPTG. At 48&#xA0;h postinoculation, the luminescence of each animal was measured using a TD 20/20 luminometer (Turner Design, Sunnyvale, CA). To measure the RLU produced by symbiotic bacteria, animals were homogenized and the homogenate was measured for luminescence; the homogenate was also serially diluted and spread on LBS agar medium to determine CFU levels.</p>
+      </sec>
+      <sec id="h3.9">
+        <title>Fluorescence promoter-reporter assay.</title>
+        <p>
+<italic>V. fischeri</italic> cells were grown as described in the culture luminescence assay. Cultures were cooled quickly using an ice-slurry mix before 1-ml samples were harvested by centrifugation at 4&#xB0;C for 2&#xA0;min at 8,000 &#xD7; <italic>g</italic>. Cell pellets were resuspended in 1&#xA0;ml of defined seawater minimal medium (50&#xA0;mM MgSO<sub>4</sub>, 10&#xA0;mM CaCl<sub>2</sub>, 300&#xA0;mM NaCl, 10&#xA0;mM KCl, 0.01&#xA0;mM FeSO<sub>4</sub>, 0.33&#xA0;mM K<sub>2</sub>HPO<sub>4</sub>, 18.5&#xA0;mM NH<sub>4</sub>Cl, 50&#xA0;mM Tris-HCl [pH&#xA0;7.5]) without a carbon source. Samples of 100&#xA0;&#xB5;l (each) in volume were placed in a microtiter plate well, and the OD<sub>600</sub>, as well as the levels of GFP and mCherry fluorescence, were measured using a Tecan Genios Pro plate reader (Tecan Group, M&#xE4;nnedorf, Switzerland). A 485-nm excitation and 535-nm emission filter set was used for GFP measurements, and a 535-nm excitation and 612-nm emission filter set was used for mCherry measurements. A control nonfluorescent strain of <italic>V. fischeri</italic> was used to subtract any autofluorescence.</p>
+      </sec>
+      <sec id="h3.10">
+        <title>Motility assay.</title>
+        <p>Strains of <italic>V. fischeri</italic> were grown in SWT medium to an OD<sub>600</sub> of approximately 0.3. A 3-&#xB5;l culture sample was then stabbed into a defined seawater minimal medium (described above) supplemented with 0.5&#xA0;g <italic>N</italic>-acetylglucosamine per liter and containing 0.25% agar. After 10&#xA0;h, the diameters of the rings of migrating cells were measured.</p>
+      </sec>
+      <sec id="h3.11">
+        <title>Chitinase activity.</title>
+        <p>Exochitinase activity was measured using the chromogenic artificial substrate 4-nitrophenyl N,N&#x2032;-diacetyl-&#x3B2;-<sc>d</sc>-chitobioside (Sigma-Aldrich Corp., St. Louis, MO). Briefly, <italic>V. fischeri</italic> strains were grown in LBS medium supplemented with 1&#xA0;mM IPTG overnight at 28&#xB0;C. The OD<sub>600</sub> of the cultures was determined, and cell-free supernatants were collected by centrifugation. The substrate was then added to the supernatants and, after incubation for 30&#xA0;min, the OD<sub>420</sub> was determined and used to estimate the specific exochitinase activity (mU/ml/OD<sub>600</sub>) according to the manufacturer&#x2019;s instructions.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="h4"><title>SUPPLEMENTAL MATERIAL</title><supplementary-material id="figS1"><label>Figure S1</label><caption><p>qRT-PCR analysis of <italic>VF_A1016</italic> expression in <italic>V. fischeri</italic> &#x394;<italic>luxO</italic> Tn<italic>7</italic>::<italic>erm</italic>, &#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic> Tn<italic>7</italic>::<italic>erm</italic>, and &#x394;<italic>luxO</italic> &#x394;<italic>rpoQ</italic> Tn<italic>7</italic>::<italic>rpoQ</italic> strains. The strains were grown in LBS medium and harvested at an OD<sub>600</sub> of 0.7 to 0.8. The transcript levels of <italic>rpoD</italic> were used to normalize <italic>VF_A1016</italic> levels. Graphical and error bars indicate, respectively, the averages and standard deviations of data from three independent experiments. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate a significant difference (<italic>P</italic> &lt; 0.05) in <italic>VF_A1016</italic> transcript levels between those strains (ANOVA and Tukey&#x2019;s HSD test). Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00285-11/-/DCSupplemental/mbo001121213sf01.tif">Figure S1, TIF file, 0.1 MB</ext-link>.</p></caption><media xlink:href="mbo001121213sf01.tif" mimetype="image" mime-subtype="tiff"><caption><p>Figure S1, TIF file, 0.1 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS2"><label>Figure&#xA0;S2</label><caption><p>Culture luminescence per CFU of (i) wild-type MJM1100 harboring either pTM214 (vector) or the inducible <italic>VF_A1016</italic> allele (<italic>Ptrc-VF_A1016</italic>) and (ii) &#x394;<italic>litR</italic> and &#x394;<italic>litR</italic> &#x394;<italic>rpoQ</italic> strains harboring either pTM214 (vector) or inducible <italic>litR</italic> (<italic>Ptrc-litR</italic>). The cultures were grown either with (black bars) or without (white bars) IPTG addition. Graphical and error bars indicate, respectively, the averages and standard deviations of data from three independent experiments. Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00285-11/-/DCSupplemental/mbo001121213sf02.tif">Figure&#xA0;S2, TIF file, 0.1 MB</ext-link>.</p></caption><media xlink:href="mbo001121213sf02.tif" mimetype="image" mime-subtype="tiff"><caption><p>Figure&#xA0;S2, TIF file, 0.1 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS3"><label>Figure&#xA0;S3</label><caption><p>The motility of (i) wild-type <italic>V. fischeri</italic> cells harboring either pTM214 (WT vector) or the inducible <italic>VF_A1016</italic> allele (WT <italic>P</italic><sub>trc</sub><italic>-VF_A1016</italic>) and (ii) &#x394;<italic>litR</italic> and &#x394;<italic>litR</italic> &#x394;<italic>rpoQ</italic> cells harboring either pTM214 (vector) or the inducible <italic>litR</italic> allele (<italic>P<sub>trc</sub>-litR</italic>). Relative rates of motility were determined in minimal medium containing 1&#xA0;mM IPTG and solidified with 0.25% agar. One representative experiment of three is shown. Growth rates of the strains were comparable in the minimal medium (data not shown). Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00285-11/-/DCSupplemental/mbo001121213sf03.tif">Figure&#xA0;S3, TIF file, 0.4 MB</ext-link>.</p></caption><media xlink:href="mbo001121213sf03.tif" mimetype="image" mime-subtype="tiff"><caption><p>Figure&#xA0;S3, TIF file, 0.4 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS4"><label>Figure&#xA0;S4</label><caption><p>The exochitinase activity of (i) wild-type <italic>V. fischeri</italic> cells harboring either pTM214 (WT vector) or the inducible <italic>VF_A1016</italic> allele (WT <italic>P</italic><sub>trc</sub><italic>-VF_A1016</italic>), and (ii) &#x394;<italic>litR</italic> and &#x394;<italic>litR</italic> &#x394;<italic>rpoQ</italic> cells harboring either pTM214 (vector) or the inducible <italic>litR</italic> allele (<italic>P<sub>trc</sub>-litR</italic>). Secreted chitinase activity was determined in the cell-free supernatant. Graphical and error bars indicate, respectively, the averages and standard deviations of data from three independent experiments. Shared letters above the bars indicate no statistically significant difference (<italic>P</italic> &gt; 0.05), whereas different letters indicate a significant difference (<italic>P</italic> &lt; 0.05) in exochitinase activity between those strains (ANOVA and Tukey&#x2019;s HSD test). Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00285-11/-/DCSupplemental/mbo001121213sf04.tif">Figure&#xA0;S4, TIF file, 0.1 MB</ext-link>.</p></caption><media xlink:href="mbo001121213sf04.tif" mimetype="image" mime-subtype="tiff"><caption><p>Figure&#xA0;S4, TIF file, 0.1 MB</p></caption></media></supplementary-material>
+</sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn fn-type="other">
+        <p>
+<bold>Citation </bold>Cao X, et al. 2012. The novel sigma factor-like regulator RpoQ controls luminescence, chitinase activity, and motility in <italic>Vibrio fischeri</italic>. mBio 3(1):e00285-11. doi:10.1128/mBio.00285-11.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>ACKNOWLEDGMENTS</title>
+      <p>We thank the members of the Ruby and M. McFall-Ngai laboratories for valuable advice and discussion and the manuscript&#x2019;s reviewers for their insightful comments.</p>
+      <p>This work was supported by <funding-source id="GS1">NIH</funding-source> grant <award-id rid="GS1">RR12294</award-id> to E.G.R. and M. McFall-Ngai, by <funding-source id="GS2">NSF</funding-source> grant <award-id rid="GS2">IOS-0817232</award-id> to M. McFall-Ngai and E.G.R., by a China Scholarship Council&#x2019;s State Scholarship Fund Award to X.C., and by fellowships <award-id rid="GS3">5F32GM084620</award-id> and <award-id rid="GS3">1K99GM097032</award-id> from <funding-source id="GS3">the NIGMS</funding-source> to T.M.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>KH</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>1994</year>
+<article-title>Effect of the squid host on the abundance and distribution of symbiotic <italic>Vibrio fischeri</italic> in nature</article-title>. <source>Appl. Environ. Microbiol</source>. <volume>60</volume>:<fpage>1565</fpage>&#x2013;<lpage>1571</lpage><pub-id pub-id-type="pmid">16349257</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Milton</surname><given-names>DL</given-names></name></person-group>
+<year>2006</year>
+<article-title>Quorum sensing in <italic>Vibrios</italic>: complexity for diversification</article-title>. <source>Int. J. Med. Microbiol</source>. <volume>296</volume>:<fpage>61</fpage>&#x2013;<lpage>71</lpage>
+<pub-id pub-id-type="pmid">16487746</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kazmierczak</surname><given-names>MJ</given-names></name><name><surname>Wiedmann</surname><given-names>M</given-names></name><name><surname>Boor</surname><given-names>KJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Alternative sigma factors and their roles in bacterial virulence</article-title>. <source>Microbiol. Mol. Biol. Rev</source>. <volume>69</volume>:<fpage>527</fpage>&#x2013;<lpage>543</lpage>
+<pub-id pub-id-type="pmid">16339734</pub-id></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bose</surname><given-names>JL</given-names></name><name><surname>Rosenberg</surname><given-names>CS</given-names></name><name><surname>Stabb</surname><given-names>EV</given-names></name></person-group>
+<year>2008</year>
+<article-title>Effects of <italic>LuxCDABEG</italic> induction in <italic>Vibrio fischeri</italic>: enhancement of symbiotic colonization and conditional attenuation of growth in culture</article-title>. <source>Arch. Microbiol</source>. <volume>190</volume>:<fpage>169</fpage>&#x2013;<lpage>183</lpage>
+<pub-id pub-id-type="pmid">18521572</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lupp</surname><given-names>C</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2004</year>
+<article-title>
+<italic>Vibrio fischeri</italic> LuxS and AinS: comparative study of two signal synthases</article-title>. <source>J. Bacteriol</source>. <volume>186</volume>:<fpage>3873</fpage>&#x2013;<lpage>3881</lpage>
+<pub-id pub-id-type="pmid">15175301</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lupp</surname><given-names>C</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2005</year>
+<article-title>
+<italic>Vibrio fischeri</italic> uses two quorum-sensing systems for the regulation of early and late colonization factors</article-title>. <source>J. Bacteriol</source>. <volume>187</volume>:<fpage>3620</fpage>&#x2013;<lpage>3629</lpage>
+<pub-id pub-id-type="pmid">15901683</pub-id></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lupp</surname><given-names>C</given-names></name><name><surname>Urbanowski</surname><given-names>M</given-names></name><name><surname>Greenberg</surname><given-names>EP</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2003</year>
+<article-title>The <italic>Vibrio fischeri</italic> quorum-sensing systems ain and lux sequentially induce luminescence gene expression and are important for persistence in the squid host</article-title>. <source>Mol. Microbiol</source>. <volume>50</volume>:<fpage>319</fpage>&#x2013;<lpage>331</lpage>
+<pub-id pub-id-type="pmid">14507383</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Visick</surname><given-names>KL</given-names></name><name><surname>Foster</surname><given-names>J</given-names></name><name><surname>Doino</surname><given-names>J</given-names></name><name><surname>McFall-Ngai</surname><given-names>M</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2000</year>
+<article-title>
+<italic>Vibrio fischeri lux</italic> genes play an important role in colonization and development of the host light organ</article-title>. <source>J. Bacteriol</source>. <volume>182</volume>:<fpage>4578</fpage>&#x2013;<lpage>4586</lpage>
+<pub-id pub-id-type="pmid">10913092</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meighen</surname><given-names>EA</given-names></name></person-group>
+<year>1994</year>
+<article-title>Genetics of bacterial bioluminescence</article-title>. <source>Annu. Rev. Genet</source>. <volume>28</volume>:<fpage>117</fpage>&#x2013;<lpage>139</lpage>
+<pub-id pub-id-type="pmid">7893120</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sitnikov</surname><given-names>DM</given-names></name><name><surname>Schineller</surname><given-names>JB</given-names></name><name><surname>Baldwin</surname><given-names>TO</given-names></name></person-group>
+<year>1995</year>
+<article-title>Transcriptional regulation of bioluminescence genes from <italic>Vibrio fischeri</italic></article-title>. <source>Mol. Microbiol</source>. <volume>17</volume>:<fpage>801</fpage>&#x2013;<lpage>812</lpage>
+<pub-id pub-id-type="pmid">8596430</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miyashiro</surname><given-names>T</given-names></name><name><surname>Wollenberg</surname><given-names>MS</given-names></name><name><surname>Cao</surname><given-names>X</given-names></name><name><surname>Oehlert</surname><given-names>D</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2010</year>
+<article-title>A single <italic>qrr</italic> gene is necessary and sufficient for LuxO-mediated regulation in <italic>Vibrio fischeri</italic></article-title>. <source>Mol. Microbiol</source>. <volume>77</volume>:<fpage>1556</fpage>&#x2013;<lpage>1567</lpage>
+<pub-id pub-id-type="pmid">20662783</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fidopiastis</surname><given-names>PM</given-names></name><name><surname>Miyamoto</surname><given-names>CM</given-names></name><name><surname>Jobling</surname><given-names>MG</given-names></name><name><surname>Meighen</surname><given-names>EA</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2002</year>
+<article-title>LitR, a new transcriptional activator in <italic>Vibrio fischeri</italic>, regulates luminescence and symbiotic light organ colonization</article-title>. <source>Mol. Microbiol</source>. <volume>45</volume>:<fpage>131</fpage>&#x2013;<lpage>143</lpage>
+<pub-id pub-id-type="pmid">12100554</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Studer</surname><given-names>SV</given-names></name><name><surname>Mandel</surname><given-names>MJ</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2008</year>
+<article-title>AinS quorum sensing regulates the <italic>Vibrio fischeri</italic> acetate switch</article-title>. <source>J. Bacteriol</source>. <volume>190</volume>:<fpage>5915</fpage>&#x2013;<lpage>5923</lpage>
+<pub-id pub-id-type="pmid">18487321</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Osterberg</surname><given-names>S</given-names></name><name><surname>Del Peso-Santos</surname><given-names>T</given-names></name><name><surname>Shingler</surname><given-names>V</given-names></name></person-group>
+<year>2011</year>
+<article-title>Regulation of alternative sigma factor use</article-title>. <source>Annu. Rev. Microbiol</source>. <volume>65</volume>:<fpage>37</fpage>&#x2013;<lpage>55</lpage>
+<pub-id pub-id-type="pmid">21639785</pub-id></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>YH</given-names></name><name><surname>Miyamoto</surname><given-names>C</given-names></name><name><surname>Meighen</surname><given-names>EA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Cloning, sequencing, and functional studies of the <italic>rpoS</italic> gene from <italic>Vibrio harveyi</italic></article-title>. <source>Biochem. Biophys. Res. Commun</source>. <volume>293</volume>:<fpage>456</fpage>&#x2013;<lpage>462</lpage>
+<pub-id pub-id-type="pmid">12054623</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merrikh</surname><given-names>H</given-names></name><name><surname>Ferrazzoli</surname><given-names>AE</given-names></name><name><surname>Bougdour</surname><given-names>A</given-names></name><name><surname>Olivier-Mason</surname><given-names>A</given-names></name><name><surname>Lovett</surname><given-names>ST</given-names></name></person-group>
+<year>2009</year>
+<article-title>A DNA damage response in <italic>Escherichia coli</italic> involving the alternative sigma factor, RpoS</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <volume>106</volume>:<fpage>611</fpage>&#x2013;<lpage>616</lpage>
+<pub-id pub-id-type="pmid">19124769</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tian</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Role of RpoS in stress survival, synthesis of extracellular autoinducer 2, and virulence in <italic>Vibrio alginolyticus</italic></article-title>. <source>Arch. Microbiol</source>. <volume>190</volume>:<fpage>585</fpage>&#x2013;<lpage>594</lpage>
+<pub-id pub-id-type="pmid">18641971</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dong</surname><given-names>T</given-names></name><name><surname>Schellhorn</surname><given-names>HE</given-names></name></person-group>
+<year>2010</year>
+<article-title>Role of RpoS in virulence of pathogens</article-title>. <source>Infect. Immun</source>. <volume>78</volume>:<fpage>887</fpage>&#x2013;<lpage>897</lpage>
+<pub-id pub-id-type="pmid">19948835</pub-id></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>AT</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>RpoS controls the <italic>Vibrio cholerae</italic> mucosal escape response</article-title>. <source>PLoS. Pathog</source>. <volume>2</volume>:<fpage>e109</fpage><pub-id pub-id-type="pmid">17054394</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schuster</surname><given-names>M</given-names></name><name><surname>Hawkins</surname><given-names>AC</given-names></name><name><surname>Harwood</surname><given-names>CS</given-names></name><name><surname>Greenberg</surname><given-names>EP</given-names></name></person-group>
+<year>2004</year>
+<article-title>The <italic>Pseudomonas aeruginosa</italic> RpoS regulon and its relationship to quorum sensing</article-title>. <source>Mol. Microbiol</source>. <volume>51</volume>:<fpage>973</fpage>&#x2013;<lpage>985</lpage>
+<pub-id pub-id-type="pmid">14763974</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weber</surname><given-names>B</given-names></name><name><surname>Croxatto</surname><given-names>A</given-names></name><name><surname>Chen</surname><given-names>C</given-names></name><name><surname>Milton</surname><given-names>DL</given-names></name></person-group>
+<year>2008</year>
+<article-title>RpoS induces expression of the <italic>Vibrio anguillarum</italic> quorum-sensing regulator VanT</article-title>. <source>Microbiology</source>
+<volume>154</volume>:<fpage>767</fpage>&#x2013;<lpage>780</lpage>
+<pub-id pub-id-type="pmid">18310023</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Whiteley</surname><given-names>M</given-names></name><name><surname>Parsek</surname><given-names>MR</given-names></name><name><surname>Greenberg</surname><given-names>EP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Regulation of quorum sensing by RpoS in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J. Bacteriol</source>. <volume>182</volume>:<fpage>4356</fpage>&#x2013;<lpage>4360</lpage>
+<pub-id pub-id-type="pmid">10894749</pub-id></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Visick</surname><given-names>KL</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>1998</year>
+<article-title>The periplasmic, group III catalase of <italic>Vibrio fischeri</italic> is required for normal symbiotic competence and is induced both by oxidative stress and approach to stationary phase</article-title>. <source>J. Bacteriol</source>. <volume>180</volume>:<fpage>2087</fpage>&#x2013;<lpage>2092</lpage><pub-id pub-id-type="pmid">9555890</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klose</surname><given-names>KE</given-names></name><name><surname>Mekalanos</surname><given-names>JJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>Distinct roles of an alternative sigma factor during both free-swimming and colonizing phases of the <italic>Vibrio cholerae</italic> pathogenic cycle</article-title>. <source>Mol. Microbiol</source>. <volume>28</volume>:<fpage>501</fpage>&#x2013;<lpage>520</lpage>
+<pub-id pub-id-type="pmid">9632254</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lilley</surname><given-names>BN</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2000</year>
+<article-title>Regulation of quorum sensing in <italic>Vibrio harveyi</italic> by LuxO and sigma-54</article-title>. <source>Mol. Microbiol</source>. <volume>36</volume>:<fpage>940</fpage>&#x2013;<lpage>954</lpage>
+<pub-id pub-id-type="pmid">10844680</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reitzer</surname><given-names>L</given-names></name></person-group>
+<year>2003</year>
+<article-title>Nitrogen assimilation and global regulation in <italic>Escherichia coli</italic></article-title>. <source>Annu. Rev. Microbiol</source>. <volume>57</volume>:<fpage>155</fpage>&#x2013;<lpage>176</lpage>
+<pub-id pub-id-type="pmid">12730324</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stewart</surname><given-names>BJ</given-names></name><name><surname>McCarter</surname><given-names>LL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Lateral flagellar gene system of <italic>Vibrio parahaemolyticus</italic></article-title>. <source>J. Bacteriol</source>. <volume>185</volume>:<fpage>4508</fpage>&#x2013;<lpage>4518</lpage>
+<pub-id pub-id-type="pmid">12867460</pub-id></mixed-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wolfe</surname><given-names>AJ</given-names></name><name><surname>Millikan</surname><given-names>DS</given-names></name><name><surname>Campbell</surname><given-names>JM</given-names></name><name><surname>Visick</surname><given-names>KL</given-names></name></person-group>
+<year>2004</year>
+<article-title>
+<italic>Vibrio fischeri</italic> sigma54 controls motility, biofilm formation, luminescence, and colonization</article-title>. <source>Appl. Environ. Microbiol</source>. <volume>70</volume>:<fpage>2520</fpage>&#x2013;<lpage>2524</lpage>
+<pub-id pub-id-type="pmid">15066853</pub-id></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>JJ</given-names></name><name><surname>Chen</surname><given-names>C</given-names></name><name><surname>Zhang</surname><given-names>LP</given-names></name><name><surname>Hu</surname><given-names>CQ</given-names></name></person-group>
+<year>2009</year>
+<article-title>Cloning, identification, and characterization of the <italic>rpoS</italic>-like sigma factor <italic>rpoX</italic> from <italic>Vibrio alginolyticus</italic></article-title>. <source>J. Biomed. Biotechnol</source>. <volume>2009</volume>:<fpage>126986</fpage><pub-id pub-id-type="pmid">20069110</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mandel</surname><given-names>MJ</given-names></name><name><surname>Stabb</surname><given-names>EV</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2008</year>
+<article-title>Comparative genomics-based investigation of resequencing targets in <italic>Vibrio fischeri</italic>: focus on point miscalls and artefactual expansions</article-title>. <source>BMC Genomics</source>
+<volume>9</volume>:<fpage>138</fpage>
+<pub-id pub-id-type="pmid">18366731</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paget</surname><given-names>MS</given-names></name><name><surname>Helmann</surname><given-names>JD</given-names></name></person-group>
+<year>2003</year>
+<article-title>The sigma70 family of sigma factors</article-title>. <source>Genome Biol</source>. <volume>4</volume>:<fpage>203</fpage>
+<pub-id pub-id-type="pmid">12540296</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amann</surname><given-names>E</given-names></name><name><surname>Ochs</surname><given-names>B</given-names></name><name><surname>Abel</surname><given-names>KJ</given-names></name></person-group>
+<year>1988</year>
+<article-title>Tightly regulated tac promoter vectors useful for the expression of unfused and fused proteins in <italic>Escherichia coli</italic></article-title>. <source>Gene</source>
+<volume>69</volume>:<fpage>301</fpage>&#x2013;<lpage>315</lpage>
+<pub-id pub-id-type="pmid">3069586</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beare</surname><given-names>PA</given-names></name><name><surname>For</surname><given-names>RJ</given-names></name><name><surname>Martin</surname><given-names>LW</given-names></name><name><surname>Lamont</surname><given-names>IL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Siderophore-mediated cell signalling in <italic>Pseudomonas aeruginosa</italic>: divergent pathways regulate virulence factor production and siderophore receptor synthesis</article-title>. <source>Mol. Microbiol</source>. <volume>47</volume>:<fpage>195</fpage>&#x2013;<lpage>207</lpage><pub-id pub-id-type="pmid">12492864</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koster</surname><given-names>M</given-names></name><name><surname>van Klompenburg</surname><given-names>W</given-names></name><name><surname>Bitter</surname><given-names>W</given-names></name><name><surname>Leong</surname><given-names>J</given-names></name><name><surname>Weisbeek</surname><given-names>P</given-names></name></person-group>
+<year>1994</year>
+<article-title>Role for the outer membrane ferric siderophore receptor PupB in signal transduction across the bacterial cell envelope</article-title>. <source>EMBO J</source>. <volume>13</volume>:<fpage>2805</fpage>&#x2013;<lpage>2813</lpage><pub-id pub-id-type="pmid">8026465</pub-id></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llamas</surname><given-names>MA</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Characterization of five novel <italic>Pseudomonas aeruginosa</italic> cell-surface signalling systems</article-title>. <source>Mol. Microbiol</source>. <volume>67</volume>:<fpage>458</fpage>&#x2013;<lpage>472</lpage><pub-id pub-id-type="pmid">18086184</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llamas</surname><given-names>MA</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The heterologous siderophores ferrioxamine B and ferrichrome activate signaling pathways in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J. Bacteriol</source>. <volume>188</volume>:<fpage>1882</fpage>&#x2013;<lpage>1891</lpage>
+<pub-id pub-id-type="pmid">16484199</pub-id></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <label>37.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llamas</surname><given-names>MA</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>A novel extracytoplasmic function (ECF) sigma factor regulates virulence in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>PLoS Pathog</source>. <volume>5</volume>:<elocation-id>e1000572</elocation-id><pub-id pub-id-type="pmid">19730690</pub-id></mixed-citation>
+      </ref>
+      <ref id="B38">
+        <label>38.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bose</surname><given-names>JL</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Bioluminescence in <italic>Vibrio fischeri</italic> is controlled by the redox-responsive regulator ArcA</article-title>. <source>Mol. Microbiol</source>. <volume>65</volume>:<fpage>538</fpage>&#x2013;<lpage>553</lpage>
+<pub-id pub-id-type="pmid">17590235</pub-id></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <label>39.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chernin</surname><given-names>LS</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Chitinolytic activity in <italic>Chromobacterium violaceum</italic>: substrate analysis and regulation by quorum sensing</article-title>. <source>J. Bacteriol</source>. <volume>180</volume>:<fpage>4435</fpage>&#x2013;<lpage>4441</lpage><pub-id pub-id-type="pmid">9721280</pub-id></mixed-citation>
+      </ref>
+      <ref id="B40">
+        <label>40.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Defoirdt</surname><given-names>T</given-names></name><name><surname>Ruwandeepika</surname><given-names>HAD</given-names></name><name><surname>Karunasagar</surname><given-names>I</given-names></name><name><surname>Boon</surname><given-names>N</given-names></name><name><surname>Bossier</surname><given-names>P</given-names></name></person-group>
+<year>2010</year>
+<article-title>Quorum sensing negatively regulates chitinase in <italic>Vibrio harveyi</italic></article-title>. <source>Environ. Microbiol. Rep</source>. <volume>2</volume>:<fpage>44</fpage>&#x2013;<lpage>49</lpage></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <label>41.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hunt</surname><given-names>DE</given-names></name><name><surname>Gevers</surname><given-names>D</given-names></name><name><surname>Vahora</surname><given-names>NM</given-names></name><name><surname>Polz</surname><given-names>MF</given-names></name></person-group>
+<year>2008</year>
+<article-title>Conservation of the chitin-utilization pathway in the <italic>Vibrionaceae</italic></article-title>. <source>Appl. Environ. Microbiol</source>. <volume>74</volume>:<fpage>44</fpage>&#x2013;<lpage>51</lpage>
+<pub-id pub-id-type="pmid">17933912</pub-id></mixed-citation>
+      </ref>
+      <ref id="B42">
+        <label>42.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Urbanczyk</surname><given-names>H</given-names></name><name><surname>Ast</surname><given-names>JC</given-names></name><name><surname>Higgins</surname><given-names>MJ</given-names></name><name><surname>Carson</surname><given-names>J</given-names></name><name><surname>Dunlap</surname><given-names>PV</given-names></name></person-group>
+<year>2007</year>
+<article-title>Reclassification of <italic>Vibrio fischeri, Vibrio logei, Vibrio salmonicida</italic> and <italic>Vibrio wodanis</italic> as <italic>Aliivibrio fischeri</italic> gen. nov., comb. nov., <italic>Aliivibrio logei</italic> comb.nov., <italic>Aliivibrio salmonicida</italic> comb. nov. and <italic>Aliivibrio wodanis</italic> comb. nov</article-title>. <source>Int. J. Syst. Evol. Microbiol</source>. <volume>57</volume>:<fpage>2823</fpage>&#x2013;<lpage>2829</lpage><pub-id pub-id-type="pmid">18048732</pub-id></mixed-citation>
+      </ref>
+      <ref id="B43">
+        <label>43.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruby</surname><given-names>EG</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Complete genome sequence of <italic>Vibrio fischeri</italic>: a symbiotic bacterium with pathogenic congeners</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <volume>102</volume>:<fpage>3004</fpage>&#x2013;<lpage>3009</lpage>
+<pub-id pub-id-type="pmid">15703294</pub-id></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <label>44.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bavishi</surname><given-names>A</given-names></name><name><surname>Abhishek</surname><given-names>A</given-names></name><name><surname>Lin</surname><given-names>L</given-names></name><name><surname>Choudhary</surname><given-names>M</given-names></name></person-group>
+<year>2010</year>
+<article-title>Complex prokaryotic genome structure: rapid evolution of chromosome</article-title>. <source>Genome</source>
+<volume>53</volume>:<fpage>675</fpage>&#x2013;<lpage>687</lpage><pub-id pub-id-type="pmid">20924417</pub-id></mixed-citation>
+      </ref>
+      <ref id="B45">
+        <label>45.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooper</surname><given-names>VS</given-names></name><name><surname>Vohr</surname><given-names>SH</given-names></name><name><surname>Wrocklage</surname><given-names>SC</given-names></name><name><surname>Hatcher</surname><given-names>PJ</given-names></name></person-group>
+<year>2010</year>
+<article-title>Why genes evolve faster on secondary chromosomes in bacteria</article-title>. <source>PLoS Comput. Biol</source>. <volume>6</volume>:<elocation-id>e1000732</elocation-id><pub-id pub-id-type="pmid">20369015</pub-id></mixed-citation>
+      </ref>
+      <ref id="B46">
+        <label>46.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yildiz</surname><given-names>FH</given-names></name><name><surname>Liu</surname><given-names>XS</given-names></name><name><surname>Heydorn</surname><given-names>A</given-names></name><name><surname>Schoolnik</surname><given-names>GK</given-names></name></person-group>
+<year>2004</year>
+<article-title>Molecular analysis of rugosity in a <italic>Vibrio cholerae</italic> O1 El Tor phase variant</article-title>. <source>Mol. Microbiol</source>. <volume>53</volume>:<fpage>497</fpage>&#x2013;<lpage>515</lpage>
+<pub-id pub-id-type="pmid">15228530</pub-id></mixed-citation>
+      </ref>
+      <ref id="B47">
+        <label>47.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joelsson</surname><given-names>A</given-names></name><name><surname>Kan</surname><given-names>B</given-names></name><name><surname>Zhu</surname><given-names>J</given-names></name></person-group>
+<year>2007</year>
+<article-title>Quorum sensing enhances the stress response in <italic>Vibrio cholerae</italic></article-title>. <source>Appl. Environ. Microbiol</source>. <volume>73</volume>:<fpage>3742</fpage>&#x2013;<lpage>3746</lpage>
+<pub-id pub-id-type="pmid">17434996</pub-id></mixed-citation>
+      </ref>
+      <ref id="B48">
+        <label>48.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hjerde</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>The genome sequence of the fish pathogen <italic>Aliivibrio salmonicida</italic> strain LFI1238 shows extensive evidence of gene decay</article-title>. <source>BMC Genomics</source>
+<volume>9</volume>:<fpage>616</fpage>
+<pub-id pub-id-type="pmid">19099551</pub-id></mixed-citation>
+      </ref>
+      <ref id="B49">
+        <label>49.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stevens</surname><given-names>AM</given-names></name><name><surname>Dolan</surname><given-names>KM</given-names></name><name><surname>Greenberg</surname><given-names>EP</given-names></name></person-group>
+<year>1994</year>
+<article-title>Synergistic binding of the <italic>Vibrio fischeri</italic> LuxR transcriptional activator domain and RNA polymerase to the lux promoter region</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <volume>91</volume>:<fpage>12619</fpage>&#x2013;<lpage>12623</lpage>
+<pub-id pub-id-type="pmid">7809088</pub-id></mixed-citation>
+      </ref>
+      <ref id="B50">
+        <label>50.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stevens</surname><given-names>AM</given-names></name><name><surname>Greenberg</surname><given-names>EP</given-names></name></person-group>
+<year>1997</year>
+<article-title>Quorum sensing in <italic>Vibrio fischeri</italic>: essential elements for activation of the luminescence genes</article-title>. <source>J. Bacteriol</source>. <volume>179</volume>:<fpage>557</fpage>&#x2013;<lpage>562</lpage><pub-id pub-id-type="pmid">8990313</pub-id></mixed-citation>
+      </ref>
+      <ref id="B51">
+        <label>51.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Devine</surname><given-names>JH</given-names></name><name><surname>Shadel</surname><given-names>GS</given-names></name><name><surname>Baldwin</surname><given-names>TO</given-names></name></person-group>
+<year>1989</year>
+<article-title>Identification of the operator of the <italic>lux</italic> regulon from <italic>Vibrio fischeri</italic> ATCC 7744</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <volume>86</volume>:<fpage>5688</fpage>&#x2013;<lpage>5692</lpage>
+<pub-id pub-id-type="pmid">2762291</pub-id></mixed-citation>
+      </ref>
+      <ref id="B52">
+        <label>52.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lyell</surname><given-names>NL</given-names></name><name><surname>Dunn</surname><given-names>AK</given-names></name><name><surname>Bose</surname><given-names>JL</given-names></name><name><surname>Stabb</surname><given-names>EV</given-names></name></person-group>
+<year>2010</year>
+<article-title>Bright mutants of <italic>Vibrio fischeri</italic> ES114 reveal conditions and regulators that control bioluminescence and expression of the <italic>lux</italic> operon</article-title>. <source>J. Bacteriol</source>. <volume>74</volume>:<fpage>7059</fpage>&#x2013;<lpage>7063</lpage></mixed-citation>
+      </ref>
+      <ref id="B53">
+        <label>53.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Daniels</surname><given-names>R</given-names></name><name><surname>Vanderleyden</surname><given-names>J</given-names></name><name><surname>Michiels</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Quorum sensing and swarming migration in bacteria</article-title>. <source>FEMS Microbiol. Rev</source>. <volume>28</volume>:<fpage>261</fpage>&#x2013;<lpage>289</lpage>
+<pub-id pub-id-type="pmid">15449604</pub-id></mixed-citation>
+      </ref>
+      <ref id="B54">
+        <label>54.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruby</surname><given-names>EG</given-names></name><name><surname>Asato</surname><given-names>LM</given-names></name></person-group>
+<year>1993</year>
+<article-title>Growth and flagellation of <italic>Vibrio fischeri</italic> during initiation of the sepiolid squid light organ symbiosis</article-title>. <source>Arch. Microbiol</source>. <volume>159</volume>:<fpage>160</fpage>&#x2013;<lpage>167</lpage>
+<pub-id pub-id-type="pmid">8439236</pub-id></mixed-citation>
+      </ref>
+      <ref id="B55">
+        <label>55.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wier</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Transcriptional patterns in both host and bacterium underlie a daily rhythm of anatomical and metabolic change in a beneficial symbiosis</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>. <volume>107</volume>:<fpage>2259</fpage>&#x2013;<lpage>2264</lpage>
+<pub-id pub-id-type="pmid">20133870</pub-id></mixed-citation>
+      </ref>
+      <ref id="B56">
+        <label>56.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heath-Heckman</surname><given-names>EA</given-names></name><name><surname>McFall-Ngai</surname><given-names>MJ</given-names></name></person-group>
+<year>2011</year>
+<article-title>The occurrence of chitin in the hemocytes of invertebrates</article-title>. <source>Zoology</source>
+<volume>114</volume>:<fpage>191</fpage>&#x2013;<lpage>198</lpage>
+<pub-id pub-id-type="pmid">21723107</pub-id></mixed-citation>
+      </ref>
+      <ref id="B57">
+        <label>57.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boettcher</surname><given-names>KJ</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>1990</year>
+<article-title>Depressed light emission by symbiotic <italic>Vibrio fischeri</italic> of the sepiolid squid <italic>Euprymna scolopes</italic></article-title>. <source>J. Bacteriol</source>. <volume>172</volume>:<fpage>3701</fpage>&#x2013;<lpage>3706</lpage><pub-id pub-id-type="pmid">2163384</pub-id></mixed-citation>
+      </ref>
+      <ref id="B58">
+        <label>58.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</article-title>. <source>Nucleic Acids Res</source>. <volume>25</volume>:<fpage>3389</fpage>&#x2013;<lpage>3402</lpage>
+<pub-id pub-id-type="pmid">9254694</pub-id></mixed-citation>
+      </ref>
+      <ref id="B59">
+        <label>59.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Finn</surname><given-names>RD</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>The Pfam protein families database</article-title>. <source>Nucleic Acids Res</source>. <volume>38</volume>:<fpage>D211</fpage>&#x2013;<lpage>D222</lpage>
+<pub-id pub-id-type="pmid">19920124</pub-id></mixed-citation>
+      </ref>
+      <ref id="B60">
+        <label>60.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Larkin</surname><given-names>MA</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Clustal W and Clustal X version 2.0</article-title>. <source>Bioinformatics</source>
+<volume>23</volume>:<fpage>2947</fpage>&#x2013;<lpage>2948</lpage>
+<pub-id pub-id-type="pmid">17846036</pub-id></mixed-citation>
+      </ref>
+      <ref id="B61">
+        <label>61.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Felsenstein</surname><given-names>J</given-names></name></person-group>
+<year>1989</year>
+<article-title>PHYLIP-phylogeny inference package (version 3.2)</article-title>. <source>Cladistics</source>
+<volume>5</volume>:<fpage>164</fpage>&#x2013;<lpage>166</lpage></mixed-citation>
+      </ref>
+      <ref id="B62">
+        <label>62.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stabb</surname><given-names>EV</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2002</year>
+<article-title>RP4-based plasmids for conjugation between <italic>Escherichia coli</italic> and members of the <italic>Vibrionaceae</italic></article-title>. <source>Methods Enzymol</source>. <volume>358</volume>:<fpage>413</fpage>&#x2013;<lpage>426</lpage>
+<pub-id pub-id-type="pmid">12474404</pub-id></mixed-citation>
+      </ref>
+      <ref id="B63">
+        <label>63.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miyashiro</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>The N-acetyl-<sc>d</sc>-glucosamine repressor NagC of <italic>Vibrio fischeri</italic> facilitates colonization of <italic>Euprymna scolopes</italic></article-title>. <source>Mol. Microbiol</source>. <volume>82</volume>:<fpage>894</fpage>&#x2013;<lpage>903</lpage>
+<pub-id pub-id-type="pmid">21992506</pub-id></mixed-citation>
+      </ref>
+      <ref id="B64">
+        <label>64.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCann</surname><given-names>J</given-names></name><name><surname>Stabb</surname><given-names>EV</given-names></name><name><surname>Millikan</surname><given-names>DS</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2003</year>
+<article-title>Population dynamics of <italic>Vibrio fischeri</italic> during infection of <italic>Euprymna scolopes</italic></article-title>. <source>Appl. Environ. Microbiol</source>. <volume>69</volume>:<fpage>5928</fpage>&#x2013;<lpage>5934</lpage>
+<pub-id pub-id-type="pmid">14532046</pub-id></mixed-citation>
+      </ref>
+      <ref id="B65">
+        <label>65.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bao</surname><given-names>Y</given-names></name><name><surname>Lies</surname><given-names>DP</given-names></name><name><surname>Fu</surname><given-names>H</given-names></name><name><surname>Roberts</surname><given-names>GP</given-names></name></person-group>
+<year>1991</year>
+<article-title>An improved Tn<italic>7</italic>-based system for the single-copy insertion of cloned genes into chromosomes of gram-negative bacteria</article-title>. <source>Gene</source>
+<volume>109</volume>:<fpage>167</fpage>&#x2013;<lpage>168</lpage>
+<pub-id pub-id-type="pmid">1661697</pub-id></mixed-citation>
+      </ref>
+      <ref id="B66">
+        <label>66.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hussa</surname><given-names>EA</given-names></name><name><surname>O&#x2019;Shea</surname><given-names>TM</given-names></name><name><surname>Darnell</surname><given-names>CL</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name><name><surname>Visick</surname><given-names>KL</given-names></name></person-group>
+<year>2007</year>
+<article-title>Two-component response regulators of <italic>Vibrio fischeri</italic>: identification, mutagenesis, and characterization</article-title>. <source>J. Bacteriol</source>. <volume>189</volume>:<fpage>5825</fpage>&#x2013;<lpage>5838</lpage>
+<pub-id pub-id-type="pmid">17586650</pub-id></mixed-citation>
+      </ref>
+      <ref id="B67">
+        <label>67.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunn</surname><given-names>AK</given-names></name><name><surname>Millikan</surname><given-names>DS</given-names></name><name><surname>Adin</surname><given-names>DM</given-names></name><name><surname>Bose</surname><given-names>JL</given-names></name><name><surname>Stabb</surname><given-names>EV</given-names></name></person-group>
+<year>2006</year>
+<article-title>New rfp- and pES213-derived tools for analyzing symbiotic <italic>Vibrio fischeri</italic> reveal patterns of infection and <italic>lux</italic> expression in <italic>situ</italic></article-title>. <source>Appl. Environ. Microbiol</source>. <volume>72</volume>:<fpage>802</fpage>&#x2013;<lpage>810</lpage>
+<pub-id pub-id-type="pmid">16391121</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

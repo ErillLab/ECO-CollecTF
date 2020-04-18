@@ -1,0 +1,68 @@
+Results
+
+GlnR is the global regulator of gene expression in response to nitrogen limitation
+
+We studied the expression profiles of M. smegmatis wild type and DeltaglnR deletion mutant [32] grown in nitrogen limiting conditions, in order to identify the genes under GlnR control.
+M. smegmatis wild type and DeltaglnR mutant were harvested one hour after nitrogen run-out, total RNA was extracted and cDNA hybridised to the M. smegmatis microarray.
+Data was normalised and genes were considered significantly differentially expressed when they showed greater than 2-fold difference in expression between the wild type and DeltaglnR mutant with an FDR corrected p-value of <0.01.
+Fully annotated microarray data have been deposited in BmuG@Sbase (accession number E-BUGS-143; http://bugs.sgul.ac.uk/E-BUGS-143) and also ArrayExpress (accession number E-BUGS-143).
+The 10 previously identified GlnR-regulated genes were all confirmed to be under GlnR control during nitrogen stress (i.e. differential expression in the wild type compared to the DeltaglnR mutant), but in addition a total of 392 genes were significantly up-regulated and 291 significantly down regulated (Additional file 1: Table S1).
+This indicates that GlnR mediates (directly or indirectly) the expression of over 680 genes.
+
+
+
+Identification of GlnR binding sites across the genome during nitrogen limitation
+
+In order to identify which of the genes identified by transcriptional profiling are directly regulated by GlnR we used ChIP-seq to identify the location of GlnR binding sites in the genome during nitrogen limitation.
+Cells were grown in 1 mM (limiting) or 30 mM (excess) ammonium sulphate, and DNA-protein complexes were cross-linked one hour after ammonium depletion; nitrogen excess samples were cross-linked at the same time point, cells were then lysed and the DNA sheared by sonication.
+GlnR-bound DNA fragments were immunoprecipitated using affinity-purified anti-GlnR polyclonal antibody.
+We performed quantitative PCR on the glutamine synthetase (glnA1) and nitrite reductase (nirB) promoter regions to confirm the enrichment of GlnR binding regions in nitrogen limited cells compared to nitrogen replete; a gene thought not to be GlnR regulated (MSMEG3224) was included as a negative control (Additional file 2: Figure S1).
+
+Immunoprecipitated DNA was then prepared for sequencing using the Illumina ChIP-seq library kit, and DNA libraries sequenced using an Illumina HiSeq2000, which generated approximately 160 million reads per sample that were then mapped to the M. smegmatis genome using Bowtie [33].
+All ChIP-seq data files have been deposited into ArrayExpress (accession number E-MTAB-1456).
+GlnR binding regions were identified using the peak-calling algorithm SISSRs (Site Identification for Short Sequence Reads) [34], with peaks defined as significant if they showed greater than 5-fold enrichment in the immunoprecipitated sample compared to the input control at a p value of < 0.005.
+This identified 53 GlnR binding sites during nitrogen limitation (Table 1), 5 of which were also observed in nitrogen excess conditions (Table 2), but with much lower peak intensity values.
+For example a GlnR binding site was identified under both conditions upstream of glnA (MSMEG4290) with a peak intensity value of 6.3 in nitrogen excess and 184.7 in nitrogen limitation (Table 2).
+All GlnR binding sites were located in the promoter regions of genes, except peak number 52, which was located within MSMEG6817.
+
+The identification of the three previously known GlnR binding sites (upstream of amt1, amtB and glnA1) in our ChIP-seq data (Figure 1) validated our approach.
+However, we used purified GlnR protein and electromobility shift assays (EMSA) to further validate four of the novel GlnR DNA binding regions identified in this study.
+DNA sequences (200 bp) representing the promoter regions of peak 19 (amtB, included as a positive control), peak 17 (MSMEG2184), peak 21 (MSMEG2522), peak 22 (MSMEG2526), and peak 42 (MSMEG5358), all showed specific GlnR binding, with the DNA/protein complex shift dependent on DNA concentration.
+The promoter region of MSMEG3224, a region not identified as a GlnR binding site in this study and included as a negative control, showed no GlnR binding (Figure 2).
+
+
+
+Delineation of the GlnR regulon during nitrogen limitation
+
+In order to identify the genes controlled directly by GlnR and thus forming the GlnR regulon, we mapped the 53 binding sites onto the profile of transcripts regulated by GlnR during nitrogen limitation, using the Integrated Genome Viewer [35,36], examples of which can be seen in Figure 2 (all 53 binding sites in nitrogen limitation can be viewed in Additional file 3: Figure S2).
+Forty-four GlnR binding sites corresponded to the differential expression of 103 genes, 91 of which were located in 21 operons (Table 1).
+Interestingly as well as the 96 genes up-regulated by GlnR during nitrogen limitation, 7 genes (4 singles plus one operon of 3) were down regulated, indicating that GlnR functions as both an activator and repressor of transcription.
+GlnR binding also controlled the expression of 6 pairs of divergent genes (Table 1).
+
+Genes adjacent to 9 of the 53 GlnR binding sites did not show any differential expression during nitrogen limitation (non-DE binding sites) (Table 1).
+One of those sites, peak 52, was the only one not in an intergenic region, but located in the 3' end of MSMEG6817.
+Additional file 4: Figure S3 shows the binding site identified for peak 52, with little evidence of a clear peak; this is likely a mis-call by the SISSRs programme.
+To confirm this, rate limiting qPCR was performed using DNA immunoprecipitated from nitrogen limiting and excess conditions, and no enrichment was observed (data not shown), therefore this binding site was excluded from the GlnR regulon.
+Two binding sites (peaks 18 and 49) were upstream of genes not present in the microarray, therefore these genes were analysed by qRT-PCR.
+MSMEG2332 (adjacent to peak 18) showed significant differential expression in the WT compared to the DeltaglnR mutant under nitrogen limitation (10.1 average fold change; p value <0.01; n = 3) and was therefore deemed to be part of the GlnR regulon, but the gene adjacent to peak 49, MSMEG6697, was not differentially expressed (data not shown).
+
+In order to further investigate the other 8 binding sites showing no DE, rate limiting qPCR was performed on immunoprecipitated DNA from cells grown under nitrogen limiting and excess conditions.
+Additional file 5: Figure S4 shows enrichment of the 8 promoter regions in nitrogen limitation compared to nitrogen excess; GlnR binding to peak 13 was also confirmed by EMSA (Additional file 6: Figure S5).
+Therefore these 8 peaks may be part of the GlnR regulon, although it would appear that GlnR does not alter transcription of these genes under the conditions tested.
+The complete GlnR regulon, including these 8 putative members, is provided in Additional file 7: Table S2.
+
+
+
+Identification and analysis of the M. smegmatis GlnR consensus binding motif
+
+The nucleotide sequence (200 bp) for each of the enriched GlnR-binding regions was extracted using the R package Biostrings and submitted to the motif discovery tool Multiple EM (Expectation Maximization) for Motif Elicitation (MEME) [37] to identify a consensus GlnR binding motif.
+A consensus motif (AC/T-n9-AC) present once in all 53 GlnR binding sites was identified with an E value of 6.5 x 10-30 (Figure 3).
+No direct correlation was observed between either the specific GlnR binding sequence, or the proximity of the binding site to a gene start site, and the level of gene expression (Additional file 8: Table S1).
+To identify key residues required for specific GlnR binding we mutated the highly conserved AC-n9-AC and AT-n9-AC DNA binding motifs.
+Figure 4 shows that the highly conserved adenosine residues in the motif are critical as GlnR binding is abolished when these residues are mutated.
+Substitution of the AC dinucleotide, with either GG or GC, and the AT dinucleotide, with GG or GT, completely abolished GlnR binding (Figure 4A and 4B).
+The 9 base pair distance between these key adenosine residues was also investigated, and we found either increasing this to 12 nucleotides or decreasing it to 6 base pairs diminished GlnR binding (Figure 4C).
+
+
+
+

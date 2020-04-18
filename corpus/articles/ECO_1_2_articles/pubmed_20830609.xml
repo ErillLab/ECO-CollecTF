@@ -1,0 +1,1746 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Antonie Van Leeuwenhoek</journal-id>
+      <journal-title-group>
+        <journal-title>Antonie Van Leeuwenhoek</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0003-6072</issn>
+      <issn pub-type="epub">1572-9699</issn>
+      <publisher>
+        <publisher-name>Springer Netherlands</publisher-name>
+        <publisher-loc>Dordrecht</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20830609</article-id>
+      <article-id pub-id-type="pmc">3032193</article-id>
+      <article-id pub-id-type="publisher-id">9503</article-id>
+      <article-id pub-id-type="doi">10.1007/s10482-010-9503-8</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Paper</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>OmpR controls <italic>Yersinia enterocolitica</italic> motility by positive regulation of <italic>flhDC</italic> expression</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Raczkowska</surname>
+            <given-names>Adrianna</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Skorek</surname>
+            <given-names>Karolina</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bielecki</surname>
+            <given-names>Jacek</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Brzostek</surname>
+            <given-names>Katarzyna</given-names>
+          </name>
+          <address>
+            <email>kbrzostek@biol.uw.edu.pl</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <aff id="Aff1">Department of Applied Microbiology, Institute of Microbiology, University of Warsaw, Miecznikowa 1, 02-096 Warsaw, Poland </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>9</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>10</day>
+        <month>9</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>2</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>99</volume>
+      <issue>2</issue>
+      <fpage>381</fpage>
+      <lpage>394</lpage>
+      <history>
+        <date date-type="received">
+          <day>6</day>
+          <month>7</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>8</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2010</copyright-statement>
+      </permissions>
+      <abstract>
+        <p>Flagella and invasin play important roles during the early stages of infection by the enteric pathogen <italic>Yersinia enterocolitica</italic>. Our previous study demonstrated that OmpR negatively regulates invasin gene expression at the transcriptional level. The present study focused on the role of OmpR in the regulation of flagella expression. Motility assays and microscopic observations revealed that an <italic>ompR</italic> mutant strain exhibits a non-motile phenotype due to the lack of flagella. An analysis of <italic>flhDC</italic>::<italic>lacZYA</italic> chromosomal fusions demonstrated a decrease in <italic>flhDC</italic> expression in <italic>ompR</italic> mutant cells, suggesting a role for OmpR in the positive control of flagellar master operon <italic>flhDC</italic>, which is in contrast to the negative role it plays in <italic>Escherichia coli</italic>. Moreover, high temperature or osmolarity and low pH decreased <italic>flhDC</italic> expression and OmpR was not required for the response to these factors. Evidence from an examination of the DNA binding properties of OmpR in vitro indicated that the mechanism by which OmpR regulates <italic>flhDC</italic> is direct. Electrophoretic mobility shift assays confirmed that OmpR binds specifically to the <italic>flhDC</italic> promoter region and suggested the presence of more than one OmpR-binding site. In addition, phosphorylation of OmpR by acetyl-P appeared to stimulate the binding abilities of OmpR. Together with the results of our previous studies revealing the negative role of OmpR in the regulation of invasin expression, these findings support a model in which invasion and motility might be reciprocally regulated by OmpR.</p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>
+          <italic>Yersinia enterocolitica</italic>
+        </kwd>
+        <kwd>OmpR regulator</kwd>
+        <kwd>Motility</kwd>
+        <kwd>FlhDC regulator</kwd>
+      </kwd-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; Springer Science+Business Media B.V. 2011</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1">
+      <title>Introduction</title>
+      <p>In Gram-negative bacteria of the <italic>Enterobacteriaceae</italic> family, the response regulator OmpR, together with histidine kinase EnvZ, constitutes the EnvZ/OmpR signal transduction pathway that regulates the transcription of several genes involved in adaptive responses to environmental signals (Egger et al. <xref ref-type="bibr" rid="CR10">1997</xref>; Stock et al. <xref ref-type="bibr" rid="CR45">1989</xref>). EnvZ of <italic>Escherichia coli</italic> senses changes in the osmolarity of the environment (Russo and Silhavy <xref ref-type="bibr" rid="CR38">1991</xref>). This transmembrane histidine kinase is autophosphorylated using ATP and the phosphate group of EnvZ-P is subsequently transferred to OmpR to form phosphorylated OmpR (OmpR-P). EnvZ also possesses phosphatase activity that removes the phosphoryl group from the phosphorylated/activated form of OmpR. The relative activities of the kinase and phosphatase functions of EnvZ regulate the cellular level of OmpR-P in response to environmental changes. OmpR-P is a transcription factor that binds within promoter regions and controls the expression of genes involved in the regulation of numerous functions in bacterial cells, including outer membrane permeability (Russo and Silhavy <xref ref-type="bibr" rid="CR38">1991</xref>), biofilm formation (Vidal et al. <xref ref-type="bibr" rid="CR47">1998</xref>), flagella synthesis (Shin and Park <xref ref-type="bibr" rid="CR40">1995</xref>), low pH tolerance (Bang et al. <xref ref-type="bibr" rid="CR2">2000</xref>), fatty acid transport (Higashitani et al. <xref ref-type="bibr" rid="CR16">1993</xref>), cell division (Yamamoto et al. <xref ref-type="bibr" rid="CR49">2000</xref>) and curli fiber formation (Jubelin et al. <xref ref-type="bibr" rid="CR22">2005</xref>). A role for OmpR in controlling the virulence properties of pathogenic bacteria has also been determined (Bernardini et al. <xref ref-type="bibr" rid="CR4">1990</xref>; Dorman et al. <xref ref-type="bibr" rid="CR8">1989</xref>; Lee et al. <xref ref-type="bibr" rid="CR29">2000</xref>). For example, a correlation between the functioning of OmpR and pathogenicity of <italic>Yersinia enterocolitica</italic> was demonstrated (Brzostek et al. <xref ref-type="bibr" rid="CR6">2003</xref>; Dorrell et al. <xref ref-type="bibr" rid="CR9">1998</xref>). OmpR was identified as the response regulator for osmolarity-regulated porins and Yop proteins in <italic>Y. enterocolitica</italic> (Brzostek et al. <xref ref-type="bibr" rid="CR6">2003</xref>). OmpR-dependent osmoregulation of Yops has also been recently confirmed in <italic>Yersinia pseudotuberculosis</italic> (Flamez et al. <xref ref-type="bibr" rid="CR12">2008</xref>). Lastly, we have demonstrated that OmpR negatively regulates invasin gene expression in <italic>Y. enterocolitica</italic> (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>). It appears that OmpR operates as a global regulatory protein in <italic>Yersinia</italic> cells.</p>
+      <p>Flagella biogenesis of Gram-negative bacteria is subject to complex control in response to environmental stimuli, which involves a large variety of regulators. The human enteropathogen <italic>Y. enterocolitica</italic> is a peritrichously flagellated bacterium that becomes motile at temperatures below 30&#xB0;C (Kapatral and Minnich <xref ref-type="bibr" rid="CR23">1995</xref>). Motility allows bacterial cells to locate the most favorable environment and is essential for <italic>Y. enterocolitica</italic> to contact host cells and invade the host organism (Young et al. <xref ref-type="bibr" rid="CR53">2000</xref>). The genes of the <italic>Y. enterocolitica</italic> flagellar regulon are organized into one large cluster expressed in a cascade that parallels the stepwise assembly of the flagellum (Horne and Pruss <xref ref-type="bibr" rid="CR18">2006</xref>). The flagellar transcriptional hierarchy is remarkably similar to that of <italic>E. coli</italic> and consists of three major flagellar gene classes: I, II and III. The flagellar regulon is modulated by key regulatory elements, particularly a master regulator FlhDC and the alternative sigma factor, FliA (&#x3C3;<sup>28</sup>) (Iriarte et al. <xref ref-type="bibr" rid="CR21">1995</xref>). FlhDC, which is structurally and functionally conserved in Gram-negative bacteria (Young et al. <xref ref-type="bibr" rid="CR52">1999b</xref>), is encoded by the <italic>flhDC</italic> operon (class I). FlhDC is a heterotetrameric transcriptional activator at the top of the hierarchical cascade, which is required for the expression of all flagellar genes, while sigma factor FliA has a positive effect upon the expression of eight class III flagellar operons (Horne and Pruss <xref ref-type="bibr" rid="CR18">2006</xref>; Kapatral et al. <xref ref-type="bibr" rid="CR24">1996</xref>). In addition, several studies have shown that master regulator FlhDC affects the expression level of non-flagellar genes of <italic>Y. enterocolitica</italic>, including 21 genes that are involved in central metabolism (Bleves et al. <xref ref-type="bibr" rid="CR5">2002</xref>; Kapatral et al. <xref ref-type="bibr" rid="CR25">2004</xref>; Townsend et al. <xref ref-type="bibr" rid="CR46">2008</xref>; Young et al. <xref ref-type="bibr" rid="CR51">1999a</xref>).</p>
+      <p>Detailed inspection of the <italic>Y. enterocolitica</italic> flagellar gene cluster has revealed some differences in the organization of these genes compared with <italic>E. coli</italic>. The most intriguing is the presence of the <italic>inv</italic> gene coding for invasin&#x2014;the main invasion and adhesion factor of this enteropathogen&#x2014;within the flagellar unit. In addition, <italic>Y. enterocolitica</italic> has three separate flagellin genes (<italic>fleA</italic>, <italic>fleB</italic>, <italic>fleC</italic>), whereas only one gene (<italic>fliC</italic>) is present in <italic>E. coli</italic>.</p>
+      <p>Studies in <italic>E. coli</italic> and <italic>Salmonella</italic> have established that the expression of the master flagellar control operon <italic>flhDC</italic> is positively regulated at the transcriptional level by factors such as cAMP-CAP (Soutourina et al. <xref ref-type="bibr" rid="CR42">1999</xref>; Yokota and Gots <xref ref-type="bibr" rid="CR50">1970</xref>), H-NS (Soutourina et al. <xref ref-type="bibr" rid="CR42">1999</xref>, <xref ref-type="bibr" rid="CR43">2002</xref>) and the two-component system QseBC (Sperandio et al. <xref ref-type="bibr" rid="CR44">2002</xref>). Other regulators have been shown to negatively affect <italic>flhDC</italic> expression<italic>,</italic> including LrhA (Lehnen et al. <xref ref-type="bibr" rid="CR30">2002</xref>), RcsAB (Francez-Charlot et al. <xref ref-type="bibr" rid="CR13">2003</xref>) and OmpR (Shin and Park <xref ref-type="bibr" rid="CR40">1995</xref>). The transcriptional modulators of <italic>flhDC</italic> in <italic>Y. enterocolitica</italic> and their impact upon the regulation of flagellar genes have not yet been studied. In this study we show that OmpR controls the motility of <italic>Y. enterocolitica</italic> by positively regulating <italic>flhDC</italic> expression at the transcriptional level. The rationale for reciprocal regulation of motility and invasin production in <italic>Y. enterocolitica</italic> by OmpR is discussed.</p>
+    </sec>
+    <sec id="Sec2" sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <sec id="Sec3">
+        <title>Bacterial strains, plasmids and growth conditions</title>
+        <p>The strains and plasmids used in this study are listed in Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>. Tryptone broth (TB; 1% tryptone, 0.25% NaCl) and minimal medium A (MMA) were used as growth media (Miller <xref ref-type="bibr" rid="CR32">1972</xref>). To examine the influence of the osmolarity and pH of the growth medium, an overnight culture was grown at 25&#xB0;C in 5&#xA0;ml of TB. This culture was diluted 1:100 in 10&#xA0;ml of TB0, i.e. TB without NaCl, and the osmolarity was adjusted by adding NaCl to final concentrations of 0.1, 0.2, 0.3 or 0.4&#xA0;M. In some experiments the osmolarity of the growth medium was raised by adding sorbitol or KCl instead of NaCl. Variation of the pH was achieved by buffering TB with MOPS [3-(<italic>N</italic>-morpholino) propanesulfonic acid&#x2014;pH 7.0, 8.0], MES [2-(<italic>N</italic>-morpholino)ethanesulfonic acid&#x2014;pH 5.5, 6.5], or homoPIPES [homopiperazine-<italic>N</italic>,<italic>N</italic>&#x2032;-bis(2-ethanesulfonic acid)&#x2014;pH 5.0] at 0.1&#xA0;M. To study the effect of different carbon sources, MMA medium was supplemented with glycerol, glucose, pyruvate or acetate to 0.2%. For environmental assays bacteria were grown to exponential phase OD<sub>560</sub> of ~0.4). Where necessary, growth media were supplemented with antibiotics: kanamycin (Km)&#x2014;50&#xA0;&#x3BC;g/ml, chloramphenicol (Cm)&#x2014;12.5 or 25&#xA0;&#x3BC;g/ml, nalidixic acid (Nal)&#x2014;15&#xA0;&#x3BC;g/ml, tetracycline (Tc)&#x2014;12.5&#xA0;&#x3BC;g/ml.<table-wrap id="Tab1"><label>Table&#xA0;1</label><caption><p>Strains and plasmids used</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Strain or plasmid</th><th align="left">Description</th><th align="left">Reference or source</th></tr></thead><tbody><tr><td align="left" colspan="3"><italic>Y. enterocolitica</italic> O:9 strains</td></tr><tr><td align="left">&#xA0;Ye9</td><td align="left">pYV<sup>+</sup></td><td align="left">Laboratory collection</td></tr><tr><td align="left">&#xA0;Ye9N</td><td align="left">pYV<sup>+</sup>, Nal<sup>R</sup></td><td align="left">Laboratory collection</td></tr><tr><td align="left">&#xA0;AR4</td><td align="left">pYV<sup>+</sup>, Nal<sup>R</sup>, &#x394;<italic>ompR</italic>::Km</td><td align="left">Brzostek et al. (<xref ref-type="bibr" rid="CR6">2003</xref>)</td></tr><tr><td align="left">&#xA0;EZ10</td><td align="left">pYV<sup>+</sup>, Nal<sup>R</sup>, <italic>envZ</italic>::pEP185.2, Cm<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left">&#xA0;Ye11</td><td align="left">pYV<sup>+</sup>, Nal<sup>R</sup>, <italic>flhDC</italic>::<italic>lacZYA</italic>, Cm<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left">&#xA0;AR6</td><td align="left">pYV<sup>+</sup>, Nal<sup>R</sup>, &#x394;<italic>ompR</italic>::Km, <italic>flhDC</italic>::<italic>lacZYA</italic>, Cm<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left" colspan="3"><italic>E. coli</italic> strains</td></tr><tr><td align="left" rowspan="4">&#xA0;TOP 10F&#x2032;</td><td align="left">F&#x2032;{<italic>lacI</italic><sup><italic>q</italic></sup> Tn10 (Tet<sup>R</sup>)}<italic>mcrA</italic> &#x394;(<italic>mrr</italic>-<italic>hsd</italic></td><td align="left"/></tr><tr><td align="left"><italic>RMS</italic>-<italic>mcrBC</italic>)<italic>&#x3D5;80lacZ &#x394;M15 &#x394;lacX74 deoR</italic></td><td align="left"/></tr><tr><td align="left"><italic>recA1 araD139 &#x394;99ara</italic>-<italic>leu</italic>)7697<italic>galU</italic></td><td align="left"/></tr><tr><td align="left"><italic>galK rpsL</italic> (Sm<sup>R</sup>) <italic>endA1 nupG</italic></td><td align="left">Invitrogen</td></tr><tr><td align="left" rowspan="2">&#xA0;S17-1</td><td align="left">&#x3BB;<italic>pir</italic><italic>pro thi recA hsdR514</italic> (R<sup>+</sup>M<sup>&#x2212;</sup>) &#x3BB;<italic>pir</italic></td><td align="left"/></tr><tr><td align="left">RP4 2-Tc::Mu-Kn::Tn7 (Tp<sup>R</sup> Str<sup>R</sup>)</td><td align="left">Simon et al. (<xref ref-type="bibr" rid="CR41">1983</xref>)</td></tr><tr><td align="left" colspan="3">Plasmids</td></tr><tr><td align="left">&#xA0;pDrive</td><td align="left">cloning vector, Amp<sup>R</sup> Km<sup>R</sup></td><td align="left">Qiagen</td></tr><tr><td align="left">&#xA0;pDF519</td><td align="left">pDrive with 519&#xA0;bp fragment of <italic>flhC</italic> gene, Amp<sup>R</sup> Km<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left">&#xA0;pDE673</td><td align="left">pDrive with 673&#xA0;bp fragment of <italic>envZ</italic> gene, Amp<sup>R</sup> Km<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left">&#xA0;pEP185.2</td><td align="left">Suicide vector, Cm<sup>R</sup></td><td align="left">Kinder et al. (<xref ref-type="bibr" rid="CR26">1993</xref>)</td></tr><tr><td align="left">&#xA0;pEZ1</td><td align="left">pEP185.2 with 673&#xA0;bp fragment of <italic>envZ</italic> from pDE673, Cm<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left">&#xA0;pFUSE</td><td align="left">Suicide vector, derivative of pEP185.2 with promoterless <italic>lacZYA</italic> genes, Cm<sup>R</sup></td><td align="left">Baumler et al. (<xref ref-type="bibr" rid="CR3">1996</xref>)</td></tr><tr><td align="left">&#xA0;pF519</td><td align="left">pFUSE with XbaI/SmaI fragment of <italic>flhC</italic> from pD519, Cm<sup>R</sup></td><td align="left">This study</td></tr><tr><td align="left">&#xA0;pHR4</td><td align="left">pHSG575 with 740&#xA0;bp fragment of <italic>ompR</italic> with RBS, Cm<sup>R</sup></td><td align="left">Brzostek et al. (<xref ref-type="bibr" rid="CR6">2003</xref>)</td></tr><tr><td align="left">&#xA0;pBR3</td><td align="left">pBBR1 MCS-3 with XhoI/PstI fragment of <italic>ompR</italic> with RBS and 6His-tag region from pQR6, Tet<sup>R</sup></td><td align="left">Brzostek et al. (<xref ref-type="bibr" rid="CR7">2007</xref>)</td></tr></tbody></table></table-wrap></p>
+      </sec>
+      <sec id="Sec4">
+        <title>DNA techniques</title>
+        <p>Plasmid and chromosomal DNA was purified using Invitrogen kits. DNA fragments were amplified by PCR using Taq or Pfu DNA polymerase (Invitrogen) with oligonucleotide primers. Restriction endonuclease analysis, ligation and transformation were carried out using standard methods (Sambrook et al. <xref ref-type="bibr" rid="CR39">1989</xref>). To characterize the <italic>flhDC</italic> promoter region of strain Ye9 (serotype O:9), three PCR-amplified fragments were applied: a 448-bp fragment amplified using the forward FlhBa1 (5&#x2032;-CGCTCTTTTCTGACTTCTGG-3&#x2032;) and reverse FlhBa448 (5&#x2032;-TCATTTTATACATCCCGACTGA-3&#x2032;) primers. The 196- and 249-bp fragments of <italic>flhDC</italic> were amplified using primers: BFlh1 (5&#x2032;-CCAACTGCCAGATAGACGAC-3&#x2032;) and BFlh196 (5&#x2032;-CTCATTTTATACATCCCGACTGA-3&#x2032;) and OFlh1 (5&#x2032;-GGGCCTGGATCCTTAGTTTT-3&#x2032;) and OFlh249 (5&#x2032;-TTGCATCTTCGACATGAAAC-3&#x2032;), respectively. All primers were designed based on the <italic>flhDC</italic> sequence of <italic>Y. enterocolitica</italic> W1024 serotype O:9 (GenBank accession no. Z48169). The nucleotide sequence of the region upstream of <italic>flhDC</italic> was examined for potential OmpR binding sites by comparison with the consensus sequence (Egger et al. <xref ref-type="bibr" rid="CR10">1997</xref>). Alignments were carried out using NCBI BLAST software.</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Motility assays</title>
+        <p>Swimming assays were performed on TB0 plates containing 0.3% agar. Strains were grown overnight in TB medium at 25&#xB0;C and a 4&#xA0;&#x3BC;l aliquot was spotted onto the plates, which were then incubated at 25 and 37&#xB0;C. After overnight incubation, the plates were photographed and the swimming zones evaluated.</p>
+      </sec>
+      <sec id="Sec6">
+        <title>Transmission electron microscopy (TEM)</title>
+        <p>For the examination of flagella by transmission electron microscopy, bacteria grown on swimming plates (0.3% agar, 25&#xB0;C, 16&#xA0;h) were applied to formvar-coated grids (10&#xA0;min) and then fixed by adding a drop of 0.5% glutaraldehyde for 2&#xA0;min. The grids were washed three times for 10&#xA0;s in water and negatively stained with 0.5% phosphotungstic acid for 10&#xA0;s. Flagella were visualized using a LEO 912AB electron microscope (Zeiss) (Biology Faculty, Warsaw University).</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Construction of <italic>envZ</italic> insertion mutant</title>
+        <p>The inactivation of <italic>envZ</italic> in <italic>Y. enterocolitica</italic> strain Ye9 was performed by plasmid insertion via homologous recombination using the conjugative suicide vector pEP185.2 (Kinder et al. <xref ref-type="bibr" rid="CR26">1993</xref>). A 673-bp intragenic fragment of <italic>envZ</italic> was amplified by PCR using primers EnvZ1 (5&#x2032;-GAAAGTGGCCTGCGTTGG-3&#x2032;) and EnvZ673 (5&#x2032;-TCAATCACCCGCTCATAGC-3&#x2032;). This DNA fragment was cloned into the pDrive cloning vector (Qiagen) to generate plasmid pDE673, then an XbaI/BamHI fragment of <italic>envZ</italic> was prepared from this construct and ligated with <italic>Xba</italic>I/<italic>Bam</italic>HI-digested pEP185.2. The resulting plasmid pEZ1 was transferred from <italic>E. coli</italic> S17-1 &#x3BB;<italic>pir</italic> to <italic>Y. enterocolitica</italic> strain Ye9 Nal<sup>R</sup> (Ye9N) by biparental conjugation. Strains harboring the plasmid integrated into the chromosome were recovered by selecting for Cm and Nal resistance. The insertional mutant obtained by this strategy was designated EZ10 (<italic>envZ</italic>). Correct integration at the <italic>envZ</italic> locus was confirmed by PCR with primers UPEnvZ (5&#x2032;-TGAGAGCTCGTGAAGAAGTTGACCGTATCG-3&#x2032;), located upstream of the homologous region used for recombination, and pCYC2 (5&#x2032;-ACTCATCGCAGTACTGTTGTAA-3&#x2032;), within the chloramphenicol resistance cassette of the suicide vector (data not shown).</p>
+      </sec>
+      <sec id="Sec8">
+        <title>Construction of reporter strains carrying a <italic>flhDC</italic>::<italic>lacZYA</italic> fusion</title>
+        <p>To generate a chromosomal <italic>flhDC</italic>::<italic>lacZYA</italic> operon fusion, a 519-bp fragment of the <italic>flhC</italic> gene was first amplified by PCR using Ye9 chromosomal DNA as the template with primers flhDC1 (5&#x2032;-TGTCTAGAAGATGTTAGAAAGCGAGACG-3&#x2032;) and flhDC519 (5&#x2032;-TGCCCGGGTCAAACTGCGCGTCTAACC-3&#x2032;). The DNA fragment was cloned into the pDrive vector to produce plasmid pD519, then an XbaI/SmaI <italic>flhC</italic> fragment was subcloned into the corresponding sites of the suicide vector pFUSE (Baumler et al. <xref ref-type="bibr" rid="CR3">1996</xref>) to give plasmid pF519. Integration of pF519 into the <italic>Y. enterocolitica</italic> chromosome was achieved by homologous recombination during the conjugation step, as described previously (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>). The presence of the <italic>flhDC</italic>::<italic>lacZYA</italic> fusion in chromosomal DNA was confirmed by PCR with primers flhDRT1 (5&#x2032;-CTCAGCGATGTTTCGTCTCG-3&#x2032;), located upstream of the homologous region used for recombination, and lacZ991 (5&#x2032;-CATCGCAGGCTTCTGCTTC-3&#x2032;), within the <italic>lacZ</italic> sequence of pFUSE (data not shown).</p>
+      </sec>
+      <sec id="Sec9">
+        <title>&#x3B2;-Galactosidase assays</title>
+        <p><italic>Y. enterocolitica</italic> strains containing the <italic>flhDC</italic>::<italic>lacZYA</italic> fusion were grown in MMA, TB and TB0 media under different environmental conditions (temperature, pH, osmolarity). The &#x3B2;-galactosidase activity was measured in bacterial cells permeabilized with SDS and CHCl<sub>3</sub> using ONPG as the substrate, according to a standard method (Minnich and Rohde <xref ref-type="bibr" rid="CR33">2007</xref>). Most assays were performed at least three times and the data were expressed as the mean&#xA0;&#xB1;&#xA0;standard deviation.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Separation of OmpR from OmpR-P by reversed phase HPLC</title>
+        <p>Full length OmpR was overproduced and purified as described previously (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>). The recombinant OmpR protein migrated as a single band at around 27&#xA0;kDa on a 12% SDS-polyacrylamide gel. 20&#xA0;&#x3BC;g of purified OmpR was phosphorylated by treatment with acetyl-P (20&#xA0;mM) for 1&#xA0;h at room temperature.</p>
+        <p>Separation of OmpR from OmpR-P was performed by HPLC according to the method of Head et al. (<xref ref-type="bibr" rid="CR15">1998</xref>) with slight modifications. Protein samples were injected onto a Symmetry C8 reversed phase column (2.1&#xA0;mm&#xA0;&#xD7;&#xA0;150&#xA0;mm, particle 5&#xA0;&#x3BC;m, Waters, USA) and separated using an acetonitrile gradient with solvent A that varied from 80 to 0% over 60&#xA0;min and solvent B that went from 20 to 100% over the same period, with a constant flow rate of 0.2&#xA0;ml/min. Between 60 to 135&#xA0;min, the samples were chromatographed with 100% solvent B. Solvent A was composed of 20% acetonitrile, 0.1% trifluoroacetic acid; solvent B was 60% acetonitrile, 0.1% trifluoroacetic acid. An HPLC system (Waters Alliance 2695) with a PDA detector (2996 PDA, Waters, USA) was used. The eluent was monitored at 254&#xA0;nm and the peaks were recorded using Empower software (Waters).</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Electrophoretic mobility shift assays (EMSAs)</title>
+        <p>OmpR-binding studies were performed using an N-terminal His-tagged OmpR protein and fragments of the <italic>flhDC</italic> promoter region containing the putative OmpR binding sites. OmpR-His<sub>6</sub> synthesized in <italic>E. coli</italic> M-15 was purified as described previously (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>). Fragments of <italic>flhDC</italic> promoter region were amplified by PCR using Pfu polymerase (EURx) with <italic>Y. enterocolitica</italic> Ye9 chromosomal DNA as the template. The purified fragments (1&#x2013;3&#xA0;pmol in 20&#xA0;&#x3BC;l) were incubated with varying concentrations of OmpR-His<sub>6</sub> (0.2&#x2013;4.0&#xA0;&#x3BC;M) in the presence of binding buffer P [40&#xA0;mM Tris&#x2013;HCl (pH&#xA0;8.0), 100&#xA0;mM KCl, 10&#xA0;mM MgCl<sub>2</sub>, 5&#xA0;mM dithiothreitol (DTT), 5% glycerol] at room temperature for 30&#xA0;min and the reactions were then analyzed by electrophoresis on 5% native polyacrylamide gels (29:1 acrylamide/bis acrylamide) in 0.5&#xD7; Tris&#x2013;borate&#x2013;EDTA buffer for 3&#xA0;h at 120&#xA0;V at 4&#xB0;C. For phosphorylation of OmpR, 20&#xA0;mM acetyl phosphate (acetyl-P, Sigma) was added to the reaction mixture. As a negative control, a 211-bp fragment of <italic>Y. enterocolitica</italic> 16S rRNA gene amplified by PCR with primers S1 (5&#x2032;-TACGCATTTCACCGCTACAC-3&#x2032;) and S211 (5&#x2032;-CAGAAGAAGCACCGGCTAAC-3&#x2032;) was included in the binding assays. The DNA bands were visualized by staining the gels with ethidium bromide. To show the binding of different amounts of OmpR, to the purified 448-bp fragment, the gels were stained with Coomassie Brilliant Blue R-250. To study the influence of phosphorylation time on OmpR binding ability, OmpR-His<sub>6</sub> was pre-incubated in buffer P containing 20&#xA0;mM acetyl-P and used in binding reactions after the indicated times. The nucleoprotein complexes in these reactions were then analyzed by gel electrophoresis as described above.</p>
+      </sec>
+    </sec>
+    <sec id="Sec12">
+      <title>Results</title>
+      <sec id="Sec13">
+        <title>The <italic>ompR</italic> mutant is non-motile and non-flagellated</title>
+        <p>Swimming motility assays were performed with the wild-type Ye9 and Ye9N and the AR4 and EZ10 mutant strains of <italic>Y. enterocolitica</italic> at 25 and 37&#xB0;C. Mutant AR4 (&#x394;<italic>ompR</italic>::Km), lacking OmpR protein, was created as described previously (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>). Mutant EZ10 (<italic>envZ</italic>::pEP185.2) was constructed in this study by insertional mutagenesis. A motility assay at 37&#xB0;C revealed a non-motile phenotype for all strains, as expected (data not shown). The analysis of motility of strains Ye9, AR4 and EZ10 incubated at 25&#xB0;C (Fig.&#xA0;<xref rid="Fig1" ref-type="fig">1</xref>) revealed that the <italic>ompR</italic> mutant had failed to swim when compared with the strain Ye9 or the <italic>envZ</italic> mutant. However, the <italic>envZ</italic> mutant was less motile than the wild-type strain Ye9. In addition, the motility of Ye9N strain, a Nal<sup>R</sup> derivative of Ye9, was unchanged (data not shown). Complementation of the <italic>ompR</italic> mutation was achieved using the plasmid pHR4 (Brzostek et al. <xref ref-type="bibr" rid="CR6">2003</xref>), carrying the gene coding for OmpR. The introduction of this plasmid into mutant AR4 restored swimming motility, although the motility of the AR4/pHR4 strain was slightly weaker than that of wild-type cells. These results indicated that OmpR is required for the expression of motility. To determine whether the loss of motility of strain AR4 was due to the absence of flagella, cells of <italic>Y. enterocolitica</italic> strains Ye9, <italic>ompR</italic> mutant AR4, <italic>envZ</italic> mutant EZ10 and AR4/pHR4 were examined by electron microscopy (Fig.&#xA0;<xref rid="Fig2" ref-type="fig">2</xref>). Electron micrographs showed that all the cells are rod-shaped and those of the parent strain Ye9 and the <italic>envZ</italic> mutant strain EZ10 are flagellated, but the <italic>ompR</italic> mutant cells lack flagella. The flagellated phenotype was restored to strain AR4 by the introduction of an active copy of <italic>ompR</italic> on plasmid pHR4.<fig id="Fig1"><label>Fig.&#xA0;1</label><caption><p>OmpR is required for <italic>Y. enterocolitica</italic> swimming motility. Swimming zones were observed on 0.3% TB0 agar plates after 16&#xA0;h incubation at 25&#xB0;C. Ye9, wild-type strain; AR4, <italic>ompR</italic> mutant; AR4/pHR4, <italic>ompR</italic> mutant with plasmid pHR4 expressing OmpR; EZ10, <italic>envZ</italic> mutant</p></caption><graphic xlink:href="10482_2010_9503_Fig1_HTML" id="MO1"/></fig><fig id="Fig2"><label>Fig.&#xA0;2</label><caption><p>Transmission electron microscopy of <italic>Y. enterocolitica</italic> strains. Bacteria grown for 16&#xA0;h at 25&#xB0;C on 0.3% TB0 agar plates were negatively stained with phosphotungstic acid. Ye9, wild-type strain; AR4, <italic>ompR</italic> mutant; AR4/pHR4, <italic>ompR</italic> mutant with plasmid pHR4 expressing OmpR; EZ10, <italic>envZ</italic> mutant. The scale bar represents 1&#xA0;&#x3BC;m</p></caption><graphic xlink:href="10482_2010_9503_Fig2_HTML" id="MO2"/></fig></p>
+      </sec>
+      <sec id="Sec14">
+        <title>Effect of growth conditions and OmpR on <italic>flhDC</italic> promoter function</title>
+        <p>To investigate OmpR-dependent activity of the <italic>flhDC</italic> promoter, an operon fusion of <italic>flhDC</italic> with the <italic>lacZ</italic> reporter gene was constructed in the wild-type strain Ye9 and in the <italic>ompR</italic> mutant AR4 to produce strains Ye11 and AR6, respectively. The reporter fusion was created by plasmid insertion via homologous recombination. The levels of expression of <italic>flhDC</italic>::<italic>lacZYA</italic>, as measured by &#x3B2;-galactosidase assay, were compared for strains Ye11 and AR6 under different growth conditions (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3</xref>). Complementation analyses were performed using strain AR6 carrying plasmid pBR3 encoding His-tagged OmpR (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>).<fig id="Fig3"><label>Fig.&#xA0;3</label><caption><p>Effect of OmpR and different temperature, osmolarity and pH conditions on the expression of the <italic>flhDC</italic> operon fusions: <bold>a</bold> the strains Ye11 (wild-type), AR6 (<italic>ompR</italic> mutant) and AR6/pHR4 (<italic>ompR</italic> mutant with plasmid pHR4 expressing OmpR) were grown at different temperatures in TB0 medium (pH&#xA0;7.0; low osmolarity), <bold>b</bold> and <bold>c</bold> the strains Ye11 (wild-type) and AR6 (<italic>ompR</italic> mutant) were grown at 25&#xB0;C in TB0 medium, <bold>b</bold> different osmolarities (0&#x2013;0.4&#xA0;M NaCl), <bold>c</bold> different pH values (5.0&#x2013;8.0). Values represent the mean &#x3B2;-galactosidase activities expressed in Miller units&#xA0;&#xB1;&#xA0;standard deviations from three independent experiments</p></caption><graphic xlink:href="10482_2010_9503_Fig3_HTML" id="MO3"/></fig></p>
+        <p>To study the influence of OmpR and temperature on the expression of <italic>flhDC</italic>, the <italic>flhDC</italic>::<italic>lacZYA</italic> strains were grown in TB0 medium at 25, 31, 34 or 37&#xB0;C (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3</xref>a). The lack of the OmpR protein in AR6 resulted in a ~3.5-fold decrease in the level of &#x3B2;-galactosidase activity at 25&#xB0;C compared with the level obtained for strain Ye11 (524&#xA0;&#xB1;&#xA0;36 vs. 1762&#xA0;&#xB1;&#xA0;37 Miller units). This result implied a positive role for the OmpR protein in the regulation of <italic>flhDC</italic> expression. In addition, complementation of the <italic>ompR</italic> mutation in strain AR6 with plasmid pBR3 resulted in an increase in &#x3B2;-galactosidase activity (1303&#xA0;&#xB1;&#xA0;80 Miller units), indicating that the His-tagged OmpR protein, expressed from the gene introduced in trans, was able to positively regulate <italic>flhDC</italic> expression. Moreover, a ~6.5-fold reduction in &#x3B2;-galactosidase activity at 31&#xB0;C compared with the level at 25&#xB0;C (1762&#xA0;&#xB1;&#xA0;37 vs. 138&#xA0;&#xB1;&#xA0;18 Miller units) was observed for strain Ye11, and an increase in the temperature up to 37&#xB0;C resulted in a further decrease in &#x3B2;-galactosidase activity. The same inverse relationship between temperature and the level of <italic>flhDC</italic> expression was also observed for strain AR6. These results showed that <italic>flhDC</italic> expression is repressed by high temperature and that OmpR is not involved in the observed thermoregulation.</p>
+        <p>To examine whether OmpR modulates the expression of <italic>flhDC</italic> in response to high osmolarity, <italic>flhDC</italic> promoter activity was measured in strains grown in TB0 medium or TB0 supplemented with NaCl (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3</xref>b). In the strain with active OmpR (Ye11), high osmolarity conditions caused a decrease in expression from the <italic>flhDC</italic> promoter. &#x3B2;-galactosidase activity was reduced ~10-fold from 2238&#xA0;&#xB1;&#xA0;263&#xA0;Miller units at zero NaCl to 221&#xA0;&#xB1;&#xA0;48 Miller units at 0.3&#xA0;M NaCl. Besides the normally decreased level of <italic>flhDC</italic> expression in the <italic>ompR</italic> mutant AR6, an inhibitory effect of high osmolarity on the &#x3B2;-galactosidase activity of this strain was also observed. These results imply that OmpR may not be involved in the osmoregulation of <italic>flhDC</italic> at higher osmolarity. To ensure that the observed effect of NaCl on <italic>flhDC</italic> expression was caused by an increase in osmolarity and not an increase in the NaCl concentration in the medium, NaCl was replaced by KCl or sorbitol. Similarly to NaCl, the expression of <italic>flhDC</italic> decreased with the increasing concentration of the added osmolytes (data not shown).</p>
+        <p>To study the influence of pH on the expression of <italic>flhDC</italic> in the strains Ye11 and AR6, the cells were grown in TB0 medium at different pH (Fig.&#xA0;<xref rid="Fig3" ref-type="fig">3</xref>c). The optimal pH for <italic>flhDC</italic> expression in Ye11 was found to be 7.0 (2255&#xA0;&#xB1;&#xA0;129 Miller units). Raising the pH to 8.0 resulted in a ~2-fold decrease in <italic>flhDC</italic> promoter activity (1044&#xA0;&#xB1;&#xA0;55 Miller units). Moreover, a shift to acidic pH values resulted in a dramatic fall in activity, with the greatest decrease of ~10-fold occurring when the pH was reduced to 5.0 (233&#xA0;&#xB1;&#xA0;47 Miller units). In strain AR6 (lacking OmpR protein) grown under different pH conditions, decreases in &#x3B2;-galactosidase activity were observed at pH values above and below 7.0. The level of <italic>flhDC</italic> promoter activity declined from 668&#xA0;&#xB1;&#xA0;130 Miller units at pH&#xA0;7.0 to 294&#xA0;&#xB1;&#xA0;80 Miller units at pH&#xA0;8.0, and to 175&#xA0;&#xB1;&#xA0;32 Miller units at pH&#xA0;5.0. These results suggest that the control of <italic>flhDC</italic> expression in response to changes in pH is not mediated by the OmpR protein.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Effect of OmpR and carbon source on <italic>flhDC</italic> expression</title>
+        <p>The level of acetyl-phosphate (acetyl-P, the phosphodonor for OmpR phosphorylation) within the cell may vary considerably depending on the carbon source in the growth medium. To determine the effect of carbon source on OmpR-dependent <italic>flhDC</italic> expression, the &#x3B2;-galactosidase activity was measured for <italic>Y. enterocolitica</italic> strains Ye11 and AR6 (with and without OmpR, respectively) grown in MMA supplemented with 0.2% glycerol, glucose, pyruvate or acetate (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>). A higher level of &#x3B2;-galactosidase activity was obtained for the wild-type strain compared with the <italic>ompR</italic> mutant when grown on the different carbon sources. The activity in Ye11 was highest in cells grown on acetate (757&#xA0;&#xB1;&#xA0;48 Miller units) and slightly lower with pyruvate (662&#xA0;&#xB1;&#xA0;36 Miller units). In the presence of glycerol and glucose in the medium the <italic>flhDC</italic> expression was reduced to 505&#xA0;&#xB1;&#xA0;56 and 497&#xA0;&#xB1;&#xA0;57 Miller units, respectively. Interestingly, the pattern of &#x3B2;-galactosidase activity with the different carbon sources was different for the <italic>ompR</italic> mutant strain AR6. No significant differences in the activity of <italic>flhDC</italic> were observed in AR6 grown in the presence of pyruvate, acetate, glycerol or glucose.<table-wrap id="Tab2"><label>Table&#xA0;2</label><caption><p>Effect of carbon source on the activity of the <italic>flhDC</italic> promoter</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Strain</th><th align="left" colspan="4">&#x3B2;-Galactosidase activity (Miller units)</th></tr><tr><th align="left">Glycerol</th><th align="left">Glucose</th><th align="left">Pyruvate</th><th align="left">Acetate</th></tr></thead><tbody><tr><td align="left">Ye11 (OmpR<sup>+</sup>)</td><td char="&#xB1;" align="char">505&#xA0;&#xB1;&#xA0;56</td><td char="&#xB1;" align="char">497&#xA0;&#xB1;&#xA0;57</td><td char="&#xB1;" align="char">662&#xA0;&#xB1;&#xA0;36</td><td char="&#xB1;" align="char">757&#xA0;&#xB1;&#xA0;48</td></tr><tr><td align="left">AR6 (OmpR<sup>&#x2212;</sup>)</td><td char="&#xB1;" align="char">352&#xA0;&#xB1;&#xA0;20</td><td char="&#xB1;" align="char">326&#xA0;&#xB1;&#xA0;19</td><td char="&#xB1;" align="char">408&#xA0;&#xB1;&#xA0;11</td><td char="&#xB1;" align="char">378&#xA0;&#xB1;&#xA0;21</td></tr></tbody></table><table-wrap-foot><p>Values represent the mean of triplicate experiments&#xA0;&#xB1;&#xA0;SD</p><p>Cells were grown in MMA supplemented with 0.2% of the carbon source at 25&#xB0;C</p></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="Sec16">
+        <title>Separation of OmpR from OmpR-P by reversed phase HPLC</title>
+        <p>It has previously been shown that response regulators of two component signal transduction systems react with acetyl-P to become phosphorylated (McCleary and Stock <xref ref-type="bibr" rid="CR31">1994</xref>). Phosphorylation of <italic>Y. enterocolitica</italic> OmpR in vitro was performed by treatment with 20&#xA0;mM acetyl-P. After 60&#xA0;min incubation, a sample of the reaction mixture was subjected to reversed phase HPLC to separate OmpR from OmpR-P. When OmpR was incubated with acetyl-P, two peaks were detected, eluting at 60 and 80&#xA0;min (Fig.&#xA0;<xref rid="Fig4" ref-type="fig">4</xref>), in contrast to the single peak that eluted at approximately 80 min when OmpR without phosphorylation was analyzed (data not shown). It is assumed that these two peaks correspond to OmpR-P and OmpR, respectively.<fig id="Fig4"><label>Fig.&#xA0;4</label><caption><p>Identification of two fractions of OmpR after phosphorylation by acetyl-P. Following treatment with acetyl-P (20&#xA0;mM, 60&#xA0;min), 2&#xA0;&#x3BC;g of OmpR protein was subjected to reversed-phase HPLC using a symmetry C8 column as described in &#x201C;<xref rid="Sec2" ref-type="sec">Materials and methods</xref>&#x201D;. The two peaks, I and II, correspond to two fractions of OmpR (OmpR and OmpR-P)</p></caption><graphic xlink:href="10482_2010_9503_Fig4_HTML" id="MO4"/></fig></p>
+      </sec>
+      <sec id="Sec17">
+        <title>Binding of OmpR to the promoter region of <italic>flhDC</italic> examined using electrophoretic mobility shift assays (EMSAs)</title>
+        <p>Bioinformatic analysis of the <italic>flhDC</italic> promoter region of <italic>Y. enterocolitica</italic> Ye9 revealed the presence of two putative OmpR binding sites located at positions from &#x2212;110 to &#x2212;93&#xA0;nt (B<sub>1</sub>) and from &#x2212;44 to &#x2212;27&#xA0;nt (B<sub>2</sub>) relative to the AUG start codon (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5</xref>). These two sequences closely resemble the consensus OmpR binding site, both exhibiting 61% identity.<fig id="Fig5"><label>Fig.&#xA0;5</label><caption><p>Bioinformatic analysis of the <italic>flhDC</italic> regulatory region. Two putative OmpR binding sites (B<sub>1</sub>, B<sub>2</sub>) are shown in bars within the <italic>flhDC</italic> promoter sequence. Two nucleotide sequences P<sub>1</sub> and P<sub>2</sub> similar to the O<sub>1</sub> and O<sub>2</sub> binding sites for OmpR identified within the <italic>Y. pseudotuberculosis</italic><italic>flhDC</italic> promoter region (Hu et al. <xref ref-type="bibr" rid="CR19">2009</xref>) are <italic>underlined</italic>. These four sequences (B<sub>1</sub>, B<sub>2</sub>, P<sub>1</sub>, P<sub>2</sub>) are shown separately in alignments with the consensus OmpR binding sequence; the conserved C residues are in <italic>bold</italic>. The ATG start codon is marked in <italic>bold</italic> and M indicates methionine</p></caption><graphic xlink:href="10482_2010_9503_Fig5_HTML" id="MO5"/></fig></p>
+        <p>To determine whether OmpR binds to the <italic>flhDC</italic> promoter region containing these two putative binding sites, EMSAs were performed. Shifted OmpR-P/DNA complexes were clearly produced when the 448-bp <italic>flhDC</italic> fragment (433&#xA0;bp from the start codon) interacted with the protein at concentrations of 0.8, 1.2, 1.85 or 3.0&#xA0;&#x3BC;M (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6</xref>a). DNA binding was specific for the <italic>flhDC</italic> promoter fragment because no shifting of an unrelated control DNA fragment (211-bp 16S rDNA) was observed. Furthermore, a stepwise shifting of the OmpR-P/DNA complexes was evident, which suggests the presence of more than one OmpR binding site. This result indicated that OmpR protein interacts directly with the <italic>flhDC</italic> promoter to activate transcription.<fig id="Fig6"><label>Fig.&#xA0;6</label><caption><p>Interactions between OmpR and the <italic>flhDC</italic> promoter region examined by EMSA. A 448-bp <italic>flhDC</italic> promoter fragment and 211-bp 16S rDNA control fragment were incubated together in different binding reactions: <bold>a</bold> with increasing concentrations of OmpR-P (0.2, 0.4, 0.8, 1.2, 1.85, 3.0&#xA0;&#x3BC;M; lanes 2&#x2013;7), or without OmpR (lane 1), <bold>b</bold> with non-phosphorylated (OmpR) (1.2&#xA0;&#x3BC;M) or phosphorylated (OmpR-P) (1.2&#xA0;&#x3BC;M) protein (<italic>lanes 1</italic> and <italic>2</italic>), or without OmpR (<italic>lane 3</italic>), <bold>c</bold> with 1.2&#xA0;&#x3BC;M of OmpR phosphorylated by acetyl-P for different times (90, 60, 45, 30, 15&#xA0;min; <italic>lanes 2&#x2013;6</italic>) or without OmpR (<italic>lane 1</italic>). The upper and lower panels in parts <bold>a</bold> and <bold>b</bold> show the 5% native polyacrylamide gels stained with ethidium bromide and Coomassie Brilliant Blue R-250, respectively</p></caption><graphic xlink:href="10482_2010_9503_Fig6_HTML" id="MO6"/></fig></p>
+        <p>To determine the effect of phosphorylation of OmpR, EMSAs were performed with OmpR (1.2&#xA0;&#x3BC;M&#x2014;sufficient for <italic>flhDC</italic> promoter shifting) phosphorylated by incubation with 20&#xA0;mM acetyl-P for 60&#xA0;min and OmpR without phosphorylation (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6</xref>b). OmpR applied without phosphorylation was found to bind the <italic>flhDC</italic> fragment with lower affinity than the phosphorylated form. To examine the effect of the time of phosphorylation on OmpR binding ability, EMSAs were carried out with the OmpR protein treated with acetyl-P for 15, 30, 45, 60 or 90&#xA0;min. The results shown in Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6</xref>c revealed similar OmpR-P binding affinities regardless of the time of phosphorylation from 15 up to 60&#xA0;min: the same amount of shifted, specific OmpR-P/DNA complexes was seen in all cases. However, when the time of phosphorylation was increased to 90&#xA0;min, a reduction in the amount of specific OmpR/DNA shifted complexes was observed (Fig.&#xA0;<xref rid="Fig6" ref-type="fig">6</xref>c, lane 2). It may be speculated that the formation of higher order structures of OmpR during the 90&#xA0;min incubation might decrease the level of phosphorylation and thus reduce DNA binding.</p>
+        <p>During our studies of OmpR binding abilities to the <italic>flhDC</italic> promoter region in <italic>Y. enterocolitica</italic>, the involvement of OmpR in the regulation of <italic>flhDC</italic> in <italic>Y. pseudotuberculosis</italic> was reported and two binding sites for OmpR in the promoter region (O<sub>1</sub> and O<sub>2</sub>) were identified (Hu et al. <xref ref-type="bibr" rid="CR19">2009</xref>). In silico examination of the nucleotide sequence, within the 448-bp <italic>flhDC</italic> promoter region of <italic>Y. enterocolitica</italic>, corresponding to the putative OmpR binding sites O<sub>1</sub> and O<sub>2</sub> of <italic>Y. pseudotuberculosis</italic>, led to the identification of these sequences (P<sub>1</sub> and P<sub>2</sub>) with 66 and 50% identity to the OmpR consensus, respectively (Fig.&#xA0;<xref rid="Fig5" ref-type="fig">5</xref>). Bioinformatic analysis also indicated that these putative P<sub>1</sub> and P<sub>2</sub><italic>Y. enterocolitica</italic> binding sites for OmpR do not overlap with B<sub>1</sub> and B<sub>2</sub> sites revealed at the beginning of our analysis. Moreover, the O<sub>1</sub> and O<sub>2</sub> sites of <italic>Y. pseudotuberculosis</italic> exhibited 64 and 94% identity to the P<sub>1</sub> and P<sub>2</sub> binding sites of <italic>Y. enterocolitica</italic>. These two putative OmpR binding sites P<sub>1</sub> and P<sub>2</sub> were recognized in the <italic>Y. enterocolitica</italic><italic>flhDC</italic> promoter region, located between &#x2212;425 and &#x2212;409&#xA0;nt (P<sub>1</sub>) and 246 and &#x2212;228&#xA0;nt (P<sub>2</sub>), relative to the translational start site. To determine whether OmpR actually binds to these sequences EMSAs were performed with a PCR-amplified 196-bp fragment comprising the B<sub>1</sub> and B<sub>2</sub> binding sites and with a 249-bp fragment of the <italic>flhDC</italic> comprising both P<sub>1</sub> and P<sub>2</sub> binding sites. Different concentrations of the purified OmpR were incubated with these fragments and the binding reactions were analyzed by electrophoresis in 6% native polyacrylamide gels. The results presented in Fig.&#xA0;<xref rid="Fig7" ref-type="fig">7</xref> demonstrate a stepwise shifting profile of OmpR-DNA complexes when the 196-bp <italic>flhDC</italic> and 249-bp fragment interacts with 1.6, 2.8 and 4.0&#xA0;&#x3BC;M of the protein. DNA binding was specific for these both <italic>flhDC</italic> fragments because the mobility of 16S rDNA was unaltered in the presence of different amounts of purified OmpR.<fig id="Fig7"><label>Fig.&#xA0;7</label><caption><p>Interactions between OmpR and two different fragments of the <italic>flhDC</italic> promoter region examined by EMSA: <bold>a</bold> a 211-bp 16S rDNA control fragment, <bold>b</bold> a 196-bp fragment comprising the B<sub>1</sub> and B<sub>2</sub> binding sites, <bold>c</bold> a 249-bp fragment comprising both P<sub>1</sub> and P<sub>2</sub> binding sites of the <italic>flhDC</italic> promoter region. DNA fragments were incubated independently in binding reactions with increasing concentrations of OmpR-P (1.6, 2.8, 4.0&#xA0;&#x3BC;M; <italic>lanes 2&#x2013;4</italic>, <italic>6&#x2013;8</italic>, <italic>10&#x2013;12</italic>), or without OmpR (<italic>lane 1</italic>, <italic>5</italic>, <italic>9</italic>)</p></caption><graphic xlink:href="10482_2010_9503_Fig7_HTML" id="MO7"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="Sec18">
+      <title>Discussion</title>
+      <p>Flagella and invasin play important roles during the early stages of infection by the enteric pathogen <italic>Y. enterocolitica</italic> (Pepe and Miller <xref ref-type="bibr" rid="CR35">1993</xref>; Young et al. <xref ref-type="bibr" rid="CR53">2000</xref>). Our previous study demonstrated that OmpR, the response regulator of the two-component signal transduction system EnvZ/OmpR, negatively regulates invasin gene expression at the transcriptional level (Brzostek et al. <xref ref-type="bibr" rid="CR7">2007</xref>).</p>
+      <p>The present study focused on the role of OmpR in the regulation of flagella expression. Motility assays on swimming plates at 25&#xB0;C showed that an <italic>ompR</italic> mutant strain exhibits a non-motile phenotype. Microscopic observation revealed the lack of flagella on the <italic>ompR</italic> cells, confirming that OmpR is required for flagella synthesis. The motility of all <italic>Y. enterocolitica</italic> strains tested was abolished at high temperatures (37&#xB0;C). This phenomenon is characteristic for both <italic>Y. enterocolitica</italic> and <italic>Y. pseudotuberculosis.</italic> The sole mediator of the thermoregulation of flagella synthesis is FliA (&#x3C3;<sup>F</sup>), a flagellum-specific sigma factor, required for the transcription of class III genes of the flagellar regulon (Horne and Pruss <xref ref-type="bibr" rid="CR18">2006</xref>; Kapatral and Minnich <xref ref-type="bibr" rid="CR23">1995</xref>; Kapatral et al. <xref ref-type="bibr" rid="CR24">1996</xref>).</p>
+      <p>It is known that regulation of the flagellar regulon occurs at the level of the FlhDC master regulator (Young et al. <xref ref-type="bibr" rid="CR52">1999b</xref>). Therefore, the present study investigated the mechanism by which OmpR regulates <italic>flhDC</italic> expression using <italic>flhDC</italic>::<italic>lacZYA</italic> operon fusion analysis and in vitro biochemical approaches. Our results revealed the involvement of OmpR in positive regulation of <italic>flhDC</italic> transcription. However, contrary to these findings, a negative regulatory function of OmpR in <italic>flhDC</italic> expression has previously been reported in <italic>E. coli</italic> (Shin and Park <xref ref-type="bibr" rid="CR40">1995</xref>). In addition, it has been suggested that OmpR negatively regulates <italic>flhDC</italic> in <italic>Xenorhabdus nematophila</italic> (Park and Forst <xref ref-type="bibr" rid="CR34">2006</xref>). On the other hand, the <italic>ompR</italic> mutation had no effect on either motility or <italic>flhDC</italic> expression in <italic>Salmonella enterica</italic> sv. Typhimurium (Kutsukake <xref ref-type="bibr" rid="CR27">1997</xref>). Thus, it seems that the pattern of regulation of <italic>flhDC</italic> expression by OmpR identified here is specific to <italic>Yersinia</italic> strains.</p>
+      <p>To clarify the role of OmpR in the regulation of <italic>Y. enterocolitica flhDC</italic>, the influence of different environmental stimuli on the activity of the <italic>flhDC</italic> promoter was measured. High temperature (31&#xB0;C and above) appears to be the environmental factor that decreases <italic>flhDC</italic> expression in the wild-type strain and in the <italic>ompR</italic> strain, suggesting that temperature-mediated repression of <italic>flhDC</italic> is OmpR-independent. The thermoregulation of <italic>flhDC</italic> transcription was previously demonstrated in the wild-type <italic>Y. enterocolitica</italic> strain 8081v, serotype O:8 (Minnich and Rohde <xref ref-type="bibr" rid="CR33">2007</xref>) However, the degree of temperature-dependent repression was smaller than found in our study which was probably the result of differences in the <italic>flhDC</italic> regions between <italic>Y. enterocolitica</italic> serotypes O:8 and O:9. It has been suggested that sigma factor FliA and not the FlhDC regulator is directly responsible for the temperature regulation of flagellar genes (Horne and Pruss <xref ref-type="bibr" rid="CR18">2006</xref>; Kapatral et al. <xref ref-type="bibr" rid="CR24">1996</xref>, <xref ref-type="bibr" rid="CR25">2004</xref>).</p>
+      <p>As the EnvZ/OmpR signal transduction system plays a well characterized role in the osmoregulation of several genes in <italic>E. coli</italic> (Hall and Silhavy <xref ref-type="bibr" rid="CR14">1979</xref>; Higashitani et al. <xref ref-type="bibr" rid="CR16">1993</xref>) and <italic>Y. enterocolitica</italic> (Brzostek et al. <xref ref-type="bibr" rid="CR6">2003</xref>, <xref ref-type="bibr" rid="CR7">2007</xref>), we examined the effect of osmotic conditions on the <italic>flhDC</italic> expression level in strains with and without OmpR protein. An in-depth analysis of <italic>flhDC</italic> expression in the presence of osmolytes in the growth medium, demonstrated that <italic>flhDC</italic> promoter activity in the wild-type strain decreases at high osmolarity. However, this effect was also observed in the absence of OmpR, indicating that under these conditions <italic>flhDC</italic> expression might be OmpR-independent. The present studies were extended by investigating the effect of pH on OmpR-dependent <italic>flhDC</italic> expression. These data imply that the pH regulation of <italic>flhDC</italic> in <italic>Y. enterocolitica</italic>, like osmolarity is not mediated by the OmpR protein. It may be speculated that changes in DNA supercoiling or the activity of other regulatory factors or mechanisms might contribute to the modulation of <italic>flhDC</italic> transcription in response to particular osmolarity or pH conditions, as has been reported for some enterobacterial genes (Higgins et al. <xref ref-type="bibr" rid="CR17">1988</xref>).</p>
+      <p>The regulation of the <italic>flhDC</italic> operon has been intensively studied in <italic>E. coli</italic> and several factors have been found to negatively or positively regulate the transcription of <italic>flhDC</italic> in response to different environmental cues. The <italic>E. coli</italic> OmpR has been shown to negatively regulate <italic>flhDC</italic> expression in response to changes in osmolarity (Shin and Park <xref ref-type="bibr" rid="CR40">1995</xref>), and the function of H-NS in the modulation of <italic>flhDC</italic> transcription as well as motility under low-pH conditions has been demonstrated (Soutourina et al. <xref ref-type="bibr" rid="CR43">2002</xref>).</p>
+      <p>Thus, apart from the contrary nature of the regulation (i.e. the positive role of OmpR in the regulation of <italic>flhDC</italic> expression in <italic>Y. enterocolitica</italic> revealed in the present study), the osmolarity control of the <italic>Y. enterocolitica</italic> flagellar regulon differs from that of <italic>E. coli</italic>. However, we do not rule out the possibility that the degree of OmpR phosphorylation triggered by particular, possibly (combined) osmotic and pH conditions, could influence its regulatory properties.</p>
+      <p>Several mechanisms could account for the enhanced expression of <italic>flhDC</italic> in the <italic>ompR</italic> strain. One hypothesis is that OmpR directly activates the expression of the master regulator FlhDC by binding within its promoter. To investigate this possibility, the DNA binding properties of OmpR were studied in vitro with an EMSA.</p>
+      <p>Our data revealed that OmpR binds specifically to the 448-bp fragment of <italic>flhDC</italic> promoter region and the stepwise shifting profile of nucleoprotein complexes suggested the presence of more than one binding site. These data were in agreement with a bioinformatic analysis of the region upstream of the start codon of <italic>flhDC</italic> which identified two sequences with high similarity to the consensus binding site for OmpR (Egger et al. <xref ref-type="bibr" rid="CR10">1997</xref>). Both sites (B<sub>1</sub> and B<sub>2</sub>) exhibit 61% identity to the OmpR consensus binding sequence and contain two conserved cytosine residues, critical for OmpR binding, located at 8- and 10-nt intervals, respectively.</p>
+      <p>During these studies, the involvement of OmpR in the positive regulation of <italic>flhDC</italic> in <italic>Y. pseudotuberculosis</italic> was reported and two binding sites for OmpR in the promoter region (O<sub>1</sub> and O<sub>2</sub>) were identified by Hu et al. (<xref ref-type="bibr" rid="CR19">2009</xref>). However, alignment of the <italic>flhDC</italic> regulatory regions of <italic>Y. enterocolitica</italic> and <italic>Y. pseudotuberculosis</italic> shows high nucleotide sequence divergence, including the P<sub>1</sub> and P<sub>2</sub> sites (corresponding to O<sub>1</sub> and O<sub>2</sub> sites of <italic>Y. pseudotuberculosis</italic>) identified in promoter region of <italic>Y. enterocolitica</italic>. EMSAs performed with fragments comprising both P<sub>1</sub> and P<sub>2</sub> or B<sub>1</sub> and B<sub>2</sub> OmpR binding sites demonstrate that OmpR may bind independently to these fragments, however, the binding affinity of OmpR for these specific sequences will be investigated in future studies. The presence of high-affinity sites and low-affinity sites for the OmpR has been suggested for the regulation of the <italic>ompC</italic>, <italic>ompF</italic> genes of <italic>E. coli</italic> and the <italic>ssrA</italic> gene of <italic>S. enterica</italic> sv Typhimurium (Feng et al. <xref ref-type="bibr" rid="CR11">2003</xref>; Rampersaud et al. <xref ref-type="bibr" rid="CR37">1994</xref>).</p>
+      <p>It has previously been shown that phosphorylation of OmpR activates this regulatory protein. OmpR phosphorylation by EnvZ in response to high osmolarity has been well studied in <italic>E. coli</italic> (Igo et al. <xref ref-type="bibr" rid="CR20">1989</xref>; Lan and Igo <xref ref-type="bibr" rid="CR28">1998</xref>; Russo and Silhavy <xref ref-type="bibr" rid="CR38">1991</xref>). Our experiments indicate that an <italic>envZ</italic> mutant strain of <italic>Y. enterocolitica</italic> is motile and synthesizes flagella, suggesting no influence of EnvZ on the OmpR-dependent regulation of <italic>flhDC</italic> under the conditions used.</p>
+      <p>Thus, OmpR is likely to be available for phosphorylation by other phospho-donors besides its partner kinase EnvZ, which might result in its activation. In <italic>E. coli</italic>, some portion of OmpR seems to be phosphorylated by acetyl-P (Head et al. <xref ref-type="bibr" rid="CR15">1998</xref>; McCleary and Stock <xref ref-type="bibr" rid="CR31">1994</xref>; Pruss <xref ref-type="bibr" rid="CR36">1998</xref>; Shin and Park <xref ref-type="bibr" rid="CR40">1995</xref>) and the occurrence of this reaction has been suggested for <italic>S. enterica</italic> sv. Typhimurium (Bang et al. <xref ref-type="bibr" rid="CR2">2000</xref>). Here, reversed phase HPLC was used to confirm the ability of acetyl-P to phosphorylate <italic>Y. enterocolitica</italic> OmpR in vitro. In addition, EMSAs indicated that phosphorylation of OmpR slightly enhances its binding abilities. It has previously been suggested that the intracellular level of acetyl-P may vary greatly according to the growth conditions, such as the nature of the carbon source (McCleary and Stock <xref ref-type="bibr" rid="CR31">1994</xref>; Wanner and Wilmes-Riesenberg <xref ref-type="bibr" rid="CR48">1992</xref>). The use of acetate or pyruvate as the carbon source in the growth medium was found to increase <italic>flhDC</italic> transcription in the wild-type <italic>Y. enterocolitica</italic> strain compared with glycerol or glucose, but this effect was not observed in the <italic>ompR</italic> strain. Raised intracellular concentrations of pyruvate or acetate might result in a higher level of acetyl-P which would increase the phosphorylation state of OmpR.</p>
+      <p>To summarize, the OmpR regulator&#x2014;probably phosphorylated by acetyl-P&#x2014;might, under certain environmental conditions, act directly on the <italic>flhDC</italic> promoter region to activate <italic>flhDC</italic> transcription and thus play a role in coordinating the motility of <italic>Y. enterocolitica</italic>.</p>
+      <p>These findings, together with the results of our previous studies indicating a negative role for OmpR in the regulation of invasin expression, appear to support a model in which motility and invasin production, the two major factors involved in the early stages of <italic>Y. enterocolitica</italic> pathogenesis, might be reciprocally regulated. It has previously been suggested that invasin and motility may be regulated in an opposing manner in <italic>Y. enterocolitica</italic> (Badger and Miller <xref ref-type="bibr" rid="CR1">1998</xref>). This regulation seems appropriate during the process of pathogenesis of <italic>Y. enterocolitica</italic>, where motility is the first critical feature during host cell invasion, followed by adhesion and invasion processes. Therefore, depending on the infection stage, OmpR could regulate invasin production and motility in an opposing manner, and this regulation may be fine-tuned in response to changing environmental conditions and by the activities of the multiple regulatory factors involved.</p>
+      <p>Since FlhDC, besides its regulatory function in motility, may also act as a global regulator of <italic>Y. enterocolitica</italic> metabolism (Kapatral et al. <xref ref-type="bibr" rid="CR25">2004</xref>) and affect the secretion of virulence factors by the flagellar export apparatus (Young et al. <xref ref-type="bibr" rid="CR51">1999a</xref>), the modulation of <italic>flhDC</italic> operon expression by OmpR is likely to have considerable implications for <italic>Y. enterocolitica</italic> physiology. In addition, it seems that the role of OmpR in the regulation of <italic>flhDC</italic> is specific to enteropathogenic <italic>Yersinia</italic> species.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Prof. A. Sklodowska and D. Ruszkowski (Laboratory of Environmental Pollution Analysis, Faculty of Biology, University of Warsaw) for their assistance with HPLC analysis. This work was supported by Warsaw University (grant BW 2007) and by the Polish Ministry of Science and Higher Education (grant N303 009 32/0537).</p>
+      <p><bold>Open Access</bold> This article is distributed under the terms of the Creative Commons Attribution Noncommercial License which permits any noncommercial use, distribution, and reproduction in any medium, provided the original author(s) and source are credited.</p>
+    </ack>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Badger</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of invasin and motility are coordinately regulated in <italic>Yersinia enterocolitica</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1998</year>
+          <volume>180</volume>
+          <fpage>793</fpage>
+          <lpage>800</lpage>
+          <pub-id pub-id-type="pmid">9473031</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR2">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bang</surname>
+              <given-names>IS</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>BH</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>YK</given-names>
+            </name>
+          </person-group>
+          <article-title>OmpR regulates the stationary-phase acid tolerance response of <italic>Salmonella enterica</italic> serovar Typhimurium</article-title>
+          <source>J Bacteriol</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>2245</fpage>
+          <lpage>2252</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.182.8.2245-2252.2000</pub-id>
+          <pub-id pub-id-type="pmid">10735868</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR3">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baumler</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Tsolis</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Velden</surname>
+              <given-names>AWM</given-names>
+            </name>
+            <name>
+              <surname>Stojiljkovic</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Anic</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Heffron</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of a new iron regulated locus of <italic>Salmonella typhi</italic></article-title>
+          <source>Gene</source>
+          <year>1996</year>
+          <volume>183</volume>
+          <fpage>207</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0378-1119(96)00560-4</pub-id>
+          <pub-id pub-id-type="pmid">8996108</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR4">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bernardini</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Fontaine</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sansonetti</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>The two component regulatory system OmpR-EnvZ controls the virulence of <italic>Shigella flexneri</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1990</year>
+          <volume>172</volume>
+          <fpage>6274</fpage>
+          <lpage>6281</lpage>
+          <pub-id pub-id-type="pmid">2121709</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR5">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bleves</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Marenne</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Detry</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Cornelis</surname>
+              <given-names>GR</given-names>
+            </name>
+          </person-group>
+          <article-title>Up-regulation of the <italic>Yersinia enterocolitica yop</italic> regulon by deletion of the flagellum master operon <italic>flhDC</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>184</volume>
+          <fpage>3214</fpage>
+          <lpage>3223</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.184.12.3214-3223.2002</pub-id>
+          <pub-id pub-id-type="pmid">12029037</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR6">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brzostek</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Raczkowska</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zasada</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The osmotic regulator OmpR is involved in the response of <italic>Yersinia enterocolitica</italic> O:9 to environmental stresses and survival within macrophages</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2003</year>
+          <volume>228</volume>
+          <fpage>265</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0378-1097(03)00779-1</pub-id>
+          <pub-id pub-id-type="pmid">14638433</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR7">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brzostek</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Brz&#xF3;stkowska</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bukowska</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Karwicka</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Raczkowska</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>OmpR negatively regulates expression of invasin in <italic>Yersinia enterocolitica</italic></article-title>
+          <source>Microbiology</source>
+          <year>2007</year>
+          <volume>153</volume>
+          <fpage>2416</fpage>
+          <lpage>2425</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.2006/003202-0</pub-id>
+          <pub-id pub-id-type="pmid">17660406</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR8">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dorman</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Chatfield</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Higgins</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Hayward</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Dougan</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of porin and <italic>ompR</italic> mutants of a virulent strain of <italic>Salmonella typhimurium</italic>: <italic>ompR</italic> mutants are attenuated <italic>in vivo</italic></article-title>
+          <source>Infect Immun</source>
+          <year>1989</year>
+          <volume>57</volume>
+          <fpage>2136</fpage>
+          <lpage>2140</lpage>
+          <pub-id pub-id-type="pmid">2543631</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR9">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dorrell</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Everest</surname>
+              <given-names>PH</given-names>
+            </name>
+            <name>
+              <surname>Dougan</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Wren</surname>
+              <given-names>BW</given-names>
+            </name>
+          </person-group>
+          <article-title>Construction and characterisation of a <italic>Yersinia enterocolitica</italic> O:8 <italic>ompR</italic> mutant</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>1998</year>
+          <volume>165</volume>
+          <fpage>145</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.1998.tb13139.x</pub-id>
+          <pub-id pub-id-type="pmid">9711851</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR10">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Egger</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Inouye</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Signal transduction via the histidyl&#x2013;aspartyl phosphorelay</article-title>
+          <source>Genes Cells</source>
+          <year>1997</year>
+          <volume>2</volume>
+          <fpage>167</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2443.1997.d01-311.x</pub-id>
+          <pub-id pub-id-type="pmid">9189755</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR11">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Oropeza</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kenney</surname>
+              <given-names>LJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Dual regulation by phospho-OmpR of <italic>ssrA/B</italic> gene expression in <italic>Salmonella</italic> pathogenicity island 2</article-title>
+          <source>Mol Microbiol</source>
+          <year>2003</year>
+          <volume>48</volume>
+          <fpage>1131</fpage>
+          <lpage>1143</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03502.x</pub-id>
+          <pub-id pub-id-type="pmid">12753201</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR12">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flamez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ricard</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Arafah</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Simonet</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Marceau</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenotypic analysis of <italic>Yersinia pseudotuberculosis</italic> 32777 response regulator mutants: new insights into two-component system regulon plasticity in bacteria</article-title>
+          <source>Int J Med Microbiol</source>
+          <year>2008</year>
+          <volume>298</volume>
+          <fpage>193</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijmm.2007.05.005</pub-id>
+          <pub-id pub-id-type="pmid">17765656</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR13">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Francez-Charlot</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Laugel</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Gemert</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Dubarry</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Wiorowski</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Castanie-Cornet</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Gutierrez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Cam</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>RcsCDB His-Asp phosphorelay system negatively regulates the <italic>flhDC</italic> operon in <italic>Escherichia coli</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2003</year>
+          <volume>49</volume>
+          <fpage>823</fpage>
+          <lpage>832</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03601.x</pub-id>
+          <pub-id pub-id-type="pmid">12864862</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR14">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hall</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of <italic>Escherichia coli</italic> K-12 major outer membrane protein 1b</article-title>
+          <source>J Bacteriol</source>
+          <year>1979</year>
+          <volume>140</volume>
+          <fpage>342</fpage>
+          <lpage>350</lpage>
+          <pub-id pub-id-type="pmid">115844</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR15">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Head</surname>
+              <given-names>CG</given-names>
+            </name>
+            <name>
+              <surname>Tardy</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kenney</surname>
+              <given-names>LJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Relative binding affinities of OmpR and OmpR-phosphate at the <italic>ompF</italic> and <italic>ompC</italic> regulatory sites</article-title>
+          <source>J Mol Biol</source>
+          <year>1998</year>
+          <volume>281</volume>
+          <fpage>857</fpage>
+          <lpage>870</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1998.1985</pub-id>
+          <pub-id pub-id-type="pmid">9719640</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR16">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Higashitani</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nishimura</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hara</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Aiba</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Mizuno</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Horiuchi</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Osmoregulation of the fatty acid receptor gene <italic>fadL</italic> in <italic>Escherichia coli</italic></article-title>
+          <source>Mol Gen Genet</source>
+          <year>1993</year>
+          <volume>240</volume>
+          <fpage>339</fpage>
+          <lpage>347</lpage>
+          <pub-id pub-id-type="pmid">8413182</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR17">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Higgins</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Dorman</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Stirling</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Waddell</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Booth</surname>
+              <given-names>IR</given-names>
+            </name>
+            <name>
+              <surname>May</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Bremer</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>A physiological role for DNA supercoiling in the osmotic regulation of gene expression in <italic>S.</italic><italic>typhimurium</italic> and <italic>E. coli</italic></article-title>
+          <source>Cell</source>
+          <year>1988</year>
+          <volume>26</volume>
+          <fpage>569</fpage>
+          <lpage>584</lpage>
+          <pub-id pub-id-type="doi">10.1016/0092-8674(88)90470-9</pub-id>
+          <pub-id pub-id-type="pmid">2830029</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR18">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horne</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Pruss</surname>
+              <given-names>BM</given-names>
+            </name>
+          </person-group>
+          <article-title>Global gene regulation in <italic>Yersinia enterocolitica</italic>: effect of FliA on the expression levels of flagellar and plasmid-encoded virulence genes</article-title>
+          <source>Arch Microbiol</source>
+          <year>2006</year>
+          <volume>185</volume>
+          <fpage>115</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00203-005-0077-1</pub-id>
+          <pub-id pub-id-type="pmid">16404569</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR19">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Positive regulation of <italic>flhDC</italic> expression by OmpR in <italic>Yersinia pseudotuberculosis</italic></article-title>
+          <source>Microbiology</source>
+          <year>2009</year>
+          <volume>155</volume>
+          <fpage>3622</fpage>
+          <lpage>3631</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.030908-0</pub-id>
+          <pub-id pub-id-type="pmid">19643764</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR20">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Igo</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Ninfa</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Stock</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphorylation and dephosphorylation of a bacterial transcriptional activator by a transmembrane receptor</article-title>
+          <source>Genes Dev</source>
+          <year>1989</year>
+          <volume>3</volume>
+          <fpage>1725</fpage>
+          <lpage>1734</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.3.11.1725</pub-id>
+          <pub-id pub-id-type="pmid">2558046</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR21">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iriarte</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Stainier</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Mikulskis</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Cornelis</surname>
+              <given-names>GR</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>fliA</italic> gene encoding sigma 28 in <italic>Yersinia enterocolitica</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1995</year>
+          <volume>177</volume>
+          <fpage>2299</fpage>
+          <lpage>2304</lpage>
+          <pub-id pub-id-type="pmid">7730257</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR22">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jubelin</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Vianney</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Beloin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ghigo</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Lazzaroni</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Lejeune</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Dorel</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>CpxR/OmpR interplay regulates curli gene expression in response to osmolarity in <italic>Escherichia coli</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>2038</fpage>
+          <lpage>2049</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.187.6.2038-2049.2005</pub-id>
+          <pub-id pub-id-type="pmid">15743952</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR23">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kapatral</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Minnich</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-ordinate, temperature-sensitive regulation of the three <italic>Yersinia enterocolitica</italic> flagellin genes</article-title>
+          <source>Mol Microbiol</source>
+          <year>1995</year>
+          <volume>17</volume>
+          <fpage>49</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.1995.mmi_17010049.x</pub-id>
+          <pub-id pub-id-type="pmid">7476208</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR24">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kapatral</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Pepe</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+            <name>
+              <surname>Minnich</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <article-title>Temperature-dependent regulation of <italic>Yersinia enterocolitica</italic> Class III flagellar genes</article-title>
+          <source>Mol Microbiol</source>
+          <year>1996</year>
+          <volume>19</volume>
+          <fpage>1061</fpage>
+          <lpage>1071</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1996.452978.x</pub-id>
+          <pub-id pub-id-type="pmid">8830263</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR25">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kapatral</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Minnich</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Thomson</surname>
+              <given-names>NR</given-names>
+            </name>
+            <name>
+              <surname>Matsumura</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Pruss</surname>
+              <given-names>BM</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene array analysis of <italic>Yersinia enterocolitica</italic> FlhD and FlhC: regulation of enzymes affecting synthesis and degradation of carbamoylphosphate</article-title>
+          <source>Microbiology</source>
+          <year>2004</year>
+          <volume>150</volume>
+          <fpage>2289</fpage>
+          <lpage>2300</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.26814-0</pub-id>
+          <pub-id pub-id-type="pmid">15256571</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR26">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kinder</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Badger</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Bryant</surname>
+              <given-names>GO</given-names>
+            </name>
+            <name>
+              <surname>Pepe</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning of the YenI restriction endonuclease and methyltransferase from <italic>Yersinia enterocolitica</italic> serotype O8 and construction of a transformable R<sup>&#x2212;</sup>M<sup>+</sup> mutant</article-title>
+          <source>Gene</source>
+          <year>1993</year>
+          <volume>136</volume>
+          <fpage>271</fpage>
+          <lpage>275</lpage>
+          <pub-id pub-id-type="doi">10.1016/0378-1119(93)90478-L</pub-id>
+          <pub-id pub-id-type="pmid">8294016</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR27">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kutsukake</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Autogenous and global control of the flagellar master operon, <italic>flhD</italic>, in <italic>Salmonella typhimurium</italic></article-title>
+          <source>Mol Gen Genet</source>
+          <year>1997</year>
+          <volume>254</volume>
+          <fpage>440</fpage>
+          <lpage>448</lpage>
+          <pub-id pub-id-type="doi">10.1007/s004380050437</pub-id>
+          <pub-id pub-id-type="pmid">9180698</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR28">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lan</surname>
+              <given-names>CY</given-names>
+            </name>
+            <name>
+              <surname>Igo</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential expression of the OmpF and OmpC porin proteins in <italic>Escherichia coli</italic> K-12 depends upon the level of active OmpR</article-title>
+          <source>J Bacteriol</source>
+          <year>1998</year>
+          <volume>180</volume>
+          <fpage>171</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="pmid">9422609</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR29">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Detweiler</surname>
+              <given-names>CS</given-names>
+            </name>
+            <name>
+              <surname>Falkow</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>OmpR regulates the two-component system SsrA&#x2013;SsrB in <italic>Salmonella</italic> pathogenicity island 2</article-title>
+          <source>J Bacteriol</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>771</fpage>
+          <lpage>781</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.182.3.771-781.2000</pub-id>
+          <pub-id pub-id-type="pmid">10633113</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR30">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lehnen</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Blumer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Polen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wackwitz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wendisch</surname>
+              <given-names>VF</given-names>
+            </name>
+            <name>
+              <surname>Unden</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>LrhA as a new transcriptional key regulator of flagella, motility and chemotaxis genes in <italic>Escherichia coli</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <fpage>521</fpage>
+          <lpage>532</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2002.03032.x</pub-id>
+          <pub-id pub-id-type="pmid">12123461</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR31">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCleary</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Stock</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <article-title>Acetyl phosphate and the activation of two-component response regulators</article-title>
+          <source>J Biol Chem</source>
+          <year>1994</year>
+          <volume>269</volume>
+          <fpage>31567</fpage>
+          <lpage>31572</lpage>
+          <pub-id pub-id-type="pmid">7989325</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR32">
+        <mixed-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <source>Experiments in molecular genetics</source>
+          <year>1972</year>
+          <publisher-loc>Cold Spring Harbor</publisher-loc>
+          <publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="CR33">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Minnich</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Rohde</surname>
+              <given-names>HN</given-names>
+            </name>
+          </person-group>
+          <article-title>A rationale for repression and/or loss of motility by pathogenic <italic>Yersinia</italic> in the mammalian host</article-title>
+          <source>Adv Exp Med Biol</source>
+          <year>2007</year>
+          <volume>603</volume>
+          <fpage>298</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-0-387-72124-8_27</pub-id>
+          <pub-id pub-id-type="pmid">17966426</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR34">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Forst</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-regulation of motility, exoenzyme and antibiotic production by the EnvZ-OmpR-FlhDC-FliA pathway in <italic>Xenorhabdus nematophila</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2006</year>
+          <volume>61</volume>
+          <fpage>1397</fpage>
+          <lpage>1412</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2006.05320.x</pub-id>
+          <pub-id pub-id-type="pmid">16889644</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR35">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pepe</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Yersinia enterocolitica</italic> invasin: a primary role in the initiation of infection</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1993</year>
+          <volume>90</volume>
+          <fpage>6473</fpage>
+          <lpage>6477</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.90.14.6473</pub-id>
+          <pub-id pub-id-type="pmid">8341658</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR36">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pruss</surname>
+              <given-names>BM</given-names>
+            </name>
+          </person-group>
+          <article-title>Acetyl phosphate and the phosphorylation of OmpR are involved in the regulation of the cell division rate in <italic>Escherichia coli</italic></article-title>
+          <source>Arch Microbiol</source>
+          <year>1998</year>
+          <volume>170</volume>
+          <fpage>141</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1007/s002030050626</pub-id>
+          <pub-id pub-id-type="pmid">9683652</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR37">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rampersaud</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Harlocker</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Inouyer</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The OmpR protein of <italic>Escherichia coli</italic> binds to sites in the <italic>ompR</italic> promoter region in a hierarchical manner determined by its degree of phosphorylation</article-title>
+          <source>J Biol Chem</source>
+          <year>1994</year>
+          <volume>269</volume>
+          <fpage>12559</fpage>
+          <lpage>12566</lpage>
+          <pub-id pub-id-type="pmid">8175665</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR38">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Russo</surname>
+              <given-names>FD</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>EnvZ controls the concentration of phosphorylated OmpR to mediate osmoregulation of the porin genes</article-title>
+          <source>J Mol Biol</source>
+          <year>1991</year>
+          <volume>222</volume>
+          <fpage>567</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-2836(91)90497-T</pub-id>
+          <pub-id pub-id-type="pmid">1660927</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR39">
+        <mixed-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sambrook</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Fritsch</surname>
+              <given-names>EF</given-names>
+            </name>
+            <name>
+              <surname>Maniatis</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <source>Molecular cloning: a laboratory manual</source>
+          <year>1989</year>
+          <edition>2</edition>
+          <publisher-loc>Cold Spring Harbor</publisher-loc>
+          <publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="CR40">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Modulation of flagellar expression in <italic>Escherichia coli</italic> by acetyl phosphate and the osmoregulator OmpR</article-title>
+          <source>J Bacteriol</source>
+          <year>1995</year>
+          <volume>177</volume>
+          <fpage>4696</fpage>
+          <lpage>4702</lpage>
+          <pub-id pub-id-type="pmid">7642497</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR41">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simon</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Priefer</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>A broad host range mobilization system for <italic>in vivo</italic> genetic engineering: transposon mutagenesis in gram negative bacteria</article-title>
+          <source>Biotechnology</source>
+          <year>1983</year>
+          <volume>1</volume>
+          <fpage>784</fpage>
+          <lpage>791</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt1183-784</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR42">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soutourina</surname>
+              <given-names>OA</given-names>
+            </name>
+            <name>
+              <surname>Kolb</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Krin</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Laurent-Winter</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Rimsky</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Danchin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bertin</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple control of flagellum biosynthesis in <italic>Escherichia coli</italic>: role of H-NS protein and the cyclic AMP-catabolite activator protein complex in transcription of the <italic>flhDC</italic> master operon</article-title>
+          <source>J Bacteriol</source>
+          <year>1999</year>
+          <volume>181</volume>
+          <fpage>7500</fpage>
+          <lpage>7508</lpage>
+          <pub-id pub-id-type="pmid">10601207</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR43">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soutourina</surname>
+              <given-names>OA</given-names>
+            </name>
+            <name>
+              <surname>Krin</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Laurent-Winter</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hommais</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Danchin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bertin</surname>
+              <given-names>PN</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of bacterial motility in response to low pH in <italic>Escherichia coli</italic>: the role of H-NS protein</article-title>
+          <source>Microbiology</source>
+          <year>2002</year>
+          <volume>148</volume>
+          <fpage>1543</fpage>
+          <lpage>1551</lpage>
+          <pub-id pub-id-type="pmid">11988529</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR44">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sperandio</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Torres</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Kaper</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing <italic>Escherichia coli</italic> regulators B and C (QseBC): a novel two-component regulatory system involved in the regulation of flagella and motility by quorum sensing in <italic>E. coli</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2002</year>
+          <volume>43</volume>
+          <fpage>809</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2002.02803.x</pub-id>
+          <pub-id pub-id-type="pmid">11929534</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR45">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stock</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Ninfa</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Stock</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein phosphorylation and regulation of adaptive responses in bacteria</article-title>
+          <source>Microbiol Rev</source>
+          <year>1989</year>
+          <volume>53</volume>
+          <fpage>450</fpage>
+          <lpage>490</lpage>
+          <pub-id pub-id-type="pmid">2556636</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR46">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Townsend</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Carr</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Iyer</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Horne</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Gibbs</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Pruss</surname>
+              <given-names>BM</given-names>
+            </name>
+          </person-group>
+          <article-title>Pleiotropic phenotypes of a <italic>Yersinia enterocolitica flhD</italic> mutant include reduced lethality in a chicken embryo model</article-title>
+          <source>BMC Microbiol</source>
+          <year>2008</year>
+          <volume>23</volume>
+          <fpage>8</fpage>
+          <lpage>12</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="CR47">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vidal</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Longin</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Prigent-Combaret</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Dorel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hooreman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lejeune</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of an <italic>Escherichia coli</italic> K-12 mutant strain able to form biofilms on inert surfaces: involvement of a new <italic>ompR</italic> allele that increases curli expression</article-title>
+          <source>J Bacteriol</source>
+          <year>1998</year>
+          <volume>180</volume>
+          <fpage>2442</fpage>
+          <lpage>2449</lpage>
+          <pub-id pub-id-type="pmid">9573197</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR48">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wanner</surname>
+              <given-names>BL</given-names>
+            </name>
+            <name>
+              <surname>Wilmes-Riesenberg</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of phosphotransacetylase, acetate kinase, and acetyl phosphate synthesis in control of the phosphate regulon in <italic>Escherichia coli</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1992</year>
+          <volume>174</volume>
+          <fpage>2124</fpage>
+          <lpage>2130</lpage>
+          <pub-id pub-id-type="pmid">1551836</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR49">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Nagura</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Tanabe</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Fujita</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ishihama</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Utsumi</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Negative regulation of the <italic>bolA1p</italic> of <italic>Escherichia coli</italic> K-12 by the transcription factor OmpR for osmolarity response genes</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2000</year>
+          <volume>186</volume>
+          <fpage>257</fpage>
+          <lpage>262</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.2000.tb09114.x</pub-id>
+          <pub-id pub-id-type="pmid">10802181</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR50">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yokota</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gots</surname>
+              <given-names>JS</given-names>
+            </name>
+          </person-group>
+          <article-title>Requirement of adenosine 3&#x2032;,5&#x2032;-cyclic phosphate for flagella formation in <italic>Escherichia coli</italic> and <italic>Salmonella typhimurium</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1970</year>
+          <volume>103</volume>
+          <fpage>513</fpage>
+          <lpage>516</lpage>
+          <pub-id pub-id-type="pmid">4317316</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR51">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Schmiel</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title>A new pathway for the secretion of virulence factors by bacteria: the flagellar export apparatus functions as a protein-secretion system</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>6456</fpage>
+          <lpage>6461</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.96.11.6456</pub-id>
+          <pub-id pub-id-type="pmid">10339609</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR52">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Minnich</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>Yersinia enterocolitica</italic> motility master regulatory operon, <italic>flhDC</italic>, is required for flagellin production, swimming motility, and swarming motility</article-title>
+          <source>J Bacteriol</source>
+          <year>1999</year>
+          <volume>181</volume>
+          <fpage>2823</fpage>
+          <lpage>2833</lpage>
+          <pub-id pub-id-type="pmid">10217774</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="CR53">
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Badger</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>VL</given-names>
+            </name>
+          </person-group>
+          <article-title>Motility is required to initiate host cell invasion by <italic>Yersinia enterocolitica</italic></article-title>
+          <source>Infect Immun</source>
+          <year>2000</year>
+          <volume>68</volume>
+          <fpage>4323</fpage>
+          <lpage>4326</lpage>
+          <pub-id pub-id-type="doi">10.1128/IAI.68.7.4323-4326.2000</pub-id>
+          <pub-id pub-id-type="pmid">10858252</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

@@ -1,0 +1,101 @@
+T1	ECO 2554 2579	pattern matching analysis
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000028	motif similarity evidence
+T2	ECO 71 83	RT-PCR assay
+A4	Category T2 SeqFeat
+A5	ECOConfidence T2 High
+A6	AssertionStrength T2 High
+T4	ECO 431 455	cDNA microarray analysis
+A10	Category T4 BioProc
+A11	ECOConfidence T4 High
+A12	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0000097	cDNA to DNA expression microarray evidence
+#1	AnnotatorNotes T4	GO:0010629
+T5	ECO 547 570	real-time RT-PCR assays
+A13	Category T5 BioProc
+A14	ECOConfidence T5 High
+A15	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+#2	AnnotatorNotes T5	GO:0010467
+T6	ECO 660 695	mutant in relative to the WT strain
+A16	Category T6 BioProc
+A17	ECOConfidence T6 High
+A18	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0000015	mutant phenotype evidence
+#3	AnnotatorNotes T6	GO:0010467
+T7	ECO 1594 1621	beta-galactosidase activity
+A19	Category T7 BioProc
+A20	ECOConfidence T7 High
+A21	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+#4	AnnotatorNotes T7	GO:0010629
+T8	ECO 1629 1666	Deltacrp increased compared to the WT
+A22	Category T8 BioProc
+A23	ECOConfidence T8 High
+A24	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0000015	mutant phenotype evidence
+#5	AnnotatorNotes T8	GO:0010629
+T9	ECO 1868 1895	box-like sequence was found
+A25	Category T9 SeqFeat
+A26	ECOConfidence T9 Medium
+A27	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0000028	motif similarity evidence
+T10	ECO 2042 2046	EMSA
+A28	Category T10 MolFn
+A29	ECOConfidence T10 High
+A30	AssertionStrength T10 High
+N10	Reference T10 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#6	AnnotatorNotes T10	GO:0043565
+T11	ECO 2042 2046	EMSA
+A31	Category T11 MolFn
+A32	ECOConfidence T11 High
+A33	NextSentence T11 Yes
+A34	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T12	ECO 3060 3086	DNase I footprinting assay
+A35	Category T12 MolFn
+A36	ECOConfidence T12 High
+A37	NextSentence T12 Yes
+A38	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0001810	DNAse footprinting evidence
+#7	AnnotatorNotes T12	GO:0043565
+T13	ECO 3225 3242	DNase I digestion
+A39	Category T13 MolFn
+A40	ECOConfidence T13 High
+A41	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0001810	DNAse footprinting evidence
+T14	ECO 3377 3399	primer extension assay
+A42	Category T14 SeqFeat
+A43	ECOConfidence T14 High
+A44	AssertionStrength T14 High
+N14	Reference T14 brat_eco:ECO:0001819	primer extension assay evidence
+T15	ECO 3410 3434	primer extension product
+A45	Category T15 BioProc
+A46	ECOConfidence T15 High
+A47	AssertionStrength T15 High
+N15	Reference T15 brat_eco:ECO:0001819	primer extension assay evidence
+T16	ECO 3644 3668	primer extension product
+A48	Category T16 BioProc
+A49	ECOConfidence T16 High
+A50	AssertionStrength T16 High
+N16	Reference T16 brat_eco:ECO:0001819	primer extension assay evidence
+#8	AnnotatorNotes T16	GO:0010629
+T17	ECO 3810 3834	primer extension results
+A51	Category T17 SeqFeat
+A52	ECOConfidence T17 High
+A53	NextSentence T17 Yes
+A54	AssertionStrength T17 High
+N17	Reference T17 brat_eco:ECO:0001819	primer extension assay evidence
+N2	Reference T2 brat_eco:ECO:0000109	reverse transcription polymerase chain reaction evidence
+#10	AnnotatorNotes T11	GO:0043565
+#11	AnnotatorNotes T13	GO:0043565
+#12	AnnotatorNotes T15	GO:0010468
+T18	ECO 3534 3552	Compared to the WT
+A55	Category T18 BioProc
+A56	ECOConfidence T18 Medium
+A57	NextSentence T18 Yes
+A58	AssertionStrength T18 High
+N18	Reference T18 brat_eco:ECO:0000015	mutant phenotype evidence
+#13	AnnotatorNotes T18	GO:0010629

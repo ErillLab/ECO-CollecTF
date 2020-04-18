@@ -1,0 +1,94 @@
+Results
+
+SMU.1882 is unique to S. mutans
+
+Bioinformatics analysis of SMU.1882 gene (354-bp) reveals that it encodes a hypothetical protein of 117 amino acid residues in length containing three double-glycine (GG) motifs, one of which is at position 23.
+A recent in silico analysis suggests that the SMU.1882 peptide is a secretory molecule [31]; the GG motif at position 23 is thought to be the site at which the cleavage occurs.
+However, our analyses of the genome of S. mutans along with other streptococcal spp., including S. agalactiae, S. gordonii, S. mitis, S. pneumoniae, and S. pyogenes, S. thermophilus, using software at the Comprehensive Microbial Resource website (http://cmr.jcvi.org/tigr-scripts/CMR/CmrHomePage.cgi), revealed that SMU.1882 is unique to S. mutans, as it is apparently not found in these streptococcal spp. (data not shown); however, several small GG containing peptides and homologs of the upstream SMU.1883 gene are present in some streptococci.
+While SMU.1882 and the adjacent comA homolog, SMU.1881, are unique to the S. mutans strains, the flanking genes, which encode mannose-phosphotransferase system (man-PTS) are very well conserved among streptococci and other Firmicutes[32].
+
+
+
+Transcriptional organization of the SMU.1882 locus
+
+A schematic diagram of the SMU.1882 locus and the genes in its vicinity are shown in Fig. 1A.
+Sequence analysis, confirmed using BPROM online software (Prediction of bacterial promoters, Softberry, http://linux1.softberry.com), indicates the presence of putative -35 (GTGAGT) and -10 (TATAAT) box motifs 151- and 127-bp, respectively, upstream of the putative start codon with a putative ribosomal binding site (AGAGA) 11-bp upstream of the start codon.
+A putative rho-independent terminator sequence (GCCTGACTACATAGATGTCAGGC) was identified at position 402-bp downstream of SMU.1882 by TransTerm (transterm.dev.java.net) program.
+
+Since the transcripts of many CovR regulated genes have relatively shorter half-life, we therefore evaluated the stability of SMU.1882 transcript.
+The results of the mRNA stability assay indicated that the chemical half-life of the SMU.1882 transcript was approximately 2 - 3 minutes (Fig. 1B).
+Northern blot analysis indicated that there was one major band of 1.5-kb (which was used for the stability determination) and two other minor bands of approximately 3.0- and 6.0-kb, which constituted less than 5% of the total signal (Fig. 1C), suggesting that other genes may be cotranscribed along with SMU.1882.
+To determine whether the downstream comA (SMU.1881) was transcriptionally linked to SMU.1882, PCR analysis was performed using cDNA, with chromosomal DNA and RNA as the positive and negative controls, respectively.
+As shown in Fig. 1D, SMU.1882 appears to be transcriptionally linked with comA, which would account for the presence of the 3-kb transcript seen in the northern blot.
+This product could be generated due to read-through transcription from the SMU.1882 promoter.
+
+
+
+CovR upregulates transcription from P1882 in vivo
+
+To gain insight into the link between CovR and expression of SMU.1882, sqRT-PCR was used to quantify the level of CovR-dependent expression of SMU.1882.
+Wild-type S. mutans UA159, and its isogenic DeltacovR derivative, IBS603, were grown to mid-exponential phase (KU70), followed by harvesting and extraction of RNA.
+The gyrA gene was included as control to ensure that equivalent amounts of RNA were being used for each reaction.
+Fig. 2A shows that higher levels of SMU.1882 transcript are being produced from the wild-type strain compared to the covR mutant strain, with approximately three-fold difference in expression of SMU.1882; complementation of the DeltacovR mutant strain with plasmid pIB30 (IBS603/pIB30), which carries the full length, wild-type covR gene in trans, restores expression of SMU.1882 to the wild type level.
+Since SMU.1883 gene appears to be divergently transcribed from the promoter upstream of the SMU.1882, we also measured the level of SMU.1883 transcript by sqRT-PCR.
+We found no significant difference between the wild type and the covR mutant strains.
+Thus, although SMU.1882 and SMU.1883 share the same intergenic region, CovR appears to only activate transcription of the SMU1882 gene.
+The results of the sqRT-PCR were further supported by real-time RT-PCR analysis.
+As shown in Fig. 2B, we found that the transcript level in the covR mutant strain was approximately 2.5-fold lower compared to the wild type strain.
+
+To confirm that CovR can regulate SMU.1882 promoter at a non-native locus, we used a transcriptional reporter fusion for analysis to avoid any cis-effect that may alter the gene expression.
+Transcriptional fusion reporter strains were constructed by cloning the putative promoter region of SMU.1882 into plasmid pIB107, which contains a promoterless gusA gene [29].
+This construct was inserted at the SMU.1405 locus, which is well separated from the native SMU.1882 locus [29].
+When the wild type, covR-deletion mutant (IBS606), and complemented covR-deletion mutant (IBS606/pIB30) strains, containing the P1882-gusA transcriptional fusion reporter, were assayed for Gus activity.
+As shown in Fig. 2B, GusA activity was significantly reduced in the mutant strain IBS606, indicating that CovR is required to activate transcription from P1882.
+However, GusA activity was restored to the parental level when the DeltacovR strain was complemented with covR in trans (IBS606/pIB30).
+Taken together, the results of the RT-PCR analyses and the reporter fusion assays indicate that expression of SMU.1882 is up regulated in the presence of CovR.
+
+
+
+CovR directly binds to P1882 in vitro
+
+Electrophoretic mobility shift assays (EMSA) and DNase I protection assays were used to demonstrate the specific binding of CovR to the putative promoter region of SMU.1882, P1882.
+As shown in Fig. 3A, incubation of the P1882 DNA fragment with increasing amounts of CovR leads to retardation in the mobility of the DNA fragment.
+Incubation of the 32P-labeled P1882 fragment with a 25-fold higher amount of non-labeled P1882 DNA fragment resulted in no shifting of the labeled band, while the addition of a 25-fold higher amount of a DNA fragment containing the promoter region for the nlmA gene (PnlmA), which encodes a peptide component of mutacin IV and is not regulated by CovR, did not inhibit shifting of the CovR-bound P1882 fragment (Fig. 3A).
+This demonstrates that CovR binds specifically to the promoter region of SMU.1882.
+
+DNase I protection assays were performed to determine the portion of P1882 that binds to CovR, using the same P1882-CovR mixtures prepared for EMSA, as described above.
+Analysis of the gel indicates that CovR binds to the DNA fragment from position -200 to -1, relative to the start codon, and protects this region against digestion by DNase I (Fig. 3B).
+This region also includes the putative ribosomal binding site, AGAGA, which is found 13-bp upstream of the start codon, as well as the putative -35 and -10 box regions.
+Taken together, the results of the EMSA and DNase I analyses suggest that CovR activates the expression of SMU.1882 by specifically binding to P1882.
+
+
+
+CovR regulation of SMU.1882 expression is not strain-specific
+
+Bioinformatics analysis at the CMR website indicates that gene SMU.1882 is not found in streptococcal spp. outside of S. mutans strain UA159; however, it was not known whether SMU.1882 is conserved in other isolates of S. mutans.
+To determine whether SMU.1882 is present in other S. mutans strains, we used Southern hybridization to verify whether SMU.1882 was present in other isolates, from three different serotypes (c, e, and f) of S. mutans.
+A 32P-labeled DNA fragment containing a 267-bp internal SMU.1882 sequence derived from the genome of UA159 was used as a probe against the XmnI-digested chromosomal DNA from a number of S. mutans isolates.
+The results of the Southern hybridization analysis are shown in Figure 4A.
+Sequence analysis predicts that, a diagnostic 6-kb DNA fragment will be generated after XmnI-digestion UA159 genomic DNA.
+As shown in Fig. 4A, with the exception of strains T8, 109C, and UA130 that did not produce bands, the hybridization pattern observed for the majority of the isolates was identical with that of UA159 (6 kb); however, the observed band for strain OMZ175 was 4-kb.
+The overall results suggest that SMU.1882 is conserved in most, but not all, strains of S. mutans.
+
+GS-5 and NG-8 are two other S. mutans strains that have been characterized to some degree.
+To determine whether CovR-activation of SMU.1882 is unique to strain UA159, sQRT-PCR analysis was performed on S. mutans strain GS-5 and its isogenic covR mutant derivative, IBS07; the results indicate that CovR-dependent regulation of SMU.1882 is not limited to strain UA159.
+Fig. 4B shows that there is a 1.8 to 2.0-fold drop in expression of SMU.1882 in IBS07 relative to the wild-type GS-5.
+Complementation of the covR mutant with full-length covR (IBS07/pIB30), in trans, restores the expression of SMU.1882 slightly higher than the wild-type level.
+sQ-RT results were further confirmed by real-time RT-PCR that showed a similar reduction of SMU.1882 transcript in IBS07 as compared with GS-5 (Fig. 4C).
+Furthermore, inactivation of covR in S. mutans strain NG8 also indicates that CovR activates the expression of SMU.1882 in this strain (Fig. 4D).
+Taken together, the results suggest that CovR regulation of SMU.1882 expression is not limited to the UA159 strain alone and the degree of reduction of SMU.1882 transcript in different strains appears to be similar.
+
+
+
+CovR does not activate expression of SMU.1882 in vitro
+
+In vitro transcription assays were performed to demonstrate direct activation of expression from P1882.
+A 319-bp fragment, containing the first 82-bp of SMU.1882 as well as the putative promoter elements, was PCR-amplified from the S. mutans chromosome, and used as template for the in vitro transcription run-off assays, along with a 319-bp fragment containing Pami that was amplified from pIB163 which was used as a control.
+To perform the reaction, E. coli RNA polymerase core enzyme was reconstituted with purified his-tagged RpoD from S. mutans.
+As shown in Fig. 5, addition of reconstituted RNA polymerase holoenzyme, but not the core enzyme, generated expected size bands of 193-nt and 158-nt when P1882 and Pami, respectively, were used as template (lanes 2 and 7).
+However, the addition of CovR did not lead to any observable increase in transcription from P1882.
+The level of transcription in the reaction mixes containing purified CovR (lanes 4 - 6) did not appear to be any different than the lanes that did not contain CovR (Lane 3).
+
+
+
+

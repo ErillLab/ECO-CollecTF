@@ -1,0 +1,111 @@
+Results
+
+Genome-wide analysis of the EspR regulon
+
+We investigated EspR-binding to the chromosome of Mtb strain H37Rv during exponential growth by ChIP-Seq, chromatin immunoprecipitation followed by ultra-high throughput DNA sequencing [14].
+Sequence reads obtained from two independent ChIP-Seq experiments using EspR-specific antibodies were mapped to the Mtb H37Rv genome.
+Based on the peak detection criteria, we identified 165 enriched loci harboring 582 EspR-binding peaks (Fig. 1, Table S2), that were enriched by >1.5-fold and these were not present in ChIP-Seq datasets from control experiments conducted without antibody or with unrelated antibodies (data not shown).
+These 165 loci occurred across the genome (Fig. 1 and Fig. 2A) and were sited both in intergenic regions (45%) and within genes (55%) implying that EspR is not a classical transcriptional regulator.
+
+Diverse functions are encoded by genes where EspR bound upstream and classification by functional category reveals over-representation of cell wall/cell processes and the surface-exposed PE/PPE proteins (http://tuberculist.epfl.ch/; Fig. 2B).
+Internal sites were found within AT-rich genes encoding proteins belonging to the PPE family (Fig. 1), like ppe24 (rv1753c), and some of these, such as ppe58 (rv3426), also bind EspR at their 5'-ends.
+Binding sites were present within genes that are thought to have been acquired by horizontal transfer [15] like the rv0986-rv0989c region.
+
+A survey of the ten top scoring peaks (Table 1) highlighted the major EspR-binding gene targets.
+Two of the top three sites (Fig. 1) occurred at a locus encoding an enzyme system that produces the complex lipids phthiocerol dimycocerosate (PDIM) and phenolic glycolipid (PGL) [16], [17].
+The second highest scoring site overlaps the translational start of rv1490, which encodes a membrane protein of unknown function, and this was followed by three other peaks of lower intensity, separated by ~300 - 400 bp, spread across rv1490 (Fig. 1).
+The fourth and eighth highest scoring sites affect two genes, pe-pgrs19 and pe-pgrs20[18], encoding mycobacteria-restricted PE_PGRS proteins, while the espACD locus, which is preceded by three EspR-binding sites (Fig. 1), occurred in the fifth position of the top ten ChIP-Seq hits (Table 1).
+The ninth peak is sited in the intergenic region between lipF (rv3487c), encoding a lipid esterase, and rv3488, whereas the last peak of the top ten ChIP-Seq list was found at the 3'-end of fadB2 (rv0468) encoding a beta-hydroxybutyryl-CoA dehydrogenase and upstream of umaA (rv0469) coding for a mycolic acid synthase.
+EspR binds to multiple sites in the ESX-1, ESX-2 and ESX-5 loci (Fig. S2), as well as to two sites upstream of its own gene (Fig. 3), thus implying autogenous control.
+Taken together, these data suggest that EspR may be involved in regulating cell wall function.
+
+
+
+Consensus sequence
+
+An EspR consensus sequence was identified in the ChIP-Seq peaks using the MEME suite [19] and the binding motif deduced (Fig. 2C).
+FIMO (Find Individual Motif Occurrences) detected 736 occurrences of this motif (p-value LTEQ 0.001) distributed among 80% of the EspR peak sequences analyzed.
+Of these motifs, 59% were localized within open reading frames (ORF).
+The entire Mtb genome sequence was searched for potential EspR-binding sites using the TTTGC[TC][GA] consensus sequence and 199 putative intergenic and 827 intragenic sites were identified, of which 163 (43 intergenic and 120 intragenic) correspond to known ChIP-Seq peak sites.
+Further experimental support for the consensus sequence is available from footprinting studies of the espA[10] and espR promoter regions (see below), which revealed EspR protection from DNase I digestion at sites comprising at least one TTTGC-like motif.
+
+
+
+Confirmation of in vivo EspR binding
+
+To obtain independent confirmation for selected parts of the in vivo dataset, we initially focused on the EspR-dependent espACD operon [2].
+Our previous in vitro work revealed two EspR binding sites separated by 19 bp and located between 506 and 444 bp upstream of espACD[10], consistent with the presence of a ChIP-Seq peak in this region (Fig. 1).
+On closer inspection, two additional major peaks of EspR-enrichment were found further upstream of espA (centered between -857 bp and -695 bp and between -1214 bp and -1113 bp, respectively).
+While this work was in progress, another report of the presence of two additional sites upstream of espACD appeared [11].
+The existence of these sites also corroborates results we obtained previously using AFM to visualize nucleoprotein complexes of EspR and a 1360 bp espACD promoter fragment [10].
+AFM revealed loop structures stabilized by multiple EspR dimer of dimers suggesting the presence of several distant EspR binding sites in the espACD upstream region.
+The 5'-end of the espA mRNA was located 66 bp upstream of the translation start codon using 5' RACE (Fig. S3).
+Consequently, the nearest EspR binding site is positioned over 300 bp upstream of the promoter.
+
+To further validate EspR-binding peaks, with varying degrees of enrichment, we performed ChIP followed by quantitative PCR on 11 selected sites (four located within intergenic regions, three within ORFs and three overlapping a translational start) and two non-peak regions (within rv0888 and sigA ORF) as controls.
+All of the selected EspR-binding regions exhibited enrichment comparable to that observed from ChIP-Seq analysis (Fig. S4), thus confirming that all peaks were genuine EspR-targets.
+
+To obtain further confirmation of the in vivo EspR binding sites, we performed electrophoretic mobility shift assays (EMSAs) using ~100 bp DNA sequences covering the top five binding sites (Fig. S5 and Table 1) and a DNA fragment of the same size from within the espA ORF as a negative control.
+EspR was shown to bind to all five sites in a concentration dependent manner, while the negative control fragment remained unbound at an equal protein concentration.
+However, clear differences in affinity between the fragments were visible.
+For example, the top-scoring fadD26 peak bound EspR less strongly compared to the four others suggesting that other determinants, like long-range protein-protein or protein-DNA interactions, could contribute to the high-affinity binding observed in vivo.
+
+
+
+Autogenous regulation at the espR promoter
+
+The presence of twin peaks upstream of espR (a, b in Fig. 3A) is suggestive of autoregulation.
+To test this possibility, we performed EMSA, DNase I footprinting and 5' RACE analysis of the espR promoter region.
+Peaks a and b were both shown to bind EspR using EMSA (Fig. 3B).
+Two regions within peak a were protected from DNase I by EspR; region I, covering 17 bp, and region II, 55 bp-long, are situated 101 and 76 bp upstream of the espR translational start codon, respectively (Fig. 3C and 3D).
+This binding pattern is reminiscent of that described previously at the espA promoter [10].
+When incubated with the dimerization deficient EspRDelta10 protein, only part of region II and none of region I was protected (IIaDelta10, 14 bp and IIbDelta10, 12 bp, see Fig. S6).
+This implies that oligomerization enables cooperative binding between multiple EspR dimers, leading to the formation of higher-order oligomers.
+The zone protected by EspRDelta10 contains an inverted repeat of two consensus motifs: CAGCAAA<16>TTTGCTC.
+
+5' RACE analysis was employed to localize the espR promoter using RNA extracted from Mtb H37Rv grown to mid-log phase.
+The espR transcript starts with a poly-G (7) sequence 144 bp upstream of the translational start codon.
+The promoter is therefore situated in a region between peaks a and b so simultaneous occupation by EspR of both the a and b sites might form a repression loop.
+Expression data presented below indicate a negative effect of EspR on its own transcription.
+
+
+
+Target gene regulation on EspR binding
+
+To confirm the prediction that binding of EspR directly affects target gene expression, we exploited a pristinamycin-inducible system [20], [21] to overexpress espR conditionally in Mtb (strain H37Rv::pMYespR; Fig. 4).
+Compared to the controls, it is noteworthy that espR over-expression significantly decreased growth after 24 h (Fig. 4A) while espR transcript and EspR protein levels were found to be ~8-fold and ~3-fold higher than in the control after 72 h, respectively (Figs. 4C and 4B).
+When the relative amounts of target transcripts in untreated and pristinamycin IA-treated H37Rv::pMYespR cells were measured by quantitative RT-PCR, significantly increased transcript levels were detected for rv1490, espA, and the ABC-transporter rv0986 (Fig. 4D).
+Conversely, repression of lipF transcription was also observed upon EspR overexpression, whereas transcription of some target genes appeared unchanged (Fig. 4D).
+Using a discriminatory RT-PCR assay it was possible to measure the impact of EspR overproduction on expression of the chromosomal copy of espR and, again, this appeared to act negatively (Fig. 4C).
+
+The combined findings suggest that EspR is capable of both positive and negative transcriptional regulation.
+Moreover, the inability to observe direct EspR-dependent regulation at some major EspR binding sites suggests that EspR has no or little effect on these genes in the conditions tested or that other regulators counter-balance the effect of increased EspR levels.
+
+
+
+Growth phase dependent expression of EspR
+
+It has been proposed that intracellular levels of EspR are regulated via its secretion by the ESX-1 system and that blocking EspR secretion results in enhanced EspR-mediated transcriptional effects [2].
+This suggested that the intracellular requirements for EspR could change during the growth phase of Mtb since the secretion of other ESX-1 substrates, such as EsxA (ESAT-6), is known to occur early in the growth cycle.
+To determine whether levels were constant or variable during growth and to estimate the number of EspR molecules per cell, kinetic experiments were performed.
+We monitored EspR protein levels by quantitative Western blotting at different time points corresponding to the early-log (day 2), mid-log (day 3) and stationary (days 4 and 5) phases of growth.
+Analysis of equivalent cell numbers showed that the intracellular concentration of EspR increases throughout the bacterial growth cycle, ranging from ~20,000 molecules at early log-phase (day 2) to ~100,000 molecules per cell at stationary phase (day 5) (Fig. 5A).
+Peak cell concentration of EspR in stationary phase is consistent with the growth arrest observed upon its premature induction (Fig. 4A).
+To determine if this peak was due to protein accumulation or to increased expression of the espR gene, we performed quantitative RT-PCR on RNA samples isolated from cells at different time points (Fig. 5B).
+Interestingly, throughout the growth cycle, the levels of espR mRNA varied in a manner inversely proportional to the amounts of EspR protein, suggesting that EspR stably accumulates in the bacteria while autorepression may limit its own gene expression at late time points.
+
+
+
+EspR is not secreted
+
+To determine if the low intracellular levels of EspR observed at the early and mid-log phases of growth were due to intensive EspR secretion, we measured intra- and extra-cellular levels of EspR from strains Mtb H37Rv and Mtb H37RvDeltaRD1 cultured in Sauton's medium to mid-log phase.
+Under these conditions, we were unable to detect EspR among the culture filtrate (CF) proteins in either case, whereas EsxA was present in the CF of Mtb H37Rv, as expected, but not in CF from the ESX-1 mutant H37RvDeltaRD1 that lacks esxA among other genes (Fig. 6A).
+
+To investigate whether EspR was exported from the cytosol but retained in the cell envelope, whole cell lysate (CL) was fractionated by ultracentrifugation into the cell wall/cell membrane (W/M) and cytosolic (CYT) components.
+Since the chromosome is known to be attached to the plasma membrane [22], half of the samples were treated with DNase I. EspR was detected in both of the untreated fractions but was mainly in the cytosol after DNase I treatment (Fig. 6B).
+Since previous studies were performed with the Erdman strain of Mtb, this provided a possible explanation for the localization discrepancy.
+Consequently, we repeated the experiment with the Mtb Erdman strain and the ESX-1 mutant Mtb Erdman 36 - 72 that fails to secrete EsxA [23].
+Again, EspR was below the level of detection in the CF of either strain, whereas EsxA appeared in the CF of Mtb Erdman (Fig. S7).
+We then examined CF at different time points of Erdman cultures for the presence of EspR and the cytosolic marker GroEL2.
+EspR first appeared in the culture filtrate after 8 days of growth when it was accompanied by GroEL2, indicating that cell lysis had likely occurred (Fig. 6C).
+

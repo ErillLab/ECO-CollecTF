@@ -1,0 +1,492 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">25470502</article-id>
+      <article-id pub-id-type="pmc">4255059</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-14-32722</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0114380</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Biology</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The SOS Response is Permitted in <italic>Escherichia coli</italic> Strains Deficient in the Expression of the <italic>mazEF</italic> Pathway</article-title>
+        <alt-title alt-title-type="running-head"><italic>E. coli mazEF</italic> Pathway Inhibits the SOS Response</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kalderon</surname>
+            <given-names>Ziva</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kumar</surname>
+            <given-names>Sathish</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Engelberg-Kulka</surname>
+            <given-names>Hanna</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Department of Microbiology and Molecular Genetics, IMRIC, The Hebrew University- Hadassah Medical School, Jerusalem, Israel</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Hayes</surname>
+            <given-names>Finbarr</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University of Manchester, United Kingdom</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>hanita@cc.huji.il</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: ZK SK HEK. Performed the experiments: ZK SK. Analyzed the data: ZK SK HEK. Contributed reagents/materials/analysis tools: HEK. Wrote the paper: ZK SK HEK.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>3</day>
+        <month>12</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>12</issue>
+      <elocation-id>e114380</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>7</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>11</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Kalderon et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The <italic>Escherichia coli</italic> (<italic>E. coli</italic>) SOS response is the largest, most complex, and best characterized bacterial network induced by DNA damage. It is controlled by a complex network involving the RecA and LexA proteins. We have previously shown that the SOS response to DNA damage is inhibited by various elements involved in the expression of the <italic>E. coli</italic> toxin-antitoxin <italic>mazEF</italic> pathway. Since the <italic>mazEF</italic> module is present on the chromosomes of most <italic>E. coli</italic> strains, here we asked: Why is the SOS response found in so many <italic>E. coli</italic> strains? Is the <italic>mazEF</italic> module present but inactive in those strains? We examined three <italic>E. coli</italic> strains used for studies of the SOS response, strains AB1932, BW25113, and MG1655. We found that each of these strains is either missing or inhibiting one of several elements involved in the expression of the <italic>mazEF</italic>-mediated death pathway. Thus, the SOS response only takes place in <italic>E. coli</italic> cells in which one or more elements of the <italic>E. coli</italic> toxin-antitoxin module <italic>mazEF</italic> or its downstream pathway is not functioning.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by the Israel Science Foundation (grant 66/10) and the United States Army (grant W911NF-09-1-0212). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="14"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The enteric bacterium <italic>E. coli</italic>, like most other bacteria, carries on its chromosome the gene pair <italic>mazEF</italic>, belonging to the abundant family of toxin-antitoxin modules <xref rid="pone.0114380-EngelbergKulka1" ref-type="bibr">[1]</xref>. <italic>mazF</italic> specifies for the stable toxin MazF <xref rid="pone.0114380-Aizenman1" ref-type="bibr">[2]</xref>, a sequence specific endoribonuclease, which cleaves at ACA sites <xref rid="pone.0114380-Zhang1" ref-type="bibr">[3]</xref>. <italic>mazE</italic> specifies for the labile antitoxin MazE, which is degraded by the protease ClpPA <xref rid="pone.0114380-Aizenman1" ref-type="bibr">[2]</xref>. <italic>E. coli mazEF</italic> is responsible for bacterial programmed cell death (PCD) under stressful conditions <xref rid="pone.0114380-Hazan1" ref-type="bibr">[4]</xref>. Under such conditions, the induced endoribonuclease MazF removes the 3&#x2032;-terminal 43 nucleotides of the 16S rRNA within the ribosomes, thereby removing the anti-Shine-Dalgarno (aSD) sequence that is required for translation initiation of canonical mRNAs. Concomitantly, MazF also cleaves at ACA sites at or closely upstream from the AUG start codon of certain specific mRNAs, causing the generation of leaderless mRNAs <xref rid="pone.0114380-Vesper1" ref-type="bibr">[5]</xref>. Thus, stressful conditions lead to the generation of the alternative translation machinery <xref rid="pone.0114380-Vesper1" ref-type="bibr">[5]</xref> which is responsible for the synthesis of stress proteins, some of which are involved in cell death and the others in cell survival <xref rid="pone.0114380-Amitai1" ref-type="bibr">[6]</xref>. Therefore, <italic>mazEF</italic> can be considered as a master regulatory element, that induces downstream pathway leading to the death of most of the population, and continued survival of a small subpopulation <xref rid="pone.0114380-Amitai1" ref-type="bibr">[6]</xref>. In addition, <italic>E. coli mazEF-</italic>mediated cell death is a population phenomenon requiring the participation of NNWNN, a linear penta-peptide, which is a quorum sensing factor that we have called the Extracellular Death Factor (EDF) <xref rid="pone.0114380-KolodkinGal1" ref-type="bibr">[7]</xref>&#x2013;<xref rid="pone.0114380-KolodkinGal2" ref-type="bibr">[8]</xref>. EDF induces the enoribonucleolytic activity of <italic>E. coli</italic> MazF <xref rid="pone.0114380-Belitsky1" ref-type="bibr">[9]</xref>.</p>
+      <p>Recently, using confocal microscopy and FACS analysis we showed that under condition of sever DNA damage; the triggered EDF-<italic>mazEF</italic>-mediated cell death pathway leads to the inhibition of a second cell death pathway. The latter is an <underline>A</underline>poptotic-<underline>L</underline>ike <underline>D</underline>eath that we have called ALD; ALD is mediated by <italic>recA</italic> and <italic>lexA</italic>
+<xref rid="pone.0114380-Erental1" ref-type="bibr">[10]</xref>. The well known, extensively studied SOS pathway (reviewed by <xref rid="pone.0114380-Hersh1" ref-type="bibr">[11]</xref>&#x2013;<xref rid="pone.0114380-Walker1" ref-type="bibr">[15]</xref>) is also a cellular response to DNA damage, and is also mediated by <italic>recA</italic>-<italic>lexA</italic>. In an uninduced cell, the <italic>lexA</italic> gene product, LexA, acts as a repressor of more than 40 genes <xref rid="pone.0114380-Courcella1" ref-type="bibr">[16]</xref>&#x2013;<xref rid="pone.0114380-Fernandez1" ref-type="bibr">[17]</xref>, including r<italic>ecA</italic> and <italic>lexA</italic>, by binding to operator sequences (called SOS box) upstream to each gene or operon. Under conditions of DNA damage, regions of single-stranded DNA are generated that convert RecA to an active form that facilitate an otherwise latent capacity of LexA (and some other proteins like UmuD and the &#x3BB;CI repressor) to auto digest <xref rid="pone.0114380-Little1" ref-type="bibr">[12]</xref>, <xref rid="pone.0114380-Sutton1" ref-type="bibr">[14]</xref>&#x2013;<xref rid="pone.0114380-Courcella1" ref-type="bibr">[16]</xref>, <xref rid="pone.0114380-Little2" ref-type="bibr">[18]</xref>. We have recently shown that the <italic>E. coli</italic> EDF-<italic>mazEF</italic> pathway inhibits the SOS response as it inhibits the ALD pathway (19). Since the <italic>mazEF</italic> pathway is present on the chromosomes of most <italic>E. coli</italic> strains <xref rid="pone.0114380-Mittenhuber1" ref-type="bibr">[20]</xref>, <xref rid="pone.0114380-Pandey1" ref-type="bibr">[21]</xref>, we asked why is the SOS response found in so many <italic>E. coli</italic> strains? Perhaps the EDF-<italic>mazEF</italic> pathway is present but not active in those strains?</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>The Extra-Cellular Death Factor (EDF) is involved in the inhibition of the SOS response</title>
+        <p>In previous studies we showed that EDF, the penta-peptide NNWNN, is involved in EDF-<italic>mazEF</italic> mediated cell death <xref rid="pone.0114380-KolodkinGal1" ref-type="bibr">[7]</xref>, and that <italic>clpX</italic> is required for the production of EDF <xref rid="pone.0114380-KolodkinGal2" ref-type="bibr">[8]</xref>. Since, more recently we found that the action of the <italic>mazEF</italic> module prevented the SOS response <xref rid="pone.0114380-Erental2" ref-type="bibr">[19]</xref>; here we asked if, in addition to the <italic>mazEF</italic> module, the presence of EDF is also involved in the inhibition of the SOS response. As previously <xref rid="pone.0114380-Erental2" ref-type="bibr">[19]</xref>, we also here studied the SOS response by the use of plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>
+<xref rid="pone.0114380-Davies1" ref-type="bibr">[22]</xref>, which bears the gene <italic>gfp</italic> under the control of the <italic>lexA</italic> operator, <italic>lexO</italic>. In this plasmid, under uninduced conditions, LexA represses <italic>gfp</italic> transcription by binding to the SOS box in the gene operator, <italic>lexO</italic>. Under DNA damage, RecA becomes activated, and acts as a co-protease stimulating the inactivation of LexA by auto-cleavage. Thus, in this system, fluorescence is a reporter for the RecA dependent SOS response. We caused DNA damage by adding nalidixic acid (NA) (10 &#xB5;g/ml) to the cultures <xref rid="pone.0114380-Erental2" ref-type="bibr">[19]</xref>. Our experiments have revealed that the SOS response was permitted not only in an <italic>E. coli</italic> MC4100<italic>relA</italic><sup>+</sup> strain from which we deleted <italic>mazEF</italic> (MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>mazEF</italic>) <xref rid="pone.0114380-Erental2" ref-type="bibr">[19]</xref>, but also when, instead of deleting <italic>mazEF</italic>, we deleted <italic>clpX</italic> (MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>clpX</italic>) (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A</xref>). This effect seems to be due to the lack of EDF because: (a) the addition of EDF partially inhibits the studied SOS response (by 50%), and (b) the SOS response is not affected at all by the addition of iEDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A</xref>), the penta-peptide NNGNN, in which the central and crucial tryptophan has been replaced by glycine <xref rid="pone.0114380-KolodkinGal2" ref-type="bibr">[8]</xref>. Adding iEDF to the MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>clpX</italic> culture did not affect the SOS response at all (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A</xref>). Similar results were obtained when instead of studying the SOS response by the use of plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>, we studied it by following the NA-induced LexA degradation (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1D</xref>). Here, LexA degradation, thus SOS response is not permitted in <italic>E. coli</italic> MC4100<italic>relA</italic><sup>+</sup> strain carrying the <italic>mazEF</italic> module (<xref ref-type="fig" rid="pone-0114380-g001">Figure1D</xref>, first line). However, deleting <italic>clpX</italic> (MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>clpX</italic>) permitted LexA degradation (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1D</xref>, second line). On the other hand, the addition of EDF prevented LexA degradation (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1D</xref>, third line), while LexA degradation is permitted by the addition of iEDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1D</xref>, fourth line).</p>
+        <fig id="pone-0114380-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0114380.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>The inhibition of the SOS response by the <italic>mazEF</italic> pathway required the participation of EDF.</title>
+            <p>We determined the SOS response by measuring the fluorescence of the reporter plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic> (<bold>A, B, C</bold>), and by LexA degradation (<bold>D, E, F</bold>). We compared <italic>E. coli</italic> strain MC4100<italic>relA</italic><sup>+</sup> (A and <bold>D</bold>) with strains MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>clpX</italic> (<bold>A</bold> and <bold>D</bold>), MG1655 (<bold>B</bold> and <bold>E</bold>), or BW25113 (<bold>C</bold> and <bold>F</bold>); the strains in A, B, and C harbored plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>. We grew the cells in M9 media supplemented with ampicillin (100 &#xB5;g/ml), with shaking. When the culture reached O.D.<sub>600</sub> 0.5&#x2013;0.6, we added (or not) EDF (10 ng/ml) or iEDF (100 ng/ml). These cultures were incubated without shaking at 37&#xB0;C for 30 min, after which we added NA (10 &#xB5;g/ml) to each sample. Immediately after adding NA, we measured fluorescence (FU) by fluorometer or LexA degradation (as described in <xref ref-type="sec" rid="s4">Materials and Methods</xref>) over a period of 4 hours. The values shown are relative to those of cells that had not been treated with NA. All data are representative of three independent experiments. The colors surrounding the blots in D, E, and F correspond to the colors representing the samples in A, B, and C.</p>
+          </caption>
+          <graphic xlink:href="pone.0114380.g001"/>
+        </fig>
+        <p>An additional support that EDF is involved in the <italic>mazEF</italic> mediated inhibition of the SOS response is derived from our studies with <italic>E. coli</italic> strain MG1655. In our previous work, we showed that <italic>E. coli</italic> strain MG1655, which carries the <italic>mazEF</italic> gene pair is defective in the production of and the response to EDF <xref rid="pone.0114380-KolodkinGal2" ref-type="bibr">[8]</xref>. Here we found that, despite the presence of <italic>mazEF</italic>, the SOS response took place in strain MG1655 (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1B</xref>). Furthermore, 240 minutes after adding EDF, we observed a 50% reduction in the SOS response; in contrast, adding iEDF did not cause any reduction in the SOS response (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1B</xref>). Similar results were also obtained in <italic>E. coli</italic> strain MG1655 by studying the NA-induced LexA degradation (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1E</xref>) under the SOS response condition. Also here, LexA degradation, thus the SOS response is permitted in <italic>E. coli</italic> MG1655 (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1E</xref>, first line). On the other hand, the addition of EDF significantly prevented LexA degradation (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1E</xref>, second line), while LexA degradation is again permitted by the addition of iEDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1E</xref>, third line). All of these results support our hypothesis that the SOS response was permitted in the absence of EDF.</p>
+        <p>Using our fluorescence reporter system, we tested the SOS response in two additional <italic>E. coli</italic> strains. In strain AB1932 <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref> the addition of EDF did not inhibit the SOS response (<xref ref-type="supplementary-material" rid="pone.0114380.s001">Figure S1</xref>). However, in <italic>E. coli</italic> strain BW25113, which has commonly been used to study the phenomena of the SOS response <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref>&#x2013;<xref rid="pone.0114380-Beaber1" ref-type="bibr">[24]</xref>, the addition of EDF did reduce the SOS response (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1C</xref>). Adding EDF to <italic>E. coli</italic> strain BW25113 led to a 30% reduction in the SOS response; again, as in the case for strains MC4100<italic>relA</italic>+&#x394;<italic>clpX</italic> (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A</xref>), and MG1655 (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1B</xref>), adding iEDF did not lead to a reduction in the SOS response (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1C</xref>). Similar results were obtained in <italic>E.coli</italic> strain BW25113 by determining the NA-induced LexA degradation. Also here, LexA degradation is permitted (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1F</xref>, first line). However, its degradation is prevented by the addition of EDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1F</xref>, second line), but not by the addition of iEDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1F</xref>, third line). Thus, the SOS response is permitted in <italic>E.coli</italic> strains BW25113 and MG1655. This because of unknown reasons there is a deficiency of EDF in these strains (<xref ref-type="table" rid="pone-0114380-t001">Table 1</xref>).</p>
+        <table-wrap id="pone-0114380-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0114380.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>The identified elements related to the EDF-<italic>mazEF</italic> pathway that permitted the SOS response in the herein studied <italic>E. coli</italic> strains.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0114380-t001-1" xlink:href="pone.0114380.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td rowspan="2" align="left" colspan="1">Strains</td>
+                  <td colspan="2" align="left" rowspan="1">The elements studied</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">EDF</td>
+                  <td align="left" rowspan="1" colspan="1">&#x3BB; lysogen</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">MG1655</td>
+                  <td align="left" rowspan="1" colspan="1">[&#x2212;]</td>
+                  <td align="left" rowspan="1" colspan="1">[&#x2212;]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">BW25113</td>
+                  <td align="left" rowspan="1" colspan="1">[&#x2212;]</td>
+                  <td align="left" rowspan="1" colspan="1">[&#x2212;]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">MC4100<italic>relA</italic><sup>+</sup>&#x3BB;</td>
+                  <td align="left" rowspan="1" colspan="1">[+]</td>
+                  <td align="left" rowspan="1" colspan="1">[+]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AB1932&#x3BB;</td>
+                  <td align="left" rowspan="1" colspan="1">[+]</td>
+                  <td align="left" rowspan="1" colspan="1">[+]</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>Brackets indicate the element that was missing [&#x2212;] or present [+] that permitted the SOS response in each of these strains.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Our findings suggesting that the SOS response is permitted in <italic>E.coli</italic> strains due to the lack of EDF is also manifested by testing the viability of these strains under conditions of DNA damage (<xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>). In <italic>E.coli</italic> strain MC4100<italic>relA</italic><sup>+</sup>, in which the SOS responds is prevented (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A and 1D</xref>), cell viability is reduced by about 3 folds under such condition (<xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>). In contrast, in the &#x394;<italic>clpX</italic> derivative of MC4100<italic>relA</italic>+ which is defective in the generation of EDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A and 1D</xref>), cell viability is not affected under the SOS conditions (<xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>). However, by applying EDF cell survival is reduced by about 2 folds, and this reduction in viability does not occur by applying iEDF (<xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>). A similar manifestation on the effect of DNA damage on cell viability was also observed in <italic>E.coli</italic> strains MG1655 and BW25113. These strains which are permitting the SOS response due to their lack of EDF (<xref ref-type="fig" rid="pone-0114380-g001">Figures 1B, 1E</xref> and <xref ref-type="fig" rid="pone-0114380-g001">Figure 1C, 1F</xref>, respectively), also permit cell survival under the SOS conditions (<xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>). However, cell viability was reduced by about two folds when EDF was applied to these stains, and this reduction in viability does not occur by applying iEDF (<xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>).</p>
+        <fig id="pone-0114380-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0114380.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Cell viability is affected under DNA damage in <italic>E.coli</italic> strains and under conditions in which the SOS response is impaired.</title>
+            <p>We studied the effect of cell viability at low concentrations of Nalidixic acid (10 &#xB5;g/ml). <italic>E. coli</italic> strains WT MC4100<italic>relA</italic><sup>+</sup> or MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>clpX</italic> or MG1655 or BW25113 were grown to OD<sub>600</sub> 0.5. We divided each culture into aliquots to which we added no NA (untreated) or added NA 10 &#xB5;g/ml (treated with NA) or added NA with EDF (treated with NA + EDF) or added NA with iEDF (treated with NA + iEDF) as described in the Legend to <xref ref-type="fig" rid="pone-0114380-g001">Figure 1</xref>. We carried out viability assays on LB plates as we have described previously (19).</p>
+          </caption>
+          <graphic xlink:href="pone.0114380.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>The SOS response is permitted in <italic>E. coli</italic> strains carrying prophage lambda</title>
+        <p>One of the few genes expressed by phage &#x3BB; in its lysogenic state is &#x3BB;<italic>rexB</italic>
+<xref rid="pone.0114380-Landsman1" ref-type="bibr">[25]</xref>&#x2013;<xref rid="pone.0114380-Belfort1" ref-type="bibr">[27]</xref>. In previous work, we showed that its product, &#x3BB;RexB, inhibits the degradation of the antitoxic labile compound, MazE, thereby preventing <italic>mazF</italic> mediated death pathway <xref rid="pone.0114380-EngelbergKulka2" ref-type="bibr">[28]</xref>. Therefore, we anticipated that, in contrast to <italic>E. coli</italic> strain MC4100<italic>relA</italic><sup>+</sup> in which the SOS response is prevented (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1A and 1D</xref>), in the presence of a &#x3BB; prophage the SOS response would be permitted in this strain. As we expected, the presence of the &#x3BB; prophage overcame the inhibitory effect of <italic>mazEF</italic> on the SOS response (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3A</xref>). Similar results were obtained in <italic>E. coli</italic> strain MC4100<italic>relA</italic><sup>+</sup> when instead of studying the SOS response by the use of plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>, we studied it by following LexA degradation (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3C</xref>). Here, the NA-induced LexA degradation, thus the SOS response, is permitted in an <italic>E. coli</italic> strain carrying prophage &#x3BB;, MC4100<italic>relA</italic><sup>+</sup>&#x3BB; (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3C</xref>, second line), and not in the absence of the prophage from the chromosome of this bacterial strain (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3C</xref>, first line). Also, in <italic>E.coli</italic> strain AB1932, in which the SOS response has been observed <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref>, and which has been reported to bear a &#x3BB; prophage on its chromosome <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref>, we observed the SOS response both by the use of plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic> (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3B</xref>) and by following LexA degradation (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3D</xref>, first line). Furthermore, deleting <italic>rexB</italic> from its &#x3BB; prophage reduced the SOS response by 50%, while introducing a plasmid bearing &#x3BB;<italic>rexB</italic> and inducing it permitted the SOS response (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3B</xref>). In addition, deleting <italic>rexB</italic> from its &#x3BB; prophage stabilized LexA degradation (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3D</xref>, second line), while introducing a plasmid bearing &#x3BB;<italic>rexB</italic> and inducing it permitted LexA degradation (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3D</xref>, third line), Thus, our results provide an explanation for the SOS response in strain AB1932&#x3BB; (<xref ref-type="table" rid="pone-0114380-t001">Table 1</xref>).</p>
+        <fig id="pone-0114380-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0114380.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>&#x3BB; Lysogens overcome the inhibitory effect of <italic>mazEF</italic> on the SOS response.</title>
+            <p>We determined the SOS response by measuring the fluorescence of the reporter plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic> (<bold>A, B</bold>), and by LexA degradation (<bold>C</bold>, <bold>D</bold>). We used <italic>E. coli</italic> MC4100<italic>relA</italic><sup>+</sup> as a control strain, and two experimental parent strains lysogenized by phage <italic>&#x3BB;</italic>: MC4100<italic>relA</italic><sup>+</sup><italic>&#x3BB;</italic><sup>+</sup> (<bold>A, C</bold>), and AB1932<italic>&#x3BB;</italic><sup>+</sup>, AB1932<italic>&#x3BB;</italic><sup>+</sup>&#x394;<italic>rexB</italic>, AB1932<italic>&#x3BB;</italic><sup>+</sup>&#x394;<italic>rexB</italic>/<italic>pZA31-rexB</italic> (<bold>B, D</bold>). The strains in A and B harbored plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>. Cells were grown as described in the Legend to <xref ref-type="fig" rid="pone-0114380-g001">Figure 1</xref>, except that the ampicillin concentration was (25 &#xB5;g/ml), and chloramphenicol (6.25 &#xB5;g/ml) was added to cells harboring plasmid pZE31-<italic>rexB</italic>. At O.D.<sub>600</sub> 0.5&#x2013;0.6, the strains harboring plasmid pZE31-<italic>rexB</italic> were induced by the addition of aTc (0.5 &#xB5;g/ml), and incubated without shaking at 37&#xB0;C for 30 min after which we added NA (10 &#xB5;g/ml). We measured fluorescence (FU) (<bold>A</bold> and <bold>B</bold>) by fluorometer or LexA degradation (<bold>C</bold> and <bold>D</bold>) over a period of 4 hours. The values shown are relative to those of cells not treated by NA. All data are representative of three independent experiments. The colors surrounding the gels in C and D correspond to the colors representing the samples in A and B.</p>
+          </caption>
+          <graphic xlink:href="pone.0114380.g003"/>
+        </fig>
+        <p>Our findings suggesting that the SOS response is permitted in an <italic>E.coli</italic> strain carrying prophage lambda was further supported by testing the viability of strain AB1932&#x3BB; under conditions of DNA damage (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4A</xref>). In this strain, in which we have shown that the SOS responds is permitted due to the presence of &#x3BB;<italic>rexB</italic> gene (<xref ref-type="fig" rid="pone-0114380-g003">Figures 3B and 3D</xref>), We found that also cell viability is reduced by about two folds under conditions of DNA damage (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4A</xref>). In contrast, in the &#x394;<italic>rexB</italic> derivative of strain AB1932&#x3BB; in which the SOS response is severely affected (<xref ref-type="fig" rid="pone-0114380-g003">Figures 3B and 3D</xref>); cell viability is not affected under the SOS conditions (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4A</xref>). However, introducing a plasmid bearing &#x3BB;<italic>rexB</italic> and inducing it, lead to the reduction of cell viability by about two orders (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4A</xref>).</p>
+        <fig id="pone-0114380-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0114380.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>&#x3BB;<italic>rexB</italic> is involved in the transfer from lysogenic to lytic stage.</title>
+            <p>(<bold>A</bold>) Cell viability (CFU/ml) and (<bold>B</bold>) <bold>&#x3BB;</bold> plaque forming units (PFU/ml). The <italic>E. coli</italic> strains AB1932<italic>&#x3BB;</italic><sup>+</sup> or AB1932<italic>&#x3BB;</italic><sup>+</sup>&#x394;<italic>rexB</italic> or AB1932<italic>&#x3BB;</italic><sup>+</sup>&#x394;<italic>rexB</italic>/<italic>pZA31-rexB</italic> were grown as described in the Legend to <xref ref-type="fig" rid="pone-0114380-g002">Figure 2</xref>. We carried out viability assays on LB plates as we have described previously (19) and the PFU were determined as described in <xref ref-type="sec" rid="s4">Materials and Methods</xref>.</p>
+          </caption>
+          <graphic xlink:href="pone.0114380.g004"/>
+        </fig>
+        <p>Furthermore, as expected, the observed reduction in cell viability by applying DNA damaging conditions to <italic>E.coli</italic> strain AB1932 &#x3BB; carrying the <italic>rexB</italic> gene (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4A</xref>) is due to the transfer of the phage from its lysogenic to its lytic stage (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4B</xref>). This is here shown by the determination of the plaque forming ability of the phage which we found to be 10<sup>9</sup> PFU/ml when the &#x3BB; lysogens carried <italic>rexB</italic> or when &#x3BB; <italic>rexB</italic> was carried on a plasmid, and 10<sup>6</sup> PFU/ml in the absence of &#x3BB;<italic>rexB</italic> (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4B</xref>). Such a result is an outcome of the process of the induction of prophage &#x3BB; which is a classical manifestation of the SOS response (see under <xref ref-type="sec" rid="s3">Discussion</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>The bacterial response to DNA damage was first described by Radman in the 70&#x2032;s, who called it the &#x201C;SOS response&#x201D; <xref rid="pone.0114380-Radman1" ref-type="bibr">[13]</xref>. To date, it is the largest, most complex, and best understood bacterial DNA damage-inducible network to be characterized <xref rid="pone.0114380-Hersh1" ref-type="bibr">[11]</xref>&#x2013;<xref rid="pone.0114380-Walker1" ref-type="bibr">[15]</xref>, <xref rid="pone.0114380-Little2" ref-type="bibr">[18]</xref>. The expression of genes in the SOS regulatory network is controlled by a complex circuit involving the RecA and LexA proteins <xref rid="pone.0114380-Walker1" ref-type="bibr">[15]</xref>. In response to an SOS-inducing treatment or conditions, regions of single-stranded DNA are generated. The binding of RecA to these regions of single-stranded DNA in the presence of nucleotide triphosphate generates a nucleotide filament, and as a result converts RecA to an active form that facilitates an otherwise latent capacity of LexA (and some other proteins like UmuD and the &#x3BB; repressor CI) to undergo self-cleavage <xref rid="pone.0114380-Little1" ref-type="bibr">[12]</xref>, <xref rid="pone.0114380-Sutton1" ref-type="bibr">[14]</xref>&#x2013;<xref rid="pone.0114380-Courcella1" ref-type="bibr">[16]</xref>, <xref rid="pone.0114380-Little2" ref-type="bibr">[18]</xref>.</p>
+      <p>We have previously shown that the EDF-<italic>mazEF</italic> mediated death pathway inhibits the SOS response (19). This inhibition was caused by the expression of <italic>mazF</italic> itself, as well as the genes <italic>yfbU</italic>, <italic>slyD</italic>, <italic>yfiD</italic>, <italic>clpP</italic> and <italic>ygcR</italic> (19) specifying for proteins acting in the death pathway downstream to <italic>mazEF</italic>
+<xref rid="pone.0114380-Amitai1" ref-type="bibr">[6]</xref>. Moreover, as we have shown here the extra-cellular death factor EDF, the peptide NNWNN, is also involved in the inhibition of the SOS response (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1</xref>). These results suggested that <italic>E. coli</italic> strains commonly used in studies of the SOS response may be defective in the expression of the EDF-<italic>mazEF</italic> pathway. Here we studied the following <italic>E. coli</italic> strains used in SOS response studies: AB1932 <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref>, BW25113 <xref rid="pone.0114380-Beaber1" ref-type="bibr">[24]</xref>, <xref rid="pone.0114380-Moolenaar1" ref-type="bibr">[29]</xref> and MG1655 <xref rid="pone.0114380-Courcella1" ref-type="bibr">[16]</xref>, <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref>. We found that although these strains are carrying the <italic>mazEF</italic> module in their chromosome (<xref ref-type="supplementary-material" rid="pone.0114380.s002">Figure S2</xref>), they were missing or inhibiting other elements of the EDF-<italic>mazEF</italic> mediated death pathway (summarized in <xref ref-type="table" rid="pone-0114380-t001">Table 1</xref>). Strains BW25113 and MG1655 are defective in the production of EDF (<xref ref-type="fig" rid="pone-0114380-g001">Figure 1</xref> and <xref ref-type="table" rid="pone-0114380-t001">Table 1</xref>). The SOS response was also studied in <italic>E.coli</italic> strain MC4100<italic>relA1</italic>
+<xref rid="pone.0114380-Davies1" ref-type="bibr">[22]</xref> which is defective in the production of the starvation signaling molecule ppGpp <xref rid="pone.0114380-Metzger1" ref-type="bibr">[30]</xref>. We have previously shown that this strain indeed permits the SOS response <xref rid="pone.0114380-Erental2" ref-type="bibr">[19]</xref>, probably because ppGpp triggers the <italic>mazEF</italic> pathway <xref rid="pone.0114380-Aizenman1" ref-type="bibr">[2]</xref>.</p>
+      <p>Finally, among the <italic>E. coli</italic> strains commonly used in studies of the SOS response, the most interesting strain studied here is AB1932. Our results indicate that this strain is defective in the <italic>mazEF</italic>-mediated pathway because of being a &#x3BB; lysogen (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3B, 3D</xref> and <xref ref-type="table" rid="pone-0114380-t001">Table 1</xref>), that carries the <italic>rexB</italic> gene of the phage <xref rid="pone.0114380-Mount1" ref-type="bibr">[23]</xref>. Moreover, strain MC4100<italic>relA<sup>+</sup></italic> in which the SOS response is inhibited (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3A</xref> and the first line of 3C), enabled the SOS response when lysogenised with phage &#x3BB; carrying <italic>rexB</italic> (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3A</xref> and second line of 3B). We have previously reported that &#x3BB;RexB, the product of the &#x3BB;<italic>rexB</italic> gene, prevents the degradation of the antitoxin MazE <xref rid="pone.0114380-EngelbergKulka2" ref-type="bibr">[28]</xref>. Thus, it is expected that in the presence of &#x3BB;RexB, MazF activity is prevented and therefore the SOS response is permitted. Indeed, here we found that, in strain AB1932&#x3BB; (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3B and 3D</xref>), simply deleting the &#x3BB;<italic>rexB</italic> gene significantly reduced the SOS response. Moreover, we found that &#x3BB;<italic>rexB</italic> is involved in the transfer from the lysogenic to the lytic stage of the phage (<xref ref-type="fig" rid="pone-0114380-g004">Figure 4B</xref>). This result is a self evident outcome of the process of &#x3BB; phage induction which is a classical manifestation of the SOS response. Under conditions of DNA damage, RecA is converted to an active form that facilitates an otherwise latent capacity of &#x3BB;CI repressor to auto digest <xref rid="pone.0114380-Little2" ref-type="bibr">[18]</xref>. Thereby &#x3BB; phage can be transferred from its lysogenic to its lytic stage. Thus, the product of &#x3BB;<italic>rexB</italic> gene that prevents the degradation of the antitoxin MazE <xref rid="pone.0114380-EngelbergKulka2" ref-type="bibr">[28]</xref>, and thereby prevents MazF activity, permits in turn the SOS response (<xref ref-type="fig" rid="pone-0114380-g003">Figure 3</xref>), Therefore, &#x3BB;RexB is a crucial factor that enables the transfer of phage &#x3BB; from its lysogenic to its lytic stage.</p>
+      <p>Furthermore, our herein described study, showing that the SOS response was discovered and is permitted due to the use of <italic>E. coli</italic> strains deficient in the expression of the EDF-<italic>mazEF</italic> mediated pathway, is a striking example for the reason of different experimental results obtained by the use of different bacterial and animal strains during research of a specific biological phenomena, and thereby belongs to the history of genetic studies. Furthermore, our herein results on, the SOS response to DNA damage in <italic>E. coli</italic>, reflects the complexity of the interplay between cellular networks, and as such reflects the importance of personalized medicine in general, and specifically in the use of antibiotics due to the expected diversity of individual microbiota.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains and plasmids</title>
+        <p>We used the following <italic>E. coli</italic> strains: MC4100<italic>relA</italic><sup>+</sup> (WT) <xref rid="pone.0114380-EngelbergKulka2" ref-type="bibr">[28]</xref> and its derivatives MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>mazEF</italic>
+<xref rid="pone.0114380-EngelbergKulka2" ref-type="bibr">[28]</xref>, MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>clpX</italic> [8. We also used strain MG1655 that we have found previously to be defective in EDF production <xref rid="pone.0114380-KolodkinGal2" ref-type="bibr">[8]</xref>. For testing <italic>E. coli</italic> strains that are commonly used for SOS studies, we used the following strains (obtained from the <italic>E. coli</italic> Stock Center, CGSC, at Yale University in New Haven, Connecticut, USA): AB1932 (<italic>&#x3BB;<sup>+</sup>, F&#x2212;, argE3 or argH1, metA28, lacY1 or lacZ4, thi-1, xyl-5 or xyl-7, galK2, tsx-6</italic>) {23], and BW25113 &#x394;<italic>(araDaraB)567,</italic>&#x394;<italic>lacZ4787(::rrn3),rph1,</italic>&#x394;<italic>(rhaDrhaB)568,hsdR514lacI<sup>q</sup>rrnB<sub>T14</sub></italic>&#x394;<italic>lacZ<sub>WJ16</sub>hsdR514</italic>&#x394;<italic>araBAD<sub>AH33</sub></italic>&#x394;<italic>rhaBAD<sub>LD78</sub></italic>), <xref rid="pone.0114380-Beaber1" ref-type="bibr">[24]</xref>, <xref rid="pone.0114380-Moolenaar1" ref-type="bibr">[29]</xref>. We constructed <italic>E. coli</italic> MC4100<italic>relA</italic><sup>+</sup><italic>&#x3BB;<sup>+</sup></italic> by its lysogenization from strain MC4100<italic>relA</italic>1<italic>&#x3BB;<sup>+</sup></italic>, which was kindly provided by Dr. Ilan Rosenstein. We also constructed <italic>E. coli</italic> strain AB1932<italic>&#x3BB;</italic>&#x394;<italic>rexB</italic>, by the use of Datsenko method <xref rid="pone.0114380-Datsenko1" ref-type="bibr">[31]</xref>. For our fluorescence measurements, we used plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>
+<xref rid="pone.0114380-Davies1" ref-type="bibr">[22]</xref>, which carries a <italic>ampR</italic> and thus confers resistance to ampicillin, and which was kindly provided by Dr. Lyle A. Simmons. We constructed plasmid pZE31-<italic>rexB</italic> in which the promoter is inducible by aTc (anhydrotetracycline) <xref rid="pone.0114380-Bujard1" ref-type="bibr">[32]</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Materials and Media</title>
+        <p>We grew the various <italic>E. coli</italic> strains in liquid M9 minimal medium containing 1% glucose and a mixture of 2 mg/ml of each of the essential amino-acids excluding tyrosine and cysteine. Synthetic EDF (NNWNN) and synthetic iEDF (NNGNN) were purchased from GeneScript Corp (Piscataway, NJ, USA).</p>
+      </sec>
+      <sec id="s4c">
+        <title>Growth conditions</title>
+        <p>For the experiments in which we measured fluorescence, we diluted over-night cultures harboring plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>
+<xref rid="pone.0114380-Davies1" ref-type="bibr">[22]</xref> 1&#x2236;100 in 10 ml of M9 minimal medium, with 100 &#xB5;g/ml of ampicillin. We grew the cells at 37&#xB0;C, with shaking (220 rpm), to O.D<sub>600</sub> 0.5&#x2013;0.6. We divided each culture into 500 &#xB5;l aliquots, and to each aliquot we added the appropriate antibiotics and/or EDF at the concentrations described in the figure legends. These samples were used for fluorescence assays as described below.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Cell viability</title>
+        <p>For the experiments on cell viability, we grew cells in 10 ml M9 minimal medium to an optical density at 600 nm (OD<sub>600</sub>) of 0.5 to 0.6. Then, we divided each culture into 500-&#xB5;l aliquots to which we added the appropriate concentration of NA. We incubated each aliquot at 37&#xB0;C for 4 h (or as described in the figure legends) and then washed them twice with phosphate-buffered saline (PBS) (pH 7.2). We carried out viability assays on LB plates as we have described previously (6).</p>
+      </sec>
+      <sec id="s4e">
+        <title>Plaque assay</title>
+        <p>We grew cells in 10 ml M9 minimal medium with or without antibiotic, as described above, and treated them with appropriate concentration of NA for 4 h (or as described in the figure legends). The supernatants were collected, serially diluted and mixed with soft agar containing TG1 cells. Then, the mixtures were poured on LB agar plates. The plates were incubated at 37&#xB0;C for overnight and plaque forming units (PFU) were calculated by counting plagues.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Fluorescence measurements</title>
+        <p>From the 500 &#xB5;l aliquot samples of the growing <italic>E. coli</italic> cultures harboring plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic> treated with EDF we placed 250 &#xB5;l samples into each well of a 96 well plate. In each well, using a 485&#xB1;15 nm excitation filter and a 530&#xB1;15 nm emission filter, we measured the fluorescence 25 times at intervals of 10 min. The fluorophore was excited with 1000 CW lamp energy, and the fluorescence in each well was measured for 1 s (FLUOstar galaxy, BMG Labtechnologies).</p>
+      </sec>
+      <sec id="s4g">
+        <title>Determining the LexA degradation by Western blot analysis</title>
+        <p>We grew cells in 10 ml M9 minimal medium, as described above, and treated them with appropriate concentration of NA for different periods of time as described in the figure legends. To lyse the cells, we centrifuged samples for 2 min and then suspended the cell pellets in 50 &#xB5;l of Bugbuster master mix (Novagen), incubating them with vigorous shaking at room temperature for 10 min. Then, we centrifuged them at 4&#xB0;C for 10 min and transferred the supernatants containing the crude extract to fresh tubes. We determined protein concentrations using the Bradford assay (Bio-Rad, Hercules, CA, USA). For Western blot analysis, we used rabbit polyclonal antibody to the LexA DNA binding region as the primary antibody (Abcam) and donkey polyclonal antibody to rabbit IgG (horseradish peroxidase [HRP]) as the secondary antibody (Abcam).</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0114380.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>In strain AB1932 the addition of EDF did not inhibit the SOS response. We compared <italic>E. coli</italic> strain MC4100<italic>relA</italic><sup>+</sup> with strain AB1932; it harbored plasmid pL(<italic>lexO</italic>)-<italic>gfp</italic>. We grew the cells as described in the legend to <xref ref-type="fig" rid="pone-0114380-g001">Figure 1</xref>. When the culture reached O.D.<sub>600</sub> 0.5&#x2013;0.6, we added (or not) EDF (10 ng/ml). These cultures were incubated without shaking at 37&#xB0;C for 30 min, after which we added NA (10&#xB5;g/ml) to each sample. Immediately after adding NA, we measured fluorescence (FU) by fluorometer over a period of 4 hours. The values shown are relative to those of cells that had not been treated with NA. All data are representative of three independent experiments.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0114380.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0114380.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><italic>E. coli</italic> strains commonly used for SOS studies bear the <italic>mazEF</italic> module on their chromosomes. Using two primers, (i) forward primer-GCCGAAATTTGCTCGTATCT and (ii) reverse primer-CTGAAAATTGCGGGTCTGTC, we performed PCR to detect the <italic>mazEF</italic> module in four <italic>E. coli</italic> strains: (1) MC4100<italic>relA</italic><sup>+</sup>, (2) MC4100<italic>relA</italic><sup>+</sup>&#x394;<italic>mazEF</italic>, (3) BW25113, (4) AB1932.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0114380.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank F. R. Warshaw-Dadon (Jerusalem, Israel) for her critical reading of the manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0114380-EngelbergKulka1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name>, <name><surname>Hazan</surname><given-names>R</given-names></name>, <name><surname>Amitai</surname><given-names>S</given-names></name> (<year>2005</year>) <article-title><italic>mazEF</italic>: a chromosomal toxin-antitoxin module that triggers programmed cell death in bacteria</article-title>. <source>J. of Cell Science</source>
+<volume>118</volume>:<fpage>4327</fpage>&#x2013;<lpage>4332</lpage>.<pub-id pub-id-type="pmid">16179604</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Aizenman1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Aizenman</surname><given-names>E</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name>, <name><surname>Glaser</surname><given-names>G</given-names></name> (<year>1996</year>) <article-title>An <italic>Escherichia coli</italic> chromosomal &#x201C;addiction module&#x201D; regulated by 3&#x2032;, 5&#x2032;-bispyrophosphate: a model for programmed bacterial cell death</article-title>. <source>Proc. Natl. Acad. Sci. USA</source>. <volume>93</volume>:<fpage>6059</fpage>&#x2013;<lpage>6063</lpage>.<pub-id pub-id-type="pmid">8650219</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Zhang1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>Y</given-names></name>, <name><surname>Zhang</surname><given-names>J</given-names></name>, <name><surname>Hoeflich</surname><given-names>KP</given-names></name>, <name><surname>Ikura</surname><given-names>M</given-names></name>, <name><surname>Qing</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>MazF cleaves cellular mRNAs specifically at ACA to block protein synthesis in Escherichia coli</article-title>. <source>Mol. Cell</source>. <volume>12</volume>:<fpage>913</fpage>&#x2013;<lpage>923</lpage>.<pub-id pub-id-type="pmid">14580342</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Hazan1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Hazan</surname><given-names>R</given-names></name>, <name><surname>Sat</surname><given-names>B</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2003</year>) <article-title><italic>Escherichia coli mazEF</italic>- mediated cell death is triggered by various stressful conditions</article-title>. <source>J. of Bacteriol</source>. <volume>186</volume>:<fpage>3663</fpage>&#x2013;<lpage>3669</lpage>.<pub-id pub-id-type="pmid">15150257</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Vesper1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Vesper</surname><given-names>O</given-names></name>, <name><surname>Amitai</surname><given-names>S</given-names></name>, <name><surname>Belitsky</surname><given-names>M</given-names></name>, <name><surname>Byrgazov</surname><given-names>K</given-names></name>, <name><surname>Kaberdina</surname><given-names>AC</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Selective translation of leaderless mRNAs by specialized ribosomes generated by MazF in <italic>Escherichia coli</italic></article-title>. <source>Cell</source>
+<volume>14</volume>:<fpage>147</fpage>&#x2013;<lpage>157</lpage>.<pub-id pub-id-type="pmid">21944167</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Amitai1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Amitai</surname><given-names>S</given-names></name>, <name><surname>Kolodkin-Gal</surname><given-names>I</given-names></name>, <name><surname>Hannanya-Meltabashi</surname><given-names>M</given-names></name>, <name><surname>Shacher</surname><given-names>A</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2009</year>) <article-title><italic>Escherichia coli</italic> MazF leads to the simultaneous selective synthesis of both &#x201C;death proteins&#x201D; and &#x201C;survival proteins&#x201D;</article-title>. <source>PLoS Genetics</source>
+<volume>5(3)</volume>:<fpage>e1000390</fpage>.<pub-id pub-id-type="pmid">19282968</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-KolodkinGal1">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Kolodkin-Gal</surname><given-names>I</given-names></name>, <name><surname>Hazan</surname><given-names>R</given-names></name>, <name><surname>Gaathon</surname><given-names>A</given-names></name>, <name><surname>Carmeli</surname><given-names>S</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2007</year>) <article-title>A linear pentapeptide is a quorum-sensing factor required for <italic>mazEF</italic>-mediated cell death in <italic>Escherichia coli</italic></article-title>. <source>Science</source>
+<volume>318</volume>:<fpage>652</fpage>&#x2013;<lpage>655</lpage>.<pub-id pub-id-type="pmid">17962566</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-KolodkinGal2">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Kolodkin-Gal</surname><given-names>I</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2008</year>) <article-title>The extracellular death factor: physiological and genetic factors influencing its production and response in <italic>Escherichia coli</italic></article-title>. <source>J. of Bacteriol</source>. <volume>190</volume>:<fpage>3169</fpage>&#x2013;<lpage>3175</lpage>.<pub-id pub-id-type="pmid">18310334</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Belitsky1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Belitsky</surname><given-names>M</given-names></name>, <name><surname>Avshalom</surname><given-names>H</given-names></name>, <name><surname>Erental</surname><given-names>A</given-names></name>, <name><surname>Yelin</surname><given-names>I</given-names></name>, <name><surname>Kumar</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>The <italic>Escherichia coli</italic> extracellular death factor EDF induces the endoribonucleolytic activities of the toxin MazF and ChpBK</article-title>. <source>Mol. Cell</source>. <volume>41</volume>:<fpage>625</fpage>&#x2013;<lpage>635</lpage>.<pub-id pub-id-type="pmid">21419338</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Erental1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Erental</surname><given-names>A</given-names></name>, <name><surname>Sharon</surname><given-names>I</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2012</year>) <article-title>Two programmed cell death systems: an apoptotic-like death is inhibited by the <italic>mazEF</italic> mediated death pathway</article-title>. <source>PLoS Biology</source>
+<volume>10(3)</volume>:<fpage>e1001281</fpage>.<pub-id pub-id-type="pmid">22412352</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Hersh1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Hersh</surname><given-names>MN</given-names></name>, <name><surname>Ponder</surname><given-names>RG</given-names></name>, <name><surname>Hastings</surname><given-names>PJ</given-names></name>, <name><surname>Rosenberg</surname><given-names>SM</given-names></name> (<year>2004</year>) <article-title>Adaptive mutation and amplification in <italic>Escherichia coli</italic>: two pathways of genome adaptation under stress</article-title>. <source>Res Microbiol</source>. <volume>155</volume>:<fpage>352</fpage>&#x2013;<lpage>359</lpage>.<pub-id pub-id-type="pmid">15207867</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Little1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Little</surname><given-names>JW</given-names></name> (<year>1991</year>) <article-title>Mechanism of specific LexA cleavage: Autodigestion and the role of RecA coprotease</article-title>. <source>Biochimie</source>. <volume>74</volume>:<fpage>411</fpage>&#x2013;<lpage>421</lpage>.<pub-id pub-id-type="pmid">1911941</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Radman1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Radman</surname><given-names>M</given-names></name> (<year>1975</year>) <article-title>SOS repair hypothesis: phenomenology of an inducible DNA repair which is accompanied by mutagenesis</article-title>. <source>Molecular mechanisms for repair of DNA</source>
+<volume>5A</volume>:<fpage>355</fpage>&#x2013;<lpage>367</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Sutton1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Sutton</surname><given-names>MD</given-names></name>, <name><surname>Smith</surname><given-names>BT</given-names></name>, <name><surname>Godoy</surname><given-names>VG</given-names></name>, <name><surname>Walker</surname><given-names>GC</given-names></name> (<year>2000</year>) <article-title>The SOS response: recent insights into <italic>umuDC</italic>-dependent mutagenesis and DNA damage tolerance</article-title>. <source>Annu. Rev. Genet</source>. <volume>34</volume>:<fpage>479</fpage>&#x2013;<lpage>497</lpage>.<pub-id pub-id-type="pmid">11092836</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Walker1">
+        <label>15</label>
+        <mixed-citation publication-type="book">Walker GC (1996) <italic>Escherichia coli</italic> and <italic>Salmonella</italic>- Cellular and molecular biology; 2th edition. Washington D.C: ASM press, pp. 1400&#x2013;1415.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Courcella1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Courcella</surname><given-names>J</given-names></name>, <name><surname>Khodursky</surname><given-names>A</given-names></name>, <name><surname>Peter</surname><given-names>B</given-names></name>, <name><surname>Brown</surname><given-names>PO</given-names></name>, <name><surname>Hanawalt</surname><given-names>PC</given-names></name> (<year>2001</year>) <article-title>Comperative gene expression profiles following UV exposure in wild-type and SOS -deficient <italic>Escherichia coli</italic></article-title>. <source>Genetics</source>
+<volume>158</volume>:<fpage>41</fpage>&#x2013;<lpage>64</lpage>.<pub-id pub-id-type="pmid">11333217</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Fernandez1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Fernandez</surname><given-names>DH</given-names></name>, <name><surname>Tomoo</surname><given-names>O</given-names></name>, <name><surname>Sayura</surname><given-names>A</given-names></name>, <name><surname>David</surname><given-names>C</given-names></name>, <name><surname>Jeffrey</surname><given-names>JH</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Identification of additional genes belonging to the LexA regulon in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source>. <volume>35</volume>:<fpage>1560</fpage>&#x2013;<lpage>1572</lpage>.<pub-id pub-id-type="pmid">10760155</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Little2">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Little</surname><given-names>JW</given-names></name> (<year>1984</year>) <article-title>Autodigestion of lexA and phage &#x3BB; repressors</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>81</volume>:<fpage>1375</fpage>&#x2013;<lpage>1379</lpage>.<pub-id pub-id-type="pmid">6231641</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Erental2">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Erental</surname><given-names>A</given-names></name>, <name><surname>Kalderon</surname><given-names>Z</given-names></name>, <name><surname>Saada</surname><given-names>A</given-names></name>, <name><surname>Smith</surname><given-names>Y</given-names></name>, <name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name> (<year>2014</year>) <article-title>Apoptotic-LikeDeath, An Extreme SOS Response in <italic>Escherichia coli</italic></article-title>. <source>Mbio</source>
+<volume>5(4)</volume>:<fpage>e01426</fpage>.<pub-id pub-id-type="pmid">25028428</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Mittenhuber1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Mittenhuber</surname><given-names>G</given-names></name> (<year>1999</year>) <article-title>Occurrence of <italic>mazEF</italic>-like antitoxin/toxin systems in bacteria</article-title>. <source>J. Mol. Microbiol. Biothechnol</source>. <volume>1</volume>:<fpage>295</fpage>&#x2013;<lpage>1302</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Pandey1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Pandey</surname><given-names>DP</given-names></name>, <name><surname>Gerdes</surname><given-names>K</given-names></name> (<year>2005</year>) <article-title>Toxin-antitoxin loci are highly abundant in free living but lost from host-associated prokaryotes</article-title>. <source>Nuc. Acids Res</source>. <volume>33</volume>:<fpage>966</fpage>&#x2013;<lpage>976</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Davies1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Davies</surname><given-names>BW</given-names></name>, <name><surname>Kohanski</surname><given-names>MA</given-names></name>, <name><surname>Simmons</surname><given-names>LA</given-names></name>, <name><surname>Winkler</surname><given-names>JA</given-names></name>, <name><surname>Collins</surname><given-names>JJ</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Hydroxyurea induces hydroxyl radical-mediated cell death in <italic>Escherichia coli</italic></article-title>. <source>Molecular Cell</source>
+<volume>36</volume>:<fpage>845</fpage>&#x2013;<lpage>860</lpage>.<pub-id pub-id-type="pmid">20005847</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Mount1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Mount</surname><given-names>DW</given-names></name>, <name><surname>Low</surname><given-names>KB</given-names></name>, <name><surname>Edmeston</surname><given-names>JS</given-names></name> (<year>1972</year>) <article-title>Dominant mutations (<italic>lex</italic>) in <italic>Escherichia coli</italic> K-12 which affect radiation sensitivity and frequency of ultraviolet light-induced mutations</article-title>. <source>Journal of Bacteriology</source>
+<volume>112</volume>:<fpage>886</fpage>&#x2013;<lpage>889</lpage>.<pub-id pub-id-type="pmid">4343824</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Beaber1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Beaber</surname><given-names>JW</given-names></name>, <name><surname>Hochhut</surname><given-names>B</given-names></name>, <name><surname>Waldor</surname><given-names>MK</given-names></name> (<year>2004</year>) <article-title>SOS response promotes horizontal dissemination of antibiotic resistance genes</article-title>. <source>Nature</source>
+<volume>427</volume>:<fpage>72</fpage>&#x2013;<lpage>74</lpage>.<pub-id pub-id-type="pmid">14688795</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Landsman1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Landsman</surname><given-names>J</given-names></name>, <name><surname>Kroger</surname><given-names>M</given-names></name>, <name><surname>Hobom</surname><given-names>G</given-names></name> (<year>1982</year>) <article-title>The <italic>rex</italic> region of bacteriophage lambda: two genes under three-way control</article-title>. <source>Gene</source>
+<volume>20</volume>:<fpage>11</fpage>&#x2013;<lpage>24</lpage>.<pub-id pub-id-type="pmid">6219041</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Hayes1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Hayes</surname><given-names>S</given-names></name>, <name><surname>Szybalski</surname><given-names>W</given-names></name> (<year>1973</year>) <article-title>Control of short leftward transcripts from the immunity and ori regions in induced coliphage lambda</article-title>. <source>Mol Gen Genet</source>
+<volume>126</volume>:<fpage>257</fpage>&#x2013;<lpage>290</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Belfort1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Belfort</surname><given-names>M</given-names></name> (<year>1978</year>) <article-title>Anomalous behavior of bacteriophage lambda polypeptides in polyacrylamide gels: resolution, identification, and control of the lambda <italic>rex</italic> gene product</article-title>. <source>J Virol</source>. <volume>28</volume>:<fpage>270</fpage>&#x2013;<lpage>278</lpage>.<pub-id pub-id-type="pmid">702651</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-EngelbergKulka2">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Engelberg-Kulka</surname><given-names>H</given-names></name>, <name><surname>Reches</surname><given-names>M</given-names></name>, <name><surname>Narasimhan</surname><given-names>M</given-names></name>, <name><surname>Schoulaker-Schwarz</surname><given-names>R</given-names></name>, <name><surname>Klemes</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title><italic>rexB</italic> of bacteriophage lambda is an anti-cell death gene</article-title>. <source>Proc. Natl. Acad. Sci USA</source>
+<volume>26</volume>:<fpage>15481</fpage>&#x2013;<lpage>15486</lpage>.<pub-id pub-id-type="pmid">9860994</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Moolenaar1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Moolenaar</surname><given-names>GF</given-names></name>, <name><surname>Van Rossum-Fikkert</surname><given-names>S</given-names></name>, <name><surname>Van Kesteren</surname><given-names>M</given-names></name>, <name><surname>Goosen</surname><given-names>N</given-names></name> (<year>2002</year>) <article-title>Cho, a second endonuclease involved in <italic>Escherichia coli</italic> nucleotide excision repair Proc Natl Acad Sci USA</article-title>. <volume>99</volume>:<fpage>1467</fpage>&#x2013;<lpage>1472</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Metzger1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Metzger</surname><given-names>S</given-names></name>, <name><surname>Schrelber</surname><given-names>G</given-names></name>, <name><surname>Aizenman</surname><given-names>E</given-names></name>, <name><surname>Cashel</surname><given-names>M</given-names></name>, <name><surname>Glaser</surname><given-names>G</given-names></name> (<year>1989</year>) <article-title>Characterization of the <italic>relA</italic> mutation and a comparison of <italic>relA1</italic> with new <italic>relA</italic> Null alleles in <italic>Escherichia coli</italic></article-title>. <source>J. of Biological Chemistry</source>
+<volume>264</volume>:<fpage>21146</fpage>&#x2013;<lpage>21152</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Datsenko1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Datsenko</surname><given-names>A</given-names></name>, <name><surname>Wanner</surname><given-names>LB</given-names></name> (<year>2005</year>) <article-title>One- step inactivation of chromosomal genes in <italic>Escherichia coli</italic> K-12 using PCR products. Proc. Natl. Acad</article-title>. <source>Sci USA</source>
+<volume>97</volume>:<fpage>6640</fpage>&#x2013;<lpage>6645</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0114380-Bujard1">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Bujard</surname><given-names>H</given-names></name>, <name><surname>Lutz</surname><given-names>R</given-names></name> (<year>1997</year>) <article-title>Independent and tight regulation of transcriptional units in <italic>Escherichia coli</italic> via the LacR/O, the TetR/O and AraC/I1&#x2013;I2 regulatory elements Nucleic Acids Research</article-title>. <volume>25</volume>:<fpage>1203</fpage>&#x2013;<lpage>1210</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

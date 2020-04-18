@@ -1,0 +1,112 @@
+Results
+
+Search for the regulation targets of CRP by using Genomic SELEX screening: SELEX-clos analysis
+
+In order to get insight into the genome regulation by CRP for control of carbon source utilization in E. coli, we first tried to identify the whole set of target promoters, genes and operons under the control of CRP.
+For this purpose, we employed 'Genomic SELEX' screening, in which DNA fragments carrying the recognition sequence by CRP were isolated as CRP-DNA complexes from a mixture of genome DNA fragments (28).
+For screening of DNA sequences with affinity to CRP, purified His-tagged CRP was mixed with a collection of E. coli genome fragments of 200 - 300 bp in length, and CRP-bound DNA fragments were affinity-purified.
+Since CRP exhibits functional inter-conversion depending on the presence or absence of specific effector cAMP [11], we carried out Genomic SELEX in the presence and absence of cAMP.
+The original substrate mixture of genomic DNA fragments used for the Genomic SELEX screening formed smear bands on PAGE.
+After repeating the Genomic SELEX cycle in the continuous presence of cAMP, DNA fragments with affinity to CRP were enriched, leading to form sharp PAGE bands.
+In contrast, the gel pattern of DNA fragments isolated after Genomic SELEX in the absence of cAMP did not change from the original DNA mixture, indicating that little enrichment of specific DNA fragments.
+
+For identification of the sequences of DNA fragments bound to CRP, we first performed SELEX-clos (cloning-sequencing) analysis.
+A total of 160 SELEX fragments were cloned and sequenced, which were classified into 29 CRP-binding sequences, including 13 previously identified loci and 16 newly identified sites (Table S2).
+When the CRP-binding sequences are located upstream or near promoters of the flanking genes, these genes are predicted to be under the control of CRP.
+A number of genes encoding transporters were included in the collection of SELEX-clos clones (see Table S2), including transporters of not only sugars such as maltose (malK), fucose (fucP), and mannitol (mtlA) but also amino acids and nucleosides such as alanine (cycA), serine (dsdX) and uridine (nupC).
+
+In the case of cAMP-CRP, the binding sites are mostly located in intergenic spacer regions between divergently transcribed genes.
+As an initial screening, we predicated that only of the divergent promoters is under the control of cAMP-CRP (however, note that both promoters are often regulated by cAMP-CRP bound within intergenic regions).
+For instance, the most abundant 59 clones carried the intergenic sequence between the divergently transcribed yecJ and yecR, of which one is counted as a CRP target (Table S2).
+Likewise, the collection of next abundant 38 clones carried the intergenic sequence between yibI and mltA, both being located downstream of the cAMP-CRP binding sequence, of which the mtlA operon encoding mannitol-specific PTS permease is known to be activated by cAMP-CRP [37].
+SELEX-clos is useful to get information on the order of binding affinity between regulation targets by test DNA-binding transcription factors because the number of isolated DNA sequences by SELEX-clos correlates with the affinity to the test factor (28, 38).
+SELEX-clos is dominated by high affinity sites, consequently, a massive number of sites would have to be sequenced in order to identify the many weaker low abundant sites.
+
+
+
+Search for the regulation targets of CRP by using Genomic SELEX screening: SELEX-chip analysis
+
+For identification of the whole set of binding sequences by CRP, we then subjected the mixture of SELEX fragments to the newly developed DNA tilling array analysis (SELEX-chip) [29], [30].
+Genomic SELEX fragments obtained with or without the effector cAMP were labeled with Cy5 while the original DNA library was labeled with Cy3.
+Two sets of the mixture of fluorescent-labeled samples were hybridized separately to the DNA tilling microarray (Oxford Gene Technology, Oxford, UK) [39].
+For elimination of the bias of library DNA, the ratio of fluorescence intensity bound to each probe between the test sample and the original library DNA was measured, and plotted against the corresponding position along the E. coli genome (Fig. 1).
+On the DNA tilling array used, the 60 b-long probes are aligned along the E. coli genome at 105 bp-intervals, and therefore approximately 300 bp-long SELEX fragments should bind to two or more consecutive probes.
+This criterion was employed for identification of positive peaks of CRP binding (or elimination of false-positive peaks).
+
+By setting the cut-off level of intensity ratio at 30, a total of 19 high-level peaks with strong affinity to cAMP-CRP were identified (Fig. 1) while the number of peaks increased to 50 by decreasing the cut-off level to 20.
+The number of CRP-binding peaks further increased to 277 by setting the cut-off level of 4.0.
+In the absence of cAMP, no specific peaks were identified for CRP (Fig. 1, open circles; but note that open circles are hidden behind closed circles), indicating that the peaks thus identified represent specific binding of cAMP-bound CRP.
+Of the total of 277 CRP-binding peaks, 258 peak sequences (93%) were found to locate upstream of genes (Table 1; for details of the mapping see Table S3), either upstream of one specific gene or upstream of divergently aligned genes.
+The rest of 19 peaks (7%) are located downstream of genes.
+The cAMP-CRP-binding sequences identified by SELEX-clos (Table S2) were all included in the list of cAMP-CRP-binding loci identified by SELEX-chip (Table S3).
+The cAMP-dependent binding of CRP to some of these target sites was confirmed by PAGE gel shift assay (data not shown).
+
+CRP is the best-studied global regulator of E. coli, and a total of 195 genes or operons are listed as the regulation targets of cAMP-CRP in E. coli databases such as Regulon DB (27) (Table 1).
+Among the hitherto identified targets, 92 were included in the list of targets identified by Genomic SELEX (Table 1, group-A; for details see Table S3).
+Except for these 92 known targets, the rest of 183 targets were newly identified by SELEX-chip in this study.
+Even though a total of 103 known CRP targets were not included in the SELEX-chip list of CRP-binding sites (Table 1, group-B), it is noteworthy that the targets were identified from the SELEX-chip pattern by setting the high cut-off level to avoid background noises (see above).
+In addition, it should be noted that a number of the known CRP targets in Regulon DB were predicted, without experimental evidence, simply after search of the CRP-box sequence (for details see Discussion).
+
+The locations of CRP-binding sites relative to the gene or operon organization around these newly identified CRP-binding sites are summarized in Table 2.
+When the CRP-binding site is located upstream of a single gene or operon (and downstream of another neighboring gene), we predicted these downstream genes or operons as regulation targets of CRP (Table 2, group-A).
+In E. coli, transcription factors bound within an intergenic region between divergently organized genes or operons generally regulate transcription toward one direction.
+A group of CRP-binding sites are located between divergently organized genes or operons (Table 2, group-B).
+For this group of CRP-binding loci, we tentatively counted only one of the divergently transcribed genes or operons as the regulation target (Table 2, group-B1 and group-B2).
+In the case of group-B1 (50 CRP-binding sites), CRP binds to non-coding intergenic regions while in the case of group-B2 (14 CRP-binding sites), CRP binds on to open reading frames near the boundary with intergenic spacers.
+In both group-B1 and group - B2 cases, we tentatively estimated that CRP regulates one of the divergently transcribed genes or operons.
+However, we noticed such a unique feature of CRP regulation that CRP bound within an intergenic region often regulates both of the divergently transcribed genes or operons (see below).
+Thus, it can not be excluded yet that for some of group-B1 and - B2 cases, both of the divergently transcribed operons are regulated by cAMP-CRP bound within intergenic regions.
+Within a total of 195 hitherto identified CRP targets in Regulon DB, the binding sites of 63 targets are located within intergenic regions of divergently transcribed operons (Table 2, goup-C).
+In these cases, it is not ruled out that CRP regulates transcription toward opposite directions.
+
+Overall the total number of regulation target genes or operons of cAMP-CRP could be minimum 378 (183 novel targets including 119 group-A, 50 group-B1, and 14 group-B2; plus 195 known targets).
+The number of CRP targets should be more because: 1) both of the divergently transcribed genes or operons might be regulated for some of group-B and group-C cases and even for some known targets; and 2) regulation targets increase if the cut-off level of SELEX-chip is set at lower levels [note that only about half of the known CRP targets were picked up at the cut-off level herein employed].
+
+
+
+Consensus recognition sequences of CRP
+
+The consensus recognition sequences of CRP have been proposed after sequence analysis of the hitherto identified targets (for a review see [38]).
+As a test of the accuracy of Genomic SELEX screening for cAMP-CRP binding sequences, we searched for the CRP-box sequence using the whole set of 323 CRP-binding sequences from a total of 275 CRP targets (183 novel plus 92 known targets) identified in this study [note that some of the CRP targets carry multiple CRP-box sequences] (for details see Table S4).
+A collection of 500-bp sequences centered on each peak and using BioProspector (http://ai.stanford.edu/~xsliu/BioProspector/), which was successfully employed for identification of RutR box sequence [33], we identified the 16-bp sequence CRP-box motif for all 323 CRP-binding sites (Fig. 2A).
+The CRP box-consensus sequence, 5'-TGTGA-N6-TCACA-3', agrees well with the hitherto identified [38], but indicates clearly that G at position 4 and C at position 13 of the CRP-box are highly conserved in good agreement of their key roles to exhibit the high affinity to CRP.
+In the Genomic SELEX screening herewith employed, a total of 92 known targets (47%) were identified from a total of 195 CRP targets deposited in Regulon RD.
+After separate analysis of CRP-box sequence for two groups of CRP targets from Regulon DB, it turned clear that the consensus CRP-box sequence is highly conserved for the CRP targets identified by Genomic SELEX (Fig. 2B).
+In contrast, the level of CRP-box sequence conservation is significantly lower for the group of unidentified CRP targets (Fig. 2C).
+This finding supports the usefulness of Genomic SELEX screening for quick identification of the whole set of regulation targets by cAMP-CRP with high accuracy.
+
+
+
+Location of the CRP-binding sites
+
+CRP has been identified to regulate some of the enzymes for central carbon metabolism, including fbaA, gapA, and pgk.
+In addition, we identified in this study the binding of cAMP-CRP to the genes encoding glk (glucokinase), fruK (1-phosphofructokinase), yggF (type II fructose-1,6-bisphosphatase), ppsA (phosphoenolpyruvate synthase), talA (transaldolase) and tktB (transketolase II).
+In order to further confirm the accuracy of target prediction by the Genomic SELEX screening, we performed the lacZ promoter assay for some of the newly identified target promoters, together with some known targets, in both wild-type and crp deletion mutant.
+Fig. 3 shows the activity of 12 representative promoters that were predicted to be under the control cAMP-CRP after SELEX-chip analysis, together with 4 known promoters, ptsG (glucose-specific PTS), dgsA (global regulator of carbon metabolism), ptsH (PTS Hpr component) and glpF (glycerol facilitator), that are activated by cAMP-CRP.
+All the putative target genes examined were indeed found to be under the control of CRP, classified in group-A in Table 2, supporting the prediction that the Genomic SELEX screening allows the identification of regulation targets of cAMP-CRP with high accuracy.
+
+Based on the promoter assay, we can also predict the mode of regulation in vivo, either activation or repression, for the novel targets.
+Two promoters, talA (transaldolase) and fbaB (fructose bisphosphate aldolase), showed increased activity in the crp-disrupted mutant, indicating that these two promoters are repressed by cAMP-CRP.
+All other promoters tested showed decreased activity in the crp mutant, including pps (phosphoenolpyruvate synthetase), fruB (fructose-specific PTS), setB (lactose/glucose efflux system), nuoA (NADH:ubiquinone oxidoreductase), glk (glucokinase), cmtB (mannitol-specific PTS), pck (phosphoenolpyruvate carboxykinase), gpmM (phosphoglycerate mutase), atpI (ATP synthase) and pgi (glucosephosphate isomerase).
+For this group of promoters, cAMP-CRP is involved as an activator.
+The binding sites of activator CRP were mostly located upstream from the promoters while those of repressor CRP were located downstream from the target promoters (Fig. S1) in agreement with the initial mapping of CRP-binding sites on various CRP-regulated promoters [24], [25].
+The binding sites of activator CRP are located upstream of the respective promoters, showing a clear periodical pattern of about 10 bp spacing with peak positions starting from -40 (data not shown), in agreement with the direct protein-protein contact model of upstream bound CRP and RNA polymerase on the same DNA surface [40] - [42].
+In contrast, the binding sites of repressor CRP overlap with the target promoters or downstream from the promoters.
+
+
+
+Regulation of divergently transcribed genes by CRP
+
+In E. coli, it is rare that a single and the same regulator controls divergently aligned promoters, which direct transcription toward opposite directions.
+After a systematic comparison of the CRP-binding sites within intergenic regions of divergent promoters, both being under the control of cAMP-CRP, a single CRP-binding site was detected for a total of 11 cases, araBAD-araC, gcd-hpt, maoC-paaABCDEFGHIJK, gltA-sdhCDAB, guaBA-xseA, metY-argG, glpEGR-glpD, xylAB-xylFGHR, prpR-prpBCDE, rhaT-sodA and fruBKA-setB (Fig. 4A).
+One unique feature of the regulation mode by cAMP-CRP is that a single and the same transcription factor bound within an intergenic spacer region controls both of the divergently aligned promoters.
+Using a model system, El-Robh and Busby [43] performed a detailed study of transcription activation of divergent promoters by a single CRP molecule.
+
+Except for the above 11 cases, there are a number of the divergent promoters, both being apparently under the control of cAMP-CRP.
+Detailed analysis, however, indicated the presence of multiple CRP-binding sites within intergenic spacers.
+In three cases including caiTABCDE-fixABCX, malI-malXY and rhaBAD-rhaSR, however, the divergent promoters are regulated by different CRP molecules (Fig. 4B).
+For other 8 pairs including nagBACD-nagE, yiaJ-yiaKLMN0lyxKsgbHUE, malEFG-malKlamBmalM, glpTQ-glpABC, melR-melAB, idnDOTR-idnK, gntP-uxuAB and yfhA-crp, multiple sites of CRP binding exist even though the regulatory role of each CRP site has not yet been established (Fig. 4C).
+
+
+
+

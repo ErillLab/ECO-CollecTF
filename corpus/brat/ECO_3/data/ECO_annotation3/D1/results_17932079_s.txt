@@ -1,0 +1,97 @@
+3.Results
+
+3.1.Accurate mapping of known Spo0J-binding sites by ChAP-chip analysis
+
+Previously, we developed a method to purify in vivo complexes of cell division proteins using a 12 x histidine- tag under denatured conditions.30 
+We anticipated that the procedure is similarly effective for the purification of in vivo DNA - protein complexes.
+To verify the sensitivity of the tag-based chromatin precipitation protocol, we initially examined the binding sites of Spo0J involved in chromosome partitioning in B. subtilis.
+Spo0J binds at eight specific positions (parS sites) on the genome, as observed from the identified binding consensus sequences and chromatin immunoprecipitation analysis.31 
+We expressed the Spo0J protein fused to a histidine tag at the C-terminus using SI002 cells.
+During exponential growth in LB medium under aerobic conditions, Spo0J-12 x His-expressing cells were treated with formaldehyde to cross-link protein and genome DNA, and disrupted by sonication in 8 M urea buffer to generate an average DNA fragment size of ~500 bp.
+Protein - DNA complexes were purified with the Ni2+-resin under denatured conditions, and the cross-links removed by heat treatment.
+DNA fragments co-purified with Spo0J were hybridized with a high-density tiling chip.
+The hybridization intensities of Spo0J-associated DNA to each oligonucleotide probe on the chip are presented in Fig. 2 (see also detailed map in Supplementary Fig. S2).
+Our ChAP-chip analysis clearly shows that Spo0J forms a stable complex at eight regions, consistent with previous results.31 
+Spo0J-binding signals are more broadly distributed than those of DnaA, as described below (Fig. 1B and Supplementary Fig. S2).
+This result is consistent with the recent finding that Spo0J is associated with several kilobases of DNA flanking its specific binding sites (parS) through a parS-dependent nucleation event that promotes lateral spreading along the chromosome.37 
+Thus, it appears that our ChAP-chip method is sufficiently sensitive to detect the in vivo interaction sites of DNA-binding proteins.
+
+
+
+3.2.Identification of high-affinity binding sites of DnaA
+
+To identify the DnaA-binding sites on the B. subtilis genome, DnaA was expressed as a fusion protein with a 12 x histidine-tag by the authentic promoter using SI003 cells, and ChAP-chip analysis performed.
+The hybridization profiles of DnaA-associated DNA clearly disclose eight stable binding sites for DnaA on the B. subtilis genome (Fig. 2 and Supplementary Fig. S2).
+Interestingly, binding sites are mapped only in the intergenic regions (between rpmH - dnaA, dnaA - dnaN, yqeG - sda, ywlB - ywlC, jag - thdF, yycS - yydA, ywcI - vpr, and gcp - ydiF).
+Gene organization surrounding the eight binding sites, location of the DnaA boxes, and detailed DnaA-binding signals are depicted in Fig. 3, and the functions of the surrounding genes are summarized in Table 1.
+The regions upstream and downstream of dnaA, rpmH - dnaA (oriC1), and dnaA - dnaN (oriC2) comprise cis-acting sequences essential for the initiation of chromosome replication,34 and the upstream sequence contains the dnaA promoter that is repressed by the corresponding translated protein.6 
+Expression of sda is dependent on DnaA binding to the upstream sequence,22,23 and promoters of ywlC and yydA were reported to be negatively regulated by DnaA.23 
+Multiple DnaA boxes upstream of thdF were identified 17 years ago,38 but with no evidence of actual DnaA binding.
+Our results additionally suggest a possibility that DnaA regulates the expression of vpr and/or ywcI - secT.
+Binding to the gcp - ydiF region is uncharacteristic for transcriptional regulation, as it is located at the 3' end of convergent gcp and ydiF genes.
+
+DnaA protein binds to single DnaA box in vitro.39,40 
+However, the DnaA-binding regions identified here contain multiple DnaA boxes.
+These results suggest that the ChAP-chip analysis can be effectively used to detect stable DnaA - DNA complexes, but not transient or weak binding to dispersed DnaA boxes.
+
+
+
+3.3.Effect of DnaA overproduction and depletion on transcription of genes surrounding the stable binding sites
+
+To establish the function of DnaA binding to sequences other than oriC, we examined transcriptional profiles in DnaA-overproducing and -depleted cells using the high-density tiling chip employed for ChAP-chip analysis.
+To this end, we employed NIS2022 cells with an IPTG-inducible dnaA - dnaN operon at the purA locus, and inactivated the authentic dnaA gene by introducing orcher mutations.6 
+Expression of the DnaA protein in NIS2022 cells is reduced to One-fifth that in non-induced conditions (0 microM IPTG), and increases fivefold upon induction with 100 microM IPTG, compared with the DnaA concentration in wild-type cells.6 
+Notably, under both non-induced and induced conditions, no apparent growth defects were observed, and the overall profiles of gene expression remained unchanged (Supplementary Fig. S3).
+Transcriptional initiation from the authentic promoter of dnaA is clearly repressed upon induction of DnaA expression, and stimulated slightly under non-induced conditions (Fig. 4A).
+This finding is in agreement with a previous study reporting autoregulation of dnaA.6
+A similar change in transcription was observed for the intergenic region between dnaA and dnaN.
+The dependence of sda expression on DnaA is well characterized.22,23 
+We observed sda expression and repression in DnaA-induced and non-induced conditions, respectively (Fig. 4B).
+Interestingly, we identified another transcript covering the sda gene, but on the non-coding strand.
+The newly identified transcript was weakly, but significantly repressed by overexpressed DnaA at the DnaA-binding site.
+We additionally observed weak, but significant repression of ywlC, yydA, and thdF-gidA-gidB-noc transcription in DnaA-induced cells (Fig. 4C - E), although their de-repression in non-induced cells was not apparent.
+A sufficient amount of DnaA is present in cells to support growth at a normal rate, even under non-induced conditions, thus those genes may still be repressed by DnaA.
+The suppression of ywlC and yydA expression by DnaA is in accordance with reported microarray data.23 
+We have demonstrated DnaA-regulated expression of thdF-gidA-gidB-noc by northern blot analysis using NIS2022 cells (Ogura et al., unpublished result).
+These transcriptional alterations were reproducible in two independent experiments (Supplementary Fig. S3).
+Additionally, the DnaA level affected rocA, rocD, and yvdCD expression positively, and ykuNOP and dhbA expression negatively (Supplementary Fig. S3 and Supplementary Table S2).
+The molecular mechanisms and biological significance of these changes are currently unclear.
+On the other hand, the effects of DnaA on the expression of genes around ywcI - vpr and gcp - ydiF could not be distinguished due to weak expression.
+
+
+
+3.4.Sequence characteristics of stable DnaA-binding sites on the chromosome
+
+Next, we explored the characteristics defining the stable DnaA-binding sites in the B. subtilis genome.
+Bacillus subtilis DnaA recognizes DnaA boxes in E. coli oriC, and vice versa, in vitro.
+Although the numbers and arrangement of DnaA boxes in oriC are different in B. subtilis and E. coli, the oriC regions were incompatible with each other in vivo.39,40 
+Recently, the crystal structure of the DNA-binding domain of E. coli DnaA complexed with a DnaA box (TTATCCACA) was resolved.41 
+In the complex, amino acids R399, P423, D433, H434, T435, and H439 form base-specific interactions, and are essential for sequence recognition by DnaA.
+Interestingly, these residues are conserved in B. subtilis DnaA, indicating that DNA-binding specificities are similar for B. subtilis and E. coli DnaA.
+Thus, we assume that the consensus sequence of the B. subtilis DnaA box is TTATNCACA, similar to the E. coli protein, and allow one base mismatch for identifying DnaA boxes.
+As shown in Fig. 3, stable DnaA-binding sites contain multiple boxes, as observed in oriC sequences of eubacteria.42 Initially, we evaluated the density of DnaA boxes along the genome, using a modified method of0 Mackiewicz et al.42 
+The density of DnaA box distribution was presented on charts as b = 1/d, calculated for each box, where d is the average distance between adjacent DnaA boxes.
+Mackiewicz and colleagues calculated the b value for three successive DnaA boxes (average of two distances), whereas we additionally calculated for four and five successive boxes, with no clear correlation with the identified binding sites.
+Recently, the DnaA-binding affinity to DnaA boxes with different fifth nucleotides was evaluated in E. coli cells and the affinity was found to decrease in the order: C > A = G > T.43
+Accordingly, we assigned the binding affinities as 4, 2, 1.5, 1, and 1 for TTATCCACA, TTATACACA, TTATAGACA, TTATATACA, and other DnaA boxes (having one base mismatch from TTATNCACA), and the binding affinity of DnaA for four successive DnaA boxes was expressed as A = (sum of affinities of four successive DnaA boxes)/d.
+As the result, we found that the A value is well correlated with the DnaA-binding sites; eight binding sites identified here exclusively have A value >0.3 (Fig. 5A).
+Sequence characteristics of the eight DnaA-binding regions, including number of DnaA boxes and the A value, are summarized in Table 2.
+Our results suggest that two factors, specifically, closely clustered DnaA boxes of probably four or more, and the affinity of DnaA boxes for the protein, are essential for stable DnaA-binding in B. subtilis cells.
+
+
+
+3.5.Distribution of probable DnaA-binding sites in other Bacillus species
+
+We estimated the stable DnaA-binding sites in the genome sequences of other Bacillus species, using the defined A value.
+Interestingly, regions with high A values locate in a similar arrangement on the genome in all the bacteria examined (Fig. 5B - I).
+However, close examination of possible DnaA-binding regions in various Bacillus species revealed their conserved and diverse characteristics (Table 3).
+As expected, multiple DnaA-binding sequences upstream and downstream of dnaA (oriC) are essentially conserved in all bacteria.
+Notably, in B. licheniformis, the dnaA - dnaN region contains only three DnaA boxes, and its A value is below the threshold.
+DnaA-binding sequences upstream of sda, ywlC, and yydA are also present in most bacteria, supporting the biological significance of DnaA-mediated regulation of these genes.
+Interestingly, a DnaA box cluster downstream of gcp is highly conserved, although its biological role is not clear at present.
+On the other hand, DnaA box cluster upstream of the thdF-gidA-gidB-noc operon is not conserved, although those genes are conserved in all bacteria examined (Table 3), thus the DnaA-dependent expression of the operon appears not to be general.
+Similarly, DnaA box clusters upstream of vpr are present in limited bacteria.
+In addition, other possible DnaA-binding regions (colored red in Fig. 5B - I) that are absent in B. subtilis have been identified.
+Interestingly, DnaA-binding regions with a high A value are generally located near oriC in all the bacteria examined.
+
+

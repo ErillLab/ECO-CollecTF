@@ -1,0 +1,35 @@
+T1	ECO 2943 2999	On the basis of primary sequence and structural features
+A1	Category T1 BioProc
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	AssertionStrength T1 Low
+N1	Reference T1 brat_eco:ECO:0001118	protein sequencing assay evidence
+#1	AnnotatorNotes T1	Annotated by Stephen. Low confidence since it says "can be". 
+T2	ECO 2656 2686	On the basis of their sequence
+A5	Category T2 BioProc
+A6	ECOConfidence T2 High
+A7	NextSentence T2 No
+A8	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0001118	protein sequencing assay evidence
+#2	AnnotatorNotes T2	Annotated by Stephen. I chose BioProc here since the sentence can be interpreted as saying "Pao123 is a Lys-R-like transcriptional regulator, ",  or "Pao123 regulates transcription."
+T3	ECO 6303 6341	at least in the growth conditions used
+A9	Category T3 BioProc
+A10	ECOConfidence T3 Medium
+A11	NextSentence T3 No
+A12	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0000095	cell growth regulation assay evidence
+#3	AnnotatorNotes T3	Annotated by Stephen. This was a rough one for me to figure out. I feel like it's kind of a cheeky way of capturing the data, but it didn't feel right to not have a single annotation in this entire segment. I think it works though, since the sentence states that the cell growth assay revealed that these proteins are toxic.
+T4	ECO 6269 6301	when their expression is induced
+A13	Category T4 BioProc
+A14	ECOConfidence T4 High
+A15	NextSentence T4 No
+A16	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0000008	expression pattern evidence
+#4	AnnotatorNotes T4	Annotated by Stephen. Is cytotoxicity GO? Would we have to annotate this as phenotype?
+T5	ECO 8974 9022	LasR-dependent virulence phenotypes was compared
+A17	NextSentence T5 Yes
+N5	Reference T5 brat_eco:ECO:0000008	expression pattern evidence
+A18	Category T5 BioProc
+A19	ECOConfidence T5 Low
+A20	AssertionStrength T5 High
+#5	AnnotatorNotes T5	Annotated by Stephen. Expression pattern evidence was really the best thing I could find for this. I couldn't find anything more descriptive in the ontology.

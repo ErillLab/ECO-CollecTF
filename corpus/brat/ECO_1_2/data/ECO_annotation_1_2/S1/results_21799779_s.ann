@@ -1,0 +1,91 @@
+T1	ECO 2091 2142	expression level of the ars operons was not altered
+A1	Category T1 BioProc
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	NegativeStatement T1 Yes
+A5	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0000008	expression pattern evidence
+T2	ECO 2525 2553	highly increased mRNA levels
+A6	Category T2 BioProc
+A7	ECOConfidence T2 High
+A8	NextSentence T2 No
+A9	NegativeStatement T2 No
+A10	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0000008	expression pattern evidence
+T3	ECO 3662 3698	esistance of a copRS deletion mutant
+A11	Category T3 BioProc
+A12	ECOConfidence T3 High
+A13	NextSentence T3 Yes
+A14	NegativeStatement T3 No
+A15	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0001038	deletion mutation evidence
+T4	ECO 3661 3718	resistance of a copRS deletion mutant [21] to copper ions
+A16	Category T4 BioProc
+A17	ECOConfidence T4 High
+A18	NextSentence T4 Yes
+A19	NegativeStatement T4 No
+A20	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0000002	direct assay evidence
+#1	AnnotatorNotes T4	I thought this was pertinent, as they are both creating a mutant AND assaying the mutant with various ions. Not sure if there's a better term than direct assay. 
+T5	ECO 4690 4711	using DNA microarrays
+A21	Category T5 SeqFeat
+A22	ECOConfidence T5 High
+A23	NextSentence T5 Yes
+A24	NegativeStatement T5 Yes
+A25	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0000058	expression microarray evidence
+#2	AnnotatorNotes T5	Sequence feature because they're trying to identify the regulon.
+T6	ECO 5081 5105	in the DeltacopRS mutant
+A26	Category T6 BioProc
+A27	ECOConfidence T6 High
+A28	NextSentence T6 No
+A29	NegativeStatement T6 No
+A30	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001038	deletion mutation evidence
+T7	ECO 6475 6512	electrophoretic mobility shift assays
+A31	Category T7 BioProc
+A32	ECOConfidence T7 High
+A33	NextSentence T7 Yes
+A34	NegativeStatement T7 No
+A35	AssertionStrength T7 Medium
+N7	Reference T7 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#3	AnnotatorNotes T7	Went back and forth between sequence feature and bioproc, but I'm pretty sure this is trying to figure out which genes CopR regulates.
+T8	ECO 7879 7915	using a 5'-Cy3-labelled DNA fragment
+#4	AnnotatorNotes T8	???
+T9	ECO 9329 9365	motif alignment and search tool MAST
+A36	Category T9 SeqFeat
+A37	ECOConfidence T9 High
+A38	NextSentence T9 No
+A39	NegativeStatement T9 No
+A40	AssertionStrength T9 High
+N8	Reference T9 brat_eco:ECO:0005531	motif discovery evidence
+#5	AnnotatorNotes T9	I believe MAST is motif discovery
+T10	ECO 10044 10097	binding motif TGAAGATTTnnTGAAGATTT was used to search
+A41	Category T10 SeqFeat
+A42	ECOConfidence T10 High
+A43	NextSentence T10 Yes
+A44	NegativeStatement T10 No
+A45	AssertionStrength T10 High
+N9	Reference T10 brat_eco:ECO:0000028	motif similarity evidence
+#6	AnnotatorNotes T10	Is this motif similarity or consensus search? Pretty sure it's motif but not entirely sure. 
+T11	ECO 10716 10733	observed in EMSAs
+A46	Category T11 BioProc
+A47	ECOConfidence T11 High
+A48	NextSentence T11 No
+A49	NegativeStatement T11 Yes
+A50	AssertionStrength T11 Low
+N10	Reference T11 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T12	ECO 3205 3223	transcriptome data
+A51	Category T12 BioProc
+A52	ECOConfidence T12 High
+A53	NextSentence T12 No
+A54	NegativeStatement T12 No
+A55	AssertionStrength T12 Medium
+N11	Reference T12 brat_eco:ECO:0000009	transcript expression evidence
+T13	ECO 4690 4711	using DNA microarrays
+A56	Category T13 BioProc
+A57	ECOConfidence T13 High
+A58	NextSentence T13 Yes
+A59	NegativeStatement T13 Yes
+A60	AssertionStrength T13 Medium
+N12	Reference T13 brat_eco:ECO:0000058	expression microarray evidence

@@ -1,0 +1,105 @@
+RESULTS
+
+Comparative genomics of the kstR2 region in M. smegmatis, M. tuberculosis and R. jostii
+
+In M. smegmatis, kstR controls the expression of 83 genes (Kendall et al., 2007).
+Fifty-five of these kstR-controlled genes lie within a particular region in the M. smegmatis genome (MSMEG_5893 - MSMEG_6043) (Fig. 1a).
+This region is highly conserved in M. tuberculosis (Rv3492c - Rv3574) and R. jostii (ro4482 - ro04705), and studies in R. jostii have shown that all of the kstR-controlled genes within the ro4482 - ro04705 region are induced by cholesterol (Van der Geize et al., 2007).
+However, not all of the cholesterol-induced genes in this region are controlled by kstR.
+Analysis of the R. jostii genome shows that there are three possible operons (ro04654 - ro04649, ro04599 - ro04598 and ro04597 - ro04591) that are induced by cholesterol but not controlled by kstR (Fig. 1b, bottom line).
+These genes are conserved in M. tuberculosis (Rv3548c - Rv3565, Fig. 1b, middle line) and M. smegmatis (MSMEG_5999 - MSMEG_6017, Fig. 1b, top line), and examination of the function of the genes in this region shows that there is another TetR-type regulator which we are calling kstR2 (ro04598, Rv3557c, MSMEG_6009).
+
+Given that these genes are induced by cholesterol in R. jostii, but are not part of the kstR regulon, and that genes are often controlled by regulators in the near vicinity, we hypothesized that kstR2 controls the expression of genes within this cluster.
+In order to test this, we searched for possible regulatory motifs firstly within its own promoter region, and then on a genome-wide scale.
+
+
+
+Identification of a potential KstR2 regulatory binding motif
+
+Examination of the genomes of other closely related actinomycetes (Mycobacterium avium subsp. paratuberculosis, Mycobacterium avium, Mycobacterium marinum, Nocardia farcinica and Rhodococcus equi) using ACT and clustalw showed that kstR2 is conserved in these species with all orthologues showing over 50=% amino acid identity to the M. tuberculosis protein (data not shown).
+In order to identify a potential regulatory motif for KstR2, we used the promoter regions of the kstR2 orthologues as a training set for the motif identification program MEME (Bailey & Elkan, 1994).
+This identified a potential regulatory sequence that contains a 14 bp inverted palindromic motif AnCAAGnnCTTGnT (Fig. 2).
+Palindromic DNA binding regions are a common feature of TetR-type regulators and this motif is similar in structure to the KstR motif, which is also a 14 bp inverted palindrome.
+In order to determine if the motif is present elsewhere in the genomes of M. tuberculosis, M. smegmatis and R. jostii, we searched a database of intergenic regions using MAST (Bailey & Gribskov, 1998).
+This predicted three motifs in each genome that were all situated within the intergenic regions of divergently transcribed genes near to kstR2, and are shown in Fig. 1 and Table 3.
+
+
+
+KstR2Mtb binds to the conserved regulatory motif
+
+In order to determine whether KstR2 binds directly to the motif that was identified, the protein from M. tuberculosis (KstR2Mtb) was expressed, purified and used in EMSAs.
+Probes (30 bp) from the three intergenic regions (Rv3549c - Rv3550, Rv3557c - Rv3558 and Rv3560c - Rv3561) containing the motif sequences were used in the assay (Table 2, the locations of the motifs are underlined); the results are shown in Fig. 3.
+The presence of the purified protein clearly retarded the movement of all the 30 bp probes through the gel, indicating binding of the KstR2Mtb protein to the motifs in each of the regions (Fig. 3a).
+In order to determine whether the binding was specific, competition assays were used with non-specific and specific competitors (Fig. 3b).
+The binding was prevented by adding a 150-fold excess of unlabelled probe (Fig. 3b, lane 2) but was not altered by the addition of the non-specific inhibitor poly[d(I-C)] (Fig. 3b, lane 3).
+The results of these experiments clearly show that purified KstR2Mtb binds specifically to the motif within the three intergenic regions.
+
+
+
+Expression analysis of DeltakstR2Msm and defining the kstR2 regulon
+
+In order to identify the genes controlled by kstR2, a 505 bp deletion of kstR2 was made in the M. smegmatis genome using homologous recombination (Parish et al., 1999).
+The mutagenesis was verified by PCR and sequencing as described in Methods (data not shown).
+Microarrays were used to determine the effects of knocking out kstR2Msm on gene expression.
+RNA from wild-type and mutant bacteria was labelled with Cy dyes and competitively hybridized onto oligonucleotide arrays.
+The results are shown in Table 4.
+Using a P-value cut-off of 0.05, a total of eight genes were significantly upregulated and three genes were downregulated (Table 4).
+All of the significantly upregulated genes were from the region MSMEG_5999 to MSMEG_6017 and were associated with the motif identified (Fig. 1).
+
+In order to propose a regulon for kstR2, we have combined the microarray data with bioinformatic analysis and have taken motif location, genomic arrangement (the likely operon structure deduced from gene direction and the distances between genes), gene conservation and de-repression by cholesterol in R. jostii into account.
+The kstR2 regulon is defined below.
+
+
+
+Defining the kstR2 regulon
+
+The microarray analysis shows that MSMEG_5999 to MSMEG_6004 are highly de-repressed in the mutant (Table 4).
+There are no intergenic gaps in the run of genes MSMEG_6001 to MSMEG_6004 and only a 14 bp gap upstream of MSMEG_5999 (Fig. 1), suggesting that MSMEG_6001 to MSMEG_6004 and MSMEG_6000 to MSMEG_5999 are transcribed in two divergent operons.
+A motif is present in the 60 bp intergenic region between MSMEG_6000 and MSMEG_6001, and the orthologous genes are de-repressed in R. jostii by cholesterol (Fig. 1).
+This, together with the demonstration that KstR2Mtb binds to the motif located between the orthologous M. tuberculosis genes (Fig. 3a), strongly suggests that KstR2 divergently represses these genes and that this repression is alleviated by cholesterol.
+
+The results suggest that MSMEG_6005, MSMEG_6006 and MSMEG_6007 are not regulated by KstR2.
+Firstly, the microarray analysis shows that these genes are not highly or significantly de-repressed in the mutant (Table 4).
+Secondly, these genes are not conserved in R. jostii (or M. tuberculosis) so they are unlikely to be required for cholesterol degradation (Fig. 1).
+There is a 42 bp intergenic region upstream of MSMEG_6005 and an 87 bp intergenic region upstream of MSMEG_6007, which would allow for the presence of an independent promoter, but there is no associated kstR2 motif (Fig. 1).
+Taken together, the data suggest that these genes are not under the control of KstR2.
+
+The microarray data show kstR2 (MSMEG_6009) as being downregulated in the mutant strain because this gene is deleted in the mutant.
+The gene downstream of kstR2, MSMEG_6008, however, is highly and significantly de-repressed in the mutant strain (Table 4) and there is no intergenic gap between kstR2 and MSMEG_6008, suggesting they are co-transcribed.
+There is a motif in the 303 bp gap upstream of kstR2 to which KstR2 binds (Fig. 3a) and the orthologues of both genes are de-repressed by cholesterol in R. jostii (Fig. 1).
+This suggests that kstR2 and MSMEG_6009 are expressed as an operon under the control of KstR2.
+
+The run of genes MSMEG_6011 to MSMEG_6017 appear to be arranged into two divergent operons: MSMEG_6012 to MSMEG_6011 and MSMEG_6013 to MSMEG_6017 (Fig. 1).
+There is a motif in the 104 bp intergenic region between MSMEG_6012 and MSMEG_6013 to which KstR2 binds (Fig. 3a).
+Microarray analysis suggests that these genes are de-repressed in the mutant (Table 4).
+Levels were not high or significant for MSMEG_6013 and MSMEG_6014 in this microarray experiment, but de-repression was confirmed by RTq-PCR (data not shown).
+All these genes (with the exception of MSMEG_6017 for which there is no rhodococcal orthologue) are de-repressed by cholesterol in R. jostii.
+Taken together, the data suggest that KstR2 binds to the motif in the intergenic region between MSMEG_6012 and MSMEG_6013 to divergently repress expression and that repression is alleviated by cholesterol.
+
+Finally, the microarray analysis suggests that MSMEG_6010 is not de-repressed in the mutant strain (Table 4) and we have used RTq-PCR to confirm this result (data not shown).
+There is no orthologue in M. tuberculosis or R. jostii so this gene is unlikely to be required for cholesterol degradation (Fig. 1).
+This suggests that KstR2 binds to the motif within the intergenic region between kstR2 and MSMEG_6010 to cause repression in one direction only.
+This is in contrast with the other promoter regions where both divergently located genes are repressed by binding of KstR2 to the motif.
+Consistent with this, the distance between the putative start of MSMEG_6010 and the kstR2 motif is large (285 bp) in comparison with the rest of the motif to start site distances (MSMEG_6000, 22 bp; MSMEG_6001, 39 bp; MSMEG_6009, 22 bp; MSMEG_6012, 23 bp; and MSMEG_6013, 82 bp).
+Additionally, a recent study has shown that in M. tuberculosis kstR2 and Rv3556c are de-repressed by cholesterol but Rv3558c (PPE64) is not (Nesbitt et al., 2010).
+
+In addition to the genes within the MSMEG_5999 to MSMEG_6017 region, three genes were significantly downregulated (Table 4).
+However, none of these genes was associated with a motif and downregulation is likely to be due to secondary effects of the kstR2 deletion rather than direct control.
+In summary, the data show that KstR2 controls the expression of 15 genes within the MSMEG_5999 to MSMEG_6017 region.
+These genes are in black in Fig. 1 and in bold type in Table 4.
+
+
+
+KstR2 and KstR act independently of each other
+
+In order to test whether there is any interaction between the two regulators, we decided to measure the expression of KstR- and KstR2-controlled genes in a wild-type, DeltakstR2 and DeltakstR/DeltakstR2 double mutant background of M. smegmatis using RTq-PCR.
+The DeltakstR/DeltakstR2 mutant was made by deleting kstR2 in a DeltakstRMsm mutant that has been described previously (Kendall et al., 2007).
+We chose to focus on MSMEG_6001 (KstR2-regulated) and MSMEG_6038 (KstR-regulated), because they were highly de-repressed in their respective mutant backgrounds (see Table 4 and Kendall et al., 2007) and would therefore act as good reporters.
+The results, which are given in Fig. 4, show that (as expected) both genes are repressed in the wild-type strain mc2155.
+The kstR2-regulated gene MSMEG_6001 is de-repressed in the DeltakstR2Msm mutant but the level of de-repression does not increase when kstR is also absent.
+Additionally, knocking out kstR2 has no effect on the expression levels of MSMEG_6038, a kstR-regulated gene.
+These results clearly show that there is no cross-talk between the regulators.
+
+
+
+

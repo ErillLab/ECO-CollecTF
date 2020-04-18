@@ -1,0 +1,80 @@
+RESULTS
+
+Genomic mapping of the CRPMt-binding profile
+
+The aim of this work was to investigate CRPMt binding to the M. tuberculosis chromosome by ChIP combined with high-throughput sequencing (ChIP-seq) and to integrate these data with transcriptional profiling by RNA-seq.
+ChIP-seq was done using a specific antibody against CRPMt, thus enabling us to study the binding under native conditions without the need to tag and overexpress the protein.
+Under these native conditions, CRPMt is expressed at high levels in the cell; based on published quantitative mass spectrometry and electron microscopy (36,37) and western blot analysis we estimate the number of CRPMt molecules to be approximately stoichiometric to the number of ribosomes per cell (~3500).
+
+We were able to map 98% of the sequences uniquely to the H37Rv genome (allowing for up to two mismatches per read) and achieved a near-complete representation of the entire genome (98% of the genome was mapped).
+The remaining 2% of the genome includes PE/PPE genes, which contain highly repetitive sequences that are poorly resolved by short-read sequencing.
+To visualize the genome coverage, the number of reads mapping to each position on the M. tuberculosis chromosome was calculated and the traces visualized in the Artemis genome browser.
+Peaks were called using the CisGenome software (33) to identify enriched regions in the CRPMt-IP compared to the mock-IP (performed in the absence of antibody) and input (sheared genomic DNA).
+To validate the results, the data were also analysed using the BayesPeak package in R/Bioconductor, and peaks called in only one of the two methods were discarded.
+As seen in Figure 1A, there was no significant enrichment of any regions of the M. tuberculosis chromosome in the mock-IP (or the input; data not shown) indicating negligible non-specific binding to the resin or the antibody.
+In the CRPMt-IP, however, 191 peaks were found, denoting CRPMt-binding sites (here abbreviated to CBSs) on the chromosome (Figure 1A).
+The average length of the CBSs was 276 bp, and in total this represents 0.7% of the entire M. tuberculosis genome.
+No differences were observed in CRPMt-DNA binding between cells grown in Dubos medium and cells grown in Middlebrook 7H9 medium (data not shown).
+No ChIP-seq signals were detected for the crp-deletion strain.
+
+De novo motif discovery by MEME-ChIP (38), using 50 bp upstream and downstream of the centre of each peak, identified a consensus motif present in 97% of the 191 binding sites that is similar to motifs previously predicted for M. tuberculosis CRPMt and experimentally defined for E. coli CRP (Figure 1B).
+The midpoint of each ChIP peak was compared to the centre of the CRPMt-binding site, as predicted from the consensus sequence, and the average difference was found to be 6 bp, with a correlation coefficient of 0.995 between the two data sets.
+At 14 of the sites, we identified more than one copy of the consensus motif.
+At three of the sites we were unable to identify a match to the consensus motif.
+The enrichment of the DNA fragments in the CRPMt-IP compared to the mock-IP was inversely proportional to the number of mismatches found at each site (Figure 1C).
+The top 14 sites, with an enrichment factor (maxT) of 10 or more, are shown in Table 1 and representative Artemis profiles are illustrated in Figure 1D (for details of all sites, see Supplementary Table S3).
+
+
+
+Location of CBSs
+
+Sixty nine of the CRPMt-binding sites mapped uniquely to a location within a protein coding gene or stable RNA, with a possible role in long-distance regulation and/or chromosome organization.
+Of the remaining sites, 86 CBSs mapped uniquely to intergenic loci corresponding to potential promoter regions, whilst 35 CBSs were located within a protein coding sequence in a region that could also serve as the potential promoter of a downstream gene.
+This represents a significant enrichment of intergenic regions over that predicted by chance, considering ~90% of the entire M. tuberculosis genome is intragenic.
+The distribution between intragenic and intergenic locations remained approximately equal irrespective of the fold-enrichment used as cutoff, indicating that CRPMt binds with similar affinity to both types of site.
+In 32 cases, the CRPMt-binding site was located between divergently transcribed gene pairs; this is proportional to the genome average of 16% of all genes with divergent orientation in M. tuberculosis.
+CRP regulation of divergent gene pairs has also been observed in E. coli (39).
+In some instances, CBSs mapped to the intergenic region between convergent gene pairs, like Rv2866 and Rv2867c and Rv2451 and Rv2452c.
+Three CRPMt-binding sites also mapped upstream of the sRNAs, ncRv13843, ncRv11373 and ncRv13660c (40).
+
+
+
+Canonically positioned CBSs are associated with functional categories
+
+To define the precise location of CBSs with respect to transcriptional start sites (TSSs), we integrated the ChIP data set with a M. tuberculosis TSS map generated by sequence analysis of 5'-triphosphate-enriched RNA libraries (36).
+The spacing between the midpoint of each CBS motif and adjacent primary TSSs is recorded in Supplementary Table S3.
+Including data from peaks with multiple motifs, and CBSs mapping to more than one TSS, we measured a total of 242 CBS-TSS pairs; in 203 cases, the CBS was located within 500 bp of a TSS, 127 sites were upstream and 76 downstream, 41 of which were between the TSS and the start codon (i.e. within the 5'-Untranslated Region -UTR-) and 35 within the coding sequence.
+Plotting of the distribution of CBS-TSS spacing revealed clustering in the regions from -60 to -40, and from +1 to +20 (Figure 2A and B).
+Genes harbouring CRP-binding sites in the -200 to 0 region were analysed for functional categories.
+Amongst the 87 genes that contain a CRP site in a putative promoter region, genes involved in cell wall and cell processes were enriched in our data set compared to the H37Rv genome (Chi-square test, P = 0.021; Figure 2C).
+
+Several of the CBSs have also been identified as binding sites for other transcription factors, suggesting that CRPMt may act in concert with other regulators.
+The promoter region of Rv1057, for example, has binding sites for MprA, EspR and TrcR in addition to CRPMt (7,41) (Figure 3).
+Additional promoter regions with binding sites for multiple transcription factors include fadD26 (Rv2930) with an EspR-binding site (7) and espA (Rv3616c) with binding sites for EspR, MprA and CRP (7,42 - 45).
+
+
+
+Transcriptional regulation of CBS genes
+
+Previous microarray and targeted qRT-PCR analyses have demonstrated differential expression of CBS genes following deletion of the crp gene (14).
+Using an RNA-seq approach to compare the transcriptional profile of wild-type and crp-deletion strains during exponential growth, we observed widespread changes in gene expression affecting more than 20% of the total transcriptome (Supplementary Table S4).
+Filtering based on an adjusted P-value of <0.05 identified 453 genes with >2-fold increased abundance in the knockout and 412 with >2-fold decrease.
+CBS genes comprised only a minor fraction of the differential expression profile, with statistically significant upregulation of 37 genes and downregulation of 15 genes.
+Forty eight per cent of the CBS-regulated genes corresponded to genes annotated as key metabolic enzymes or genes with predicted roles on transcription regulation that could amplify the CRPMt regulatory signal (Supplementary Table S5).
+Fifty percent of the differential expression profile (212 of the upregulated genes and 211 of the downregulated genes) was shared with the response to nutrient starvation (Supplementary Table S4), and is likely to reflect secondary effects associated with the marked growth defect of the crp mutant.
+
+We anticipated that if CRPMt was acting together with other transcription factors, differential expression of CBS genes may be enhanced under alternative growth conditions.
+ChIP-seq analysis revealed a general decrease in CRPMt binding to DNA after incubation for 24 h in PBS (Figure 4A).
+Furthermore, a reduction in the amount of cAMP was observed in the nutrient starvation model (Figure 4B).
+There was no significant change in CRPMt protein abundance in the starvation model (36).
+The majority of the ChIP-seq peaks identified in exponential culture were also detected after starvation, though with a reduction in fold-enrichment and loss of 33 of the 76 peaks having an enrichment ratio of less than 5 in the exponential data set.
+The ChIP-seq peaks not identified after starvation were not enriched in any specific functional category and only 53% of the CBS-associated genes in exponential culture showed downregulation during starvation.
+Comparison of the wild-type and mutant strains under starvation conditions revealed wide-ranging differences in the overall transcript profile, with 361 genes having >2-fold higher abundance and 465 reduced abundance in the knockout (Supplementary Table S4), but again CBS genes made only a minor contribution, with 28 genes upregulated and 33 downregulated.
+
+Twenty nine CBS genes showing a concordant response in a comparison of wild-type and crp deletion strains under both culture conditions are shown in Table 2, ranked according to the distance between the CBS and the TSS.
+Whilst the number of differentially expressed genes is low, the results are consistent with the canonical E. coli model of CRPMt binding close to the TSS inhibiting transcription and upstream binding enhancing transcription.
+There was no obvious pattern of up- or downregulation associated with CRPMt binding at sites distant from the TSS.
+
+
+
+

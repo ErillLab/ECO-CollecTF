@@ -1,0 +1,83 @@
+Results and Discussion
+
+Identification of P. aeruginosa proteins interacting with the lasR promoter
+
+To increase the probability of fishing proteins interacting with the lasR promoter (PlasR), the activity of PlasR was preliminarily monitored along the P. aeruginosa PAO1 growth curve by means of a PlasR::lacZ transcriptional fusion (Figure 1ATable S2).
+PlasR activity increased steadily during the exponential phase and reached a plateau at the onset of the stationary phase.
+The maximal promoter activity was maintained for about four hours, and then declined (Figure 1A), suggesting that at the end of the exponential phase and during the stationary phase of growth, one or more transcriptional regulator(s) bind to PlasR and affect its promoter activity.
+Hence, crude protein extracts were prepared from P. aeruginosa PAO1 cultures grown to A600 = 2.0 and A600= 5.0, corresponding to late exponential and stationary phase of growth, respectively (Figure 1A).
+
+To prepare the DNA-affinity chromatography matrix, a biotinylated double-stranded DNA fragment, corresponding to the lasR promoter region cloned in the PlasR::lacZ transcriptional fusion, was immobilized on a streptavidin-conjugated chromatography resin.
+Protein crude extracts were independently incubated with the matrix and, after extensive washing, proteins specifically bound to PlasR were eluted, separated by SDS-PAGE, and identified by MALDI-TOF mass spectrometry (Table 1).
+The experiment was performed in duplicate for each crude extract.
+Examples of SDS-PAGE gels are shown in Figure 1B.
+Overall, twelve protein bands were reproducibly detected on the SDS-PAGE gels (Table 1), while no protein bands were visible in control experiments with beads uncoupled to DNA (data not shown).
+Among these, RpoA, Ssb and TufB are involved in general DNA processing, while the PhaF phasin is involved in polyhydroxyalkanoate segregation during cell division [21].
+Moreover three proteins not involved in DNA processing (i.e., Lon, PepA and GroEL) were also retrieved (Table 1).
+
+Of the two transcription factors previously known to bind PlasR (i.e., Vfr and AlgR2) [18,20], only Vfr was picked-up (Table 1), indicating that the DNA-affinity chromatography approach here described allows identification of some, but not all, the transcription factors specific for PlasR.
+Therefore, besides AlgR2, other regulators of this promoter may have escaped our analysis.
+
+Last, but of primary importance with respect to our aims, among the picked-up proteins PA0123, PA0448, PA3699 and PA4135 were annotated in the P. aeruginosa genome as putative transcription factors with unknown function (Table 1).
+On the basis of their sequence, PA0123 and PA0448 are annotated as putative LysR-like family transcriprional regulators [22].
+Interestingly, the three-dimensional structure of PA3699 and PA4135 has been recently solved (Protein Data Bank accession numbers, 3KKD and 2FBI, respectively).
+On the basis of primary sequence and structural features, PA3699 and PA4135 can be assigned to the TetR-like and MarR-like family of transcriptional regulators, respectively [22].
+In this view, the above results provide the first experimental evidence that PA0123, PA0448, PA3699 and PA4135 are expressed in P. aeruginosa cultures and able to bind DNA in vitro.
+On the basis of the above considerations, these four factors were selected for further analysis as novel putative lasR regulators (Table 1).
+
+
+
+In vivo characterization of putative lasR transcriptional regulators
+
+In order to study the in vivo effect of PA0123, PA0448, PA3699 and PA4135 on PlasR activity, a set of P. aeruginosa PAO1 in frame deletion mutants in the corresponding genes was generated.
+As a control, also a mutation in the vfr gene was introduced in P. aeruginosa PAO1.
+A genetic cassette carrying the PlasR::lux transcriptional fusion was introduced in a chromosomal neutral site of the five mutant strains and of P. aeruginosa wild type to conveniently measure PlasR activity as a function of light emission along the growth curve.
+The DNA region cloned in this genetic cassette was identical to that used as a bait in the DNA-affinity chromatography experiment.
+
+In accordance with literature data, PlasR activity was strongly decreased as a consequence of vfr mutation (Figure S1) [18], while no significant differences with respect to the wild type activity were observed in the PA0123, PA0448, PA3699 and PA4135 mutant strains (Figure S1).
+Similar results were obtained by using the PlasR::lacZ transcriptional fusion as reporter system (data not shown).
+
+It was surprising that inactivation of the four new putative regulators able to bind PlasR in vitro did not affect the activity of this promoter in vivo.
+However, the DNA-affinity chromatography allows the purification of proteins present in a synthetic binding buffer, a condition that is unlikely to mimic the intracellular milieu.
+Thus, some of the factors picked-up in vitro using PlasR as bait could be not sufficiently expressed and/or active in vivo under the experimental conditions used for the promoter activity assay.
+To overcome this problem, the PA0123, PA0448, PA3699, and PA4135 genes were cloned in the expression vector pHERD30T, under the control of an l-arabinose-inducible promoter (Table S2) [23].
+The resulting plasmids were independently introduced in the wild type P. aeruginosa PAO1 strain carrying the PlasR::lux transcriptional fusion, and promoter activity was measured along the growth curve in the presence of l-arabinose; the pHERD30T empty vector was used as control.
+With the only exception of PA0448, l-arabinose-induced expression of the tested proteins reduced the activity of the PlasR::lux fusion.
+However, induction of PA0123 and PA4135 also resulted in a strong inhibition of P. aeruginosa growth (Figure 2A).
+Since bioluminescence emission is an energy demanding process, we hypothesized that PA0123 and PA4135 induction might affect growth only in a lux proficient background.
+However, PA0123 and PA4135 induction had a negative effect on P. aeruginosa growth also in the PAO1 wild type strain lacking the PlasR::lux fusion in the chromosome (data not shown).
+Overall, these results indicate that PA0123 and PA4135 are toxic for P. aeruginosa when their expression is induced, at least in the growth conditions used in our experimental setting.
+
+Since an effect on bacterial growth is particularly meaningful when studying a cell density-dependent pathway like QS, further studies were focused on PA3699, the only protein that, once induced, strongly inhibited PlasR activity without affecting P. aeruginosa growth (Figure 2A).
+
+It could be reasonably argued that the procedure described in the above paragraphs could isolate DNA binding proteins that do not play a role in vivo on the regulation of the target promoter and that the overexpression of transcriptional regulators could lead to pleiotropic effects/phenotypes.
+These causalities likely occurred in the case of PA0448, PA0123 and PA4135, since the first protein has no effect on PlasR activity and the other two are toxic to the cell when overexpressed.
+Conversely, PA3699 induction did not affect growth, while it repressed PlasR activity during the whole growth curve and proportionally to the amount of l-arabinose present in the growth medium (Figure 2B and 2C).
+All these features argue for a bona fide repressor activity of PA3699 on PlasR.
+
+
+
+PA3699 binds the lasR promoter region in EMSA assays
+
+In order to confirm DNA-affinity chromatography results, electrophoretic mobility shift assay (EMSA) of a DNA probe (PlasRp) encompassing the promoter region of lasR were conducted using the purified PA3699 protein.
+To this purpose, PA3699 was fused to a six-histidine tag (6xHis) at the N-terminal domain and purified by nickel-nitrilotriacetic acid (Ni-NTA)-affinity chromatography.
+The 6xHis tag was subsequently cleaved by thrombin digestion, yielding the native PA3699 protein in soluble and highly pure form (Figure 3A and 3B).
+
+As shown in Figure 3C, incubation of the PlasRp probe with purified PA3699 led to the formation of a complex endowed with lower electrophoretic motility with respect to the free probe, and the amount of the shifted complex was proportional to the concentration of purified PA3699.
+Since the electrophoretic motility of an unspecific DNA probe did not change in the presence of PA3699, the binding of this protein to PlasRp is specific (Figure 3C).
+
+Altogether, these data provide an unequivocal proof of the direct molecular interaction between PA3699 and the lasR promoter region.
+
+
+
+PA3699 affects the production of QS-controlled virulence factors
+
+The LasR/3OC12-HSL complex is required for full expression of most P. aeruginosa virulence factors, including elastase, pyocyanin, and proteases [24].
+
+In order to assess whether the repression exerted by PA3699 on LasR expression may affect P. aeruginosa pathogenic potential, the expression of LasR-dependent virulence phenotypes was compared in P. aeruginosa carrying either the pHERD30T empty vector or its derivative plasmid for l-arabinose-dependent induction of PA3699 (pR3699).
+Consistent with the strong repressive effect exerted by PA3699 induction on PlasR activity, results showed that also the production of LasR-dependent phenotypes such as elastase, pyocyanin, and proteases was strongly decreased in P. aeruginosa upon PA3699 induction (Figure 4).
+However, pyocyanin, elastase and protease production remained unaffected in the P. aeruginosa PA3699 mutant strain with respect to the wild type, consistently with what observed for the PlasR promoter activity (data not shown).
+
+
+
+

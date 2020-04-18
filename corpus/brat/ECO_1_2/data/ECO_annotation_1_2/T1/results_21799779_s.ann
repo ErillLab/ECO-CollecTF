@@ -1,0 +1,85 @@
+T1	ECO 447 470	no effect on the growth
+A1	Category T1 Phen
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0001563	cell growth assay evidence
+T2	ECO 645 661	inhibited growth
+A4	Category T2 Phen
+A5	ECOConfidence T2 High
+A6	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0001563	cell growth assay evidence
+T3	ECO 3205 3223	transcriptome data
+A7	Category T3 BioProc
+A8	ECOConfidence T3 Medium
+A9	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0000009	transcript expression evidence
+#1	AnnotatorNotes T3	GO:0055070
+T4	ECO 5016 5070	mRNA level of 43 genes was changed more than threefold
+A10	Category T4 BioProc
+A11	ECOConfidence T4 High
+A12	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0000009	transcript expression evidence
+#2	AnnotatorNotes T4	GO:1903853
+T5	ECO 7887 7915	5'-Cy3-labelled DNA fragment
+A13	Category T5 BioProc
+A14	ECOConfidence T5 High
+A15	NextSentence T5 Yes
+A16	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0000136	nucleic acid binding evidence
+#3	AnnotatorNotes T5	GO:0003677
+T6	ECO 9092 9117	primer extension analysis
+A17	Category T6 SeqFeat
+A18	ECOConfidence T6 High
+A19	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001819	primer extension assay evidence
+T7	ECO 9329 9365	motif alignment and search tool MAST
+A20	Category T7 SeqFeat
+A21	ECOConfidence T7 High
+A22	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000200	sequence alignment evidence
+T8	ECO 9592 9597	EMSAs
+A23	Category T8 MolFn
+A24	ECOConfidence T8 High
+A25	NextSentence T8 Yes
+A26	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#4	AnnotatorNotes T8	GO:0003677
+T9	ECO 9603 9708	DNA fragments in which two to four nucleotides of the motif or of the surrounding sequence were exchanged
+A27	Category T9 MolFn
+A28	ECOConfidence T9 Medium
+A29	NextSentence T9 Yes
+A30	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0005528	site-directed mutagenesis evidence
+#5	AnnotatorNotes T9	GO:0003677
+T11	ECO 10044 10057	binding motif
+A34	Category T11 SeqFeat
+A35	ECOConfidence T11 High
+A36	NextSentence T11 Yes
+A37	AssertionStrength T11 Medium
+N11	Reference T11 brat_eco:ECO:0000028	motif similarity evidence
+T12	ECO 10728 10733	EMSAs
+A38	Category T12 MolFn
+A39	ECOConfidence T12 High
+A40	NegativeStatement T12 Yes
+A41	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#7	AnnotatorNotes T12	GO:0043565
+T13	ECO 11604 11639	cultivated in standard CGXII medium
+A42	Category T13 Phen
+A43	ECOConfidence T13 High
+A44	NegativeStatement T13 Yes
+A45	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0000002	direct assay evidence
+T14	ECO 11926 11953	Cat activity was measurable
+A46	Category T14 Phen
+A47	ECOConfidence T14 High
+A48	AssertionStrength T14 High
+N14	Reference T14 brat_eco:ECO:0000002	direct assay evidence
+T15	ECO 4696 4711	DNA microarrays
+A49	Category T15 BioProc
+A50	ECOConfidence T15 High
+A51	NextSentence T15 Yes
+A52	NegativeStatement T15 Yes
+A53	AssertionStrength T15 High
+N15	Reference T15 brat_eco:ECO:0000058	expression microarray evidence
+#8	AnnotatorNotes T15	GO:0010468

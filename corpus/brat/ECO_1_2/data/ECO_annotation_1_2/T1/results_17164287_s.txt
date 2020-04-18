@@ -1,0 +1,68 @@
+RESULTS
+
+Isolation of DNA fragments associated with FNR in mid-log phase E.coli
+
+Our aim was to use ChIP to measure the distribution of FNR across the chromosome of growing E.coli cells.
+To do this, we exploited strain JCB1011 whose fnr gene had been previously modified to encode FNR with a C-terminal 3x FLAG tag (10).
+Supplementary Figure 3A shows a western blot of total protein from strain JCB1011 and its parent, MG1655, probed with anti-FLAG or anti-FNR antibodies.
+The results show that intracellular levels of wild-type FNR and the FNR-3x FLAG fusion protein are similar and that the anti-FLAG antibody does not cross-react with other proteins.
+To check that the activity of FNR was unaffected by the 3x FLAG tag, we compared expression of five FNR-dependent promoters in JCB1011 and MG1655 (Supplementary Figure 3B) and anaerobic growth of the two strains (Supplementary Figure 1A).
+The results of these tests argue that the function of FNR is unaffected by the tag.
+Thus, JCB1011 and MG1655 cells were grown anaerobically in LB glucose medium to an OD650 of ~0.4, cultures were treated with formaldehyde, and cellular DNA was extracted and sonicated, yielding DNA fragments of ~500-1000 bp.
+After immunoprecipitation with anti-FLAG antibodies, DNA fragments from JCB1011 or control MG1655 cells were purified, labelled with Cy5 and Cy3, respectively, mixed and hybridized to the microarray.
+After washing and scanning, the Cy5/Cy3 signal intensity ratio was calculated for each probe.
+In parallel, the experiment was repeated using aerobically grown cells.
+Complete datasets are shown in Supplementary Table 1.
+Figure 1A gives an overview of the profile for FNR binding and some examples are shown in Figure 1B.
+Peaks for FNR binding are discrete and easily distinguishable from the background signal.
+
+
+
+Identification and sequence analysis of FNR targets
+
+To determine the location of peaks for FNR binding in an unbiased manner, a Cy5/Cy3 cut-off was applied to the 'anaerobic' dataset.
+A total of 204 probes passed this cut-off, corresponding to 63 separate peak locations, all of which were in non-coding DNA or close to the 5' end of a gene (Table 2).
+Of the 63 peaks identified, 20 correspond to locations listed as FNR targets in the current version of the Ecocyc database [, (16)] and 9 of the rem-aining 43 peaks locate to FNR targets predicted by Constantinidou et al. (10).
+To identify FNR binding sites at the 43 loci not currently listed by Ecocyc, we selected and then combined 500 bp DNA sequences corresponding to the centre of each peak.
+We then used AlignACE to search for sequence motifs present in these DNA sequences.
+A sequence logo representing the motif that we identified is shown in Figure 1C.
+The motif clearly matches the known FNR consensus binding motif of TTGAT(n)4ATCAA.
+Using this approach, we were able to identify FNR binding sites at 33 of the 43 putative FNR targets identified by our ChIP-chip analysis.
+The base sequences and locations of the binding sites that we identified are shown in Table 2.
+Recall that the activity of FNR is triggered by lack of oxygen (4,5).
+The control dataset from cells grown aerobically showed that binding at the different targets was suppressed (e.g. see Figures 1B and 2A).
+
+
+
+Association of FNR with some previously uncharacterized DNA targets
+
+Five of the targets for FNR binding are adjacent to genes encoding proteins involved in the manipulation of RNA or DNA and, in each case, a likely FNR binding site was identified (see Table 2 section E; Figure 2A).
+DNA fragments covering each of these targets were amplified and end-radiolabelled, or cloned into the lac expression vector pRW50 to create promoter::lacZ fusions.
+To detect the binding of FNR to the predicted target promoters in vitro, the radiolabelled DNA fragments were used in EMSA assays with purified FNR protein (Figure 2B).
+In all cases, addition of purified FNR retarded the migration of the purified DNA fragments.
+To investigate the effect of FNR on transcription from each target promoter, each of the pRW50 encoded promoter::lacZ fusions was transformed into E.coli strain JCB387 or the fnr derivative JRG1728.
+Expression of lacZ in each strain was measured.
+Our data (Figure 2C) show that deletion of fnr had marginal affects on transcription and that the activity of each cloned promoter was low in our conditions.
+
+
+
+Distribution of FNR in stationary phase
+
+The analysis of FNR binding was repeated using stationary phase cultures of JCB1011 and MG1655.
+The dataset for the FNR experiment is presented in Supplementary Table 1, alongside the data from growing cells, and an overview is shown in Figure 3A.
+The results show that the profile of FNR binding in stationary phase is similar to the profile in growing cells (e.g. are shown in Figure 3B).
+
+As controls for this experiment, similar analyses were performed with the nucleoid-associated protein, IHF and with RNA polymerase, which is known to be redistributed in stationary phase E.coli.
+Note that previously we had used ChIP-chip to study IHF and RNA polymerase in exponentially growing cells (17).
+The datasets for IHF and RNA polymerase binding are shown in Supplementary Tables 2 and 3, respectively, alongside data generated using growing E.coli cells (17).
+The results show that the profile of IHF binding in stationary phase is similar to the profile in growing cells while the profile of RNA polymerase is radically altered.
+
+Similarities between the datasets for FNR, IHF and RNA polymerase binding, in growing and stationary phase cells, were quantified by calculating correlation coefficients (Figure 4A) and by comparing the position of probes passing the cut-off for each dataset (Figure 4B).
+For FNR and IHF, the correlation between ChIP-chip datasets profiling binding in growing and stationary phase cells is high [Figure 4A (i) and (ii)].
+Much less correlation is observed when ChIP-chip datasets for RNA polymerase binding in stationary phase and mid-log phase cells are compared [Figure 4A (iii)].
+Consistent with this, for FNR and IHF, many of the same probes pass the cut-off for both datasets.
+In contrast, few probes pass the cut-off for both the mid-log and stationary phase RNA polymerase experiments (Figure 4B).
+
+
+
+

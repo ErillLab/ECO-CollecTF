@@ -1,0 +1,104 @@
+RESULTS
+
+rpoQ encodes a novel sigma factor-like protein regulated by quorum sensing.
+
+VF_A1015, here designated rpoQ, was originally annotated as encoding an RpoS-like sigma factor (6).
+This annotation arose because the amino acid sequence of RpoQ is 45% identical, and is of similar length, to that of RpoS.
+In contrast to rpoS, which is present within all fully-sequenced members of the Vibrionaceae, we were able to identify rpoQ homologues within the genomes of only two species: V. fischeri and Aliivibrio (Vibrio) salmonicida (VSAL_II0319).
+Examination using the Pfam database revealed that RpoQ contains four conserved domains: (i) sigma70 region 1.2, (ii) sigma70 region 2, (iii) sigma70 region 3, and (iv) sigma70 region 4, each of which is significant except sigma70 region 3 (Fig. 2A).
+In contrast, RpoS and RpoD of V. fischeri each have an identifiable sigma70 region 3 in the predicted location.
+Region 3 is involved in binding to the core RNA polymerase and recognition of the extended -10 promoter.
+Only regions 2 and 4 are highly conserved and play important roles in binding the core RNA polymerase and in recognition of the -10 and -35 promoters, respectively (31).
+Phylogenetic analysis of the amino acid sequences spanning from region 2 to region 4 of the RpoQ, RpoS, and RpoD homologues among two species of the Vibrionaceae (V. fischeri and A. salmonicida) and Escherichia coli indicates that RpoQ is a protein that is distinct from RpoS (Fig. 2B).
+
+Previous results from a global transcriptional analysis (6) suggested that expression of rpoQ is controlled by the response regulator LuxO, which is involved in quorum sensing (Fig. 1).
+To validate and extend this analysis, we used quantitative reverse transcriptase PCR (qRT-PCR) to measure the expression of rpoQ in different mutant backgrounds of V. fischeri.
+Consistent with the previous study, the level of rpoQ expression is elevated about 2-fold in a DeltaluxO mutant when compared to that of a wild-type strain (Fig. 3).
+In contrast to the DeltaluxO mutant, both a DeltalitR single mutant and a DeltaluxO DeltalitR double mutant exhibited 4-fold-lower levels of rpoQ expression than the wild type (Fig. 3), demonstrating that the regulation of rpoQ by LuxO operates through LitR.
+
+
+
+RpoQ regulates gene expression in V. fischeri.
+
+To determine whether RpoQ regulates expression of other genes in V. fischeri, we generated a DeltarpoQ in-frame deletion mutant that avoids potential polar effects on the downstream gene VF_A1014 (Fig. 4A).
+Previous work suggested that, like rpoQ, the genes VF_A1016 and VF_A1017, which are predicted to encode a histidine kinase and a response regulator, respectively, are also regulated by the LuxO (6).
+Due to the genetic linkage between this operon and rpoQ (they are divergently described, with a 449-nucleotide intergenic region) (Fig. 4A), we explored the possibility that the LuxO-dependent regulation of VF_A1016 and VF_A1017 requires RpoQ activity.
+Consistent with the previous report (6), we found that the expression level of VF_A1016 was elevated more than 2-fold in a DeltaluxO mutant over that in the wild-type strain (Fig. 4B).
+In contrast, VF_A1016 expression levels were similar to wild-type levels in a DeltarpoQ mutant and remained low in the DeltaluxO DeltarpoQ double mutant.
+These data indicate that RpoQ is required for LuxO-dependent changes in VF_A1016.
+Furthermore, when rpoQ was integrated into the Tn7 site of the chromosome of a DeltaluxO DeltarpoQ double mutant (strain CA6), the transcription level of VF_A1016 was partially restored relative to that for the DeltaluxO single mutant (see Fig. S1 in the supplemental material).
+Based on the finding that VF_A1016 was regulated by quorum signaling, we were led to test the possibility that transcription of VF_A1016 is reduced in the DeltarpoQ mutant at a higher cell density.
+As predicted, the transcription level of VF_A1016 is higher (12-fold) in the wild-type strain than in the DeltarpoQ mutant (Fig. 4C).
+In addition, RT-PCR analysis indicated that VF_A1016 and VF_A1017 are cotranscribed (Fig. 4D).
+Together, these results suggest that the LuxO signaling system transcriptionally controls RpoQ, which in turn activates transcription of a two-component system.
+Using 5' rapid amplification of cDNA ends (RACE), we mapped the transcriptional start sites of rpoQ and VF_A1016 (Fig. 4A).
+Neither start site was detected in the DeltarpoQ mutant, supporting the idea that transcription of rpoQ and VF_A1016 requires RpoQ (data not shown).
+
+
+
+RpoQ represses luminescence in vivo and in vitro.
+
+Because quorum signaling controls both early and late colonization genes (4, 6, 8, 12), we asked whether RpoQ regulates factors involved in light-organ symbiosis.
+Juvenile squid colonized by the DeltarpoQ mutant exhibited normal symbiont population levels and luminescence over the first 48 h postcolonization (data not shown), during which the symbionts have expressed both early and late quorum-sensing responses (6).
+Furthermore, cocolonization experiments using the DeltarpoQ mutant and a wild-type strain did not reveal a competition defect in the absence of RpoQ (data not shown).
+Together, these results suggest that the initial steps of bacterial colonization of the host, involving known early and late quorum-regulated colonization factors, do not require RpoQ.
+
+As an alternative approach to examine RpoQ function during colonization, we constructed a plasmid (pXCD10) that conditionally (i.e., in the presence of isopropyl-beta-d-thiogalactopyranoside [IPTG]) overexpresses RpoQ, by cloning rpoQ downstream of the trc promoter (32).
+Such approaches, with caveats for possible artifacts, have been used successfully to manipulate target genes of other extracytoplasmic function (ECF) sigma factors (33 - 37).
+Juvenile squid colonized with wild-type V. fischeri harboring pXDC10 were placed in seawater, either with or without IPTG.
+The level of luminescence of symbionts overexpressing RpoQ was significantly lower than (i.e., <20% of) that of wild-type cells harboring the control plasmid, pTM214 (Fig. 5A).
+In contrast, there were no significant differences in luminescence per CFU between animals colonized with wild-type cells harboring pTM214 (vector control) with or without IPTG or wild-type cells harboring pXDC10 without IPTG; in addition, the CFU levels were similar among all animals (data not shown), indicating that overexpressing RpoQ did not affect the ability of V. fischeri to colonize the host.
+
+Consistent with the results described above, the luminescence emitted by cells in culture was reduced more than 10-fold when rpoQ was overexpressed (Fig. 5B).
+In contrast, overexpression of two other sigma factors, rpoS and rpoD, did not repress luminescence.
+Taken together, these results provide evidence that the cells are not disturbed by these overexpression studies and show that RpoQ represses luminescence both in vivo and in vitro, as well as further demonstrating a functional distinction between RpoQ and RpoS.
+
+
+
+RpoQ represses the luxICDABEG promoter.
+
+Because overexpression of RpoQ leads to repressed luminescence, we hypothesized that RpoQ affects transcription of the lux operon.
+To facilitate experiments that test this idea, we integrated the IPTG-inducible rpoQ gene into the chromosome at the Tn7 site, resulting in strain TIM366.
+Overexpression of this single copy of rpoQ by IPTG addition also repressed luminescence but to only 31% of the extent seen when rpoQ is induced from the multicopy plasmid pXDC10.
+A two-color fluorescent reporter of luxICDABEG promoter activity (11) was used to determine whether RpoQ affects transcription of this promoter.
+The reporter plasmid (pTM280) was constructed by cloning the luxICDABEG promoter upstream of gfp, which encodes green fluorescent protein (GFP).
+This plasmid also constitutively expresses the red fluorescent protein mCherry.
+The luxICDABEG transcription level is quantitatively measured by the GFP/mCherry fluorescence ratio; this normalization accounts for potential variations in either growth rates or copy number of the reporter plasmid in different strains.
+We found that there was a significant difference in the level of luxICDABEG transcription in strain TIM366 when rpoQ was induced (Fig. 6).
+As predicted, luxICDABEG transcription was higher in a DeltaluxO mutant and lower in a DeltalitR mutant than that in the wild-type strain, independent of supplemented IPTG.
+In contrast, overexpression of rpoQ had no effect on luxR promoter activity (data not shown), and overexpression of VF_A1016 did not affect luminescence (see Fig. S2 in the supplemental material).
+
+We next asked whether the repression of the luxICDABEG promoter by RpoQ functioned through (i) LitR, the transcriptional regulator known to affect the activity of the luxICDABEG promoter, (ii) VF_A1014, which is the gene downstream of rpoQ that encodes a GGDEF- and EAL-domain-containing protein, (iii) a nearby gene encoding the response regulator VF_A1017, or (iv) ArcA, the recently discovered negative regulator of luminescence (38).
+We moved the inducible rpoQ-bearing plasmid pXDC10 into the DeltalitR (TIM358), DeltaVF_A1014 (CA8), VF_A1017 (KV1612), and DeltaarcA (AMJ2) mutants and measured their effect on the level of culture luminescence.
+Overexpression of RpoQ repressed luminescence in all of the strains tested (data not shown), suggesting that the repression of luminescence by RpoQ is independent of transcriptional regulation by LitR, VF_A1014, VF_A1017, or ArcA.
+
+
+
+Overexpression of RpoQ decreases motility.
+
+To investigate whether RpoQ is involved in the regulation of other quorum-signaling-dependent phenotypes besides luminescence, we examined the impact of overexpressing RpoQ on V. fischeri flagellar motility.
+The DeltalitR mutant displayed hypermotile phenotypes, as previously reported (6).
+In contrast, when RpoQ was overexpressed in either the wild type or the DeltalitR mutant, both were essentially nonmotile (Fig. 7), suggesting that quorum signaling regulates motility, at least in part, through an RpoQ mechanism downstream of LitR.
+Interestingly, overexpression of VF_A1016 had a small positive effect on wild-type motility (see Fig. S3 in the supplemental material).
+
+
+
+RpoQ elevates chitinase activity.
+
+Quorum signaling negatively regulates chitinase activity in Vibrio harveyi; however, in Chromobacterium violaceum it leads to its activation (39, 40).
+To test whether and how RpoQ might control chitinase activity in V. fischeri, we examined the spent culture supernatants of the wild type and the DeltarpoQ mutant carrying the vector plasmid (pTM214) and the inducible rpoQ allele (pXDC10), as well as the DeltalitR mutant harboring the vector plasmid (pTM214).
+The supernatant of a culture of the DeltarpoQ mutant showed chitinase activity that was significantly lower (about 50%) than that of the wild type (Fig. 8A).
+In contrast, the supernatants of both the wild type and the DeltarpoQ mutant overexpressing RpoQ showed chitinase activity that was 2.3- to 2.8-fold-higher than that of the wild type carrying the vector.
+These results indicate that an increased level of RpoQ elevates chitinase activity in V. fischeri.
+Interestingly, there was no difference in chitinase activity between the wild-type strain and a DeltalitR mutant (Fig. 8A), suggesting that the basal levels of RpoQ present even in a DeltalitR mutant are sufficient to result in normal chitinase activity (Fig. 9).
+Furthermore, the supernatant of the wild type overexpressing VF_A1016 also showed chitinase activity that was 2.4-fold higher than that of the wild type carrying the vector (see Fig. S4 in the supplemental material), supporting the possibility that RpoQ may elevate chitinase activity through VF_A1016.
+
+Previous studies predicted that there are 7 chitinase genes encoded by V. fischeri ES114: VF_0655, VF_0986, VF_1059, VF_1146, VF_1390, VF_1598, and VF_A0715 (41).
+To test which of these chitinase genes is regulated by RpoQ, qRT-PCR was carried out using the wild-type strain carrying either the empty vector plasmid (pTM214) or the inducible rpoQ allele (pXDC10) in the present of IPTG.
+The transcription levels of four of the genes (VF_0986, VF_0655, VF_1598, and VF_1390) were significant higher when RpoQ was overexpressed (Fig. 8B).
+In contrast, the transcription levels of VF_A0715, VF_1146, and VF_1059 were independent of RpoQ.
+These data reveal that RpoQ activates the transcription of some chitinase genes, resulting in elevated levels of secreted exochitinase activity.
+
+
+
+

@@ -1,0 +1,66 @@
+Results
+
+Deletion of adpA affects the expression of hundreds of genes during early stationary phase
+
+We had previously inactivated adpA in S. lividans and found that this adpA mutant failed to produce aerial mycelium on rich media and that its growth was comparable to that of the parental strain 1326 in liquid YEME medium at 30 degrees C [25].
+Expression studies with this S. lividans adpA mutant cultivated in liquid medium identified two differentiation-regulating factors (STI1 and the ClpP1ClpP2 peptidases) whose ORFs were under the direct control of AdpA [25].
+We used transcriptome analysis of this adpA mutant to identify other AdpA-dependent pathways in S. lividans; however, this analysis was performed using S. coelicolor microarrays [29] because the S. lividans genome sequence was not yet available [24] and the two species are very closely related [41].
+Total RNA was isolated from S. lividans 1326 and adpA cells during early stationary phase (time point T in Figure 1a) because at this growth phase, S. coelicolor adpA is expressed [4]; also the expression of genes involved in secondary metabolism in a S. coelicolor bldA mutant [42], a strain defective for AdpA translation, starts to diverge from that in the wild-type.
+
+Global gene expression in the mutant was compared to that in the parental strain.
+The expression of more than 300 genes was affected in the adpA mutant at early stationary phase (Table 1 and Additional file 2: Table S2): 193 genes were significantly down-regulated (1.6-to 30-fold i.e. 0.033 < Fc < 0.625), and 138 were up-regulated (1.6-to 3.6-fold) with a P-value < 0.05 (see Additional file 2: Table S2 for the complete data set).
+Theses genes encode proteins of several different classes according to the Welcome Trust Sanger Institute S. coelicolor genome database [37]: 72 of the genes are involved in metabolism of small molecules, including seven playing a role in electron transport (e.g. SLI0755-SLI0754, cydAB operons) (Table 1); 18 encode proteins involved in secondary metabolism, for example the cchA-cchF gene cluster (SLI0459-0454) involved in coelichelin biosynthesis [43] and the SLI0339-0359 cluster encoding the putative deoxysugar synthase/glycosyltransferase.
+Deletion of adpA in S. lividans also affected the expression of 32 genes involved in regulation including ramR (SLI7029), wblA (SLI3822), bldN (SLI3667), hrdD (SLI3556) and cutRS (SLI6134-35) [1,6].
+Sixty-two genes involved in the cell envelope [37] were differentially expressed in the adpA mutant; they include hyaS (SLI7885) [44], chpE, chpH[1], SLI6586 and SLI6587 which were strongly down-regulated in the adpA mutant (Table 1).
+Thirty-nine genes encoding proteins involved in various cellular processes (osmotic adaptation, transport/binding proteins, chaperones, and detoxification) [37] were also deregulated in the absence of AdpA (Additional file 2: Table S2).
+The expression of 111 genes coding for proteins with unidentified or unclassified function was altered in the adpA mutant.
+Thus, deletion of adpA influenced the expression of a large number of genes involved in a broad range of metabolic pathways, and indeed other functions, in S. lividans.
+
+
+
+Identification of new AdpA-controlled genes
+
+To confirm that S. lividans AdpA controls the expression of genes identified as differentially expressed in microarray experiments, six genes were studied in more detail by qRT-PCR.
+The six genes were selected as having biological functions related to Streptomyces development or the cell envelope (ramR[1], hyaS[44] and SLI6586 [37]) or primary or secondary metabolism (SLI0755, cchA, and cchB[43]), and for having very large fold-change values (Table 1).
+The genes in S. coelicolor and griseus orthologous to SLI6586 and SLI6587 encode secreted proteins [12,42].
+The expression levels of these genes in S. lividans wild-type and adpA strains were measured after various times of growth in liquid YEME media (Figure 1b), as shown in Figure 1a.
+
+The S. lividans hyaS gene was strongly down-regulated in the adpA mutant compared to the wild-type (Fc < 0.03) (Figure 1b) as previously observed for the SCO0762 homolog also known as sti1[25].
+This suggests that hyaS expression is strongly dependent on S. lividans AdpA or an AdpA-dependent regulator.
+SLI0755, SLI6586 and ramR, were also expressed at a lower level in the adpA mutant than wild-type, particularly after mid-exponential phase (Figure 1b, times C, D and T); cchB seemed to be mostly affected by AdpA during stationary phase (Figure 1b, time T).
+The expression of cchA was strongly down-regulated by the absence of AdpA at times D and T (Figure 1b): note that despite repeated efforts, cchA expression could not be detected in samples corresponding to times A to C for unknown reasons.
+The findings for gene expression as determined by microarrays and by qRT-PCR were consistent, with the exception of those for ramR.
+The expression of ramR observed by qRT-PCR at time T differed from that determined in microarray experiments (Table 1), suggesting that some of our microarray data are flattened.
+Nevertheless, these qRT-PCR experiments confirmed that the expression of the six selected genes is indeed AdpA-dependent in S. lividans at every growth time studied.
+
+
+
+Direct binding of AdpA to the promoter regions of S. lividans AdpA regulon members
+
+To determine whether S. lividans AdpA directly controls these genes, we searched for potential AdpA-binding sites in their promoter regions in silico.
+A consensus AdpA-binding sequence (5'TGGCSNGWWY3') has been established in S. griseus, and AdpA can bind up to five sites between positions -260 bp and +60 bp with respect to the transcriptional start point of the target gene [10].
+BLAST analysis revealed that the S. griseus AdpA DNA-binding domain is conserved in S. coelicolor and S. lividans AdpAs (data not shown) suggesting that all three species share the same AdpA-binding consensus sequence.
+
+The DNA sequences upstream from the S. coelicolor ramR and hyaS genes and the intergenic region between the divergently transcribed genes cchA/cchB, SCO0774/SCO0775 and SCO6197/SCO6198 were analyzed using PREDetector software [39] and a matrix was generated with identified S. griseus AdpA-binding sequences [10,23,25].
+Between three and nine putative AdpA-binding sites were detected within the promoter region of the S. coelicolor genes and by analogy in orthologous S. lividans AdpA-dependent genes (Table 2, location with respect to translation start point).
+During the course of this study, the S. lividans 1326 genome sequence became available [24] (but not in a form suitable for analysis with PREDetector (version 1.2.3.0) [39]) and its analysis suggested that the position and composition of AdpA-binding sites were different from those predicted.
+The putative AdpA-binding sites of S. lividans cchA/cchB at -101 nt and -86 nt are GGGCCGGTTC and TGGCTGGAAC, respectively.
+The AdpA-binding sites located upstream of SLI0755, SLI6586, and hyaS differ from their S. coelicolor orthologs (see Table 2, changes in the location from translation start site are indicated in bracket).
+
+We used EMSA to test whether S. lividans AdpA binds to predicted S. lividans AdpA-binding sequence.
+Recombinant purified AdpA-His6 bound to the promoter region of S. lividans sti1 (SCO0762 homolog), an AdpA-dependent gene, whereas an excess of AdpA-His6 (up to 34 pmoles) did not bind to the promoter of SLI4380 (SCO4141 homolog), a gene that is not controlled by S. lividans AdpA.
+This suggests that the binding of AdpA with the promoter of genes tested in our previous study was specific [25].
+AdpA-His6 was able to bind to the promoter regions of all S. lividans AdpA-dependent genes tested (Table 2, Figure 2), although with different affinities.
+For SLI6586/SLI6587, ramR and hyaS, displacement of the DNA fragment to the slower migrating protein-DNA complex was nearly complete with amounts of AdpA of less than 11 pmoles (Figure 2, lane 2).
+For cchA/cchB and SLI0755/SLI0756, larger amounts of AdpA were necessary for near complete displacement of the DNA probe to a protein-DNA complex.
+In a competition EMSA performed on SLI6586/6587 with an excess of the corresponding unlabelled probe, AdpA-binding to the labelled probe decreased (data not shown).
+We also tested a hyaS promoter in which one (highest score) of the three putative AdpA-binding sites was mutated (at position -134 to -129, see Additional file 3: Figure S1a): the affinity of AdpA for this promoter region was reduced and one protein-DNA complex disappeared (Additional file 3: Figure S1b).
+These results suggest that one dimer of AdpA binds the adjacent sites -129 and -123 of S. lividans hyaS promoter and another dimer binds the -100 site resulting in the formation of the two DNA-AdpA complexes depicted in Figure 2.
+
+These EMSA experiments demonstrated that S. lividans AdpA directly binds to five intergenic regions and confirmed the in silico prediction presented in Table 2.
+S. lividans AdpA directly regulates at least the six AdpA-dependent genes listed above and identified by microarrays and qRT-PCR analysis.
+These newly identified targets highlight the pleiotropic role of S. lividans AdpA: it is involved in primary (SLI0755) and secondary (cchA, cchB and hyaS) metabolisms, in regulation (ramR), and in cell development (hyaS, ramR and SLI6586).
+
+
+
+

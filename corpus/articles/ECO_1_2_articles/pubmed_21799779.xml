@@ -1,0 +1,1372 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21799779</article-id>
+      <article-id pub-id-type="pmc">3140484</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-11-04019</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0022143</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Physiology</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Microbial Control</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Signal Transduction</subject>
+              <subj-group>
+                <subject>Signaling in Cellular Processes</subject>
+                <subj-group>
+                  <subject>Transmembrane Signaling</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Cellular Stress Responses</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Two-Component Signal Transduction System CopRS of <italic>Corynebacterium glutamicum</italic> Is Required for Adaptation to Copper-Excess Stress</article-title>
+        <alt-title alt-title-type="running-head">Copper-Excess Stress in <italic>Corynebacterium glutamicum</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schelder</surname>
+            <given-names>Stephanie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zaade</surname>
+            <given-names>Daniela</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>&#xA4;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Litsanov</surname>
+            <given-names>Boris</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bott</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Brocker</surname>
+            <given-names>Melanie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Institut f&#xFC;r Bio-und Geowissenschaften, IBG-1: Biotechnologie, Forschungszentrum J&#xFC;lich, J&#xFC;lich, Germany</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Adler</surname>
+            <given-names>Ben</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Monash University, Australia</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>m.brocker@fz-juelich.de</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: SS M. Bott M. Brocker. Performed the experiments: DZ BL SS. Analyzed the data: SS M. Brocker. Contributed reagents/materials/analysis tools: M. Bott. Wrote the paper: SS M. Brocker.</p>
+        </fn>
+        <fn id="fn1" fn-type="current-aff">
+          <label>&#xA4;</label>
+          <p>Current address: Center for Cardiovascular Research (CCR)/Institute of Pharmacology, Charit&#xE9;-Universit&#xE4;tsmedizin Berlin, Berlin, Germany</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>7</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>7</issue>
+      <elocation-id>e22143</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>2</day>
+          <month>3</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>6</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Schelder et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+      </permissions>
+      <abstract>
+        <p>Copper is an essential cofactor for many enzymes but at high concentrations it is toxic for the cell. Copper ion concentrations &#x2265;50 &#xB5;M inhibited growth of <italic>Corynebacterium glutamicum</italic>. The transcriptional response to 20 &#xB5;M Cu<sup>2+</sup> was studied using DNA microarrays and revealed 20 genes that showed a &#x2265; 3-fold increased mRNA level, including cg3281-cg3289. Several genes in this genomic region code for proteins presumably involved in the adaption to copper-induced stress, e. g. a multicopper oxidase (CopO) and a copper-transport ATPase (CopB). In addition, this region includes the <italic>copRS</italic> genes (previously named <italic>cgtRS9</italic>) which encode a two-component signal transduction system composed of the histidine kinase CopS and the response regulator CopR. Deletion of the <italic>copRS</italic> genes increased the sensitivity of <italic>C. glutamicum</italic> towards copper ions, but not to other heavy metal ions. Using comparative transcriptome analysis of the &#x394;<italic>copRS</italic> mutant and the wild type in combination with electrophoretic mobility shift assays and reporter gene studies the CopR regulon and the DNA-binding motif of CopR were identified. Evidence was obtained that CopR binds only to the intergenic region between cg3285 (<italic>copR</italic>) and cg3286 in the genome of <italic>C. glutamicum</italic> and activates expression of the divergently oriented gene clusters cg3285-cg3281 and cg3286-cg3289. Altogether, our data suggest that CopRS is the key regulatory system in <italic>C. glutamicum</italic> for the extracytoplasmic sensing of elevated copper ion concentrations and for induction of a set of genes capable of diminishing copper stress.</p>
+      </abstract>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Due to its ability to change between the oxidised Cu<sup>2+</sup> and reduced Cu<sup>+</sup> state, copper has become a versatile cofactor for enzymes involved in electron transport or redox reactions such as cytochrome <italic>c</italic> oxidases or monooxygenases <xref ref-type="bibr" rid="pone.0022143-Ridge1">[1]</xref>. However, in high concentrations uncomplexed copper ions can generate reactive oxygen species or lead to sulfhydryl depletion and thereby become toxic for the cell <xref ref-type="bibr" rid="pone.0022143-Solioz1">[2]</xref>. Hence, the amount of copper ions inside the cell must be tightly regulated to prevent deprivation as well as high, toxic copper concentrations. In prokaryotes several copper resistance systems have been characterised, among the best studied systems being those of <italic>Enterococcus hirae</italic> for Gram-positive and of <italic>Escherichia coli</italic> for Gram-negative bacteria (for reviews see <xref ref-type="bibr" rid="pone.0022143-Solioz1">[2]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0022143-Osman1">[5]</xref>).</p>
+      <p>In <italic>E. hirae</italic> the <italic>cop</italic> operon is mainly responsible for copper homeostasis. It consists of four genes coding for a transcriptional repressor (CopY), a copper chaperon (CopZ) and two copper P-type ATPases (CopA and CopB). In the presence of elevated copper concentrations CopZ donates Cu<sup>+</sup> to CopY resulting in a derepression of the <italic>cop</italic> operon and subsequently in copper export by CopB <xref ref-type="bibr" rid="pone.0022143-Solioz1">[2]</xref>. In <italic>E. coli</italic>, copper homeostasis is achieved by the action of the MerR-type regulator CueR in concert with two-component systems, such as the CusRS two-component system <xref ref-type="bibr" rid="pone.0022143-Rensing1">[4]</xref>, <xref ref-type="bibr" rid="pone.0022143-Yamamoto1">[6]</xref>, <xref ref-type="bibr" rid="pone.0022143-Outten1">[7]</xref>. In the presence of elevated copper concentrations, CueR activates the transcription of <italic>copA</italic> and <italic>cueO</italic> encoding a P-type ATPase and an oxygen-dependent multicopper oxidase, respectively <xref ref-type="bibr" rid="pone.0022143-Fan1">[8]</xref>, <xref ref-type="bibr" rid="pone.0022143-Rensing2">[9]</xref>. CopA is responsible for exporting excess Cu<sup>+</sup> from the cytoplasm into the periplasm where it is oxidised to the less toxic Cu<sup>2+</sup> by CueO. The two-component system CusRS was found to play a role in copper homeostasis under anoxic conditions. It represents a prototypical two-component system <xref ref-type="bibr" rid="pone.0022143-Stock1">[10]</xref> where the membrane-bound sensor kinase CusS monitors the periplasmic copper concentration and autophosphorylates a histidine residue at elevated copper concentrations. The phosphoryl group is then transferred to an aspartate residue of the response regulator CusR, which then activates transcription of the <italic>cusRS</italic> operon and of the adjacent but divergently oriented <italic>cusCFBA</italic> operon <xref ref-type="bibr" rid="pone.0022143-Munson1">[11]</xref>. The translation products CusCBA (a proton-cation antiporter) and CusF (a copper chaperone) then contribute to copper tolerance under copper stress conditions.</p>
+      <p>Recently a novel type of copper-sensing transcriptional repressors (CsoR-type) was identified in <italic>Mycobacterium tuberculosis</italic> <xref ref-type="bibr" rid="pone.0022143-Liu1">[12]</xref>. In <italic>M. tuberculosis</italic>, when there is no copper excess stress, the transcriptional regulator CsoR represses the expression of its own operon (<italic>cso</italic> operon) which includes a gene coding for the putative copper exporter CtpV <xref ref-type="bibr" rid="pone.0022143-Ward1">[13]</xref>, <xref ref-type="bibr" rid="pone.0022143-Ward2">[14]</xref>. By binding Cu<sup>+</sup>, CsoR loses its DNA-binding affinity resulting in derepression of the <italic>cso</italic> operon and export of copper <italic>via</italic> CtpV.</p>
+      <p>In the soil bacterium <italic>Corynebacterium glutamicum</italic> <xref ref-type="bibr" rid="pone.0022143-Eggeling1">[15]</xref>, <xref ref-type="bibr" rid="pone.0022143-Burkovski1">[16]</xref>, a close relative of <italic>M. tuberculosis</italic>, the control of copper homeostasis has not been studied yet. <italic>C. glutamicum</italic> belongs to the <italic>Corynebacterium-Mycobacterium-Nocardia</italic> group of actinomycetes and serves as a nonpathogenic model organism for studying selected features common to corynebacteria and pathogenic mycobacteria. Additionally, this species is of interest due to its biotechnological importance as a producer of L-glutamate and L-lysine. Recent studies suggested that <italic>C. glutamicum</italic> possesses four cuproproteins (the cytochrome <italic>aa</italic><sub>3</sub> oxidase subunits I and II and two multicopper oxidases), two copper transporters which are likely exporters, and four copper chaperones <xref ref-type="bibr" rid="pone.0022143-Ridge1">[1]</xref>, <xref ref-type="bibr" rid="pone.0022143-Niebisch1">[17]</xref>, <xref ref-type="bibr" rid="pone.0022143-Zhang1">[18]</xref>. Since cytochrome <italic>aa</italic><sub>3</sub> oxidase plays a key role in the energy household of <italic>C. glutamicum</italic> <xref ref-type="bibr" rid="pone.0022143-Bott1">[19]</xref>, copper homeostasis is probably also important for biotechnological production processes.</p>
+      <p>Here we investigated copper homeostasis and its regulation in <italic>C. glutamicum</italic>. We identified the copper excess stimulon and provided evidence that the adaption to excess copper involves the two-component signal transduction system CopRS (previously named CgtRS9, Accession UniProtKB Q6M1P4 and Q8NLH8). We could identify direct target genes of the response regulator CopR and show that these were activated in a copper-dependent manner. The CopR DNA-binding motif was identified and evidence was provided that CopR is active in its phosphorylated state.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Response of <italic>C. glutamicum</italic> to elevated copper concentrations</title>
+        <p>First, the growth of <italic>C. glutamicum</italic> wild type in the presence of elevated copper ion concentrations was determined. Therefore, cells were grown in CGXII minimal medium (standard copper concentration: 1.25 &#xB5;M) to an OD<sub>600</sub> of 5&#x2013;6 and then different CuSO<sub>4</sub> concentrations (5&#x2013;500 &#xB5;M) were added to the cultures (<xref ref-type="fig" rid="pone-0022143-g001">Fig. 1</xref>). Whereas the addition of 5 and 20 &#xB5;M CuSO<sub>4</sub> had no effect on the growth of <italic>C. glutamicum</italic> compared to the control culture (no additional copper), higher CuSO<sub>4</sub> concentrations led to reduced growth rates. The addition of 500 &#xB5;M CuSO<sub>4</sub> completely inhibited growth of <italic>C. glutamicum</italic>, however, after approx. 7 h the culture resumed growth and reached the usual final cell density.</p>
+        <fig id="pone-0022143-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Influence of different copper ion concentrations on the growth of <italic>C. glutamicum</italic> wild type.</title>
+            <p>Cells pregrown in CGXII minimal medium with 4% (w/v) glucose were used to inoculate 50 ml of fresh CGXII medium (1.25 &#xB5;M CuSO<sub>4</sub>). When the cultures had reached an OD<sub>600</sub> of about 5&#x2013;6, different CuSO<sub>4</sub> concentrations were added (indicated by an arrow). The cultures were incubated at 30&#xB0;C on a rotary shaker at 120 rpm. The growth curves shown here are representative of those from three independent growth experiments with comparable results.</p>
+          </caption>
+          <graphic xlink:href="pone.0022143.g001"/>
+        </fig>
+        <p>In order to identify genes that were differentially expressed in the presence of elevated copper ion concentrations in the medium, DNA microarray experiments were performed. <italic>C. glutamicum</italic> wild type cells were pre-cultivated in CGXII minimal medium overnight and then used to inoculate fresh standard CGXII medium (containing 1.25 &#xB5;M CuSO<sub>4</sub>) or CGXII medium containing 21.25 &#xB5;M CuSO<sub>4</sub>. After the cultures had reached an OD<sub>600</sub> of 5&#x2013;6, the cells were harvested and used for RNA preparation. Altogether 26 genes showed a more than threefold changed mRNA level in at least two of four independent biological replicates (<italic>P</italic>-value&#x2264;0.05). Six of these genes, all of which encode proteins of unknown function, showed a decreased mRNA level and 20 genes an increased mRNA level in the presence of 21.25 &#xB5;M CuSO<sub>4</sub> (<xref ref-type="table" rid="pone-0022143-t001">Table 1</xref>). The latter group included two genes coding for the transcriptional regulators ArsR1 and CopR (previously named CgtR9). ArsR1 belongs to the SmtB/ArsT family of metal-sensing transcriptional repressors and regulates the <italic>ars</italic> operons (cg0318-cg0319 and cg1705-cg1707) in an arsenic-dependent manner <xref ref-type="bibr" rid="pone.0022143-Ordonez1">[20]</xref>. In the presence of As<sup>3+</sup>, a derepression of the <italic>ars</italic> operons occurs which leads to increased tolerance to elevated arsenic concentrations. Despite the increased mRNA level of <italic>arsR1</italic> the expression level of the <italic>ars</italic> operons was not altered, indicating that an elevated copper ion concentration does not cause a dissociation of ArsR1 from its target promoters and hence no derepression of the target genes. CopR is a response regulator and part of the CopR-CopS two-component system <xref ref-type="bibr" rid="pone.0022143-Kocan1">[21]</xref>. The <italic>copRS</italic> genes (cg3285 and cg3284, respectively) as well as the up- and downstream genes (cg3286-cg3289 and cg3283-cg3281) exhibited highly increased mRNA levels (<xref ref-type="table" rid="pone-0022143-t001">Table 1</xref>), indicating that this gene region is particularly important for the adaption to copper excess conditions. This assumption is supported by the fact that several of these genes code for proteins that are obviously linked to copper homeostasis, such as a putative copper-transporting ATPase (CopB, Cg3281; Accession UniProtKB Q8NLI0) and a secreted multicopper oxidase (CopO, Cg3287; Accession UniProtKB Q8NLH5). Since genes encoding transcriptional regulators are often localised in the immediate vicinity of their target genes, the CopRS two-component system might be responsible for the altered expression of cg3281-cg3289.</p>
+        <table-wrap id="pone-0022143-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Transcriptome comparison of <italic>C. glutamicum</italic> ATCC 13032 cultivated in CGXII minimal medium supplemented with 21.25 &#xB5;M CuSO<sub>4</sub> (Cu<sup>&#x2191;</sup>) and in standard CGXII medium with 1.25 &#xB5;M CuSO<sub>4</sub> (Cu<sup>s</sup>) using DNA microarrays.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0022143-t001-1" xlink:href="pone.0022143.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg no.</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl no.</td>
+                  <td align="left" rowspan="1" colspan="1">Gene</td>
+                  <td align="left" rowspan="1" colspan="1">Known or predicted function of gene product</td>
+                  <td align="left" rowspan="1" colspan="1">Cu<sup>&#x2191;</sup>/Cu<sup>s</sup></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="5" align="left" rowspan="1">
+                    <bold>Copper-related proteins</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3281</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2859</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">probable cation-transporting ATPasetransmembrane protein</td>
+                  <td align="left" rowspan="1" colspan="1">11.22</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3282</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2860</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">heavy metal binding transport protein</td>
+                  <td align="left" rowspan="1" colspan="1">14.91</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3283</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">12.36</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3284</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2862</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copS</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">two component sensor kinase</td>
+                  <td align="left" rowspan="1" colspan="1">545.93</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3285</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2863</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">two component response regulator</td>
+                  <td align="left" rowspan="1" colspan="1">38.68</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3286</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2864</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">52.96</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3287</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2865</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copO</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">secreted multicopper oxidase</td>
+                  <td align="left" rowspan="1" colspan="1">267.14</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3288</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">422.20</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3289</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2866</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>tlpA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">thioredoxin-like protein</td>
+                  <td align="left" rowspan="1" colspan="1">235.59</td>
+                </tr>
+                <tr>
+                  <td colspan="5" align="left" rowspan="1">
+                    <bold>Proteins involved in heme biosynthesis and cytochrome </bold>
+                    <bold>
+                      <italic>c</italic>
+                    </bold>
+                    <bold> maturation</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0518</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0422</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>hemL</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">glutamate-1-semialdehyde-2,1-aminomutase</td>
+                  <td align="left" rowspan="1" colspan="1">3.63</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0519</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0423</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">putative phosphoglycerate mutase</td>
+                  <td align="left" rowspan="1" colspan="1">4.13</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0520</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0424</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">periplasmic thioredoxin</td>
+                  <td align="left" rowspan="1" colspan="1">4.62</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0522</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0425</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>ccsA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">cytochrome <italic>c</italic> biogenesis protein membrane protein</td>
+                  <td align="left" rowspan="1" colspan="1">3.61</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0524</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0427</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>ccsB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">cytochrome <italic>c</italic> assembly membrane protein</td>
+                  <td align="left" rowspan="1" colspan="1">3.65</td>
+                </tr>
+                <tr>
+                  <td colspan="5" align="left" rowspan="1">
+                    <bold>Other proteins</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0915</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0769</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>ftsX</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">putative cell division protein</td>
+                  <td align="left" rowspan="1" colspan="1">3.79</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1109</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0933</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>porB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">anion-specific porin precursor</td>
+                  <td align="left" rowspan="1" colspan="1">3.61</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1704</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>arsR1</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">ArsR-type transcriptional regulator</td>
+                  <td align="left" rowspan="1" colspan="1">6.02</td>
+                </tr>
+                <tr>
+                  <td colspan="5" align="left" rowspan="1">
+                    <bold>Proteins of unknown function</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0905</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0760</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.19</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1514</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1289</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.32</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1918</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1635</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.32</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2058</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.25</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2348</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2059</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipoprotein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">4.55</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2799</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2452</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">3.88</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3343</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2912</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted membrane protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.31</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3344</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2913</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">52.92</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg4005</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1288</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipoprotein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.22</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>The mRNA ratios shown represent mean values from four independent DNA microarray experiments starting from independent cultures. The wild type was cultivated in CGXII minimal medium with 4% (w/v) glucose with or without additional 20 &#xB5;M CuSO<sub>4</sub> and mRNA was prepared from cells in the exponential growth phase. The table includes those genes which showed an at least threefold changed mRNA level (increased or decreased) in at least two of the four replicates with a <italic>P</italic>-value of &#x2264;0.05.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>In summary, the transcriptome data led to the identification of the copper excess stimulon and provided evidence for the involvement of CopR in the regulation of copper homeostasis in <italic>C. glutamicum</italic>. In the remaining part of this study the role of the CopRS two-component system in copper homeostasis was investigated.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Influence of CopRS on the resistance to heavy metals</title>
+        <p>In order to verify the involvement of the CopRS two-component system in copper homoeostasis, the resistance of a <italic>copRS</italic> deletion mutant <xref ref-type="bibr" rid="pone.0022143-Kocan1">[21]</xref> to copper ions and other heavy metal salts was compared to the wild type using agar diffusion assays. An increased susceptibility was only observed for copper ions (<xref ref-type="fig" rid="pone-0022143-g002">Fig. 2A</xref>) but not for all other heavy metal ions tested (nickel, manganese, zinc, silver, cobalt, lead or cadmium; data not shown). Cultivation of &#x394;<italic>copRS</italic> and <italic>C. glutamicum</italic> wild type in CGXII minimal medium to which different CuSO<sub>4</sub> concentrations (5&#x2013;500 &#xB5;M) were added when the cultures had reached an OD<sub>600</sub> of 5&#x2013;6 corroborated the reduced resistance to copper ions of the mutant strain (<xref ref-type="fig" rid="pone-0022143-g003">Fig. 3</xref>). The phenotype could be complemented by plasmid-borne <italic>copRS</italic> expression (<xref ref-type="fig" rid="pone-0022143-g002">Fig. 2B</xref>). These results confirmed the assumption that CopRS is involved in copper homeostasis of <italic>C. glutamicum</italic>.</p>
+        <fig id="pone-0022143-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Agar diffusion assays showing growth inhibition of different <italic>C. glutamicum</italic> strains by copper ions.</title>
+            <p>(A) Comparison of the copper sensitivity of <italic>C. glutamicum</italic> wild type and the &#x394;<italic>copRS</italic> deletion mutant. The inhibition zone (black halo) increased with higher copper concentrations and was larger for the deletion mutant. (B) The <italic>copRS</italic> deletion can be complemented using the plasmid encoded <italic>copRS</italic> genes. For experimental details see Material and Methods.</p>
+          </caption>
+          <graphic xlink:href="pone.0022143.g002"/>
+        </fig>
+        <fig id="pone-0022143-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Influence of increasing copper ion concentrations on growth of <italic>C. glutamicum</italic> wild type (&#x25AA;) and <italic>C. glutamicum</italic> &#x394;<italic>copRS</italic> (&#x2022;).</title>
+            <p>For experimental details see legend to <xref ref-type="fig" rid="pone-0022143-g001">Fig. 1</xref>. The time points of CuSO<sub>4</sub> addition are indicated by arrows.</p>
+          </caption>
+          <graphic xlink:href="pone.0022143.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>Comparison of the expression profiles of the &#x394;<italic>copRS</italic> mutant and the wild type</title>
+        <p>To identify the regulon of the response regulator CopR, the transcriptome of the &#x394;<italic>copRS</italic> deletion mutant was compared to that of the wild type using DNA microarrays. For cells grown in standard CGXII medium (1.25 &#xB5;M CuSO<sub>4</sub>), no significant gene expression differences were observed, indicating that the CopRS two-component system is not active under this condition (data not shown). However, in the presence of elevated copper ion concentrations (21.25 &#xB5;M), the mRNA level of 43 genes was changed more than threefold (<xref ref-type="table" rid="pone-0022143-t002">Table 2</xref>) in the &#x394;<italic>copRS</italic> mutant, showing that CopRS is active in the presence of elevated copper concentrations and further supporting our hypothesis that CopRS is involved in copper-induced stress regulation. Besides <italic>copS</italic> and <italic>copR</italic>, the strongest downregulation was observed for the gene cluster cg3286-cg3289 (50- to 100-fold decreased mRNA level in the mutant strain), which is located directly upstream of <italic>copRS</italic> in reverse orientation and belongs to the copper excess stimulon. The genes encode a secreted protein of unknown function (Cg3286), a putative secreted multicopper oxidase (CopO, Cg3287), a protein of unknown function (Cg3288), and a thioredoxin-like protein (TlpA, Cg3289). In addition, several genes which encode transport systems were downregulated in the mutant (<xref ref-type="table" rid="pone-0022143-t002">Table 2</xref>). Except for the glutamate uptake system (GluABCD), none of these transport systems has been characterised in detail yet, but it was supposed that Cg0507 and Cg0508, Cg0924-Cg0927, and Cg3434 are involved in iron uptake <xref ref-type="bibr" rid="pone.0022143-Kronemeyer1">[22]</xref>, <xref ref-type="bibr" rid="pone.0022143-Frunzke1">[23]</xref>. The genes cg3281-cg3283, which were also part of the copper excess stimulon, showed a 1.6-2.3-fold (<italic>P</italic>-value&#x2264;0.05) decreased mRNA level in the &#x394;<italic>copRS</italic> mutant, as well (data not shown).</p>
+        <table-wrap id="pone-0022143-t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Transcriptome comparison of <italic>C. glutamicum</italic> wild type (wt) and the &#x394;<italic>copRS</italic> deletion mutant after cultivation in CGXII minimal medium supplemented with 21.25 &#xB5;M CuSO<sub>4</sub> (Cu<sup>&#x2191;</sup>) using DNA microarrays.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0022143-t002-2" xlink:href="pone.0022143.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg no.</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl no.</td>
+                  <td align="left" rowspan="1" colspan="1">Gene</td>
+                  <td align="left" rowspan="1" colspan="1">Known or predicted function of gene product</td>
+                  <td align="left" rowspan="1" colspan="1">&#x394;<italic>copRS</italic> Cu<sup>&#x2191;</sup>/wt Cu<sup>&#x2191;</sup></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" align="left" rowspan="1">
+                    <bold>Copper-related proteins</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3284</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2862</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copS</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">two component sensor kinase</td>
+                  <td align="left" rowspan="1" colspan="1">0.00</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3285<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2863</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">two component response regulator</td>
+                  <td align="left" rowspan="1" colspan="1">0.00</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3286<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2864</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.01</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3287<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2865</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>copO</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">secreted multicopper oxidase</td>
+                  <td align="left" rowspan="1" colspan="1">0.01</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3288</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.01</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3289<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2866</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>tlpA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">thioredoxin-like protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.02</td>
+                </tr>
+                <tr>
+                  <td colspan="4" align="left" rowspan="1">
+                    <bold>Transporter or transport-related proteins</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0507</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0412</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type transporter, permease component</td>
+                  <td align="left" rowspan="1" colspan="1">0.30</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0508<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0413</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted substrate-binding lipoprotein</td>
+                  <td align="left" rowspan="1" colspan="1">0.29</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0622</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0510</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type cobalt transport system, ATPase component</td>
+                  <td align="left" rowspan="1" colspan="1">0.24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0623</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0511</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type cobalt transport system, permease component</td>
+                  <td align="left" rowspan="1" colspan="1">0.26</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0624<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0512</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted oxidoreductase; protein of unknown function</td>
+                  <td align="left" rowspan="1" colspan="1">0.25</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0924<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0776</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted siderophore-binding lipoprotein</td>
+                  <td align="left" rowspan="1" colspan="1">0.20</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0926<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0777</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">siderophore ABC transporter, permease protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.30</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0927</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0778</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">siderophore ABC transporter, permease protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.30</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2136<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1875</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>gluA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">glutamate uptake system ATP-binding protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.38</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2137</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1876</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>gluB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">secreted glutamate binding protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.37</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2138</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1877</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>gluC</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">glutamate permease</td>
+                  <td align="left" rowspan="1" colspan="1">0.39</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2181<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1915</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type peptide transport system, secreted component</td>
+                  <td align="left" rowspan="1" colspan="1">0.24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2182</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1916</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type peptide transport system, permease component</td>
+                  <td align="left" rowspan="1" colspan="1">0.22</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2183</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1917</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type peptide transport system, permease component</td>
+                  <td align="left" rowspan="1" colspan="1">0.20</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2184</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1918</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type peptide transport system, ATPase component</td>
+                  <td align="left" rowspan="1" colspan="1">0.19</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2610<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2294</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type transport system, secreted component</td>
+                  <td align="left" rowspan="1" colspan="1">0.34</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3320<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2891</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">ABC-type transporter, permease component</td>
+                  <td align="left" rowspan="1" colspan="1">0.20</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3404<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2970</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted siderophore-binding lipoprotein</td>
+                  <td align="left" rowspan="1" colspan="1">0.26</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Other</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0414<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0337</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>wzz</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">cell surface polysaccharide biosynthesis/chain length determinant protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.25</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0424<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0347</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">putative glycosyltransferase</td>
+                  <td align="left" rowspan="1" colspan="1">0.09</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0797</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0665</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>prpB1</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">methylisocitric acid lyase</td>
+                  <td align="left" rowspan="1" colspan="1">3.16</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0998</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0841</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">trypsin-like serine protease</td>
+                  <td align="left" rowspan="1" colspan="1">3.53</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1055</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0888</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>menG</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">ribonuclease activity regulator protein RraA</td>
+                  <td align="left" rowspan="1" colspan="1">3.24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1290</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1094</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>metE</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">5-methyltetrahydropteroyltriglutamate-homocysteine methyltransferase</td>
+                  <td align="left" rowspan="1" colspan="1">0.29</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1487</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1262</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>leuC</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">isopropylmalate isomerase, large subunit</td>
+                  <td align="left" rowspan="1" colspan="1">0.37</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2925</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2553</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>ptsS</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">enzyme II sucrose protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.38</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3226<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2816</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">putative L-lactate permease</td>
+                  <td align="left" rowspan="1" colspan="1">0.02</td>
+                </tr>
+                <tr>
+                  <td colspan="4" align="left" rowspan="1">
+                    <bold>Proteins of unknown function</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0077<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0057</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">11.67</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0078</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0058</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">10.02</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0416</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0339</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.34</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg0625</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl0513</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.29</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg1326<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl1126</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.31</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg2799<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2452</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein</td>
+                  <td align="left" rowspan="1" colspan="1">3.29</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3009</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">0.27</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3213</td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2805</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">secreted protein</td>
+                  <td align="left" rowspan="1" colspan="1">3.71</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3377<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2945</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">8.76</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cg3378<sup>&#x2020;</sup></td>
+                  <td align="left" rowspan="1" colspan="1">NCgl2946</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">11.29</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt102">
+              <label/>
+              <p>The mRNA ratios shown represent mean values from five independent DNA microarray experiments starting from independent cultures. The strains were cultivated in CGXII minimal medium with 4% (w/v) glucose with additional 20 &#xB5;M CuSO<sub>4</sub> and mRNA was prepared from cells in the exponential growth phase. The table includes those genes which showed an at least threefold changed mRNA level (increased or decreased) in at least three of the five replicates with a <italic>P</italic>-value of &#x2264;0.05. The putative promoter regions of the genes indicated with a <sup>&#x2020;</sup> were chosen for the EMSAs (see <xref ref-type="supplementary-material" rid="pone.0022143.s001">Fig. S1</xref>).</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2d">
+        <title>Search for direct target genes of CopR</title>
+        <p>In order to test which of the genes with an altered expression in the &#x394;<italic>copRS</italic> mutant are direct target genes of the response regulator CopR, electrophoretic mobility shift assays (EMSAs) were performed with purified CopR and the relevant promoter regions. As phosphorylated CopR protein was found to have a higher binding affinity compared to unphosphorylated CopR (see below), all gel shift experiments were performed with CopR which had been preincubated with the low molecular weight phosphoryl donor acetylphosphate. In a first set of experiments, 21 promoter regions of putative CopR target genes (see <xref ref-type="table" rid="pone-0022143-t002">Table 2</xref>, indicated with <sup>&#x2020;</sup>) and as a negative control the promoter region of an arbitrarily chosen gene (cg1665) were tested. As shown in <xref ref-type="supplementary-material" rid="pone.0022143.s001">Fig. S1</xref>, binding of CopR was only observed with the DNA fragment containing the promoter region of <italic>copR</italic> (229 bp, +9 to &#x2212;220 corresponding to the <italic>copR</italic> translational start site). A complete retardation was observed in the presence of a 25-fold molar excess of phosphorylated CopR. Since the putative binding site of CopR is located in the intergenic region of <italic>copR</italic> and cg3286, which are orientated divergently (<xref ref-type="fig" rid="pone-0022143-g004">Fig. 4A</xref>), not only the cg3285-cg3281 genes, but also the cg3286-cg3289 genes might be regulated by CopR.</p>
+        <fig id="pone-0022143-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Search for the CopR-binding motif within the cg3286-<italic>copR</italic> intergenic region.</title>
+            <p>(A) Scheme of the genome region covering cg3280-cg3289 based on the CoryneRegNet annotation (<ext-link ext-link-type="uri" xlink:href="http://coryneregnet.cebitec.uni-bielefeld.de">http://coryneregnet.cebitec.uni-bielefeld.de</ext-link>). The genes code for a secreted protein of unknown function (cg3280), a probable cation-transporting ATPase transmembrane protein (<italic>copB</italic>, cg3281), a heavy metal binding transport protein (cg3282), a protein of unknown function (cg3283), a secreted protein of unknown function (cg3286), a secreted multicopper oxidase (<italic>copO</italic>, cg3287), a protein of unknown function (cg3288) and a thioredoxin-like protein (<italic>tlpA</italic>, cg3289). (B) Enlargement of the cg3286-<italic>copR</italic> intergenic region and position of DNA fragments 1-5 used for EMSAs. The numbers above the DNA fragments indicate the bp distance of their ends to the translation start site of <italic>copR</italic>. (C) EMSAs with fragments 1&#x2013;5 (100 nM, 155&#x2013;219 bp in length) and phosphorylated CopR. The molar excesses of the CopR used were 0-, 25-, 50-fold.</p>
+          </caption>
+          <graphic xlink:href="pone.0022143.g004"/>
+        </fig>
+      </sec>
+      <sec id="s2e">
+        <title>Influence of phosphorylation on CopR binding affinity</title>
+        <p>To analyse the influence of phosphorylation on the DNA-binding properties of the response regulator CopR, the apparent <italic>K<sub>d</sub></italic> value of unphosphorylated CopR and of CopR that had been preincubated with acetylphosphate were determined using a 5&#x2032;-Cy3-labelled DNA fragment (90 bp) that covers the DNA region from &#x2212;44 to &#x2212;110 upstream of the <italic>copR</italic> translational start site (<xref ref-type="supplementary-material" rid="pone.0022143.s002">Fig. S2</xref>). For CopR preincubated with acetylphosphate an apparent <italic>K<sub>d</sub></italic> value of 0.4 &#xB5;M was calculated (CopR concentration required for binding half of the DNA). Unphosphorylated CopR exhibited a significantly lower affinity and showed an apparent <italic>K<sub>d</sub></italic> value of 2.3 &#xB5;M. These results indicate that CopR is phosphorylated by acetylphosphate and that phosphorylation increases the DNA-binding affinity.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Identification of the CopR binding site</title>
+        <p>In order to identify the CopR binding motif, EMSAs with subfragments of the intergenic region between cg3286 and <italic>copR</italic> were performed. The subfragments were incubated with phosphorylated CopR at two different molar excesses (25- and 50-fold) and separated by 10% native PAGE. As shown in <xref ref-type="fig" rid="pone-0022143-g004">Fig. 4B and C</xref>, binding was observed for fragments 2 and 5, but not for fragments 1, 3, and 4. Consequently, a CopR binding site must be localised between bp &#x2212;59 and &#x2212;78 with respect to the <italic>copR</italic> translational start site. This corresponds to position &#x2212;266 and &#x2212;285 with respect to the cg3286 transcriptional start site, which had been mapped by primer extension analysis 59 bp upstream of the cg3286 start codon (<xref ref-type="supplementary-material" rid="pone.0022143.s003">Fig. S3</xref>). The determination of the <italic>copR</italic> transcriptional start site failed so far although different methods were tested.</p>
+        <p>Analysis of the identified DNA region with the motif alignment and search tool MAST (<ext-link ext-link-type="uri" xlink:href="http://meme.sdsc.edu/meme4_4_0/cgi-bin/mast.cgi">http://meme.sdsc.edu/meme4_4_0/cgi-bin/mast.cgi</ext-link>) revealed the presence of a perfect direct repeat separated by a two base pair linker (<underline>TGAAGATTT</underline>ga<underline>TGAAGATTT</underline>). The relevance of this direct repeat for CopR binding was tested by EMSAs with DNA fragments in which two to four nucleotides of the motif or of the surrounding sequence were exchanged (<xref ref-type="fig" rid="pone-0022143-g005">Fig. 5</xref>). Mutations in the motifs' flanking sequence or in the linker did not affect CopR binding, whereas mutations of three base pairs within the binding motif led to a complete inhibition of CopR binding. These results confirmed that the predicted DNA motif is relevant for CopR binding.</p>
+        <fig id="pone-0022143-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Mutational analysis of the putative CopR binding site within the cg3286-<italic>copR</italic> intergenic region.</title>
+            <p>To determine the importance of the predicted binding motif (sequence in the grey boxes) for CopR binding, fragments with different mutations were tested in EMSAs with phosphorylated CopR. According to the results of the shifts, the fragments were classified into two categories: +, mutated fragment shifted like the wild type fragment; -, the fragment was not shifted.</p>
+          </caption>
+          <graphic xlink:href="pone.0022143.g005"/>
+        </fig>
+        <p>To identify further CopR target genes, the binding motif <underline>TGAAGATTT</underline>nn<underline>TGAAGATTT</underline> was used to search for similar sequences in the whole <italic>C. glutamicum</italic> genome using the ERGO&#x2122; bioinformatics suite (Integrated Genomics, Illinois, USA) allowing four mutations, no deletions and no insertions. 46 hits were found, but only in six cases the putative CopR binding site was located in intergenic regions up to 200 bp upstream of the start codon of the neighbouring gene (cg1336, cg2976, cg3187, cg3337, cg3357 and cg0414). Only one of these genes (cg0414) showed an altered mRNA level in the DNA microarrays comparing &#x394;<italic>copRS</italic> with the wild type (<xref ref-type="table" rid="pone-0022143-t002">Table 2</xref>). However, no binding of CopR to the promoter region of cg0414 was observed in EMSAs (see <xref ref-type="supplementary-material" rid="pone.0022143.s001">Fig. S1</xref>), indicating that cg0414 is not a direct target gene of CopR.</p>
+      </sec>
+      <sec id="s2g">
+        <title>CopR regulation of the <italic>copR</italic> and cg3286 gene</title>
+        <p>The data reported above showed that CopR binds to the intergenic region between cg3286 and <italic>copR</italic>, but it was still unclear if CopR activates expression of only the <italic>copR</italic> promoter, of only the cg3286 promoter or of both promoters. To answer this question, reporter gene assays were performed. The plasmids pET2-IGR and pET2-IGR_inverse, which contain the cg3286-<italic>copR</italic> intergenic region in both orientations upstream of a promoterless chloramphenicol acetyltransferase (<italic>cat</italic>) gene, were transferred into <italic>C. glutamicum</italic> wild type and the &#x394;<italic>copRS</italic> mutant. The resulting strains and the control strains carrying the vector pET2 were cultivated in CGXII minimal medium with or without the addition of 20 &#xB5;M CuSO<sub>4</sub> or 20 &#xB5;M NiSO<sub>4</sub>, respectively. When cultivated in standard CGXII medium with 1.25 &#xB5;M CuSO<sub>4</sub> (<xref ref-type="fig" rid="pone-0022143-g006">Fig. 6</xref>), none of the strains exhibited Cat activity. Same results were observed when NiSO<sub>4</sub> was added (<xref ref-type="fig" rid="pone-0022143-g006">Fig. 6</xref>). Thus, CopR did not activate transcription of the reporter gene under these conditions. When the medium was supplemented with 20 &#xB5;M CuSO<sub>4</sub> (<xref ref-type="fig" rid="pone-0022143-g006">Fig. 6</xref>), Cat activity was measurable for the wild type strain harbouring the plasmid pET2-IGR or pET2-IGR_inverse, but not for the &#x394;<italic>copRS</italic> mutant harbouring one of these plasmids. Also the control strains carrying pET2 had no measurable Cat activity. These results showed that both the cg3286 promoter and the <italic>copR</italic> promoter are activated by CopRS in a strictly copper-dependent manner.</p>
+        <fig id="pone-0022143-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Specific Cat activities of <italic>C. glutamicum</italic> wild type (wt) and the &#x394;<italic>copRS</italic> mutant.</title>
+            <p>Both strains carrying either the pET2, the pET2-IGR (<italic>copR</italic> promoter) or the pET2-IGR_inverse (cg3286 promoter) vector. Cat activities were measured after growth in CGXII medium containing either 1.25 &#xB5;M CuSO<sub>4</sub> (black bars), 20 &#xB5;M additional CuSO<sub>4</sub> (dark grey bars) or 20 &#xB5;M additional NiSO<sub>4</sub> (light grey bars). A, wt/pET2; B, &#x394;<italic>copRS</italic>/pET2; C, wt/pET2-IGR (<italic>copR</italic> promoter); D, &#x394;<italic>copRS</italic>/pET2-IGR; E, wt/pET2-IGR_inverse (cg3286 promoter); F, &#x394;<italic>copRS</italic>/pET2-IGR_inverse. The values represent averages and standard deviations of three biological replicates.</p>
+          </caption>
+          <graphic xlink:href="pone.0022143.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>Copper-dependent organisms have evolved sophisticated regulatory mechanisms to ensure a sufficient supply of copper ions on the one hand and a resistance against high concentrations on the other. To enable the cell to react to copper-induced stress, several copper ion sensors were evolved like CueR of <italic>E. coli</italic>, CopY of <italic>E. hirae</italic> and CsoR of <italic>M. tuberculosis</italic> <xref ref-type="bibr" rid="pone.0022143-Solioz1">[2]</xref>, <xref ref-type="bibr" rid="pone.0022143-Rensing1">[4]</xref>, <xref ref-type="bibr" rid="pone.0022143-Liu1">[12]</xref>, <xref ref-type="bibr" rid="pone.0022143-Stoyanov1">[24]</xref>. Besides these cytoplasmic one-component regulators, two-component regulatory systems were identified which are involved in the sensing of elevated copper ion concentrations in the periplasm. Examples are the CusRS system of <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0022143-Outten1">[7]</xref>, <xref ref-type="bibr" rid="pone.0022143-Munson1">[11]</xref> and the CinSR system of <italic>Pseudomonas putida</italic> <xref ref-type="bibr" rid="pone.0022143-Quaranta1">[25]</xref>.</p>
+      <p>In the present work we studied the response of <italic>C. glutamicum</italic> to elevated copper ion concentrations and identified a novel copper-responsive two-component system, CopRS, which is the key regulatory system for copper ion resistance in this bacterium. The sensor kinase CopS shows the typical domain structure of two-component sensor kinases. The intracellular N-terminus is followed by two predicted transmembrane helices (TMHHM Server: <ext-link ext-link-type="uri" xlink:href="http://www.cbs.dtu.dk/services/TMHMM/">http://www.cbs.dtu.dk/services/TMHMM/</ext-link>) connected via a short periplasmic loop (31 aa). The cytoplasmatic C-terminus harbours a HAMP domain, a HisKA domain and a HATPase_c domain (SMART: <ext-link ext-link-type="uri" xlink:href="http://smart.embl-heidelberg.de/">http://smart.embl-heidelberg.de/</ext-link>). The sensor kinase CopS of <italic>C. glutamicum</italic> shows 21% and 22% sequence identity to CusS of <italic>E. coli</italic> and CinS of <italic>P. putida</italic>, respectively. As expected, the C-terminal catalytic domains are highly similar but the periplasmic loop of <italic>C. glutamicum</italic> CopS differs from the others since it is much shorter. Within the periplasmic loop of CinS two histidine residues (H37, H147) were identified as potential copper binding site <xref ref-type="bibr" rid="pone.0022143-Quaranta1">[25]</xref>. These two histidine residues are also conserved in CusS but not in CopS. Nevertheless CopS harbours three histidine (H39, H41, H56) and two methionine residues (M42, M44) within its periplasmic loop that might play a role in copper recognition/binding. The response regulator CopR exhibits 33% and 34% sequence identity to <italic>E. coli</italic> CusR and <italic>P. putida</italic> CinR, respectively.</p>
+      <p><italic>C. glutamicum</italic> wild type grows unaffectedly up to 20 &#xB5;M CuSO<sub>4</sub> (<xref ref-type="fig" rid="pone-0022143-g001">Fig. 1</xref>) which is similar to the copper tolerance of <italic>M. tuberculosis</italic>, which grows normally up to 50 &#xB5;M copper <xref ref-type="bibr" rid="pone.0022143-Ward2">[14]</xref> and to that of <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0022143-Outten1">[7]</xref>, while it is much lower than that of bacteria like <italic>E. hirae</italic> and <italic>Pseudomonas aeruginosa</italic>, which can grow at copper concentrations up to approx. 8 mM <xref ref-type="bibr" rid="pone.0022143-Solioz1">[2]</xref>, <xref ref-type="bibr" rid="pone.0022143-Teitzel1">[26]</xref>.</p>
+      <p>DNA microarray analyses indicated the involvement of the two-component system CopRS in copper homeostasis (<xref ref-type="table" rid="pone-0022143-t001">Table 1</xref>). This was confirmed by copper sensitivity tests on agar plates and by growth experiments in the presence of different copper concentrations (<xref ref-type="fig" rid="pone-0022143-g002">Fig. 2</xref> and <xref ref-type="fig" rid="pone-0022143-g003">3</xref>). Our approaches revealed two gene clusters regulated by CopR, cg3286-cg3289 and cg3285-cg3281 with cg3285 and cg3284 coding for CopR and CopS, respectively. The translation products of these genes possibly play a role in copper resistance. For example the multicopper oxidase CopO (Cg3287) can detoxify Cu<sup>+</sup> by converting it to the less toxic Cu<sup>2+</sup> and by binding free Cu ions while the putative copper transporting P-type ATPase CopB (Cg3281) most likely functions as a copper export pump.</p>
+      <p>The determined apparent <italic>K<sub>d</sub></italic> value of 0.4 &#xB5;M for the phosphorylated form of CopR is in the same range as described for other response regulators <xref ref-type="bibr" rid="pone.0022143-Janausch1">[27]</xref>. The binding site (<underline>TGAAGATTT</underline>nn<underline>TGAAGATTT</underline>) of CopR within the cg3286-<italic>copR</italic> intergenic region (<xref ref-type="fig" rid="pone-0022143-g004">Fig. 4</xref>) seems to be the only one within the entire genome of <italic>C. glutamicum.</italic> This situation is not unusual for copper regulatory systems, as <italic>e.g.</italic> the <italic>E. coli</italic> CusRS system also only activates the transcription of its own genes and the divergently orientated <italic>cusCFB</italic> operon <xref ref-type="bibr" rid="pone.0022143-Yamamoto1">[6]</xref>. Binding of CopR to this single binding site results in transcriptional activation of both divergently located gene regions (<italic>copR</italic>-cg3281 and cg3286-cg3289). Further the activation is depended on the existence of the CopRS system and this system by itself is only active in the presence of elevated copper ion concentrations (<xref ref-type="fig" rid="pone-0022143-g006">Fig. 6</xref>). Since the binding motif is rather far upstream of the transcriptional start site of cg3286 (&#x2212;266 to &#x2212;285 bp) the question arises how these genes can be under the control of CopR.</p>
+      <p>The <italic>cop</italic> gene region (cg3281-cg3289) exhibits an extraordinary high G+C content in comparison to the rest of the genome and is highly conserved in <italic>Corynebacterium diphtheriae</italic> (more than 95% identical) <xref ref-type="bibr" rid="pone.0022143-Eggeling1">[15]</xref>, <xref ref-type="bibr" rid="pone.0022143-Burkovski1">[16]</xref>. This high level of sequence conservation points to a recent horizontal gene transfer between these two species possibly mediated by the natural <italic>Corynebacterium</italic> plasmid pLEW279b. This plasmid contains a gene region with 97% nucleotide similarity to the <italic>cop</italic> gene region of <italic>C. glutamicum</italic> wild type. It was shown that the plasmid sequence is a mosaic of genes and accessory elements acquired from related Gram-positive sources <xref ref-type="bibr" rid="pone.0022143-Williams1">[28]</xref>.</p>
+      <p>In <italic>C. diphtheriae</italic> a gene encoding a small protein of about 9 kDa was proposed to be located between the homologues of cg3286 and <italic>copR</italic>. In <italic>C. glutamicum</italic> the nucleotide sequence of this gene can also be found within the intergenic region of cg3286 and <italic>copR</italic> extending from position &#x2212;108 to &#x2212;334 bp with respect to the <italic>copR</italic> translational start site and orientated divergently to <italic>copR</italic>. The translational start point of the hypothetical gene would be located 30 bp upstream of the CopR binding site and might form an operon structure with the following cg3286 gene. However, so far no evidence is available that this putative gene is expressed in <italic>C. diphtheriae</italic> or <italic>C. glutamicum</italic>. Another explanation for the long distance between the CopR binding site and the cg3286 transcriptional start site could be the existence of a regulatory RNA element within the intergenic region, but inspection of this region with the software tool RNAstructure <xref ref-type="bibr" rid="pone.0022143-Mathews1">[29]</xref> revealed no significant RNA structure. Further experiments are on the way to assign a function to this DNA region.</p>
+      <p>The copper stimulon not only consists of the <italic>cop</italic> region (cg3281-cg3289), but also of genes coding for proteins involved in heme biosynthesis and cytochrome <italic>c</italic> maturation (<xref ref-type="table" rid="pone-0022143-t001">Table 1</xref>). It can be assumed that excess of copper stimulates synthesis of heme and cytochrome c since these are also cofactors of the respiratory chain protein complexes as well as copper. A link between iron and copper was previously also shown for <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0022143-Kershaw1">[30]</xref>, <italic>P. aeruginosa</italic> <xref ref-type="bibr" rid="pone.0022143-Teitzel1">[26]</xref>, <xref ref-type="bibr" rid="pone.0022143-Frangipani1">[31]</xref>, yeasts <xref ref-type="bibr" rid="pone.0022143-vanBakel1">[32]</xref> and mammals <xref ref-type="bibr" rid="pone.0022143-Winzerling1">[33]</xref>. The existence of this mechanistic link in <italic>C. glutamicum</italic> is further underlined by the finding that the putative copper transporter CtpV (Cg0464; Accession UniProtKB Q6M7X6) belongs to the regulon of the master regulator of iron homeostasis, DtxR <xref ref-type="bibr" rid="pone.0022143-Wennerhold1">[34]</xref>. The <italic>ctpV</italic> gene together with the downstream located gene <italic>csoR</italic> were highly upregulated in the presence of elevated copper ion concentrations (1091-fold (<italic>P</italic>-value of 0.07) and 9-fold (<italic>P</italic>-value of 0.06) changed mRNA level, respectively) in <italic>C. glutamicum</italic> wild type. <italic>csoR</italic> codes for a homologue of the transcriptional regulator CsoR from <italic>M. tuberculosis</italic> (27% identity) which was shown to be involved in the copper stress response <xref ref-type="bibr" rid="pone.0022143-Liu1">[12]</xref> by binding intracellular Cu<sup>+</sup> followed by derepression of the <italic>ctpV</italic> gene coding for a putative copper-exporting P-type ATPase <xref ref-type="bibr" rid="pone.0022143-Ward1">[13]</xref>. Therefore, it is reasonable to assume that CsoR (Accession UniProtKB Q8NTC2) of <italic>C. glutamicum</italic> also functions as a cytoplasmatic copper sensor and regulates expression of <italic>ctpV</italic>. Studies are underway to confirm this hypothesis. Taken together, our work suggests that <italic>C. glutamicum</italic> possesses both an intracellular copper sensor, i. e. CsoR, and the extracellular copper sensor system CopRS.</p>
+      <p>Based on these data we can propose a model of the dual copper resistance mechanism in <italic>C. glutamicum</italic> (<xref ref-type="fig" rid="pone-0022143-g007">Fig. 7</xref>). Under aerobic conditions copper is present in the periplasmic space in the Cu<sup>+</sup> and Cu<sup>2+</sup> state <xref ref-type="bibr" rid="pone.0022143-Kim1">[35]</xref>. The two-component system CopRS recognises high extracellular copper concentrations followed by transcriptional activation of the two putative operons cg3286-cg3289 and <italic>copR</italic>-cg3281 containing genes encoding copper resistance proteins, e.g. the putative multicopper oxidase CopO and the putative copper export ATPase CopB. As a result CopB exports excess of Cu<sup>+</sup> from the cytoplasm to the &#x2018;periplasm&#x2019;. In the &#x2018;periplasm&#x2019; CopO can detoxify Cu<sup>+</sup> by oxidising it to Cu<sup>2+</sup> which is less toxic and less able to diffuse through the cytoplasmic membrane <xref ref-type="bibr" rid="pone.0022143-Outten1">[7]</xref> and by sequestering free Cu ions. The Cu-specific regulator CsoR senses high intracellular copper concentrations and activates (or derepresses) transcription of the copper export ATPase CtpV which also might be responsible for exporting excess copper from the cytoplasm.</p>
+      <fig id="pone-0022143-g007" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0022143.g007</object-id>
+        <label>Figure 7</label>
+        <caption>
+          <title>Model of copper excess response in <italic>C. glutamicum</italic>.</title>
+          <p>The CopS sensor kinase recognises high extracellular copper concentrations followed by autophosphorylation and phosphotransfer to the response regulator CopR. Phosphorylated CopR binds to the direct repeat (<underline>TGAAGATTT</underline>nn<underline>TGAAGATTT</underline>) within the cg3286-<italic>copR</italic> intergenic region. This results in a transcriptional activation of both putative operons (cg3286-cg3289 and <italic>copR</italic>-cg3281) containing genes encoding copper resistance proteins, e.g. a putative multicopper oxidase (CopO) and a copper export ATPase (CopB). CopO can detoxify Cu<sup>+</sup> by converting it to the less toxic Cu<sup>2+</sup> and by binding free Cu ions. CopB is a cation ATPase and likely functions as a copper export pump. The Cu-specific regulator CsoR senses high intracellular copper concentrations and activates (or derepresses) the transcription of the copper export ATPase CtpV which is part of the copper detoxification process.</p>
+        </caption>
+        <graphic xlink:href="pone.0022143.g007"/>
+      </fig>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains, media, and growth conditions</title>
+        <p>Bacterial strains and plasmids used or constructed in the course of this work are listed in <xref ref-type="table" rid="pone-0022143-t003">Table 3</xref>, oligonucleotides in supplementary <xref ref-type="supplementary-material" rid="pone.0022143.s004">Table S1</xref>. <italic>C. glutamicum</italic> was routinely cultivated aerobically in 500-ml shaking flasks with 50 ml CGXII minimal medium <xref ref-type="bibr" rid="pone.0022143-Keilhauer1">[36]</xref> containing 4% (w/v) glucose as carbon and energy source on a rotary shaker (120 rpm) at 30&#xB0;C. For strain construction and maintenance, BHIS agar plates (BHI agar (Difco, Detroit, USA) with 0.5 M sorbitol) were used. <italic>E. coli</italic> DH5&#x3B1; was grown aerobically on a rotary shaker (120 rpm) at 37&#xB0;C in LB medium or on LB agar plates (LB medium with 1.5% (w/v) agar). If appropriate, kanamycin was added to final concentrations of 25 &#xB5;g/ml (<italic>C. glutamicum</italic>) or 50 &#xB5;g/ml (<italic>E. coli</italic>).</p>
+        <table-wrap id="pone-0022143-t003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0022143.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Strains and plasmids used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0022143-t003-3" xlink:href="pone.0022143.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strain or plasmid</td>
+                  <td align="left" rowspan="1" colspan="1">Relevant characteristics</td>
+                  <td align="left" rowspan="1" colspan="1">Source or reference</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Strains</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>C. glutamicum</italic> ATCC13032</td>
+                  <td align="left" rowspan="1" colspan="1">Biotin-auxotrophic wild type strain</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0022143-Abe1">[51]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>C. glutamicum</italic> &#x394;<italic>copRS</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Derivative of ATCC13032 with an in-frame deletion of the <italic>copRS</italic> genes</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0022143-Kocan1">[21]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>E. coli</italic> DH5&#x3B1;</td>
+                  <td align="left" rowspan="1" colspan="1">F<sup>-</sup> &#x3C6;80<italic>dlac</italic>&#x394; (<italic>lacZ</italic>)M15 &#x394; (<italic>lacZYA-argF</italic>) U169 <italic>endA1 recA1 hsdR17</italic> (r<sub>K</sub><sup>-</sup>, m<sub>K</sub><sup>+</sup>) <italic>deoR thi-1 phoA supE44</italic> &#x3BB;<sup>-</sup><italic>gyrA96 relA1</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Invitrogen</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>E. coli</italic> BL21(DE3)</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>ompT hsdS</italic><sub>B</sub> (r<sub>B</sub><sup>-</sup>m<sub>B</sub><sup>-</sup>) <italic>gal dcm</italic> (DE3)</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0022143-Studier1">[52]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Plasmids</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET28b</td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; vector for overexpression of genes in <italic>E. coli</italic>, adding an N-terminal hexahistidine affinity tag to the synthesised protein (pBR322 <italic>oriV<sub>E.c.</sub> P<sub>T7</sub> lacI</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">Novagen, Merck KGaA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET28b-NHis<sub>6</sub>-CopR</td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; pET28b derivative for overproduction of CopR with an N-terminal hexahistidine tag</td>
+                  <td align="left" rowspan="1" colspan="1">This work</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pEKEx2</td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; <italic>C. glutamicum/E. coli</italic> shuttle vector for regulated gene expression (<italic>P<sub>tac</sub></italic>, <italic>lacI</italic><sup>Q</sup>, pBL1 <italic>oriV<sub>C. g</sub></italic><sub>.</sub>, pUC18 <italic>oriV<sub>E. c.</sub></italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0022143-Eikmanns1">[39]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pEKEx2-<italic>copRS</italic></td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; pEKEx2 derivative containing the <italic>copRS</italic> genes from <italic>C. glutamicum</italic> under control of the <italic>tac</italic> promoter</td>
+                  <td align="left" rowspan="1" colspan="1">This work</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET2</td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; promoter-probe vector</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0022143-Vasicova1">[40]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET2-IGR</td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; pET2 with the whole intergenic region of cg3286 and <italic>copR</italic> (402 bp), orientated cg3286 to <italic>copR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This work</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET2-IGR_inverse</td>
+                  <td align="left" rowspan="1" colspan="1">Kan<sup>r</sup>; pET2 with the whole intergenic region of cg3286 and <italic>copR</italic> (402 bp), orientated <italic>copR</italic> to cg3286</td>
+                  <td align="left" rowspan="1" colspan="1">This work</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s4b">
+        <title>Agar diffusion assay</title>
+        <p>To compare the resistance of <italic>C. glutamicum</italic> to heavy metal ions, strains were grown in CGXII minimal medium to an OD<sub>600</sub> of 6. The resulting cells were diluted to an OD<sub>600</sub> of 0.05 in CGXII soft agar (CGXII medium with 0.75% (w/v) agar) and 4 ml thereof were poured onto a CGXII agar plate. Once the agar became solid, a glass fibre filter disc (10 mm diameter, 2 &#xB5;m pore size; Millipore) was placed onto the plate and 70 &#xB5;l of a heavy metal ion solution (different concentrations of CuSO<sub>4</sub>, NiSO<sub>4</sub>, MnCl<sub>2</sub>, ZnCl<sub>2</sub>, AgNO<sub>3</sub>, CoCl<sub>2</sub>, PbCl<sub>2</sub> or CdCl<sub>2</sub>) were spotted onto the paper disc. The plates were incubated at 30&#xB0;C and the zones of inhibition were determined after 48 h. If appropriate, kanamycin (25 mg/ml) and IPTG (1 mM) were added to the media.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Recombinant DNA work</title>
+        <p>The enzymes for recombinant DNA work were obtained from Roche Diagnostics or New England Biolabs. All oligonucleotides were synthesised by Eurofins MWG Operon (<xref ref-type="supplementary-material" rid="pone.0022143.s004">Table S1</xref>). Routine methods like PCR, restriction or ligation were carried out according to standard protocols <xref ref-type="bibr" rid="pone.0022143-Sambrook1">[37]</xref>. Plasmids were isolated from <italic>E. coli</italic> with the QIAprepspin miniprep kit (Qiagen). <italic>E. coli</italic> was transformed by the RbCl method <xref ref-type="bibr" rid="pone.0022143-Hanahan1">[38]</xref>. All constructs described below were confirmed via DNA sequencing performed by LGC genomics.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Construction of expression plasmids</title>
+        <p>For IPTG-inducible expression of <italic>copRS</italic>, the coding region of these genes including 9 bp upstream of the <italic>copR</italic> start codon plus an artificial ribosomal binding site (AAGGAGA) was amplified using chromosomal DNA of <italic>C. glutamicum</italic> ATCC 13032 as template, the oligonucleotide pair copRS_SalI_fw/copRS_EcoRI_rv and the Expand High Fidelity PCR kit (Roche Diagnostics). The PCR product was digested with SalI and EcoRI and cloned into pEKEx2 <xref ref-type="bibr" rid="pone.0022143-Eikmanns1">[39]</xref> cut with the same enzymes.</p>
+        <p>For overproduction and purification of CopR with an amino-terminal histidine tag, the <italic>copR</italic> coding region was amplified using oligonucleotides that introduce an NdeI restriction site (copR_NdeI_fw) and a XhoI restriction site after the stop codon (copR_XhoI_rv). The purified 740 bp PCR product was digested with NdeI and XhoI and cloned into the expression vector pET28b, resulting in plasmid pET28b-NHis<sub>6</sub>-CopR. The CopR protein encoded by this plasmid (260 amino acids, 28.8 kDa) contains 20 additional amino acids (MGSSHHHHHHSSGLVPRGSH) at the N-terminus including a hexahistidine tag and a thrombin cleavage site.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Construction of reporter gene plasmids and measurement of chloramphenicol acetyltransferase activity</title>
+        <p>The whole intergenic region, meaning the region between the start codons of the genes cg3286 and <italic>copR</italic> (402 bp), was amplified with the primer pairs PstI_fw IGR-cg3286_copR/BamHI_rv IGR-cg3286_copR and BamHI_fw IGR-cg3286_copR/PstI_rv IGR-cg3286_copR, respectively, and cloned into the corynebacterial promoter-probe vector pET2 <xref ref-type="bibr" rid="pone.0022143-Vasicova1">[40]</xref>. The resulting plasmids pET2-IGR and pET2-IGR_inverse contained the intergenic region upstream of the promoterless <italic>cat</italic> gene and were transferred into <italic>C. glutamicum</italic> wild type and the &#x394;<italic>copRS</italic> mutant by electroporation. The promoter activities were determined by measuring the chloramphenicol acetyltransferase (CAT) activity via the formation of 5-thio-2-nitrobenzoate photometrically at 412 nm and 30&#xB0;C <xref ref-type="bibr" rid="pone.0022143-Engels1">[41]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0022143-Gerstmeir1">[43]</xref>.</p>
+      </sec>
+      <sec id="s4f">
+        <title>DNA microarray analysis</title>
+        <p>For RNA preparation, <italic>C. glutamicum</italic> strains were cultivated overnight in CGXII minimal medium containing 4% (w/v) glucose. Cells from these precultures were washed in 0.9% (w/v) NaCl and used for inoculation of CGXII minimal medium containing 4% (w/v) glucose with or without the addition of 20 &#xB5;M CuSO<sub>4</sub>. At an OD<sub>600</sub> of 5&#x2013;6, 20 ml of the cultures were poured into ice-containing tubes precooled to &#x2212;20&#xB0;C and cells were harvested by centrifugation (3 min, 4200 x <italic>g</italic>, 4&#xB0;C). The cell pellet was directly used for RNA isolation as described before <xref ref-type="bibr" rid="pone.0022143-Brocker1">[44]</xref>. All DNA microarray analyses were performed with custom-made DNA microarrays based on 70-mer oligonucleotides obtained from Operon Biotechnologies. The comparisons were performed from four or five independent biological replicates. The experimental details for handling of these microarrays were described before <xref ref-type="bibr" rid="pone.0022143-Frunzke2">[45]</xref>. We defined the experimental data as significant if the mRNA level showed an at least threefold change in at least two of four (<xref ref-type="table" rid="pone-0022143-t001">Table 1</xref>) or three of five (<xref ref-type="table" rid="pone-0022143-t002">Table 2</xref>) replicates and the <italic>P</italic>-value was &#x2264;0.05. Processed and normalized data as well as experimental details conformed to the MIAME guidelines <xref ref-type="bibr" rid="pone.0022143-Brazma1">[46]</xref> were stored in the in-house microarray database <xref ref-type="bibr" rid="pone.0022143-Polen1">[47]</xref> for further analysis and in the Gene Expression Omnibus (GEO) repository under the accession number GSE27510.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Primer extension analysis</title>
+        <p>Nonradioactive primer extension analyses of cg3286 were performed as described previously <xref ref-type="bibr" rid="pone.0022143-Engels2">[48]</xref>, <xref ref-type="bibr" rid="pone.0022143-Engels3">[49]</xref> using the IRD800-labeled oligonucleotides PE_cg3286_30 and PE_cg3286_80 (<xref ref-type="supplementary-material" rid="pone.0022143.s004">Table S1</xref>) and 10 &#xB5;g RNA from <italic>C. glutamicum</italic> wild type or strain &#x394;<italic>copRS</italic> as template. The length of the primer extension product was determined by running the four lanes of a DNA-sequencing reaction mixture set up using the same oligonucleotide as that used for the reverse transcription alongside the primer extension product. The template for DNA sequencing covered the whole promoter region and was obtained by PCR using chromosomal DNA of <italic>C. glutamicum</italic> ATCC13032 and the oligonucleotide pair cg3286_fw/cg3286_rv (<xref ref-type="supplementary-material" rid="pone.0022143.s004">Table S1</xref>).</p>
+      </sec>
+      <sec id="s4h">
+        <title>Overproduction and purification of CopR</title>
+        <p>The response regulator CopR was overproduced in <italic>E. coli</italic> BL21(DE3) using the expression plasmid pET28b-NHis<sub>6</sub>-CopR. Cells were grown at 37&#xB0;C and 120 rpm in 500 ml LB medium with 50 &#xB5;g/ml kanamycin to an OD<sub>600</sub> of &#x223C;0.6 before adding 1 mM isopropyl <italic>&#x3B2;</italic>&#x2013;D-thiogalactoside (IPTG). After cultivation for another 4 hours, cells were harvested by centrifugation at 4&#xB0;C and stored at &#x2212;20&#xB0;C. NHis<sub>6</sub>-CopR was purified by Ni<sup>2+</sup>-chelate affinity chromatography followed by buffer exchange against bandshift buffer (50 mM Tris-HCl, 50 mM KCl, 10 mM MgCl<sub>2</sub>, 0.5 mM EDTA, 10% (v/v) glycerol, pH 7.5) as described for the response regulator CitB previously <xref ref-type="bibr" rid="pone.0022143-Brocker1">[44]</xref>. Protein concentrations were determined with the Bradford protein assay (Uptima) using bovine serum albumin (BSA) as standard.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Electrophoretic mobility shift assays (EMSAs)</title>
+        <p>For testing the binding of CopR to putative target promoters, purified CopR protein (0&#x2013;18 &#xB5;M) was mixed with 100 ng DNA fragments (30&#x2013;229 bp, final concentration 25&#x2013;255 nM) in a total volume of 20 &#xB5;l. The binding buffer contained 50 mM Tris-HCl (pH 7.5), 50 mM KCl, 10 mM MgCl<sub>2</sub>, 0.5 mM EDTA and 10% (v/v) glycerol. NHis<sub>6</sub>-CopR, either in the unphosphorylated state or after phosphorylation with 50 mM acetylphosphate, was mixed with the DNA fragment, incubated at room temperature for 30 min and then loaded onto a 10% (DNA fragments &gt;100 bp) or 15% (DNA fragments &lt;100 bp) native polyacrylamide gel. For phosphorylation of NHis<sub>6</sub>-CopR, the protein was incubated for 60 min with 50 mM acetylphosphate before addition of the DNA fragments. Electrophoresis and DNA detection with SybrGreen I were performed as described before <xref ref-type="bibr" rid="pone.0022143-Wennerhold2">[50]</xref>. The DNA fragments were generated by PCR or by primer annealing for insertion of base pair mutations, purified with the PCR purification Kit (Qiagen) and eluted in double-distilled H<sub>2</sub>O. For determination of the apparent <italic>K<sub>d</sub></italic> value, the DNA fragment (90 bp) was amplified using an oligonucleotide labelled with the fluorescent dye Cy3 (Eurofins MWG Operon). Purified and phosphorylated CopR was mixed with the DNA fragment (8 nM), incubated at room temperature for 30 min and then loaded onto a 15% native polyacrylamide gel. Electrophoresis was performed as described before <xref ref-type="bibr" rid="pone.0022143-Wennerhold2">[50]</xref>. The DNA was detected using a fluorescence scanner (Typhoon Trio, GE Healthcare) at an excitation of 532 nm and an emission of 580 nm.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0022143.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>EMSAs for testing the binding of CopR.</bold> The binding of CopR to the promoter regions of putative target genes referring to <xref ref-type="table" rid="pone-0022143-t002">Table 2</xref> was analysed. Fragment cg1665 served as negative control. DNA fragments (100 ng, 157&#x2013;263 bp) were incubated for 30 min at room temperature with phosphorylated CopR at different molar excesses (0- to 100-fold, see legend). For experimental details see Material and Methods.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0022143.s001.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0022143.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Electrophoretic mobility shift assays and calculated plots for the determination of the apparent </bold><bold><italic>K<sub>d</sub></italic></bold><bold> values.</bold> The <italic>K<sub>d</sub></italic> values of unphosphorylated CopR (A) and phosphorylated CopR (B) binding to the <italic>copR</italic> promoter region were determined. The 5&#x2032;-Cy3-labelled DNA probes (8 nM) were incubated with various amounts of phosphorylated (0&#x2013;500 nM) and unphosphorylated (0&#x2013;5000 nM) CopR, respectively. Free and CopR-bound DNA were separated by electrophoresis using a 15% native polyacylamide gel and detected using a fluorescence scanner. The amount of free and protein-bound DNA was quantified using ImageQuant&#x2122; TL (GE Healthcare). The ratios of the amount of bound to total DNA were calculated and plotted against the protein concentration in order to determine the <italic>K<sub>d</sub></italic> values.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0022143.s002.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0022143.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p><bold>Primer extension analysis of the gene cg3286.</bold> The analysis was performed using the oligonucleotide PE_cg3286_30 and 10 &#xB5;g of total RNA from wild type and the &#x394;<italic>copRS</italic> mutant. The transcriptional start site is indicated by an asterisk. The strains were grown in CGXII medium with 4% (w/v) glucose supplemented with 20 &#xB5;M CuSO<sub>4</sub> and harvested in the exponential growth phase for RNA isolation.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0022143.s003.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0022143.s004">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Oligonucleotides used in this study.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+        <media xlink:href="pone.0022143.s004.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Julia Frunzke for critically reading the manuscript and for her helpful feedback.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>All authors are affiliated to the &#x201C;Forschungszentrum J&#xFC;lich GmbH&#x201D;. This does not alter the authors' adherence to all PloS ONE policies on sharing data and materials.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>The authors have no support or funding to report.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0022143-Ridge1">
+        <label>1</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ridge</surname><given-names>PG</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Gladyshev</surname><given-names>VN</given-names></name></person-group>             <year>2008</year>             <article-title>Comparative genomic analyses of copper transporters and cuproproteomes reveal evolutionary dynamics of copper utilization and its link to oxygen.</article-title>             <source>PLoS One</source>             <volume>3</volume>             <fpage>e1378</fpage>          <pub-id pub-id-type="pmid">18167539</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Solioz1">
+        <label>2</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Solioz</surname><given-names>M</given-names></name><name><surname>Stoyanov</surname><given-names>JV</given-names></name></person-group>             <year>2003</year>             <article-title>Copper homeostasis in <italic>Enterococcus hirae</italic>.</article-title>             <source>FEMS Microbiol Rev</source>             <volume>27</volume>             <fpage>183</fpage>             <lpage>195</lpage>          <pub-id pub-id-type="pmid">12829267</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Solioz2">
+        <label>3</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Solioz</surname><given-names>M</given-names></name><name><surname>Abicht</surname><given-names>HK</given-names></name><name><surname>Mermod</surname><given-names>M</given-names></name><name><surname>Mancini</surname><given-names>S</given-names></name></person-group>             <year>2010</year>             <article-title>Response of gram-positive bacteria to copper stress.</article-title>             <source>J Biol Inorg Chem</source>             <volume>15</volume>             <fpage>3</fpage>             <lpage>14</lpage>          <pub-id pub-id-type="pmid">19774401</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Rensing1">
+        <label>4</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Rensing</surname><given-names>C</given-names></name><name><surname>Grass</surname><given-names>G</given-names></name></person-group>             <year>2003</year>             <article-title><italic>Escherichia coli</italic> mechanisms of copper homeostasis in a changing environment.</article-title>             <source>FEMS Microbiol Rev</source>             <volume>27</volume>             <fpage>197</fpage>             <lpage>213</lpage>          <pub-id pub-id-type="pmid">12829268</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Osman1">
+        <label>5</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Osman</surname><given-names>D</given-names></name><name><surname>Cavet</surname><given-names>JS</given-names></name></person-group>             <year>2008</year>             <article-title>Copper homeostasis in bacteria.</article-title>             <source>Adv Appl Microbiol</source>             <volume>65</volume>             <fpage>217</fpage>             <lpage>247</lpage>          <pub-id pub-id-type="pmid">19026867</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Yamamoto1">
+        <label>6</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>             <year>2005</year>             <article-title>Transcriptional response of <italic>Escherichia coli</italic> to external copper.</article-title>             <source>Mol Microbiol</source>             <volume>56</volume>             <fpage>215</fpage>             <lpage>227</lpage>          <pub-id pub-id-type="pmid">15773991</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Outten1">
+        <label>7</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Outten</surname><given-names>FW</given-names></name><name><surname>Huffman</surname><given-names>DL</given-names></name><name><surname>Hale</surname><given-names>JA</given-names></name><name><surname>O'Halloran</surname><given-names>TV</given-names></name></person-group>             <year>2001</year>             <article-title>The independent <italic>cue</italic> and <italic>cus</italic> systems confer copper tolerance during aerobic and anaerobic growth in <italic>Escherichia coli</italic>.</article-title>             <source>J Biol Chem</source>             <volume>276</volume>             <fpage>30670</fpage>             <lpage>30677</lpage>          <pub-id pub-id-type="pmid">11399769</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Fan1">
+        <label>8</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Fan</surname><given-names>B</given-names></name><name><surname>Grass</surname><given-names>G</given-names></name><name><surname>Rensing</surname><given-names>C</given-names></name><name><surname>Rosen</surname><given-names>BP</given-names></name></person-group>             <year>2001</year>             <article-title><italic>Escherichia coli</italic> CopA N-terminal Cys(X)(2)Cys motifs are not required for copper resistance or transport.</article-title>             <source>Biochem Biophys Res Commun</source>             <volume>286</volume>             <fpage>414</fpage>             <lpage>418</lpage>          <pub-id pub-id-type="pmid">11500054</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Rensing2">
+        <label>9</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Rensing</surname><given-names>C</given-names></name><name><surname>Fan</surname><given-names>B</given-names></name><name><surname>Sharma</surname><given-names>R</given-names></name><name><surname>Mitra</surname><given-names>B</given-names></name><name><surname>Rosen</surname><given-names>BP</given-names></name></person-group>             <year>2000</year>             <article-title>CopA: An <italic>Escherichia coli</italic> Cu(I)-translocating P-type ATPase.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>97</volume>             <fpage>652</fpage>             <lpage>656</lpage>          <pub-id pub-id-type="pmid">10639134</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Stock1">
+        <label>10</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Stock</surname><given-names>AM</given-names></name><name><surname>Robinson</surname><given-names>VL</given-names></name><name><surname>Goudreau</surname><given-names>PN</given-names></name></person-group>             <year>2000</year>             <article-title>Two-component signal transduction.</article-title>             <source>Annu Rev Biochem</source>             <volume>69</volume>             <fpage>183</fpage>             <lpage>215</lpage>          <pub-id pub-id-type="pmid">10966457</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Munson1">
+        <label>11</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Munson</surname><given-names>GP</given-names></name><name><surname>Lam</surname><given-names>DL</given-names></name><name><surname>Outten</surname><given-names>FW</given-names></name><name><surname>O'Halloran</surname><given-names>TV</given-names></name></person-group>             <year>2000</year>             <article-title>Identification of a copper-responsive two-component system on the chromosome of <italic>Escherichia coli</italic> K-12.</article-title>             <source>J Bacteriol</source>             <volume>182</volume>             <fpage>5864</fpage>             <lpage>5871</lpage>          <pub-id pub-id-type="pmid">11004187</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Liu1">
+        <label>12</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Ramesh</surname><given-names>A</given-names></name><name><surname>Ma</surname><given-names>Z</given-names></name><name><surname>Ward</surname><given-names>SK</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>CsoR is a novel <italic>Mycobacterium tuberculosis</italic> copper-sensing transcriptional regulator.</article-title>             <source>Nat Chem Biol</source>             <volume>3</volume>             <fpage>60</fpage>             <lpage>68</lpage>          <pub-id pub-id-type="pmid">17143269</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Ward1">
+        <label>13</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ward</surname><given-names>SK</given-names></name><name><surname>Abomoelak</surname><given-names>B</given-names></name><name><surname>Hoye</surname><given-names>EA</given-names></name><name><surname>Steinberg</surname><given-names>H</given-names></name><name><surname>Talaat</surname><given-names>AM</given-names></name></person-group>             <year>2010</year>             <article-title>CtpV: a putative copper exporter required for full virulence of <italic>Mycobacterium tuberculosis</italic>.</article-title>             <source>Mol Microbiol</source>             <volume>77</volume>             <fpage>1096</fpage>             <lpage>1110</lpage>          <pub-id pub-id-type="pmid">20624225</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Ward2">
+        <label>14</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ward</surname><given-names>SK</given-names></name><name><surname>Hoye</surname><given-names>EA</given-names></name><name><surname>Talaat</surname><given-names>AM</given-names></name></person-group>             <year>2008</year>             <article-title>The global responses of <italic>Mycobacterium tuberculosis</italic> to physiological levels of copper.</article-title>             <source>J Bacteriol</source>             <volume>190</volume>             <fpage>2939</fpage>             <lpage>2946</lpage>          <pub-id pub-id-type="pmid">18263720</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Eggeling1">
+        <label>15</label>
+        <element-citation publication-type="book">             <person-group person-group-type="author"><name><surname>Eggeling</surname><given-names>L</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2005</year>             <article-title>Handbook Of <italic>Corynebacterium glutamicum</italic>.</article-title>             <publisher-name>CRC Press</publisher-name>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Burkovski1">
+        <label>16</label>
+        <element-citation publication-type="book">             <person-group person-group-type="author"><name><surname>Burkovski</surname><given-names>A</given-names></name></person-group>             <year>2008</year>             <article-title>Corynebacteria</article-title>             <source>Genomics and Molecular Biology</source>             <publisher-loc>Norfolk, United Kingdom</publisher-loc>             <publisher-name>Caister Academic Press</publisher-name>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Niebisch1">
+        <label>17</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Niebisch</surname><given-names>A</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2001</year>             <article-title>Molecular analysis of the cytochrome <italic>bc1-aa3</italic> branch of the <italic>Corynebacterium glutamicum</italic> respiratory chain containing an unusual diheme cytochrome c1.</article-title>             <source>Arch Microbiol</source>             <volume>175</volume>             <fpage>282</fpage>             <lpage>294</lpage>          <pub-id pub-id-type="pmid">11382224</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Zhang1">
+        <label>18</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Gladyshev</surname><given-names>VN</given-names></name></person-group>             <year>2010</year>             <article-title>General trends in trace element utilization revealed by comparative genomic analyses of Co, Cu, Mo, Ni, and Se.</article-title>             <source>J Biol Chem</source>             <volume>285</volume>             <fpage>3393</fpage>             <lpage>3405</lpage>          <pub-id pub-id-type="pmid">19887375</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Bott1">
+        <label>19</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Bott</surname><given-names>M</given-names></name><name><surname>Niebisch</surname><given-names>A</given-names></name></person-group>             <year>2003</year>             <article-title>The respiratory chain of <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>J Biotechnol</source>             <volume>104</volume>             <fpage>129</fpage>             <lpage>153</lpage>          <pub-id pub-id-type="pmid">12948635</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Ordonez1">
+        <label>20</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Ordonez</surname><given-names>E</given-names></name><name><surname>Thiyagarajan</surname><given-names>S</given-names></name><name><surname>Cook</surname><given-names>JD</given-names></name><name><surname>Stemmler</surname><given-names>TL</given-names></name><name><surname>Gil</surname><given-names>JA</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Evolution of metal(loid) binding sites in transcriptional regulators.</article-title>             <source>J Biol Chem</source>             <volume>283</volume>             <fpage>25706</fpage>             <lpage>25714</lpage>          <pub-id pub-id-type="pmid">18591244</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Kocan1">
+        <label>21</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kocan</surname><given-names>M</given-names></name><name><surname>Schaffer</surname><given-names>S</given-names></name><name><surname>Ishige</surname><given-names>T</given-names></name><name><surname>Sorger-Herrmann</surname><given-names>U</given-names></name><name><surname>Wendisch</surname><given-names>VF</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Two-component systems of <italic>Corynebacterium glutamicum</italic>: deletion analysis and involvement of the PhoS-PhoR system in the phosphate starvation response.</article-title>             <source>J Bacteriol</source>             <volume>188</volume>             <fpage>724</fpage>             <lpage>732</lpage>          <pub-id pub-id-type="pmid">16385062</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Kronemeyer1">
+        <label>22</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kronemeyer</surname><given-names>W</given-names></name><name><surname>Peekhaus</surname><given-names>N</given-names></name><name><surname>Kramer</surname><given-names>R</given-names></name><name><surname>Sahm</surname><given-names>H</given-names></name><name><surname>Eggeling</surname><given-names>L</given-names></name></person-group>             <year>1995</year>             <article-title>Structure of the <italic>gluABCD</italic> cluster encoding the glutamate uptake system of <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>J Bacteriol</source>             <volume>177</volume>             <fpage>1152</fpage>             <lpage>1158</lpage>          <pub-id pub-id-type="pmid">7868586</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Frunzke1">
+        <label>23</label>
+        <element-citation publication-type="book">             <person-group person-group-type="author"><name><surname>Frunzke</surname><given-names>J</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2008</year>             <article-title>Chapter 11: Regulation of iron homeostasis in <italic>Corynebacterium glutamicum</italic>.</article-title>             <person-group person-group-type="editor"><name><surname>Burkovski</surname><given-names>A</given-names></name></person-group>             <source>Corynebacteria: Genomics and Molecular Biology</source>             <publisher-loc>Norfolk, United Kingdom</publisher-loc>             <publisher-name>Caister Academic Press</publisher-name>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Stoyanov1">
+        <label>24</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Stoyanov</surname><given-names>JV</given-names></name><name><surname>Magnani</surname><given-names>D</given-names></name><name><surname>Solioz</surname><given-names>M</given-names></name></person-group>             <year>2003</year>             <article-title>Measurement of cytoplasmic copper, silver, and gold with a lux biosensor shows copper and silver, but not gold, efflux by the CopA ATPase of <italic>Escherichia coli</italic>.</article-title>             <source>FEBS Lett</source>             <volume>546</volume>             <fpage>391</fpage>             <lpage>394</lpage>          <pub-id pub-id-type="pmid">12832075</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Quaranta1">
+        <label>25</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Quaranta</surname><given-names>D</given-names></name><name><surname>McEvoy</surname><given-names>MM</given-names></name><name><surname>Rensing</surname><given-names>C</given-names></name></person-group>             <year>2009</year>             <article-title>Site-directed mutagenesis identifies a molecular switch involved in copper sensing by the histidine kinase CinS in <italic>Pseudomonas putida</italic> KT2440.</article-title>             <source>J Bacteriol</source>             <volume>191</volume>             <fpage>5304</fpage>             <lpage>5311</lpage>          <pub-id pub-id-type="pmid">19542288</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Teitzel1">
+        <label>26</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Teitzel</surname><given-names>GM</given-names></name><name><surname>Geddie</surname><given-names>A</given-names></name><name><surname>De Long</surname><given-names>SK</given-names></name><name><surname>Kirisits</surname><given-names>MJ</given-names></name><name><surname>Whiteley</surname><given-names>M</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Survival and growth in the presence of elevated copper: transcriptional profiling of copper-stressed <italic>Pseudomonas aeruginosa</italic>.</article-title>             <source>J Bacteriol</source>             <volume>188</volume>             <fpage>7242</fpage>             <lpage>7256</lpage>          <pub-id pub-id-type="pmid">17015663</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Janausch1">
+        <label>27</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Janausch</surname><given-names>IG</given-names></name><name><surname>Garcia-Moreno</surname><given-names>I</given-names></name><name><surname>Lehnen</surname><given-names>D</given-names></name><name><surname>Zeuner</surname><given-names>Y</given-names></name><name><surname>Unden</surname><given-names>G</given-names></name></person-group>             <year>2004</year>             <article-title>Phosphorylation and DNA binding of the regulator DcuR of the fumarate-responsive two-component system DcuSR of <italic>Escherichia coli</italic>.</article-title>             <source>Microbiology</source>             <volume>150</volume>             <fpage>877</fpage>             <lpage>883</lpage>          <pub-id pub-id-type="pmid">15073297</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Williams1">
+        <label>28</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Williams</surname><given-names>LE</given-names></name><name><surname>Detter</surname><given-names>C</given-names></name><name><surname>Barry</surname><given-names>K</given-names></name><name><surname>Lapidus</surname><given-names>A</given-names></name><name><surname>Summers</surname><given-names>AO</given-names></name></person-group>             <year>2006</year>             <article-title>Facile recovery of individual high-molecular-weight, low-copy-number natural plasmids for genomic sequencing.</article-title>             <source>Applied and Environmental Microbiology</source>             <volume>72</volume>             <fpage>4899</fpage>             <lpage>4906</lpage>          <pub-id pub-id-type="pmid">16820486</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Mathews1">
+        <label>29</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Mathews</surname><given-names>DH</given-names></name><name><surname>Disney</surname><given-names>MD</given-names></name><name><surname>Childs</surname><given-names>JL</given-names></name><name><surname>Schroeder</surname><given-names>SJ</given-names></name><name><surname>Zuker</surname><given-names>M</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Incorporating chemical modification constraints into a dynamic programming algorithm for prediction of RNA secondary structure.</article-title>             <source>Proc Natl Acad Sci U S A</source>             <volume>101</volume>             <fpage>7287</fpage>             <lpage>7292</lpage>          <pub-id pub-id-type="pmid">15123812</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Kershaw1">
+        <label>30</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kershaw</surname><given-names>CJ</given-names></name><name><surname>Brown</surname><given-names>NL</given-names></name><name><surname>Constantinidou</surname><given-names>C</given-names></name><name><surname>Patel</surname><given-names>MD</given-names></name><name><surname>Hobman</surname><given-names>JL</given-names></name></person-group>             <year>2005</year>             <article-title>The expression profile of <italic>Escherichia coli</italic> K-12 in response to minimal, optimal and excess copper concentrations.</article-title>             <source>Microbiology</source>             <volume>151</volume>             <fpage>1187</fpage>             <lpage>1198</lpage>          <pub-id pub-id-type="pmid">15817786</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Frangipani1">
+        <label>31</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Frangipani</surname><given-names>E</given-names></name><name><surname>Slaveykova</surname><given-names>VI</given-names></name><name><surname>Reimmann</surname><given-names>C</given-names></name><name><surname>Haas</surname><given-names>D</given-names></name></person-group>             <year>2008</year>             <article-title>Adaptation of aerobically growing <italic>Pseudomonas aeruginosa</italic> to copper starvation.</article-title>             <source>J Bacteriol</source>             <volume>190</volume>             <fpage>6706</fpage>             <lpage>6717</lpage>          <pub-id pub-id-type="pmid">18708503</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-vanBakel1">
+        <label>32</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>van Bakel</surname><given-names>H</given-names></name><name><surname>Strengman</surname><given-names>E</given-names></name><name><surname>Wijmenga</surname><given-names>C</given-names></name><name><surname>Holstege</surname><given-names>FC</given-names></name></person-group>             <year>2005</year>             <article-title>Gene expression profiling and phenotype analyses of <italic>S. cerevisiae</italic> in response to changing copper reveals six genes with new roles in copper and iron metabolism.</article-title>             <source>Physiol Genomics</source>             <volume>22</volume>             <fpage>356</fpage>             <lpage>367</lpage>          <pub-id pub-id-type="pmid">15886332</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Winzerling1">
+        <label>33</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Winzerling</surname><given-names>JJ</given-names></name><name><surname>Law</surname><given-names>JH</given-names></name></person-group>             <year>1997</year>             <article-title>Comparative nutrition of iron and copper.</article-title>             <source>Annu Rev Nutr</source>             <volume>17</volume>             <fpage>501</fpage>             <lpage>526</lpage>          <pub-id pub-id-type="pmid">9240938</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Wennerhold1">
+        <label>34</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Wennerhold</surname><given-names>J</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2006</year>             <article-title>The DtxR regulon of <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>J Bacteriol</source>             <volume>188</volume>             <fpage>2907</fpage>             <lpage>2918</lpage>          <pub-id pub-id-type="pmid">16585752</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Kim1">
+        <label>35</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kim</surname><given-names>EH</given-names></name><name><surname>Rensing</surname><given-names>C</given-names></name><name><surname>McEvoy</surname><given-names>MM</given-names></name></person-group>             <year>2010</year>             <article-title>Chaperone-mediated copper handling in the periplasm.</article-title>             <source>Nat Prod Rep</source>             <volume>27</volume>             <fpage>711</fpage>             <lpage>719</lpage>          <pub-id pub-id-type="pmid">20442961</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Keilhauer1">
+        <label>36</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Keilhauer</surname><given-names>C</given-names></name><name><surname>Eggeling</surname><given-names>L</given-names></name><name><surname>Sahm</surname><given-names>H</given-names></name></person-group>             <year>1993</year>             <article-title>Isoleucine synthesis in <italic>Corynebacterium glutamicum</italic>: molecular analysis of the <italic>ilvB-ilvN-ilvC</italic> operon.</article-title>             <source>J Bacteriol</source>             <volume>175</volume>             <fpage>5595</fpage>             <lpage>5603</lpage>          <pub-id pub-id-type="pmid">8366043</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Sambrook1">
+        <label>37</label>
+        <element-citation publication-type="book">             <person-group person-group-type="author"><name><surname>Sambrook</surname><given-names>J</given-names></name><name><surname>MacCallum</surname><given-names>P</given-names></name><name><surname>Russell</surname><given-names>D</given-names></name></person-group>             <year>2001</year>             <article-title>Molecular Cloning.</article-title>             <source>A Laboratory Manual. 3rd ed. Ed</source>             <publisher-loc>Cold Spring Harbor, New York</publisher-loc>             <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Hanahan1">
+        <label>38</label>
+        <element-citation publication-type="book">             <person-group person-group-type="author"><name><surname>Hanahan</surname><given-names>D</given-names></name></person-group>             <year>1985</year>             <article-title>Techniques of Transformation of <italic>E. coli</italic>.</article-title>             <person-group person-group-type="editor"><name><surname>Glover</surname><given-names>DM</given-names></name></person-group>             <source>DNA-Cloning</source>             <publisher-name>IRL-Press</publisher-name>             <fpage>109</fpage>             <lpage>135</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Eikmanns1">
+        <label>39</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Eikmanns</surname><given-names>BJ</given-names></name><name><surname>Kleinertz</surname><given-names>E</given-names></name><name><surname>Liebl</surname><given-names>W</given-names></name><name><surname>Sahm</surname><given-names>H</given-names></name></person-group>             <year>1991</year>             <article-title>A family of <italic>Corynebacterium glutamicum</italic>/<italic>Escherichia coli</italic> shuttle vectors for cloning, controlled gene expression, and promoter probing.</article-title>             <source>Gene</source>             <volume>102</volume>             <fpage>93</fpage>             <lpage>98</lpage>          <pub-id pub-id-type="pmid">1864513</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Vasicova1">
+        <label>40</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Vasicova</surname><given-names>P</given-names></name><name><surname>Abrhamova</surname><given-names>Z</given-names></name><name><surname>Nesvera</surname><given-names>J</given-names></name><name><surname>Patek</surname><given-names>M</given-names></name><name><surname>Sahm</surname><given-names>H</given-names></name><etal/></person-group>             <year>1998</year>             <article-title>Integrative and autonomously replicating vectors for analysis of promoters in <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>Biotechnology Techniques</source>             <volume>12</volume>             <fpage>743</fpage>             <lpage>746</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Engels1">
+        <label>41</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Engels</surname><given-names>V</given-names></name><name><surname>Wendisch</surname><given-names>VF</given-names></name></person-group>             <year>2007</year>             <article-title>The DeoR-type regulator SugR represses expression of <italic>ptsG</italic> in <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>J Bacteriol</source>             <volume>189</volume>             <fpage>2955</fpage>             <lpage>2966</lpage>          <pub-id pub-id-type="pmid">17293426</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Netzer1">
+        <label>42</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Netzer</surname><given-names>R</given-names></name><name><surname>Krause</surname><given-names>M</given-names></name><name><surname>Rittmann</surname><given-names>D</given-names></name><name><surname>Peters-Wendisch</surname><given-names>PG</given-names></name><name><surname>Eggeling</surname><given-names>L</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Roles of pyruvate kinase and malic enzyme in <italic>Corynebacterium glutamicum</italic> for growth on carbon sources requiring gluconeogenesis.</article-title>             <source>Arch Microbiol</source>             <volume>182</volume>             <fpage>354</fpage>             <lpage>363</lpage>          <pub-id pub-id-type="pmid">15375646</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Gerstmeir1">
+        <label>43</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Gerstmeir</surname><given-names>R</given-names></name><name><surname>Wendisch</surname><given-names>VF</given-names></name><name><surname>Schnicke</surname><given-names>S</given-names></name><name><surname>Ruan</surname><given-names>H</given-names></name><name><surname>Farwick</surname><given-names>M</given-names></name><etal/></person-group>             <year>2003</year>             <article-title>Acetate metabolism and its regulation in <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>J Biotechnol</source>             <volume>104</volume>             <fpage>99</fpage>             <lpage>122</lpage>          <pub-id pub-id-type="pmid">12948633</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Brocker1">
+        <label>44</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Brocker</surname><given-names>M</given-names></name><name><surname>Schaffer</surname><given-names>S</given-names></name><name><surname>Mack</surname><given-names>C</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2009</year>             <article-title>Citrate utilization by <italic>Corynebacterium glutamicum</italic> is controlled by the CitAB two-component system through positive regulation of the citrate transport genes <italic>citH</italic> and <italic>tctCBA</italic>.</article-title>             <source>J Bacteriol</source>             <volume>191</volume>             <fpage>3869</fpage>             <lpage>3880</lpage>          <pub-id pub-id-type="pmid">19376865</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Frunzke2">
+        <label>45</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Frunzke</surname><given-names>J</given-names></name><name><surname>Engels</surname><given-names>V</given-names></name><name><surname>Hasenbein</surname><given-names>S</given-names></name><name><surname>Gatgens</surname><given-names>C</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2008</year>             <article-title>Co-ordinated regulation of gluconate catabolism and glucose uptake in <italic>Corynebacterium glutamicum</italic> by two functionally equivalent transcriptional regulators, GntR1 and GntR2.</article-title>             <source>Mol Microbiol</source>             <volume>67</volume>             <fpage>305</fpage>             <lpage>322</lpage>          <pub-id pub-id-type="pmid">18047570</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Brazma1">
+        <label>46</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Brazma</surname><given-names>A</given-names></name><name><surname>Hingamp</surname><given-names>P</given-names></name><name><surname>Quackenbush</surname><given-names>J</given-names></name><name><surname>Sherlock</surname><given-names>G</given-names></name><name><surname>Spellman</surname><given-names>P</given-names></name><etal/></person-group>             <year>2001</year>             <article-title>Minimum information about a microarray experiment (MIAME)-toward standards for microarray data.</article-title>             <source>Nat Genet</source>             <volume>29</volume>             <fpage>365</fpage>             <lpage>371</lpage>          <pub-id pub-id-type="pmid">11726920</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Polen1">
+        <label>47</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Polen</surname><given-names>T</given-names></name><name><surname>Wendisch</surname><given-names>VF</given-names></name></person-group>             <year>2004</year>             <article-title>Genomewide expression analysis in amino acid-producing bacteria using DNA microarrays.</article-title>             <source>Appl Biochem Biotechnol</source>             <volume>118</volume>             <fpage>215</fpage>             <lpage>232</lpage>          <pub-id pub-id-type="pmid">15304751</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Engels2">
+        <label>48</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Engels</surname><given-names>S</given-names></name><name><surname>Ludwig</surname><given-names>C</given-names></name><name><surname>Schweitzer</surname><given-names>J-E</given-names></name><name><surname>Mack</surname><given-names>C</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>The transcriptional activator ClgR controls transcription of genes involved in proteolysis and DNA repair in <italic>Corynebacterium glutamicum</italic>.</article-title>             <source>Molecular Microbiology</source>             <volume>57</volume>             <fpage>576</fpage>             <lpage>591</lpage>          <pub-id pub-id-type="pmid">15978086</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Engels3">
+        <label>49</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Engels</surname><given-names>S</given-names></name><name><surname>Schweitzer</surname><given-names>JE</given-names></name><name><surname>Ludwig</surname><given-names>C</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name><name><surname>Schaffer</surname><given-names>S</given-names></name></person-group>             <year>2004</year>             <article-title><italic>clpC</italic> and <italic>clpP1P2</italic> gene expression in <italic>Corynebacterium glutamicum</italic> is controlled by a regulatory network involving the transcriptional regulators ClgR and HspR as well as the ECF sigma factor sigmaH.</article-title>             <source>Mol Microbiol</source>             <volume>52</volume>             <fpage>285</fpage>             <lpage>302</lpage>          <pub-id pub-id-type="pmid">15049827</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Wennerhold2">
+        <label>50</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Wennerhold</surname><given-names>J</given-names></name><name><surname>Krug</surname><given-names>A</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name></person-group>             <year>2005</year>             <article-title>The AraC-type regulator RipA represses aconitase and other iron proteins from <italic>Corynebacterium</italic> under iron limitation and is itself repressed by DtxR.</article-title>             <source>J Biol Chem</source>             <volume>280</volume>             <fpage>40500</fpage>             <lpage>40508</lpage>          <pub-id pub-id-type="pmid">16179344</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0022143-Abe1">
+        <label>51</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Abe</surname><given-names>S</given-names></name><name><surname>Takayama</surname><given-names>K</given-names></name><name><surname>Kinoshita</surname><given-names>S</given-names></name></person-group>             <year>1967</year>             <article-title>Taxonomical studies on glutamic acid producing bacteria.</article-title>             <source>J Gen Appl Microbiol</source>             <volume>13</volume>             <fpage>279</fpage>             <lpage>301</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0022143-Studier1">
+        <label>52</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Studier</surname><given-names>FW</given-names></name><name><surname>Moffatt</surname><given-names>BA</given-names></name></person-group>             <year>1986</year>             <article-title>Use of bacteriophage T7 RNA polymerase to direct selective high-level expression of cloned genes.</article-title>             <source>J Mol Biol</source>             <volume>189</volume>             <fpage>113</fpage>             <lpage>130</lpage>          <pub-id pub-id-type="pmid">3537305</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

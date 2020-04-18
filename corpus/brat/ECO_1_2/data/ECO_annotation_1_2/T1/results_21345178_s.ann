@@ -1,0 +1,63 @@
+T1	ECO 2252 2285	between the WT and mutant strains
+A1	Category T1 BioProc
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000015	mutant phenotype evidence
+#1	AnnotatorNotes T1	GO:0098740
+T2	ECO 4844 4862	biochemical assays
+A4	Category T2 BioProc
+A5	ECOConfidence T2 High
+A6	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0000002	direct assay evidence
+#2	AnnotatorNotes T2	GO:0010468
+T3	ECO 5912 5936	primer extension product
+A7	Category T3 SeqFeat
+A8	ECOConfidence T3 High
+A9	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0001819	primer extension assay evidence
+T4	ECO 6631 6651	DNase I footprinting
+A10	Category T4 SeqFeat
+A11	ECOConfidence T4 High
+A12	NextSentence T4 Yes
+A13	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0001810	DNAse footprinting evidence
+T5	ECO 7126 7152	lacZ fusion reporter assay
+A14	Category T5 BioProc
+A15	ECOConfidence T5 High
+A16	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+#3	AnnotatorNotes T5	GO:0010629
+T6	ECO 7238 7247	DeltaompR
+A17	Category T6 BioProc
+A18	ECOConfidence T6 High
+A19	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001091	knockout evidence
+#4	AnnotatorNotes T6	GO:0010629
+T7	ECO 7376 7396	DNase I footprinting
+A20	Category T7 MolFn
+A21	ECOConfidence T7 High
+A22	NextSentence T7 Yes
+A23	AssertionStrength T7 Medium
+N7	Reference T7 brat_eco:ECO:0001810	DNAse footprinting evidence
+#5	AnnotatorNotes T7	GO:0043565
+T8	ECO 8252 8268	DeltaompR mutant
+A24	Category T8 BioProc
+A25	ECOConfidence T8 High
+A26	AssertionStrength T8 Medium
+N8	Reference T8 brat_eco:ECO:0001091	knockout evidence
+#6	AnnotatorNotes T8	GO:0047484
+T9	ECO 7376 7396	DNase I footprinting
+A27	Category T9 BioProc
+A28	ECOConfidence T9 High
+A29	NextSentence T9 Yes
+A30	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0001810	DNAse footprinting evidence
+#7	AnnotatorNotes T9	GO:0010628
+A31	NegativeStatement T1 Yes
+T10	ECO 1511 1532	WT and mutant strains
+A32	Category T10 BioProc
+A33	ECOConfidence T10 High
+A34	NextSentence T10 Yes
+A35	AssertionStrength T10 Low
+N10	Reference T10 brat_eco:ECO:0000015	mutant phenotype evidence
+#8	AnnotatorNotes T10	GO:0080135 regulation of cellular response to stress

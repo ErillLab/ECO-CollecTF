@@ -1,0 +1,708 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23209661</article-id>
+      <article-id pub-id-type="pmc">3510223</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-11703</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0050149</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>DNA-binding proteins</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Expression</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subject>Microbial Metabolism</subject>
+              <subject>Plant Microbiology</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Plant Science</subject>
+            <subj-group>
+              <subject>Plant Pathology</subject>
+              <subj-group>
+                <subject>Plant Pathogens</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Plant Microbiology</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Multiple-Level Regulation of 2,4-Diacetylphloroglucinol Production by the Sigma Regulator PsrA in <italic>Pseudomonas fluorescens</italic> 2P24</article-title>
+        <alt-title alt-title-type="running-head">Regulation of Antibiotics in <italic>P. fluorescens</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Xiaogang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Jiucheng</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Wei</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Liqun</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Plant Pathology, China Agricultural University, Beijing, People's Republic of China</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Key Laboratory of Plant Pathology, Ministry of Agriculture, Beijing, People's Republic of China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Aziz</surname>
+            <given-names>Ramy K.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Cairo University, Egypt</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>zhanglq@cau.edu.cn</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: XGW LQZ. Performed the experiments: XGW JCL WZ. Analyzed the data: XGW LQZ. Wrote the paper: XGW LQZ.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>11</issue>
+      <elocation-id>e50149</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>4</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Wu et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p><italic>Pseudomonas fluorescens</italic> 2P24 is a rhizospheric bacterium that aggressively colonizes the plant roots. It produces the antibiotic 2,4-diacetylphoroglucinol (2,4-DAPG), which contributes to the protection of various crop plants against soil borne diseases caused by bacterial and fungal pathogens. The biosynthesis of 2,4-DAPG is regulated at the transcriptional level in the expression of the <italic>phlACBD</italic> operon as well as at the posttranscriptional level by the Gac/Rsm signal transduction pathway. However, the detailed mechanism of such regulation is not clear.</p>
+        </sec>
+        <sec>
+          <title>Methodology/Principal Findings</title>
+          <p>In this study, we identified a binding site for the sigma regulator PsrA in the promoter region of the <italic>phlA</italic> gene. Electrophoretic mobility shift experiments revealed direct and specific binding of PsrA to the <italic>phlA</italic> promoter region. Consistent with the fact that its binding site locates within the promoter region of <italic>phlA</italic>, PsrA negatively regulates <italic>phlA</italic> expression, and its inactivation led to significant increase in 2,4-DAPG production. Interestingly, PsrA also activates the expression of the sigma factor RpoS, which negatively regulates 2,4-DAPG production by inducing the expression of the RNA-binding protein RsmA.</p>
+        </sec>
+        <sec>
+          <title>Conclusions/Significance</title>
+          <p>These results suggest that PsrA is an important regulator that modulates 2,4-DAPG biosynthesis at both transcriptional and posttranscriptional levels.</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by the National High Technology Research and Development Program (&#x201C;863&#x201D; Program) of China (2011AA10A205) and the National Natural Science Foundation of China (31071725, 30871666). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Rhizosphere-inhabiting fluorescent <italic>Pseudomonas</italic> spp. is a group of ubiquitous root colonizing bacteria with remarkable propensity of interacting with plant roots and protecting the roots against pathogenic microorganisms <xref ref-type="bibr" rid="pone.0050149-Keel1">[1]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0050149-Weller1">[5]</xref>. The ability of pseudomonads to suppress soil borne pathogens mainly depends on their ability to secrete secondary antibiotic metabolites, such as pyrrolnitrin, phenazines, pyoluteorin, hydrogen cyanide, and 2,4-diacetylphloroglucinol (2,4-DAPG) <xref ref-type="bibr" rid="pone.0050149-Keel1">[1]</xref>, <xref ref-type="bibr" rid="pone.0050149-Haas1">[4]</xref>, <xref ref-type="bibr" rid="pone.0050149-Bangera1">[6]</xref>, <xref ref-type="bibr" rid="pone.0050149-Haas2">[7]</xref>. Among these antimicrobial compounds, 2,4-DAPG is a phenolic derivative with antifungal, antibacterial, antiviral, and phytotoxic properties that has been intensively studied <xref ref-type="bibr" rid="pone.0050149-Keel1">[1]</xref>, <xref ref-type="bibr" rid="pone.0050149-Keel2">[8]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0050149-Brazelton1">[11]</xref>. Besides its anti-microbial activity, 2,4-DAPG induces systemic resistance in plants and promotes exudation of amino acids from roots <xref ref-type="bibr" rid="pone.0050149-Iavicoli1">[12]</xref>, <xref ref-type="bibr" rid="pone.0050149-Phillips1">[13]</xref>.</p>
+      <p>The products of the four-gene operon <italic>phlACBD</italic> are responsible for the biosynthesis of 2,4-DAPG. Among these proteins, PhlD shows structural similarity with type III polyketide synthase, which is critical for the biosynthesis of monoacetylphloroglucinol (MAPG). PhlA, PhlC and PhlB are required for the transacetylation of MAPG to produce DAPG <xref ref-type="bibr" rid="pone.0050149-Bangera1">[6]</xref>, <xref ref-type="bibr" rid="pone.0050149-Keel3">[14]</xref>, <xref ref-type="bibr" rid="pone.0050149-SchniderKeel1">[15]</xref>. Biosynthesis of 2,4-DAPG is regulated by multiple factors. First, expression of the <italic>phlACBD</italic> operon is controlled by the divergent <italic>phlF</italic> gene, which codes for a transcriptional repressor <xref ref-type="bibr" rid="pone.0050149-Delany1">[16]</xref>. Repression by PhlF is achieved by its interaction with the specific binding site, <italic>pho</italic>, located in the promoter region of <italic>phlA</italic>
+<xref ref-type="bibr" rid="pone.0050149-Abbas1">[17]</xref>. Second, maximal production of 2,4-DAPG occurs in the late exponential phase or stationary phase and is regulated by a number of additional factors, including the GacS/GacA two-component system <xref ref-type="bibr" rid="pone.0050149-Haas1">[4]</xref>, <xref ref-type="bibr" rid="pone.0050149-Haas2">[7]</xref>, <xref ref-type="bibr" rid="pone.0050149-Zuber1">[18]</xref>, the small RNA-binding proteins RsmA and RsmE <xref ref-type="bibr" rid="pone.0050149-Heeb1">[19]</xref>, <xref ref-type="bibr" rid="pone.0050149-Reimmann1">[20]</xref>, the sigma factors RpoD, RpoN and RpoS <xref ref-type="bibr" rid="pone.0050149-Sarniguet1">[21]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0050149-PchyTarr1">[23]</xref>, and the resistance-nodulation-division efflux pump EmhABC <xref ref-type="bibr" rid="pone.0050149-Tian1">[24]</xref>.</p>
+      <p>Differing from many bacterial pathogens of plants or animals in which the highly conserved GacS/GacA two-component system regulates important virulence traits <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Reimmann2">[26]</xref>, this system controls the disease suppression ability in plant-beneficial pseudomonads <xref ref-type="bibr" rid="pone.0050149-Zuber1">[18]</xref>, <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Heeb3">[27]</xref>. GacS is a sensor histidine kinase, which by responding to yet unknown signals, undergoes autophosphorylation. The signals are then relayed to the response regulator GacA by phosphotransfer, leading to the activation of a number of diverse genes, including non-coding small RNAs. For examples, expression of <italic>csrB</italic> and <italic>csrC</italic> in <italic>Escherichia coli</italic>, and <italic>rsmZ</italic>, <italic>rsmY</italic> and <italic>rsmX</italic> in <italic>P. fluorescens</italic> are regulated in this manner <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Babitzke1">[28]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0050149-Valverde1">[31]</xref>. These small RNAs have a high binding affinity for small RNA-binding proteins of the CsrA/RsmA family, which negatively controls the expression of extracellular enzymes <xref ref-type="bibr" rid="pone.0050149-Reimmann1">[20]</xref>, <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Babitzke1">[28]</xref>, <xref ref-type="bibr" rid="pone.0050149-Dubey1">[32]</xref>, <xref ref-type="bibr" rid="pone.0050149-Lapouge1">[33]</xref>.</p>
+      <p>In <italic>E. coli</italic>, RpoS influences the expression of many genes during the transition from exponential to stationary phase to produce proteins usually associated with resistance to starvation or osmotic stress <xref ref-type="bibr" rid="pone.0050149-HenggeAronis1">[34]</xref>. In <italic>Pseudomonas</italic> spp., mutations in <italic>rpoS</italic> lead to pleiotropic phenotypes, such as reduction in bacterial survival under environmental stress or alterations in the production of antibiotics pyoluteorin and 2,4-DAPG <xref ref-type="bibr" rid="pone.0050149-Sarniguet1">[21]</xref>, <xref ref-type="bibr" rid="pone.0050149-HenggeAronis2">[35]</xref>, <xref ref-type="bibr" rid="pone.0050149-Suh1">[36]</xref>. However, the role of <italic>rpoS</italic> in the production of secondary metabolites is complex and displays great variations among bacterial species and the products involved. For example, in <italic>P. fluorescens</italic> strain Pf-5, mutations in <italic>rpoS</italic> lead to a decrease of pyrrolnitrin production, which is accompanied by an increase in the production of pyoluteorin and 2,4-DAPG <xref ref-type="bibr" rid="pone.0050149-Sarniguet1">[21]</xref>.</p>
+      <p>The level of RpoS in bacterial cells increases considerably when the culture enters the stationary phase <xref ref-type="bibr" rid="pone.0050149-HenggeAronis2">[35]</xref>; the GacS/GacA two-component system is necessary for the timely expression and accumulation of RpoS during the transition from exponential growth to the stationary phase, indicating that RpoS is a component of the regulatory circuits involved in GacS/GacA <xref ref-type="bibr" rid="pone.0050149-Mukhopadhyay1">[37]</xref>, <xref ref-type="bibr" rid="pone.0050149-Whistler1">[38]</xref>.</p>
+      <p>In this study, we describe the identification and characterization of PsrA, a new regulator involved in 2,4-DAPG synthesis in <italic>P. fluorescens</italic> 2P24. We show that PsrA negatively controls the <italic>phlA</italic> gene at the transcriptional level via direct binding to an operator in the <italic>phlA</italic> promoter region as well as at the posttranscriptional level by influencing the expression of RpoS and RsmA.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Bacterial strains, plasmids, and growth conditions</title>
+        <p>The bacterial strains and plasmids used in this study are listed in <xref ref-type="supplementary-material" rid="pone.0050149.s005">Table S1</xref>. <italic>E. coli</italic> was grown in LB medium at 37&#xB0;C, <italic>P. fluorescens</italic> was cultured in LB medium or ABM minimal medium <xref ref-type="bibr" rid="pone.0050149-Chilton1">[39]</xref> at 30&#xB0;C. When necessary, antibiotics were added at the following concentrations: ampicillin at 50 &#xB5;g ml<sup>&#x2212;1</sup>, chloramphenicol at 20 &#xB5;g ml<sup>&#x2212;1</sup>, gentamicin at 30 &#xB5;g ml<sup>&#x2212;1</sup>, kanamycin at 50 &#xB5;g ml<sup>&#x2212;1</sup>, and tetracycline at 20 &#xB5;g ml<sup>&#x2212;1</sup>.</p>
+      </sec>
+      <sec id="s2b">
+        <title>DNA manipulations</title>
+        <p>Plasmid and chromosomal DNA isolation, restriction enzyme digestion, ligation, and gel electrophoresis were performed by standard methods <xref ref-type="bibr" rid="pone.0050149-Sambrook1">[40]</xref>. Plasmids were introduced into <italic>E. coli</italic> via chemical transformation, and into <italic>P. fluorescens</italic> strains via biparental mating or electroporation <xref ref-type="bibr" rid="pone.0050149-Wei1">[41]</xref>. Nucleotide sequences were determined by Sunbiotechnology Co. Ltd (Beijing, China) and were analyzed using BLAST <xref ref-type="bibr" rid="pone.0050149-Altschul1">[42]</xref>.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Construction of bacterial mutants</title>
+        <p>To generate the <italic>psrA</italic> gene mutant PM113, two fragments flanking the <italic>psrA</italic> gene were amplified by PCR using the primers psrA50/psrA1770 and psrA2360/psrA4250, respectively (<xref ref-type="supplementary-material" rid="pone.0050149.s005">Table S1</xref>). After digestion with relevant restriction enzymes, the two PCR fragments were cloned into pHSG299 (TaKaRa), producing p299DpsrA (<xref ref-type="fig" rid="pone-0050149-g001">Fig. 1</xref>). Allelic exchange using p299DpsrA with the wild-type 2P24 resulted in mutant PM113. The mutant was verified by diagnostic PCR. To construct the plasmid for complementation, the coding region of the <italic>psrA</italic> gene was PCR-amplified using primers psrA1660/psrA2410 and cloned into pRK415 <xref ref-type="bibr" rid="pone.0050149-Keen1">[43]</xref> to yield p415-psrA (<xref ref-type="fig" rid="pone-0050149-g001">Fig. 1</xref>). Plasmid pJN-psrA was constructed by PCR amplification of <italic>psrA</italic> using the PsrA-EcoRI and PsrA-XbaI primer pair and 2P24 genomic DNA as template. The <italic>Eco</italic>RI-<italic>Xba</italic>I restriction fragment was cloned into pJN105 <xref ref-type="bibr" rid="pone.0050149-Newman1">[44]</xref>, resulting in the <italic>psrA</italic> expression vector pJN-psrA.</p>
+        <fig id="pone-0050149-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Schematic of the physical location of the <italic>psrA</italic> gene in <italic>Pseudomonas fluorescens</italic> 2P24.</title>
+            <p><italic>lexA</italic>, gene encoding LexA repressor protein; <italic>psrA</italic>, <italic>Pseudomonas</italic> sigma regulator; <italic>nagZ</italic>, gene encoding &#x3B2;-<italic>N</italic>-acetyl-<sub>D</sub>-glucosaminidase; other gene names refer to the gene symbols as annotated in the <italic>Pseudomonas fluorescens</italic> Pf0-1 genome (GenBank accession no. CP000094). The bars indicate the fragments cloned into the vector pHSG299 to obtain p299DpsrA. The fragment inserted into pRK415 was used to complement the <italic>psrA</italic> mutant. Two putative PsrA binding sites are indicated with inverted arrows. &#x394;, the region deleted in the mutant PM113 and in plasmid p229DpsrA. Artificial restriction sites are marked with asterisks.</p>
+          </caption>
+          <graphic xlink:href="pone.0050149.g001"/>
+        </fig>
+        <p>To construct a C-terminal vesicular stomatitis virus glycoprotein (VSV-G) epitope-RsmA fusion, a PCR-generated fragment with the sequence <named-content content-type="gene">5&#x2032;-TATACAGATATTGAAATGAATAGATTAGGAAAA-3&#x2032;</named-content> inserted in-frame to the 3&#x2032; end of the <italic>rsmA</italic> gene was cloned into pK18mobGII <xref ref-type="bibr" rid="pone.0050149-Katzen1">[45]</xref>. The resulting plasmid pK18RsmAVSV was verified by sequencing and mobilized into strains 2P24 and the <italic>rpoS</italic> mutant PM303 to generate strains PM114 and PM304, respectively. The plasmid pK18PhlAVSV which contains a -VSV-G fusion was constructed similarly, and was mobilized into strains 2P24, PM113, and PM601 to generate strains PM305, PM306, and PM307, respectively. All mutations were verified by DNA sequencing.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Construction of reporter fusions and &#x3B2;-galactosidase assays</title>
+        <p>To construct <italic>psrA</italic>-<italic>lacZ</italic>, <italic>rpoS</italic>-<italic>lacZ</italic>, <italic>rsmA</italic>-<italic>lacZ</italic>, <italic>rsmE</italic>-<italic>lacZ</italic>, <italic>rsmY</italic>-<italic>lacZ</italic> and <italic>rsmX</italic>-<italic>lacZ</italic> transcriptional fusions, the DNA fragments containing the upstream region of each of these genes (300-bp for <italic>psrA</italic>, 470-bp for <italic>rpoS</italic>, 530-bp for <italic>rsmA</italic>, 280-bp for <italic>rsmE</italic>, 330-bp for <italic>rsmY</italic>, and 270-bp for <italic>rsmX</italic>) were PCR amplified using the appropriate primer sets (<xref ref-type="supplementary-material" rid="pone.0050149.s005">Table S1</xref>). Each of these <italic>cis</italic>-acting regions was inserted as a <italic>Bam</italic>HI or a <italic>Bgl</italic>II fragment into pRG970Gm <xref ref-type="bibr" rid="pone.0050149-Wu1">[46]</xref> to place them upstream of a promoterless <italic>lacZ</italic> gene. Plasmid p970Gm-rsmZMp was constructed by PCR amplification using primer pair rsmZMp and RsmZ-P3361 and inserted into pRG970Gm as a <italic>Bam</italic>HI fragment. In this construct, an upstream activating sequence (UAS) in the <italic>rsmZ</italic> promoter was deleted. These plasmids were introduced into appropriate <italic>P. fluorescens</italic> strains by electroporation. &#x3B2;-galactosidase activity of the testing strains was determined by using the Miller method <xref ref-type="bibr" rid="pone.0050149-Miller1">[47]</xref>.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Site-directed mutagenesis of the <italic>phlA</italic> and the <italic>rpoS</italic> promoters</title>
+        <p>To introduce specific mutations into the <italic>phlA</italic> promoter, a 740-bp <italic>Bam</italic>HI fragment containing the <italic>phlA</italic> promoter region was excised from p970Gm-phlAp and inserted into pHSG399 to create p399phlAp. Oligonucleotides containing the designed mutations (primer pairs phlAMGF-phlApM and phlADTF-phlApM) were used to generate p399phlAp derivatives by inverse PCR (QuickChange site-directed mutagenesis kit; Stratagene). The mutated nucleotides were confirmed by DNA sequencing. The obtained p399phlAp derivatives were digested with <italic>Bam</italic>HI and the fragments containing the mutated <italic>phlA</italic> promoter were then inserted into pRG970Gm to generate p970Gm-phlApD3T and p970Gm-phlApM3G, respectively.</p>
+        <p>A 800-bp fragment containing the promoter of <italic>rpoS</italic> amplified by PCR with primer pairs rpoSp1 and rpoSp2, was inserted into pHSG399 to obtain the plasmid p399rpoSp. Oligonucleotides containing the designed mutation (primer pair RpoSMF and RpoSMR) were used to generate p399rpoSp derivative by inverse PCR (see above). The mutated nucleotides were confirmed by DNA sequencing.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Expression and purification of the PsrA protein</title>
+        <p>The predicted ORF of <italic>psrA</italic> was amplified by PCR with primers psrA-NdeI and psrA-XhoI (<xref ref-type="supplementary-material" rid="pone.0050149.s005">Table S1</xref>). After <italic>Nde</italic>I-<italic>Xho</italic>I digestion, the PCR product was cloned into pET-22b(+) to give pET-PsrA, which was introduced into <italic>E. coli</italic> BL21(DE3) (Novagen) for the production of His<sub>6</sub>-PsrA. To induce protein expression, IPTG was added to <italic>E. coli</italic> cultures grown to an optical density at 600 nm (OD<sub>600</sub>) of 0.6 at a final concentration of 0.8 mM. His<sub>6</sub>-PsrA was purified by using a nickel affinity column (Amersham Biosciences) according to the manufacturer's instructions. Recombinant proteins were eluted by 200 mM imidazole, and the purity was determined by sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) followed by Coomassie brilliant blue staining. Protein concentration was determined by Nanodrop ND-1000 (Thermo Scientific) absorbance at 280 nm and by the Bicinchoninic acid (BCA) assay.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Electrophoretic mobility shift assay</title>
+        <p>The upstream DNA fragments of the <italic>psrA</italic>, <italic>phlA</italic>, or <italic>rpoS</italic> genes containing the putative PsrA-binding sequences were amplified by PCR using the appropriate primer sets, respectively (<xref ref-type="supplementary-material" rid="pone.0050149.s005">Table S1</xref>). The DNA fragments were purified using a QIAquick gel extraction kit (Qiagen). Protein-DNA interaction assays were performed in 20 &#xB5;l of 1&#xD7; binding buffer (20 mM HEPES, pH 7.6; 1 mM EDTA; 10 mM (NH4)<sub>2</sub>SO<sub>4</sub>; 1 mM DTT; 150 mM KCl, 5% [wt/vol] glycerol). The reaction mixtures were incubated at room temperature for 20 min. Each binding reaction was loaded onto an 8% native polyacrylamide gel and ran for 2 h at 90 Volts. Gels were stained with SYBR Green as recommended by the manufacturer of the EMSA kit E33075 (Invitrogen).</p>
+      </sec>
+      <sec id="s2h">
+        <title>Production of PsrA antibodies</title>
+        <p>Polyclonal antibodies against PsrA of <italic>P. fluorescens</italic> 2P24 were produced in a mouse by subcutaneous immunization with 200 &#xB5;g of the purified recombinant His<sub>6</sub>-PsrA, and this initial immunization was followed by additional immunizations at 3 and 4 weeks, respectively. Six days after the last injection, the blood of the immunized mouse was collected, and its serum was used for Western blot analysis.</p>
+      </sec>
+      <sec id="s2i">
+        <title>Western blot analysis</title>
+        <p>Cell lysates of the <italic>P. fluorescens</italic> 2P24 or its derivatives were prepared by sonication in TNT buffer (10 mM Tris-HCl [pH 8.0], 150 mM NaCl, 0.05% Tween-20) (Sambrook and Russell, 2001), the soluble fractions separated by SDS-PAGE were transferred onto polyvinylidene fluoride (PVDF) membrane (Millipore). After blocking with 5% milk in PBST (PBS containing 0.02% Tween-20), membranes were incubated with the appropriate primary antibody: anti-PsrA (1&#x2236;1,000), anti-VSV-G antibody (1&#x2236;2,000; Sigma) and anti-3-phosphoglycerate kinase (PGK) (1&#x2236;2,000; Invitrogen). Blots were washed with PBST, probed with an anti-mouse horseradish peroxidase conjugated secondary antibodies (1&#x2236;5,000; Sigma). The resulting blots were incubated for 1 min in ECL reagent and detected using O-MAT X-ray film (Kodak).</p>
+      </sec>
+      <sec id="s2j">
+        <title>Extraction and quantification of the 2,4-DAPG production</title>
+        <p><italic>P. fluorescens</italic> 2P24 and its derivatives were cultivated with shaking in 30 ml LB liquid media at 140 rpm at 30&#xB0;C. 2,4-DAPG was extracted from the culture supernatant and was quantified by HPLC as described previously <xref ref-type="bibr" rid="pone.0050149-Shanahan1">[10]</xref>.</p>
+      </sec>
+      <sec id="s2k">
+        <title>Nucleotide sequence accession number</title>
+        <p>The sequence of the <italic>psrA</italic> gene from strain 2P24 has been deposited in the GenBank database under accession no. HQ392504.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>The <italic>phlA</italic>-<italic>phlF</italic> intergenic region in <italic>P. fluorescens</italic> 2P24 contains a PsrA binding site</title>
+        <p>The importance of inverted repeat sequences for regulatory protein binding has been established for numerous regulators <xref ref-type="bibr" rid="pone.0050149-Ramos1">[48]</xref>, <xref ref-type="bibr" rid="pone.0050149-Vannini1">[49]</xref>. Previous studies have revealed the presence of several palindromic sequences in the <italic>phlA</italic>-<italic>phlF</italic> intergenic region in 2,4-DAPG-producing <italic>P. fluorescens</italic>
+<xref ref-type="bibr" rid="pone.0050149-Abbas1">[17]</xref>. A sequence alignment of the <italic>phlA</italic> gene promoter region from strain 2P24 with other well-studied 2,4-DAPG producing <italic>Pseudomonas</italic> strains revealed a very well conserved palindromic sequence GAAACN<sub>5</sub>GTTTC (<xref ref-type="supplementary-material" rid="pone.0050149.s001">Fig. S1</xref>). This element is a potential recognition sequence for PsrA (<italic><underline>P</underline>seudomonas</italic>
+<underline>s</underline>igma <underline>r</underline>egulator), which was previously identified as a positive regulator of <italic>rpoS</italic> expression in <italic>P. putida</italic> WCS358 and <italic>P. aeruginosa</italic> PAO1 <xref ref-type="bibr" rid="pone.0050149-Kojic1">[50]</xref>, <xref ref-type="bibr" rid="pone.0050149-Kojic2">[51]</xref> and was involved in the regulation of type III secretion system and quorum sensing <xref ref-type="bibr" rid="pone.0050149-Chatterjee1">[52]</xref>, <xref ref-type="bibr" rid="pone.0050149-Shen1">[53]</xref>. Our ongoing genome sequence of strain 2P24 revealed that this strain codes for a 237 amino acid PsrA homolog (<xref ref-type="fig" rid="pone-0050149-g001">Fig. 1</xref>). This protein is predicted to have a pI of 9.75 and a molecular mass of 26.2 kDa. It contains a helix-turn-helix motif (residues 10 to 56) in its N-terminal portion, which is conserved in members of the TetR family regulatory proteins. PsrA of strain 2P24 is highly similar to predicted PsrA proteins from other pseudomonads, including <italic>P. fluorescens</italic> Pf0-1 (accession number ABA75608; 96% identity), <italic>P. fluorescens</italic> Pf-5 (accession number AAY91237; 93% identity), <italic>P. chlororaphis</italic> PCL1391 (accession number AAM52309, 95% identity), <italic>P. putida</italic> F1 (accession number ABQ79722; 94% identity), <italic>P. syringae</italic> pv. <italic>tomato</italic> DC3000 (accession number AAO56983; 91% identity), and <italic>P. aeruginosa</italic> PAO1 (accession number AAG06394, 87% identity).</p>
+        <p>The presence of a putative PsrA-binding sequence in the <italic>phlA</italic> promoter region suggests potential interactions between PsrA and the <italic>phlA</italic> promoter sequence. We tested this hypothesis by electrophoretic mobility shift assay (EMSA) using the purified His<sub>6</sub>-PsrA protein and DNA fragments of the promoter. A mobility shift was observed when His<sub>6</sub>-PsrA was incubated with the <italic>phlA</italic> promoter (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2A</xref>). Importantly, no shift was detected when mutations disrupting the putative binding site were introduced (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2A</xref>). These results indicate that PsrA may regulate the expression of the <italic>phlA</italic> gene by directly interacting with <italic>phlA</italic> promoter.</p>
+        <fig id="pone-0050149-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>EMSA of PsrA with the <italic>phlA</italic> (30 ng) promoter fragment that contains PsrA-binding sequence showing formation of a PsrA-DNA complex.</title>
+            <p>Lane 1, DNA probe alone; lanes 2&#x2013;5, DNA probe incubated with 50, 75, 100, or 150 ng PsrA, respectively; lane 6, the mutagenized DNA probe from p399phlAp derivative (a 3-bp substitution [GGG for TTT] in the <italic>phlA</italic> promoter) incubated with 150 ng PsrA (A). Biosynthesis of 2,4-DAPG in strain 2P24 and its <italic>psrA</italic> and <italic>phlF</italic> mutants was assayed by HPLC (B). For transcriptional assay, strain 2P24 and its <italic>psrA</italic> mutant carrying p970Gm-phlAp (wild type <italic>phlA</italic>-<italic>lacZ</italic>), p970Gm-phlApM3G (PsrA box mutTTT <italic>phlA</italic>-<italic>lacZ</italic>) or p970Gm-phlAD3T (PsrA box &#x394;TTT <italic>phlA</italic>-<italic>lacZ</italic>) were grown in LB, and &#x3B2;-galactosidase activities were determined (C). Analysis of PhlA-V levels in strain 2P24 and the <italic>psrA</italic> mutant by immunoblotting. An antibody directed against 3-phosphoglycerate kinase &#x3B1; (&#x3B1;-PGK) is used as a loading control in this and later blots (D). All experiments were performed in triplicate, and the mean values &#xB1;SD are indicated. Growth is indicated by the dotted line.</p>
+          </caption>
+          <graphic xlink:href="pone.0050149.g002"/>
+        </fig>
+      </sec>
+      <sec id="s3b">
+        <title>PsrA negatively regulates 2,4-DAPG production at transcriptional level</title>
+        <p>In LB medium, the <italic>psrA</italic> mutant PM113 produced higher levels of an uncharacterized red pigment, which is a characteristic phenotype associated with the production of the antibiotic 2,4-DAPG (data not shown) <xref ref-type="bibr" rid="pone.0050149-Raaijmakers1">[3]</xref>, <xref ref-type="bibr" rid="pone.0050149-Abbas1">[17]</xref>. Further quantification by HPLC showed that the 2,4-DAPG levels in culture supernatant of the <italic>psrA</italic> mutant were about 5-fold higher than that of the wild type strain. Such increase could be repressed by introducing the <italic>psrA</italic> gene into the mutant (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2B</xref>). An earlier study has shown that inactivation of the <italic>phlF</italic> gene results in overproduction of 2,4-DAPG in <italic>P. fluorescens</italic> 2P24 <xref ref-type="bibr" rid="pone.0050149-Zhou1">[54]</xref>. Interestingly, overexpression of PsrA in the <italic>phlF</italic> mutant caused dramatic reduction in 2,4-DAPG production (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2B</xref>). To test the influence of PsrA on the <italic>phlA</italic> transcription, p970Gm-phlAp <xref ref-type="bibr" rid="pone.0050149-Wu1">[46]</xref> carrying a <italic>phlA-lacZ</italic> transcriptional fusion was transformed into the <italic>psrA</italic> mutant and its parental strain 2P24. When the cultures were in the stationary phase, expression of <italic>phlA</italic> increased about 3-fold in the <italic>psrA</italic> mutant compared to that of strain 2P24 (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2C</xref>). Disruption of the PsrA box led to expression of the fusion irresponsive to the regulatory protein (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2B</xref>). The expression of the <italic>phlF-lacZ</italic> transcriptional fusion was measured in a <italic>psrA</italic>-deficient mutant and no difference was detected between the mutant and 2P24 (data not shown). In addition, Western blot assay using a chromosomal <italic>vsv-phlA</italic> fusion showed that levels of PhlA protein increased in the <italic>psrA</italic> mutant compared to the wild type strain (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2D</xref>). Together, these results indicate that PsrA controls 2,4-DAPG production by directly regulating the transcription of the 2,4-DAPG biosynthetic operon.</p>
+      </sec>
+      <sec id="s3c">
+        <title>PhlF and PsrA expressed differently in <italic>P. fluorescens</italic> 2P24</title>
+        <p>PhlF is a specific transcriptional repressor that regulates the expression of the 2,4-DAPG biosynthetic operon by binding to the <italic>pho</italic> site located about 120-bp downstream of the PsrA recognization site in the <italic>phlA</italic> gene promoter region (<xref ref-type="supplementary-material" rid="pone.0050149.s001">Fig. S1</xref>). To compare the expression of <italic>psrA</italic> and <italic>phlF</italic>, <italic>lacZ</italic> fusion of these two genes was introduced into strain 2P24. The <italic>psrA</italic> gene expressed in a cell density-dependent manner and reached its maximum in the stationary phase, whereas the transcription of the <italic>phlF</italic> gene reached the highest level earlier in logarithmic phase (<xref ref-type="fig" rid="pone-0050149-g003">Fig. 3</xref>). Differential expression of PhlF and PsrA during cell growth implied their distinctive effects on <italic>phlA</italic> transcription. PhlF is likely a major repressor during the early growth phase. In agreement with this notion, 2,4-DAPG normally begins to accumulate during the transition from logarithmic to stationary phase <xref ref-type="bibr" rid="pone.0050149-Abbas1">[17]</xref>.</p>
+        <fig id="pone-0050149-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>The transcriptional fusions <italic>psrA</italic>-<italic>lacZ</italic> and <italic>phlF</italic>-<italic>lacZ</italic> were introduced into <italic>P. fluorescens</italic> 2P24, respectively.</title>
+            <p>Bacteria were grown in LB medium, and absorbance was measured at 600 nm (solid circles, <italic>psrA</italic>-<italic>lacZ</italic>; open circles, <italic>phlF</italic>-<italic>lacZ</italic>). Expression of the fusions was assessed by measuring levels of &#x3B2;-galactosidase. Black shading represents <italic>psrA</italic>-<italic>lacZ</italic> expression, and grey shading represents <italic>phlF</italic>-<italic>lacZ</italic> expression. Triplicate cultures were assayed and the standard deviations are presented with error bars.</p>
+          </caption>
+          <graphic xlink:href="pone.0050149.g003"/>
+        </fig>
+        <p>PsrA regulates the expression of itself in <italic>P. putida</italic>, <italic>P. aeruginosa</italic>, and <italic>P. syringae</italic> by directly binding to its own promoter <xref ref-type="bibr" rid="pone.0050149-Kojic2">[51]</xref>. In strain 2P24, two putative PsrA-binding sequences (<named-content content-type="gene"><underline>GAAAC</underline>GTAT<underline>GTTTC</underline></named-content> and <named-content content-type="gene"><underline>CAAAC</underline>AAGT<underline>GTTTG</underline></named-content>) are present in the upstream region of the <italic>psrA</italic> gene (<xref ref-type="fig" rid="pone-0050149-g001">Fig. 1</xref>). By EMSA, we found that PsrA directly binds its promoter region (<xref ref-type="supplementary-material" rid="pone.0050149.s002">Fig. S2A</xref>). Consistently, the <italic>psrA-lacZ</italic> fusion expressed at a higher level in the <italic>psrA</italic> defective mutant (<xref ref-type="supplementary-material" rid="pone.0050149.s002">Fig. S2B</xref>).</p>
+      </sec>
+      <sec id="s3d">
+        <title>PsrA positively regulates the translational regulator RsmA</title>
+        <p>In some <italic>Pseudomonas</italic> strains, biosynthesis of 2,4-DAPG is tightly regulated at both transcriptional and post-transcriptional level <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Heeb3">[27]</xref>. Multiple factors of the Gac/Rsm signal transduction pathway, including the GacS/GacA system, the small RNAs RsmX, RsmY, and RsmZ, and the translational repressors RsmA and RsmE are important components of regulatory circuit that controls the production of 2,4-DAPG at posttranscriptional level <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Lapouge1">[33]</xref>. In <italic>P. fluorescens</italic> 2P24, three small RNAs, RsmX, RsmY, and RsmZ, and two small RNA-binding proteins RsmA and RsmE are present in the draft genome sequence. To determine whether PsrA influences expression of these genes, we measured the transcription of these genes in the <italic>psrA</italic> mutant. Although no difference for <italic>rsmZ</italic>, <italic>rsmY, rsmX</italic> or <italic>rsmE</italic> was observed (<xref ref-type="fig" rid="pone-0050149-g004">Fig. 4A&#x2013;D</xref>), the expression of <italic>rsmA</italic> was significantly lower in the mutant (<xref ref-type="fig" rid="pone-0050149-g004">Fig. 4E</xref>). Consistent with this observation, the <italic>rsmA</italic> mutant produced significantly higher amounts of PhlA protein (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2D</xref>) and 2,4-DAPG (<xref ref-type="fig" rid="pone-0050149-g004">Fig. 4F</xref>) than the wild type strain 2P24. This increase of 2,4-DAPG can be brought to the wild type level by expressing <italic>rsmA</italic> in the mutant (<xref ref-type="fig" rid="pone-0050149-g004">Fig. 4F</xref>), further validating the negative role of RsmA in 2,4-DAPG production. Thus, PsrA positively regulates the transcription of the <italic>rsmA</italic> gene, which in turn negatively controls the biosynthesis of 2,4-DAPG.</p>
+        <fig id="pone-0050149-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Transcription of small non-coding RNA genes <italic>rsmX</italic> (A), <italic>rsmY</italic> (B), and <italic>rsmZ</italic> (C) and their cognate regulator genes <italic>rsmE</italic> (D) and <italic>rsmA</italic> (E) in <italic>P. fluorescen</italic>s 2P24, its <italic>psrA</italic> mutant and its <italic>gacA</italic> mutants.</title>
+            <p>(F) HPLC analysis of 2,4-DAPG production by strain 2P24 and its <italic>rsmA</italic> mutant. All experiments were performed in triplicate, and the mean values &#xB1;SD are indicated. Growth is indicated by the dotted line.</p>
+          </caption>
+          <graphic xlink:href="pone.0050149.g004"/>
+        </fig>
+      </sec>
+      <sec id="s3e">
+        <title>The effect of PsrA on <italic>rsmA</italic> gene expression is mediated by the sigma factor RpoS</title>
+        <p>The absence of a PsrA binding site in the promoter region of <italic>rsmA</italic> suggests an indirect effect of PsrA on <italic>rsmA</italic> transcription (data not shown). A previous study has shown that RpoS positively regulates <italic>rsmA</italic> gene in <italic>Pectobacterium carotovarum</italic> and its homolog CsrA in <italic>E. coli</italic>
+<xref ref-type="bibr" rid="pone.0050149-Mukherjee1">[55]</xref>. Further, RpoS is a negative regulator for 2,4-DAPG production in <italic>P. fluorescens</italic> CHA0 and Pf-5 <xref ref-type="bibr" rid="pone.0050149-Heeb1">[19]</xref>, <xref ref-type="bibr" rid="pone.0050149-Sarniguet1">[21]</xref>. In <italic>P. fluorescens</italic> 2P24, the production of 2,4-DAPG in the <italic>rpoS</italic> mutant increased about 3-fold when compared with the wild type strain (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5A</xref>). We therefore examined whether RpoS regulates <italic>phlA</italic> expression. The <italic>phlA-lacZ</italic> transcriptional fusion in the <italic>rpoS</italic> mutant expressed at levels similar to those in the mutant (<xref ref-type="supplementary-material" rid="pone.0050149.s004">Fig. S4</xref>), suggesting that the negative effects of RpoS on 2,4-DAPG production occurs at post-transcriptional level.</p>
+        <fig id="pone-0050149-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>RpoS regulates the 2,4-DAPG production via RsmA in <italic>P. fluorescens</italic> 2P24.</title>
+            <p>Biosynthesis of 2,4-DAPG in strains 2P24 and its <italic>rpoS</italic> mutant was assayed by HPLC (A). The expression of the <italic>rpoS</italic> gene is activated by PsrA in strain 2P24 (B). Expression of the <italic>rsmA</italic> gene in the wild type strain 2P24 and the <italic>rpoS</italic> mutant PM303 (C). Binding assay of PsrA to the <italic>rpoS</italic> promoter. 30 ng DNA probe was incubated with increasing amounts of PsrA. Lane 1, DNA probe alone; lanes 2&#x2013;5, DNA probe incubated with 25, 50, 75, or 100 ng PsrA, respectively; lane 6, the mutated DNA probe from p399rpoSp derivative (a 3-bp substitution [GGG for TTT] in the <italic>rpoS</italic> promoter) incubated with 100 ng PsrA (D). Western blot analysis of RsmA-V in strain 2P24 and the <italic>rpoS</italic> mutant (E).</p>
+          </caption>
+          <graphic xlink:href="pone.0050149.g005"/>
+        </fig>
+        <p>The above observations suggest that in strain 2P24, PsrA regulates <italic>rpoS</italic> expression, which in turn controls <italic>rsmA</italic> expression. Careful inspection of the promoter region of <italic>rpoS</italic> of strain 2P24 revealed the presence of a putative PsrA binding site between &#x2212;427 and &#x2212;416 relative to its transcription start site. Incubation of His<sub>6</sub>-PsrA with a DNA fragment containing this region led to the formation of DNA-protein complex, and no shift was detected when mutations disrupting the putative binding site were introduced (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5D</xref>). In the <italic>psrA</italic> mutant, expression of the <italic>rpoS-lacZ</italic> decreased about 4-fold (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5B</xref>), suggesting a positive role of PsrA in <italic>rpoS</italic> transcription. In the <italic>rpoS</italic> mutant, the <italic>rsmA</italic>-<italic>lacZ</italic> transcriptional fusion expressed at a significantly lower level than in the wild type (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5C</xref>). The defect was caused by the loss of RpoS because introduction of a plasmid-borne allele of this gene completely restored the expression of <italic>rsmA</italic> (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5C</xref>). To examine the protein level of RsmA, we created a chromosomal <italic>vsv-rsmA</italic> in the &#x394;<italic>rpoS</italic> strain background and found that similar to the results from the <italic>lacZ</italic> fusion, VSV-RsmA was produced at a lower level in the mutant (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5E</xref>). The effect of RpoS on <italic>rsmA</italic> was specific because the expression of <italic>rsmE</italic> or the production of RsmE was not affected by <italic>rpoS</italic> deletion (data not shown). Taken together, these results establish that in addition to directly affecting <italic>phlA</italic> transcription, PsrA influences the production of 2,4-DAPG posttranscriptionaly via RpoS and RsmA.</p>
+      </sec>
+      <sec id="s3f">
+        <title>The effect of PsrA on 2,4-DAPG production is independent of the GacS/GacA system</title>
+        <p>In <italic>Pseudomonas</italic> spp., components of the Gac/Rsm signal transduction pathway includes the GacS/GacA two-component system, the noncoding small RNAs and the translational repressors. Among these, the GacS/GacA system functions as a global regulatory system which positively regulates transcription of the noncoding small RNAs by binding to a conserved UAS in the promoter region <xref ref-type="bibr" rid="pone.0050149-Kay1">[29]</xref>, <xref ref-type="bibr" rid="pone.0050149-Valverde1">[31]</xref>. In <italic>P. chlororaphis</italic>, the transcription of <italic>psrA</italic> was abolished in the <italic>gacS</italic> mutant, suggesting that the <italic>psrA</italic> gene in this bacterium was under the regulation of the two-component system <xref ref-type="bibr" rid="pone.0050149-Chin1">[56]</xref>. To determine whether <italic>psrA</italic> was regulated by the GacS/GacA system, we measured the expression of the <italic>psrA-lacZ</italic> fusion in a GacS/GacA-deficient mutant and no difference was detected between the mutant and the wild type strain. Similar results were obtained when the protein levels of PsrA were probed (<xref ref-type="fig" rid="pone-0050149-g006">Fig. 6</xref>). Thus, the GacS/GacA two-component system has no effect on the expression of the <italic>psrA</italic> gene in this bacterium.</p>
+        <fig id="pone-0050149-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>PsrA is not regulated by the GacS/GacA two-component system in <italic>P. fluorescens</italic> 2P24.</title>
+            <p>Transcriptional fusion assay (A) and Western blot analysis (B) demonstrating that the expression of PsrA is not altered in the <italic>gacA</italic> mutant or in the <italic>gacS</italic> mutant.</p>
+          </caption>
+          <graphic xlink:href="pone.0050149.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>The antibiotic 2,4-DAPG is one of the major weapons to inhibit the growth of pathogenic bacteria and fungi by some biocontrol <italic>P. fluorescens</italic> strains. <italic>P. fluorescens</italic> mutants unable to produce 2,4-DAPG are defective in its protection against black root rot of tobacco, take-all of wheat, and <italic>Pythium</italic> damping-off of sugarbeet <xref ref-type="bibr" rid="pone.0050149-Keel2">[8]</xref>, whereas strains 2P24 and CHA0 overproducing 2,4-DAPG exhibit increased plant disease suppression ability <xref ref-type="bibr" rid="pone.0050149-Maurhofer1">[57]</xref>, <xref ref-type="bibr" rid="pone.0050149-Zhou2">[58]</xref>. However, overproduction of 2,4-DAPG in some <italic>Pseudomonas</italic> strains led to a notable phytotoxicity <xref ref-type="bibr" rid="pone.0050149-Zhou1">[54]</xref>. Clearly, precise regulation of 2,4-DAPG production is necessary for proper responses to the ever changing soil environment <xref ref-type="bibr" rid="pone.0050149-Haas1">[4]</xref>. A series of transcriptional and translational regulators that control 2,4-DAPG production have been identified in various strains of <italic>P. fluorescens</italic>, including CHA0, F113, Pf-5, Q2&#x2013;87, Q8r1-96, and 2P24. These regulatory factors inclue the specific repressor PhlF <xref ref-type="bibr" rid="pone.0050149-Abbas1">[17]</xref>, the sigma factors RpoS, RpoD and RpoN <xref ref-type="bibr" rid="pone.0050149-SchniderKeel1">[15]</xref>, <xref ref-type="bibr" rid="pone.0050149-Sarniguet1">[21]</xref>, <xref ref-type="bibr" rid="pone.0050149-PchyTarr1">[23]</xref>, the H-NS family regulators MvaT and MvaV <xref ref-type="bibr" rid="pone.0050149-Baehler1">[59]</xref>, the oxidoreductase DsbA <xref ref-type="bibr" rid="pone.0050149-Mavrodi1">[60]</xref>, the RNA binding protein Hfq <xref ref-type="bibr" rid="pone.0050149-Wu1">[46]</xref>, the resistance-nodulation-division efflux pump EmhABC <xref ref-type="bibr" rid="pone.0050149-Tian1">[24]</xref>, and the Gac/Rsm signal transduction pathway <xref ref-type="bibr" rid="pone.0050149-Heeb2">[25]</xref>, <xref ref-type="bibr" rid="pone.0050149-Heeb3">[27]</xref>. However, the relationships among these factors and how they co-ordinate to control antibiotics production are not fully understood.</p>
+      <p>In <italic>P. fluorescens</italic> 2P24, both PhlF and PsrA are transcriptional repressors for expression of genes involved in 2,4-DAPG production by directly interacting with specific binding box localized on the <italic>phlA</italic> promoter region (<xref ref-type="supplementary-material" rid="pone.0050149.s001">Fig. S1</xref>). This observation raises the question of why two seemingly redundant repressors are needed for production of this antibiotic. We show here that the expression pattern of <italic>phlF</italic> and <italic>psrA</italic> is clearly distinct (<xref ref-type="fig" rid="pone-0050149-g003">Fig. 3</xref>), and the 2,4-DAPG production in <italic>phlF</italic>- and <italic>psrA</italic>-negative mutants is very different (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2B</xref>), implying that their roles in the production of 2,4-DAPG may differ greatly. 2,4-DAPG production in the <italic>phlF</italic> mutant is more than 20-fold higher than that in the <italic>psrA</italic> mutant (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2B</xref>), indicating that the pathway-specific regulator PhlF is the dominant regulatory factor for 2,4-DAPG production. Transcriptional analysis showed that the <italic>phlF</italic> expressed at a relatively higher level in the early stages of growth (<xref ref-type="fig" rid="pone-0050149-g003">Fig. 3</xref>), which is consistent with its role in preventing 2,4-DAPG production in the early log phase and the fact that the antibiotics usually accumulates in the stationary phase (1, 11). Constitutive expression of the <italic>phlACBD</italic> locus could be a metabolic burden, which can lead to reduction in bacterial growth and its ability to compete with adjacent microorganisms. Therefore, additional repressors are necessary to prevent excessive biosynthesis of 2,4-DAPG after the repression by PhlF is lifted. PsrA might play such a role to restrain the overproduction of 2,4-DAPG, particularly in the stationary phase when the expression of the <italic>psrA</italic> gene was significantly higher (<xref ref-type="fig" rid="pone-0050149-g003">Fig. 3</xref>). Consistente with this notion, overexpression of PsrA in <italic>phlF</italic> mutant caused a decrease in 2,4-DAPG production (<xref ref-type="fig" rid="pone-0050149-g002">Fig. 2B</xref>). Such a regulatory circuit may allow the bacterium to mount a more efficient and precise regulatory response for balanced production of antibiotics to better adapt to the ever-changing environment. In addition, the presence of the recognition sites for PhlF and PsrA in the <italic>phlA</italic> promoter region of strain 2P24 as well other 2,4-DAPG producing pseudomonads, including <italic>P. fluorescens</italic> F113, Q2&#x2013;87, CHA0, and Pf-5 (GenBank accession numbers AF497760, U41818, AF207529, and CP000076, respectively) further suggests the importance and conservation of PsrA in the regulation of 2,4-DAPG production (<xref ref-type="supplementary-material" rid="pone.0050149.s001">Fig. S1</xref>).</p>
+      <p>Consistent with earlier studies, our results revealed that unlike PhlF which is a specific repressor for the <italic>phlACBD</italic> operon, PsrA is a global regulator that positively regulates the expression of the sigma factor RpoS in bacteria <xref ref-type="bibr" rid="pone.0050149-Kojic2">[51]</xref>, <xref ref-type="bibr" rid="pone.0050149-Kojic3">[61]</xref>. In other <italic>Pseudomonas</italic> spp., PsrA is known to be involved in the regulation of the type III secretion system (TTSS), quorum sensing, fatty acid degradation, and the production of secondary metabolites <xref ref-type="bibr" rid="pone.0050149-Chatterjee1">[52]</xref>, <xref ref-type="bibr" rid="pone.0050149-Shen1">[53]</xref>, <xref ref-type="bibr" rid="pone.0050149-Chin1">[56]</xref>, <xref ref-type="bibr" rid="pone.0050149-Kang1">[62]</xref>. Thus, PsrA participates in diverse regulatory networks involved in various physiological functions. In <italic>P. fluorescens</italic> strain 2P24, in addition to the biosynthesis of 2,4-DAPG, several important biological control traits, such as the production of <italic>N</italic>-acyl-homoserine lactone (AHL), biofilm formation and swarming motility were also significantly impaired in the <italic>psrA</italic> mutant (data not shown). PsrA was previously described as a transcriptional regulator involved in positive regulation of RpoS and in negative autoregulation, by direct binding to the conserved motif (G/CAAACN<sub>2&#x2013;4</sub>GTTTG/C) in the promoter regions <xref ref-type="bibr" rid="pone.0050149-Kojic2">[51]</xref>. As also confirmed in this study, direct interaction of PsrA with the <italic>phlA</italic> gene promoter in strain 2P24 requires the similar binding motif -<named-content content-type="gene">5&#x2032;<underline>GAAAC</underline>GGATC<underline>GTTTC</underline>3&#x2032;</named-content>- (<xref ref-type="supplementary-material" rid="pone.0050149.s001">Fig. S1</xref>). Genome searching in <italic>P. aeruginosa</italic> revealed that at least 26 genes contain the PsrA binding motif in their promoter regions <xref ref-type="bibr" rid="pone.0050149-Kojic3">[61]</xref>. But interestingly, this motif seems not always essential for PsrA function. In <italic>P. aeruginosa</italic>, PsrA is required for the full activation of the TTSS regulatory operon <italic>exsCEBA</italic> by binding to its promoter region despite the absence of a recognizable binding site, but some sequences (GAAAC at the position &#x2212;56 from the transcriptional start site) was resemble a partial binding site <xref ref-type="bibr" rid="pone.0050149-Shen1">[53]</xref>. Thus further identification of PsrA-binding genes in strain 2P24 will help us to better understand the global functions of PsrA in response to the environmental changes.</p>
+      <p>Our results indicate that PsrA influences 2,4-DAPG biosynthesis at the post-transcriptional level by activating the expression of the <italic>rsmA</italic> gene through the sigma factor RpoS (<xref ref-type="fig" rid="pone-0050149-g005">Fig. 5</xref>). The GacS/GacA two-component system has been known as a major post-transcriptional regulon controlling at least three non-coding small RNAs (RsmZ, RsmY, and RsmX), which together with the translational regulator RsmA/CsrA family proteins, coordinate the expression of secondary metabolites, production of extracellular enzymes, and biocontrol properties <xref ref-type="bibr" rid="pone.0050149-Lapouge1">[33]</xref>. RsmA binds to specific mRNA targets, stabilizing some and inducing the degradation of others <xref ref-type="bibr" rid="pone.0050149-Liaw1">[63]</xref>. Interestingly, the results in this study differ from a recent finding in <italic>P. fluorescens</italic> CHA0, in which a potential PsrA recognition site (CAAAGN<sub>4</sub>CTTTT) overlapping with the putative GacA binding site in the <italic>rsmZ</italic> promoter was identified and the mutation of this sequence abolished the effect of PsrA on <italic>rsmZ</italic> expression <xref ref-type="bibr" rid="pone.0050149-Humair1">[64]</xref>. In <italic>P. fluorescens</italic> 2P24, the GacS/GacA two-component system also positively regulates three small non-coding RNAs (RsmX, RsmY, and RsmZ), and the UAS sequence is necessary for this regulatory role (<xref ref-type="fig" rid="pone-0050149-g004">Fig. 4A&#x2013;C</xref>). However, a PsrA-binding site is not present in the promoter region of <italic>rsmZ</italic> and PsrA did not detectably affect <italic>rsmZ</italic> transcription (<xref ref-type="supplementary-material" rid="pone.0050149.s003">Fig. S3</xref>; <xref ref-type="fig" rid="pone-0050149-g004">Fig. 4C</xref>). These results imply that, although the regulation at the transcriptional level is conserved, the effects of PsrA on 2,4-DAPG biosynthesis at the posttranscriptional level differ distinctively in pseudomonads. Thus, we have proposed a model to illustrate our current understanding of the roles of PsrA in biosynthesis of 2,4-DAPG in <italic>P. fluorescens</italic> 2P24 (<xref ref-type="fig" rid="pone-0050149-g007">Fig. 7</xref>). Further study is necessary to identify genes potentially regulated by PsrA to better understand the function of PsrA in other properties of <italic>P. fluorescens</italic>, such as antibiotic production, host interaction, and niche adaptation.</p>
+      <fig id="pone-0050149-g007" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0050149.g007</object-id>
+        <label>Figure 7</label>
+        <caption>
+          <title>Model for the regulation of 2,4-DAPG biosynthesis in <italic>P. fluorescens</italic> 2P24.</title>
+          <p>In this complex cascade, the sensor GacS is activated by a putative environmental factor. Subsequently, GacS stimulates its cognate regulator GacA. GacA activates small non-coding RNAs, RsmX/Y/Z and sigma factor RpoS, which negatively regulate 2,4-DAPG production at posttranscriptional level through RsmA titration. In addition, PsrA negatively controls transcription of <italic>phlA</italic> and positively regulates <italic>rpoS</italic> by binding to their promoter regions. RpoS has a positive effect on <italic>rsmA</italic> expression. Thus, effect of PsrA on 2,4-DAPG production exerted at both transcriptional and posttranscriptional levels.</p>
+        </caption>
+        <graphic xlink:href="pone.0050149.g007"/>
+      </fig>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0050149.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>Alignment of the <italic>phlA</italic> promoter of <italic>P. fluorescens</italic> 2P24 with homologous sequences in other pseudomonads. The alignment was made using Clustal W (Thompson JD, HigginsD G, Gibson TJ. (1994) CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Res 22: 4673&#x2013;4680). Asterisks denote conserved nucleotides. The putative PsrA binding element and the putative Shine-Dalgarno (SD) site of the <italic>phlA</italic> gene are boxed. RsmA/RsmE proteins are expected to bind the SD region and inhibit the translation of the <italic>phlA</italic> mRNA (Karine L, Elena S, Magnus L, Katja S, Carol SB, et al. (2007) Mechanism of <italic>hcnA</italic> mRNA recognition in the Gac/Rsm signal transduction pathway of <italic>Pseudomonas fluorescens</italic>. Mol Microbiol 66: 341&#x2013;356). The &#x2212;10 and &#x2212;35 promoter element, PhlF binding site: <italic>phO</italic>, and transcription start site of <italic>phlA</italic> have been determined (Abbas A, Morrissey JP, Marquez PC, Sheehan MM, Delany I R, et al. (2002) Characterization of interactions between the transcriptional repressor PhlF and its binding site at the <italic>phlA</italic> promoter in <italic>Pseudomonas fluorescens</italic> F113. J Bacteriol 184: 3008&#x2013;3016).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0050149.s001.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0050149.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>EMSA of PsrA with the <italic>psrA</italic> promoter fragment that contains PsrA-binding sequence showing formation of a PsrA-DNA complex. 30 ng DNA probe was incubated with increasing amounts of PsrA (A). &#x3B2;-Galactosidase assay showing the expression profile of a plasmidborne <italic>psrA</italic>-<italic>lacZ</italic> reporter fusion in strain 2P24 and its <italic>psrA</italic> mutant(B). All experiments were performed in triplicate, and the mean values &#xB1;SD are indicated. Growth is indicated by the dotted line.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0050149.s002.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0050149.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Alignment of the <italic>rsmZ</italic> promoter of <italic>P. fluorescens</italic> 2P24 with homologous sequences in other pseudomonads. The alignment was made using Clustal W as in <xref ref-type="supplementary-material" rid="pone.0050149.s001">Fig. S1</xref>. Asterisks denote conserved nucleotides. The &#x2212;10 and &#x2212;35 promoter element, the putative upstream activating sequence (UAS), the terminator of <italic>rpoS</italic>, the transcription start site and the terminator of <italic>rsmZ</italic>, and the putative PsrA binding site in the <italic>rsmZ</italic> promoter region have been determined (Heeb S, Blumer C, and Haas D. (2002) Regulatory RNA as mediator in GacA/RsmA-dependent global control of exoproduct formation in <italic>Pseudomonas fluorescens</italic> CHA0. J Bacteriol 184:1046&#x2013;1056; Humair, B., Wackwitz, B., Haas, D. (2010) GacA-Controlled Activation of Promoters for Small RNA Genes in <italic>Pseudomonas fluorescens</italic>. Appl Environ Microbiol 76: 1497&#x2013;1506).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0050149.s003.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0050149.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>The expression of <italic>phlA</italic> gene is not regulated by <italic>rpoS</italic> gene at transcriptional level. &#x3B2;-Galactosidase assay showing the expression profile of a plasmidborne <italic>phlA</italic>-<italic>lacZ</italic> reporter fusion in strain 2P24 and its <italic>rpoS</italic> mutant. This experiment was performed in triplicate, and the mean values &#xB1;SD are indicated. Growth is indicated by the dotted line.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0050149.s004.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0050149.s005">
+        <label>Table S1</label>
+        <caption>
+          <p>Bacteria strains, plasmids and oligonucleotides used in this study.</p>
+          <p>(DOC)</p>
+        </caption>
+        <media xlink:href="pone.0050149.s005.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Drs. Gail P. Ferguson, Zhaoqing Luo, Martin Schuster and Rui Zhou for plasmids and reagents, and Dr. Xiaoxue Yan and Mr. Zhenhua Guo for technical support.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0050149-Keel1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Wirthner</surname><given-names>P</given-names></name>, <name><surname>Oberhansli</surname><given-names>T</given-names></name>, <name><surname>Voisard</surname><given-names>C</given-names></name>, <name><surname>Burger</surname><given-names>U</given-names></name>, <etal>et al</etal> (<year>1990</year>) <article-title>Pseudomonads as antagonists of plant pathogens in the rhizosphere: role of the antibiotic 2,4-diacetylphloroglucinol in the suppression of black root rot of tobacco</article-title>. <source>Symbiosis</source><volume>9</volume>: <fpage>327</fpage>&#x2013;<lpage>341</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Cook1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Cook</surname><given-names>RJ</given-names></name>, <name><surname>Thomashow</surname><given-names>LS</given-names></name>, <name><surname>Weller</surname><given-names>DM</given-names></name>, <name><surname>Fujimoto</surname><given-names>D</given-names></name>, <name><surname>Mazzola</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>1995</year>) <article-title>Molecular mechanisms of defense by rhizobacteria against root disease</article-title>. <source>Proc Natl Acad Sci USA</source><volume>92</volume>: <fpage>4197</fpage>&#x2013;<lpage>4201</lpage><pub-id pub-id-type="pmid">11607544</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Raaijmakers1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Raaijmakers</surname><given-names>JM</given-names></name>, <name><surname>Weller</surname><given-names>DM</given-names></name>, <name><surname>Thomashow</surname><given-names>LS</given-names></name> (<year>1997</year>) <article-title>Frequency of antibiotic-producing <italic>Pseudomonas</italic> spp. in natural environment</article-title>. <source>Appl Environ Microbiol</source><volume>63</volume>: <fpage>881</fpage>&#x2013;<lpage>887</lpage><pub-id pub-id-type="pmid">16535555</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Haas1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Haas</surname><given-names>D</given-names></name>, <name><surname>D&#xE9;fago</surname><given-names>G</given-names></name> (<year>2005</year>) <article-title>Biological control of soil-borne pathogens by fluorescent pseudomonads</article-title>. <source>Nat Rev Microbiol</source><volume>3</volume>: <fpage>307</fpage>&#x2013;<lpage>319</lpage><pub-id pub-id-type="pmid">15759041</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Weller1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Weller</surname><given-names>DM</given-names></name> (<year>2007</year>) <article-title><italic>Pseudomonas</italic> biocontrol agents of soilborne pathogens: looking back over 30 years</article-title>. <source>Phytopathology</source><volume>97</volume>: <fpage>250</fpage>&#x2013;<lpage>256</lpage><pub-id pub-id-type="pmid">18944383</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Bangera1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Bangera</surname><given-names>MG</given-names></name>, <name><surname>Thomashow</surname><given-names>LS</given-names></name> (<year>1999</year>) <article-title>Identification and characterization of a gene cluster for synthesis of the polyketide antibiotic 2,4-diacetylphloroglucinol from <italic>Pseudomonas fluorescens</italic> Q2&#x2013;87</article-title>. <source>J Bacteriol</source><volume>181</volume>: <fpage>3155</fpage>&#x2013;<lpage>3163</lpage><pub-id pub-id-type="pmid">10322017</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Haas2">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Haas</surname><given-names>D</given-names></name>, <name><surname>Keel</surname><given-names>C</given-names></name> (<year>2003</year>) <article-title>Regulation of antibiotic production in root-colonizing <italic>Pseudomonas</italic> spp. and relevance for biological control of plant disease</article-title>. <source>Annu Rev Phytopathol</source><volume>41</volume>: <fpage>117</fpage>&#x2013;<lpage>153</lpage><pub-id pub-id-type="pmid">12730389</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Keel2">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Schnider</surname><given-names>U</given-names></name>, <name><surname>Maurhofer</surname><given-names>M</given-names></name>, <name><surname>Voisard</surname><given-names>C</given-names></name>, <name><surname>Laville</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>1992</year>) <article-title>Suppression of root diseases by <italic>Pseudomonas fluorescens</italic> CHA0: importance of the bacterial secondary metabolite 2,4-diacetylphloroglucinol</article-title>. <source>Mol Plant-Microbe Interact</source><volume>5</volume>: <fpage>4</fpage>&#x2013;<lpage>13</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Reddi1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Reddi</surname><given-names>TKK</given-names></name>, <name><surname>Khudyakov</surname><given-names>YP</given-names></name>, <name><surname>Borovkov</surname><given-names>AV</given-names></name> (<year>1969</year>) <article-title><italic>Pseudomonas fluorescens</italic> strain 26-o, a producer of phytotoxic substances</article-title>. <source>Mikrobiologiya</source><volume>38</volume>: <fpage>909</fpage>&#x2013;<lpage>913</lpage><pub-id pub-id-type="pmid">5396597</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Shanahan1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Shanahan</surname><given-names>P</given-names></name>, <name><surname>O'Sullivan</surname><given-names>DJ</given-names></name>, <name><surname>Simpson</surname><given-names>P</given-names></name>, <name><surname>Glennon</surname><given-names>JD</given-names></name>, <name><surname>O'Gara</surname><given-names>F</given-names></name> (<year>1992</year>) <article-title>Isolation of 2,4-diacetylphloroglucinol from a fluorescent pseudomonad and investigation of physiological parameters influencing its production</article-title>. <source>Appl Environ Microbiol</source><volume>58</volume>: <fpage>353</fpage>&#x2013;<lpage>358</lpage><pub-id pub-id-type="pmid">16348633</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Brazelton1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Brazelton</surname><given-names>JN</given-names></name>, <name><surname>Pfeufer</surname><given-names>EE</given-names></name>, <name><surname>Sweat</surname><given-names>TA</given-names></name>, <name><surname>Gardener</surname><given-names>BBM</given-names></name>, <name><surname>Coenen</surname><given-names>C</given-names></name> (<year>2008</year>) <article-title>2,4-Diacetylphloroglucinol alters plant root development</article-title>. <source>Mol Plant-Microbe Interact</source><volume>21</volume>: <fpage>1349</fpage>&#x2013;<lpage>1358</lpage><pub-id pub-id-type="pmid">18785830</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Iavicoli1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Iavicoli</surname><given-names>A</given-names></name>, <name><surname>Boutet</surname><given-names>E</given-names></name>, <name><surname>Buchala</surname><given-names>A</given-names></name>, <name><surname>M&#xE9;traux</surname><given-names>JP</given-names></name> (<year>2003</year>) <article-title>Induced systemic resistance in <italic>Arabidopsis thaliana</italic> in response to root inoculation with <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>Mol Plant-Microbe Interact</source><volume>16</volume>: <fpage>851</fpage>&#x2013;<lpage>858</lpage><pub-id pub-id-type="pmid">14558686</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Phillips1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Phillips</surname><given-names>DA</given-names></name>, <name><surname>Fox</surname><given-names>TC</given-names></name>, <name><surname>King</surname><given-names>MD</given-names></name>, <name><surname>Bhuvaneswari</surname><given-names>TV</given-names></name>, <name><surname>Teuber</surname><given-names>LR</given-names></name> (<year>2004</year>) <article-title>Microbial products trigger amino acid exudation from plant roots</article-title>. <source>Plant Physiol</source><volume>136</volume>: <fpage>2887</fpage>&#x2013;<lpage>2894</lpage><pub-id pub-id-type="pmid">15347793</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Keel3">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Weller</surname><given-names>DM</given-names></name>, <name><surname>Natsch</surname><given-names>A</given-names></name>, <name><surname>D&#xE9;fago</surname><given-names>G</given-names></name>, <name><surname>Cook</surname><given-names>RJ</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Conservation of the 2,4-diacetylphloroglucinol biosynthesis locus among fluorescent <italic>Pseudomonas</italic> strains from diverse geographic locations</article-title>. <source>Appl Environ Microbiol</source><volume>62</volume>: <fpage>552</fpage>&#x2013;<lpage>563</lpage><pub-id pub-id-type="pmid">8593055</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-SchniderKeel1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Schnider-Keel</surname><given-names>U</given-names></name>, <name><surname>Seematter</surname><given-names>A</given-names></name>, <name><surname>Maurhifer</surname><given-names>M</given-names></name>, <name><surname>Blumer</surname><given-names>C</given-names></name>, <name><surname>Duffy</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Autoinduction of 2,4-diacetylphloroglucinol biosynthesis in the biocontrol agent <italic>Pseudomonas fluorescens</italic> CHA0 and repression by the bacterial metabolites salicylate and pyoluteorin</article-title>. <source>J Bacteriol</source><volume>182</volume>: <fpage>1215</fpage>&#x2013;<lpage>1225</lpage><pub-id pub-id-type="pmid">10671440</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Delany1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Delany</surname><given-names>I</given-names></name>, <name><surname>Sheehan</surname><given-names>MM</given-names></name>, <name><surname>Fenton</surname><given-names>A</given-names></name>, <name><surname>Bardin</surname><given-names>S</given-names></name>, <name><surname>Aarons</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Regulation of production of the antifungal metabolite 2,4-diacetylphloroglucinol in <italic>Pseudomonas fluorescens</italic> F113: genetic analysis of <italic>phlF</italic> as a transcriptional repressor</article-title>. <source>Microbiology</source><volume>146</volume>: <fpage>537</fpage>&#x2013;<lpage>546</lpage><pub-id pub-id-type="pmid">10708392</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Abbas1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Abbas</surname><given-names>A</given-names></name>, <name><surname>Morrissey</surname><given-names>JP</given-names></name>, <name><surname>Marquez</surname><given-names>PC</given-names></name>, <name><surname>Sheehan</surname><given-names>MM</given-names></name>, <name><surname>Delany</surname><given-names>IR</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Characterization of interactions between the transcriptional repressor PhlF and its binding site at the <italic>phlA</italic> promoter in <italic>Pseudomonas fluorescens</italic> F113</article-title>. <source>J Bacteriol</source><volume>184</volume>: <fpage>3008</fpage>&#x2013;<lpage>3016</lpage><pub-id pub-id-type="pmid">12003942</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Zuber1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Zuber</surname><given-names>S</given-names></name>, <name><surname>Carruthers</surname><given-names>F</given-names></name>, <name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Mattart</surname><given-names>A</given-names></name>, <name><surname>Blumer</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>GacS sensor domains pertinent to the regulation of exoproduct formation and to the biocontrol potential of <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>Mol Plant-Microbe Interact</source><volume>16</volume>: <fpage>634</fpage>&#x2013;<lpage>644</lpage><pub-id pub-id-type="pmid">12848429</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Heeb1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Heeb</surname><given-names>S</given-names></name>, <name><surname>Valverde</surname><given-names>C</given-names></name>, <name><surname>Gigot-Bonnefoy</surname><given-names>C</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2005</year>) <article-title>Role of the stress sigma factor RpoS in GacA/RsmA-controlled secondary metabolism and resistance to oxidative stress in <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>FEMS Microbiol Lett</source><volume>243</volume>: <fpage>251</fpage>&#x2013;<lpage>258</lpage><pub-id pub-id-type="pmid">15668026</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Reimmann1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Reimmann</surname><given-names>C</given-names></name>, <name><surname>Valverde</surname><given-names>C</given-names></name>, <name><surname>Kay</surname><given-names>E</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2005</year>) <article-title>Posttranscriptional repression of GacS/GacA-controlled genes by the RNA-binding protein RsmE acting together with RsmA in the biocontrol strain <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>276</fpage>&#x2013;<lpage>285</lpage><pub-id pub-id-type="pmid">15601712</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Sarniguet1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Sarniguet</surname><given-names>A</given-names></name>, <name><surname>Kraus</surname><given-names>J</given-names></name>, <name><surname>Henkels</surname><given-names>MD</given-names></name>, <name><surname>Muehlchen</surname><given-names>AM</given-names></name>, <name><surname>Loper</surname><given-names>JE</given-names></name> (<year>1995</year>) <article-title>The sigma factor &#x3C3;<sup>S</sup> affects antibiotic production and biological control activity of <italic>Pseudomonas fluorescens</italic> Pf-5</article-title>. <source>Proc Natl Acad Sci USA</source><volume>92</volume>: <fpage>12255</fpage>&#x2013;<lpage>12259</lpage><pub-id pub-id-type="pmid">8618880</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Schnider1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Schnider</surname><given-names>U</given-names></name>, <name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Blumer</surname><given-names>C</given-names></name>, <name><surname>Troxler</surname><given-names>J</given-names></name>, <name><surname>D&#xE9;fago</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>1995</year>) <article-title>Amplification of the house-keeping sigma factor in <italic>Pseudomonas fluorescens</italic> CHA0 enhances antibiotic production and improves biocontrol abilities</article-title>. <source>J Bacteriol</source><volume>177</volume>: <fpage>5387</fpage>&#x2013;<lpage>5392</lpage><pub-id pub-id-type="pmid">7665535</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-PchyTarr1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>P&#xE9;chy-Tarr</surname><given-names>M</given-names></name>, <name><surname>Bottiglieri</surname><given-names>M</given-names></name>, <name><surname>Mathys</surname><given-names>S</given-names></name>, <name><surname>Lejb&#xF8;lle</surname><given-names>KB</given-names></name>, <name><surname>Schnider-Keel</surname><given-names>U</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>RpoN (&#x3C3;<sup>54</sup>) controls production of antifungal compounds and biocontrol activity in <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>Mol Plant-Microbe Interact</source><volume>18</volume>: <fpage>260</fpage>&#x2013;<lpage>272</lpage><pub-id pub-id-type="pmid">15782640</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Tian1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Tian</surname><given-names>T</given-names></name>, <name><surname>Wu</surname><given-names>XG</given-names></name>, <name><surname>Duan</surname><given-names>HM</given-names></name>, <name><surname>Zhang</surname><given-names>LQ</given-names></name> (<year>2010</year>) <article-title>The resistance-nodulation-division efflux pump EmhABC influences the production of 2,4-diacetylphloroglucinol in <italic>Pseudomonas fluorescens</italic> 2P24</article-title>. <source>Microbiology</source><volume>156</volume>: <fpage>39</fpage>&#x2013;<lpage>48</lpage><pub-id pub-id-type="pmid">19833777</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Heeb2">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Heeb</surname><given-names>S</given-names></name>, <name><surname>Blumer</surname><given-names>C</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2002</year>) <article-title>Regulatory RNA as mediator in GacA/RsmA-dependent global control of exoproduct formation in <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>J Bacteriol</source><volume>184</volume>: <fpage>1046</fpage>&#x2013;<lpage>1056</lpage><pub-id pub-id-type="pmid">11807065</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Reimmann2">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Reimmann</surname><given-names>C</given-names></name>, <name><surname>Beyeler</surname><given-names>M</given-names></name>, <name><surname>Latifi</surname><given-names>A</given-names></name>, <name><surname>Winteler</surname><given-names>H</given-names></name>, <name><surname>Foglino</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>1997</year>) <article-title>The global activator GacA of <italic>Pseudomonas aeruginosa</italic> PAO1 positively controls the production of the autoinducer <italic>N</italic>-butyryl-homoserine lactone and the formation of the virulence factors pyocyanin, cyanide, and lipase</article-title>. <source>Mol Microbiol</source><volume>24</volume>: <fpage>309</fpage>&#x2013;<lpage>319</lpage><pub-id pub-id-type="pmid">9159518</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Heeb3">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Heeb</surname><given-names>S</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2001</year>) <article-title>Regulatory roles of the GacS/GacA two-component system in plant-associated and other gram-negative bacteria</article-title>. <source>Mol Plant-Microbe Interact</source><volume>14</volume>: <fpage>1351</fpage>&#x2013;<lpage>1363</lpage><pub-id pub-id-type="pmid">11768529</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Babitzke1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Babitzke</surname><given-names>P</given-names></name>, <name><surname>Romeo</surname><given-names>T</given-names></name> (<year>2007</year>) <article-title>CsrB sRNA family: sequestration of RNA-binding regulatory proteins</article-title>. <source>Curr Opin Microbiol</source><volume>10</volume>: <fpage>156</fpage>&#x2013;<lpage>163</lpage><pub-id pub-id-type="pmid">17383221</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Kay1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Kay</surname><given-names>E</given-names></name>, <name><surname>Dubuis</surname><given-names>C</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2005</year>) <article-title>Three small RNAs jointly ensure secondary metabolism and biocontrol in <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>Proc Natl Acad Sci USA</source><volume>102</volume>: <fpage>17136</fpage>&#x2013;<lpage>17141</lpage><pub-id pub-id-type="pmid">16286659</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Suzuki1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Suzuki</surname><given-names>K</given-names></name>, <name><surname>Wang</surname><given-names>X</given-names></name>, <name><surname>Weilbacher</surname><given-names>T</given-names></name>, <name><surname>Pernestig</surname><given-names>AK</given-names></name>, <name><surname>Melefors</surname><given-names>&#xD6;</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Regulatory circuits of the CsrA/CsrB and BarA/UvrY systems of <italic>Escherichia coli</italic></article-title>. <source>J Bacteriol</source><volume>184</volume>: <fpage>5130</fpage>&#x2013;<lpage>5140</lpage><pub-id pub-id-type="pmid">12193630</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Valverde1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Valverde</surname><given-names>C</given-names></name>, <name><surname>Heeb</surname><given-names>S</given-names></name>, <name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2003</year>) <article-title>RsmY, a small regulatory RNA, is required in concert with RsmZ for GacA-dependent expression of biocontrol traits in <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>Mol Microbiol</source><volume>50</volume>: <fpage>1361</fpage>&#x2013;<lpage>1379</lpage><pub-id pub-id-type="pmid">14622422</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Dubey1">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Dubey</surname><given-names>AK</given-names></name>, <name><surname>Baker</surname><given-names>CS</given-names></name>, <name><surname>Romeo</surname><given-names>T</given-names></name>, <name><surname>Babitzke</surname><given-names>P</given-names></name> (<year>2005</year>) <article-title>RNA sequence and secondary structure participate in high-affinity CsrA-RNA interaction</article-title>. <source>RNA</source><volume>11</volume>: <fpage>1579</fpage>&#x2013;<lpage>1587</lpage><pub-id pub-id-type="pmid">16131593</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Lapouge1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Lapouge</surname><given-names>K</given-names></name>, <name><surname>Schubert</surname><given-names>M</given-names></name>, <name><surname>Allain</surname><given-names>FH</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2008</year>) <article-title>Gac/Rsm signal transduction pathway of &#x3B3;-proteobacteria: from RNA recognition to regulation of social behaviour</article-title>. <source>Mol Microbiol</source><volume>67</volume>: <fpage>241</fpage>&#x2013;<lpage>253</lpage><pub-id pub-id-type="pmid">18047567</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-HenggeAronis1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Hengge-Aronis</surname><given-names>R</given-names></name> (<year>1996</year>) <article-title>Back to log phase: sigma S as a global regulator in the osmotic control of gene expression in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source><volume>21</volume>: <fpage>887</fpage>&#x2013;<lpage>893</lpage><pub-id pub-id-type="pmid">8885260</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-HenggeAronis2">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Hengge-Aronis</surname><given-names>R</given-names></name> (<year>2002</year>) <article-title>Signal transduction and regulatory mechanisms involved in control of the sigma(S) (RpoS) subunit of RNA polymerase</article-title>. <source>Microbiol Mol Biol Rev</source><volume>66</volume>: <fpage>373</fpage>&#x2013;<lpage>395</lpage><pub-id pub-id-type="pmid">12208995</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Suh1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Suh</surname><given-names>SJ</given-names></name>, <name><surname>Silo-Suh</surname><given-names>L</given-names></name>, <name><surname>Woods</surname><given-names>DE</given-names></name>, <name><surname>Hassett</surname><given-names>DJ</given-names></name>, <name><surname>West</surname><given-names>SEH</given-names></name>, <etal>et al</etal> (<year>1999</year>) <article-title>Effect of <italic>rpoS</italic> mutation on the stress response and expression of virulence factors in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Bacteriol</source><volume>181</volume>: <fpage>3890</fpage>&#x2013;<lpage>3897</lpage><pub-id pub-id-type="pmid">10383954</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Mukhopadhyay1">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Mukhopadhyay</surname><given-names>S</given-names></name>, <name><surname>Audia</surname><given-names>JP</given-names></name>, <name><surname>Roy</surname><given-names>RN</given-names></name>, <name><surname>Schellhorn</surname><given-names>HE</given-names></name> (<year>2000</year>) <article-title>Transcriptional induction of the conserved alternative sigma factor RpoS in <italic>Escherichia coli</italic> is dependent on BarA, a probable two-component regulator</article-title>. <source>Mol Microbiol</source><volume>37</volume>: <fpage>371</fpage>&#x2013;<lpage>381</lpage><pub-id pub-id-type="pmid">10931332</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Whistler1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Whistler</surname><given-names>CA</given-names></name>, <name><surname>Corbell</surname><given-names>NA</given-names></name>, <name><surname>Sarniguet</surname><given-names>A</given-names></name>, <name><surname>Ream</surname><given-names>W</given-names></name>, <name><surname>Loper</surname><given-names>JE</given-names></name> (<year>1998</year>) <article-title>The two-component regulators GacS and GacA influence accumulation of the stationary-phase sigma factor &#x3C3;<sup>S</sup> and the stress response in <italic>Pseudomonas fluorescens</italic> Pf-5</article-title>. <source>J Bacteriol</source><volume>180</volume>: <fpage>6635</fpage>&#x2013;<lpage>6641</lpage><pub-id pub-id-type="pmid">9852008</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Chilton1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Chilton</surname><given-names>MD</given-names></name>, <name><surname>Currier</surname><given-names>TC</given-names></name>, <name><surname>Farrand</surname><given-names>SK</given-names></name>, <name><surname>Bendich</surname><given-names>AJ</given-names></name>, <name><surname>Gordon</surname><given-names>MP</given-names></name>, <etal>et al</etal> (<year>1974</year>) <article-title><italic>Agrobacterium tumefaciens</italic> DNA and PS8 bacteriophage DNA not detected in crown gall tumors</article-title>. <source>Proc Natl Acad Sci USA</source><volume>71</volume>: <fpage>3672</fpage>&#x2013;<lpage>3676</lpage><pub-id pub-id-type="pmid">4530328</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Sambrook1">
+        <label>40</label>
+        <mixed-citation publication-type="other">Sambrook J, Russell DW (2001) Molecular cloning: a laboratory manual, 3rd ed. Cold Spring Harbor, NYUSA: Cold Spring Harbor Laboratory Press.</mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Wei1">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Wei</surname><given-names>HL</given-names></name>, <name><surname>Zhang</surname><given-names>LQ</given-names></name> (<year>2005</year>) <article-title>Cloning and functional characterization of the <italic>gacS</italic> gene of the biocontrol strain <italic>Pseuodomonas fluorescens</italic> 2P24</article-title>. <source>Acta Microbiol. Sin</source><volume>45</volume>: <fpage>368</fpage>&#x2013;<lpage>372</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Altschul1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Altschul</surname><given-names>SF</given-names></name>, <name><surname>Madden</surname><given-names>TL</given-names></name>, <name><surname>Schaffer</surname><given-names>AA</given-names></name>, <name><surname>Zhang</surname><given-names>J</given-names></name>, <name><surname>Zhang</surname><given-names>Z</given-names></name>, <etal>et al</etal> (<year>1997</year>) <article-title>Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</article-title>. <source>Nucleic Acids Res</source><volume>25</volume>: <fpage>3389</fpage>&#x2013;<lpage>3402</lpage><pub-id pub-id-type="pmid">9254694</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Keen1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Keen</surname><given-names>NT</given-names></name>, <name><surname>Tamaki</surname><given-names>S</given-names></name>, <name><surname>Kobayashi</surname><given-names>D</given-names></name>, <name><surname>Trollinger</surname><given-names>D</given-names></name> (<year>1988</year>) <article-title>Improved broad-host-range plasmids for DNA cloning in Gram-negative bacteria</article-title>. <source>Gene</source><volume>70</volume>: <fpage>191</fpage>&#x2013;<lpage>197</lpage><pub-id pub-id-type="pmid">2853689</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Newman1">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Newman</surname><given-names>JR</given-names></name>, <name><surname>Fuqua</surname><given-names>C</given-names></name> (<year>1999</year>) <article-title>Broad-host-range expression vectors that carry the arabinose-inducible <italic>Escherichia coli araBAD</italic> promoter and the <italic>araC</italic> regulator</article-title>. <source>Gene</source><volume>227</volume>: <fpage>197</fpage>&#x2013;<lpage>203</lpage><pub-id pub-id-type="pmid">10023058</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Katzen1">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Katzen</surname><given-names>F</given-names></name>, <name><surname>Becker</surname><given-names>A</given-names></name>, <name><surname>Ielmini</surname><given-names>MV</given-names></name>, <name><surname>Oddo</surname><given-names>CG</given-names></name>, <name><surname>Ielpi</surname><given-names>L</given-names></name> (<year>1999</year>) <article-title>New mobilizable vectors suitable for gene replacement in gram-negative bacteria and their use in mapping of the 3&#x2032; end of the <italic>Xanthomonas campestris</italic> pv. <italic>campestris gum</italic> operon</article-title>. <source>Appl Environ Microbiol</source><volume>65</volume>: <fpage>278</fpage>&#x2013;<lpage>282</lpage><pub-id pub-id-type="pmid">9872790</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Wu1">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>XG</given-names></name>, <name><surname>Duan</surname><given-names>HM</given-names></name>, <name><surname>Tian</surname><given-names>T</given-names></name>, <name><surname>Yao</surname><given-names>N</given-names></name>, <name><surname>Zhou</surname><given-names>HY</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Effect of the <italic>hfq</italic> gene on 2,4-diacetylphloroglucinol production and the PcoI/PcoR quorum-sensing system in <italic>Pseudomonas fluorescens</italic> 2P24</article-title>. <source>FEMS Microbiol Lett</source><volume>309</volume>: <fpage>16</fpage>&#x2013;<lpage>24</lpage><pub-id pub-id-type="pmid">20528945</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Miller1">
+        <label>47</label>
+        <mixed-citation publication-type="other">Miller JH (1972) Experiments in molecular genetics. Cold Spring Harbor, NYUSA: Cold Spring Harbor Laboratory Press.</mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Ramos1">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Ramos</surname><given-names>JL</given-names></name>, <name><surname>Martinez-Bueno</surname><given-names>M</given-names></name>, <name><surname>Molina-Henares</surname><given-names>AJ</given-names></name>, <name><surname>Teran</surname><given-names>W</given-names></name>, <name><surname>Watanabe</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>The TetR family of transcriptional repressors</article-title>. <source>Microbiol Mol Biol Rev</source><volume>69</volume>: <fpage>326</fpage>&#x2013;<lpage>356</lpage><pub-id pub-id-type="pmid">15944459</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Vannini1">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Vannini</surname><given-names>A</given-names></name>, <name><surname>Volpari</surname><given-names>C</given-names></name>, <name><surname>Gargioli</surname><given-names>C</given-names></name>, <name><surname>Muraglia</surname><given-names>E</given-names></name>, <name><surname>Cortese</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>The crystal structure of the quorum sensing protein TraR bound to its autoinducer and target DNA</article-title>. <source>EMBO J</source><volume>21</volume>: <fpage>4393</fpage>&#x2013;<lpage>4401</lpage><pub-id pub-id-type="pmid">12198141</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Kojic1">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Kojic</surname><given-names>M</given-names></name>, <name><surname>Venturi</surname><given-names>V</given-names></name> (<year>2001</year>) <article-title>Regulation of <italic>rpoS</italic> gene expression in <italic>Pseudomonas</italic>: involvement of a TetR family regulator</article-title>. <source>J Bacteriol</source><volume>183</volume>: <fpage>3712</fpage>&#x2013;<lpage>3720</lpage><pub-id pub-id-type="pmid">11371535</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Kojic2">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Kojic</surname><given-names>M</given-names></name>, <name><surname>Aguilar</surname><given-names>C</given-names></name>, <name><surname>Venturi</surname><given-names>V</given-names></name> (<year>2002</year>) <article-title>TetR family member PsrA directly binds the <italic>Pseudomonas rpoS</italic> and <italic>psrA</italic> promoters</article-title>. <source>J Bacteriol</source><volume>184</volume>: <fpage>2324</fpage>&#x2013;<lpage>2330</lpage><pub-id pub-id-type="pmid">11914368</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Chatterjee1">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Chatterjee</surname><given-names>A</given-names></name>, <name><surname>Cui</surname><given-names>Y</given-names></name>, <name><surname>Hasegawa</surname><given-names>H</given-names></name>, <name><surname>Chatterjee</surname><given-names>AK</given-names></name> (<year>2007</year>) <article-title>PsrA, the <italic>Pseudomonas</italic> sigma regulator, controls regulators of epiphytic fitness, quorum-sensing signals, and plant interactions in <italic>Pseudomonas syringae</italic> pv. <italic>tomato</italic> strain DC3000</article-title>. <source>Appl Environ Microbiol</source><volume>73</volume>: <fpage>3684</fpage>&#x2013;<lpage>3694</lpage><pub-id pub-id-type="pmid">17400767</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Shen1">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Shen</surname><given-names>DK</given-names></name>, <name><surname>Filopon</surname><given-names>D</given-names></name>, <name><surname>Kuhn</surname><given-names>L</given-names></name>, <name><surname>Polack</surname><given-names>B</given-names></name>, <name><surname>Toussaint</surname><given-names>B</given-names></name> (<year>2006</year>) <article-title>PsrA is a positive transcriptional regulator of the type III secretion system in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Infect Immun</source><volume>74</volume>: <fpage>1121</fpage>&#x2013;<lpage>1129</lpage><pub-id pub-id-type="pmid">16428760</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Zhou1">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhou</surname><given-names>YP</given-names></name>, <name><surname>Wu</surname><given-names>XG</given-names></name>, <name><surname>Zhou</surname><given-names>HY</given-names></name>, <name><surname>He</surname><given-names>YQ</given-names></name>, <name><surname>Zhang</surname><given-names>LQ</given-names></name> (<year>2010</year>) <article-title>Effect of gene <italic>phlF</italic> on 2,4-diacetylphloroglucinol production in <italic>Pseudomonas fluorescens</italic> 2P24</article-title>. <source>Acta Phyto Pathol Sin</source><volume>40</volume>: <fpage>144</fpage>&#x2013;<lpage>150</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Mukherjee1">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Mukherjee</surname><given-names>A</given-names></name>, <name><surname>Cui</surname><given-names>Y</given-names></name>, <name><surname>Ma</surname><given-names>W</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <name><surname>Ishihama</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>RpoS (sigma-S) controls expression of <italic>rsmA</italic>, a global regulator of secondary metabolites, harpin, and extracellular proteins in <italic>Erwinia carotovora</italic></article-title>. <source>J Bacteriol</source><volume>180</volume>: <fpage>3629</fpage>&#x2013;<lpage>3634</lpage><pub-id pub-id-type="pmid">9658007</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Chin1">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Chin</surname><given-names>AWTF</given-names></name>, <name><surname>van den Broek</surname><given-names>D</given-names></name>, <name><surname>Lugtenberg</surname><given-names>BJ</given-names></name>, <name><surname>Bloemberg</surname><given-names>GV</given-names></name> (<year>2005</year>) <article-title>The <italic>Pseudomonas chlororaphis</italic> PCL1391 sigma regulator <italic>psrA</italic> represses the production of the antifungal metabolite phenazine-1-carboxamide</article-title>. <source>Mol Plant-Microbe Interact</source><volume>18</volume>: <fpage>244</fpage>&#x2013;<lpage>253</lpage><pub-id pub-id-type="pmid">15782638</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Maurhofer1">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Maurhofer</surname><given-names>M</given-names></name>, <name><surname>Keel</surname><given-names>C</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name>, <name><surname>D&#xE9;fago</surname><given-names>G</given-names></name> (<year>1995</year>) <article-title>Influence of plant species on disease suppression by <italic>Pseudomonas fluorescens</italic> strain CHA0 with enhanced antibiotic production</article-title>. <source>Plant Pathol</source><volume>44</volume>: <fpage>40</fpage>&#x2013;<lpage>50</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Zhou2">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhou</surname><given-names>HY</given-names></name>, <name><surname>Wei</surname><given-names>HL</given-names></name>, <name><surname>Liu</surname><given-names>XL</given-names></name>, <name><surname>Wang</surname><given-names>Y</given-names></name>, <name><surname>Zhang</surname><given-names>LQ</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Improving biocontrol activity of <italic>Pseudomonas fluorescens</italic> through chromosomal integration of 2,4-diacetylphloroglucinol biosynthesis genes</article-title>. <source>Chin Sci Bull</source><volume>50</volume>: <fpage>775</fpage>&#x2013;<lpage>781</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Baehler1">
+        <label>59</label>
+        <mixed-citation publication-type="journal"><name><surname>Baehler</surname><given-names>E</given-names></name>, <name><surname>de Werra</surname><given-names>P</given-names></name>, <name><surname>Wick</surname><given-names>LY</given-names></name>, <name><surname>Pechy-Tarr</surname><given-names>M</given-names></name>, <name><surname>Mathys</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Two novel MvaT-like global regulators control exoproduct formation and biocontrol activity in root-associated <italic>Pseudomonas fluorescens</italic> CHA0</article-title>. <source>Mol Plant-Microbe Interact</source><volume>19</volume>: <fpage>313</fpage>&#x2013;<lpage>329</lpage><pub-id pub-id-type="pmid">16570661</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Mavrodi1">
+        <label>60</label>
+        <mixed-citation publication-type="journal"><name><surname>Mavrodi</surname><given-names>OV</given-names></name>, <name><surname>Mavrodi</surname><given-names>DV</given-names></name>, <name><surname>Park</surname><given-names>AA</given-names></name>, <name><surname>Weller</surname><given-names>DM</given-names></name>, <name><surname>Thomashow</surname><given-names>LS</given-names></name> (<year>2006</year>) <article-title>The role of <italic>dsbA</italic> in colonization of the wheat rhizosphere by <italic>Pseudomonas fluorescens</italic> Q8r1-96</article-title>. <source>Microbiology</source><volume>152</volume>: <fpage>863</fpage>&#x2013;<lpage>872</lpage><pub-id pub-id-type="pmid">16514165</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Kojic3">
+        <label>61</label>
+        <mixed-citation publication-type="journal"><name><surname>Kojic</surname><given-names>M</given-names></name>, <name><surname>Jovcic</surname><given-names>B</given-names></name>, <name><surname>Vindigni</surname><given-names>A</given-names></name>, <name><surname>Odreman</surname><given-names>F</given-names></name>, <name><surname>Venturi</surname><given-names>V</given-names></name> (<year>2005</year>) <article-title>Novel target genes of PsrA transcriptional regulator of <italic>Pseudomonas aeruginosa</italic></article-title>. <source>FEMS Microbiol Lett</source><volume>246</volume>: <fpage>175</fpage>&#x2013;<lpage>181</lpage><pub-id pub-id-type="pmid">15899403</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Kang1">
+        <label>62</label>
+        <mixed-citation publication-type="journal"><name><surname>Kang</surname><given-names>Y</given-names></name>, <name><surname>Lunin</surname><given-names>VV</given-names></name>, <name><surname>Skarina</surname><given-names>T</given-names></name>, <name><surname>Savchenko</surname><given-names>A</given-names></name>, <name><surname>Schurr</surname><given-names>MJ</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>The long-chain fatty acid sensor, PsrA, modulates the expression of <italic>rpoS</italic> and the type III secretion <italic>exsCEBA</italic> operon in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Mol Microbiol</source><volume>73</volume>: <fpage>120</fpage>&#x2013;<lpage>136</lpage><pub-id pub-id-type="pmid">19508282</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Liaw1">
+        <label>63</label>
+        <mixed-citation publication-type="journal"><name><surname>Liaw</surname><given-names>SJ</given-names></name>, <name><surname>Lai</surname><given-names>HC</given-names></name>, <name><surname>Ho</surname><given-names>SW</given-names></name>, <name><surname>Luh</surname><given-names>KT</given-names></name>, <name><surname>Wang</surname><given-names>WB</given-names></name> (<year>2003</year>) <article-title>Role of RsmA in the regulation of swarming motility and virulence factor expression in <italic>Proteus mirabilis</italic></article-title>. <source>J Med Microbiol</source><volume>52</volume>: <fpage>19</fpage>&#x2013;<lpage>28</lpage><pub-id pub-id-type="pmid">12488561</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0050149-Humair1">
+        <label>64</label>
+        <mixed-citation publication-type="journal"><name><surname>Humair</surname><given-names>B</given-names></name>, <name><surname>Wackwitz</surname><given-names>B</given-names></name>, <name><surname>Haas</surname><given-names>D</given-names></name> (<year>2010</year>) <article-title>GacA-Controlled Activation of Promoters for Small RNA Genes in <italic>Pseudomonas fluorescens</italic></article-title>. <source>Appl Environ Microbiol</source><volume>76</volume>: <fpage>1497</fpage>&#x2013;<lpage>1506</lpage><pub-id pub-id-type="pmid">20048056</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

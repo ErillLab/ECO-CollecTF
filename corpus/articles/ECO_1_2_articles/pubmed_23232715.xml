@@ -1,0 +1,1356 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">mBio</journal-id>
+      <journal-id journal-id-type="iso-abbrev">MBio</journal-id>
+      <journal-id journal-id-type="hwp">mbio</journal-id>
+      <journal-id journal-id-type="pmc">mbio</journal-id>
+      <journal-id journal-id-type="publisher-id">mBio</journal-id>
+      <journal-title-group>
+        <journal-title>mBio</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2150-7511</issn>
+      <publisher>
+        <publisher-name>American Society of Microbiology</publisher-name>
+        <publisher-loc>1752 N St., N.W., Washington, DC</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23232715</article-id>
+      <article-id pub-id-type="pmc">3520106</article-id>
+      <article-id pub-id-type="publisher-id">mBio00407-12</article-id>
+      <article-id pub-id-type="doi">10.1128/mBio.00407-12</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Crp Is a Global Regulator of Antibiotic Production in <italic>Streptomyces</italic></article-title>
+        <alt-title>Crp Regulates Antibiotic Production in <italic>Streptomyces</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name name-style="eastern">
+            <surname>Gao</surname>
+            <given-names>Chan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hindra</surname>
+            <given-names/>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mulder</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>b</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yin</surname>
+            <given-names>Charles</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Elliot</surname>
+            <given-names>Marie A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1">Department of Biology and Institute for Infectious Disease Research, McMaster University, Hamilton, Ontario, Canada,<label><sup>a</sup></label> and </aff>
+        <aff id="aff2">Department of Biochemistry and Biomedical Sciences and Institute for Infectious Disease Research, McMaster University, Hamilton, Ontario, Canada<label><sup>b</sup></label></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1">Address correspondence to Marie A. Elliot, <email>melliot@mcmaster.ca</email>.</corresp>
+        <fn fn-type="edited-by">
+          <p><bold>Invited Editor</bold> Malcolm Winkler, Indiana University Bloomington <bold>Editor</bold> Karen Bush, Indiana University Bloomington</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>12</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <season>Nov-Dec</season>
+        <year>2012</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>6</issue>
+      <elocation-id>e00407-12</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>9</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2012 Gao et al.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Gao et al.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-ShareAlike 3.0 Unported</ext-link> license, which permits unrestricted noncommercial use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>ABSTRACT</title>
+        <p>Cyclic AMP receptor protein (Crp) is a transcription regulator controlling diverse cellular processes in many bacteria. In <italic>Streptomyces coelicolor</italic>, it is well established that Crp plays a critical role in spore germination and colony development. Here, we demonstrate that Crp is a key regulator of secondary metabolism and antibiotic production in <italic>S.&#xA0;coelicolor</italic> and show that it may additionally coordinate precursor flux from primary to secondary metabolism. We found that <italic>crp</italic> deletion adversely affected the synthesis of three well-characterized antibiotics in <italic>S.&#xA0;coelicolor</italic>: actinorhodin (Act), undecylprodigiosin (Red), and calcium-dependent antibiotic (CDA). Using chromatin immunoprecipitation-microarray (ChIP-chip) assays, we determined that eight (out of 22) secondary metabolic clusters encoded by <italic>S.&#xA0;coelicolor</italic> contained Crp-associated sites. We followed the effect of Crp induction using transcription profiling analyses and found secondary metabolic genes to be significantly affected: included in this Crp-dependent group were genes from six of the clusters identified in the ChIP-chip experiments. Overexpressing Crp in a panel of <italic>Streptomyces</italic> species led to enhanced antibiotic synthesis and new metabolite production, suggesting that Crp control over secondary metabolism is broadly conserved in the streptomycetes and that Crp overexpression could serve as a powerful tool for unlocking the chemical potential of these organisms.</p>
+      </abstract>
+      <abstract abstract-type="executive-summary">
+        <title>IMPORTANCE</title>
+        <p><italic>Streptomyces</italic> produces a remarkably diverse array of secondary metabolites, including many antibiotics. In recent years, genome sequencing has revealed that these products represent only a small proportion of the total secondary metabolite potential of <italic>Streptomyces</italic>. There is, therefore, considerable interest in discovering ways to stimulate the production of new metabolites. Here, we show that Crp (the classical regulator of carbon catabolite repression in <italic>Escherichia coli</italic>) is a master regulator of secondary metabolism in <italic>Streptomyces</italic>. It binds to eight of 22 secondary metabolic gene clusters in the <italic>Streptomyces coelicolor</italic> genome and directly affects the expression of six of these. Deletion of <italic>crp</italic> in <italic>S.&#xA0;coelicolor</italic> leads to dramatic reductions in antibiotic levels, while Crp overexpression enhances antibiotic production. We find that the antibiotic-stimulatory capacity of Crp extends to other streptomycetes, where its overexpression activates the production of &#x201C;cryptic&#x201D; metabolites that are not otherwise seen in the corresponding wild-type strain.</p>
+      </abstract>
+      <counts>
+        <page-count count="12"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>November/December 2012</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="h0.0">
+      <title>Introduction</title>
+      <p><italic>Streptomyces</italic> bacteria are an important source of bioactive compounds, with their products including two-thirds of clinically prescribed antibiotics, as well as immunosuppressants, anticancer agents, and antiparasitic molecules. The model streptomycete <italic>Streptomyces coelicolor</italic> has long been known to produce four chemically distinct antibiotics: actinorhodin (Act) (<xref ref-type="bibr" rid="B1">1</xref>), undecylprodigiosin (Red) (<xref ref-type="bibr" rid="B2">2</xref>, <xref ref-type="bibr" rid="B3">3</xref>), calcium-dependent antibiotic (CDA) (<xref ref-type="bibr" rid="B4">4</xref>), and the plasmid-encoded methylenomycin (Mmy) (<xref ref-type="bibr" rid="B5">5</xref>, <xref ref-type="bibr" rid="B6">6</xref>), although Mmy is not produced by the sequenced, plasmid-free <italic>S.&#xA0;coelicolor</italic> strain M145. Act and Red are blue and red pigmented, respectively, and serve as outstanding markers for following the effects of genetic manipulation on antibiotic production. Recently, the characterized antibiotic repertoire of <italic>S.&#xA0;coelicolor</italic> has expanded to include a yellow-pigmented polyketide (yCPK) (<xref ref-type="bibr" rid="B7">7</xref>). Notably, <italic>S.&#xA0;coelicolor</italic> has the genetic capacity to produce far more secondary metabolites than have been detected in the lab, encoding 22 predicted secondary metabolic gene clusters. This plethora of clusters specifying unknown molecules is a characteristic shared with all streptomycetes whose genomes have been sequenced to date. These &#x201C;cryptic&#x201D; clusters are of considerable interest, as they represent a vast reservoir of potentially novel bioactive molecules.</p>
+      <p>The genes mediating antibiotic synthesis are usually arranged in contiguous clusters that range in size from a few kilobases to over 100&#xA0;kb (<xref ref-type="bibr" rid="B8">8</xref>). These clusters include genes encoding biosynthetic enzymes, resistance determinants, and regulatory proteins (<xref ref-type="bibr" rid="B8">8</xref>). The pathway-specific regulators for Act (ActII-ORF4), Red (RedD and RedZ), CDA (CdaR), and yCPK (CpkO) activate the synthesis of their respective antibiotics through interactions with promoter regions within their individual clusters (<xref ref-type="bibr" rid="B8">8</xref>, <xref ref-type="bibr" rid="B9">9</xref>). Expression of these activators is in turn controlled by disparately encoded regulators that affect the production of one or more antibiotics. More than 15 of these &#x201C;global&#x201D; antibiotic regulators have been identified on the basis of their effects on antibiotic production (<xref ref-type="bibr" rid="B10">10</xref>); however, direct regulatory connections have been established for only a few of these proteins. In the &#x201C;activator&#x201D; class, only the TetR-like regulator AtrA has been characterized biochemically, binding directly to the <italic>actII-orf4</italic> promoter region and stimulating its expression and the subsequent production of Act (<xref ref-type="bibr" rid="B11">11</xref>). This activity is in contrast to that of the pleiotropic regulator DasR, which inhibits both Act and Red biosynthesis through its binding to sites overlapping the promoters of <italic>actII-orf4</italic> and <italic>redZ</italic> (<xref ref-type="bibr" rid="B12">12</xref>). The AbsA1/A2 two-component system also adversely impacts Act, Red, and CDA production, with phosphorylated AbsA2 repressing the expression of the pathway-specific regulators for each gene cluster (<xref ref-type="bibr" rid="B13">13</xref>). Mechanistic insight into the roles played by global regulators&#x2014;and particularly the global activators&#x2014;is thus a critical missing component in the regulatory networks underpinning antibiotic production, as such activators could provide a key to unlocking the reservoirs of cryptic secondary metabolites encoded within <italic>Streptomyces</italic> genomes.</p>
+      <p>Rigorous and multifaceted control of metabolism is a phenomenon common to all organisms. One broadly conserved regulator of bacterial metabolism is the cyclic AMP (cAMP) receptor protein (Crp). Crp is found throughout Gram-negative and -positive bacteria, although it is absent in <italic>Bacillus</italic> and the other <italic>Firmicutes</italic> (<xref ref-type="bibr" rid="B14">14</xref>). Crp has been best studied in <italic>Escherichia coli</italic>, where it mediates carbon catabolite repression in conjunction with its effector molecule cAMP (<xref ref-type="bibr" rid="B14">14</xref>, <xref ref-type="bibr" rid="B15">15</xref>). In <italic>E.&#xA0;coli</italic>, Crp binds tightly to ~70 different genetic regions and affects the expression of hundreds of genes (<xref ref-type="bibr" rid="B16">16</xref>). In the actinomycetes, including <italic>Streptomyces</italic>, Crp also has important global regulatory roles, although it does not seem to function in carbon catabolite repression (<xref ref-type="bibr" rid="B17">17</xref>&#x2013;<xref ref-type="bibr" rid="B19">19</xref>).</p>
+      <p>Previous work on Crp in <italic>S.&#xA0;coelicolor</italic> has confirmed its ability to interact with cAMP (<xref ref-type="bibr" rid="B20">20</xref>), while functional studies have primarily focused on its role in morphological development, as &#x394;<italic>crp</italic> mutants have very distinct developmental defects (reduced and delayed germination, small colonies, and accelerated sporulation) (<xref ref-type="bibr" rid="B19">19</xref>, <xref ref-type="bibr" rid="B21">21</xref>). Here, we probe the function of Crp in controlling secondary metabolism and show that Crp contributes directly to the regulation of multiple antibiotics in <italic>S.&#xA0;coelicolor</italic> and stimulates secondary metabolism more broadly in the streptomycetes. Furthermore, we show that Crp directly affects the expression of enzymes needed for precursor synthesis, suggesting an ability to influence precursor flux into secondary metabolism and a role for Crp at the interface of primary and secondary metabolism.</p>
+    </sec>
+    <sec sec-type="results" id="h1">
+      <title>RESULTS</title>
+      <sec id="h1.1">
+        <title>Crp deletion affects antibiotic production in <italic>S</italic>.&#xA0;<italic>coelicolor</italic>.</title>
+        <p>It has been noted previously that <italic>S.&#xA0;coelicolor</italic> &#x394;<italic>crp</italic> mutants produce reduced levels of the blue-pigmented antibiotic actinorhodin (<xref ref-type="bibr" rid="B19">19</xref>, <xref ref-type="bibr" rid="B21">21</xref>). We constructed a &#x394;<italic>crp</italic> mutant in wild-type <italic>S.&#xA0;coelicolor</italic> strain M145 and observed a similar defect in Act production (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1A</xref>). We set out to examine the antibiotic production potential of the &#x394;<italic>crp</italic> mutant strain more broadly and compared the levels of Act, Red, and CDA produced by the mutant relative to its wild-type parent. Total Act (actinorhodin and &#x3B3;-actinorhodin) was assessed over a 7-day time course during growth in rich liquid medium. Act levels in the wild-type strain increased sharply between days 2 and 4, after which levels remained high through day 7. A &#x394;<italic>crp</italic> mutant strain, however, produced barely detectable levels of Act throughout the same time course (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1B</xref>). A similar phenomenon was observed for CDA, where a plate-based bioassay revealed a complete abrogation of CDA production by a &#x394;<italic>crp</italic> mutant (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1C</xref>). In contrast, Red production profiles during growth in rich liquid medium were similar in both wild-type and &#x394;<italic>crp</italic> mutant strains, although a reproducible lag of ~24&#xA0;h was observed for the &#x394;<italic>crp</italic> mutant (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1D</xref>). In all cases, both the abundance and timing of antibiotic production could be restored to near-wild-type levels by complementing the <italic>crp</italic> deletion mutant with a construct carrying <italic>crp</italic> expressed from its native promoter, confirming that the phenotypes were due to <italic>crp</italic> deletion (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1</xref>). These data suggest that Crp has a global influence on secondary metabolite production.</p>
+        <fig id="fig1" position="float">
+          <label>FIG&#xA0;1&#xA0;</label>
+          <caption>
+            <p>Antibiotic production by the wild-type (WT) strain, the &#x394;<italic>crp</italic> strain, and &#x394;<italic>crp</italic> mutants carrying <italic>crp</italic> transcribed from its native promoter or the <italic>ermE*</italic> promoter. (A) <italic>S.&#xA0;coelicolor</italic> strains grown on rich (R2YE) medium for 4&#xA0;days. (B to D) The levels of the antibiotics actinorhodin (Act) (B), calcium-dependent antibiotic (CDA) (C), and undecylprodigiosin (Red) (D) were quantified for these strains grown in liquid culture. The results in panels B and D were representative of three independent cultures, with duplicate aliquots examined for each culture at each time point. The results in panel C were obtained from four independent assays. The data were normalized relative to the biomass of the mycelia. Error bars denote the standard errors for these experiments.</p>
+          </caption>
+          <graphic xlink:href="mbo0061213940001"/>
+        </fig>
+      </sec>
+      <sec id="h1.2">
+        <title>Crp associates with multiple secondary metabolic gene clusters.</title>
+        <p>Given the dramatic secondary metabolic defects exhibited by a &#x394;<italic>crp</italic> mutant, we wanted to determine the targets of Crp activity in the cell. As a first step, we monitored Crp transcript and protein levels over a 48-h time course in liquid culture (prior to the onset of significant actinorhodin production) to determine when Crp was expressed. We found that <italic>crp</italic> was most highly expressed up until 20&#xA0;h, after which transcripts decreased to levels barely detectable by 36&#xA0;h. In contrast, Crp protein levels were relatively constant throughout the same 48-h period (see <xref ref-type="supplementary-material" rid="figS1">Fig.&#xA0;S1</xref> in the supplemental material). We next examined cAMP levels over the time when <italic>crp</italic> was most highly expressed (12 to 20&#xA0;h), as cAMP is presumed to be the effector molecule for Crp, based on studies in other bacteria (<xref ref-type="bibr" rid="B22">22</xref>&#x2013;<xref ref-type="bibr" rid="B24">24</xref>). Extracellular cAMP levels were highest at 12 and 16&#xA0;h, before dropping significantly at 20&#xA0;h; intracellular levels were too low to be detected, consistent with previously published results (<xref ref-type="bibr" rid="B25">25</xref>) (see <xref ref-type="supplementary-material" rid="figS1">Fig.&#xA0;S1</xref>). Interestingly, cAMP levels were more than an order of magnitude higher in the <italic>crp</italic> mutant than in the wild-type strain (see <xref ref-type="supplementary-material" rid="figS1">Fig.&#xA0;S1</xref>); enhanced cAMP production has been previously observed for <italic>crp</italic> mutants in both <italic>E.&#xA0;coli</italic> (<xref ref-type="bibr" rid="B26">26</xref>) and <italic>Salmonella enterica</italic> serovar Typhimurium (27). We tested the effect of high levels of exogenous cAMP (2&#xA0;mM) on the behavior of the wild-type strain and found there to be no obvious phenotypic difference between this strain and the one grown without supplementation (data not shown), suggesting that the phenotype of the <italic>crp</italic> mutant stems from loss of Crp and not from heightened cAMP production.</p>
+        <p>Consequently, we pursued investigations into Crp targets after growth for 16&#xA0;h, using chromatin immunoprecipitation assays with purified Crp-specific polyclonal antibodies, together with microarray analyses of the precipitated DNA (ChIP-chip). As a negative control, parallel assays were conducted using &#x394;<italic>crp</italic> mutant cultures. We considered a sequence to be Crp associated if the log<sub>2</sub>(wild-type/mutant signal ratio) was greater than 3 times the standard deviation above the median ratio (&gt;1.73) and if at least one adjacent probe sequence also met this criterion. We found 393 Crp-associated sequences, distributed relatively evenly throughout the genome (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2A</xref>). Candidate target genes were classified according to their predicted&#x2014;or demonstrated&#x2014;functions, as described in the literature or as annotated in the <italic>Streptomyces</italic> database StrepDB (see <xref ref-type="supplementary-material" rid="tabS1">Table&#xA0;S1</xref> in the supplemental material). Among the genes with assigned functions, the most abundant functional groups were transcriptional regulators (9.9% of targets) and proteins involved in metabolism (17.6% of targets), of which one-third were predicted, or demonstrated, to participate in secondary metabolism (5.1%) (see <xref ref-type="supplementary-material" rid="tabS1">Table&#xA0;S1</xref>).</p>
+        <fig id="fig2" position="float">
+          <label>FIG&#xA0;2&#xA0;</label>
+          <caption>
+            <p>Association of Crp with the <italic>S.&#xA0;coelicolor</italic> genome. (A) A map of the <italic>S.&#xA0;coelicolor</italic> genome with ChIP-chip and transcriptome profiling data. Coding sequences in the genome are shaded in blue. The characterized or predicted secondary metabolic clusters (<xref ref-type="bibr" rid="B28">28</xref>) are highlighted in green in the outermost circle; those clusters associated with Crp are written in purple. The genomic distribution of Crp association sites is shown in red in the innermost circle, while Crp targets identified in transcriptome profiling are indicated with black lines in the middle circles. The black lines pointing toward the outside represent genes upregulated by Crp induction, while those pointing toward the center indicate downregulated genes. The map was created using CGView software (<xref ref-type="bibr" rid="B59">59</xref>). (B) Validation of Crp association sites using ChIP assays together with qPCR, before and after <italic>crp</italic> induction in a &#x394;<italic>crp</italic> mutant carrying pIJ6902<italic>crp</italic>. (C) DNase I footprinting was conducted on three different targets, and a consensus binding site was identified in the protected regions (top panel). Analysis of a further 24 Crp target sequences (focusing on those involved in primary and secondary metabolism) revealed a degenerate version of this consensus sequence to be overrepresented in the probe-associated sequences (bottom panel).</p>
+          </caption>
+          <graphic xlink:href="mbo0061213940002"/>
+        </fig>
+        <p>Notably, eight out of the 22 predicted secondary metabolic clusters in <italic>S.&#xA0;coelicolor</italic> were associated with Crp binding sites (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2A</xref>; <xref ref-type="table" rid="tab1">Table&#xA0;1</xref>) (<xref ref-type="bibr" rid="B28">28</xref>). Of the characterized clusters, Crp coimmunoprecipitated with at least two sites in, or upstream of, the coding regions of pathway-specific regulatory genes for the Act (<italic>SCO5085</italic>; <italic>actII-ORF4</italic>), Red (<italic>SCO5881</italic>; <italic>redZ</italic>), and CDA (<italic>SCO3217</italic>; <italic>cdaR</italic>) biosynthetic gene clusters (<xref ref-type="table" rid="tab1">Table&#xA0;1</xref>). Multiple Crp binding sites were also associated with the biosynthetic genes for yCPK, specifically, upstream and within <italic>cpkA</italic>, which encodes a polyketide synthase (<xref ref-type="table" rid="tab1">Table&#xA0;1</xref>). The other four metabolic clusters associated with Crp binding are predicted to code for a nonribosomal peptide synthetase (NRPS) (<italic>SCO6429-6438</italic>), the sesquiterpene antibiotic albaflavenone (<italic>SCO5222-5223</italic>), a type II fatty acid synthase (<italic>SCO1265-1273</italic>), and a deoxysugar synthase/glycosyltransferase (<italic>SCO0381-0401</italic>) (<xref ref-type="table" rid="tab1">Table&#xA0;1</xref>). These four clusters all lack obvious pathway-specific regulatory genes, and each is arranged such that they could be expressed as a single transcriptional unit. Intriguingly, the Crp-associated sequences for each of these clusters correspond to positions upstream and/or within the first gene of each cluster. This suggests that there is potential for Crp to specifically regulate the expression of the entire cluster, possibly serving as a &#x201C;pathway-specific regulator&#x201D; for those clusters that lack one.</p>
+        <table-wrap id="tab1" position="float">
+          <label>TABLE&#xA0;1&#xA0;</label>
+          <caption>
+            <p>ChIP-chip targets involved in primary (selected) and secondary metabolism</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead valign="bottom">
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Region<break/>bound<sup><xref rid="ngtab1.1"><italic>a</italic></xref></sup></th>
+                <th align="left" rowspan="1" colspan="1">Enrichment<break/>ratio<sup><xref rid="ngtab1.2"><italic>b</italic></xref></sup></th>
+                <th align="left" rowspan="1" colspan="1">Regulated<break/>gene<sup><xref rid="ngtab1.3"><italic>c</italic></xref></sup></th>
+                <th align="left" rowspan="1" colspan="1">Predicted function<break/>of regulated gene</th>
+                <th align="left" rowspan="1" colspan="1">Distance<xref rid="ngtab1.4"><italic><sup>d</sup></italic></xref></th>
+                <th align="left" rowspan="1" colspan="1">Predicted<break/>binding site<sup><xref rid="ngtab1.5"><italic>e</italic></xref></sup></th>
+              </tr>
+            </thead>
+            <tbody valign="bottom">
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Secondary metabolism</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO0380-0381</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.38</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO0381</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Glycosyltransferase; deoxysugar synthesis</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;401</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline>CGAACTCGG<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (&#x2212;371)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO0381</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.04</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO0381</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Glycosyltransferase; deoxysugar synthesis</td>
+                <td align="left" rowspan="1" colspan="1">186</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>CCACCGC<underline>C</underline>GT</named-content> (186)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO1273</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.96</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO1273</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Reductase in type II fatty acid synthase</td>
+                <td align="left" rowspan="1" colspan="1">650</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">C<underline>T</underline><underline>G</underline>CCGGTGGG<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (736)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO1273-1274</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.07</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO1273</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Reductase in type II fatty acid synthase</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;94</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline>GCAGATT<underline>T</underline><underline>C</underline>TG</named-content> (&#x2212;81)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO3217<xref rid="ngtab1.6"><sup>f</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">3.2</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO3217</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">CdaR, pathway-specific activator; CDA synthesis</td>
+                <td align="left" rowspan="1" colspan="1">847</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline>C<underline>G</underline>GAGGCAC<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (710)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO3229<xref rid="ngtab1.6"><sup>f</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.81</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO3229</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">HmaS, 4-hydroxymandelate synthase</td>
+                <td align="left" rowspan="1" colspan="1">90</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>CATCGCGT<underline>A</underline><underline>C</underline></named-content> (56)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO3230<xref rid="ngtab1.6"><sup>f</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.03</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO3230</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">CdaPSI, CDA peptide synthetase I</td>
+                <td align="left" rowspan="1" colspan="1">282</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline>G<underline>G</underline>GTGCCGTA<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (286)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5084<xref rid="ngtab1.7"><sup>g</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.86</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5084</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">ActII-3, actinorhodin export</td>
+                <td align="left" rowspan="1" colspan="1">1706</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">C<underline>T</underline><underline>G</underline>TCCTTCT<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (1,645)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5085</italic> (1)<xref rid="ngtab1.7"><italic><sup>g</sup></italic></xref></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.77</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5085</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">ActII-4, pathway-specific activator; Act synthesis</td>
+                <td align="left" rowspan="1" colspan="1">358</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>CGAGCG<underline>A</underline><underline>C</underline>GA</named-content> (234)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5085</italic> (2)<xref rid="ngtab1.7"><italic><sup>g</sup></italic></xref></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.6</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5085</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">ActII-4, pathway-specific activator; Act synthesis</td>
+                <td align="left" rowspan="1" colspan="1">38</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline>CCATGTAA<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (24)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5221-SCO5222</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.89</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5222</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">EizA lyase, sesquiterpene cyclase</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;177</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline>TCGTCTGTG<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (&#x2212;185)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5222</italic> (1)</td>
+                <td char="." align="char" rowspan="1" colspan="1">3.01</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5222</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">EizA lyase, sesquiterpene cyclase</td>
+                <td align="left" rowspan="1" colspan="1">896</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline>A<underline>G</underline>GAATGCA<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (847)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5222</italic> (2)</td>
+                <td char="." align="char" rowspan="1" colspan="1">2.88</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5222</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">EizA lyase, sesquiterpene cyclase</td>
+                <td align="left" rowspan="1" colspan="1">356</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>CATCGTC<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (317)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5223</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.47</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5223</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Putative cytochrome P450, sesquiterpene cyclase</td>
+                <td align="left" rowspan="1" colspan="1">736</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline>CGCGATAC<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (810)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5881</italic> (1)<xref rid="ngtab1.8"><italic><sup>h</sup></italic></xref></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.44</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5881</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">RedZ, pathway-specific activator; Red synthesis</td>
+                <td align="left" rowspan="1" colspan="1">130</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline>CCCCCCTCT<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (166)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5881</italic> (2)<xref rid="ngtab1.8"><italic><sup>h</sup></italic></xref></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.16</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5881</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">RedZ, pathway-specific activator; Red synthesis</td>
+                <td align="left" rowspan="1" colspan="1">590</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline>CTCGCCCAC<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (520)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO6271-SCO6272<xref rid="ngtab1.9"><sup>i</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.83</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6271</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">AccA1, acyl-CoA carboxylase complex; yCPK synthesis</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;51</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>GGAGAA<underline>T</underline><underline>C</underline>TT</named-content> (&#x2212;8)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6272</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Scf, secreted FAD<sup><xref rid="ngtab1.10"><italic>j</italic></xref></sup>-binding protein, yCPK synthesis</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;257</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">AA<underline>G</underline><underline>A</underline>TTCTCC<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (&#x2212;300)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO6272<xref rid="ngtab1.9"><sup>i</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.06</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6272</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Scf, secreted FAD-binding protein, yCPK synthesis</td>
+                <td align="left" rowspan="1" colspan="1">43</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline>TCCGGCGG<underline>C</underline>G<underline>C</underline></named-content> (49)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO6275-SCO6276<xref rid="ngtab1.9"><sup>i</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.8</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6275</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">CpkA, type I polyketide synthase; yCPK synthesis</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;68</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">CC<underline>G</underline><underline>A</underline>GCGTGG<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (0)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6276</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Monooxygenase; yCPK synthesis</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;257</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>CCACGC<underline>T</underline><underline>C</underline>GG</named-content> (&#x2212;180)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO6276<xref rid="ngtab1.9"><sup>i</sup></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.13</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6276</italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">85</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline>GTAACTGC<underline>C</underline>G<underline>C</underline></named-content> (91)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO6283<xref rid="ngtab1.9"><bold><sup>i</sup></bold></xref></italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.81</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6283</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Nucleoside-diphosphate-sugar epimerase; yCPK synthesis</td>
+                <td align="left" rowspan="1" colspan="1">136</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">C<underline>T</underline><underline>G</underline>GACGAGTC<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (136)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6282</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">3-Oxoacyl-[acyl-carrier protein] reductase; yCPK synthesis</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;253</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline>GACTCGTC<underline>C</underline><underline>A</underline>G</named-content> (&#x2212;253)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO6429</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.27</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO6429</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Putative NRPS</td>
+                <td align="left" rowspan="1" colspan="1">139</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>AGGCGCC<underline>C</underline>TG</named-content> (87)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Primary metabolism (selected)</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO4561-4562</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.67</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO4562</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">NuoA, NADH dehydrogenase subunit</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;326</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline><underline>A</underline>AAATG<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (&#x2212;281)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO4921-4922</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.97</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO4921</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">AccA2, acyl-CoA carboxylase complex A subunit</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;117</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline>TGGGCAAGC<underline>T</underline><underline>C</underline><underline>A</underline><underline>C</underline></named-content> (&#x2212;80)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO4978-4979</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">1.77</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO4979</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">PckA, phosphoenolpyruvate carboxykinase</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;33</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline>CGCAGCCCC<underline>C</underline><underline>A</underline><underline>C</underline></named-content> (&#x2212;45)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;<italic>SCO5260-5261</italic></td>
+                <td char="." align="char" rowspan="1" colspan="1">2.26</td>
+                <td align="left" rowspan="1" colspan="1">
+                  <italic>SCO5261</italic>
+                </td>
+                <td align="left" rowspan="1" colspan="1">NADP<sup>+</sup>-dependent malic enzyme</td>
+                <td char="-" align="char" rowspan="1" colspan="1">&#x2212;129</td>
+                <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>G</underline><underline>T</underline><underline>G</underline>GCCCAGA<underline>C</underline><underline>A</underline>G</named-content> (&#x2212;89)</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="ngtab1.1">
+              <label>
+                <sup>a</sup>
+              </label>
+              <p>&#xA0;Genomic context of Crp-associated sequences.</p>
+            </fn>
+            <fn id="ngtab1.2">
+              <label>
+                <sup>b</sup>
+              </label>
+              <p>&#xA0;Crp-DNA interaction affinity.</p>
+            </fn>
+            <fn id="ngtab1.3">
+              <label>
+                <sup>c</sup>
+              </label>
+              <p>&#xA0;Genes regulated by Crp-associated sequences.</p>
+            </fn>
+            <fn id="ngtab1.4">
+              <label>
+                <sup>d</sup>
+              </label>
+              <p>&#xA0;Distances from the center of Crp-associated sequences to the start codons of regulated genes. Negative values indicate sites upstream of start codons while positive values indicate sites within open reading frames.</p>
+            </fn>
+            <fn id="ngtab1.5">
+              <label>
+                <sup>e</sup>
+              </label>
+              <p>&#xA0;Numbers in parentheses are distances to the start codon of regulated genes, as described in footnote <italic>d</italic> ; underlined nucleotides match the experimentally determined consensus sequence shown in Fig. 2C.</p>
+            </fn>
+            <fn id="ngtab1.6">
+              <label>
+                <sup>f</sup>
+              </label>
+              <p> Secondary metabolic cluster genes for calcium-dependent antibiotic.</p>
+            </fn>
+            <fn id="ngtab1.7">
+              <label>
+                <sup>g</sup>
+              </label>
+              <p> Secondary metabolic cluster genes for actinorhodin.</p>
+            </fn>
+            <fn id="ngtab1.8">
+              <label>
+                <sup>h</sup>
+              </label>
+              <p> Secondary metabolic cluster genes for undecylprodigiosin.</p>
+            </fn>
+            <fn id="ngtab1.9">
+              <label>
+                <sup>i</sup>
+              </label>
+              <p> Secondary metabolic cluster genes for cryptic polyketide.</p>
+            </fn>
+            <fn id="ngtab1.10">
+              <label>
+                <sup>j</sup>
+              </label>
+              <p> FAD, flavin adenine dinucleotide.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>To begin to validate Crp association with select sequences, we constructed a thiostrepton-inducible <italic>crp</italic> construct and introduced this plasmid into the &#x394;<italic>crp</italic> mutant strain. We conducted chromatin immunoprecipitation assays prior to induction (time zero) and after induction for 15 and 45&#xA0;min; immunoprecipitated and total DNA samples were then used as the templates for quantitative PCR (qPCR) amplification of the pathway-specific regulator-associated sequences for Act (<italic>SCO5085; actII-ORF4</italic>), CDA (<italic>SCO3217</italic>; <italic>cdaR</italic>), and Red (<italic>SCO5881; redZ</italic>). As a negative control, a sequence from <italic>SCO4662</italic> (<italic>tuf-1</italic>) was also subjected to qPCR amplification, as this sequence was not identified as a Crp binding target in our initial ChIP-chip analyses. All target sequences, apart from the negative control, were enriched in the immunoprecipitated DNA within 15&#xA0;min and, more significantly, after 45&#xA0;min of Crp induction (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2B</xref>). This experiment indirectly confirmed <italic>SCO5085</italic> (<italic>actII-ORF4</italic>), <italic>SCO3217</italic> (<italic>cdaR</italic>), and <italic>SCO5881</italic> (<italic>redZ</italic>) as Crp targets.</p>
+        <p>Electrophoretic mobility shift assays (EMSAs) using select Crp-associated sequences failed to yield traditional shifts, a phenomenon that has been noted in previous studies (<xref ref-type="bibr" rid="B19">19</xref>, <xref ref-type="bibr" rid="B20">20</xref>) and may be due to the unusually low pI (5.8) of the <italic>Streptomyces</italic> Crp, relative to its counterpart in other bacteria. We therefore pursued DNase I footprinting assays on several of the Crp-associated sequences that gave an unusual &#x201C;downshift&#x201D; in our initial EMSA trials, in an effort to identify a consensus binding sequence (see <xref ref-type="supplementary-material" rid="figS2">Fig.&#xA0;S2</xref> in the supplemental material). We mapped sites upstream of <italic>crp</italic> itself, <italic>SCO4561</italic> and <italic>SCO2977</italic>, and identified a consensus binding sequence [GTG(N)<sub>6</sub>GNCAC]; derivatives of this motif could be found in all of the secondary metabolism-associated target sequences, although notably, one-half of the palindrome seemed to be better conserved than the other [GTG(N)<sub>6</sub>GNGAN] (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2C</xref>; <xref ref-type="table" rid="tab1">Table&#xA0;1</xref>).</p>
+      </sec>
+      <sec id="h1.3">
+        <title>Crp induction affects the expression of secondary metabolic gene clusters.</title>
+        <p>Since both phenotypic investigations and ChIP-chip assays had suggested a role for Crp in secondary metabolite regulation, transcriptome profiling was conducted to gain further insight into the Crp control of these genes/clusters. We opted to follow Crp-dependent effects using an inducible system, where <italic>crp</italic> was expressed from a thiostrepton-inducible promoter, rather than simply comparing expression patterns of wild-type and mutant strains, as these strains grow very differently (the &#x394;<italic>crp</italic> mutant is significantly delayed in germination relative to the wild-type strain). RNA samples were prepared from thiostrepton-inducible <italic>crp</italic> and empty-plasmid control strains, before and after thiostrepton induction, and were analyzed using Affymetrix-based microarrays. Genes showing at least a 2-fold change in their expression following induction in the <italic>crp</italic>-containing samples, but not in the negative control, were regarded as potential targets. Overall, we found the expression of 360 genes to be activated and that of 91 genes to be repressed following Crp induction (<xref ref-type="fig" rid="fig2">Fig.&#xA0;2A</xref>; see <xref ref-type="supplementary-material" rid="tabS2">Table&#xA0;S2</xref> in the supplemental material).</p>
+        <p>Consistent with the ChIP-chip assay results, functional classification of the Crp-affected genes supported a central role for Crp in governing secondary metabolism, with nearly 20% of all differentially expressed genes encoding products involved in secondary metabolite biosynthesis (see <xref ref-type="supplementary-material" rid="tabS2">Table&#xA0;S2</xref> in the supplemental material). Notably, genes within the Act, Red, CDA, and yCPK clusters were significantly upregulated in response to Crp induction (<xref ref-type="fig" rid="fig3">Fig.&#xA0;3</xref>). Expression of the NRPS gene cluster (<italic>SCO6429-38</italic>) that contained a Crp association sequence was activated as well, whereas the albaflavenone biosynthetic genes (<italic>SCO5222-23</italic>) were repressed (<xref ref-type="table" rid="tab2">Table&#xA0;2</xref>). As a further test, we used reverse transcription-qPCR (RT-qPCR) to examine the transcription profiles of select genes, including those from the Act (<italic>actVA4</italic>, <italic>actII-ORF4</italic>), Red (<italic>redD</italic>, <italic>redX</italic>), CDA (<italic>cdaR</italic>, <italic>cdaPSI</italic>), yCPK (<italic>cpkA</italic>, <italic>scF</italic>), and albaflavenone (<italic>eizA</italic>) biosynthetic clusters (see <xref ref-type="supplementary-material" rid="figS3">Fig.&#xA0;S3</xref> in the supplemental material). In every case, the RT-qPCR profiles matched our microarray results, effectively validating our array data.</p>
+        <fig id="fig3" position="float">
+          <label>FIG&#xA0;3&#xA0;</label>
+          <caption>
+            <p>Schematic representation of antibiotic biosynthesis clusters showing ChIP-chip targets and transcriptome profiling targets: <italic>act</italic> cluster (A), <italic>red</italic> cluster (B), <italic>cda</italic> cluster (C), <italic>cpk</italic> cluster (D), cryptic nonribosomal polyketide (NRPS) cluster (E), and albaflavenone cluster (F). The ChIP-chip targets are shaded in red for all six clusters (Crp binding sites for each are summarized in <xref ref-type="table" rid="tab1">Table&#xA0;1</xref>), upregulated genes are shaded in orange, and those shown in white did not show any significant change in response to Crp induction. The pathway-specific regulatory genes are marked with asterisks, while global regulatory genes are marked with black dots.</p>
+          </caption>
+          <graphic xlink:href="mbo0061213940003"/>
+        </fig>
+        <table-wrap id="tab2" position="float">
+          <label>TABLE&#xA0;2&#xA0;</label>
+          <caption>
+            <p>Select overlapping targets in ChIP-chip and transcriptome analyses</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+              <col span="1"/>
+            </colgroup>
+            <thead valign="bottom">
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Bound<break/>region<break/>in ChIP-chip</th>
+                <th align="left" rowspan="1" colspan="1">Overlapped target<break/>with transcriptome<break/>profiling</th>
+                <th align="left" rowspan="1" colspan="1">Effect<break/>of Crp induction<break/>on target transcription</th>
+                <th align="left" rowspan="1" colspan="1">Function</th>
+              </tr>
+            </thead>
+            <tbody valign="bottom">
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Secondary metabolism</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO3217<xref rid="ngtab2.1"><italic><sup>a</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO3217</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">CdaR, pathway-specific activator; CDA synthesis</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO3229<xref rid="ngtab2.1"><italic><sup>a</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO3229</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">HmaS, 4-hydroxymandelate synthase</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">SCO3230</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">CdaPSI, CDA peptide synthetase I</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO3230<xref rid="ngtab2.1"><italic><sup>a</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO3230</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">CdaPSI, CDA peptide synthetase I</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO5085 (1)<xref rid="ngtab2.2"><italic><sup>b</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO5085</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">ActII-4, pathway-specific activator; Act synthesis</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO5085 (2)<xref rid="ngtab2.2"><italic><sup>b</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO5085</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">ActII-4, pathway-specific activator; Act synthesis</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO5221-5222</td>
+                <td align="left" rowspan="1" colspan="1">SCO5222</td>
+                <td align="left" rowspan="1" colspan="1">Repressed</td>
+                <td align="left" rowspan="1" colspan="1">EizA, putative lyase</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO5223</td>
+                <td align="left" rowspan="1" colspan="1">SCO5223</td>
+                <td align="left" rowspan="1" colspan="1">Repressed</td>
+                <td align="left" rowspan="1" colspan="1">Putative cytochrome P450</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO6271-6272<xref rid="ngtab2.3"><italic><sup>c</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO6271</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">AccA1, acyl-CoA carboxylase complex; yCPK synthesis</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">SCO6272</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">Scf, secreted FAD<sup><xref rid="ngtab2.4"><italic>d</italic></xref></sup>-binding protein; yCPK synthesis</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO6272<xref rid="ngtab2.3"><italic><sup>c</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO6272</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">Scf, secreted FAD-binding protein; yCPK synthesis</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO6275-6276<xref rid="ngtab2.3"><italic><sup>c</sup></italic></xref></td>
+                <td align="left" rowspan="1" colspan="1">SCO6275</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">CpkA, type I polyketide synthase; yCPK synthesis</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO6429</td>
+                <td align="left" rowspan="1" colspan="1">SCO6429</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">Putative NRPS</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Primary metabolism</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO4561-4562 (1)</td>
+                <td align="left" rowspan="1" colspan="1">SCO4562</td>
+                <td align="left" rowspan="1" colspan="1">Repressed</td>
+                <td align="left" rowspan="1" colspan="1">NuoA, NADH dehydrogenase subunit</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO4921-4922</td>
+                <td align="left" rowspan="1" colspan="1">SCO4921</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">AccA2, acyl-CoA carboxylase complex A subunit</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO4978-4979</td>
+                <td align="left" rowspan="1" colspan="1">SCO4979</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">PckA, phosphoenolpyruvate carboxykinase</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;SCO5260-5261</td>
+                <td align="left" rowspan="1" colspan="1">SCO5260</td>
+                <td align="left" rowspan="1" colspan="1">Activated</td>
+                <td align="left" rowspan="1" colspan="1">NADP<sup>+</sup>-dependent malic enzyme</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="ngtab2.1">
+              <label>
+                <sup>a</sup>
+              </label>
+              <p> Secondary metabolic gene cluster for calcium-dependent antibiotic.</p>
+            </fn>
+            <fn id="ngtab2.2">
+              <label>
+                <sup>b</sup>
+              </label>
+              <p> Secondary metabolic gene cluster for actinorhodin.</p>
+            </fn>
+            <fn id="ngtab2.3">
+              <label>
+                <sup>c</sup>
+              </label>
+              <p> Secondary metabolic gene cluster for cryptic polyketide.</p>
+            </fn>
+            <fn id="ngtab2.4">
+              <label>
+                <sup>d</sup>
+              </label>
+              <p> FAD, flavin adenine dinucleotide.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>When comparing Crp-associated DNA targets from our ChIP-chip experiments with the differentially expressed genes identified in our microarray experiments, we found overlap not only of key secondary metabolic genes but also of genes encoding key primary metabolic enzymes that make important contributions to secondary metabolism. These included genes involved in the synthesis of acetyl coenzyme A (acetyl-CoA) (<italic>pckA</italic>/<italic>SCO4979</italic>; <italic>SCO5261</italic>), as well as those needed to synthesize malonyl-CoA (<italic>accA1</italic>/<italic>SCO6271</italic>; <italic>accA2</italic>/<italic>SCO4921</italic>), both of which are used as precursors by polyketide enzymes in the synthesis of antibiotics and other secondary metabolites (<xref ref-type="bibr" rid="B29">29</xref>). Also identified were genes required for the synthesis of cofactors like flavin mononucleotide (FMN) (e.g., riboflavin biosynthesis, <italic>SCO1443-1439</italic>), which is needed in the later stages of Act biosynthesis (<xref ref-type="table" rid="tab1 tab2">Tables&#xA0;1 and 2</xref>) (<xref ref-type="bibr" rid="B30">30</xref>). These results suggest that Crp activity plays a central role in promoting secondary metabolite production in <italic>S.&#xA0;coelicolor</italic>, integrating multiple regulatory nodes that include the direct control of antibiotic production via the pathway-specific regulators and the modulation of primary metabolic pathways feeding into secondary metabolism.</p>
+      </sec>
+      <sec id="h1.4">
+        <title>The impact of Crp overexpression on secondary metabolism of <italic>Streptomyces</italic>.</title>
+        <p>Crp is well conserved across the streptomycetes, with alignments revealing &gt;90% amino acid sequence identity shared between different Crp orthologs (see <xref ref-type="supplementary-material" rid="figS4">Fig.&#xA0;S4</xref> in the supplemental material). Given the importance of Crp to secondary metabolism in <italic>S.&#xA0;coelicolor</italic>, we tested whether Crp overexpression could enhance antibiotic production in this organism. We cloned the <italic>crp</italic> gene behind a strong constitutive promoter (<italic>ermE*</italic>) on an integrating plasmid vector whose target integration sequence is found in all sequenced <italic>Streptomyces</italic> species examined to date. The Crp overexpression construct, along with an empty-plasmid control, was then conjugated into <italic>S.&#xA0;coelicolor</italic>, and antibiotic production was analyzed. Significant upregulation of the blue-pigmented Act antibiotic was obvious in surface-grown cultures of the Crp-overexpressing strain (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1A</xref>), and this was further confirmed through quantitative assays of liquid medium-grown cultures (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1B</xref>). CDA production was also increased (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1C</xref>), while Red production initiated at a higher level than in the control strain (<xref ref-type="fig" rid="fig1">Fig.&#xA0;1D</xref>).</p>
+        <p>To determine whether the antibiotic-stimulatory effects of Crp were more universal, we introduced the Crp overexpression construct into a number of different <italic>Streptomyces</italic> species, including both sequenced strains and wild <italic>Streptomyces</italic> isolates (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref> in the supplemental material). Using immunoblotting, we confirmed that Crp was overexpressed in these strains, relative to controls bearing the empty-plasmid vector, and verified that similar total protein levels were being compared using Coomassie blue staining (see <xref ref-type="supplementary-material" rid="figS5">Fig.&#xA0;S5</xref>). We initially conducted bioassays to compare the antimicrobial production capabilities of these different <italic>Streptomyces</italic> species carrying either the <italic>ermE*-crp</italic> construct or the empty vector, using an array of indicator strains (<italic>Escherichia coli</italic>, <italic>Staphylococcus aureus</italic>, and <italic>Bacillus subtilis</italic>). Crp overexpression appeared to stimulate antibiotic production in the wild isolate <italic>Streptomyces</italic> sp. strain WAC4988, as determined by the enhanced zones of clearing observed for <italic>S.&#xA0;aureus</italic> and <italic>B.&#xA0;subtilis</italic> indicator strains (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4A</xref>). We also followed secondary metabolite production using liquid chromatography coupled with mass spectrometry (LC-MS), to determine whether Crp overexpression induced any significant secondary metabolic changes in strains that did not show increased antimicrobial activity. Some of the most striking changes were observed in <italic>Streptomyces</italic> sp. strain SPB74, where levels of several metabolites were dramatically enhanced in the overexpression strain relative to the control. For example, molecules with <italic>m/z</italic> values of 620.189 and 638 were increased by &gt;22-fold (day 3) and ~33-fold (day 7), respectively, in the overexpression strain relative to the control (<xref ref-type="fig" rid="fig4">Fig.&#xA0;4B</xref>). These findings support a role for Crp as a global activator of secondary metabolism throughout the streptomycetes.</p>
+        <fig id="fig4" position="float">
+          <label>FIG&#xA0;4&#xA0;</label>
+          <caption>
+            <p>Effect of Crp overexpression on antibiotic production and secondary metabolism in diverse <italic>Streptomyces</italic> species. (A) Enhanced antibiotic production by <italic>Streptomyces</italic> sp. strain WAC4988 when overexpressing Crp. <italic>Bacillus subtilis</italic> was used as an indicator strain. (B) Base peak chromatograms and mass spectra of upregulated metabolite peaks following Crp overexpression in <italic>Streptomyces</italic> sp. strain SPB74. In the base peak chromatograms, the wild-type strain carrying the empty plasmid is shown in blue, while the Crp overexpression strain is indicated in red. Mass spectra were overlaid on top of the chromatograms. [M + H] indicates the molecular ions in the mass spectra. The numbers above the peaks indicate the mass/charge ratios of the peaks.</p>
+          </caption>
+          <graphic xlink:href="mbo0061213940004"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="h2">
+      <title>DISCUSSION</title>
+      <p>Crp is a founding member of the cAMP receptor protein (Crp)/fumarate-nitrate-reductase (FNR) family of regulators and predominantly functions as a transcriptional activator (<xref ref-type="bibr" rid="B14">14</xref>). In addition to regulating the catabolite repression pathway in <italic>E.&#xA0;coli</italic>, Crp also controls a much broader range of cellular functions, including primary metabolism, stress resistance, cell motility, and pathogenesis (<xref ref-type="bibr" rid="B31">31</xref>). In <italic>S.&#xA0;coelicolor</italic>, the function of Crp in spore germination and morphological development has been well documented (<xref ref-type="bibr" rid="B19">19</xref>&#x2013;<xref ref-type="bibr" rid="B21">21</xref>). Here, we extend the role of Crp, revealing it to be a central regulator capable of coordinating primary and secondary metabolism and demonstrating that its activity can be coopted to enhance antibiotic production in diverse <italic>Streptomyces</italic> species.</p>
+      <p>Overexpressing regulators to activate secondary metabolism is a strategy with a history of success. Indeed, most classical &#x201C;global&#x201D; antibiotic regulators in <italic>S.&#xA0;coelicolor</italic> were initially identified through their actinorhodin-stimulatory effects following overexpression (<xref ref-type="bibr" rid="B32">32</xref>&#x2013;<xref ref-type="bibr" rid="B34">34</xref>). More recently, activation of &#x201C;cryptic&#x201D; antibiotic clusters has been achieved using both directed approaches involving pathway-specific regulator overexpression (e.g., stambomycin activation in <italic>Streptomyces&#xA0;ambofaciens</italic> [<xref ref-type="bibr" rid="B35">35</xref>]) and more-global approaches (e.g., overexpressing a mutant allele of the <italic>S.&#xA0;coelicolor</italic> antibiotic repressor AbsA1 stimulated new antimicrobial activity in <italic>Streptomyces&#xA0;flavopersicus</italic> [<xref ref-type="bibr" rid="B36">36</xref>]). Crp is highly conserved among streptomycetes and can influence precursor abundance, the activity of pathway-specific regulators, and the expression of metabolic clusters lacking cognate regulators. We found that its overexpression led to increased production of the secondary metabolites Act, Red, and CDA. These data, and the extent of Crp interactions across the genome, indicate that Crp overexpression has the potential to be a powerful, multifaceted avenue for new secondary metabolite production.</p>
+      <p>Crp induction has broad effects on both primary and secondary metabolism. These processes are necessarily intertwined in the streptomycetes, as the precursors and cofactors required for secondary metabolite assembly are supplied by the primary metabolic pathways. Glycolysis leads to the production of acetyl-CoA, which can be directed into the citric acid cycle, or into any number of other biosynthetic pathways, including polyketide synthesis. Here, we find that Crp directly controls the expression of several enzymes contributing to acetyl-CoA accumulation (<italic>SCO4921</italic> and <italic>SCO5261</italic>). The preferred substrate for many polyketide synthase enzymes, however, is malonyl-CoA, whose synthesis requires the activity of an acetyl-CoA carboxylase enzyme complex (ACCase) (<xref ref-type="bibr" rid="B37">37</xref>), whose subunits were either directly (<italic>accA1</italic> and <italic>accA2</italic>) or indirectly (<italic>accBE</italic>) regulated by Crp. Previous genetic studies have implicated both ACCase (<xref ref-type="bibr" rid="B38">38</xref>) and the malic enzyme encoded by <italic>SCO5261</italic> (<xref ref-type="bibr" rid="B37">37</xref>) in actinorhodin production, and recent chemical genetic studies have demonstrated that precursor supply is one factor that limits antibiotic yields (<xref ref-type="bibr" rid="B39">39</xref>).</p>
+      <p>In addition to carbon flux, phosphate and nitrogen levels have also been tightly correlated with antibiotic production (<xref ref-type="bibr" rid="B40">40</xref>). Phosphate homeostasis in the cell is controlled by the response regulator PhoP, and recent work has shown intriguing cross regulation between PhoP and AfsR (<xref ref-type="bibr" rid="B41">41</xref>, <xref ref-type="bibr" rid="B42">42</xref>), where AfsR is a transcription factor that broadly influences antibiotic production in <italic>S.&#xA0;coelicolor</italic> through its activation of <italic>afsS</italic>, a small sigma factor-like protein of unknown function (<xref ref-type="bibr" rid="B43">43</xref>). We find here that Crp adds an additional dimension to this regulatory interplay: comparisons of previous transcriptomic studies (<xref ref-type="bibr" rid="B44">44</xref>, <xref ref-type="bibr" rid="B45">45</xref>) revealed the expression of 24 genes to be affected by both AfsS and PhoP, and of these, nearly half were also influenced by Crp induction in our transcriptomic studies. A further 25 AfsS and 38 PhoP regulon-specific members were also affected by Crp activity (see <xref ref-type="supplementary-material" rid="figS6">Fig.&#xA0;S6</xref> in the supplemental material). These findings highlight the complex interplay between nutrient availability and antibiotic production and effectively illustrate the integrated nature of these disparate metabolic processes. An important future goal will be to define the conditions that stimulate Crp activity and to fully elucidate the regulatory networks connecting primary metabolism with secondary metabolism.</p>
+      <p>The ability of Crp to modulate fundamental aspects of primary metabolism while at the same time directly to govern the expression of secondary metabolic gene clusters is reminiscent of DasR activity in <italic>S.&#xA0;coelicolor</italic>. DasR is a GntR-like regulator that directly controls both antibiotic production and <italic>N</italic>-acetylglucosamine uptake via the phosphotransferase system (<xref ref-type="bibr" rid="B12">12</xref>). The critical difference between Crp and DasR lies at the heart of their regulatory behavior: Crp functions predominantly as an activator, while DasR acts as a repressor (<xref ref-type="bibr" rid="B12">12</xref>, <xref ref-type="bibr" rid="B46">46</xref>). Crp induction led to increased expression for the majority of biosynthetic genes in the Red, CDA, yCPK, and <italic>SCO6429-38</italic> gene clusters (<xref ref-type="fig" rid="fig3">Fig.&#xA0;3</xref>). It did not have the same extensive effect on the Act cluster, but this is likely due to the nature of Act cluster organization and regulation. There are three operons under ActII-ORF4 control (<italic>actVI/actVA</italic>, <italic>actIII</italic>, and <italic>actI/actVII/VI/VB</italic>), with the highest-affinity binding site being upstream of <italic>actVI</italic> (<xref ref-type="bibr" rid="B47">47</xref>). Expression from the <italic>actVI</italic> operon was activated after 60&#xA0;min of Crp induction; this was the final time point examined in our transcriptome profiling experiments, and it is likely that expression of the remaining genes would have been upregulated after this time. It is worth noting that Crp also has repressor activity, as seen for the sesquiterpene antibiotic albaflavenone-encoding genes. Interestingly, Crp induction also led to repression of a gene encoding a related terpene synthase responsible for geosmin production (<xref ref-type="bibr" rid="B48">48</xref>), although this effect appeared to be indirect. The increased cAMP levels observed in a <italic>crp</italic> mutant also suggested a repressive role for Crp in cAMP accumulation; however, this also appears to be indirect, as Crp did not associate with sequences near the <italic>cya</italic> (adenylate cyclase-encoding) gene, nor did Crp induction impact <italic>cya</italic> expression in our transcriptomic experiments.</p>
+      <p>In <italic>S.&#xA0;coelicolor</italic>, Crp exerts its regulatory influence by associating with sequences similar to those identified for Crp in other bacteria (<xref ref-type="bibr" rid="B22">22</xref>, <xref ref-type="bibr" rid="B23">23</xref>). In <italic>E.&#xA0;coli</italic>, these binding sites are typically found immediately upstream or overlapping the &#x2212;35 promoter element, where Crp binding facilitates RNA polymerase recruitment (<xref ref-type="bibr" rid="B31">31</xref>). Here, Crp frequently bound multiple sites within any given region, including at least one intragenic site; intergenic sites were often significantly upstream of any mapped promoter, as was seen for the majority of secondary metabolic clusters shown in <xref ref-type="table" rid="tab1">Table&#xA0;1</xref>. This unexpected coding sequence association was not restricted to secondary metabolite gene regulation; more than 50% of all Crp-associated sequences were within open reading frames. Crp in <italic>E.&#xA0;coli</italic> can bind within coding regions; however, these are primarily low-affinity binding sites (<xref ref-type="bibr" rid="B16">16</xref>), whereas here, seven of the top 10 interaction scores for Crp were intragenic, and the highest-affinity sites associated with most secondary metabolic genes were within coding regions. Collectively, this suggests a very different mechanism of Crp-mediated gene activation in <italic>S.&#xA0;coelicolor</italic> than that described for <italic>E.&#xA0;coli</italic>, as none of these intragenic binding sites appear to be associated with internal promoters, as determined by RNA Seq analyses (M. J. Moody and M. A. Elliot, unpublished data). Intragenic binding is increasingly being observed for transcription factors throughout bacteria: in <italic>Salmonella</italic>, nearly half of SsrB binding sites are coding region associated (<xref ref-type="bibr" rid="B49">49</xref>), and a similar situation has been seen for AbrB and Abh in <italic>Bacillus subtilis</italic> (<xref ref-type="bibr" rid="B50">50</xref>), while in <italic>Pseudomonas syringae</italic>, the Crp-related Fur protein associates with intragenic sequences with an affinity comparable to that for intergenic sites (<xref ref-type="bibr" rid="B51">51</xref>). A major difference in the intragenic binding by these transcription factors, and that of Crp in <italic>S.&#xA0;coelicolor</italic>, however, is that the intragenic Crp sites were frequently associated with transcriptional effects (both activation and repression), whereas for the other regulators, such effects were not commonly seen (<xref ref-type="bibr" rid="B49">49</xref>&#x2013;<xref ref-type="bibr" rid="B51">51</xref>).</p>
+      <p>Our work here reveals an important new role for the well-studied Crp regulator in the control of antibiotic production. To date, Crp is one of the only global antibiotic regulators for which direct regulatory connections to a broad range of secondary metabolic pathways have been established. Furthermore, we have shown that its ability to stimulate secondary metabolite production is not limited to <italic>S.&#xA0;coelicolor</italic>, and our results suggest that Crp overexpression is a useful strategy for accessing the previously untapped reservoirs of <italic>Streptomyces</italic> antibiotics and other natural products.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="h3">
+      <title>MATERIALS AND METHODS</title>
+      <sec id="h3.1">
+        <title>Bacterial strains, plasmids, and culture conditions.</title>
+        <p><italic>Streptomyces</italic> strains, <italic>Escherichia coli</italic> strains, and all plasmids/cosmids used in this study are summarized in <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref> in the supplemental material. <italic>Streptomyces</italic> strains were grown at 30&#xB0;C on solid Difco nutrient agar or MS (soy flour-mannitol), R2YE (rich), or R5 (rich) agar media or in liquid R5 medium as described previously (<xref ref-type="bibr" rid="B52">52</xref>). <italic>E.&#xA0;coli</italic> strains were grown at 37&#xB0;C on or in LB (Luria-Bertani) medium or in liquid 2&#xD7; YT (yeast-tryptone) broth (<xref ref-type="bibr" rid="B52">52</xref>). Antibiotics were added to maintain plasmids when necessary.</p>
+      </sec>
+      <sec id="h3.2">
+        <title>Strain and plasmid construction.</title>
+        <p>An in-frame deletion of <italic>crp</italic> was created using REDIRECT technology (<xref ref-type="bibr" rid="B48">48</xref>), and mutants were confirmed by PCR. The &#x394;<italic>crp</italic> mutant strain was complemented using the wild-type <italic>crp</italic> gene, with extended upstream (273-bp) and downstream (284-bp) sequences, cloned into the integrating plasmid vector pIJ82 (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref> in the supplemental material). To create a <italic>crp</italic>-inducible construct, the <italic>crp</italic> gene was PCR amplified and cloned into the pCR2.1-TOPO vector (Invitrogen) before being subcloned downstream of the <italic>tipA</italic> promoter in the integrating <italic>Streptomyces</italic> vector pIJ6902 (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref>). A constitutive <italic>crp</italic> overexpression plasmid was made by cloning the <italic>crp</italic> gene and its downstream sequence immediately downstream of the <italic>ermE*</italic> promoter in the pMC500 vector (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref>), before excising <italic>ermE*-crp</italic> and inserting it into pIJ82. Plasmids were introduced into <italic>Streptomyces</italic> strains via conjugation from the nonmethylating <italic>E.&#xA0;coli</italic> strain ET12567 containing the conjugation &#x201C;helper&#x201D; plasmid pUZ8002 (<xref ref-type="bibr" rid="B52">52</xref>). All DNA oligonucleotides used in this study are summarized in <xref ref-type="supplementary-material" rid="tabS4">Table&#xA0;S4</xref>.</p>
+      </sec>
+      <sec id="h3.3">
+        <title>Crp overexpression, purification, and antibody generation.</title>
+        <p>To create a Crp overexpression plasmid, the <italic>crp</italic> coding sequence was PCR amplified (see <xref ref-type="supplementary-material" rid="tabS4">Table&#xA0;S4</xref> in the supplemental material) and ligated into pET15b (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref>). The integrity of the resulting construct was confirmed using sequencing before being introduced into <italic>E.&#xA0;coli</italic> BL21(DE3) (Novagen) (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref>). His<sub>6</sub>-Crp expression was induced overnight at 26&#xB0;C with 0.5&#xA0;mM isopropyl-&#x3B2;-<sc>d</sc>-thiogalactopyranoside (IPTG), before the cells were collected and lysed using a French press. The protein was purified from the resulting cell extract using nickel-nitrilotriacetic acid (Ni-NTA) affinity chromatography and was eluted using increasing concentrations of imidazole (100&#xA0;mM to 500&#xA0;mM). Purified His<sub>6</sub>-Crp was used to generate polyclonal antibodies (Cedarlane Labs). To remove His<sub>6</sub>-tag-reactive species from the crude antiserum, an independent His<sub>6</sub>-tagged protein (His<sub>6</sub>-VirB8 protein from <italic>Brucella suis</italic>) was used. Briefly, the His<sub>6</sub>-VirB8 protein was immobilized on an Ni-NTA agarose column. The column was washed five times with equilibration buffer (150&#xA0;mM NaCl, 50&#xA0;mM Tris-Cl, pH&#xA0;7.4), after which anti-Crp antiserum was passed through the column, and the flowthrough was collected as the precleared antiserum. The precleared antiserum was then further affinity purified using Ni-NTA-immobilized His<sub>6</sub>-Crp and was eluted with 2&#xA0;ml of a high-salt (4 M MgCl<sub>2</sub>) buffer, before buffer exchange into phosphate-buffered saline (PBS).</p>
+      </sec>
+      <sec id="h3.4">
+        <title>Cell extract preparation, SDS-PAGE, and immunoblotting.</title>
+        <p>Cell extracts were prepared from <italic>Streptomyces</italic> cells grown in liquid R5 medium, and Bradford assays were conducted to measure total protein concentrations. The protein extracts were separated using SDS-PAGE and either were stained with Coomassie brilliant blue R-250 (to ensure equivalent protein concentrations in all samples) or were subjected to immunoblotting with anti-Crp polyclonal antibodies (1:2,000) and anti-rabbit IgG horseradish peroxidase (HRP)-conjugated secondary antibodies (1:3,000; Cell Signaling).</p>
+      </sec>
+      <sec id="h3.5">
+        <title>ChIP and microarray assays.</title>
+        <p>Wild-type strain M145 was grown in liquid R5 medium for 16&#xA0;h before formaldehyde was added to a final concentration of 1% (vol/vol). To ensure that we were working with cultures grown to similar optical densities (OD), the &#x394;<italic>crp</italic> mutant strain was grown for 64&#xA0;h (this strain exhibits significant delays in germination and very slow vegetative growth) before cross-linking. Cultures were cross-linked at 30&#xB0;C for 25&#xA0;min before glycine was added to a concentration of 125&#xA0;mM to stop the cross-linking. Immunoprecipitation was then carried out as described in reference <xref ref-type="bibr" rid="B53">53</xref>. DNA labeling, hybridization, and microarray scanning were performed by Oxford Gene Technology (OGT) according to their standard protocols. Microarrays consisted of 44,000 60-mer oligonucleotide probes covering the entire genome of <italic>S.&#xA0;coelicolor</italic> (Oxford Gene Technology, Oxford, United Kingdom), and each strain was examined in duplicate. For each array, the signals of all probes were normalized to the median channel signal for the respective array to correct for any systematic errors. Signal ratios between immunoprecipitated DNA and total reference DNA were obtained for both the wild-type and the mutant strain experiments. A final interaction score was calculated by taking the log<sub>2</sub> value of the ratio between the wild-type and the mutant values for each probe. A probe was considered to contain a binding site only when it, and at least one adjacent probe, showed an interaction score 3 times the standard deviation above the median interaction score (1.7).</p>
+        <p>For temporal ChIP experiments, cultures of the &#x394;<italic>crp</italic> strain (pIJ6902<italic>crp</italic>) were grown in liquid R5 medium for 16&#xA0;h, before thiostrepton was added (to a final concentration of 50 &#x3BC;g/ml) to induce <italic>crp</italic> expression. Immunoprecipitation was carried out before induction and after 15 and 45&#xA0;min, as described above. Immunoprecipitated DNA was analyzed using qPCR, as described below, and the threshold cycle (<italic>C<sub>T</sub></italic>) value was normalized with the total-DNA <italic>C</italic><sub><italic>T</italic></sub> value. The uninduced sample was used to assess the fold change of the DNA levels in the 15- and 45-min samples. Three independent cultures were set up for the ChIP experiments, and qPCRs (reactions described below) for each were done in triplicate. Analyses of variance (ANOVAs) were performed using SPSS v17.0 to test the statistical significance (<italic>P</italic>&#xA0;value, &lt;0.05) of the results.</p>
+      </sec>
+      <sec id="h3.6">
+        <title>DNase footprinting.</title>
+        <p>DNA probes were prepared by PCR amplifying the intergenic regions of <italic>SCO3570-3571</italic>, <italic>SCO2976-2977</italic>, and <italic>SCO4561-4562</italic> using oligonucleotides end labeled with T4 polynucleotide kinase and [&#x3B3;-<sup>32</sup>P]ATP. In each binding reaction, 0, 27, or 81&#xA0;&#x3BC;M Crp protein was incubated with 15,000&#xA0;cpm of DNA probe at 30&#xB0;C for 15&#xA0;min in the presence of 20&#xA0;mM Tris-Cl (pH&#xA0;7.8), 5&#xA0;mM MgCl<sub>2</sub>, 50&#xA0;mM KCl, 1&#xA0;mM dithiothreitol (DTT), 0.1&#xA0;mM EDTA, 5% glycerol, 0.5&#xA0;mg/ml bovine serum albumin (BSA), 1&#xA0;&#xB5;g poly(dI-dC), and 50&#xA0;&#x3BC;M cAMP. This was followed by digestion using 0.01&#xA0;U DNase I (Invitrogen) in a volume of 40&#xA0;&#x3BC;l at room temperature for 30&#xA0;s. The digestion buffer contained 10&#xA0;mM Tris-Cl (pH&#xA0;7.8), 5&#xA0;mM MgCl<sub>2</sub>, and 1&#xA0;mM CaCl<sub>2</sub>. One hundred sixty&#xA0;microliters of stop buffer (200&#xA0;mM NaCl, 30&#xA0;mM EDTA, 1% SDS) was added to terminate each reaction. Samples were phenol-chloroform extracted and precipitated. Each pellet was dissolved in 13&#xA0;&#x3BC;l loading dye (80% [vol/vol] formamide, 1&#xA0;mM EDTA [pH&#xA0;8.0], 10&#xA0;mM NaOH, 0.1% [wt/vol] bromophenol blue, 0.1% [wt/vol] xylene cyanol FF) and heated to 95&#xB0;C for 5&#xA0;min prior to loading 6 &#x3BC;l on a 6% denaturing polyacrylamide gel. Sequencing reactions were prepared as described in reference <xref ref-type="bibr" rid="B54">54</xref>, except with the PCR-amplified probe sequences as the template.</p>
+      </sec>
+      <sec id="h3.7">
+        <title>RNA isolation, RT, and qPCR.</title>
+        <p>Cultures of &#x394;<italic>crp</italic>(pIJ6902<italic>crp</italic>) and &#x394;<italic>crp</italic>(pIJ6902) strains were grown as described for the temporal ChIP experiments. RNA was harvested from cell aliquots before induction (time zero) and at 15, 30, 45, and 60&#xA0;min following induction with thiostrepton (50&#x2009;&#x3BC;g/ml final concentration). Total RNA was harvested as described previously (<xref ref-type="bibr" rid="B55">55</xref>), followed by passage through an RNeasy minicolumn (Qiagen). Reverse transcription (RT) reactions were performed as described in reference <xref ref-type="bibr" rid="B56">56</xref>, except with 2&#xA0;&#xB5;g of total RNA as the template. Semiquantitative PCRs were also conducted as described in reference <xref ref-type="bibr" rid="B56">56</xref>, and we optimized the number of cycles to ensure that amplification was occurring within the linear range of the reaction (28 cycles for <italic>crp</italic> and 15 cycles for 16S rRNA). For qPCRs, 1&#x2009;&#x3BC;l of cDNA was used for each 25&#x2009;&#x3BC;l qPCR mixture, together with 1&#xD7; PCR buffer, 2&#xA0;mM MgSO<sub>4</sub>, 0.2&#xA0;mM deoxynucleoside triphosphate (dNTP), 1&#xA0;mM (each) gene-specific primer, 7.5% dimethyl sulfoxide (DMSO), 0.5&#xA0;&#xB5;l SYBR green I dye (50&#xD7; in DMSO) (Invitrogen), and 1.25&#xA0;U <italic>Taq</italic> DNA polymerase (Norgen), using a CFX96 qPCR detection system (Bio-Rad). The cycling conditions used were 95&#xB0;C for 5&#xA0;min, 95&#xB0;C for 30&#xA0;s, 58 or 60&#xB0;C for 1&#xA0;min (annealing), 72&#xB0;C for 30&#xA0;s (extension), and 72&#xB0;C for 10&#xA0;min, with steps 2 to 4 repeated for 40 cycles. All reactions were performed in triplicate.</p>
+      </sec>
+      <sec id="h3.8">
+        <title>Transcriptome profiling.</title>
+        <p>RNA samples were prepared as described above in duplicate and were processed and analyzed at the London Regional Genomics Center. cDNA samples were created by reverse transcription and were then biotinylated and fragmented before hybridization to custom-designed Affymetrix GeneChip arrays, as described in reference <xref ref-type="bibr" rid="B40">40</xref>. The hybridized arrays were stained and washed using an Affymetrix Fluidics station 450 and were scanned with an Affymetrix Scanner 3000 7G. Data were analyzed using the Partek Genomics Suite. The log<sub>2</sub> values of the signals were normalized to the median value of the respective arrays. The transcriptional fold change of each gene was calculated as the ratio between the induced and the uninduced sample. Selected targets were validated with RT-qPCR, as described above. In addition to the genes of interest, 16S rRNA was included as a reference. For each time point, the <italic>C</italic><sub><italic>T</italic></sub> of a target gene was normalized to the <italic>C</italic><sub><italic>T</italic></sub> of 16S rRNA, which was obtained from the same cDNA. The uninduced (time zero) sample was used to establish a baseline expression level and to determine the fold change in transcript levels at each subsequent point in the time course. ANOVAs were performed using SPSS v17.0 to determine whether the results (microarray and RT-qPCR) were statistically significant (<italic>P</italic>&#xA0;value, &lt;0.05).</p>
+      </sec>
+      <sec id="h3.9">
+        <title>Antibiotic production assays.</title>
+        <p>Act and Red production for <italic>S.&#xA0;coelicolor</italic> M145(pIJ82), &#x394;<italic>crp</italic>(pIJ82), &#x394;<italic>crp</italic>(pIJ82<italic>crp</italic>), and M145(pIJ82<italic>ermE*crp</italic>) strains, grown in liquid R5 medium for 7&#xA0;days, was quantified spectrophotometrically as described previously (<xref ref-type="bibr" rid="B13">13</xref>, <xref ref-type="bibr" rid="B57">57</xref>). Three independent cultures were set up for each strain, and duplicate aliquots from each culture were tested. CDA production bioassays were conducted as outlined in reference <xref ref-type="bibr" rid="B13">13</xref>, except that <italic>Streptomyces</italic> strains were grown in liquid R5 medium for 48&#xA0;h. Four replicates were conducted for each strain. CDA production was quantified by measuring the diameter of the inhibition zones. The levels of all antibiotics were normalized relative to the biomass of the mycelia from which the antibiotics were extracted. Antibiotic production by <italic>S.&#xA0;coelicolor</italic> M145, <italic>Streptomyces&#xA0;venezuelae</italic> ATCC 10712, <italic>Streptomyces&#xA0;pristinaespiralis</italic> ATCC 25486, <italic>Streptomyces</italic> sp. strain SPB74, <italic>Streptomyces</italic> sp. strain WAC4657, and <italic>Streptomyces</italic> sp. strain WAC4988 (see <xref ref-type="supplementary-material" rid="tabS3">Table&#xA0;S3</xref> in the supplemental material), containing pIJ82 or pIJ82<italic>ermE*crp</italic> (<italic>crp</italic> overexpression construct), was tested against the following indicator strains: <italic>E.&#xA0;coli</italic>, <italic>Staphylococcus aureus</italic>, and <italic>Bacillus subtilis</italic>. Approximately 10<sup>6</sup> spores (in 5&#xA0;&#x3BC;l sterile distilled water) of each strain were spotted on DNA or R2YE agar plates and incubated at 30&#xB0;C for 48, 72, 96, 120, and 144&#xA0;h before being overlaid with soft agar (1:1 DNA plus Difco nutrient broth) containing a 100-fold dilution of indicator strain overnight culture in liquid LB medium. The plates were incubated overnight at 37&#xB0;C before measuring the size of the inhibition zone (distance from the outer edge of each <italic>Streptomyces</italic> circular patch to the edge of the zone of clearing). Each experiment included four replicates for each strain and was performed three times.</p>
+      </sec>
+      <sec id="h3.10">
+        <title>Secondary metabolite extraction and analysis.</title>
+        <p><italic>crp-</italic>overexpressing <italic>Streptomyces</italic> strains and their vector-alone-containing controls were spread on R5 agar medium and incubated for 3 and 7&#xA0;days. The cultures, along with the agar, were diced, soaked in 25&#xA0;ml <italic>n</italic>-butanol, and sonicated in a Branson 2520 tabletop ultrasonic cleaner for 3&#xA0;min before being macerated at room temperature overnight. The mixture was filtered through Whatman filter paper and lyophilized in an HT-4X centrifugal vacuum evaporator (Genevac), followed by reconstitution in 500&#xA0;&#x3BC;l acetonitrile-distilled water (dH<sub>2</sub>O) (1:1, high-pressure liquid chromatography [HPLC] grade). R5 agar alone was processed in parallel as a negative control. Each sample was prepared in quadruplicate.</p>
+        <p>LC-MS analysis was performed on an Agilent 1200 series analytical HPLC system equipped with a reverse-phase C<sub>18</sub> column (2.1 by 100&#xA0;mm, 2.6&#xA0;&#x3BC;m, 100&#xA0;&#xC5;) (Kinetex) coupled to a benchtop time-of-flight spectrometer (Bruker MicroTOF II; Bruker Daltonics). The samples were separated using a gradient of 5% to 95% acetonitrile (0.1% [vol/vol] formic acid) at 50&#xB0;C over 22&#xA0;min, with a flow rate of 0.2&#xA0;ml/min. Positive electrospray ionization was performed at 4.5&#xA0;kV, and the ions were scanned over a mass range of 200 to 1,700&#xA0;<italic>m/z</italic>. Data were analyzed using MZmine 2 software (<xref ref-type="bibr" rid="B58">58</xref>).</p>
+      </sec>
+      <sec id="h3.11">
+        <title>cAMP concentration measurement.</title>
+        <p>Spores of the wild-type, &#x394;<italic>crp</italic>, &#x394;<italic>crp</italic>(pIJ6902<italic>crp</italic>), and &#x394;<italic>crp</italic>(pIJ6902) strains were pregerminated and cultured in liquid R5 medium. For the wild-type strain, samples were harvested at 12, 16, 20, and 24&#xA0;h, while for the &#x394;<italic>crp</italic>(pIJ6902<italic>crp</italic>) strain, cultures were induced at 16&#xA0;h and samples were harvested at 16 (preinduction), 18, 20, and 24&#xA0;h. Cultures of the negative controls, the &#x394;<italic>crp</italic> and &#x394;<italic>crp</italic>(pIJ6902) strains, were set up 48&#xA0;h ahead of the wild-type and &#x394;<italic>crp</italic>(pIJ6902<italic>crp</italic>) strains, respectively, and were then followed using the same time course. At each time point, 7&#xA0;ml of culture was extracted and cells were pelleted. For determining extracellular cAMP levels, the supernatant was heated at 95&#xB0;C for 5&#xA0;min and then diluted 10 (M145)- or 40 [&#x394;<italic>crp</italic>(pIJ6902<italic>crp</italic>)]-fold in work buffer (BTI; Biomedical Technologies). Samples were assayed using a cAMP enzyme immunoassay (EIA) kit (BTI) that allows cAMP quantification in the range of 0.5 to 100&#xA0;pmol/ml. For quantification of intracellular cAMP, the cell pellets were washed in an equal volume of phosphate-buffered saline (PBS) (0.8% NaCl, 0.02% KCl, 0.15% Na<sub>2</sub>HPO<sub>4</sub>, 0.024% KH<sub>2</sub>PO<sub>4</sub>, pH&#xA0;7.4) and resuspended in 1&#xA0;ml of work buffer (BTI). The mycelia were sonicated on ice and then centrifuged. The cell extract supernatant was heated at 95&#xB0;C for 5&#xA0;min before being assayed using the kit. Each strain was examined in duplicate, and the concentrations were normalized relative to the biomass of the mycelium pellets.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="h4"><title>SUPPLEMENTAL MATERIAL</title><supplementary-material id="figS1"><label>Figure&#xA0;S1</label><caption><p>Transcriptional and translational levels of Crp in wild-type cells over a 48-h time course. (A) RNA samples prepared from cells harvested at different time points were subjected to reverse transcription and PCR to evaluate the quantity of <italic>crp</italic> transcripts. 16S rRNA was included as a control. PCR cycle numbers were optimized (28 for <italic>crp</italic>, 15 for 16S) to ensure that amplification was occurring within the linear range of the reaction. (B) Cell extracts of the wild-type strain were resolved using SDS-PAGE. Crp protein was detected using immunoblotting. Coomassie blue staining was performed in parallel to ensure equal sample loading in all lanes. (C) cAMP levels in the culture supernatant of wild-type and <italic>crp</italic> strains were measured using immunoassays over a 20-h time course. Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00407-12/-/DCSupplemental/mbo006121394sf01.pdf">Figure&#xA0;S1, PDF file, 0.1 MB</ext-link>.</p></caption><media xlink:href="mbo006121394sf01.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Figure&#xA0;S1, PDF file, 0.1 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS2"><label>Figure&#xA0;S2</label><caption><p>Crp interacts with the upstream regions of <italic>SCO3571</italic> (<italic>crp</italic>), <italic>SCO4561</italic>, and <italic>SCO2977</italic> in DNase I footprinting assays. (A) 5&#x2032;-end-labeled probes were incubated with 0, 27, and 87&#xA0;&#x3BC;M Crp before being subjected to DNase I digestion and electrophoresis. Adjacent to each of the footprinting reactions are corresponding sequencing ladders. The protected regions are boxed in panel A and are underlined in the sequences shown below. (B) The predicted consensus binding sequence within each of the protected regions is shown in bold. The number in brackets following each sequence indicates the distance to the start codon of the nearest downstream gene. Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00407-12/-/DCSupplemental/mbo006121394sf02.pdf">Figure&#xA0;S2, PDF file, 0.1 MB</ext-link>.</p></caption><media xlink:href="mbo006121394sf02.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Figure&#xA0;S2, PDF file, 0.1 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS3"><label>Figure&#xA0;S3</label><caption><p>RT-qPCR analysis of genes affected by <italic>crp</italic> induction. The same RNA samples used in the microarray hybridization experiments were used as the template for reverse transcription reactions, coupled with qPCR, to examine the transcription profiles of selected genes. Gene expression was analyzed before induction (time zero) and 15, 30, 45, and 60&#xA0;min after <italic>crp</italic> induction. Tested genes included those involved in secondary metabolism (<italic>SCO3217</italic>, <italic>SCO3230</italic>, <italic>SCO5079</italic>, <italic>SCO5085</italic>, <italic>SCO5877</italic>, <italic>SCO5878</italic>, <italic>SCO6271</italic>, <italic>SCO6275</italic>, and <italic>SCO5222</italic>) and primary metabolism (<italic>SCO2776</italic>, <italic>SCO4921</italic>, <italic>SCO5144</italic>, and <italic>SCO5535</italic>). All displayed at least a 2-fold change in their transcriptional levels following Crp induction. Asterisks indicate changes in expression that are statistically significant (<italic>P</italic>&#xA0;value, &lt;0.05) based on ANOVAs. Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00407-12/-/DCSupplemental/mbo006121394sf03.pdf">Figure&#xA0;S3, PDF file, 0.2 MB</ext-link>.</p></caption><media xlink:href="mbo006121394sf03.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Figure&#xA0;S3, PDF file, 0.2 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS4"><label>Figure&#xA0;S4</label><caption><p>Multiple sequence alignment of Crp family proteins of <italic>Streptomyces</italic> species. The Crp protein sequences were obtained from StrepDB, NCBI, and Broad Institute websites. An asterisk indicates a fully conserved residue; a colon indicates a strongly conserved residue; a period indicates a weakly conserved residue. The alignment was generated using Clustal W2 on the EMBL-EBI. webserver. (Larkin <bold>et al</bold>. 2007. Bioinformatics. <bold>23</bold>: 2947-2948.) Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00407-12/-/DCSupplemental/mbo006121394sf04.pdf">Figure&#xA0;S4, PDF file, 0.2 MB</ext-link>.</p></caption><media xlink:href="mbo006121394sf04.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Figure&#xA0;S4, PDF file, 0.2 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS5"><label>Figure&#xA0;S5</label><caption><p>Overexpression of Crp in <italic>Streptomyces</italic> species carrying <italic>ermE*-crp</italic>. Wild-type strains containing either the empty vector or the <italic>ermE*-crp</italic> construct were cultured in liquid R5 medium for 16&#xA0;h before cell extracts were obtained. Equal amounts of cell extracts from the two strains were resolved using SDS-PAGE, followed by Coomassie blue staining as protein loading controls (bottom) and immunoblotting to check for Crp expression levels (top). In the immunoblots, the band at ~25&#xA0;kDa corresponds to Crp. The loading order is as follows: 1, <italic>Streptomyces</italic> sp. strain WAC4988(pIJ82); 2, <italic>Streptomyces</italic> sp. strain WAC4988(pIJ82<italic>ermE*crp</italic>); 3, <italic>Streptomyces</italic> sp. strain SPB74(pIJ82); 4, <italic>Streptomyces</italic> sp. strain SPB74(pIJ82<italic>ermE</italic>*<italic>crp</italic>); 5, <italic>Streptomyces</italic> sp. strain WAC4657(pIJ82); 6, <italic>Streptomyces</italic> sp. strain WAC4657(pIJ82<italic>ermE</italic>*<italic>crp</italic>); 7, <italic>S.&#xA0;coelicolor</italic> (pIJ82); 8, <italic>S.&#xA0;coelicolor</italic> (pIJ82<italic>ermE*crp</italic>); 9, <italic>S.&#xA0;venezuelae</italic> (pIJ82); 10, <italic>S.&#xA0;venezuelae</italic> (pIJ82<italic>ermE*crp</italic>); 11, <italic>S.&#xA0;pristinaespiralis</italic> (pIJ82); 12, <italic>S.&#xA0;pristinaespiralis</italic> (pIJ82<italic>ermE*crp</italic>). Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00407-12/-/DCSupplemental/mbo006121394sf05.pdf">Figure&#xA0;S5, PDF file, 0.1 MB</ext-link>.</p></caption><media xlink:href="mbo006121394sf05.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Figure&#xA0;S5, PDF file, 0.1 MB</p></caption></media></supplementary-material>
+<supplementary-material id="figS6"><label>Figure&#xA0;S6</label><caption><p>Overlap between the regulons of Crp, PhoP, and AfsS based on transcriptome analysis. (A) The lists of genes affected by PhoP and AfsS were obtained from the work of Lian et al. (W. Lian et al., BMC Genomics <bold>9</bold>:56, 2008) and Rodriguez-Garcia et al. (A. Rodriguez-Garcia et al., 2007). (B) Venn diagram showing the overlap between the regulons of Crp, AfsS, and PhoP. Download <ext-link ext-link-type="uri" xlink:href="/lookup/suppl/doi:10.1128/mBio.00407-12/-/DCSupplemental/mbo006121394sf06.pdf">Figure&#xA0;S6, PDF file, 0.2 MB</ext-link>.</p></caption><media xlink:href="mbo006121394sf06.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Figure&#xA0;S6, PDF file, 0.2 MB</p></caption></media></supplementary-material>
+<supplementary-material id="tabS1"><label>Table&#xA0;S1</label><caption><p>Functional classification of the genes regulated by Crp-associated sites in ChIP-chip assays. The numbers of genes in each category are shown on the right.</p></caption><media xlink:href="mbo006121394st1.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Table&#xA0;S1, PDF file, 0.1 MB.</p></caption></media></supplementary-material>
+<supplementary-material id="tabS2"><label>Table&#xA0;S2</label><caption><p>Functional classification of target genes up- and downregulated by Crp induction in transcriptome profiling assays. The numbers of genes in each category are shown on the right.</p></caption><media xlink:href="mbo006121394st2.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Table&#xA0;S2, PDF file, 0.1 MB.</p></caption></media></supplementary-material>
+<supplementary-material id="tabS3"><label>Table&#xA0;S3</label><caption><p>Strains and plasmids used in this study.</p></caption><media xlink:href="mbo006121394st3.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Table&#xA0;S3, PDF file, 0.1 MB.</p></caption></media></supplementary-material>
+<supplementary-material id="tabS4"><label>Table&#xA0;S4</label><caption><p>Oligonucleotides used in this study.</p></caption><media xlink:href="mbo006121394st4.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Table&#xA0;S4, PDF file, 0.1 MB.</p></caption></media></supplementary-material>
+</sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn fn-type="other">
+        <p><bold>Citation</bold> Gao C, Hindra, Mulder D, Yin C, Elliot MA. 2012. Crp is a global regulator of antibiotic production in <italic>Streptomyces</italic>. mBio 3(6):e00407-12. doi:10.1128/mBio.00407-12.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>ACKNOWLEDGMENTS</title>
+      <p>We thank Sheila Pimentel-Elardo, Alison Berzins, and Chris Hanke for technical assistance and Mark Buttner and Justin Nodwell for helpful comments and discussions.</p>
+      <p>This work was funded by <funding-source>Cystic Fibrosis Canada</funding-source>.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>LF</given-names></name><name><surname>Hopwood</surname><given-names>DA</given-names></name></person-group>
+<year>1976</year>
+<article-title>Actinorhodin is a chromosomally-determined antibiotic in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>J. Gen. Microbiol.</source>
+<volume>96</volume>:<fpage>289</fpage>-<lpage>297</lpage><pub-id pub-id-type="pmid">993778</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Malpartida</surname><given-names>F</given-names></name><name><surname>Niemi</surname><given-names>J</given-names></name><name><surname>Navarrete</surname><given-names>R</given-names></name><name><surname>Hopwood</surname><given-names>DA</given-names></name></person-group>
+<year>1990</year>
+<article-title>Cloning and expression in a heterologous host of the complete set of genes for biosynthesis of the <italic>Streptomyces coelicolor</italic> antibiotic undecylprodigiosin</article-title>. <source>Gene</source>
+<volume>93</volume>:<fpage>91</fpage>&#x2013;<lpage>99</lpage>
+<pub-id pub-id-type="pmid">2227430</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rudd</surname><given-names>BA</given-names></name><name><surname>Hopwood</surname><given-names>DA</given-names></name></person-group>
+<year>1980</year>
+<article-title>A pigmented mycelial antibiotic in <italic>Streptomyces coelicolor</italic>: control by a chromosomal gene cluster</article-title>. <source>J. Gen. Microbiol.</source>
+<volume>119</volume>:<fpage>333</fpage>&#x2013;<lpage>340</lpage><pub-id pub-id-type="pmid">7229612</pub-id></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chong</surname><given-names>PP</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Physical identification of a chromosomal locus encoding biosynthetic genes for the lipopeptide calcium-dependent antibiotic (CDA) of <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>Microbiology</source>
+<volume>144</volume>:<fpage>193</fpage>-<lpage>199</lpage><pub-id pub-id-type="pmid">9537762</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chater</surname><given-names>KF</given-names></name><name><surname>Bruton</surname><given-names>CJ</given-names></name></person-group>
+<year>1985</year>
+<article-title>Resistance, regulatory and production genes for the antibiotic methylenomycin are clustered</article-title>. <source>EMBO J.</source>
+<volume>4</volume>:<fpage>1893</fpage>&#x2013;<lpage>1897</lpage><pub-id pub-id-type="pmid">2992952</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>LF</given-names></name><name><surname>Hopwood</surname><given-names>DA</given-names></name></person-group>
+<year>1976</year>
+<article-title>Identification of the antibiotic determined by the SCP1 plasmid of <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>J. Gen. Microbiol.</source>
+<volume>95</volume>:<fpage>96</fpage>&#x2013;<lpage>106</lpage><pub-id pub-id-type="pmid">822125</pub-id></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gottelt</surname><given-names>M</given-names></name><name><surname>Kol</surname><given-names>S</given-names></name><name><surname>Gomez-Escribano</surname><given-names>JP</given-names></name><name><surname>Bibb</surname><given-names>M</given-names></name><name><surname>Takano</surname><given-names>E</given-names></name></person-group>
+<year>2010</year>
+<article-title>Deletion of a regulatory gene within the <italic>cpk</italic> gene cluster reveals novel antibacterial activity in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>Microbiology</source>
+<volume>156</volume>:<fpage>2343</fpage>-<lpage>2353</lpage><pub-id pub-id-type="pmid">20447997</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bibb</surname><given-names>MJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Regulation of secondary metabolism in streptomycetes</article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>8</volume>:<fpage>208</fpage>&#x2013;<lpage>215</lpage>
+<pub-id pub-id-type="pmid">15802254</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mart&#xED;n</surname><given-names>JF</given-names></name><name><surname>Liras</surname><given-names>P</given-names></name></person-group>
+<year>2010</year>
+<article-title>Engineering of regulatory cascades and networks controlling antibiotic biosynthesis in <italic>Streptomyces</italic></article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>13</volume>:<fpage>263</fpage>&#x2013;<lpage>273</lpage><pub-id pub-id-type="pmid">20303823</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Wezel</surname><given-names>GP</given-names></name><name><surname>McDowall</surname><given-names>KJ</given-names></name></person-group>
+<year>2011</year>
+<article-title>The regulation of the secondary metabolism of <italic>Streptomyces</italic>: new links and experimental advances</article-title>. <source>Nat. Prod. Rep.</source>
+<volume>28</volume>:<fpage>1311</fpage>&#x2013;<lpage>1333</lpage>
+<pub-id pub-id-type="pmid">21611665</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Uguru</surname><given-names>GC</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Transcriptional activation of the pathway-specific regulator of the actinorhodin biosynthetic genes in <italic>Streptomyces coelicolor</italic></article-title>. <source>Mol. Microbiol.</source>
+<volume>58</volume>:<fpage>131</fpage>&#x2013;<lpage>150</lpage>
+<pub-id pub-id-type="pmid">16164554</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rigali</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Feast or famine: the global regulator DasR links nutrient stress to antibiotic production by <italic>Streptomyces</italic></article-title>. <source>EMBO Rep.</source>
+<volume>9</volume>:<fpage>670</fpage>&#x2013;<lpage>675</lpage>
+<pub-id pub-id-type="pmid">18511939</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKenzie</surname><given-names>NL</given-names></name><name><surname>Nodwell</surname><given-names>JR</given-names></name></person-group>
+<year>2007</year>
+<article-title>Phosphorylated AbsA2 negatively regulates antibiotic production in <italic>Streptomyces coelicolor</italic> through interactions with pathway-specific regulatory gene promoters</article-title>. <source>J. Bacteriol.</source>
+<volume>189</volume>:<fpage>5284</fpage>&#x2013;<lpage>5292</lpage>
+<pub-id pub-id-type="pmid">17513473</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#xF6;rner</surname><given-names>H</given-names></name><name><surname>Sofia</surname><given-names>HJ</given-names></name><name><surname>Zumft</surname><given-names>WG</given-names></name></person-group>
+<year>2003</year>
+<article-title>Phylogeny of the bacterial superfamily of Crp-Fnr transcription regulators: exploiting the metabolic spectrum by controlling alternative gene programs</article-title>. <source>FEMS Microbiol. Rev.</source>
+<volume>27</volume>:<fpage>559</fpage>&#x2013;<lpage>592</lpage>
+<pub-id pub-id-type="pmid">14638413</pub-id></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>G&#xF6;rke</surname><given-names>B</given-names></name><name><surname>St&#xFC;lke</surname><given-names>J</given-names></name></person-group>
+<year>2008</year>
+<article-title>Carbon catabolite repression in bacteria: many ways to make the most out of nutrients</article-title>. <source>Nat. Rev. Microbiol.</source>
+<volume>6</volume>:<fpage>613</fpage>&#x2013;<lpage>624</lpage>
+<pub-id pub-id-type="pmid">18628769</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grainger</surname><given-names>DC</given-names></name><name><surname>Hurd</surname><given-names>D</given-names></name><name><surname>Harrison</surname><given-names>M</given-names></name><name><surname>Holdstock</surname><given-names>J</given-names></name><name><surname>Busby</surname><given-names>SJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Studies of the distribution of <italic>Escherichia coli</italic> cAMP-receptor protein and RNA polymerase along the <italic>E</italic>. <italic>coli</italic> chromosome</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>102</volume>:<fpage>17693</fpage>&#x2013;<lpage>17698</lpage>
+<pub-id pub-id-type="pmid">16301522</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Angell</surname><given-names>S</given-names></name><name><surname>Lewis</surname><given-names>CG</given-names></name><name><surname>Buttner</surname><given-names>MJ</given-names></name><name><surname>Bibb</surname><given-names>MJ</given-names></name></person-group>
+<year>1994</year>
+<article-title>Glucose repression in <italic>Streptomyces coelicolor</italic> A3(2): a likely regulatory role for glucose kinase</article-title>. <source>Mol. Gen. Genet.</source>
+<volume>244</volume>:<fpage>135</fpage>&#x2013;<lpage>143</lpage><pub-id pub-id-type="pmid">8052232</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodgson</surname><given-names>DA</given-names></name></person-group>
+<year>1982</year>
+<article-title>Glucose repression of carbon source uptake and metabolism in <italic>Streptomyces coelicolor</italic> A3(2) and its perturbation in mutants resistant to 2-deoxyglucose</article-title>. <source>Microbiology</source>
+<volume>128</volume>:<fpage>2417</fpage>&#x2013;<lpage>2430</lpage>
+</mixed-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Derouaux</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Deletion of a cyclic AMP receptor protein homologue diminishes germination and affects morphological development of <italic>Streptomyces coelicolor</italic></article-title>. <source>J. Bacteriol.</source>
+<volume>186</volume>:<fpage>1893</fpage>&#x2013;<lpage>1897</lpage>
+<pub-id pub-id-type="pmid">14996821</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Derouaux</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Crp of <italic>Streptomyces coelicolor</italic> is the third transcription factor of the large CRP-FNR superfamily able to bind cAMP</article-title>. <source>Biochem. Biophys. Res. Commun.</source>
+<volume>325</volume>:<fpage>983</fpage>&#x2013;<lpage>990</lpage>
+<pub-id pub-id-type="pmid">15541386</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Piette</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>From dormant to germinating spores of <italic>Streptomyces coelicolor</italic> A3(2): new perspectives from the <italic>crp</italic> null mutant</article-title>. <source>J. Proteome Res.</source>
+<volume>4</volume>:<fpage>1699</fpage>&#x2013;<lpage>1708</lpage>
+<pub-id pub-id-type="pmid">16212423</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toyoda</surname><given-names>K</given-names></name><name><surname>Teramoto</surname><given-names>H</given-names></name><name><surname>Inui</surname><given-names>M</given-names></name><name><surname>Yukawa</surname><given-names>H</given-names></name></person-group>
+<year>2011</year>
+<article-title>Genome-wide identification of <italic>in vivo</italic> binding sites of GlxR, a cyclic AMP receptor protein-type regulator in <italic>Corynebacterium glutamicum</italic></article-title>. <source>J. Bacteriol.</source>
+<volume>193</volume>:<fpage>4123</fpage>&#x2013;<lpage>4133</lpage>
+<pub-id pub-id-type="pmid">21665967</pub-id></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rickman</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>A member of the cAMP receptor protein family of transcription regulators in <italic>Mycobacterium tuberculosis</italic> is required for virulence in mice and controls transcription of the <italic>rpfA</italic> gene coding for a resuscitation promoting factor</article-title>. <source>Mol. Microbiol.</source>
+<volume>56</volume>:<fpage>1274</fpage>&#x2013;<lpage>1286</lpage>
+<pub-id pub-id-type="pmid">15882420</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stapleton</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Mycobacterium tuberculosis cAMP receptor protein (Rv3676) differs from the <italic>Escherichia coli</italic> paradigm in its cAMP binding and DNA binding properties and transcription activation properties</article-title>. <source>J. Biol. Chem.</source>
+<volume>285</volume>:<fpage>7016</fpage>&#x2013;<lpage>7027</lpage>
+<pub-id pub-id-type="pmid">20028978</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>S&#xFC;sstrunk</surname><given-names>U</given-names></name><name><surname>Pidoux</surname><given-names>J</given-names></name><name><surname>Taubert</surname><given-names>S</given-names></name><name><surname>Ullmann</surname><given-names>A</given-names></name><name><surname>Thompson</surname><given-names>CJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>Pleiotropic effects of cAMP on germination, antibiotic biosynthesis and morphological development in <italic>Streptomyces coelicolor</italic></article-title>. <source>Mol. Microbiol.</source>
+<volume>30</volume>:<fpage>33</fpage>&#x2013;<lpage>46</lpage>
+<pub-id pub-id-type="pmid">9786183</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Daniel</surname><given-names>J</given-names></name></person-group>
+<year>1984</year>
+<article-title>Enzyme III stimulation of cyclic AMP synthesis in an <italic>Escherichia coli crp</italic> mutant</article-title>. <source>J. Bacteriol.</source>
+<volume>157</volume>:<fpage>940</fpage>&#x2013;<lpage>941</lpage><pub-id pub-id-type="pmid">6321447</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>den Blaauwen</surname><given-names>JL</given-names></name><name><surname>Postma</surname><given-names>PW</given-names></name></person-group>
+<year>1985</year>
+<article-title>Regulation of cyclic AMP synthesis by enzyme IIIGlc of the phosphoenolpyruvate: sugar phosphotransferase system in <italic>crp</italic> strains of <italic>Salmonella typhimurium</italic></article-title>. <source>J. Bacteriol.</source>
+<volume>164</volume>:<fpage>477</fpage>&#x2013;<lpage>478</lpage><pub-id pub-id-type="pmid">2995321</pub-id></mixed-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bentley</surname><given-names>SD</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Complete genome sequence of the model actinomycete <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>Nature</source>
+<volume>417</volume>:<fpage>141</fpage>-<lpage>147</lpage><pub-id pub-id-type="pmid">12000953</pub-id></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shen</surname><given-names>B</given-names></name><name><surname>Hutchinson</surname><given-names>CR</given-names></name></person-group>
+<year>1993</year>
+<article-title>Enzymatic synthesis of a bacterial polyketide from acetyl and malonyl coenzyme A</article-title>. <source>Science</source>
+<volume>262</volume>:<fpage>1535</fpage>&#x2013;<lpage>1540</lpage>
+<pub-id pub-id-type="pmid">8248801</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kendrew</surname><given-names>SG</given-names></name><name><surname>Harding</surname><given-names>SE</given-names></name><name><surname>Hopwood</surname><given-names>DA</given-names></name><name><surname>Marsh</surname><given-names>EN</given-names></name></person-group>
+<year>1995</year>
+<article-title>Identification of a flavin:NADH oxidoreductase involved in the biosynthesis of actinorhodin. Purification and characterization of the recombinant enzyme</article-title>. <source>J. Biol. Chem.</source>
+<volume>270</volume>:<fpage>17339</fpage>&#x2013;<lpage>17343</lpage>
+<pub-id pub-id-type="pmid">7615536</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fic</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>cAMP receptor protein from <italic>Escherichia coli</italic> as a model of signal transduction in proteins&#x2014;a review</article-title>. <source>J. Mol. Microbiol. Biotechnol.</source>
+<volume>17</volume>:<fpage>1</fpage>&#x2013;<lpage>11</lpage>
+<pub-id pub-id-type="pmid">19033675</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>V&#xF6;gtli</surname><given-names>M</given-names></name><name><surname>Chang</surname><given-names>PC</given-names></name><name><surname>Cohen</surname><given-names>SN</given-names></name></person-group>
+<year>1994</year>
+<article-title><italic>afsR2</italic>: a previously undetected gene encoding a 63-amino-acid protein that stimulates antibiotic production in <italic>Streptomyces lividans</italic></article-title>. <source>Mol. Microbiol.</source>
+<volume>14</volume>:<fpage>643</fpage>&#x2013;<lpage>653</lpage>
+<pub-id pub-id-type="pmid">7891553</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Floriano</surname><given-names>B</given-names></name><name><surname>Bibb</surname><given-names>M</given-names></name></person-group>
+<year>1996</year>
+<article-title><italic>afsR</italic> is a pleiotropic but conditionally required regulatory gene for antibiotic production in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>Mol. Microbiol.</source>
+<volume>21</volume>:<fpage>385</fpage>-<lpage>396</lpage><pub-id pub-id-type="pmid">8858592</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ishizuka</surname><given-names>H</given-names></name><name><surname>Horinouchi</surname><given-names>S</given-names></name><name><surname>Kieser</surname><given-names>HM</given-names></name><name><surname>Hopwood</surname><given-names>DA</given-names></name><name><surname>Beppu</surname><given-names>T</given-names></name></person-group>
+<year>1992</year>
+<article-title>A putative two-component regulatory system involved in secondary metabolism in <italic>Streptomyces</italic> spp</article-title>. <source>J. Bacteriol.</source>
+<volume>174</volume>:<fpage>7585</fpage>&#x2013;<lpage>7594</lpage><pub-id pub-id-type="pmid">1339426</pub-id></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Laureti</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Identification of a bioactive 51-membered macrolide complex by activation of a silent polyketide synthase in <italic>Streptomyces ambofaciens</italic></article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>108</volume>:<fpage>6258</fpage>&#x2013;<lpage>6263</lpage>
+<pub-id pub-id-type="pmid">21444795</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKenzie</surname><given-names>NL</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Induction of antimicrobial activities in heterologous streptomycetes using alleles of the <italic>Streptomyces coelicolor</italic> gene <italic>absA1</italic></article-title>. <source>J. Antibiot.</source>
+<volume>63</volume>:<fpage>177</fpage>&#x2013;<lpage>182</lpage>
+<pub-id pub-id-type="pmid">20224601</pub-id></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <label>37.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez</surname><given-names>E</given-names></name><name><surname>Banchio</surname><given-names>C</given-names></name><name><surname>Diacovich</surname><given-names>L</given-names></name><name><surname>Bibb</surname><given-names>MJ</given-names></name><name><surname>Gramajo</surname><given-names>H</given-names></name></person-group>
+<year>2001</year>
+<article-title>Role of an essential acyl coenzyme A carboxylase in the primary and secondary metabolism of <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>Appl. Environ. Microbiol.</source>
+<volume>67</volume>:<fpage>4166</fpage>-<lpage>4176</lpage><pub-id pub-id-type="pmid">11526020</pub-id></mixed-citation>
+      </ref>
+      <ref id="B38">
+        <label>38.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ryu</surname><given-names>YG</given-names></name><name><surname>Butler</surname><given-names>MJ</given-names></name><name><surname>Chater</surname><given-names>KF</given-names></name><name><surname>Lee</surname><given-names>KJ</given-names></name></person-group>
+<year>2006</year>
+<article-title>Engineering of primary carbohydrate metabolism for increased production of actinorhodin in <italic>Streptomyces coelicolor</italic></article-title>. <source>Appl. Environ. Microbiol.</source>
+<volume>72</volume>:<fpage>7132</fpage>&#x2013;<lpage>7139</lpage>
+<pub-id pub-id-type="pmid">16950896</pub-id></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <label>39.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Craney</surname><given-names>A</given-names></name><name><surname>Ozimok</surname><given-names>C</given-names></name><name><surname>Pimentel-Elardo</surname><given-names>SM</given-names></name><name><surname>Capretta</surname><given-names>A</given-names></name><name><surname>Nodwell</surname><given-names>JR</given-names></name></person-group>
+<year>2012</year>
+<article-title>Chemical perturbation of secondary metabolism demonstrates important links to primary metabolism</article-title>. <source>Chem. Biol.</source>
+<volume>19</volume>:<fpage>1020</fpage>&#x2013;<lpage>1027</lpage>
+<pub-id pub-id-type="pmid">22921069</pub-id></mixed-citation>
+      </ref>
+      <ref id="B40">
+        <label>40.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nieselt</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>The dynamic architecture of the metabolic switch in <italic>Streptomyces coelicolor</italic></article-title>. <source>BMC Genomics</source>
+<volume>11</volume>:<fpage>10</fpage>
+<uri xlink:type="simple" xlink:href="http://dx.doi.org/10.1186/1471-2164-11-s3-s10">http://dx.doi.org/10.1186/1471-2164-11-S3-S10</uri><pub-id pub-id-type="pmid">20053288</pub-id></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <label>41.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Santos-Beneit</surname><given-names>F</given-names></name><name><surname>Rodr&#xED;guez-Garc&#xED;a</surname><given-names>A</given-names></name><name><surname>Sola-Landa</surname><given-names>A</given-names></name><name><surname>Mart&#xED;n</surname><given-names>JF</given-names></name></person-group>
+<year>2009</year>
+<article-title>Cross-talk between two global regulators in <italic>Streptomyces</italic>: PhoP and AfsR interact in the control of <italic>afsS</italic>, <italic>pstS</italic> and <italic>phoRP</italic> transcription</article-title>. <source>Mol. Microbiol.</source>
+<volume>72</volume>:<fpage>53</fpage>&#x2013;<lpage>68</lpage>
+<pub-id pub-id-type="pmid">19220751</pub-id></mixed-citation>
+      </ref>
+      <ref id="B42">
+        <label>42.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Santos-Beneit</surname><given-names>F</given-names></name><name><surname>Rodr&#xED;guez-Garc&#xED;a</surname><given-names>A</given-names></name><name><surname>Martin</surname><given-names>JF</given-names></name></person-group>
+<year>2011</year>
+<article-title>Complex transcriptional control of the antibiotic regulator <italic>afsS</italic> in <italic>Streptomyces</italic>: PhoP and AfsR are overlapping, competitive activators</article-title>. <source>J. Bacteriol.</source>
+<volume>193</volume>:<fpage>2242</fpage>&#x2013;<lpage>2251</lpage>
+<pub-id pub-id-type="pmid">21378195</pub-id></mixed-citation>
+      </ref>
+      <ref id="B43">
+        <label>43.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>PC</given-names></name><name><surname>Umeyama</surname><given-names>T</given-names></name><name><surname>Horinouchi</surname><given-names>S</given-names></name></person-group>
+<year>2002</year>
+<article-title><italic>afsS</italic> is a target of AfsR, a transcriptional factor with ATPase activity that globally controls secondary metabolism in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>Mol. Microbiol.</source>
+<volume>43</volume>:<fpage>1413</fpage>-<lpage>1430</lpage><pub-id pub-id-type="pmid">11952895</pub-id></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <label>44.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodr&#xED;guez-Garc&#xED;a</surname><given-names>A</given-names></name><name><surname>Barreiro</surname><given-names>C</given-names></name><name><surname>Santos-Beneit</surname><given-names>F</given-names></name><name><surname>Sola-Landa</surname><given-names>A</given-names></name><name><surname>Mart&#xED;n</surname><given-names>JF</given-names></name></person-group>
+<year>2007</year>
+<article-title>Genome-wide transcriptomic and proteomic analysis of the primary response to phosphate limitation in <italic>Streptomyces coelicolor</italic> M145 and in a <italic>&#x394;phoP</italic> mutant</article-title>. <source>Proteomics</source>
+<volume>7</volume>:<fpage>2410</fpage>&#x2013;<lpage>2429</lpage>
+<pub-id pub-id-type="pmid">17623301</pub-id></mixed-citation>
+      </ref>
+      <ref id="B45">
+        <label>45.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lian</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Genome-wide transcriptome analysis reveals that a pleiotropic antibiotic regulator, AfsS, modulates nutritional stress response in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>. <source>BMC Genomics</source>
+<volume>9</volume>:<fpage>56</fpage>
+<uri xlink:type="simple" xlink:href="http://dx.doi.org/10.1186/1471-2164-9-56">http://dx.doi.org/10.1186/1471-2164-9-56</uri><pub-id pub-id-type="pmid">18230178</pub-id></mixed-citation>
+      </ref>
+      <ref id="B46">
+        <label>46.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rigali</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The sugar phosphotransferase system of <italic>Streptomyces coelicolor</italic> is regulated by the GntR-family regulator DasR and links N-acetylglucosamine metabolism to the control of development</article-title>. <source>Mol. Microbiol.</source>
+<volume>61</volume>:<fpage>1237</fpage>&#x2013;<lpage>1251</lpage>
+<pub-id pub-id-type="pmid">16925557</pub-id></mixed-citation>
+      </ref>
+      <ref id="B47">
+        <label>47.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arias</surname><given-names>P</given-names></name><name><surname>Fern&#xE1;ndez-Moreno</surname><given-names>MA</given-names></name><name><surname>Malpartida</surname><given-names>F</given-names></name></person-group>
+<year>1999</year>
+<article-title>Characterization of the pathway-specific positive transcriptional regulator for actinorhodin biosynthesis in <italic>Streptomyces coelicolor</italic> A3(2) as a DNA-binding protein</article-title>. <source>J. Bacteriol.</source>
+<volume>181</volume>:<fpage>6958</fpage>&#x2013;<lpage>6968</lpage><pub-id pub-id-type="pmid">10559161</pub-id></mixed-citation>
+      </ref>
+      <ref id="B48">
+        <label>48.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gust</surname><given-names>B</given-names></name><name><surname>Challis</surname><given-names>GL</given-names></name><name><surname>Fowler</surname><given-names>K</given-names></name><name><surname>Kieser</surname><given-names>T</given-names></name><name><surname>Chater</surname><given-names>KF</given-names></name></person-group>
+<year>2003</year>
+<article-title>PCR-targeted <italic>Streptomyces</italic> gene replacement identifies a protein domain needed for biosynthesis of the sesquiterpene soil odor geosmin</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>100</volume>:<fpage>1541</fpage>&#x2013;<lpage>1546</lpage>
+<pub-id pub-id-type="pmid">12563033</pub-id></mixed-citation>
+      </ref>
+      <ref id="B49">
+        <label>49.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tomljenovic-Berube</surname><given-names>AM</given-names></name><name><surname>Mulder</surname><given-names>DT</given-names></name><name><surname>Whiteside</surname><given-names>MD</given-names></name><name><surname>Brinkman</surname><given-names>FS</given-names></name><name><surname>Coombes</surname><given-names>BK</given-names></name></person-group>
+<year>2010</year>
+<article-title>Identification of the regulatory logic controlling <italic>Salmonella</italic> pathoadaptation by the SsrA-SsrB two-component system</article-title>. <source>PLoS Genet.</source>
+<volume>6</volume>:<fpage>e1000875</fpage>
+<uri xlink:type="simple" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1000875">http://dx.doi.org/10.1371/journal.pgen.1000875</uri><pub-id pub-id-type="pmid">20300643</pub-id></mixed-citation>
+      </ref>
+      <ref id="B50">
+        <label>50.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chumsakul</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Genome-wide binding profiles of the <italic>Bacillus subtilis</italic> transition state regulator AbrB and its homolog Abh reveals their interactive role in transcriptional regulation</article-title>. <source>Nucleic Acids Res.</source>
+<volume>39</volume>:<fpage>414</fpage>&#x2013;<lpage>428</lpage>
+<pub-id pub-id-type="pmid">20817675</pub-id></mixed-citation>
+      </ref>
+      <ref id="B51">
+        <label>51.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Butcher</surname><given-names>BG</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Characterization of the Fur regulon in <italic>Pseudomonas syringae</italic> pv. tomato DC3000</article-title>. <source>J. Bacteriol.</source>
+<volume>193</volume>:<fpage>4598</fpage>&#x2013;<lpage>4611</lpage>
+<pub-id pub-id-type="pmid">21784947</pub-id></mixed-citation>
+      </ref>
+      <ref id="B52">
+        <label>52.</label>
+        <mixed-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kieser</surname><given-names>T</given-names></name><name><surname>Bibb</surname><given-names>M</given-names></name><name><surname>Buttner</surname><given-names>M</given-names></name><name><surname>Chater</surname><given-names>K</given-names></name><name><surname>Hopwood</surname><given-names>D</given-names></name></person-group>
+<year>2000</year>
+<source>Practical <italic>Streptomyces</italic> genetics</source>. <publisher-name>John Innes Foundation</publisher-name>, <publisher-loc>Norwich, United Kingdom</publisher-loc></mixed-citation>
+      </ref>
+      <ref id="B53">
+        <label>53.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>den Hengst</surname><given-names>CD</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Genes essential for morphological development and antibiotic production in <italic>Streptomyces coelicolor</italic> are targets of BldD during vegetative growth</article-title>. <source>Mol. Microbiol.</source>
+<volume>78</volume>:<fpage>361</fpage>&#x2013;<lpage>379</lpage>
+<pub-id pub-id-type="pmid">20979333</pub-id></mixed-citation>
+      </ref>
+      <ref id="B54">
+        <label>54.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hindra</surname><given-names/></name><name><surname>Pak</surname><given-names>P</given-names></name><name><surname>Elliot</surname><given-names>MA</given-names></name></person-group>
+<year>2010</year>
+<article-title>Regulation of a novel gene cluster involved in secondary metabolite production in <italic>Streptomyces coelicolor</italic></article-title>. <source>J. Bacteriol.</source>
+<volume>192</volume>:<fpage>4973</fpage>&#x2013;<lpage>4982</lpage>
+<pub-id pub-id-type="pmid">20675485</pub-id></mixed-citation>
+      </ref>
+      <ref id="B55">
+        <label>55.</label>
+        <mixed-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hopwood</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>1985</year>
+<article-title>Genetic manipulation of <italic>Streptomyces</italic>&#x2014;a laboratory manual</article-title>. <publisher-name>John Innes Foundation</publisher-name>, <publisher-loc>Norwich, United Kingdom</publisher-loc></mixed-citation>
+      </ref>
+      <ref id="B56">
+        <label>56.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haiser</surname><given-names>HJ</given-names></name><name><surname>Yousef</surname><given-names>MR</given-names></name><name><surname>Elliot</surname><given-names>MA</given-names></name></person-group>
+<year>2009</year>
+<article-title>Cell wall hydrolases affect germination, vegetative growth, and sporulation in <italic>Streptomyces coelicolor</italic></article-title>. <source>J. Bacteriol.</source>
+<volume>191</volume>:<fpage>6501</fpage>&#x2013;<lpage>6512</lpage>
+<pub-id pub-id-type="pmid">19717604</pub-id></mixed-citation>
+      </ref>
+      <ref id="B57">
+        <label>57.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kang</surname><given-names>SG</given-names></name><name><surname>Jin</surname><given-names>W</given-names></name><name><surname>Bibb</surname><given-names>M</given-names></name><name><surname>Lee</surname><given-names>KJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>Actinorhodin and undecylprodigiosin production in wild-type and <italic>relA</italic> mutant strains of <italic>Streptomyces coelicolor</italic> A3(2) grown in continuous culture</article-title>. <source>FEMS Microbiol. Lett.</source>
+<volume>168</volume>:<fpage>221</fpage>&#x2013;<lpage>226</lpage>
+<pub-id pub-id-type="pmid">9835032</pub-id></mixed-citation>
+      </ref>
+      <ref id="B58">
+        <label>58.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pluskal</surname><given-names>T</given-names></name><name><surname>Castillo</surname><given-names>S</given-names></name><name><surname>Villar-Briones</surname><given-names>A</given-names></name><name><surname>Oresic</surname><given-names>M</given-names></name></person-group>
+<year>2010</year>
+<article-title>MZmine 2: modular framework for processing, visualizing, and analyzing mass spectrometry-based molecular profile data</article-title>. <source>BMC Bioinformatics</source>
+<volume>11</volume>:<fpage>395</fpage>
+<uri xlink:type="simple" xlink:href="http://dx.doi.org/10.1186/1471-2105-11-395">http://dx.doi.org/10.1186/1471-2105-11-395</uri><pub-id pub-id-type="pmid">20650010</pub-id></mixed-citation>
+      </ref>
+      <ref id="B59">
+        <label>59.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stothard</surname><given-names>P</given-names></name><name><surname>Wishart</surname><given-names>DS</given-names></name></person-group>
+<year>2005</year>
+<article-title>Circular genome visualization and exploration using CGView</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>:<fpage>537</fpage>&#x2013;<lpage>539</lpage>
+<pub-id pub-id-type="pmid">15479716</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

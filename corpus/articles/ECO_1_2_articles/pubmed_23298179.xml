@@ -1,0 +1,2016 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Microb Biotechnol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Microb Biotechnol</journal-id>
+      <journal-id journal-id-type="publisher-id">mbt2</journal-id>
+      <journal-title-group>
+        <journal-title>Microbial Biotechnology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1751-7915</issn>
+      <issn pub-type="epub">1751-7915</issn>
+      <publisher>
+        <publisher-name>Blackwell Publishing Ltd</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23298179</article-id>
+      <article-id pub-id-type="pmc">3917460</article-id>
+      <article-id pub-id-type="doi">10.1111/1751-7915.12022</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Articles</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Transcriptional control of the F<sub>0</sub>F<sub>1</sub>-ATP synthase operon of <italic>Corynebacterium glutamicum</italic>: SigmaH factor binds to its promoter and regulates its expression at different pH values</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barriuso-Iglesias</surname>
+            <given-names>M&#xF3;nica</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+          <xref ref-type="aff" rid="au2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barreiro</surname>
+            <given-names>Carlos</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sola-Landa</surname>
+            <given-names>Alberto</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mart&#xED;n</surname>
+            <given-names>Juan F</given-names>
+          </name>
+          <xref ref-type="aff" rid="au2">2</xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+        <aff id="au1">
+          <label>1</label>
+          <institution>Instituto de Biotecnolog&#xED;a de Le&#xF3;n (INBIOTEC), Parque Cient&#xED;fico de Le&#xF3;n</institution>
+          <addr-line>Av. Real, 1, 24006, Le&#xF3;n, Spain</addr-line>
+        </aff>
+        <aff id="au2">
+          <label>2</label>
+          <institution>Departamento de Biolog&#xED;a Molecular de la Universidad de Le&#xF3;n, Facultad de Ciencias Biol&#xF3;gicas y Ambientales, Campus de Vegazana</institution>
+          <addr-line>s/n, 24071, Le&#xF3;n, Spain</addr-line>
+        </aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1">*For correspondence. E-mail <email>jf.martin@unileon.es</email>; Tel. (+34)&#x2009;987&#x2009;291&#x2009;505; Fax (+34)&#x2009;987&#x2009;291&#x2009;409.</corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>3</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>09</day>
+        <month>1</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>2</issue>
+      <fpage>178</fpage>
+      <lpage>188</lpage>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2013 The Authors. <italic>Microbial Biotechnology</italic> published by Blackwell Publishing Ltd and Society for Applied Microbiology.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <license-p>This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><italic>Corynebacterium glutamicum</italic> used in the amino acid fermentation industries is an alkaliphilic microorganism. Its <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon (<italic>atpBEFHAGDC</italic>) is expressed optimally at pH&#x2009;9.0 forming a polycistronic (7.5&#x2009;kb) and a monocistronic (1.2&#x2009;kb) transcripts both starting upstream of the <italic>atpB</italic> gene. Expression of this operon is controlled by the SigmaH factor. The sigmaH gene (<italic>sigH</italic>) was cloned and shown to be co-transcribed with a small gene, <italic>cg0877</italic>, encoding a putative anti-sigma factor. A mutant deleted in the <italic>sigH</italic> gene expressed the <italic>atpBEFHAGDC</italic> operon optimally at pH&#x2009;7.0 at difference of the wild-type strain (optimal expression at pH&#x2009;9.0). These results suggested that the SigmaH factor is involved in pH control of expression of the <italic>F</italic><sub>0</sub>F<sub>1</sub> ATPase operon. The SigmaH protein was expressed in <italic>Escherichia coli</italic> fused to the GST (glutathione-S-transferase) and purified to homogeneity by affinity chromatography on a GSTrap HP column. The fused protein was identified by immunodetection with anti-GST antibodies. DNA-binding studies by electrophoretic mobility shift assays showed that the SigH protein binds to a region of the <italic>atpB</italic> promoter containing the sigmaH recognition sequence (&#x2212;35)TTGGAT&#x2026;18nt&#x2026;GTTA(&#x2212;10). SigmaH plays an important role in the cascade of control of pH stress in <italic>Corynebacterium</italic>.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p><italic>Corynebacterium glutamicum</italic> is a Gram-positive coryneform actinobacteria widely used in biotechnology for industrial production of amino acids and amino acid-derived metabolites (Schaffer and Burkovski, <xref rid="b43" ref-type="bibr">2005</xref>). Its molecular genetics has received increasing attention in the last two decades (Correia <italic>et&#x2009;al</italic>., <xref rid="b13" ref-type="bibr">1994</xref>; Mart&#xED;n and Gil, <xref rid="b37" ref-type="bibr">1999</xref>) and the genome of four strains of <italic>C.&#x2009;glutamicum</italic> ATCC 13032 has been sequenced by different research groups (Nakagawa, <xref rid="b38" ref-type="bibr">2002</xref>; Kalinowski <italic>et&#x2009;al</italic>., <xref rid="b28" ref-type="bibr">2003</xref>; Lv <italic>et&#x2009;al</italic>., <xref rid="b35" ref-type="bibr">2011; 2012</xref>).</p>
+      <p><italic>Corynebacterium glutamicum</italic> is usually grown at neutral pH, but, in a previous study, we found that it is an alkaliphilic bacteria with an optimal pH of 9.0 (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>). The <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon of this microorganism that includes the genes <italic>atpBEFHAGDC</italic> is overexpressed at pH&#x2009;9.0 as compared with pH&#x2009;7.0 (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b6" ref-type="bibr">2006; 2008</xref>). However, the molecular mechanism(s) by which <italic>C.&#x2009;glutamicum</italic> controls the expression of this important operon encoding all components of the membrane ATPase remains unknown.</p>
+      <p>The transcriptional regulators of <italic>C.&#x2009;glutamicum</italic> include several types of proteins (Brinkrolf <italic>et&#x2009;al</italic>., <xref rid="b10" ref-type="bibr">2007</xref>). Sigma factors play a very important role in triggering cascades of gene expression. These cascades have been studied in <italic>Bacillus subtilis</italic> and other Gram-positive bacteria. The number of sigma factors encoded in the genomes of microorganisms is related to the complexity of its metabolism. Mycoplasma contains just one sigma factor (Fraser <italic>et&#x2009;al</italic>., <xref rid="b19" ref-type="bibr">1995</xref>; Himmelreich <italic>et&#x2009;al</italic>., <xref rid="b26" ref-type="bibr">1996</xref>), whereas the soil actinomycete <italic>Streptomyces coelicolor</italic> which undergoes complex biochemical changes and differentiation processes has been reported to contain 65 sigma factor (or sigma-factor-like) genes (Bentley <italic>et&#x2009;al</italic>., <xref rid="b9" ref-type="bibr">2002</xref>). In the <italic>C.&#x2009;glutamicum</italic> genome there are seven different genes encoding sigma factors. Two of them SigB and SigA, appear to be sigma factors for the housekeeping vegetative genes (Oguiza <italic>et&#x2009;al</italic>., <xref rid="b39" ref-type="bibr">1997</xref>). Five other SigC, SigD, SigE, SigH and SigM belong to the so-called ECF (<underline>e</underline>xtra<underline>c</underline>ytoplasmic <underline>f</underline>unction) family (Engels <italic>et&#x2009;al</italic>., <xref rid="b18" ref-type="bibr">2004</xref>). <italic>SigH</italic> has been reported to play a role in the expression of genes involved in heat-shock and oxidative stress but its role in the control of other genes or operons remains obscure (see <italic>Discussion</italic>).</p>
+      <p>Initial studies in our group suggested that the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon may be under control of the SigmaH (SigH) factor (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>). It was, therefore, important to study the expression of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon in a <italic>C.&#x2009;glutamicum</italic> mutant defective in <italic>sigH</italic> as compared with its response to pH changes in the wild-type parental strain. Furthermore, it was also important to analyse the possible SigH binding to the <italic>atpBEFHAGDC</italic> promoter in this microorganism.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Deletion of the <italic>sigH</italic> gene causes a drastic change in the pH response of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon</title>
+        <p>In the <italic>C.&#x2009;glutamicum</italic> genome, the <italic>sigH</italic> gene (621&#x2009;nt, access No. BX 927147.1, Kalinowski <italic>et&#x2009;al</italic>., <xref rid="b28" ref-type="bibr">2003</xref>) is preceded upstream by an open reading frame (ORF) encoding a hypothetical protein, and is followed in the same orientation by a small gene encoding a putative anti-sigma factor (<italic>cg0877</italic>), also named <italic>rsrA</italic> o <italic>rshA</italic>. The <italic>sigH</italic> and <italic>cg0877</italic> genes are separated by only three nucleotides. Downstream of <italic>cg0877</italic> and separated by 232&#x2009;bp in the complementary strand, is located the <italic>whiB1</italic> gene (also named <italic>whcE</italic>, Kim <italic>et&#x2009;al</italic>., <xref rid="b30" ref-type="bibr">2005b</xref>) that encodes a transcriptional factor.</p>
+        <p>As reported previously, <italic>C.&#x2009;glutamicum</italic> is an alkaliphilic microorganism and the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon is expressed optimally at pH&#x2009;9.0 (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>). Since a putative SigH binding site was found in the promoter of the <italic>atpBEFHAGDC</italic> operon encoding the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase complex, we decided to compare expression of this operon in the wild-type <italic>C.&#x2009;glutamicum</italic> ATCC 13032 and in a &#x394;<italic>sigH</italic> mutant derived from it (Engels <italic>et&#x2009;al</italic>., <xref rid="b18" ref-type="bibr">2004</xref>).</p>
+        <p>Northern analysis of the transcripts formed from the <italic>atpBEFHAGDC</italic> operon in the wild-type strain were made using the probes named B, B1, B2 and D, internal to <italic>atpB</italic> (probes B, B1 and B2) and <italic>atpD</italic> genes respectively. The size of the transcripts (7.5 and 1.2&#x2009;kb) was the same in the wild type and the &#x394;<italic>sigH</italic> mutant, but the pattern of response to pH was clearly different (Fig.&#x2009;<xref ref-type="fig" rid="fig01">1</xref>). The best results were obtained with probes B, B2 and D. Using probes B or B2 we observed two transcripts of 7.5 and 1.2&#x2009;kb respectively, as described for the wild-type (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>). With probe D, only the 7.5&#x2009;kb transcript was found. The large 7.5&#x2009;kb transcript corresponds to a polycistronic transcript of the <italic>atpBEFHAGDC</italic> operon, whereas the short 1.2&#x2009;kb transcript obtained with probes B or B<sub>2</sub>, but not with probe D, corresponds to a monocistronic mRNA of the first gene of the operon.</p>
+        <fig id="fig01" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Transcription of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATP synthase operon in <italic>C.&#x2009;glutamicum</italic> &#x394;<italic>sigH</italic> at different pH conditions.A. Scheme of the <italic>f0f1</italic> operon. The probes B, B1, B2 and D are indicated by black solid bars. Wavy lines represent the transcripts of the operon. Hairpin (stem and loop) symbols represent putative transcription terminators (see Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>).B. Northern hybridizations of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATP synthase operon with probes B, B2 and D. The sizes of the hybridizing bands are indicated on the right of the panels. [Correction added on 28 January 2013 after first online publication: Figure 1 and its legend have been modified to remove the lower panels (16S probes).]</p>
+          </caption>
+          <graphic xlink:href="mbt20006-0178-f1"/>
+        </fig>
+        <p>Interestingly, whereas maximal expression of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon in the wild-type strain was observed at pH&#x2009;9.0 with any of the three probes (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>), optimal expression of this operon in the &#x394;<italic>sigH</italic> mutant occurred at pH&#x2009;7.0 (Fig.&#x2009;<xref ref-type="fig" rid="fig01">1</xref>). These results suggest that expression of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon is under the control of the ECF &#x3C3;<sup>H</sup> factor.</p>
+      </sec>
+      <sec>
+        <title>Transcriptional organization of the <italic>sigH-cg0877</italic> region</title>
+        <p>SigH is encoded by a 621&#x2009;nt ORF and is very closely linked to <italic>cg0877</italic> (3&#x2009;nt separation). In order to study the transcriptional response of <italic>sigH</italic> to pH stress, we analysed the transcription of <italic>sigH</italic> using a sensitive RNA&#x2013;RNA hybridization procedure with an antisense RNA probe (see <italic>Experimental procedures</italic>). The 615&#x2009;nt RNA probe obtained was named probe H (Fig.&#x2009;<xref ref-type="fig" rid="fig02">2</xref>A).</p>
+        <fig id="fig02" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Transcriptional analysis of the <italic>sigH</italic> gene in <italic>C.&#x2009;glutamicum</italic>&#x2005;ATCC 13032 at different pH conditions.A. Organization scheme of the <italic>sigH</italic> region in <italic>C.&#x2009;glutamicum</italic>&#x2005;ATCC 13032. The probe is shown by a black solid bar. The <italic>sigH-rsrA</italic> transcript (0.9&#x2009;kb) is indicated by a wavy line. The hairpin (stem and loop) symbol represents a putative transcription terminator.B. Stem and loop structure of the putative transcriptional terminator found downstream of <italic>rsrA</italic>. The free energy (&#x394;G) is indicated.C. Northern analysis of the <italic>sigH-rsrA</italic> operon with probe H. The size of the hybridizing band is indicated on the right of the panel. [Correction added on 28 January 2013 after first online publication: Figure 2 and its legend have been modified to remove the lower panels (16S probes).]</p>
+          </caption>
+          <graphic xlink:href="mbt20006-0178-f2"/>
+        </fig>
+        <p>Hybridizations with total RNA of the wild-type <italic>C.&#x2009;glutamicum</italic> grown at pH&#x2009;6.0, 7.0 and 9.0 using the same amount of total RNA showed a single 0.9&#x2009;kb transcript that appears to correspond to the bi-cistronic transcript of <italic>sigH</italic> and <italic>cg0877</italic> [Correction added on 28 January 2013 after first online publication: the text in parenthesis referring to 16S rRNA probe has been deleted from the above statement]. The expression of these genes was clearly higher at alkaline pH (9.0) than at lower pH&#x2009;7.0 (Fig.&#x2009;<xref ref-type="fig" rid="fig02">2</xref>C).</p>
+        <p>The possible joint transcription of <italic>sigH</italic> and <italic>cg0877</italic> (encoding a putative anti-sigma factor) was supported by the lack of an identifiable separate promoter for <italic>cg0877</italic> and by the finding of a putative strong transcriptional terminator downstream of <italic>cg0877</italic> formed by an inverted repeat sequence of 72&#x2009;nt, with a calculated &#x394;G of &#x2212;40&#x2009;kcal&#x2009;mol<sup>&#x2212;1</sup> (Fig.&#x2009;<xref ref-type="fig" rid="fig02">2</xref>B). This putative transcriptional terminator belongs to the type I, or <italic>Mycobacterium</italic> type (Unniraman <italic>et&#x2009;al</italic>., <xref rid="b47" ref-type="bibr">2002</xref>), and is located 87&#x2009;nt downstream of <italic>cg0877</italic> stop codon (see <italic>Discussion</italic>).</p>
+      </sec>
+      <sec>
+        <title>Identification of the SigH-encoded protein</title>
+        <p>A very high expression of <italic>sigH</italic> was obtained in <italic>Escherichia coli</italic> cultures at 37&#xB0;C following addition of IPTG (0.1&#x2009;mM). However, under these conditions most of the SigH protein was insoluble (inclusion bodies, Fig.&#x2009;<xref ref-type="fig" rid="fig03">3</xref>A). The best condition to obtain soluble SigH protein was growing the culture at 25&#xB0;C before and after induction with a 0.3&#x2009;mM IPTG concentration (Fig.&#x2009;<xref ref-type="fig" rid="fig03">3</xref>B). A band of the expected size (49&#x2009;kDa) for the GST&#x2013;SigH protein was observed in extracts of the induced cultures as compared with the non-induced ones (Fig.&#x2009;<xref ref-type="fig" rid="fig03">3</xref>C). The identity of the induced protein was confirmed by inmunodetection with anti-GST antibodies (Fig.&#x2009;<xref ref-type="fig" rid="fig03">3</xref>D).</p>
+        <fig id="fig03" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>Overexpression of SigH as a GST&#x2013;SigH fused protein in <italic>E.&#x2009;coli</italic>.A. SDS-PAGE gel of the GST&#x2013;SigH overexpression at 37&#xB0;C.B. SDS-PAGE gel of the GST&#x2013;SigH overexpression at 25&#xB0;C and different IPTG concentrations. Control: pGEX&#x2013;SigH without induction; Sp: supernatant (soluble fraction); P: pellet (insoluble fraction). Molecular size markers, in kDa, are indicated on the left side of panel A. Arrows show the GST&#x2013;SigH fusion protein overexpression.C. Purification of the GST&#x2013;SigH fusion protein by affinity chromatography on Glutathione Sepharose. Samples were analysed in 12.5% acrylamide SDS-PAGE gels. Sp-C/Sp-I: Control or induced supernatant. MW: Molecular size markers, in kDa. 3&#x2013;8: Elution fractions from the affinity chromatography. Arrows show the GST&#x2013;SigH fusion protein overexpressed and purified.D. Inmunodetection of the GST&#x2013;SigH fusion protein by Western blot analysis with anti-GST antibodies. Sp-C/Sp-I: 20&#x2009;&#x3BC;g of non-induced and induced supernatants. MW: Molecular size markers (in kDa). 4&#x2013;8: 5&#x2009;&#x3BC;l of the affinity chromatography eluted fractions.</p>
+          </caption>
+          <graphic xlink:href="mbt20006-0178-f3"/>
+        </fig>
+        <p>The fused GST&#x2013;SigH protein was purified from the soluble fraction of <italic>E.&#x2009;coli</italic> transformants containing the pGEX&#x2013;SigH construction using GST-Trap HP colums, as described in <italic>Experimental procedures</italic>. After washing with 15&#x2009;ml of PBS buffer, the GST&#x2013;SigH protein was eluted with 10&#x2009;mM reduced glutathione in 50&#x2009;mM Tris-HCl buffer pH&#x2009;8.0. The fractions were collected, analysed by SDS-PAGE and tested with antibodies against GST. As shown in Fig.&#x2009;<xref ref-type="fig" rid="fig03">3</xref>D, almost all of GST&#x2013;SigH protein (reactive with anti-GST antibodies) was found in fractions 5&#x2013;8 of the 20 collected fractions. In this way, about 500 &#x3BC;g of pure GST&#x2013;SigH protein was obtained per 100&#x2009;ml of <italic>E.&#x2009;coli</italic> culture. The nature of the purified protein was identified by peptide mass fingerprinting as described in <italic>Experimental procedures</italic>.</p>
+      </sec>
+      <sec>
+        <title>The purified GST&#x2013;SigH binds to the <italic>atpBEFHAGDC</italic> operon promoter</title>
+        <p>Binding of the purified GST&#x2013;SigH protein to the promoter of the <italic>atpBEFHAGDC</italic> operon was tested by the electrophoretic mobility shift assay (EMSA). For this purpose, the <italic>f0f1</italic> operon promoter was cloned as a 357&#x2009;bp DNA fragment using a high fidelity DNA polymerase (<italic>Platinum&#xAE; Pfx</italic>, Invitrogen) and oligonucleotides PxB-U and PxB-D2 as primers (Table&#x2009;<xref ref-type="table" rid="tbl1">1</xref>). The amplified DNA fragment was purified by filtration through <italic>GFX PCR DNA and gel band purification kit</italic> (GE Healthcare) and cloned in pGEM&#xAE;-T Easy (this construction was named pGEM-P<italic>f0f1</italic>).</p>
+        <table-wrap id="tbl1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Strains, plasmids and oligonucleotides used in this work</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Bacterial strains/plasmids/oligonucleotides</th>
+                <th align="left" rowspan="1" colspan="1">Relevant characteristics</th>
+                <th align="left" rowspan="1" colspan="1">Source/reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">Bacterial strain</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"><italic>E.&#x2009;coli</italic> DH5&#x3B1;</td>
+                <td align="left" rowspan="1" colspan="1">&#x3C6;80d<italic>lac</italic>Z&#x394;M15, <italic>recA</italic>1, <italic>endA</italic>1, <italic>gyr</italic>AB, <italic>thi</italic>-1, <italic>hsdR</italic>17(r<sub>K</sub>&#x2212;, m<sub>K</sub>+), <italic>supE</italic>44, <italic>relA</italic>1, <italic>deo</italic>R, &#x394;<italic>(lacZYA</italic>-<italic>arg</italic>F) U169, <italic>pho</italic>A</td>
+                <td align="left" rowspan="1" colspan="1">Hanahan (<xref rid="b24" ref-type="bibr">1983</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"><italic>&#x2003;C.&#x2009;glutamicum</italic> ATCC 13032</td>
+                <td align="left" rowspan="1" colspan="1">Wild type</td>
+                <td align="left" rowspan="1" colspan="1">American Type Culture Collection</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="2" colspan="1"><italic>&#x2003;C.&#x2009;glutamicum</italic> &#x394;<italic>sigH</italic></td>
+                <td align="left" rowspan="2" colspan="1">In frame deletion of the <italic>sigH</italic> gene</td>
+                <td align="left" rowspan="1" colspan="1">Abe <italic>et&#x2009;al</italic>. (<xref rid="b1" ref-type="bibr">1967</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Engels <italic>et&#x2009;al</italic>. (<xref rid="b18" ref-type="bibr">2004</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">Plasmid</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM&#xAE;-T Easy Vector</td>
+                <td align="left" rowspan="1" colspan="1">Amp<sup>R</sup>, cloning vector</td>
+                <td align="left" rowspan="1" colspan="1">Promega Corporation, Madison, USA.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-TB</td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;750&#x2009;bp internal fragment of <italic>atpB</italic></td>
+                <td align="left" rowspan="1" colspan="1">Barriuso-Iglesias <italic>et&#x2009;al</italic>. (<xref rid="b5" ref-type="bibr">2006</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-TB1</td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;275&#x2009;bp internal fragment of <italic>atpB</italic></td>
+                <td align="left" rowspan="1" colspan="1">Barriuso-Iglesias <italic>et&#x2009;al</italic>. (<xref rid="b5" ref-type="bibr">2006</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-TB2</td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;350&#x2009;bp internal fragment of <italic>atpB</italic></td>
+                <td align="left" rowspan="1" colspan="1">Barriuso-Iglesias <italic>et&#x2009;al</italic>. (<xref rid="b5" ref-type="bibr">2006</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-TD</td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;850&#x2009;bp internal fragment of <italic>atpD</italic></td>
+                <td align="left" rowspan="1" colspan="1">Barriuso-Iglesias <italic>et&#x2009;al</italic>. (<xref rid="b5" ref-type="bibr">2006</xref>)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-TH</td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;615&#x2009;bp internal fragment of <italic>sigH</italic></td>
+                <td align="left" rowspan="1" colspan="1">This work</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-P<italic>f0f1</italic></td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;Promoter region of F<sub>0</sub>F<sub>1</sub> operon</td>
+                <td align="left" rowspan="1" colspan="1">This work</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEX-2T</td>
+                <td align="left" rowspan="1" colspan="1">Vector system for protein expression</td>
+                <td align="left" rowspan="1" colspan="1">GE Healthcare</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEM-TSigH</td>
+                <td align="left" rowspan="1" colspan="1">pGEM&#xAE;-T Easy&#x2009;+&#x2009;<italic>C.</italic>&#x2009;<italic>glutamicum sigH</italic> gene</td>
+                <td align="left" rowspan="1" colspan="1">This work</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;pGEX&#x2013;SigH</td>
+                <td align="left" rowspan="1" colspan="1">pGEX-2T&#x2009;+&#x2009;<italic>C.</italic>&#x2009;<italic>glutamicum sigH</italic> gene</td>
+                <td align="left" rowspan="1" colspan="1">This work</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="3" rowspan="1">Oligonucleotides used as primers</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;SIGH-U:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GAAAACCGAACCGGCACA-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;SIGH-D:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-CTCCGAATTTTTCTTCATGT-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Forward:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GTAAACGACGGCCAGT-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;Reverse:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GGAAACAGCTATGACCATG-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;16S-3:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GGCCCCCGTCAATTCCTTT-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;16S-5:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GGCGGCGTGCTTAACACAT-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;EXH-U:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-AAAGGATCCCACATGGCTGA-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;EXH-D:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GTTGAGAATTCGTCATCGTT-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;5&#x2032;-pGEX:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-GGGCTGGCAAGCCACGTTTGGTG-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;3&#x2032;-pGEX:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-CCGGGAGCTGCATGTGTCAGAGG-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;PxB-U:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-AGTGGATCCGTGCTGGGAAA-3&#x2032;</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">&#x2003;PxB-D2:</td>
+                <td align="left" colspan="2" rowspan="1">5&#x2032;-CGGAGCTCCGTCGCACATC-3&#x2032;</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>Promoter DNA-binding assays were performed with the purified GST&#x2013;SigH protein in buffers A and B, differing essentially in the magnesium salt utilized and in the presence of polyethylene glycol (PEG) in buffer B.</p>
+        <p>Results of the binding experiments are shown in Fig.&#x2009;<xref ref-type="fig" rid="fig04">4</xref>. It is observed that there is a good binding of the GST&#x2013;SigH protein, but not of the separate GST protein used as control, to the labelled <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase promoter, in buffer A; however, binding was barely visible in buffer B (not shown), indicating that some of the components of this buffer (most likely PEG) are unfavourable for the protein-DNA interaction. The intensity of the retarded band was proportional to the amount of GST&#x2013;SigH protein used (25&#x2013;100&#x2009;pmol) and the labelled band was not formed when the reaction was supplemented with additional unlabelled probe. These results show that SigH binds to the promoter of the <italic>atpBEFHAGDC</italic> operon and, therefore, participates in the pH control of this operon in <italic>C.&#x2009;glutamicum</italic>. The used DNA fragment contains the consensus sequence GGAT&#x2026;18nt&#x2026;GTTA in the &#x2212;35 to &#x2212;10 region of the promoter.</p>
+        <fig id="fig04" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Electrophoretic mobility-shift assays of the <italic>f0f1</italic> promoter region using increasing concentrations (25, 50 and 100&#x2009;pmol) of the GST&#x2013;SigH protein. The assays were performed in buffer A as indicated in <italic>Experimental procedures</italic>. Lane G, control with pure GST protein (150&#x2009;pmol). Lane P, probe without protein. Lane D, reaction diluted with excess (500-fold) unlabelled probe. Note the formation of one DNA&#x2013;protein complex (arrow) at increasing protein concentration.</p>
+          </caption>
+          <graphic xlink:href="mbt20006-0178-f4"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>Sigma factors are very important auxiliary components of the RNA polymerase since they determine the choice of promoters and, therefore, the genes to be expressed under specific physiological conditions. A survey of the sigma promoters in 19 corynebacterial species has been made (P&#xE1;tek and Ne&#x161;vera, <xref rid="b1004" ref-type="bibr">2011</xref>). The &#x3C3;<sup>A</sup> housekeeping genes sigma factor, which belongs to the &#x3C3;<sup>70</sup> class, is similar to the &#x3C3;<sup>A</sup> of <italic>E.&#x2009;coli</italic> and <italic>Mycobacterium tuberculosis</italic> (Oguiza <italic>et&#x2009;al</italic>., <xref rid="b40" ref-type="bibr">1996</xref>). The alternative sigma factors &#x3C3;<sup>B</sup>, &#x3C3;<sup>E</sup>, &#x3C3;<sup>H</sup> and &#x3C3;<sup>M</sup> are present in different corynebacteria and appear to be involved in expression of genes for several important processes. Thus, &#x3C3;<sup>B</sup> is involved in the response to several stress conditions and in the expression of genes required for the transition of the exponential growth phase to the stationary phase (Halgasova <italic>et&#x2009;al</italic>., <xref rid="b23" ref-type="bibr">2002</xref>; Larisch <italic>et&#x2009;al</italic>., <xref rid="b1002" ref-type="bibr">2007</xref>; Ehira <italic>et&#x2009;al</italic>., <xref rid="b1001" ref-type="bibr">2008</xref>). The &#x3C3;<sup>E</sup> factor (for the so-called extracytoplasmic factors) has a role on the expression of genes in response to the cell-wall damage (P&#xE1;tek <italic>et&#x2009;al</italic>., <xref rid="b1005" ref-type="bibr">2003</xref>). The &#x3C3;<sup>H</sup> is involved in the response to heat stress (Barreiro <italic>et&#x2009;al</italic>., <xref rid="b4" ref-type="bibr">2009</xref>; Ehira <italic>et&#x2009;al</italic>., <xref rid="b16" ref-type="bibr">2009</xref>; Busche <italic>et&#x2009;al</italic>., <xref rid="b11" ref-type="bibr">2012</xref>). &#x3C3;<sup>M</sup> controls the expression of a few genes involved in the control of disulfide stress (Nakunst <italic>et&#x2009;al</italic>., <xref rid="b1003" ref-type="bibr">2007</xref>).</p>
+      <p>It is noteworthy that <italic>sigH</italic> is involved in the control of the expression of the genes encoding two other sigma factors, namely &#x3C3;<sup>M</sup> (Nakunst <italic>et&#x2009;al</italic>., <xref rid="b1003" ref-type="bibr">2007</xref>) and &#x3C3;<sup>B</sup> (Ehira <italic>et&#x2009;al</italic>., <xref rid="b1001" ref-type="bibr">2008</xref>), in addition to be required for the expression of its own gen (Kim <italic>et&#x2009;al</italic>., <xref rid="b29" ref-type="bibr">2005a</xref>).</p>
+      <p>One of the best known SigH-dependent systems is that of <italic>B.&#x2009;subtilis</italic> that may serve as a model for other Gram-positive bacteria. In <italic>B.&#x2009;subtilis</italic>, SigH (encoded by the <italic>spo0H</italic> gene) is the first in a cascade of five sigma factors that lead to reprogramming the bacterial metabolism to form heat-resistant endospores (Carter and Moran, <xref rid="b12" ref-type="bibr">1986</xref>; Dubnau <italic>et&#x2009;al</italic>., <xref rid="b15" ref-type="bibr">1988</xref>). After entering the stationary phase, following derepression of <italic>spo0H</italic> (encoding the SigH factor) several proteins involved in sporulation and development of competence are formed (Grossman, <xref rid="b22" ref-type="bibr">1995</xref>; Fujita and Sadaie, <xref rid="b20" ref-type="bibr">1998</xref>).</p>
+      <p>It is interesting that in <italic>B.&#x2009;subtilis</italic> cultures grown at low pH values, the genes regulated by Spo0H (including the own <italic>spo0H</italic>) are expressed only at basal levels, whereas increased levels of Spo0H (SigH) are formed following addition of compounds that maintain higher pH values (Cosby and Zuber, <xref rid="b14" ref-type="bibr">1997</xref>). The increased levels of Spo0H lead to high expression of <italic>spo0A</italic>, a key regulator of the late differentiation steps. Spo0A in its phosphorylated form represses formation of AhrB, which controls negatively the transcription of <italic>spo0H</italic>, thus feedback regulating the levels of Spo0H. This circuit is extremely important in the control of sporulation and its relation with pH changes.</p>
+      <p>The role of <italic>sigH</italic> has been also studied in some detail in <italic>Mycobacterium tuberculosis</italic>, where it is induced by heat-shock or by treatment with diamines (Graham and Clark-Curtiss, <xref rid="b21" ref-type="bibr">1999</xref>; Raman <italic>et&#x2009;al</italic>., <xref rid="b41" ref-type="bibr">2001</xref>). Under reducing conditions in the cell, the expression of <italic>sigH</italic> is regulated negatively by an anti-sigma factor protein named RshA (Song <italic>et&#x2009;al</italic>., <xref rid="b46" ref-type="bibr">2003</xref>) by protein&#x2013;protein interaction. Using a <italic>M.&#x2009;tuberculosis sigH</italic> null mutant (Manganelli <italic>et&#x2009;al</italic>., <xref rid="b36" ref-type="bibr">2002</xref>) it was observed that several other transcriptional factors are under control of SigH including SigB and SigH itself, in addition to enzymes involved in redox metabolism (thioredoxin and thioredoxin&#x2013;oxidoreductase) and enzymes of cysteine and molybdopterin biosynthesis and the chaperones Hsp70 and ClpB.</p>
+      <p>In <italic>S.&#x2009;coelicolor</italic>, the <italic>sigH</italic> gene is linked to the <italic>ushX</italic> gene encoding an anti-sigma factor. Both genes are co-transcribed. As in <italic>M.&#x2009;tuberculosis</italic>, the SigH&#x2013;UshX complex, in response to external stress signals, dissociates releasing the sigma factor that binds to the RNA polymerase and recognizes the sigH-dependent promoters (Kormanec <italic>et&#x2009;al</italic>., <xref rid="b31" ref-type="bibr">2000</xref>; Sevcikova and Kormanec, <xref rid="b44" ref-type="bibr">2002</xref>; Kormanec and Sevcikova, <xref rid="b32" ref-type="bibr">2002a</xref>,<xref rid="b33" ref-type="bibr">b</xref>).</p>
+      <p>Much less is known about the role of SigH in corynebacteria. Five of the seven putative sigma factors in the genome of <italic>C.&#x2009;glutamicum</italic>, SigC, SigD, SigE, SigH and SigM belong to the ECF subclass (Engels <italic>et&#x2009;al</italic>., <xref rid="b18" ref-type="bibr">2004</xref>). <italic>sigH</italic> of <italic>C.&#x2009;glutamicum</italic> encodes a small protein of 206 amino acids that is closely linked to a downstream ORF (<italic>cg0877</italic>) separated by only 3&#x2009;bp that encodes a putative anti-sigma factor (named RsrA) that may play a role similar to UshX in <italic>S.&#x2009;coelicolor</italic>. Interestingly, downstream of <italic>sigH</italic>-<italic>rsrA</italic> in opposite orientation and separated by a putative strong transcriptional terminator (Fig.&#x2009;<xref ref-type="fig" rid="fig02">2</xref>A and B) is located the <italic>whiB1</italic> gene, also named <italic>whcE</italic>, that encodes another putative transcriptional factor (Kim <italic>et&#x2009;al</italic>., <xref rid="b30" ref-type="bibr">2005b</xref>).</p>
+      <p>As described in this work, purified SigH protein binds to the promoter of the <italic>atpBEFHAGDC</italic> operon. Expression of the <italic>sigH</italic> gene responds to the pH of the culture, being clearly higher at pH&#x2009;9.0 than at neutral or slightly acid pH values. In this way, SigH mediates pH control of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon in <italic>C.&#x2009;glutamicum</italic>, which was previously reported to be optimal at about pH&#x2009;9.0 (Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>). A <italic>sigH</italic> null mutant shows optimal expression of the <italic>atp</italic> operon at neutral pH in contrast to the wild-type strain. SigH has been reported to modulate its own expression in <italic>C.&#x2009;glutamicum</italic> that is optimal in the stationary phase of growth (Kim <italic>et&#x2009;al</italic>., <xref rid="b29" ref-type="bibr">2005a</xref>).</p>
+      <p>SigH may participate in the control of cellular processes through other sigma factors. Halgasova and colleagues (<xref rid="b23" ref-type="bibr">2002</xref>) reported that in <italic>C.&#x2009;glutamicum</italic> subsp. <italic>flavum</italic>, SigH regulates the expression of <italic>sigB</italic> under situations of heat-, cold- or acid-stress. This observation correlates well with our own observation of SigH response to acid or basic pH values.</p>
+      <p>In addition to the control of the <italic>F</italic><sub>0</sub>F<sub>1</sub>-ATPase operon, SigH has been reported to play an important role in the control of several types of stress in <italic>C.&#x2009;glutamicum</italic>. We observed that SigH regulates in a positive manner the expression of the <italic>dnaK</italic> operon that encodes a chaperone involved in heat-shock (Barreiro <italic>et&#x2009;al</italic>., <xref rid="b3" ref-type="bibr">2004</xref>) and the expression of the heat-shock regulators HspR and ClgR under conditions of severe heat-stress (Barreiro <italic>et&#x2009;al</italic>., <xref rid="b4" ref-type="bibr">2004; 2009</xref>; Engels <italic>et&#x2009;al</italic>., <xref rid="b18" ref-type="bibr">2004</xref>; Ehira <italic>et&#x2009;al</italic>., <xref rid="b16" ref-type="bibr">2009</xref>). SigH also regulates the expression of <italic>whcE</italic>, the regulator of the thioredoxin system (Kim <italic>et&#x2009;al</italic>., <xref rid="b30" ref-type="bibr">2005b</xref>) and the <italic>clpC</italic> and <italic>clpP1P2</italic> that encode heat-shock proteases (Engels <italic>et&#x2009;al</italic>., <xref rid="b18" ref-type="bibr">2004</xref>).</p>
+      <p>In summary, SigH exerts the upper level of control of genes involved in the stress response to unfavourable nutritional or environmental conditions. Up to 47 regulatory interactions have been described to be mediated by SigH (Baumbach <italic>et&#x2009;al</italic>., <xref rid="b8" ref-type="bibr">2006; 2007</xref>). A summary of those interactions is shown in Fig.&#x2009;<xref ref-type="fig" rid="fig05">5</xref> taking into account the results presented in this article, and those reported by other authors (Halgasova <italic>et&#x2009;al</italic>., <xref rid="b23" ref-type="bibr">2002</xref>; Barreiro <italic>et&#x2009;al</italic>., <xref rid="b3" ref-type="bibr">2004</xref>; Engels <italic>et&#x2009;al</italic>., <xref rid="b18" ref-type="bibr">2004</xref>; Kim <italic>et&#x2009;al</italic>., <xref rid="b29" ref-type="bibr">2005a</xref>,<xref rid="b30" ref-type="bibr">b</xref>; Barriuso-Iglesias <italic>et&#x2009;al</italic>., <xref rid="b5" ref-type="bibr">2006</xref>).</p>
+      <fig id="fig05" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Proposed SigmaH factor (&#x3C3;<sup>H</sup>) regulatory network in <italic>C.&#x2009;glutamicum</italic>&#x2005;ATCC 13032. Solid line arrows indicate induction whereas blunt-ended solid lines indicate repression. Dotted lines represent regulations known to occur in other Gram-positive bacteria. Dashed lines with arrowheads indicate translation (formation) of certain proteins. ASF, anti-sigma factor; P, promoter.</p>
+        </caption>
+        <graphic xlink:href="mbt20006-0178-f5"/>
+      </fig>
+    </sec>
+    <sec sec-type="methods">
+      <title>Experimental procedures</title>
+      <sec>
+        <title>Bacterial strains, plasmids, and culture conditions</title>
+        <p>The bacterial strains, plasmids and oligonucleotides used in this work are listed in Table&#x2009;<xref ref-type="table" rid="tbl1">1</xref>. <italic>Corynebacterium glutamicum</italic> &#x394;<italic>sigH</italic> was kindly provided by Jens Schweitzer and Michael Bott (J&#xFC;lich, Germany). <italic>Escherichia coli</italic> was grown in Luria&#x2013;Bertani (LB) broth (Sambrook and Russell, <xref rid="b42" ref-type="bibr">2001</xref>) at 37&#xB0;C. <italic>Corynebacterium glutamicum</italic> strains were grown in trypticase soy broth (TSB) at 30&#xB0;C and at different pH conditions, in flasks. <italic>Escherichia coli</italic> transformants were selected in presence of ampicillin (100&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup>), kanamycin (50&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup>) or chloramphenicol (25&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup>). <italic>Corynebacterium glutamicum</italic> transformants were selected on media with kanamycin (30&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup>) or chloramphenicol (12&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup>).</p>
+      </sec>
+      <sec>
+        <title>DNA isolation and manipulation</title>
+        <p><italic>Escherichia coli</italic> plasmid DNA was obtained by alkaline lysis. Total <italic>C.&#x2009;glutamicum</italic> DNA was prepared as described by Mart&#xED;n and Gil (<xref rid="b37" ref-type="bibr">1999</xref>). DNA manipulations were performed as reported by Sambrook and Russell (<xref rid="b42" ref-type="bibr">2001</xref>). DNA fragments were isolated from agarose gels using the <italic>GFX PCR DNA and Gel Band Purification Kit</italic> (GE Healthcare). <italic>Escherichia coli</italic> cells were transformed by standard methods (Sambrook and Russell, <xref rid="b42" ref-type="bibr">2001</xref>), whereas <italic>C.&#x2009;glutamicum</italic> cells were transformed by electroporation (van der Rest <italic>et&#x2009;al</italic>., <xref rid="b48" ref-type="bibr">1999</xref>).</p>
+      </sec>
+      <sec>
+        <title>RNA extraction</title>
+        <p>Total RNA from corynebacteria grown at different pHs (OD<sub>600</sub> 3.5&#x2013;4.0) was extracted essentially as described by Eikmanns and colleagues (<xref rid="b17" ref-type="bibr">1994</xref>), except that the cell pellet obtained after centrifugation was frozen with liquid nitrogen and kept at &#x2212;70&#xB0;C until RNA extraction (Barreiro <italic>et&#x2009;al</italic>., <xref rid="b2" ref-type="bibr">2001</xref>). The RNA concentration was determined spectrophotometrically by the absorbance at 260&#x2009;nm.</p>
+      </sec>
+      <sec>
+        <title>Northern hybridizations</title>
+        <p>Denaturing RNA electrophoresis was performed in 0.9% agarose gels in MOPS buffer (20&#x2009;mM MOPS, 5&#x2009;mM sodium acetate; 1&#x2009;mM EDTA pH&#x2009;7.0) with 17% (v/v) formaldehyde. RNA (30&#x2013;40&#x2009;&#x3BC;g) was dissolved in denaturing buffer {50% formamide, 20% formaldehyde, 20% MOPS (5&#xD7;) with 10% DYE [50% glycerol, 0.25% (w/v) bromophenol blue, 0.25% (w/v) xylene cyanol, 1&#x2009;mM EDTA] (Sambrook and Russell, <xref rid="b42" ref-type="bibr">2001</xref>) and 1% ethidium bromide}. RNA probes for <italic>atpI</italic>, <italic>atpB</italic>, <italic>atpD</italic> and <italic>sigH</italic> were labelled with digoxigenin and Northern hybridizations were performed following the instructions of the <italic>DIG Northern Starter Kit</italic> manufacturer (Roche Applied Science). The hybridization temperature was 68&#xB0;C.</p>
+      </sec>
+      <sec>
+        <title>Preparation of RNA probes</title>
+        <p>For transcriptional analysis of the <italic>sigH</italic> gene a RNA probe was prepared as follows: a 615&#x2009;bp fragment internal to <italic>sigH</italic> was cloned by PCR in pGEM&#xAE;-T Easy. The <italic>sigH</italic> fragment was excised with the <italic>ApaI</italic> endonuclease and placed under control of the SP6 RNA polymerase promoter in vector pGEM&#xAE;-T Easy.</p>
+      </sec>
+      <sec>
+        <title>Protein expression and purification</title>
+        <p>To study the possible binding of the SigH protein to the promoter region of the <italic>atpBEFHAGDC</italic> operon, it was necessary to obtain an active sigmaH protein. The <italic>sigH</italic> gene was overexpressed in <italic>E.&#x2009;coli</italic> using the pGEX-2T expression system (GE Healthcare). <italic>sigH</italic> was amplified as a 660&#x2009;bp PCR fragment from total DNA of <italic>C.&#x2009;glutamicum</italic> with <italic>Platinum</italic>&#xAE; <italic>pfx</italic> DNA polymerase, using the ExH-U/ExH-D primers (Table&#x2009;<xref ref-type="table" rid="tbl1">1</xref>), and cloned into pGEM&#xAE;-T Easy vector (Promega). The insert was excised by digestion with <italic>Bam</italic>HI and <italic>Eco</italic>RI (the restriction sites were in the upstream and downstream primers respectively) and was cloned into pGEX-2T expression plasmid (GE Healthcare). The new pGEX&#x2013;SigH plasmid was introduced in <italic>E.&#x2009;coli</italic> DH5&#x3B1;. The correct integration of the insert was established by sequencing. To obtain the fusion protein, <italic>E.&#x2009;coli</italic> cells were grown in LB medium in an orbital shaker (250&#x2009;r.p.m.) to an OD<sub>600</sub> of 0.6 and under the four following conditions: (i) culture growth at 37&#xB0;C before and after IPTG induction, (ii) growth at 25&#xB0;C prior to induction and at 37&#xB0;C following IPTG addition, (iii) growth at 25&#xB0;C prior to induction and at 30&#xB0;C following IPTG addition and (iv) growth at 25&#xB0;C before and after IPTG addition. These four conditions were combined with increasing IPTG concentrations from 0.1 to 0.3&#x2009;mM.</p>
+        <p>Cells were harvested by centrifugation, washed twice with NaCl 0.9% and lysed by sonication. The soluble fraction was separated by centrifugation and the protein was purified in an &#xC4;KTA-FPLC using a Glutathione Sepharose 4B column (GE Healthcare). The protein was eluted with 10&#x2009;mM reduced glutathione (in 50&#x2009;mM Tris-HCl, pH&#x2009;8.0) following the manufacturer's recommendations and conserved in 40% glycerol at &#x2212;80&#xB0;C before use. Protein concentrations were determined with the Bradford reagent (Bio-Rad).</p>
+      </sec>
+      <sec>
+        <title>Peptide mass fingerprint</title>
+        <p>The protein band of interest were manually excised from stained gels, placed in an Eppendorf tube and washed twice with double distilled water. The proteins were digested following the method of Havlis and colleagues (<xref rid="b25" ref-type="bibr">2003</xref>) and processed for further analysis as described previously (Jami <italic>et&#x2009;al</italic>., <xref rid="b27" ref-type="bibr">2010</xref>). The samples were analysed with a 4800 Proteomics Analyzer matrix-assisted laser desorption ionization time-of-flight (MALDI-TOF/TOF) mass spectrometer (AB Sciex). All MS spectra were internally calibrated using peptides from the trypsin auto digestion. The analysis by MALDI-TOF/TOF mass spectrometry produced peptide mass fingerprints, and the peptides observed were collected and represented as a list of monoisotopic molecular weights with a signal-to-noise (S/N) ratio greater than 20 using the 4000 Series Explorer v3.5.3 software (AB Sciex). For protein identification, Mascot generic files were automatically created and used to interrogate a non-redundant protein database (NCBInr) using a local license of Mascot v 2.2.04 from Matrix Science through the Global Protein Server v 3.6 (AB Sciex).</p>
+      </sec>
+      <sec>
+        <title>Electrophoretic mobility shift assays (EMSA)</title>
+        <p>DNA-binding tests were performed by EMSA. The DNA fragments were labelled at both ends with digoxigenin using the <italic>DIG Oligonucleotide 3&#x2032;-End Labelling Kit</italic>, 2nd Generation (Roche Applied Science). The binding reaction was performed in two reaction buffers: buffer A) 10&#x2009;mM Tris-HCl pH&#x2009;8.0, 0.4&#x2009;mM MgCl<sub>2</sub>, 10&#x2009;mM KCl, 0.2&#x2009;mM DTT, 1.6&#x2009;mM glutathione and 0.01% Nonidet P40 (Sola-Landa <italic>et&#x2009;al</italic>., <xref rid="b45" ref-type="bibr">2002</xref>); buffer B) 25&#x2009;mM Tris-acetate pH&#x2009;8.0; 8&#x2009;mM Mg-acetate; 10&#x2009;mM KCl; 1&#x2009;mM DTT and 3.5% w/v PEG 6000 (Wigneshweraraj <italic>et&#x2009;al</italic>., <xref rid="b49" ref-type="bibr">2002</xref>). The binding reaction also contained 50&#x2009;&#x3BC;g&#x2009;ml<sup>&#x2212;1</sup> poly[d(I-C)]. The samples were loaded onto a 5% polyacrylamide (29:1) native gel in 0.5&#xD7; TBE buffer. After electrophoresis (5&#x2009;h, 80&#x2009;V), DNA was electroblotted onto a nylon membrane in 0.5&#xD7; TBE buffer (1&#x2009;h, 200&#x2009;mA). The DNA was fixed by UV cross-linking, detected with anti-digoxigenin antibodies and developed by chemiluminiscence with the CDP-Star TM reagent (Roche Applied Science).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This work was supported by a grant of the European Union (QLRT-2000-00497) and the ERA-IB project (ERA-IB-VIIPM: EUI2008-03656). M. Barriuso-Iglesias received a fellowship of the Ministry of Education and Culture, Madrid, Spain. C. Barreiro was supported by the European Union programme ERA-IB [BioProChemBB project (EIB.08.008)]. We thank B. Mart&#xED;n, J. Merino, A. Casenave, and A. Mulero for excellent technical assistance. We are grateful to Jens Schweitzer and Michael Bott (J&#xFC;lich, Germany) for generously providing us the <italic>C.&#x2009;glutamicum</italic> &#x394;<italic>sigH</italic> strain.</p>
+    </ack>
+    <sec>
+      <title>Funding Information</title>
+      <p>This work was supported by a grant of the European Union (QLRT-2000-00497) and the ERA-IB project (ERAIB-VIIPM: EUI2008-03656). M. Barriuso-Iglesias received a fellowship of the Ministry of Education and Culture, Madrid, Spain. C. Barreiro was supported by the European Union programme ERA-IB [BioProChemBB project (EIB.08.008)].</p>
+    </sec>
+    <sec>
+      <title>Conflict of interest</title>
+      <p>None declared.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Takayama</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Taxonomical studies on glutamic acid producing bacteria</article-title>
+          <source>J Gen Appl Microbiol</source>
+          <year>1967</year>
+          <volume>13</volume>
+          <fpage>279</fpage>
+          <lpage>301</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b2">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Gonz&#xE1;lez-Lavado</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Organization and transcriptional analysis of a six-gene cluster around the <italic>rlpK-rplA</italic> operon of <italic>Corynebacterium glutamicum</italic> encoding the ribosomal proteins L11 and L1</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2001</year>
+          <volume>67</volume>
+          <fpage>2183</fpage>
+          <lpage>2190</lpage>
+          <pub-id pub-id-type="pmid">11319098</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Gonz&#xE1;lez-Lavado</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>P&#xE1;tek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional analysis of the <italic>groES-groEL1</italic><italic>groEL2</italic>, and <italic>dnaK</italic> genes in <italic>Corynebacterium glutamicum</italic>: characterization of heat shock-induced promoters</article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>4813</fpage>
+          <lpage>4817</lpage>
+          <pub-id pub-id-type="pmid">15231814</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Nakunst</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>H&#xFC;ser</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Paz de</surname>
+              <given-names>HD</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Microarray studies reveal a &#x2018;differential response&#x2019; to moderate or severe heat shock of the HrcA- and HspR-dependent systems in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Microbiology</source>
+          <year>2009</year>
+          <volume>155</volume>
+          <fpage>359</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="pmid">19202085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barriuso-Iglesias</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Flechoso</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional analysis of the <italic>F</italic><sub>0</sub>F<sub>1</sub> ATPase operon of <italic>Corynebacterium glutamicum</italic> ATCC 13032 reveals strong induction by alkaline pH</article-title>
+          <source>Microbiology</source>
+          <year>2006</year>
+          <volume>152</volume>
+          <fpage>11</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="pmid">16385111</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barriuso-Iglesias</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schluesener</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Poetsch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Response of the cytoplasmic and membrane proteome of <italic>Corynebacterium glutamicum</italic> ATCC 13032 to pH changes</article-title>
+          <source>BMC Microbiol</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>225</fpage>
+          <pub-id pub-id-type="pmid">19091079</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baumbach</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Brinkrolf</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Czaja</surname>
+              <given-names>LF</given-names>
+            </name>
+            <name>
+              <surname>Rahmann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>CoryneRegNet: an ontology-based data warehouse of corynebacterial transcription factors and regulatory networks</article-title>
+          <source>BMC Genomics</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>24</fpage>
+          <pub-id pub-id-type="pmid">16478536</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baumbach</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wittkop</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rademacher</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Rahmann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brinkrolf</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>CoryneRegNet 3.0 &#x2013; an interactive systems biology platform for the analysis of gene regulatory networks in corynebacteria and <italic>Escherichia coli</italic></article-title>
+          <source>J Biotechnol</source>
+          <year>2007</year>
+          <volume>129</volume>
+          <fpage>279</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="pmid">17229482</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bentley</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Chater</surname>
+              <given-names>KF</given-names>
+            </name>
+            <name>
+              <surname>Cerde&#xF1;o-T&#xE1;rraga</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Challis</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Thomson</surname>
+              <given-names>NR</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>KD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Complete genome sequence of the model actinomycete <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>417</volume>
+          <fpage>141</fpage>
+          <lpage>147</lpage>
+          <comment>and other authors</comment>
+          <pub-id pub-id-type="pmid">12000953</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brinkrolf</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Brune</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The transcriptional regulatory network of the amino acid producer <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Biotechnol</source>
+          <year>2007</year>
+          <volume>129</volume>
+          <fpage>191</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="pmid">17227685</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Busche</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Silar</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Picmanova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Patek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional regulation of the operon encoding stress-responsive ECF sigma factor SigH and its anti-sigma factor RshA, and control of its regulatory network in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>BMC Genomics</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>445</fpage>
+          <pub-id pub-id-type="pmid">22943411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carter</surname>
+              <given-names>HL</given-names>
+              <suffix>3rd</suffix>
+            </name>
+            <name>
+              <surname>Moran</surname>
+              <given-names>CP</given-names>
+              <suffix>Jr</suffix>
+            </name>
+          </person-group>
+          <article-title>New RNA polymerase sigma factor under <italic>spo0</italic> control in <italic>Bacillus subtilis</italic></article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1986</year>
+          <volume>83</volume>
+          <fpage>9438</fpage>
+          <lpage>9442</lpage>
+          <pub-id pub-id-type="pmid">3099284</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Correia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Castro</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Pulsed-field gel electrophoresis analysis of the genome of amino acid-producing corynebacteria: chromosome sizes and diversity of restriction patterns</article-title>
+          <source>Microbiology</source>
+          <year>1994</year>
+          <volume>140</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b14">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cosby</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Zuber</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of <italic>Bacillus subtilis</italic> sigmaH (<italic>spo0H</italic>) and AbrB in response to changes in external pH</article-title>
+          <source>J Bacteriol</source>
+          <year>1997</year>
+          <volume>179</volume>
+          <fpage>6778</fpage>
+          <lpage>6787</lpage>
+          <pub-id pub-id-type="pmid">9352930</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dubnau</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Weir</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Nair</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>HL</given-names>
+              <suffix>3rd</suffix>
+            </name>
+            <name>
+              <surname>Moran</surname>
+              <given-names>C</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Bacillus</italic> sporulation gene <italic>spo0H</italic> codes for sigma 30 (sigma H)</article-title>
+          <source>J Bacteriol</source>
+          <year>1988</year>
+          <volume>170</volume>
+          <fpage>1054</fpage>
+          <lpage>1062</lpage>
+          <pub-id pub-id-type="pmid">3277943</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b1001">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ehira</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Shirai</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Teramoto</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Inui</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Yukawa</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Group 2 sigma factor SigB of <italic>Corynebacterium glutamicum</italic> positively regulates glucose metabolism under conditions of oxygen deprivation</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2008</year>
+          <volume>74</volume>
+          <fpage>5146</fpage>
+          <lpage>5152</lpage>
+          <pub-id pub-id-type="pmid">18567683</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ehira</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Teramoto</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Inui</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Yukawa</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of <italic>Corynebacterium glutamicum</italic> heat shock response by the extracytoplasmic-function sigma factor SigH and transcriptional regulators HspR and HrcA</article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>2964</fpage>
+          <lpage>2972</lpage>
+          <pub-id pub-id-type="pmid">19270092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eikmanns</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Thum-Schmitz</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Eggeling</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ludtke</surname>
+              <given-names>KU</given-names>
+            </name>
+            <name>
+              <surname>Sahm</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Nucleotide sequence, expression and transcriptional analysis of the <italic>Corynebacterium glutamicum gltA</italic> gene encoding citrate synthase</article-title>
+          <source>Microbiology</source>
+          <year>1994</year>
+          <volume>140</volume>
+          <fpage>1817</fpage>
+          <lpage>1828</lpage>
+          <pub-id pub-id-type="pmid">7522844</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engels</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schweitzer</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Ludwig</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bott</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>clpC</italic> and <italic>clpP1P2</italic> gene expression in <italic>Corynebacterium glutamicum</italic> is controlled by a regulatory network involving the transcriptional regulators ClgR and HspR as well as the ECF sigma factor sigmaH</article-title>
+          <source>Mol Microbiol</source>
+          <year>2004</year>
+          <volume>52</volume>
+          <fpage>285</fpage>
+          <lpage>302</lpage>
+          <pub-id pub-id-type="pmid">15049827</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fraser</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Gocayne</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Clayton</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Fleischmann</surname>
+              <given-names>RD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The minimal gene complement of <italic>Mycoplasma genitalium</italic></article-title>
+          <source>Science</source>
+          <year>1995</year>
+          <volume>270</volume>
+          <fpage>397</fpage>
+          <lpage>403</lpage>
+          <comment>and other authors</comment>
+          <pub-id pub-id-type="pmid">7569993</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujita</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sadaie</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Promoter selectivity of the <italic>Bacillus subtilis</italic> RNA polymerase sigmaA and sigmaH holoenzymes</article-title>
+          <source>J Biochem (Tokyo)</source>
+          <year>1998</year>
+          <volume>124</volume>
+          <fpage>89</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="pmid">9644250</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graham</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Clark-Curtiss</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of <italic>Mycobacterium tuberculosis</italic> RNAs synthesized in response to phagocytosis by human macrophages by selective capture of transcribed sequences (SCOTS)</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>11554</fpage>
+          <lpage>11559</lpage>
+          <pub-id pub-id-type="pmid">10500215</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grossman</surname>
+              <given-names>AD</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic networks controlling the initiation of sporulation and the development of genetic competence in <italic>Bacillus subtilis</italic></article-title>
+          <source>Annu Rev Genet</source>
+          <year>1995</year>
+          <volume>29</volume>
+          <fpage>477</fpage>
+          <lpage>508</lpage>
+          <pub-id pub-id-type="pmid">8825484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halgasova</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Bukovska</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Ugorcakova</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Timko</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kormanec</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>Brevibacterium flavum</italic> sigma factor SigB has a role in the environmental stress response</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2002</year>
+          <volume>216</volume>
+          <fpage>77</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="pmid">12423756</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanahan</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies on transformation of <italic>Escherichia coli</italic> with plasmids</article-title>
+          <source>J Mol Biol</source>
+          <year>1983</year>
+          <volume>166</volume>
+          <fpage>557</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="pmid">6345791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Havlis</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sebela</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Shevchenko</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Fast-response proteomics by accelerated in-gel digestion of proteins</article-title>
+          <source>Anal Chem</source>
+          <year>2003</year>
+          <volume>75</volume>
+          <fpage>1300</fpage>
+          <lpage>1306</lpage>
+          <pub-id pub-id-type="pmid">12659189</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Himmelreich</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Hilbert</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Plagens</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Pirkl</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>Herrmann</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete sequence analysis of the genome of the bacterium <italic>Mycoplasma pneumoniae</italic></article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1996</year>
+          <volume>24</volume>
+          <fpage>4420</fpage>
+          <lpage>4449</lpage>
+          <pub-id pub-id-type="pmid">8948633</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jami</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a-Estrada</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Proteome analysis of the penicillin producer <italic>Penicillium chrysogenum</italic>: characterization of protein changes during the industrial strain improvement</article-title>
+          <source>Mol Cell Proteomics</source>
+          <year>2010</year>
+          <volume>9</volume>
+          <fpage>1182</fpage>
+          <lpage>1198</lpage>
+          <pub-id pub-id-type="pmid">20154335</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bathe</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bartels</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bischoff</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Bott</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Burkovski</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The complete <italic>Corynebacterium glutamicum</italic> ATCC 13032 genome sequence and its impact on the production of L-aspartate-derived amino acids and vitamins</article-title>
+          <source>J Biotechnol</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>5</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="pmid">12948626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>HS</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional analysis of <italic>sigH</italic> expression in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2005a</year>
+          <volume>331</volume>
+          <fpage>1542</fpage>
+          <lpage>1547</lpage>
+          <pub-id pub-id-type="pmid">15883048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>HS</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>whcE</italic> gene of <italic>Corynebacterium glutamicum</italic> is important for survival following heat and oxidative stress</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2005b</year>
+          <volume>337</volume>
+          <fpage>757</fpage>
+          <lpage>764</lpage>
+          <pub-id pub-id-type="pmid">16212936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kormanec</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sevcikova</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Stress-response sigma factor sigma(H) directs expression of the <italic>gltB</italic> gene encoding glutamate synthase in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2002a</year>
+          <volume>1577</volume>
+          <fpage>149</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="pmid">12151108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kormanec</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sevcikova</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>The stress-response sigma factor sigma(H) controls the expression of <italic>ssgB</italic>, a homologue of the sporulation-specific cell division gene <italic>ssgA</italic>, in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Mol Genet Genomics</source>
+          <year>2002b</year>
+          <volume>267</volume>
+          <fpage>536</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="pmid">12111561</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kormanec</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sevcikova</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Halgasova</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Knirschova</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Rezuchova</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and transcriptional characterization of the gene encoding the stress-response sigma factor sigma(H) in S<italic>treptomyces coelicolor</italic> A3(2)</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2000</year>
+          <volume>189</volume>
+          <fpage>31</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="pmid">10913862</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b1002">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larisch</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Nakunst</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>H&#xFC;ser</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The alternative sigma factor SigB of <italic>Corynebacterium glutamicum</italic> modulates global gene expression during transition from exponential growth to stationary phase</article-title>
+          <source>BMC Genomics</source>
+          <year>2007</year>
+          <season>Jan 4</season>
+          <volume>8</volume>
+          <fpage>4</fpage>
+          <pub-id pub-id-type="pmid">17204139</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome sequence of <italic>Corynebacterium glutamicum</italic> S9114, a strain for industrial production of glutamate</article-title>
+          <source>J Bacteriol</source>
+          <year>2011</year>
+          <volume>193</volume>
+          <fpage>6096</fpage>
+          <lpage>6097</lpage>
+          <pub-id pub-id-type="pmid">21994927</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome sequence of <italic>Corynebacterium glutamicum</italic> ATCC 14067, which provides insight into amino acid biosynthesis in coryneform bacteria</article-title>
+          <source>J Bacteriol</source>
+          <year>2012</year>
+          <volume>194</volume>
+          <fpage>742</fpage>
+          <lpage>743</lpage>
+          <pub-id pub-id-type="pmid">22247536</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b36">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manganelli</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Voskuil</surname>
+              <given-names>MI</given-names>
+            </name>
+            <name>
+              <surname>Schoolnik</surname>
+              <given-names>GK</given-names>
+            </name>
+            <name>
+              <surname>Dubnau</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the extracytoplasmic-function sigma factor sigma(H) in <italic>Mycobacterium tuberculosis</italic> global gene expression</article-title>
+          <source>Mol Microbiol</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <fpage>365</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="pmid">12123450</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b37">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Gil</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Demain</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Atlas</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Hershberger</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>WS</given-names>
+            </name>
+          </person-group>
+          <article-title>Corynebacteria</article-title>
+          <source>Manual of Industrial Microbiology and Biotechnology</source>
+          <year>1999</year>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <publisher-name>American Society for Microbiology</publisher-name>
+          <fpage>379</fpage>
+          <lpage>391</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b38">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The complete genome sequencing of <italic>Corynebacterium glutamicum</italic> ATCC 13032</article-title>
+          <source>Proceedings of the 9th International Symposium on the Genetics of Industrial Microorganisms</source>
+          <year>2002</year>
+          <publisher-loc>Gyeongju, Korea</publisher-loc>
+          <publisher-name>Genetics of Industrial Microorganisms</publisher-name>
+          <fpage>21</fpage>
+          <comment>1&#x2013;5 July</comment>
+        </element-citation>
+      </ref>
+      <ref id="b1003">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakunst</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Larisch</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>H&#xFC;ser</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>P&#xFC;hler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The extracytoplasmic function-type sigma factor SigM of <italic>Corynebacterium glutamicum</italic> ATCC 13032 is involved in transcription of disulfide stress-related genes</article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>4696</fpage>
+          <lpage>4707</lpage>
+          <pub-id pub-id-type="pmid">17483229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b40">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oguiza</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Marcos</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Malumbres</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple sigma factor genes in <italic>Brevibacterium lactofermentum</italic>: characterization of <italic>sigA</italic> and <italic>sigB</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>550</fpage>
+          <lpage>553</lpage>
+          <pub-id pub-id-type="pmid">8550480</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b39">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oguiza</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Marcos</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional analysis of the <italic>sigA</italic> and <italic>sigB</italic> genes of <italic>Brevibacterium lactofermentum</italic></article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>1997</year>
+          <volume>153</volume>
+          <fpage>111</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="pmid">9252580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b1004">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>P&#xE1;tek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ne&#x161;vera</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Sigma factors and promoters in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Biotechnol</source>
+          <year>2011</year>
+          <volume>154</volume>
+          <fpage>101</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="pmid">21277915</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b1005">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>P&#xE1;tek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Nesvera</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Guyonvarch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Reyes</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Leblon</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Promoters of <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Biotechnol</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>311</fpage>
+          <lpage>323</lpage>
+          <pub-id pub-id-type="pmid">12948648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b41">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Puyang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Bardarov</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>WR</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Husson</surname>
+              <given-names>RN</given-names>
+            </name>
+          </person-group>
+          <article-title>The alternative sigma factor SigH regulates major components of oxidative and heat stress responses in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2001</year>
+          <volume>183</volume>
+          <fpage>6119</fpage>
+          <lpage>6125</lpage>
+          <pub-id pub-id-type="pmid">11567012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b48">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rest van der</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Lange</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Molenaar</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>A heat shock following electroporation induces highly efficient transformation of <italic>Corynebacterium glutamicum</italic> with xenogeneic plasmid DNA</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>1999</year>
+          <volume>52</volume>
+          <fpage>541</fpage>
+          <lpage>545</lpage>
+          <pub-id pub-id-type="pmid">10570802</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b42">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sambrook</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Argentine</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Irwin</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Janssen</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Curtis</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Zierler</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>McInery</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning: a laboratory manual</article-title>
+          <source>Cold Spring Harbor Laboratory Press</source>
+          <year>2001</year>
+          <publisher-loc>New York, USA</publisher-loc>
+          <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="b43">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Burkovski</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Eggeling</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bott</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <source>Handbook of <italic>Corynebacterium glutamicum</italic></source>
+          <year>2005</year>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <publisher-name>CRC Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="b44">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sevcikova</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Kormanec</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Activity of the <italic>Streptomyces coelicolor</italic> stress-response sigma factor sigmaH is regulated by an anti-sigma factor</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <volume>209</volume>
+          <fpage>229</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="pmid">12007810</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b45">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rodr&#xED;guez-Garc&#xED;a</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Franco-Dom&#xED;nguez</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;n</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Binding of PhoP to promoters of phosphate-regulated genes in <italic>Streptomyces coelicolor</italic>: identification of PHO boxes</article-title>
+          <source>Mol Microbiol</source>
+          <year>2002</year>
+          <volume>56</volume>
+          <fpage>1373</fpage>
+          <lpage>1385</lpage>
+          <comment>2005</comment>
+          <pub-id pub-id-type="pmid">15882427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b46">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dove</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Husson</surname>
+              <given-names>RN</given-names>
+            </name>
+          </person-group>
+          <article-title>RshA, an anti-sigma factor that regulates the activity of the mycobacterial stress response sigma factor SigH</article-title>
+          <source>Mol Microbiol</source>
+          <year>2003</year>
+          <volume>50</volume>
+          <fpage>949</fpage>
+          <lpage>959</lpage>
+          <pub-id pub-id-type="pmid">14617153</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b47">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Unniraman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Prakash</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Nagaraja</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>Conserved economics of transcription termination in eubacteria</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>675</fpage>
+          <lpage>684</lpage>
+          <pub-id pub-id-type="pmid">11809879</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b49">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wigneshweraraj</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Casaz</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Buck</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlating protein footprinting with mutational analysis in the bacterial transcription factor sigma54 (sigmaN)</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>1016</fpage>
+          <lpage>1028</lpage>
+          <pub-id pub-id-type="pmid">11842114</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

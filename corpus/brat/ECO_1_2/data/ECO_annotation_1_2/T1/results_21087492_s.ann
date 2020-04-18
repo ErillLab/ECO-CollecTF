@@ -1,0 +1,46 @@
+T1	ECO 95 123	In vivo genomic footprinting
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 High
+T5	ECO 4709 4729	slow-migrating shift
+A15	Category T5 MolFn
+A16	ECOConfidence T5 Low
+A17	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T9	ECO 7684 7699	domain analysis
+A28	Category T9 SeqFeat
+A29	ECOConfidence T9 Medium
+A30	AssertionStrength T9 Medium
+T10	ECO 8365 8385	in vivo footprinting
+A31	Category T10 SeqFeat
+A32	ECOConfidence T10 High
+A33	AssertionStrength T10 Medium
+T11	ECO 9645 9658	real-time PCR
+A34	Category T11 BioProc
+A35	ECOConfidence T11 High
+A36	NextSentence T11 Yes
+A37	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0000231	quantitative polymerase chain reaction evidence
+#8	AnnotatorNotes T11	Response to carbon but can't find go
+N1	Reference T1 brat_eco:ECO:0000136	nucleic acid binding evidence
+N8	Reference T9 brat_eco:ECO:0000202	match to sequence model evidence
+N9	Reference T10 brat_eco:ECO:0000136	nucleic acid binding evidence
+#1	AnnotatorNotes T5	GO:0003677
+T3	ECO 1164 1183	sequence is mutated
+A8	Category T3 SeqFeat
+A9	ECOConfidence T3 Medium
+A10	NextSentence T3 Yes
+A11	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0005528	site-directed mutagenesis evidence
+T2	ECO 5842 5846	EMSA
+A4	Category T2 MolFn
+A5	ECOConfidence T2 High
+A6	NextSentence T2 Yes
+A7	AssertionStrength T2 Low
+N2	Reference T2 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#2	AnnotatorNotes T2	GO:0043565
+T4	ECO 1557 1561	EMSA
+A12	Category T4 MolFn
+A13	ECOConfidence T4 High
+A14	AssertionStrength T4 Low
+N4	Reference T4 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence

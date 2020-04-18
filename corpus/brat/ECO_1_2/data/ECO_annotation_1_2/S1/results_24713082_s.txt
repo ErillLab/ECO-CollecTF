@@ -1,0 +1,68 @@
+Results and discussion
+
+Variability of the lexA gene in C. difficile
+
+C. difficile has been described as a bacterium with highly mosaic genetic composition and multiple attempts have been made to distinguish between various strains and to correlate them with virulence [18].
+We first analysed the variability of the repressor LexA encoding gene sequence among various C. difficile ribotypes (groups characterized by differences in intergenic regions of RNA operon and used worldwide for C. difficile typing) and toxinotypes (characterized by differences in toxin A and B coding region inside the pathogenicity locus called PaLoc) (Additional file 1: Table S1) [19].
+Analysis revealed 17 single nucleotide polymorphisms (SNPs) in the lexA gene of 63C. difficile sequences among which four SNPs resulted in missense mutations but none of the mutations modified amino acids in the cleavage or active sites of LexA (Figure 1).
+Our analysis grouped the investigated strains into three clusters according to the C. difficile LexA (Figure 2).
+Cluster I encompassed 3 non-toxinogenic strains and strains of toxinotype 0; Cluster II encompassed strains of toxinotypes III, VIII, IX, and X and finally, Cluster III with the highest number of SNPs, was mostly composed of toxinotype V strains.
+Ribotypes for the above stated toxinotypes can be found in the Additional file 1: Table S1.
+Previous results showed that strains belonging to the epidemic ribotype 027 form a genome wide clade [20,21], typically characterised as the toxinotype III (North American pulsed field gel electrophoresis type 1 - NAP1, REA group BI).
+Interestingly, ribotypes 016, 019, 036, 075, 111, 122, 153, 156, 176, 208 and 273 are closely related to ribotype 027 by comparative genomics [20,21], and those ribotypes were found to encompass the lexA cluster II.
+Comparative phylogenomics along with MLST (multilocus sequence typing) and whole genome sequecing has shown that ribotype 078 lineage is different than other C. difficile lineages [22].
+Moreover PCR ribotype 078 forms a phylogenetically coherent group with ribotypes 033, 045, 066, 078, 126 and 127 [23] - which encompasses lexA cluster III.
+Genetically distinct strains that belong to ribotypes 078 (V) and 126 (V) clustered together showing the highest number of SNPs in the lexA gene.
+The phylogenetic tree based on LexA variability reflects similarities to genetic lineages based on ribotype patterns and comparative genomics analysis.
+
+
+
+In silico screening for the LexA-regulated genes in C. difficile
+
+To obtain insight into the LexA regulon genes, we performed in silico genome-wide prediction of LexA binding sites within promoter regions of C. difficile.
+Using the xFiToM software [24], we screened genomes of thirty C. difficile strains (Additional file 1: Table S1) for the C. acetobutylicum and C. perfringens consensus operator sequence of LexA [15,16], allowing for two mismatches in one of the two half sites positioned within 350 bp upstream to 35 bp downstream of a protein coding sequence.
+Among the thirty genomes, the search yielded at least one putative operator sequence upstream of more than 30 genes involved in a variety of biological processes e.g. DNA repair, transport, virulence and antibiotic resistance (Table 1).
+
+Subsequently, we purified C. difficile LexA and RecA proteins with an N-terminal hexa-histidine tag (Additional file 2: Figure S1) as described for E. coli orthologs [25].
+SPR analysis was performed to validate the in silico data and determine the LexA-operator interactions in vitro in real time.
+Most of the interaction sites were found in putative promoter regions of "common" putative SOS genes for the majority of the genomes tested and of putative LexA regulon genes encoding unusual SOS proteins.
+Out of 20 DNA fragments tested, the repressor interacted with 16 targets (Figure 3A, Additional file 3: Table S2).
+We determined interaction with operators in promoter regions of the core SOS response genes: recA, lexA, the genes of the uvrBA operon encoding for components of the UvrABC endonuclease catalyzing nucleotide excision repair and the ruvCA operon genes, encoding the nuclease that resolves Holliday junction intermediates in genetic recombination.
+In addition, LexA interacts with putative promoter regions of genes involved in sporulation (sspB), regulation of DnaA-dependent initiation of DNA replication (soj), several ABC transporters (potC, oppC, MicroScope:CDR20291_2297) and for homologue of a two-component system regulator of the vancomycin resistance cluster (vanR).
+The LexA repressor was also found to interact within PaLoc with operator identified 525 base pairs upstream of the toxin A gene (tcdA).
+While the regulation of toxin production in C. difficile is controlled in response to several environmental signals mediated by pleiotropic regulators (CcpA, CodY, SigD and SigH [26]), the possible regulation through the SOS system sheds new light on this issue.
+Furthermore, the subinhibitory concentration of SOS-inducing antibiotic ciprofloxacin was recently shown to increase the Toxin A gene expression in C. difficile[27].
+Our SPR analysis revealed that also housekeeping genes required for ribosome function (rplR) and beta subunit RNA polymerase (rpoB) belong to the LexA regulon, a feature of the SOS network not yet observed in bacteria.
+Thus, blockage of LexA self-cleavage could impede pivotal functions in C. difficile and this might provide a new approach to treat C. difficile infections.
+Moreover, although putative SOS genes are present in most of the analysed genomes, several of these genes encoding for putative cell wall hydrolase, transposase and for two component sensor histidine kinase seem to be regulated by LexA only in the 027 ribotype strains (Table 1).
+The in silico analysis showed operators in front of several genes upregulated exclusively in ribotype 075 and 027 (celG, vanR, ABC-type transport system).
+Furthermore, among the analysed genomes, exclusively in the closely related ribotypes 078, 126 and 033, the LexA target site was not found in front of the soj (regulation of DNA replication) and the phnH (phosphonate metabolism protein).
+Thus the mode of SOS regulation might be related to phylogenetic lineages.
+
+
+
+Cross-reaction of SOS system components in E. coli and C. difficile
+
+Induction of SOS gene expression is synchronized and the level, timing and duration of expression of the individual LexA regulon genes differs significantly (1).
+In E. coli, LexA bound to target DNA cannot interact with RecA* and only unbound repressor is proteolytically inactivated [25].
+Thus the rate of LexA dissociation from operators controls the precise timing of SOS gene expression following induction.
+Consequently genes with lower affinity LexA target sites are expressed prior to genes with high affinity operators [1,5].
+To follow up on these results, we used SPR to study interaction of the chip-immobilized C. difficile RecA* with LexA interacting with either specific or non-specific DNA.
+We showed that as in E. coli, the C. difficile LexA repressor interaction with RecA* is prevented by binding to specific DNA targets (Figure 4).
+In addition, we showed that the key SOS players of E. coli and C. difficile can cross-react in vitro (Figure 4).
+Hence, our data indicated that the mode of regulation of the C. difficile SOS response resembles the one described for E. coli.
+Nevertheless, in contrast to the E. coli SOS system, we observed among the investigated C. difficile genes, a slowest LexA dissociation from operators of the core SOS genes, recA, lexA and uvrB (Figure 3A and B, Table 2), implying that these are the last genes upregulated upon SOS induction.
+For instance, LexA dissociation from the E. coli recA operator is more than 20-times faster than from C. difficile with regard to the dissociation constants of 4.8 +- 2.1 x 10-3 s-1 (21) and 1.7 +- 0.5 x 10-4 s-1, respectively.
+
+We propose that in C. difficile, strong repression of core SOS genes affects the magnitude of the system`s induction.
+Thus, the low association and non-stable LexA binding to putative regulatory regions of genes encoding the RNA polymerase beta subunit (rpoB), 50S ribosomal protein (rplR), spermidine/putrescine permease (potC), vancomycin response regulator (vanR) and putative multidrug-efflux-pump [MicroScope: CDR20291_2297], indicates that LexA contributes to fine-tuning of expression of these genes independently of substantial recA induction (Figure 3).
+
+The paradigm of the SOS system is that DNA repair genes are rapidly induced in the SOS response to deal with DNA lesions [1,2,28].
+However, comparison of induction of LexA regulon genes in B. subtilis and E. coli in response to double-strand breaks reveals diversity [29].
+After DNA damage, the velocity of assembly of RecA* is similar but in contrast to E. coli, a limited set of LexA-regulated genes are induced early in the response in B. subtilis.
+Our in vitro results suggest that also in C. difficile, induction of the LexA-regulated DNA repair genes might be induced later in the SOS response as the core SOS gene promoter regions harbour high affinity LexA targets.
+According to the differences in LexA-operator affinities we predict that upon DNA damage, various biological processes will be derepressed without induction of the SOS DNA repair.
+
+
+
+

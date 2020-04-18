@@ -1,0 +1,108 @@
+Results
+
+Response of C. glutamicum to elevated copper concentrations
+
+First, the growth of C. glutamicum wild type in the presence of elevated copper ion concentrations was determined.
+Therefore, cells were grown in CGXII minimal medium (standard copper concentration: 1.25 microM) to an OD600 of 5 - 6 and then different CuSO4 concentrations (5 - 500 microM) were added to the cultures (Fig. 1).
+Whereas the addition of 5 and 20 microM CuSO4 had no effect on the growth of C. glutamicum compared to the control culture (no additional copper), higher CuSO4 concentrations led to reduced growth rates.
+The addition of 500 microM CuSO4 completely inhibited growth of C. glutamicum, however, after approx. 7 h the culture resumed growth and reached the usual final cell density.
+
+In order to identify genes that were differentially expressed in the presence of elevated copper ion concentrations in the medium, DNA microarray experiments were performed.
+C. glutamicum wild type cells were pre-cultivated in CGXII minimal medium overnight and then used to inoculate fresh standard CGXII medium (containing 1.25 microM CuSO4) or CGXII medium containing 21.25 microM CuSO4.
+After the cultures had reached an OD600 of 5 - 6, the cells were harvested and used for RNA preparation.
+Altogether 26 genes showed a more than threefold changed mRNA level in at least two of four independent biological replicates (P-value LTEQ 0.05).
+Six of these genes, all of which encode proteins of unknown function, showed a decreased mRNA level and 20 genes an increased mRNA level in the presence of 21.25 microM CuSO4 (Table 1).
+The latter group included two genes coding for the transcriptional regulators ArsR1 and CopR (previously named CgtR9).
+ArsR1 belongs to the SmtB/ArsT family of metal-sensing transcriptional repressors and regulates the ars operons (cg0318-cg0319 and cg1705-cg1707) in an arsenic-dependent manner [20].
+In the presence of As3+, a derepression of the ars operons occurs which leads to increased tolerance to elevated arsenic concentrations.
+Despite the increased mRNA level of arsR1 the expression level of the ars operons was not altered, indicating that an elevated copper ion concentration does not cause a dissociation of ArsR1 from its target promoters and hence no derepression of the target genes.
+CopR is a response regulator and part of the CopR-CopS two-component system [21].
+The copRS genes (cg3285 and cg3284, respectively) as well as the up- and downstream genes (cg3286-cg3289 and cg3283-cg3281) exhibited highly increased mRNA levels (Table 1), indicating that this gene region is particularly important for the adaption to copper excess conditions.
+This assumption is supported by the fact that several of these genes code for proteins that are obviously linked to copper homeostasis, such as a putative copper-transporting ATPase (CopB, Cg3281; Accession UniProtKB Q8NLI0) and a secreted multicopper oxidase (CopO, Cg3287; Accession UniProtKB Q8NLH5).
+Since genes encoding transcriptional regulators are often localised in the immediate vicinity of their target genes, the CopRS two-component system might be responsible for the altered expression of cg3281-cg3289.
+
+In summary, the transcriptome data led to the identification of the copper excess stimulon and provided evidence for the involvement of CopR in the regulation of copper homeostasis in C. glutamicum.
+In the remaining part of this study the role of the CopRS two-component system in copper homeostasis was investigated.
+
+
+
+Influence of CopRS on the resistance to heavy metals
+
+In order to verify the involvement of the CopRS two-component system in copper homoeostasis, the resistance of a copRS deletion mutant [21] to copper ions and other heavy metal salts was compared to the wild type using agar diffusion assays.
+An increased susceptibility was only observed for copper ions (Fig. 2A) but not for all other heavy metal ions tested (nickel, manganese, zinc, silver, cobalt, lead or cadmium; data not shown).
+Cultivation of DeltacopRS and C. glutamicum wild type in CGXII minimal medium to which different CuSO4 concentrations (5 - 500 microM) were added when the cultures had reached an OD600 of 5 - 6 corroborated the reduced resistance to copper ions of the mutant strain (Fig. 3).
+The phenotype could be complemented by plasmid-borne copRS expression (Fig. 2B).
+These results confirmed the assumption that CopRS is involved in copper homeostasis of C. glutamicum.
+
+
+
+Comparison of the expression profiles of the DeltacopRS mutant and the wild type
+
+To identify the regulon of the response regulator CopR, the transcriptome of the DeltacopRS deletion mutant was compared to that of the wild type using DNA microarrays.
+For cells grown in standard CGXII medium (1.25 microM CuSO4), no significant gene expression differences were observed, indicating that the CopRS two-component system is not active under this condition (data not shown).
+However, in the presence of elevated copper ion concentrations (21.25 microM), the mRNA level of 43 genes was changed more than threefold (Table 2) in the DeltacopRS mutant, showing that CopRS is active in the presence of elevated copper concentrations and further supporting our hypothesis that CopRS is involved in copper-induced stress regulation.
+Besides copS and copR, the strongest downregulation was observed for the gene cluster cg3286-cg3289 (50- to 100-fold decreased mRNA level in the mutant strain), which is located directly upstream of copRS in reverse orientation and belongs to the copper excess stimulon.
+The genes encode a secreted protein of unknown function (Cg3286), a putative secreted multicopper oxidase (CopO, Cg3287), a protein of unknown function (Cg3288), and a thioredoxin-like protein (TlpA, Cg3289).
+In addition, several genes which encode transport systems were downregulated in the mutant (Table 2).
+Except for the glutamate uptake system (GluABCD), none of these transport systems has been characterised in detail yet, but it was supposed that Cg0507 and Cg0508, Cg0924-Cg0927, and Cg3434 are involved in iron uptake [22], [23].
+The genes cg3281-cg3283, which were also part of the copper excess stimulon, showed a 1.6-2.3-fold (P-value LTEQ 0.05) decreased mRNA level in the DeltacopRS mutant, as well (data not shown).
+
+
+
+Search for direct target genes of CopR
+
+In order to test which of the genes with an altered expression in the DeltacopRS mutant are direct target genes of the response regulator CopR, electrophoretic mobility shift assays (EMSAs) were performed with purified CopR and the relevant promoter regions.
+As phosphorylated CopR protein was found to have a higher binding affinity compared to unphosphorylated CopR (see below), all gel shift experiments were performed with CopR which had been preincubated with the low molecular weight phosphoryl donor acetylphosphate.
+In a first set of experiments, 21 promoter regions of putative CopR target genes (see Table 2, indicated with +) and as a negative control the promoter region of an arbitrarily chosen gene (cg1665) were tested.
+As shown in Fig. S1, binding of CopR was only observed with the DNA fragment containing the promoter region of copR (229 bp, +9 to -220 corresponding to the copR translational start site).
+A complete retardation was observed in the presence of a 25-fold molar excess of phosphorylated CopR.
+Since the putative binding site of CopR is located in the intergenic region of copR and cg3286, which are orientated divergently (Fig. 4A), not only the cg3285-cg3281 genes, but also the cg3286-cg3289 genes might be regulated by CopR.
+
+
+
+Influence of phosphorylation on CopR binding affinity
+
+To analyse the influence of phosphorylation on the DNA-binding properties of the response regulator CopR, the apparent Kd value of unphosphorylated CopR and of CopR that had been preincubated with acetylphosphate were determined using a 5'-Cy3-labelled DNA fragment (90 bp) that covers the DNA region from -44 to -110 upstream of the copR translational start site (Fig. S2).
+For CopR preincubated with acetylphosphate an apparent Kd value of 0.4 microM was calculated (CopR concentration required for binding half of the DNA).
+Unphosphorylated CopR exhibited a significantly lower affinity and showed an apparent Kd value of 2.3 microM.
+These results indicate that CopR is phosphorylated by acetylphosphate and that phosphorylation increases the DNA-binding affinity.
+
+
+
+Identification of the CopR binding site
+
+In order to identify the CopR binding motif, EMSAs with subfragments of the intergenic region between cg3286 and copR were performed.
+The subfragments were incubated with phosphorylated CopR at two different molar excesses (25- and 50-fold) and separated by 10% native PAGE.
+As shown in Fig. 4B and C, binding was observed for fragments 2 and 5, but not for fragments 1, 3, and 4.
+Consequently, a CopR binding site must be localised between bp -59 and -78 with respect to the copR translational start site.
+This corresponds to position -266 and -285 with respect to the cg3286 transcriptional start site, which had been mapped by primer extension analysis 59 bp upstream of the cg3286 start codon (Fig. S3).
+The determination of the copR transcriptional start site failed so far although different methods were tested.
+
+Analysis of the identified DNA region with the motif alignment and search tool MAST (http://meme.sdsc.edu/meme4_4_0/cgi-bin/mast.cgi) revealed the presence of a perfect direct repeat separated by a two base pair linker (TGAAGATTTgaTGAAGATTT).
+The relevance of this direct repeat for CopR binding was tested by EMSAs with DNA fragments in which two to four nucleotides of the motif or of the surrounding sequence were exchanged (Fig. 5).
+Mutations in the motifs' flanking sequence or in the linker did not affect CopR binding, whereas mutations of three base pairs within the binding motif led to a complete inhibition of CopR binding.
+These results confirmed that the predicted DNA motif is relevant for CopR binding.
+
+To identify further CopR target genes, the binding motif TGAAGATTTnnTGAAGATTT was used to search for similar sequences in the whole C. glutamicum genome using the ERGO (TM) bioinformatics suite (Integrated Genomics, Illinois, USA) allowing four mutations, no deletions and no insertions.
+46 hits were found, but only in six cases the putative CopR binding site was located in intergenic regions up to 200 bp upstream of the start codon of the neighbouring gene (cg1336, cg2976, cg3187, cg3337, cg3357 and cg0414).
+Only one of these genes (cg0414) showed an altered mRNA level in the DNA microarrays comparing DeltacopRS with the wild type (Table 2).
+However, no binding of CopR to the promoter region of cg0414 was observed in EMSAs (see Fig. S1), indicating that cg0414 is not a direct target gene of CopR.
+
+
+
+CopR regulation of the copR and cg3286 gene
+
+The data reported above showed that CopR binds to the intergenic region between cg3286 and copR, but it was still unclear if CopR activates expression of only the copR promoter, of only the cg3286 promoter or of both promoters.
+To answer this question, reporter gene assays were performed.
+The plasmids pET2-IGR and pET2-IGR_inverse, which contain the cg3286-copR intergenic region in both orientations upstream of a promoterless chloramphenicol acetyltransferase (cat) gene, were transferred into C. glutamicum wild type and the DeltacopRS mutant.
+The resulting strains and the control strains carrying the vector pET2 were cultivated in CGXII minimal medium with or without the addition of 20 microM CuSO4 or 20 microM NiSO4, respectively.
+When cultivated in standard CGXII medium with 1.25 microM CuSO4 (Fig. 6), none of the strains exhibited Cat activity.
+Same results were observed when NiSO4 was added (Fig. 6).
+Thus, CopR did not activate transcription of the reporter gene under these conditions.
+When the medium was supplemented with 20 microM CuSO4 (Fig. 6), Cat activity was measurable for the wild type strain harbouring the plasmid pET2-IGR or pET2-IGR_inverse, but not for the DeltacopRS mutant harbouring one of these plasmids.
+Also the control strains carrying pET2 had no measurable Cat activity.
+These results showed that both the cg3286 promoter and the copR promoter are activated by CopRS in a strictly copper-dependent manner.
+
+
+
+

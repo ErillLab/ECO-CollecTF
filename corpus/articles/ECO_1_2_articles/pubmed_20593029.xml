@@ -1,0 +1,2016 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20593029</article-id>
+      <article-id pub-id-type="pmc">2892513</article-id>
+      <article-id pub-id-type="publisher-id">10-PONE-RA-15527R1</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0011328</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Microbiology</subject>
+          <subject>Genetics and Genomics/Gene Function</subject>
+          <subject>Microbiology/Cellular Microbiology and Pathogenesis</subject>
+          <subject>Microbiology/Microbial Physiology and Metabolism</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Ribonucleotide Reductases of <italic>Salmonella</italic> Typhimurium: Transcriptional Regulation and Differential Role in Pathogenesis</article-title>
+        <alt-title alt-title-type="running-head">RNR and <italic>Salmonella</italic> Infection</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Panosa</surname>
+            <given-names>Ana&#xEF;s</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="author-notes" rid="fn1">
+            <sup>&#xA4;a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roca</surname>
+            <given-names>Ignasi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn2">
+            <sup>&#xA4;b</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gibert</surname>
+            <given-names>Isidre</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Institut de Biotecnologia i de Biomedicina and Departament de Gen&#xE8;tica i de Microbiologia, Universitat Aut&#xF2;noma de Barcelona, Bellaterra (Cerdanyola del Vall&#xE8;s), Barcelona, Spain</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Dobrindt</surname>
+            <given-names>Ulrich</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">University of W&#xFC;rzburg, Germany</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>IGROCA@clinic.ub.es</email> (IR); <email>Isidre.Gibert@uab.cat</email> (IG)</corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: AP IR IG. Performed the experiments: AP IR. Analyzed the data: AP IR IG. Wrote the paper: AP IR IG.</p>
+        </fn>
+        <fn id="fn1" fn-type="current-aff">
+          <label>&#xA4;a</label>
+          <p>Current address: Flow Cytometry and Confocal Microscopy Core, Laboratoris d&#x2019;Investigaci&#xF3; IRBLleida, Hospital Universitari Arnau de Vilanova, Lleida, Spain</p>
+        </fn>
+        <fn id="fn2" fn-type="current-aff">
+          <label>&#xA4;b</label>
+          <p>Current address: Department of Microbiology, Hospital Cl&#xED;nic, School of Medicine, University of Barcelona, IDIBAPS, Barcelona, Spain</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>6</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>6</issue>
+      <elocation-id>e11328</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>1</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>5</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Panosa et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+      </permissions>
+      <abstract>
+        <p>Ribonucleotide reductases (RNRs) are essential enzymes that carry out the <italic>de novo</italic> synthesis of deoxyribonucleotides by reducing ribonucleotides. There are three different classes of RNRs (I, II and III), all having different oxygen dependency and biochemical characteristics. <italic>Salmonella enterica</italic> serovar Typhimurium (<italic>S.</italic> Typhimurium) harbors class Ia, class Ib and class III RNRs in its genome. We have studied the transcriptional regulation of these three RNR classes in <italic>S.</italic> Typhimurium as well as their differential function during infection of macrophage and epithelial cells. Deletion of both NrdR and Fur, two main transcriptional regulators, indicates that Fur specifically represses the class Ib enzyme and that NrdR acts as a global repressor of all three classes. A Fur recognition sequence within the <italic>nrdHIEF</italic> promoter has also been described and confirmed by electrophoretic mobility shift assays (EMSA). In order to elucidate the role of each RNR class during infection, <italic>S.</italic> Typhimurium single and double RNR mutants (as well as Fur and NrdR mutants) were used in infection assays with macrophage and epithelial cell lines. Our results indicate class Ia to be mainly responsible for deoxyribonucleotide production during invasion and proliferation inside macrophages and epithelial cells. Neither class Ib nor class III seem to be essential for growth under these conditions. However, class Ib is able to maintain certain growth in an <italic>nrdAB</italic> mutant during the first hours of macrophage infection. Our results suggest that, during the early stages of macrophage infection, class Ib may contribute to deoxyribonucleotide synthesis by means of both an NrdR and a Fur-dependent derepression of <italic>nrdHIEF</italic> due to hydrogen peroxide production and DNA damage associated with the oxidative burst, thus helping to overcome the host defenses.</p>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Ribonucleotide reductases (RNRs) are essential enzymes that perform the reduction of ribonucleotides (NTPs) to deoxyribonucleotides (dNTPs). This reaction is present in all living organisms and provides the balanced pool of deoxyribonucleotides needed for DNA replication and repair <xref ref-type="bibr" rid="pone.0011328-Jordan1">[1]</xref>.</p>
+      <p>Three classes of RNRs have been described so far. They differ in the mechanism they use for radical generation, structural differences and oxygen dependence. Class I reductases are strictly aerobic and use an iron center to generate a tyrosyl radical. Class I has been further subdivided into class Ia and class Ib according to structural differences and allosteric regulation (encoded by the <italic>nrdAB</italic> and <italic>nrdHIEF</italic> operons, respectively). The activity of class II reductases (encoded by <italic>nrdJ</italic>) is oxygen-independent due to the use of an adenosylcobalamin cofactor (vitamin B12) to generate the radical. Class III reductases (encoded by the <italic>nrdDG</italic> operon) use S-adenosylmethionine (SAM) and an iron-sulfur cluster to generate a glycyl radical which is extremely sensitive to oxygen and, therefore, class III reductases are strictly anaerobic.</p>
+      <p>RNRs must be tightly regulated to achieve the dNTPs levels needed to rapidly adapt to any environmental changes. This is accomplished by means of both allosteric and transcriptional regulatory mechanisms. Allosteric mechanisms involve the union of the fully phosphorylated end products of ribonucleotide reduction (dNTPs) to the specificity site, which modulates substrate specificity, and the binding of ATP or dATP to the activity site, which respectively switch on and off the overall activity of the enzyme <xref ref-type="bibr" rid="pone.0011328-Nordlund1">[2]</xref>. Transcriptional regulation has been less studied and little information is available. In <italic>Escherichia coli</italic>, class Ia has been shown to be cell cycle regulated <xref ref-type="bibr" rid="pone.0011328-Jacobson1">[3]</xref>, <xref ref-type="bibr" rid="pone.0011328-Sun1">[4]</xref> and modulated by several global transcriptional factors such as DnaA, Fis and IciA <xref ref-type="bibr" rid="pone.0011328-Gon1">[5]</xref>-<xref ref-type="bibr" rid="pone.0011328-Augustin1">[7]</xref>. In <italic>E. coli</italic>, class Ib expression has been suggested to be regulated by the transcriptional factor Fur <xref ref-type="bibr" rid="pone.0011328-McHugh1">[8]</xref>, <xref ref-type="bibr" rid="pone.0011328-Vassinova1">[9]</xref>, and <italic>nrdDG</italic> expression is anaerobically activated by the global regulator FNR <xref ref-type="bibr" rid="pone.0011328-Roca1">[10]</xref>. In the last few years, however, a novel global regulator capable of modulating the expression of all three classes has been extensively described <xref ref-type="bibr" rid="pone.0011328-Torrents1">[11]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0011328-Borovok2">[13]</xref>. Termed NrdR, this protein contains an ATP-cone similar to that found in the activity site of class I and class III RNRs and it has been suggested to modulate RNR expression through the specific sensing of ATP/dATP pools <xref ref-type="bibr" rid="pone.0011328-Grinberg1">[14]</xref>.</p>
+      <p><italic>Salmonella enterica</italic> serovar Typhimurium (<italic>S.</italic> Typhimurium) is a Gram-negative intracellular human pathogen causing gastroenteritis in humans as well as a systemic infection similar to human typhoid fever in mice. One of the main features of <italic>S. enterica</italic> infection is its capacity to actively invade epithelial cells and proliferate inside macrophages <xref ref-type="bibr" rid="pone.0011328-Jones1">[15]</xref>.</p>
+      <p><italic>S.</italic> Typhimurium contains three different RNRs: class Ia, class Ib and class III, all being biochemically functional with <italic>nrdAB</italic> supporting aerobic growth and <italic>nrdDG</italic> supporting anaerobic growth. <italic>nrdHIEF</italic> however, is poorly expressed and can not complement an <italic>nrdAB</italic> conditional mutant unless a second <italic>nrdHIEF</italic> copy is provided, either as a merodiploid or in a plasmid-based copy <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>. <italic>nrdHIEF</italic> expression, nevertheless, is triggered upon addition of hydroxyurea, growth in minimal media, oxidative stress and iron depletion <xref ref-type="bibr" rid="pone.0011328-McHugh1">[8]</xref>, <xref ref-type="bibr" rid="pone.0011328-Vassinova1">[9]</xref>, <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0011328-Tao1">[19]</xref> suggesting an actual role for this enzyme under certain growth conditions.</p>
+      <p>This work focuses on the study of the transcriptional regulation exerted by both NrdR and Fur over the three RNR classes present in <italic>S.</italic> Typhimurium. We have studied the effects of an NrdR deletion in RNR expression and provide some insight concerning its role as a main global regulator. We have also analyzed the upregulation of <italic>nrdHIEF</italic> by Fur and detected a Fur recognition sequence within the <italic>nrdHIEF</italic> promoter region. This work also analyzes the role of each RNR during <italic>S.</italic> Typhimurium infection by means of infection assays performed in macrophage and epithelial cell lines.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>NrdR and Fur negatively regulate <italic>nrd</italic> expression</title>
+        <p>In order to assess the transcriptional role of both NrdR and Fur, unmarked <italic>nrdR</italic> and <italic>fur</italic> null mutants of <italic>Salmonella enterica</italic> serovar Typhimurium LT2 were obtained as described in <xref ref-type="sec" rid="s4">Materials and Methods</xref> and then transduced into <italic>Salmonella</italic> strains containing either <italic>nrdAB-lacZ, nrdHIEF-lacZ or nrdDG</italic>-<italic>lacZ</italic> reporter fusions (for <italic>&#x394;nrdR</italic> mutation) or just <italic>nrdHIEF-lacZ</italic> (for <italic>&#x394;fur</italic> mutation). For the <italic>nrdAB</italic> and <italic>nrdHIEF</italic> operons, expression of the reporter fusions was measured in aerobic conditions throughout the cell cycle. <italic>nrdDG</italic> cultures grew more slowly in anaerobiosis and samples were only taken at lag and exponential phases. The &#x3B2;-galactosidase activity assays (<xref ref-type="fig" rid="pone-0011328-g001">Figure 1</xref>) showed an evident upregulation of <italic>nrdAB</italic>, <italic>nrdHIEF</italic> and <italic>nrdDG</italic> expression in the absence of NrdR when compared to the wild-type strains, indicating that NrdR acts as a repressor of all three ribonucleotide reductases in <italic>S.</italic> Typhimurium LT2. <italic>nrdHIEF</italic> expression increased nearly 12-fold compared to the wild-type strain. <italic>nrdAB</italic> and <italic>nrdDG,</italic> however, increased only 3 and 5-fold respectively. Moreover, a growth phase-related differential expression was also observed, being maximal during exponential phase.</p>
+        <fig id="pone-0011328-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>NrdR-dependent expression of RNR.</title>
+            <p>NrdR regulation of <italic>S.</italic> Typhimurium LT2 RNR expression throughout the growth curve (early exponential (OD<sub>550</sub>&#x200A;=&#x200A;0.2), final exponential (OD<sub>550</sub>&#x200A;=&#x200A;0.8), early stationary phase (OD<sub>550</sub>&#x200A;=&#x200A;1.4)). &#x3B2;-galactosidase activity of <italic>nrdAB</italic>, <italic>nrdHIEF</italic>, and <italic>nrdDG</italic> promoter regions fused to <italic>lacZ</italic> expressed in Miller Units (MU). Wild-type strain shown in black, <italic>nrdR</italic> mutant strain in dark grey, and <italic>nrdR</italic> mutant complemented strain in light grey. Results are the mean values of duplicates of at least three independent experiments. Error bars represent the standard deviation of experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g001"/>
+        </fig>
+        <p>As seen in <xref ref-type="fig" rid="pone-0011328-g002">Figure 2</xref>, Fur also repressed <italic>nrdHIEF</italic> expression, increasing its transcription up to 5-fold compared to the wild-type strain. <italic>nrdAB</italic> expression was also measured to rule out a global effect of the Fur knock-out on overall gene expression (<xref ref-type="supplementary-material" rid="pone.0011328.s002">Figure S1</xref>).</p>
+        <fig id="pone-0011328-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Fur-dependent expression of <italic>nrdHIEF.</italic></title>
+            <p>Effect of <italic>&#x394;fur</italic> mutation on <italic>nrdHIEF</italic> expression. &#x3B2;-galactosidase activity is expressed in Miller Units (MU) for the wild-type strain (Wt), mutant <italic>&#x394;fur</italic> strain (Fur<sup>-</sup>), and complemented mutant strain (cFur). Results are the mean values of duplicates of at least three independent experiments. Error bars represent the standard deviation of experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g002"/>
+        </fig>
+        <p>To further assess if NrdR and Fur were indeed responsible for this upregulation we performed complementation assays. Both <italic>nrdR</italic> and <italic>fur</italic> were cloned into the pBAD<sub>33</sub> expression vector under the control of the P<sub>BAD</sub> promoter and their expression was induced upon addition of 0.3% L-arabinose. &#x3B2;-galactosidase levels for <italic>nrdAB</italic>, <italic>nrdHIEF</italic> and <italic>nrdDG</italic> in the NrdR and Fur complemented strains were similar to those of the wild-type strains, thus supporting their role as transcriptional repressors (<xref ref-type="fig" rid="pone-0011328-g001">Figures 1</xref> &amp; <xref ref-type="fig" rid="pone-0011328-g002">2</xref>, respectively).</p>
+      </sec>
+      <sec id="s2b">
+        <title>Effect of hydroxyurea in <italic>nrd</italic> expression</title>
+        <p>Since the late 70s it is well-known that the addition of hydroxyurea (HU) induces the transcriptional expression of both class Ia and class Ib RNR, either in <italic>E. coli</italic>, <italic>S.</italic> Typhimurium or other microorganisms <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>, <xref ref-type="bibr" rid="pone.0011328-Torrents2">[20]</xref>, <xref ref-type="bibr" rid="pone.0011328-Filpula1">[21]</xref>.</p>
+        <p>Hydroxyurea scavenges the tyrosyl radical present in the small subunit of class I enzymes, thus inhibiting its catalytic activity, but it is as yet unknown how such a dramatic downshift in enzymatic activity causes this upregulation in <italic>nrd</italic> transcription.</p>
+        <p>Being a global <italic>nrd</italic> regulator, we wondered if NrdR might be involved in such phenomenon and, therefore, we performed &#x3B2;-galactosidase assays to analyze the transcriptional levels of <italic>nrdAB, nrdHIEF</italic> and <italic>nrdDG</italic> in the presence and absence of 10 mM HU in both a NrdR mutant and a wild-type strain.</p>
+        <p><xref ref-type="fig" rid="pone-0011328-g003">Figure 3</xref> shows that during aerobic growth the induction levels of <italic>nrdAB</italic> and <italic>nrdHIEF</italic> caused by the addition of hydroxyurea were similar to those caused by deletion of NrdR. The addition of hydroxyurea to the <italic>NrdR</italic> mutant did not show any additive increase. Similarly, the &#x3B2;-galactosidase levels of <italic>nrdDG</italic> were very much alike in the NrdR mutant regardless of the presence of hydroxyurea. Wild-type <italic>nrdDG</italic> expression with 10 mM HU showed only a minor increase in both aerobic and anaerobic growth.</p>
+        <fig id="pone-0011328-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Hydroxyurea-dependent expression of RNR.</title>
+            <p>Effect of hydroxyurea on <italic>nrdAB</italic>, <italic>nrdHIEF</italic> and <italic>nrdDG</italic> expression of wild-type and <italic>&#x394;nrdR</italic> mutant strains. &#x3B2;-galactosidase activity is expressed in Miller Units (MU). Overnight cultures of each strain were reseeded and grown for 1 hour previous to inoculation with 10 mM hydroxyurea. <italic>nrdDG</italic> fusion strains were grown either in aerobiosis (in black) or anaerobiosis (in grey). Results are the mean values of duplicates of at least three independent experiments. Error bars represent the standard deviation of experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>NrdR and Fur recognition sequences</title>
+        <p>The presence of putative <italic>nrdR</italic> recognition sequences has been studied by phylogenetic profiling in numerous bacterial genomes <xref ref-type="bibr" rid="pone.0011328-Rodionov1">[22]</xref> and it has been established that the NrdR recognition site consists of two tandem NrdR boxes separated by approximately 31&#x2013;32 bp. In <italic>S.</italic> Typhimurium such boxes can be found within the promoter region of all three <italic>nrd</italic> operons <xref ref-type="bibr" rid="pone.0011328-Rodionov1">[22]</xref>, but their actual involvement in <italic>nrd</italic> regulation has not been empirically elucidated.</p>
+        <p>In order to demonstrate the participation of these recognition sequences in NrdR binding and promoter repression, we performed &#x3B2;-galactosidase assays with promoter sequence fusions in which one or both putative NrdR boxes had been significantly altered (single <italic>versus</italic> double mutants, see <xref ref-type="fig" rid="pone-0011328-g004">Figure 4A</xref>).</p>
+        <fig id="pone-0011328-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>NrdR binding sites.</title>
+            <p><bold>A.</bold> <italic>S.</italic> Typhimurium LT2 <italic>nrdAB</italic>, <italic>nrdHIEF</italic> and <italic>nrdDG</italic> promoter regions. Black boxes indicate NrdR recognition sites and mutated sequences are showed below in bold lower case. &#x2212;10 and &#x2212;35 boxes are showed in bold. Transcriptional start site is indicated in bold and underlined as is the 19 bp Fur box in the <italic>nrdHIEF</italic> promoter region. The DnaA and FNR boxes are underlined for the <italic>nrdAB</italic> and <italic>nrdDG</italic> promoter regions, respectively. <bold>B.</bold> &#x3B2;-galactosidase activities of <italic>nrdAB</italic>, <italic>nrdHIEF</italic>, and <italic>nrdDG</italic> transcriptional fusions with mutagenized NrdR boxes are expressed in Miller Units (MU) for the wild-type strain (Wt), <italic>&#x394;nrdR</italic> strain (R<sup>&#x2212;</sup>), NrdR1 box mutant strain (R1<sup>&#x2212;</sup>), NrdR2 box mutant strain (R2<sup>&#x2212;</sup>), and NrdR1 and NrdR2 box double mutant strain (R1<sup>&#x2212;</sup>/R2<sup>&#x2212;</sup>). Results are the mean values of duplicates of at least three independent experiments. Error bars represent the standard deviation of experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g004"/>
+        </fig>
+        <p>As shown in <xref ref-type="fig" rid="pone-0011328-g004">Figure 4B</xref>, modification of either NrdR1, NrdR2 or both, increased <italic>nrdAB</italic> transcription, although only the NrdR2 mutant achieved a transcriptional increase similar to that of the <italic>&#x394;nrdR</italic> strain.</p>
+        <p>Modification of the NrdR1 box in the <italic>nrdHIEF</italic> operon resulted in an increase in <italic>nrdHIEF</italic> expression similar to that of the <italic>&#x394;nrdR</italic> strain. Mutation of the NrdR2 box, however, had no effect on the transcriptional levels of <italic>nrdHIEF</italic> and the double mutant showed transcriptional levels similar to those of the NrdR1 box and the NrdR mutant.</p>
+        <p><italic>nrdDG</italic> transcription was greatly induced in both the NrdR1 and NrdR2 mutants, with NrdR2 reaching a similar increase to that of the <italic>&#x394;nrdR</italic> strain, and NrdR1 even surpassing it. The transcriptional levels of the double mutant paralleled those of the NrdR1 mutant.</p>
+        <p>Vassinova <italic>et al</italic> <xref ref-type="bibr" rid="pone.0011328-Vassinova1">[9]</xref> initially described a putative Fur box within the <italic>E. coli nrdHIEF</italic> promoter region but so far there is no experimental evidence regarding a Fur-mediated regulation of class Ib <italic>nrd</italic> genes. Previous studies in our laboratory indicated an upregulation of <italic>nrdHIEF</italic> under iron depletion and we identified a putative Fur binding box 309 bp upstream from the transcription start site (<xref ref-type="fig" rid="pone-0011328-g004">Figure 4A</xref>). To assess its role in the Fur-mediated regulation of <italic>nrdHIEF</italic> we modified the putative Fur box by site-specific mutagenesis (<xref ref-type="fig" rid="pone-0011328-g005">Figure 5A</xref>) and monitored the &#x3B2;-galactosidase levels of the <italic>nrdHIEF</italic>-<italic>lacZ</italic> reporter fusion.</p>
+        <fig id="pone-0011328-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Fur binding sites.</title>
+            <p><bold>A.</bold> Fur box mutated sequence for the <italic>nrdHIEF</italic> promoter region. Multiple alignment with ClustalW of the <italic>E. coli</italic> Fur box consensus sequence, <italic>S.</italic> Typhimurium LT2 Fur box within the <italic>fur</italic> promoter region and <italic>S.</italic> Typhimurium LT2 Fur box in the <italic>nrdHIEF</italic> promoter region. All sequences were obtained from the NCBI database (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nml.nih.gov/">http://www.ncbi.nml.nih.gov/</ext-link>). Conserved bases in all three sequences are shown in black, while bases conserved in two out of the three sequences are shown in grey. Base changes in the Fur box sequence are shown in bold lower case. <bold>B.</bold> &#x3B2;-galactosidase activities of the <italic>nrdHIEF</italic>-<italic>lacZ</italic> fusion expressed in Miller Units (MU) for the wild-type strain (Wt), mutant <italic>&#x394;fur</italic> strain (Fur<sup>&#x2212;</sup>), <italic>fur</italic>-complemented mutant strain (cFur), Fur box mutant strain (Furbox<sup>&#x2212;</sup>), <italic>&#x394;nrdR</italic> mutant strain (R<sup>&#x2212;</sup>) and <italic>&#x394;fur&#x394;nrdR</italic> double mutant strain (Fur<sup>&#x2212;</sup>/R<sup>&#x2212;</sup>). Results are the mean values of duplicates of at least three independent experiments. Error bars represent the standard deviation of experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g005"/>
+        </fig>
+        <p>As shown in <xref ref-type="fig" rid="pone-0011328-g005">Figure 5B</xref>, the transcriptional levels of <italic>nrdHIEF</italic> containing a mutated Fur box were very similar to those obtained with a <italic>&#x394;fur</italic> strain, thus indicating a role for this sequence in <italic>nrdHIEF</italic> regulation.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Fur protein directly binds the <italic>nrdHIEF</italic> promoter region</title>
+        <p>To further assess the role of Fur in <italic>nrdHIEF</italic> expression we wanted to demonstrate its direct union to the <italic>nrdHIEF</italic> promoter region. Therefore, we performed electrophoretic mobility shift assays (EMSA) with a 478 bp probe containing the <italic>nrdHIEF</italic> promoter region as well as with another probe containing the same region with a mutated Fur box. As a positive control we used the Fur promoter region since Fur has already been reported to autoregulate its own expression in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0011328-DeLorenzo1">[23]</xref>.</p>
+        <p><xref ref-type="fig" rid="pone-0011328-g006">Figure 6</xref> shows the presence of a retarded band when Fur was incubated together with the wild-type promoter, but no mobility shift could be observed when we used a labelled probe containing an altered Fur box (data not shown). A second retarded band seems to appear as protein concentration increases, likely indicating the presence of an additional Fur recognition sequence. Indeed, an additional putative Fur sequence has been identified further upstream from the <italic>nrdHIEF</italic> promoter and its involvement in class Ib transcriptional regulation is in progress.</p>
+        <fig id="pone-0011328-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Fur binding to <italic>nrdHIEF</italic>.</title>
+            <p>EMSA of (<bold>A</bold>) <italic>nrdHIEF</italic> and (<bold>B</bold>) <italic>fur</italic> promoter region probes of <italic>S.</italic> Typhimurium LT2, with increasing concentrations of Fur protein: 1&#x2013;7 lanes: 0, 0.2, 0.4, 0.8, 1, 1.2, and 1.5 &#xB5;g. MWM: molecular weight marker.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g006"/>
+        </fig>
+      </sec>
+      <sec id="s2e">
+        <title>Construction of <italic>nrd</italic> mutants</title>
+        <p><italic>nrdHIEF</italic> expression levels are usually low and insufficient to maintain cell growth in an <italic>nrdAB</italic> mutant, however, its expression is induced under nutrient starvation, iron depletion and oxidative stress <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>, <xref ref-type="bibr" rid="pone.0011328-MonjeCasas1">[18]</xref>, <xref ref-type="bibr" rid="pone.0011328-Tao1">[19]</xref>, all of which are encountered by <italic>Salmonella</italic> during the course of an infection. This observation, together with the fact that <italic>nrdHIEF</italic> is also regulated by Fur, one of the main modulators of virulence <xref ref-type="bibr" rid="pone.0011328-Ellermeier1">[24]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0011328-Janakiraman1">[26]</xref>, suggests that <italic>nrdHIEF</italic> may have a leading role in the pathogenesis of <italic>Salmonella.</italic></p>
+        <p>We therefore proceeded to evaluate the essentiality of each RNR class during the infectious process, first constructing <italic>nrd</italic> mutants for each RNR class and then combining them to obtain double mutants (<xref ref-type="sec" rid="s4">Materials and Methods</xref>).</p>
+        <p>Since NrdAB is essential for growth under aerobic conditions, we used two different strategies to construct a class Ia mutant. One <italic>nrdAB</italic> mutant was achieved by inserting an extra copy of <italic>nrdHIEF</italic> elsewhere in the chromosome. The second type of <italic>&#x394;nrdAB</italic> mutant was constructed during anaerobic growth, where <italic>nrdDG</italic> is used to provide dNTPs.</p>
+        <p><italic>&#x394;nrdEF</italic> (IG138) and <italic>&#x394;nrdDG</italic> (IG139) mutants were constructed according to the Wanner and Datsenko method (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>).</p>
+        <p>We also constructed the double mutants <italic>&#x394;nrdHIEF/&#x394;nrdDG</italic> (IG140) and <italic>&#x394;nrdAB/&#x394;nrdDG</italic>. The latter mutant is not viable, either in aerobiosis or anaerobiosis, unless supplied with an extra <italic>nrdHIEF</italic> copy, but we wanted to check if overexpression of the cognate class Ib enzyme would suffice to maintain growth. Therefore, this double mutant was constructed on both <italic>&#x394;nrdR</italic> and <italic>&#x394;fur</italic> background strains. We first constructed the <italic>&#x394;nrdAB/&#x394;nrdR</italic> (IG143) and <italic>&#x394;nrdAB/&#x394;fur</italic> (IG144) double mutants grown anaerobically and then transduced the <italic>&#x394;nrdDG</italic> mutation to originate the triple mutant strains IG145 and IG146, respectively (<xref ref-type="supplementary-material" rid="pone.0011328.s001">Table S1</xref>). Surprisingly, all <italic>nrdAB</italic> mutants overexpressing <italic>nrdHIEF</italic> proved capable of growing in the presence of oxygen with only a class Ib enzyme, although they displayed much slower growth rates as well as a filamentous morphology (<xref ref-type="supplementary-material" rid="pone.0011328.s003">Figure S2</xref>).</p>
+      </sec>
+      <sec id="s2f">
+        <title>Role of RNRs during macrophage infection</title>
+        <p><italic>nrd</italic> single and double mutants were used in gentamicin protection assays to infect RAW264.7 mouse macrophage-like cell lines in order to obtain proliferation indexes for each mutant strain.</p>
+        <p>As shown in <xref ref-type="fig" rid="pone-0011328-g007">Figure 7A</xref>, neither <italic>nrdEF</italic> (PI&#x200A;=&#x200A;2.1) nor <italic>nrdDG</italic> (PI&#x200A;=&#x200A;3.99) seemed to be involved in dNTP synthesis during pathogenesis. The <italic>nrdAB</italic> mutant bearing two copies of <italic>nrdHIEF</italic>, however, could not proliferate at 24 h post-infection (PI&#x200A;=&#x200A;0.105).</p>
+        <fig id="pone-0011328-g007" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Role of RNR during macrophage infection.</title>
+            <p><bold>A.</bold> Proliferation indexes (PI) at 24 h p. i. of wild-type, <italic>&#x394;nrdAB</italic> (IG136), <italic>&#x394;nrdEF</italic> (IG138), <italic>&#x394;nrdDG</italic> (IG139), and <italic>&#x394;nrdEF&#x394;nrdDG</italic> (IG140) mutant strains grown in RAW24.7 (black) or RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> (grey) mouse macrophage-like cell lines. <bold>B.</bold> Proliferation indexes (PI) at 24 h p.i. of wild-type and <italic>&#x394;nrdAB</italic> (IG136) strains infecting RAW264.7 (black), RAW264.7 + 65 &#xB5;M 2,2&#x2032;-dipyridil (DIP) (light grey) and RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> (dark grey). <bold>C.</bold> Proliferation indexes (PI) at 4, 6 and 24 h p.i. shown in black, light grey, and dark grey, respectively, of wild-type and IG137 strains infecting RAW264.7 and RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> mouse macrophage-like cell lines. Results are the mean values of at least three independent experiments. Error bars represent the standard deviation of the mean. P values were determined by Student's <italic>t</italic> test for proliferation indexes. ** indicates significant differences, P&lt;0.05.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g007"/>
+        </fig>
+        <p>The RAW264.7 cell line is defective in the Nramp1 protein, which mediates resistance to numerous intracellular pathogens (such as <italic>Leishmania</italic>, <italic>Mycobacterium</italic>, and <italic>Salmonella</italic> <xref ref-type="bibr" rid="pone.0011328-Gros1">[27]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0011328-Plant1">[29]</xref> presumably due to its inability to transport iron from the phagosome to the cytosol <xref ref-type="bibr" rid="pone.0011328-Wyllie1">[30]</xref>. Thus, RAW264.7 cells produce a <italic>Salmonella</italic> containing vacuole (SCV) the iron concentration of which might be high enough to inhibit <italic>nrdHIEF</italic> transcription via Fur.</p>
+        <p>Therefore, we repeated the same assays this time using a cell line transfected with this transporter (RAW264.7 <italic>Nramp1<sup>+/+</sup></italic>) <xref ref-type="bibr" rid="pone.0011328-Govoni1">[31]</xref>.</p>
+        <p>All mutants showed lower PI compared to those with the RAW264.7 cell line, but overall we obtained similar results. Neither the <italic>nrdEF</italic> (PI&#x200A;=&#x200A;1.204), nor the <italic>nrdDG</italic> mutant (PI&#x200A;=&#x200A;1.585) had significant differences when compared to the wild-type strain (PI&#x200A;=&#x200A;1.239), and the <italic>nrdAB</italic> mutant (PI&#x200A;=&#x200A;0.143) behaved very much alike in both cell lines (<xref ref-type="fig" rid="pone-0011328-g007">Figure 7A</xref>).</p>
+        <p>Nevertheless, when the RAW264.7 cell line was treated with 65 &#xB5;M of the iron chelator 2,2&#x2032;-dipyridyl (DIP), the <italic>nrdAB</italic> mutant containing an additional <italic>nrdHIEF</italic> copy showed a significantly higher PI than that of the untreated assay or the RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> cell line (<xref ref-type="fig" rid="pone-0011328-g007">Figure 7B</xref>).</p>
+        <p>The <italic>nrdAB</italic> mutant bearing a single <italic>nrdHIEF</italic> copy (IG137) was also analyzed in both RAW264.7 and RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> but at shorter times: 4, 6 and 24 hours post-infection (p.i.). As shown in <xref ref-type="fig" rid="pone-0011328-g007">Figure 7C</xref>, this mutant was able to maintain its viability up to 6 hours p.i., eventually dying (at 24 h p.i.) regardless of the cell line used.</p>
+        <p>Our next step was to assess whether the double (IG143 and IG144) and triple (IG145 and IG146) mutants experienced the same phenomenon. <xref ref-type="fig" rid="pone-0011328-g008">Figure 8</xref> shows that during the early stages of infection these mutants were also able to maintain their viability growing at the expense of <italic>nrdHIEF</italic> overexpression, although there were no significant differences in their proliferation indexes and those of the <italic>nrdAB</italic> mutant. The effect of single <italic>nrdR</italic> or <italic>fur</italic> mutants on growth rates and macrophage infection was also evaluated as an additional control (<xref ref-type="supplementary-material" rid="pone.0011328.s004">Figures S3</xref> and <xref ref-type="supplementary-material" rid="pone.0011328.s005">S4</xref>).</p>
+        <fig id="pone-0011328-g008" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>Role of <italic>nrdHIEF</italic> during macrophage infection.</title>
+            <p>Proliferation indexes (PI) at 4, 6 and 24 h p.i. for wild-type, <italic>&#x394;nrdAB&#x394;nrdR</italic> (IG143) and <italic>&#x394;nrdAB&#x394;fur</italic> (IG144) double mutant strains and <italic>&#x394;nrdAB&#x394;nrdDG&#x394;nrdR</italic> (IG145) and <italic>&#x394;nrdAB&#x394;nrdDG&#x394;fur</italic> (IG146) triple mutant strains infecting (<bold>A</bold>) RAW264.7 and (<bold>B</bold>) RAW264.7 <italic>Nramp1<sup>+/+</sup></italic>. Results are the mean values of at least three independent experiments. Error bars represent the standard deviation of the mean. Significant differences were determined by Student's <italic>t</italic> test for proliferation indexes with P&lt;0.05.</p>
+          </caption>
+          <graphic xlink:href="pone.0011328.g008"/>
+        </fig>
+      </sec>
+      <sec id="s2g">
+        <title>Role of RNRs during infection of epithelial cells</title>
+        <p>In order to further investigate the involvement of each RNR class in the pathogenicity of <italic>Salmonella</italic> we analyzed invasion and proliferation inside epithelial cells.</p>
+        <p><xref ref-type="table" rid="pone-0011328-t001">Table 1</xref> shows the invasion and proliferation indexes (%) of the different mutants inside a HeLa epithelial cell line.</p>
+        <table-wrap id="pone-0011328-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0011328.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Invasion and proliferation indexes of wild-type and mutant strains infecting HeLa epithelial cell cultures.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0011328-t001-1" xlink:href="pone.0011328.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strain</td>
+                  <td align="left" rowspan="1" colspan="1">Invasion Index HeLa*</td>
+                  <td align="left" rowspan="1" colspan="1">Proliferation Index HeLa<sup>&#x2021;</sup></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">SL1344</td>
+                  <td align="left" rowspan="1" colspan="1">100&#xB1;27.67</td>
+                  <td align="left" rowspan="1" colspan="1">25.86&#xB1;3.27</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG137 (&#x394;<italic>nrdAB</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">0.027&#xB1;0.019<sup>#</sup></td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG138 (&#x394;<italic>nrdEF</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">65.27&#xB1;3.01</td>
+                  <td align="left" rowspan="1" colspan="1">29.39&#xB1;13.16</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG139 (&#x394;<italic>nrdDG</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">130.94&#xB1;92.45</td>
+                  <td align="left" rowspan="1" colspan="1">23.51&#xB1;1.90</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG140 (&#x394;<italic>nrdEF</italic>&#x394;<italic>nrdDG</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">166.72&#xB1;22.12</td>
+                  <td align="left" rowspan="1" colspan="1">24.34&#xB1;9.11</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG143 (&#x394;<italic>nrdAB</italic>&#x394;<italic>nrdR</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">1.66&#xB1;0.38<sup>#</sup></td>
+                  <td align="left" rowspan="1" colspan="1">0.30&#xB1;0.30<sup>#</sup></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG144 (&#x394;<italic>nrdAB</italic>&#x394;<italic>fur</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">0.08&#xB1;0.06<sup>#</sup></td>
+                  <td align="left" rowspan="1" colspan="1">0.027&#xB1;0.04<sup>#</sup></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG145 (&#x394;<italic>nrdAB</italic>&#x394;<italic>nrdDG</italic>&#x394;<italic>nrdR</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">IG146 (&#x394;<italic>nrdAB</italic>&#x394;<italic>nrdDG</italic>&#x394;<italic>fur</italic>)</td>
+                  <td align="left" rowspan="1" colspan="1">0.14&#xB1;0.05<sup>#</sup></td>
+                  <td align="left" rowspan="1" colspan="1">0.62&#xB1;0.35<sup>#</sup></td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p><bold>Footnotes.</bold> *Percentage of bacteria invading HeLa cells in 20 min and surviving the gentamicin protection assay. Viable counts were seeded at 2 h p.i. Values are normalized according to the wild-type strain (0.76&#xB1;0.211). <sup>&#x2021;</sup>Viable intracellular bacteria at 24 h p.i. versus viable intracellular bacteria at 2 h p.i. All results are the mean value of triplicates of three independent experiments. <sup>#</sup>Significant values compared to the wild-type strain (p&lt;0.05). ND: Not detected in any of the experiments.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Our results indicate that <italic>nrdAB</italic> was essential for invasion and proliferation of <italic>Salmonella</italic> inside HeLa epithelial cells, and given the assayed conditions neither <italic>nrdHIEF</italic> nor <italic>nrdDG</italic> seemed to have a relevant role in dNTP synthesis.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>In this work we have studied the transcriptional regulation of the class Ia, class Ib and class III ribonucleotide reductases present in <italic>S.</italic> Typhimurium in response to Fur and NrdR transcriptional factors, and evaluated the role of each class during the course of an infection.</p>
+      <p>The presence of a poorly expressed class Ib enzyme in <italic>S.</italic> Typhimurium and <italic>Enterobacteriaceae</italic> in general has been a very puzzling issue since it was first described <xref ref-type="bibr" rid="pone.0011328-Jordan3">[32]</xref>. It has previously been shown that <italic>nrdHIEF</italic> may have a role during oxidative stress, although it does not seem to be regulated by either SoxRS or OxyR, the main regulators of the oxidative stress in enterobacteria <xref ref-type="bibr" rid="pone.0011328-MonjeCasas1">[18]</xref>. <italic>nrdHIEF</italic> has also been suggested to respond to intracellular iron levels in a Fur-dependent fashion <xref ref-type="bibr" rid="pone.0011328-McHugh1">[8]</xref>, <xref ref-type="bibr" rid="pone.0011328-Vassinova1">[9]</xref>.</p>
+      <p>In this work we have proven that Fur is indeed a transcriptional regulator of <italic>nrdHIEF</italic> in <italic>S.</italic> Typhimurium, normally repressing its expression and causing an upregulation under iron depleted growth (data not shown). We have also identified a Fur recognition sequence <xref ref-type="bibr" rid="pone.0011328-Escolar1">[33]</xref> (<xref ref-type="fig" rid="pone-0011328-g004">Figure 4A</xref>) located at position -309 within the <italic>nrdHIEF</italic> promoter region. Site-directed modification of the Fur box leads to a transcriptional upregulation of <italic>nrdHIEF</italic> similar to that caused by the Fur mutant. Furthermore, we have shown Fur binding to both this sequence and to its own promoter, indicating a direct role of the Fur protein in the regulation of class Ib <italic>nrd</italic> genes as well as in the autoregulation of <italic>fur</italic> expression similarly to what has previously been described in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0011328-DeLorenzo1">[23]</xref>.</p>
+      <p>It has recently been suggested that a novel global regulator, termed NrdR, controls the overall expression of all <italic>nrd</italic> genes in a wide variety of microorganisms. NrdR was first described in <italic>Streptomyces coelicolor</italic> <xref ref-type="bibr" rid="pone.0011328-Borovok1">[12]</xref> as a regulator of the class Ia and class II RNRs present in this microorganism. Later on, Rodionov and Gefland reported the presence of putative NrdR boxes upstream from <italic>nrd</italic> genes in many different species of microorganisms <xref ref-type="bibr" rid="pone.0011328-Rodionov1">[22]</xref>. It has been suggested that NrdR may regulate <italic>nrd</italic> expression in response to the intracellular pools of ATP/dATP, a hypothesis supported by the presence of an ATP-cone in this protein similar to that of the allosteric activity site of R1 <xref ref-type="bibr" rid="pone.0011328-Aravind1">[34]</xref>.</p>
+      <p>Our results show that NrdR indeed regulates transcription of class Ia, class Ib and class III RNRs in <italic>S.</italic> Typhimurium LT2 and it has a major effect on <italic>nrdHIEF</italic> transcription. These results are in agreement with those found in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0011328-Torrents1">[11]</xref>.</p>
+      <p>We have also shown that the upregulated expression of both <italic>nrdAB</italic> and <italic>nrdHIEF</italic> upon addition of hydroxyurea is mediated by NrdR. Hydroxyurea is a growth-inhibitor capable of scavenging the tyrosyl radical found in the small subunit of class I RNRs, thus impairing its catalytic activity <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>, <xref ref-type="bibr" rid="pone.0011328-Torrents2">[20]</xref>, <xref ref-type="bibr" rid="pone.0011328-Filpula2">[35]</xref>. We believe that the scavenging activity of hydroxyurea alters the intracellular ATP/dATP pools, which are sensed by NrdR and cause its release from <italic>nrd</italic> promoters, leading to an increased expression of class I RNRs. Since HU cannot scavenge the glycyl radical of class III enzymes it should not alter wild-type <italic>nrdDG</italic> expression either in aerobic or anaerobic conditions, and we believe that the small increase observed in <xref ref-type="fig" rid="pone-0011328-g003">Figure 3</xref> is mainly due to HU acting upon class I enzymes and activating NrdR release (note that FNR is also needed for <italic>nrdDG</italic> expression <xref ref-type="bibr" rid="pone.0011328-Roca1">[10]</xref>). These results reinforce the role of NrdR as a global <italic>nrd</italic> regulator that mimics the allosteric responses of RNR at a transcriptional level.</p>
+      <p>Our results also show that <italic>nrdHIEF</italic> expression is independently regulated by Fur and NrdR, since an additive effect can be observed for the NrdR/Fur double mutant (<xref ref-type="fig" rid="pone-0011328-g005">Figure 5B</xref>).</p>
+      <p>In an attempt to characterize the direct binding of NrdR to <italic>nrd</italic> promoters, we specifically modified each of the putative NrdR recognition sequences described by Rodionov and Gefland <xref ref-type="bibr" rid="pone.0011328-Rodionov1">[22]</xref>. Mutation of these sequences unveiled a complex regulatory mechanism since not all mutated boxes showed increased promoter expression.</p>
+      <p>In the <italic>nrdAB</italic> promoter, mutation of NrdRBox2 results in the same transcriptional levels as those of the NrdR mutant strain. The NrdRBox1 mutant and the double mutant, however, do not achieve the same levels detected with a <italic>&#x394;nrdR</italic> mutation, albeit they show increased transcriptional levels compared to the wild-type strain. The first nucleotides of the NrdR1 box overlap with the -10 sequence and even though we were careful not to modify them, it is possible that this mutation somehow affects RNA polymerase binding. Neither can we discard the presence of additional regulatory sequences within this region.</p>
+      <p>More disturbing is the observed lack of <italic>nrdHIEF</italic> expression for the NrdR2 box mutant. Again, modification of the putative recognition sequence might have altered the overlapping -10 box and prevented RNA polymerase from binding to the <italic>nrdHIEF</italic> promoter sequence. The increased expression of the double mutant, however, rules out this scenario and more likely the NrdR2 box is not involved in NrdR binding and promoter repression.</p>
+      <p>In the <italic>nrdDG</italic> promoter sequence, the NrdR1 box overlaps a few nucleotides from one of the FNR (fumarate nitrate reduction) recognition sites. FNR is a transcriptional regulator which activates transcription of some genes involved in anaerobic metabolism an represses the expression of some other genes needed during aerobic growth <xref ref-type="bibr" rid="pone.0011328-Williams1">[36]</xref>, <xref ref-type="bibr" rid="pone.0011328-Kiley1">[37]</xref>. If the NrdR1 box is mutated, NrdR cannot bind and therefore FNR is able to bind to its own recognition site, which could explain the higher expression levels found in NrdR1 box mutants (similar to those of the wild-type) compared to NrdR2 box mutants.</p>
+      <p>Electrophoretic mobility shifts assays could not be conducted for NrdR since the overproduced proteins were continuously recovered in the insoluble fraction upon purification, regardless of the elution conditions used (not shown).</p>
+      <p>There is no information available about the exact mechanism of NrdR repression. It is not well understood whether NrdR interaction with the promoter causes a direct blocking of RNA polymerase by steric hindrance or if binding of NrdR dimers to both boxes (note that NrdR boxes are palindromic sequences) causes DNA to bend impairing RNA polymerase binding.</p>
+      <p>Torrents <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0011328-Torrents1">[11]</xref> suggested a more predominant role for the NrdR2 box of both <italic>E. coli</italic> and <italic>S. Typhimurium</italic> on the grounds of sequence conservation and the lack of mobility shifted bands when using a probe containing the <italic>nrdA</italic> promoter region with a mutated NrdR2 box. Our site-directed mutants corroborate these findings for the class Ia enzyme but NrdR regulation of the class Ib and class III genes requires further evaluation.</p>
+      <p>In the present study we also attempted to elucidate the actual role of the poorly transcribed class Ib reductase. Previous studies indicate overexpression of <italic>nrdHIEF</italic> under circumstances that might resemble those encountered during the course of an infection <xref ref-type="bibr" rid="pone.0011328-McHugh1">[8]</xref>, <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>, <xref ref-type="bibr" rid="pone.0011328-MonjeCasas1">[18]</xref> and, therefore, we evaluated the contribution of each RNR enzyme in macrophage proliferation and cellular invasion.</p>
+      <p>Our results indicate that neither NrdEF nor NrdDG are essential for the growth of <italic>Salmonella</italic> inside macrophages and epithelial cell lines, being the class Ia enzyme the sole responsible for the replication of <italic>Salmonella</italic> in cultured cells, a situation that resembles what has been found <italic>in vitro</italic> <xref ref-type="bibr" rid="pone.0011328-Jordan2">[16]</xref>.</p>
+      <p>An <italic>nrdAB</italic> mutant overexpressing <italic>nrdHIEF</italic>, however, is able to grow under standard laboratory conditions, indicating some ribonucleotide reductase activity and, when used to infect macrophage cell lines, it is able to maintain certain growth during the first hours of infection, eventually dying.</p>
+      <p>When growing in the lab, these mutants present evident growth deficiencies, tend to form filaments and need constant aeration, a phenomenon also described in an <italic>E. coli</italic> mutant with a <italic>Mud1</italic> insertion in <italic>nrdB</italic> growing in aerobiosis <xref ref-type="bibr" rid="pone.0011328-Hantke1">[38]</xref>. Similarly, an <italic>nrdDG</italic> mutant growing in strict anaerobiosis also forms filaments presumably due to a deficiency in DNA synthesis <xref ref-type="bibr" rid="pone.0011328-Garriga1">[39]</xref>.</p>
+      <p>This growth deficiency may explain why all these <italic>nrdAB</italic> mutants are unable to invade epithelial cells since their fitness is severely reduced, but we believe <italic>nrdHIEF</italic> activity might have a role during the early stages of infection (4&#x2013;6 hours post-infection).</p>
+      <p>Macrophages possess defense mechanisms against intracellular pathogens based on antimicrobial peptides, ribosomal enzymes, and radical generation by NADPH oxidase and inducible nitric oxide synthase (iNOS) <xref ref-type="bibr" rid="pone.0011328-VazquezTorres1">[40]</xref>. NADPH oxidase is responsible for the respiratory burst, reducing oxygen to superoxide ion and this radical is the precursor of more reactive oxygen species (ROS) <xref ref-type="bibr" rid="pone.0011328-Miller1">[41]</xref>. NADPH oxidase is the first enzyme to mediate the bactericide effect produced by the oxidative burst during the initial stages (2&#x2013;4 h p.i.) <xref ref-type="bibr" rid="pone.0011328-VazquezTorres2">[42]</xref>, <xref ref-type="bibr" rid="pone.0011328-Buchmeier1">[43]</xref>. iNOS would participate in the nitrosative burst after NADPH oxidase to apply a sustained bacteriostatic effect <xref ref-type="bibr" rid="pone.0011328-VazquezTorres2">[42]</xref>, <xref ref-type="bibr" rid="pone.0011328-DeGroote1">[44]</xref>.</p>
+      <p>It has been described that these radicals damage membranes, enzymes and DNA. In fact, <italic>S.</italic> Typhimurium recombination deficient mutants (<italic>recA</italic> and <italic>recBC</italic>) are avirulent and sensitive to the oxidative burst of macrophages <xref ref-type="bibr" rid="pone.0011328-Buchmeier1">[43]</xref>. Hydrogen peroxide also participates in the oxidative burst and has been described as an inductor of <italic>nrdHIEF</italic> expression in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0011328-Zheng1">[17]</xref>, <xref ref-type="bibr" rid="pone.0011328-MonjeCasas1">[18]</xref>.</p>
+      <p>We suggest that <italic>nrdHIEF</italic> is needed to provide an extra supply of dNTPs to the cell when they are most needed: during cellular stress and DNA damage.</p>
+      <p>A similar dNTP extra supply has been described in the strict anaerobe <italic>Bacteroides fragilis</italic>, which has both class I and class III enzymes. Despite being an anaerobe, it can tolerate a certain amount of oxygen during extensive periods of time. This tolerance is due to a class Ia enzyme that synthesizes dNTPs enabling DNA repair and growth recovery after continuous exposure to oxygen <xref ref-type="bibr" rid="pone.0011328-Smalley1">[45]</xref>.</p>
+      <p>Microarray profiling studies also indicate an OxyR-independent overexpression of <italic>nrdHIEF</italic> in <italic>E. coli</italic> in response to hydrogen peroxide <xref ref-type="bibr" rid="pone.0011328-Zheng1">[17]</xref> and, more recently, Hautefort <italic>et al.</italic> (<xref ref-type="bibr" rid="pone.0011328-Hautefort1">[46]</xref>) showed induced <italic>nrdHIEF</italic> transcription during the early stages of macrophage infection but not in epithelial cell lines, thus corroborating our findings.</p>
+      <p>During oxidative stress, formed radicals can oxidize essential divalent cations, such as Fe<sup>2+</sup>, normally used as cofactors in many proteins. Hydrogen peroxide is able to oxidize the 4Fe-4S clusters present in many proteins to 3Fe-4S clusters. Iron is then free to act through Fenton reaction and cause DNA damage <xref ref-type="bibr" rid="pone.0011328-Jang1">[47]</xref>, <xref ref-type="bibr" rid="pone.0011328-Keyer1">[48]</xref>. In <italic>E. coli</italic> hydroxiperoxidase mutants treated with micromolecular levels of hydrogen peroxide, Fur is unable to control the free iron levels since oxidation of Fe<sup>2+</sup> to Fe<sup>3+</sup> by hydrogen peroxide inactivates its repressor activity. Thus, the oxidative burst and the subsequent DNA damage that takes place during the early infection most likely triggers <italic>nrdHIEF</italic> expression by means of both Fur and NrdR, helping to overcome the host defenses.</p>
+      <p>This is the first time that the role of different RNR classes during the course of an infection has been evaluated in <italic>Enterobacteriaceae</italic> and, although class Ia enzymes consolidate their essential function, a plausible role for class Ib RNR is suggested.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains, plasmids and growth conditions</title>
+        <p>Bacterial strains and plasmids used in this study are listed in <xref ref-type="supplementary-material" rid="pone.0011328.s001">Table S1</xref>. Cultures were typically grown in Luria-Bertani broth (LB; <xref ref-type="bibr" rid="pone.0011328-Miller2">[49]</xref>) at 37&#xB0;C. Cultures for preparation of electrocompetent cells were grown in 2xYT medium at 37&#xB0;C. Solid media were prepared using 1.5% agar. Antibiotics were used at the following concentrations: kanamycin, 50 &#xB5;g ml<sup>&#x2212;1</sup>; ampicillin, 50 &#xB5;g ml<sup>&#x2212;1</sup>; spectinomycin, 200 &#xB5;g ml<sup>&#x2212;1</sup>; rifampicin, 75 &#xB5;g ml<sup>&#x2212;1</sup>; chloramphenicol, 35 &#xB5;g ml<sup>&#x2212;1</sup>.</p>
+        <p>Anaerobic growth was achieved using LB + sodium sulphate (3.2 mM) or LB + nitrates (KNO<sub>3</sub> 0.04 M + sodium molybdate 10<sup>&#x2212;3</sup> mM). Tubes were filled to the top without leaving any air bubbles. Strains were grown on solid media in LB + nitrates inside Anaerocult<sup>&#xAE;</sup> (Merck) bags with an anaerobic indicator (Anaerotest<sup>&#xAE;</sup>, Merck).</p>
+      </sec>
+      <sec id="s4b">
+        <title>General genetic techniques</title>
+        <p>General DNA manipulations were done by standard procedures <xref ref-type="bibr" rid="pone.0011328-Sambrook1">[50]</xref>. Transductions in <italic>S. enterica</italic> serovar Typhimurium were carried out using a high-transduction derivative of phage P22<italic>int</italic>-7 as described by Miller <xref ref-type="bibr" rid="pone.0011328-Miller2">[49]</xref>. Conjugations were carried out as described by de Lorenzo <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0011328-deLorenzo1">[51]</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Construction of reporter fusions</title>
+        <p>Reporter fusions were constructed as described by de Lorenzo <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0011328-deLorenzo1">[51]</xref>. Briefly, DNA fragments of approximately 500 bp containing the 5&#x2032; end of the <italic>nrdAB</italic>, <italic>nrdEF</italic> or <italic>nrdDG</italic> genes and the upstream regulatory regions were ligated into the <italic>EcoRI/BamHI</italic> sites of plasmid pUJ8, yielding transcriptional fusions between these fragments and the <italic>lacZ</italic> gene. All constructs were confirmed by PCR and DNA sequencing. Fusions were then transferred to plasmids pUT-miniTn<italic>5-</italic>Km2 or pUT-miniTn<italic>5-</italic>Sm/Spc by <italic>Not</italic>I digestion and introduced into the <italic>E. coli</italic> conjugative strain S17-1 &#x3BB;<italic>pir</italic>. Biparental conjugation between S17-1&#x3BB;<italic>pir</italic> and recipient strains was used to obtain transposition and insertion of the fusions within the <italic>Salmonella</italic> chromosome, generating the strains listed in <xref ref-type="supplementary-material" rid="pone.0011328.s001">Table S1</xref>.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Beta-galactosidase activity assays</title>
+        <p>&#x3B2;-Galactosidase activities expressed from <italic>nrdDG-lacZ</italic> fusions were assayed according to the method of Miller <xref ref-type="bibr" rid="pone.0011328-Miller2">[49]</xref> using cultures grown in LB broth either oxically or anoxically (in screw-cap tubes filled to the neck with 3.2 mM sodium sulfide). The quoted specific activities (Miller Units) are averages of triplicate samples of at least three independent cultures.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Construction of <italic>nrdR</italic> and <italic>fur</italic> null mutants</title>
+        <p><italic>nrdR</italic> and <italic>fur</italic> null mutants were constructed using the method described by Wanner and Datsenko <xref ref-type="bibr" rid="pone.0011328-Datsenko1">[52]</xref>. The coding region of <italic>nrdR</italic> and <italic>fur</italic> was replaced by a kanamycin resistance cassette from pKD4. Mutated genes were subsequently transduced to <italic>Salmonella enterica</italic> serovar Typhimurium LT2 strains bearing the <italic>nrdAB</italic>::<italic>lacZ</italic>, <italic>nrdEF</italic>::<italic>lacZ</italic> and <italic>nrdDG</italic>::<italic>lacZ</italic> transcriptional fusions (see <xref ref-type="supplementary-material" rid="pone.0011328.s001">Table S1</xref>). The unmarked mutants were also obtained as described by Wanner and Datsenko.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Complementation assays</title>
+        <p><italic>nrdR</italic> and <italic>fur</italic> were amplified by PCR using primer pairs containing a ribosomal binding site sequence from <italic>E. coli</italic> and the <italic>SacI</italic> (forward primers) and <italic>XbaI</italic> (reverse primers) restriction sites. The resulting fragments were purified and digested with <italic>SacI</italic> and <italic>XbaI</italic> and inserted into pBAD<sub>33</sub>Cm <xref ref-type="bibr" rid="pone.0011328-Guzman1">[53]</xref> to generate pIG85 (<italic>nrdR</italic>) and pIG89 (<italic>fur</italic>), which were subsequently electroporated into <italic>S.</italic> Typhimurium LT2 &#x394;<italic>nrdR</italic> or <italic>&#x394;fur</italic> containing the desired <italic>nrd-lacZ</italic> reporter fusions. Plasmid expression was induced with 0.2% L-arabinose after 30 minutes.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Site-directed mutagenesis of NrdR recognition sequences</title>
+        <p>NrdR1 and NrdR2 boxes in the promoter regions of <italic>nrdAB</italic>, <italic>nrdHIEF</italic> and <italic>nrdDG</italic> were mutagenized by overlap extension PCR <xref ref-type="bibr" rid="pone.0011328-Heckman1">[54]</xref>. Briefly, a first PCR was performed to amplify the 5&#x2032; and 3&#x2032; ends of the promoter regions using primers that introduced the desired mutations. A second PCR was then performed using the 5&#x2032; and 3&#x2032; amplicons as a template and external primers to amplify the full length product. The resulting amplicons were cloned into the pGEM-t easy vector (Promega) and used to construct <italic>lacZ</italic> reporter fusions as described above.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Protein expression and purification of Fur</title>
+        <p>The <italic>fur</italic> gene was amplified by PCR from a <italic>Salmonella enterica</italic> serovar Typhimurium LT2 colony using a set of primers that introduced <italic>NdeI</italic> and <italic>BamHI</italic> restriction sites at the 5&#x2032; and 3&#x2032; ends of the amplicon, respectively. Following purification, it was inserted into the cognate sites of pET22a (Novagen) to introduce a C-terminal 6xHis tag. The final construct was then transformed into <italic>E. coli</italic> BL21(DE3) and grown overnight at 37&#xB0;C in LB medium containing 50 &#xB5;g ml<sup>&#x2212;1</sup> carbenicillin. Overnight cultures of <italic>E. coli</italic> BL21(DE3) bearing the pET22b-<italic>fur</italic> plasmid were diluted 1/100 in LB with 50 &#xB5;g ml<sup>&#x2212;1</sup> carbenicillin and grown at 37&#xB0;C with shaking until they reached an A<sub>600</sub>&#x223C;0.5. The culture was then inoculated with isopropyl-&#x3B2;-D-thiogalactopyranoside (IPTG) (Sigma) to a final concentration of 0.5 mM and grown for 4 hours at 37&#xB0;C. Cells were harvested by centrifugation at 3,000xg for 10 min at 4&#xB0;C and the cell pellet stored at &#x2212;70&#xB0;C.</p>
+        <p>The pellet was resuspended in buffer A solution (20 mM PBS, 0.5 M NaCl and 20 mM imidazole) and extensively sonicated. The cell lysate was centrifuged at 38,000xg for 1 hour at 4&#xB0;C and the supernatant was loaded into a HisTrap HP Ni<sup>2+</sup>-affinity column (Amersham biosciences). The Fur protein was eluted at 330 mM imidazole and dialyzed against 50 mM Tris-HCl pH 7.5, 300 mM NaCl and 15% glycerol buffer. Dialyzed protein was further concentrated in Centriplus YM-10 (Millipore) and stored at &#x2212;80&#xB0;C. The quality and the concentration of the samples were assessed by SDS-PAGE and the Bradford method, respectively <xref ref-type="bibr" rid="pone.0011328-Bradford1">[55]</xref>.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Electrophoretic mobility shift assay</title>
+        <p>A DNA probe of 478 bp containing the promoter region of <italic>nrdHIEF</italic> was amplified by PCR and cloned into the pGEM-t easy vector. The same was done with a DNA probe of 474 bp containing the <italic>fur</italic> promoter region. The DNA probes were 3&#x2032;dig-ddUTP labelled using a terminal transferase kit (Roche). Binding reactions were carried out in a final volume of 20 &#xB5;l containing binding buffer (10 mM Tris-HCl pH 8, 5% glycerol, 100 &#xB5;M MnCl<sub>2</sub>, 1 mM MgCl<sub>2</sub>, 40 mM KCl, 0.1 mg/ml BSA), 3&#x2032;dig-ddUTP-labelled DNA (20 pg), and purified Fur protein (ranging from 0 to 1.5 &#xB5;g of protein). Binding reactions were incubated 20 min at 37&#xB0;C and loaded into a 5% polyacrylamide gel (30&#x2236;0.8 acrylamide:bisacrylamide w/v) in 0.5&#xD7; TBE buffer. The gel was electro-blotted onto a positively charged nylon membrane (Roche), UV-cross-linked and developed by chemiluminescence and colorimetric procedures according to the manufacturer's protocols (Roche Diagnostics).</p>
+      </sec>
+      <sec id="s4j">
+        <title>Construction of <italic>nrd</italic> mutants</title>
+        <p><italic>nrdHIEF</italic> and <italic>nrdDG</italic> unmarked mutants were constructed according to Wanner and Datsenko <xref ref-type="bibr" rid="pone.0011328-Datsenko1">[52]</xref> originating the <italic>S.</italic> Typhimurium strains IG138 and IG139 (see <xref ref-type="supplementary-material" rid="pone.0011328.s001">Table S1</xref>). An entire fragment of 3103 bp containing both the <italic>nrdE</italic> and <italic>nrdF</italic> coding regions was deleted in strain IG138, and in IG139 both the <italic>nrdD</italic> and <italic>nrdG</italic> coding regions are missing.</p>
+        <p>The <italic>nrdAB</italic> mutant strain had been previously constructed in our lab. It is an LT2 strain containing an <italic>nrdA'::&#x3A9;Spc'nrdB</italic> mutation and an extra <italic>nrdEF</italic> copy inserted elsewhere in the chromosome (merodiploid) allowing aerobic growth. <italic>nrdA'::&#x3A9;Spc'nrdB</italic> from this strain was transduced to the intermediate strain (SL1344 <italic>&#x394;nrdEF::Km</italic>) obtained during construction of <italic>&#x394;nrdEF</italic> with the Wanner and Datsenko method. A second <italic>nrdAB</italic> mutant strain was also obtained by transducing <italic>nrdA'::&#x3A9;Cm'nrdB</italic> from strain IG1 pIG8 into SL1344 wild-type in anaerobic conditions. This mutant contains a deletion in the <italic>nrdAB</italic> operon leaving only 560 bp of the 5&#x2032; end (168 bp corresponding to <italic>nrdA</italic> and 392 bp corresponding to the non-coding region in the 5&#x2032; end) as well as 440 bp of the 3&#x2032; end of <italic>nrdB</italic>. Termed IG137, this strain cannot grow under aerobic conditions.</p>
+        <p>A <italic>&#x394;nrdEF/&#x394;nrdDG</italic> double mutant strain (IG140) was obtained by transducing <italic>&#x394;nrdDG::km</italic> to strain IG138 and then eliminating the antibiotic marker.</p>
+        <p>Since the double <italic>&#x394;nrdAB/&#x394;nrdDG</italic> mutant cannot grow either in the presence or absence of oxygen, it was necessary to force <italic>nrdHIEF</italic> overexpression to allow its growth in aerobiosis. First we constructed the <italic>&#x394;nrdAB/&#x394;nrdR</italic> (IG143) <italic>and &#x394;nrdAB/&#x394;fur</italic> (IG144) double mutants in anaerobiosis and afterwards we transduced the <italic>&#x394;nrdDG::km</italic> mutation to originate strains IG145 and IG146, respectively.</p>
+      </sec>
+      <sec id="s4k">
+        <title>Replication of <italic>S.</italic> Typhimurium inside RAW264.7 macrophages (Gentamicin protection assays)</title>
+        <p>RAW264.7 (ATCC #TIB-71) and RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> <xref ref-type="bibr" rid="pone.0011328-Govoni1">[31]</xref> macrophages were harvested and seeded at 5&#xD7;10<sup>5</sup> cells per well in 24-well tissue culture plates, allowed to adhere and grown to 80% confluence in DMEM (with Glutamax<sup>&#xAE;</sup>) supplemented with FBS 10% for 24 hours. Bacterial mutant strains were grown overnight at 37&#xB0;C without agitation in order to achieve stationary phase. Overnight cultures were diluted to obtain a MOI of 10 and incubated with the cell lines for 20 minutes at 37&#xB0;C and 10% CO<sub>2</sub>. Cells were washed twice with PBS to eliminate extracellular bacteria. 500 &#xB5;l of DMEM with 100 &#xB5;g ml<sup>&#x2212;1</sup> gentamicin were added to further incubate the cells during 1 h 30 min at 37&#xB0;C. Cells were then washed twice with PBS and a fraction of the plate was treated with Triton X-100 1% to obtain intracellular bacteria. DMEM containing 10 &#xB5;g ml<sup>&#x2212;1</sup> gentamicin was added to the remaining wells and the plate was incubated for 4, 6, or 24 hours. Cells treated with Triton X-100 1% were incubated for 10 min at 37&#xB0;C and resuspended with DMEM and used to perform viable counts of intracellular bacteria. After 8 and 24 h post-infection cells were also treated with Triton X-100 to obtain intracellular viable cells. Proliferation indexes (PI) were calculated as CFU/ml at the various time points post-infection (p.i) divided by CFU/ml at 2 h p.i. Significant differences were determined by Student's <italic>t</italic> test for proliferation indexes with P&lt;0.05.</p>
+      </sec>
+      <sec id="s4l">
+        <title>Invasion assay of epithelial cell lines</title>
+        <p>This procedure is similar to the gentamicin protection assay but with subtle differences. HeLa cells (ATCC #CCL-2) were seeded at 4&#x2013;5&#xD7;10<sup>4</sup> cells per well in 24-well tissue culture plates, allowed to adhere and grown to 80% confluence in MEM supplemented with FBS 10% and glutamine for 24 hours. The MOI used in these assays was 50&#x2013;100. Cells were infected for 20 min and the procedure was the same as in macrophage assays with the only difference that cells were harvested at 2 h and 24 h p.i.</p>
+        <p>Invasion indexes were calculated as CFU/ml at 2 h p.i divided by CFU/ml of the input. Proliferation indexes were calculated as before. Significant differences were determined by Student's <italic>t</italic> test for invasion indexes with P&lt;0.05.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0011328.s001">
+        <label>Table S1</label>
+        <caption>
+          <p>Bacterial strains and plasmids used in this study.</p>
+          <p>(0.12 MB DOC)</p>
+        </caption>
+        <media xlink:href="pone.0011328.s001.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0011328.s002">
+        <label>Figure S1</label>
+        <caption>
+          <p>Effect of <italic>&#x394;fur</italic> mutation on <italic>nrdAB</italic> expression &#x3B2;-galactosidase activity is expressed in Miller Units (MU) for the wild-type strain (Wt) and mutant <italic>&#x394;fur</italic> strain (Fur<sup>-</sup>).</p>
+          <p>(0.05 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0011328.s002.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0011328.s003">
+        <label>Figure S2</label>
+        <caption>
+          <p>Effect of <italic>nrd</italic> mutants on growth rate. (A) Growth curve of the <italic>nrdA&#x2032;::&#x2126;Cm&#x2032;nrdB &#x394;fur (&#x394;AB-&#x394;fur), nrdA&#x2032;::&#x2126;Cm&#x2032;nrdB &#x394;nrdDG &#x394;fur (&#x394;AB-&#x394;DG-&#x394;fur), nrdA&#x2032;::&#x2126;Cm&#x2032;nrdB &#x394;nrdDG &#x394;nrdR (&#x394;AB-&#x394;DG-&#x394;R)</italic> and <italic>Wt</italic> (SL1344) strains from <italic>S. Typhimurium</italic> growing under aerobic conditions together with (B) viable counts.</p>
+          <p>(0.10 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0011328.s003.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0011328.s004">
+        <label>Figure S3</label>
+        <caption>
+          <p>Effect of NrdR and Fur mutants on growth rate. Growth curves for the Wt, NrdR and Fur mutant <italic>Salmonella</italic> strains.</p>
+          <p>(0.06 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0011328.s004.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0011328.s005">
+        <label>Figure S4</label>
+        <caption>
+          <p>Effect of NrdR and Fur on macrophage infection. Proliferation indexes in RAW264.7 macrophage cultures for the Wt, NrdR and Fur mutant <italic>Salmonella</italic> strains.</p>
+          <p>(0.04 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0011328.s005.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank B.L. Wanner for kindly providing plasmids for mutagenesis and also P. Gros for providing the RAW264.7 <italic>Nramp1<sup>+/+</sup></italic> macrophage cell line.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This work was supported by grants BFU2004-03383 (Ministerio de Educaci&#xF3;n y Ciencia), 2005SGR-00956 and 2009SGR-00108 (Generalitat de Catalunya), Spain. A. P. was recipient of a fellowship from the Universitat Aut&#xF2;noma de Barcelona. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0011328-Jordan1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jordan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Reichard</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Ribonucleotide reductases.</article-title>
+          <source>Annu Rev Biochem</source>
+          <volume>67</volume>
+          <fpage>71</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="pmid">9759483</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Nordlund1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nordlund</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Reichard</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Ribonucleotide reductases.</article-title>
+          <source>Annu Rev Biochem</source>
+          <volume>75</volume>
+          <fpage>681</fpage>
+          <lpage>706</lpage>
+          <pub-id pub-id-type="pmid">16756507</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Jacobson1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>A 45 bp inverted repeat is required for cell cycle regulation of the <italic>Escherichia coli nrd</italic> operon.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>28</volume>
+          <fpage>1307</fpage>
+          <lpage>1314</lpage>
+          <pub-id pub-id-type="pmid">9680218</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Sun1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Dien</surname>
+              <given-names>BS</given-names>
+            </name>
+            <name>
+              <surname>Srienc</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Cell cycle regulation of the <italic>Escherichia coli nrd</italic> operon: requirement for a <italic>cis</italic>-acting upstream AT-rich sequence.</article-title>
+          <source>J Bacteriol</source>
+          <volume>176</volume>
+          <fpage>2415</fpage>
+          <lpage>2426</lpage>
+          <pub-id pub-id-type="pmid">8157611</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Gon1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gon</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Camara</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Klungsoyr</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Crooke</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Skarstad</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2006</year>
+          <article-title>A novel regulatory mechanism couples deoxyribonucleotide synthesis and DNA replication in <italic>Escherichia coli</italic>.</article-title>
+          <source>EMBO J</source>
+          <volume>25</volume>
+          <fpage>1137</fpage>
+          <lpage>1147</lpage>
+          <pub-id pub-id-type="pmid">16482221</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Han1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>HS</given-names>
+            </name>
+            <name>
+              <surname>Yim</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>DS</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Effect of IciA protein on the expression of the <italic>nrd</italic> gene encoding ribonucleoside diphosphate reductase in <italic>E. coli</italic>.</article-title>
+          <source>Mol Gen Genet</source>
+          <volume>259</volume>
+          <fpage>610</fpage>
+          <lpage>614</lpage>
+          <pub-id pub-id-type="pmid">9819053</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Augustin1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Augustin</surname>
+              <given-names>LB</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title><italic>Escherichia coli</italic> Fis and DnaA proteins bind specifically to the nrd promoter region and affect expression of an nrd-lac fusion.</article-title>
+          <source>J Bacteriol</source>
+          <volume>176</volume>
+          <fpage>378</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="pmid">8288532</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-McHugh1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McHugh</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Quinones</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Abdul-Tehrani</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Svistunenko</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>RK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Global iron-dependent gene regulation in <italic>Escherichia coli</italic>. A new mechanism for iron homeostasis.</article-title>
+          <source>J Biol Chem</source>
+          <volume>278</volume>
+          <fpage>29478</fpage>
+          <lpage>29486</lpage>
+          <pub-id pub-id-type="pmid">12746439</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Vassinova1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vassinova</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Kozyrev</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>A method for direct cloning of <italic>fur</italic>-regulated genes: identification of seven new <italic>fur</italic>-regulated loci in <italic>Escherichia coli</italic>.</article-title>
+          <source>Microbiology</source>
+          <volume>146</volume>
+          <fpage>3171</fpage>
+          <lpage>3182</lpage>
+          <pub-id pub-id-type="pmid">11101675</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Roca1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roca</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Ballana</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Panosa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Torrents</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Gibert</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Fumarate and nitrate reduction (FNR) dependent activation of the <italic>Escherichia coli</italic> anaerobic ribonucleotide reductase <italic>nrdDG</italic> promoter.</article-title>
+          <source>Int Microbiol</source>
+          <volume>11</volume>
+          <fpage>49</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="pmid">18683632</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Torrents1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torrents</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Grinberg</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Gorovitz-Harris</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Lundstrom</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Borovok</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2007</year>
+          <article-title>NrdR controls differential expression of the <italic>Escherichia coli</italic> ribonucleotide reductase genes.</article-title>
+          <source>J Bacteriol</source>
+          <volume>189</volume>
+          <fpage>5012</fpage>
+          <lpage>5021</lpage>
+          <pub-id pub-id-type="pmid">17496099</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Borovok1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borovok</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Gorovitz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Yanku</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schreiber</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Gust</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2004</year>
+          <article-title>Alternative oxygen-dependent and oxygen-independent ribonucleotide reductases in <italic>Streptomyces</italic>: cross-regulation and physiological role in response to oxygen limitation.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>54</volume>
+          <fpage>1022</fpage>
+          <lpage>1035</lpage>
+          <pub-id pub-id-type="pmid">15522084</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Borovok2">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borovok</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Kreisberg-Zakarin</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yanko</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schreiber</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Myslovati</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2002</year>
+          <article-title><italic>Streptomyces</italic> spp. contain class Ia and class II ribonucleotide reductases: expression analysis of the genes in vegetative growth.</article-title>
+          <source>Microbiology</source>
+          <volume>148</volume>
+          <fpage>391</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="pmid">11832503</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Grinberg1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grinberg</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Shteinberg</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gorovitz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Aharonowitz</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2006</year>
+          <article-title>The <italic>Streptomyces</italic> NrdR transcriptional regulator is a Zn ribbon/ATP cone protein that binds to the promoter regions of class Ia and class II ribonucleotide reductase operons.</article-title>
+          <source>J Bacteriol</source>
+          <volume>188</volume>
+          <fpage>7635</fpage>
+          <lpage>7644</lpage>
+          <pub-id pub-id-type="pmid">16950922</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Jones1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>Falkow</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Salmonellosis: host immune responses and bacterial virulence determinants.</article-title>
+          <source>Annu Rev Immunol</source>
+          <volume>14</volume>
+          <fpage>533</fpage>
+          <lpage>561</lpage>
+          <pub-id pub-id-type="pmid">8717524</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Jordan2">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jordan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Aragall</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Gibert</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Barbe</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Promoter identification and expression analysis of <italic>Salmonella typhimurium</italic> and <italic>Escherichia coli nrdEF</italic> operons encoding one of two class I ribonucleotide reductases present in both bacteria.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>19</volume>
+          <fpage>777</fpage>
+          <lpage>790</lpage>
+          <pub-id pub-id-type="pmid">8820648</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Zheng1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Templeton</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Smulski</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>LaRossa</surname>
+              <given-names>RA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2001</year>
+          <article-title>DNA microarray-mediated transcriptional profiling of the <italic>Escherichia coli</italic> response to hydrogen peroxide.</article-title>
+          <source>J Bacteriol</source>
+          <volume>183</volume>
+          <fpage>4562</fpage>
+          <lpage>4570</lpage>
+          <pub-id pub-id-type="pmid">11443091</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-MonjeCasas1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monje-Casas</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Jurado</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Prieto-Alamo</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Holmgren</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pueyo</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Expression analysis of the <italic>nrdHIEF</italic> operon from <italic>Escherichia coli</italic>. Conditions that trigger the transcript level <italic>in vivo</italic>.</article-title>
+          <source>J Biol Chem</source>
+          <volume>276</volume>
+          <fpage>18031</fpage>
+          <lpage>18037</lpage>
+          <pub-id pub-id-type="pmid">11278973</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Tao1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tao</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bausch</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Richmond</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Blattner</surname>
+              <given-names>FR</given-names>
+            </name>
+            <name>
+              <surname>Conway</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Functional genomics: expression analysis of <italic>Escherichia coli</italic> growing on minimal and rich media.</article-title>
+          <source>J Bacteriol</source>
+          <volume>181</volume>
+          <fpage>6425</fpage>
+          <lpage>6440</lpage>
+          <pub-id pub-id-type="pmid">10515934</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Torrents2">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torrents</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Roca</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Gibert</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title><italic>Corynebacterium ammoniagenes</italic> class Ib ribonucleotide reductase: transcriptional regulation of an atypical genomic organization in the <italic>nrd</italic> cluster.</article-title>
+          <source>Microbiology</source>
+          <volume>149</volume>
+          <fpage>1011</fpage>
+          <lpage>1020</lpage>
+          <pub-id pub-id-type="pmid">12686643</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Filpula1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Filpula</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>1977</year>
+          <article-title>Regulation of ribonucleoside diphosphate reductase synthesis in <italic>Escherichia coli</italic>: increased enzyme synthesis as a result of inhibition of deoxyribonucleic acid synthesis.</article-title>
+          <source>J Bacteriol</source>
+          <volume>130</volume>
+          <fpage>107</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="pmid">67110</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Rodionov1">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodionov</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Gelfand</surname>
+              <given-names>MS</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Identification of a bacterial regulatory system for ribonucleotide reductases by phylogenetic profiling.</article-title>
+          <source>Trends Genet</source>
+          <volume>21</volume>
+          <fpage>385</fpage>
+          <lpage>389</lpage>
+          <pub-id pub-id-type="pmid">15949864</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-DeLorenzo1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Lorenzo</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Herrero</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Giovannini</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Neilands</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <article-title>Fur (ferric uptake regulation) protein and CAP (catabolite-activator protein) modulate transcription of fur gene in <italic>Escherichia coli</italic>.</article-title>
+          <source>Eur J Biochem</source>
+          <volume>173</volume>
+          <fpage>537</fpage>
+          <lpage>546</lpage>
+          <pub-id pub-id-type="pmid">2836193</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Ellermeier1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellermeier</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Slauch</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Fur regulates expression of the <italic>Salmonella</italic> pathogenicity island 1 type III secretion system through HilD.</article-title>
+          <source>J Bacteriol</source>
+          <volume>190</volume>
+          <fpage>476</fpage>
+          <lpage>486</lpage>
+          <pub-id pub-id-type="pmid">17993530</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Ikeda1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ikeda</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Janakiraman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kehres</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Maguire</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Slauch</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Transcriptional regulation of sitABCD of <italic>Salmonella enterica</italic> serovar Typhimurium by MntR and Fur.</article-title>
+          <source>J Bacteriol</source>
+          <volume>187</volume>
+          <fpage>912</fpage>
+          <lpage>922</lpage>
+          <pub-id pub-id-type="pmid">15659669</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Janakiraman1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Janakiraman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Slauch</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>The putative iron transport system SitABCD encoded on SPI1 is required for full virulence of <italic>Salmonella typhimurium</italic>.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>35</volume>
+          <fpage>1146</fpage>
+          <lpage>1155</lpage>
+          <pub-id pub-id-type="pmid">10712695</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Gros1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gros</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Skamene</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Forget</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1981</year>
+          <article-title>Genetic control of natural resistance to <italic>Mycobacterium bovis</italic> (BCG) in mice.</article-title>
+          <source>J Immunol</source>
+          <volume>127</volume>
+          <fpage>2417</fpage>
+          <lpage>2421</lpage>
+          <pub-id pub-id-type="pmid">6795274</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Bradley1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bradley</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Blackwell</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>EP</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1979</year>
+          <article-title>Regulation of <italic>Leishmania</italic> populations within the host. III. Mapping of the locus controlling susceptibility to visceral leishmaniasis in the mouse.</article-title>
+          <source>Clin Exp Immunol</source>
+          <volume>37</volume>
+          <fpage>7</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="pmid">290436</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Plant1">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plant</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Glynn</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <year>1976</year>
+          <article-title>Genetics of resistance to infection with <italic>Salmonella typhimurium</italic> in mice.</article-title>
+          <source>J Infect Dis</source>
+          <volume>133</volume>
+          <fpage>72</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="pmid">1107437</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Wyllie1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wyllie</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Seu</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Goss</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>The natural resistance-associated macrophage protein 1 Slc11a1 (formerly Nramp1) and iron metabolism in macrophages.</article-title>
+          <source>Microbes Infect</source>
+          <volume>4</volume>
+          <fpage>351</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="pmid">11909746</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Govoni1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Govoni</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Canonne-Hergaux</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Pfeifer</surname>
+              <given-names>CG</given-names>
+            </name>
+            <name>
+              <surname>Marcus</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>SD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1999</year>
+          <article-title>Functional expression of Nramp1 in vitro in the murine macrophage line RAW264.7.</article-title>
+          <source>Infect Immun</source>
+          <volume>67</volume>
+          <fpage>2225</fpage>
+          <lpage>2232</lpage>
+          <pub-id pub-id-type="pmid">10225878</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Jordan3">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jordan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gibert</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Barbe</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Cloning and sequencing of the genes from <italic>Salmonella typhimurium</italic> encoding a new bacterial ribonucleotide reductase.</article-title>
+          <source>J Bacteriol</source>
+          <volume>176</volume>
+          <fpage>3420</fpage>
+          <lpage>3427</lpage>
+          <pub-id pub-id-type="pmid">8195103</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Escolar1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Escolar</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Perez-Martin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>de Lorenzo</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Opening the iron box: transcriptional metalloregulation by the Fur protein.</article-title>
+          <source>J Bacteriol</source>
+          <volume>181</volume>
+          <fpage>6223</fpage>
+          <lpage>6229</lpage>
+          <pub-id pub-id-type="pmid">10515908</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Aravind1">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aravind</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Wolf</surname>
+              <given-names>YI</given-names>
+            </name>
+            <name>
+              <surname>Koonin</surname>
+              <given-names>EV</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>The ATP-cone: an evolutionarily mobile, ATP-binding regulatory domain.</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <volume>2</volume>
+          <fpage>191</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="pmid">10939243</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Filpula2">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Filpula</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>1978</year>
+          <article-title>Regulation of the synthesis of ribonucleoside diphosphate reductase in <italic>Escherichia coli</italic>: specific activity of the enzyme in relationship to perturbations of DNA replication.</article-title>
+          <source>J Bacteriol</source>
+          <volume>135</volume>
+          <fpage>429</fpage>
+          <lpage>435</lpage>
+          <pub-id pub-id-type="pmid">355225</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Williams1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Wing</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Repression of transcription initiation by <italic>Escherichia coli</italic> FNR protein: repression by FNR can be simple.</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <volume>163</volume>
+          <fpage>203</fpage>
+          <lpage>208</lpage>
+          <pub-id pub-id-type="pmid">9673023</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Kiley1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kiley</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Beinert</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Oxygen sensing by the global regulator, FNR: the role of the iron-sulfur cluster.</article-title>
+          <source>FEMS Microbiol Rev</source>
+          <volume>22</volume>
+          <fpage>341</fpage>
+          <lpage>352</lpage>
+          <pub-id pub-id-type="pmid">9990723</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Hantke1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hantke</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <article-title>Characterization of an iron sensitive Mud1 mutant in <italic>E. coli</italic> lacking the ribonucleotide reductase subunit B2.</article-title>
+          <source>Arch Microbiol</source>
+          <volume>149</volume>
+          <fpage>344</fpage>
+          <lpage>349</lpage>
+          <pub-id pub-id-type="pmid">2833197</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Garriga1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garriga</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Eliasson</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Torrents</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Jordan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Barbe</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1996</year>
+          <article-title><italic>nrdD</italic> and <italic>nrdG</italic> genes are essential for strict anaerobic growth of <italic>Escherichia coli</italic>.</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <volume>229</volume>
+          <fpage>189</fpage>
+          <lpage>192</lpage>
+          <pub-id pub-id-type="pmid">8954104</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-VazquezTorres1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vazquez-Torres</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>FC</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Oxygen-dependent anti-<italic>Salmonella</italic> activity of macrophages.</article-title>
+          <source>Trends Microbiol</source>
+          <volume>9</volume>
+          <fpage>29</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="pmid">11166240</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Miller1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Britigan</surname>
+              <given-names>BE</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>Role of oxidants in microbial pathophysiology.</article-title>
+          <source>Clin Microbiol Rev</source>
+          <volume>10</volume>
+          <fpage>1</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="pmid">8993856</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-VazquezTorres2">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vazquez-Torres</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Jones-Carson</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mastroeni</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Ischiropoulos</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>FC</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Antimicrobial actions of the NADPH phagocyte oxidase and inducible nitric oxide synthase in experimental salmonellosis. I. Effects on microbial killing by activated peritoneal macrophages in vitro.</article-title>
+          <source>J Exp Med</source>
+          <volume>192</volume>
+          <fpage>227</fpage>
+          <lpage>236</lpage>
+          <pub-id pub-id-type="pmid">10899909</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Buchmeier1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buchmeier</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Lipps</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>So</surname>
+              <given-names>MY</given-names>
+            </name>
+            <name>
+              <surname>Heffron</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Recombination-deficient mutants of <italic>Salmonella typhimurium</italic> are avirulent and sensitive to the oxidative burst of macrophages.</article-title>
+          <source>Mol Microbiol</source>
+          <volume>7</volume>
+          <fpage>933</fpage>
+          <lpage>936</lpage>
+          <pub-id pub-id-type="pmid">8387147</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-DeGroote1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Groote</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Ochsner</surname>
+              <given-names>UA</given-names>
+            </name>
+            <name>
+              <surname>Shiloh</surname>
+              <given-names>MU</given-names>
+            </name>
+            <name>
+              <surname>Nathan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>McCord</surname>
+              <given-names>JM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>1997</year>
+          <article-title>Periplasmic superoxide dismutase protects <italic>Salmonella</italic> from products of phagocyte NADPH-oxidase and nitric oxide synthase.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>94</volume>
+          <fpage>13997</fpage>
+          <lpage>14001</lpage>
+          <pub-id pub-id-type="pmid">9391141</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Smalley1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smalley</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Rocha</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>CJ</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Aerobic-type ribonucleotide reductase in the anaerobe <italic>Bacteroides fragilis</italic>.</article-title>
+          <source>J Bacteriol</source>
+          <volume>184</volume>
+          <fpage>895</fpage>
+          <lpage>903</lpage>
+          <pub-id pub-id-type="pmid">11807048</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Hautefort1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hautefort</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Eriksson-Ygberg</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Parker</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Lucchini</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2008</year>
+          <article-title>During infection of epithelial cells <italic>Salmonella enterica</italic> serovar Typhimurium undergoes a time-dependent transcriptional adaptation that results in simultaneous expression of three type 3 secretion systems.</article-title>
+          <source>Cell Microbiol</source>
+          <volume>10</volume>
+          <fpage>958</fpage>
+          <lpage>984</lpage>
+          <pub-id pub-id-type="pmid">18031307</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Jang1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jang</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Imlay</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Micromolar intracellular hydrogen peroxide disrupts metabolism by damaging iron-sulfur enzymes.</article-title>
+          <source>J Biol Chem</source>
+          <volume>282</volume>
+          <fpage>929</fpage>
+          <lpage>937</lpage>
+          <pub-id pub-id-type="pmid">17102132</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Keyer1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keyer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Imlay</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Superoxide accelerates DNA damage by elevating free-iron levels.</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <volume>93</volume>
+          <fpage>13635</fpage>
+          <lpage>13640</lpage>
+          <pub-id pub-id-type="pmid">8942986</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Miller2">
+        <label>49</label>
+        <mixed-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>1972</year>
+          <comment>Experiments in Molecular Genetics: Cold Spring Harbor, NY: Cold Spring Harbor Laboratory</comment>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Sambrook1">
+        <label>50</label>
+        <mixed-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sambrook</surname>
+              <given-names>JR, D</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <comment>Molecular Cloning: a Laboratory Manual: Cold Spring Harbor Laboratory Press</comment>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-deLorenzo1">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de Lorenzo</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Herrero</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Jakubzik</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Timmis</surname>
+              <given-names>KN</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <article-title>Mini-Tn5 transposon derivatives for insertion mutagenesis, promoter probing, and chromosomal insertion of cloned DNA in gram-negative eubacteria.</article-title>
+          <source>J Bacteriol</source>
+          <volume>172</volume>
+          <fpage>6568</fpage>
+          <lpage>6572</lpage>
+          <pub-id pub-id-type="pmid">2172217</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Datsenko1">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Datsenko</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Wanner</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>One-step inactivation of chromosomal genes in <italic>Escherichia coli</italic> K-12 using PCR products.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <volume>97</volume>
+          <fpage>6640</fpage>
+          <lpage>6645</lpage>
+          <pub-id pub-id-type="pmid">10829079</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Guzman1">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guzman</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Belin</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Carson</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Beckwith</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Tight regulation, modulation, and high-level expression by vectors containing the arabinose PBAD promoter.</article-title>
+          <source>J Bacteriol</source>
+          <volume>177</volume>
+          <fpage>4121</fpage>
+          <lpage>4130</lpage>
+          <pub-id pub-id-type="pmid">7608087</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Heckman1">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heckman</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Pease</surname>
+              <given-names>LR</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Gene splicing and mutagenesis by PCR-driven overlap extension.</article-title>
+          <source>Nat Protoc</source>
+          <volume>2</volume>
+          <fpage>924</fpage>
+          <lpage>932</lpage>
+          <pub-id pub-id-type="pmid">17446874</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="pone.0011328-Bradford1">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bradford</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <year>1976</year>
+          <article-title>A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding.</article-title>
+          <source>Anal Biochem</source>
+          <volume>72</volume>
+          <fpage>248</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">942051</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

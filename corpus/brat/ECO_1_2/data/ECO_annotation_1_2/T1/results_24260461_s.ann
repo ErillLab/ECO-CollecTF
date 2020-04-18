@@ -1,0 +1,152 @@
+T1	ECO 1821 1932	secondary structure of VapC10 (Figure S2), predicted with the 3DJIGSAW prediction tool [36] and the DALI server
+A1	Category T1 Tax
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0000027	structural similarity evidence
+T2	ECO 1821 1932	secondary structure of VapC10 (Figure S2), predicted with the 3DJIGSAW prediction tool [36] and the DALI server
+A4	Category T2 SeqFeat
+A5	ECOConfidence T2 High
+A6	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0000027	structural similarity evidence
+T3	ECO 5773 5788	co-purification
+A7	Category T3 MolFn
+A8	ECOConfidence T3 High
+A9	NextSentence T3 Yes
+A10	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0000022	co-purification evidence
+#1	AnnotatorNotes T3	GO:0005515
+T4	ECO 6132 6163	molar ratio of VapB10 to VapC10
+A11	Category T4 MolFn
+A12	ECOConfidence T4 High
+A13	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0000039	protein assay evidence
+#2	AnnotatorNotes T4	GO:0005515
+T5	ECO 6222 6239	affinity-purified
+A14	Category T5 MolFn
+A15	ECOConfidence T5 High
+A16	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0000023	affinity evidence
+#3	AnnotatorNotes T5	GO:0005515
+T6	ECO 7537 7564	beta-galactosidase activity
+A17	Category T6 SeqFeat
+A18	ECOConfidence T6 High
+A19	NegativeStatement T6 Yes
+A20	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+T7	ECO 7911 7942	molar ratio of VapB10 to VapC10
+A21	Category T7 MolFn
+A22	ECOConfidence T7 High
+A23	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000039	protein assay evidence
+#4	AnnotatorNotes T7	GO:0005515
+T8	ECO 7911 7942	molar ratio of VapB10 to VapC10
+A24	Category T8 BioProc
+A25	ECOConfidence T8 High
+A26	NextSentence T8 Yes
+A27	AssertionStrength T8 Low
+N8	Reference T8 brat_eco:ECO:0000039	protein assay evidence
+#5	AnnotatorNotes T8	GO:0010628
+T9	ECO 8729 8758	transcription fusion analyses
+A28	Category T9 SeqFeat
+A29	ECOConfidence T9 Medium
+A30	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0000049	reporter gene assay evidence
+T10	ECO 8795 8801	RT-PCR
+A31	Category T10 SeqFeat
+A32	ECOConfidence T10 High
+A33	AssertionStrength T10 High
+N10	Reference T10 brat_eco:ECO:0000109	reverse transcription polymerase chain reaction evidence
+T11	ECO 9329 9406	structure analysis with the 3DJIGSAW prediction tool [36] and the DALI server
+A34	Category T11 SeqFeat
+A35	ECOConfidence T11 High
+A36	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0005031	structure determination evidence
+T13	ECO 9762 9767	EMSAs
+A40	Category T13 MolFn
+A41	ECOConfidence T13 High
+A42	NextSentence T13 Yes
+A43	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#7	AnnotatorNotes T13	GO:0043565
+T14	ECO 10802 10806	EMSA
+A44	Category T14 MolFn
+A45	ECOConfidence T14 High
+A46	AssertionStrength T14 Medium
+N14	Reference T14 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#8	AnnotatorNotes T14	GO:0043565
+T15	ECO 11273 11277	lacZ
+A47	Category T15 BioProc
+A48	ECOConfidence T15 High
+A49	AssertionStrength T15 Medium
+N15	Reference T15 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence
+#9	AnnotatorNotes T15	GO:0010468
+T16	ECO 11154 11169	binding results
+A50	Category T16 BioProc
+A51	ECOConfidence T16 Medium
+A52	AssertionStrength T16 Medium
+N16	Reference T16 brat_eco:ECO:0000148	Obsolete in vitro binding evidence
+#10	AnnotatorNotes T16	GO:0010468
+T17	ECO 11665 11670	EMSAs
+A53	Category T17 SeqFeat
+A54	ECOConfidence T17 High
+A55	AssertionStrength T17 High
+N17	Reference T17 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T18	ECO 11786 11817	region contains an imperfect IR
+A56	Category T18 MolFn
+A57	ECOConfidence T18 Medium
+A58	AssertionStrength T18 Medium
+N18	Reference T18 brat_eco:ECO:0000044	sequence similarity evidence
+#11	AnnotatorNotes T18	GO:0043565
+T20	ECO 13621 13634	growth arrest
+A62	Category T20 MolFn
+A63	ECOConfidence T20 High
+A64	AssertionStrength T20 Low
+N20	Reference T20 brat_eco:ECO:0001563	cell growth assay evidence
+#13	AnnotatorNotes T20	GO:0008233
+T21	ECO 15316 15362	levels of ClpP2s and VapC10 remained unchanged
+A65	Category T21 MolFn
+A66	ECOConfidence T21 High
+A67	NextSentence T21 Yes
+A68	AssertionStrength T21 Medium
+N21	Reference T21 brat_eco:ECO:0000046	protein expression level evidence
+#14	AnnotatorNotes T21	GO:0008233
+T22	ECO 15678 15701	drop growth experiments
+A69	Category T22 MolFn
+A70	ECOConfidence T22 High
+A71	AssertionStrength T22 Medium
+N22	Reference T22 brat_eco:ECO:0001563	cell growth assay evidence
+#15	AnnotatorNotes T22	GO:0008233
+T23	ECO 15904 15916	Western blot
+A72	Category T23 MolFn
+A73	ECOConfidence T23 High
+A74	NextSentence T23 Yes
+A75	NegativeStatement T23 Yes
+A76	AssertionStrength T23 High
+N23	Reference T23 brat_eco:ECO:0000112	western blot evidence
+#16	AnnotatorNotes T23	GO:0008233
+T24	ECO 16160 16180	drop growth evidence
+A77	Category T24 MolFn
+A78	ECOConfidence T24 High
+A79	NegativeStatement T24 Yes
+A80	AssertionStrength T24 High
+N24	Reference T24 brat_eco:ECO:0001563	cell growth assay evidence
+#17	AnnotatorNotes T24	GO:0008233
+T25	ECO 5257 5268	MS analyses
+A81	Category T25 MolFn
+A82	ECOConfidence T25 High
+A83	NextSentence T25 Yes
+A84	AssertionStrength T25 Medium
+N25	Reference T25 brat_eco:ECO:0001096	mass spectrometry evidence
+#18	AnnotatorNotes T25	GO:0005515
+T12	ECO 9329 9406	structure analysis with the 3DJIGSAW prediction tool [36] and the DALI server
+A37	Category T12 MolFn
+A38	ECOConfidence T12 High
+A39	AssertionStrength T12 Medium
+N12	Reference T12 brat_eco:ECO:0005031	structure determination evidence
+#6	AnnotatorNotes T12	GO:0043565
+T26	ECO 9329 9406	structure analysis with the 3DJIGSAW prediction tool [36] and the DALI server
+A85	Category T26 BioProc
+A86	ECOConfidence T26 High
+A87	AssertionStrength T26 Medium
+N26	Reference T26 brat_eco:ECO:0005031	structure determination evidence
+#19	AnnotatorNotes T26	GO:0010468

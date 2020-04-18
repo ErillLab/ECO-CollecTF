@@ -1,0 +1,48 @@
+T1	ECO 1870 1892	using ACT and clustalw
+A1	Category T1 SeqFeat
+A2	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0000201	sequence orthology evidence
+A3	ECOConfidence T1 High
+T2	ECO 2186 2223	the motif identification program MEME
+A4	Category T2 SeqFeat
+A5	ECOConfidence T2 High
+A6	NextSentence T2 Yes
+A7	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0000028	motif similarity evidence
+T3	ECO 2667 2722	we searched a database of intergenic regions using MAST
+A8	Category T3 SeqFeat
+A9	ECOConfidence T3 Medium
+A10	NextSentence T3 Yes
+A11	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0000028	motif similarity evidence
+T4	ECO 3434 3495	protein clearly retarded the movement of all the 30 bp probes
+A12	Category T4 MolFn
+A13	ECOConfidence T4 Low
+A14	NextSentence T4 No
+A15	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#1	AnnotatorNotes T4	Is this enough to claim EMSA? I think it is. 
+T8	ECO 7125 7141	There is a motif
+A27	Category T8 BioProc
+A28	ECOConfidence T8 High
+A29	NextSentence T8 Yes
+A30	AssertionStrength T8 Medium
+N8	Reference T8 brat_eco:ECO:0000028	motif similarity evidence
+T12	ECO 7213 7259	the orthologues of both genes are de-repressed
+A43	Category T12 SeqFeat
+A44	ECOConfidence T12 High
+A45	NextSentence T12 Yes
+A46	AssertionStrength T12 Medium
+N12	Reference T12 brat_eco:ECO:0000201	sequence orthology evidence
+T13	ECO 7213 7259	the orthologues of both genes are de-repressed
+A47	Category T13 BioProc
+A48	ECOConfidence T13 High
+A49	NextSentence T13 Yes
+A50	AssertionStrength T13 Medium
+N13	Reference T13 brat_eco:ECO:0000201	sequence orthology evidence
+T14	ECO 7125 7141	There is a motif
+A51	Category T14 SeqFeat
+A52	ECOConfidence T14 High
+A53	NextSentence T14 Yes
+A54	AssertionStrength T14 Medium
+N14	Reference T14 brat_eco:ECO:0000028	motif similarity evidence

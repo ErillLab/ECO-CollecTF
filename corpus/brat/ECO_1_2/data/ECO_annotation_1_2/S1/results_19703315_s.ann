@@ -1,0 +1,113 @@
+T1	ECO 71 93	RT-PCR assay indicated
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000109	reverse transcription polymerase chain reaction evidence
+T3	ECO 431 455	cDNA microarray analysis
+A5	Category T3 BioProc
+A6	ECOConfidence T3 Medium
+A7	NextSentence T3 No
+A8	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0000058	expression microarray evidence
+#1	AnnotatorNotes T3	Didn't pick ECO:0000097 or ECO:0000104 because of ambiguity as to which role the cDNA fulfilled.
+T4	Assertion 509 529	was repressed by CRP
+T5	ECO 557 570	RT-PCR assays
+A9	Category T5 BioProc
+A10	ECOConfidence T5 High
+A11	NextSentence T5 No
+A12	AssertionStrength T5 High
+N4	Reference T5 brat_eco:ECO:0000109	reverse transcription polymerase chain reaction evidence
+T6	ECO 660 688	mutant in relative to the WT
+A13	Category T6 BioProc
+A14	ECOConfidence T6 High
+A15	NextSentence T6 No
+A16	AssertionStrength T6 High
+N5	Reference T6 brat_eco:ECO:0000016	loss-of-function mutant phenotype evidence
+#2	AnnotatorNotes T6	"Delta" pushed me towards ECO:0000016 as opposed to ECO:0000015. 
+T7	Assertion 604 643	were up-regulated by more than 50 folds
+T8	ECO 1629 1666	Deltacrp increased compared to the WT
+A17	Category T8 BioProc
+A18	ECOConfidence T8 Medium
+A19	NextSentence T8 No
+A20	AssertionStrength T8 High
+N6	Reference T8 brat_eco:ECO:0000016	loss-of-function mutant phenotype evidence
+#3	AnnotatorNotes T8	"Delta" again pushed me towards ECO:0000016
+T9	Assertion 1712 1771	indicating that CRP greatly repressed the promoter activity
+T10	ECO 1868 1895	box-like sequence was found
+A21	Category T10 SeqFeat
+A22	ECOConfidence T10 Medium
+A23	NextSentence T10 No
+A24	AssertionStrength T10 High
+N7	Reference T10 brat_eco:ECO:0000028	motif similarity evidence
+T12	ECO 2042 2058	EMSA experiments
+A25	Category T12 MolFn
+A26	ECOConfidence T12 High
+A27	NextSentence T12 No
+A28	AssertionStrength T12 Medium
+N8	Reference T12 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#4	AnnotatorNotes T12	MolFn due to GO:00003677 DNA Binding
+T14	ECO 2554 2603	pattern matching analysis using the CRP consensus
+A29	Category T14 SeqFeat
+A30	ECOConfidence T14 High
+A31	NextSentence T14 Yes
+A32	AssertionStrength T14 High
+N9	Reference T14 brat_eco:ECO:0005532	consensus search evidence
+T15	Assertion 2420 2465	did not harbor the predicted CRP binding site
+T16	Assertion 2501 2534	gave an extremely low score value
+T17	ECO 2670 2681	EMSA result
+A33	Category T17 MolFn
+A34	ECOConfidence T17 High
+A35	NextSentence T17 No
+A36	AssertionStrength T17 Low
+N10	Reference T17 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#5	AnnotatorNotes T17	"Negative EMSA result" is technically an assertion, but "negative" is very vague. I know Dr. Erill has specified that we should annotate this though.
+T18	Assertion 2656 2682	gave negative EMSA result,
+T19	ECO 3060 3100	DNase I footprinting assay was performed
+A37	Category T19 MolFn
+A38	ECOConfidence T19 High
+A39	NextSentence T19 Yes
+A40	AssertionStrength T19 High
+N11	Reference T19 brat_eco:ECO:0001810	DNAse footprinting evidence
+T20	ECO 3217 3242	against DNase I digestion
+A41	Category T20 MolFn
+A42	ECOConfidence T20 Medium
+A43	NextSentence T20 No
+A44	AssertionStrength T20 High
+N12	Reference T20 brat_eco:ECO:0001810	DNAse footprinting evidence
+#6	AnnotatorNotes T20	Pair with previous
+T21	Assertion 3162 3200	CRP protected two distinct DNA regions
+T22	ECO 3570 3594	primer extension product
+A45	Category T22 BioProc
+A46	ECOConfidence T22 High
+A47	NextSentence T22 Yes
+A48	AssertionStrength T22 Medium
+N13	Reference T22 brat_eco:ECO:0001819	primer extension assay evidence
+T23	ECO 3534 3552	Compared to the WT
+A49	Category T23 BioProc
+A50	ECOConfidence T23 High
+A51	NextSentence T23 Yes
+A52	AssertionStrength T23 Medium
+N14	Reference T23 brat_eco:ECO:0000015	mutant phenotype evidence
+T25	ECO 3635 3668	yield of primer extension product
+A53	Category T25 BioProc
+A54	ECOConfidence T25 Medium
+A55	NextSentence T25 No
+A56	AssertionStrength T25 High
+N15	Reference T25 brat_eco:ECO:0001819	primer extension assay evidence
+#7	AnnotatorNotes T25	It specifies primer extension, so I don't think this is a summary sentence. 
+T26	Assertion 3754 3781	confirmed the repression of
+T27	ECO 4044 4131	determination of CRP-binding sites, transcription start site, and core promoter element
+A57	Category T27 SeqFeat
+A58	ECOConfidence T27 Medium
+A59	NextSentence T27 No
+A60	AssertionStrength T27 High
+N16	Reference T27 brat_eco:ECO:0000028	motif similarity evidence
+#8	AnnotatorNotes T27	"Giving a map" seems like an assertion to me. They did a thing (motif similarity) and found out data (a map of the entire promoter). 
+T28	Assertion 4231 4275	giving a map of CRP-promoter DNA interaction
+T2	ECO 1594 1621	beta-galactosidase activity
+A61	Category T2 BioProc
+A62	ECOConfidence T2 High
+A63	NextSentence T2 No
+A64	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0001802	beta-galactosidase reporter gene assay evidence

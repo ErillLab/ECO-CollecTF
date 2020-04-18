@@ -1,0 +1,59 @@
+T1	ECO 201 224	electrophoretic pattern
+A1	ECOConfidence T1 High
+A2	NextSentence T1 Yes
+N1	Reference T1 brat_eco:ECO:0000337	gel electrophoresis evidence
+T3	ECO 369 402	differentially expressed proteins
+A5	ECOConfidence T3 High
+N2	Reference T3 brat_eco:ECO:0000010	protein expression evidence
+T9	ECO 3345 3373	Primer extension experiments
+A14	ECOConfidence T9 High
+A15	NextSentence T9 Yes
+N6	Reference T9 brat_eco:ECO:0001819	primer extension assay evidence
+T13	ECO 3848 3887	wild type compared to the mutant strain
+N8	Reference T13 brat_eco:ECO:0000015	mutant phenotype evidence
+A21	ECOConfidence T13 High
+A3	AssertionStrength T9 Medium
+A4	Category T9 BioProc
+A10	Category T13 BioProc
+A11	AssertionStrength T13 Medium
+A23	Category T1 BioProc
+A24	AssertionStrength T1 High
+A26	Category T3 BioProc
+A27	AssertionStrength T3 High
+#1	AnnotatorNotes T1	GO:0010468
+#2	AnnotatorNotes T3	GO:0010468
+T4	ECO 870 922	wild type strain compared to the LM3-2 mutant strain
+A6	Category T4 BioProc
+A28	ECOConfidence T4 High
+A29	AssertionStrength T4 Medium
+N3	Reference T4 brat_eco:ECO:0000015	mutant phenotype evidence
+#3	AnnotatorNotes T4	GO:0010628
+#5	AnnotatorNotes T13	GO:0010628
+#6	AnnotatorNotes T9	GO:0010628
+T5	ECO 4334 4381	sequence analysis of the groESL promoter region
+A7	Category T5 SeqFeat
+A8	ECOConfidence T5 Medium
+A16	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0000200	sequence alignment evidence
+T6	ECO 4742 4759	sequence analysis
+A17	Category T6 SeqFeat
+A18	ECOConfidence T6 Medium
+A22	AssertionStrength T6 High
+N7	Reference T6 brat_eco:ECO:0000200	sequence alignment evidence
+T7	ECO 6176 6222	sequence analysis of the groESL promoter regio
+A19	Category T7 SeqFeat
+A20	ECOConfidence T7 Medium
+A25	AssertionStrength T7 High
+N9	Reference T7 brat_eco:ECO:0000200	sequence alignment evidence
+T8	ECO 823 858	protein appears to be more abundant
+A31	Category T8 BioProc
+A32	ECOConfidence T8 High
+A33	AssertionStrength T8 Medium
+N10	Reference T8 brat_eco:ECO:0000010	protein expression evidence
+#7	AnnotatorNotes T8	GO:0010628
+T2	ECO 694 763	MALDI-TOF (Matrix-assisted laser desorption ionization-time of flight
+A9	Category T2 SeqFeat
+A12	ECOConfidence T2 High
+A13	AssertionStrength T2 High
+N4	Reference T2 brat_eco:ECO:0005526	matrix-assisted laser desorption/ionization time-of-flight mass spectrometry evidence
+#4	AnnotatorNotes T2	protein coding gene is a seq feature

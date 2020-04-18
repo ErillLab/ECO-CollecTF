@@ -1,0 +1,1378 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Microbiol</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Microbiology</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2180</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">20178568</article-id>
+      <article-id pub-id-type="pmc">2834670</article-id>
+      <article-id pub-id-type="publisher-id">1471-2180-10-58</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2180-10-58</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Characterization of <italic>mleR</italic>, a positive regulator of malolactic fermentation and part of the acid tolerance response in <italic>Streptococcus mutans</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes" id="A1">
+          <name>
+            <surname>Lemme</surname>
+            <given-names>Andr&#xE9;</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>ale05@helmholtz-hzi.de</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Sztajer</surname>
+            <given-names>Helena</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>hsz@helmholtz-hzi.de</email>
+        </contrib>
+        <contrib contrib-type="author" id="A3">
+          <name>
+            <surname>Wagner-D&#xF6;bler</surname>
+            <given-names>Irene</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>iwd@helmholtz-hzi.de</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Helmholtz-Centre for Infection Research, Division of Cell Biology, Braunschweig, Germany</aff>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>2</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>10</volume>
+      <fpage>58</fpage>
+      <lpage>58</lpage>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>2</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9;2010 Lemme et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <copyright-holder>Lemme et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.biomedcentral.com/1471-2180/10/58"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>One of the key virulence determinants of <italic>Streptococcus mutans</italic>, the primary etiological agent of human dental caries, is its strong acid tolerance. The acid tolerance response (ATR) of <italic>S. mutans </italic>comprises several mechanisms that are induced at low pH and allow the cells to quickly adapt to a lethal pH environment. Malolactic fermentation (MLF) converts L-malate to L-lactate and carbon dioxide and furthermore regenerates ATP, which is used to translocate protons across the membrane. Thus, MLF may contribute to the aciduricity of <italic>S. mutans </italic>but has not been associated with the ATR so far.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Here we show that the malolactic fermentation (<italic>mle</italic>) genes are under the control of acid inducible promoters which are induced within the first 30 minutes upon acid shock in the absence of malate. Thus, MLF is part of the early acid tolerance response of <italic>S. mutans</italic>. However, acidic conditions, the presence of the regulator MleR and L-malate were required to achieve maximal expression of all genes, including <italic>mleR </italic>itself. Deletion of <italic>mleR </italic>resulted in a decreased capacity to carry out MLF and impaired survival at lethal pH in the presence of L-malate. Gel retardation assays indicated the presence of multiple binding sites for MleR. Differences in the retardation patterns occurred in the presence of L-malate, thus demonstrating its role as co-inducer for transcriptional regulation.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>This study shows that the MLF gene cluster is part of the early acid tolerance response in <italic>S. mutans </italic>and is induced by both low pH and L-malate.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p><italic>S. mutans </italic>is considered the major etiological agent of dental caries due to its strong aciduric and acidogenic capacities. During the metabolism of dietary carbohydrates and subsequent formation of acid end-products, acidogenic bacteria can shift the plaque pH to 4 or lower within minutes and can retain it at this value for up to one hour, depending on the age of the plaque biofilm [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B4">4</xref>]. Demineralisation of the tooth enamel caused by low pH is the beginning of caries development. To withstand these pH fluctuations and to compete with other oral bacteria <italic>S. mutans </italic>has evolved an effective acid tolerance response (ATR). The ATR is induced under acidic conditions and has an optimal pH between 5.5-5. Several proteomic studies showed that more than sixty proteins were involved in this response and that many of them appeared within the first 30 minutes after acid shock, whereas full induction occurred after 90-120 minutes [<xref ref-type="bibr" rid="B5">5</xref>-<xref ref-type="bibr" rid="B8">8</xref>].</p>
+      <p>General determinants are the induction of general stress proteins, the reduction of membrane proton permeability, increased glycolytic activity and a shift to homo-fermentative metabolism, resulting in elevated lactate production. Anabolic reactions are in return down-regulated, which results in slower growth and lower cell yield [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref>-<xref ref-type="bibr" rid="B10">10</xref>]. The concomitant surplus of ATP is used to drive the H<sup>+</sup>/ATPase, which leads to an increased translocation of protons across the membrane. More specific reactions that contribute to the aciduricity are e.g. the agmatine deiminase system (AgDS). Agmatine is secreted by other bacteria in response to low pH but is internalised and deaminated by <italic>S. mutans </italic>to ammonia and carbamoylputrescine. The latter is further decarboxylated to putrescine, yielding carbon dioxide and ATP, which again can be used for proton extrusion [<xref ref-type="bibr" rid="B11">11</xref>].</p>
+      <p>Another mechanism for gaining ATP is malolactic fermentation (MLF), which is a secondary fermentation that lactic acid bacteria can carry out when L-malate is present in the medium. Its biochemical properties have been studied in detail because of the considerable biotechnological interest, since it occurs after the alcohol fermentation during wine making affecting the flavour of the wine. In MLF the dicarboxylic acid L-malate is converted to L-lactate and carbon dioxide by the malolactic enzyme (MLE) in a two step reaction without releasing intermediates. Since malic acid (pKa = 3.4, 5.13) is a stronger acid than lactic acid (pKa = 3.85) decarboxylation of L-malate leads to an alkalinization of the cytoplasm. This effect is further enlarged by diffusion of H<sub>2</sub>CO<sub>2</sub>/CO<sub>2 </sub>out of the cell into the gas phase. The concomitant pH gradient drives the electrogenic malate/lactate antiporter and is coupled to ATP synthesis, which is used to maintain the intracellular pH more alkaline than the environment by extrusion of protons [<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B13">13</xref>]. <italic>S. mutans </italic>UA159 possesses a malolactic fermentation gene cluster, that is oriented in opposite direction to the putative regulator <italic>mleR </italic>[<xref ref-type="bibr" rid="B14">14</xref>]. A homologue of this regulator was the first lysR-type transcriptional regulator (LTTR) described in Gram positive bacteria and was shown to positively regulate MLF in <italic>Lactococcus lactis</italic>. A seven-fold induction of L-malate decarboxylation activity and a three-fold increase of gene expression determined by a <italic>mleR-lacZ </italic>fusion was observed in the presence of L-malate [<xref ref-type="bibr" rid="B15">15</xref>]. However, in <italic>Oenococcus oeni </italic>malolactic fermentation activity was not enhanced by the presence of MleR or L-malate [<xref ref-type="bibr" rid="B16">16</xref>]. Recently Sheng and Marquis showed that <italic>S. mutan</italic>s possesses MLF activity with a pH optimum of pH 4 in planktonic cells [<xref ref-type="bibr" rid="B17">17</xref>]. Significant intracellular ATP maintenance and enhanced protection against lethal pH values were observed in the presence of L-malate [<xref ref-type="bibr" rid="B17">17</xref>]. Since this study showed that MLF has a great impact on the aciduric capacities of <italic>S. mutans</italic>, we were interested if this mechanism is part of the general ATR of the cell or if it is specifically induced by MleR and the presence of L-malate. Deletion of <italic>mleR </italic>and luciferase reporter strains for <italic>mleR </italic>and <italic>mleS </italic>and RT-PCR revealed insights into the expression and regulation of the <italic>mle </italic>gene cluster and especially the effect of pH. Electrophoretic mobility shift assays (EMSA) indicated several binding sites for the MleR protein which were influenced by the presence of L-malate. Moreover we investigated the role of MleR for the ability of <italic>S. mutans </italic>to withstand acid stress.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Analysis of the <italic>mle </italic>locus by RT-PCR and EMSA</title>
+        <p>In the genome of <italic>S. mutans </italic>UA159 [<xref ref-type="bibr" rid="B14">14</xref>], the lysR type transcriptional regulator MleR is orientated opposite to a gene cluster encoding the malolactic enzyme (<italic>mleS</italic>), a malate permease (<italic>mleP</italic>), and a oxalate decarboxylase (<italic>oxdC</italic>), respectively. Additionally a putative prophage repressor is inserted between <italic>mleR </italic>and <italic>mleS </italic>(Figure <xref ref-type="fig" rid="F1">1</xref>). This insertion is unique for the oral <italic>streptococci </italic>(<italic>S. mutans </italic>UA159, <italic>S. gordonii </italic>str. Challis CH1 and <italic>S. sanguinis </italic>SK36) among all sequenced <italic>Lactobacillales</italic>. Adjacent to the genes involved in malolactic fermentation is the gene <italic>oxdC </italic>encoding the oxalate decarboxylase which catalyses the conversion of oxalate to formate and CO<sub>2</sub>. This gene is unique for <italic>S. mutans </italic>UA159 among all sequenced <italic>Lactobacillales</italic>. RT-PCR disclosed that it is co-transcribed with <italic>mleS </italic>and <italic>mleP </italic>since it was possible to amplify overlapping fragments of all three genes (Figure <xref ref-type="fig" rid="F1">1A</xref>). The putative gluthatione reductase (Smu.140) located downstream of <italic>oxdC</italic>, which is involved in the removal of reactive oxygen species, could not be assigned to the same operon by the use of RT-PCR.</p>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Genetic organization of the <italic>mle </italic>locus</bold>. A: RT-PCR analysis of mRNA transcripts. The solid arrows indicate the primers used for RT-PCR. The minus RT control is assigned with "-"; the positive control, using genomic DNA, is assigned with "+". B: Gelshift analysis of the region between <italic>mleS </italic>and <italic>mleR</italic>. Arrows indicate primers that were used to amplify PCR products, that were subsequently used for EMSA. Primers are designated at their 5' end. The box shows a representative selection of gel shift assays with the respective fragment in the presence or absence of L-malate. Thin arrows indicate DNA fragments in the absence of protein. Bold arrows indicate DNA in complex with MleR. Competitor DNA is marked with an asterix. For all EMSAs, 1&#xD7; binding buffer was loaded on the left and MleR protein on the right lane. In all EMSAs without malate, an internal fragment of <italic>mleS </italic>was used as competitor DNA. In EMSAs with malate the fragment within the IGS of <italic>mleR </italic>and Smu.136c, generated by hybridising primers EP10/11 was used (except for EMSA 5, where the internal fragment of <italic>mleS </italic>was added).</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-1"/>
+        </fig>
+        <p>Applying the Electrophoretic Mobility Shift Assay (EMSA) (Figure <xref ref-type="fig" rid="F1">1B</xref>) using a DNA fragment covering almost the complete intergenic sequence (IGS) between <italic>mleR </italic>and Smu.136c (EMSA 1) resulted in one retarded complex, indicating one binding site for MleR in this intergenic region. Elongation of the DNA fragment (EMSA 2) to include the 3' end of Smu.136c, produced two retarded bands, suggesting an additional binding site at the 3' end of Smu.136c. The presence of 5 mM L-malate in both EMSA reactions gave the same banding pattern. However, the extent of the shift was slightly reduced.</p>
+        <p>Using the complete coding sequence of Smu.136c (EMSA 3) resulted in one retarded complex, confirming the presence of one binding site for MleR in this gene. Addition of L-malate to the binding reaction changed the pattern in this case and produced two retarded fragments. Truncation of the 3' end of Smu.136c (EMSA 4) resulted only in one retarded fragment, independent of L-malate. The data show the presence of at least two binding sites for MleR within Smu.136c. One site is located within fragment EP 6-7 (EMSA 4) presumably binding the <italic>apo </italic>form of MleR and another one is located at the 3'end of Smu.136c and appears to need the co-inducer bound form of MleR. The intergenic sequence upstream of <italic>mleS </italic>(EMSA 5) produced one retarded complex in the absence and three complexes in the presence of 5 mM L-malate. Thus, within this IGS also several binding sites for different forms of MleR exist. Using internal DNA fragments of <italic>mleS </italic>or <italic>mleR </italic>(data for <italic>mleR </italic>not shown) or a sequence within the IGS of <italic>mleR </italic>and Smu.136c (primers 137qF/R) did not produce complexes with the MleR protein under the tested condition, thus confirming the specificity of the DNA-protein interaction. Incubation of all used DNA fragments with BSA instead of MleR resulted in no retardation (data not shown).</p>
+      </sec>
+      <sec>
+        <title>Involvement of <italic>mleR </italic>in MLF activity</title>
+        <p>It was previously shown that <italic>S. mutans </italic>UA159 was able to carry out malolactic fermentation [<xref ref-type="bibr" rid="B17">17</xref>]. To determine if the putative regulator MleR is involved in the regulation of the MLF gene cluster a knockout mutant of <italic>mleR </italic>was constructed, by replacing an internal part (amino acids 27-275) of the gene with an erythromycin resistance cassette, amplified from another strain [<xref ref-type="bibr" rid="B18">18</xref>]. <italic>S. mutans </italic>wildtype cells showed highest MLF enzyme activity in the presence of 25 mM L-malate at the beginning of the stationary phase [<xref ref-type="bibr" rid="B17">17</xref>]. Under these conditions, we observed a significant reduction of MLF activity of the &#x394;<italic>mleR </italic>mutant compared to the parental strain, indicating a positive regulation of the <italic>mle </italic>genes by MleR (Table <xref ref-type="table" rid="T1">1</xref>). After one hour the wild type strain converted or internalised over 40% of the added L-malate. For the mutant lacking the MleR regulator only a 1% reduction of the added malate within one hour was observed. Furthermore, internalisation and decarboxylation of the stronger malic acid to lactic acid leads to a considerable increase of the external pH (Table <xref ref-type="table" rid="T1">1</xref>). However, after 12 hours of incubation a reduction of 78% and 38% of the added L-malate was observed in the wildtype and the &#x394;<italic>mleR </italic>mutant, respectively, indicating a basal level of MLF enzyme activity in the absence of MleR.</p>
+        <table-wrap id="T1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Malolactic fermentation activity for the wildtype and the &#x394;<italic>mleR </italic>mutant.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th/>
+                <th align="center" colspan="2">L-malate concentration [mg/ml]</th>
+                <th align="center" colspan="2">pH-value</th>
+              </tr>
+              <tr>
+                <th/>
+                <th colspan="4">
+                  <hr/>
+                </th>
+              </tr>
+              <tr>
+                <th align="left">Time</th>
+                <th align="center">WT</th>
+                <th align="center">&#x394;<italic>mleR</italic></th>
+                <th align="center">WT</th>
+                <th align="center">&#x394;<italic>mleR</italic></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="right">0 min</td>
+                <td align="center">5.53</td>
+                <td align="center">5.63</td>
+                <td align="center">6.4</td>
+                <td align="center">6.34</td>
+              </tr>
+              <tr>
+                <td align="right">20 min</td>
+                <td align="center">4.87</td>
+                <td align="center">5.61</td>
+                <td align="center">6.7</td>
+                <td align="center">6.32</td>
+              </tr>
+              <tr>
+                <td align="right">40 min</td>
+                <td align="center">2.77</td>
+                <td align="center">5.59</td>
+                <td align="center">6.9</td>
+                <td align="center">6.43</td>
+              </tr>
+              <tr>
+                <td align="right">60 min</td>
+                <td align="center">2.34</td>
+                <td align="center">5.42</td>
+                <td align="center">7.2</td>
+                <td align="center">6.52</td>
+              </tr>
+              <tr>
+                <td align="right">12 hours</td>
+                <td align="center">1.26</td>
+                <td align="center">3.51</td>
+                <td align="center">8.2</td>
+                <td align="center">7.32</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>The capability to carry out malolactic fermentation was determined by measuring the L-malate concentration and the pH of the supernatant of cultures grown to late exponential phase (OD ~1.3). The values represent the average of two independent experiments. The standard deviation was less than 5%.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Transcription of <italic>mle </italic>genes during growth</title>
+        <p>To obtain better insights into the transcriptional regulation of the MLF gene cluster and <italic>mleR </italic>itself, firefly luciferase reporter plasmids were constructed. The upstream sequences of <italic>mleR </italic>and <italic>mleS </italic>containing the putative promoter sequences were cloned in front of a promoterless luciferase gene and then integrated into the genome of the wildtype and the &#x394;<italic>mleR </italic>mutant by single homologous recombination, respectively. Luciferase activity was monitored during growth in the absence of L-malic acid (Figure <xref ref-type="fig" rid="F2">2</xref>). The highest activity for both promoters was observed at the transition to the stationary phase, with an external pH between 5.8 and 6.1. This was true for the parental strain and the &#x394;<italic>mleR </italic>mutant, indicating that both transcriptional units might be controlled by acid inducible promoters. To rule out that this up-regulation was not due to post-exponential phase phenomena, we investigated the influence of the pH during the exponential growth phase in more detail (see below). However, in the wildtype the <italic>mleS </italic>promoter construct showed higher activity than in the &#x394;<italic>mleR </italic>knockout strain, indicating that MleR induces transcription even in the absence of the potential co-inducer L-malate. Accordingly, quantitative real time RT-PCR of RNA isolated from cells in the late exponential phase in the absence of L-malate showed a 3-fold induction of the genes <italic>mleS </italic>and <italic>mleP </italic>when comparing the wildtype to the &#x394;<italic>mleR </italic>mutant strain. An induction of <italic>mleR </italic>itself under these conditions was not observed (data not shown).</p>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Promoter activity of <italic>mleR </italic>and <italic>mleS </italic>in the absence of malate</bold>. Promoter activity of <italic>mleR </italic>and <italic>mleS </italic>during batch cultivation in BMS medium without malate under anaerobic conditions. A: Optical density and luciferase activity of both promoters in the wildtype background. B: Optical density and luciferase activity of both promoters in the &#x394;<italic>mleR </italic>background. Grey square, Optical density of strains carrying <italic>mleR</italic><sub>p</sub>-luc; Black circle, Optical density of strains carrying <italic>mleS</italic><sub>p</sub>-luc; Open square, RLU of strains carrying <italic>mleR</italic><sub>p</sub>-luc; Open circle, RLU of strains carrying <italic>mleS</italic><sub>p</sub>-luc</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Regulation of the <italic>mle </italic>genes by pH and L-malate</title>
+        <p>During batch cultivation without addition of external L-malate, the highest luciferase activity for the <italic>mle </italic>promoters was observed during the transition to the stationary phase (see above). Addition of L-malate as free acid to the culture (end concentration of 25 mM), thereby lowering the pH to 5.6-6.2 (depending on the growth stage in BM medium), resulted in an immediate induction of activity (Figure <xref ref-type="fig" rid="F3">3</xref>). To determine if this effect was caused by the low pH or by L-malate, we further studied the influence of both parameters separately. After inoculation, cells were allowed to adapt for two hours to the medium. After addition of neutralized L-malate (25 mM final concentration) the pH of the cultures was adjusted with HCl to the desired values and samples for luciferase measurements were withdrawn in intervals of 30 min for two hours. Figure <xref ref-type="fig" rid="F4">4</xref> summarizes the fold change values of promoter activity after two hours of measurement. Lowering the pH, without addition of malate, resulted in an increased activity of both promoters in the wildtype as well as in the <italic>&#x394;mleR </italic>background. These data clearly demonstrate that both promoters are acid inducible and that this behaviour was not caused by post-exponential phenomena. Furthermore, it shows that the influence of MleR is weak at neutral pH conditions. By contrast, the presence of L-malate at low pH significantly enhanced the activity of both promoters, but only in the presence of a functional copy of <italic>mleR</italic>. This allows four conclusions: (a) L-malate is the coinducer of MleR; (b) enhanced transcription in the presence of L-malate requires an acidic pH; (c) MleR positively regulates its target genes and furthermore (d) its own transcription. A positive auto-regulation would be a special feature, since most LTTR repress their own transcription. However, exceptions exist e.g. LrhA [<xref ref-type="bibr" rid="B19">19</xref>]. However, no significant induction of <italic>mleR </italic>after two hours exposure to 25 mM free malic acid was observed using quantitative real time PCR (See below).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>Promoter activity of <italic>mleR </italic>in the presence of malate</bold>. Influence of L-malate (25 mM, not neutralized) on the promoter activity of wildtype <italic>S. mutans </italic>carrying <italic>mleR</italic><sub>p</sub>-luc in BMS medium under anaerobic conditions. Open diamond, growth without malate; Grey diamond, RLU, no addition of L-malate; Triangle, RLU, addition of L-malate after 30 min; Circle, RLU, addition after 2.5 hours; Square, RLU, addition after 4.5 hours.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-3"/>
+        </fig>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Influence of pH and L-malate on promoter activity of <italic>mleR </italic>and <italic>mleS</italic></bold>. Cells of wildtype and &#x394;<italic>mleR </italic>were cultivated in BMS under anaerobic conditions. Neutralized L-malate was added to the respective samples and the pH was adjusted to the desired values. A: Fold change of RLU after two hours of strains carrying <italic>mleS</italic><sub>p</sub>-luc. Left, wildtype. Right, &#x394;<italic>mleR </italic>mutant. B: Fold change of RLU after two hours of strains carrying <italic>mleR</italic><sub>p</sub>-luc. Left, wildtype. Right, &#x394;<italic>mleR </italic>mutant. White bars, no addition of L-malate; Red bars, addition of 25 mM L-malate.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Quantitative real time PCR</title>
+        <p>The transcript levels of the genes Smu.135-140 were determined using quantitative real time RT-PCR. To this end, an early log phase culture of the wildtype was divided. To one part free malic acid (25 mM final concentration) was added, the other part remained untreated. RNA was sampled prior to splitting the culture and after two hours. All tested genes, except <italic>mleR </italic>itself, showed enhanced transcription in the presence of malic acid compared to time zero (Figure <xref ref-type="fig" rid="F5">5</xref>).</p>
+        <fig id="F5" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Induction of the <italic>mle </italic>locus by low pH and malate</bold>. The transcription level was determined by quantitative real time RT-PCR of the genes Smu.135-140. Results are presented as fold change after a two hours treatment with 0 or 25 mM L-malate and compared to time zero. White bars, 0 mM free malic acid; Red bars, 25 mM free malic acid.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-5"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Influence of L-malate and MleR on growth</title>
+        <p>Since L-malate does not serve as a catabolite facilitating growth of <italic>S. mutans </italic>we were interested to see how energy gain and pH maintenance due to MLF affect its ability to grow in an acidic environment. To study this, we used BM medium supplemented with 1% (w/v) glucose (pH adjusted to 6.0) with or without supplementation of L-malate. In the absence of L-malate, there was no difference in growth of the wildtype and the &#x394;<italic>mleR </italic>mutant strain. Both strains entered the stationary phase after 6-7 hours at an external pH of about 4.2 and reached a final OD<sub>600 </sub>of about 0.41 (Figure <xref ref-type="fig" rid="F6">6A</xref>). Inoculation of neutral BMG with this culture (pH 7.4) resulted in an optical density of ~ 1.0 for both strains, ensuring that the pH and not nutrient limitation were the determinant for entering the stationary phase at acidic conditions. Addition of L-malate to the acidified culture medium facilitated pH maintenance and further growth of both cultures (Figure <xref ref-type="fig" rid="F6">6A</xref>). The presence of L-malate resulted in a substantially higher optical density of the wild type compared to the <italic>mleR </italic>knockout strain. Both strains were capable of carrying out MLF, as monitored by the L-malate concentration in the supernatant (Figure <xref ref-type="fig" rid="F6">6B</xref>), but the mutant to a much smaller degree than the wildtype. Further on significant internalisation/decarboxylation of L-malate started when the external pH dropped below 5, confirming the luciferase reporter data which had shown that the malolactic fermentation system is only activated at low pH.</p>
+        <fig id="F6" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p><bold>Influence of L-malate and <italic>mleR </italic>on the growth of <italic>S. mutans</italic></bold>. Cell were inoculated in acidified BMG (pH 6.0) medium under anaerobic conditions. A: Growth (OD<sub>600</sub>) of wildtype (black) and &#x394;<italic>mleR </italic>mutant (grey) in the absence (open symbols) or presence (filled symbols) of L-malate. B: pH and malate concentration of the supernatant of wildtype and &#x394;<italic>mleR </italic>mutant cultures grown in the presence of malate. Closed circle, pH of wildtype; Closed square, pH of the &#x394;<italic>mleR </italic>mutant; Open circle, malate concentration of wildtype; Open square, malate concentration of the &#x394;<italic>mleR </italic>mutant.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-6"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Influence of L-malate and <italic>mleR </italic>on the ability of <italic>S. mutans </italic>to tolerate acid stress</title>
+        <p>Since MLF has been shown to facilitate pH maintenance [<xref ref-type="bibr" rid="B17">17</xref>], we studied the contribution of MLF to acid tolerance in <italic>S. mutans </italic>(Figure <xref ref-type="fig" rid="F7">7</xref>). Control cells of wildtype and <italic>&#x394;mleR </italic>were grown in neutral THBY before being transferred to pH 3.1 without L-malate. Both strains showed no difference in the survival under these conditions (Figure <xref ref-type="fig" rid="F7">7</xref>). To determine the influence of malate and the <italic>mleR </italic>regulator on the response of <italic>S. mutans </italic>to a rapid pH shift, both the wildtype and the <italic>mleR </italic>mutant were grown in neutral THBY and then subjected to pH 3.1 in the presence of 25 mM malate. In both strains the number of surviving cells after 20 minutes was similar to the control (Figure <xref ref-type="fig" rid="F7">7</xref>). However, after 40 minutes the number of viable cells increased significantly compared to the control in the wildtype. Thus, the genes for MLF were induced within this time period and the conversion of malate contributed to the aciduricity. Without a functional copy of <italic>mleR</italic>, the number of viable cells also increased after 40 minutes but to a much lesser extend compared to the wildtype. This again shows that a shift to an acidic pH is satisfactory to induce the MLF genes in the absence of <italic>mleR</italic>. When the <italic>mle </italic>genes were induced by low pH and L-malate in a preincubation step before transferring the cells to pH 3.1, an immediately increased viability was already seen 20 minutes after acid shock. Again, the wildtype exhibited a significantly enhanced survival compared to the <italic>mleR </italic>knockout mutant. The data show that the MLF genes are induced during the acid adaptation response but a functional copy of <italic>mleR </italic>in conjunction with its co-inducer L-malate is needed to achieve maximal expression.</p>
+        <fig id="F7" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p><bold>Acid tolerance assay</bold>. Role of malate for the survival of <italic>S. mutans </italic>wildtype (A) and &#x394;<italic>mleR </italic>mutant (B) after acid stress. Diamond, control, cells were incubated in neutral THBY without malate and subjected to pH 3.1 without malate; Circle, cells were incubated in neutral THBY without malate and subjected to pH 3.1 with malate; Triangle, cells were incubated in acidified THBY with malate and subjected to pH 3.1 with malate.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-10-58-7"/>
+        </fig>
+        <p>Quantitative real time PCR showed an up-regulation of the adjacent gluthatione reductase upon the addition of 25 mM free malic acid (Figure <xref ref-type="fig" rid="F5">5</xref>). Therefore, we tested the capability of <italic>S. mutans </italic>to survive exposure to 0.2 (v/v) hydrogen peroxide after incubation of cells in acidified THBY and malate to induce this gene. However, no difference between wildtype and &#x394;<italic>mleR </italic>mutant was observed (data not shown).</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>The aciduric capacity of <italic>S. mutans </italic>is one of the key elements of its virulence. Contributing mechanisms are increased activity of the F1F0-ATPase, changes in the membrane protein and fatty acid composition, the induction of stress proteins and the production of alkaline metabolites [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B20">20</xref>-<xref ref-type="bibr" rid="B22">22</xref>]. Extrusion of protons via the F1F0-ATPase consumes energy in the form of ATP. Hence, the yield of glycolytic activity and ATP production is diminished at low pH, <italic>S. mutans </italic>has to induce other pathways to supply enough energy. The conversion of L-malate to L-lactate and carbon dioxide during malolactic fermentation facilitates the maintenance of the ATP pool of the cell and supports the production of more alkaline metabolites. Therefore MLF directly contributes to the competitive fitness of <italic>S. mutans </italic>in the complex, multispecies environment of the dental plaque. Recently, Sheng and Marquis showed that cells of <italic>S. mutans </italic>UA159 possess MLF activity but no information about its regulation was available [<xref ref-type="bibr" rid="B17">17</xref>]. According to the information of MLF from <italic>L. lactis </italic>it was likely that the LTTR <italic>mleR </italic>adjacent to the MLF genes might be involved in their regulation.</p>
+      <sec>
+        <title>Low pH is required for induction of MLF</title>
+        <p>A knockout of <italic>mleR </italic>significantly decreased MLF activity of <italic>S. mutans </italic>cells and thus confirmed its participation in the regulation of MLF. Applying promoter luciferase reporter constructs we showed that the regulation of the <italic>mle </italic>genes is much more complex than just being induced in the presence of MleR.</p>
+        <p>The luciferase fusion data and the acid killing profiles showed that the <italic>mle </italic>genes are activated within 30 minutes by acidic pH values, independently of MleR and malate. Therefore, the transcription of the <italic>mle </italic>genes is driven from acid inducible promoters and MLF is part of the early acid tolerance response. The EMSA experiments showed a clear interaction of MleR with malate, even under alkaline conditions. However, under neutral pH conditions no effect of malate on the transcription (using the luciferase reporters) was noticeable, suggesting that uptake of malate occurs only under low pH conditions. Indeed, Poolman <italic>et al</italic>. [<xref ref-type="bibr" rid="B12">12</xref>] showed that in the presence of a pH gradient, membrane vesicles of <italic>L. lactis </italic>are able to take up L-malate with one proton or the monoanionic form of L-malate (MH<sup>-</sup>). They conclude that a pH gradient stimulates indirectly a malate/lactate antiport, by affecting the L-lactate gradient or promotes directly electrogenic malate uptake, respectively. They showed that with decreasing pH, the pH gradient adjusted to the membrane potential or even exceeded it, which resulted in an increased uptake of added malate. Assuming a similar mechanism in <italic>S. mutans </italic>explains why malate under neutral pH conditions did not cause an induction of the <italic>mle </italic>genes. Since the uptake of malate is reduced in a neutral pH environment, the intracellular amount of malate is not sufficient to stimulate MleR and subsequent avoided a positive regulation.</p>
+        <p>MleR fully induces the MLF only at low pH, with malate acting as a coinducer. A similar mechanism was recently disclosed by Liu <italic>et al</italic>. for the agmatine deiminase system [<xref ref-type="bibr" rid="B23">23</xref>]. They showed that its induction by AguR requires both low pH and agmatine. Using a linker scanning mutagenesis approach they were able to isolate mutant forms of AguR that lost their ability to activate transcription in response to pH, agmatine or both signals, respectively. They suggested that acidic conditions favoured binding of the ligand due to conformational changes of the regulator protein. A similar mechanism may indeed also be true for MleR and L-malate.</p>
+        <p>In <italic>S. mutans</italic>, MLF is switched on at low pH in the complete absence of malate. This behavior might be adaptive since low pH and the availability of malate are often correlated in natural sources, e.g. fruits. Thus, it may be advantageous for <italic>S. mutans </italic>to induce the whole battery of acid tolerance responses if threatened by low pH in order to be prepared, since chances of encountering malate are usually high.</p>
+      </sec>
+      <sec>
+        <title>The mle locus</title>
+        <p>By RT-PCR we showed that the oxalate decarboxylase gene (<italic>oxdC</italic>) is co-transcribed with the <italic>mleSP </italic>genes. Since the reactions catalysed by MleS and OxdC are analogous it can be expected that decarboxylation of oxalate to formate also contributes to the aciduricity of <italic>S. mutans</italic>. However, no evidence for oxalate decarboxylation activity was found in <italic>S. mutans </italic>under the tested conditions, but extensive investigations were not carried out. Examination of the transcript levels of the wildtype in the presence of free malic acid using quantitative real time PCR showed co-transcription of <italic>oxdC </italic>with the <italic>mle </italic>genes and confirmed the results obtained with the luciferase reporter strains. The transcript level of <italic>mleR </italic>itself constituted an exception because it was not elevated. However, the result has to be interpreted cautiously since the reporter strains used here do not take into account the mRNA stability of <italic>mleR</italic>, which might represent another regulatory mechanism. Furthermore qPCR showed an induction of the adjacent gluthatione reductase, confirming that the responses to acidic and oxidative stress are overlapping in <italic>S. mutans </italic>[<xref ref-type="bibr" rid="B24">24</xref>].</p>
+      </sec>
+      <sec>
+        <title>MleR binding sites</title>
+        <p>The electrophoretic mobility shift assays shown here revealed the presence of multiple binding sites for MleR in the DNA region within the translational start site of <italic>mleR </italic>and <italic>mleS</italic>. LysR type transcriptional regulators (LTTR) are generally regarded to be active as tetramers, therefore they are known to interact with several binding sites at their promoter region(s). The (auto)-regulatory binding site is favoured by the apo-form, whereas the (target)-activation site is occupied once the co-inducer is bound to the protein. However, the presence of the co-inducer affects the affinity to each binding site, influences DNA bending and subsequently protein-protein interactions [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B26">26</xref>].</p>
+        <p>The addition of L-malate changed the retardation pattern for some of the applied DNA fragments. Since the transcription of <italic>mleR </italic>and <italic>mleS </italic>was shown to be induced equally by a pH shift and L-malate using the luciferase reporter strains, a similar retardation behaviour in the EMSA for both upstream DNA fragments would have been expected.</p>
+        <p>Surprisingly, only the IGS upstream of <italic>mleS </italic>showed a different pattern in the presence of malate, whereas the IGS upstream of <italic>mleR </italic>even showed a weaker retardation. Due to the basic pI of the MleR protein, we were not able to carry out EMSA under physiological pH conditions which might negatively influence the binding affinity of the protein. The presence of at least two binding sites for MleR within the coding region of Smu.136c suggests a complex regulatory mechanism, which has to be elucidated further by means of DNase footprinting and mutagenesis.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>In summary, we showed that the <italic>mle </italic>genes including <italic>oxdC </italic>are under the control of acid inducible promoters and that they are induced within the first 30 minutes upon acid shock. Therefore they are part of the early acid tolerance response in <italic>S. mutans</italic>, which is induced within 30 minutes after acidification [<xref ref-type="bibr" rid="B8">8</xref>]. Further enhancement of their transcription can be obtained by MleR and L-malate in an acidic environment. The use of gel retardation assays showed the presence of multiple binding sites for MleR, even in the coding sequence of another gene, suggesting a complex regulatory mechanism. We clearly showed that the presence of L-malate contributed strongly to the survival of <italic>S. mutans </italic>under low pH conditions. MLF is one of the strategies aciduric bacteria have evolved to cope with low pH and to compete with other bacteria in dental plaque. <italic>S. mutans </italic>is able to carry out MLF under more acidic conditions than other <italic>Streptococci </italic>[<xref ref-type="bibr" rid="B17">17</xref>], thus emphasizing the dominant role of <italic>S. mutans </italic>in the oral cavity.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Bacterial strains, plasmids, and culture conditions</title>
+        <p>Bacterial strains and plasmids and their relevant characteristics are listed in table <xref ref-type="table" rid="T2">2</xref>. <italic>Escherichia coli </italic>was routinely cultured in Luria Bertani (LB, Carl-Roth, Karlsruhe, Germany) medium at 37&#xB0;C. <italic>E. coli </italic>strains carrying plasmids were selected with 100 &#x3BC;g ml<sup>-1 </sup>ampicillin, or 50 &#x3BC;g ml<sup>-1 </sup>spectinomycin. All <italic>Streptococcus mutans </italic>strains were cultivated in Todd Hewitt Broth medium supplemented with 0.1% (w/v) yeast extract (THBY, Becton Dickinson, Heidelberg, Germany) or in BM [<xref ref-type="bibr" rid="B27">27</xref>] medium containing 0.5% sucrose (BMS) or 1% (w/v) glucose (BMG). <italic>S. mutans </italic>strains were grown at 37&#xB0;C without agitation aerobically (5% CO<sub>2 </sub>enriched) in THBY or in BM medium under anaerobic conditions (80% N<sub>2</sub>, 10% H<sub>2</sub>, 10% CO<sub>2</sub>). Pre-cultures were grown in THBY medium. Selection of mutant strains was carried out with 10 &#x3BC;g ml<sup>-1 </sup>erythromycin, or 500 &#x3BC;g ml<sup>-1 </sup>spectinomycin.</p>
+        <table-wrap id="T2" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>Bacterial strains and plasmids used in this study.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Strain/plasmid</th>
+                <th align="left">Relevant Characteristics<sup>a</sup></th>
+                <th align="left">Reference/source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">Strains</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;<italic>E. coli</italic></td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;DH5&#x3B1;</td>
+                <td align="left">General cloning strain</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;Tuner(DE3)</td>
+                <td align="left">Expression strain</td>
+                <td align="left">Novagen</td>
+              </tr>
+              <tr>
+                <td/>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;<italic>S. mutans</italic></td>
+                <td/>
+                <td align="left">ATCC 700610</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;UA159</td>
+                <td align="left">Wild-type, Erm<sup>s</sup>, Sp<sup>s</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;ALSM3</td>
+                <td align="left">UA159&#x394;<italic>mleR</italic>, Erm<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;ALSM20</td>
+                <td align="left">UA159::&#x3D5;(<italic>mleR</italic><sub>P</sub>-luc), Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;ALSM13</td>
+                <td align="left">UA159&#x394;<italic>mleR</italic>::&#x3D5;(<italic>mleR</italic><sub>P</sub>-luc), Erm<sup>r</sup>, Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;ALSM33</td>
+                <td align="left">UA159::&#x3D5;(<italic>mleS</italic><sub>P</sub>-luc), Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;&#x2003;ALSM34</td>
+                <td align="left">UA159&#x394;<italic>mleR</italic>::&#x3D5;(<italic>mleS</italic><sub>P</sub>-luc), Erm<sup>r</sup>, Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td/>
+                <td/>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td/>
+                <td/>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">Plasmids</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pFW5</td>
+                <td align="left">Suicide vector, Sp<sup>r</sup></td>
+                <td align="left">A. Podbielski [<xref ref-type="bibr" rid="B29">29</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pHL222</td>
+                <td align="left">Ap<sup>r</sup>, luc</td>
+                <td align="left">H. L&#xF6;ssner</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pALEC15</td>
+                <td align="left">Derivate pFW5, luc, Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pALEC16</td>
+                <td align="left">pALEC15 + &#x3D5;(<italic>mleR</italic><sub>P</sub>-luc), Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+              <tr>
+                <td align="left">&#x2003;pALEC47</td>
+                <td align="left">pALEC15 + &#x3D5;(<italic>mleS</italic><sub>P</sub>-luc), Sp<sup>r</sup></td>
+                <td align="left">This study</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>Ap<sup>r</sup>, ampicillin resistance; Sp<sup>r</sup>, spectinomycin resistance; Erm<sup>r</sup>, erythromycin resistance; luc, luciferase.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Construction of <italic>mleR </italic>knockout mutant</title>
+        <p>The null mutant of <italic>mleR </italic>(Smu.135) was constructed by allelic replacement using the PCR ligation mutagenesis strategy described by Lau <italic>et al</italic>.[<xref ref-type="bibr" rid="B28">28</xref>]. To generate the construct, two fragments upstream and downstream of the <italic>mleR </italic>gene were amplified with <italic>Pfu </italic>polymerase (Promega) with primers 135UpF/135UpR and 135DoF/135DoR (Table <xref ref-type="table" rid="T3">3</xref>). Restriction sites were incorporated into the primers and the amplicons subsequently digested with the appropriate enzyme. The erythromycin antibiotic resistance cassette was amplified with primers ermF/ermR and treated as described above. All fragments were ligated and transformed into <italic>S. mutans </italic>UA159 to generate strain ALSM3 as previously described [<xref ref-type="bibr" rid="B18">18</xref>]. Erythromycin resistant colonies were confirmed by PCR and sequencing.</p>
+        <table-wrap id="T3" position="float">
+          <label>Table 3</label>
+          <caption>
+            <p>Primers used in this study.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Primer<sup>a</sup></th>
+                <th align="left">Sequence (5'&#x2192;3')</th>
+                <th align="left">Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">135UpF</td>
+                <td align="left">CCAAATAACCCGCATATTGAGG</td>
+                <td align="left">Knockout <italic>mleR</italic></td>
+              </tr>
+              <tr>
+                <td align="left">135UpR</td>
+                <td align="left"><bold>GGCGCGCC</bold>TTGAAATTTTTCAGCAACCTTA</td>
+                <td align="left">Knockout <italic>mleR</italic></td>
+              </tr>
+              <tr>
+                <td align="left">135DoF</td>
+                <td align="left"><bold>GGCCGGCC</bold>TCCTCAACCTTAACACCTGATA</td>
+                <td align="left">Knockout <italic>mleR</italic></td>
+              </tr>
+              <tr>
+                <td align="left">135DoR</td>
+                <td align="left">GTTGCTAAAGATTTGTTCTCAG</td>
+                <td align="left">Knockout <italic>mleR</italic></td>
+              </tr>
+              <tr>
+                <td align="left">ErmF</td>
+                <td align="left"><bold>GGCGCGCC</bold>CCGGGCCCAAAATTTGTTTGAT</td>
+                <td align="left">ErmEA</td>
+              </tr>
+              <tr>
+                <td align="left">ErmR</td>
+                <td align="left"><bold>GGCCGGCC</bold>AGTCGGCAGCGACTCATAGAAT</td>
+                <td align="left">ErmEA</td>
+              </tr>
+              <tr>
+                <td align="left">lucF</td>
+                <td align="left">ATATA<bold>CCATGG</bold>AAGACGCCAAAAAC</td>
+                <td align="left">Luciferase</td>
+              </tr>
+              <tr>
+                <td align="left">lucR</td>
+                <td align="left">AAAAAA<bold>ACTAGT</bold>TTATGCTAGTTATTGCTCAGCGG</td>
+                <td align="left">Luciferase</td>
+              </tr>
+              <tr>
+                <td align="left">P135F/EP9</td>
+                <td align="left">AAAAAA<bold>CCATGG</bold>CTTTATTCAAAAAAGGATCGTTT</td>
+                <td align="left">Promoter <italic>mleR</italic>/EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">P135R</td>
+                <td align="left">TTTTTT<bold>CCATGG</bold>TTAACCTTTCTATTATTTTTACTAGTT</td>
+                <td align="left">Promoter <italic>mleR</italic></td>
+              </tr>
+              <tr>
+                <td align="left">P137F/EP6</td>
+                <td align="left">AAATTT<bold>CCATGG</bold>CAAGACTGTTAAAGTCAAAAA</td>
+                <td align="left">Promoter <italic>mleS</italic>/EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">P137R/</td>
+                <td align="left">AAAAAA<bold>CCATGG</bold>TTTCTGCACCTCCTTATATT</td>
+                <td align="left">Promoter <italic>mleS</italic></td>
+              </tr>
+              <tr>
+                <td align="left">135qF</td>
+                <td align="left">TGAAGCGTCACCTTGAGAGA</td>
+                <td align="left">Smu.135 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">135qR</td>
+                <td align="left">TAATGGGTGGGCATCCTAAG</td>
+                <td align="left">Smu.135 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">136qF</td>
+                <td align="left">AAGGTATCATCGGCAAGCAC</td>
+                <td align="left">Smu.136 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">136qR</td>
+                <td align="left">TCACTTTTTCAAGCGTCTGC</td>
+                <td align="left">Smu.136 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">137qF</td>
+                <td align="left">GGTATCTTTGCGGCTATGGA</td>
+                <td align="left">Smu.137 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">137qR</td>
+                <td align="left">TTTCACGCAAGACACGAGAG</td>
+                <td align="left">Smu.137 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">138qF</td>
+                <td align="left">CGACGGATAGCAAGTCTGGT</td>
+                <td align="left">Smu.138 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">138qR</td>
+                <td align="left">GTCAACGTGCTAGTCGCAAA</td>
+                <td align="left">Smu.138 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">139qF</td>
+                <td align="left">TACAGCGATTGACGAGAACG</td>
+                <td align="left">Smu.139 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">139qR</td>
+                <td align="left">AGAAATTGGCTTCGCTGAAA</td>
+                <td align="left">Smu.139 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">140qF</td>
+                <td align="left">TTCCTATGCGGATTTTCAGG</td>
+                <td align="left">Smu.140 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">140qR</td>
+                <td align="left">CCTGACCGATTTGGGAATA</td>
+                <td align="left">Smu.140 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">1114qF</td>
+                <td align="left">TACTACCCGGCCCCGATT</td>
+                <td align="left">Smu.1114 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">1114qR</td>
+                <td align="left">CGAGCACGCAAAACAATAGA</td>
+                <td align="left">Smu.1114 QPCR</td>
+              </tr>
+              <tr>
+                <td align="left">EP1</td>
+                <td align="left">TTAACCTTTCTATTATTTTTACTAGTT</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP2</td>
+                <td align="left">TCCAAGTGGTTTAAAAGTAACAAGA</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP3</td>
+                <td align="left">GCAACTTCCCAAGAGAAAACA</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP4</td>
+                <td align="left">TTAATCAAGATTATCAATAATCTC</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP5</td>
+                <td align="left">ATGAAGAAAAAAAGCTATCT</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP7</td>
+                <td align="left">TGCTTGCCGATGATAGGTT</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP8</td>
+                <td align="left">TAAAGAATACAAGTTTAAAAGCAAATAGTTAACT</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP10</td>
+                <td align="left">ATAAGTATTTTTTATCCGTTATCTAAGGTTTGAC</td>
+                <td align="left">EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">EP11</td>
+                <td align="left">GTCAAACCTTAGATAACGGATAAAAAATACTTAT</td>
+                <td align="left">EMSA</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>Restriction sites in bold</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Construction of luciferase reporter strains</title>
+        <p>For the construction of the luciferase reporter strains, the advanced firefly luciferase was amplified using <italic>Pfu </italic>polymerase from plasmid pHL222 using primers lucF/lucR. The amplicon was cloned into the suicide vector pFW5 [<xref ref-type="bibr" rid="B29">29</xref>] via the NcoI and SpeI sites to generate plasmid pALEC15. The upstream regions containing the putative promoters of <italic>mleR </italic>and <italic>mleS </italic>were amplified using the primers P135F/P135R and P137F/P137R. The PCR products were digested with NcoI and ligated into pALEC15 to generate plasmids pALEC16 and pALEC47, respectively. The plasmids were transformed into the wildtype and strain ALSM3 to generate strains ALSM20, ALSM13, ALSM33, and ALSM34.</p>
+      </sec>
+      <sec>
+        <title>Luciferase assay</title>
+        <p>Luciferase assays were performed by withdrawing 1 ml culture. The OD<sub>600 </sub>was measured and samples were held on ice until the start of the assay. 100 &#x3BC;l of each sample were mixed with 3&#xD7; assay buffer (75 mM tricine, 15 mM MgSO<sub>4</sub>, 1.5 mM EDTA, 1.5 mM DTT, 900 &#x3BC;M ATP, 3 mg/ml (w/v) BSA, and 3% (w/v) D-Glucose, pH = 7.8) and incubated 10 min prior to injection of 100 &#x3BC;l D-luciferin (120 &#x3BC;M final concentration) solved in 20 mM tricine (pH 7.8). D-Luciferin (Carl-Roth, Karlsruhe, Germany) was resuspended in 20 mM tricine (pH = 7.8, 1 mg/ml), aliquoted and stored at -70&#xB0;C until use. Luminescence was recorded for 35 s (POLARstar OPTIMA luminometer, BMG LABTECH) and normalized against the OD<sub>600 </sub>to calculate the relative light units (RLU). For calculation of the fold change, the RLU were normalized against the RLU of time zero. All measurements were done in triplicate.</p>
+      </sec>
+      <sec>
+        <title>RNA extraction and quantitative real-time RT PCR</title>
+        <p><italic>S. mutans </italic>wildtype was incubated anaerobically in BM medium containing 0.5% (w/v) sucrose until early-log phase. A sample was withdrawn for time zero, transferred into the double volume of RNA-protect (Qiagen, Hilden, Germany) and centrifuged according to the manufacturer's instructions. The cultures were split in two halves and free malic acid was added to one of them (final concentration 25 mM). After two hours samples for RNA extraction were withdrawn and treated as described above. For lysis, cells were incubated with lysozyme (2.5 mg/ml culture pellet) and mutanolysin (50 U/ml culture pellet) at room temperature for 45 min. The mixture was transferred into RLT buffer containing sterile, acid washed glass beads (diameter 106 &#x3BC;m) and vortexed for 3 min. Subsequent RNA extraction was carried out using the RNeasy mini kit (Qiagen). Genomic DNA was removed using the DNAse I (Qiagen) in-solution digestion protocol. The quality of the total RNA was controlled on a denaturating formaldehyde agarose gel. Synthesis of cDNA was carried out using random hexamers and SuperScript II reverse transcriptase (Invitrogen, Karlsruhe, Germany), followed by purification using the PCR Purification kit (Qiagen). All reactions included a control without SuperScript II to assess genomic DNA contamination. Real-time PCR was performed using the LightCycler 480 system (Roche, Mannheim, Germany) and the reaction mixtures were prepared using the Quantitect SYBR Green PCR Kit (Qiagen). Changes in the level of gene expression were calculated automatically by the LightCylcer 480 software using the &#x394;&#x394;<italic>C<sub>T </sub></italic>method. The gyrase A gene (Smu.1114) was used as the housekeeping reference gene. All steps were performed according to the manufacturer's protocols. All measurements were done in duplicate.</p>
+      </sec>
+      <sec>
+        <title>Acid killing and hydrogen peroxide killing</title>
+        <p>The ability of <italic>S. mutans </italic>to withstand acidic pH was determined by the method of Belli and Marquis [<xref ref-type="bibr" rid="B9">9</xref>]. Briefly, overnight cultures of <italic>S. mutans </italic>strains were diluted 1:20 in fresh THBY medium (pH 7) and grown under aerobic conditions. Cultures were harvested (at an OD<sub>600 </sub>~ 0.3) by centrifugation at 11000 &#xD7; <italic>g </italic>for 5 min. The supernatant was carefully discarded and the pellet was resuspended in 0.1 M glycine buffer pH 7.0 (time zero) or pH 3.1 without malate (control) or in the presence of 25 mM L-malate. Samples of cells incubated at pH 3.1 were withdrawn after 20, 40, 60, and 80 minutes, serially diluted in 0.1 M glycine buffer, pH 7.0, and plated on THBY plates in triplicate and incubated for 48 h aerobically.</p>
+        <p>For pre-induction of the acid tolerance response and to achieve maximal expression of MLF, cells were grown in THBY (pH 5.5) in the presence of 25 mM L-malate and treated as described above. To determine the capability to withstand hydrogen peroxide, cells were collected as described above and resuspended in 0.1 M glycine buffer, pH 7.0. Before the addition of H<sub>2</sub>O<sub>2</sub>, 0.2% (v/v) final concentration, an aliquot was withdrawn to determine the cell number by colony forming units at time zero. To inactivate hydrogen peroxide, catalase (5 mg/ml, Sigma) was added immediately after sampling. Samples were serially diluted in 0.1 M glycine buffer, pH 7.0, plated in triplicate and incubated as described above.</p>
+      </sec>
+      <sec>
+        <title>Assay for malolactic fermentation activity</title>
+        <p>The capacity to carry out malolactic fermentation was determined by the method of Sheng and Marquis [<xref ref-type="bibr" rid="B17">17</xref>], slightly modified. Briefly, <italic>S. mutans </italic>cells were cultivated in THBY aerobically until the end of the log phase. An equal amount of wildtype and <italic>&#x394;mleR </italic>cells was harvested by centrifugation (5000 &#xD7; <italic>g</italic>, 15 min, 4&#xB0;C) washed with salt solution (50 mM KCl + 1 mM MgCl<sub>2</sub>) and incubated for 1 h in 20 mM potassium phosphate buffer, pH 7.0 at 37&#xB0;C. The pH of the cultures was adjusted with HCl to pH 6.3. Prewarmed L-malate was added to the cell suspension (42 mM end concentration) to initiate malolactic fermentation. Aliquots were withdrawn after 0, 20, 40, and 60 minutes and 12 hours for measuring the pH and the L-malate concentration of the supernatant using the L-malic acid kit from Biosentec (Toulouse, France). For determination of L-malate in growing cultures, 1 ml was centrifuged at 11000 &#xD7; <italic>g </italic>for 5 min and the supernatant was analysed using the L-malic acid kit.</p>
+      </sec>
+      <sec>
+        <title>Expression and purification of the MleR protein</title>
+        <p>For expression the coding sequence of <italic>mleR </italic>was amplified using primers CDSMleRF/R and cloned into the pET28c expression vector (Novagen, Merck KgaA, Darmstadt, Germany) via the NdeI and NheI restriction sites. The resulting plasmid was sequenced for confirmation and further transformed into <italic>E. coli </italic>Tuner DE3 (Novagen) to obtain an N-terminal 6His fusion protein. For expression a 250 ml LB culture was grown to an OD<sub>600 nm </sub>of 0.6 and expression was induced by adding IPTG to a final concentration of 1 mM. The cells were grown for additional two hours, harvested (4,000 &#xD7; <italic>g</italic>, 20 min, 4&#xB0;C) and resuspended in 50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 7.0, 300 mM NaCl, 25 mM imidazole, and 5 mg/ml lysozyme and incubated on ice for 30 min. Subsequently, the cells were further lysed by sonification (4 &#xD7; 1 min pulse, 1 min break, MS72 probe with 25% power; Bandelin Sonoplus HD2200, Berlin, Germany) and the soluble 6His-MleR extract was separated from insoluble cell material by centrifugation (25,000 &#xD7; <italic>g</italic>, 30 min, 4&#xB0;C). The 6His-MleR protein was then purified by IMAC affinity chromatography using Talon resin (Clontech, Saint-Germain-en-Laye, France). Bound protein was washed with 8 bed volumes 50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 7.0, 300 mM NaCl, 25 mM imidazole and eluted with 50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 7.0, 300 mM NaCl, 300 mM imidazole. The eluted 6His-MleR protein (purity &gt;90% on an SDS PAGE) was always stored on ice and was verified by western blot (Anti His-tag antibody, Novagen) and N-terminal sequencing.</p>
+      </sec>
+      <sec>
+        <title>Electrophoretic mobility shift assay (EMSA)</title>
+        <p>For binding studies, the purified MleR protein was dialysed four times against 1 liter 1&#xD7; binding buffer (20 mM Tris, pH 7.5, 100 mM KCl, 2 mM EDTA, 10% glycerol) at 4&#xB0;C for 12 hours using a 12-14 kDa cut-off dialysis bag (Medicell International Ltd., London, UK). Several fragments of the region between <italic>mleR </italic>and <italic>mleS </italic>were PCR amplified and directly used for gel retardation experiments (see Table <xref ref-type="table" rid="T3">3</xref> for primers). To verify the specificity of the DNA-MleR interaction each reaction mixture contained an equal amount of competitor DNA. Competitor DNA consisted either of an internal fragment of <italic>mleS</italic>, amplified by PCR (primers 137qF/R), or a DNA fragment within the upstream region of <italic>mleR</italic>, generated by hybridising complementary primers (EP10/11, Table <xref ref-type="table" rid="T3">3</xref>). For this purpose, primers EP10/11 were mixed in equal molar ratios, denaturated by heating to 100&#xB0;C and annealed by slowly cooling down to room temperature. DNA fragments, MleR protein (appr. 100 ng) and competitor DNA (in case of the complementary primers 75 ng/&#x3BC;l, final concentration) were mixed and incubated for 20 min at ambient temperature. To further exclude unspecific interactions, MleR was substituted with 100 ng BSA (Carl-Roth) and tested for each fragment. The reaction mixtures were subsequently loaded onto a 0.5&#xD7; TBE, 4.5% polyacrylamide (37.5:1, acrylamide/bisacrylamide) gel. Since the MleR protein has a calculated pI of ~9, DNA in complex with MleR was hardly entering the gel using pH values below 9.2. Therefore the pH of the gel cast solution and electrophoresis buffer were adjusted to pH 9.45. L-malate was added to the binding reaction, the gel and the electrophoresis buffer (0.5&#xD7; TBE) at 5 mM final concentration when needed. Electrophoresis was carried out at 10 V/cm at ambient temperature and the gel was stained using SYBR Gold (Invitrogen).</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>AL planned and carried out the experiments and wrote the original manuscript. IW-D and HS participated in the design of the study and helped to draft the manuscript.</p>
+      <p>All authors read and approved the final manuscript.</p>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Andreas Podbielski for providing the pFW5 plasmid and Holger L&#xF6;ssner for providing the pHL222 plasmid.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Igarashi</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Kamiyama</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Yamada</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Measurement of pH in human dental plaque in vivo with an ion-sensitive transistor electrode</article-title>
+          <source>Arch Oral Biol</source>
+          <year>1981</year>
+          <volume>26</volume>
+          <fpage>203</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1016/0003-9969(81)90131-X</pub-id>
+          <pub-id pub-id-type="pmid">6947728</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jensen</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Polansky</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Schachtele</surname>
+            <given-names>CF</given-names>
+          </name>
+          <article-title>Plaque sampling and telemetry for monitoring acid production on human buccal tooth surfaces</article-title>
+          <source>Arch Oral Biol</source>
+          <year>1982</year>
+          <volume>27</volume>
+          <fpage>21</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="doi">10.1016/0003-9969(82)90172-8</pub-id>
+          <pub-id pub-id-type="pmid">6951525</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jensen</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Wefel</surname>
+            <given-names>JS</given-names>
+          </name>
+          <article-title>Human plaque pH responses to meals and the effects of chewing gum</article-title>
+          <source>Br Dent J</source>
+          <year>1989</year>
+          <volume>167</volume>
+          <fpage>204</fpage>
+          <lpage>208</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bdj.4806971</pub-id>
+          <pub-id pub-id-type="pmid">2789898</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schachtele</surname>
+            <given-names>CF</given-names>
+          </name>
+          <name>
+            <surname>Jensen</surname>
+            <given-names>ME</given-names>
+          </name>
+          <article-title>Comparison of methods for monitoring changes in the pH of human dental plaque</article-title>
+          <source>J Dent Res</source>
+          <year>1982</year>
+          <volume>61</volume>
+          <fpage>1117</fpage>
+          <lpage>1125</lpage>
+          <pub-id pub-id-type="pmid">6749921</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hamilton</surname>
+            <given-names>IR</given-names>
+          </name>
+          <name>
+            <surname>Svensater</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>Acid-regulated proteins induced by Streptococcus mutans and other oral bacteria during acid shock</article-title>
+          <source>Oral Microbiol Immunol</source>
+          <year>1998</year>
+          <volume>13</volume>
+          <fpage>292</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1399-302X.1998.tb00710.x</pub-id>
+          <pub-id pub-id-type="pmid">9807121</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Len</surname>
+            <given-names>AC</given-names>
+          </name>
+          <name>
+            <surname>Harty</surname>
+            <given-names>DW</given-names>
+          </name>
+          <name>
+            <surname>Jacques</surname>
+            <given-names>NA</given-names>
+          </name>
+          <article-title>Proteome analysis of Streptococcus mutans metabolic phenotype during acid tolerance</article-title>
+          <source>Microbiology</source>
+          <year>2004</year>
+          <volume>150</volume>
+          <fpage>1353</fpage>
+          <lpage>1366</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.26888-0</pub-id>
+          <pub-id pub-id-type="pmid">15133097</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Dashper</surname>
+            <given-names>SG</given-names>
+          </name>
+          <name>
+            <surname>Reynolds</surname>
+            <given-names>EC</given-names>
+          </name>
+          <article-title>pH regulation by Streptococcus mutans</article-title>
+          <source>J Dent Res</source>
+          <year>1992</year>
+          <volume>71</volume>
+          <fpage>1159</fpage>
+          <lpage>1165</lpage>
+          <pub-id pub-id-type="pmid">1607433</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Svensater</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Larsson</surname>
+            <given-names>UB</given-names>
+          </name>
+          <name>
+            <surname>Greif</surname>
+            <given-names>EC</given-names>
+          </name>
+          <name>
+            <surname>Cvitkovitch</surname>
+            <given-names>DG</given-names>
+          </name>
+          <name>
+            <surname>Hamilton</surname>
+            <given-names>IR</given-names>
+          </name>
+          <article-title>Acid tolerance response and survival by oral bacteria</article-title>
+          <source>Oral Microbiol Immunol</source>
+          <year>1997</year>
+          <volume>12</volume>
+          <fpage>266</fpage>
+          <lpage>273</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1399-302X.1997.tb00390.x</pub-id>
+          <pub-id pub-id-type="pmid">9467379</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Belli</surname>
+            <given-names>WA</given-names>
+          </name>
+          <name>
+            <surname>Marquis</surname>
+            <given-names>RE</given-names>
+          </name>
+          <article-title>Adaptation of Streptococcus mutans and Enterococcus hirae to acid stress in continuous culture</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1991</year>
+          <volume>57</volume>
+          <fpage>1134</fpage>
+          <lpage>1138</lpage>
+          <pub-id pub-id-type="pmid">1829347</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Len</surname>
+            <given-names>AC</given-names>
+          </name>
+          <name>
+            <surname>Harty</surname>
+            <given-names>DW</given-names>
+          </name>
+          <name>
+            <surname>Jacques</surname>
+            <given-names>NA</given-names>
+          </name>
+          <article-title>Stress-responsive proteins are upregulated in Streptococcus mutans during acid tolerance</article-title>
+          <source>Microbiology</source>
+          <year>2004</year>
+          <volume>150</volume>
+          <fpage>1339</fpage>
+          <lpage>1351</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.27008-0</pub-id>
+          <pub-id pub-id-type="pmid">15133096</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Griswold</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>YY</given-names>
+          </name>
+          <name>
+            <surname>Burne</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>Analysis of an agmatine deiminase gene cluster in Streptococcus mutans UA159</article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>1902</fpage>
+          <lpage>1904</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.6.1902-1904.2004</pub-id>
+          <pub-id pub-id-type="pmid">14996823</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Poolman</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Molenaar</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Smid</surname>
+            <given-names>EJ</given-names>
+          </name>
+          <name>
+            <surname>Ubbink</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Abee</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Renault</surname>
+            <given-names>PP</given-names>
+          </name>
+          <article-title>Malolactic fermentation: electrogenic malate uptake and malate/lactate antiport generate metabolic energy</article-title>
+          <source>J Bacteriol</source>
+          <year>1991</year>
+          <volume>173</volume>
+          <fpage>6030</fpage>
+          <lpage>6037</lpage>
+          <pub-id pub-id-type="pmid">1917837</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lemos</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Burne</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>A model of efficiency: stress tolerance by Streptococcus mutans</article-title>
+          <source>Microbiology</source>
+          <year>2008</year>
+          <volume>154</volume>
+          <fpage>3247</fpage>
+          <lpage>3255</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.2008/023770-0</pub-id>
+          <pub-id pub-id-type="pmid">18957579</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ajdic</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>McShan</surname>
+            <given-names>WM</given-names>
+          </name>
+          <name>
+            <surname>McLaughlin</surname>
+            <given-names>RE</given-names>
+          </name>
+          <name>
+            <surname>Savic</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Chang</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Carson</surname>
+            <given-names>MB</given-names>
+          </name>
+          <article-title>Genome sequence of Streptococcus mutans UA159, a cariogenic dental pathogen</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>14434</fpage>
+          <lpage>14439</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.172501299</pub-id>
+          <pub-id pub-id-type="pmid">12397186</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Renault</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Gaillardin</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Heslot</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Product of the Lactococcus lactis gene required for malolactic fermentation is homologous to a family of positive regulators</article-title>
+          <source>J Bacteriol</source>
+          <year>1989</year>
+          <volume>171</volume>
+          <fpage>3108</fpage>
+          <lpage>3114</lpage>
+          <pub-id pub-id-type="pmid">2498286</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Labarre</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Divies</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Guzzo</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Genetic organization of the mle locus and identification of a mleR-like gene from Leuconostoc oenos</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>1996</year>
+          <volume>62</volume>
+          <fpage>4493</fpage>
+          <lpage>4498</lpage>
+          <pub-id pub-id-type="pmid">8953720</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Sheng</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Marquis</surname>
+            <given-names>RE</given-names>
+          </name>
+          <article-title>Malolactic fermentation by Streptococcus mutans</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2007</year>
+          <volume>272</volume>
+          <fpage>196</fpage>
+          <lpage>201</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.2007.00744.x</pub-id>
+          <pub-id pub-id-type="pmid">17490430</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Sztajer</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Lemme</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Vilchez</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Schulz</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Geffers</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Yip</surname>
+            <given-names>CY</given-names>
+          </name>
+          <article-title>Autoinducer-2-regulated genes in Streptococcus mutans UA159 and global metabolic effect of the luxS mutation</article-title>
+          <source>J Bacteriol</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <fpage>401</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01086-07</pub-id>
+          <pub-id pub-id-type="pmid">17981981</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gibson</surname>
+            <given-names>KE</given-names>
+          </name>
+          <name>
+            <surname>Silhavy</surname>
+            <given-names>TJ</given-names>
+          </name>
+          <article-title>The LysR homolog LrhA promotes RpoS degradation by modulating activity of the response regulator sprE</article-title>
+          <source>J Bacteriol</source>
+          <year>1999</year>
+          <volume>181</volume>
+          <fpage>563</fpage>
+          <lpage>571</lpage>
+          <pub-id pub-id-type="pmid">9882671</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Griswold</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Jameson-Lee</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Burne</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>Regulation and physiologic significance of the agmatine deiminase system of Streptococcus mutans UA159</article-title>
+          <source>J Bacteriol</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>834</fpage>
+          <lpage>841</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.188.3.834-841.2006</pub-id>
+          <pub-id pub-id-type="pmid">16428386</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Fozo</surname>
+            <given-names>EM</given-names>
+          </name>
+          <name>
+            <surname>Quivey</surname>
+            <given-names>RG</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <article-title>Shifts in the membrane fatty acid profile of Streptococcus mutans enhance survival in acidic environments</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2004</year>
+          <volume>70</volume>
+          <fpage>929</fpage>
+          <lpage>936</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.70.2.929-936.2004</pub-id>
+          <pub-id pub-id-type="pmid">14766573</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hasona</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Zuobi-Hasona</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Crowley</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Abranches</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Ruelf</surname>
+            <given-names>MA</given-names>
+          </name>
+          <name>
+            <surname>Bleiweis</surname>
+            <given-names>AS</given-names>
+          </name>
+          <article-title>Membrane composition changes and physiological adaptation by Streptococcus mutans signal recognition particle pathway mutants</article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>1219</fpage>
+          <lpage>1230</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01146-06</pub-id>
+          <pub-id pub-id-type="pmid">17085548</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Zeng</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Burne</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>AguR is Required for Induction of the Streptococcus mutans Agmatine Deiminase System by Low pH and Agmatine</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2009</year>
+          <volume>75</volume>
+          <fpage>2629</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.02145-08</pub-id>
+          <pub-id pub-id-type="pmid">19270124</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Svensater</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Sjogreen</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Hamilton</surname>
+            <given-names>IR</given-names>
+          </name>
+          <article-title>Multiple stress responses in Streptococcus mutans and the induction of general and stress-specific proteins</article-title>
+          <source>Microbiology</source>
+          <year>2000</year>
+          <volume>146</volume>
+          <issue>Pt 1</issue>
+          <fpage>107</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="pmid">10658657</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Maddocks</surname>
+            <given-names>SE</given-names>
+          </name>
+          <name>
+            <surname>Oyston</surname>
+            <given-names>PC</given-names>
+          </name>
+          <article-title>Structure and function of the LysR-type transcriptional regulator (LTTR) family proteins</article-title>
+          <source>Microbiology</source>
+          <year>2008</year>
+          <volume>154</volume>
+          <fpage>3609</fpage>
+          <lpage>3623</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.2008/022772-0</pub-id>
+          <pub-id pub-id-type="pmid">19047729</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tropel</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Roelof  van de Meer</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Bacterial transcriptional regulators for degradation pathways of aromatic compounds</article-title>
+          <source>Microbiol Mol Biol Rev</source>
+          <year>2004</year>
+          <volume>68</volume>
+          <fpage>474</fpage>
+          <lpage>500</lpage>
+          <pub-id pub-id-type="doi">10.1128/MMBR.68.3.474-500.2004</pub-id>
+          <pub-id pub-id-type="pmid">15353566</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Loo</surname>
+            <given-names>CY</given-names>
+          </name>
+          <name>
+            <surname>Corliss</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Ganeshkumar</surname>
+            <given-names>N</given-names>
+          </name>
+          <article-title>Streptococcus gordonii biofilm formation: identification of genes that code for biofilm phenotypes</article-title>
+          <source>J Bacteriol</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>1374</fpage>
+          <lpage>1382</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.182.5.1374-1382.2000</pub-id>
+          <pub-id pub-id-type="pmid">10671461</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lau</surname>
+            <given-names>PC</given-names>
+          </name>
+          <name>
+            <surname>Sung</surname>
+            <given-names>CK</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>JH</given-names>
+          </name>
+          <name>
+            <surname>Morrison</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Cvitkovitch</surname>
+            <given-names>DG</given-names>
+          </name>
+          <article-title>PCR ligation mutagenesis in transformable streptococci: application and efficiency</article-title>
+          <source>J Microbiol Methods</source>
+          <year>2002</year>
+          <volume>49</volume>
+          <fpage>193</fpage>
+          <lpage>205</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0167-7012(01)00369-4</pub-id>
+          <pub-id pub-id-type="pmid">11830305</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Podbielski</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Spellerberg</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Woischnik</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Pohl</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Lutticken</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Novel series of plasmid vectors for gene inactivation and expression analysis in group A streptococci (GAS)</article-title>
+          <source>Gene</source>
+          <year>1996</year>
+          <volume>177</volume>
+          <fpage>137</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="doi">10.1016/0378-1119(96)84178-3</pub-id>
+          <pub-id pub-id-type="pmid">8921859</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

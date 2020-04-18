@@ -1,0 +1,131 @@
+Results
+
+Promoter characterization and transcription analysis of the vapBC10 locus
+
+To determine the transcriptional start point (TSP) of the promoter PvapBC10, a 5'-RACE experiment was carried out.
+Once the TSP was determined, the promoter region was manually checked and was adjusted according to the nucleotide distribution within the Synechocystis promoter sequences [35].
+Results are summarized in Figure 1A.
+The vapBC-10 TSP (+1) is located at an adenine at 45 bp upstream from the ATG codon of vapB10.
+The two conserved regions of the PvapBC10 promoter are TTGTTA and AAAAAT for the -35 and -10 regions, respectively, and are separated by 15 bp.
+A direct repeat (DR, 5'-TTTTGATA-6N-TTTTGTTA-3') and an imperfect inverted repeat (IR, 5'-TTTCCCT-2N-AGGGTAA-3') are found in the promoter region, and located at -62 bp and -28 bp upstream of TSP, respectively.
+Interestingly, the downstream half of the DR overlaps the deduced -35 hexamer.
+
+To assess whether both vapB10 and vapC10 are co-transcribed in Synechocystis, a RT-PCR analysis was performed using the primer pair that anneal to the 3' part of vapB10 and the 5' part of vapC10.
+As seen in Figure 1B, a specific amplification product of about 390 bp was observed for the cDNA (lane 3), similar to that of the chromosomal DNA (lane 1).
+No amplification product was observed for total RNA without reverse transcription (lane 2), eliminating the possibility of DNA contamination.
+These indicate that both small genes vapB10 and vapC10 are co-transcribed, thus forming a bicistronic operon.
+
+
+
+VapC10 inhibits E. coli growth which is counteracted by VapB10
+
+Although sharing little sequence similarity to the characterized VapC proteins, VapC10 contains a PIN domain with highly conserved quartet of acidic residues at positions 6, 40, 61 and 104 (Figure S2).
+The secondary structure of VapC10 (Figure S2), predicted with the 3DJIGSAW prediction tool [36] and the DALI server [37], exhibited homology with several well studied VapC toxins, such as the first PIN domain structure for the protein PAE2754 from the archae bacterium Pyrobaculum aerophilum (30).
+To test toxicity and anti-toxicity effects of VapBC10 components, drop growth tests were performed, as described in Materials and methods, using the E. coli strains harboring the corresponding selection-expression plasmids (Figure 2A).
+The strain BL21(DE3)(pJS340) can produce VapC10 upon IPTG induction but does not express VapB10.
+However, BL21(DE3)(pJS350) can produce VapC10 and/or VapB10 in the presence of IPTG and/or arabinose, respectively.
+As seen in Figure 2B, all the tested strains showed no difference in drop growth under non-inducing conditions (M9+Glu).
+However, BL21(DE3)(pJS340) exhibited growth arrest in the presence of IPTG (M9+Gly+IPTG and M9+Gly+IPTG+Ara) but could grow normally in the absence of IPTG (M9+Gly+Ara) compared to the BL21(DE3)(pJS298) control.
+Also, BL21(DE3)(pJS350) showed growth arrest in the presence of IPTG alone (M9+Gly+IPTG) but could grow under other inducing conditions (M9+Gly+Ara and M9+Gly+IPTG+Ara).
+Similar growth profiles of these strains were observed in liquid media with the corresponding inducers (data not shown).
+These indicate that the expression of vapC10 alone led to growth arrest of E. coli, and the simultaneous expression of vapB10 could neutralize this growth-inhibition effect, suggesting that vapC10 encodes a TA toxin and vapB10 encodes the cognate antitoxin.
+
+
+
+VapC10-induced growth arrest can be rescued by the subsequent production of VapB10
+
+To test whether the VapC10-induced growth arrest can be recovered or not, rescue experiments were performed with the strain BL21(DE3)(pJS350).
+After the culture was induced and treated, as described in Materials and methods, CFUs were enumerated on the plates M9+Glu (vapBC10 repressed), M9+Gly+IPTG (vapC10 continuously induced) and M9+Gly+Ara (vapB10 induced).
+As seen in Figure 2C, either continuous induction (Glu+IPTG->Gly+IPTG) or stopping induction (Glu+IPTG->Glu, after 180-min induction) of vapC10 resulted in an about 1000-fold drop in CFU relative to that in which the toxin was not induced (Glu+IPTG->Glu, at time zero).
+However, no reduction in CFU was observed when vapB10 was subsequently induced (Glu+IPTG->Gly+Ara).
+These indicate that the VapC10-induced growth arrest could be overcome by the subsequent expression of VapB10 but not by the stop of VapC10 expression, suggesting a bacteriostatic effect of VapC10.
+
+
+
+Interaction between VapB10 and VapC10
+
+To test the possible interaction between VapB10 and VapC10, E. coli BL21(DE3)(pJS653) was induced with IPTG, and the recombinant proteins were affinity-purified with a Ni-NTA column.
+As shown in Figure 3, a 8.2-kDa protein and a 13.5-kDa protein were produced after 3 h of induction with IPTG (lane 3), and are consistent with the expected masses of VapB10 and VapC10-His6, respectively.
+A stoichiometry analysis showed that the molar amount of VapB10 exceeded VapC10-His6 (Figure 3, lane 3), suggesting that vapB10 is expressed more effectively than the downstream gene vapC10 under control of the PT7 promoter in the IPTG-induced cells.
+In addition, VapB10 was successfully co-purified with VapC-His6 under native conditions (Figure 3, lane 4).
+The MS analyses showed that two VapB10 peaks (836.437, 1584.789 m/z) and three VapC10-His6 peaks (1049.526, 1299.733 and 1455.853 m/z) were detected in MS-DIGEST program, indicating that both VapB10 and VapC10-His6 had the expected peptide masses (Figure S3).
+These results suggest that VapB10 binds to VapC10-His6 forming the TA complex VapBC10 in vivo, which may cause the counteraction of the VapC10-induced growth arrest (Figure 2).
+Besides, the stoichiometry of the Coomassie-stained VapBC10 proteins upon affinity co-purification appears to an approximate 1:1 ratio of VapB10 to VapC10-His6 (Figure 3, lane 4)), indicating that the molar ratio of VapB10 to VapC10-His6 is about 1:1 in the VapBC10 complex.
+Thus, the co-existence of two different forms of VapB10 bound and unbound to VapC10 during artificial induction in vivo is suggested by the observed difference in the molar ratio of VapB10 to VapC10 between the IPTG-induced cells (Figure 3, lane 3) and the affinity-purified VapBC10 complexes (Figure 3, lane 4).
+
+
+
+VapB10 positively auto-regulates the vapBC10 transcription
+
+It has been demonstrated that TA operons are all negatively auto-regulated at the transcription level by direct binding of antitoxins to the TA operon promoters [14], [16].
+To investigate self-regulation of the vapBC10 transcription, the beta-galactosidase activities of the E. coli DH5alpha cells containing the corresponding reporter plasmids (Figure 4A) were measured.
+The strain which harbors the promoter-less lacZ vector pJS759 (Figure 4A) was used as a negative control, and showed a poor beta-galactosidase activity.
+The strain harboring pJS836 that contains the PvapBC10-lacZ fusion had a similar beta-galactosidase activity (Figure 4A) with that of the negative control strain.
+When vapB10 was introduced, beta-galactosidase activity of the strain harboring pJS878 (containing PvapBC10-vapB10-lacZ fusion) increased dramatically (Figure 4A).
+However, the strain carrying pJS1028 (containing PvapBC10-vapB10-vapC10-lacZ fusion) showed an enzymatic activity significantly lower than that of the strain containing pJS878 but remarkably higher than that of the strain containing pJS836 (Figure 4A).
+Furthermore, the strain containing pJS1472 (containing vapB10-vapC10-lacZ fusion) showed a beta-galactosidase activity similar to that of the negative control strain (Figure 4A), eliminating the possibility of a potential promoter present in the vapBC10 encoding sequence.
+Therefore, these results suggest that VapB10 is capable of activating the PvapBC10 transcription activity, and the presence of VapC10 partially inhibits this activation effect.
+Given that the molar ratio of VapB10 to VapC10 produced from the native promoter is similar to that from the IPTG-inducible promoter of pJS653 in E. coli (Figure 3), then VapB10 also exists both alone and in the VapBC10 complexes in the E. coli strain containing pJS1028 (Figure 4A).
+Depending on this scenario that may or is expected to occur, one possibility for the transcription inhibition by VapC10 (Figure 4A, as indicated by pJS1028) is that the VapC10-bound VapB10 in the VapBC10 complex fails to activate the PvapBC10 transcription, and only the free VapB10 exerts the effect of transcription activation.
+Another possibility, not mutually exclusive with the first, is that introduction of the vapC10 DNA sequence between PvapBC10 and lacZ decreases the transcriptional readthrough of the reporter gene.
+Also, the results of transcription fusion analyses, in agreement with that seen in the RT-PCR analysis (Figure 1B), further indicate that vapB10 and vapC10 form a bicistronic operon.
+
+
+
+VapB10 specifically binds the PvapBC10 DNA which is abolished by VapC10
+
+The antitoxin VapB10 belongs to the COG2442 protein family.
+The structure of one of the COG2442 proteins from Anabana variabilis has been solved (PDB:2GA1) by Joint Center for Structural Genomics (JCSG) and has a winged-helix DNA binding domain with a DNA/RNA-binding 3-helical bundle in SCOP (http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.bgi.b.c.html).
+Our structure analysis with the 3DJIGSAW prediction tool [36] and the DALI server [37] revealed that VapB10 also contains a DNA/RNA-binding 3-helical bundle fold at its N-terminus (Figure S3), suggesting VapB10 as a DNA-binding antitoxin involved in the auto-regulation of vapBC10 transcription as seen in Figure 4A.
+
+In order to determine the roles of the VapBC proteins in the observed regulation of vapBC10 transcription (Figure 4A), EMSAs were performed with the purified VapB10 (Figure 3, lane 5), VapC10-His6 (Figure 3, lane 6) or VapBC10 complex (Figure 3, lane 4) as well as the labeled 296-bp DNA DNA fragment P containing the PvapBC10 region.
+The obtained results revealed that VapB10 was capable of binding to the fragment P (Figure 4B, lane 1 - 6).
+In contrast, VapC10 had no DNA-binding activity (Figure 4B, lane 9), and exhibited to neutralize the DNA-binding effect of VapB10 with its increasing amount (Figure 4B, lane 10 - 15).
+Furthermore, the purified VapBC10 complexes (Figure 3, lane 4) at the increasing concentrations showed marginal DNA-binding signals (Figure 4C), which may arise from the insignificant amount of VapB10 released from the TA complexes.
+These indicate that the VapBC10 complex could not bind to the fragment P, and suggest that the transcription-inhibition effect of VapC10 (Figure 4A, indicated as pJS1028) may arise from the inability of the bound VapB10 in the VapBC10 complexes to activate the PvapBC10 activity.
+Additional control EMSA results showed that, as expected, only the unlabeled fragment P (Figure 4B, lanes 7), and not the unlabeled non-specific fragment PBAD (Figure 4B, lane 8), could competitively inhibit the binding of VapB10 to the labeled fragment P, suggesting a specific physical interaction between VapB10 and the PvapBC10 promoter region.
+Taken together, these binding results support the notion of a direct regulatory role of VapB10 in vapBC10 transcription, as suggested by our lacZ transcription fusion data (Figure 4A).
+
+
+
+The IR is required for VapB10 binding to the PvapBC10 region
+
+In order to identify which sequences within the PvapBC10 promoter region are required for VapB10 binding, three labeled amplicons, namely, P1, P2 and P3, which contain different sections of the promoter region, were generated (Figure 5A).
+The results obtained from the corresponding EMSAs showed that the VapB10 binding site is localized within a fragment between positions -88 and -59 (Figure 5B).
+This region contains an imperfect IR (5'-TTTCCCT-2N-AGGGTAA-3'), and does not contain the DR (5'-TTTTGATA-6N-TTTTGTTA-3'), suggesting that the IR plays a role in VapB10 binding.
+
+
+
+ClpXP2s can proteolytically activates VapBC10 in E. coli
+
+It has been demonstrated that ATP-dependent proteases Lon and ClpP could proteolytically regulate activities of some TA toxins through specific degradation of the antitoxins [9], [14], [38] - [42].
+Our previous study showed that both Synechocystis proteases Lons and ClpP2s could cleave the RelN antitoxin thus activating RelNE TA system [29].
+In order to determine the roles of these two proteases in regulation of the VapC10 toxicity, drop growth experiments were performed using the E. coli BL21(DE3) strains containing the proteolytic activation plasmids (Figure 6A).
+These proteolytic activation strains could conditionally express the Synechocystis protease (Lons or ClpXP2s) and/or the VapBC10 components (VapB10 or together with VapC10) upon induction of IPTG and/or arabinose.
+Because our previous study showed that the growth of the E. coli strain containing pJS371 or pJS391 was not affected in the presence of arabinose and/or IPTG [29], here either strain was used as the negative control.
+As seen in Figure 6B, all the tested strains showed no difference in growth under non-inducing conditions (M9+Glu).
+However, the strain BL21(DE3)(pJS429) exhibited growth inhibition in the presence of both IPTG and arabinose (M9+Gly+IPTG+Ara) but could grow in the presence IPTG or arabinose (M9+Gly+Ara or M9+Gly+IPTG).
+Under the same conditions, no difference in drop growth was observed between the other strains tested (Figure 6B).
+These results indicate that the simultaneous expression of clpXP2s along with vapBC10 caused E. coli growth arrest.
+Since the production of VapC10 caused E. coli growth arrest in the absence of VapB10 (Figure 2B and C), we speculated that ClpXP2s, rather than Lons, may activate VapC10 via specific proteolysis of VapB10, allowing VapC10 to be released from the VapBC10 complexes.
+
+
+
+VapB10 is specifically degraded by ClpXP2s
+
+To determine the possible proteolytic degradation, we investigated the stability of VapBC10 proteins in the presence of ClpXP2s or Lons.
+The strains containing the corresponding proteolytic activation plasmids were grown and treated, as described in Materials and methods, and the treaded cells were subjected to Western blot analysis to monitor VapB10, VapC10, ClpP2s or Lons with the respective primary antibodies.
+Based on densitometrical analyses of Western blots, the percentage of the related protein amount at each time point compared to that at time zero was calculated, and the half-lives of proteins were determined.
+We first probed the proteolysis effects of E. coli proteases on VapB10 and VapC10 using the strain E. coli BL21(DE3)(pJS653) (for co-expression of VapB10 with VapC10 in Figure 3).
+The results revealed that the levels of VapB10 and VapC10 remained unaltered during translation stall elicited by spectinomycin addition, indicating that the E. coli proteases degraded neither VapB10 nor VapC10.
+To test the role of ClpXP2s in the proteolysis of VapBC10 proteins, the stability of VapB10 or with VapC10 was investigated in the strain BL21(DE3)(pJS883) or BL21(DE3)(pJS429).
+The results showed that ClpP2s remained stable in the BL21(DE3)(pJS883) cells during translation inhibition, while the VapB10 level rapidly decreased with a half-life of about 40 min (Figure 7B).
+In the BL21(DE3)(pJS429) cells, the levels of ClpP2s and VapC10 remained unchanged over a 2-hour period of translation arrest, but the VapB10 level showed to be decreased with a half-life (Figure 7C) similar to that observed in the strain BL21(DE3)(pJS883) (Figure 7B).
+These indicate that ClpXP2s could degrade VapB10 regardless of the presence or absence of VapC10.
+As suggested by the result of drop growth experiments (Figure 6B), ClpXP2s could degrade VapB10 in the TA complexes and consequently activate the latent toxicity of the VapBC10 system.
+When we determined the proteolysis role of Lons in VapBC10 proteins by Western blot analysis using the strains BL21(DE3)(pJS882) and BL21(DE3)(pJS427), the levels of VapB10 and VapC10 remained stable over the course of translation inhibition (Figure 7D and E).
+Thus, Lon could not degrade VapBC10 proteins, consistent with our drop growth evidence (Figure 6B).
+
+
+
+

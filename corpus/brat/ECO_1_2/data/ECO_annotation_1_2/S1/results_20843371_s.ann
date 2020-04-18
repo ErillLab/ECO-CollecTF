@@ -1,0 +1,85 @@
+T1	ECO 86 113	Bacterial one-hybrid assays
+A1	Category T1 BioProc
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	AssertionStrength T1 Medium
+N1	Reference T1 brat_eco:ECO:0000294	bacterial one-hybrid evidence
+T2	ECO 899 939	the interaction with the DNA on the chip
+A5	Category T2 MolFn
+A6	ECOConfidence T2 Medium
+A7	NextSentence T2 No
+A8	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0001117	protein microarray evidence
+T3	ECO 1098 1156	MtrA protein (100-500 nM) was passed over the chip surface
+A9	Category T3 MolFn
+A10	ECOConfidence T3 Medium
+A11	NextSentence T3 Yes
+A12	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0001601	protein-binding microarray evidence
+T4	ECO 1916 1961	Several short DNA fragments (S1-S5) were used
+A13	Category T4 SeqFeat
+A14	ECOConfidence T4 Medium
+A15	NextSentence T4 No
+A16	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0000136	nucleic acid binding evidence
+T5	ECO 2072 2115	a specific protein/DNA complex was observed
+A17	Category T5 MolFn
+A18	ECOConfidence T5 Medium
+A19	NextSentence T5 No
+A20	AssertionStrength T5 Low
+N5	Reference T5 brat_eco:ECO:0000136	nucleic acid binding evidence
+#1	AnnotatorNotes T5	Is this DNA binding evidence or protein binding evidence? 
+T8	ECO 2688 2737	binding of MtrA with the promoter DNA on the chip
+A29	Category T8 MolFn
+A30	ECOConfidence T8 Medium
+A31	NextSentence T8 Yes
+A32	AssertionStrength T8 Medium
+N8	Reference T8 brat_eco:ECO:0001601	protein-binding microarray evidence
+T9	ECO 4252 4294	producing a corresponding DNA/protein band
+A33	Category T9 MolFn
+A34	ECOConfidence T9 Low
+A35	NextSentence T9 No
+A36	AssertionStrength T9 Medium
+N9	Reference T9 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T10	ECO 5508 5543	evidenced by their inhibited growth
+A37	Category T10 Phen
+A38	ECOConfidence T10 High
+A39	NextSentence T10 No
+A40	AssertionStrength T10 High
+N10	Reference T10 brat_eco:ECO:0001563	cell growth assay evidence
+T11	ECO 5891 5919	scanning electron microscopy
+A41	Category T11 Phen
+A42	ECOConfidence T11 High
+A43	NextSentence T11 Yes
+A44	AssertionStrength T11 Medium
+N11	Reference T11 brat_eco:ECO:0007045	scanning electron microscopy evidence
+T12	ECO 6127 6147	measured via qRT-PCR
+A45	Category T12 Phen
+A46	ECOConfidence T12 High
+A47	NextSentence T12 No
+A48	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+T13	ECO 6752 6804	The expression levels of these genes clearly changed
+A49	Category T13 BioProc
+A50	ECOConfidence T13 High
+A51	NextSentence T13 Yes
+A52	AssertionStrength T13 Medium
+N13	Reference T13 brat_eco:ECO:0000009	transcript expression evidence
+T6	ECO 2432 2469	surface plasmon resonance (SPR) assay
+A21	Category T6 MolFn
+A22	ECOConfidence T6 High
+A23	NextSentence T6 Yes
+A24	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001127	surface plasmon resonance evidence
+T7	ECO 2926 2966	confirmed by DNase I footprinting assays
+A25	Category T7 MolFn
+A26	ECOConfidence T7 High
+A27	NextSentence T7 No
+A28	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0001810	DNAse footprinting evidence
+T14	ECO 3900 3926	examined using EMSA assays
+A53	Category T14 MolFn
+A54	ECOConfidence T14 High
+A55	NextSentence T14 Yes
+A56	AssertionStrength T14 Low
+N14	Reference T14 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence

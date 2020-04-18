@@ -1,0 +1,62 @@
+RESULTS AND DISCUSSION
+
+ChIP-chip analysis of RutR binding in mid-log phase E. coli
+
+Our aim was to use ChIP to measure the binding of RutR across the chromosome of growing E. coli cells.
+Thus, strains BW25113 and the DeltarutR derivative JW0998 were grown aerobically, in M9 minimal medium supplemented with 0.4% glucose, to an OD650 of 0.3 - 0.4.
+Cells were then treated with formaldehyde, and cellular DNA was extracted and sonicated, yielding DNA fragments of ~500 - 1000 bp.
+After immunoprecipitation with anti-RutR antibodies, DNA fragments from BW25113 or control JW0998DeltarutR cells were purified and labelled with Cy5 and Cy3, respectively, mixed and hybridised to the microarray.
+After washing and scanning, the Cy5/Cy3 signal intensity ratio was calculated for each probe.
+In parallel, the experiment was repeated using cells grown in the presence of 0.1 mM uracil.
+Complete data sets are shown in Supplementary Table 2.
+Figure 1A gives an overview of the profile for RutR binding.
+Most peaks for RutR binding are discrete, easily distinguishable from the background signal and sensitive to uracil (examples are shown in Figure 1B and C).
+
+
+
+Identification and sequence analysis of RutR targets
+
+To select peaks for RutR binding, a cut-off was applied to the dataset (see Materials and Methods section).
+A total of 77 probes passed this cut-off, corresponding to 20 separate peak locations (listed in Table 1).
+The targets we identified for RutR included four of the six RutR-binding targets reported previously (carA, rutA, hyi and ygiF/glnE).
+Our failure to find all of the targets identified by Shimada et al. (5) may be due to differences in the in vivo and in vitro DNA-binding properties of RutR or the high false-negative rate of ChIP-chip analysis.
+Surprisingly, although RutR is bound to some targets in intergenic regions (Figure 1B) most targets are located within genes (Figure 1C).
+
+
+To pinpoint the precise RutR-binding sequences, we used BioProspector (http://ai.stanford.edu/~xsliu/BioProspector/) to search for short, over-represented DNA sequences in 500-bp segments centred on each peak.
+This identified the 16-bp sequence motif shown in Figure 2, which matches the previously proposed consensus RutR-binding sequence, 5'-TTGACCAnnTGGTCAA-3', and predicts that positions 4 and 13 of the binding site are the most important for RutR binding.
+Following this, we located RutR-binding sites at 19 of the 20 targets identified by our ChIP-chip analysis (no motif was found at the yahA promoter).
+For the previously identified RutR targets, carA, rutA, hyi and ygiF/glnE (5), the motif that we identified corresponds exactly to the location of the known RutR-binding site (Table 1).
+
+
+
+
+In vitro analysis of RutR binding
+
+DNA fragments covering each of the 20 RutR targets were amplified, end-labelled and incubated with purified RutR protein in in vitro EMSA assays to measure the binding of RutR to each target (Figure 3).
+For 16 of the 20 targets, purified RutR clearly retarded the migration of purified DNA fragments (Figure 3A), while for four of the targets (fepB, yahA, mntH and fhuF), addition of purified RutR resulted in little or no retardation, indicating that RutR has a low affinity for these targets (Figure 3B).
+To understand this, we consulted the RutR-binding motifs shown in Table 1 and the RutR-binding site sequence logo shown in Figure 2.
+Interestingly, all 16 of the high-affinity RutR-binding sites matched the consensus at both of the strongly conserved positions 4 and 13.
+In contrast, the low-affinity fepB, mntH and fhuF targets all had non-consensus sequences at either position 4 or 13 and we could find no match to the RutR-binding site at the yahA target.
+In this latter case, RutR-binding specificity may be more relaxed in vivo or RutR might bind cooperatively with some other factor.
+
+
+
+
+Genome-wide distribution of binding sites for RutR and other global DNA-binding proteins
+
+While 5 of the 20 RutR targets identified here fall in intergenic regions, 14 are in coding DNA and 1 target overlaps a translation start site.
+Many of the 14 targets in coding DNA are hundreds of base-pairs downstream of the nearest start codon.
+Since this was unexpected, we created a PWM from the 20 RutR targets and used this to identify other potential DNA sites for RutR in the E. coli genome.
+Of the 95 predicted targets, 84 fell within ORFs.
+We repeated the analysis, using equally stringent search criteria, for other global DNA-binding proteins (LexA, Fur, FruR, FNR, CRP, NarL and Fis).
+We found that the majority of predicted sites for these factors were within non-coding promoter DNA (Figure 4).
+
+To determine if this phenomenon is peculiar to E. coli K-12, we used our PWM to search the genomes of other bacteria containing rutR homologues, for putative RutR-binding sites.
+The results of the analysis, presented in Table 2, show that these genomes have a similar density of RutR-binding sites and that these binding sites are mostly found in coding DNA.
+We note that the RutR-binding sites in coding DNA are found in a variety of ORFs and that all of the DNA targets for RutR listed in Table 1 would be translated into different amino acid sequences.
+
+
+
+
+

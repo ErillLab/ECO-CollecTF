@@ -1,0 +1,131 @@
+RESULTS
+
+Transcriptome profiling of P. aeruginosa strains overexpressing MexT
+
+In order to assess the global regulatory nature of the LysR-family transcriptional regulator MexT, independent of its induction of the MexEF-OprN efflux system, whole-genome transcriptome profiling was carried out on PAO1 wild-type and an isogenic mexEF mutant overexpressing MexT.
+In the PAO1 strain used in this study MexT is quiescent under normal laboratory growth conditions.
+However, when the entire ORF and 600-bp upstream of the mexT gene were cloned on plasmid pME6032 (designated as pME6032-mexT), MexT was fully functional in P. aeruginosa PAO1, increasing the minimum inhibitory concentration (MIC) of chloramphenicol from 32 to 2048 microg/ml, even without IPTG induction of the tac promoter on pME6032 (18).
+Affymetrix P. aeruginosa whole-genome microarrays were used to compare the transcription profiles of PAO1 wild-type containing either pME6032-mexT or the empty vector control pME6032 and an isogenic mexEF deletion mutant strain, PAO1DeltamexEF, containing pME6032-mexT, during Mid-logarithmic growth conditions.
+Thus, we identified a potential MexT regulon and differentiated those targets that were dependent or independent of the MexEF-OprN efflux pump.
+
+Genespring GX software was used to analyse the data (Supplementary Table S2) and MA and 3D scatter plots were used to visually compare the overall gene expression profiles of all three samples (Figure 1).
+Overexpressing mexT in PAO1 wild-type (PAO1 mexT++) increased the expression of 36 genes and decreased the expression of 76 genes compared to PAO1 harbouring the pME6032 empty vector ( GTEQ 2-fold, P LTEQ 0.05; see Supplementary Table S2).
+The most significantly altered genes ( GTEQ 10-fold) are summarized in Table 2, and include 17 genes upregulated and 23 genes downregulated by overexpressing MexT in wild-type.
+These genes were also indicated as the most significantly altered genes in the MA plot in Figure 1A.
+To test if this modulation in gene expression was dependent on the MexEF-OprN pump, the transcriptome profile of PAO1DeltamexEF mexT++ was compared with PAO1 mexT++.
+Eighteen of the genes downregulated by MexT in wild-type were upregulated in PAO1DeltamexEF mexT++, indicating their regulation was dependent on mexEF expression.
+In contrast, none of the 17 genes (apart from the mexEF-oprN operon) induced by MexT in wild-type was altered in PAO1DeltamexEF mexT++ compared to PAO1 mexT++ (Table 2), indicating their induction by MexT was independent of mexEF expression.
+This was also evident from the changes in MA plot of PAO1 mexT++ compared to PAO1DeltamexEF mexT++ whereby only three genes (mexE, mexF and oprN) were indicated as being highly induced, while 18 genes were highly reduced (Figure 1B).
+The differentiation of regulatory effects of MexT with regard to their dependency on the MexEF-OprN efflux pump was also evident in the 3D scatter plot (Figure 1C).
+The expression of the majority of genes was similar among the three samples, forming the main cloud body.
+In contrast, genes whose expression was highly altered were positioned out of the main cloud body in the 3D scatter plot.
+These were further categorized into two groups: one incorporating the genes induced by overexpressing MexT independent of MexEF-OprN (in red oval) and the second incorporating the genes downregulated by overexpressing MexT dependent of MexEF-OprN (in green oval).
+This supports the MA plot analysis and demonstrates that the most significant induction in gene expression by MexT is independent of MexEF-OprN efflux pump, while the most significant reduction by MexT is dependent of MexEF-OprN, in the condition tested.
+These results support our hypothesis that the genes highly induced by MexT are direct targets of the regulator.
+
+
+To test the validity of the microarray data, genes whose expression was significantly altered (PA4881, pqsA and lldP) were selected for semi-quantitative reverse transcription PCR analysis (Figure 2).
+RNA was prepared from biological replicates not used in the arrays.
+The housekeeping gene clpX was used as the internal control.
+The transcript level of PA4881 was induced by overexpressing MexT in both PAO1 and PAO1DeltamexEF strains but was not detectable in the PAO1 strain containing pME6032.
+The transcript levels of pqsA and lldP were reduced by overexpressing MexT in PAO1 but not in PAO1DeltamexEF strains.
+Furthermore, the expression from promoter fusions of a selected number of genes were analysed in the wild-type PAO1 and a heterogeneous E. coli background, with and without pME6032-mexT, and all genes were highly induced by overexpressing MexT in both backgrounds (Table 3).
+In all cases, the results confirmed the microarray data.
+
+
+Due to the limited number and lack of good annotation of the significantly altered genes in the expression profiles (Supplementary Table S2), the pathway mapping through main pathway databases such as KEGG (www.genome.jp/kegg/pathway.html) provided limited information.
+However, the expression of several operons with known cellular functions was significantly altered by MexT in a mexEF-oprN-dependent way.
+The transcript levels of the pqs and phn operon genes, encoding enzymes involved in the synthesis of PQS signal molecules, showed a 30- to 220-fold reduction in PAO1 wild-type, when mexT was overexpressed and a 23- to 240-fold induction in PAO1DeltamexEF mexT++ relative to PAO1 mexT++.
+Similarly, the hcn operon genes, encoding hydrogen cyanide synthase, showed a 11- to 52-fold reduction in PAO1 wild-type overexpressing mexT, while hcnA was upregulated 11-fold in PAO1DeltamexEF mexT++ relative to PAO1 mexT++.
+Previously we demonstrated a considerable reduction in hcnB expression by overexpressing mexT in PAO1 strain but not in PAO1DeltamexEF strain using semi-quantitative reverse transcription PCR (18).
+Our results indicated that pqs and hcn operons were indirect targets of MexT, as the modulation in expression was dependent on the overexpression of the MexEF-OprN efflux pump.
+A reduction in expression of pqs and hcn operons was also observed previously in the transcriptome profiling of an nfxC-type mutant strain overexpressing mexEF-oprN (10).
+The microarray data presented here also suggest that the lldPD operon (PA4770-PA4772), PA3326, and the PA3331-PA3334 operon are novel MexEF-OprN-dependent indirect targets of MexT.
+
+The set of genes upregulated by MexT independent of MexEF included mexS, previously shown to be activated by MexT in PAO1 (6).
+The mexS gene is located adjacent to mexT and divergently transcribed, which is a typical arrangement of genes controlled by LysR-type activators (13).
+In our transcriptome data, the mexS transcript level increased 75-fold in PAO1 overexpressing MexT and was not changed in PAO1DeltamexEF mexT++ relative to PAO1 mexT++ (Table 2).
+These data supported the hypothesis that mexS is an MexE-independent target of MexT in P. aeruginosa PAO1.
+
+Twelve additional genes were upregulated by overexpressing mexT independent of MexEF-OprN (Table 2).
+Most of these genes were annotated as of unknown function but included genes with probable transporter functions; PA2813-PA2811 encode components of a probable ABC transporter and the PA4354-PA4356 operon encodes a putative repressor, a probable major facilitator superfamily (MFS) transporter and a xenobiotic reductase, respectively.
+We hypothesized that this set of genes includes direct positively regulated targets of MexT and suggests that MexT may be a key regulator of cellular homeostasis.
+
+
+
+Identification of a conserved DNA motif required for MexT regulated expression.
+
+In order to identify possible direct targets of MexT and a potential consensus sequence for MexT binding, the genes that were most highly induced ( GTEQ 10-fold) by MexT in PAO1 independent of mexEF were selected for further analysis (Table 2).
+In addition to mexS and mexEF-oprN, the 12 genes showing induction GTEQ 10-fold were PA1744, PA1970, PA2486, PA2759, PA2813-PA2811, PA3205, PA3229, PA4354, PA4623 and PA4881.
+The DNA sequence of the upstream regulatory region (-500 bp from the ATG translational start site) of each gene (including PA2813 only of the PA2813-PA2811 operon) was aligned using MEME Suite online software (24).
+A well-conserved DNA motif ATCA-N5-GTCGAT-N4-ACYAT was identified in the upstream regions of 9 of the 12 genes and mexE (Figure 3).
+Interestingly, a clear consensus sequence was not identified in the mexS promoter region.
+The DNA motif overlapped the ATC-N9-GAT sequence, referred to as a 'nod-box' and proposed as the general motif of the binding sites for LysR-family proteins (13).
+Previously, this 'nod-box' was proposed to be part of the binding site of MexT in the upstream region of mexE (6).
+
+
+To confirm the transcriptional activation of these putative target genes by MexT, promoter-lacZ fusions of selected genes were constructed, transformed into strains of different genetic backgrounds and the level of expression monitored when MexT was overexpressed (Table 3).
+In the wild-type PAO1 strains, the expression level of all the promoters containing the newly deduced conserved DNA motif was highly induced by co-transforming pME6032-mexT, compared to the empty vector control (Table 3).
+As MexEF-OprN is normally quiescent in wild-type cells, but highly induced in nfxC-type mutants (7), we investigated if the genes were also induced in an nfxC-type mutant background.
+Therefore, an nfxC-type mutant was generated by plating the wild-type strain PAO1 on LB agar plates containing chloramphenicol at 600 microg/ml, a condition previously shown to select nfxC-type mutants (7).
+A selection of promoter-lacZ fusion constructs were transformed into the nfxC mutant and high levels of expression were observed from all constructs tested, including mexE (Table 3).
+When the mexT gene was deleted in this nfxC-type mutant the expression of these genes was attenuated (Table 3).
+We also tested other nfxC-type mutant strains from different sources, and all of them showed high induction of PA4881 (data not shown).
+These results indicated that all the genes with the conserved DNA motif were highly induced in the nfxC-type mutant strains and thus, induced by MexT in physiologically relevant conditions.
+
+To further investigate if these genes are direct targets of MexT, we assessed if MexT could activate their expression in a heterogenous E. coli background.
+The promoter-lacZ fusion plasmids and pME6032-mexT or pME6032 were co-transformed into the E. coli DH5alpha strains.
+The mexT gene cloned in pME6032-mexT was highly expressed in P. aeruginosa PAO1 without IPTG induction (Table 2).
+However, in E. coli, the native mexT promoter was not induced and IPTG induction was essential for full activation (data not shown).
+Therefore, a saturated concentration of IPTG (1 mM) was used to induce mexT expression from pME6032-mexT in E. coli.
+As shown in Table 3, low expression levels of the putative MexT target promoters, including mexE was observed in the E. coli strains containing empty vector pME6032.
+In contrast, when mexT was overexpressed, the expression of the promoters were significantly induced (Table 3).
+These results indicate that MexT may directly activate the expression of the newly identified target genes in P. aeruginosa.
+This was further supported by the observation that an overexpressing mexT construct, cloned from a different PAO1 wild-type available in the laboratory collection, and which contained a single base-pair mutation that resulted in an alanine to valine (A to V) change in the 39th residue of the MexT protein, failed to induce the expression of these promoter fusions in either PAO1 or E. coli DH5alpha backgrounds (data not shown).
+According to the Pfam database alignment (25), the 39th residue is located in the helix - turn - helix motif of MexT, the DNA-binding motif of the protein.
+Indeed our results suggested that a mutation in this domain rendered the protein non-functional.
+While other inactivating mutations in the mexT gene have been reported (9) this single base pair mutation has not been previously identified in wild-type strains and appears to be a novel mechanism of inactivating mexT.
+Subsequently, to confirm that the conserved DNA motif in the promoter region was required for MexT activation of the putative target genes, site-directed mutagenesis was carried out to mutate GTCGAT to GTCTGT in the DNA motif of PA4623 and PA4881 promoters.
+This alteration in the DNA motif completely attenuated activation of the promoters by MexT in the wild-type PAO1, PAO1nfxC and the heterogenous E. coli DH5alpha (Table 3).
+Thus, the conserved DNA motif is required for the induced expression of these genes by MexT.
+
+
+
+MexT protein binds to the conserved DNA motif in target promoters
+
+In order to verify if the MexT protein directly binds the conserved DNA motif, a plasmid expressing C-terminal His-tagged MexT protein was constructed.
+This tagged MexT protein activated the expression of PA4881 promoter-lacZ fusion in E. coli, indicating the protein was functional (data now shown).
+EMSAs were performed to detect binding of MexT to two 207-bp DNA fragments containing the unaltered or mutated PA4881 promoter region.
+The MexT protein clearly bound to the DNA fragments containing the intact conserved DNA motif (Figure 4A), but not to the DNA fragments containing the mutated conserved DNA motif (Figure 4B).
+The specificity of MexT binding to its DNA target was confirmed by a competition assay with an excess of unlabeled target DNA (Supplementary Figure S1).
+These results demonstrated, for the first time, that MexT protein bound to the conserved DNA motif and that a mutation in two of the most conserved nucleotides in the motif abolished the binding of the MexT protein.
+
+
+To further investigate MexT binding to this conserved motif, the residue 39 A to V mutated non-functional MexT was purified using the His-tag expression plasmid previously used for the wild-type MexT protein.
+EMSAs were performed to detect binding of the mutated MexT protein to the conserved DNA motif and no binding was detected (Figure 4C).
+These results demonstrated that this particular mutation in the helix - turn - helix motif abolished the binding of MexT protein to the target DNA.
+
+
+
+MexT activates the expression of target genes across other Pseudomonas species
+
+Orthologues of the mexEF-oprN operon can be found in all Pseudomonas genomes sequenced to date.
+The mexT gene is located immediately upstream and transcribed in the same direction as mexEF-oprN in all P. aeruginosa strains and P. stutzeri A1501 strain but not in other species.
+For instance, in the genome of P. fluorescens PfO-1 mexT (Pfl01_2666) and mexE (Pfl01_2659) are separated by six open reading frames (ORFs) and in the genome of P. putida KT2440 mexT (PP_2826) and mexE (PP_3425) are located in totally different loci.
+To date, it has not been shown if the expression of these mexE genes is activated by MexT.
+In order to investigate this, promoter-lacZ fusions of Pfl01_2659 and PP_2826 were constructed and transformed into E. coli strains containing pME6032-mexT.
+The expression of both mexE fusions was highly induced by MexT in E. coli (Table 3).
+
+Two newly identified MexT target genes of particular note were PA4881 and PA4623, which encode hypothetical proteins of 113 amino acids and 129 amino acids, respectively (Pseudomonas Genome Database).
+PA4881 and PA4623 actually encode homologous proteins, each containing four tandem repeat motifs of average 23 amino acids (Figure 5A and B).
+Genes encoding tandem repeat proteins are widely distributed in the genomes of different organisms (26).
+Indeed, the genomes of various Pseudomonas species harbour a number of genes encoding tandem repeat proteins, which share some conserved residues with PA4881 and PA4623 encoded proteins (Figure 5 and Supplementary Figure S2).
+Among them, several genes contain the conserved MexT-binding motif in their upstream regulatory regions (Figure 5C - F).
+To address the question if these genes can be induced by MexT, promoter-lacZ fusions of two tandem repeat proteins, P. fluorescens PfO-1 Pfl01_3748 and P. putida KT2440 PP_4858 were constructed and transformed into E. coli strains containing pME6032-mexT.
+The expression of both promoter fusions was highly induced by MexT in E. coli (Table 3).
+These data suggest that MexT activates the expression of a novel regulon across Pseudomonas species by binding to a conserved DNA motif in the promoter regions of target genes.
+
+
+
+
+

@@ -1,0 +1,73 @@
+T1	ECO 11435 11442	in vivo
+A1	Category T1 MolFn
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 Low
+#1	AnnotatorNotes T1	GO:0043565
+T2	ECO 6691 6712	presence of Fur boxes
+A4	Category T2 BioProc
+A5	ECOConfidence T2 High
+A6	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0000028	motif similarity evidence
+#2	AnnotatorNotes T2	GO:0010468
+T4	ECO 8644 8661	in other bacteria
+T5	ECO 9154 9172	in other organisms
+T7	ECO 10507 10524	Sequence analysis
+N1	Reference T1 brat_eco:ECO:0000178	in vivo assay evidence
+T8	ECO 11653 11657	EMSA
+A8	Category T8 MolFn
+A9	ECOConfidence T8 High
+A10	AssertionStrength T8 High
+N4	Reference T8 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T9	ECO 12391 12407	shifted in vitro
+A11	Category T9 MolFn
+A12	ECOConfidence T9 Medium
+A13	AssertionStrength T9 High
+N5	Reference T9 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#4	AnnotatorNotes T9	GO:0043565
+T10	ECO 12453 12486	shift was achieved with the probe
+A14	Category T10 MolFn
+A15	ECOConfidence T10 Low
+A16	NegativeStatement T10 Yes
+A17	AssertionStrength T10 High
+N6	Reference T10 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T11	ECO 13413 13417	EMSA
+A18	Category T11 MolFn
+A19	ECOConfidence T11 High
+A20	AssertionStrength T11 High
+N7	Reference T11 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#5	AnnotatorNotes T11	GO:0043565
+T12	ECO 13413 13417	EMSA
+A21	Category T12 SeqFeat
+A22	ECOConfidence T12 High
+A23	AssertionStrength T12 Medium
+N8	Reference T12 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T13	ECO 13722 13726	EMSA
+A24	Category T13 SeqFeat
+A25	ECOConfidence T13 High
+A26	AssertionStrength T13 High
+N9	Reference T13 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T14	ECO 13805 13834	in vitro transcription assays
+A27	Category T14 BioProc
+A28	ECOConfidence T14 High
+A29	AssertionStrength T14 High
+#6	AnnotatorNotes T14	GO:0010629
+T15	ECO 14251 14292	disappearance of the expected transcripts
+A30	Category T15 BioProc
+A31	ECOConfidence T15 High
+A32	NextSentence T15 Yes
+A33	AssertionStrength T15 High
+N11	Reference T15 brat_eco:ECO:0000009	transcript expression evidence
+#7	AnnotatorNotes T15	GO:0010629
+T16	ECO 14955 14962	aligned
+A34	Category T16 Tax
+A35	ECOConfidence T16 High
+A36	NextSentence T16 Yes
+A37	AssertionStrength T16 High
+N12	Reference T16 brat_eco:ECO:0000200	sequence alignment evidence
+A38	Category T4 BioProc
+T17	ECO 10146 10161	reporter strain
+A39	Category T17 MolFn
+A40	ECOConfidence T17 High
+A41	AssertionStrength T17 High
+N13	Reference T17 brat_eco:ECO:0000049	reporter gene assay evidence
+N10	Reference T14 brat_eco:ECO:0001071	in vitro transcription assay evidence

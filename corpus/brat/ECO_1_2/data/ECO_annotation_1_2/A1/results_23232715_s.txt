@@ -1,0 +1,97 @@
+RESULTS
+
+Crp deletion affects antibiotic production in S. coelicolor.
+
+It has been noted previously that S. coelicolor Deltacrp mutants produce reduced levels of the blue-pigmented antibiotic actinorhodin (19, 21).
+We constructed a Deltacrp mutant in wild-type S. coelicolor strain M145 and observed a similar defect in Act production (Fig. 1A).
+We set out to examine the antibiotic production potential of the Deltacrp mutant strain more broadly and compared the levels of Act, Red, and CDA produced by the mutant relative to its wild-type parent.
+Total Act (actinorhodin and gamma-actinorhodin) was assessed over a 7-day time course during growth in rich liquid medium.
+Act levels in the wild-type strain increased sharply between days 2 and 4, after which levels remained high through day 7.
+A Deltacrp mutant strain, however, produced barely detectable levels of Act throughout the same time course (Fig. 1B).
+A similar phenomenon was observed for CDA, where a plate-based bioassay revealed a complete abrogation of CDA production by a Deltacrp mutant (Fig. 1C).
+In contrast, Red production profiles during growth in rich liquid medium were similar in both wild-type and Deltacrp mutant strains, although a reproducible lag of ~24 h was observed for the Deltacrp mutant (Fig. 1D).
+In all cases, both the abundance and timing of antibiotic production could be restored to near-wild-type levels by complementing the crp deletion mutant with a construct carrying crp expressed from its native promoter, confirming that the phenotypes were due to crp deletion (Fig. 1).
+These data suggest that Crp has a global influence on secondary metabolite production.
+
+
+
+Crp associates with multiple secondary metabolic gene clusters.
+
+Given the dramatic secondary metabolic defects exhibited by a Deltacrp mutant, we wanted to determine the targets of Crp activity in the cell.
+As a first step, we monitored Crp transcript and protein levels over a 48-h time course in liquid culture (prior to the onset of significant actinorhodin production) to determine when Crp was expressed.
+We found that crp was most highly expressed up until 20 h, after which transcripts decreased to levels barely detectable by 36 h.
+In contrast, Crp protein levels were relatively constant throughout the same 48-h period (see Fig. S1 in the supplemental material).
+We next examined cAMP levels over the time when crp was most highly expressed (12 to 20 h), as cAMP is presumed to be the effector molecule for Crp, based on studies in other bacteria (22 - 24).
+Extracellular cAMP levels were highest at 12 and 16 h, before dropping significantly at 20 h; intracellular levels were too low to be detected, consistent with previously published results (25) (see Fig. S1).
+Interestingly, cAMP levels were more than an order of magnitude higher in the crp mutant than in the wild-type strain (see Fig. S1); enhanced cAMP production has been previously observed for crp mutants in both E. coli (26) and Salmonella enterica serovar Typhimurium (27).
+We tested the effect of high levels of exogenous cAMP (2 mM) on the behavior of the wild-type strain and found there to be no obvious phenotypic difference between this strain and the one grown without supplementation (data not shown), suggesting that the phenotype of the crp mutant stems from loss of Crp and not from heightened cAMP production.
+
+Consequently, we pursued investigations into Crp targets after growth for 16 h, using chromatin immunoprecipitation assays with purified Crp-specific polyclonal antibodies, together with microarray analyses of the precipitated DNA (ChIP-chip).
+As a negative control, parallel assays were conducted using Deltacrp mutant cultures.
+We considered a sequence to be Crp associated if the log2(wild-type/mutant signal ratio) was greater than 3 times the standard deviation above the median ratio (>1.73) and if at least one adjacent probe sequence also met this criterion.
+We found 393 Crp-associated sequences, distributed relatively evenly throughout the genome (Fig. 2A).
+Candidate target genes were classified according to their predicted - or demonstrated - functions, as described in the literature or as annotated in the Streptomyces database StrepDB (see Table S1 in the supplemental material).
+Among the genes with assigned functions, the most abundant functional groups were transcriptional regulators (9.9% of targets) and proteins involved in metabolism (17.6% of targets), of which one-third were predicted, or demonstrated, to participate in secondary metabolism (5.1%) (see Table S1).
+
+Notably, eight out of the 22 predicted secondary metabolic clusters in S. coelicolor were associated with Crp binding sites (Fig. 2A; Table 1) (28).
+Of the characterized clusters, Crp coimmunoprecipitated with at least two sites in, or upstream of, the coding regions of pathway-specific regulatory genes for the Act (SCO5085; actII-ORF4), Red (SCO5881; redZ), and CDA (SCO3217; cdaR) biosynthetic gene clusters (Table 1).
+Multiple Crp binding sites were also associated with the biosynthetic genes for yCPK, specifically, upstream and within cpkA, which encodes a polyketide synthase (Table 1).
+The other four metabolic clusters associated with Crp binding are predicted to code for a nonribosomal peptide synthetase (NRPS) (SCO6429-6438), the sesquiterpene antibiotic albaflavenone (SCO5222-5223), a type II fatty acid synthase (SCO1265-1273), and a deoxysugar synthase/glycosyltransferase (SCO0381-0401) (Table 1).
+These four clusters all lack obvious pathway-specific regulatory genes, and each is arranged such that they could be expressed as a single transcriptional unit.
+Intriguingly, the Crp-associated sequences for each of these clusters correspond to positions upstream and/or within the first gene of each cluster.
+This suggests that there is potential for Crp to specifically regulate the expression of the entire cluster, possibly serving as a "pathway-specific regulator" for those clusters that lack one.
+
+To begin to validate Crp association with select sequences, we constructed a thiostrepton-inducible crp construct and introduced this plasmid into the Deltacrp mutant strain.
+We conducted chromatin immunoprecipitation assays prior to induction (time zero) and after induction for 15 and 45 min; immunoprecipitated and total DNA samples were then used as the templates for quantitative PCR (qPCR) amplification of the pathway-specific regulator-associated sequences for Act (SCO5085; actII-ORF4), CDA (SCO3217; cdaR), and Red (SCO5881; redZ).
+As a negative control, a sequence from SCO4662 (tuf-1) was also subjected to qPCR amplification, as this sequence was not identified as a Crp binding target in our initial ChIP-chip analyses.
+All target sequences, apart from the negative control, were enriched in the immunoprecipitated DNA within 15 min and, more significantly, after 45 min of Crp induction (Fig. 2B).
+This experiment indirectly confirmed SCO5085 (actII-ORF4), SCO3217 (cdaR), and SCO5881 (redZ) as Crp targets.
+
+Electrophoretic mobility shift assays (EMSAs) using select Crp-associated sequences failed to yield traditional shifts, a phenomenon that has been noted in previous studies (19, 20) and may be due to the unusually low pI (5.8) of the Streptomyces Crp, relative to its counterpart in other bacteria.
+We therefore pursued DNase I footprinting assays on several of the Crp-associated sequences that gave an unusual "downshift" in our initial EMSA trials, in an effort to identify a consensus binding sequence (see Fig. S2 in the supplemental material).
+We mapped sites upstream of crp itself, SCO4561 and SCO2977, and identified a consensus binding sequence [GTG(N)6GNCAC]; derivatives of this motif could be found in all of the secondary metabolism-associated target sequences, although notably, one-half of the palindrome seemed to be better conserved than the other [GTG(N)6GNGAN] (Fig. 2C; Table 1).
+
+
+
+Crp induction affects the expression of secondary metabolic gene clusters.
+
+Since both phenotypic investigations and ChIP-chip assays had suggested a role for Crp in secondary metabolite regulation, transcriptome profiling was conducted to gain further insight into the Crp control of these genes/clusters.
+We opted to follow Crp-dependent effects using an inducible system, where crp was expressed from a thiostrepton-inducible promoter, rather than simply comparing expression patterns of wild-type and mutant strains, as these strains grow very differently (the Deltacrp mutant is significantly delayed in germination relative to the wild-type strain).
+RNA samples were prepared from thiostrepton-inducible crp and empty-plasmid control strains, before and after thiostrepton induction, and were analyzed using Affymetrix-based microarrays.
+Genes showing at least a 2-fold change in their expression following induction in the crp-containing samples, but not in the negative control, were regarded as potential targets.
+Overall, we found the expression of 360 genes to be activated and that of 91 genes to be repressed following Crp induction (Fig. 2A; see Table S2 in the supplemental material).
+
+Consistent with the ChIP-chip assay results, functional classification of the Crp-affected genes supported a central role for Crp in governing secondary metabolism, with nearly 20% of all differentially expressed genes encoding products involved in secondary metabolite biosynthesis (see Table S2 in the supplemental material).
+Notably, genes within the Act, Red, CDA, and yCPK clusters were significantly upregulated in response to Crp induction (Fig. 3).
+Expression of the NRPS gene cluster (SCO6429-38) that contained a Crp association sequence was activated as well, whereas the albaflavenone biosynthetic genes (SCO5222-23) were repressed (Table 2).
+As a further test, we used reverse transcription-qPCR (RT-qPCR) to examine the transcription profiles of select genes, including those from the Act (actVA4, actII-ORF4), Red (redD, redX), CDA (cdaR, cdaPSI), yCPK (cpkA, scF), and albaflavenone (eizA) biosynthetic clusters (see Fig. S3 in the supplemental material).
+In every case, the RT-qPCR profiles matched our microarray results, effectively validating our array data.
+
+When comparing Crp-associated DNA targets from our ChIP-chip experiments with the differentially expressed genes identified in our microarray experiments, we found overlap not only of key secondary metabolic genes but also of genes encoding key primary metabolic enzymes that make important contributions to secondary metabolism.
+These included genes involved in the synthesis of acetyl coenzyme A (acetyl-CoA) (pckA/SCO4979; SCO5261), as well as those needed to synthesize malonyl-CoA (accA1/SCO6271; accA2/SCO4921), both of which are used as precursors by polyketide enzymes in the synthesis of antibiotics and other secondary metabolites (29).
+Also identified were genes required for the synthesis of cofactors like flavin mononucleotide (FMN) (e.g., riboflavin biosynthesis, SCO1443-1439), which is needed in the later stages of Act biosynthesis (Tables 1 and 2) (30).
+These results suggest that Crp activity plays a central role in promoting secondary metabolite production in S. coelicolor, integrating multiple regulatory nodes that include the direct control of antibiotic production via the pathway-specific regulators and the modulation of primary metabolic pathways feeding into secondary metabolism.
+
+
+
+The impact of Crp overexpression on secondary metabolism of Streptomyces.
+
+Crp is well conserved across the streptomycetes, with alignments revealing >90% amino acid sequence identity shared between different Crp orthologs (see Fig. S4 in the supplemental material).
+Given the importance of Crp to secondary metabolism in S. coelicolor, we tested whether Crp overexpression could enhance antibiotic production in this organism.
+We cloned the crp gene behind a strong constitutive promoter (ermE*) on an integrating plasmid vector whose target integration sequence is found in all sequenced Streptomyces species examined to date.
+The Crp overexpression construct, along with an empty-plasmid control, was then conjugated into S. coelicolor, and antibiotic production was analyzed.
+Significant upregulation of the blue-pigmented Act antibiotic was obvious in surface-grown cultures of the Crp-overexpressing strain (Fig. 1A), and this was further confirmed through quantitative assays of liquid medium-grown cultures (Fig. 1B).
+CDA production was also increased (Fig. 1C), while Red production initiated at a higher level than in the control strain (Fig. 1D).
+
+To determine whether the antibiotic-stimulatory effects of Crp were more universal, we introduced the Crp overexpression construct into a number of different Streptomyces species, including both sequenced strains and wild Streptomyces isolates (see Table S3 in the supplemental material).
+Using immunoblotting, we confirmed that Crp was overexpressed in these strains, relative to controls bearing the empty-plasmid vector, and verified that similar total protein levels were being compared using Coomassie blue staining (see Fig. S5).
+We initially conducted bioassays to compare the antimicrobial production capabilities of these different Streptomyces species carrying either the ermE*-crp construct or the empty vector, using an array of indicator strains (Escherichia coli, Staphylococcus aureus, and Bacillus subtilis).
+Crp overexpression appeared to stimulate antibiotic production in the wild isolate Streptomyces sp. strain WAC4988, as determined by the enhanced zones of clearing observed for S. aureus and B. subtilis indicator strains (Fig. 4A).
+We also followed secondary metabolite production using liquid chromatography coupled with mass spectrometry (LC-MS), to determine whether Crp overexpression induced any significant secondary metabolic changes in strains that did not show increased antimicrobial activity.
+Some of the most striking changes were observed in Streptomyces sp. strain SPB74, where levels of several metabolites were dramatically enhanced in the overexpression strain relative to the control.
+For example, molecules with m/z values of 620.189 and 638 were increased by >22-fold (day 3) and ~33-fold (day 7), respectively, in the overexpression strain relative to the control (Fig. 4B).
+These findings support a role for Crp as a global activator of secondary metabolism throughout the streptomycetes.
+
+
+
+

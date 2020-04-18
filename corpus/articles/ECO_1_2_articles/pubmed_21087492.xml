@@ -1,0 +1,1739 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Genomics</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Genomics</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2164</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21087492</article-id>
+      <article-id pub-id-type="pmc">3012607</article-id>
+      <article-id pub-id-type="publisher-id">1471-2164-11-644</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2164-11-644</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Methodology Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>From an electrophoretic mobility shift assay to isolated transcription factors: a fast genomic-proteomic approach</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Mach-Aigner</surname>
+            <given-names>Astrid R</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>aaigner@mail.zserv.tuwien.ac.at</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Grosstessner-Hain</surname>
+            <given-names>Karin</given-names>
+          </name>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>Karin.Grosstessner-Hain@imp.ac.at</email>
+        </contrib>
+        <contrib contrib-type="author" id="A3">
+          <name>
+            <surname>Po&#xE7;as-Fonseca</surname>
+            <given-names>Marcio J</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>mpossas@unb.br</email>
+        </contrib>
+        <contrib contrib-type="author" id="A4">
+          <name>
+            <surname>Mechtler</surname>
+            <given-names>Karl</given-names>
+          </name>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>Karl.Mechtler@imp.ac.at</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A5">
+          <name>
+            <surname>Mach</surname>
+            <given-names>Robert L</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>rmach@mail.zserv.tuwien.ac.at</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Gene Technology, Department of Gene Technology and Applied Biochemistry, Institute of Chemical Engineering, TU Wien, Getreidemarkt 9/166/5/2, A-1060 Wien, Austria</aff>
+      <aff id="I2"><label>2</label>Department of Genetics and Morphology, Institute of Biological Sciences, University of Brasilia, Campus Universit&#xE1;rio Darcy Ribeiro, ICC SuL, AT-098, 70.910-900, Bras&#xED;lia-DF, Brazil</aff>
+      <aff id="I3"><label>3</label>Research Institute of Molecular Pathology, Vienna Biocenter, Dr. Bohrgasse 7, A-1030 Vienna, Austria</aff>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>11</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>11</volume>
+      <fpage>644</fpage>
+      <lpage>644</lpage>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>6</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>11</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9;2010 Mach-Aigner et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <copyright-holder>Mach-Aigner et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.biomedcentral.com/1471-2164/11/644"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p><italic>Hypocrea jecorina </italic>(anamorph <italic>Trichoderma reesei</italic>) is a filamentous ascomycete of industrial importance due to its hydrolases (e.g., xylanases and cellulases). The regulation of gene expression can influence the composition of the hydrolase cocktail, and thus, transcription factors are a major target of current research. Here, we design an approach for identifying a repressor of a xylanase-encoding gene.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>We used streptavidin affinity chromatography to isolate the Xylanase promoter-binding protein 1 (Xpp1). The optimal conditions and templates for the chromatography step were chosen according to the results of an electrophoretic mobility shift assay performed under repressing conditions, which yielded a DNA-protein complex specific to the AGAA-box (the previously identified, tetranucleotide <italic>cis</italic>-acting element). After isolating AGAA-box binding proteins, the eluted proteins were identified with Nano-HPLC/tandem MS-coupled detection. We compared the identified peptides to sequences in the <italic>H. jecorina </italic>genome and predicted <italic>in silico </italic>the function and DNA-binding ability of the identified proteins. With the results from these analyses, we eliminated all but three candidate proteins. We verified the transcription of these candidates and tested their ability to specifically bind the AGAA-box. In the end, only one candidate protein remained. We generated this protein with <italic>in vitro </italic>translation and used an EMSA to demonstrate the existence of an AGAA-box-specific protein-DNA complex. We found that the expression of this gene is elevated under repressing conditions relative to de-repressing or inducing conditions.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>We identified a putative transcription factor that is potentially involved in repressing xylanase 2 expression. We also identified two additional potential regulatory proteins that bind to the <italic>xyn2 </italic>promoter. Thus, we succeeded in identifying novel, putative transcription factors for the regulation of xylanase expression in <italic>H. jecorina</italic>.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p><italic>Hypocrea jecorina </italic>(anamorph <italic>Trichoderma reesei</italic>, [<xref ref-type="bibr" rid="B1">1</xref>]) is an abundant filamentous ascomycete. <italic>H. jecorina </italic>breaks down polysaccharides with a variety of hydrolytic enzymes that act synergistically [<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>]. Due to the high secretory capacity of this fungus (up to 100 g/L, [<xref ref-type="bibr" rid="B4">4</xref>]), <italic>H. jecorina </italic>has gained industrial importance and is employed both in the fermentative production of native extracellular enzymes and heterologous protein production. The hydrolases that are secreted by this fungus are applicable to many industries, including textiles (e.g., [<xref ref-type="bibr" rid="B5">5</xref>]), food and feed, (e.g., [<xref ref-type="bibr" rid="B6">6</xref>-<xref ref-type="bibr" rid="B8">8</xref>]), paper (e.g., [<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>]) and, most recently, biofuel production [<xref ref-type="bibr" rid="B11">11</xref>-<xref ref-type="bibr" rid="B13">13</xref>].</p>
+      <p>In 2006, we reported the identification of the main activator of hydrolases in <italic>H. jecorina</italic>, Xyr1 (Xylanase regulator 1) [<xref ref-type="bibr" rid="B14">14</xref>]. In addition to Xyr1, two transcription factors, Ace1 (Activator of cellulases 1) and Ace2 (Activator of cellulases 2), are potentially involved in the regulation of hydrolases in <italic>H. jecorina </italic>[<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>]. These two additional narrow domain transcription factors seem to directly modulate the mode of action of the general regulator Xyr1 [<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>]. The Carbon catabolite repressor Cre1 [<xref ref-type="bibr" rid="B19">19</xref>] has also been described as a wide domain repressor of particular hydrolase-encoding genes (e.g., [<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref>]). Some years ago it was also postulated that another putative repressor protein exists that is specific for <italic>xyn2 </italic>(xylanase 2) [<xref ref-type="bibr" rid="B22">22</xref>]. An <italic>in vivo </italic>genomic footprinting approach identified the AGAA-box within the <italic>xyn2 </italic>promoter as a relevant <italic>cis</italic>-acting motif that is protected under glucose repressing conditions. Until recently, however, the corresponding <italic>trans</italic>-acting factor was not known.</p>
+      <p>Geyer and co-workers showed for the restriction endonuclease MboI that protein-DNA complexes could be identified with metal affinity chromatography, followed by mass spectrometry [<xref ref-type="bibr" rid="B23">23</xref>]. Later, affinity chromatography-SELEX (systematic evolution of ligands by exponential enrichment) was reported to be suitable for isolating transcription factors and modelling protein-DNA interactions [<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref>]. In 2005, a streptavidin affinity assay was used to purify proteins of a known size that bind to the AP-1 (Activator protein-1) sequence (p47 and p49) in human cancer cells; these proteins were subsequently identified by sequencing the SDS-PAGE (sodium dodecylsulphate - polyacrylamide gel electrophoresis) protein bands [<xref ref-type="bibr" rid="B26">26</xref>].</p>
+      <p>Herein, we describe the isolation and identification of a transcription factor of unknown size with the combination of streptavidin affinity chromatography, a Nano-HPLC (high performance liquid chromatography)-tandem MS (mass spectrometry)-coupled detection system, and a genome based allocation. Our method is a fast genomic-proteomic approach for the identification of new and completely unknown transcription factors starting from a protein-DNA complex identified with an electrophoretic mobility shift assay (EMSA).</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>The AGAA-motif within the <italic>xyn2 </italic>promoter is bound under glucose-repressing conditions</title>
+        <p><italic>In vivo </italic>genomic footprinting data indicate that the transcriptional regulation of <italic>xyn2 </italic>expression involves the following <italic>cis</italic>-acting elements: a CCAAT-box, two Xyr1-binding motifs (GGGTAA and GGCTGG) known to bind Xyr1 (Xylanase regulator 1, [<xref ref-type="bibr" rid="B14">14</xref>]), and an AGAA-box [<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B22">22</xref>]. Figure <xref ref-type="fig" rid="F1">1</xref> summarizes the architecture of the <italic>xyn2 </italic>promoter. The AGAA-box, as well as the CCAAT-box and one Xyr1-binding motif, are located on the antisense strand. The AGAA tetranucleotide is fully protected under non-inducing conditions [<xref ref-type="bibr" rid="B22">22</xref>]. Cell-free extract protein from <italic>H. jecorina </italic>transferred to repressing (glucose) or inducing (xylan) conditions was subjected to an EMSA using radiolabeled probes. A protein-DNA complex was readily observed using cell-free extract obtained under repressing conditions and a short oligonucleotide containing the AGAA-box (Pxyn2a, see Table <xref ref-type="table" rid="T1">1</xref>) (Figure <xref ref-type="fig" rid="F1">1</xref>). No protein-DNA interaction was detected when cell-free extracts from inducing conditions were used (Figure <xref ref-type="fig" rid="F1">1</xref>), supporting the idea that this part of the promoter is involved in repression. If the AGAA sequence is mutated CTCC (Pxyn2aM, see Table <xref ref-type="table" rid="T1">1</xref>), no DNA-protein complex is formed under either repressing or inducing conditions (Figure <xref ref-type="fig" rid="F1">1</xref>). This result indicates that this part of the <italic>xyn2 </italic>promoter is essential for binding a transcription factor under repressing conditions.</p>
+        <table-wrap id="T1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Oligonucleotides used in this study</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Name</th>
+                <th align="left">Sequence (5' - 3')</th>
+                <th align="left">Employment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">Bxyn2p250f</td>
+                <td align="left">Biotin-TGATGAAAGGAGAACAACTTCTAGACTG</td>
+                <td align="left">Affinity Chromatography</td>
+              </tr>
+              <tr>
+                <td align="left">Bxyn2p250r</td>
+                <td align="left">CAGTCTAGAAGTTGTTCTCCTTTCATCA</td>
+                <td align="left">Affinity Chromatography</td>
+              </tr>
+              <tr>
+                <td align="left">CKT067</td>
+                <td align="left">CACTCCACATGTTAAAGGCGCATTCAACCAGCTTC</td>
+                <td align="left">EMSA/Affinity Chromatography</td>
+              </tr>
+              <tr>
+                <td align="left">CKT068</td>
+                <td align="left">GAAGCTGGTTGAATGCGCCTTTAACATGTGGAGTG</td>
+                <td align="left">EMSA/Affinity Chromatography</td>
+              </tr>
+              <tr>
+                <td align="left">Exp2488F</td>
+                <td align="left"><underline>GGATCC</underline>GACCGCATGGCGCACAAC</td>
+                <td align="left">Construction of p2488DBD</td>
+              </tr>
+              <tr>
+                <td align="left">Exp2488R</td>
+                <td align="left"><underline>CTCGAG</underline>TCAACAGAATCCTCTCGGGTCG</td>
+                <td align="left">Construction of p2488DBD</td>
+              </tr>
+              <tr>
+                <td align="left">Exp3151F</td>
+                <td align="left"><underline>GGATCC</underline>GAAGAAACCGCCAAGGCGC</td>
+                <td align="left">Construction of p3151DBD</td>
+              </tr>
+              <tr>
+                <td align="left">Exp3151R</td>
+                <td align="left"><underline>CTCGAG</underline>AGATGTGTACGTCGGGTTTTC</td>
+                <td align="left">Construction of p3151DBD</td>
+              </tr>
+              <tr>
+                <td align="left">Exp7236F</td>
+                <td align="left"><underline>GGATCC</underline>ACACACGACCCCAACGCC</td>
+                <td align="left">Construction of p7236DBD</td>
+              </tr>
+              <tr>
+                <td align="left">Exp7236R</td>
+                <td align="left"><underline>CTCGAG</underline>CGCGAGGGGGTTTCCATTC</td>
+                <td align="left">Construction of p7236DBD</td>
+              </tr>
+              <tr>
+                <td align="left">fltn2488f</td>
+                <td align="left"><underline>GGTACC</underline>ATGGCACAAGCCCTCGACATTTCC</td>
+                <td align="left">Construction of p2488</td>
+              </tr>
+              <tr>
+                <td align="left">fltn2488r</td>
+                <td align="left"><underline>GCGGCCGC</underline>TCAACAGAATCCTCTCGGGTCGAAG</td>
+                <td align="left">Construction of p2488</td>
+              </tr>
+              <tr>
+                <td align="left">LPxyn2f-FAM</td>
+                <td align="left">FAM-TGATGAAAGGAGAACAACTTCTAGACTGGGTAAATTGGTCAATGGCCAGCCGCTC</td>
+                <td align="left">FAM-labelled EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">LPxyn2r</td>
+                <td align="left">GAGCGGCTGGCCATTGACCAATTTACCCAGTCTAGAAGTTGTTCTCCTTTCATCA</td>
+                <td align="left">FAM-labelled EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">LPxyn2Mf-FAM</td>
+                <td align="left">FAM-TGATGAAAGGAGAACAACGGAGAGACTGGGTAAATTGGTCAATGGCCAGCCGCTC</td>
+                <td align="left">FAM-labelled EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">LPxyn2Mr</td>
+                <td align="left">GAGCGGCTGGCCATTGACCAATTTACCCAGTCTCTCCGTTGTTCTCCTTTCATCA</td>
+                <td align="left">FAM-labelled EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">Pxyn2af</td>
+                <td align="left">TGATGAAAGGAGAACAACTTCTAGACTG</td>
+                <td align="left">Radioactive EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">Pxyn2ar</td>
+                <td align="left"><underline>TGAC</underline>CAGTCTAGAAGTTGTTCTCCTTTC</td>
+                <td align="left">Radioactive EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">Pxyn2aMf</td>
+                <td align="left">TGATGAAAGGAGAACAACGGAGAGACTG</td>
+                <td align="left">Radioactive EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">Pxyn2aMr</td>
+                <td align="left"><underline>TGAC</underline>CAGTCTCTCCGTTGTTCTCCTTTC</td>
+                <td align="left">Radioactive EMSA</td>
+              </tr>
+              <tr>
+                <td align="left">transkr2488f</td>
+                <td align="left">AGCTTCCACAAACATGACGCCG</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr2488r</td>
+                <td align="left">CATGGCGATTTCGAGCAGTCG</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr3500f</td>
+                <td align="left">CTCTTCAGGTCCTTATGAAGGTCG</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr3500r</td>
+                <td align="left">GAGTAGCTGTCCGATCCACG</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr3151f</td>
+                <td align="left">GATGTCTGAGGAATCTTCAAGCGC</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr3151r</td>
+                <td align="left">GGAGTCTTGCTTCGATTGCGG</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr7236f</td>
+                <td align="left">GTGTACCTGGACCTTGCGC</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+              <tr>
+                <td align="left">transkr7236r</td>
+                <td align="left">CTGCTTCTCCTGGGGCG</td>
+                <td align="left">Transcript analysis</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>The employment of the oligonucleotides used in this study is given. Underlined bases represent introduced restriction enzyme sites or bases added for labelling. Double underlined bases indicate introduced point mutations.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Binding of potential regulatory proteins of <italic>H. jecorina </italic>to the AGAA-box within the <italic>xyn2 </italic>promoter</bold>. First, 100 &#x3BC;g cell-free extracts derived from replacement experiments on glucose and xylan were subjected to an EMSA. Then, 10 ng of the radioactive-labelled oligonucleotides Pxyn2a (covering the area in the <italic>xyn2 </italic>promoter harbouring the AGAA-box (grey box; antisense strand), see Table 1) and Pxyn2aM (bearing a mutation of AGAA to CTCC (M), see Table 1) were used. Free probe indicates the sample lacking protein. Xyr1 indicates the Xyr1-binding sites (black boxes; GGGTAA on the sense strand and GGCTGG on the antisense strand). CCAAT indicates the binding site of the Hap2/3/5 complex (white box: antisense strand).</p>
+          </caption>
+          <graphic xlink:href="1471-2164-11-644-1"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Streptavidin-based isolation and identification of AGAA-binding proteins</title>
+        <p>The DNA-protein complex observed in the EMSA includes a putative repressor of <italic>xyn2 </italic>transcription (termed "Xpp1", Xylanase promoter-binding protein 1). To isolate this complex, the same batch of cell-free extracts from <italic>H. jecorina </italic>transferred to glucose was subjected to affinity chromatography. A schematic of the procedure is shown in Figure <xref ref-type="fig" rid="F2">2</xref>. Biotinylated versions of the same oligonucleotides used for the EMSA (Bxyn2p250, see Table <xref ref-type="table" rid="T1">1</xref>) were incubated on ice with streptavidin beads (Figure <xref ref-type="fig" rid="F2">2</xref>). Under the EMSA reaction conditions, this mixture was incubated with the cell-free extract, which should include Xpp1 (Figure <xref ref-type="fig" rid="F2">2</xref>). After magnetic separation, the whole eluate was subjected to Nano-HPLC separation. The eluted peptides were monitored on the HPLC at a wavelength of 214 nm and directly applied to the mass spectrometer.</p>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Schematic drawing of the affinity chromatography assay</bold>. The biotinylated (B) oligonucleotides bearing the AGAA-box were annealed and incubated with streptavidin particles tagged with a paramagnetic particle (S). Cell-free extracts from cells grown in glucose, containing the potential Xylanase promoter-binding protein (Xpp1), were added and incubated under the same conditions as those used for the EMSA (see Fig. 1). The Xpp1-DNA streptavidin complex was separated in a magnetic field according to the manufacturer's instructions (Miltenyi Biotec GmbH, Bergisch Gladbach, Germany).</p>
+          </caption>
+          <graphic xlink:href="1471-2164-11-644-2"/>
+        </fig>
+        <p>The tandem mass spectra were analyzed <italic>in silico </italic>as described above. 81 eluted proteins (see additional file <xref ref-type="supplementary-material" rid="S1">1</xref>) were identified and analyzed further with FGENESH V1 and GENEWISE 1. Three proteins with DNA-binding domains were identified and represent potential transcription factors (Table <xref ref-type="table" rid="T2">2</xref>). These proteins (scan number 2488 (protein ID 122879), 3151 (protein ID 21557), 7236 (protein ID 108909)) were investigated in more detail and are hereafter referred to as "2488prp" (prp, promotor-binding protein), "3151prp", and "7236prp". The mass spectra for these three selected candidate genes are available online at: <ext-link ext-link-type="uri" xlink:href="http://cores.imba.oeaw.ac.at/index.php?id=3731">http://cores.imba.oeaw.ac.at/index.php?id=3731</ext-link>.</p>
+        <table-wrap id="T2" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>Isolated and identified <italic>H. jecorina </italic>potential DNA-binding proteins of interest and verification of their transcript formation under repressing conditions in strain QM9414</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Protein ID</th>
+                <th align="left">Predictions according to FGENESH</th>
+                <th align="center">Transcription</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">2488</td>
+                <td align="left">Putative DNA-binding protein, helix-loop-helix</td>
+                <td align="center">+</td>
+              </tr>
+              <tr>
+                <td align="left">3151</td>
+                <td align="left">DNA-binding domain, Zn-finger; BRAHMA-complex</td>
+                <td align="center">+</td>
+              </tr>
+              <tr>
+                <td align="left">7236</td>
+                <td align="left">DNA-binding "high mobility group" protein</td>
+                <td align="center">+</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>To verify that the genes encoding 2488prp, 3151prp, and 7236prp correspond to transcripts in <italic>H. jecorina</italic>, we performed RT-PCR using cDNAs obtained under inducing and non-inducing conditions. Using the primers listed in Table <xref ref-type="table" rid="T1">1</xref>, we could clearly detect transcripts for the genes <italic>2488prp</italic>, <italic>3151prp</italic>, and <italic>7236prp </italic>(Table <xref ref-type="table" rid="T2">2</xref>).</p>
+      </sec>
+      <sec>
+        <title>Cloning, expression, and binding of putative AGAA-binding transcription factors of <italic>H. jecorina</italic></title>
+        <p>Since transcripts for all three genes encoding the putative regulatory proteins were detected, the respective DNA-binding domains (DBD) were cloned and expressed as GST-fusion proteins using the pGEX-4T-2 vector and <italic>E. coli </italic>BL21-Gold. Production of the recombinant proteins was verified by SDS-PAGE (Figure <xref ref-type="fig" rid="F3">3A</xref>). All clones, two for the expression of the 3151prp DBD, three for the expression of the 7236prp DBD, and two for the expression of the 2488prp DBD, produced proteins of expected sizes (34 kD for 3151prp, 36 kD for 7236prp, and 32 kD for 2488prp). Two clones expressing GST alone were applied as controls and also produced bands of the correct size (26 kD).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>Expression and binding of DNA-binding domains (DBD) of putative repressor proteins to the AGAA-box within <italic>xyn2 </italic>promoter of <italic>H. Jecorina</italic></bold>. (A) SDS-PAGE of two clones of the DBD of 3151, three clones of the DBD of 7236, and two clones of the DBD of 2488. All clones heterologously expressed the GST-fusion proteins (3151prp, 7236prp, 2488prp). GST, expression of the GST-protein alone, as a control. A prestained protein ladder (Fermentas) was used. (B) EMSA with 100 ng of the DBDs expressed as GST-fusion proteins (see Fig. 3A). Finally, 15 ng of labelled oligonucleotides, one covering the respective area of the <italic>xyn2 </italic>promoter (Lpxyn2, see Table 1) and the other bearing a mutation in the AGAA-box (from AGAA to CTCC, Lpxyn2 M, see Table 1), were assayed alone (lanes 1, 2), with GST alone (negative control, GST), or with the thrombin-cleaved DBDs (3151prp_DBD, 7236prp_DBD, 2488prp_DBD).</p>
+          </caption>
+          <graphic xlink:href="1471-2164-11-644-3"/>
+        </fig>
+        <p>The thrombin-cleaved DBD constructs were analyzed with an EMSA using an oligonucleotide covering the whole <italic>xyn2 </italic>promoter (Lpxyn2, see Table <xref ref-type="table" rid="T1">1</xref>) or an oligonucleotide bearing the AGAA-box mutated to CTCC (Lpxyn2 M, see Table <xref ref-type="table" rid="T1">1</xref>). FAM-labelled probes seem to demand longer probes: a FAM-labelled (shorter) Pxyn2a only gave a weak shift (data not shown). No shift was observed with the GST control or the 3151prp DBD (Figure <xref ref-type="fig" rid="F3">3B</xref>). The 7236prp DBD yielded two protein-DNA complexes, but these are rather non-specific, as they also formed with the mutated probe (Figure <xref ref-type="fig" rid="F3">3B</xref>). In contrast, the 2488prp DBD produced one slow-migrating shift that was not observed with the mutated probe (Figure <xref ref-type="fig" rid="F3">3B</xref>), indicating the formation of an AGAA-box specific DNA-protein complex. This candidate was analyzed in more detail.</p>
+      </sec>
+      <sec>
+        <title>The binding of 2488prp to the <italic>xyn2 </italic>promoter of <italic>H. jecorina</italic></title>
+        <p>Because 2488prp DBD produced an AGAA-box specific shift in the EMSA (Figure <xref ref-type="fig" rid="F3">3B</xref>), the corresponding gene was subjected to <italic>in vitro </italic>translation. The accumulation of product from the <italic>in vitro </italic>translation was confirmed with SDS-PAGE of the FluoroTect&#x2122;Green-labelled proteins (Figure <xref ref-type="fig" rid="F4">4A</xref>). A negative control reaction containing no DNA template produced no specific protein, but a positive control reaction containing a plasmid that codes for luciferase gave a protein band of the correct size (61 kD) (Figure <xref ref-type="fig" rid="F4">4A</xref>). Using the plasmid pMPF2488 as template in an <italic>in vitro </italic>translation experiment was also found to yield a protein band of the expected size (54 kD) (Figure <xref ref-type="fig" rid="F4">4A</xref>). Background bands of 42 kD (rabbit reticulocyte lysate protein) and 18 - 25 kD (aminoacyl tRNAs) are associated with the <italic>in vitro </italic>translation procedure (see manufacturer's guidelines). We then performed an EMSA using the <italic>in vitro </italic>translated, unlabelled 2488prp and the labelled oligonucleotides (the same as for the EMSA with DBD). No DNA-protein complex formed with the mutated probe (Lpxyn2 M, see Table <xref ref-type="table" rid="T1">1</xref>) (Figure <xref ref-type="fig" rid="F4">4B</xref>), but one specific shift was observed with the probe lacking mutations (Lpxyn2) (Figure <xref ref-type="fig" rid="F4">4B</xref>, indicated by an arrow). This shifted band migrated more slowly than the positive control shifted band using <italic>in vitro </italic>translated Xyr1 (Figure <xref ref-type="fig" rid="F4">4B</xref>, also indicated by an arrow). Xyr1, a general hydrolase activating transcription factor in <italic>H. jecorina </italic>[<xref ref-type="bibr" rid="B14">14</xref>], was recently reported to bind the <italic>xyn2 </italic>promoter [<xref ref-type="bibr" rid="B18">18</xref>], acting as a <italic>cis</italic>-acting element near the AGAA-box, which is also present on the applied oligonucleotide. The two shifts with the fastest mobility in the reactions containing oligonucleotide Lpxyn2 and <italic>in vitro </italic>translated 2488prp or Xyr1 (Figure <xref ref-type="fig" rid="F4">4B</xref>) are background. These shifts also appear if the <italic>in vitro </italic>translation mixture is given no DNA-template or the luciferase protein (data not shown). Therefore, we conclude that 2488prp binds the AGAA-box of the <italic>xyn2 </italic>promoter <italic>in vitro</italic>.</p>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold><italic>In vitro </italic>translation and binding of the 2488 putative repressor protein</bold>. (A) SDS-PAGE of <italic>in vitro </italic>translated and FluoroTect&#x2122;Green labelled proteins: a negative control reaction containing no DNA template (no DNA), a positive control reaction for the expression of luciferase (Luc), and the expression of 2488prp (pMPF2488 as DNA template). A prestained protein ladder (Fermentas) was applied. (B) EMSA using 60 ng of <italic>in vitro </italic>translated, unlabelled 2488prp (see Fig. 4A). Then, 15 ng labelled oligonucleotides, one covering the respective area of the <italic>xyn2 </italic>promoter (Lpxyn2, see Table 1), and another bearing a mutation from AGAA to CTCC (Lpxyn2 M, see Table 1) were applied without protein sample (lanes 1, 2). <italic>In vitro </italic>translated Xyr1 was used as a positive control.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-11-644-4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Characterisation of <italic>2488prp</italic></title>
+        <p>The putative <italic>2488prp </italic>gene encodes a protein of 505 amino acids with a predicted molecular mass of 55 kD. Sequence alignments indicate that the entire 2488prp protein has significant sequence similarity to hypothetical proteins in <italic>Nectria haematococca </italic>(GeneID: 9678588; 43%), <italic>Gibberella zeae </italic>(GeneID: 2791570; 43%), <italic>Neurospora crassa </italic>(GeneID: 3874038, 37%), <italic>Podospora anserina </italic>(GeneID: 6189947, 37%) <italic>Chaetomium globosum </italic>(GeneID: 4395593, 37%), <italic>Magnaporthe grisea </italic>(GeneID: 2675104, 36%). The most similarity was found in the C-terminal part of the protein (compare additional file <xref ref-type="supplementary-material" rid="S2">2</xref>), which includes a helix-loop-helix domain (HLH-superfamily; [<xref ref-type="bibr" rid="B27">27</xref>]) with an overall length of 67 amino acids (aa 397 to 461). A detailed domain analysis according to [<xref ref-type="bibr" rid="B28">28</xref>] revealed a basic DNA binding region (aa 397 to 406) N-terminal to two alpha-helices separated by a loop region (aa 409 to 461). The basic N-terminal region is thought to mediate high-affinity DNA-binding [<xref ref-type="bibr" rid="B29">29</xref>], whereas the helix-loop-helix region functions as a dimerization interface [<xref ref-type="bibr" rid="B30">30</xref>]. A glutamic acid at position 404 strongly indicates that 2488prp belongs to the group of E-box binding HLH proteins (3). The classical E-box is a hexameric palindrome. Interestingly, the AGAA-box overlaps with a hexameric palindrome (TCTAGA on the sense strand). Only the antisense part of this potential E-box has been reported to be protected according to <italic>in vivo </italic>footprinting experiments [<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B22">22</xref>]. The sense strand cannot be analyzed because the sequence extension in the linker-mediated PCR is fully determined at the TATA-box (unpublished data, W&#xFC;rleitner E. and Mach R.L.).</p>
+      </sec>
+      <sec>
+        <title>Transcription of <italic>2488prp </italic>during cultivation in different carbon sources</title>
+        <p>In <italic>H. jecorina</italic>, the expression of the hydrolytic enzyme-encoding genes, such as <italic>xyn1</italic>, <italic>xyn2</italic>, <italic>bxl1</italic>, <italic>cbh1 </italic>(cellobiohydrolase 1), <italic>cbh2 </italic>(cellobiohydrolase 2), <italic>egl1 </italic>(endoglucanase 1), or <italic>bgl1 </italic>(&#x3B2;-glucosidase 1), is regulated by the general activator Xyr1, regardless of the carbon source or inducing substance [<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B31">31</xref>]. Nevertheless, different expression/induction patterns for these genes have been observed [<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B22">22</xref>]. We examined, whether the transcription of this putative regulatory protein depends on the presence of certain induction signals or various carbon sources.</p>
+        <p>After pre-cultivation, the mycelium of <italic>H. jeco</italic>rina was transferred to medium lacking a carbon source (de-repressing conditions) or to media containing 1% (w/v) glucose, glycerol (repressing conditions), D-xylose or xylan or 1.5 mM sophorose or xylobiose (inducing conditions). Cultures were incubated for 3, 5, and 24 hours. After RNA-extraction followed by cDNA synthesis, the transcript levels were analyzed via real-time PCR.</p>
+        <p>We observed that the abundance of the <italic>2488prp </italic>transcript increases in the presence of carbon sources that repress hydrolase expression, such as glucose or glycerol, relative to de-repressing conditions (Fig <xref ref-type="fig" rid="F5">5A</xref>). Similar observations were made when comparing inducing conditions, such as growth on D-xylose or xylan or in media containing xylobiose or sophorose, with transcript forming in media containing glucose (Figure <xref ref-type="fig" rid="F5">5B, C</xref>). In all cases, it was clear that the transcription of the putative repressor <italic>2488prp </italic>gene was downregulated. These data strongly indicate that <italic>2488prp </italic>transcription is upregulated under repressive conditions and that this protein functions as a repressor of hydrolase transcription.</p>
+        <fig id="F5" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Transcription analysis of carbon source-dependent regulation of <italic>2488prp </italic>and <italic>xyn2 </italic>transcription</bold>. (A) Transcription of <italic>2488prp </italic>under repressing conditions. The <italic>H. jecorina </italic>strain QM9414 was pre-cultured on glycerol and then transferred to MA media lacking a carbon source (NC) or containing 1% (w/v) glucose (G) or glycerol (GY), and incubated for 3 and 5 hours, respectively. (B) Transcription of <italic>2488prp </italic>under growth conditions. Replacement of QM9414 was performed to 1% (w/v) glucose (G), xylose (XO) or xylan (XN) as sole carbon source and incubated 3, 5 and 24 hours, respectively. (C) Transcription of <italic>2488prp </italic>under inducing conditions. Replacement of QM9414 was performed to 1% (w/v) glucose (G), 1.5 mM sophorose (SO) or xylobiose (XB), and incubated 5 hours. (D) Transcription of <italic>xyn2 </italic>under various carbon source conditions. The rates of transcription for the above mentioned (growth) conditions are summarized. The relative transcript levels are given on decade logarithmic scale (lg). The data presented are means of results from three independent experiments. Error bars indicate the standard deviations. The asterisk indicates the reference sample.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-11-644-5"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>In the last few decades, several techniques have been developed to identify new DNA regulatory elements. Both <italic>in vitro </italic>methods, such as EMSA with cell-free or nuclear extracts ([<xref ref-type="bibr" rid="B32">32</xref>] and citations therein), and <italic>in vivo </italic>approaches, such as the <italic>in vivo </italic>genomic footprinting assay ([<xref ref-type="bibr" rid="B33">33</xref>,<xref ref-type="bibr" rid="B34">34</xref>] and citations therein) and promoter deletion analyses, have enabled the identification of numerous <italic>cis</italic>-acting elements.</p>
+      <p>The isolation and identification of the corresponding <italic>trans</italic>-acting factors is still challenging, however. Until recently, affinity chromatography based methods for the isolation of transcription regulators demanded large amounts of samples (e. g. cell-free extract proteins) and/or laborious pre-purifications steps (e. g. heparin-sepharose purification (e. g. [<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref>])). Furthermore, additional purification steps, such as one- or two-D gel electrophoreses, were necessary to obtain at least semi-purified protein, which could thereafter be subjected to nanospray MS/MS fragmentation sequencing [<xref ref-type="bibr" rid="B26">26</xref>]. Although such methods led to the identification of transcription factors, they are labour-intensive and not suitable for high-throughput analyses.</p>
+      <p>Recently, the yeast one hybrid (Y1H) system was established, offering an <italic>in vivo </italic>method of screening respective transcription factors in a living cell [<xref ref-type="bibr" rid="B37">37</xref>]. This method depends on the completeness of the cDNA library, however. Thus, cDNAs of rare mRNAs, such as those of transcription factors and narrow domain regulators, are often missed. Furthermore, if the DNA binding depends on posttranslational modifications or the presence of additional interacting factors, it is even more likely that relevant interactions can be missed. The Y1 H system is also laborious and time-consuming (e. g. isolation of rare mRNAs, cDNA library constructions) and therefore only partially useful for high-throughput screening approaches. In addition, Y1 H and Y2 H approaches are known to be prone to false positives (e. g. [<xref ref-type="bibr" rid="B38">38</xref>,<xref ref-type="bibr" rid="B39">39</xref>]).</p>
+      <p>The method described in this study requires only small amounts of protein extract and the preceding extraction procedure is easy and fast. It combines a single-step micro affinity chromatography purification based on prior <italic>in vivo </italic>and/or <italic>in vitro </italic>protein-DNA-interaction data and high-resolution analyses. The Nano-HPLC/tandem MS-coupled detection allows the separation and identification of up to 500 proteins in one sample. Such a large number of identified candidate proteins enable the allocation of protein complexes interacting with the respective DNA target. We required that the putative transcription factor contain a predictable DNA binding domain to be considered for further analyses. Comparing protein extracts derived from different growth or environmental conditions and/or from a time-course experiment could provide information on the dynamics of protein networks interacting with the DNA. Finally, such a technique will permit mutational analysis of <italic>cis</italic>-acting DNA elements.</p>
+      <p>In this study, the most promising protein that was identified (2488prp) is an E-box binding HLH protein. The classical E-box is a hexameric palindrome. Interestingly, the AGAA-box overlaps with a hexameric palindrome (TCTAGA on the sense strand). Until this work, only the antisense part of this potential E-box was reported to be protected in footprinting experiments <italic>in vivo </italic>[<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B22">22</xref>], because the sense strand cannot be analyzed due to sequence extension in the linker-mediated PCR is fully determined at the TATA-box (unpublished data, W&#xFC;rleitner E. and Mach R.L).</p>
+    </sec>
+    <sec>
+      <title>Conclusions</title>
+      <p>The method developed here should be applicable to other high-throughput experiments, given available genome sequence databases. It permits the assignment of a promoter-binding protein (in this study, Xpp1) to its previously identified <italic>cis</italic>-acting element (the AGAA-box) under various conditions (glucose-repressing conditions) for the expression of a certain gene of interest (<italic>xyn2</italic>). The described genomic-proteomic approach facilitates the fast one-step isolation and identification of an unknown promoter-binding protein. In addition, this method assists in assigning the promoter-binding protein to a certain gene regulatory function.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Strains and growth conditions</title>
+        <p>The ascomycete <italic>H. jecorina </italic>(<italic>T. reesei</italic>) QM9414 (ATCC 26921; a cellulase hyper-producing mutant derived from the wild-type strain QM6a [<xref ref-type="bibr" rid="B40">40</xref>]) was used throughout this study and maintained on malt agar. For replacement experiments, mycelia were pre-cultured in 1-L-Erlenmeyer flasks on a rotary shaker (250 rpm) at 30&#xB0;C for 18 h in 250 mL of Mandels-Andreotti (MA) medium [<xref ref-type="bibr" rid="B41">41</xref>] supplemented with 1% (w/v) glycerol as a sole carbon source. 10<sup>8 </sup>conidia per litre (final concentration) were used as the inoculum. Pre-grown mycelia were washed and then equal amounts were resuspended in MA media containing 1% (w/v) glucose, glycerol, xylose or xylan as the sole carbon source or supplemented with 1.5 mM sophorose or xylobiose or without any carbon source.</p>
+        <p><italic>E. coli </italic>JM109 (Promega, Wisconsin, US) was used for the propagation of plasmid vectors, and the strain BL21-Gold (Stratagene, La Jolla, CA) was used as the host for the production of GST (Glutathion S-transferase) fusion proteins.</p>
+      </sec>
+      <sec>
+        <title>Electrophoretic mobility shift assay (EMSA)</title>
+        <p>Radioactive EMSA synthetic oligonucleotides (VBC, Vienna, Austria) (Table <xref ref-type="table" rid="T1">1</xref>) were used. After annealing, double stranded oligonucleotides were end-labelled with (*-32P)-dCTP using Klenow Polymerase (Promega) and purified with non-denaturing PAGE (polyacrylamide gel electrophoresis). The binding assays and PAGE experiments were performed essentially as described in [<xref ref-type="bibr" rid="B41">41</xref>]. Binding was achieved by incubating 100 &#x3BC;g of cell-free extract protein with 5 ng of labelled fragment for 15 min on ice. Cell-free extracts were prepared as described previously [<xref ref-type="bibr" rid="B41">41</xref>].</p>
+        <p>For fluorescent EMSA, the synthetic FAM-labelled oligonucleotides (MWG Biotech, Ebersberg, Germany) were annealed with their complementary oligonucleotides (Table <xref ref-type="table" rid="T1">1</xref>) by cooking them in 200 mM Tris/HCl (pH 7.5) for 5 min and then letting them cool slowly to room temperature. The binding assay and PAGE experiments were performed as described previously [<xref ref-type="bibr" rid="B41">41</xref>]. Binding was achieved by incubating 100 ng of the GST fusion proteins or 60 ng of <italic>in vitro </italic>translated, unlabelled 2488prp (putative repressor protein) with 15 ng of labelled fragment for 15 min on ice. <italic>In vitro </italic>translation of the complete 2488prp protein was performed using the TNT Quick Coupled Transcription/Translation System (Promega) according to the manufacturer's instructions starting from the plasmid pMPF2488, which inserts the <italic>2488prp </italic>structural gene into the vector pTNT (Promega). To verify the completion of the translation process by a SDS-PAGE, both 2488prp and luciferase (a control template DNA provided by Promega) were labelled using FluoroTect&#x2122;Green (Promega). Gels (EMSA and SDS-PAGE) were analysed using a Typhoon 8600 variable mode imager (Amersham Bioscience, part of GE Healthcare, CT, US).</p>
+      </sec>
+      <sec>
+        <title>RNA-extraction, reverse transcription, transcript analyses, quantitative PCR (qPCR)</title>
+        <p>Harvested mycelia were homogenized in 1 mL peqGOLD TriFast DNA/RNA/protein purification system (PEQLAB Biotechnologie, Erlangen, Germany) using a FastPrep FP120 BIO101 ThermoSavant cell disrupter (Qbiogene, Carlsbad, US). RNA was isolated according to the manufacturer's instructions.</p>
+        <p>The synthesis of cDNA from mRNA was achieved with the RevertAid&#x2122;H Minus First Strand cDNA Synthesis Kit (Fermentas, St. Leon-Rot, Germany).</p>
+        <p>All PCRs for checking transcription were performed in an iCycler iQ, Real-Time Detection System (Bio-Rad, Hercules, US). The reactions were performed in a 25 &#x3BC;l volume containing 1 &#xD7; buffer (Promega), 2.5 mM MgCl<sub>2</sub>, 0.1 &#x3BC;M forward primer, 0.1 &#x3BC;M reverse primer, 0.25 U Taq-polymerase (Go-taq, Promega), and a mixture of glucose and xylose-derived cDNAs (10-fold diluted) as template. The primer sequences (transkr2488f/r, transkr3151f/r, transkr3151f/r, transkr7236f/r) are given in Table <xref ref-type="table" rid="T1">1</xref>. The PCR run included a blank (sterile, bi-distilled water instead of sample). The following PCR protocol was used: 3 min initial denaturation at 95&#xB0;C, followed by 30 cycles of 15 s at 95&#xB0;C, 15 s at 59&#xB0;C, and 20 s at 72&#xB0;C.</p>
+        <p>All qPCRs were performed in a Mastercycler<sup>&#xAE; </sup>ep realplex<sup>2 </sup>(Eppendorf, Hamburg, Germany). The software realplex 2.2 was used to compile PCR protocols and define plate set-ups. All reactions were performed in triplicate. To analyze <italic>2488prp </italic>transcription, a SYBR Green assay with an actin reference was performed using 1 &#xD7; iQ SYBR Green Supermix (Bio-Rad), 0.1 &#x3BC;M forward primer, 0.1 &#x3BC;M reverse primer, and cDNA as template. Primer pairs are given in Table <xref ref-type="table" rid="T1">1</xref>. The following PCR program was used: 3 min initial denaturation at 95&#xB0;C, followed by 45 cycles of 15 s at 95&#xB0;C, 15 s at 59&#xB0;C and 15 s at 72&#xB0;C. The data are expressed relative to the transcription of the actin gene. The data in the figures are means of three independent experiments. Error bars indicate standard deviations. These amounts always refer to one reference sample within an experiment, which is marked in the figure with an asterisk.</p>
+      </sec>
+      <sec>
+        <title>Isolation of DNA-binding proteins with streptavidin affinity chromatography</title>
+        <p>Biotinylated oligonucleotides (VBC, Vienna, Austria) (Bxyn2p250f/r, see Table <xref ref-type="table" rid="T1">1</xref>) were annealed (95&#xB0;C, 5 min followed by a slow cool to 35&#xB0;C and then ice) and incubated with 200 &#x3BC;L &#x3BC;MACS Streptavidin Micro Beads (Miltenyi Biotec GmbH, Bergisch Gladbach, Germany) on ice for 15 min. Afterwards, 800 &#x3BC;L of binding mix (200 mM KCl, 200 ng/&#x3BC;L poly(dIdC), 200 ng/&#x3BC;L CKT067/CKT068, 8 mM Spermidine) and then 880 &#x3BC;L of cell-free extract protein were added and incubated on ice for 15 min first and then for 10 min. CKT067/CKT068 is a double-stranded DNA fragment used to titrate proteins that nonspecifically interact with DNA. This fragment and poly(dIdC) is used in a ten-fold excess of the specific probe [<xref ref-type="bibr" rid="B41">41</xref>]. Cell-free extracts were prepared as described previously [<xref ref-type="bibr" rid="B41">41</xref>]. Magnetic separation was performed according to the manufacturer's instructions after equilibration and subsequent saturation with CKT067/068 was achieved. Elution was performed with 150 &#x3BC;L of cold (room temperature) SDS loading buffer followed by 150 &#x3BC;L of hot (60 to 70&#xB0;C) SDS loading buffer. The eluate was placed on ice immediately.</p>
+      </sec>
+      <sec>
+        <title>Nano-HPLC-separation and identification of target proteins</title>
+        <p>Prior to MS analysis, reversed phase (RP) nano-HPLC separation of the eluted peptide mixtures from an in gel digest was performed. An UltiMate&#x2122;HPLC System equipped with a FAMOS autosampler, Switchos and UV detector (all Dionex, Sunnyvale, CA, US) was used. After concentration and desalting on a trapping column (Acclaim PepMap100 C18, 5 &#x3BC;m, 100 &#xC5;, 300 &#x3BC;m i.d. &#xD7; 5 mm, Dionex), peptides were separated on a PepMap 100 (C18) nanocolumn (Acclaim PepMap100 C18, 3 &#x3BC;m, 100 &#xC5; 75 &#x3BC;m i.d. &#xD7; 15 cm, Dionex) at a flow-rate of 275 nL/min. Peptides were eluted with a linear gradient from 0% to 50% B in 30 min formed by mixing the two solvents A (5% ACN, 0.1% FA) and B (80% ACN, 0.08% FA), followed by a high organic wash (4 min at 90% B). The quality of separation was monitored by UV absorption at 214 nm.</p>
+        <p>The outlet of the nano-HPLC system was directly coupled to a Thermo&#x2122;LTQ linear ion trap mass spectrometer (Thermo Electron Corp., Waltham, MA, US). Mass spectra were acquired in positive ionization mode. The applied method consisted of seven scans; the first was used to determine the precursor ions that were investigated in the following tandem mass scans by CAD (collisionally activated dissociation) fragmentation.</p>
+      </sec>
+      <sec>
+        <title>Database searching</title>
+        <p>Tandem mass spectra were extracted by extract-msn (Thermo). Charge state deconvolution and deisotoping were not performed. All MS/MS samples were analyzed using Mascot (Matrix Science, London, UK; version 2.2.04). Mascot was set up to search the treeseiV2_FrozenGeneCatalog20081022.proteins.fasta.gz database (unknown version, 9143 entries), using predictions for a trypsin digest. Mascot was searched with a fragment ion mass tolerance of 0.60 Da and a parent ion tolerance of 1.5 Da. The iodoacetamide derivative of cysteine was specified in Mascot as a fixed modification. S-carbamoylmethylcysteine cyclization of the N-terminus and methionine oxidation were specified in Mascot as variable modifications.</p>
+      </sec>
+      <sec>
+        <title>Criteria for protein identification</title>
+        <p>Scaffold (version Scaffold-01_07_00, Proteome Software Inc., Portland, OR) was used to validate MS/MS based peptide and protein identifications. Peptide identifications were accepted if they could be established at greater than 95.0% probability as specified by the Peptide Prophet algorithm [<xref ref-type="bibr" rid="B42">42</xref>]. Protein identifications were accepted if they could be established at greater than 99.0% probability and contained at least three identified peptides. Protein probabilities were assigned by the Protein Prophet algorithm [<xref ref-type="bibr" rid="B43">43</xref>]. Proteins that contained similar peptides and could not be differentiated based on MS/MS analysis alone were grouped to satisfy the principles of parsimony.</p>
+      </sec>
+      <sec>
+        <title>Vector construction</title>
+        <p>Vectors for expressing the DNA-binding domains (DBD) as GST fusion proteins were constructed as follows. PCR was used to amplify the DBD coding regions using 25 &#x3BC;l reaction-mixtures containing 1 &#xD7; buffer with MgCl<sub>2 </sub>(Fermentas), 0.1 &#x3BC;M forward primer, 0.1 &#x3BC;M reverse primer, 0.5 U High Fidelity DNA Polymerase (Fermentas), and genomic DNA as the template. Primer sequences (Exp2488F/R, Exp3151F/R, and Exp7236F/R) are given in Table <xref ref-type="table" rid="T1">1</xref>. The following PCR protocol was followed: 3 min initial denaturation at 95&#xB0;C, followed by 30 cycles of 15 s at 95&#xB0;C, 15 s at 59&#xB0;C, and 15 s at 72&#xB0;C. Derived amplicons (165 bp, 219 bp, and 258 bp) were inserted into plasmid pGEX-4T-2 (Amersham) via the restriction enzymes BamHI and XhoI to obtain p2488DBD, p3151DBD, and p7236DBD, respectively.</p>
+        <p>The plasmid for expressing the 2488prp full length protein as an <italic>in vitro </italic>translation product was constructed as follows. PCR was used to amplify full length cDNA as described above, but in this case, the template was a mixture of cDNAs obtained under repressing conditions (glucose). The primer sequences (fltn2488f/r) are given in Table <xref ref-type="table" rid="T1">1</xref>. The PCR protocol was as follows: 3 min initial denaturation at 95&#xB0;C, followed by 30 cycles of 15 s at 95&#xB0;C, 15 s at 59&#xB0;C, and 2 min at 72&#xB0;C. The derived amplicon (1,479 bp) was inserted into plasmid pTNT (Promega) via the restriction enzyme KpnI and NotI to obtain pMPF2488.</p>
+      </sec>
+      <sec>
+        <title>Purification of the DBDs of 2488prp, 3151prp, and 7236prp as GST fusion proteins</title>
+        <p>All heterologously expressed proteins used in this study were produced as GST fusions with the pGEX system (Amersham), following the manufacturer's guidelines and using the plasmids p2488DBD, p3151DBD, and p7236DBD as templates. Expression products purified via glutathione-sepharose-columns (Amersham) were verified by SDS-PAGE (using the Mini-PROTEAN System, Bio-Rad) followed by SYPRO Ruby (Bio-Rad) staining. Thrombin cleavage was performed for 1 h at 37&#xB0;C with 1 U of thrombin (Amersham), 150 mM NaCl, 2.5 mM CaCl<sub>2</sub>, and 25 mM Tris/HCl (pH 8) plus 20% Glycerin to remove the GST moiety.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>ARMA carried out the EMSAs, streptavidin affinity chromatography assays, transcript analyses, and drafted the manuscript. KGH carried out the Nano-HPLC/tandem MS-coupled detection and participated in the database search. MJPF carried out the vector construction and expression of GST fusion proteins. KM participated in the database search and data interpretation. RLM participated in the conception of the study and revised the manuscript. All authors read and approved the final manuscript</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1</title>
+          <p><bold>List of <italic>H. jecorina </italic>proteins identified by tandem MS analysis</bold>. The corresponding proteomic data are available at the publically available database <ext-link ext-link-type="uri" xlink:href="https://proteomecommons.org/">https://proteomecommons.org/</ext-link>.</p>
+        </caption>
+        <media xlink:href="1471-2164-11-644-S1.PDF" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S2">
+        <caption>
+          <title>Additional file 2</title>
+          <p><bold>Multiple sequence alignment of the <italic>H. jecorina </italic>2488prp with hypothetical proteins of other fungi, namely <italic>Nectria haematococca </italic>(GeneID: 9678588), <italic>Gibberella zeae </italic>(GeneID: 2791570), <italic>Neurospora crassa </italic>(GeneID: 3874038), <italic>Podospora anserina </italic>(GeneID: 6189947) <italic>Chaetomium globosum </italic>(GeneID: 4395593), <italic>Magnaporthe grisea </italic>(GeneID: 2675104)</bold>.</p>
+        </caption>
+        <media xlink:href="1471-2164-11-644-S2.PDF" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We wish to thank Alice Rassinger for experimental support.</p>
+      <p>This work was supported by a grant from the Austrian Science Fund (P 20192-B03) given to RLM and by the Austrian Proteomics Platform (APP) within the Austrian Genome Research Program (GEN-AU) given to KM, which is gratefully acknowledged. MJPF was supported by a post-doctoral fellowship from CAPES (Coordena&#xE7;&#xE3;o de Aperfei&#xE7;oamento de Pessoal de N&#xED;vel Superior) - Brazil, which is also gratefully acknowledged.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kuhls</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Lieckfeldt</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Samuels</surname>
+            <given-names>GJ</given-names>
+          </name>
+          <name>
+            <surname>Kovacs</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Meyer</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Petrini</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Gams</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Borner</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Kubicek</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Molecular evidence that the asexual industrial fungus <italic>Trichoderma reesei </italic>is a clonal derivative of the ascomycete <italic>Hypocrea jecorina</italic></article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <issue>15</issue>
+          <fpage>7755</fpage>
+          <lpage>7760</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.93.15.7755</pub-id>
+          <pub-id pub-id-type="pmid">8755548</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nidetzky</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Steiner</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Hayn</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Claeyssens</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Cellulose hydrolysis by the cellulases from <italic>Trichoderma reesei</italic>: a new model for synergistic interaction</article-title>
+          <source>Biochem J</source>
+          <year>1994</year>
+          <volume>298 Pt 3</volume>
+          <fpage>705</fpage>
+          <lpage>710</lpage>
+          <pub-id pub-id-type="pmid">8141786</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Woodward</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Lima</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>NE</given-names>
+          </name>
+          <article-title>The role of cellulase concentration in determining the degree of synergism in the hydrolysis of microcrystalline cellulose</article-title>
+          <source>Biochem J</source>
+          <year>1988</year>
+          <volume>255</volume>
+          <issue>3</issue>
+          <fpage>895</fpage>
+          <lpage>899</lpage>
+          <pub-id pub-id-type="pmid">3214429</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="other">
+          <name>
+            <surname>Ward</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Improving secreted Enzyme Production by <italic>Trichoderma reesei</italic></article-title>
+          <source>9th International Workshop on Trichoderma and Gliocladium: 2006; Vienna</source>
+          <year>2006</year>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Miettinen-Oinonen</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Suominen</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Enhanced production of <italic>Trichoderma reesei </italic>endoglucanases and use of the new cellulase preparations in producing the stonewashed effect on denim fabric</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2002</year>
+          <volume>68</volume>
+          <issue>8</issue>
+          <fpage>3956</fpage>
+          <lpage>3964</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.68.8.3956-3964.2002</pub-id>
+          <pub-id pub-id-type="pmid">12147496</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="other">
+          <name>
+            <surname>Harbord</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Simpson</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Wegstein</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Winery scale evaluation of macerating enzymes in grape processing</article-title>
+          <source>Wine industry J</source>
+          <year>1990</year>
+          <fpage>134</fpage>
+          <lpage>137</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Servili</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Begliomini</surname>
+            <given-names>AL</given-names>
+          </name>
+          <name>
+            <surname>Montedoro</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>Utilization of a yeast pectinase in olive oil extraction and red wine making processes</article-title>
+          <source>J Sci Food Agric</source>
+          <year>1992</year>
+          <volume>58</volume>
+          <fpage>253</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="doi">10.1002/jsfa.2740580214</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Walsh</surname>
+            <given-names>GA</given-names>
+          </name>
+          <name>
+            <surname>Power</surname>
+            <given-names>RF</given-names>
+          </name>
+          <name>
+            <surname>Headon</surname>
+            <given-names>DR</given-names>
+          </name>
+          <article-title>Enzymes in the animal-feed industry</article-title>
+          <source>Trends Biotechnol</source>
+          <year>1993</year>
+          <volume>11</volume>
+          <issue>10</issue>
+          <fpage>424</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="doi">10.1016/0167-7799(93)90006-U</pub-id>
+          <pub-id pub-id-type="pmid">7764415</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Oksanen</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Pere</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Paavilainen</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Buchert</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Viikari</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Treatment of recycled kraft pulps with <italic>Trichoderma reesei </italic>hemicellulases and cellulases</article-title>
+          <source>J Biotechnol</source>
+          <year>2000</year>
+          <volume>78</volume>
+          <issue>1</issue>
+          <fpage>39</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0168-1656(99)00232-1</pub-id>
+          <pub-id pub-id-type="pmid">10702909</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Teeri</surname>
+            <given-names>TT</given-names>
+          </name>
+          <name>
+            <surname>Penttil&#xE4;</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Ker&#xE4;nen</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Nevalainen</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Knowles</surname>
+            <given-names>JKC</given-names>
+          </name>
+          <source>Biotechnology of Filamentous Fungi: Technology and Products</source>
+          <year>1992</year>
+          <publisher-name>Boston, MA: Butterworth-Heinemann</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hahn-H&#xE4;gerdal</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Galbe</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Gorwa-Grauslund</surname>
+            <given-names>MF</given-names>
+          </name>
+          <name>
+            <surname>Liden</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Zacchi</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>Bio-ethanol--the fuel of tomorrow from the residues of today</article-title>
+          <source>Trends in biotechnology</source>
+          <year>2006</year>
+          <volume>24</volume>
+          <issue>12</issue>
+          <fpage>549</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibtech.2006.10.004</pub-id>
+          <pub-id pub-id-type="pmid">17050014</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Himmel</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Ding</surname>
+            <given-names>SY</given-names>
+          </name>
+          <name>
+            <surname>Johnson</surname>
+            <given-names>DK</given-names>
+          </name>
+          <name>
+            <surname>Adney</surname>
+            <given-names>WS</given-names>
+          </name>
+          <name>
+            <surname>Nimlos</surname>
+            <given-names>MR</given-names>
+          </name>
+          <name>
+            <surname>Brady</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Foust</surname>
+            <given-names>TD</given-names>
+          </name>
+          <article-title>Biomass recalcitrance: engineering plants and enzymes for biofuels production</article-title>
+          <source>Science (New York, NY</source>
+          <year>2007</year>
+          <volume>315</volume>
+          <issue>5813</issue>
+          <fpage>804</fpage>
+          <lpage>807</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ragauskas</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Williams</surname>
+            <given-names>CK</given-names>
+          </name>
+          <name>
+            <surname>Davison</surname>
+            <given-names>BH</given-names>
+          </name>
+          <name>
+            <surname>Britovsek</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Cairney</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Eckert</surname>
+            <given-names>CA</given-names>
+          </name>
+          <name>
+            <surname>Frederick</surname>
+            <given-names>WJ</given-names>
+          </name>
+          <name>
+            <surname>Hallett</surname>
+            <given-names>JP</given-names>
+          </name>
+          <name>
+            <surname>Leak</surname>
+            <given-names>DJ</given-names>
+          </name>
+          <name>
+            <surname>Liotta</surname>
+            <given-names>CL</given-names>
+          </name>
+          <etal/>
+          <article-title>The path forward for biofuels and biomaterials</article-title>
+          <source>Science (New York, NY</source>
+          <year>2006</year>
+          <volume>311</volume>
+          <issue>5760</issue>
+          <fpage>484</fpage>
+          <lpage>489</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Stricker</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Grosstessner-Hain</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>W&#xFC;rleitner</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <article-title>Xyr1 (xylanase regulator 1) regulates both the hydrolytic enzyme system and D-xylose metabolism in <italic>Hypocrea jecorina</italic></article-title>
+          <source>Eukaryot Cell</source>
+          <year>2006</year>
+          <volume>5</volume>
+          <issue>12</issue>
+          <fpage>2128</fpage>
+          <lpage>2137</lpage>
+          <pub-id pub-id-type="doi">10.1128/EC.00211-06</pub-id>
+          <pub-id pub-id-type="pmid">17056741</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Aro</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Saloheimo</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Ilmen</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Penttil&#xE4;</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>ACEII, a novel transcriptional activator involved in regulation of cellulase and xylanase genes of <italic>Trichoderma reesei</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <issue>26</issue>
+          <fpage>24309</fpage>
+          <lpage>24314</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M003624200</pub-id>
+          <pub-id pub-id-type="pmid">11304525</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Saloheimo</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Aro</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Ilmen</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Penttil&#xE4;</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Isolation of the <italic>ace1 </italic>gene encoding a Cys(2)-His(2) transcription factor involved in regulation of activity of the cellulase promoter <italic>cbh1 </italic>of <italic>Trichoderma reesei</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>2000</year>
+          <volume>275</volume>
+          <issue>8</issue>
+          <fpage>5817</fpage>
+          <lpage>5825</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.275.8.5817</pub-id>
+          <pub-id pub-id-type="pmid">10681571</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rauscher</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>W&#xFC;rleitner</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Wacenovsky</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Aro</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Stricker</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Zeilinger</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Kubicek</surname>
+            <given-names>CP</given-names>
+          </name>
+          <name>
+            <surname>Penttil&#xE4;</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <article-title>Transcriptional regulation of <italic>xyn1</italic>, encoding xylanase I, in <italic>Hypocrea jecorina</italic></article-title>
+          <source>Eukaryot Cell</source>
+          <year>2006</year>
+          <volume>5</volume>
+          <issue>3</issue>
+          <fpage>447</fpage>
+          <lpage>456</lpage>
+          <pub-id pub-id-type="doi">10.1128/EC.5.3.447-456.2006</pub-id>
+          <pub-id pub-id-type="pmid">16524900</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Stricker</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Trefflinger</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Aro</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Penttil&#xE4;</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <article-title>Role of Ace2 (Activator of Cellulases 2) within the <italic>xyn2 </italic>transcriptosome of <italic>Hypocrea jecorina</italic></article-title>
+          <source>Fungal Genet Biol</source>
+          <year>2008</year>
+          <volume>45</volume>
+          <issue>4</issue>
+          <fpage>436</fpage>
+          <lpage>445</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fgb.2007.08.005</pub-id>
+          <pub-id pub-id-type="pmid">17920314</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Strauss</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <name>
+            <surname>Zeilinger</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Hartler</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Stoffler</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Wolschek</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kubicek</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Cre1, the carbon catabolite repressor protein from <italic>Trichoderma reesei</italic></article-title>
+          <source>FEBS Lett</source>
+          <year>1995</year>
+          <volume>376</volume>
+          <issue>1-2</issue>
+          <fpage>103</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="doi">10.1016/0014-5793(95)01255-5</pub-id>
+          <pub-id pub-id-type="pmid">8521952</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ilmen</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Thrane</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Penttil&#xE4;</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The glucose repressor gene <italic>cre1 </italic>of <italic>Trichoderma</italic>: isolation and expression of a full-length and a truncated mutant form</article-title>
+          <source>Mol Gen Genet</source>
+          <year>1996</year>
+          <volume>251</volume>
+          <issue>4</issue>
+          <fpage>451</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="pmid">8709949</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <name>
+            <surname>Strauss</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Zeilinger</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Schindler</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kubicek</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Carbon catabolite repression of xylanase I (<italic>xyn1</italic>) gene expression in <italic>Trichoderma reesei</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>1996</year>
+          <volume>21</volume>
+          <issue>6</issue>
+          <fpage>1273</fpage>
+          <lpage>1281</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1996.00094.x</pub-id>
+          <pub-id pub-id-type="pmid">8898395</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>W&#xFC;rleitner</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Pera</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Wacenovsky</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Cziferszky</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Zeilinger</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Kubicek</surname>
+            <given-names>CP</given-names>
+          </name>
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <article-title>Transcriptional regulation of <italic>xyn2 </italic>in <italic>Hypocrea jecorina</italic></article-title>
+          <source>Eukaryot Cell</source>
+          <year>2003</year>
+          <volume>2</volume>
+          <issue>1</issue>
+          <fpage>150</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.1128/EC.2.1.150-158.2003</pub-id>
+          <pub-id pub-id-type="pmid">12582132</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Geyer</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Geyer</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Pingoud</surname>
+            <given-names>V</given-names>
+          </name>
+          <article-title>A novel strategy for the identification of protein-DNA contacts by photocrosslinking and mass spectrometry</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <issue>16</issue>
+          <fpage>e132</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gnh131</pub-id>
+          <pub-id pub-id-type="pmid">15383647</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liu</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Stormo</surname>
+            <given-names>GD</given-names>
+          </name>
+          <article-title>Combining SELEX with quantitative assays to rapidly obtain accurate models of protein-DNA interactions</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2005</year>
+          <volume>33</volume>
+          <issue>17</issue>
+          <fpage>e141</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gni139</pub-id>
+          <pub-id pub-id-type="pmid">16186128</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Djordjevic</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>SELEX experiments: new prospects, applications and data analysis in inferring regulatory pathways</article-title>
+          <source>Biomol Eng</source>
+          <year>2007</year>
+          <volume>24</volume>
+          <issue>2</issue>
+          <fpage>179</fpage>
+          <lpage>189</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bioeng.2007.03.001</pub-id>
+          <pub-id pub-id-type="pmid">17428731</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Samuel</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Twizere</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Bernstein</surname>
+            <given-names>LR</given-names>
+          </name>
+          <article-title>YB-1 represses AP1-dependent gene transactivation and interacts with an AP-1 DNA sequence</article-title>
+          <source>Biochem J</source>
+          <year>2005</year>
+          <volume>388</volume>
+          <issue>Pt 3</issue>
+          <fpage>921</fpage>
+          <lpage>928</lpage>
+          <pub-id pub-id-type="pmid">15702969</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Anthony-Cahill</surname>
+            <given-names>SJ</given-names>
+          </name>
+          <name>
+            <surname>Benfield</surname>
+            <given-names>PA</given-names>
+          </name>
+          <name>
+            <surname>Fairman</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Wasserman</surname>
+            <given-names>ZR</given-names>
+          </name>
+          <name>
+            <surname>Brenner</surname>
+            <given-names>SL</given-names>
+          </name>
+          <name>
+            <surname>Stafford</surname>
+            <given-names>WF</given-names>
+          </name>
+          <name>
+            <surname>Altenbach</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Hubbell</surname>
+            <given-names>WL</given-names>
+          </name>
+          <name>
+            <surname>DeGrado</surname>
+            <given-names>WF</given-names>
+          </name>
+          <article-title>Molecular characterization of helix-loop-helix peptides</article-title>
+          <source>Science</source>
+          <year>1992</year>
+          <volume>255</volume>
+          <issue>5047</issue>
+          <fpage>979</fpage>
+          <lpage>983</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1312255</pub-id>
+          <pub-id pub-id-type="pmid">1312255</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="other">
+          <name>
+            <surname>Marchler-Bauer</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Anderson</surname>
+            <given-names>JB</given-names>
+          </name>
+          <name>
+            <surname>Derbyshire</surname>
+            <given-names>MK</given-names>
+          </name>
+          <name>
+            <surname>DeWeese-Scott</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Gonzales</surname>
+            <given-names>NR</given-names>
+          </name>
+          <name>
+            <surname>Gwadz</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hao</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>He</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Hurwitz</surname>
+            <given-names>DI</given-names>
+          </name>
+          <name>
+            <surname>Jackson</surname>
+            <given-names>JD</given-names>
+          </name>
+          <etal/>
+          <article-title>CDD: a conserved domain database for interactive domain family analysis</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2007</year>
+          <issue>35 Database</issue>
+          <fpage>D237</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkl951</pub-id>
+          <pub-id pub-id-type="pmid">17135202</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ledent</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Vervoort</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The basic helix-loop-helix protein family: comparative genomics and phylogenetic analysis</article-title>
+          <source>Genome Res</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>754</fpage>
+          <lpage>770</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.177001</pub-id>
+          <pub-id pub-id-type="pmid">11337472</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chavali</surname>
+            <given-names>GB</given-names>
+          </name>
+          <name>
+            <surname>Vijayalakshmi</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Salunke</surname>
+            <given-names>DM</given-names>
+          </name>
+          <article-title>Analysis of sequence signature defining functional specificity and structural stability in helix-loop-helix proteins</article-title>
+          <source>Proteins</source>
+          <year>2001</year>
+          <volume>42</volume>
+          <issue>4</issue>
+          <fpage>471</fpage>
+          <lpage>480</lpage>
+          <pub-id pub-id-type="doi">10.1002/1097-0134(20010301)42:4&lt;471::AID-PROT60&gt;3.0.CO;2-P</pub-id>
+          <pub-id pub-id-type="pmid">11170202</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Stricker</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Steiger</surname>
+            <given-names>MG</given-names>
+          </name>
+          <name>
+            <surname>Mach</surname>
+            <given-names>RL</given-names>
+          </name>
+          <article-title>Xyr1 receives the lactose induction signal and regulates lactose metabolism in <italic>Hypocrea jecorina</italic></article-title>
+          <source>FEBS Lett</source>
+          <year>2007</year>
+          <volume>581</volume>
+          <issue>21</issue>
+          <fpage>3915</fpage>
+          <lpage>3920</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.febslet.2007.07.025</pub-id>
+          <pub-id pub-id-type="pmid">17662982</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lane</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Prentki</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Chandler</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Use of gel retardation to analyze protein-nucleic acid interactions</article-title>
+          <source>Microbiol Rev</source>
+          <year>1992</year>
+          <volume>56</volume>
+          <issue>4</issue>
+          <fpage>509</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="pmid">1480106</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Saluz</surname>
+            <given-names>HP</given-names>
+          </name>
+          <name>
+            <surname>Wiebauer</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Wallace</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Studying DNA modifications and DNA-protein interactions in vivo. A window onto the native genome</article-title>
+          <source>Trends Genet</source>
+          <year>1991</year>
+          <volume>7</volume>
+          <issue>7</issue>
+          <fpage>207</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="doi">10.1016/0168-9525(91)90366-X</pub-id>
+          <pub-id pub-id-type="pmid">1887501</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hornstra</surname>
+            <given-names>IK</given-names>
+          </name>
+          <name>
+            <surname>Yang</surname>
+            <given-names>TP</given-names>
+          </name>
+          <article-title>In vivo footprinting and genomic sequencing by ligation-mediated PCR</article-title>
+          <source>Anal Biochem</source>
+          <year>1993</year>
+          <volume>213</volume>
+          <issue>2</issue>
+          <fpage>179</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="doi">10.1006/abio.1993.1407</pub-id>
+          <pub-id pub-id-type="pmid">8238889</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Borensztajn</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Kotlar</surname>
+            <given-names>TJ</given-names>
+          </name>
+          <name>
+            <surname>Meredith</surname>
+            <given-names>SC</given-names>
+          </name>
+          <article-title>Fractionation of chylomicrons by heparin-sepharose chromatography. Characterization of two heparin-binding proteins</article-title>
+          <source>J Biol Chem</source>
+          <year>1985</year>
+          <volume>260</volume>
+          <issue>24</issue>
+          <fpage>13047</fpage>
+          <lpage>13052</lpage>
+          <pub-id pub-id-type="pmid">3932338</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Srivastava</surname>
+            <given-names>PN</given-names>
+          </name>
+          <name>
+            <surname>Farooqui</surname>
+            <given-names>AA</given-names>
+          </name>
+          <article-title>Heparin-sepharose affinity chromatography for purification of bull seminal-plasma hyaluronidase</article-title>
+          <source>Biochem J</source>
+          <year>1979</year>
+          <volume>183</volume>
+          <issue>3</issue>
+          <fpage>531</fpage>
+          <lpage>537</lpage>
+          <pub-id pub-id-type="pmid">540029</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wang</surname>
+            <given-names>MM</given-names>
+          </name>
+          <name>
+            <surname>Reed</surname>
+            <given-names>RR</given-names>
+          </name>
+          <article-title>Molecular cloning of the olfactory neuronal transcription factor Olf-1 by genetic selection in yeast</article-title>
+          <source>Nature</source>
+          <year>1993</year>
+          <volume>364</volume>
+          <issue>6433</issue>
+          <fpage>121</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1038/364121a0</pub-id>
+          <pub-id pub-id-type="pmid">8321284</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Deplancke</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Dupuy</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Vidal</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Walhout</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <article-title>A gateway-compatible yeast one-hybrid system</article-title>
+          <source>Genome Res</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <issue>10B</issue>
+          <fpage>2093</fpage>
+          <lpage>2101</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.2445504</pub-id>
+          <pub-id pub-id-type="pmid">15489331</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lopato</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Bazanova</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Morran</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Milligan</surname>
+            <given-names>AS</given-names>
+          </name>
+          <name>
+            <surname>Shirley</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Langridge</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Isolation of plant transcription factors using a modified yeast one-hybrid system</article-title>
+          <source>Plant Methods</source>
+          <year>2006</year>
+          <volume>2</volume>
+          <fpage>3</fpage>
+          <pub-id pub-id-type="doi">10.1186/1746-4811-2-3</pub-id>
+          <pub-id pub-id-type="pmid">16504065</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mandels</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Applications of cellulases</article-title>
+          <source>Biochem Soc Trans</source>
+          <year>1985</year>
+          <volume>13</volume>
+          <issue>2</issue>
+          <fpage>414</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="pmid">2991037</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Stangl</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Gruber</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Kubicek</surname>
+            <given-names>CP</given-names>
+          </name>
+          <article-title>Characterization of the <italic>Trichoderma reesei cbh2 </italic>promoter</article-title>
+          <source>Curr Genet</source>
+          <year>1993</year>
+          <volume>23</volume>
+          <issue>2</issue>
+          <fpage>115</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00352009</pub-id>
+          <pub-id pub-id-type="pmid">8431951</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Keller</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Nesvizhskii</surname>
+            <given-names>AI</given-names>
+          </name>
+          <name>
+            <surname>Kolker</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Aebersold</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search</article-title>
+          <source>Anal Chem</source>
+          <year>2002</year>
+          <volume>74</volume>
+          <issue>20</issue>
+          <fpage>5383</fpage>
+          <lpage>5392</lpage>
+          <pub-id pub-id-type="doi">10.1021/ac025747h</pub-id>
+          <pub-id pub-id-type="pmid">12403597</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nesvizhskii</surname>
+            <given-names>AI</given-names>
+          </name>
+          <name>
+            <surname>Keller</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Kolker</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Aebersold</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>A statistical model for identifying proteins by tandem mass spectrometry</article-title>
+          <source>Anal Chem</source>
+          <year>2003</year>
+          <volume>75</volume>
+          <issue>17</issue>
+          <fpage>4646</fpage>
+          <lpage>4658</lpage>
+          <pub-id pub-id-type="doi">10.1021/ac0341261</pub-id>
+          <pub-id pub-id-type="pmid">14632076</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

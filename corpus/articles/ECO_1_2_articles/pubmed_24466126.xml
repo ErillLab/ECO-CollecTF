@@ -1,0 +1,649 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24466126</article-id>
+      <article-id pub-id-type="pmc">3897727</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-28538</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0086507</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>DNA-binding proteins</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Applied Microbiology</subject>
+              <subject>Microbial Growth and Development</subject>
+              <subject>Microbial Physiology</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Cell Division</subject>
+              <subject>Cellular Stress Responses</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>IHF Is Required for the Transcriptional Regulation of the <italic>Desulfovibrio vulgaris</italic> Hildenborough <italic>orp</italic> Operons</article-title>
+        <alt-title alt-title-type="running-head">IHF Contribution to DvH <italic>orp</italic> Genes Regulation</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fi&#xE9;vet</surname>
+            <given-names>Anouchka</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cascales</surname>
+            <given-names>Eric</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Valette</surname>
+            <given-names>Odile</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dolla</surname>
+            <given-names>Alain</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aubert</surname>
+            <given-names>Corinne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Laboratoire de Chimie Bact&#xE9;rienne, Institut de Microbiologie de la M&#xE9;diterran&#xE9;e, CNRS, Marseille, France</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Laboratoire d&#x2019;Ing&#xE9;nierie des Syst&#xE8;mes Macromol&#xE9;culaires, Institut de Microbiologie de la M&#xE9;diterran&#xE9;e, CNRS, Marseille, France</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Leng</surname>
+            <given-names>Fenfei</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Florida International University, United States of America</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>aubert@imm.cnrs.fr</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>Co-author Eric Cascales is a PLOS ONE Editorial Board member. This does not alter the authors&#x2019; adherence to all the PLOS ONE policies on sharing data and materials.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: CA EC. Performed the experiments: AF EC OV. Analyzed the data: CA AF EC AD. Contributed reagents/materials/analysis tools: CA AF EC. Wrote the paper: CA EC AF.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>1</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>1</issue>
+      <elocation-id>e86507</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>7</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>12</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Fi&#xE9;vet et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Transcriptional activation of &#x3C3;<sup>54</sup>-dependent promoters is usually tightly regulated in response to environmental cues. The high abundance of potential &#x3C3;<sup>54</sup>-dependent promoters in the anaerobe bacteria, <italic>Desulfovibrio vulgaris</italic> Hildenborough, reflects the high versatility of this bacteria suggesting that &#x3C3;<sup>54</sup> factor is the nexus of a large regulatory network. Understanding the key players of &#x3C3;<sup>54</sup>-regulation in this organism is therefore essential to gain insights into the adaptation to anaerobiosis. Recently, the <italic>D. vulgaris orp</italic> genes, specifically found in anaerobe bacteria, have been shown to be transcribed by the RNA polymerase coupled to the &#x3C3;<sup>54</sup> alternative sigma factor. In this study, using <italic>in vitro</italic> binding experiments and <italic>in vivo</italic> reporter fusion assays in the <italic>Escherichia coli</italic> heterologous host, we showed that the expression of the divergent <italic>orp</italic> promoters is strongly dependent on the integration host factor IHF. Bioinformatic and mutational analysis coupled to reporter fusion activities and mobility shift assays identified two functional IHF binding site sequences located between the <italic>orp1</italic> and <italic>orp2</italic> promoters. We further determined that the <italic>D. vulgaris</italic> DVU0396 (IHF&#x3B1;) and DVU1864 (IHF&#x3B2;) subunits are required to control the expression of the <italic>orp</italic> operons suggesting that they form a functionally active IHF heterodimer. Interestingly results obtained from the <italic>in vivo</italic> inactivation of DVU0396, which is required for <italic>orp</italic> operons transcription, suggest that several functionally IHF active homodimer or heterodimer are present in <italic>D. vulgaris</italic>.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>The Agence nationale de la recherche ANR (ANR-12-ISV8-0003-01) funds this research project. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="9"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Desulfovibrio vulgaris</italic> Hildenborough (DvH) is a well-studied sulfate-reducing bacteria (SRB). It is the first SRB for which the genome has been sequenced <xref ref-type="bibr" rid="pone.0086507-Heidelberg1">[1]</xref> and genetics and cellular tools have been recently developed <xref ref-type="bibr" rid="pone.0086507-Zhou1">[2]</xref>. It is an anaerobic microorganism that exhibits a mode of growth based on the reduction of sulphate as a terminal acceptor and thus is directly linked to natural global sulphur and carbon cycles <xref ref-type="bibr" rid="pone.0086507-Hansen1">[3]</xref>. These microorganisms have particularly important applications in biotechnology as they are involved in toxic heavy metal bioremediation, hydrogen sulfur decontamination in wastewater and biocorrosion <xref ref-type="bibr" rid="pone.0086507-Muyzer1">[4]</xref>. Although SRBs are ubiquitous in anoxic habitats, they are found in a wide variety of ecological niches as illustrated by their metabolic versatility. Such environmental adaptations require stimuli perception and the subsequent modulation of the expression of relevant genes to optimize metabolism and physiology. Indeed, an unusually large number of response regulators are encoded within the DvH chromosome. Interestingly, 70 potential &#x3C3;<sup>54</sup> promoters have been identified by computational prediction <xref ref-type="bibr" rid="pone.0086507-Chhabra1">[5]</xref>, <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref> suggesting that &#x3C3;<sup>54</sup> factor is the nexus of a large regulatory network in DvH. The alternative &#x3C3;<sup>54</sup> factor associates with the RNA polymerase holoenzyme to target specific genes. However, to proceed to transcription, the &#x3C3;<sup>54</sup>-RNA polymerase complex requires the action of enhancer binding proteins (EBPs). EBPs usually bind to regulatory sequences upstream the &#x3C3;<sup>54</sup>-dependent promoter <xref ref-type="bibr" rid="pone.0086507-Propham1">[7]</xref>, <xref ref-type="bibr" rid="pone.0086507-SasseDwight1">[8]</xref>, <xref ref-type="bibr" rid="pone.0086507-Studhome1">[9]</xref>, <xref ref-type="bibr" rid="pone.0086507-Wedel1">[10]</xref>. Efficient and functional interaction of &#x3C3;<sup>54</sup>-RNA polymerase with a cognate EBP requires DNA bending, which is often facilitated by the integration host factor (IHF) protein, especially for promoters that lack flexible intrinsic bends <xref ref-type="bibr" rid="pone.0086507-Swinger1">[11]</xref>, <xref ref-type="bibr" rid="pone.0086507-Rice1">[12]</xref>, <xref ref-type="bibr" rid="pone.0086507-deLorenzo1">[13]</xref>, <xref ref-type="bibr" rid="pone.0086507-Bertoni1">[14]</xref>, <xref ref-type="bibr" rid="pone.0086507-Shingler1">[15]</xref>. In some cases, IHF has also been shown to recruit the &#x3C3;<sup>54</sup>-RNA polymerase to its promoter <xref ref-type="bibr" rid="pone.0086507-Bertoni1">[14]</xref>. IHF is involved in many cellular processes correlated with DNA functions such as replication, transcription, partitioning, transfer and packaging into phage particles <xref ref-type="bibr" rid="pone.0086507-Swinger1">[11]</xref>, <xref ref-type="bibr" rid="pone.0086507-Nash1">[16]</xref>, <xref ref-type="bibr" rid="pone.0086507-Dorman1">[17]</xref>. Aside its role in specific transcriptional activation of &#x3C3;<sup>54</sup> promoters, IHF contributes to a wide variety of macromolecular processes and is recognized, with CRP, FNR, FIS, ArcA, Lrp and H-NS, as one of the seven global regulators in <italic>Escherichia coli</italic>
+<xref ref-type="bibr" rid="pone.0086507-Arfin1">[18]</xref>, <xref ref-type="bibr" rid="pone.0086507-MartnezAntonio1">[19]</xref>. HU, H-NS, FIS and IHF are basic proteins involved in the organization of the DNA nucleoid architecture and are therefore considered as histone-like proteins <xref ref-type="bibr" rid="pone.0086507-Schmid1">[20]</xref>. In <italic>E. coli</italic> and related bacteria, IHF is a 20-kDa protein composed of two subunits, &#x3B1; and &#x3B2;. Although the &#x3B1;&#x3B2; heterodimer is the predominant active form, the &#x3B1;&#x3B1; and &#x3B2;&#x3B2; homodimers might be biologically active <xref ref-type="bibr" rid="pone.0086507-Werner1">[21]</xref>, <xref ref-type="bibr" rid="pone.0086507-Zulianello1">[22]</xref>, <xref ref-type="bibr" rid="pone.0086507-Zablewska1">[23]</xref>, <xref ref-type="bibr" rid="pone.0086507-HiszczyskaSawicka1">[24]</xref>.</p>
+      <p>In addition to the 70 putative &#x3C3;<sup>54</sup>-dependent promoters, DvH genome analyses revealed the presence of 37 putative &#x3C3;<sup>54</sup>-associated EBPs and several genes encoding IHF&#x3B1; and IHF&#x3B2; subunits <xref ref-type="bibr" rid="pone.0086507-Hemme1">[25]</xref>. To date, little is known about the specific roles of &#x3C3;<sup>54</sup>, the cognate EBPs and IHF in SRBs. Elucidation of their functions is thus essential to generate predictive model of the adaptation, stress responses of SRBs to environmental factors, and to develop effective SRB-based biotechnologies. In a recent study, we examined the function of the &#x3C3;<sup>54</sup>-dependent transcriptional regulator DVU2106 in the regulation of the divergent <italic>orp</italic> operons in DvH, which encode proteins putatively involved in positioning the septum in cell division <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>. We showed that this EBP collaborates with the &#x3C3;<sup>54</sup>-RNA polymerase to orchestrate the simultaneous expression of the <italic>orp</italic> genes cluster <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>. Here, we tested the contribution of IHF to this regulatory mechanism. In a reconstitution assay into the heterologous host <italic>E. coli</italic>, we found that IHF is required for efficient DVU2106-dependent activation of the &#x3C3;<sup>54</sup>
+<italic>orp</italic> promoters. Using electrophoretic mobility gel shift assays, the purified <italic>E. coli</italic> IHF protein was shown to bind to the <italic>orp</italic> promoters. We further localized IHF recognition sites between the &#x3C3;<sup>54</sup>- and DVU2106-binding sequences and determined which of the three potential IHF binding sites were of physiological relevance using site-directed mutagenesis, reporter fusion activity and <italic>in vitro</italic> gel shifts. We identified DVU0396 (IHF&#x3B1;) and DVU1864 (IHF&#x3B2;) subunits from DvH as the heterodimer functionally active to complement the transcription of <italic>orp</italic> operons in the IHF-deficient <italic>E. coli</italic> strain. Finally, we tested the role of the IHF&#x3B1; subunit on the transcription of the <italic>orp</italic> operons in DvH.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Bacterial Strains, Plasmids, Oligonucleotides and Growth Conditions</title>
+        <p>The bacterial strains and plasmids used in this study are listed in the <xref ref-type="supplementary-material" rid="pone.0086507.s005">Table S1</xref>. Custom oligonucleotides are listed in the <xref ref-type="supplementary-material" rid="pone.0086507.s006">Table S2</xref>. <italic>E. coli</italic> strains were routinely grown at 37&#xB0;C in Luria-Bertani (LB) medium supplemented with the appropriate antibiotic when required (0.27 mM for ampicillin, 0.15 mM for chloramphenicol and 0.20 mM for kanamycin). Cultures of DvH were prepared in Postgate C medium <xref ref-type="bibr" rid="pone.0086507-Postgate1">[26]</xref> supplemented with 0.17 mM of kanamycin or 0.15 mM of thiamphenicol at 33&#xB0;C in anaerobic conditions.</p>
+      </sec>
+      <sec id="s2b">
+        <title>DNA Manipulations</title>
+        <p>Standard protocols were used for cloning and transformations. All restriction endonucleases and DNA modification enzymes were purchased from New England Biolabs. For electrophoretic mobility shift assay, PCRs were performed using the Expand High Fidelity (Roche Diagnostics). Site-directed mutagenesis was performed using the PfuTurbo&#xAE; or the PfuUltra&#x2122; High Fidelity DNA polymerases (Stratagene). Chromosomal DNA was purified using the Wizard Genomic DNA purification kit (Promega). Plasmid DNA was purified using the High Pure Isolation Plasmid Kit (Roche Diagnostics). PCR products and plasmid fragments were purified using MinElute kits (Qiagen).</p>
+      </sec>
+      <sec id="s2c">
+        <title>IHF Binding Site Directed Mutagenesis</title>
+        <p>Site-directed mutagenesis was performed using plasmids pT7.5-<italic>porp2::lacZ</italic>, pT7.5-<italic>pDVU2106::lacZ</italic> and pT7.5-<italic>porp1::lacZ</italic> as templates <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref> and specific oligonucleotides carrying mismatches within the putative IHF binding sites. Oligonucleotide pairs 2105IHFmut-dir/2105IHFmut-rev, 2107IHFmut1-dir/2107IHFmut1-rev and 2107IHFmut2-dir/2107IHFmut2-rev were respectively used to modify the IHF binding sequences of the <italic>orp2</italic> promoter (<named-content content-type="gene">5&#x2032;-AAGATGTTTGATT</named-content> to <named-content content-type="gene">5&#x2032;-CCGATGTTTGGGT</named-content>), the IHF binding sites 1 (<named-content content-type="gene">5&#x2032;-AATCAGAATAAAA</named-content> to <named-content content-type="gene">5&#x2032;-GGGCAGAATACCC</named-content>) and 2 (<named-content content-type="gene">5&#x2032;-CATCACAAGCTCG</named-content> to <named-content content-type="gene">5&#x2032;-CGGGACAAGCCCC</named-content>) of the <italic>orp1</italic> promoter. After PCR amplification of the whole plasmids, the methylated templates were eliminated by <italic>Dpn</italic>I digestion and mutated plasmids were recovered by transformation into <italic>E. coli</italic> DH5&#x3B1; competent cells. The accuracy of the mutagenesis has been verified by DNA sequencing.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Expression Plasmids</title>
+        <p>For plasmids producing DvH IHF&#x3B1;, IHF&#x3B2; and IHF&#x3B1;+&#x3B2;, the strong and constitutive <italic>lpp</italic> promoter was PCR amplified from <italic>E. coli</italic> K12 genomic DNA and cloned into the pOK12-2106 vector <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref> downstream the <italic>DVU2106</italic> gene using the unique <italic>EcoR</italic>I and <italic>Nde</italic>I restriction sites, yielding pOK12-2106-lpp. The IHF&#x3B1;-encoding <italic>DVU0396</italic> or IHF&#x3B2;-encoding <italic>DVU1864</italic> genes were PCR-amplified from DvH genomic DNA and cloned downstream the <italic>lpp</italic> promoter in pOK12-2106-lpp using the unique <italic>Nde</italic>I and <italic>Not</italic>I restriction sites to yield pOK12-2106-lpp-0386 and pOK12-2106-lpp-1864 respectively. For construction of the plasmid carrying both genes, <italic>DVU0396</italic> was PCR-amplified and cloned downstream DVU1864 using the <italic>Not</italic>I restriction site resulting in pOK12-2106-lpp-1864-0396.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Strain Construction</title>
+        <p>The W3110 &#x394;<italic>lacZ</italic> &#x394;<italic>ihfA E. coli</italic> strain was constructed by P1 transduction from the BW25113 <italic>ihfA::kan<sup>R</sup></italic> strain from the KEIO collection <xref ref-type="bibr" rid="pone.0086507-Baba1">[27]</xref> and cassette excision using pCP20 as previously described <xref ref-type="bibr" rid="pone.0086507-Datsenko1">[28]</xref> using W3110 &#x394;<italic>lacZ</italic> as recipient <xref ref-type="bibr" rid="pone.0086507-Bernard1">[29]</xref>. The DvH &#x394;<italic>ihf</italic>&#x3B1; mutant strain was constructed using previously described protocols <xref ref-type="bibr" rid="pone.0086507-Dolla1">[30]</xref>, <xref ref-type="bibr" rid="pone.0086507-Fournier1">[31]</xref>. Briefly, the 455-pb fragment upstream the <italic>DVU0396</italic> gene was PCR-amplified using oligonucleotides DVU0395AscI_dir and CterDVU0395-SpeI and cloned into the <italic>Asc</italic>I and <italic>Spe</italic>I sites of plasmid pDel. The 460-pb fragment downstream <italic>DVU0396</italic> was PCR-amplified using oligonucleotides DVU0396MfeI_dir and DVU0396BglII_rev and cloned into <italic>Mfe</italic>I and <italic>Bgl</italic>II sites of the plasmid previously constructed to yield pDel<italic>ihf</italic>&#x3B1;. The accuracy of the cloned fragments was verified by restriction and DNA sequencing. The pDel<italic>ihf</italic>&#x3B1; plasmid was transferred into DvH cells by electroporation as following: DvH cells grown in PC medium were harvested at early stationary phase (OD<sub>600</sub>&#x223C;0.8&#x2013;1) and washed twice with cold and degassed sterile MilliQ-water. Approximately 500 ng of the pDel<italic>ihf</italic>&#x3B1; plasmid were electroporated with a single 1.9 KV, 25 &#xB5;F and 250 &#x3A9; pulse into DvH competent cells in BTX 1-mm gapped cuvette using a BTX Harvard Electro Cell Manipulator&#xAE; ECM630 apparatus. Cells were recovered in 30 ml of PC medium, and the culture was supplemented with 20 &#xB5;g/ml of thiamphenicol after 6 hours of incubation at 33&#xB0;C. After 7 days of culture in the same conditions, the culture was diluted in PC medium supplemented with thiamphenicol. After three rounds of culture and dilution, individual colonies were recovered by plating on PE medium supplemented with thiamphenicol. The deletion of the <italic>ihf</italic>&#x3B1; gene was verified by colony-PCR.</p>
+      </sec>
+      <sec id="s2f">
+        <title>RNA Preparation</title>
+        <p>DvH was grown in three 80-ml independent cultures of DvH to an OD<sub>595</sub>&#x223C;0.4. The cells were harvested and resuspended in 200 &#xB5;l of 10 mM Tris pH8. RNA was prepared by using the High Pure RNA kit (Roche Diagnostics) according to the manufacturer&#x2019;s instructions with an additional DNase I digestion step.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Real-time Quantitative PCR</title>
+        <p>10 &#xB5;g of total extracted RNA were reverse transcribed by using random hexamers to yield cDNA. Real-time PCR was performed on a LightCyclerFastStart DNA Master<sup>PLUS</sup> SYBR Green I Kit (Roche Diagnostics). cDNA was mixed with 0.25 &#xB5;M of each primer and 2 &#xB5;l of master mix in a 10 &#xB5;l final volume. The primers pairs used to quantify the expression levels of the selected genes are shown in <xref ref-type="supplementary-material" rid="pone.0086507.s006">Table S2</xref>. PCR amplifications were carried out with one cycle at 95&#xB0;C for 8 min, followed by up to 45 cycles at 95&#xB0;C for 12 s, 60&#xB0;C for 6 s and 72&#xB0;C for 20 s. The specificities of accumulated products were verified by melting-curve analysis. The fluorescence derived from the incorporation of SYBR Green I into the double-stranded PCR products was measured at the end of each cycle to determine the amplification kinetics of each product. The fit points method described by the manufacturer was then applied to the results. Briefly, a horizontal noise band was determined as well as a log line fitting the exponential portion of the amplification curve. The intersections of these log lines with the horizontal noise lines identified the crossing points. These crossing points were determined for each gene in three conditions. Relative Expression Software Tool (REST) was used to calculate the relative expression of each gene in each condition using the 16S RNA gene as reference for normalization.</p>
+      </sec>
+      <sec id="s2h">
+        <title>&#x3B2;-galactosidase Assay</title>
+        <p>The activity of the &#x3B2;-galactosidase reporter was measured from mid-exponential growth phase cultures (OD<sub>600</sub>&#x223C;0.8) as previously described <xref ref-type="bibr" rid="pone.0086507-Miller1">[32]</xref>. Each enzymatic assay was performed in triplicate with three independent biological samples. The values are reported as the average of these nine measurements.</p>
+      </sec>
+      <sec id="s2i">
+        <title>Purification of the <italic>E. coli</italic> IHF Heterodimer</title>
+        <p><italic>E. coli</italic> MC4100 pTrc-IHF <xref ref-type="bibr" rid="pone.0086507-Murtin1">[33]</xref> was grown overnight in 10 ml of LB supplemented with kanamycin at 37&#xB0;C with shaking and used to inoculate 1 liter of LB. This culture was grown until the OD<sub>600</sub> reached 0.6, and 1 mM of IPTG was then added. After 3H of induction, the <italic>E.coli</italic> IHF heterodimer was extracted as described <xref ref-type="bibr" rid="pone.0086507-Murtin1">[33]</xref>. Briefly, cells were washed with 40 ml of Buffer E (25 mM Tris-HCl pH7.4, 1 mM EDTA, 3 mM &#x3B2;-mercaptoethanol, 100 mM NaCl, 1 mM PMSF and 10% glycerol). After centrifugation, cells were resuspended in 10 ml of Buffer E supplemented with DNase. Cells were broken by 3 passages in French-press and centrifugated at 45000 rpm during 1 H at 4&#xB0;C. IHF heterodimer was then purified by two consecutive steps: immobilization onto a HiTrap Heparin HP column equilibrated in Buffer E and elution with a step gradient of KCl (0.2 M&#x2013;2 M). The fractions containing IHF (0.8 to 1.2 M KCl) were pooled and diluted in Buffer A (25 mM Tris-HCl pH7.4, 1 mM EDTA, 3 mM &#x3B2;-mercaptoethanol and 10% of glycerol) to obtain a final KCl concentration of 100 mM, immobilized onto a HiTrap SP FF column and eluted with a step gradient of KCl. The fractions containing the IHF heterodimer (500&#x2013;600 mM of KCl) were pooled and the buffer was exchanged against Buffer A. The final concentration of IHF was &#x223C;1.5 mg/ml.</p>
+      </sec>
+      <sec id="s2j">
+        <title>Electrophoretic Mobility Shift Assay (EMSA)</title>
+        <p><sup>32</sup>P-labeled probes were obtained by PCR amplification using a dNTP mix supplemented with [&#x3B1;-<sup>32</sup>P]-deoxyadenosine triphosphate and plasmid DNA as template. Labeled probes were column-purified to remove radioactive nucleotides (PCR Clean-up, Promega). For gel shift experiments, <sup>32</sup>P-labeled probes were mixed with different concentration of purified IHF in a binding reaction mixture containing sonicated salmon sperm DNA (10 &#xB5;g/mL [UltraPure&#x2122;, Invitrogen]) and Bovine Serum Albumine (200 &#xB5;g/mL [Fraction V, Sigma Aldrich]) in 40 mM Tris-HCl pH7.5, 50 mM NaCl, 40 mM NH<sub>4</sub>Cl, 5 mM MgCl<sub>2</sub>, 1 mM CaCl2, 8% glycerol, and 1 mM dithiothreitol (DTT). After incubation during 20 min at room temperature, DNA and DNA complexes were separated on a prerun 5,5% polyacrylamide (acrylamide:bis-acrylamide 29&#x2236;1) gel supplemented with 10% triethylene glycol <xref ref-type="bibr" rid="pone.0086507-Sidorova1">[34]</xref> in Tris-Borate buffer. Gels were fixed in 10% trichloroacetic acid for 10 min and exposed to Kodak BioMax MR films.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>IHF is Required for <italic>orp1</italic> and <italic>orp2</italic> Transcription</title>
+        <p>It was previously shown that the two divergent <italic>orp</italic> operons require the &#x3C3;<sup>54</sup> RNA polymerase and the cognate transcriptional EBP, DVU2106, to achieve transcription <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>. It is well described that DNA bending allowing contacts between the cognate activator and &#x3C3;<sup>54</sup>-RNA polymerase to activate transcription is usually facilitated by the heterodimeric IHF protein. To test the contribution of IHF to the expression of these genes, the previously described <italic>orp1</italic>, <italic>orp2</italic> and <italic>DVU2106</italic> promoter-<italic>lacZ</italic> transcription fusions were introduced into the heterologous host <italic>E. coli</italic>. Expression of these promoter-<italic>lacZ</italic> fusions were examined in both IHF-proficient (wild-type) and IHF-deficient (&#x394;<italic>ihfA</italic>) strains that produced the transcriptional regulator DVU2106 from a compatible multicopy plasmid (<xref ref-type="fig" rid="pone-0086507-g001">Figure 1A&#x2013;D</xref>). The expression of <italic>DVU2106</italic>, controlled by the &#x3C3;<sup>70</sup>-RNA polymerase, was not influenced by the absence of IHF (<xref ref-type="fig" rid="pone-0086507-g001">Figure 1C</xref>). By contrast, the activities of the <italic>orp1</italic> and <italic>orp2</italic> promoters, under the control of the &#x3C3;<sup>54</sup>-RNA polymerase, were significantly affected by the absence of IHF as the <italic>orp1&#x2019;::lacZ</italic> and <italic>orp2&#x2019;::lacZ</italic> expression levels decreased 10&#x2013;12 fold compared to the wild-type strain producing IHF (<xref ref-type="fig" rid="pone-0086507-g001">Figure 1B and 1D</xref>). These results show that the <italic>E. coli</italic> IHF heterodimer can activate <italic>orp</italic> operons transcription and that IHF is required for the expression of these &#x3C3;<sup>54</sup>-dependent operons.</p>
+        <fig id="pone-0086507-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>IHF is involved in the transcriptional activation of both operons <italic>orp1</italic> and <italic>orp2</italic>.</title>
+            <p>(A) Schematic representation of the transcriptional elements of promoter regions of <italic>orp1</italic>, <italic>DVU2106</italic> and <italic>orp2</italic>. The positions of the &#x3C3;<sup>54</sup> and &#x3C3;<sup>70</sup> promoters are indicated by bent arrows and the DVU2106-binding sites are indicated by solid line boxes. The <italic>lac</italic>Z reporter fusions with the promoter regions of <italic>orp1</italic> (B), <italic>DVU2106</italic> (C) and <italic>orp2</italic> (D) are represented on the left. The transcript start sites are indicated by bent arrows. The positions of the &#x2212;10 and &#x2212;35 sequences of the &#x3C3;<sup>70</sup> promoter and the &#x2212;12 and &#x2212;24 sequences of the &#x3C3;<sup>54</sup> promoters are indicated by black rectangles. The activities measured in various backgrounds are shown on the right: <italic>E.coli</italic> wild-type strain (dark-grey) and <italic>E.coli &#x394;ihfA</italic> strain (light-grey). The activity is the average of three independent measurements (the error bars show the standard deviations).</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g001"/>
+        </fig>
+      </sec>
+      <sec id="s3b">
+        <title>The <italic>E. coli</italic> IHF Protein Binds to the Promoter Regions of <italic>orp1</italic> and <italic>orp2</italic></title>
+        <p>To address whether IHF can bind to these promoters, we carried out electrophoretic mobility shift assays (EMSA). <sup>32</sup>P-labeled <italic>orp1</italic> and <italic>orp2</italic> promoter fragments were incubated with increasing concentrations of purified <italic>E. coli</italic> IHF heterodimers. As shown in <xref ref-type="fig" rid="pone-0086507-g002">Figure 2</xref>, the two DNA fragments were specifically retarded in presence of &#x2265;4 nM of IHF. These data demonstrate that the IHF protein interacts with the promoter regions of the <italic>orp1</italic> and <italic>orp2</italic> operons.</p>
+        <fig id="pone-0086507-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>The integrator Host Factor (IHF) interacts with the promoter regions of <italic>orp1</italic> and <italic>orp2</italic>.</title>
+            <p>Shown is the gel shift assay of the promoter regions of <italic>orp1</italic> (A) and <italic>orp2</italic> (B) using purified <italic>E.coli</italic> IHF heterodimer (lane 1, no protein; lane 2, 4 nM; lane 3, 8 nM; lane 4, 12 nM; lane 5, 16 nM).</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g002"/>
+        </fig>
+      </sec>
+      <sec id="s3c">
+        <title>Identification of the Functional IHF Binding Sites</title>
+        <p><italic>In silico</italic> analyses of the intergenic region of the <italic>orp</italic> cluster using the Virtual Footprint program (<ext-link ext-link-type="uri" xlink:href="http://prodoric.tu-bs.de/vfp/vfp_promoter.php">http://prodoric.tu-bs.de/vfp/vfp_promoter.php</ext-link>) suggested the presence of two potential IHF binding sites within the <italic>orp1</italic> promoter (called hereafter IHF1 and IHF2) located at positions &#x2212;42 and &#x2212;79, respectively, from the transcriptional start site of <italic>orp1</italic> (<xref ref-type="fig" rid="pone-0086507-g003">Figures 3</xref> and <xref ref-type="supplementary-material" rid="pone.0086507.s001">S1</xref>) and one potential binding site for IHF within the <italic>orp2</italic> promoter, located at position &#x2212;43 from the transcriptional start site of <italic>orp2</italic> (<xref ref-type="fig" rid="pone-0086507-g003">Figures 3</xref> and <xref ref-type="supplementary-material" rid="pone.0086507.s001">S1</xref>). The <italic>orp1</italic> IHF1 site (<bold><named-content content-type="gene">AATCAG</named-content></bold><named-content content-type="gene">AATAA<bold>A</bold></named-content><bold>)</bold> [conserved nucleotides are in bold]) has 78% similarity with the reported <italic>E. coli</italic> consensus sequence with the conserved nucleotides mainly located at the 5&#x2032; extremity of the sequence whereas the <italic>orp1</italic> IHF2 site (<named-content content-type="gene">C<bold>ATCA</bold>CAAGC<bold>T</bold>C<bold>G</bold></named-content>) shares less similarity (67%) but better distributed throughout the sequence (<xref ref-type="supplementary-material" rid="pone.0086507.s001">Figures S1</xref> and <xref ref-type="supplementary-material" rid="pone.0086507.s003">S3</xref>). The <italic>orp2</italic> potential IHF site (<bold><named-content content-type="gene">AATCAA</named-content></bold><named-content content-type="gene">ACATC<bold>T</bold>T</named-content>) has 78% similarity with the reported <italic>E. coli</italic> consensus sequence. Regarding the relative position of these IHF binding sites compared to those of &#x3C3;<sup>54</sup> and of DVU2106, the <italic>orp1</italic> IHF1 (&#x2212;42) and IHF2 (&#x2212;79) sites are located upstream the &#x3C3;<sup>54</sup>-binding sequence (position &#x2212;13) and downstream the EBP binding site (position &#x2212;131) (<xref ref-type="supplementary-material" rid="pone.0086507.s001">Figure S1</xref>). The <italic>orp2</italic> IHF binding site (&#x2212;43) is located upstream the &#x3C3;<sup>54</sup>-binding sequence (position &#x2212;11) and downstream the EBP binding site (position &#x2212;88) (<xref ref-type="supplementary-material" rid="pone.0086507.s001">Figure S1</xref>). Therefore, the locations of the three potential IHF binding sites are centred between &#x3C3;<sup>54</sup>- and DVU2106-binding sequences.</p>
+        <fig id="pone-0086507-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Sequence analyses of the <italic>orp1</italic> and <italic>orp2</italic> promoter regions.</title>
+            <p>(A) The &#x3C3;<sup>54</sup> and &#x3C3;<sup>70</sup> promoters of the ORP system are indicated by bent arrows. The solid-line boxes indicate the palindromic DVU2106-binding sites. The dashed boxes represent the three putative IHF-binding sequences identified by comparison to the consensus sequence of the <italic>E.coli</italic> IHF-binding site (5&#x2032;-WATCARxxxxTTR-3&#x2032;). (B) DNA sequence alignment between the consensus sequence of <italic>E.coli</italic> IHF-binding site and each putative IHF-binding sequence of <italic>orp1</italic> and <italic>orp2</italic> promoter regions. The sequence identity between the consensus sequence of the <italic>E.coli</italic> IHF-binding site and the different <italic>orp</italic> putative IHF-binding site are indicated in bold.</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g003"/>
+        </fig>
+        <p>To determine the contribution of these IHF binding sites to the transcriptional activities of the <italic>orp1</italic> and <italic>orp2</italic> promoters, each of these consensus sites was altered by generating mutations at bases previously reported to be necessary for IHF binding <xref ref-type="bibr" rid="pone.0086507-Hales1">[35]</xref> yielding <italic>orp1</italic> IHF1-mut, <italic>orp1</italic> IHF2-mut and <italic>orp2</italic>-IHF-mut and DVU2106-IHF-mut (<italic>DVU2106</italic> promoter region in which <italic>orp2</italic> IHF site was mutated) (<xref ref-type="supplementary-material" rid="pone.0086507.s002">Figure S2</xref>). These mutations were introduced into plasmids carrying promoters-<italic>lacZ</italic> transcription fusions. As done previously, expression of the wild-type and mutated promoter-<italic>lacZ</italic> fusions were compared in the IHF-proficient (wild-type) and IHF-deficient (&#x394;<italic>ihfA</italic>) strains that produced the transcriptional regulator DVU2106 from a compatible multicopy plasmid. The accumulation of &#x3B2;-galactosidase was measured and reported in <xref ref-type="fig" rid="pone-0086507-g004">Figure 4</xref>. The expression of <italic>orp1</italic> was not significantly affected by the mutation within the IHF1 site, as 98% of the &#x3B2;-galactosidase activity was retained compared to the IHF proficient strain with native <italic>orp1&#x2019;::lacZ</italic> fusion (<xref ref-type="fig" rid="pone-0086507-g004">Figure 4A</xref>). By contrast, the &#x3B2;-galactosidase activity decreased to 8% of the activity of the wild-type promoter when the IHF2 site was altered (<xref ref-type="fig" rid="pone-0086507-g004">Figure 4B</xref>), a value similar to that of the wild-type reporter fusion in an IHF-deficient strain (compare <xref ref-type="fig" rid="pone-0086507-g004">Fig. 4B</xref> and <xref ref-type="fig" rid="pone-0086507-g001">Fig. 1B</xref>). When both sites were altered, the residual activity of the <italic>orp1</italic> promoter was comparable to that observed with the single IHF2 site mutation (<xref ref-type="fig" rid="pone-0086507-g004">Figure 4C</xref>). Regarding the expression from the <italic>orp2</italic> promoter, mutation of the potential IHF site led to a 10-fold decreased &#x3B2;-galactosidase activity compared to the wild-type reporter fusion (<xref ref-type="fig" rid="pone-0086507-g004">Figure 4E</xref>). Here again, this activity is comparable to that of the wild-type fusion in IHF-deficient cells (compare <xref ref-type="fig" rid="pone-0086507-g004">Fig. 4E</xref> and <xref ref-type="fig" rid="pone-0086507-g001">Fig. 1D</xref>). The expression of <italic>DVU2106</italic>, controlled by &#x3C3;<sup>70</sup>-RNA polymerase, was not influenced by the absence of IHF protein and by the disruption of the <italic>orp2</italic> IHF site (<xref ref-type="fig" rid="pone-0086507-g004">Figure 4D</xref>). These results demonstrate the requirement of the <italic>orp1</italic> IHF2 and <italic>orp2</italic> IHF sites for the efficient transcription of the &#x3C3;<sup>54</sup>-dependent <italic>orp1</italic> and <italic>orp2</italic> promoters, respectively. These results further suggest that theses sites could be targets for IHF binding.</p>
+        <fig id="pone-0086507-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title><italic>orp1</italic> IHF-2 and <italic>orp2</italic> IHF sites are involved in transcriptional activation of <italic>orp1</italic> and <italic>orp2</italic>, respectively.</title>
+            <p>The <italic>lac</italic>Z reporter fusions with the promoter regions of (A) <italic>orp1</italic> IHF1-mut, mutated for the putative IHF-binding site 1, (B) <italic>orp1</italic> IHF2-mut, mutated for the putative IHF-binding site 2, (C) <italic>orp1</italic> IHF-mut, mutated for both IHF-binding sites, (D) <italic>DVU2106</italic> IHF-mut, mutated for putative IHF-binding site of <italic>orp2</italic> promoter and (E) <italic>orp2</italic> IHF-mut, mutated for the putative IHF-binding site are represented on the left. The nature of these mutations is described in materials and methods and in <xref ref-type="supplementary-material" rid="pone.0086507.s004">figure S4</xref>. Promoters &#x3C3;<sup>54</sup> and &#x3C3;<sup>70</sup> are indicated by bent arrows. The putative IHF-binding sites are indicated by boxes: solid-line boxes for wild-type sites and dashed boxes for mutated sites. The activities measured in various backgrounds are shown on the right: <italic>E.coli</italic> wild-type strain (dark-gray) and <italic>E.coli</italic> &#x394;<italic>ihfA</italic> strain (light-gray). The measures shown in black and indicated by (+) correspond to the &#x3B2;-galactosidase activity observed in a wild-type <italic>E.coli</italic> strain carrying the fusion between wild-type promoters and <italic>lacZ</italic>. The activity is the average of three independent measurements (the error bars show the standard deviations).</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g004"/>
+        </fig>
+        <p>To address whether IHF binds to these putative IHF binding sites, we carried out EMSA experiments with increasing concentrations of the purified <italic>E. coli</italic> IHF protein and <sup>32</sup>P-labeled <italic>orp1</italic> and <italic>orp2</italic> mutated promoters. In agreement with the &#x3B2;-galactosidase activities, <xref ref-type="fig" rid="pone-0086507-g005">figure 5</xref> shows that disruption of the <italic>orp1</italic> IHF1 site did not prevent formation of the IHF-DNA complex (<xref ref-type="fig" rid="pone-0086507-g005">Figure 5A</xref>) whereas mutation within the IHF2 site (or within both IHF1 and IHF2 sites) abolished IHF binding (<xref ref-type="fig" rid="pone-0086507-g005">Figure 5B and 5C</xref>). Similarly, alteration of the <italic>orp2</italic> IHF site significantly prevented IHF binding to the <italic>orp2</italic> intergenic region (<xref ref-type="fig" rid="pone-0086507-g005">Figure 5D</xref>). It should be noted that 8 nM of IHF are needed for observing the formation of the IHF/<italic>orp1</italic> IHF2 complex when the <italic>orp1</italic> IHF1 site is altered (<xref ref-type="fig" rid="pone-0086507-g005">Figure 5A</xref>) whereas only 4 nM of IHF are necessary to form the same complex when <italic>orp1</italic> IHF1 is not altered (<xref ref-type="fig" rid="pone-0086507-g002">Figure 2A</xref>) suggesting that <italic>orp1</italic> IHF1 might promote binding of IHF on the IHF2 site.</p>
+        <fig id="pone-0086507-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>The integrator Host Factor (IHF) interacts with the site 2 of promoter region of <italic>orp1</italic> and the putative IHF binding site detected in <italic>orp2</italic>.</title>
+            <p>Shown is the gel shift assays of the promoter regions of (A) <italic>orp1</italic> IHF1-mut, (B) <italic>orp1</italic> IHF2-mut, (C) <italic>orp1</italic> IHF-mut and (D) <italic>orp2</italic> IHF-mut, using purified <italic>E.coli</italic> IHF (lane 1, no protein; lane 2, 4 nM; lane 3, 8 nM; lane 4, 12 nM; lane 5, 16 nM). Lane 6 is from <xref ref-type="fig" rid="pone-0086507-g002">Figure 2</xref> and corresponds to the gel shift assays of wild-type promoter fragments using 16 nM of purified <italic>E.coli</italic> IHF.</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g005"/>
+        </fig>
+        <p>Taken together, these results demonstrate that the <italic>orp1</italic> IHF2 site is required for IHF binding and <italic>orp1</italic> transcription and the <italic>orp2</italic> IHF site recruits IHF to activate <italic>orp2</italic> transcription. It is noteworthy that the purified IHF protein binds to sites centred between DVU2106 binding sites and &#x3C3;<sup>54</sup> promoters in both operons, a result compatible with IHF function in DNA bending to facilitate contacts between the distantly-located EBP and &#x3C3;<sup>54</sup>-RNA polymerase.</p>
+      </sec>
+      <sec id="s3d">
+        <title>The DvH DVU0396-DVU1864 Heterodimer is Functionally Active to Stimulate the Transcription of the <italic>orp</italic> Operons</title>
+        <p>IHF is usually described as a heterodimeric protein complex composed of the IHF&#x3B1; and IHF&#x3B2; subunits encoded by the <italic>ihfA</italic> (<italic>himA</italic>) and <italic>ihfB</italic> (<italic>himB</italic>) genes. Genome analyses of various species known to encode active heterodimeric IHF revealed the presence of a single copy of genes encoding IHF&#x3B1; and IHF&#x3B2;, found at distinct locations on the chromosome and subject to independent regulatory influences <xref ref-type="bibr" rid="pone.0086507-Aviv1">[36]</xref>. Surprisingly, two orthologs of <italic>himB</italic>, DVU1864 and DVU2973 that would encode IHF&#x3B2;, are annotated on the DvH genome. Amino acid sequences of DVU1864 (called here &#x3B2;1) and DVU2973 (called here &#x3B2;2) are 65% identical together and respectively 42% and 45% identical to the <italic>E. coli</italic> IHF&#x3B2; (<xref ref-type="fig" rid="pone-0086507-g006">Figure 6</xref>). By contrast, no gene encoding IHF&#x3B1; was annotated whereas six orthologs of <italic>hup</italic> genes encoding HU proteins were detected. Nevertheless, it has been previously proposed that two of the putative HU-encoding genes, <italic>DVU0396</italic> and <italic>DVUA0004</italic>, correspond to <italic>himA</italic> that encodes the IHF&#x3B1; protein <xref ref-type="bibr" rid="pone.0086507-Hemme1">[25]</xref>. Primary sequence comparison of DVU0396 and DVUA0004 with IHF&#x3B1; from <italic>E. coli</italic> revealed only 31% and 21% identity, respectively (<xref ref-type="fig" rid="pone-0086507-g006">Figure 6</xref>). More recently, results obtained from pull-down experiments using DVU1864 as bait identified DVU0396 as the preferential prey <xref ref-type="bibr" rid="pone.0086507-Chhabra2">[37]</xref>. It should also be noted that <italic>DVUA0004</italic> is located on the endogenous plasmid of DvH, which is lost in our growth conditions.</p>
+        <fig id="pone-0086507-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Protein sequence alignment of IHF&#x3B2; and IHF&#x3B1; subunits of <italic>E.coli</italic> and DvH.</title>
+            <p>(A) The figure shows the sequence of IHF&#x3B2; from <italic>E. coli</italic> aligned with the sequences of the two putative IHF&#x3B2; from DvH, DVU1864 and DVU2973. (B) The sequence of IHF&#x3B1; from <italic>E.coli</italic> was aligned with the sequences of the two putative IHF&#x3B1;, DVU0396 and DVUA004 from DvH using ClustalW (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk">http://www.ebi.ac.uk</ext-link>). Highlighted residues correspond to crucial amino-acids for IHF function in <italic>E. coli</italic>.</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g006"/>
+        </fig>
+        <p>In order to identify the active IHF from DvH, <italic>orp1</italic> and <italic>orp2</italic> promoter-<italic>lacZ</italic> transcription fusions were introduced into the IHF&#x3B1;-deficient <italic>E. coli</italic> (&#x394;<italic>ihfA</italic>) strain that produces the transcriptional regulator DVU2106 and the HU protein DVU0396 or both DVU0396 and DVU1864 from a compatible multicopy plasmid (<xref ref-type="fig" rid="pone-0086507-g007">Figure 7</xref>). Surprisingly, the construction producing DVU0396 was easily obtained in wild-type <italic>E. coli</italic> whereas the plasmid producing DVU0396 and DVU1864 was obtained after reducing the production of these two genes suggesting a toxic effect of the simultaneous production of both proteins. By contrast, no growth effect was observed when DVU0396 and DVU1864 are produced in the IHF-deficient <italic>E. coli</italic> strain (data not shown). <xref ref-type="fig" rid="pone-0086507-g007">Figure 7</xref> shows that the &#x3B2;-galactosidase activities of the <italic>orp1</italic> and <italic>orp2</italic> reporter fusions were very low in the &#x394;<italic>ihf</italic>A strain, independently of the presence of the DVU0396 protein. However, the concomitant production of DVU0396 and DVU1864 in the &#x394;<italic>ihfA</italic> strain restored the activities of the <italic>orp1</italic> and <italic>orp2</italic> promoters to levels comparable to that observed in the wild-type strain. These results show that DVU0396 and DVU1864 are both required to activate <italic>orp1</italic> and <italic>orp2</italic> expression <italic>in vivo</italic> and further suggest that these two proteins may interact to assemble a functional heterodimer.</p>
+        <fig id="pone-0086507-g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>The heterodimer DVU0396-DVU1864 from DvH is involved in the transcriptional activation of <italic>orp</italic> operons.</title>
+            <p>The <italic>lac</italic>Z reporter fusions with the promoter regions of <italic>orp1</italic> (A) and <italic>orp2</italic> (B) are represented on the left. The positions of the &#x2212;12 and &#x2212;24 sequences of the &#x3C3;<sup>54</sup> promoters are indicated by black rectangles. The transcript start sites are indicated by bent arrows. The activities measured in various backgrounds are shown on the right: <italic>E.coli</italic> wild-type strain (black), <italic>E.coli</italic> &#x394;<italic>ihfA</italic> strain (dark-grey), <italic>E.coli</italic> &#x394;<italic>ihfA</italic> strain producing DVU0396 (middle-grey) and <italic>E.coli</italic> &#x394;<italic>ihfA</italic> strain producing DVU0396-DVU1864 (light-grey). The activity is the average of three independent measurements (the error bars show the standard deviations).</p>
+          </caption>
+          <graphic xlink:href="pone.0086507.g007"/>
+        </fig>
+      </sec>
+      <sec id="s3e">
+        <title>Functional Analysis of the DvH <italic>DVU0396 ihf</italic>&#x3B1; Mutant</title>
+        <p>As shown above, the DVU0396 and DVU1864 proteins may interact to stimulate the transcription of the <italic>orp</italic> operons in the <italic>in vivo</italic> reconstitution approach using the heterologous host <italic>E. coli.</italic> The amino-acid sequences of the two putative IHF&#x3B2; proteins encoded by <italic>DVU1864</italic> and <italic>DVU2973</italic> being 65% identical, one may suggest that both proteins may have redundant function. From these observations, and in order to determine whether IHF is physiologically required for the activation of the divergent <italic>orp</italic> operons in DvH, we deleted the <italic>DVU03</italic>9<italic>6</italic> gene on the DvH chromosome. Under anaerobic conditions and in lactate/sulfate medium, the deletion of <italic>DVU0396</italic> did not induce significant effects on DvH growth (final biomass and growth rate). The transcription levels of <italic>orp1, orp2</italic> and <italic>DVU2106</italic> were compared by qRT-PCR in the wild-type and the <italic>DVU0396</italic> mutant strains in both exponential and stationary phases. The expression ratio of <italic>orp1</italic>, <italic>orp2</italic>, and <italic>DVU2106</italic> [log2(absolute gene regulation)&#x200A;=&#x200A;&#x2212;0.406, &#x2212;0.404 and &#x2212;0.805, respectively, using the wild-type strain as reference] showed that the absence of DVU0396 protein has no effect on <italic>orp1</italic> and <italic>orp2</italic> expression in DvH. Our further qRT-PCR analyses showed that the absence of DVU0396 is not compensated by an increasing expression of the genes encoding the IHF&#x3B2;1 (DVU1864) or IHF&#x3B2;2 (DVU2973) subunit [log2(absolute gene regulation)&#x200A;=&#x200A;0.797 and 0.308 respectively, using the wild-type strain as reference]. Taken together these results indicate that the absence of DVU0396 is not compensated by the upregulation of genes encoding IHF&#x3B2; subunits and does not affect the expression of the <italic>orp</italic> operons in DvH.</p>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>In most environments, microorganisms are under tough competition for available resources and have to perceive, integrate and respond to multiple signals pertaining to a variety of stresses that include limited nutrient availability, physicochemical stresses and pollutant toxicity. The ability to appropriately adapt to prevailing conditions usually involves complex regulatory mechanisms such as two-component systems and &#x3C3;<sup>54</sup>-dependent promoters. In addition to the &#x3C3;<sup>54</sup> alternative factor, the &#x3C3;<sup>54</sup> pathway requires enhancer binding proteins and DNA bending. EBPs interact with an upstream activating sequence, and through DNA looping, which can be facilitated by IHF, contact the &#x3C3;<sup>54</sup>-RNA polymerase. Interestingly, a large number of potential &#x3C3;<sup>54</sup>-promoters and EBPs have been identified in DvH, an observation in accordance with the high metabolic versatility of this species <xref ref-type="bibr" rid="pone.0086507-Zhou1">[2]</xref>. To date nothing is known on the role of IHF in this bacterium and more particularly on its contribution to the &#x3C3;<sup>54</sup> regulatory mechanism. We recently showed that two gene operons, <italic>orp1</italic> and <italic>orp2</italic>, are regulated by &#x3C3;<sup>54</sup> and a cognate EBP, DVU2106 <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>. In this study, we have refined the regulatory mechanism underlying <italic>orp</italic> gene expression by demonstrating that IHF contributes to the regulation of these genes.</p>
+      <p>Using an <italic>in vivo</italic> reconstitution approach in <italic>E. coli</italic>, we showed that the activities of the divergently transcribed <italic>orp1</italic> and <italic>orp2</italic> operon promoters require the integration host factor IHF. Although the predominant role of IHF is to facilitate contacts between the EBP and the &#x3C3;<sup>54</sup>-RNA polymerase, it was shown in <italic>P. putida</italic> that IHF is also important to recruit the &#x3C3;<sup>54</sup>-RNA polymerase to its promoter <xref ref-type="bibr" rid="pone.0086507-Bertoni1">[14]</xref>. The low expression of the <italic>orp</italic> operons measured in absence of IHF and the location of the IHF binding sites, located between the DVU2106 EBP- and the &#x3C3;<sup>54</sup>-binding elements suggest a direct role of IHF to assist in the formation of direct contacts between DVU2106 and the RNA polymerase and/or to recruit the &#x3C3;<sup>54</sup>-RNA polymerase to the appropriate site <xref ref-type="bibr" rid="pone.0086507-Lacal1">[38]</xref>, <xref ref-type="bibr" rid="pone.0086507-Holcroft1">[39]</xref>, <xref ref-type="bibr" rid="pone.0086507-Busby1">[40]</xref>. The activities of the <italic>orp1</italic> and <italic>orp2</italic> promoters were reduced 10&#x2013;12 fold in absence of IHF or when IHF-binding boxes were altered, probably reflecting the limitations imposed by the absence of IHF-induced DNA bending. In several instances, IHF has been shown to be dispensable for &#x3C3;<sup>54</sup>-dependent regulation; however, in these cases, DNA bending is induced by stretches of A/T-rich sequences between &#x3C3;<sup>54</sup>- and EBP-binding elements <xref ref-type="bibr" rid="pone.0086507-Hales1">[35]</xref>, <xref ref-type="bibr" rid="pone.0086507-Cheema1">[41]</xref>. No A/T-rich region that may induce natural curvature of DNA is found between the DVU2106- and the &#x3C3;<sup>54</sup>-binding sites of <italic>orp1</italic> and <italic>orp2</italic> (<xref ref-type="supplementary-material" rid="pone.0086507.s001">Figure S1</xref>), an observation that may explain the important requirement for IHF for the regulation of the <italic>orp1</italic> and <italic>orp2</italic> operons. Such drastic effect was observed for the TodS-TodT two-component regulatory system from <italic>P. putida</italic> in which the absence of IHF causes a 8-fold decrease of the <italic>todX</italic> promoter expression compared to the wild-type strain <xref ref-type="bibr" rid="pone.0086507-Lacal1">[38]</xref>.</p>
+      <p>It is noteworthy that these assays have been performed in the heterologous host <italic>E. coli</italic>. The fact that the absence of the <italic>E. coli</italic> IHF causes a decreased in expression of the <italic>orp1</italic> and <italic>orp2</italic> promoters demonstrates that despite the weak homology between the <italic>E. coli</italic> and DvH proteins, they are functionally similar. We therefore took advantage of this observation to (i) use the purified <italic>E. coli</italic> IHF protein for <italic>in vitro</italic> studies and (ii) to identify the DvH functional IHF heterodimer in reconstitution experiments in the <italic>E. coli</italic> &#x394;<italic>ihfA</italic> strain.</p>
+      <p>The <italic>E. coli</italic> IHF protein was purified and electrophoretic mobility shift experiments using <italic>orp1</italic> and <italic>orp2</italic> promoter probes showed that, as expected from the IHF requirement for transcriptional activation, IHF binds to both promoters. We therefore went further by identifying the IHF binding sequences within the <italic>orp1</italic> and <italic>orp2</italic> promoters using a combination of computational and mutational analyses coupled to mobility shift and promoters-<italic>lacZ</italic> transcription reporter fusion assays. Bioinformatic analyses revealed the presence of two putative IHF boxes upstream the <italic>orp1</italic> &#x3C3;<sup>54</sup> promoter and one upstream the <italic>orp2</italic> &#x3C3;<sup>54</sup> promoter. We showed that IHF binds the <italic>orp1</italic> IHF2 and the <italic>orp2</italic> IHF binding sequences. The results from the transcriptional reporter fusions were consistent with these data as alteration within the <italic>orp1</italic> IHF1 site has no effect on the expression level, whereas alterations within the <italic>orp1</italic> IHF2 or <italic>orp2</italic> IHF sites decrease the expression to levels comparable to that of the wild-type promoters in the &#x394;<italic>ihfA</italic> strain. Therefore, the <italic>orp1</italic> IHF2 and <italic>orp2</italic> IHF binding site are required for IHF-mediated activation of the <italic>orp1</italic> and <italic>orp2</italic> promoters respectively. It is worth to note that <italic>orp1</italic> expression is mediated by the IHF2 site and not IHF1. This result is, at first, surprising because comparison of these sequences with the <italic>E. coli</italic> IHF binding consensus motif shows that the <italic>orp1</italic> IHF2 site is less conserved than IHF1 (67% and 78% respectively, <xref ref-type="supplementary-material" rid="pone.0086507.s003">Figure S3</xref>) and the 5&#x2032; of the IHF1 sequence is 100% identical to the reported consensus (WATCAR) whereas the IHF2 sequence is less conserved in this region (<xref ref-type="supplementary-material" rid="pone.0086507.s003">Figure S3</xref>).</p>
+      <p>An <italic>in vivo</italic> reconstitution approach in <italic>E. coli</italic> allowed us to identify DVU0396 (IHF&#x3B1;) and DVU1864 (IHF&#x3B2;) as a functionally active heterodimer able to fully complement the absence of the <italic>E. coli</italic> IHF&#x3B1; subunit. By contrast, DVU0396 alone is unable to complement for the absence of the <italic>E. coli</italic> IHF&#x3B1; subunit and to functionally interact with the <italic>E. coli</italic> IHF&#x3B2; contrarily to what has been described for <italic>P. putida</italic> IHF&#x3B1; <xref ref-type="bibr" rid="pone.0086507-Calb1">[42]</xref>. This could be explained by the difference between the similarities of <italic>E. coli</italic> IHF&#x3B1; and DvH DVU0396 (32%) or <italic>P. putida</italic> IHF&#x3B1; (86%). The fact that DVU0396 and DVU1864 assemble a functionally active heterodimer is in agreement with recent results demonstrating that DVU1864 interacts preferentially with DVU0396 in pull-down experiments <xref ref-type="bibr" rid="pone.0086507-Aviv1">[36]</xref>. While expression of the <italic>orp</italic> operons is on the same order of magnitude in the presence of <italic>E. coli</italic> IHF and DvH DVU0396/DVU1864 heterodimer, it will be interesting in the future to test DVU0396/DVU1864 binding on the <italic>orp</italic> promoters by EMSA. Experiments are currently underway to purify the DvH DVU0396/DVU1864 complex. While DVU0396 is active in <italic>E. coli</italic>, the absence of DVU0396 does not significantly impact the expression of the <italic>orp</italic> operon genes in DvH as shown by quantitative RT-PCR. One hypothesis to explain this discrepancy is the large number of HU and IHF proteins in DvH that might have redundant functions. By contrast to the <italic>E. coli</italic> situation, DvH appears to lack the diversity of nucleoid-associated proteins such as Fis or HNS but seems to encode several copies of HU and IHF proteins. DvH genome encodes up to eight DNA-binding HU/IHF proteins belonging to the COG776 family. Among these, two are annotated as encoding IHF&#x3B2;-like proteins (DVU1864 and DVU2973, which are 65% identical) and one, DVU1134, is annotated as a true DNA-binding HU&#x3B2; protein. Whereas DVU1864 and DVU2973 contains a central region extremely well conserved shown to be essential for IHF activity and specificity in <italic>E. coli</italic>
+<xref ref-type="bibr" rid="pone.0086507-Calb1">[42]</xref>, <xref ref-type="bibr" rid="pone.0086507-Lee1">[43]</xref>, this central region in DVU1134 is less conserved (<xref ref-type="fig" rid="pone-0086507-g008">Figure 8</xref>). Three other HU-like proteins (DVU0764, DVU1795, DVU3187) exhibit 25&#x2013;31% sequence identity with DVU0396. All three proteins possess the G62 residue required for IHF activity and possess one additional residue P65 known to be crucial determinants of IHF specificity in <italic>E. coli</italic>
+<xref ref-type="bibr" rid="pone.0086507-Lee1">[43]</xref>. Such redundancy in genes encoding HU/IHF proteins has not been observed in other organisms studied to date. Therefore, although the DVU0396-DVU1864 combination is functionally active in <italic>E. coli</italic> one may hypothesize that distinct homodimers or heterodimers involving different combinations will be used in DvH as previously described in other organisms <xref ref-type="bibr" rid="pone.0086507-Werner1">[21]</xref>, <xref ref-type="bibr" rid="pone.0086507-Zulianello1">[22]</xref>, <xref ref-type="bibr" rid="pone.0086507-Zablewska1">[23]</xref>, <xref ref-type="bibr" rid="pone.0086507-HiszczyskaSawicka1">[24]</xref>, and therefore the <italic>DVU0396</italic> mutation will not be sufficient to observe an effect on <italic>orp</italic> gene expression in DvH. This hypothesis is strengthened by pull-down experiments demonstrating that DVU1864, while interacting preferentially with DVU0396, is also able to interact with DVU2973, while this later also interacts with DVU0396 and DVU0764 <xref ref-type="bibr" rid="pone.0086507-Chhabra2">[37]</xref>. Further experiments are therefore needed to establish the role of each HU/IHF proteins and identify all functional IHF complexes coexisting in DvH. It would be also interesting to know whether this atypical gene redundancy is linked to the large number of putative EBPs observed in DvH <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>.</p>
+      <fig id="pone-0086507-g008" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g008</object-id>
+        <label>Figure 8</label>
+        <caption>
+          <title>Protein sequence alignment of putative IHF&#x3B2; and IHF&#x3B1; subunits from DvH.</title>
+          <p>The figure shows the sequence of DVU1864 aligned with the sequences of the two putative IHF&#x3B2; from DvH, DVU1864 and DVU2973 and the sequence of DVU0396 (IHF&#x3B1;) aligned with the sequences of three putative IHF&#x3B1; from DvH using ClustalW (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk">http://www.ebi.ac.uk</ext-link>). Highlighted residues correspond to crucial amino-acids for IHF function in <italic>E. coli</italic>.</p>
+        </caption>
+        <graphic xlink:href="pone.0086507.g008"/>
+      </fig>
+      <p>We recently proposed a model on the regulation of the <italic>orp</italic> operons in which the &#x3C3;<sup>54</sup>-transcriptional regulator DVU2106 interacts with specific palindromic sequences and collaborates with &#x3C3;<sup>54</sup> to activate and synchronize the transcription of the two divergent <italic>orp</italic> operons <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>. DVU2106 is under the control of the housekeeping &#x3C3;<sup>70</sup> factor but the overlap between the &#x3C3;<sup>70</sup> promoter and the DVU2106-binding sequence creates a negative regulatory loop <xref ref-type="bibr" rid="pone.0086507-Fivet1">[6]</xref>. With the data presented here, we implemented this model by adding a new player in the game, IHF (<xref ref-type="fig" rid="pone-0086507-g009">Figure 9</xref>). We showed that IHF is required for full activity of the <italic>orp1</italic> and <italic>orp2</italic> promoter. As previously suggested, since IHF facilitates DNA bending but does not influence directly the formation of the open complex, its role in &#x3C3;<sup>54</sup>-dependent systems has to be considered as a co-regulator <xref ref-type="bibr" rid="pone.0086507-PrezMartn1">[44]</xref>. In this context, we demonstrated that IHF binds to specific sequences, closely related to the <italic>E. coli</italic> IHF-binding consensus motif, located between the <italic>orp1</italic> and <italic>orp2</italic> &#x3C3;<sup>54</sup>-promoters and DVU2106 palindromic sites, to co-regulate and orchestrate the simultaneous expression of the divergent <italic>orp</italic> operons. In contrast no effect of IHF was observed on the &#x3C3;<sup>70</sup>-dependent DVU2106 expression.</p>
+      <fig id="pone-0086507-g009" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0086507.g009</object-id>
+        <label>Figure 9</label>
+        <caption>
+          <title>Schematic representation of the regulatory mechanisms of the <italic>orp</italic> gene cluster in DvH.</title>
+          <p>The positions of the &#x3C3;<sup>54</sup> and &#x3C3;<sup>70</sup> are indicated by bent arrows, the DVU2106-binding sequences are indicated by hatched rectangles and IHF-binding sequences are indicated by blotted rectangles. The DVU2106 transcriptional regulator and IHF play a positive role in the expression of the &#x3C3;<sup>54</sup>-dependent <italic>orp1</italic> and <italic>orp2</italic> operons. DVU2106 exerts a negative retrocontrol on its own &#x3C3;<sup>70</sup>-dependent expression.</p>
+        </caption>
+        <graphic xlink:href="pone.0086507.g009"/>
+      </fig>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0086507.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Sequences of </bold><bold><italic>orp1</italic></bold><bold> (A) and </bold><bold><italic>orp2</italic></bold><bold> (B) promoter regions.</bold> The indentified &#x3C3;<sup>54</sup> promoters of <italic>orp1</italic> and <italic>orp2</italic> are boxed in solid lines. The transcriptional start point of both operons is indicated by bent arrows. The stop codon and the start codon are in italics and underlined, and the shine-Dalgarno are indicated in bold. The two palindromic binding sites of the &#x3C3;<sup>54</sup> transcription activator, DVU2106, are boxed in dotted lines. The sequences of the putative IHF-binding sites are in bold and underlined: the <italic>orp1</italic> promoter contains two putative IHF-binding sites and one putative IHF-binding sequence was found in the <italic>orp2</italic> promoter.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0086507.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0086507.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Sequences of the different IHF sites and its variants.</bold> Mutated bases are indicated in bold for each mutant variant. These sequences are aligned with the IHF-binding consensus of <italic>E.coli</italic>.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0086507.s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0086507.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>
+            <bold>Sequence alignment of each </bold>
+            <bold>
+              <italic>Dv</italic>
+            </bold>
+            <bold>H IHF-binding site with IHF-binding site consensus sequences of </bold>
+            <bold>
+              <italic>E.coli</italic>
+            </bold>
+            <bold> (A) and </bold>
+            <bold>
+              <italic>P.putida</italic>
+            </bold>
+            <bold> (B).</bold>
+          </p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0086507.s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0086507.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p><bold>Determination of the consensus sequence of IHF-binding site from the two functional IHF-binding sites in </bold><bold><italic>orp</italic></bold><bold> promoters of </bold><bold><italic>Dv</italic></bold><bold>H.</bold> This consensus sequence is aligned with the IHF-binding site consensus sequence of <italic>E.coli</italic> and <italic>P.putida</italic>.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0086507.s004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0086507.s005">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Bacterial strains and plasmids used in this study.</bold>
+          </p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0086507.s005.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0086507.s006">
+        <label>Table S2</label>
+        <caption>
+          <p>
+            <bold>Primers used in this study.</bold>
+          </p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0086507.s006.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We gratefully acknowledge the contribution of Yann Denis for transcriptome facilities and Patrice L. Moreau for the access to the <italic>E. coli</italic> KEIO collection.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0086507-Heidelberg1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Heidelberg</surname><given-names>J</given-names></name>, <name><surname>Seshadri</surname><given-names>R</given-names></name>, <name><surname>Haveman</surname><given-names>S</given-names></name>, <name><surname>Hemme</surname><given-names>C</given-names></name>, <name><surname>Paulsen</surname><given-names>I</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>The genome sequence of the anaerobic, sulfate-reducing bacterium <italic>Desulfovibrio vulgaris</italic> Hildenborough</article-title>. <source>Nat Biotechnol</source><volume>22</volume>: <fpage>554</fpage>&#x2013;<lpage>559</lpage><pub-id pub-id-type="pmid">15077118</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Zhou1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhou</surname><given-names>J</given-names></name>, <name><surname>He</surname><given-names>Q</given-names></name>, <name><surname>Hemme</surname><given-names>CL</given-names></name>, <name><surname>Mukhopadhyay</surname><given-names>A</given-names></name>, <name><surname>Hillesland</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>How sulphate-reducing microorganisms cope with stress: lessons from systems biology</article-title>. <source>Nat Rev Microbiol</source><volume>9</volume>: <fpage>452</fpage>&#x2013;<lpage>66</lpage><pub-id pub-id-type="pmid">21572460</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Hansen1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Hansen</surname><given-names>TA</given-names></name> (<year>1994</year>) <article-title>Metabolism of sulphate-reducing prokaryotes</article-title>. <source>Antonie Van Leeuwenhoek</source><volume>66</volume>: <fpage>168</fpage>&#x2013;<lpage>185</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Muyzer1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Muyzer</surname><given-names>G</given-names></name>, <name><surname>Stams</surname><given-names>AJM</given-names></name> (<year>2008</year>) <article-title>The ecology and biotechnology of sulphate-reducing bacteria</article-title>. <source>Nature Reviews</source><volume>6</volume>: <fpage>441</fpage>&#x2013;<lpage>454</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Chhabra1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Chhabra</surname><given-names>SR</given-names></name>, <name><surname>He</surname><given-names>Q</given-names></name>, <name><surname>Huang</surname><given-names>KH</given-names></name>, <name><surname>Gaucher</surname><given-names>SP</given-names></name>, <name><surname>Alm</surname><given-names>EJ</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Global Analysis of Heat Shock Response in <italic>Desulfovibrio vulgaris</italic> Hildenborough</article-title>. <source>J. Bacteriology</source><volume>188</volume>: <fpage>1817</fpage>&#x2013;<lpage>1828</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Fivet1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Fi&#xE9;vet</surname><given-names>A</given-names></name>, <name><surname>My</surname><given-names>L</given-names></name>, <name><surname>Cascales</surname><given-names>E</given-names></name>, <name><surname>Ansaldi</surname><given-names>M</given-names></name>, <name><surname>Pauleta</surname><given-names>SR</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>The anaerobe-specific orange protein complex of <italic>Desulfovibrio vulgaris</italic> Hildenborough is encoded by two divergent operons coregulated by &#x3C3;<sup>54</sup> and a cognate transcriptional regulator</article-title>. <source>J. Bacteriol</source><volume>193</volume>: <fpage>3207</fpage>&#x2013;<lpage>3219</lpage><pub-id pub-id-type="pmid">21531797</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Propham1">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Propham</surname><given-names>DL</given-names></name>, <name><surname>Szeto</surname><given-names>D</given-names></name>, <name><surname>Keener</surname><given-names>J</given-names></name>, <name><surname>Kutsu</surname><given-names>S</given-names></name> (<year>1989</year>) <article-title>Function of a bacterial activator protein that binds to transcriptional enhancers</article-title>. <source>Science</source><volume>243</volume>: <fpage>629</fpage>&#x2013;<lpage>635</lpage><pub-id pub-id-type="pmid">2563595</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-SasseDwight1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Sasse-Dwight</surname><given-names>S</given-names></name>, <name><surname>Gralla</surname><given-names>JD</given-names></name> (<year>1990</year>) <article-title>Role of eukaryotic-type functional domains found in the prokaryotic enhancer receptor factor sigma 54</article-title>. <source>Cell</source><volume>62</volume>: <fpage>954</fpage>&#x2013;<lpage>954</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Studhome1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Studhome</surname><given-names>DJ</given-names></name>, <name><surname>Dixon</surname><given-names>R</given-names></name> (<year>2003</year>) <article-title>Domain architectures of &#x3C3;<sup>54</sup>-dependent transcriptional activators</article-title>. <source>J. Bacteriol</source><volume>185</volume>: <fpage>1757</fpage>&#x2013;<lpage>1767</lpage><pub-id pub-id-type="pmid">12618438</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Wedel1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Wedel</surname><given-names>A</given-names></name>, <name><surname>Kutsu</surname><given-names>S</given-names></name> (<year>1995</year>) <article-title>The bacterial enhancer-binding protein NTRC is a molecular machine: ATP hydrolysis is coupled to transcriptional activation</article-title>. <source>Genes Dev</source><volume>9</volume>: <fpage>2042</fpage>&#x2013;<lpage>2052</lpage><pub-id pub-id-type="pmid">7649482</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Swinger1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Swinger</surname><given-names>KK</given-names></name>, <name><surname>Rice</surname><given-names>PA</given-names></name> (<year>2004</year>) <article-title>IHF and HU: flexible architects of bent DNA</article-title>. <source>Curr Opin Struct Biol</source><volume>14</volume>: <fpage>28</fpage>&#x2013;<lpage>35</lpage><pub-id pub-id-type="pmid">15102446</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Rice1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Rice</surname><given-names>PA</given-names></name>, <name><surname>Yang</surname><given-names>S</given-names></name>, <name><surname>Mizuuchi</surname><given-names>K</given-names></name>, <name><surname>Nash</surname><given-names>HA</given-names></name> (<year>1996</year>) <article-title>Crystal structure of an IHF-DNA complex: a protein-induced DNA U-turn.Cell</article-title>. <volume>87</volume><fpage>1295</fpage>&#x2013;<lpage>1306</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-deLorenzo1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>de Lorenzo</surname><given-names>V</given-names></name>, <name><surname>Herrero</surname><given-names>M</given-names></name>, <name><surname>Metzke</surname><given-names>M</given-names></name>, <name><surname>Timmis</surname><given-names>KN</given-names></name> (<year>1991</year>) <article-title>An upstream XylR- and IHF-induced nucleoprotein complex regulates the sigma 54-dependent Pu promoter of TOL plasmid</article-title>. <source>EMBO J</source><volume>10</volume>: <fpage>1159</fpage>&#x2013;<lpage>67</lpage><pub-id pub-id-type="pmid">2022186</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Bertoni1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Bertoni</surname><given-names>G</given-names></name>, <name><surname>Fujita</surname><given-names>N</given-names></name>, <name><surname>Ishihama</surname><given-names>A</given-names></name>, <name><surname>de Lorenzo</surname><given-names>V</given-names></name> (<year>1998</year>) <article-title>Active recruitment of sigma54-RNA polymerase to the Pu promoter of <italic>Pseudomonas putida</italic>: role of IHF and alphaCTD</article-title>. <source>EMBO J</source><volume>17</volume>: <fpage>5120</fpage>&#x2013;<lpage>8</lpage><pub-id pub-id-type="pmid">9724648</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Shingler1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Shingler</surname><given-names>V</given-names></name> (<year>2011</year>) <article-title>Signal sensory systems that impact &#x3C3;<sup>54</sup> -dependent transcription</article-title>. <source>FEMS Microbiol Rev</source><volume>35(3)</volume>: <fpage>425</fpage>&#x2013;<lpage>40</lpage><pub-id pub-id-type="pmid">21054445</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Nash1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Nash</surname><given-names>HA</given-names></name>, <name><surname>Robertson</surname><given-names>CA</given-names></name> (<year>1981</year>) <article-title>Purification and properties of the Escherichia coli protein factor required for lambda integrative recombination</article-title>. <source>J Biol Chem</source><volume>256</volume>: <fpage>9246</fpage>&#x2013;<lpage>9253</lpage><pub-id pub-id-type="pmid">6267068</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Dorman1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Dorman</surname><given-names>CJ</given-names></name> (<year>2009</year>) <article-title>Nucleoid-associated proteins and bacterial physiology</article-title>. <source>Adv Appl Microbiol</source><volume>67</volume>: <fpage>47</fpage>&#x2013;<lpage>64</lpage><pub-id pub-id-type="pmid">19245936</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Arfin1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Arfin</surname><given-names>SM</given-names></name>, <name><surname>Long</surname><given-names>AD</given-names></name>, <name><surname>Ito</surname><given-names>ET</given-names></name>, <name><surname>Tolleri</surname><given-names>L</given-names></name>, <name><surname>Riehle</surname><given-names>MM</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Global gene expression profiling in <italic>Escherichia coli</italic> K12. The effects of integration host factor</article-title>. <source>J Biol Chem</source><volume>275</volume>: <fpage>29672</fpage>&#x2013;<lpage>29684</lpage><pub-id pub-id-type="pmid">10871608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-MartnezAntonio1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Mart&#xED;nez-Antonio</surname><given-names>A</given-names></name>, <name><surname>Collado-Vides</surname><given-names>J</given-names></name> (<year>2003</year>) <article-title>Identifying global regulators in transcriptional regulatory networks in bacteria</article-title>. <source>Curr Opin Microbiol</source><volume>6</volume>: <fpage>482</fpage>&#x2013;<lpage>489</lpage><pub-id pub-id-type="pmid">14572541</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Schmid1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Schmid</surname><given-names>MB</given-names></name> (<year>1990</year>) <article-title>More than just &#x201C;histone-like&#x201D; proteins</article-title>. <source>Cell</source><volume>63</volume>: <fpage>451</fpage>&#x2013;<lpage>453</lpage><pub-id pub-id-type="pmid">2121364</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Werner1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Werner</surname><given-names>MH</given-names></name>, <name><surname>Clore</surname><given-names>GM</given-names></name>, <name><surname>Gronenborn</surname><given-names>AM</given-names></name>, <name><surname>Nash</surname><given-names>HA</given-names></name> (<year>1994</year>) <article-title>Symmetry and asymmetry in the function of <italic>Escherichia coli</italic> integration host factor: implications for target identification by DNA-binding proteins</article-title>. <source>Curr Biol</source><volume>4</volume>: <fpage>477</fpage>&#x2013;<lpage>487</lpage><pub-id pub-id-type="pmid">7922368</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Zulianello1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Zulianello</surname><given-names>L</given-names></name>, <name><surname>de la Gorgue de Rosny</surname><given-names>E</given-names></name>, <name><surname>van Ulsen</surname><given-names>P</given-names></name>, <name><surname>van de Putte</surname><given-names>P</given-names></name>, <name><surname>Goosen</surname><given-names>N</given-names></name> (<year>1994</year>) <article-title>The HimA and HimD subunits of integration host factor can specifically bind to DNA as homodimers</article-title>. <source>EMBO J</source><volume>13</volume>: <fpage>1534</fpage>&#x2013;<lpage>1540</lpage><pub-id pub-id-type="pmid">8156991</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Zablewska1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Zablewska</surname><given-names>B</given-names></name>, <name><surname>Kur</surname><given-names>J</given-names></name> (<year>1995</year>) <article-title>Mutations in HU and IHF affect bacteriophage T4 growth: HimD subunits of IHF appear to function as homodimers</article-title>. <source>Gene</source><volume>160</volume>: <fpage>131</fpage>&#x2013;<lpage>132</lpage><pub-id pub-id-type="pmid">7628707</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-HiszczyskaSawicka1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Hiszczy&#x144;ska-Sawicka</surname><given-names>E</given-names></name>, <name><surname>Kur</surname><given-names>J</given-names></name> (<year>1998</year>) <article-title>Effect of integration host factor of RNA II synthesis in replication of plasmid containing orip 15A</article-title>. <source>Plasmid</source><volume>40</volume>: <fpage>150</fpage>&#x2013;<lpage>157</lpage><pub-id pub-id-type="pmid">9735316</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Hemme1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Hemme</surname><given-names>CL</given-names></name>, <name><surname>Wall</surname><given-names>JD</given-names></name> (<year>2004</year>) <article-title>Genomic insights into gene regulation of <italic>Desulfovibrio vulgaris</italic> Hildenborough</article-title>. <source>OMICS</source><volume>8</volume>: <fpage>43</fpage>&#x2013;<lpage>55</lpage><pub-id pub-id-type="pmid">15107236</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Postgate1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Postgate</surname><given-names>J</given-names></name> (<year>1966</year>) <article-title>Media for sulphur bacteria</article-title>. <source>Lab Pract</source><volume>15</volume>: <fpage>1239</fpage>&#x2013;<lpage>1244</lpage><pub-id pub-id-type="pmid">5924318</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Baba1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Baba</surname><given-names>T</given-names></name>, <name><surname>Ara</surname><given-names>T</given-names></name>, <name><surname>Hasegawa</surname><given-names>M</given-names></name>, <name><surname>Takai</surname><given-names>Y</given-names></name>, <name><surname>Okumura</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Construction of <italic>Escherichia coli</italic> K-12 in-frame, single-gene knockout mutants: Keio collection</article-title>. <source>Mol Syst Biol</source><volume>2</volume>: <fpage>2006</fpage>&#x2013;<lpage>2008</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Datsenko1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Datsenko</surname><given-names>KA</given-names></name>, <name><surname>Wanner</surname><given-names>BL</given-names></name> (<year>2000</year>) <article-title>One-step inactivation of chromosomal genes in <italic>Escherichia coli</italic> K-12 using PCR products</article-title>. <source>Proc Natl Acad Sci USA</source><volume>97</volume>: <fpage>6640</fpage>&#x2013;<lpage>6645</lpage><pub-id pub-id-type="pmid">10829079</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Bernard1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Bernard</surname><given-names>CS</given-names></name>, <name><surname>Brunet</surname><given-names>YR</given-names></name>, <name><surname>Gavioli</surname><given-names>M</given-names></name>, <name><surname>Lloub&#xE8;s</surname><given-names>R</given-names></name>, <name><surname>Cascales</surname><given-names>E</given-names></name> (<year>2011</year>) <article-title>Regulation of type VI secretion gene clusters by sigma54 and cognate enhancer binding proteins. J Bacteriol</article-title>. <volume>193</volume>: <fpage>2158</fpage>&#x2013;<lpage>67</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Dolla1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Dolla</surname><given-names>A</given-names></name>, <name><surname>Pohorelic</surname><given-names>BK</given-names></name>, <name><surname>Voordouw</surname><given-names>JK</given-names></name>, <name><surname>Voordouw</surname><given-names>G</given-names></name> (<year>2000</year>) <article-title>Deletion of the hmc operon of <italic>Desulfovibrio vulgaris</italic> subsp. vulgaris Hildenborough hampers hydrogen metabolism and low-redox-potential niche establishment</article-title>. <source>Arch Microbiol</source><volume>74</volume>: <fpage>143</fpage>&#x2013;<lpage>51</lpage><pub-id pub-id-type="pmid">11041344</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Fournier1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Fournier</surname><given-names>M</given-names></name>, <name><surname>Dermoun</surname><given-names>Z</given-names></name>, <name><surname>Durand</surname><given-names>MC</given-names></name>, <name><surname>Dolla</surname><given-names>A</given-names></name> (<year>2004</year>) <article-title>A new function of the <italic>Desulfovibrio vulgaris</italic> Hildenborough [Fe] hydrogenase in the protection against oxidative stress</article-title>. <source>J Biol Chem</source><volume>79</volume>: <fpage>1787</fpage>&#x2013;<lpage>93</lpage><pub-id pub-id-type="pmid">14594815</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Miller1">
+        <label>32</label>
+        <mixed-citation publication-type="other">Miller JH (1975) Experiments in molecular genetics.</mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Murtin1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Murtin</surname><given-names>C</given-names></name>, <name><surname>Engelhorn</surname><given-names>M</given-names></name>, <name><surname>Geiselmann</surname><given-names>J</given-names></name>, <name><surname>Boccard</surname><given-names>F</given-names></name> (<year>1998</year>) <article-title>A quantitative UV laser footprinting analysis of the interaction of IHF with specific binding sites: re-evaluation of the effective concentration of IHF in the cell</article-title>. <source>J Mol Biol</source><volume>284</volume>: <fpage>949</fpage>&#x2013;<lpage>61</lpage><pub-id pub-id-type="pmid">9837718</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Sidorova1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Sidorova</surname><given-names>NY</given-names></name>, <name><surname>Hung</surname><given-names>S</given-names></name>, <name><surname>Rau</surname><given-names>DC</given-names></name> (<year>2010</year>) <article-title>Stabilizing labile DNA-protein complexes in polyacrylamide gels. Electrophoresis</article-title>. <volume>31</volume>: <fpage>648</fpage>&#x2013;<lpage>53</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Hales1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Hales</surname><given-names>LM</given-names></name>, <name><surname>Gumport</surname><given-names>RI</given-names></name>, <name><surname>Gardner</surname><given-names>JF</given-names></name> (<year>1994</year>) <article-title>Determining the DNA sequence elements required for binding integration host factor to two different target sites</article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>2999</fpage>&#x2013;<lpage>3006</lpage><pub-id pub-id-type="pmid">8188600</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Aviv1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Aviv</surname><given-names>M</given-names></name>, <name><surname>Giladi</surname><given-names>H</given-names></name>, <name><surname>Schreiber</surname><given-names>G</given-names></name>, <name><surname>Oppenheim</surname><given-names>AB</given-names></name>, <name><surname>Glaser</surname><given-names>G</given-names></name> (<year>1994</year>) <article-title>Expression of the genes coding for the Escherichia coli integration host factor are controlled by growth phase, rpoS, ppGpp and by autoregulation.Mol Microbiol</article-title>. <volume>14</volume>: <fpage>1021</fpage>&#x2013;<lpage>31</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Chhabra2">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Chhabra</surname><given-names>SR</given-names></name>, <name><surname>Butland</surname><given-names>G</given-names></name>, <name><surname>Elias</surname><given-names>DA</given-names></name>, <name><surname>Chandonia</surname><given-names>JM</given-names></name>, <name><surname>Fok</surname><given-names>OY</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Generalized schemes for high-throughput manipulation of the <italic>Desulfovibrio vulgaris</italic> genome</article-title>. <source>Appl Environ Microbiol</source><volume>77</volume>: <fpage>7595</fpage>&#x2013;<lpage>604</lpage><pub-id pub-id-type="pmid">21908633</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Lacal1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Lacal</surname><given-names>J</given-names></name>, <name><surname>Busch</surname><given-names>A</given-names></name>, <name><surname>Guazzaroni</surname><given-names>ME</given-names></name>, <name><surname>Krell</surname><given-names>T</given-names></name>, <name><surname>Ramos</surname><given-names>JL</given-names></name> (<year>2006</year>) <article-title>The TodS-TodT two-component regulatory system recognizes a wide range of effectors and works with DNA-bending proteins</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>103</volume>: <fpage>8191</fpage>&#x2013;<lpage>8196</lpage><pub-id pub-id-type="pmid">16702539</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Holcroft1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Holcroft</surname><given-names>CC</given-names></name>, <name><surname>Egan</surname><given-names>SM</given-names></name> (<year>2000</year>) <article-title>Interdependence of activation at rhaSR by cyclic AMP receptor protein, the RNA polymerase alpha subunit C-terminal domain, and rhaR</article-title>. <source>J Bacteriol</source><volume>182</volume>: <fpage>6774</fpage>&#x2013;<lpage>82</lpage><pub-id pub-id-type="pmid">11073923</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Busby1">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Busby</surname><given-names>S</given-names></name>, <name><surname>Ebright</surname><given-names>RH</given-names></name> (<year>1997</year>) <article-title>Transcription activation at class II CAP-dependent promoters</article-title>. <source>Mol Microbiol</source><volume>23</volume>: <fpage>853</fpage>&#x2013;<lpage>9</lpage><pub-id pub-id-type="pmid">9076723</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Cheema1">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Cheema</surname><given-names>AK</given-names></name>, <name><surname>Choudhury</surname><given-names>NR</given-names></name>, <name><surname>Das</surname><given-names>HK</given-names></name> (<year>1999</year>) <article-title>A- and T-tract-mediated intrinsic curvature in native DNA between the binding site of the upstream activator NtrC and the nifLA promoter of <italic>Klebsiella pneumoniae</italic> facilitates transcription</article-title>. <source>J Bacteriol</source><volume>181</volume>: <fpage>5296</fpage>&#x2013;<lpage>5302</lpage><pub-id pub-id-type="pmid">10464200</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Calb1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Calb</surname><given-names>R</given-names></name>, <name><surname>Davidovitch</surname><given-names>A</given-names></name>, <name><surname>Koby</surname><given-names>S</given-names></name>, <name><surname>Giladi</surname><given-names>H</given-names></name>, <name><surname>Goldenberg</surname><given-names>D</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Structure and function of the <italic>Pseudomonas putida</italic> integration host factor</article-title>. <source>J Bacteriol</source><volume>178</volume>: <fpage>6319</fpage>&#x2013;<lpage>26</lpage><pub-id pub-id-type="pmid">8892836</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-Lee1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>ECL</given-names></name>, <name><surname>Hales</surname><given-names>M</given-names></name>, <name><surname>Gumport</surname><given-names>RI</given-names></name>, <name><surname>Gardner</surname><given-names>JR</given-names></name> (<year>1992</year>) <article-title>The isolation and characterization of mutants of the integration host factor (IHF) of <italic>Escherichia coli</italic> with altered, expanded DNA-binding specificities</article-title>. <source>Embo J</source><volume>11</volume>: <fpage>305</fpage>&#x2013;<lpage>313</lpage><pub-id pub-id-type="pmid">1531459</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0086507-PrezMartn1">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>P&#xE9;rez-Mart&#xED;n</surname><given-names>J</given-names></name>, <name><surname>De Lorenzo</surname><given-names>V</given-names></name> (<year>1997</year>) <article-title>Coactivation in vitro of the sigma54-dependent promoter Pu of the TOL plasmid of <italic>Pseudomonas putida</italic> by HU and the mammalian HMG-1 protein</article-title>. <source>J Bacteriol</source><volume>179</volume>: <fpage>2757</fpage>&#x2013;<lpage>2760</lpage><pub-id pub-id-type="pmid">9098077</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

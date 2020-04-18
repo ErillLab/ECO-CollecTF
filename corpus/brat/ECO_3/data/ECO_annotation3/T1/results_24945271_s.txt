@@ -1,0 +1,119 @@
+Results
+
+IscR is required for Y. pseudotuberculosis Ysc T3SS function
+
+To identify regulators of the Y. pseudotuberculosis T3SS, we utilized a novel screen to isolate transposon mutants with defects in T3SS function.
+We previously showed that Y. pseudotuberculosis expressing a functional T3SS induces NFkappaB activation in HEK293T cells [43], enabling us to use host cell NFkappaB activation as a readout for T3SS function in Y. pseudotuberculosis transposon mutants.
+As some T3SS effector proteins inhibit NFkappaB signaling [44], we performed the screen using a Y. pseudotuberculosis transposon mutant library in a genetic background that lacked the known T3SS effector proteins YopHEMOJT (Deltayop6; [43]).
+We identified several transposon mutants with defects in triggering activation of NFkappaB in HEK293T cells (L. Kwuan, N. Herrera, H. Ramirez, V. Auerbuch, data not shown), suggesting defective T3SS function.
+Among these were two strains with unique transposon insertions in YPTB2860 (Figure 1A), encoding a protein with 79% identity to the E. coliiron-sulfur cluster regulator IscR, part of the iscRSUA-hscBA-fdx operon involved in Fe-S cluster biogenesis (Figure 1B).
+Importantly, the helix-turn-helix DNA binding domain as well as the three cysteines and histidine known to coordinate an iron-sulfur (Fe-S) cluster in E. coli IscR are conserved in all three Yersinia species (Figure 1B).
+These data indicate that Yersinia IscR may coordinate an Fe-S cluster and, as in E. coli, may regulate gene transcription.
+
+To validate that loss of IscR in Y. pseudotuberculosis leads to T3SS defects, we isolated the two iscR transposon mutants (iscR::Tn1 and iscR::Tn2) from our library and again measured their ability to trigger NFkappaB activation in HEK293T cells compared to the Deltayop6 parental strain and a DeltayscNU T3SS-null mutant [43].
+In addition, we constructed an in-frame iscR deletion mutant in the Deltayop6 genetic background (Deltayop6/DeltaiscR) and tested it in this assay.
+We found that disruption of iscR led to ~2-fold less NFkappaB activation relative to the Deltayop6 T3SS+ parental strain, although NFkappaB activation levels were still ~5-fold higher than a strain with complete lack of T3SS function (DeltayscNU; Figure 2A), suggesting that loss of iscR leads to partial T3SS loss.
+
+To verify further that deletion of iscR leads to alterations in T3SS function, we assessed the ability of the Deltayop6/DeltaiscR mutant to insert YopBD pores in target host cell membranes by measuring entry of ethidium bromide (EtBr) inside Y. pseudotuberculosis-infected bone marrow derived macrophages [45], [46].
+Pore formation by the Deltayop6/DeltaiscR mutant was decreased by 7-fold (p<0.05) relative to the Deltayop6 parental strain, which could be restored upon complementation with plasmid-encoded iscR (Figure 2B).
+To determine whether loss of iscR affects T3SS function in a wild type genetic background, we constructed an in-frame iscR deletion (DeltaiscR) in the wild type Y. pseudotuberculosis IP2666 strain expressing six of the seven known T3SS effector proteins YopHEMOJK [47].
+We then visualized the secretome of the DeltaiscR mutant relative to wild type.
+Deletion of iscR led to a dramatic decrease in secretion of T3SS cargo relative to the wild type background, which can be restored upon complementation with plasmid-encoded iscR (Figure 2C).
+Importantly, this lack of type III secretion did not result from a defect in growth of the mutant, as the DeltaiscR mutant actually grew better than wild type bacteria under T3SS-inducing conditions (Figure S1A).
+This is consistent with a T3SS defect in this strain, as wild type Yersinia display a characteristic growth arrest upon T3SS expression [5], [48], [49].
+Collectively, these data demonstrate that Y. pseudotuberculosis IscR is required for proper T3SS function.
+
+
+
+IscR is required for full virulence of Y. pseudotuberculosis
+
+Based on the knowledge that the T3SS plays an important role in the virulence of human pathogenic Yersinia, we sought to investigate whether the diminished type III secretion observed in the Y. pseudotuberculosis DeltaiscR strain would lead to a reduction in the infectious capacity of this mutant.
+Mice were orogastrically infected with 2x108 CFU of either the Y. pseudotuberculosis wild type or isogenic DeltaiscR mutant strains.
+At 5 days post-inoculation, mice infected with the DeltaiscR mutant displayed significantly decreased colonization of Peyer's patches and mesenteric lymph nodes (MLN) as well as diminished systemic colonization (Figure 3).
+Specifically, we noted 10- and 130-fold reductions in CFU recovered from the Peyer's patches and MLNs, respectively, in mice infected with the DeltaiscR mutant strain relative to wild type.
+Notably, we observed a 1000- to 10,000-fold decrease in bacterial burden in the spleen and liver respectively.
+The diminished ability of the DeltaiscR mutant strain to colonize deep tissue sites is underscored by the fact that bacteria were not detected in seven of the nine livers analyzed.
+These findings suggest that IscR is essential for Y. pseudotuberculosis virulence in an oral infection model.
+
+
+
+IscR deletion leads to global misregulation of gene expression in Y. pseudotuberculosis
+
+To begin to understand the mechanistic contribution of IscR to Y. pseudotuberculosis pathogenesis, we performed high throughput transcriptome sequencing (RNAseq) analysis to determine the Y. pseudotuberculosis genes directly and indirectly controlled by IscR under iron replete, T3SS-inducing conditions.
+Total RNA was collected from wild type Y. pseudotuberculosis as well as the DeltaiscR mutant strain grown in M9 at 37 degrees C for 3 h, a point at which the DeltaiscR and wild type strains display comparable growth rates (Figure S1A).
+
+For the DeltaiscR mutant relative to the wild type, a total of 226 genes demonstrated a statistically significant fold change of GTEQ 2 (Table S1).
+Of these, 134 genes were up-regulated in the DeltaiscR mutant relative to the wild type (Table 1 & Figure 4A), while 92 were down-regulated (Table 2 & Figure 4B).
+Genes found to be up-regulated in the DeltaiscR mutant include key elements of Fe-S cluster biosynthesis, cellular detoxification, metabolism, and protein fate (Figure 4A).
+The most notable increases in transcription were observed for genes encoding Fe-S cluster biosynthesis proteins including those encoded in the isc operon, iscS (18.7-fold), iscU (21.7-fold) and iscA (13-fold) (Table 1 & Figure S2A).
+Additional genes encoding proteins involved in Fe-S cluster assembly and their respective fold increases include iscX/yfhJ (10.8), fdx (10.9), hscB (10), hscA (9.3), yadR/erpA (6.8), pepB (10.1) and nfuA (7.0).
+To validate these findings, we performed qRT-PCR analysis on the second gene encoded in the iscRSUA operon, iscS, as well as on the gene encoding the Fe-S biosynthesis protein ErpA.
+Transcription of iscS was increased by 30-fold, while erpA expression was increased 5-fold (p<0.05; Figure 5A).
+Bioinformatic analysis identified two IscR type 1 motifs upstream of the iscRSUA-hscBA-fdx operon (Figure S2B) as well as one site each located upstream of both erpA and nfuA (data not shown).
+Based on this data, we propose that Y. pseudotuberculosis IscR modulates Fe-S cluster biosynthesis expression in a manner akin to that of E. coli IscR.
+
+
+
+IscR is required for transcription of T3SS genes
+
+In total, 92 genes were significantly down-regulated in the DeltaiscR mutant relative to wild type Y. pseudotuberculosis (Table 2).
+These data demonstrate that the majority of pYV-encoded genes are decreased in the DeltaiscR mutant relative to the wild type strain, including genes essential for proper T3SS expression and function.
+The virC and lcrGVH-yopBD operons as well as genes encoding the T3SS cargo YopHEMOJTK were the most affected upon deletion of iscR: the effector proteins YopJ (-3.4-fold), YopM (-5.3-fold) and YopT (-5.5-fold), the effector protein and translocation regulator YopK (-9.3-fold), as well as a number of genes encoding T3SS structural proteins.
+Genes encoding regulators that control T3SS expression and function were decreased in the mutant including lcrQ (-2.1-fold), lcrF (-3.3-fold), lcrG (-2.8-fold) and lcrH (-3.9-fold).
+To verify that T3SS gene expression was indeed decreased in the DeltaiscR mutant, we measured the transcript levels of the genes encoding T3SS structural proteins YscN, YscF, and the T3SS transcriptional regulator LcrF via qRT-PCR.
+As detailed in Figure 5B, we observed fold decreases of 2.8-fold (p<0.05), 6.9-fold (p<0.001), and 5.4-fold (p<0.0001) for yscN, yscF, and lcrF, respectively.
+These data support our RNAseq analysis and confirm that IscR is required for robust transcription of Y. pseudotuberculosis T3SS genes.
+
+In addition to T3SS genes, 25 other pYV-encoded genes were decreased in the mutant, but these are annotated as hypothetical proteins, transposases, and pseudogenes.
+Analysis of the relative abundance of pYV in the Y. pseudotuberculosis wild type and DeltaiscR strains was performed in order to verify that the decreases in pYV-encoded genes were not a result of plasmid loss (Figure S3).
+The concentration of plasmid isolated from the wild type and DeltaiscR mutant was comparable, suggesting that the decreased transcription of pYV-encoded genes, including those encoding the T3SS, are not a result of decreased stability of the pYV plasmid.
+
+
+
+Y. pseudotuberculosis expressing only apo-locked IscR has a proton motive force defect and cannot secrete Yops
+
+To assess the contribution of Fe-S cluster ligation to IscR control of the T3SS, we constructed an IscR mutant strain in which the three conserved cysteines were substituted with alanines (C92A, C98A, C104A; apo-locked IscR).
+Identical mutations in E. coli IscR render the protein unable to coordinate an iron-sulfur cluster, yet able to bind type 2 DNA binding motifs and to regulate target gene transcription [28] - [30].
+We analyzed the secretome of the Y. pseudotuberculosis apo-locked IscR strain under T3SS-inducing conditions and found that the mutant was just as defective as the DeltaiscR strain in Yop secretion (Figure 2C).
+This defect could be complemented with plasmid-encoded wild type IscR.
+As apo-locked IscR is insufficient to promote type III secretion, holo-IscR-mediated regulation of gene expression through one or more type 1 motifs may be specifically involved in regulating T3SS gene expression.
+Alternatively, forcing all IscR expression within the cell to the clusterless form, which leads to IscR overexpression, may lead to alterations of bacterial pathways that indirectly affect type III secretion.
+
+Consistent with this latter explanation, the apo-locked IscR mutant exhibited decreased colony size on LB agar, slower growth in rich media (Figure S1), and decreased motility (Figure 6A).
+The flagellar basal body is a T3SS itself, indicating that the defect in the Ysc T3SS for this strain may be a result of gross abnormalities in secretion systems.
+Based on these findings, we set out to examine whether the apo-locked IscR mutant demonstrated alterations in membrane potential, as this has been shown to be important for both motility and Ysc T3S in Y. enterocolitica[50].
+To this end, we examined bacterial membrane potential under T3SS inducing conditions.
+As demonstrated in Figure 6B, there is a notable decrease in membrane potential in the apo-locked IscR mutant relative to the wild type strain, which can be complemented upon addition of wild type iscR on a plasmid.
+Furthermore, the membrane potential of the DeltaiscR mutant strain is comparable to that of the wild type.
+Collectively, these data suggest that the apo-locked IscR mutant has a proton motive force defect, leading to decreased type III secretion and motility.
+These findings highlight the importance for Yersinia to maintain appropriate levels of holo-IscR relative to apo-IscR in order maintain normal membrane potential.
+
+
+
+IscR recognizes a type 2 motif upstream of the yscW-lcrF operon
+
+To begin to understand the nature of the T3SS defect in the presence of only apo-IscR, we carried out RNAseq analysis on the Y. pseudotuberculosis apo-locked IscR mutant grown under T3SS-inducing conditions and compared the results with data from the wild type and DeltaiscR strains.
+Curiously, the apo-locked IscR mutant displayed aberrant expression of genes involved in stress response, transport, cell envelope, as well as electron transport (data not shown).
+Of note, the Fe-S cluster biosynthesis proteins encoded in the iscRSUA-hscBA-fdx-iscX-pepB-sseB, yadR/erpA and nfuA operons are significantly increased in this background, similar to that of the DeltaiscR mutant strain (Figure S2A), indicating that holo-IscR represses expression of these genes under the aerobic, iron-replete conditions used.
+In contrast, increases in the sufABCDS Fe-S cluster biogenesis operon were observed for the apo-locked IscR strain when compared to both the wild type and DeltaiscR strains (Figure S4).
+As IscR is overexpressed by 30-fold (p<0.05) in the apo-locked iscR mutant compared to wild type (Figure S2A), we speculate that the suf operon is positively regulated by IscR in Yersinia as in E. coli.
+In contrast, the extensively studied E. coli IscR target, hyaABCDEF, is not encoded in the Y. pseudotuberculosis genome.
+
+Importantly, our RNAseq analysis demonstrated that transcription of genes within the virA, virB, virC, yscW-lcrF, and lcrGVH-yopBD operons was restored in the apo-locked IscR mutant compared to the DeltaiscR mutant (Figure 7 and Table S2).
+However, we observed a decrease in transcription of genes encoding the T3SS effector proteins YopH (-4.4-fold), YopM (-3.0-fold), YopK (-7.1-fold), and YopE (-2.1-fold) in the apo-locked IscR mutant compared to wild type.
+Transcription of yopE has been shown to be regulated by Yop secretion through a positive feedback loop [51], [52], suggesting that the defect in YopHEMK transcription observed in the apo-locked IscR mutant may be caused by the lack of Yop secretion we observed in this strain.
+Together, these data suggest that both holo- and apo-IscR can promote T3SS gene transcription, possibly through binding to one or more type 2 DNA motifs.
+
+To determine whether IscR might directly regulate T3SS gene expression, we carried out bioinformatic analysis to search pYV for sequences resembling the E. coli IscR type 2 motif (xxWWWWCCxYAxxxxxxxTRxGGWWWWxx) [30], [31], [33], as the DNA-binding domain of Yersinia IscR is 100% identical to that of E. coli IscR (Figure 1A).
+We searched within the 150 nucleotides upstream of the 99 genes encoded on the pYV plasmid and obtained a ranked list of putative type 2 motifs (data not shown).
+Among these was a site located within the yscW-lcrF promoter region (Figure 8A) [24].
+To test whether IscR bound specifically to this site, we performed equilibrium DNA competition assays utilizing purified E. coli IscR-C92A (apo-locked IscR) [33], with a fluorescently-labeled E. coli hya type 2 site previously identified by Nesbit et al. [33].
+Purified E. coli IscR was utilized in this assay, as complementation of the Y. pseudotuberculosis DeltaiscR mutant strain with IscR of E. coli encoded on a plasmid fully restored secretion of T3SS cargo (Figure 8B).
+Competitor DNA included unlabeled E. coli hya as a positive control, the identified site within the Yersinia yscW-lcrF promoter region, a mutated version of this sequence (mlcrF), where nucleotides previously demonstrated in E. coli to be important for type 2 motif binding were altered [33], as well as one of the Y. pseudotuberculosis isc type 1 motif sites we identified as a negative control (Figure S2B & Figure 8C).
+We found that unlabeled lcrF DNA competed as well as unlabeled hya DNA (IC50 27 nm and 61 nm, respectively), suggesting that IscR can indeed bind to the identified type 2 motif upstream of lcrF (Figure 8D).
+Furthermore, mutation of key nucleotides in the lcrF promoter sequence led to alleviation of competition and increased the IC50 to greater than 1000 nM, a level comparable to that of the isc negative control type 1 motif site (Figure 8D).
+These findings suggest that IscR may regulate transcription of the T3SS through a type 2 motif within the yscW-lcrF promoter region.
+
+
+
+

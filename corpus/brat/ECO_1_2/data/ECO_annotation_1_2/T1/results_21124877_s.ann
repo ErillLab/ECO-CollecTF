@@ -1,0 +1,161 @@
+T1	ECO 42 65	Bioinformatics analysis
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 Medium
+A3	AssertionStrength T1 Medium
+T2	ECO 262 280	in silico analysis
+A4	ECOConfidence T2 High
+A5	AssertionStrength T2 Medium
+T5	ECO 1859 1868	TransTerm
+A12	Category T5 SeqFeat
+A13	ECOConfidence T5 High
+A14	AssertionStrength T5 High
+T6	ECO 2199 2221	Northern blot analysis
+A15	Category T6 BioProc
+A16	ECOConfidence T6 High
+A17	AssertionStrength T6 Medium
+N6	Reference T6 brat_eco:ECO:0000106	northern blot evidence
+#1	AnnotatorNotes T6	GO:0010467. Double check whether annotating these gene expression type make sense. Ivan doesn't think so
+T8	ECO 3549 3609	from the wild-type strain compared to the covR mutant strain
+A22	Category T8 BioProc
+A23	ECOConfidence T8 High
+A24	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0000015	mutant phenotype evidence
+#3	AnnotatorNotes T8	GO:0010468
+T11	ECO 5056 5062	mutant
+A32	Category T11 BioProc
+A33	ECOConfidence T11 High
+A34	NextSentence T11 Yes
+A35	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0000015	mutant phenotype evidence
+#6	AnnotatorNotes T11	GO:0010628
+T12	ECO 5136 5144	reporter
+A36	Category T12 BioProc
+A37	ECOConfidence T12 High
+A38	NextSentence T12 Yes
+A39	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0000049	reporter gene assay evidence
+#7	AnnotatorNotes T12	GO:0010628
+T13	ECO 5245 5258	mutant strain
+A40	Category T13 BioProc
+A41	ECOConfidence T13 Medium
+A42	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0000015	mutant phenotype evidence
+#8	AnnotatorNotes T13	GO:0010628
+T15	ECO 5676 5720	Electrophoretic mobility shift assays (EMSA)
+A46	Category T15 MolFn
+A47	ECOConfidence T15 High
+A48	NextSentence T15 Yes
+A49	AssertionStrength T15 High
+#10	AnnotatorNotes T15	GO:0043565
+T16	ECO 5956 6003	retardation in the mobility of the DNA fragment
+A50	Category T16 MolFn
+A51	ECOConfidence T16 Medium
+A52	AssertionStrength T16 Medium
+N16	Reference T16 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#11	AnnotatorNotes T16	GO:0043565
+N15	Reference T15 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T17	ECO 6128 6156	shifting of the labeled band
+A53	Category T17 MolFn
+A54	ECOConfidence T17 Low
+A55	AssertionStrength T17 Medium
+N17	Reference T17 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#12	AnnotatorNotes T17	GO:0043565
+T18	ECO 6511 6536	DNase I protection assays
+A56	Category T18 MolFn
+A57	ECOConfidence T18 High
+A58	NextSentence T18 Yes
+A59	AssertionStrength T18 High
+N18	Reference T18 brat_eco:ECO:0001810	DNAse footprinting evidence
+#13	AnnotatorNotes T18	GO:0043565
+T19	ECO 6805 6854	protects this region against digestion by DNase I
+A60	Category T19 MolFn
+A61	ECOConfidence T19 High
+A62	AssertionStrength T19 High
+N19	Reference T19 brat_eco:ECO:0001810	DNAse footprinting evidence
+#14	AnnotatorNotes T19	GO:0043565
+T20	ECO 7251 7274	Bioinformatics analysis
+A63	Category T20 Tax
+A64	ECOConfidence T20 High
+A65	AssertionStrength T20 High
+N20	Reference T20 brat_eco:ECO:0000000	evidence
+T21	ECO 8631 8639	sQRT-PCR
+A66	Category T21 BioProc
+A67	ECOConfidence T21 Medium
+A68	AssertionStrength T21 High
+N21	Reference T21 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+#15	AnnotatorNotes T21	GO:0010468
+N1	Reference T1 brat_eco:ECO:0000028	motif similarity evidence
+A79	Category T2 BioProc
+#19	AnnotatorNotes T2	Secretory
+T25	ECO 8204 8225	hybridization pattern
+A80	ECOConfidence T25 Low
+A81	NextSentence T25 Yes
+A82	AssertionStrength T25 Medium
+N25	Reference T25 brat_eco:ECO:0000078	southern hybridization evidence
+A83	Category T25 Tax
+N2	Reference T2 brat_eco:ECO:0000044	sequence similarity evidence
+N5	Reference T5 brat_eco:ECO:0000202	match to sequence model evidence
+T26	ECO 8950 8965	Complementation
+A84	Category T26 BioProc
+A85	ECOConfidence T26 High
+A86	AssertionStrength T26 High
+N26	Reference T26 brat_eco:ECO:0000012	functional complementation evidence
+#20	AnnotatorNotes T26	GO:0010468
+T27	ECO 10268 10307	reconstituted RNA polymerase holoenzyme
+A87	Category T27 BioProc
+A88	ECOConfidence T27 Medium
+A89	NextSentence T27 Yes
+A90	AssertionStrength T27 Medium
+N27	Reference T27 brat_eco:ECO:0000150	in vitro transcription reconstitution assay evidence
+#21	AnnotatorNotes T27	GO:0010468
+T28	ECO 5533 5548	reporter fusion
+A91	Category T28 MolFn
+A92	ECOConfidence T28 High
+A93	AssertionStrength T28 High
+N28	Reference T28 brat_eco:ECO:0000049	reporter gene assay evidence
+#22	AnnotatorNotes T28	GO:0043565
+T29	ECO 5509 5523	RT-PCR analyse
+A94	Category T29 MolFn
+A95	ECOConfidence T29 High
+A96	AssertionStrength T29 High
+N29	Reference T29 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+#23	AnnotatorNotes T29	GO:0043565
+T30	ECO 7070 7074	EMSA
+A97	Category T30 MolFn
+A98	ECOConfidence T30 High
+A99	AssertionStrength T30 High
+N30	Reference T30 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#24	AnnotatorNotes T30	GO:0043565
+T31	ECO 7079 7095	DNase I analyses
+A100	Category T31 MolFn
+A101	ECOConfidence T31 High
+A102	AssertionStrength T31 High
+N31	Reference T31 brat_eco:ECO:0001801	alkaline phosphatase reporter gene assay evidence
+#25	AnnotatorNotes T31	GO:0043565
+T3	ECO 443 465	analyses of the genome
+A6	Category T3 Tax
+A7	ECOConfidence T3 Low
+A8	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0000044	sequence similarity evidence
+T32	ECO 1401 1422	BPROM online software
+A103	Category T32 SeqFeat
+A104	ECOConfidence T32 High
+A105	AssertionStrength T32 High
+N32	Reference T32 brat_eco:ECO:0000202	match to sequence model evidence
+T4	ECO 9277 9317	inactivation of covR in S. mutans strain
+A9	Category T4 BioProc
+A10	ECOConfidence T4 Medium
+A11	AssertionStrength T4 High
+N4	Reference T4 brat_eco:ECO:0001091	knockout evidence
+#2	AnnotatorNotes T4	GO:0010628
+T7	ECO 3679 3694	complementation
+A18	Category T7 BioProc
+A19	ECOConfidence T7 Medium
+A20	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000012	functional complementation evidence
+#4	AnnotatorNotes T7	GO:0010468
+T9	ECO 6680 6699	Analysis of the gel
+A21	Category T9 MolFn
+A25	ECOConfidence T9 Medium
+A26	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0000337	gel electrophoresis evidence

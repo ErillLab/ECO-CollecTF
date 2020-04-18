@@ -1,0 +1,69 @@
+T2	ECO 4241 4267	DNase I footprinting assay
+A5	Category T2 MolFn
+A6	ECOConfidence T2 High
+A7	NextSentence T2 Yes
+A8	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0001810	DNAse footprinting evidence
+T3	ECO 3582 3600	extension products
+A9	Category T3 SeqFeat
+A10	ECOConfidence T3 Low
+A11	NextSentence T3 Yes
+A12	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0001819	primer extension assay evidence
+#1	AnnotatorNotes T3	Very low. Maybe against my better judgment, but there is a statement of evidence.
+T4	ECO 4526 4590	protected at least one distinct region against DNase I digestion
+A13	Category T4 MolFn
+A14	ECOConfidence T4 High
+A15	NextSentence T4 No
+A16	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0001810	DNAse footprinting evidence
+T5	ECO 5448 5468	DNA probes used here
+A17	Category T5 SeqFeat
+A18	ECOConfidence T5 High
+A19	NextSentence T5 No
+A20	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0000136	nucleic acid binding evidence
+T6	ECO 5743 5775	Matching of the E. coli PhoP box
+A21	Category T6 SeqFeat
+A22	ECOConfidence T6 Medium
+A23	NextSentence T6 No
+A24	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0005532	consensus search evidence
+T7	ECO 6277 6358	box sequence (TGTTTAWN4TGTTTAW) in Figure 1(d) was deduced from the sequence logo
+A25	Category T7 SeqFeat
+A26	ECOConfidence T7 Medium
+A27	NextSentence T7 No
+A28	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0005531	motif discovery evidence
+#2	AnnotatorNotes T7	I went with "Discovery" here due to the mentions of "deduced" and "Sequence logo" which sounds more to me like they figured out that the sequence they were looking at was a motif.
+T8	ECO 7136 7167	DNase I footprinting identified
+A29	Category T8 SeqFeat
+A30	ECOConfidence T8 High
+A31	NextSentence T8 No
+A32	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0001810	DNAse footprinting evidence
+T9	ECO 7383 7401	PhoP box was found
+A33	Category T9 SeqFeat
+A34	ECOConfidence T9 Medium
+A35	NextSentence T9 No
+A36	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0005532	consensus search evidence
+T10	ECO 7136 7167	DNase I footprinting identified
+A37	Category T10 SeqFeat
+A38	ECOConfidence T10 High
+A39	NextSentence T10 Yes
+A40	AssertionStrength T10 Medium
+N10	Reference T10 brat_eco:ECO:0001810	DNAse footprinting evidence
+#3	AnnotatorNotes T10	Referring to the sequences overlapping. The next sentence alone didn't have quite enough for me  to annotate it alone.
+T1	ECO 4381 4409	DNase I footprinting results
+A1	Category T1 MolFn
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0001810	DNAse footprinting evidence
+T11	ECO 4704 4721	footprint regions
+A41	Category T11 MolFn
+A42	ECOConfidence T11 Medium
+A43	NextSentence T11 No
+A44	AssertionStrength T11 Low
+N11	Reference T11 brat_eco:ECO:0000136	nucleic acid binding evidence

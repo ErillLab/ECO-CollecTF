@@ -1,0 +1,991 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23152924</article-id>
+      <article-id pub-id-type="pmc">3496712</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-26155</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0049590</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Anatomy and Physiology</subject>
+            <subj-group>
+              <subject>Endocrine System</subject>
+              <subj-group>
+                <subject>Endocrine Physiology</subject>
+                <subj-group>
+                  <subject>Pheromones</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Developmental Biology</subject>
+            <subj-group>
+              <subject>Molecular Development</subject>
+              <subj-group>
+                <subject>Signaling</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subject>Microbial Ecology</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Model Organisms</subject>
+            <subj-group>
+              <subject>Prokaryotic Models</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Cellular Types</subject>
+              <subj-group>
+                <subject>Prokaryotic Cells</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Signal Transduction</subject>
+              <subj-group>
+                <subject>Mechanisms of Signal Transduction</subject>
+                <subj-group>
+                  <subject>Feedback Regulation</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Gene Expression</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Coordination of the Arc Regulatory System and Pheromone-Mediated Positive Feedback in Controlling the <italic>Vibrio fischeri lux</italic> Operon</article-title>
+        <alt-title alt-title-type="running-head">Positive Feedback in <italic>V. fischeri lux</italic> Regulation</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Septer</surname>
+            <given-names>Alecia N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stabb</surname>
+            <given-names>Eric V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Department of Microbiology, University of Georgia, Athens, Georgia, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Liles</surname>
+            <given-names>Mark R.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Auburn University, United States of America</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>estabb@uga.edu</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: ANS EVS. Performed the experiments: ANS. Analyzed the data: ANS EVS. Contributed reagents/materials/analysis tools: EVS. Wrote the paper: ANS EVS.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>11</issue>
+      <elocation-id>e49590</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>8</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>10</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Septer, Stabb</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Bacterial pheromone signaling is often governed both by environmentally responsive regulators and by positive feedback. This regulatory combination has the potential to coordinate a group response among distinct subpopulations that perceive key environmental stimuli differently. We have explored the interplay between an environmentally responsive regulator and pheromone-mediated positive feedback in intercellular signaling by <italic>Vibrio fischeri</italic> ES114, a bioluminescent bacterium that colonizes the squid <italic>Euprymna scolopes</italic>. Bioluminescence in ES114 is controlled in part by <italic>N</italic>-(3-oxohexanoyl)-L-homoserine lactone (3OC6), a pheromone produced by LuxI that together with LuxR activates transcription of the <italic>luxICDABEG</italic> operon, initiating a positive feedback loop and inducing luminescence. The <italic>lux</italic> operon is also regulated by environmentally responsive regulators, including the redox-responsive ArcA/ArcB system, which directly represses <italic>lux</italic> in culture. Here we show that inactivating <italic>arcA</italic> leads to increased 3OC6 accumulation to initiate positive feedback. In the absence of positive feedback, <italic>arcA</italic>-mediated control of luminescence was only &#x223C;2-fold, but <italic>luxI</italic>-dependent positive feedback contributed more than 100 fold to the net induction of luminescence in the <italic>arcA</italic> mutant. Consistent with this overriding importance of positive feedback, 3OC6 produced by the <italic>arcA</italic> mutant induced luminescence in nearby wild-type cells, overcoming their ArcA repression of <italic>lux</italic>. Similarly, we found that artificially inducing ArcA could effectively repress luminescence before, but not after, positive feedback was initiated. Finally, we show that 3OC6 produced by a subpopulation of symbiotic cells can induce luminescence in other cells co-colonizing the host. Our results suggest that even transient loss of ArcA-mediated regulation in a sub-population of cells can induce luminescence in a wider community. Moreover, they indicate that 3OC6 can communicate information about both cell density and the state of ArcA/ArcB.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This research was supported by the National Science Foundation (NSF) under grants CAREER MCB-0347317, IOS-0841480, and IOS-1121106. ANS was supported by funds awarded by the University of Georgia Graduate School and the DoD, Air Force Office of Scientific Research, National Defense Science and Engineering Graduate (NDSEG) Fellowship, 32 CFR 168a. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Many bacteria regulate gene expression by producing and sensing pheromones. Because these signals can accumulate as culture density increases, pheromone-mediated responses often depend on high cell densities, giving rise to the term &#x201C;quorum sensing&#x201D; <xref ref-type="bibr" rid="pone.0049590-Fuqua1">[1]</xref>. However, in many systems pheromone signaling is not simply a function of cell density. Instead, both synthesis of pheromones and responsiveness to them are often context dependent. Environmentally responsive regulators control expression of many pheromone synthases and/or their cognate receptors, rendering such signaling dependent on other parameters in addition to cell density <xref ref-type="bibr" rid="pone.0049590-Schuster1">[2]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0049590-Whistler1">[27]</xref>. Moreover, pheromone signals often stimulate an increased rate of their own synthesis <xref ref-type="bibr" rid="pone.0049590-Engebrecht1">[28]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0049590-Pestova1">[39]</xref>. This positive feedback can mean that even at the same cell density, the concentration and synthesis of a pheromone are partly a function of whether the system has recently been in a stimulated state.</p>
+      <p>Combining context-dependent regulatory control over pheromone synthesis with pheromone-mediated positive feedback has profound functional implications. Positive feedback can amplify the effects of other regulatory inputs that modulate pheromone synthesis, and the relative strengths of a regulatory input and positive feedback will affect communication, particularly in a population that spans a heterogeneous environment. If positive feedback is strong, a subpopulation of bacteria experiencing an environment that favors pheromone production might elicit a population-wide response, even in cells that would otherwise remain uninduced given their distinct environmental context. If positive feedback is weak, local environmental context becomes a more defining determinant of whether a pheromone system is induced. Understanding how bacteria integrate pheromone sensing, environmentally responsive regulation, and positive feedback to coordinate group responses requires model systems with pheromone-mediated behaviors that are easily observable and induced in natural environments.</p>
+      <p><italic>Vibrio fischeri</italic> is an attractive model for studying pheromone-mediated gene regulation and host-microbe symbiosis <xref ref-type="bibr" rid="pone.0049590-Stabb1">[40]</xref>. Bioluminescence in <italic>V. fischeri</italic> is regulated in part by the LuxR-LuxI pheromone system <xref ref-type="bibr" rid="pone.0049590-Engebrecht1">[28]</xref>, and it is induced upon infecting the squid <italic>Euprymna scolopes</italic> in a natural and experimentally tractable symbiosis <xref ref-type="bibr" rid="pone.0049590-Stabb1">[40]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0049590-Wei1">[42]</xref>. The <italic>luxICDABEG</italic> operon (<xref ref-type="fig" rid="pone-0049590-g001">Fig. 1</xref>) underlies bioluminescence and encodes the LuxI pheromone synthase, which produces <italic>N</italic>-(3-oxohexanoyl)-L-homoserine lactone (3OC6) <xref ref-type="bibr" rid="pone.0049590-Schaefer1">[43]</xref>. When 3OC6 accumulates to a threshold concentration, it combines with LuxR to activate transcription of <italic>luxICDABEG</italic>
+<xref ref-type="bibr" rid="pone.0049590-Nealson1">[44]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0049590-Antunes1">[46]</xref>. Because the LuxI product 3OC6 induces <italic>luxI</italic> transcription, this &#x201C;autoinducer&#x201D; pheromone initiates a positive-feedback loop resulting in both increased 3OC6 production and bioluminescence.</p>
+      <fig id="pone-0049590-g001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0049590.g001</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>ArcA/ArcB and LuxR-LuxI-mediated regulation of bioluminescence in <italic>V. fischeri</italic>.</title>
+          <p>LuxI synthesizes 3OC6, a diffusible pheromone that upon reaching a sufficient concentration combines with LuxR. 3OC6-LuxR binds to the &#x201C;<italic>lux</italic> box&#x201D; and stimulates transcription of the <italic>luxICDABEG</italic> operon, which produces more 3OC6 and bioluminescence. The ArcA/ArcB two-component regulatory system responds to reducing conditions, and ArcA-P binds near the <italic>lux</italic> box, effectively inhibiting bioluminescence. Two other autoinducer pheromones AI-2 and C8-HSL are not shown, although the latter can also function with LuxR.</p>
+        </caption>
+        <graphic xlink:href="pone.0049590.g001"/>
+      </fig>
+      <p>The <italic>V. fischeri lux</italic> system also is regulated tightly in response to the environment, and such control is especially pronounced in isolates from <italic>E. scolopes</italic> such as strain ES114. ES114 is dim and produces little 3OC6 in culture, but in the host light organ it is &#x223C;1000-fold more luminescent and produces more 3OC6 than in culture, even at similar high cell densities <xref ref-type="bibr" rid="pone.0049590-Boettcher1">[47]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0049590-Lee1">[49]</xref>. Several regulators modulate Lux expression <xref ref-type="bibr" rid="pone.0049590-Whistler1">[27]</xref>, <xref ref-type="bibr" rid="pone.0049590-Lupp1">[38]</xref>, <xref ref-type="bibr" rid="pone.0049590-Lyell1">[50]</xref>, <xref ref-type="bibr" rid="pone.0049590-Dunlap1">[51]</xref>, perhaps none more impressively than the redox-responsive ArcA/ArcB two-component regulatory system <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>. ArcA is a direct repressor of <italic>lux</italic> and a <italic>V. fischeri arcA</italic> mutant is 100- to 1000-fold brighter than ES114 in culture, achieving nearly symbiotic luminescence levels <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>.</p>
+      <p>In this study, we used <italic>V. fischeri</italic> and ArcA-mediated control of <italic>lux</italic> to examine the interplay between direct regulation by an environmentally-responsive regulator and the positive feedback inherent in pheromone production. We also explored the potential for intercellular signaling by distinct symbiotic <italic>V. fischeri</italic> populations. Our data illustrate important potential roles for 3OC6-mediated communication beyond sensing a quorum.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Media and Growth Conditions</title>
+        <p><italic>V. fischeri</italic> was grown at 28&#xB0;C or 24&#xB0;C in one of three rich media depending on the application, as indicated below. The media used were LBS medium <xref ref-type="bibr" rid="pone.0049590-Stabb2">[53]</xref>, ASWT medium <xref ref-type="bibr" rid="pone.0049590-Septer1">[54]</xref>, or SWTO medium <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>. <italic>E. coli</italic> strains were grown in either LB medium <xref ref-type="bibr" rid="pone.0049590-Miller1">[55]</xref> or Brain Heart Infusion (Difco) at 37&#xB0;C. Antibiotic selection for <italic>V. fischeri</italic> and <italic>E. coli</italic> strains was performed as described previously <xref ref-type="bibr" rid="pone.0049590-Dunn1">[56]</xref>.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Plasmid and Strain Construction</title>
+        <p>Bacterial strains, plasmids, and oligonucleotides used in this study are presented in <xref ref-type="table" rid="pone-0049590-t001">Table 1</xref>. Plasmids were maintained in <italic>E. coli</italic> strain DH5&#x3B1; <xref ref-type="bibr" rid="pone.0049590-Hanahan1">[57]</xref> except for plasmids that contained only the R6K&#x3B3; origin of replication (<italic>oriV</italic><sub>R6K</sub>), which were maintained in strain DH5&#x3B1;&#x3BB;pir <xref ref-type="bibr" rid="pone.0049590-Dunn1">[56]</xref>, or in strain CC118&#x3BB;pir <xref ref-type="bibr" rid="pone.0049590-Herrero1">[58]</xref> in the case of plasmid pEVS104. Plasmids that were stably maintained in <italic>V. fischeri</italic> were derived from shuttle vectors that contain both <italic>oriV</italic><sub>R6K</sub> and the replication origin from <italic>V. fischeri</italic> plasmid pES213 (<italic>oriV</italic><sub>pES213</sub>) <xref ref-type="bibr" rid="pone.0049590-Dunn1">[56]</xref>, <xref ref-type="bibr" rid="pone.0049590-Dunn2">[59]</xref>. These shuttle vectors were maintained in <italic>E. coli</italic> DH5&#x3B1;&#x3BB;pir prior to introducing them into <italic>V. fischeri</italic>. Plasmids were mobilized from <italic>E. coli</italic> into <italic>V. fischeri</italic> by triparental mating using CC118&#x3BB;pir pEVS104 as a conjugative helper and exploiting the RP4 origin of transfer (<italic>oriT</italic><sub>RP4</sub>) as previously described <xref ref-type="bibr" rid="pone.0049590-Stabb3">[60]</xref>.</p>
+        <table-wrap id="pone-0049590-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0049590.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Strains, plasmids, and oligonucleotides used in this work.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0049590-t001-1" xlink:href="pone.0049590.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strains or Plasmids</td>
+                  <td align="left" rowspan="1" colspan="1">Relevant characteristics<xref ref-type="table-fn" rid="nt101">a</xref></td>
+                  <td colspan="2" align="left" rowspan="1">Source or Reference</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Strains</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="2" align="left" rowspan="1"/>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <italic>Escherichia coli</italic>
+                  </td>
+                  <td colspan="2" align="left" rowspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">DH5&#x3B1;</td>
+                  <td align="left" rowspan="1" colspan="1">F&#x2019;/<italic>endA1 hsdR17 glnV44 thi-1 recA1 gyrA96</italic> (Nx<sup>R</sup>) <italic>relA1</italic></td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Hanahan1">[57]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">&#x394;(<italic>lacIZYA-argF</italic>)<italic>U169deoR</italic>(f80<italic>dlacI</italic>&#x394;(<italic>lacZ</italic>)<italic>M15</italic>)</td>
+                  <td colspan="2" align="left" rowspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">DH5&#x3B1;&#x3BB;pir</td>
+                  <td align="left" rowspan="1" colspan="1">&#x3BB;<italic>pir</italic> derivative of DH5&#x3B1;</td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Dunn1">[56]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">CC118&#x3BB;pir</td>
+                  <td align="left" rowspan="1" colspan="1">&#x394;(<italic>ara-leu</italic>) <italic>araD</italic> &#x394;<italic>lac74 galE galK phoA20 thi-1 rpsE rpsB argE</italic>(Am) <italic>recA</italic> &#x3BB;<italic>pir</italic></td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Herrero1">[58]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" rowspan="1">
+                    <italic>Ralstonia solanacearum</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AW1-AI8,395</td>
+                  <td colspan="2" align="left" rowspan="1"><italic>solI8</italic>::SP <italic>aidA395</italic>::Tn<italic>3</italic>HoHo1 HSL-deficient Lac<sup>+</sup> Nx<sup>R</sup> Sp<sup>R</sup> Cb<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Flavier1">[67]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>Vibrio fischeri</italic>
+                  </td>
+                  <td colspan="2" align="left" rowspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ES114</td>
+                  <td colspan="2" align="left" rowspan="1">wild-type isolate from <italic>E. scolopes</italic> light organ</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Boettcher1">[47]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ANS3</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>luxI</italic>; <italic>luxI</italic> 3OC6 synthase (VF_A0924) gene deletion</td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ANS5</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>luxICDABEG</italic></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ANS6</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>arcA</italic>::<italic>erm</italic> &#x394;<italic>luxICDABEG</italic></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ANS7</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>arcA luxI</italic> point mutant</td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AMJ1</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>arcA</italic>::<italic>erm</italic>; <italic>arcA</italic> (VF_2120) deleted and replaced</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AMJ2</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>arcA</italic>; <italic>arcA</italic> (VF_2120) gene deletion</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">CL21</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 <italic>ainS</italic>::<italic>cat</italic>; C8 synthase (VF_1037) mutant</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Lupp2">[63]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">EVS102</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>luxCDABEG</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose2">[61]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">JB33</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 &#x394;<italic>arcA</italic>::<italic>erm</italic> &#x394;<italic>luxCDABEG</italic></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NL11</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 <italic>ainS</italic>::<italic>erm litR</italic>::<italic>kan</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Lyell1">[50]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VCW2G7</td>
+                  <td colspan="2" align="left" rowspan="1">ES114 <italic>luxI</italic> point mutant</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Lupp2">[63]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Plasmids</bold>
+                  </td>
+                  <td colspan="2" align="left" rowspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAJ4</td>
+                  <td colspan="2" align="left" rowspan="1">&#x394;<italic>arcA</italic> allele; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriT</italic>, Cm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAJ7</td>
+                  <td colspan="2" align="left" rowspan="1">&#x394;<italic>arcA</italic>::<italic>erm</italic> allele; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriT</italic>, Cm<sup>R</sup>, Erm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAKD601B</td>
+                  <td colspan="2" align="left" rowspan="1"><italic>lacI<sup>q</sup></italic> and IPTG-inducible promoter, <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>pES213</sub>, <italic>oriT</italic>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Dunn3">[81]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAKD702</td>
+                  <td colspan="2" align="left" rowspan="1">promoterless <italic>lacZ</italic>, <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>pES213</sub>, <italic>oriT</italic>, Cm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose3">[82]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAS2</td>
+                  <td colspan="2" align="left" rowspan="1">pEVS122 with <italic>luxI</italic> upstream sequence; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriT</italic>, Erm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAS3</td>
+                  <td colspan="2" align="left" rowspan="1">&#x394;<italic>luxI</italic> allele; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>ColE1</sub>, <italic>oriT</italic>, Erm<sup>R</sup>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAS4</td>
+                  <td colspan="2" align="left" rowspan="1">&#x394;<italic>luxICDABEG</italic> allele; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>ColE1</sub>, <italic>oriT</italic>, Em<sup>R</sup>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAS6</td>
+                  <td colspan="2" align="left" rowspan="1">&#x394;<italic>arcA</italic> allele (pAJ4) fused to pBluescript; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>ColE1</sub>, <italic>oriT</italic>, Cm<sup>R</sup>, Amp<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pAS104</td>
+                  <td colspan="2" align="left" rowspan="1">pAKD601B-<italic>arcA</italic> (IPTG-inducible <italic>arcA</italic>), <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>pES213</sub>, <italic>oriT</italic>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pBluescript</td>
+                  <td colspan="2" align="left" rowspan="1"><italic>oriV</italic><sub>ColE1</sub>, Amp<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">Stratagene</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pEVS104</td>
+                  <td colspan="2" align="left" rowspan="1">conjugative helper, <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriT</italic>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Stabb3">[60]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pEVS122</td>
+                  <td colspan="2" align="left" rowspan="1"><italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriT,</italic> Erm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Dunn1">[56]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pEVS148k</td>
+                  <td colspan="2" align="left" rowspan="1">pCR-BluntII-TOPO with <italic>luxI</italic> downstream sequence, <italic>oriV</italic><sub>ColE1</sub>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose2">[61]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pEVS149k</td>
+                  <td colspan="2" align="left" rowspan="1">pCR-BluntII-TOPO with <italic>luxG</italic> downstream sequence, <italic>oriV</italic><sub>ColE1</sub>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose2">[61]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pJLB169</td>
+                  <td colspan="2" align="left" rowspan="1">&#x394;<italic>arcA</italic>::<italic>erm</italic> allele (pAJ7) fused to pBluescript; <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>ColE1</sub>, <italic>oriT</italic>, Cm<sup>R</sup>, Erm<sup>R</sup>, Amp<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pJLB171</td>
+                  <td colspan="2" align="left" rowspan="1">pAKD702 containing the <italic>luxI</italic> promoter region, <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>pES213</sub>, <italic>oriT</italic>, Cm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Bose3">[82]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pVSV102</td>
+                  <td colspan="2" align="left" rowspan="1"><italic>gfp</italic>, <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>pES213</sub>, <italic>oriT</italic>, Kn<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Dunn2">[59]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pVSV208</td>
+                  <td colspan="2" align="left" rowspan="1"><italic>rfp</italic>, <italic>oriV</italic><sub>R6K&#x3B3;</sub>, <italic>oriV</italic><sub>pES213</sub>, <italic>oriT</italic>, Cm<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0049590-Dunn2">[59]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" rowspan="1">
+                    <bold>Oligonucleotides</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ASind_arcAF</td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <named-content content-type="gene">AT<underline>GAGCTC</underline>TAACCAGTTAGTTAGGTACCG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ASind_arcAR</td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <named-content content-type="gene">TA<underline>TCTAGA</underline>AAAGTCAGATAGAAGAGATTCTTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ASLUX1</td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <named-content content-type="gene">CG<underline>GCTAGC</underline>CCATGCAACCTCTCTTATTTTACATGATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ASLUX2</td>
+                  <td colspan="2" align="left" rowspan="1">
+                    <named-content content-type="gene">AC<underline>CTGCAG</underline>GTGCGGTGAAGTTATTGAGCACAACATG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">this study</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a</label>
+              <p>Kn<sup>R</sup>, Kanamycin resistance; Cm<sup>R</sup> and <italic>cat,</italic> Chloramphenicol resistance; Erm<sup>R</sup> and <italic>erm,</italic> Erythromycin resistance; Amp<sup>R</sup>, Ampicillin resistance; Nx<sup>R</sup>, Nalidixic acid resistance; Sp<sup>R</sup>, Spectinomycin resistance; Cb<sup>R</sup>, Carbenicillin resistance. Plasmid replication origins are designated <italic>oriV</italic> with a subscript indicating the source, and <italic>oriT</italic> indicates the RP4 origin of transfer.</p>
+            </fn>
+            <fn id="nt102">
+              <label>b</label>
+              <p>Oligonucleotides are in the 5&#x2032; to 3&#x2032; orientation with introduced restriction sites underlined.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>To generate mutations in <italic>V. fischeri</italic>, mutant alleles were mobilized on unstable plasmids into recipients, and allelic exchange was screened using appropriate antibiotic resistance markers and PCR. To construct a &#x394;<italic>luxI</italic> mutant, sequence upstream of <italic>luxI</italic> was PCR amplified using primers ASLUX1 and ASLUX2 and cloned into pEVS122 at the SmaI site resulting in plasmid pAS2. pAS2 was fused at the NheI site to NheI-digested pEVS148k, which contains sequence downstream of <italic>luxI,</italic> resulting in the &#x394;<italic>luxI</italic> deletion construct pAS3. The &#x394;<italic>luxI</italic> allele on pAS3 was exchanged into ES114 to generate strain ANS3. To make the &#x394;<italic>arcA luxI</italic> double mutant strain ANS7, plasmid pAJ4 containing the &#x394;<italic>arcA</italic> allele was fused to pBluescript at their respective SpeI sites, resulting in plasmid pAS6, and the &#x394;<italic>arcA</italic> allele on pAS6 was exchanged into VCW2G7 (<italic>luxI</italic> point mutant). To construct the &#x394;<italic>arcA</italic>::<italic>erm</italic> &#x394;<italic>luxCDABEG</italic> strain JB33, the &#x394;<italic>luxCDABEG</italic> allele on plasmid pEVS153 was exchanged into the &#x394;<italic>arcA</italic>::<italic>erm</italic> strain AMJ1. To construct the <italic>V. fischeri</italic> &#x394;<italic>luxICDABEG</italic> mutant, pAS2 was fused at the NheI site to NheI-digested pEVS149k, which contains sequence downstream of <italic>luxG,</italic> resulting in the <italic>luxICDABEG</italic> deletion allele on plasmid pAS4. This &#x394;<italic>luxICDABEG</italic> allele was exchanged into ES114, generating strain ANS5. To make the &#x394;<italic>arcA</italic>::<italic>erm</italic> &#x394;<italic>luxICDABEG</italic> strain ANS6, the &#x394;<italic>arcA</italic>::<italic>erm</italic> allele on plasmid pJLB169 was exchanged into strain ANS5. To construct plasmid pAS104 with an inducible <italic>arcA</italic>, the <italic>arcA</italic> gene including 24 bp upstream of the ATG and 21 bp downstream of the TAA stop codon, was PCR amplified using primers ASind_arcAF and ASind_arcAR and directionally cloned into the SacI and XbaI sites of plasmid pAKD601B.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Luminescence Assays</title>
+        <p>To assay luminescence, <italic>V. fischeri</italic> cultures were grown overnight in LBS medium and diluted 1&#x2236;1000 into either 25 ml SWTO medium in 125 ml flasks or 50 ml SWTO medium in 250 ml flasks. Within each experiment, the same flask and medium volume combinations were used for all strains and treatments. Media was supplemented with 2 mM isopropyl beta D-thiogalactopyranoside (IPTG) (Sigma-Aldrich, St. Louis, MO) or 50 nM 3OC6 (Sigma-Aldrich) where indicated. Cultures were incubated at 24&#xB0;C with shaking at 200 rpm. At indicated time points, 0.5-ml samples were removed and the cell density was estimated by measuring the optical density at 595 nm (OD<sub>595</sub>) using a BioPhotometer (Brinkman Instruments, Westbury, NY). The cuvette was then shaken to aerate the sample and luminescence was measured using a GLOMAX 20/20 luminometer (Promega, Madison, WI) with a 10 sec integration setting. Luminescence values were normalized to cell density (OD<sub>595</sub>) unless indicated otherwise.</p>
+      </sec>
+      <sec id="s2d">
+        <title>&#xDF;-galactosidase Assays for Promoter Reporter Activity</title>
+        <p><italic>V. fischeri</italic> strains harboring the P<italic><sub>luxI</sub>-lacZ</italic> transcriptional reporter plasmid pJLB171 or the promoterless-<italic>lacZ</italic> vector parent pAKD702 were grown as described above for luminescence assays. At peak luminescence (OD<sub>595</sub> &#x223C;2.0&#x2013;2.5) cells were collected by centrifugation and the supernatant was discarded. Cell pellets were frozen at &#x2212;20&#xB0;C overnight and &#xDF;&#x2013;galactosidase assays were performed to determine Miller units as described previously <xref ref-type="bibr" rid="pone.0049590-Bose2">[61]</xref>.</p>
+      </sec>
+      <sec id="s2e">
+        <title>3OC6 Bioassays</title>
+        <p>Previous studies assayed 3OC6 by adding samples to <italic>V. fischeri</italic> wild-type ES114, and endogenous 3OC6 production did not impede its utility in assaying exogenous 3OC6 <xref ref-type="bibr" rid="pone.0049590-Boettcher2">[48]</xref>, <xref ref-type="bibr" rid="pone.0049590-Gray1">[62]</xref>. However, it has more recently been found that ES114 produces <italic>N</italic>-octanoyl homoserine lactone (C8) at much higher levels than 3OC6, and C8 can affect LuxR expression and activity <xref ref-type="bibr" rid="pone.0049590-Lupp2">[63]</xref>&#x2013;<xref ref-type="bibr" rid="pone.0049590-Stabb4">[65]</xref>. For our bioassay we therefore used strain NL11 (&#x394;<italic>ains</italic>; <italic>litR</italic>::<italic>kan</italic>), which lacks both the C8 synthase (AinS) and the LitR regulator that modulates LuxR in response to C8 (or to the LuxS-generated AI-2).</p>
+        <p>To determine the level of 3OC6, <italic>V. fischeri</italic> cultures were grown in SWTO medium in aerobic shake flasks to an OD<sub>595</sub> of 2.0 when cells were near peak luminescence. Cells were removed by centrifugation and the supernatant was extracted using equal parts supernatant and acidified ethyl acetate (1&#x2236;1000 acetic acid in ethyl acetate). The ethyl acetate layer was removed and allowed to evaporate in sterile glass flasks. After evaporation the extracted HSL was resuspended in a volume of SWTO equal to the original culture volume, and this extract-amended SWTO was inoculated 1&#x2236;1000 with <italic>V. fischeri</italic> bioassay strain NL11. Cultures were incubated at 24&#xB0;C with shaking at 200 rpm, and cell density and luminescence were measured over time. Luminescence values for each sample extract were compared to those for 3OC6 standards to quantify the pheromone levels. For standards, 3OC6 (Sigma-Aldrich) was added into culture supernatant from a &#x394;<italic>luxI</italic> deletion strain (ANS3) to known concentrations (0, 1, 12.5, 25, 50, and 100 nM) and these 3OC6-amended supernatants were extracted and processed as described above.</p>
+      </sec>
+      <sec id="s2f">
+        <title>C8 Bioassays</title>
+        <p>C8 bioassays employed a <italic>Ralstonia solanacearum</italic> bioassay strain (AW1-AI8,395) that is responsive to unsubstituted HSLs with acyl chains of eight or more carbons <xref ref-type="bibr" rid="pone.0049590-Schaefer3">[66]</xref>, <xref ref-type="bibr" rid="pone.0049590-Flavier1">[67]</xref> and has been used previously to assay C8 levels in <italic>V. fischeri</italic>
+<xref ref-type="bibr" rid="pone.0049590-Whistler1">[27]</xref>, <xref ref-type="bibr" rid="pone.0049590-Lupp1">[38]</xref>, <xref ref-type="bibr" rid="pone.0049590-Schaefer3">[66]</xref>. <italic>V. fischeri</italic> cultures were grown and HSLs extracted as described for the 3OC6 bioassays above. After evaporation the extracted HSL was resuspended in an equal volume of bioassay medium (per liter: 10 g tryptone, 5 g yeast extract, 0.5% glucose) and then diluted 1&#x2236;100 into 2 ml of bioassay medium. Strain AW1-AI8,395 was inoculated to an OD<sub>595</sub> of &#x223C;0.1 and tubes were incubated at 28&#xB0;C with shaking at 200 rpm for &#x223C;5 hr until cultures reached an OD<sub>595</sub> of &#x223C;0.4&#x2013;0.6. Cells were collected to assay for &#xDF;&#x2013;galactosidase activity as described previously <xref ref-type="bibr" rid="pone.0049590-Bose2">[61]</xref> and Miller units for each sample extract were compared to those for C8 standards to quantify pheromone levels. For C8 standards, C8 (Sigma-Aldrich) was added to culture supernatant from a <italic>V. fischeri ainS</italic> mutant (CL21) to known concentrations (0, 1, 5, 10 nM) and these C8-amended supernatants were extracted and processed as described above. We used a Student&#x2019;s t-test to determine whether strains had significantly different C8 accumulation.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Squid Colonization Assays</title>
+        <p><italic>V. fischeri</italic> cultures were grown in ASWT to an OD<sub>595</sub> of 0.3&#x2013;0.7 and diluted in Instant Ocean (United Pet Group Inc., Cincinnati, OH) to 660&#x2013;3000 CFU ml<sup>&#x2212;1</sup>. Aposymbiotic squid were added to the inoculum water overnight. The next morning squid were transferred to <italic>V. fischeri</italic>-free Instant Ocean. To measure the onset of luminescence in symbiotic animals, the luminescence per squid was measured using a LS6500 scintillation counter (Beckman Coulter, Fullerton, CA). At designated time points, squid were anesthetized with MgCl<sub>2</sub>, dissected and imaged using a Nikon (Melville, NY) Eclipse E600 epifluorescence microscope with a Nikon 96157 red filter cube, a Nikon 41017 green filter cube, and a Nikon Coolpix 5000 camera. After imaging, squid were homogenized and plated to determine CFU per squid.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>The arcA Mutant Produces High Levels of 3OC6 Pheromone</title>
+        <p>Previous work in <italic>V. fischeri</italic> showed <italic>arcA</italic> and <italic>arcB</italic> mutants have bright luminescence in culture relative to the parent strain <xref ref-type="bibr" rid="pone.0049590-Lyell1">[50]</xref>, <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>. Since <italic>luxI</italic>, the 3OC6 synthase gene, is encoded in the same operon as the genes directly involved in generating bioluminescence, we predicted that an <italic>arcA</italic> mutant would also produce more 3OC6 pheromone than wild type. We found that at an OD<sub>595</sub> of 2.0 when cultures are near peak luminescence, &#x394;<italic>arcA</italic> mutant cultures contained on average 55 nM 3OC6 pheromone while the wild-type, <italic>luxI</italic>, and &#x394;<italic>arcA luxI</italic> mutant cultures were below the level of detection for the assay (&lt;1 nM). Thus, as predicted, ArcA mediates repression of not only bioluminescence but also 3OC6 pheromone synthesis.</p>
+      </sec>
+      <sec id="s3b">
+        <title>Bright Luminescence of the arcA Mutant is Mostly due to 3OC6-mediated Positive Feedback</title>
+        <p>The &#x223C;500-fold increase in luminescence in <italic>arcA</italic> mutants (documented previously <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>) should be a combined effect of the loss of direct, ArcA-dependent repression of the <italic>lux</italic> operon together with the 3OC6-mediated positive feedback inherent in the LuxR-LuxI regulatory circuit. To test the relative importance of these two effects we first assayed luminescence in a &#x394;<italic>arcA</italic> mutant strain with or without a functional <italic>luxI</italic> 3OC6 synthase gene. It is important to note that under these broth culture conditions, LuxR-mediated activation of the <italic>lux</italic> operon in ES114 is stimulated primarily by C8 <xref ref-type="bibr" rid="pone.0049590-Lupp2">[63]</xref>, which is the product of AinS <xref ref-type="bibr" rid="pone.0049590-Gilson1">[68]</xref>, <xref ref-type="bibr" rid="pone.0049590-Kuo1">[69]</xref>. C8 measurements ranged from 150 to 500 nM in different experiments but were never significantly different between ES114 and the &#x394;<italic>arcA</italic> mutant (p&gt;0.2). The <italic>arcA</italic> mutant was &gt;350-times more luminescent than wild type; however, in the <italic>luxI</italic> mutant background, the <italic>arcA</italic> mutation had only a 2-fold effect on luminescence (<xref ref-type="fig" rid="pone-0049590-g002">Fig. 2A</xref>). Similarly, we saw a much greater effect of the &#x394;<italic>arcA</italic> allele on a P<italic><sub>lux</sub></italic>-<italic>lacZ</italic> reporter in the wild-type background (10-fold) than in a <italic>luxI</italic> mutant (2-fold) (<xref ref-type="fig" rid="pone-0049590-g002">Fig. 2B</xref>). These results indicate that in the absence of ArcA-dependent repression of <italic>lux</italic>, bright bioluminescence is mediated primarily through the 3OC6-dependent positive feedback regulation of the <italic>lux</italic> genes.</p>
+        <fig id="pone-0049590-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0049590.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Effect of <italic>luxI</italic> and 3OC6 on derepression of the <italic>lux</italic> operon in an <italic>arcA</italic> mutant.</title>
+            <p>Luminescence or <italic>lux</italic> reporter expression was measured in strains ES114 (WT), AMJ2 (&#x394;<italic>arcA</italic>), VCW2G7 (<italic>luxI</italic> mutant), or ANS7 (&#x394;<italic>arcA luxI</italic>). (A) Peak specific luminescence (luminescence per OD<sub>595</sub>) of strains grown in SWTO in aerobic shake flasks. Error bars indicate standard deviation (n&#x200A;=&#x200A;3). (B) Plasmid based P<italic><sub>luxI</sub></italic>-<italic>lacZ</italic> transcriptional reporter assays. Strains containing pJLB171 or the promoterless vector pAKD702 were grown in duplicate aerobic shake flasks in SWTO medium. Cells were harvested at peak luminescence for &#xDF;&#x2013;galactosidase assays. Error bars indicate standard deviation (n&#x200A;=&#x200A;2). Asterisk indicates p-value of &lt;0.05 with a Student&#x2019;s t-test comparing the <italic>arcA</italic> mutant to its respective parent strain. (C) Peak specific luminescence values for aerobic cultures grown in SWTO medium with 50 nM 3OC6 added where indicated. Error bars (some too small to see) indicate standard deviation (n&#x200A;=&#x200A;2). Each panel is representative of at least three independent experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0049590.g002"/>
+        </fig>
+        <p>To further explore the relative regulatory strengths of 3OC6-mediated positive feedback and direct repression of <italic>lux</italic> by ArcA, we tested whether addition of 3OC6 at concentrations found in cultures of the &#x394;<italic>arcA</italic> mutant could overcome ArcA-mediated repression of <italic>lux</italic> in wild-type cells. When 50 nM 3OC6 (the amount accumulated in <italic>arcA</italic> mutant cultures) was added to wild-type cultures, luminescence increased to levels comparable to that found in the &#x394;<italic>arcA</italic> mutant (<xref ref-type="fig" rid="pone-0049590-g002">Fig. 2C</xref>). Taken together, the results above suggested that ArcA-mediated repression of <italic>lux</italic> might be rendered inconsequential if cells have previously induced LuxI-mediated positive feedback or if a distinct population of neighboring cells lacks active ArcA-mediated repression of <italic>lux</italic>. Below we describe tests of both of these ideas.</p>
+      </sec>
+      <sec id="s3c">
+        <title>3OC6-mediated Positive Feedback Results in Irreversible Luminescence Induction</title>
+        <p>Because an <italic>arcA</italic> mutant produces high levels of 3OC6 and exogenous 3OC6 can overcome ArcA-mediated <italic>lux</italic> repression, we asked whether ArcA can repress luminescence once the LuxI-mediated positive feedback circuit is initiated. To test this, we constructed an IPTG-inducible <italic>arcA</italic> expression vector (pAS104) and moved it into an <italic>arcA</italic> mutant to control when <italic>arcA</italic> is expressed. When the <italic>arcA</italic> mutant carrying pAS104 was grown in aerobic shake flasks without IPTG, luminescence reached the same high level observed when the empty vector was present (data not shown), suggesting ArcA expression in the absence of IPTG was low enough to have little regulatory impact. When IPTG was present from the start of the experiment (T<sub>0</sub>), luminescence was repressed to a level similar to that of the wild-type control (<xref ref-type="fig" rid="pone-0049590-g003">Fig. 3</xref>). However, when IPTG was added to cultures after luminescence was induced (T<sub>1</sub>), <italic>arcA</italic> expression was no longer able to repress luminescence, resulting in cultures with bright luminescence similar to that in the &#x394;<italic>arcA</italic> mutant without IPTG (<xref ref-type="fig" rid="pone-0049590-g003">Fig. 3</xref>). These results suggest that once 3OC6-mediated positive feedback is initiated fully by the loss of Arc-dependent repression, expression of ArcA cannot reverse this effect.</p>
+        <fig id="pone-0049590-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0049590.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Effect of controlled ArcA expression on bioluminescence.</title>
+            <p>Cultures of either the &#x394;<italic>arcA</italic> mutant with the inducible-<italic>arcA</italic> vector pAS104 (circles and squares) or wild type (diamonds) were grown in SWTO medium in duplicate aerobic shake flasks. Specific luminescence (luminescence per OD<sub>595</sub>) was observed for cultures grown with no addition (black) or with 2 mM IPTG added at the time of inoculation (T<sub>0</sub>, gray squares) or when cultures reached an OD<sub>595</sub> of &#x223C;1.0 (T<sub>1</sub>, gray circles).</p>
+          </caption>
+          <graphic xlink:href="pone.0049590.g003"/>
+        </fig>
+      </sec>
+      <sec id="s3d">
+        <title>3OC6 from arcA Mutant Cells can Induce Luminescence in Neighboring Cells in Culture</title>
+        <p>We next asked whether 3OC6 from <italic>arcA</italic> mutant cells could induce luminescence in neighboring wild-type cells, overcoming ArcA-mediated repression of <italic>lux</italic> in the wild-type population. To examine this possibility we tested whether a dark (&#x394;<italic>luxCDABEG</italic>) <italic>arcA</italic> mutant could induce luminescence in wild-type cells in a 3OC6-dependent manner. When wild-type cells are co-cultured in the presence of dark (&#x394;<italic>luxCDABEG</italic>) <italic>arcA</italic> mutant cells in shake flasks, the specific luminescence of the wild-type cells increases nearly 500-fold (<xref ref-type="fig" rid="pone-0049590-g004">Fig. 4A</xref>), and this luminescence induction is dependent on <italic>luxI</italic> and 3OC6 pheromone production in the <italic>arcA</italic> mutant cells (<xref ref-type="fig" rid="pone-0049590-g004">Fig. 4B</xref>).</p>
+        <fig id="pone-0049590-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0049590.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Inter-strain bioluminescence induction in mixed and spatially separated <italic>arcA</italic><sup>+</sup> and <italic>arcA</italic> mutant cells.</title>
+            <p>Wild-type cells were mixed with either the dark <italic>arcA</italic> &#x394;<italic>luxCDABEG</italic> strain (JB33) able to produce 3OC6 (A) or the dark <italic>arcA</italic> &#x394;<italic>luxICDABEG</italic> strain (ANS6) lacking the <italic>luxI</italic> 3OC6 synthase gene (B). Wild-type and <italic>arcA</italic> mutant cultures and co-cultures were grown in SWTO broth in duplicate aerobic shake flasks to peak luminescence. A sample was removed and dilution plated to determine the CFU ml<sup>&#x2212;1</sup> and the percent of wild-type cells in each co-culture (52% for A, 68% for B). Luminescence values are presented as luminescence per 10<sup>8</sup> CFU. Luminescence values presented for co-cultures are luminescence per 10<sup>8</sup> wild-type CFU. (C) Cultures of wild type or the <italic>luxI</italic> mutant were streaked onto SWTO agar plates next to spotted culture of the dark <italic>arcA</italic> &#x394;<italic>luxCDABEG</italic> strain (JB33) able to produce 3OC6. Inoculated plates were incubated at room temperature overnight and negative images of bioluminescence were captured with a BioRad Fluor-S MultiImager. Scale bar indicates approximately 5 mm.</p>
+          </caption>
+          <graphic xlink:href="pone.0049590.g004"/>
+        </fig>
+        <p>Additionally, we asked whether pheromone produced by the <italic>arcA</italic> mutant could be communicated across a distance when strains were spatially segregated. To test this we streaked wild-type and <italic>luxI</italic> mutant cultures onto an agar plate next to a spot of dark <italic>arcA</italic> mutant culture. After incubation, the wild-type streak showed high luminescence nearest the pheromone-producing <italic>arcA</italic> mutant, with elevated but diminishing luminescence in cells further from the pheromone source extending &#x223C;15 mm (<xref ref-type="fig" rid="pone-0049590-g004">Fig. 4C</xref>). In contrast, the <italic>luxI</italic> mutant streak showed increased luminescence only nearest to the <italic>arcA</italic> mutant (<xref ref-type="fig" rid="pone-0049590-g004">Fig. 4C</xref>). The luminescence induction observed in both wild-type and <italic>luxI</italic> mutant streaks was dependent on <italic>luxI</italic> and 3OC6 synthesis in the dark <italic>arcA</italic> mutant (data not shown). The difference between luminescence of the wild-type and <italic>luxI</italic> streaks in <xref ref-type="fig" rid="pone-0049590-g004">Figure 4C</xref> presumably reflects induction in the <italic>luxI</italic> streak only by 3OC6 diffusing from the <italic>arcA</italic> mutant, whereas cells in the wild-type streak amplify the 3OC6 signal by positive feedback to extend the distance over which luminescence is induced. These results indicate that LuxI-mediated positive feedback considerably expands the range of this Arc-controlled signaling response.</p>
+      </sec>
+      <sec id="s3e">
+        <title>3OC6 from One Population of Symbiotic Cells can Induce Luminescence in 3OC6-deficient Cells in the Squid Light Organ</title>
+        <p>Theoretically, inter-strain induction of luminescence such as that shown in <xref ref-type="fig" rid="pone-0049590-g004">Figure 4</xref> could reflect a similar phenomenon in the light organ, with a subpopulation inducing luminescence in a broader population through amplification and diffusion of pheromone originating from a distinct subgroup. Therefore, we were interested in testing whether a subpopulation of symbiotic cells can induce luminescence in the wider community in the squid light organ. While the intercellular signaling experiments described above used <italic>arcA</italic> mutants as a subpopulation of cells with altered regulation of pheromone synthesis, we did not use <italic>arcA</italic> mutants in the squid colonization experiment described below. Previous studies showed wild-type <italic>V. fischeri</italic> cells produce high levels of pheromone in the light organ <xref ref-type="bibr" rid="pone.0049590-Boettcher2">[48]</xref>. Moreover, ArcA does not repress luminescence in symbiotic cells <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>, suggesting ArcA most likely does not repress pheromone synthesis in these cells as well. For these reasons, we used <italic>arcA</italic><sup>+</sup>
+<italic>V. fischeri</italic> strains to test for intercellular signaling in the squid light organ.</p>
+        <p>To determine if a subpopulation of cells can induce luminescence in the wider light organ community, aposymbiotic juvenile squid were co-infected with a 1&#x2236;1 mixture of a <italic>gfp</italic>-labeled dark mutant (&#x394;<italic>luxCDABEG</italic>), that can still synthesize 3OC6, and a <italic>rfp</italic>-labeled <italic>luxI</italic> mutant that cannot make 3OC6. Neither strain alone can induce symbiotic luminescence <xref ref-type="bibr" rid="pone.0049590-Lupp2">[63]</xref> (<xref ref-type="fig" rid="pone-0049590-g005">Fig. 5A</xref>). However, when these strains co-colonize the light organ, if sufficient pheromone from the <italic>gfp</italic>-labeled dark mutant can diffuse into the pheromone deficient <italic>rfp</italic>-labeled strain, luminescence should be observed. 24 hr after infection, luminescence values were recorded for each squid before it was dissected and imaged with an epifluorescence microscope to visualize the spatial distribution of the two strains within the light organ (<xref ref-type="fig" rid="pone-0049590-g005">Fig. 5B</xref>). We observed wild-type levels of luminescence in the <italic>rfp</italic>-labeled <italic>luxI</italic> mutant cells in the squid when co-infecting the light organ with a dark 3OC6-producing strain (<xref ref-type="fig" rid="pone-0049590-g005">Fig. 5C</xref>). Interestingly, even when the dark pheromone-donor strain (&#x394;<italic>luxCDABEG</italic>) comprised as little as 8% of the light organ population in a mixed infection with the 3OC6-deficient (<italic>luxI</italic>) strain, the latter achieved luminescence comparable to that of wild-type in a clonal infection, and this robust induction of the <italic>luxI</italic> mutant by the dark strain occurred despite significant segregation of the two strains in the light organ. These results indicate that 3OC6-mediated intercellular signaling can occur between distinct subpopulations of symbiotic cells and that high levels of 3OC6 synthesis in only a subset of the population are sufficient to induce luminescence fully in the remaining cells occupying the light organ.</p>
+        <fig id="pone-0049590-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0049590.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Inter-strain bioluminescence induction in the host light organ.</title>
+            <p>(A) Relative luminescence induction over time for apo-symbiotic squid (black triangles) and squid infected with either the wild type (gray squares) or the VCW2G7 <italic>luxI</italic> mutant (empty circles). (B) GFP-labeled &#x394;<italic>luxCDABEG</italic> (EVS102) cells were mixed with RFP-labeled <italic>luxI</italic> mutant (VCW2G7) cells at a ratio of &#x223C;1&#x2236;1 to inoculate apo-symbiotic juvenile squid. At 24 hr post infection, squid were dissected and imaged by epifluorescence microscopy to determine the spatial location of both cell types within the squid light organ using filters that allowed visualization of green fluorescence (top), red fluorescence (middle), or green and red fluorescence (bottom). Scale bar indicates approximately 100 &#xB5;m. (C) Squid were then homogenized and plated to determine the CFU per squid for each cell type and to calculate the luminescence per 10<sup>6</sup> wild-type or <italic>luxI</italic> mutant cells. Data include nine squid colonized with wild type and six co-colonized squid. Co-colonized squid contained 12&#x2013;92% of the <italic>luxI</italic> mutant in the colonization. For reference, squid clonally colonized with the <italic>luxI</italic> mutant have an average background relative luminescence per 10<sup>6</sup> CFU of &lt;10<sup>4</sup> on this scale.</p>
+          </caption>
+          <graphic xlink:href="pone.0049590.g005"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>Bacterial pheromone signaling often is governed by environmental regulators and by pheromone-dependent positive feedback loops, both of which modulate the LuxR/LuxI pheromone signaling system that controls bioluminescence in <italic>V. fischeri</italic>. The relative strengths of environmentally responsive regulators and positive feedback have important implications for the biological functions of pheromone signaling in nature, and in this study we explored their contributions to <italic>lux</italic> regulation in the squid symbiotic strain ES114. We previously found that ArcA is a direct repressor of the <italic>luxICDABEG</italic> operon, and that <italic>arcA</italic> or <italic>arcB</italic> mutants are 100- to 1000-fold brighter than ES114 in culture <xref ref-type="bibr" rid="pone.0049590-Lyell1">[50]</xref>, <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>. In this study we were surprised to find that in the absence of LuxI-mediated positive feedback, ArcA is actually a very weak repressor of the <italic>lux</italic> operon, repressing luminescence only about 2 fold. However, its influence over <italic>lux</italic> expression is amplified by LuxI-dependent positive feedback resulting in more than a hundred-fold additional increase in luminescence (<xref ref-type="fig" rid="pone-0049590-g002">Fig. 2</xref>).</p>
+      <p>Given the interest in mathematically modeling the <italic>lux</italic> circuit, we should note that our data do not necessarily indicate that a simple positive feedback circuit has such a large effect on <italic>lux</italic> operon transcription. Importantly for quantitative assessment of this circuit, luminescence output does not appear to correspond linearly with transcription from the <italic>luxI</italic> promoter. In studies either using <italic>gfp</italic> embedded in the <italic>lux</italic> operon or measuring transcripts by microarray analysis, conditions that induce luminescence 100- to 1000-fold only had a 10- to 20-fold effect on the GFP reporter or <italic>lux</italic> mRNA <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>, <xref ref-type="bibr" rid="pone.0049590-Antunes2">[70]</xref>, <xref ref-type="bibr" rid="pone.0049590-Perez1">[71]</xref>. Similarly, in <xref ref-type="fig" rid="pone-0049590-g002">Figure 2</xref> we show a &#x223C;10-fold effect on expression of a plasmid-borne P<italic><sub>luxI</sub></italic>-<italic>lacZ</italic> reporter under conditions where luminescence was affected by at least an additional order of magnitude. Using the strain with <italic>gfp</italic> added to the <italic>lux</italic> operon, Perez <italic>et al</italic>. noted the relationship between fluorescence and luminescence followed a power law, and speculated that this may be due to the association equilibrium of LuxA and LuxB, which must dimerize to form active luciferase <xref ref-type="bibr" rid="pone.0049590-Perez1">[71]</xref>. Unpublished data also suggest the <italic>lux</italic> operon may be post-transcriptionally controlled by a regulator that can be titrated with sufficient mRNA, which would also lead to a non-linear response between <italic>lux</italic> transcription and luminescence.</p>
+      <p>Given the overriding strength of positive feedback, we speculated that ArcA-mediated repression of <italic>lux</italic> would be rendered insignificant after a culture has engaged LuxI- (3OC6-) mediated positive feedback, or if <italic>lux</italic> in neighboring cells was highly expressed, for example following deactivation of the Arc system. <xref ref-type="fig" rid="pone-0049590-g003">Figures 3</xref> and <xref ref-type="fig" rid="pone-0049590-g004">4</xref> illustrate support for these two ideas. Taken together these results have significant implications for the symbiotic role of pheromone signaling in at least two ways.</p>
+      <p>The first functional implication of our results is that the data in <xref ref-type="fig" rid="pone-0049590-g003">Figure 3</xref> indicate an environmental condition in the host necessary for induction of 3OC6 signaling need not be maintained over time, because once the <italic>lux</italic> system is induced it essentially becomes more difficult to turn off. In the case of the ArcA/ArcB two component system, ArcB renders ArcA more active under reducing conditions and less active under oxidizing conditions. Bose <italic>et al</italic>. previously proposed that initial <italic>V. fischeri</italic> colonists might experience an oxidizing environment, leading to inactivation of ArcA/ArcB and induction of the <italic>lux</italic> operon but that later in infection, cells would become more crowded in the light-organ crypts, consume O<sub>2</sub>, and generate more reducing conditions that activate ArcA/ArcB <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>. They suggested that while ArcA might regulate other genes at this time later in infection, it would no longer effectively repress <italic>lux</italic> due to the increased synthesis of LuxI, accumulation of 3OC6, and positive feedback. More recently, studies by Williams et al. using transgenic <italic>E. coli</italic> strains also noted autoregulatory feedback by LuxR leading to more of this pheromone receptor in the cell and hysteresis <xref ref-type="bibr" rid="pone.0049590-Williams1">[72]</xref>, which may occur in strain ES114. The model proposed by Bose <italic>et al</italic>. reconciled the observations that ArcA did not repress <italic>lux</italic> in symbiotic cells but did appear to have a role in symbiont fitness later in infection <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>. The results of our study lend support for this model; however, our data also underscore the need to understand regulatory inputs during colonization of the host light organ. Given the discovery that direct regulation of the <italic>lux</italic> promoter by ArcA is quite weak, it is possible that the effect of another regulator is amplified by positive feedback and overpowers the repression by ArcA. The Arc activation state in symbiotic cells remains unknown, but as discussed below it is a priority for future research.</p>
+      <p>A second key implication of our results is that not all symbiotic cells would have to experience a stimulatory environment in the host for there to be a population-wide induction of luminescence. As noted above, high cell density alone will not induce luminescence in ES114, but the combination of a quorum and some aspect of the host environment foster induction of <italic>lux</italic> and bioluminescence. In <xref ref-type="fig" rid="pone-0049590-g004">Figure 4</xref> we show that in the absence of ArcA-dependent repression of <italic>lux</italic>, 3OC6 can diffuse into nearby cells and induce luminescence despite ArcA actively repressing the <italic>lux</italic> operon in the cells receiving 3OC6. Superficially, the experiment shown in <xref ref-type="fig" rid="pone-0049590-g004">Figure 4C</xref> resembles many others wherein added pheromone or a pheromone-producing strain stimulates a response in cells lacking pheromone production, with the signal diffusing over millimeter distances <xref ref-type="bibr" rid="pone.0049590-Dilanji1">[73]</xref>, <xref ref-type="bibr" rid="pone.0049590-Flickinger1">[74]</xref>. However, the key difference is that in <xref ref-type="fig" rid="pone-0049590-g004">Figure 4C</xref> an environmentally responsive regulator is what distinguishes pheromone levels in the adjacent strains. In short, <xref ref-type="fig" rid="pone-0049590-g004">Figure 4</xref> shows that in a heterogeneous population, either mixed or spatially segregated, derepression of pheromone synthesis and the ensuing positive feedback override direct repression. These results imply that a group response can be coordinated based on physiological conditions that are not necessarily being experienced by the entire population.</p>
+      <p><xref ref-type="fig" rid="pone-0049590-g006">Figure 6</xref> further illustrates how we interpret the data shown in <xref ref-type="fig" rid="pone-0049590-g004">Figure 4C</xref>, and how this result could reflect luminescence induction in the symbiosis. In our model, some environmental cue in a host microenvironment is found in a gradient. For example, if oxygen, reactive oxygen species or another good electron acceptor were provided by the host but also consumed by the bacteria (e.g. oxygen consumed by luciferase), there could be a relatively steep gradient of this cue. Perhaps symbionts nearer the host epithelium are exposed to a sufficiently oxidative environment to turn off Arc while others deeper in the crypt lumen experience more reduced conditions wherein Arc is active. The first group, with inactive Arc, might then initiate LuxI-mediated pheromone synthesis, producing a signal that spreads through the population. Quite the opposite of the original environmental cue, the pheromone signal would not be destroyed by other symbiont cells but rather it would be amplified by positive feedback, leading to a much more shallow gradient. Put together, this scenario could allow cell-cell signaling to induce a broader population response based on an environment only experienced by a subpopulation.</p>
+      <fig id="pone-0049590-g006" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0049590.g006</object-id>
+        <label>Figure 6</label>
+        <caption>
+          <title>Models of how subpopulations with heterogeneous Arc status could coordinate population-wide responses.</title>
+          <p>Triangles indicate 3OC6 pheromone, white cells indicate no luminescence, and blue cells indicate luminescent cells. Panel A illustrates an interpretation of the data in <xref ref-type="fig" rid="pone-0049590-g004">Figure 4C</xref>, and panel B illustrates how similar signaling might occur in the host environment. In panel B we propose that even if only a subset of cells in the light organ experience physiological changes that silence ArcB kinase activity, this could result in loss of ArcA-dependent repression of <italic>lux</italic> followed by increased production of 3OC6 pheromone signals. This 3OC6 could then diffuse into neighboring ArcA-repressed cells to initiate positive feedback regulation of <italic>lux,</italic> thereby inducing luminescence in a population-wide response to conditions sensed by ArcB in a sub-population of symbionts.</p>
+        </caption>
+        <graphic xlink:href="pone.0049590.g006"/>
+      </fig>
+      <p>Our model in <xref ref-type="fig" rid="pone-0049590-g006">Figure 6B</xref> in part invokes a scenario wherein 3OC6 signal from a subpopulation in the light organ initiates a population-wide response, and while this seemed plausible to us it had never been tested. In <xref ref-type="fig" rid="pone-0049590-g005">Figure 5</xref>, we observed pheromone-mediated intercellular communication in the squid light organ, where dark 3OC6-producing cells induced luminescence in co-colonizing, 3OC6-deficient cells. This inter-strain signaling in the light organ was particularly remarkable in that only a relatively small and segregated portion of the population needed to be producing 3OC6 in order to induce luminescence fully in the remaining cells. Moreover, it is worth noting that only the 3OC6-producing cells retain positive feedback regulation of pheromone synthesis, and therefore such positive feedback was not required for the subpopulation receiving the signal to induce luminescence fully. These data are proof in principle that symbiotic luminescence induction could originate from a regulatory response by a subpopulation. We have previously shown that symbiotic <italic>lux</italic> induction is spatially heterogeneous, indicating that subpopulations in different light organ microenvironments experience different regulatory cues <xref ref-type="bibr" rid="pone.0049590-Dunn2">[59]</xref>. The regulators and environmental conditions underlying this heterogeneity, and whether in fact subpopulations are responsible for the ultimate population-wide induction of luminescence, are fertile areas for future research.</p>
+      <p>Pheromone production is required for luminescence induction in <italic>V. fischeri</italic> cells colonizing the squid; however, as noted above the environmental cues and regulators responsible for activating symbiotic pheromone synthesis and luminescence remain uncertain. Previous work showed that <italic>arcA</italic> mutant cells are brighter than wild type in culture but not in the squid <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>, consistent with a model in which inactivation of ArcA/ArcB in the host may be important for luminescence derepression in symbiotic cells. Future work will focus on directly testing the role of ArcA/ArcB in symbiotic luminescence induction in <italic>V. fischeri</italic> and on elucidating the physiological conditions that control the activity of this two-component system in <italic>V. fischeri</italic>. Studies of <italic>E. coli</italic> have indicated that oxygen itself is not perceived by ArcA/ArcB <xref ref-type="bibr" rid="pone.0049590-Iuchi1">[75]</xref>, and varied reports have suggested that ArcB may sense and respond to fermentation acids <xref ref-type="bibr" rid="pone.0049590-Iuchi2">[76]</xref>, <xref ref-type="bibr" rid="pone.0049590-Rolfe1">[77]</xref> and/or the redox state of the quinone pool <xref ref-type="bibr" rid="pone.0049590-Malpica1">[78]</xref>, <xref ref-type="bibr" rid="pone.0049590-Georgellis1">[79]</xref>. The predicted ArcA regulon in <italic>V. fischeri</italic>
+<xref ref-type="bibr" rid="pone.0049590-Ravcheev1">[80]</xref> appears to be very similar to that of <italic>E. coli</italic>
+<xref ref-type="bibr" rid="pone.0049590-Ravcheev1">[80]</xref>, and the <italic>V. fischeri arcA</italic> gene complements an <italic>E. coli arcA</italic> mutant <xref ref-type="bibr" rid="pone.0049590-Bose1">[52]</xref>, suggesting functional conservation of this two-component system across these two bacterial species. However, the mechanism underlying ArcB sensing of redox state in <italic>V. fischeri</italic> remains uncertain. Future work in this area will elucidate both how Arc functions and how it is integrated with pheromone signaling in a natural infection.</p>
+      <p>Our results are also consistent with a different regulatory input overpowering ArcA-mediated <italic>lux</italic> repression. <xref ref-type="fig" rid="pone-0049590-g002">Figure 2C</xref> directly illustrates that 3OC6 can induce luminescence and render ArcA-mediated <italic>lux</italic> repression insignificant. This result shows that if another regulator induces 3OC6-mediated positive feedback in symbiotic cells, whether or not Arc is repressing <italic>lux</italic> may not matter. We are actively investigating the Arc status of symbiotic <italic>V. fischeri</italic> cells, but we are also elucidating regulators other than Arc that could play key roles in symbiotic pheromone signaling. A recent mutant screen identified transposon-insertion mutants in thirteen loci other than <italic>arc</italic> that led to increased luminescence of ES114 in culture <xref ref-type="bibr" rid="pone.0049590-Lyell1">[50]</xref>. These and other regulatory inputs should also be considered with respect to <italic>lux</italic> induction in the symbiotic environment.</p>
+      <p>The <italic>lux</italic> pheromone system in <italic>V. fischeri</italic> is controlled by environmental regulators, and we have shown that such inputs can be powerfully amplified by the positive feedback inherent in the <italic>lux</italic> circuitry. Because bacterial pheromones are often regulated in response to environmental conditions and also subject to positive feedback, we expect that these results may reflect signaling systems in many other host-associated bacteria. Although pheromone signaling may require a sufficiently high cell density for effective communication, the pheromones cannot be considered simply as census-taking molecules. Scenarios similar to the model presented in <xref ref-type="fig" rid="pone-0049590-g006">Figure 6B</xref> may explain the combination of environmental regulation and positive feedback in the pheromone signaling systems of host-associated bacteria, and this possibility should be considered as we seek to understand the biological roles of these systems.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We would like to thank Jeffery L. Bose for use of pJLB169 and JB33, Lawrence Shimkets for helpful discussions, and anonymous reviewers for insightful comments.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0049590-Fuqua1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Fuqua</surname><given-names>WC</given-names></name>, <name><surname>Winans</surname><given-names>SC</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>1994</year>) <article-title>Quorum sensing in bacteria: the LuxR-LuxI family of cell density-responsive transcriptional regulators</article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>269</fpage>&#x2013;<lpage>275</lpage><pub-id pub-id-type="pmid">8288518</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Schuster1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Schuster</surname><given-names>M</given-names></name>, <name><surname>Hawkins</surname><given-names>AC</given-names></name>, <name><surname>Harwood</surname><given-names>CS</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>2004</year>) <article-title>The <italic>Pseudomonas aeruginosa</italic> RpoS regulon and its relationship to quorum sensing</article-title>. <source>Mol Microbiol</source><volume>51</volume>: <fpage>973</fpage>&#x2013;<lpage>985</lpage><pub-id pub-id-type="pmid">14763974</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-VanDelden1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Van Delden</surname><given-names>C</given-names></name>, <name><surname>Comte</surname><given-names>R</given-names></name>, <name><surname>Bally</surname><given-names>M</given-names></name> (<year>2001</year>) <article-title>Stringent response activates quorum sensing and modulates cell density-dependent gene expression in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Bacteriol</source><volume>183</volume>: <fpage>5376</fpage>&#x2013;<lpage>5384</lpage><pub-id pub-id-type="pmid">11514523</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Moris1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Moris</surname><given-names>M</given-names></name>, <name><surname>Braeken</surname><given-names>K</given-names></name>, <name><surname>Schoeters</surname><given-names>E</given-names></name>, <name><surname>Verreth</surname><given-names>C</given-names></name>, <name><surname>Beullens</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Effective symbiosis between <italic>Rhizobium etli</italic> and <italic>Phaseolus vulgaris</italic> requires the alarmone ppGpp</article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>5460</fpage>&#x2013;<lpage>5469</lpage><pub-id pub-id-type="pmid">16030240</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Chatterjee1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Chatterjee</surname><given-names>J</given-names></name>, <name><surname>Miyamoto</surname><given-names>CM</given-names></name>, <name><surname>Zouzoulas</surname><given-names>A</given-names></name>, <name><surname>Lang</surname><given-names>BF</given-names></name>, <name><surname>Skouris</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>MetR and CRP bind to the <italic>Vibrio harveyi lux</italic> promoters and regulate luminescence</article-title>. <source>Mol Microbiol</source><volume>46</volume>: <fpage>101</fpage>&#x2013;<lpage>111</lpage><pub-id pub-id-type="pmid">12366834</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Liang1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Liang</surname><given-names>W</given-names></name>, <name><surname>Pascual-Montano</surname><given-names>A</given-names></name>, <name><surname>Silva</surname><given-names>AJ</given-names></name>, <name><surname>Benitez</surname><given-names>JA</given-names></name> (<year>2007</year>) <article-title>The cyclic AMP receptor protein modulates quorum sensing, motility and multiple genes that affect intestinal colonization in <italic>Vibrio cholerae</italic></article-title>. <source>Microbiology</source><volume>153</volume>: <fpage>2964</fpage>&#x2013;<lpage>2975</lpage><pub-id pub-id-type="pmid">17768239</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Liang2">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Liang</surname><given-names>W</given-names></name>, <name><surname>Sultan</surname><given-names>SZ</given-names></name>, <name><surname>Silva</surname><given-names>AJ</given-names></name>, <name><surname>Benitez</surname><given-names>JA</given-names></name> (<year>2008</year>) <article-title>Cyclic AMP post-transcriptionally regulates the biosynthesis of a major bacterial autoinducer to modulate the cell density required to activate quorum sensing</article-title>. <source>FEBS Lett</source><volume>582</volume>: <fpage>3744</fpage>&#x2013;<lpage>3750</lpage><pub-id pub-id-type="pmid">18930049</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Wang1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>L</given-names></name>, <name><surname>Hashimoto</surname><given-names>Y</given-names></name>, <name><surname>Tsao</surname><given-names>CY</given-names></name>, <name><surname>Valdes</surname><given-names>JJ</given-names></name>, <name><surname>Bentley</surname><given-names>WE</given-names></name> (<year>2005</year>) <article-title>Cyclic AMP (cAMP) and cAMP receptor protein influence both synthesis and uptake of extracellular autoinducer 2 in <italic>Escherichia coli</italic></article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>2066</fpage>&#x2013;<lpage>2076</lpage><pub-id pub-id-type="pmid">15743955</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Albus1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Albus</surname><given-names>AM</given-names></name>, <name><surname>Pesci</surname><given-names>EC</given-names></name>, <name><surname>Runyen-Janecky</surname><given-names>LJ</given-names></name>, <name><surname>West</surname><given-names>SE</given-names></name>, <name><surname>Iglewski</surname><given-names>BH</given-names></name> (<year>1997</year>) <article-title>Vfr controls quorum sensing in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Bacteriol</source><volume>179</volume>: <fpage>3928</fpage>&#x2013;<lpage>3935</lpage><pub-id pub-id-type="pmid">9190808</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Reverchon1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Reverchon</surname><given-names>S</given-names></name>, <name><surname>Bouillant</surname><given-names>ML</given-names></name>, <name><surname>Salmond</surname><given-names>G</given-names></name>, <name><surname>Nasser</surname><given-names>W</given-names></name> (<year>1998</year>) <article-title>Integration of the quorum-sensing system in the regulatory networks controlling virulence factor synthesis in <italic>Erwinia chrysanthemi</italic></article-title>. <source>Mol Microbiol</source><volume>29</volume>: <fpage>1407</fpage>&#x2013;<lpage>1418</lpage><pub-id pub-id-type="pmid">9781878</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lenz1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Lenz</surname><given-names>DH</given-names></name>, <name><surname>Mok</surname><given-names>KC</given-names></name>, <name><surname>Lilley</surname><given-names>BN</given-names></name>, <name><surname>Kulkarni</surname><given-names>RV</given-names></name>, <name><surname>Wingreen</surname><given-names>NS</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>The small RNA chaperone Hfq and multiple small RNAs control quorum sensing in <italic>Vibrio harveyi</italic> and <italic>Vibrio cholerae</italic></article-title>. <source>Cell</source><volume>118</volume>: <fpage>69</fpage>&#x2013;<lpage>82</lpage><pub-id pub-id-type="pmid">15242645</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lilley1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Lilley</surname><given-names>BN</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name> (<year>2000</year>) <article-title>Regulation of quorum sensing in <italic>Vibrio harveyi b</italic>y LuxO and sigma-54</article-title>. <source>Mol Microbiol</source><volume>36</volume>: <fpage>940</fpage>&#x2013;<lpage>954</lpage><pub-id pub-id-type="pmid">10844680</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Bollinger1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Bollinger</surname><given-names>N</given-names></name>, <name><surname>Hassett</surname><given-names>DJ</given-names></name>, <name><surname>Iglewski</surname><given-names>BH</given-names></name>, <name><surname>Costerton</surname><given-names>JW</given-names></name>, <name><surname>McDermott</surname><given-names>TR</given-names></name> (<year>2001</year>) <article-title>Gene expression in <italic>Pseudomonas aeruginosa</italic>: evidence of iron override effects on quorum sensing and biofilm-specific gene regulation</article-title>. <source>J Bacteriol</source><volume>183</volume>: <fpage>1990</fpage>&#x2013;<lpage>1996</lpage><pub-id pub-id-type="pmid">11222597</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Kim1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>EJ</given-names></name>, <name><surname>Wang</surname><given-names>W</given-names></name>, <name><surname>Deckwer</surname><given-names>WD</given-names></name>, <name><surname>Zeng</surname><given-names>AP</given-names></name> (<year>2005</year>) <article-title>Expression of the quorum-sensing regulatory protein LasR is strongly affected by iron and oxygen concentrations in cultures of <italic>Pseudomonas aeruginosa</italic> irrespective of cell density</article-title>. <source>Microbiology</source><volume>151</volume>: <fpage>1127</fpage>&#x2013;<lpage>1138</lpage><pub-id pub-id-type="pmid">15817780</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Loh1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Loh</surname><given-names>J</given-names></name>, <name><surname>Carlson</surname><given-names>RW</given-names></name>, <name><surname>York</surname><given-names>WS</given-names></name>, <name><surname>Stacey</surname><given-names>G</given-names></name> (<year>2002</year>) <article-title>Bradyoxetin, a unique chemical signal involved in symbiotic gene regulation</article-title>. <source>Proc Natl Acad Sci USA</source><volume>99</volume>: <fpage>14446</fpage>&#x2013;<lpage>14451</lpage><pub-id pub-id-type="pmid">12393811</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Makemson1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Makemson</surname><given-names>JC</given-names></name>, <name><surname>Hastings</surname><given-names>JW</given-names></name> (<year>1982</year>) <article-title>Iron represses bioluminescence and affects catabolite repression of luminescence in <italic>Vibrio harveyi</italic></article-title>. <source>Curr Microbiol</source><volume>7</volume>: <fpage>181</fpage>&#x2013;<lpage>186</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Krol1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Krol</surname><given-names>E</given-names></name>, <name><surname>Becker</surname><given-names>A</given-names></name> (<year>2004</year>) <article-title>Global transcriptional analysis of the phosphate starvation response in <italic>Sinorhizobium meliloti</italic> strains 1021 and 2011</article-title>. <source>Mol Genet Genomics</source><volume>272</volume>: <fpage>1</fpage>&#x2013;<lpage>17</lpage><pub-id pub-id-type="pmid">15221452</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Gristwood1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Gristwood</surname><given-names>T</given-names></name>, <name><surname>Fineran</surname><given-names>PC</given-names></name>, <name><surname>Everson</surname><given-names>L</given-names></name>, <name><surname>Williamson</surname><given-names>NR</given-names></name>, <name><surname>Salmond</surname><given-names>GP</given-names></name> (<year>2009</year>) <article-title>The PhoBR two-component system regulates antibiotic biosynthesis in <italic>Serratia</italic> in response to phosphate</article-title>. <source>BMC Microbiol</source><volume>9</volume>: <fpage>112</fpage><pub-id pub-id-type="pmid">19476633</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Jensen1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Jensen</surname><given-names>V</given-names></name>, <name><surname>Lons</surname><given-names>D</given-names></name>, <name><surname>Zaoui</surname><given-names>C</given-names></name>, <name><surname>Bredenbruch</surname><given-names>F</given-names></name>, <name><surname>Meissner</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>RhlR expression in <italic>Pseudomonas aeruginosa</italic> is modulated by the <italic>Pseudomonas</italic> quinolone signal via PhoB-dependent and -independent pathways</article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>8601</fpage>&#x2013;<lpage>8606</lpage><pub-id pub-id-type="pmid">17028277</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Guina1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Guina</surname><given-names>T</given-names></name>, <name><surname>Wu</surname><given-names>M</given-names></name>, <name><surname>Miller</surname><given-names>SI</given-names></name>, <name><surname>Purvine</surname><given-names>SO</given-names></name>, <name><surname>Yi</surname><given-names>EC</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Proteomic analysis of <italic>Pseudomonas aeruginosa</italic> grown under magnesium limitation</article-title>. <source>J Am Soc Mass Spectrom</source><volume>14</volume>: <fpage>742</fpage>&#x2013;<lpage>751</lpage><pub-id pub-id-type="pmid">12837596</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Chancey1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><collab>Chancey ST, Wood DW, Pierson LS, 3rd</collab> (<year>1999</year>) <article-title>Two-component transcriptional regulation of <italic>N</italic>-acyl-homoserine lactone production in <italic>Pseudomonas aureofaciens</italic></article-title>. <source>Appl Environ Microbiol</source><volume>65</volume>: <fpage>2294</fpage>&#x2013;<lpage>2299</lpage><pub-id pub-id-type="pmid">10347004</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Cui1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Cui</surname><given-names>Y</given-names></name>, <name><surname>Chatterjee</surname><given-names>A</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <name><surname>Dumenyo</surname><given-names>CK</given-names></name>, <name><surname>Chatterjee</surname><given-names>AK</given-names></name> (<year>1995</year>) <article-title>Identification of a global repressor gene, <italic>rsmA</italic>, of <italic>Erwinia carotovora</italic> subsp. <italic>carotovora</italic> that controls extracellular enzymes, <italic>N</italic>-(3-oxohexanoyl)-L-homoserine lactone, and pathogenicity in soft-rotting <italic>Erwinia</italic> spp</article-title>. <source>J Bacteriol</source><volume>177</volume>: <fpage>5108</fpage>&#x2013;<lpage>5115</lpage><pub-id pub-id-type="pmid">7665490</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lenz2">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Lenz</surname><given-names>DH</given-names></name>, <name><surname>Miller</surname><given-names>MB</given-names></name>, <name><surname>Zhu</surname><given-names>J</given-names></name>, <name><surname>Kulkarni</surname><given-names>RV</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name> (<year>2005</year>) <article-title>CsrA and three redundant small RNAs regulate quorum sensing in <italic>Vibrio cholerae</italic></article-title>. <source>Mol Microbiol</source><volume>58</volume>: <fpage>1186</fpage>&#x2013;<lpage>1202</lpage><pub-id pub-id-type="pmid">16262799</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Pessi1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Pessi</surname><given-names>G</given-names></name>, <name><surname>Williams</surname><given-names>F</given-names></name>, <name><surname>Hindle</surname><given-names>Z</given-names></name>, <name><surname>Heurlier</surname><given-names>K</given-names></name>, <name><surname>Holden</surname><given-names>MT</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>The global posttranscriptional regulator RsmA modulates production of virulence determinants and <italic>N</italic>-acylhomoserine lactones in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>J Bacteriol</source><volume>183</volume>: <fpage>6676</fpage>&#x2013;<lpage>6683</lpage><pub-id pub-id-type="pmid">11673439</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Yakhnin1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Yakhnin</surname><given-names>H</given-names></name>, <name><surname>Baker</surname><given-names>CS</given-names></name>, <name><surname>Berezin</surname><given-names>I</given-names></name>, <name><surname>Evangelista</surname><given-names>MA</given-names></name>, <name><surname>Rassin</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>CsrA represses translation of <italic>sdiA</italic>, which encodes the <italic>N</italic>-acylhomoserine-L-lactone receptor of <italic>Escherichia coli</italic>, by binding exclusively within the coding region of <italic>sdiA</italic> mRNA</article-title>. <source>J Bacteriol</source><volume>193</volume>: <fpage>6162</fpage>&#x2013;<lpage>6170</lpage><pub-id pub-id-type="pmid">21908661</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Yan1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Yan</surname><given-names>Q</given-names></name>, <name><surname>Wu</surname><given-names>XG</given-names></name>, <name><surname>Wei</surname><given-names>HL</given-names></name>, <name><surname>Wang</surname><given-names>HM</given-names></name>, <name><surname>Zhang</surname><given-names>LQ</given-names></name> (<year>2009</year>) <article-title>Differential control of the PcoI/PcoR quorum-sensing system in <italic>Pseudomonas fluorescens</italic> 2P24 by sigma factor RpoS and the GacS/GacA two-component regulatory system</article-title>. <source>Microbiol Res</source><volume>164</volume>: <fpage>18</fpage>&#x2013;<lpage>26</lpage><pub-id pub-id-type="pmid">18395434</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Whistler1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Whistler</surname><given-names>CA</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>2003</year>) <article-title>GacA regulates symbiotic colonization traits of <italic>Vibrio fischeri</italic> and facilitates a beneficial association with an animal host</article-title>. <source>J Bacteriol</source><volume>185</volume>: <fpage>7202</fpage>&#x2013;<lpage>7212</lpage><pub-id pub-id-type="pmid">14645281</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Engebrecht1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Engebrecht</surname><given-names>J</given-names></name>, <name><surname>Nealson</surname><given-names>K</given-names></name>, <name><surname>Silverman</surname><given-names>M</given-names></name> (<year>1983</year>) <article-title>Bacterial bioluminescence: isolation and genetic analysis of functions from <italic>Vibrio fischeri</italic></article-title>. <source>Cell</source><volume>32</volume>: <fpage>773</fpage>&#x2013;<lpage>781</lpage><pub-id pub-id-type="pmid">6831560</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Fuqua2">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Fuqua</surname><given-names>WC</given-names></name>, <name><surname>Winans</surname><given-names>SC</given-names></name> (<year>1994</year>) <article-title>A LuxR-LuxI type regulatory system activates <italic>Agrobacterium</italic> Ti plasmid conjugal transfer in the presence of a plant tumor metabolite</article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>2796</fpage>&#x2013;<lpage>2806</lpage><pub-id pub-id-type="pmid">8188582</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Seed1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Seed</surname><given-names>PC</given-names></name>, <name><surname>Passador</surname><given-names>L</given-names></name>, <name><surname>Iglewski</surname><given-names>BH</given-names></name> (<year>1995</year>) <article-title>Activation of the <italic>Pseudomonas aeruginosa lasI</italic> gene by LasR and the <italic>Pseudomonas</italic> autoinducer PAI - an autoinduction regulatory hierarchy</article-title>. <source>J Bacteriol</source><volume>177</volume>: <fpage>654</fpage>&#x2013;<lpage>659</lpage><pub-id pub-id-type="pmid">7836299</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Latifi1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Latifi</surname><given-names>A</given-names></name>, <name><surname>Foglino</surname><given-names>M</given-names></name>, <name><surname>Tanaka</surname><given-names>K</given-names></name>, <name><surname>Williams</surname><given-names>P</given-names></name>, <name><surname>Lazdunski</surname><given-names>A</given-names></name> (<year>1996</year>) <article-title>A hierarchical quorum-sensing cascade in <italic>Pseudomonas aeruginosa</italic> links the transcriptional activators LasR and RhIR (VsmR) to expression of the stationary-phase sigma factor RpoS</article-title>. <source>Mol Microbiol</source><volume>21</volume>: <fpage>1137</fpage>&#x2013;<lpage>1146</lpage><pub-id pub-id-type="pmid">8898383</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Niu1">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Niu</surname><given-names>C</given-names></name>, <name><surname>Clemmer</surname><given-names>KM</given-names></name>, <name><surname>Bonomo</surname><given-names>RA</given-names></name>, <name><surname>Rather</surname><given-names>PN</given-names></name> (<year>2008</year>) <article-title>Isolation and characterization of an autoinducer synthase from <italic>Acinetobacter baumannii</italic></article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>3386</fpage>&#x2013;<lpage>3392</lpage><pub-id pub-id-type="pmid">18281398</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Stauff1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Stauff</surname><given-names>DL</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name> (<year>2011</year>) <article-title>Quorum sensing in <italic>Chromobacterium violaceum</italic>: DNA recognition and gene regulation by the CviR receptor</article-title>. <source>J Bacteriol</source><volume>193</volume>: <fpage>3871</fpage>&#x2013;<lpage>3878</lpage><pub-id pub-id-type="pmid">21622734</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Ji1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Ji</surname><given-names>G</given-names></name>, <name><surname>Beavis</surname><given-names>RC</given-names></name>, <name><surname>Novick</surname><given-names>RP</given-names></name> (<year>1995</year>) <article-title>Cell density control of staphylococcal virulence mediated by an octapeptide pheromone</article-title>. <source>Proc Natl Acad Sci USA</source><volume>92</volume>: <fpage>12055</fpage>&#x2013;<lpage>12059</lpage><pub-id pub-id-type="pmid">8618843</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Novick1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Novick</surname><given-names>RP</given-names></name>, <name><surname>Projan</surname><given-names>SJ</given-names></name>, <name><surname>Kornblum</surname><given-names>J</given-names></name>, <name><surname>Ross</surname><given-names>HF</given-names></name>, <name><surname>Ji</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>1995</year>) <article-title>The <italic>agr</italic> P2 operon: an autocatalytic sensory transduction system in <italic>Staphylococcus aureus</italic></article-title>. <source>Mol Gen Genet</source><volume>248</volume>: <fpage>446</fpage>&#x2013;<lpage>458</lpage><pub-id pub-id-type="pmid">7565609</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Peterson1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Peterson</surname><given-names>S</given-names></name>, <name><surname>Cline</surname><given-names>RT</given-names></name>, <name><surname>Tettelin</surname><given-names>H</given-names></name>, <name><surname>Sharov</surname><given-names>V</given-names></name>, <name><surname>Morrison</surname><given-names>DA</given-names></name> (<year>2000</year>) <article-title>Gene expression analysis of the <italic>Streptococcus pneumoniae</italic> competence regulons by use of DNA microarrays</article-title>. <source>J Bacteriol</source><volume>182</volume>: <fpage>6192</fpage>&#x2013;<lpage>6202</lpage><pub-id pub-id-type="pmid">11029442</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Hao1">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Hao</surname><given-names>G</given-names></name>, <name><surname>Burr</surname><given-names>TJ</given-names></name> (<year>2006</year>) <article-title>Regulation of long-chain <italic>N</italic>-acyl-homoserine lactones in <italic>Agrobacterium vitis</italic></article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>2173</fpage>&#x2013;<lpage>2183</lpage><pub-id pub-id-type="pmid">16513747</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lupp1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Lupp</surname><given-names>C</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>2004</year>) <article-title><italic>Vibrio fischeri</italic> LuxS and AinS: comparative study of two signal synthases</article-title>. <source>J Bacteriol</source><volume>186</volume>: <fpage>3873</fpage>&#x2013;<lpage>3881</lpage><pub-id pub-id-type="pmid">15175301</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Pestova1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Pestova</surname><given-names>EV</given-names></name>, <name><surname>Havarstein</surname><given-names>LS</given-names></name>, <name><surname>Morrison</surname><given-names>DA</given-names></name> (<year>1996</year>) <article-title>Regulation of competence for genetic transformation in <italic>Streptococcus pneumoniae</italic> by an auto-induced peptide pheromone and a two-component regulatory system</article-title>. <source>Mol Microbiol</source><volume>21</volume>: <fpage>853</fpage>&#x2013;<lpage>862</lpage><pub-id pub-id-type="pmid">8878046</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Stabb1">
+        <label>40</label>
+        <mixed-citation publication-type="other">Stabb EV (2006) The <italic>Vibrio fischeri</italic>-<italic>Euprymna scolopes</italic> light organ symbiosis. The Biology of Vibrios. Washington DC: ASM Press. 204&#x2013;218.</mixed-citation>
+      </ref>
+      <ref id="pone.0049590-McFallNgai1">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>McFall-Ngai</surname><given-names>MJ</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>1991</year>) <article-title>Symbiont recognition and subsequent morphogenesis as early events in an animal-bacterial mutualism</article-title>. <source>Science</source><volume>254</volume>: <fpage>1491</fpage>&#x2013;<lpage>1493</lpage><pub-id pub-id-type="pmid">1962208</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Wei1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Wei</surname><given-names>SL</given-names></name>, <name><surname>Young</surname><given-names>RE</given-names></name> (<year>1989</year>) <article-title>Development of symbiotic bacterial bioluminescence in a nearshore cephalopod, <italic>Euprymna scolopes</italic></article-title>. <source>Mar Biol</source><volume>103</volume>: <fpage>541</fpage>&#x2013;<lpage>546</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Schaefer1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Schaefer</surname><given-names>AL</given-names></name>, <name><surname>Val</surname><given-names>DL</given-names></name>, <name><surname>Hanzelka</surname><given-names>BL</given-names></name>, <name><surname>Cronan</surname><given-names>JE</given-names><suffix>Jr</suffix></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>1996</year>) <article-title>Generation of cell-to-cell signals in quorum sensing: acyl homoserine lactone synthase activity of a purified <italic>Vibrio fischeri</italic> LuxI protein</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>93</volume>: <fpage>9505</fpage>&#x2013;<lpage>9509</lpage><pub-id pub-id-type="pmid">8790360</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Nealson1">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Nealson</surname><given-names>KH</given-names></name>, <name><surname>Platt</surname><given-names>T</given-names></name>, <name><surname>Hastings</surname><given-names>JW</given-names></name> (<year>1970</year>) <article-title>Cellular control of the synthesis and activity of the bacterial luminescent system</article-title>. <source>J Bacteriol</source><volume>104</volume>: <fpage>313</fpage>&#x2013;<lpage>322</lpage><pub-id pub-id-type="pmid">5473898</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Devine1">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Devine</surname><given-names>JH</given-names></name>, <name><surname>Shadel</surname><given-names>GS</given-names></name>, <name><surname>Baldwin</surname><given-names>TO</given-names></name> (<year>1989</year>) <article-title>Identification of the operator of the <italic>lux</italic> regulon from the <italic>Vibrio fischeri</italic> strain ATCC7744</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>86</volume>: <fpage>5688</fpage>&#x2013;<lpage>5692</lpage><pub-id pub-id-type="pmid">2762291</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Antunes1">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Antunes</surname><given-names>LCM</given-names></name>, <name><surname>Ferreira</surname><given-names>RBR</given-names></name>, <name><surname>Lostroh</surname><given-names>CP</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>2008</year>) <article-title>A mutational analysis defines <italic>Vibrio fischeri</italic> LuxR binding sites</article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>4392</fpage>&#x2013;<lpage>4397</lpage><pub-id pub-id-type="pmid">18083819</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Boettcher1">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Boettcher</surname><given-names>KJ</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>1990</year>) <article-title>Depressed light emission by symbiotic <italic>Vibrio fischeri</italic> of the sepiolid squid <italic>Euprymna scolopes</italic></article-title>. <source>J Bacteriol</source><volume>172</volume>: <fpage>3701</fpage>&#x2013;<lpage>3706</lpage><pub-id pub-id-type="pmid">2163384</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Boettcher2">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Boettcher</surname><given-names>KJ</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>1995</year>) <article-title>Detection and quantification of <italic>Vibrio fischeri</italic> autoinducer from symbiotic squid light organs</article-title>. <source>J Bacteriol</source><volume>177</volume>: <fpage>1053</fpage>&#x2013;<lpage>1058</lpage><pub-id pub-id-type="pmid">7860584</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lee1">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>KH</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>1994</year>) <article-title>Competition between <italic>Vibrio fischeri</italic> strains during initiation and maintenance of a light organ symbiosis</article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>1985</fpage>&#x2013;<lpage>1991</lpage><pub-id pub-id-type="pmid">8144466</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lyell1">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Lyell</surname><given-names>NL</given-names></name>, <name><surname>Dunn</surname><given-names>AK</given-names></name>, <name><surname>Bose</surname><given-names>JL</given-names></name>, <name><surname>Stabb</surname><given-names>EV</given-names></name> (<year>2010</year>) <article-title>Bright mutants of <italic>Vibrio fischeri</italic> ES114 reveal conditions and regulators that control bioluminescence and expression of the <italic>lux</italic> operon</article-title>. <source>J Bacteriol</source><volume>192</volume>: <fpage>5103</fpage>&#x2013;<lpage>5114</lpage><pub-id pub-id-type="pmid">20693328</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Dunlap1">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Dunlap</surname><given-names>PV</given-names></name> (<year>1989</year>) <article-title>Regulation of luminescence by cyclic-AMP in <italic>cya</italic>-like and <italic>crp</italic>-like mutants of <italic>Vibrio fischeri</italic></article-title>. <source>J Bacteriol</source><volume>171</volume>: <fpage>1199</fpage>&#x2013;<lpage>1202</lpage><pub-id pub-id-type="pmid">2536674</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Bose1">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Bose</surname><given-names>JL</given-names></name>, <name><surname>Kim</surname><given-names>U</given-names></name>, <name><surname>Bartkowski</surname><given-names>W</given-names></name>, <name><surname>Gunsalus</surname><given-names>RP</given-names></name>, <name><surname>Overley</surname><given-names>AM</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Bioluminescence in <italic>Vibrio fischeri</italic> is controlled by the redox-responsive regulator ArcA</article-title>. <source>Mol Microbiol</source><volume>65</volume>: <fpage>538</fpage>&#x2013;<lpage>553</lpage><pub-id pub-id-type="pmid">17590235</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Stabb2">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Stabb</surname><given-names>EV</given-names></name>, <name><surname>Reich</surname><given-names>KA</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>2001</year>) <article-title><italic>Vibrio fischeri</italic> genes <italic>hvnA</italic> and <italic>hvnB</italic> encode secreted NAD(+)-glycohydrolases</article-title>. <source>J Bacteriol</source><volume>183</volume>: <fpage>309</fpage>&#x2013;<lpage>317</lpage><pub-id pub-id-type="pmid">11114931</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Septer1">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Septer</surname><given-names>AN</given-names></name>, <name><surname>Wang</surname><given-names>Y</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name>, <name><surname>Stabb</surname><given-names>EV</given-names></name>, <name><surname>Dunn</surname><given-names>AK</given-names></name> (<year>2011</year>) <article-title>The haem-uptake gene cluster in <italic>Vibrio fischeri</italic> is regulated by Fur and contributes to symbiotic colonization</article-title>. <source>Environ Microbiol</source><volume>13</volume>: <fpage>2855</fpage>&#x2013;<lpage>2864</lpage><pub-id pub-id-type="pmid">21883801</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Miller1">
+        <label>55</label>
+        <mixed-citation publication-type="other">Miller JH (1992) A Short Course in Bacterial Genetics. Cold Spring Harbor Laboratory Press. 456.</mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Dunn1">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Dunn</surname><given-names>AK</given-names></name>, <name><surname>Martin</surname><given-names>MO</given-names></name>, <name><surname>Stabb</surname><given-names>EV</given-names></name> (<year>2005</year>) <article-title>Characterization of pES213, a small mobilizable plasmid from <italic>Vibrio fischeri</italic></article-title>. <source>Plasmid</source><volume>54</volume>: <fpage>114</fpage>&#x2013;<lpage>134</lpage><pub-id pub-id-type="pmid">16122560</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Hanahan1">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Hanahan</surname><given-names>D</given-names></name> (<year>1983</year>) <article-title>Studies on transformation of <italic>Escherichia coli</italic> with plasmids</article-title>. <source>J Mol Biol</source><volume>166</volume>: <fpage>557</fpage>&#x2013;<lpage>580</lpage><pub-id pub-id-type="pmid">6345791</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Herrero1">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>Herrero</surname><given-names>M</given-names></name>, <name><surname>de Lorenzo</surname><given-names>V</given-names></name>, <name><surname>Timmis</surname><given-names>KN</given-names></name> (<year>1990</year>) <article-title>Transposon vectors containing non-antibiotic resistance selection markers for cloning and stable chromosomal insertion of foreign genes in gram-negative bacteria</article-title>. <source>J Bacteriol</source><volume>172</volume>: <fpage>6557</fpage>&#x2013;<lpage>6567</lpage><pub-id pub-id-type="pmid">2172216</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Dunn2">
+        <label>59</label>
+        <mixed-citation publication-type="journal"><name><surname>Dunn</surname><given-names>AK</given-names></name>, <name><surname>Millikan</surname><given-names>DS</given-names></name>, <name><surname>Adin</surname><given-names>DM</given-names></name>, <name><surname>Bose</surname><given-names>JL</given-names></name>, <name><surname>Stabb</surname><given-names>EV</given-names></name> (<year>2006</year>) <article-title>New <italic>rfp</italic>- and pES213-derived tools for analyzing symbiotic <italic>Vibrio fischeri</italic> reveal patterns of infection and <italic>lux</italic> expression in situ</article-title>. <source>Appl Environ Microbiol</source><volume>72</volume>: <fpage>802</fpage>&#x2013;<lpage>810</lpage><pub-id pub-id-type="pmid">16391121</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Stabb3">
+        <label>60</label>
+        <mixed-citation publication-type="journal"><name><surname>Stabb</surname><given-names>EV</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>2002</year>) <article-title>RP4-based plasmids for conjugation between <italic>Escherichia coli</italic> and members of the Vibrionaceae</article-title>. <source>Methods Enzymol</source><volume>358</volume>: <fpage>413</fpage>&#x2013;<lpage>426</lpage><pub-id pub-id-type="pmid">12474404</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Bose2">
+        <label>61</label>
+        <mixed-citation publication-type="journal"><name><surname>Bose</surname><given-names>JL</given-names></name>, <name><surname>Rosenberg</surname><given-names>CS</given-names></name>, <name><surname>Stabb</surname><given-names>EV</given-names></name> (<year>2008</year>) <article-title>Effects of <italic>luxCDABEG</italic> induction in <italic>Vibrio fischeri</italic>: enhancement of symbiotic colonization and conditional attenuation of growth in culture</article-title>. <source>Arch Microbiol</source><volume>190</volume>: <fpage>169</fpage>&#x2013;<lpage>183</lpage><pub-id pub-id-type="pmid">18521572</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Gray1">
+        <label>62</label>
+        <mixed-citation publication-type="journal"><name><surname>Gray</surname><given-names>KM</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>1992</year>) <article-title>Physical and functional maps of the luminescence gene cluster in an autoinducer-deficient <italic>Vibrio fischeri</italic> strain isolated from a squid light organ</article-title>. <source>J Bacteriol</source><volume>174</volume>: <fpage>4384</fpage>&#x2013;<lpage>4390</lpage><pub-id pub-id-type="pmid">1624432</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Lupp2">
+        <label>63</label>
+        <mixed-citation publication-type="journal"><name><surname>Lupp</surname><given-names>C</given-names></name>, <name><surname>Urbanowski</surname><given-names>M</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name> (<year>2003</year>) <article-title>The <italic>Vibrio fischeri</italic> quorum-sensing systems <italic>ain</italic> and <italic>lux</italic> sequentially induce luminescence gene expression and are important for persistence in the squid host</article-title>. <source>Mol Microbiol</source><volume>50</volume>: <fpage>319</fpage>&#x2013;<lpage>331</lpage><pub-id pub-id-type="pmid">14507383</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Schaefer2">
+        <label>64</label>
+        <mixed-citation publication-type="journal"><name><surname>Schaefer</surname><given-names>AL</given-names></name>, <name><surname>Hanzelka</surname><given-names>BL</given-names></name>, <name><surname>Eberhard</surname><given-names>A</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>1996</year>) <article-title>Quorum sensing in <italic>Vibrio fischeri</italic>: probing autoinducer-LuxR interactions with autoinducer analogs</article-title>. <source>J Bacteriol</source><volume>178</volume>: <fpage>2897</fpage>&#x2013;<lpage>2901</lpage><pub-id pub-id-type="pmid">8631679</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Stabb4">
+        <label>65</label>
+        <mixed-citation publication-type="other">Stabb EV, Schaefer A, Bose JL, Ruby EG (2008) Quorum signaling and symbiosis in the marine luminous bacterium <italic>Vibrio fischeri</italic> In: Winans SC, Bassler BL, editors. Chemical Communication Amoung Microbes. Washington D.C.: ASM Press. 233&#x2013;250.</mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Schaefer3">
+        <label>66</label>
+        <mixed-citation publication-type="journal"><name><surname>Schaefer</surname><given-names>AL</given-names></name>, <name><surname>Hanzelka</surname><given-names>BL</given-names></name>, <name><surname>Parsek</surname><given-names>MR</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name> (<year>2000</year>) <article-title>Detection, purification, and structural elucidation of the acylhomoserine lactone inducer of <italic>Vibrio fischeri</italic> luminescence and other related molecules</article-title>. <source>Methods Enzymol</source><volume>305</volume>: <fpage>288</fpage>&#x2013;<lpage>301</lpage><pub-id pub-id-type="pmid">10812608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Flavier1">
+        <label>67</label>
+        <mixed-citation publication-type="journal"><name><surname>Flavier</surname><given-names>AB</given-names></name>, <name><surname>Ganova-Raeva</surname><given-names>LM</given-names></name>, <name><surname>Schell</surname><given-names>MA</given-names></name>, <name><surname>Denny</surname><given-names>TP</given-names></name> (<year>1997</year>) <article-title>Hierarchical autoinduction in <italic>Ralstonia solanacearum</italic>: control of acyl-homoserine lactone production by a novel autoregulatory system responsive to 3-hydroxypalmitic acid methyl ester</article-title>. <source>J Bacteriol</source><volume>179</volume>: <fpage>7089</fpage>&#x2013;<lpage>7097</lpage><pub-id pub-id-type="pmid">9371457</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Gilson1">
+        <label>68</label>
+        <mixed-citation publication-type="journal"><name><surname>Gilson</surname><given-names>L</given-names></name>, <name><surname>Kuo</surname><given-names>A</given-names></name>, <name><surname>Dunlap</surname><given-names>PV</given-names></name> (<year>1995</year>) <article-title>AinS and a new family of autoinducer synthesis proteins</article-title>. <source>J Bacteriol</source><volume>177</volume>: <fpage>6946</fpage>&#x2013;<lpage>6951</lpage><pub-id pub-id-type="pmid">7592489</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Kuo1">
+        <label>69</label>
+        <mixed-citation publication-type="journal"><name><surname>Kuo</surname><given-names>A</given-names></name>, <name><surname>Blough</surname><given-names>NV</given-names></name>, <name><surname>Dunlap</surname><given-names>PV</given-names></name> (<year>1994</year>) <article-title>Multiple <italic>N</italic>-acyl-L-homoserine lactone autoinducers of luminescence in the marine symbiotic bacterium <italic>Vibrio fischeri</italic></article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>7558</fpage>&#x2013;<lpage>7565</lpage><pub-id pub-id-type="pmid">8002580</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Antunes2">
+        <label>70</label>
+        <mixed-citation publication-type="journal"><name><surname>Antunes</surname><given-names>LC</given-names></name>, <name><surname>Schaefer</surname><given-names>AL</given-names></name>, <name><surname>Ferreira</surname><given-names>RB</given-names></name>, <name><surname>Qin</surname><given-names>N</given-names></name>, <name><surname>Stevens</surname><given-names>AM</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Transcriptome analysis of the <italic>Vibrio fischeri</italic> LuxR-LuxI regulon</article-title>. <source>J Bacteriol</source><volume>189</volume>: <fpage>8387</fpage>&#x2013;<lpage>8391</lpage><pub-id pub-id-type="pmid">17827287</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Perez1">
+        <label>71</label>
+        <mixed-citation publication-type="journal"><name><surname>Perez</surname><given-names>PD</given-names></name>, <name><surname>Weiss</surname><given-names>JT</given-names></name>, <name><surname>Hagen</surname><given-names>SJ</given-names></name> (<year>2011</year>) <article-title>Noise and crosstalk in two quorum-sensing inputs of <italic>Vibrio fischeri</italic></article-title>. <source>BMC Syst Biol</source><volume>5</volume>: <fpage>153</fpage><pub-id pub-id-type="pmid">21959018</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Williams1">
+        <label>72</label>
+        <mixed-citation publication-type="journal"><name><surname>Williams</surname><given-names>JW</given-names></name>, <name><surname>Cui</surname><given-names>XH</given-names></name>, <name><surname>Levchenko</surname><given-names>A</given-names></name>, <name><surname>Stevens</surname><given-names>AM</given-names></name> (<year>2008</year>) <article-title>Robust and sensitive control of a quorum-sensing circuit by two interlocked feedback loops</article-title>. <source>Mol Syst Biol</source><volume>4</volume>: <fpage>234</fpage><pub-id pub-id-type="pmid">19096361</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Dilanji1">
+        <label>73</label>
+        <mixed-citation publication-type="journal"><name><surname>Dilanji</surname><given-names>GE</given-names></name>, <name><surname>Langebrake</surname><given-names>JB</given-names></name>, <name><surname>De Leenheer</surname><given-names>P</given-names></name>, <name><surname>Hagen</surname><given-names>SJ</given-names></name> (<year>2012</year>) <article-title>Quorum activation at a distance: spatiotemporal patterns of gene regulation from diffusion of an autoinducer signal</article-title>. <source>J Am Chem Soc</source><volume>134</volume>: <fpage>5618</fpage>&#x2013;<lpage>5626</lpage><pub-id pub-id-type="pmid">22372494</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Flickinger1">
+        <label>74</label>
+        <mixed-citation publication-type="journal"><name><surname>Flickinger</surname><given-names>ST</given-names></name>, <name><surname>Copeland</surname><given-names>MF</given-names></name>, <name><surname>Downes</surname><given-names>EM</given-names></name>, <name><surname>Braasch</surname><given-names>AT</given-names></name>, <name><surname>Tuson</surname><given-names>HH</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Quorum sensing between <italic>Pseudomonas aeruginosa</italic> biofilms accelerates cell growth</article-title>. <source>J Am Chem Soc</source><volume>133</volume>: <fpage>5966</fpage>&#x2013;<lpage>5975</lpage><pub-id pub-id-type="pmid">21434644</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Iuchi1">
+        <label>75</label>
+        <mixed-citation publication-type="journal"><name><surname>Iuchi</surname><given-names>S</given-names></name>, <name><surname>Chepuri</surname><given-names>V</given-names></name>, <name><surname>Fu</surname><given-names>HA</given-names></name>, <name><surname>Gennis</surname><given-names>RB</given-names></name>, <name><surname>Lin</surname><given-names>ECC</given-names></name> (<year>1990</year>) <article-title>Requirement for terminal cytochromes in generation of the aerobic signal for the Arc regulatory system in <italic>Escherichia coli</italic> - Study utilizing deletions and <italic>lac</italic> fusions of <italic>cyo</italic> and <italic>cyd</italic></article-title>. <source>J Bacteriol</source><volume>172</volume>: <fpage>6020</fpage>&#x2013;<lpage>6025</lpage><pub-id pub-id-type="pmid">2170337</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Iuchi2">
+        <label>76</label>
+        <mixed-citation publication-type="journal"><name><surname>Iuchi</surname><given-names>S</given-names></name> (<year>1993</year>) <article-title>Phosphorylation/dephosphorylation of the receiver module at the conserved aspartate residue controls transphosphorylation activity of histidine kinase in sensor protein ArcB of <italic>Escherichia coli</italic></article-title>. <source>J Biol Chem</source><volume>268</volume>: <fpage>23972</fpage>&#x2013;<lpage>23980</lpage><pub-id pub-id-type="pmid">8226939</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Rolfe1">
+        <label>77</label>
+        <mixed-citation publication-type="journal"><name><surname>Rolfe</surname><given-names>MD</given-names></name>, <name><surname>Ter Beek</surname><given-names>A</given-names></name>, <name><surname>Graham</surname><given-names>AI</given-names></name>, <name><surname>Trotter</surname><given-names>EW</given-names></name>, <name><surname>Asif</surname><given-names>HM</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Transcript profiling and inference of <italic>Escherichia coli</italic> K-12 ArcA activity across the range of physiologically relevant oxygen concentrations</article-title>. <source>J Biol Chem</source><volume>286</volume>: <fpage>10147</fpage>&#x2013;<lpage>10154</lpage><pub-id pub-id-type="pmid">21252224</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Malpica1">
+        <label>78</label>
+        <mixed-citation publication-type="journal"><name><surname>Malpica</surname><given-names>R</given-names></name>, <name><surname>Franco</surname><given-names>B</given-names></name>, <name><surname>Rodriguez</surname><given-names>C</given-names></name>, <name><surname>Kwon</surname><given-names>O</given-names></name>, <name><surname>Georgellis</surname><given-names>D</given-names></name> (<year>2004</year>) <article-title>Identification of a quinone-sensitive redox switch in the ArcB sensor kinase</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>101</volume>: <fpage>13318</fpage>&#x2013;<lpage>13323</lpage><pub-id pub-id-type="pmid">15326287</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Georgellis1">
+        <label>79</label>
+        <mixed-citation publication-type="journal"><name><surname>Georgellis</surname><given-names>D</given-names></name>, <name><surname>Kwon</surname><given-names>O</given-names></name>, <name><surname>Lin</surname><given-names>EC</given-names></name> (<year>2001</year>) <article-title>Quinones as the redox signal for the <italic>arc</italic> two-component system of bacteria</article-title>. <source>Science</source><volume>292</volume>: <fpage>2314</fpage>&#x2013;<lpage>2316</lpage><pub-id pub-id-type="pmid">11423658</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Ravcheev1">
+        <label>80</label>
+        <mixed-citation publication-type="journal"><name><surname>Ravcheev</surname><given-names>DA</given-names></name>, <name><surname>Gerasimova</surname><given-names>AV</given-names></name>, <name><surname>Mironov</surname><given-names>AA</given-names></name>, <name><surname>Gelfand</surname><given-names>MS</given-names></name> (<year>2007</year>) <article-title>Comparative genomic analysis of regulation of anaerobic respiration in ten genomes from three families of gamma-proteobacteria (Enterobacteriaceae, Pasteurellaceae, Vibrionaceae)</article-title>. <source>BMC Genomics</source><volume>8</volume>: <fpage>54</fpage><pub-id pub-id-type="pmid">17313674</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Dunn3">
+        <label>81</label>
+        <mixed-citation publication-type="journal"><name><surname>Dunn</surname><given-names>AK</given-names></name>, <name><surname>Karr</surname><given-names>EA</given-names></name>, <name><surname>Wang</surname><given-names>Y</given-names></name>, <name><surname>Batton</surname><given-names>AR</given-names></name>, <name><surname>Ruby</surname><given-names>EG</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The alternative oxidase (AOX) gene in <italic>Vibrio fischeri</italic> is controlled by NsrR and upregulated in response to nitric oxide</article-title>. <source>Mol Microbiol</source><volume>77</volume>: <fpage>44</fpage>&#x2013;<lpage>55</lpage><pub-id pub-id-type="pmid">20487270</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0049590-Bose3">
+        <label>82</label>
+        <mixed-citation publication-type="journal"><name><surname>Bose</surname><given-names>JL</given-names></name>, <name><surname>Wollenberg</surname><given-names>MS</given-names></name>, <name><surname>Colton</surname><given-names>DM</given-names></name>, <name><surname>Mandel</surname><given-names>MJ</given-names></name>, <name><surname>Septer</surname><given-names>AN</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Contribution of rapid evolution of the <italic>luxR</italic>-<italic>luxI</italic> intergenic region to the diverse bioluminescence outputs of <italic>Vibrio fischeri</italic> strains isolated from different environments</article-title>. <source>Appl Environ Microbiol</source><volume>77</volume>: <fpage>2445</fpage>&#x2013;<lpage>2457</lpage><pub-id pub-id-type="pmid">21317265</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

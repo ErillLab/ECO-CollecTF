@@ -1,0 +1,51 @@
+T1	ECO 2091 2126	expression level of the ars operons
+A1	Category T1 MolFn
+A2	ECOConfidence T1 High
+A3	NextSentence T1 No
+A4	NegativeStatement T1 Yes
+A5	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000008	expression pattern evidence
+T2	ECO 2532 2553	increased mRNA levels
+A6	Category T2 MolFn
+A7	ECOConfidence T2 High
+A8	NextSentence T2 No
+A9	NegativeStatement T2 No
+A10	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0000008	expression pattern evidence
+T3	ECO 4790 4805	gene expression
+A11	Category T3 MolFn
+A12	ECOConfidence T3 High
+A13	NextSentence T3 No
+A14	NegativeStatement T3 Yes
+A15	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0000058	expression microarray evidence
+T4	ECO 5016 5038	mRNA level of 43 genes
+A16	Category T4 BioProc
+A17	ECOConfidence T4 High
+A18	NextSentence T4 No
+A19	NegativeStatement T4 No
+A20	AssertionStrength T4 Medium
+T7	ECO 10728 10732	EMSA
+A31	Category T7 BioProc
+A32	ECOConfidence T7 High
+A33	NextSentence T7 No
+A34	NegativeStatement T7 Yes
+A35	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T6	ECO 3205 3223	transcriptome data
+A26	Category T6 BioProc
+A27	ECOConfidence T6 Medium
+A28	AssertionStrength T6 Medium
+N6	Reference T6 brat_eco:ECO:0000009	transcript expression evidence
+N4	Reference T4 brat_eco:ECO:0000009	transcript expression evidence
+T5	ECO 9329 9365	motif alignment and search tool MAST
+A21	Category T5 SeqFeat
+A22	ECOConfidence T5 High
+A23	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0000200	sequence alignment evidence
+T9	ECO 10044 10119	binding motif TGAAGATTTnnTGAAGATTT was used to search for similar sequences
+A24	Category T9 SeqFeat
+A25	ECOConfidence T9 High
+A29	NextSentence T9 Yes
+A30	AssertionStrength T9 Medium
+N9	Reference T9 brat_eco:ECO:0000028	motif similarity evidence

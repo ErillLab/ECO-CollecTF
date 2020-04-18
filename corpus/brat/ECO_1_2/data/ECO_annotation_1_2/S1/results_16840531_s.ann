@@ -1,0 +1,81 @@
+T1	ECO 634 652	the mobility shift
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 Medium
+A3	NextSentence T1 Yes
+A4	NegativeStatement T1 No
+A5	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+#1	AnnotatorNotes T1	Next sentence uses this to make a claim about the location of the promoter. 
+T2	ECO 2115 2177	Analysis of the deduced Synechocystis LexA amino acid sequence
+A6	Category T2 SeqFeat
+A7	ECOConfidence T2 High
+A8	NextSentence T2 No
+A9	NegativeStatement T2 Yes
+A10	AssertionStrength T2 High
+N2	Reference T2 brat_eco:ECO:0001118	protein sequencing assay evidence
+#2	AnnotatorNotes T2	Pretty confident about this one. Sequence Feature covers amino acid sequences as well, right?
+T3	ECO 2395 2410	an SOS-like box
+A11	Category T3 SeqFeat
+A12	ECOConfidence T3 High
+A13	NextSentence T3 No
+A14	NegativeStatement T3 Yes
+A15	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0000028	motif similarity evidence
+#3	AnnotatorNotes T3	This one is a little shaky, but since sequence feature annotations are non-GO I figured I could still try and capture it.
+T4	ECO 2643 2806	a sequence related to the putative cyanobacterial SOS box (36), matching 7 of 9 essential residues with required spacing between essential residues, was identified
+A16	Category T4 SeqFeat
+A17	ECOConfidence T4 Medium
+A18	NextSentence T4 No
+A19	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0000028	motif similarity evidence
+T5	ECO 3542 3561	Growth in the light
+A20	Category T5 Phen
+A21	ECOConfidence T5 High
+A22	NextSentence T5 No
+A23	NegativeStatement T5 No
+A24	AssertionStrength T5 Medium
+N5	Reference T5 brat_eco:ECO:0001563	cell growth assay evidence
+T6	ECO 3695 3713	growth in the dark
+A25	Category T6 Phen
+A26	ECOConfidence T6 High
+A27	NextSentence T6 No
+A28	NegativeStatement T6 No
+A29	AssertionStrength T6 High
+N6	Reference T6 brat_eco:ECO:0001563	cell growth assay evidence
+T7	ECO 3797 3838	addition of glucose (5 mM) to light-grown
+A30	Category T7 Phen
+A31	ECOConfidence T7 High
+A32	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000095	cell growth regulation assay evidence
+#4	AnnotatorNotes T7	Phenotype because they're referring to the transcript, not to the protein.
+A33	NextSentence T7 No
+A34	NegativeStatement T7 No
+T8	ECO 4662 4686	following UV-irradiation
+A35	Category T8 Phen
+A36	ECOConfidence T8 High
+A37	NextSentence T8 No
+A38	NegativeStatement T8 No
+A39	AssertionStrength T8 High
+N8	Reference T8 brat_eco:ECO:0000059	experimental phenotypic evidence
+T9	ECO 6010 6073	soluble protein extracts did not alter crhR DNA target mobility
+A40	ECOConfidence T9 High
+A41	NegativeStatement T9 Yes
+A42	AssertionStrength T9 Medium
+N9	Reference T9 brat_eco:ECO:0000136	nucleic acid binding evidence
+A43	Category T9 BioProc
+A44	NextSentence T9 No
+T10	ECO 7108 7150	protein accumulation decreased in response
+A45	Category T10 BioProc
+A46	ECOConfidence T10 High
+A47	NextSentence T10 Yes
+A48	NegativeStatement T10 No
+A49	AssertionStrength T10 Medium
+N10	Reference T10 brat_eco:ECO:0000059	experimental phenotypic evidence
+#5	AnnotatorNotes T10	Experimental phenotypic makes sense here to me. 
+T11	ECO 6935 6942	in vitro
+A50	Category T11 BioProc
+A51	ECOConfidence T11 High
+A52	NextSentence T11 No
+A53	NegativeStatement T11 No
+A54	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0000181	in vitro assay evidence

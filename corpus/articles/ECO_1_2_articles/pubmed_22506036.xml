@@ -1,0 +1,1857 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22506036</article-id>
+      <article-id pub-id-type="pmc">3323551</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-11-25186</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0034622</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Sequence Analysis</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacterial Pathogens</subject>
+              <subj-group>
+                <subject>Gram Negative</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Biofilms</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>DNA transcription</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Gastroenterology and Hepatology</subject>
+            <subj-group>
+              <subject>Gastrointestinal Infections</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Transcriptional Regulation of <italic>opaR</italic>, <italic>qrr2&#x2013;4</italic> and <italic>aphA</italic> by the Master Quorum-Sensing Regulator OpaR in <italic>Vibrio parahaemolyticus</italic></article-title>
+        <alt-title alt-title-type="running-head">Regulation of <italic>opaR</italic>, <italic>qrr2&#x2013;4</italic> and <italic>aphA</italic> by OpaR</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yiquan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Qiu</surname>
+            <given-names>Yefeng</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tan</surname>
+            <given-names>Yafang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guo</surname>
+            <given-names>Zhaobiao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Ruifu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Dongsheng</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>State Key Laboratory of Pathogen and Biosecurity, Beijing Institute of Microbiology and Epidemiology, Beijing, China</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Laboratory Animal Center, Academy of Military Medical Sciences, Beijing, China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Mukhopadhyay</surname>
+            <given-names>Partha</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">National Institutes of Health, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>dongshengzhou1977@gmail.com</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: DZ. Performed the experiments: YZ YQ YT ZG DZ. Analyzed the data: DZ YZ YQ. Contributed reagents/materials/analysis tools: DZ YZ YQ. Wrote the paper: DZ YZ RY.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>4</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>4</issue>
+      <elocation-id>e34622</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>12</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>3</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Zhang et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p><italic>Vibrio parahaemolyticus</italic> is a leading cause of infectious diarrhea and enterogastritis via the fecal-oral route. <italic>V. harveyi</italic> is a pathogen of fishes and invertebrates, and has been used as a model for quorum sensing (QS) studies. LuxR is the master QS regulator (MQSR) of <italic>V. harveyi</italic>, and LuxR-dependent expression of its own gene, <italic>qrr2&#x2013;4</italic> and <italic>aphA</italic> have been established in <italic>V. harveyi</italic>. Molecular regulation of target genes by the <italic>V. parahaemolyticus</italic> MQSR OpaR is still poorly understood.</p>
+        </sec>
+        <sec>
+          <title>Methodology/Principal Findings</title>
+          <p>The bioinformatics analysis indicated that V. <italic>parahaemolyticus</italic> OpaR, <italic>V. harveyi</italic> LuxR, <italic>V. vulnificu</italic> SmcR, and <italic>V. alginolyticus</italic> ValR were extremely conserved, and that these four MQSRs appeared to recognize the same conserved <italic>cis</italic>-acting signals, which was represented by the consensus constructs manifesting as a position frequency matrix and as a 20 bp box, within their target promoters. The MQSR box-like sequences were found within the upstream DNA regions of <italic>opaR</italic>, <italic>qrr2&#x2013;4</italic> and <italic>aphA</italic> in <italic>V. parahaemolyticus</italic>, and the direct transcriptional regulation of these target genes by OpaR were further confirmed by multiple biochemical experiments including primer extension assay, gel mobility shift assay, and DNase I footprinting analysis. Translation and transcription starts, core promoter elements for sigma factor recognition, Shine-Dalgarno sequences for ribosome recognition, and OpaR-binding sites were determined for the five target genes of OpaR, which gave a structural map of the OpaR-dependent promoters. Further computational promoter analysis indicated the above regulatory circuits were shared by several other closely related Vibrios but with slight exceptions.</p>
+        </sec>
+        <sec>
+          <title>Conclusions/Significance</title>
+          <p>This study gave a comprehensive computational and characterization of the direct transcriptional regulation of five target genes, <italic>opaR</italic>, <italic>qrr2&#x2013;4</italic> and <italic>ahpA</italic>, by OpaR in <italic>V. parahaemolyticus</italic>. These characterized regulatory circuits were conserved in <italic>V. harveyi</italic> and <italic>V. parahaemolyticus</italic>.</p>
+        </sec>
+      </abstract>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Bacterial quorum sensing (QS) is a process of population density-dependent cell-to-cell communication through synthesizing, releasing, and detecting signal molecules called autoinducers. The QS systems are widely distributed in <italic>Vibrio</italic> species that are natural inhabitants in seawater, boundary regions between sea and river, and aquatic products. <italic>V. harveyi</italic> (a pathogen of fishes and invertebrates) and <italic>V. cholerae</italic> (the causative agent of the disease cholera) have been used as models for QS studies (summarized or characterized in <xref ref-type="bibr" rid="pone.0034622-Henke1">[1]</xref>, <xref ref-type="bibr" rid="pone.0034622-Lenz1">[2]</xref>, <xref ref-type="bibr" rid="pone.0034622-Waters1">[3]</xref>, <xref ref-type="bibr" rid="pone.0034622-Tu1">[4]</xref>, <xref ref-type="bibr" rid="pone.0034622-Hammer1">[5]</xref>, <xref ref-type="bibr" rid="pone.0034622-Hussa1">[6]</xref>, <xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>, <xref ref-type="bibr" rid="pone.0034622-Svenningsen1">[8]</xref>, <xref ref-type="bibr" rid="pone.0034622-Hammer2">[9]</xref>, <xref ref-type="bibr" rid="pone.0034622-Long1">[10]</xref>, <xref ref-type="bibr" rid="pone.0034622-Svenningsen2">[11]</xref>, <xref ref-type="bibr" rid="pone.0034622-Tu3">[12]</xref>, <xref ref-type="bibr" rid="pone.0034622-Teng1">[13]</xref>).</p>
+      <p><italic>V. harveyi</italic> uses three distinct autoinducers, harveyi autoinducer 1 (HAI-1), autoinducer 2 (AI-2), and cholerae autoinducer 1 (CAI-1), which are synthesized by the autoinducer synthases LuxM, LuxS, and CqsA, respectively (<xref ref-type="fig" rid="pone-0034622-g001">Fig. 1</xref>). They bind to the membrane-anchoring receptor proteins, LuxN, LuxP/LuxQ, and CqsS, respectively, at the cell surface. <italic>V. cholerae</italic> uses two known autoinducers CAI-1 and AI-2, rather than HAI-1, since the orthologs of LuxN and LuxM are essentially absent from this bacterium. The association of autoinducers and their receptor proteins triggers a common phosphorylation/dephosphorylation signal transduction cascade involving LuxU and LuxO.</p>
+      <fig id="pone-0034622-g001" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g001</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>Quorum sensing systems in <italic>V. harveyi</italic>/<italic>V. parahaemolyticus</italic>.</title>
+          <p>The mode for signal transduction during QS in <italic>V. harveyi</italic> has been described in the text. The feedback regulatory loops are shown with dotted lines. Since all the components of <italic>V. harveyi</italic> quorum sensing appears to be intact in the <italic>V. parahaemolyticus</italic> genome <xref ref-type="bibr" rid="pone.0034622-Makino1">[16]</xref>, the QS signal transduction cascades should be conserved in <italic>V. harveyi</italic> and <italic>V. parahaemolyticus</italic>.</p>
+        </caption>
+        <graphic xlink:href="pone.0034622.g001"/>
+      </fig>
+      <p>At low cell density (LCD) (<xref ref-type="fig" rid="pone-0034622-g001">Fig. 1</xref>), the autoinducers are absent or at low concentrations, and the receptors autophosphorylate and then transfer phosphate to the phosphorelay protein LuxU that in turn shuttles phosphate to the transcriptional factor LuxO. The phosphorylated LuxO (LuxO-P) in combination with the sigma factor &#x3C3;<sup>54</sup> activates the transcription of the genes encoding regulatory small RNAs (sRNAs), Qrr1&#x2013;4. The Qrr sRNAs accompanying with the RNA-binding protein Hfq in turns inhibit the translation of the mRNA of the master QS regulator (MQSR), e.g., LuxR in <italic>V. harveyi</italic>, and HapR in <italic>V. cholerae</italic>, which leads to the ceased production of MQSR. The over-production of Qrr sRNAs and LuxO-P triggers three feedback regulatory loops: i) LuxO-P represses the transcription of its own gene, ii) Qrr sRNAs inhibits the translation of <italic>luxO</italic>, and iii) Qrr sRNAs repress the translation of <italic>luxMN</italic> encoding LuxM and its cognate receptor LuxM; these feedbacks will contribute to control the Qrr levels within physiological states, since the <italic>qrr</italic> expression requires the signal transduction among LuxO, LuxM, and LuxN.</p>
+      <p>At high cell densities (HCD) (<xref ref-type="fig" rid="pone-0034622-g001">Fig. 1</xref>), the accumulated autoinducers bind to their receptors, and convert the receptors to phosphatases, thereby reversing the phosphate flow and triggering the dephosphorylation of LuxU and LuxO. Dephosphorylated LuxO cannot activate the <italic>qrr</italic> transcription. Existing Qrr sRNAs are rapidly turned over, as Hfq-dependent sRNAs are degraded stoichiometrically with their target mRNAs. In the absence of the Qrr sRNAs, the MQSR mRNA is translated, and MQSR is produced abundantly to act as either a transcriptional activator or a repressor for its target genes. Overproduced MQSR will feed back to repress its own transcription.</p>
+      <p>MQSR is able to activate the transcription of <italic>qrr</italic> genes, and this MQSR-<italic>qrr</italic> feedback loop (<xref ref-type="fig" rid="pone-0034622-g001">Fig. 1</xref>) in turns leads to the rapid down-regulation of MQSR gene. The efficient stimulation of <italic>qrr</italic> genes requires the simultaneous presence of LuxO-P (abundant only at LCD) and MQSR (abundant only at HCD). LuxO-P and MQSR are thought to be simultaneously present immediately following the switch from HCD to LCD. Therefore, the above negative feedback loop dramatically accelerates the transition HCD to LCD, but it has no effect on the QS behaviors at steady-state LCD or HCD.</p>
+      <p>The above five negative feedback loops control the integration of multiple signals, and maintain the signal transmission fidelity of QS through affecting the input-output dynamic range of signal transmission and modulating the noise in the output <xref ref-type="bibr" rid="pone.0034622-Teng1">[13]</xref>.</p>
+      <p><italic>V. parahaemolyticus</italic> is a leading cause of infectious diarrhea and enterogastritis via the fecal-oral route <xref ref-type="bibr" rid="pone.0034622-Yeung1">[14]</xref>. Human infections occur mainly due to the ingestion of this pathogen in raw or undercooked seafood. <italic>V. harveyi</italic>, <italic>V. parahaemolyticus</italic>, and six additional closely related species (<italic>V. alginolyticus</italic>, <italic>V. campbellii</italic>, <italic>V. rotiferianus</italic>, <italic>V. natrigens</italic>, <italic>V. mytili</italic>, and <italic>V. azureus</italic>) constitute the Harveyi clade that is a subset of the <italic>Vibrio</italic> core group <xref ref-type="bibr" rid="pone.0034622-Sawabe1">[15]</xref>. All the components of the <italic>V. harveyi</italic> QS system can be annotated to be intact in the genome <italic>V. parahaemolyticus</italic>
+<xref ref-type="bibr" rid="pone.0034622-Makino1">[16]</xref>. Thus, the signal transduction cascades of QS should be conserved in <italic>V. harveyi</italic> and <italic>V. parahaemolyticus</italic> (<xref ref-type="fig" rid="pone-0034622-g001">Fig. 1</xref>).</p>
+      <p>The <italic>V. parahaemolyticus</italic> OpaR <xref ref-type="bibr" rid="pone.0034622-McCarter1">[17]</xref> is the ortholog of the <italic>V. harveyi</italic> LuxR. The <italic>opaR</italic> gene (VP2516) <xref ref-type="bibr" rid="pone.0034622-Makino1">[16]</xref> is composed of an open reading frame (ORF) containing 615 nucleotides with a G+C content of 44.55%, and it encodes a deduced protein of 204 amino acids (a.a.) with a calculated molecular mass of 23634.01 Da and with an isolectric point of 5.96. Regulation of target genes by OpaR in <italic>V. parahaemolyticus</italic> is still poorly understood. In the present work, the consensus constructs were built to represent the conserved <italic>cis</italic>-acting signals recognized by the four extremely conserved MQSR proteins, <italic>V. parahaemolyticus</italic> OpaR, <italic>V. harveyi</italic> LuxR, <italic>V. vulnificus</italic> SmcR, and <italic>V. alginolyticus</italic> ValR, which was followed by a comprehensive molecular characterization of the transcriptional regulation of five target genes, <italic>opaR</italic>, <italic>qrr2&#x2013;4</italic> and <italic>ahpA</italic>, by OpaR in <italic>V. parahaemolyticus</italic>.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Bacterial strains</title>
+        <p>The wild-type <italic>V. parahaemolyticus</italic> strain RIMD 2210633 (WT) is a pandemic O3:K6 strain isolated from a patient with traveler's diarrhea in Japan in 1996 <xref ref-type="bibr" rid="pone.0034622-Makino1">[16]</xref>. The null <italic>opaR</italic> mutant derived from WT and the corresponding complemented mutant are described below. For the common bacterial growth and maintenance, bacteria were cultured in Luria-Bertani (LB) broth or LB agar with addition of 2% NaCl at 37&#xB0;C, and chloramphenicol was added at 5 &#xB5;g/ml when needed. For the longtime storage, bacteria were stored in Difco&#x2122; Marine (MR) broth 2216 (BD Bioscience) with addition of 30% glycerol at &#x2212;85&#xB0;C.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Construction of the <italic>opaR</italic> null mutant</title>
+        <p>The entire coding region of <italic>opaR</italic> was deleted from RIMD 2210633 to generate the <italic>opaR</italic> null mutant strain <italic>&#x394;opaR</italic>, using the suicide plasmid pDS132 <xref ref-type="bibr" rid="pone.0034622-Philippe1">[18]</xref> by introducing homologous recombination as previously described <xref ref-type="bibr" rid="pone.0034622-Hiyoshi1">[19]</xref>, <xref ref-type="bibr" rid="pone.0034622-Casselli1">[20]</xref>. Briefly, the 414 and 457 bp DNA regions upstream and downstream of <italic>opaR</italic>, respectively, were amplified by PCR, purified, and used as the templates to create a 871 bp deletion construct, through PCR, which was subsequently inserted between the <italic>Pst</italic>I and <italic>Sph</italic>I sites of pDS132. This generated a recombinant vector that contained the deletion construct and the <italic>sacB</italic> gene conferring sensitivity to sucrose. All the primers used in the present work were listed in <xref ref-type="table" rid="pone-0034622-t001">Table 1</xref>. Upon verification by DNA sequencing, the recombinant vector was introduced into <italic>Escherichia coli</italic> S17-1(pir), and then transferred into RIMD 2210633 by conjugation. The mutant strain was selected using resistance to 10% sucrose and sensitivity to chloramphenicol, and further verified by PCR.</p>
+        <table-wrap id="pone-0034622-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Oligonucleotide primers used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0034622-t001-1" xlink:href="pone.0034622.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Target</td>
+                  <td align="left" rowspan="1" colspan="1">Primers (forward/reverse, 5&#x2032;-3&#x2032;)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Construction of mutant</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GTGACTGCAGACTGCCTTGGTAACGCTCTG/GTTCGTGTTCAAATCTGAGCTATCCATTTTCCTTGCCATTTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CAAATGGCAAGGAAAATGGATAGCTCAGATTTGAACACGAAC/GTGAGCATGCATGGGCTGCATCAGGTCG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GTGACTGCAGACTGCCTTGGTAACGCTCTG/GTGAGCATGCATGGGCTGCATCAGGTCG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Complementation of mutant</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCGGGATCCTCCATCGTGTTGCCGTAGC/GCGAAGCTTGCGAAAGCAGAAGGCATCAAG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Protein expression</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGCGGGATCCATGGACTCAATTGCAAAGAG/AGCGAAGCTTTTAGTGTTCGCGATTGTAG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>EMSA</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGTGGGTTGAGGTAGGTCG/GCCTAGTTCTAGGTCTCTTTGC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr2</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGTGGTTGCTTATGAATC/GGTCGAGAAGTATTATGC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATAAGTTCAAATTGGATC/GTGGTTTCTGTGACATAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr4</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AACCGTGAAATCCATTTAC/CGACGCATTATTAACCAG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aphA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AACTTCCAACCACATAATTGCG/GGCTGGAGCAGGTATGATTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>DNase I footprinting</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGTGGGTTGAAAGTCACATCC/GCCTAGTTCTAGGTCTCTTTGC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr2</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGTGGTTGCTTATGAATC/GGTCGAGAAGTATTATGC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATAAGTTCAAATTGGATC/GTGGTTTCTGTGACATAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr4</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AACCGTGAAATCCATTTAC/CGACGCATTATTAACCAG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aphA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AACTTCCAACCACATAATTGCG/GGCTGGAGCAGGTATGATTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" rowspan="1">
+                    <bold>Primer extension</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">/ATCCATTTTCCTTGCCATTTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr2</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">/TTATTGTGAACAATCTATAT</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">/AATCAAGTTCACTAACAAC</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr4</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">/ATATACTTGTGAACAATGTG</named-content>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aphA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">/GCTCTTACTGGCGCTTGAG</named-content>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s2c">
+        <title>Complementation of <italic>&#x394;opaR</italic></title>
+        <p>For complementation of the <italic>&#x394;opaR</italic> mutant, a PCR-generated DNA fragment containing the <italic>opaR</italic> coding region together with its promoter region (539 bp DNA region upstream of the coding sequence) and transcriptional terminator region (327 bp DNA region downstream) were cloned between the <italic>Sal</italic>I and <italic>Sph</italic>I sites of the vector pBRMob (kindly proved by Prof. Hin-chung Wong from Taiwan Soochow University) which is the ligation product of a 3219 bp fragment (containing the RP4 mob DNA region for plasmid mobilization) from pDS132 digested with <italic>Hind</italic>III, and the <italic>Hind</italic>III-digested plasmid pBR328 (harboring a chloramphenicol resistance gene) <xref ref-type="bibr" rid="pone.0034622-Balbas1">[21]</xref>. The recombinant plasmid, verified by DNA sequencing, was subsequently introduced into <italic>&#x394;opaR</italic>, yielding the complemented mutant strain <italic>C-opaR</italic>.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Bacterial growth and RNA isolation</title>
+        <p>The glyceric stock of bacterial cells was inoculated into 5 ml of the MR broth for growing at 30&#xB0;C with shaking at 200 rpm for 24 h. The cell culture was 40-fold diluted with the PBS buffer (pH 7.2), and then 150 &#xB5;l of the diluted cells were spread onto a HI plate [2.5% Bacto heart infusion (BD Bioscience), and 1.5% bacteriological grade agar] with a diameter of 5 cm. After 8 h of growth at 30&#xB0;C, cells were harvested from the plate by adding the mixture of 1.5 ml of RNAprotect (Qiagen) and 0.5 ml of PBS. Bacterial cultivations were done at least in triplicate (at least three biological replicates) for each strain.</p>
+        <p>Total bacterial RNAs were extracted using the TRIzol Reagent (Invitrogen) <xref ref-type="bibr" rid="pone.0034622-Zhan1">[22]</xref>, <xref ref-type="bibr" rid="pone.0034622-Li1">[23]</xref>, <xref ref-type="bibr" rid="pone.0034622-Zhang1">[24]</xref>. RNA quality was monitored by agarose gel electrophoresis, and RNA quantity was determined by spectrophotometry.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Primer extension assay</title>
+        <p>For the primer extension assay <xref ref-type="bibr" rid="pone.0034622-Zhan1">[22]</xref>, <xref ref-type="bibr" rid="pone.0034622-Li1">[23]</xref>, <xref ref-type="bibr" rid="pone.0034622-Zhang1">[24]</xref>, an oligonucleotide primer complementary to a portion of the RNA transcript of each indicated gene was employed to synthesize cDNAs from the RNA templates. About 10 &#xB5;g of the total RNA from each strain was annealed with 1 pmol of [&#x3B3;-<sup>32</sup>P] end-labeled reverse primer using a Primer Extension System (Promega) according to the manufacturer's instructions. The same labeled primer was also used for sequencing with the fmol&#xAE; DNA Cycle Sequencing System (Promega). The primer extension products and sequencing materials were concentrated and analyzed in a 6% polyacrylamide/8 M urea gel. The result was detected by autoradiography (Kodak film).</p>
+      </sec>
+      <sec id="s2f">
+        <title>Preparation of purified OpaR protein</title>
+        <p>Preparation of the purified OpaR protein was performed as previously described <xref ref-type="bibr" rid="pone.0034622-Zhan1">[22]</xref>, <xref ref-type="bibr" rid="pone.0034622-Li1">[23]</xref>, <xref ref-type="bibr" rid="pone.0034622-Zhang1">[24]</xref>. The entire coding region of the <italic>opaR</italic> gene of strain RIMD 2210633 was directionally cloned between the <italic>BamH</italic>I and <italic>Hind</italic>III sites of plasmid pET28a (Novagen). The recombinant plasmid encoding the 6&#xD7; His-tagged OpaR protein (His-OpaR) was transformed into <italic>Escherichia coli</italic> BL21&#x3BB;DE3 cells. Expression of His-OpaR was induced by the addition of 1 mM IPTG (isopropyl-b-D-thiogalactoside). The overproduced protein was purified under native conditions using an Ni-NTA Agarose Column (Qiagen). The purified protein was concentrated with the Amicon Ultra-15 centrifugal filter device (Millipore), and the protein purity was verified by SDS-PAGE.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Gel mobility shift assay (EMSA)</title>
+        <p>The 300 to 600 bp promoter-proximal region of each indicated gene was amplified by PCR. For EMSA <xref ref-type="bibr" rid="pone.0034622-Zhan1">[22]</xref>, <xref ref-type="bibr" rid="pone.0034622-Li1">[23]</xref>, <xref ref-type="bibr" rid="pone.0034622-Zhang1">[24]</xref>, the 5&#x2032; ends of DNA were labeled using [&#x3B3;-<sup>32</sup>P] ATP and T4 polynucleotide kinase. DNA binding was performed in a 10 &#xB5;l reaction volume containing binding buffer [1 mM MgCl<sub>2</sub>, 0.5 mM EDTA, 0.5 mM DTT, 50 mM NaCl, 10 mM Tris-HCl (pH 7.5) and 0.05 mg/ml poly-(dI-dC)], labeled DNA (1000 to 2000 c.p.m/&#xB5;l), and increasing amounts of the His-OpaR protein. Three controls were included in each EMSA experiment: 1) cold probe as specific DNA competitor (the same promoter-proximal DNA region unlabeled), 2) negative probe as nonspecific DNA competitor (the unlabeled coding region of the 16S rRNA gene), and 3) nonspecific protein competitor [rabbit anti-F1-protein polyclonal antibodies]. The F1 protein is the protective antigen from <italic>Yersinia pestis</italic>
+<xref ref-type="bibr" rid="pone.0034622-Andrews1">[25]</xref>. After incubation at room temperature for 30 min, the products were loaded onto a native 4% (w/v) polyacrylamide gel, and electrophoresed in 0.5&#xD7; TBE buffer for about 50 min at 220 V. Radioactive species were detected by autoradiography after exposure to Kodak film at &#x2212;70&#xB0;C.</p>
+      </sec>
+      <sec id="s2h">
+        <title>DNase I footprinting</title>
+        <p>For DNase I footprinting <xref ref-type="bibr" rid="pone.0034622-Zhan1">[22]</xref>, <xref ref-type="bibr" rid="pone.0034622-Li1">[23]</xref>, <xref ref-type="bibr" rid="pone.0034622-Zhang1">[24]</xref>, the 250 to 600 bp promoter-proximal DNA regions with a single <sup>32</sup>P-labeled end were PCR amplified with either the sense or antisense primer being end-labeled. The PCR products were purified using the QiaQuick columns (Qiagen). Increasing amounts of His-OpaR were incubated with the purified, labeled DNA fragment (2 to 5 pmol) for 30 min at room temperature, in a final 10 &#xB5;l reaction volume containing the binding buffer used in EMSA. Before DNA digestion, 10 &#xB5;l of Ca<sup>2+</sup>/Mg<sup>2+</sup> solution (5 mM CaCl<sub>2</sub> and 10 mM MgCl<sub>2</sub>) was added, followed by incubation for 1 min at room temperature. The optimized RQ1 RNase-Free DNase I (Promega) was then added to the reaction mixture, and the mixture was incubated at room temperature for 40 to 90 s. The reaction was quenched by adding 9 &#xB5;l of stop solution (200 mM NaCl, 30 mM EDTA, and 1% SDS), followed by incubation for 1 min at room temperature. The partially digested DNA samples were extracted with phenol/chloroform, precipitated with ethanol, and analyzed in 6% polyacrylamide/8 M urea gel. Protected regions were identified by comparison with the sequence ladders. For sequencing, we used the <italic>fmol</italic>&#xAE; DNA Cycle Sequencing System (Promega). The templates for sequencing were the same as the DNA fragments of DNase I footprinting assays. Radioactive species were detected as previously described.</p>
+      </sec>
+      <sec id="s2i">
+        <title>Computational promoter analysis</title>
+        <p>The 300 bp promoter regions upstream of the start codon of each indicated gene were retrieved with the &#x2018;<italic>retrieve-seq</italic>&#x2019; program <xref ref-type="bibr" rid="pone.0034622-vanHelden1">[26]</xref>. Known or predicted binding sites of OpaR and its orthologs were collected and aligned to generate the position frequency matrix (PFM) by using the &#x2018;<italic>matrices-consensus</italic>&#x2019; tool <xref ref-type="bibr" rid="pone.0034622-vanHelden1">[26]</xref>.The sequence logo representation of the above binding sites was generated by the WebLogo tool <xref ref-type="bibr" rid="pone.0034622-Crooks1">[27]</xref>. The &#x2018;<italic>matrices-paster</italic>&#x2019; tool <xref ref-type="bibr" rid="pone.0034622-vanHelden1">[26]</xref> was used to match the PFM within the promoter-proximal DNA regions.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Phylogeny of OpaR and its orthologs</title>
+        <p>The OpaR regulator shares high identity (&#x2265;70%) in a.a. sequences with the orthologous MQSRs in other six <italic>Vibrio</italic> species tested (<italic>V. alginolyticus</italic> ValR, <italic>V. harveyi</italic> LuxR, <italic>V. vulnificus</italic> SmcR, <italic>V. tubiashii</italic> VtpR, <italic>V. anguillarum</italic> VanT, and <italic>V. cholerae</italic> HapR). A phylogenetic tree (<xref ref-type="fig" rid="pone-0034622-g002">Fig. 2</xref>) was constructed from the aligned a.a. sequences of the above seven orthologous MQSR proteins, with an additional regulator LitR from <italic>V. fischeri</italic>
+<xref ref-type="bibr" rid="pone.0034622-Fidopiastis1">[28]</xref> as the outgroup (LitR has about 60% identity to the above seven MQSRs; all these eight proteins are belonged to the TetR-family DNA-binding regulators), which revealed that LuxR, OpaR, SmcR, and ValR constituted the most closely related group (&gt;92% identity between each other).</p>
+        <fig id="pone-0034622-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Phylogenetic tree of OpaR and its orthologs.</title>
+            <p>Protein sequences were derived from <italic>V. alginolyticus</italic> ZJ-51 <xref ref-type="bibr" rid="pone.0034622-Chang1">[60]</xref>, <italic>V. parahaemolyticus</italic> RIMD 2210633 <xref ref-type="bibr" rid="pone.0034622-Makino1">[16]</xref>, <italic>V. harveyi</italic> ATCC BAA-1116 <xref ref-type="bibr" rid="pone.0034622-Lin3">[61]</xref>, <italic>V. vulnificus</italic> YJ016 <xref ref-type="bibr" rid="pone.0034622-Chen1">[62]</xref>, <italic>V. tubiashii</italic> RE22 <xref ref-type="bibr" rid="pone.0034622-Hasegawa1">[63]</xref>, <italic>V. anguillarum</italic> 775 <xref ref-type="bibr" rid="pone.0034622-Naka1">[64]</xref>, <italic>V. cholera</italic> N16961 <xref ref-type="bibr" rid="pone.0034622-Heidelberg1">[65]</xref>, and <italic>V. fischeri</italic> MJ11 <xref ref-type="bibr" rid="pone.0034622-Mandel1">[66]</xref>. The a.a. sequences were aligned by the CLUSTALW <xref ref-type="bibr" rid="pone.0034622-Thompson1">[67]</xref> web server at <ext-link ext-link-type="uri" xlink:href="http://align.genome.jp/">http://align.genome.jp/</ext-link>. The aligned sequences were then used to construct an unrooted neighbor-joining tree using the MEGA version 5.0 <xref ref-type="bibr" rid="pone.0034622-Tamura1">[68]</xref> with a bootstrap iteration number of 1000. Shown on the branch points of phylogenic tree were the bootstrap values (%).</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g002"/>
+        </fig>
+      </sec>
+      <sec id="s3b">
+        <title>The MQSR consensus</title>
+        <p>Since the four DNA-binding regulatory proteins LuxR, OpaR, SmcR, and ValR were extremely conserved, they should recognize the same conserved signals within their target promoters in <italic>V. harveyi</italic>, <italic>V. parahaemolyticus</italic>, <italic>V. vulnificus</italic>, and <italic>V. alginolyticus</italic>. Known or predicted binding sites of LuxR, OpaR, SmcR, and ValR (<xref ref-type="table" rid="pone-0034622-t002">Table 2</xref>) were collected, and then aligned to generate the MQSR consensus that manifested as a PFM (in which each row and column represents a position and a nucleotide, respectively) and as a 20 bp invert-repeat sequence <named-content content-type="gene"><underline>TATTGATAAA</underline>-<underline>TTTATCAATA</underline></named-content> termed as the MQSR box (<xref ref-type="fig" rid="pone-0034622-g003">Fig. 3</xref>).</p>
+        <fig id="pone-0034622-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>MQSR consensus constructs.</title>
+            <p>(a) The sequence logo representation of the binding sites of OpaR and its orthologs (<xref ref-type="table" rid="pone-0034622-t002">Table 2</xref>) was generated by the WebLogo tool <xref ref-type="bibr" rid="pone.0034622-Crooks1">[27]</xref>. The 20-bp consensus box <named-content content-type="gene"><underline>TATTGATAAA</underline>-<underline>TTTATCAATA</underline></named-content> was annotated as an inverted repeat sequence. (b) A position frequency matrix describes the alignment of the binding sites, and denotes the frequency of each nucleotide at each position.</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g003"/>
+        </fig>
+        <table-wrap id="pone-0034622-t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Known or predicted direct targets of OpaR or its orthologs.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0034622-t002-2" xlink:href="pone.0034622.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Gene name</td>
+                  <td align="left" rowspan="1" colspan="1">Gene ID</td>
+                  <td align="left" rowspan="1" colspan="1">Consensus-like sequence</td>
+                  <td align="left" rowspan="1" colspan="1">Position<xref ref-type="table-fn" rid="nt101">&amp;</xref></td>
+                  <td align="left" rowspan="1" colspan="1">Score</td>
+                  <td align="left" rowspan="1" colspan="1">Reference</td>
+                  <td align="left" rowspan="1" colspan="1">Regulation</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">
+                    <bold>
+                      <italic>V. harveyi</italic>
+                    </bold>
+                    <bold> ATCC BAA-1116</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>luxR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_03459</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATGACATTACTGTCTATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-71&#x2026;-52</td>
+                  <td align="left" rowspan="1" colspan="1">9.99</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Chatterjee1">[29]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AACTATTAAAATAATCAATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-152&#x2026;-133</td>
+                  <td align="left" rowspan="1" colspan="1">10.93</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Chatterjee1">[29]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr2</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_04846</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGATGATTTATTTATCACTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-165&#x2026;-146</td>
+                  <td align="left" rowspan="1" colspan="1">7.62</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_05322</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGTTAATTAATTCATCATTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-151&#x2026;-132</td>
+                  <td align="left" rowspan="1" colspan="1">8.02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr4</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_06697</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTCTGATAAATGTATTAGTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-167&#x2026;-148</td>
+                  <td align="left" rowspan="1" colspan="1">9.34</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aphA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_00046</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTGAGTATTTTATTAGTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-281&#x2026;-262</td>
+                  <td align="left" rowspan="1" colspan="1">12.04</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Pompeani1">[30]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>exsB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_01694</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTTTAATAAAAAGATAAGTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-135&#x2026;-116</td>
+                  <td align="left" rowspan="1" colspan="1">6.45</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Waters2">[31]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrgB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_00176</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTGATTGTGAACTCAATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-98&#x2026;-79</td>
+                  <td align="left" rowspan="1" colspan="1">10.25</td>
+                  <td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0034622-Waters1">[3]</xref>, <xref ref-type="bibr" rid="pone.0034622-Pompeani1">[30]</xref></td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>luxC</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_06244</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TACAAATAACATTAATAATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-275&#x2026;-256</td>
+                  <td align="left" rowspan="1" colspan="1">8.49</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Miyamoto1">[58]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATAAATAAATCAAACTATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-151&#x2026;-132</td>
+                  <td align="left" rowspan="1" colspan="1">8.88</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Miyamoto1">[58]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>argA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VIBHAR_03295</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AATTGAATAAGAAGACAATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-64&#x2026;-45</td>
+                  <td align="left" rowspan="1" colspan="1">6.6</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="pone.0034622-Miyamoto2">[59]</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">
+                    <bold>
+                      <italic>V. parahaemolyticus</italic>
+                    </bold>
+                    <bold> RIMD 2210633</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>opaR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VP2516</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATGACATTACTGTCTATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-149&#x2026;-130</td>
+                  <td align="left" rowspan="1" colspan="1">9.99</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AATTATTAAAATAATCAATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-68&#x2026;-49</td>
+                  <td align="left" rowspan="1" colspan="1">11.29</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr2</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VPA1623&#x2013;1624 intergenic</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GACTAACTCAATTGTTAATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-167&#x2026;-148</td>
+                  <td align="left" rowspan="1" colspan="1">7.8</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VPA1240&#x2013;1241 intergenic</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGTTTATTAATCAATCATTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-150&#x2026;-131</td>
+                  <td align="left" rowspan="1" colspan="1">8.5</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr4</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VPA0199&#x2013;0200 intergenic</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGCTGAGAAAGTGATTAGTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-167&#x2026;-148</td>
+                  <td align="left" rowspan="1" colspan="1">8.16</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aphA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VP2762</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTGAGTATTATGTTAGTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-279&#x2026;-260</td>
+                  <td align="left" rowspan="1" colspan="1">10.68</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">
+                    <bold>
+                      <italic>V. vulnificus</italic>
+                    </bold>
+                    <bold> YJ016</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>smcR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VV2770</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTGACATTACTGTTCATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-158&#x2026;-139</td>
+                  <td align="left" rowspan="1" colspan="1">8.56</td>
+                  <td align="left" rowspan="1" colspan="1">Predicted</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AATTATTAAAACAATCAATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-78&#x2026;-59</td>
+                  <td align="left" rowspan="1" colspan="1">11.33</td>
+                  <td align="left" rowspan="1" colspan="1">Predicted</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>qrr3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATAAATAGATTTATTATTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-191&#x2026;-172</td>
+                  <td align="left" rowspan="1" colspan="1">10.79</td>
+                  <td align="left" rowspan="1" colspan="1">Predicted</td>
+                  <td align="left" rowspan="1" colspan="1">#</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>aphA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">VV3005</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTGAGCATTTTGTTAGTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-278&#x2026;-259</td>
+                  <td align="left" rowspan="1" colspan="1">10.50</td>
+                  <td align="left" rowspan="1" colspan="1">Predicted</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">
+                    <bold>
+                      <italic>V. alginolyticus</italic>
+                    </bold>
+                    <bold> ZJ-51</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>valR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATGACATTACTGTATATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-146&#x2026;-127</td>
+                  <td align="left" rowspan="1" colspan="1">7.60</td>
+                  <td align="left" rowspan="1" colspan="1">Predicted</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AACTATTAAAATAATCAATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">D-65&#x2026;-46</td>
+                  <td align="left" rowspan="1" colspan="1">10.93</td>
+                  <td align="left" rowspan="1" colspan="1">Predicted</td>
+                  <td align="left" rowspan="1" colspan="1">$</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>&amp;</label>
+              <p>, &#x2018;D&#x2019; indicates the direct sequence, and minus numbers denote nucleotide positions upstream of genes.</p>
+            </fn>
+            <fn id="nt102">
+              <label/>
+              <p>Negative ($) or positive (#) regulation by LuxR or its relevant ortholog.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>LuxR-dependent expression of its own gene <xref ref-type="bibr" rid="pone.0034622-Chatterjee1">[29]</xref>, <italic>qrr2&#x2013;4</italic>
+<xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>, and <italic>aphA</italic>
+<xref ref-type="bibr" rid="pone.0034622-Pompeani1">[30]</xref> have been established in <italic>V. harveyi</italic>. The presence of MQSR box-like sequences within the upstream DNA regions of the corresponding target genes in <italic>V. parahaemolyticus</italic>, as revealed by the computational promoter analysis (<xref ref-type="table" rid="pone-0034622-t002">Table 2</xref>), indicated that the above regulatory cascades were conservatively controlled by the LuxR ortholog OpaR in <italic>V. parahaemolyticus</italic>, which were further validated by the following biochemical experiments.</p>
+      </sec>
+      <sec id="s3c">
+        <title>Mutation and complementation of <italic>opaR</italic></title>
+        <p>Real-time RT-PCR experiments were performed to assess the relative mRNA levels of <italic>opaR</italic> in WT, <italic>&#x394;opaR</italic>, and <italic>C-opaR</italic>; the <italic>opaR</italic> transcript was lacking in <italic>&#x394;opaR</italic>, but was restored in <italic>C-opaR</italic> relative to WT (data not shown), indicating the successful mutation of <italic>opaR</italic> and the complementation of the <italic>opaR</italic> mRNA level.</p>
+        <p>As determined by several distinct methods (see below), the <italic>ahpA</italic> gene was negatively regulated by OpaR. To test whether the <italic>opaR</italic> mutation had the polar effect, the primer extension assays were conducted to detect the yield of the primer extension product of <italic>ahpA</italic> that represented the <italic>ahpA</italic> mRNA levels in WT, <italic>&#x394;opaR</italic>, and <italic>C-opaR</italic>. Herein, the <italic>ahpA</italic> mRNA level was significantly enhanced in <italic>&#x394;opaR</italic> relative to WT, while no obvious change in the <italic>ahpA</italic> transcription was observed between WT and <italic>C-opaR</italic> (<xref ref-type="supplementary-material" rid="pone.0034622.s001">Fig. S1</xref>). This analysis confirmed that the detecting enhanced transcription of <italic>ahpA</italic> in <italic>&#x394;opaR</italic> was due to the <italic>opaR</italic> mutation rather than a polar effect.</p>
+      </sec>
+      <sec id="s3d">
+        <title>Growth of WT and <italic>&#x394;opaR</italic></title>
+        <p>The growth curves of WT and <italic>&#x394;opaR</italic> grown at 30&#xB0;C in the MR broth or in the HI broth were determined (<xref ref-type="fig" rid="pone-0034622-g004">Fig. 4</xref>). The two strains showed indistinguishable growth rates in each of the media. Thus, the <italic>opaR</italic> mutation had no effect on the bacterial <italic>in vitro</italic> growth.</p>
+        <fig id="pone-0034622-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Growth curves.</title>
+            <p>A two-round design of bacterial seed cultivation was employed: first, the glyceric stock of bacteria was inoculated into 15 ml of the MR or HI broth for growing at 30&#xB0;C for 24 h with shaking at 200 rpm, and the cell culture was subsequently diluted to an OD<sub>600</sub> value of about 1.0; second, the resulting culture was then 50-fold diluted into 15 ml of corresponding fresh MR or HI broth, and allowed to grow to reach an OD<sub>600</sub> value of about 1.2 to 1.4. The bacterial seeds were 50-fold diluted into 15 ml of corresponding fresh MR or HI broth for further cultivation, and the OD<sub>600</sub> values were monitored for each culture with a 1 h interval. Experiments were done in triplicate.</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g004"/>
+        </fig>
+        <p>For the following molecular regulation experiments, bacteria were pre-cultivated in the MR broth, spread onto grown on the HI agar plates for further growth, and harvested after an 8 h incubation at 30&#xB0;C [at this status, the dense bacterial lawns (i.e. HCD) were observed on the agar]. It was thought that, unlike the liquid cultivation for which the autoinducers would disperse into the liquid media, the cultivation on solid medium would enable the enrichment of autoinducer molecules within the bacterial lawns with little dispersal into the agar.</p>
+      </sec>
+      <sec id="s3e">
+        <title>Negative auto-regulation of OpaR</title>
+        <p>The primer extension experiments (<xref ref-type="fig" rid="pone-0034622-g005">Fig. 5a</xref>) were conducted to compare the yields of primer extension product of <italic>opaR</italic> in WT and <italic>&#x394;opaR</italic>. The primer extension assay detected a single transcription start site located at 74 bp upstream of <italic>opaR</italic>; therefore, a single promoter was transcribed for <italic>opaR</italic> under the growth condition tested. In addition, the <italic>opaR</italic> promoter activity was under the negative control of OpaR. A 334 bp promoter-proximal region of <italic>opaR</italic> was amplified, radioactively labeled, and subjected to EMSA with a purified His-OpaR protein (<xref ref-type="fig" rid="pone-0034622-g005">Fig. 5b</xref>). The results showed that His-OpaR was able to bind to this DNA fragment in a dose-dependent manner <italic>in vitro</italic>. As further determined by DNase I footprinting (<xref ref-type="fig" rid="pone-0034622-g005">Fig. 5c</xref>), the purified His-OpaR protein protected two distinct regions upstream of <italic>opaR</italic> against DNase I digestion in a dose-dependent manner. These two footprints, located from 70 to 40 bp (site 1) and from 159 to 109 bp (site 2) upstream of <italic>opaR</italic>, respectively, were considered as OpaR-binding sites. Taken together, OpaR is able to recognize the promoter of its own gene to directly repress its activity in <italic>V. parahaemolyticus</italic>.</p>
+        <fig id="pone-0034622-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Repression of its own gene by OpaR.</title>
+            <p><bold>a</bold>) <bold>Primer extension.</bold> An oligonucleotide primer was designed to be complementary to the RNA transcript of <italic>opaR</italic>. The primer extension products were analyzed with 8 M urea-6% acrylamide sequencing gel. Lanes C, T, A, and G represent the Sanger sequencing reactions. The transcription start site of <italic>opaR</italic> was underlined in the DNA sequence. <bold>b</bold>) <bold>EMSA.</bold> The radioactively labeled DNA fragment from the 300th bp upstream to the 34th bp downstream of <italic>opaR</italic> was incubated with increasing amounts of purified His-OpaR protein, and then subjected to 4% (w/v) polyacrylamide gel electrophoresis. The band of free DNA disappeared with increasing amounts of His-OpaR protein, and a retarded DNA band with decreased mobility turned up, which presumably represented the DNA-OpaR complex. Shown on the lower side of the figure was the schematic representation of the EMSA design. <bold>c</bold>) <bold>DNase I footprinting.</bold> Labeled coding or non-coding DNA probes were incubated with increasing amounts of purified His-OpaR (Lanes 1, 2, 3, and 4 containing 0, 6, 9, and 12 pmol, respectively), and subjected to DNase I footprinting assay. Lanes G, A, T, and C represented the Sanger sequencing reactions. The footprint regions were indicated with vertical bars. The negative or positive numbers indicated the nucleotide positions upstream or downstream of <italic>opaR</italic>, respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g005"/>
+        </fig>
+      </sec>
+      <sec id="s3f">
+        <title>Stimulation of <italic>qrr2&#x2013;4</italic> by OpaR</title>
+        <p>The primer extension assay (<xref ref-type="fig" rid="pone-0034622-g006">Fig. 6a</xref>) defined the transcription start sites the three sRNA genes <italic>qrr2</italic>&#x2013;<italic>4</italic>, and this assay also indicated that the promoter activity of all the thee <italic>qrr</italic> genes was under the positive control of OpaR. Each of the promoter-proximal regions of <italic>qrr2&#x2013;4</italic> was subjected to EMSA with the purified His-OpaR protein (<xref ref-type="fig" rid="pone-0034622-g006">Fig. 6b</xref>). The results showed that His-OpaR was able to bind to each of the three DNA fragments tested in a dose-dependent manner <italic>in vitro</italic>. As further determined by DNase I footprinting (<xref ref-type="fig" rid="pone-0034622-g006">Fig. 6c</xref>), His-OpaR protected a single region within each of the three upstream DNA fragments tested against DNase I digestion in a dose-dependent manner. These footprints, located from 172 to 143 bp, from 154 to 125 bp, and from 204 to 133 bp upstream of <italic>qrr2&#x2013;4</italic>, respectively, were considered as OpaR-binding sites for these three genes. Taken together, OpaR is able to recognize the promoters of <italic>qrr2&#x2013;4</italic> to activate their activity in <italic>V. parahaemolyticus</italic>.</p>
+        <fig id="pone-0034622-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Stimulation <italic>qrr2&#x2013;4</italic> by OpaR.</title>
+            <p>For primer extension (a1, b1, and c1), an oligonucleotide primer was designed to be complementary to the RNA transcript of each of <italic>qrr2&#x2013;4</italic>. For EMSA (a2, b2, and c2) and DNase I footprinting (a3, b3, and c3), the upstream DNA fragments of <italic>qrr2&#x2013;4</italic> were radioactively labeled, and then incubated with increasing amounts of purified His-OpaR protein. The experiments were done as described in <xref ref-type="fig" rid="pone-0034622-g005">Fig. 5</xref>. The transcription start sites of <italic>qrr2&#x2013;4</italic> were underlined in the DNA sequence. Lanes G, A, T, and C represented the Sanger sequencing reactions. The footprint regions were indicated with vertical bars. The negative or positive numbers indicated the nucleotide positions upstream or downstream of relevant <italic>qr</italic>r gene, respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g006"/>
+        </fig>
+      </sec>
+      <sec id="s3g">
+        <title>Repression of <italic>aphA</italic> by OpaR</title>
+        <p>The primer extension assay (<xref ref-type="fig" rid="pone-0034622-g007">Fig. 7a</xref>) detected two closely neighboring extension products for <italic>aphA</italic>. Due to the facts that the shorter extension product might represent the premature stops due to the difficulty of polymerase in passing difficult sequences, and that the core promoter elements recognized by sigma factors could not be identified for the shorter extension product, only the longer product was chosen for the identification of the transcription start site that was located at 200 bp upstream of <italic>aphA</italic>. Therefore, a single promoter was transcribed for <italic>aphA</italic> under the growth condition tested, and its activity was under the negative control of OpaR. A 541 bp promoter-proximal region of <italic>aphA</italic> was subjected to EMSA with the purified His-OpaR protein (<xref ref-type="fig" rid="pone-0034622-g007">Fig. 7b</xref>). The results showed that His-OpaR was able to bind to the DNA fragment in a dose-dependent manner <italic>in vitro</italic>. As further determined by DNase I footprinting (<xref ref-type="fig" rid="pone-0034622-g007">Fig. 7c</xref>), His-OpaR protected a single region from 284 to 255 bp upstream of <italic>opaR</italic> against DNase I digestion in a dose-dependent manner. This footprint was considered as the OpaR-binding site for <italic>aphA</italic>. Taken together, OpaR is able to recognize the promoter of <italic>aphA</italic> to repress its activity in <italic>V. parahaemolyticus</italic>.</p>
+        <fig id="pone-0034622-g007" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Repression of <italic>aphA</italic> by OpaR.</title>
+            <p>For primer extension (a), an oligonucleotide primer was designed to be complementary to the RNA transcript of <italic>aphA</italic>. For EMSA (b) and DNase I footprinting (c), the DNA fragment from the 380th to 161th bp upstream of <italic>aphA</italic> was incubated with increasing amounts of purified His-OpaR protein. The experiments were done as described in <xref ref-type="fig" rid="pone-0034622-g005">Fig. 5</xref>. The transcription start site of <italic>aphA</italic> were underlined in the DNA sequence. Lanes G, A, T, and C represented the Sanger sequencing reactions. The footprint regions were indicated with vertical bars.. The minus numbers indicated the nucleotide positions upstream of <italic>aphA</italic>.</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g007"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <sec id="s4a">
+        <title>Regulation of biofilm formation and virulence by <italic>Vibrio</italic> MQSRs</title>
+        <p>The <italic>V. harveyi</italic> LuxR mediates the repression of virulence determinant type III secretion system 1 (T3SS1) <xref ref-type="bibr" rid="pone.0034622-Waters2">[31]</xref> and the stimulation of bioluminescence encoded by the <italic>luxCDABEGH</italic> operon <xref ref-type="bibr" rid="pone.0034622-Swartzman1">[32]</xref>. LuxR binds to the upstream DNA region of <italic>luxCDABEGH</italic>, and thus stimulates this operon in a direct manner <xref ref-type="bibr" rid="pone.0034622-Swartzman1">[32]</xref>; in contrast, LuxR indirectly represses the T3SS1 genes via directly repressing of <italic>exsA</italic>, a transcriptional activator of T3SS1, within the T3SS1 gene loci <xref ref-type="bibr" rid="pone.0034622-Waters2">[31]</xref>.</p>
+        <p>The <italic>V. cholerae</italic> HapR is a repressor of virulence: i) HapR directly represses the transcription of <italic>aphA</italic>
+<xref ref-type="bibr" rid="pone.0034622-Lin1">[33]</xref> encoding a regulator <xref ref-type="bibr" rid="pone.0034622-Kovacikova1">[34]</xref> that in turns stimulates the expression of toxin-coregulated pilus; and ii) HapR inhibits the hemolytic activity at both transcriptional and posttranslational levels <xref ref-type="bibr" rid="pone.0034622-Tsou1">[35]</xref> (for the former mechanism, HapR directly represses the transcription of the hemolysin gene <italic>hlyA</italic>; for the later one, HapR directly stimulates the transcription of <italic>hapA</italic> encoding a metalloprotease that in turns degrades the HlyA hemolysin). HapR is also a repressor of biofim formation in <italic>V. cholerae</italic>
+<xref ref-type="bibr" rid="pone.0034622-Waters3">[36]</xref>: i) HapR directly inhibits the transcription of <italic>vpsT</italic> encoding a transcriptional activator of biofilm formation; and ii) HapR represses the cellular c-di-GMP levels (c-di-GMP in turns acts as a posttranscriptional activator of the biofilm formation <xref ref-type="bibr" rid="pone.0034622-Lim1">[37]</xref>) through directly modulating the transcription of multiple genes encoding GGDEF and EAL proteins.</p>
+        <p>The <italic>V. vulnificus</italic> SmcR is a repressor of cytotoxicity <xref ref-type="bibr" rid="pone.0034622-Shao1">[38]</xref> that is important for the virulence of <italic>V. vulnificus</italic> and mainly dependent on two cytotoxins, RTX (encoded by <italic>rtxA1</italic>) and cytolysin/hemolysin (encoded by <italic>vvhA</italic>) <xref ref-type="bibr" rid="pone.0034622-Wright1">[39]</xref>, <xref ref-type="bibr" rid="pone.0034622-Liu1">[40]</xref>. The transcription of <italic>rtxA1</italic> and <italic>vvhA</italic> is repressed by SmcR through directly repressing the transcription of <italic>hlyU</italic>
+<xref ref-type="bibr" rid="pone.0034622-Shao1">[38]</xref>, an activator of <italic>rtxA1</italic> and <italic>vvhA</italic>
+<xref ref-type="bibr" rid="pone.0034622-Liu1">[40]</xref>, <xref ref-type="bibr" rid="pone.0034622-Liu2">[41]</xref>. SmcR-dependent expression of the metalloprotease gene <italic>vvpE</italic> is also found in <italic>V. vulnificus</italic>
+<xref ref-type="bibr" rid="pone.0034622-Jeong1">[42]</xref>; the two regulators cAMP receptor protein (CRP) and SmcR bind to the upstream region of <italic>vvpE</italic> in a juxtapositioned manner, and thus they function synergistically to coactivate the transcription of <italic>vvpE</italic> by the RpoS-dependent promoter at the stationary growth phase <xref ref-type="bibr" rid="pone.0034622-Jeong1">[42]</xref>. Whether the SmcR-dependent stimulation of metalloprotease contributes to the degradation of relevant protein toxins is still unclear in <italic>V. vulnificus</italic>.</p>
+        <p>The <italic>V. parahaemolyticus</italic> OpaR is a repressor of cytotoxicity to host cells <xref ref-type="bibr" rid="pone.0034622-GodePotratz1">[43]</xref>, most likely through inhibiting the assembly/secretion of the cytotoxicity determinant T3SS1 <xref ref-type="bibr" rid="pone.0034622-GodePotratz1">[43]</xref>, <xref ref-type="bibr" rid="pone.0034622-Henke2">[44]</xref>. OpaR appears to repress biofilm formation through directly modulating the transcription of multiple genes encoding GGDEF and EAL proteins in pandemic O3:K6 <italic>V. parahaemolyticus</italic> (data unpublished). The molecular mechanisms employed by OpaR to regulate biofilm formation and virulence need to be elucidated.</p>
+        <p>Biofilm formation can be concisely linked to the bacterial survive in adverse conditions outside of the host, thus aiding in bacterial persistence during inter-epidemic seasons <xref ref-type="bibr" rid="pone.0034622-Faruque1">[45]</xref>. As shown in <italic>V. cholerae</italic>
+<xref ref-type="bibr" rid="pone.0034622-Faruque1">[45]</xref>, <xref ref-type="bibr" rid="pone.0034622-Tamayo1">[46]</xref>, both intact and dispersed biofilms enhance the bacterial infectivity upon oral ingestion. Based on the previous speculations for <italic>V. cholerae</italic>
+<xref ref-type="bibr" rid="pone.0034622-Waters3">[36]</xref>, <xref ref-type="bibr" rid="pone.0034622-Zhu1">[47]</xref>, <xref ref-type="bibr" rid="pone.0034622-Kovacikova2">[48]</xref>, <xref ref-type="bibr" rid="pone.0034622-Hammer3">[49]</xref>, a model of regulation of biofilm formation and virulence by QS during intestinal infection of pathogenic Vibrios is proposed herein: on the initial colonization (i.e., LCD) of a host, the expression of the MQSRs was inhibited by the Qrr sRNAs, and thus the expression of the biofilm formation and virulence genes occurs, which promotes the bacterial colonization and infection. When a HCD is reached, the MQSRs are abundantly produced, and thus inhibit biofilm formation and virulence in both direct (via control of structural genes) and indirect (via modulation of regulatory determinants) manners.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Conserved <italic>cis</italic>-acting DNA signals recognized by MQSRs</title>
+        <p>Two consensus constructs, a box and a PFM, (<xref ref-type="fig" rid="pone-0034622-g003">Fig. 3</xref>) were built to represent the conserved <italic>cis</italic>-acting signals recognized by the four extremely conserved MQSR proteins, <italic>V. harveyi</italic> LuxR, <italic>V. parahaemolyticus</italic> OpaR, <italic>V. vulnificus</italic> SmcR, and <italic>V. alginolyticus</italic> ValR. These consensus constructs could be also applied to all the other members of the Harveyi clade in addition to the above four bacteria.</p>
+        <p>The 20 bp MQSR box was further annotated as an inverted repeat sequence. This dyad symmetry structure indicated that LuxR, OpaR, SmcR, and ValR, like other TetR-type proteins, bind to <italic>cis</italic>-acting regulatory DNA as a dimer. The box is a contiguous oligonucleotide, and thus it presents limited information that are originally presented in the MQSR-binding sites. Representation of the <italic>cis</italic>-acting regulatory motif with a PFM is able to give a much more comprehensive description of the uneven composition in each position, i.e., some nucleotides occurred much more frequently than others. Thus, the PFM presentedd here will over-represent the MQSR-binding sites more accurately than the 20 bp box sequence.</p>
+        <p>The PFM can be used to statistically predict the presence of MQSR consensus-like elements within the promoter-proximal sequences tested, which will generate a weight score for each gene, and a higher score denoted the higher probability of regulator-promoter association (<xref ref-type="table" rid="pone-0034622-t002">Table 2</xref>). This assay was applied to the OpaR regulon members previously determined by microarray <xref ref-type="bibr" rid="pone.0034622-GodePotratz1">[43]</xref>, when a frequently-used cutoff number of 7 was set for the score values, disclosing a set of candidates of direct OpaR targets (data not shown) in <italic>V. parahaemolyticus</italic> for further biochemical validation.</p>
+        <p>The PFM construct herein is essentially in agreement with those previously characterized for LuxR in <italic>V. harveyi</italic>
+<xref ref-type="bibr" rid="pone.0034622-Pompeani1">[30]</xref> and SmcR in <italic>V. vulnificus</italic>
+<xref ref-type="bibr" rid="pone.0034622-Lee1">[50]</xref>. A major difference is that the PFM of this study was constructed from the <italic>cis</italic>-acting DNA sequences from four closed related Vibrios, rather than from the artificial sequences <xref ref-type="bibr" rid="pone.0034622-Pompeani1">[30]</xref>, <xref ref-type="bibr" rid="pone.0034622-Lee1">[50]</xref>. It was deemed that the PFM herein would enable the more accurate prediction of novel MQSR box-like sequences.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Autoregulation of MQSRs</title>
+        <p>Direct transcriptional repression of their own genes have been established for LuxR <xref ref-type="bibr" rid="pone.0034622-Chatterjee1">[29]</xref>, HapR <xref ref-type="bibr" rid="pone.0034622-Lin2">[51]</xref>, VanT <xref ref-type="bibr" rid="pone.0034622-Croxatto1">[52]</xref>, and OpaR (this study). The promoter-proximal regions of <italic>valR</italic>, <italic>opaR</italic>, <italic>luxR</italic>, <italic>smcR</italic>, <italic>vtpR</italic>, <italic>vanT</italic>, and <italic>hapR</italic> were aligned in <xref ref-type="fig" rid="pone-0034622-g008">Fig. 8a</xref>, in which shown were translation and transcription starts, &#x2212;35 and &#x2212;10 core promoter elements for &#x3C3;<sup>70</sup> recognition, Shine-Dalgarno (SD) sequences for ribosome recognition, and MQSR box-like sequences representing the conserved signals for recognition by OpaR or its orthologs. This analysis gave a structural map of these auto-repressed promoters.</p>
+        <fig id="pone-0034622-g008" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0034622.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>Organization of promoter DNA regions.</title>
+            <p>DNA sequences were derived from <italic>V. alginolyticus</italic> ZJ-51 <xref ref-type="bibr" rid="pone.0034622-Chang1">[60]</xref>, <italic>V. parahaemolyticus</italic> RIMD 2210633 <xref ref-type="bibr" rid="pone.0034622-Makino1">[16]</xref>, <italic>V. harveyi</italic> ATCC BAA-1116 <xref ref-type="bibr" rid="pone.0034622-Lin3">[61]</xref>, <italic>V. vulnificus</italic> YJ016 <xref ref-type="bibr" rid="pone.0034622-Chen1">[62]</xref>, <italic>V. tubiashii</italic> RE22 <xref ref-type="bibr" rid="pone.0034622-Hasegawa1">[63]</xref>, <italic>V. anguillarum</italic> 775 <xref ref-type="bibr" rid="pone.0034622-Naka1">[64]</xref>, <italic>V. cholera</italic> N16961 <xref ref-type="bibr" rid="pone.0034622-Heidelberg1">[65]</xref>, and <italic>V. fischeri</italic> MJ11 <xref ref-type="bibr" rid="pone.0034622-Mandel1">[66]</xref>. Shown were translation and transcription starts, SD sequences, MQSR box-like sequences, and &#x2212;10/&#x2212;12 and &#x2212;35/&#x2212;24 core promoter elements.</p>
+          </caption>
+          <graphic xlink:href="pone.0034622.g008"/>
+        </fig>
+        <p>Two MQSR box-like sequences, upstream and downstream of the transcription start site, respectively, were annotated for <italic>valR</italic>, <italic>opaR</italic>, <italic>luxR</italic>, or <italic>smcR</italic>, indicating that two sites were recognized by the relevant regulatory protein for each target gene. Indeed, corresponding two binding sites have been experimentally determined for <italic>opaR</italic> (this study) or <italic>luxR</italic>
+<xref ref-type="bibr" rid="pone.0034622-Chatterjee1">[29]</xref>. Only one MQSR box-like sequence downstream of the transcription start site was annotated for <italic>vtpR</italic>, <italic>vanT</italic>, or <italic>hapR</italic>, indicating a single site within each of these promoter-proximal regions were recognized by the relevant regulatory protein; without no exception, a single corresponding HapR-binding site has been detected for <italic>hapR</italic>
+<xref ref-type="bibr" rid="pone.0034622-Lin2">[51]</xref>. Notably, the MQSR box-like sequences downstream of the transcription start site were conservatively located within all the target promoter regions aligned, and the MQSR-promoter DNA association would block the entry of the RNA polymerase to repress the transcription of the target genes.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Regulation of Qrr sRNAs genes by MQSRs</title>
+        <p>All of the three closely related organisms <italic>V. harveyi</italic>, <italic>V. parahaemolyticus</italic>, and <italic>V. vulnificus</italic> contain <italic>qrr1&#x2013;5</italic>, and whereas, the more distantly related <italic>V. cholerae</italic> harbors only <italic>qrr1&#x2013;4</italic>. Any one of Qrr1&#x2013;4 in <italic>V. cholerae</italic> is perfectly sufficient to repress <italic>hapR</italic>, and thus, the four Qrr sRNAs are functionally redundant <xref ref-type="bibr" rid="pone.0034622-Lenz1">[2]</xref>, <xref ref-type="bibr" rid="pone.0034622-Svenningsen2">[11]</xref>. Qrr1&#x2013;4 but not Qrr5 are functional in <italic>V. harveyi</italic>, and Qrr5 may be an evolutionary vestige <xref ref-type="bibr" rid="pone.0034622-Tu1">[4]</xref>. Unlike in <italic>V. cholerae</italic>, Qrr1&#x2013;4 in <italic>V. harveyi</italic> function additively to control QS behaviors; these sRNAs function to translate increasing autoinducer concentrations (following the transition from LCD to HCD) into a precise gradient of LuxR protein, and that LuxR in turns induces a gradient of expression its target genes <xref ref-type="bibr" rid="pone.0034622-Tu1">[4]</xref>. Functions of Qrr sRNAs in <italic>V. parahaemolyticus</italic> and <italic>V. vulnificus</italic> need to be elucidated.</p>
+        <p>As mentioned above, the LuxR- or OpaR-mediated stimulation of <italic>qrr</italic> transcription constitutes a negative feedback loop most likely maintaining the QS behaviors during the transition HCD to LCD <xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>, <xref ref-type="bibr" rid="pone.0034622-Svenningsen1">[8]</xref>. The <italic>V. harveyi</italic> LuxR directly binds to the upstream DNA regions of <italic>qrr2&#x2013;4</italic> and stimulates the transcription of <italic>qrr2&#x2013;4</italic>, but it has no regulatory effect on <italic>qrr1</italic> and <italic>qrr5</italic>
+<xref ref-type="bibr" rid="pone.0034622-Tu2">[7]</xref>. In this work, we confirmed that <italic>V. parahaemolyticus</italic> OpaR also bound to the promoter regions of <italic>qrr2&#x2013;4</italic> to activate their transcription. To the best of our knowledge, this is the first report of experimentally determining MQSR-binding sites and transcription starts of <italic>qrr</italic> genes. It should be noted the experimental transcription starts of <italic>qrr</italic> genes (this study) are 1 bp downstream of the predicted ones <xref ref-type="bibr" rid="pone.0034622-Lenz1">[2]</xref>.</p>
+        <p>MQSR box-like sequences were found within the promoter-proximal regions of <italic>qrr2&#x2013;4</italic> in <italic>V. harveyi</italic> and <italic>V. parahaemolyticus</italic>, and of <italic>qrr3</italic> in <italic>V. vulnificus</italic> (but not <italic>qrr2</italic> and <italic>qrr4</italic> of <italic>V. vulnificus</italic>). In addition, the box elements could not be predicted from <italic>qrr1</italic> and <italic>qrr5</italic> of all these three closely related Vibrios. These indicated that the MQSR-<italic>qrr2&#x2013;4</italic> feedback loop was conversed between <italic>V. harveyi</italic> and <italic>V. parahaemolyticus</italic>. We aligned the promoter-proximal regions of <italic>qrr2&#x2013;4</italic> (<xref ref-type="fig" rid="pone-0034622-g008">Fig. 8a</xref>) from <italic>V. harveyi</italic>, <italic>V. parahaemolyticus</italic>, and <italic>V. vulnificus</italic>, depicting translation and transcription starts, &#x2212;24 and &#x2212;12 core promoter elements for &#x3C3;<sup>45</sup> recognition, and MQSR box-like sequences (<xref ref-type="fig" rid="pone-0034622-g008">Fig. 8c</xref>). Since MQSR box-like sequences are upstream of the promoter &#x2212;24 elements, the MQSR-stimulated <italic>qrr</italic> promoters may have a class I regulation that depends on the RNA polymerase &#x3B1; subunit C-terminal domain for function <xref ref-type="bibr" rid="pone.0034622-Ishihama1">[53]</xref>.</p>
+        <p>Unlike in <italic>V. harveyi</italic>, the <italic>V. cholerae</italic> HapR stimulates the transcription of all the <italic>qrr1&#x2013;4</italic> in an indirect manner, since none of the binding of HapR to the <italic>qrr</italic> upstream regions can be detected <xref ref-type="bibr" rid="pone.0034622-Svenningsen1">[8]</xref>. As expected, MQSR box-like sequences could not be predicted from the upstream regions of all of <italic>qrr1&#x2013;4</italic> in <italic>V. cholerae</italic>.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Regulation of aphA by MQSRs</title>
+        <p>The AphA regulator is required for auto-repression <xref ref-type="bibr" rid="pone.0034622-Lin1">[33]</xref>, intestinal colonization and virulence <xref ref-type="bibr" rid="pone.0034622-Kovacikova1">[34]</xref>, <xref ref-type="bibr" rid="pone.0034622-Kovacikova3">[54]</xref>, biofilm formation <xref ref-type="bibr" rid="pone.0034622-Yang1">[55]</xref>, <xref ref-type="bibr" rid="pone.0034622-Kovacikova4">[56]</xref> in <italic>V. cholerae</italic>. In addition, as previously summarized <xref ref-type="bibr" rid="pone.0034622-Rutherford1">[57]</xref>, AphA and LuxR/HapR reciprocally control QS behaviors in <italic>V. harveyi</italic> and <italic>V. cholerae</italic>. At LCD, redundant Qrr sRNAs promote the AphA translation and meanwhile inhibit the LuxR translation. AphA further directly represses the <italic>luxR</italic> transcription, and also feeds back to repress the <italic>qrr</italic> transcription. At HCD, the cessation of Qrr sRNA production leads to no production of AphA, and the LuxR translation occurs. LuxR in turns directly represses the <italic>aphA</italic> transcription, and also feeds back to inhibit it own expression. Thus, AphA acts as a master regulator of QS behaviors at LCD, and in contrast, LuxR/HapR is the major one operating at HCD; the reciprocal gradients of AphA and LuxR/HapR are thought to be established for controlling the gene expression patterns during the transition between LCD and HCD <xref ref-type="bibr" rid="pone.0034622-Rutherford1">[57]</xref>.</p>
+        <p>The transcription of <italic>aphA</italic> is directly repressed by LuxR in <italic>V. harveyi</italic>
+<xref ref-type="bibr" rid="pone.0034622-Pompeani1">[30]</xref> and by HapR <italic>V. cholerae</italic>
+<xref ref-type="bibr" rid="pone.0034622-Lin1">[33]</xref>, <xref ref-type="bibr" rid="pone.0034622-Kovacikova2">[48]</xref>, and moreover HapR-binding site and transcription start have been determined for <italic>aphA</italic> in <italic>V. cholerae</italic>
+<xref ref-type="bibr" rid="pone.0034622-Kovacikova2">[48]</xref>. This study also detected the direct transcriptional repression of <italic>aphA</italic> by OpaR with the determination of transcription start and OpaR-binding site for <italic>aphA</italic> in <italic>V. parahaemolyticus</italic>. The alignment of the upstream regions of <italic>aphA</italic> from <italic>V. harveyi</italic>, <italic>V. parahaemolyticus</italic>, <italic>V. vulnificus</italic> and <italic>V. cholerae</italic> indicated that these four bacteria employed a conserved molecular mechanism for the repression of <italic>aphA</italic> by MQSRs, since transcription starts, &#x2212;35 and &#x2212;10 core promoter elements, SD sequences, and MQSR box-like sequences are conservatively located upstream of the <italic>aphA</italic> translation starts.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0034622.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Primer extension assay for validation of non-polar mutation.</bold> The <italic>opaR</italic> null mutant <italic>&#x394;opaR</italic> was generated from the wild-type (WT) strain RIMD 2210633, and then the complemented mutant strain <italic>C-opaR</italic> was constructed. As determined by several distinct methods (see text), the transcription of <italic>ahpA</italic> was under the negative control of OpaR. Herein, an oligonucleotide primer, which was complementary to the RNA transcript of <italic>ahpA</italic>, was employed to detect the primer extension product that represented the relative mRNA level of <italic>ahpA</italic> in WT, <italic>&#x394;opaR</italic>, and <italic>C-opaR</italic>. The primer extension products were analyzed with 8 M urea&#x2013;6% acrylamide sequencing gel. Lanes C, T, A, and G represented the Sanger sequencing reactions. The transcription start site (nucleotide C), which was located at 200 bp upstream of <italic>ahpA</italic>, was underlined in the DNA sequence. The <italic>ahpA</italic> mRNA level was significantly enhanced in <italic>&#x394;opaR</italic> relative to WT, while no obvious change in the <italic>ahpA</italic> transcription was observed between WT and <italic>C-opaR</italic>, which confirmed that the detecting enhanced transcription of <italic>ahpA</italic> in <italic>&#x394;opaR</italic> was due to the <italic>opaR</italic> mutation rather than a polar mutation.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0034622.s001.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Professor Mitsuaki Nishibuchi from Kyoto University for kindly providing the strain RIMD 2210633. The English writing of the manuscript was polished by EnPapers.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>Financial support was provided by the National Natural Science Foundation of China (31170127, and 30871370), and by the National Basic Research Program of China (2009CB522604). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0034622-Henke1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henke</surname><given-names>JM</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2004</year>
+<article-title>Three parallel quorum-sensing systems regulate gene expression in Vibrio harveyi.</article-title>
+<source>J Bacteriol</source>
+<volume>186</volume>
+<fpage>6902</fpage>
+<lpage>6914</lpage>
+<pub-id pub-id-type="pmid">15466044</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Lenz1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lenz</surname><given-names>DH</given-names></name><name><surname>Mok</surname><given-names>KC</given-names></name><name><surname>Lilley</surname><given-names>BN</given-names></name><name><surname>Kulkarni</surname><given-names>RV</given-names></name><name><surname>Wingreen</surname><given-names>NS</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The small RNA chaperone Hfq and multiple small RNAs control quorum sensing in Vibrio harveyi and Vibrio cholerae.</article-title>
+<source>Cell</source>
+<volume>118</volume>
+<fpage>69</fpage>
+<lpage>82</lpage>
+<pub-id pub-id-type="pmid">15242645</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Waters1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waters</surname><given-names>CM</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2006</year>
+<article-title>The Vibrio harveyi quorum-sensing system uses shared regulatory components to discriminate between multiple autoinducers.</article-title>
+<source>Genes Dev</source>
+<volume>20</volume>
+<fpage>2754</fpage>
+<lpage>2767</lpage>
+<pub-id pub-id-type="pmid">17015436</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Tu1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tu</surname><given-names>KC</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2007</year>
+<article-title>Multiple small RNAs act additively to integrate sensory information and control quorum sensing in Vibrio harveyi.</article-title>
+<source>Genes Dev</source>
+<volume>21</volume>
+<fpage>221</fpage>
+<lpage>233</lpage>
+<pub-id pub-id-type="pmid">17234887</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Hammer1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hammer</surname><given-names>BK</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2007</year>
+<article-title>Regulatory small RNAs circumvent the conventional quorum sensing pathway in pandemic Vibrio cholerae.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>104</volume>
+<fpage>11145</fpage>
+<lpage>11149</lpage>
+<pub-id pub-id-type="pmid">17556542</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Hussa1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hussa</surname><given-names>EA</given-names></name><name><surname>Darnell</surname><given-names>CL</given-names></name><name><surname>Visick</surname><given-names>KL</given-names></name></person-group>
+<year>2008</year>
+<source>J Bacteriol</source>
+<volume>190</volume>
+<fpage>4576</fpage>
+<lpage>4583</lpage>
+<pub-id pub-id-type="pmid">18441059</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Tu2">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tu</surname><given-names>KC</given-names></name><name><surname>Waters</surname><given-names>CM</given-names></name><name><surname>Svenningsen</surname><given-names>SL</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2008</year>
+<article-title>A small-RNA-mediated negative feedback loop controls quorum-sensing dynamics in Vibrio harveyi.</article-title>
+<source>Mol Microbiol</source>
+<volume>70</volume>
+<fpage>896</fpage>
+<lpage>907</lpage>
+<pub-id pub-id-type="pmid">18808382</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Svenningsen1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Svenningsen</surname><given-names>SL</given-names></name><name><surname>Waters</surname><given-names>CM</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2008</year>
+<article-title>A negative feedback loop involving small RNAs accelerates Vibrio cholerae's transition out of quorum-sensing mode.</article-title>
+<source>Genes Dev</source>
+<volume>22</volume>
+<fpage>226</fpage>
+<lpage>238</lpage>
+<pub-id pub-id-type="pmid">18198339</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Hammer2">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hammer</surname><given-names>BK</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2009</year>
+<article-title>Distinct sensory pathways in Vibrio cholerae El Tor and classical biotypes modulate cyclic dimeric GMP levels to control biofilm formation.</article-title>
+<source>J Bacteriol</source>
+<volume>191</volume>
+<fpage>169</fpage>
+<lpage>177</lpage>
+<pub-id pub-id-type="pmid">18952786</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Long1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Long</surname><given-names>T</given-names></name><name><surname>Tu</surname><given-names>KC</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Mehta</surname><given-names>P</given-names></name><name><surname>Ong</surname><given-names>NP</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Quantifying the integration of quorum-sensing signals with single-cell resolution.</article-title>
+<source>PLoS Biol</source>
+<volume>7</volume>
+<fpage>e68</fpage>
+<pub-id pub-id-type="pmid">19320539</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Svenningsen2">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Svenningsen</surname><given-names>SL</given-names></name><name><surname>Tu</surname><given-names>KC</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2009</year>
+<article-title>Gene dosage compensation calibrates four regulatory RNAs to control Vibrio cholerae quorum sensing.</article-title>
+<source>Embo J</source>
+<volume>28</volume>
+<fpage>429</fpage>
+<lpage>439</lpage>
+<pub-id pub-id-type="pmid">19165149</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Tu3">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tu</surname><given-names>KC</given-names></name><name><surname>Long</surname><given-names>T</given-names></name><name><surname>Svenningsen</surname><given-names>SL</given-names></name><name><surname>Wingreen</surname><given-names>NS</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2010</year>
+<article-title>Negative feedback loops involving small regulatory RNAs precisely control the Vibrio harveyi quorum-sensing response.</article-title>
+<source>Mol Cell</source>
+<volume>37</volume>
+<fpage>567</fpage>
+<lpage>579</lpage>
+<pub-id pub-id-type="pmid">20188674</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Teng1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teng</surname><given-names>SW</given-names></name><name><surname>Schaffer</surname><given-names>JN</given-names></name><name><surname>Tu</surname><given-names>KC</given-names></name><name><surname>Mehta</surname><given-names>P</given-names></name><name><surname>Lu</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Active regulation of receptor ratios controls integration of quorum-sensing signals in Vibrio harveyi.</article-title>
+<source>Mol Syst Biol</source>
+<volume>7</volume>
+<fpage>491</fpage>
+<pub-id pub-id-type="pmid">21613980</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Yeung1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yeung</surname><given-names>PS</given-names></name><name><surname>Boor</surname><given-names>KJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Epidemiology, pathogenesis, and prevention of foodborne Vibrio parahaemolyticus infections.</article-title>
+<source>Foodborne Pathog Dis</source>
+<volume>1</volume>
+<fpage>74</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="pmid">15992266</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Sawabe1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sawabe</surname><given-names>T</given-names></name><name><surname>Kita-Tsukamoto</surname><given-names>K</given-names></name><name><surname>Thompson</surname><given-names>FL</given-names></name></person-group>
+<year>2007</year>
+<article-title>Inferring the evolutionary history of vibrios by means of multilocus sequence analysis.</article-title>
+<source>J Bacteriol</source>
+<volume>189</volume>
+<fpage>7932</fpage>
+<lpage>7936</lpage>
+<pub-id pub-id-type="pmid">17704223</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Makino1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Makino</surname><given-names>K</given-names></name><name><surname>Oshima</surname><given-names>K</given-names></name><name><surname>Kurokawa</surname><given-names>K</given-names></name><name><surname>Yokoyama</surname><given-names>K</given-names></name><name><surname>Uda</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Genome sequence of Vibrio parahaemolyticus: a pathogenic mechanism distinct from that of V cholerae.</article-title>
+<source>Lancet</source>
+<volume>361</volume>
+<fpage>743</fpage>
+<lpage>749</lpage>
+<pub-id pub-id-type="pmid">12620739</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-McCarter1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCarter</surname><given-names>LL</given-names></name></person-group>
+<year>1998</year>
+<article-title>OpaR, a homolog of Vibrio harveyi LuxR, controls opacity of Vibrio parahaemolyticus.</article-title>
+<source>J Bacteriol</source>
+<volume>180</volume>
+<fpage>3166</fpage>
+<lpage>3173</lpage>
+<pub-id pub-id-type="pmid">9620967</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Philippe1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Philippe</surname><given-names>N</given-names></name><name><surname>Alcaraz</surname><given-names>JP</given-names></name><name><surname>Coursange</surname><given-names>E</given-names></name><name><surname>Geiselmann</surname><given-names>J</given-names></name><name><surname>Schneider</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Improvement of pCVD442, a suicide plasmid for gene allele exchange in bacteria.</article-title>
+<source>Plasmid</source>
+<volume>51</volume>
+<fpage>246</fpage>
+<lpage>255</lpage>
+<pub-id pub-id-type="pmid">15109831</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Hiyoshi1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hiyoshi</surname><given-names>H</given-names></name><name><surname>Kodama</surname><given-names>T</given-names></name><name><surname>Iida</surname><given-names>T</given-names></name><name><surname>Honda</surname><given-names>T</given-names></name></person-group>
+<year>2010</year>
+<article-title>Contribution of Vibrio parahaemolyticus virulence factors to cytotoxicity, enterotoxicity, and lethality in mice.</article-title>
+<source>Infect Immun</source>
+<volume>78</volume>
+<fpage>1772</fpage>
+<lpage>1780</lpage>
+<pub-id pub-id-type="pmid">20086084</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Casselli1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Casselli</surname><given-names>T</given-names></name><name><surname>Lynch</surname><given-names>T</given-names></name><name><surname>Southward</surname><given-names>CM</given-names></name><name><surname>Jones</surname><given-names>BW</given-names></name><name><surname>DeVinney</surname><given-names>R</given-names></name></person-group>
+<year>2008</year>
+<article-title>Vibrio parahaemolyticus inhibition of Rho family GTPase activation requires a functional chromosome I type III secretion system.</article-title>
+<source>Infect Immun</source>
+<volume>76</volume>
+<fpage>2202</fpage>
+<lpage>2211</lpage>
+<pub-id pub-id-type="pmid">18347050</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Balbas1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balbas</surname><given-names>P</given-names></name><name><surname>Soberon</surname><given-names>X</given-names></name><name><surname>Merino</surname><given-names>E</given-names></name><name><surname>Zurita</surname><given-names>M</given-names></name><name><surname>Lomeli</surname><given-names>H</given-names></name><etal/></person-group>
+<year>1986</year>
+<article-title>Plasmid vector pBR322 and its special-purpose derivatives&#x2013;a review.</article-title>
+<source>Gene</source>
+<volume>50</volume>
+<fpage>3</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">3034735</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Zhan1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhan</surname><given-names>L</given-names></name><name><surname>Han</surname><given-names>Y</given-names></name><name><surname>Yang</surname><given-names>L</given-names></name><name><surname>Geng</surname><given-names>J</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>The cyclic AMP receptor protein, CRP, is required for both virulence and expression of the minimal CRP regulon in Yersinia pestis biovar microtus.</article-title>
+<source>Infect Immun</source>
+<volume>76</volume>
+<fpage>5028</fpage>
+<lpage>5037</lpage>
+<pub-id pub-id-type="pmid">18710863</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Li1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>YL</given-names></name><name><surname>Gao</surname><given-names>H</given-names></name><name><surname>Qin</surname><given-names>L</given-names></name><name><surname>Li</surname><given-names>B</given-names></name><name><surname>Han</surname><given-names>YP</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Identification and characterization of PhoP regulon members in Yersinia pestis biovar Microtus.</article-title>
+<source>BMC Genomics</source>
+<volume>9</volume>
+<fpage>143</fpage>
+<pub-id pub-id-type="pmid">18366809</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Zhang1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Gao</surname><given-names>H</given-names></name><name><surname>Wang</surname><given-names>L</given-names></name><name><surname>Xiao</surname><given-names>X</given-names></name><name><surname>Tan</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Molecular characterization of transcriptional regulation of rovA by PhoP and RovA in Yersinia pestis.</article-title>
+<source>PLoS One</source>
+<volume>6</volume>
+<fpage>e25484</fpage>
+<pub-id pub-id-type="pmid">21966533</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Andrews1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andrews</surname><given-names>GP</given-names></name><name><surname>Heath</surname><given-names>DG</given-names></name><name><surname>Anderson</surname><given-names>GW</given-names><suffix>Jr</suffix></name><name><surname>Welkos</surname><given-names>SL</given-names></name><name><surname>Friedlander</surname><given-names>AM</given-names></name></person-group>
+<year>1996</year>
+<article-title>Fraction 1 capsular antigen (F1) purification from Yersinia pestis CO92 and from an Escherichia coli recombinant strain and efficacy against lethal plague challenge.</article-title>
+<source>Infect Immun</source>
+<volume>64</volume>
+<fpage>2180</fpage>
+<lpage>2187</lpage>
+<pub-id pub-id-type="pmid">8675324</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-vanHelden1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Helden</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>Regulatory sequence analysis tools.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>31</volume>
+<fpage>3593</fpage>
+<lpage>3596</lpage>
+<pub-id pub-id-type="pmid">12824373</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Crooks1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crooks</surname><given-names>GE</given-names></name><name><surname>Hon</surname><given-names>G</given-names></name><name><surname>Chandonia</surname><given-names>JM</given-names></name><name><surname>Brenner</surname><given-names>SE</given-names></name></person-group>
+<year>2004</year>
+<article-title>WebLogo: a sequence logo generator.</article-title>
+<source>Genome Res</source>
+<volume>14</volume>
+<fpage>1188</fpage>
+<lpage>1190</lpage>
+<pub-id pub-id-type="pmid">15173120</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Fidopiastis1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fidopiastis</surname><given-names>PM</given-names></name><name><surname>Miyamoto</surname><given-names>CM</given-names></name><name><surname>Jobling</surname><given-names>MG</given-names></name><name><surname>Meighen</surname><given-names>EA</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2002</year>
+<article-title>LitR, a new transcriptional activator in Vibrio fischeri, regulates luminescence and symbiotic light organ colonization.</article-title>
+<source>Mol Microbiol</source>
+<volume>45</volume>
+<fpage>131</fpage>
+<lpage>143</lpage>
+<pub-id pub-id-type="pmid">12100554</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Chatterjee1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chatterjee</surname><given-names>J</given-names></name><name><surname>Miyamoto</surname><given-names>CM</given-names></name><name><surname>Meighen</surname><given-names>EA</given-names></name></person-group>
+<year>1996</year>
+<article-title>Autoregulation of luxR: the Vibrio harveyi lux-operon activator functions as a repressor.</article-title>
+<source>Mol Microbiol</source>
+<volume>20</volume>
+<fpage>415</fpage>
+<lpage>425</lpage>
+<pub-id pub-id-type="pmid">8733239</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Pompeani1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pompeani</surname><given-names>AJ</given-names></name><name><surname>Irgon</surname><given-names>JJ</given-names></name><name><surname>Berger</surname><given-names>MF</given-names></name><name><surname>Bulyk</surname><given-names>ML</given-names></name><name><surname>Wingreen</surname><given-names>NS</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>The Vibrio harveyi master quorum-sensing regulator, LuxR, a TetR-type protein is both an activator and a repressor: DNA recognition and binding specificity at target promoters.</article-title>
+<source>Mol Microbiol</source>
+<volume>70</volume>
+<fpage>76</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="pmid">18681939</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Waters2">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waters</surname><given-names>CM</given-names></name><name><surname>Wu</surname><given-names>JT</given-names></name><name><surname>Ramsey</surname><given-names>ME</given-names></name><name><surname>Harris</surname><given-names>RC</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2010</year>
+<article-title>Control of the type 3 secretion system in Vibrio harveyi by quorum sensing through repression of ExsA.</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>76</volume>
+<fpage>4996</fpage>
+<lpage>5004</lpage>
+<pub-id pub-id-type="pmid">20543047</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Swartzman1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Swartzman</surname><given-names>E</given-names></name><name><surname>Silverman</surname><given-names>M</given-names></name><name><surname>Meighen</surname><given-names>EA</given-names></name></person-group>
+<year>1992</year>
+<article-title>The luxR gene product of Vibrio harveyi is a transcriptional activator of the lux promoter.</article-title>
+<source>J Bacteriol</source>
+<volume>174</volume>
+<fpage>7490</fpage>
+<lpage>7493</lpage>
+<pub-id pub-id-type="pmid">1385389</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Lin1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>W</given-names></name><name><surname>Kovacikova</surname><given-names>G</given-names></name><name><surname>Skorupski</surname><given-names>K</given-names></name></person-group>
+<year>2007</year>
+<article-title>The quorum sensing regulator HapR downregulates the expression of the virulence gene transcription factor AphA in Vibrio cholerae by antagonizing Lrp- and VpsR-mediated activation.</article-title>
+<source>Mol Microbiol</source>
+<volume>64</volume>
+<fpage>953</fpage>
+<lpage>967</lpage>
+<pub-id pub-id-type="pmid">17501920</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Kovacikova1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovacikova</surname><given-names>G</given-names></name><name><surname>Skorupski</surname><given-names>K</given-names></name></person-group>
+<year>2001</year>
+<article-title>Overlapping binding sites for the virulence gene regulators AphA, AphB and cAMP-CRP at the Vibrio cholerae tcpPH promoter.</article-title>
+<source>Mol Microbiol</source>
+<volume>41</volume>
+<fpage>393</fpage>
+<lpage>407</lpage>
+<pub-id pub-id-type="pmid">11489126</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Tsou1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsou</surname><given-names>AM</given-names></name><name><surname>Zhu</surname><given-names>J</given-names></name></person-group>
+<year>2010</year>
+<article-title>Quorum sensing negatively regulates hemolysin transcriptionally and posttranslationally in Vibrio cholerae.</article-title>
+<source>Infect Immun</source>
+<volume>78</volume>
+<fpage>461</fpage>
+<lpage>467</lpage>
+<pub-id pub-id-type="pmid">19858311</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Waters3">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waters</surname><given-names>CM</given-names></name><name><surname>Lu</surname><given-names>W</given-names></name><name><surname>Rabinowitz</surname><given-names>JD</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2008</year>
+<article-title>Quorum sensing controls biofilm formation in Vibrio cholerae through modulation of cyclic di-GMP levels and repression of vpsT.</article-title>
+<source>J Bacteriol</source>
+<volume>190</volume>
+<fpage>2527</fpage>
+<lpage>2536</lpage>
+<pub-id pub-id-type="pmid">18223081</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Lim1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lim</surname><given-names>B</given-names></name><name><surname>Beyhan</surname><given-names>S</given-names></name><name><surname>Meir</surname><given-names>J</given-names></name><name><surname>Yildiz</surname><given-names>FH</given-names></name></person-group>
+<year>2006</year>
+<article-title>Cyclic-diGMP signal transduction systems in Vibrio cholerae: modulation of rugosity and biofilm formation.</article-title>
+<source>Mol Microbiol</source>
+<volume>60</volume>
+<fpage>331</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="pmid">16573684</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Shao1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shao</surname><given-names>CP</given-names></name><name><surname>Lo</surname><given-names>HR</given-names></name><name><surname>Lin</surname><given-names>JH</given-names></name><name><surname>Hor</surname><given-names>LI</given-names></name></person-group>
+<year>2011</year>
+<article-title>Regulation of Cytotoxicity by Quorum-Sensing Signaling in Vibrio vulnificus Is Mediated by SmcR, a Repressor of hlyU.</article-title>
+<source>J Bacteriol</source>
+<volume>193</volume>
+<fpage>2557</fpage>
+<lpage>2565</lpage>
+<pub-id pub-id-type="pmid">21398530</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Wright1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>AC</given-names></name><name><surname>Morris</surname><given-names>JG</given-names><suffix>Jr</suffix></name></person-group>
+<year>1991</year>
+<article-title>The extracellular cytolysin of Vibrio vulnificus: inactivation and relationship to virulence in mice.</article-title>
+<source>Infect Immun</source>
+<volume>59</volume>
+<fpage>192</fpage>
+<lpage>197</lpage>
+<pub-id pub-id-type="pmid">1846124</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Liu1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>M</given-names></name><name><surname>Alice</surname><given-names>AF</given-names></name><name><surname>Naka</surname><given-names>H</given-names></name><name><surname>Crosa</surname><given-names>JH</given-names></name></person-group>
+<year>2007</year>
+<article-title>The HlyU protein is a positive regulator of rtxA1, a gene responsible for cytotoxicity and virulence in the human pathogen Vibrio vulnificus.</article-title>
+<source>Infect Immun</source>
+<volume>75</volume>
+<fpage>3282</fpage>
+<lpage>3289</lpage>
+<pub-id pub-id-type="pmid">17438022</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Liu2">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>M</given-names></name><name><surname>Naka</surname><given-names>H</given-names></name><name><surname>Crosa</surname><given-names>JH</given-names></name></person-group>
+<year>2009</year>
+<article-title>HlyU acts as an H-NS antirepressor in the regulation of the RTX toxin gene essential for the virulence of the human pathogen Vibrio vulnificus CMCP6.</article-title>
+<source>Mol Microbiol</source>
+<volume>72</volume>
+<fpage>491</fpage>
+<lpage>505</lpage>
+<pub-id pub-id-type="pmid">19320834</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Jeong1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jeong</surname><given-names>HS</given-names></name><name><surname>Lee</surname><given-names>MH</given-names></name><name><surname>Lee</surname><given-names>KH</given-names></name><name><surname>Park</surname><given-names>SJ</given-names></name><name><surname>Choi</surname><given-names>SH</given-names></name></person-group>
+<year>2003</year>
+<article-title>SmcR and cyclic AMP receptor protein coactivate Vibrio vulnificus vvpE encoding elastase through the RpoS-dependent promoter in a synergistic manner.</article-title>
+<source>J Biol Chem</source>
+<volume>278</volume>
+<fpage>45072</fpage>
+<lpage>45081</lpage>
+<pub-id pub-id-type="pmid">12947096</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-GodePotratz1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gode-Potratz</surname><given-names>CJ</given-names></name><name><surname>McCarter</surname><given-names>LL</given-names></name></person-group>
+<year>2011</year>
+<article-title>Quorum sensing and silencing in Vibrio parahaemolyticus.</article-title>
+<source>J Bacteriol</source>
+</element-citation>
+      </ref>
+      <ref id="pone.0034622-Henke2">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henke</surname><given-names>JM</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2004</year>
+<article-title>Quorum sensing regulates type III secretion in Vibrio harveyi and Vibrio parahaemolyticus.</article-title>
+<source>J Bacteriol</source>
+<volume>186</volume>
+<fpage>3794</fpage>
+<lpage>3805</lpage>
+<pub-id pub-id-type="pmid">15175293</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Faruque1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Faruque</surname><given-names>SM</given-names></name><name><surname>Biswas</surname><given-names>K</given-names></name><name><surname>Udden</surname><given-names>SM</given-names></name><name><surname>Ahmad</surname><given-names>QS</given-names></name><name><surname>Sack</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Transmissibility of cholera: in vivo-formed biofilms and their relationship to infectivity and persistence in the environment.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>6350</fpage>
+<lpage>6355</lpage>
+<pub-id pub-id-type="pmid">16601099</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Tamayo1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamayo</surname><given-names>R</given-names></name><name><surname>Patimalla</surname><given-names>B</given-names></name><name><surname>Camilli</surname><given-names>A</given-names></name></person-group>
+<year>2010</year>
+<article-title>Growth in a biofilm induces a hyperinfectious phenotype in Vibrio cholerae.</article-title>
+<source>Infect Immun</source>
+<volume>78</volume>
+<fpage>3560</fpage>
+<lpage>3569</lpage>
+<pub-id pub-id-type="pmid">20515927</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Zhu1">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhu</surname><given-names>J</given-names></name><name><surname>Miller</surname><given-names>MB</given-names></name><name><surname>Vance</surname><given-names>RE</given-names></name><name><surname>Dziejman</surname><given-names>M</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Quorum-sensing regulators control virulence gene expression in Vibrio cholerae.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>3129</fpage>
+<lpage>3134</lpage>
+<pub-id pub-id-type="pmid">11854465</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Kovacikova2">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovacikova</surname><given-names>G</given-names></name><name><surname>Skorupski</surname><given-names>K</given-names></name></person-group>
+<year>2002</year>
+<article-title>Regulation of virulence gene expression in Vibrio cholerae by quorum sensing: HapR functions at the aphA promoter.</article-title>
+<source>Mol Microbiol</source>
+<volume>46</volume>
+<fpage>1135</fpage>
+<lpage>1147</lpage>
+<pub-id pub-id-type="pmid">12421317</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Hammer3">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hammer</surname><given-names>BK</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Quorum sensing controls biofilm formation in Vibrio cholerae.</article-title>
+<source>Mol Microbiol</source>
+<volume>50</volume>
+<fpage>101</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="pmid">14507367</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Lee1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>DH</given-names></name><name><surname>Jeong</surname><given-names>HS</given-names></name><name><surname>Jeong</surname><given-names>HG</given-names></name><name><surname>Kim</surname><given-names>KM</given-names></name><name><surname>Kim</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>A consensus sequence for binding of SmcR, a Vibrio vulnificus LuxR homologue, and genome-wide identification of the SmcR regulon.</article-title>
+<source>J Biol Chem</source>
+<volume>283</volume>
+<fpage>23610</fpage>
+<lpage>23618</lpage>
+<pub-id pub-id-type="pmid">18579523</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Lin2">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>W</given-names></name><name><surname>Kovacikova</surname><given-names>G</given-names></name><name><surname>Skorupski</surname><given-names>K</given-names></name></person-group>
+<year>2005</year>
+<article-title>Requirements for Vibrio cholerae HapR binding and transcriptional repression at the hapR promoter are distinct from those at the aphA promoter.</article-title>
+<source>J Bacteriol</source>
+<volume>187</volume>
+<fpage>3013</fpage>
+<lpage>3019</lpage>
+<pub-id pub-id-type="pmid">15838027</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Croxatto1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Croxatto</surname><given-names>A</given-names></name><name><surname>Pride</surname><given-names>J</given-names></name><name><surname>Hardman</surname><given-names>A</given-names></name><name><surname>Williams</surname><given-names>P</given-names></name><name><surname>Camara</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>A distinctive dual-channel quorum-sensing system operates in Vibrio anguillarum.</article-title>
+<source>Mol Microbiol</source>
+<volume>52</volume>
+<fpage>1677</fpage>
+<lpage>1689</lpage>
+<pub-id pub-id-type="pmid">15186417</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Ishihama1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ishihama</surname><given-names>A</given-names></name></person-group>
+<year>2000</year>
+<article-title>Functional modulation of Escherichia coli RNA polymerase.</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>54</volume>
+<fpage>499</fpage>
+<lpage>518</lpage>
+<pub-id pub-id-type="pmid">11018136</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Kovacikova3">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovacikova</surname><given-names>G</given-names></name><name><surname>Lin</surname><given-names>W</given-names></name><name><surname>Skorupski</surname><given-names>K</given-names></name></person-group>
+<year>2004</year>
+<article-title>Vibrio cholerae AphA uses a novel mechanism for virulence gene activation that involves interaction with the LysR-type regulator AphB at the tcpPH promoter.</article-title>
+<source>Mol Microbiol</source>
+<volume>53</volume>
+<fpage>129</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="pmid">15225309</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Yang1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>M</given-names></name><name><surname>Frey</surname><given-names>EM</given-names></name><name><surname>Liu</surname><given-names>Z</given-names></name><name><surname>Bishar</surname><given-names>R</given-names></name><name><surname>Zhu</surname><given-names>J</given-names></name></person-group>
+<year>2010</year>
+<article-title>The virulence transcriptional activator AphA enhances biofilm formation by Vibrio cholerae by activating expression of the biofilm regulator VpsT.</article-title>
+<source>Infect Immun</source>
+<volume>78</volume>
+<fpage>697</fpage>
+<lpage>703</lpage>
+<pub-id pub-id-type="pmid">19933826</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Kovacikova4">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovacikova</surname><given-names>G</given-names></name><name><surname>Lin</surname><given-names>W</given-names></name><name><surname>Skorupski</surname><given-names>K</given-names></name></person-group>
+<year>2005</year>
+<article-title>Dual regulation of genes involved in acetoin biosynthesis and motility/biofilm formation by the virulence activator AphA and the acetate-responsive LysR-type regulator AlsR in Vibrio cholerae.</article-title>
+<source>Mol Microbiol</source>
+<volume>57</volume>
+<fpage>420</fpage>
+<lpage>433</lpage>
+<pub-id pub-id-type="pmid">15978075</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Rutherford1">
+        <label>57</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rutherford</surname><given-names>ST</given-names></name><name><surname>van Kessel</surname><given-names>JC</given-names></name><name><surname>Shao</surname><given-names>Y</given-names></name><name><surname>Bassler</surname><given-names>BL</given-names></name></person-group>
+<year>2011</year>
+<article-title>AphA and LuxR/HapR reciprocally control quorum sensing in vibrios.</article-title>
+<source>Genes Dev</source>
+<volume>25</volume>
+<fpage>397</fpage>
+<lpage>408</lpage>
+<pub-id pub-id-type="pmid">21325136</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Miyamoto1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miyamoto</surname><given-names>CM</given-names></name><name><surname>Smith</surname><given-names>EE</given-names></name><name><surname>Swartzman</surname><given-names>E</given-names></name><name><surname>Cao</surname><given-names>JG</given-names></name><name><surname>Graham</surname><given-names>AF</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Proximal and distal sites bind LuxR independently and activate expression of the Vibrio harveyi lux operon.</article-title>
+<source>Mol Microbiol</source>
+<volume>14</volume>
+<fpage>255</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="pmid">7830570</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Miyamoto2">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miyamoto</surname><given-names>CM</given-names></name><name><surname>Meighen</surname><given-names>EA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Involvement of LuxR, a quorum sensing regulator in Vibrio harveyi, in the promotion of metabolic genes: argA, purM, lysE and rluA.</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1759</volume>
+<fpage>296</fpage>
+<lpage>307</lpage>
+<pub-id pub-id-type="pmid">16844243</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Chang1">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chang</surname><given-names>C</given-names></name><name><surname>Jing-Jing</surname><given-names>Z</given-names></name><name><surname>Chun-Hua</surname><given-names>R</given-names></name><name><surname>Chao-Qun</surname><given-names>H</given-names></name></person-group>
+<year>2010</year>
+<article-title>Deletion of valR, a homolog of Vibrio harveyis luxR generates an intermediate colony phenotype between opaque/rugose and translucent/smooth in Vibrio alginolyticus.</article-title>
+<source>Biofouling</source>
+<volume>26</volume>
+<fpage>595</fpage>
+<lpage>601</lpage>
+<pub-id pub-id-type="pmid">20582761</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Lin3">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>B</given-names></name><name><surname>Wang</surname><given-names>Z</given-names></name><name><surname>Malanoski</surname><given-names>AP</given-names></name><name><surname>O'Grady</surname><given-names>EA</given-names></name><name><surname>Wimpee</surname><given-names>CF</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Comparative genomic analyses identify the Vibrio harveyi genome sequenced strains BAA-1116 and HY01 as Vibrio campbellii.</article-title>
+<source>Environ Microbiol Rep</source>
+<volume>2</volume>
+<fpage>81</fpage>
+<lpage>89</lpage>
+<pub-id pub-id-type="pmid">20686623</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Chen1">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>CY</given-names></name><name><surname>Wu</surname><given-names>KM</given-names></name><name><surname>Chang</surname><given-names>YC</given-names></name><name><surname>Chang</surname><given-names>CH</given-names></name><name><surname>Tsai</surname><given-names>HC</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Comparative genome analysis of Vibrio vulnificus, a marine pathogen.</article-title>
+<source>Genome Res</source>
+<volume>13</volume>
+<fpage>2577</fpage>
+<lpage>2587</lpage>
+<pub-id pub-id-type="pmid">14656965</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Hasegawa1">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hasegawa</surname><given-names>H</given-names></name><name><surname>Hase</surname><given-names>CC</given-names></name></person-group>
+<year>2009</year>
+<article-title>TetR-type transcriptional regulator VtpR functions as a global regulator in Vibrio tubiashii.</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>75</volume>
+<fpage>7602</fpage>
+<lpage>7609</lpage>
+<pub-id pub-id-type="pmid">19837838</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Naka1">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naka</surname><given-names>H</given-names></name><name><surname>Dias</surname><given-names>GM</given-names></name><name><surname>Thompson</surname><given-names>CC</given-names></name><name><surname>Dubay</surname><given-names>C</given-names></name><name><surname>Thompson</surname><given-names>FL</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Complete Genome Sequence of the Marine Fish Pathogen Vibrio anguillarum Harboring the pJM1 Virulence Plasmid and Genomic Comparison with Other Virulent Strains of V. anguillarum and V. ordalii.</article-title>
+<source>Infect Immun</source>
+<volume>79</volume>
+<fpage>2889</fpage>
+<lpage>2900</lpage>
+<pub-id pub-id-type="pmid">21576332</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Heidelberg1">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heidelberg</surname><given-names>JF</given-names></name><name><surname>Eisen</surname><given-names>JA</given-names></name><name><surname>Nelson</surname><given-names>WC</given-names></name><name><surname>Clayton</surname><given-names>RA</given-names></name><name><surname>Gwinn</surname><given-names>ML</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>DNA sequence of both chromosomes of the cholera pathogen Vibrio cholerae.</article-title>
+<source>Nature</source>
+<volume>406</volume>
+<fpage>477</fpage>
+<lpage>483</lpage>
+<pub-id pub-id-type="pmid">10952301</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Mandel1">
+        <label>66</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mandel</surname><given-names>MJ</given-names></name><name><surname>Wollenberg</surname><given-names>MS</given-names></name><name><surname>Stabb</surname><given-names>EV</given-names></name><name><surname>Visick</surname><given-names>KL</given-names></name><name><surname>Ruby</surname><given-names>EG</given-names></name></person-group>
+<year>2009</year>
+<article-title>A single regulatory gene is sufficient to alter bacterial host range.</article-title>
+<source>Nature</source>
+<volume>458</volume>
+<fpage>215</fpage>
+<lpage>218</lpage>
+<pub-id pub-id-type="pmid">19182778</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0034622-Thompson1">
+        <label>67</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>JD</given-names></name><name><surname>Gibson</surname><given-names>TJ</given-names></name><name><surname>Higgins</surname><given-names>DG</given-names></name></person-group>
+<year>2002</year>
+<article-title>Multiple sequence alignment using ClustalW and ClustalX.</article-title>
+<source>Curr Protoc Bioinformatics Chapter</source>
+<volume>2</volume>
+<fpage>Unit 2 3</fpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0034622-Tamura1">
+        <label>68</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamura</surname><given-names>K</given-names></name><name><surname>Dudley</surname><given-names>J</given-names></name><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group>
+<year>2007</year>
+<article-title>MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0.</article-title>
+<source>Mol Biol Evol</source>
+<volume>24</volume>
+<fpage>1596</fpage>
+<lpage>1599</lpage>
+<pub-id pub-id-type="pmid">17488738</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

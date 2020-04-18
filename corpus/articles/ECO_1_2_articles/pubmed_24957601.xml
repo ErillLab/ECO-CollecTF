@@ -1,0 +1,2992 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24957601</article-id>
+      <article-id pub-id-type="pmc">4117774</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gku548</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Gene regulation, Chromatin and Epigenetics</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genomic mapping of cAMP receptor protein (CRP<sup>Mt</sup>) in <italic>Mycobacterium tuberculosis</italic>: relation to transcriptional start sites and the role of CRP<sup>Mt</sup> as a transcription factor</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kahramanoglou</surname>
+            <given-names>Christina</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cortes</surname>
+            <given-names>Teresa</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matange</surname>
+            <given-names>Nishad</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hunt</surname>
+            <given-names>Debbie M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Visweswariah</surname>
+            <given-names>Sandhya S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Young</surname>
+            <given-names>Douglas B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Buxton</surname>
+            <given-names>Roger S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <aff id="AFF1"><label>1</label>Division of Mycobacterial Research, MRC National Institute for Medical Research, Mill Hill, London, NW7 1AA, UK</aff>
+        <aff id="AFF2"><label>2</label>Department of Molecular Reproduction, Development and Genetics, Indian Institute of Science, Bangalore 560012, India</aff>
+        <aff id="AFF3"><label>3</label>Centre for Molecular Bacteriology and Infection, Imperial College London, SW7 2AZ, UK</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="COR1"><label>*</label>To whom correspondence should be addressed. Tel: +44 20 88 16 24 75; Fax: +44 20 88 16 27 30; Email: <email>tcortes@nimr.mrc.ac.uk</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>01</day>
+        <month>9</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>6</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>21</day>
+        <month>6</month>
+        <year>2014</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>42</volume>
+      <issue>13</issue>
+      <fpage>8320</fpage>
+      <lpage>8329</lpage>
+      <history>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>6</month>
+          <year>2014</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>28</day>
+          <month>5</month>
+          <year>2014</year>
+        </date>
+        <date date-type="received">
+          <day>03</day>
+          <month>4</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2014. Published by Oxford University Press on behalf of Nucleic Acids Research.</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:type="simple" xlink:href="gku548.pdf"/>
+      <abstract>
+        <p>Chromatin immunoprecipitation identified 191 binding sites of <italic>Mycobacterium tuberculosis</italic> cAMP receptor protein (CRP<sup>Mt</sup>) at endogenous expression levels using a specific &#x3B1;-CRP<sup>Mt</sup> antibody. Under these native conditions an equal distribution between intragenic and intergenic locations was observed. CRP<sup>Mt</sup> binding overlapped a palindromic consensus sequence. Analysis by RNA sequencing revealed widespread changes in transcriptional profile in a mutant strain lacking CRP<sup>Mt</sup> during exponential growth, and in response to nutrient starvation. Differential expression of genes with a CRP<sup>Mt</sup>-binding site represented only a minor portion of this transcriptional reprogramming with &#x223C;19% of those representing transcriptional regulators potentially controlled by CRP<sup>Mt</sup>. The subset of genes that are differentially expressed in the deletion mutant under both culture conditions conformed to a pattern resembling canonical CRP regulation in <italic>Escherichia coli</italic>, with binding close to the transcriptional start site associated with repression and upstream binding with activation. CRP<sup>Mt</sup> can function as a classical transcription factor in <italic>M. tuberculosis</italic>, though this occurs at only a subset of CRP<sup>Mt</sup>-binding sites.</p>
+      </abstract>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>2014</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="SEC1">
+      <title>INTRODUCTION</title>
+      <p>The success of <italic>Mycobacterium tuberculosis</italic> as one of the most deadly human pathogens depends on its ability to adapt to diverse intracellular and extracellular environments encountered during infection, persistence and transmission [reviewed in (<xref rid="B1" ref-type="bibr">1</xref>)]. This is mediated in part by an extensive repertoire of transcriptional regulators, including alternative sigma factors, two-component signal transduction proteins and serine&#x2013;threonine protein kinase sensors (<xref rid="B2" ref-type="bibr">2</xref>). Defining the scope of individual regulators and their participation in integrated regulatory networks generates insights into the <italic>in vivo</italic> physiology of <italic>M. tuberculosis</italic> that will assist in the selection of optimal treatment strategies (<xref rid="B3" ref-type="bibr">3</xref>). A combination of chromatin immunoprecipitation (ChIP) with sequence-based transcriptional profiling provides a powerful approach to this goal. Whilst some mycobacterial transcription factors display a restricted profile of binding to a limited set of regulated promoters (<xref rid="B4" ref-type="bibr">4&#x2013;6</xref>), a recent study of EspR revealed a much broader profile resembling that of nucleoid-associated proteins (NAPs) involved in structural organization of the chromosome (<xref rid="B7" ref-type="bibr">7</xref>,<xref rid="B8" ref-type="bibr">8</xref>). High-throughput ChIP experiments based on overexpressed transcription factors in <italic>M. tuberculosis</italic> systematically detect a wide repertoire of low affinity binding sites, however, suggesting that there may be no clear-cut distinction between proteins with localized and generalized binding profiles (<xref rid="B9" ref-type="bibr">9</xref>). In the present study, we set out to define the genomic binding profile of cAMP (cyclic adenosine monophosphate) receptor protein (CRP<sup>Mt</sup>) of <italic>M. tuberculosis</italic> with a particular emphasis on the localization of CRP<sup>Mt</sup>-binding sites relative to transcription start sites (TSSs).</p>
+      <p>CRP is one of the best-characterized transcription factors in the model organism, <italic>Escherichia coli</italic>, with a role in regulation of around 200 transcriptional units. CRP binds to a palindromic sequence (TGTGAN<sub>6</sub>TCACA) in the promoters of target genes and, depending on the distance between the binding site and the transcriptional start site, enhances or restricts recruitment of ribonucleic acid (RNA) polymerase [reviewed in (<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B11" ref-type="bibr">11</xref>)]. In addition to binding to target promoters, ChIP-chip analysis of <italic>E. coli</italic> CRP uncovered an extensive background pattern of low affinity sites suggesting that CRP may have an additional role as a more general chromosomal organizer (<xref rid="B12" ref-type="bibr">12</xref>). A key feature of <italic>E. coli</italic> CRP is that its affinity for deoxyribonucleic acid (DNA) is strongly dependent on binding of the cAMP ligand, allowing it to play a central role in the global coordination of transcriptional reprogramming required for optimal utilization of different carbon substrates.</p>
+      <p>The corresponding <italic>M. tuberculosis</italic> CRP<sup>Mt</sup>, encoded by Rv3676, recognizes a similar binding motif and has been shown to regulate transcription of several promoters&#x2014;for example, the <italic>serC</italic> promoter (<xref rid="B13" ref-type="bibr">13</xref>), the <italic>rpfA</italic> promoter (<xref rid="B14" ref-type="bibr">14</xref>), the <italic>whiB1</italic> promoter (<xref rid="B15" ref-type="bibr">15</xref>,<xref rid="B16" ref-type="bibr">16</xref>) and the <italic>frdA</italic> promoter (<xref rid="B17" ref-type="bibr">17</xref>). Computational approaches and <italic>in vitro</italic> DNA-binding studies suggest that <italic>M. tuberculosis</italic> CRP<sup>Mt</sup> has multiple targets and is likely to share the global profile of the <italic>E. coli</italic> homologue (<xref rid="B18" ref-type="bibr">18&#x2013;20</xref>). A significant difference between the two proteins is that cAMP binds to <italic>M. tuberculosis</italic> CRP<sup>Mt</sup> with weak affinity and has less effect on its binding to DNA [(<xref rid="B21" ref-type="bibr">21</xref>), for review see (<xref rid="B22" ref-type="bibr">22</xref>)]. This may reflect differences in the abundance and regulation of cAMP in mycobacteria (<xref rid="B23" ref-type="bibr">23</xref>,<xref rid="B24" ref-type="bibr">24</xref>). In contrast to the single enzyme in <italic>E. coli</italic>, <italic>M. tuberculosis</italic> has 17 genes encoding adenylate cyclases (<xref rid="B25" ref-type="bibr">25</xref>,<xref rid="B26" ref-type="bibr">26</xref>), and the dynamics of cAMP synthesis and secretion are proposed to play an important role during infection [(<xref rid="B27" ref-type="bibr">27</xref>), for review see (<xref rid="B23" ref-type="bibr">23</xref>)]. Consistent with a role in pathogenesis, deletion of the <italic>crp</italic> gene results in significant impairment of <italic>in vitro</italic> growth of <italic>M. tuberculosis</italic> and attenuates virulence in a mouse model (<xref rid="B14" ref-type="bibr">14</xref>). We anticipated that comprehensive mapping of the binding profile of <italic>M. tuberculosis</italic> CRP<sup>Mt</sup> would assist in characterization of this global regulator and contribute more broadly to a fundamental understanding of gene regulation in mycobacteria.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SEC2">
+      <title>MATERIALS AND METHODS</title>
+      <sec id="SEC2-1">
+        <title>Bacterial strains, plasmids and growth conditions</title>
+        <p>The strains used were <italic>E. coli</italic> strain DH5&#x3B1;, for all plasmid construction, and <italic>M. tuberculosis</italic> strains H37Rv (wild type) and <italic>M. tuberculosis &#x394;crp</italic>, an H37Rv mutant in which <italic>Rv3676</italic> has been deleted (<xref rid="B14" ref-type="bibr">14</xref>). <italic>E. coli</italic> cultures were grown in Luria-Bertani broth and agar (15 g/l). Where needed, ampicillin and kanamycin were used at final concentrations of 100 and 50 &#x3BC;g/ml, respectively. <italic>M. tuberculosis</italic> cultures were grown in Dubos broth containing 0.05% (v/v) Tween, Middlebrook 7H9 broth or Middlebrook 7H11 agar and supplemented with 0.5% (v/v) glycerol and 4% albumin. To monitor the response to nutrient starvation (<xref rid="B28" ref-type="bibr">28</xref>), <italic>M. tuberculosis</italic> was grown to mid-exponential phase (OD<sub>600</sub> 0.6), the cells pelleted and washed twice in phosphate buffered saline (PBS) supplemented with 0.025% tyloxapol. Cells were then resuspended in 100 ml PBS plus tyloxapol and incubated without shaking at 37 &#xB0;C.</p>
+      </sec>
+      <sec id="SEC2-2">
+        <title>Chromatin immunoprecipitation</title>
+        <p>ChIP was performed as previously described (<xref rid="B29" ref-type="bibr">29</xref>) with some modifications to the protocol. Rv3676 protein tagged with hexa-His at the N-terminus was purified in <italic>E. coli</italic> as described previously (<xref rid="B30" ref-type="bibr">30</xref>) and used to produce CRP<sup>Mt</sup>-specific polyclonal antibodies in rabbits. The primary dose (300-&#x3BC;g protein) was administered subcutaneously in Freund's complete adjuvant, followed by two booster injections in Freund's incomplete adjuvant after 14 and 30 days. Sera were prepared and then stored at &#x2212;20&#xB0;C until required. Immunoglobulin G (IgG) was purified from the serum using T-Gel purification kit (Pierce) as per manufacturer's instructions. Purified IgG was used for ChIP-seq analysis. Rv3597c antibody was raised by Cambridge Research Biochemicals, using a peptide antigen.</p>
+        <p><italic>M. tuberculosis</italic> H37Rv (wild type) and <italic>M. tuberculosis &#x394;crp</italic> cells were grown in roller bottles to mid-exponential phase (OD<sub>600</sub> 0.6) and formaldehyde was added to a final concentration of 1%. After 10 min of incubation, glycine was added to a final concentration of 0.5 M to quench the reaction and incubated for a further 5 min. Cross-linked cells were harvested by centrifugation and washed twice with ice-cold Tris-buffered saline (TBS, pH 7.5). Cell pellets were resuspended in 4-ml immunoprecipitation (IP) buffer [50-mM HEPES-KOH (pH 7.5), 150-mM NaCl, 1-mM ethylenediaminetetraacetic acid (EDTA), 1% Triton X-100, 0.1% (w/v) sodium deoxycholate, 0.1% sodium dodecyl sulphate (SDS), 0.1-mg/ml RNase A and one protease inhibitor cocktail tablet (Roche)]. Cells were lysed and the DNA sheared to an average size of &#x223C;300 base pairs (bp) using a Bioruptor (Diagenode) with 40 cycles of 30-s on/off at high setting. Insoluble matter was removed by centrifugation for 10 min at 4&#xB0;C, and the supernatant was split into two 1.8-ml aliquots. The remaining &#x223C;400 &#x3BC;l was kept to check the size of the DNA fragments and for sequencing to remove any sequencing bias (input).</p>
+        <p>Each 1.8-ml aliquot was incubated with 20-&#x3BC;l Protein A/G UltraLink Resin (Pierce) on a rotary shaker for 45 min at room temperature to eliminate complexes bound to the resin non-specifically. The supernatant was then removed and incubated with either no antibody (mock-IP), specific &#x3B1;-CRP<sup>Mt</sup> antibody raised against purified CRP<sup>Mt</sup> (Rv3676) protein (Supplementary Figure S1) and 50-&#x3BC;l Protein A/G UltraLink Resin, pre-incubated with 1-mg/ml bovine serum albumin in TBS, on a rotary shaker at 4&#xB0;C overnight. Samples were washed once with IP buffer, twice with IP buffer containing 500-mM NaCl, once with wash buffer [10-mM Tris (pH 8.0), 250-mM LiCl, 1-mM EDTA, 0.5% Tergitol (Sigma) and 0.5% sodium deoxycholate] and once with TE (pH 7.5). Immunoprecipitated complexes were eluted from the resin in 100-&#x3BC;l elution buffer [10-mM Tris (pH 7.5), 10-mM EDTA and 1% SDS] at 65&#xB0;C for 30 min. Immunoprecipitated samples and the input DNA were de-cross-linked in 0.5x elution buffer containing 0.8-mg/ml Pronase at 42&#xB0;C for 2 h followed by 65&#xB0;C for 6 h. DNA was purified using a polymerase chain reaction (PCR) purification kit (QIAGEN). Prior to library preparation and sequencing, the DNA fragment sizes were checked by agarose gel electrophoresis and gene-specific quantitative PCR was carried out.</p>
+      </sec>
+      <sec id="SEC2-3">
+        <title>RNA isolation</title>
+        <p>RNA was extracted from exponentially growing wild-type and <italic>&#x394;crp M. tuberculosis</italic> H37Rv in Middlebrook 7H9 media, as previously described (<xref rid="B3" ref-type="bibr">3</xref>). Briefly, 25 ml of mid-log phase cultures were pelleted at 4&#xB0;C, and RNA was isolated using the FastRNA Pro Blue kit (MP Bio), according to the manufacturer's guidelines. Following extraction, RNA was treated with Turbo DNase (Ambion) to degrade all DNA present, and the quality and integrity were assessed using a Nanodrop (ND-1000, Labtech) and Agilent bioanalyzer.</p>
+      </sec>
+      <sec id="SEC2-4">
+        <title>Library construction and Illumina sequencing</title>
+        <p>For ChIP-seq, prior and post library construction, the concentration of the immunoprecipitated DNA samples was measured using the Qubit HS DNA kit (Invitrogen). Library construction and sequencing were performed using the ChIP-seq Sample Prep kit, Reagent Preparation kit and Cluster Station kit (Illumina). Samples were sequenced on an Illumina Genome Analyzer IIx (GAIIx) instrument and loaded at a concentration of 10 pM. For RNA sequencing (RNA-seq), strand-specific cDNA libraries were constructed using the Illumina Small RNA Sample preparation kit with the v1.5 small RNA (sRNA) 3&#x2032; Adaptor and sequenced on a GAIIx (Illumina).</p>
+      </sec>
+      <sec id="SEC2-5">
+        <title>Data analysis</title>
+        <p>Sequence reads were aligned to the reference sequence of <italic>M. tuberculosis</italic> H37Rv (EMBL accession number AL123456) as single-end data using the Burrows-Wheeler aligner (BWA) (<xref rid="B31" ref-type="bibr">31</xref>). The genome coverage was calculated using Samtools (<xref rid="B32" ref-type="bibr">32</xref>) and visualized in the Artemis genome browser. For ChIP-seq, peaks were called using a combination of CisGenome (<xref rid="B33" ref-type="bibr">33</xref>) and the BayesPeak package in R/Bioconductor (<xref rid="B34" ref-type="bibr">34</xref>). For RNA-seq, differential gene expression was analysed using the DESeq package in R/Bioconductor (<xref rid="B35" ref-type="bibr">35</xref>). For evaluating the location of binding sites as potential transcriptional activators or repressors, a region between &#x2212;200 and +20 bp with respect to the transcriptional start site was considered. For functional enrichment analysis, the 87 genes with CRP-binding sites up to 200 bp upstream from the annotated TSS (<xref rid="B36" ref-type="bibr">36</xref>) were analysed. All functional categories were assigned using Tuberculist annotations. GraphPad Prism v6.04 was used to compare the frequencies of different functional categories in respect to the H37Rv genome distribution using two-tailed Chi-square tests.</p>
+      </sec>
+      <sec id="SEC2-6">
+        <title>Quantitative real-time PCR</title>
+        <p>Quantitative real-time PCR (qRT-PCR) was used to determine whether the ChIP experiment had worked prior to library construction and to validate both the ChIP-seq and RNA-seq data. To measure the enrichment of TF-binding targets in the immunoprecipitated DNA samples, 1 &#xB5;l of IP or mock-IP DNA was used with Quantitect SYBR Green (QIAGEN) together with specific primers to the upstream region of Rv3616c, known to be bound by CRP<sup>Mt</sup>. To validate the RNA-seq data, specific primers were used to quantify the messenger RNA targets showing up- or downregulation, and control targets showing no differential expression. RNA was extracted as described above, and 30 ng total RNA from wild-type and <italic>&#x394;crp</italic> cells was used with the Express One-Step SYBR GreenER kit (Invitrogen) according to the manufacturer's guidelines. All primer sequences and qRT-PCR results are in Supplementary Tables S1 and S2.</p>
+      </sec>
+      <sec id="SEC2-7">
+        <title>cAMP measurement</title>
+        <p>Samples for cAMP measurement during the starvation response were taken at time points 0 h, 24 h, 48 h and 96 h. At each time point, 2 ml of culture was spun down, resuspended in 0.1-M HCl and boiled for 10 min. The samples were lysed in the presence of glass beads (150&#x2013;212 &#x3BC;m; Sigma) using a Ribolyser (Hybaid) at a speed setting of 6.0 for 40 s. The supernatant was collected by centrifugation and stored at &#x2212;20&#xB0;C until the assay was performed. Levels of cAMP in the cells were measured using the Direct cAMP Enzyme Immunoassay kit (Sigma), following the acetylated version according to the manufacturer's guidelines, and normalized to the total amount of protein in the samples (measured using a Nanodrop ND-1000).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="SEC3">
+      <title>RESULTS</title>
+      <sec id="SEC3-1">
+        <title>Genomic mapping of the CRP<sup>Mt</sup>-binding profile</title>
+        <p>The aim of this work was to investigate CRP<sup>Mt</sup> binding to the <italic>M. tuberculosis</italic> chromosome by ChIP combined with high-throughput sequencing (ChIP-seq) and to integrate these data with transcriptional profiling by RNA-seq. ChIP-seq was done using a specific antibody against CRP<sup>Mt</sup>, thus enabling us to study the binding under native conditions without the need to tag and overexpress the protein. Under these native conditions, CRP<sup>Mt</sup> is expressed at high levels in the cell; based on published quantitative mass spectrometry and electron microscopy (<xref rid="B36" ref-type="bibr">36</xref>,<xref rid="B37" ref-type="bibr">37</xref>) and western blot analysis we estimate the number of CRP<sup>Mt</sup> molecules to be approximately stoichiometric to the number of ribosomes per cell (&#x223C;3500).</p>
+        <p>We were able to map 98% of the sequences uniquely to the H37Rv genome (allowing for up to two mismatches per read) and achieved a near-complete representation of the entire genome (98% of the genome was mapped). The remaining 2% of the genome includes PE/PPE genes, which contain highly repetitive sequences that are poorly resolved by short-read sequencing. To visualize the genome coverage, the number of reads mapping to each position on the <italic>M. tuberculosis</italic> chromosome was calculated and the traces visualized in the Artemis genome browser. Peaks were called using the CisGenome software (<xref rid="B33" ref-type="bibr">33</xref>) to identify enriched regions in the CRP<sup>Mt</sup>-IP compared to the mock-IP (performed in the absence of antibody) and input (sheared genomic DNA). To validate the results, the data were also analysed using the BayesPeak package in R/Bioconductor, and peaks called in only one of the two methods were discarded. As seen in Figure <xref ref-type="fig" rid="F1">1A</xref>, there was no significant enrichment of any regions of the <italic>M. tuberculosis</italic> chromosome in the mock-IP (or the input; data not shown) indicating negligible non-specific binding to the resin or the antibody. In the CRP<sup>Mt</sup>-IP, however, 191 peaks were found, denoting CRP<sup>Mt</sup>-binding sites (here abbreviated to CBSs) on the chromosome (Figure <xref ref-type="fig" rid="F1">1A</xref>). The average length of the CBSs was 276 bp, and in total this represents 0.7% of the entire <italic>M. tuberculosis</italic> genome. No differences were observed in CRP<sup>Mt</sup>-DNA binding between cells grown in Dubos medium and cells grown in Middlebrook 7H9 medium (data not shown). No ChIP-seq signals were detected for the <italic>crp</italic>-deletion strain.</p>
+        <fig id="F1" position="float">
+          <label>Figure 1.</label>
+          <caption>
+            <p>ChIP-seq mapping of CRP<sup>Mt</sup>-binding sites. (<bold>A</bold>) Sequence reads from ChIP are mapped onto the <italic>M. tuberculosis</italic> H37Rv genome and displayed using the Artemis browser. No peak enrichment was observed in a mock-IP sample (red trace). One hundred and ninety one peaks were identified in the IP sample using anti-CRP<sup>Mt</sup> antibody (black trace). (<bold>B</bold>) A consensus motif resembling that defined for <italic>E. coli</italic> CRP was identified within 50 bp of the bound centre for 97% of the 191 of ChIP-seq peaks. (<bold>C</bold>) A clear correlation was observed between peak enrichment and match to the consensus motif. (<bold>D</bold>) Representative Artemis profiles of CBSs. CRP<sup>Mt</sup> binding (i) to the divergent promoter region between Rv0078A and Rv0079; (ii) in the intragenic region within Rv1592c; and (iii) overlapping the sRNA ncRv13943. Red boxes denote the CBS and blue boxes denote the TSS.</p>
+          </caption>
+          <graphic xlink:href="gku548fig1"/>
+        </fig>
+        <p><italic>De novo</italic> motif discovery by MEME-ChIP (<xref rid="B38" ref-type="bibr">38</xref>), using 50 bp upstream and downstream of the centre of each peak, identified a consensus motif present in 97% of the 191 binding sites that is similar to motifs previously predicted for <italic>M. tuberculosis</italic> CRP<sup>Mt</sup> and experimentally defined for <italic>E. coli</italic> CRP (Figure <xref ref-type="fig" rid="F1">1B</xref>). The midpoint of each ChIP peak was compared to the centre of the CRP<sup>Mt</sup>-binding site, as predicted from the consensus sequence, and the average difference was found to be 6 bp, with a correlation coefficient of 0.995 between the two data sets. At 14 of the sites, we identified more than one copy of the consensus motif. At three of the sites we were unable to identify a match to the consensus motif. The enrichment of the DNA fragments in the CRP<sup>Mt</sup>-IP compared to the mock-IP was inversely proportional to the number of mismatches found at each site (Figure <xref ref-type="fig" rid="F1">1C</xref>). The top 14 sites, with an enrichment factor (maxT) of 10 or more, are shown in Table <xref ref-type="table" rid="tbl1">1</xref> and representative Artemis profiles are illustrated in Figure <xref ref-type="fig" rid="F1">1D</xref> (for details of all sites, see Supplementary Table S3).</p>
+        <table-wrap id="tbl1" position="float">
+          <label>Table 1.</label>
+          <caption>
+            <title>ChIP peaks with highest fold enrichment</title>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">maxT<sup>a</sup></th>
+                <th align="left" rowspan="1" colspan="1">Bound centre</th>
+                <th align="left" rowspan="1" colspan="1">CRP-binding site (CBS)<sup>b</sup></th>
+                <th align="left" rowspan="1" colspan="1">ChIP to CBS (bp)<sup>c</sup></th>
+                <th align="left" rowspan="1" colspan="1">Consensus mismatch</th>
+                <th align="left" rowspan="1" colspan="1">Gene</th>
+                <th align="left" rowspan="1" colspan="1">Name</th>
+                <th align="left" rowspan="1" colspan="1">CBS to TSS (bp)<sup>d</sup></th>
+                <th align="left" rowspan="1" colspan="1">Location of CBS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">17.1</td>
+                <td align="left" rowspan="1" colspan="1">122322</td>
+                <td align="left" rowspan="1" colspan="1">122323.5</td>
+                <td align="left" rowspan="1" colspan="1">1.5</td>
+                <td align="left" rowspan="1" colspan="1">0</td>
+                <td align="left" rowspan="1" colspan="1">Rv0104</td>
+                <td align="left" rowspan="1" colspan="1">Rv0104</td>
+                <td align="left" rowspan="1" colspan="1">+6.5</td>
+                <td align="left" rowspan="1" colspan="1">Inside 5&#x2032; end of gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">14.1</td>
+                <td align="left" rowspan="1" colspan="1">3015072</td>
+                <td align="left" rowspan="1" colspan="1">3015072.5</td>
+                <td align="left" rowspan="1" colspan="1">0.5</td>
+                <td align="left" rowspan="1" colspan="1">0</td>
+                <td align="left" rowspan="1" colspan="1">Rv2699c</td>
+                <td align="left" rowspan="1" colspan="1">Rv2699c</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;62.5</td>
+                <td align="left" rowspan="1" colspan="1">between divergent genes</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv2700</td>
+                <td align="left" rowspan="1" colspan="1">Rv2700</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;130.5</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">13.7</td>
+                <td align="left" rowspan="1" colspan="1">13474</td>
+                <td align="left" rowspan="1" colspan="1">13470.5</td>
+                <td align="left" rowspan="1" colspan="1">3.5</td>
+                <td align="left" rowspan="1" colspan="1">0</td>
+                <td align="left" rowspan="1" colspan="1">Rv0010c</td>
+                <td align="left" rowspan="1" colspan="1">Rv0010c</td>
+                <td align="left" rowspan="1" colspan="1">217.5</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">13.1</td>
+                <td align="left" rowspan="1" colspan="1">1061799</td>
+                <td align="left" rowspan="1" colspan="1">1061798.5</td>
+                <td align="left" rowspan="1" colspan="1">0.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv0950c</td>
+                <td align="left" rowspan="1" colspan="1">Rv0950c</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;69.5</td>
+                <td align="left" rowspan="1" colspan="1">between divergent genes</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">1061835.5</td>
+                <td align="left" rowspan="1" colspan="1">36.5</td>
+                <td align="left" rowspan="1" colspan="1">2</td>
+                <td align="left" rowspan="1" colspan="1">Rv0951</td>
+                <td align="left" rowspan="1" colspan="1">sucC</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;95.5</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv0950c</td>
+                <td align="left" rowspan="1" colspan="1">Rv0950c</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;106.5</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv0951</td>
+                <td align="left" rowspan="1" colspan="1">sucC</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;58.5</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">13.0</td>
+                <td align="left" rowspan="1" colspan="1">4131452</td>
+                <td align="left" rowspan="1" colspan="1">4131461.5</td>
+                <td align="left" rowspan="1" colspan="1">9.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv3689</td>
+                <td align="left" rowspan="1" colspan="1">Rv3689</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">12.4</td>
+                <td align="left" rowspan="1" colspan="1">2518164</td>
+                <td align="left" rowspan="1" colspan="1">2518166.5</td>
+                <td align="left" rowspan="1" colspan="1">2.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv2245</td>
+                <td align="left" rowspan="1" colspan="1">kasA</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">12.0</td>
+                <td align="left" rowspan="1" colspan="1">1757404</td>
+                <td align="left" rowspan="1" colspan="1">1757404.5</td>
+                <td align="left" rowspan="1" colspan="1">0.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv1552</td>
+                <td align="left" rowspan="1" colspan="1">frdA</td>
+                <td align="left" rowspan="1" colspan="1">+4.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of operon</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">11.7</td>
+                <td align="left" rowspan="1" colspan="1">4057424</td>
+                <td align="left" rowspan="1" colspan="1">4057425.5</td>
+                <td align="left" rowspan="1" colspan="1">1.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv3616c</td>
+                <td align="left" rowspan="1" colspan="1">espA</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;983.5</td>
+                <td align="left" rowspan="1" colspan="1">between divergent genes</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv3617</td>
+                <td align="left" rowspan="1" colspan="1">ephA</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;55.5</td>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">11.6</td>
+                <td align="left" rowspan="1" colspan="1">571602</td>
+                <td align="left" rowspan="1" colspan="1">571601.5</td>
+                <td align="left" rowspan="1" colspan="1">0.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv0482</td>
+                <td align="left" rowspan="1" colspan="1">murB</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">571517.5</td>
+                <td align="left" rowspan="1" colspan="1">84.5</td>
+                <td align="left" rowspan="1" colspan="1">3</td>
+                <td align="left" rowspan="1" colspan="1">Rv0483</td>
+                <td align="left" rowspan="1" colspan="1">lprQ</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;150.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv0482</td>
+                <td align="left" rowspan="1" colspan="1">murB</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv0483</td>
+                <td align="left" rowspan="1" colspan="1">lprQ</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;234.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">11.0</td>
+                <td align="left" rowspan="1" colspan="1">2752669</td>
+                <td align="left" rowspan="1" colspan="1">2752680.5</td>
+                <td align="left" rowspan="1" colspan="1">11.5</td>
+                <td align="left" rowspan="1" colspan="1">2</td>
+                <td align="left" rowspan="1" colspan="1">Rv2451</td>
+                <td align="left" rowspan="1" colspan="1">Rv2451</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">between convergent genes</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">2752616.5</td>
+                <td align="left" rowspan="1" colspan="1">52.5</td>
+                <td align="left" rowspan="1" colspan="1">2</td>
+                <td align="left" rowspan="1" colspan="1">Rv2451</td>
+                <td align="left" rowspan="1" colspan="1">Rv2451</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">2752593.5</td>
+                <td align="left" rowspan="1" colspan="1">77.5</td>
+                <td align="left" rowspan="1" colspan="1">2</td>
+                <td align="left" rowspan="1" colspan="1">Rv2451</td>
+                <td align="left" rowspan="1" colspan="1">Rv2451</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">10.9</td>
+                <td align="left" rowspan="1" colspan="1">2921519</td>
+                <td align="left" rowspan="1" colspan="1">2921520.5</td>
+                <td align="left" rowspan="1" colspan="1">1.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv2591</td>
+                <td align="left" rowspan="1" colspan="1">PE_PGRS44</td>
+                <td align="left" rowspan="1" colspan="1">+16.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">10.7</td>
+                <td align="left" rowspan="1" colspan="1">2911389</td>
+                <td align="left" rowspan="1" colspan="1">2911389.5</td>
+                <td align="left" rowspan="1" colspan="1">0.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv2584c</td>
+                <td align="left" rowspan="1" colspan="1">apt</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;57.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">Rv2585c</td>
+                <td align="left" rowspan="1" colspan="1">Rv2585c</td>
+                <td align="left" rowspan="1" colspan="1">&gt;500</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">10.3</td>
+                <td align="left" rowspan="1" colspan="1">1487499</td>
+                <td align="left" rowspan="1" colspan="1">1487299.5</td>
+                <td align="left" rowspan="1" colspan="1">5.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv1324</td>
+                <td align="left" rowspan="1" colspan="1">Rv1324</td>
+                <td align="left" rowspan="1" colspan="1">+138.5</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">1487370.5</td>
+                <td align="left" rowspan="1" colspan="1">76.5</td>
+                <td align="left" rowspan="1" colspan="1">3</td>
+                <td align="left" rowspan="1" colspan="1">Rv1324</td>
+                <td align="left" rowspan="1" colspan="1">Rv1324</td>
+                <td align="left" rowspan="1" colspan="1">+209.5</td>
+                <td align="left" rowspan="1" colspan="1">Internal to gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">1487064.5</td>
+                <td align="left" rowspan="1" colspan="1">229.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">Rv1324</td>
+                <td align="left" rowspan="1" colspan="1">Rv1324</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;96.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of gene</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">10.0</td>
+                <td align="left" rowspan="1" colspan="1">4329942</td>
+                <td align="left" rowspan="1" colspan="1">4329946.5</td>
+                <td align="left" rowspan="1" colspan="1">4.5</td>
+                <td align="left" rowspan="1" colspan="1">1</td>
+                <td align="left" rowspan="1" colspan="1">MT3972.1</td>
+                <td align="left" rowspan="1" colspan="1">MT3972.1</td>
+                <td align="left" rowspan="1" colspan="1">+9.5</td>
+                <td align="left" rowspan="1" colspan="1">Upstream of gene</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="TFN001">
+              <p><sup>a</sup>Enrichment factor (maxT) of the peaks between the CRP<sup>Mt</sup>-IP and the mock-IP as calculated by the CisGenome software.</p>
+            </fn>
+            <fn id="TFN002">
+              <p><sup>b</sup>Centre of the CRP<sup>Mt</sup>-binding site based on the consensus sequence (Figure <xref ref-type="fig" rid="F1">1B</xref>).</p>
+            </fn>
+            <fn id="TFN003">
+              <p><sup>c</sup>Distance of the centre of the ChIP peak (bound centre) to the centre of the CRP<sup>Mt</sup>-binding site.</p>
+            </fn>
+            <fn id="TFN004">
+              <p><sup>d</sup>Distance of the centre of the CRP<sup>Mt</sup>-binding site to the TSS, as defined by (<xref rid="B36" ref-type="bibr">36</xref>) and documented in Supplementary Table S3.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="SEC3-2">
+        <title>Location of CBSs</title>
+        <p>Sixty nine of the CRP<sup>Mt</sup>-binding sites mapped uniquely to a location within a protein coding gene or stable RNA, with a possible role in long-distance regulation and/or chromosome organization. Of the remaining sites, 86 CBSs mapped uniquely to intergenic loci corresponding to potential promoter regions, whilst 35 CBSs were located within a protein coding sequence in a region that could also serve as the potential promoter of a downstream gene. This represents a significant enrichment of intergenic regions over that predicted by chance, considering &#x223C;90% of the entire <italic>M. tuberculosis</italic> genome is intragenic. The distribution between intragenic and intergenic locations remained approximately equal irrespective of the fold-enrichment used as cutoff, indicating that CRP<sup>Mt</sup> binds with similar affinity to both types of site. In 32 cases, the CRP<sup>Mt</sup>-binding site was located between divergently transcribed gene pairs; this is proportional to the genome average of 16% of all genes with divergent orientation in <italic>M. tuberculosis</italic>. CRP regulation of divergent gene pairs has also been observed in <italic>E. coli</italic> (<xref rid="B39" ref-type="bibr">39</xref>). In some instances, CBSs mapped to the intergenic region between convergent gene pairs, like Rv2866 and Rv2867c and Rv2451 and Rv2452c. Three CRP<sup>Mt</sup>-binding sites also mapped upstream of the sRNAs, ncRv13843, ncRv11373 and ncRv13660c (<xref rid="B40" ref-type="bibr">40</xref>).</p>
+      </sec>
+      <sec id="SEC3-3">
+        <title>Canonically positioned CBSs are associated with functional categories</title>
+        <p>To define the precise location of CBSs with respect to transcriptional start sites (TSSs), we integrated the ChIP data set with a <italic>M. tuberculosis</italic> TSS map generated by sequence analysis of 5&#x2032;-triphosphate-enriched RNA libraries (<xref rid="B36" ref-type="bibr">36</xref>). The spacing between the midpoint of each CBS motif and adjacent primary TSSs is recorded in Supplementary Table S3. Including data from peaks with multiple motifs, and CBSs mapping to more than one TSS, we measured a total of 242 CBS-TSS pairs; in 203 cases, the CBS was located within 500 bp of a TSS, 127 sites were upstream and 76 downstream, 41 of which were between the TSS and the start codon (i.e. within the 5&#x2032;-Untranslated Region -UTR-) and 35 within the coding sequence. Plotting of the distribution of CBS-TSS spacing revealed clustering in the regions from &#x2212;60 to &#x2212;40, and from +1 to +20 (Figure <xref ref-type="fig" rid="F2">2A</xref> and B). Genes harbouring CRP-binding sites in the &#x2212;200 to 0 region were analysed for functional categories. Amongst the 87 genes that contain a CRP site in a putative promoter region, genes involved in cell wall and cell processes were enriched in our data set compared to the H37Rv genome (Chi-square test, <italic>P</italic> = 0.021; Figure <xref ref-type="fig" rid="F2">2C</xref>).</p>
+        <fig id="F2" position="float">
+          <label>Figure 2.</label>
+          <caption>
+            <p>CBS distribution around transcriptional start sites. (<bold>A</bold>) CRP<sup>Mt</sup> sites in <italic>M. tuberculosis</italic> show a clustering in the region around TSSs (<italic>n</italic> = 203). (<bold>B</bold>) The distribution of CBS-TSS distances for <italic>M. tuberculosis</italic> CRP<sup>Mt</sup> sites is compared to a similar data set from <italic>E. coli</italic> (<xref rid="B39" ref-type="bibr">39</xref>). (<bold>C</bold>) Genes harbouring CRP<sup>Mt</sup> sites in the &#x2212;220 to 0 region (<italic>n</italic> = 87) were analysed for functional categories according to Tuberculist annotations. Bar graphs represent the percentage of each functional class for CBS genes (black bars) compared to the distribution of these classes amongst all H37Rv genes (grey bars). Asterisks denote functional categories that are statistically significant after Chi-square test analyses.</p>
+          </caption>
+          <graphic xlink:href="gku548fig2"/>
+        </fig>
+        <p>Several of the CBSs have also been identified as binding sites for other transcription factors, suggesting that CRP<sup>Mt</sup> may act in concert with other regulators. The promoter region of Rv1057, for example, has binding sites for MprA, EspR and TrcR in addition to CRP<sup>Mt</sup> (<xref rid="B7" ref-type="bibr">7</xref>,<xref rid="B41" ref-type="bibr">41</xref>) (Figure <xref ref-type="fig" rid="F3">3</xref>). Additional promoter regions with binding sites for multiple transcription factors include <italic>fadD26</italic> (Rv2930) with an EspR-binding site (<xref rid="B7" ref-type="bibr">7</xref>) and <italic>espA</italic> (Rv3616c) with binding sites for EspR, MprA and CRP (<xref rid="B7" ref-type="bibr">7</xref>,<xref rid="B42" ref-type="bibr">42&#x2013;45</xref>).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3.</label>
+          <caption>
+            <p>Transcription factor binding to the promoter region of Rv1057. (<bold>A</bold>) Artemis traces showing the binding of CRP (blue) to the AT-rich region upstream of Rv1057. TSS mapping (green) according to (<xref rid="B36" ref-type="bibr">36</xref>). Traces record the normalized number of mapped reads and the maximum normalized read count is indicated. (<bold>B</bold>) The promoter region of Rv1057 has several binding sites for other transcription factors suggesting that CRP<sup>Mt</sup> may act in concert with other regulators. Transcription factor binding sites are shown as coloured boxes [black: LexA (<xref rid="B5" ref-type="bibr">5</xref>); red: TrcR (<xref rid="B41" ref-type="bibr">41</xref>); green: MprA (<xref rid="B44" ref-type="bibr">44</xref>); pink: EspR (<xref rid="B7" ref-type="bibr">7</xref>); turquoise: CRP). The arrow denotes the TSS (<xref rid="B36" ref-type="bibr">36</xref>). Genome coordinates indicate the start of LexA-binding site (1178795) (<xref rid="B5" ref-type="bibr">5</xref>), Rv1057 TSS (<xref rid="B36" ref-type="bibr">36</xref>) and translational start site (1179396).</p>
+          </caption>
+          <graphic xlink:href="gku548fig3"/>
+        </fig>
+      </sec>
+      <sec id="SEC3-4">
+        <title>Transcriptional regulation of CBS genes</title>
+        <p>Previous microarray and targeted qRT-PCR analyses have demonstrated differential expression of CBS genes following deletion of the <italic>crp</italic> gene (<xref rid="B14" ref-type="bibr">14</xref>). Using an RNA-seq approach to compare the transcriptional profile of wild-type and <italic>crp</italic>-deletion strains during exponential growth, we observed widespread changes in gene expression affecting more than 20% of the total transcriptome (Supplementary Table S4). Filtering based on an adjusted <italic>P</italic>-value of &lt;0.05 identified 453 genes with &gt;2-fold increased abundance in the knockout and 412 with &gt;2-fold decrease. CBS genes comprised only a minor fraction of the differential expression profile, with statistically significant upregulation of 37 genes and downregulation of 15 genes. Forty eight per cent of the CBS-regulated genes corresponded to genes annotated as key metabolic enzymes or genes with predicted roles on transcription regulation that could amplify the CRP<sup>Mt</sup> regulatory signal (Supplementary Table S5). Fifty percent of the differential expression profile (212 of the upregulated genes and 211 of the downregulated genes) was shared with the response to nutrient starvation (Supplementary Table S4), and is likely to reflect secondary effects associated with the marked growth defect of the <italic>crp</italic> mutant.</p>
+        <p>We anticipated that if CRP<sup>Mt</sup> was acting together with other transcription factors, differential expression of CBS genes may be enhanced under alternative growth conditions. ChIP-seq analysis revealed a general decrease in CRP<sup>Mt</sup> binding to DNA after incubation for 24 h in PBS (Figure <xref ref-type="fig" rid="F4">4A</xref>). Furthermore, a reduction in the amount of cAMP was observed in the nutrient starvation model (Figure <xref ref-type="fig" rid="F4">4B</xref>). There was no significant change in CRP<sup>Mt</sup> protein abundance in the starvation model (<xref rid="B36" ref-type="bibr">36</xref>). The majority of the ChIP-seq peaks identified in exponential culture were also detected after starvation, though with a reduction in fold-enrichment and loss of 33 of the 76 peaks having an enrichment ratio of less than 5 in the exponential data set. The ChIP-seq peaks not identified after starvation were not enriched in any specific functional category and only 53% of the CBS-associated genes in exponential culture showed downregulation during starvation. Comparison of the wild-type and mutant strains under starvation conditions revealed wide-ranging differences in the overall transcript profile, with 361 genes having &gt;2-fold higher abundance and 465 reduced abundance in the knockout (Supplementary Table S4), but again CBS genes made only a minor contribution, with 28 genes upregulated and 33 downregulated.</p>
+        <fig id="F4" position="float">
+          <label>Figure 4.</label>
+          <caption>
+            <p>CBSs during nutrient starvation. (<bold>A</bold>) Enrichment of CRP<sup>Mt</sup> binding to DNA during exponential and starvation phase. Box plots indicating median (horizontal line), interquartile range (box) and minimum and maximum values (whiskers) of the enrichment factor (maxT) of the 151 shared peaks between exponential growth and the starvation model (Mann&#x2013;Whitney test; ** indicates significant difference between values&#xA0;<italic>P</italic> &lt; 0.01). (<bold>B</bold>) cAMP concentration in the starvation model.</p>
+          </caption>
+          <graphic xlink:href="gku548fig4"/>
+        </fig>
+        <p>Twenty nine CBS genes showing a concordant response in a comparison of wild-type and <italic>crp</italic> deletion strains under both culture conditions are shown in Table <xref ref-type="table" rid="tbl2">2</xref>, ranked according to the distance between the CBS and the TSS. Whilst the number of differentially expressed genes is low, the results are consistent with the canonical <italic>E. coli</italic> model of CRP<sup>Mt</sup> binding close to the TSS inhibiting transcription and upstream binding enhancing transcription. There was no obvious pattern of up- or downregulation associated with CRP<sup>Mt</sup> binding at sites distant from the TSS.</p>
+        <table-wrap id="tbl2" position="float">
+          <label>Table 2.</label>
+          <caption>
+            <title>Differential expression of CBS genes during exponential growth and nutrient starvation</title>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1"/>
+                <th align="left" rowspan="1" colspan="1"/>
+                <th align="left" rowspan="1" colspan="1"/>
+                <th colspan="2" align="center" content-type="1" rowspan="1">Exponential</th>
+                <th colspan="2" align="center" content-type="1" rowspan="1">Starved</th>
+              </tr>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">gene</th>
+                <th align="left" rowspan="1" colspan="1"/>
+                <th align="left" rowspan="1" colspan="1">CRP to TSS</th>
+                <th align="left" rowspan="1" colspan="1">log2 Fold Change</th>
+                <th align="left" rowspan="1" colspan="1"><italic>P</italic> adj</th>
+                <th align="left" rowspan="1" colspan="1">log2 Fold Change</th>
+                <th align="left" rowspan="1" colspan="1"><italic>P</italic> adj</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv0046c</td>
+                <td align="left" rowspan="1" colspan="1">ino1</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.22</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.25</td>
+                <td align="left" rowspan="1" colspan="1">0.003</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv0169</td>
+                <td align="left" rowspan="1" colspan="1">mce1A</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">0.84</td>
+                <td align="left" rowspan="1" colspan="1">0.005</td>
+                <td align="left" rowspan="1" colspan="1">2.36</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv0469</td>
+                <td align="left" rowspan="1" colspan="1">umaA</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.71</td>
+                <td align="left" rowspan="1" colspan="1">0.020</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.99</td>
+                <td align="left" rowspan="1" colspan="1">0.043</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv1660</td>
+                <td align="left" rowspan="1" colspan="1">pks10</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">0.87</td>
+                <td align="left" rowspan="1" colspan="1">0.036</td>
+                <td align="left" rowspan="1" colspan="1">1.02</td>
+                <td align="left" rowspan="1" colspan="1">0.044</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2145c</td>
+                <td align="left" rowspan="1" colspan="1">wag31</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.63</td>
+                <td align="left" rowspan="1" colspan="1">0.035</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.35</td>
+                <td align="left" rowspan="1" colspan="1">0.002</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2189c</td>
+                <td align="left" rowspan="1" colspan="1">Rv2189c</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">1.67</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">4.01</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2200c</td>
+                <td align="left" rowspan="1" colspan="1">ctaC</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;2.12</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;3.08</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv3629c</td>
+                <td align="left" rowspan="1" colspan="1">Rv3629c</td>
+                <td align="left" rowspan="1" colspan="1">500</td>
+                <td align="left" rowspan="1" colspan="1">1.31</td>
+                <td align="left" rowspan="1" colspan="1">0.001</td>
+                <td align="left" rowspan="1" colspan="1">1.14</td>
+                <td align="left" rowspan="1" colspan="1">0.039</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv0054</td>
+                <td align="left" rowspan="1" colspan="1">ssb</td>
+                <td align="left" rowspan="1" colspan="1">475.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.02</td>
+                <td align="left" rowspan="1" colspan="1">0.006</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.67</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv3801c</td>
+                <td align="left" rowspan="1" colspan="1">fadD32</td>
+                <td align="left" rowspan="1" colspan="1">159.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.37</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.75</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv3680</td>
+                <td align="left" rowspan="1" colspan="1">Rv3680</td>
+                <td align="left" rowspan="1" colspan="1">119.5</td>
+                <td align="left" rowspan="1" colspan="1">0.91</td>
+                <td align="left" rowspan="1" colspan="1">0.003</td>
+                <td align="left" rowspan="1" colspan="1">1.51</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2990c</td>
+                <td align="left" rowspan="1" colspan="1">Rv2990c</td>
+                <td align="left" rowspan="1" colspan="1">42.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.89</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.67</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <bold>Rv0104</bold>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Rv0104</td>
+                <td align="left" rowspan="1" colspan="1">6.5</td>
+                <td align="left" rowspan="1" colspan="1">1.10</td>
+                <td align="left" rowspan="1" colspan="1">0.002</td>
+                <td align="left" rowspan="1" colspan="1">1.50</td>
+                <td align="left" rowspan="1" colspan="1">0.002</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <bold>Rv0167</bold>
+                </td>
+                <td align="left" rowspan="1" colspan="1">yrbE1A</td>
+                <td align="left" rowspan="1" colspan="1">3.5</td>
+                <td align="left" rowspan="1" colspan="1">0.97</td>
+                <td align="left" rowspan="1" colspan="1">0.004</td>
+                <td align="left" rowspan="1" colspan="1">2.10</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <bold>Rv1230c</bold>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Rv1230c</td>
+                <td align="left" rowspan="1" colspan="1">3.5</td>
+                <td align="left" rowspan="1" colspan="1">0.72</td>
+                <td align="left" rowspan="1" colspan="1">0.039</td>
+                <td align="left" rowspan="1" colspan="1">1.24</td>
+                <td align="left" rowspan="1" colspan="1">0.005</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <bold>Rv0655</bold>
+                </td>
+                <td align="left" rowspan="1" colspan="1">mkl</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.88</td>
+                <td align="left" rowspan="1" colspan="1">0.002</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.32</td>
+                <td align="left" rowspan="1" colspan="1">0.002</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv2107</underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">PE22</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;44.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.63</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;2.25</td>
+                <td align="left" rowspan="1" colspan="1">0.005</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv1592c<sup>a</sup></underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Rv1592c</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;54.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.31</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.82</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv3219<sup>b</sup></underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">whiB1</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;57.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.13</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.39</td>
+                <td align="left" rowspan="1" colspan="1">0.001</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv1057</underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Rv1057</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;59.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;4.21</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;2.89</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv0452</underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Rv0452</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;76.5</td>
+                <td align="left" rowspan="1" colspan="1">1.09</td>
+                <td align="left" rowspan="1" colspan="1">0.009</td>
+                <td align="left" rowspan="1" colspan="1">1.58</td>
+                <td align="left" rowspan="1" colspan="1">0.017</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv0885</underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">Rv0885</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;88.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.91</td>
+                <td align="left" rowspan="1" colspan="1">0.004</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.40</td>
+                <td align="left" rowspan="1" colspan="1">0.001</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+                  <underline>Rv3053c</underline>
+                </td>
+                <td align="left" rowspan="1" colspan="1">nrdH</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;128.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.41</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;2.44</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv0467</td>
+                <td align="left" rowspan="1" colspan="1">icl1</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;242.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.68</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;2.57</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2173</td>
+                <td align="left" rowspan="1" colspan="1">idsA2</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;246.5</td>
+                <td align="left" rowspan="1" colspan="1">1.00</td>
+                <td align="left" rowspan="1" colspan="1">0.004</td>
+                <td align="left" rowspan="1" colspan="1">1.65</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv1379</td>
+                <td align="left" rowspan="1" colspan="1">pyrR</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;365.5</td>
+                <td align="left" rowspan="1" colspan="1">1.29</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+                <td align="left" rowspan="1" colspan="1">1.95</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2703</td>
+                <td align="left" rowspan="1" colspan="1">sigA</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;407.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.64</td>
+                <td align="left" rowspan="1" colspan="1">0.003</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.38</td>
+                <td align="left" rowspan="1" colspan="1">0.007</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv2846c</td>
+                <td align="left" rowspan="1" colspan="1">efpA</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;416.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.93</td>
+                <td align="left" rowspan="1" colspan="1">0.001</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;2.67</td>
+                <td align="left" rowspan="1" colspan="1">0.000</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Rv3616c</td>
+                <td align="left" rowspan="1" colspan="1">espA</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;983.5</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;0.65</td>
+                <td align="left" rowspan="1" colspan="1">0.028</td>
+                <td align="left" rowspan="1" colspan="1">&#x2212;1.35</td>
+                <td align="left" rowspan="1" colspan="1">0.002</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="TFN005">
+              <p>CBS genes with concordant patterns of differential expression in the <italic>crp</italic> deletion mutant under both growth conditions are listed. According to the canonical model for CRP<sup>Mt</sup> regulation, it is anticipated that genes having a CBS overlapping the transcription start site will show increased expression in the absence of CRP<sup>Mt</sup> (highlighted in bold), while genes with a CBS in the upstream region will show decreased expression (underlined). CBSs between &#x2212;200 and +20 bp with respect to the transcriptional start site were considered for highlighting differences in expression.</p>
+            </fn>
+            <fn id="TFN006">
+              <p><sup>a</sup>additional CBS at &#x2212;101.5.</p>
+            </fn>
+            <fn id="TFN007">
+              <p><sup>b</sup>additional CBS at &#x2212;57.5 and 47.5.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="SEC4">
+      <title>DISCUSSION</title>
+      <p>The 191 CRP<sup>Mt</sup>-binding sites identified by ChIP-seq analysis have approximately equal distribution between intragenic and intergenic locations across the genome of <italic>M. tuberculosis</italic>. This is similar to the distribution recently reported for EspR-binding sites (<xref rid="B7" ref-type="bibr">7</xref>), and is intermediate between the dominant upstream preference identified by antibody-based ChIP with the &#x2018;classical&#x2019; DosR transcription factor (<xref rid="B4" ref-type="bibr">4</xref>) and the predominantly intragenic distribution of NAP Lsr2 (<xref rid="B8" ref-type="bibr">8</xref>). Using fold-enrichment of bound sequences as a surrogate measure, there was no evidence of any difference in the affinity of CRP<sup>Mt</sup> binding to intergenic as compared to intragenic sites. The antibody-based pull-down strategy we used to identify the binding profile of the native protein did not result in detection of a background pattern of low affinity sites as described for <italic>E. coli</italic> CRP (<xref rid="B12" ref-type="bibr">12</xref>), though results from high-throughput screening of tagged recombinant proteins reveal this to be a common feature of ChIP analysis of <italic>M. tuberculosis</italic> transcription factors (<xref rid="B9" ref-type="bibr">9</xref>). Whilst most transcription factors are present at low or undetectable abundance in proteome profiles measured by shotgun mass spectrometry, CRP<sup>Mt</sup> resembles EspR and MtrA in having a copy number approaching that of NAPs HupB, MihF and Lsr2 (<xref rid="B46" ref-type="bibr">46</xref>). The number of CRP<sup>Mt</sup> molecules present in the cell is in several fold excess of that required to saturate binding to the CBSs detected by ChIP-seq.</p>
+      <p>Taking advantage of a comprehensive map of <italic>M. tuberculosis</italic> transcriptional start sites, we were able to calculate the distance between each CRP<sup>Mt</sup>-binding site and the closest TSS. This revealed a pattern of clustering in upstream and downstream regions, suggesting a parallel with canonical <italic>E. coli</italic> CRP regulation, in which CRP binding upstream of the TSS can activate expression, and CRP binding close to the TSS is inhibitory. Data generated by combined ChIP-seq/TSS mapping reproduced previous studies of validated CRP<sup>Mt</sup> regulatory targets, confirming an upstream binding site consistent with activation of <italic>serC</italic> and Rv0885 (<xref rid="B13" ref-type="bibr">13</xref>), and a binding site occluding the TSS of CRP<sup>Mt</sup>-repressed <italic>frdA</italic> (<xref rid="B17" ref-type="bibr">17</xref>). Alignment of ChIP-seq and TSS data sets also reproduced the more complex situation of tandem activating and inhibitory binding sites in the <italic>whiB1</italic> promoter (<xref rid="B21" ref-type="bibr">21</xref>). Additional potential internal regulatory features include identification of a CBS shared by <italic>mmpS4</italic>, implicated in siderophore export (<xref rid="B47" ref-type="bibr">47</xref>), and its potential regulator Rv0452, and CBSs upstream of both the PE13/PPE18 operon and its Rv0485 regulator (<xref rid="B48" ref-type="bibr">48</xref>).</p>
+      <p>Deletion of the <italic>crp</italic> gene had a pronounced impact on the growth of <italic>M. tuberculosis</italic> and on transcription profiles measured in exponential and starved cultures. The effect of <italic>crp</italic> deletion on expression of the set of CBS genes was similar to its effect on the overall transcriptome, with &#x223C;20% of the genes showing increased or decreased abundance. Consistent with previous publications (<xref rid="B13" ref-type="bibr">13&#x2013;14</xref>,<xref rid="B17" ref-type="bibr">17</xref>,<xref rid="B21" ref-type="bibr">21</xref>) our results showed that <italic>M. tuberculosis</italic> CRP<sup>Mt</sup> can act as a &#x2018;classical&#x2019; transcription factor in reducing or enhancing expression (dependent on spacing of CBS and TSS), but that this paradigm operates at only a subset of CRP<sup>Mt</sup>-binding sites. Two models can be proposed to reconcile the limited direct effect of <italic>crp</italic> deletion on expression of CBS genes with the extensive impact of <italic>crp</italic> deletion on the total transcriptome and growth phenotype. It can be envisaged that the primary transcription changes are amplified through their effect on secondary networks and co-regulation with additional transcription factors. This model is illustrated by recent mapping of the multiple regulatory layers that contribute to the overall function of the FNR transcription factor in <italic>E. coli</italic> (<xref rid="B49" ref-type="bibr">49</xref>). In an alternative model, it can be envisaged that rather than acting as primary determinants, transcription factors such as CRP<sup>Mt</sup> play a complementary role within a regulatory environment dominated by global physiological control mechanisms (<xref rid="B50" ref-type="bibr">50</xref>). Deletion of CRP<sup>Mt</sup> may have an influence on global physiology in addition to its localized effect on individual genes. CBS genes that did not show expression changes in the <italic>crp-</italic>deletion strain could be due to a specific role of CRP<sup>Mt</sup> in regulating transcription states that will be dependent on environmental conditions or a combined regulation in conjunction with other transcription factors. This is in agreement with the findings of Hollands <italic>et&#xA0;al.</italic>, who observed no CRP-dependent regulation in <italic>E. coli</italic> at several promoters containing high-affinity DNA-binding sites for CRP (<xref rid="B51" ref-type="bibr">51</xref>). They also suggest that there may be some specific conditions where CRP-dependent regulation becomes important. Alternatively, they suggest that this may be due to CRP playing a role as an NAP, thus influencing the dynamic spatial arrangement of the chromosome (<xref rid="B51" ref-type="bibr">51</xref>).</p>
+      <p>There is a need for further analysis of the effects of cAMP on CRP<sup>Mt</sup> binding and of the available intracellular concentration of cAMP in different growth states. In addition to its possible role in CRP<sup>Mt</sup> regulation (<xref rid="B52" ref-type="bibr">52</xref>), cAMP binds to other transcription factors (<xref rid="B53" ref-type="bibr">53</xref>) and has important allosteric effects on enzyme function (<xref rid="B54" ref-type="bibr">54</xref>). However, the role of cAMP in CRP<sup>Mt</sup> regulation remains unclear. Whilst some structural studies demonstrate a conformational change associated with binding of cAMP (<xref rid="B55" ref-type="bibr">55</xref>), biochemical analysis shows that this has little or no effect on binding to DNA (<xref rid="B21" ref-type="bibr">21</xref>). Therefore, based on the current understanding of protein allostery (<xref rid="B56" ref-type="bibr">56</xref>), it is likely that CRP<sup>Mt</sup> is a &#x2018;dynamic&#x2019; protein (more dynamic than <italic>E. coli</italic> CRP) that can readily switch to a conformation that promotes DNA interaction, even when cAMP is not bound. cAMP binding to CRP may increase the fraction of protein in the DNA-binding state, via conformational selection, which is reflected in &#x2018;enhanced&#x2019; DNA binding. By lowering cAMP levels during starvation, the fraction of CRP in the DNA-binding conformation is lowered, thereby reducing occupancy at CRP-binding sites. This significant DNA binding by CRP<sup>Mt</sup> in the absence of cAMP suggests an evolutionary adaptation given the high levels of cAMP seen in mycobacteria. Therefore CRP<sup>Mt</sup> could have evolved to act as a DNA-coating protein or a recruiting protein for other transcription factors or RNA polymerase. CRP<sup>Mt</sup> levels are quite high in the cell, so any decrease in cAMP levels could also be offset by the high levels of CRP<sup>Mt</sup> present at any given time. However, cAMP binding to CRP resulting in the sustained occupancy of a CRP site may influence the interaction of CRP<sup>Mt</sup> with other transcriptional regulators and chromosome organizing proteins.</p>
+    </sec>
+    <sec id="SEC5">
+      <title>ACCESSION NUMBER</title>
+      <p>ChIPseq and RNAseq data have been submitted to the EBI ArrayExpress under accession number E-MTAB-2390.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="SEC6"><title>SUPPLEMENTARY DATA</title><p><ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/lookup/suppl/doi:10.1093/nar/gku548/-/DC1">Supplementary Data</ext-link> are available at NAR Online.</p>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>SUPPLEMENTARY DATA</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_42_13_8320__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gku548_nar-00899-x-2014-File006.pdf"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="supp_gku548_nar-00899-x-2014-File007.xlsx"/>
+</supplementary-material>
+</sec>
+  </body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENT</title>
+      <p>We thank Abdul Sesay and the High Throughput Sequencing team at the MRC National Institute for Medical Research for library sequencing.</p>
+    </ack>
+    <sec id="SEC7">
+      <title>FUNDING</title>
+      <p>European 7th Framework Program SysteMTb, European Community [HEALTH-F4-2010-241587]; UK Medical Research Council [U117581288 and U117585867]; Indian Institute of Science, Bangalore [Senior Research Fellowship to N.M.]; Department of Biotechnology, Government of India [DBT/PR7240 to S.S.V]. Funding for open access charge: UK Medical Research Council [U117581288].</p>
+      <p><italic>Conflict of interest statement.</italic> None declared.</p>
+    </sec>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barry</surname>
+              <given-names>C.E.</given-names>
+              <suffix>III</suffix>
+            </name>
+            <name>
+              <surname>Boshoff</surname>
+              <given-names>H.I.</given-names>
+            </name>
+            <name>
+              <surname>Dartois</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dick</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ehrt</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Flynn</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schnappinger</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The spectrum of latent tuberculosis: rethinking the biology and intervention strategies</article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <year>2009</year>
+          <volume>7</volume>
+          <fpage>845</fpage>
+          <lpage>855</lpage>
+          <pub-id pub-id-type="pmid">19855401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cole</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Brosch</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Parkhill</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Garnier</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Churcher</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>S.V.</given-names>
+            </name>
+            <name>
+              <surname>Eiglmeier</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gas</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Barry</surname>
+              <given-names>C.E.</given-names>
+              <suffix>III</suffix>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Deciphering the biology of <italic>Mycobacterium tuberculosis</italic> from the complete genome sequence</article-title>
+          <source>Nature</source>
+          <year>1998</year>
+          <volume>393</volume>
+          <fpage>537</fpage>
+          <lpage>544</lpage>
+          <pub-id pub-id-type="pmid">9634230</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galagan</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Minch</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lyubetskaya</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Azizi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sweet</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gomes</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rustad</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dolganov</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Glotova</surname>
+              <given-names>I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The <italic>Mycobacterium tuberculosis</italic> regulatory network and hypoxia</article-title>
+          <source>Nature</source>
+          <year>2013</year>
+          <volume>499</volume>
+          <fpage>178</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="pmid">23823726</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lun</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Sherrid</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weiner</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sherman</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Galagan</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A blind deconvolution approach to high-resolution mapping of transcription factor binding sites from ChIP-seq data</article-title>
+          <source>Genome Biol.</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>R142</fpage>
+          <pub-id pub-id-type="pmid">20028542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smollett</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Kahramanoglou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Arnvig</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>E.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global analysis of the regulon of the transcriptional repressor LexA, a key component of SOS response in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2012</year>
+          <volume>287</volume>
+          <fpage>22004</fpage>
+          <lpage>22014</lpage>
+          <pub-id pub-id-type="pmid">22528497</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sala</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Haouz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saul</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Miras</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Rosenkrands</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Alzari</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide regulon and crystal structure of BlaI (Rv1846c) from <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2009</year>
+          <volume>71</volume>
+          <fpage>1102</fpage>
+          <lpage>1116</lpage>
+          <pub-id pub-id-type="pmid">19154333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blasco</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Hartkoorn</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sala</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Uplekar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rougemont</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pojer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Virulence regulator EspR of <italic>Mycobacterium tuberculosis</italic> is a nucleoid-associated protein</article-title>
+          <source>PLoS Pathog.</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <fpage>e1002621</fpage>
+          <pub-id pub-id-type="pmid">22479184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gordon</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sintsova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>van Bakel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Navarre</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lsr2 is a nucleoid-associated protein that targets AT-rich sequences and virulence genes in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+          <year>2010</year>
+          <volume>107</volume>
+          <fpage>5154</fpage>
+          <lpage>5159</lpage>
+          <pub-id pub-id-type="pmid">20133735</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galagan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lyubetskaya</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gomes</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>ChIP-Seq and the complexity of bacterial transcriptional regulation</article-title>
+          <source>Curr. Top. Microbiol. Immunol.</source>
+          <year>2013</year>
+          <volume>363</volume>
+          <fpage>43</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="pmid">22983621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Busby</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kolb</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lin</surname>
+              <given-names>ECC</given-names>
+            </name>
+            <name>
+              <surname>Lynch</surname>
+              <given-names>AS</given-names>
+            </name>
+          </person-group>
+          <article-title>The CAP modulon</article-title>
+          <source>Regulation and Gene Expression in Escherichia coli</source>
+          <year>1996</year>
+          <publisher-loc>TX</publisher-loc>
+          <publisher-name>R.G. Landes &amp; Co.</publisher-name>
+          <fpage>255</fpage>
+          <lpage>279</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Busby</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ebright</surname>
+              <given-names>R.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcription activation by catabolite activator protein (CAP)</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>1999</year>
+          <volume>293</volume>
+          <fpage>199</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="pmid">10550204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grainger</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Hurd</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Harrison</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Holdstock</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies of the distribution of <italic>Escherichia coli</italic> cAMP-receptor protein and RNA polymerase along the <italic>E. coli</italic> chromosome</article-title>
+          <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>17693</fpage>
+          <lpage>17698</lpage>
+          <pub-id pub-id-type="pmid">16301522</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bai</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Schaak</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>McDonough</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dysregulation of serine biosynthesis contributes to the growth defect of a <italic>Mycobacterium tuberculosis</italic> crp mutant</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2011</year>
+          <volume>82</volume>
+          <fpage>180</fpage>
+          <lpage>198</lpage>
+          <pub-id pub-id-type="pmid">21902733</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rickman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hunt</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Hutchinson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Menendez</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Whalan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hinds</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Colston</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A member of the cAMP receptor protein family of transcription regulators in <italic>Mycobacterium tuberculosis</italic> is required for virulence in mice and controls transcription of the rpfA gene coding for a resuscitation promoting factor</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2005</year>
+          <volume>56</volume>
+          <fpage>1274</fpage>
+          <lpage>1286</lpage>
+          <pub-id pub-id-type="pmid">15882420</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Agarwal</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Raghunand</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Bishai</surname>
+              <given-names>W.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of the expression of whiB1 in <italic>Mycobacterium tuberculosis</italic>: role of cAMP receptor protein</article-title>
+          <source>Microbiology</source>
+          <year>2006</year>
+          <volume>152</volume>
+          <fpage>2749</fpage>
+          <lpage>2756</lpage>
+          <pub-id pub-id-type="pmid">16946269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stapleton</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Hunt</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Mycobacterium tuberculosis</italic> WhiB1 represses transcription of the essential chaperonin GroEL2</article-title>
+          <source>Tuberculosis</source>
+          <year>2012</year>
+          <volume>92</volume>
+          <fpage>328</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="pmid">22464736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akhter</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tundup</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hasnain</surname>
+              <given-names>S.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel biochemical properties of a CRP/FNR family transcription factor from <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Int. J. Med. Microbiol.</source>
+          <year>2007</year>
+          <volume>297</volume>
+          <fpage>451</fpage>
+          <lpage>457</lpage>
+          <pub-id pub-id-type="pmid">17702648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bai</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>McCue</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>McDonough</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of <italic>Mycobacterium tuberculosis</italic> Rv3676 (CRPMt), a cyclic AMP receptor protein-like DNA binding protein</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>7795</fpage>
+          <lpage>7804</lpage>
+          <pub-id pub-id-type="pmid">16267303</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akhter</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yellaboina</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Farhana</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ranjan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hasnain</surname>
+              <given-names>S.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome scale portrait of cAMP-receptor protein (CRP) regulons in mycobacteria points to their role in pathogenesis</article-title>
+          <source>Gene</source>
+          <year>2008</year>
+          <volume>407</volume>
+          <fpage>148</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="pmid">18022770</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krawczyk</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kohl</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Goesmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Baumbach</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>From <italic>Corynebacterium glutamicum</italic> to <italic>Mycobacterium tuberculosis</italic>&#x2013;towards transfers of gene regulatory networks and integrated data analyses with MycoRegNet</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2009</year>
+          <volume>37</volume>
+          <fpage>e97</fpage>
+          <pub-id pub-id-type="pmid">19494184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stapleton</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haq</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hunt</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Arnvig</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Artymiuk</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Mycobacterium tuberculosis</italic> cAMP receptor protein (Rv3676) differs from the <italic>Escherichia coli</italic> paradigm in its cAMP binding and DNA binding properties and transcription activation properties</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>7016</fpage>
+          <lpage>7027</lpage>
+          <pub-id pub-id-type="pmid">20028978</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Green</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stapleton</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Artymiuk</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Kahramanoglou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hunt</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic-AMP and bacterial cyclic-AMP receptor proteins revisited: adaptation for different ecological niches</article-title>
+          <source>Curr. Opin. Microbiol.</source>
+          <year>2014</year>
+          <volume>18C</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">24509484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shenoy</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Visweswariah</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>New messages from old messengers: cAMP and mycobacteria</article-title>
+          <source>Trends Microbiol.</source>
+          <year>2006</year>
+          <volume>14</volume>
+          <fpage>543</fpage>
+          <lpage>550</lpage>
+          <pub-id pub-id-type="pmid">17055275</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dass</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Shenoy</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Mattoo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Visweswariah</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic AMP in mycobacteria: characterization and functional role of the Rv1647 ortholog in <italic>Mycobacterium smegmatis</italic></article-title>
+          <source>J. Bacteriol.</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <fpage>3824</fpage>
+          <lpage>3834</lpage>
+          <pub-id pub-id-type="pmid">18390660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCue</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>McDonough</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>C.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional classification of cNMP-binding proteins and nucleotide cyclases with implications for novel regulatory pathways in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Genome Res.</source>
+          <year>2000</year>
+          <volume>10</volume>
+          <fpage>204</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="pmid">10673278</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shenoy</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Sivakumar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Krupa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Srinivasan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Visweswariah</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A survey of nucleotide cyclases in actinobacteria: unique domain organization and expansion of the class III cyclase family in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Comp. Funct. Genomics</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>17</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="pmid">18629044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Agarwal</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lamichhane</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Nolan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bishai</surname>
+              <given-names>W.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic AMP intoxication of macrophages by a <italic>Mycobacterium tuberculosis</italic> adenylate cyclase</article-title>
+          <source>Nature</source>
+          <year>2009</year>
+          <volume>460</volume>
+          <fpage>98</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="pmid">19516256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Betts</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Lukey</surname>
+              <given-names>P.T.</given-names>
+            </name>
+            <name>
+              <surname>Robb</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>McAdam</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Duncan</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of a nutrient starvation model of <italic>Mycobacterium tuberculosis</italic> persistence by gene and protein expression profiling</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>43</volume>
+          <fpage>717</fpage>
+          <lpage>731</lpage>
+          <pub-id pub-id-type="pmid">11929527</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kahramanoglou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Seshasayee</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Prieto</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Ibberson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zimmermann</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Benes</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Fraser</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Luscombe</surname>
+              <given-names>N.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct and indirect effects of H-NS and Fis on global gene expression control in <italic>Escherichia coli</italic></article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2011</year>
+          <volume>39</volume>
+          <fpage>2073</fpage>
+          <lpage>2091</lpage>
+          <pub-id pub-id-type="pmid">21097887</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shenoy</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Sreenath</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Podobnik</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kovacevic</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Visweswariah</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Rv0805 gene from <italic>Mycobacterium tuberculosis</italic> encodes a 3&#x2019;,5&#x2019;-cyclic nucleotide phosphodiesterase: biochemical and mutational analysis</article-title>
+          <source>Biochemistry</source>
+          <year>2005</year>
+          <volume>44</volume>
+          <fpage>15695</fpage>
+          <lpage>15704</lpage>
+          <pub-id pub-id-type="pmid">16313172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>1754</fpage>
+          <lpage>1760</lpage>
+          <pub-id pub-id-type="pmid">19451168</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Handsaker</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wysoker</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fennell</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ruan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Homer</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Marth</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Abecasis</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Sequence Alignment/Map format and SAMtools</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>2078</fpage>
+          <lpage>2079</lpage>
+          <pub-id pub-id-type="pmid">19505943</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ji</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Myers</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>W.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>An integrated software system for analyzing ChIP-chip and ChIP-seq data</article-title>
+          <source>Nat. Biotechnol.</source>
+          <year>2008</year>
+          <volume>26</volume>
+          <fpage>1293</fpage>
+          <lpage>1300</lpage>
+          <pub-id pub-id-type="pmid">18978777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cairns</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Spyrou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Lynch</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Tavare</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>BayesPeak&#x2014;an R package for analysing ChIP-seq data</article-title>
+          <source>Bioinformatics</source>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>713</fpage>
+          <lpage>714</lpage>
+          <pub-id pub-id-type="pmid">21245054</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anders</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential expression analysis for sequence count data</article-title>
+          <source>Genome Biol.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>R106</fpage>
+          <pub-id pub-id-type="pmid">20979621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cortes</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Schubert</surname>
+              <given-names>O.T.</given-names>
+            </name>
+            <name>
+              <surname>Rose</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Arnvig</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Comas</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Aebersold</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>D.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide mapping of transcriptional start sites defines an extensive leaderless transcriptome in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Cell Rep.</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>1121</fpage>
+          <lpage>1131</lpage>
+          <pub-id pub-id-type="pmid">24268774</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamada</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chikamatsu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Aono</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mitarai</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pre-fixation of virulent <italic>Mycobacterium tuberculosis</italic> with glutaraldehyde preserves exquisite ultrastructure on transmission electron microscopy through cryofixation and freeze-substitution with osmium-acetone at ultralow temperature</article-title>
+          <source>J. Microbiol. Methods</source>
+          <year>2014</year>
+          <volume>96</volume>
+          <fpage>50</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="pmid">24200708</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bailey</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Elkan</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fitting a mixture model by expectation maximization to discover motifs in biopolymers</article-title>
+          <source>Proc. Int. Conf. Intell. Syst. Mol. Biol.</source>
+          <year>1994</year>
+          <volume>2</volume>
+          <fpage>28</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="pmid">7584402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fujita</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ishihama</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel roles of cAMP receptor protein (CRP) in regulation of transport and metabolism of carbon sources</article-title>
+          <source>PloS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <fpage>e20081</fpage>
+          <pub-id pub-id-type="pmid">21673794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lamichhane</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Arnvig</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>McDonough</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Definition and annotation of (myco)bacterial non-coding RNA</article-title>
+          <source>Tuberculosis (Edinb)</source>
+          <year>2013</year>
+          <volume>93</volume>
+          <fpage>26</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="pmid">23291152</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Neuenschwander</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Haydel</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Howard</surname>
+              <given-names>S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The beta-propeller gene Rv1057 of <italic>Mycobacterium tuberculosis</italic> has a complex promoter directly regulated by both the MprAB and TrcRS two-component systems</article-title>
+          <source>Tuberculosis</source>
+          <year>2011</year>
+          <volume>91(Suppl. 1)</volume>
+          <fpage>S142</fpage>
+          <lpage>S149</lpage>
+          <pub-id pub-id-type="pmid">22099420</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blasco</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Stenta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alonso-Sarduy</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Dietler</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Peraro</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Pojer</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atypical DNA recognition mechanism used by the EspR virulence regulator of <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2011</year>
+          <volume>82</volume>
+          <fpage>251</fpage>
+          <lpage>264</lpage>
+          <pub-id pub-id-type="pmid">21883526</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hunt</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Sweeney</surname>
+              <given-names>N.P.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Whalan</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Comas</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Norman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cortes</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Arnvig</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>E.O.</given-names>
+            </name>
+            <name>
+              <surname>Stapleton</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Long-range transcriptional control of an operon necessary for virulence-critical ESX-1 secretion in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>J. Bacteriol.</source>
+          <year>2012</year>
+          <volume>194</volume>
+          <fpage>2307</fpage>
+          <lpage>2320</lpage>
+          <pub-id pub-id-type="pmid">22389481</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Samten</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Tvinnereim</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Howard</surname>
+              <given-names>S.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>MprAB regulates the espA operon in <italic>Mycobacterium tuberculosis</italic> and modulates ESX-1 function and host cytokine response</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2013</year>
+          <volume>195</volume>
+          <fpage>66</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="pmid">23104803</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rosenberg</surname>
+              <given-names>O.S.</given-names>
+            </name>
+            <name>
+              <surname>Dovey</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tempesta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Robbins</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Finer-Moore</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Stroud</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>EspR, a key regulator of <italic>Mycobacterium tuberculosis</italic> virulence, adopts a unique dimeric structure among helix-turn-helix proteins</article-title>
+          <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>13450</fpage>
+          <lpage>13455</lpage>
+          <pub-id pub-id-type="pmid">21795602</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schubert</surname>
+              <given-names>O.T.</given-names>
+            </name>
+            <name>
+              <surname>Mouritsen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ludwig</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rost</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Rosenberger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Arthur</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Claassen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Farrah</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Mtb proteome library: a resource of assays to quantify the complete proteome of <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Cell Host Microbe</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <fpage>602</fpage>
+          <lpage>612</lpage>
+          <pub-id pub-id-type="pmid">23684311</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wells</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Xi</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Speer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Danilchanka</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Doornbos</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Niederweis</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Discovery of a siderophore export system essential for virulence of <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>PLoS Pathog.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <fpage>e1003120</fpage>
+          <pub-id pub-id-type="pmid">23431276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goldstone</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Goonesekera</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Bloom</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Sampson</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The transcriptional regulator Rv0485 modulates the expression of a pe and ppe gene pair and is required for <italic>Mycobacterium tuberculosis</italic> virulence</article-title>
+          <source>Infect. Immun.</source>
+          <year>2009</year>
+          <volume>77</volume>
+          <fpage>4654</fpage>
+          <lpage>4667</lpage>
+          <pub-id pub-id-type="pmid">19651861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myers</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ong</surname>
+              <given-names>I.M.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Keles</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Landick</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kiley</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-scale analysis of <italic>Escherichia coli</italic> FNR reveals complex features of transcription factor binding</article-title>
+          <source>PLoS Genet.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <fpage>e1003565</fpage>
+          <pub-id pub-id-type="pmid">23818864</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berthoumieux</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>de Jong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Baptist</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pinel</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ranquet</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ropers</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Geiselmann</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shared control of gene expression in bacteria by transcription factors and global physiology of the cell</article-title>
+          <source>Mol. Syst. Biol.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hollands</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>G.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>New targets for the cyclic AMP receptor protein in the <italic>Escherichia coli</italic> K-12 genome</article-title>
+          <source>FEMS Microbiol. Lett.</source>
+          <year>2007</year>
+          <volume>274</volume>
+          <fpage>89</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="pmid">17608696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harman</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Allosteric regulation of the cAMP receptor protein</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2001</year>
+          <volume>1547</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="pmid">11343786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gazdik</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>McDonough</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rv1675c (cmr) regulates intramacrophage and cyclic AMP-induced gene expression in <italic>Mycobacterium tuberculosis</italic>-complex mycobacteria</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2009</year>
+          <volume>71</volume>
+          <fpage>434</fpage>
+          <lpage>448</lpage>
+          <pub-id pub-id-type="pmid">19040643</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nambi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Basu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Visweswariah</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>cAMP-regulated protein lysine acetylases in mycobacteria</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>24313</fpage>
+          <lpage>24323</lpage>
+          <pub-id pub-id-type="pmid">20507997</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reddy</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Palaninathan</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Bruning</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Thurman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sacchettini</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural insights into the mechanism of the allosteric transitions of <italic>Mycobacterium tuberculosis</italic> cAMP receptor protein</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>36581</fpage>
+          <lpage>36591</lpage>
+          <pub-id pub-id-type="pmid">19740754</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Motlagh</surname>
+              <given-names>H.N.</given-names>
+            </name>
+            <name>
+              <surname>Wrabl</surname>
+              <given-names>J.O.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hilser</surname>
+              <given-names>V.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ensemble nature of allostery</article-title>
+          <source>Nature</source>
+          <year>2014</year>
+          <volume>508</volume>
+          <fpage>331</fpage>
+          <lpage>339</lpage>
+          <pub-id pub-id-type="pmid">24740064</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

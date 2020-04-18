@@ -1,0 +1,88 @@
+Results
+
+Non-polar mutation of ompR
+
+Given that the coding regions of ompR and envZ overlap in the ompB operon, a partial segment of the coding region of ompR was replaced by the kanamycin resistance cassette to generate the ompR mutant (DeltaompR).
+Real-time RT-PCR was performed to assess the ompR mRNA levels in WT, DeltaompR, and C-ompR (the complemented mutant).
+The ompR transcript was lacking in DeltaompR, while it was restored in C-ompR relative to WT (data not shown), indicating successful mutation and complementation.
+To prove the non-polar mutation of ompR, we constructed the pRW50-harboring fusion promoter consisting of a promoter-proximal region of ompF and promoterless lacZ, and then transformed into WT, DeltaompR and C-ompR, respectively (Additional file 2).
+The ompF gene was positively regulated by OmpR as determined by several distinct methods (see below).
+As expected, the ompF promoter activity (beta-galactosidase activity) decreased significantly in DeltaompR relative to WT grown at high medium osmolarity (0.5 M sorbitol); however, it showed almost no difference between WT and C-ompR, thereby confirming that the ompR mutation was nonpolar.
+
+
+
+Phenotypes of DeltaompR
+
+The DeltaompR mutant was characterized for its ability to survive under a range of in vitro stress conditions associated with macrophage-killing mechanisms (Figure 1a).
+In comparison to its WT parent strain, DeltaompR was significantly more sensitive to high salt, high osmolarity, and high temperature.
+Both WT and mutant strains were extremely sensitive to acid shock without any significant difference between them; in addition, DeltaompR seemed more resistant to hydrogen peroxide.
+Therefore, OmpR should play roles in the regulation of the adaptation to well-documented hyperosmotic stress and additional environmental perturbations, such as heat and oxidative stresses.
+
+Macrophage infection assay was performed to investigate the role of OmpR in the initiation of bacterial strategies against macrophages.
+A significant increase in the percentage of phagocytosis for DeltaompR relative to WT (Figure 1b) suggested that the mutant was more susceptible to phagocytosis.
+For the percentage of cell-associated bacteria, no difference was observed between the WT and mutant strains, thereby suggesting that OmpR does not have a role in the bacterial adhesion to phagocytes (Figure 1b).
+
+
+
+OmpR-dependent genes
+
+By standard cDNA microarray experiments, the mRNA level of each gene was compared between DeltaompR and WT grown at 0.5 M sorbitol.
+In all, 224 genes were affected by the ompR mutation.
+These genes represented more than 4% of total protein-encoding capacity of Y. pestis and were distributed in 24 functional categories according to the genome annotation of Y. pestis CO92 [29], indicating the global regulatory effect of OmpR.
+The microarray data (GSE26601) had been deposited in Gene Expression Omnibus (GEO).
+
+Known OmpR-binding sites from S. enterica and E. coli were collected and aligned to generate an OmpR consensus that was a position-specific scoring matrix (PSSM) (Additional file 3), in which each row and column represents a position and a nucleotide, respectively.
+Given that the OmpR protein sequences were highly conserved among S. enterica, E. coli and Y. pestis (data not shown), this PSSM represents conserved signals for OmpR recognition of promoter DNA regions for all these bacteria.
+Thus, the PSSM generated from the pre-existing data in E. coli and S. enterica can be used to predict computationally the presence of OmpR consensus-like elements within a target promoter-proximal sequence of Y. pestis.
+
+Accordingly, the 300 bp upstream promoter DNA regions of the 234 mpR-dependent genes that were disclosed by microarray were scanned using PSSM.
+This computational promoter analysis generated a weight score for each gene, and a higher score denoted the higher probability of OmpR binding.
+With a cutoff value of 7, only 14 genes gave predicted OmpR consensus-like elements (Additional file 4); these were then subjective to real-time RT-PCR analysis to compare their mRNA levels between DeltaompR and WT.
+In accordance with microarray results, RT-PCR disclosed that all 14 genes were expressed differentially in DeltaompR relative to WT.
+
+In addition to these 14 genes, we still included 2 additional ones, namely, ompR and X, for further analysis.
+The OmpR-dependent expression of ompR could not be determined by microarray and RT-PCR since the coding region of ompR was deleted from the DeltaompR mutant strain.
+The ompX gene was discarded by SAM in the microarray assay (which could be attributed to the fact that the repeatability of the 8 replicated data points of this gene were unacceptable by SAM), although it gave a more than 2-fold mean change of expression between WT and DeltaompR.
+Further biochemical assays (see below) confirmed that OmpR did regulate these genes.
+
+Altogether, we validated 16 genes whose transcriptions were OmpR-dependent (Additional file 4), including ompR, C, F, and X that were further characterized below (Table 1).
+All of these represented the candidates of direct OmpR targets (ompR, C, F, and X were confirmed below) since OmpR consensus-like sequences were predicted within their respective promoter-proximal regions.
+
+
+
+Direct regulation of ompC, F and X by OmpR
+
+The mRNA levels of each of ompC, F, and X were compared between DeltaompR and WT at 0.5 M sorbitol using real-time RT-PCR (Figure 2a).
+The results showed that the mRNA level of ompC, F, and X decreased significantly in DeltaompR relative to WT.
+Further lacZ fusion reporter assays demonstrated that the promoter activity of ompC, F, and X decreased significantly in DeltaompR relative to WT, thereby confirming the RT-PCR results.
+Primer extension experiments were further conducted for ompC, F, and X with DeltaompR and WT at 0.5 M sorbitol (Figure 2c).
+A single primer extension product was detected for each of ompF and X, after which the 5' terminus of RNA transcript (transcription start site) for each gene was identified accordingly.
+The yield of primer extension product indicated the mRNA expression level for each gene in the corresponding strain.
+These results further verified the above RT-PCR data for ompF and X.
+However, we failed to detect the primer extension product for ompC in both DeltaompR and WT after repeated efforts using different primers.
+This could be attributed to the failure to synthesize the primer extension product for ompC by polymerase.
+
+Given that OmpR consensus-like sequences were found within the promoter regions of ompC, F and X (Table 1), DNase I footprinting experiments (Figure 2d) were subsequently performed with both coding and non-coding strands of the corresponding promoter-proximal DNA fragments.
+The purified His-OmpR-P protein protected a single distinct region (OmpR-binding site) within each target promoter region in a dose-dependent pattern.
+Taken together, the OmpR regulator stimulated the expression of ompC, F, and X through the process of OmpR-promoter DNA association.
+
+
+
+Autoregulation of OmpR
+
+According to the lacZ fusion reporter assay (Figure 3a); there was a more than 10-fold decrease of the ompR promoter activity in DeltaompR relative to WT at 0.5 M sorbitol, thereby indicating that OmpR stimulated the promoter activity of its own gene.
+The subsequent DNase I footprinting experiments (Figure 3a) showed that His-OmpR-P protected a single region within the ompR promoter.
+Therefore, OmpR stimulated its own gene at the transcriptional level, which was mediated through the binding of OmpR-P to its own promoter.
+
+
+
+Expression of ompC, F, x and R under different osmotic conditions
+
+The promoter activities of ompC, F, X, and R were each determined in WT or DeltaompR grown in the LB broth using lacZ fusion reporter assay (Figure 4).
+The LB broth was used here instead of the TMH medium since it was convenient to modify the medium osmolarity in the LB medium by adding different concentrations of NaCl.
+The results demonstrated that the promoter activities of ompC, F, X, and R were enhanced dramatically with the increasing of NaCl concentration (i.e., medium osmolarity) in WT.
+However, this effect almost disappeared in the DeltaompR mutant, suggesting that OmpR mediated the noticeably inducible transcription of these genes upon exposure to hyperosmotic stress.
+
+
+
+
