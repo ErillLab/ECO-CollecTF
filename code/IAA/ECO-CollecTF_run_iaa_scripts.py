@@ -8,8 +8,9 @@
 # Note: output directories will be created in the same directory as the brat data directory.
 # The outputs will be in the IAA directory, IAA_sent_iaa_k_avg.txt and IAA_multi_label_iaa_kwic_avg.txt
 #
-# python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_1_2 ECO_annotation_1_2 3 team_1_pairs.txt eco-file T1 S1 A1 M1
-# python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_3 ECO_annotation3 3 team_2_pairs.txt eco-file T1 A2 D1
+# python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_1_2 ECO_annotation_1_2 3 team_1_pairs.txt ..\eco_v2018-09-14.obo T1 S1 A1 M1
+# python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_3 ECO_annotation3 3 team_2_pairs.txt ..\eco_v2018-09-14.obo T1 A2 D1
+# python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_4_5 ECO_annotation_4_5 4 team_3_pairs.txt ..\eco_v2018-09-14.obo A1 A2 D1 M2
 
 import os
 import sys
@@ -49,7 +50,7 @@ annot_str = " ".join(annotators)
 
 # Do steps 1 and 2 for computing K IAA. Also do steps 3 and 4 for the KwIC IAA.
 steps_to_do = ["1", "2", "3", "4"]
-
+#steps_to_do = ['5']
 # Convert to the easier-to-deal-with format
 in_step1 = os.path.join(in_top_dir, "data")
 in_step1 = os.path.join(in_step1, under_dir)
@@ -98,3 +99,12 @@ if "4" in steps_to_do:
     avg_file = os.path.join(iaa_dir, "IAA_multi_label_iaa_"+w+"_avg.txt")
     sys_cmd = "python get_avg_iaas.py "+log_step4+' "Final Kw" > '+avg_file
     execute_step(sys_cmd, "Step 4 "+w)
+
+# Extra processing convenience for ECOUsage
+if '5' in steps_to_do:
+  in_step2 = out_step1
+  out_step2 = os.path.join(in_top_dir, "raw_stats")
+  out_step2 = os.path.join(out_step2, under_dir)
+  log_step2 = os.path.join(log_dir, "raw_annot_stats_log.txt")
+  sys_cmd = "python raw_annot_stats_dir_tree.py "+in_step2+" "+out_step2+" "+annot_str+" > "+log_step2
+  execute_step(sys_cmd, "Step 2")

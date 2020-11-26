@@ -12,8 +12,10 @@ class OboICCalc:
   eco_root_id = "ECO:0000000"
   annot_root_id = "ECO:9999998"
   rest_ow_id = "ECO:9999999"
+  #rz_root_id = "RZ:EA" # for E0 eq No annot/ROW
   rz_root_id = "RZ:EAssertionRoot"
   rz_annot_root_id = "RZ:9999998"
+  #rz_rest_ow_id = "RZ:E0" # for E0 eq No annot/ROW
   rz_rest_ow_id = "RZ:9999999"
   
   # Fields we care about
@@ -43,18 +45,10 @@ class OboICCalc:
     self.ont_type = otype
     print "setting ontology to", otype
     if otype=="RZ":
+
       self.the_ont_root_id = OboICCalc.rz_root_id # RZ:0000005
       self.the_ont_annot_root_id = OboICCalc.rz_annot_root_id # RZ:9999998
       self.the_ont_rest_ow_id = OboICCalc.rz_rest_ow_id # RZ:0000000
-    elif otype=="GO":
-      self.the_ont_root_id = "GO:0000001"
-      self.the_ont_annot_root_id = "GO:9999998"
-      self.the_ont_rest_ow_id = "GO:9999999"
-    elif otype=="SO":
-      self.the_ont_root_id = "SO:0000001"
-      self.the_ont_annot_root_id = "SO:9999998"
-      self.the_ont_rest_ow_id = "SO:9999999"
-    self.annot_root_id = self.the_ont_annot_root_id
     print self.the_ont_root_id
     
   def get_id_list(self):
@@ -246,7 +240,6 @@ class OboICCalc:
     # Read in the obo file and construct the rest of the tree
     num_skipped = 0
     save_term = False
-    print "FNAME:", fname
     with open(fname, "r") as infile:
       in_term = False
       in_typedef = False
@@ -393,7 +386,7 @@ class OboICCalc:
 
     print "Num entries skipped:", num_skipped
     print "Total num terms kept in hierarchy:", len(self.in_order)
-
+    
     # Add annot root node as parent of ECO's root (or other ontology root)
     the_ont = self.ont_terms[self.the_ont_root_id]
     the_ont.parents.append(self.the_ont_annot_root_id)
@@ -429,14 +422,10 @@ class OboICCalc:
         #sys.exit(0)
         
     print "Total num terms kept in hierarchy:", len(self.in_order)
-    print "self.the_ont_annot_root_id:", self.the_ont_annot_root_id
     
   def updateNoNodeIC(self, use_id_ic):
     the_ont_ic = self.ont_terms[use_id_ic].IC
     self.ont_terms[self.get_no_match_label()].IC = the_ont_ic
-    
-  def updateNoNodeICVal(self, use_ic_val):
-    self.ont_terms[self.get_no_match_label()].IC = use_ic_val
     
   def getICForNode(self, the_id):
     if the_id in self.ont_terms:
@@ -549,20 +538,22 @@ class OboICCalc:
 
     keep = []
     seen = [term]
-    #print "TERM", term, want_num_hops
+    print "TERM", term, want_num_hops
     check_list = copy.copy(self.ont_terms[term].parents)
     check_list.extend(self.ont_terms[term].children)
     if want_num_hops == 1:
-      #print "RETURNING:",check_list
+      print "RETURNING:",check_list
       return check_list
     
     #print "Term has these parents and children:"
     #print check_list
     #print "\n"
     i = 2
+    prev_list = copy.copy(check_list)
     while True:
       new_list = []
-      #print "HOP:", i
+      #print "HOP:", i, 'Prev hop=',i-1,"Prev len:", len(prev_list), prev_list
+      
       for t in check_list:
         #print "Checking t", t
         if t not in seen and not self.extra_node(t):
@@ -583,16 +574,19 @@ class OboICCalc:
               new_list.append(c)
 
           
-      if i==want_num_hops:
-        #print "Done num hops"
+      if i==want_num_hops and len(new_list)>0:
+        print "Done num hops", i
         keep = new_list
         break
       if len(new_list) < 1:
-        #print "Done, no new nodes"
-        keep = new_list
+        print "Done, no new nodes:", i
+        #keep = new_list
+        keep = prev_list
         break
       i+=1
       check_list = copy.copy(new_list)
+      if len(new_list) > 1:
+        prev_list = copy.copy(new_list)
     return keep
 
   
@@ -612,12 +606,6 @@ class OboICCalc:
     id="ECO:0000010"
     print id, self.ont_terms[id].num_desc, self.ont_terms[id].IC
     id = "ECO:0005605"
-    print id, self.ont_terms[id].num_desc, self.ont_terms[id].IC
-    id = "ECO:0005554"
-    print id, self.ont_terms[id].num_desc, self.ont_terms[id].IC
-    id = "ECO:0005555"
-    print id, self.ont_terms[id].num_desc, self.ont_terms[id].IC
-    id = "ECO:0000096"
     print id, self.ont_terms[id].num_desc, self.ont_terms[id].IC
     id = OboICCalc.rest_ow_id
     print id, self.ont_terms[id].num_desc, self.ont_terms[id].IC
@@ -652,31 +640,6 @@ class OboICCalc:
     best_parent_ic = self.find_best_parent_ic(term1, term2)
     print term1, term2, best_parent_ic
 
-    term1 = "ECO:0000008"
-    term2 = "ECO:0000096"
-    best_parent_ic = self.find_best_parent_ic(term1, term2)
-    print term1, term2, best_parent_ic
-    
-    term1 = "ECO:0000008"
-    term2 = "ECO:0005554"
-    best_parent_ic = self.find_best_parent_ic(term1, term2)
-    print term1, term2, best_parent_ic
-    
-    term1 = "ECO:0000008"
-    term2 = "ECO:0005555"
-    best_parent_ic = self.find_best_parent_ic(term1, term2)
-    print term1, term2, best_parent_ic
-    
-    term1 = "ECO:0000096"
-    term2 = "ECO:0005554"
-    best_parent_ic = self.find_best_parent_ic(term1, term2)
-    print term1, term2, best_parent_ic
-    
-    term1 = "ECO:0000096"
-    term2 = "ECO:0005555"
-    best_parent_ic = self.find_best_parent_ic(term1, term2)
-    print term1, term2, best_parent_ic
-    
     term1 = "ECO:0000008"
     term2 = OboICCalc.rest_ow_id
     best_parent_ic = self.find_best_parent_ic(term1, term2)
