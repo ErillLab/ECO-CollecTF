@@ -1,0 +1,1107 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22880126</article-id>
+      <article-id pub-id-type="pmc">3413638</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-07691</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0042876</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Glycobiology</subject>
+              <subj-group>
+                <subject>Glycolipids</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>DNA-binding proteins</subject>
+                <subject>Regulatory Proteins</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Lipids</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Genomics</subject>
+              <subj-group>
+                <subject>Genome Analysis Tools</subject>
+                <subj-group>
+                  <subject>Genome Scans</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Signal Transduction</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Infectious Diseases</subject>
+            <subj-group>
+              <subject>Bacterial Diseases</subject>
+              <subj-group>
+                <subject>Tuberculosis</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Identification of DNA Binding Motifs of the <italic>Mycobacterium tuberculosis</italic> PhoP/PhoR Two-Component Signal Transduction System</article-title>
+        <alt-title alt-title-type="running-head">The <italic>Mycobacterium tuberculosis</italic> PhoP Regulon</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Cimino</surname>
+            <given-names>Mena</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Thomas</surname>
+            <given-names>Christophe</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Namouchi</surname>
+            <given-names>Amine</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dubrac</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gicquel</surname>
+            <given-names>Brigitte</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn1">
+<sup>&#xB6;</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gopaul</surname>
+            <given-names>Deshmukh N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="fn1">
+<sup>&#xB6;</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Unite de Genetique Mycobacterienne, Institut Pasteur, Paris, France</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Unite de Plasticite du Genome bacterien, Institut Pasteur, CNRS UMR 3525, Paris, France</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Unite de Recherche Biologie des Bacteries pathog&#xE8;nes &#xE0; Gram-positif, Institut Pasteur, Paris, France</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Karakousis</surname>
+            <given-names>Petros C.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Johns Hopkins University School of Medicine, United States of America</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>brigitte.gicquel@pasteur.fr</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: MC BG DNG. Performed the experiments: MC CT SD. Analyzed the data: MC CT AN SD BG DNG. Contributed reagents/materials/analysis tools: MC CT AN SD BG DNG. Wrote the paper: MC CT AN SD BG DNG.</p>
+        </fn>
+        <fn id="fn1" fn-type="other">
+          <p>&#xB6; These authors also contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>7</day>
+        <month>8</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>8</issue>
+      <elocation-id>e42876</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>3</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>7</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Cimino et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>The <italic>Mycobacterium tuberculosis</italic> PhoP/PhoR two-component signal transduction system controls the expression of about 2% of the genome and plays a major role in pathogenicity. However, its regulon has not been well characterized.</p>
+        </sec>
+        <sec>
+          <title>Methodology/Principal Findings</title>
+          <p>The binding site of PhoP transcription regulator was identified in the upstream regions of <italic>msl3, pks2, lipF</italic> and <italic>fadD21</italic> genes, by using gene fusions, electrophoretic mobility shift assays and DNase I footprinting experiments. A consensus sequence for PhoP binding was deduced. It consists of two direct repeats, DR1/DR2, associated with a third repeat, DR3, important in some cases for PhoP binding to DR1/DR2 but located at a variable distance from these direct repeats. DR1/DR2 and DR3 consensus sequences were used to screen the whole-genome sequence for other putative binding sites potentially corresponding to genes directly regulated by PhoP. The identified 87 genes, encoding transcription regulators, and proteins involved in secondary metabolites biosynthesis, transport and catabolism are proposed to belong to the PhoP regulon.</p>
+        </sec>
+        <sec>
+          <title>Conclusions/Significance</title>
+          <p>A consensus sequence derived from the analysis of PhoP binding to four gene promoter regions is proposed. We show for the first time the involvement of a third direct repeat motif in this binding reaction. The consensus sequence was instrumented to study the global regulation mediated by PhoP in <italic>M. tuberculosis</italic>. This analysis leads to the identification of several genes that are potentially regulated by this key player.</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <funding-statement>This study received funding from the 7th Framework Program NEWTBVAC contract, HEALTH-F3-2009-241745, the FP7-REGPOT EUMEDNET vs TB project, the ANR-09-MIEN-024-02 project and the Institut Pasteur Starter grant/CNRS URA 2185. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Mycobacterium tuberculosis</italic> (MTB), the causal agent of tuberculosis in humans, is one of the leading causes of mortality due to a single infectious agent. MTB is a successful intracellular pathogen that can adapt to changing environmental conditions within the host. It can infect different cell types, in which it may replicate or remain dormant for years. Differential expression of MTB genes is observed during the infection of various cells of the immune system, such as dendritic cells, macrophages and alveolar epithelial cells, during disease progression <xref ref-type="bibr" rid="pone.0042876-Bermudez1">[1]</xref>, <xref ref-type="bibr" rid="pone.0042876-Bodnar1">[2]</xref>, <xref ref-type="bibr" rid="pone.0042876-Hickman1">[3]</xref>, <xref ref-type="bibr" rid="pone.0042876-Jiao1">[4]</xref>. We have previously shown that bacterial stress responses are more strongly induced in dendritic cells, whereas genes encoding ribosomal proteins are overexpressed, indicating bacterial multiplication, in macrophages <xref ref-type="bibr" rid="pone.0042876-Tailleux1">[5]</xref>.</p>
+      <p>As in other prokaryotes, two-component signal transduction systems (TCS) are key elements of the adaptive response to various stimuli in the tubercle bacillus. TCS contain an environmentally sensitive histidine kinase (HK) and a response regulator (RR) that is activated by the cognate HK. These systems play a major role in bacterial responses to changing growth contexts. The MTB genome encodes 11 TCS <xref ref-type="bibr" rid="pone.0042876-Cole1">[6]</xref>. This relatively small number of TCS probably reflects the intracellular lifestyle of MTB, as the cell environment is less variable than that confronted by soil bacteria, or a certain degree of overlap in signal processing.</p>
+      <p>The MTB <italic>phoP</italic> gene has been shown to encode one of the components of a TCS (PhoP/R) playing a major role in virulence <xref ref-type="bibr" rid="pone.0042876-Perez1">[7]</xref>. Inactivation of <italic>phoP</italic> results in an attenuated mutant unable to replicate in animal models and in cells cultured <italic>in vitro</italic>, but able to persist, unlike auxotrophs. This led to the construction of live candidate vaccines against tuberculosis based on the inactivation of <italic>phoP</italic>
+<xref ref-type="bibr" rid="pone.0042876-Martin1">[8]</xref>. Analyses of the genomes of known avirulent strains, such as the BCG vaccine or the H37Ra attenuated clinical variant, showed mutations in <italic>phoP</italic> or <italic>phoR</italic> resulting in a loss of function, thus confirming the role of <italic>phoP</italic>/<italic>phoR</italic> in virulence <xref ref-type="bibr" rid="pone.0042876-Frigui1">[9]</xref>, <xref ref-type="bibr" rid="pone.0042876-Lee1">[10]</xref>, <xref ref-type="bibr" rid="pone.0042876-Zheng1">[11]</xref>.</p>
+      <p>The MTB PhoP regulator belongs to the PhoB/OmpR subfamily, the largest one among response regulators. Members of this subfamily have two domains, an N-terminal regulatory domain and a C-terminal DNA-binding domain (also called the effector domain). Many members of this subfamily have been studied in detail, and most reports have indicated that these response regulators bind DNA as a dimer recognizing tandem repeat binding sites at the -35 region of the regulated promoter <xref ref-type="bibr" rid="pone.0042876-Wang1">[12]</xref>. The <italic>Bacillus subtilis</italic> TCS PhoP/PhoR, which belongs to this subfamily, senses phosphate. It is activated in conditions in which phosphate is limited. It regulates the expression of 31 genes involved in phosphate utilization <xref ref-type="bibr" rid="pone.0042876-Birck1">[13]</xref>. However, in <italic>Salmonella enterica typhimurium</italic>, PhoP/PhoQ responds to other stimuli, such as Mg<sup>2+</sup> concentration <xref ref-type="bibr" rid="pone.0042876-Groisman1">[14]</xref>, low pH <xref ref-type="bibr" rid="pone.0042876-AlpucheAranda1">[15]</xref>, <xref ref-type="bibr" rid="pone.0042876-MartinOrozco1">[16]</xref> and antibacterial peptides <xref ref-type="bibr" rid="pone.0042876-Bader1">[17]</xref>, <xref ref-type="bibr" rid="pone.0042876-Bader2">[18]</xref>, thereby regulating genes involved in Mg<sup>2+</sup> homeostasis and virulence <xref ref-type="bibr" rid="pone.0042876-Miller1">[19]</xref>. The stimuli sensed by the MTB PhoP/PhoR TCS are unknown.</p>
+      <p>Efforts have been made to identify genes regulated by this PhoP/PhoR TCS, by comparing the transcriptomes of <italic>phoP</italic> null mutants and wild-type parental strains. Two studies identified a large number of genes positively or negatively regulated by PhoP, 70 of which were upregulated <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. However, these two studies identified different, though overlapping, sets of regulated genes. Differences could also be due to the use of two different strains in the two studies (H37Rv for one study and MT103 for the other one), or to the lack of knowledge of the metabolites acting as stimuli for this TCS, resulting in non optimal experimental conditions.</p>
+      <p>Many of the genes upregulated by PhoP are involved in general or lipid metabolism, substrate transport across the plasma membrane and the synthesis of regulators, such as DosR, controlling dormancy. <italic>phoP</italic> null mutants display deficiencies in the synthesis of sulfatides and diacyl and polyacyl trehaloses. <italic>msl3</italic>, a polyketide beta-ketoacyl synthase gene, is involved in the synthesis of polyacyl trehaloses, and the <italic>pks2</italic> and <italic>mmpl8</italic> genes are involved in sulfatide synthesis <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>, <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio2">[22]</xref>. The disruption of <italic>pks2</italic> generated a sulfolipid-deficient mutant that was unable to synthesize hydroxyphthioceranic and phthioceranic acids <xref ref-type="bibr" rid="pone.0042876-Sirakova1">[23]</xref>. The <italic>msl3</italic>-disrupted mutant was unable to produce the mycolipanoic and mycolipenic acids required for the synthesis of a major class of polyacylated trehaloses. In the absence of these classes of polyacylated trehaloses, which anchor trehaloses to the cell surface, the mutants grew in bead-like aggregates, with no discernable decrease in either growth rate or in virulence <xref ref-type="bibr" rid="pone.0042876-Dubey1">[24]</xref>. <italic>phoP</italic> null mutants and H37Ra lack these complex lipids. PhoP/PhoR TCS also controls secretion of the early-secreted 6 kDa antigen (ESAT-6), an important virulence factor and antigenic component of <italic>M. tuberculosis</italic>
+<xref ref-type="bibr" rid="pone.0042876-Frigui1">[9]</xref>.</p>
+      <p>The two transcriptomic analyses suggested that the <italic>lipF</italic> and <italic>fadD21</italic> genes were positively regulated by PhoP <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. The <italic>lipF</italic> gene of MTB encodes an esterase that has been shown to be important in pathogenesis. The insertion of a transposon between the <italic>lipF</italic> promoter region and the transcription start site significantly decreased the ability of the bacterium to grow in mouse lungs <xref ref-type="bibr" rid="pone.0042876-Camacho1">[25]</xref>.</p>
+      <p>PhoP is autoregulated, as it binds to two adjacent 9-bp direct repeat motifs binding to PhoP in a sequence-specific manner. These motifs are located downstream from the transcription +1 site, contrasting with the models proposed for other members of the PhoB/OmpR TCS family <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref>. We investigated PhoP binding sites and their molecular regulation in more detail, by looking for such sites in other promoters thought to be regulated by PhoP on the basis of previous transcriptome analyses.</p>
+      <p>We first used gene fusions to identify the <italic>msl3</italic>, <italic>pks2</italic>, <italic>lipF</italic> and <italic>fadD21</italic> gene promoters. DNA-affinity electrophoretic mobility shift studies and DNase I protection assays have been used to identify PhoP binding sites. These sites were found to contain tandem repeat sequences displaying similarities that could be used to define a consensus-binding motif. We then carried out whole-genome analysis with these consensus sequences, to identify genes regulated directly by PhoP.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Identification of promoter regions</title>
+        <p>We used <italic>lacZ</italic> as a reporter gene, to measure the activity of <italic>M. tuberculosis</italic> promoters thought to be regulated by PhoP in <italic>M. smegmatis</italic>, a non-pathogenic and fast-growing mycobacterial species.</p>
+        <p>Several fragments corresponding to upstream and structural gene regions of <italic>pks2</italic> (-86,+60), <italic>msl3</italic> (-282,+28) and <italic>fadD21</italic> (-198, +10) were generated (<xref ref-type="table" rid="pone-0042876-t001">Table 1</xref>). These fragments were inserted upstream from the <italic>lacZ</italic> reporter gene in the pJEM15 <italic>E. coli</italic>-mycobacterial reporter shuttle plasmid. For <italic>lipF</italic>, a 611 bp region (-596, +14) was used, because this region has previously been reported to be required for the upregulation of transcriptional activity in response to exposure to an acid stress. This upregulation has been demonstrated in both pathogenic <italic>M. tuberculosis</italic> and non-pathogenic <italic>M. smegmatis</italic> strains <xref ref-type="bibr" rid="pone.0042876-Saviola1">[27]</xref>. Cultures of <italic>M. smegmatis</italic> transformed with the empty pJEM15 vector, a positive control, the pJEM31 (PAN) vector containing a promoter sequence, PAN, isolated from <italic>M. paratuberculosis</italic>
+<xref ref-type="bibr" rid="pone.0042876-Murray1">[28]</xref> or recombinant pJEM15 plasmids carrying <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> or <italic>fadD21</italic> gene fragments were set up. Aliquots of cultures were collected during the exponential growth phase and beta-galactosidase activities were assessed to determine transcription levels.</p>
+        <table-wrap id="pone-0042876-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>List of primers used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0042876-t001-1" xlink:href="pone.0042876.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Fragments</td>
+                  <td align="left" rowspan="1" colspan="1">Primers</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence (5'-3' position relative to the translation start site</td>
+                  <td align="left" rowspan="1" colspan="1">Fragments size (bp)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipF</bold>
+                    <xref ref-type="table-fn" rid="nt101">a</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">lipFF</td>
+                  <td align="left" rowspan="1" colspan="1">(-596) <named-content content-type="gene">GGCGAATTCGCACTTACCA</named-content> (-578)</td>
+                  <td align="left" rowspan="1" colspan="1">611</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipFR</td>
+                  <td align="left" rowspan="1" colspan="1">(+14) <named-content content-type="gene">CCAGGCGCACGCACCAAC</named-content> (-3)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipFa</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">lipFaF</td>
+                  <td align="left" rowspan="1" colspan="1">(-596) <named-content content-type="gene">GGCGAATTCGCACTTACCA</named-content> (-578)</td>
+                  <td align="left" rowspan="1" colspan="1">222</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipFaR</td>
+                  <td align="left" rowspan="1" colspan="1">(-375) <named-content content-type="gene">ATCAATCGCAAATCTCGCAC</named-content> (-394)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipFb</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">lipFbF</td>
+                  <td align="left" rowspan="1" colspan="1">(-394) <named-content content-type="gene">GTGCGAGATTTGCGATTGAT</named-content> (-375)</td>
+                  <td align="left" rowspan="1" colspan="1">227</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipFbR</td>
+                  <td align="left" rowspan="1" colspan="1">(-168) <named-content content-type="gene">CAACCGACCTGCAACACTA</named-content> (-186)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipFc</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">lipFcF</td>
+                  <td align="left" rowspan="1" colspan="1">(-167) <named-content content-type="gene">GCGGCACTGGCATCGCGCAT</named-content> (-148)</td>
+                  <td align="left" rowspan="1" colspan="1">182</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipFcR</td>
+                  <td align="left" rowspan="1" colspan="1">(+14) <named-content content-type="gene">CCAGGCGCACGCACCAAC</named-content> (-3)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipFa2</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">lipFa2F</td>
+                  <td align="left" rowspan="1" colspan="1">(-465) <named-content content-type="gene">CACCGAATGATTGATGG</named-content> (-449)</td>
+                  <td align="left" rowspan="1" colspan="1">89</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipFa2R</td>
+                  <td align="left" rowspan="1" colspan="1">(-377) <named-content content-type="gene">CAATCGCAAATCTCGCA</named-content> (-393)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipF</bold>
+                    <xref ref-type="table-fn" rid="nt103">c</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">lipFDF</td>
+                  <td align="left" rowspan="1" colspan="1">(-639) <named-content content-type="gene">GCCGATATCGGCTTGCGATTC</named-content> (-619)</td>
+                  <td align="left" rowspan="1" colspan="1">189</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">lipFDR</td>
+                  <td align="left" rowspan="1" colspan="1">(-470) <named-content content-type="gene">CATCAATCATTCGGTGGCGCG</named-content> (-450)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pks2</bold>
+                    <xref ref-type="table-fn" rid="nt101">a</xref>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">pks2F</td>
+                  <td align="left" rowspan="1" colspan="1">(-86) <named-content content-type="gene">TAGCACAGCCGCTTAGAAC</named-content> (-68)</td>
+                  <td align="left" rowspan="1" colspan="1">147</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">pks2R</td>
+                  <td align="left" rowspan="1" colspan="1">(+60) <named-content content-type="gene">TCAGCCAACGTCCATGC</named-content> (+44)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pks2c</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">pks2cF</td>
+                  <td align="left" rowspan="1" colspan="1">(+10) <named-content content-type="gene">GTCGGCGGCGTCAGGCACT</named-content> (+28)</td>
+                  <td align="left" rowspan="1" colspan="1">77</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">pks2cR</td>
+                  <td align="left" rowspan="1" colspan="1">(+86) <named-content content-type="gene">TAACAGCAACCGGAGTCA</named-content> (+69)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pks2d</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">pks2dF</td>
+                  <td align="left" rowspan="1" colspan="1">(-86) <named-content content-type="gene">TAGCACAGCCGCTTAGAAC</named-content> (-68)</td>
+                  <td align="left" rowspan="1" colspan="1">102</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">pks2dR</td>
+                  <td align="left" rowspan="1" colspan="1">(+15) <named-content content-type="gene">GCCGACCCCAAGCCCAAT</named-content> (-2)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pks2</bold>
+                    <xref ref-type="table-fn" rid="nt101">a</xref>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">pks2DF</td>
+                  <td align="left" rowspan="1" colspan="1">(-137) <named-content content-type="gene">ACCGCGGGCTGCCCATGCCA</named-content> (-118)</td>
+                  <td align="left" rowspan="1" colspan="1">198</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">pks2DR</td>
+                  <td align="left" rowspan="1" colspan="1">(+60) <named-content content-type="gene">TCAGCCAACGTCCATGCA</named-content> (+43)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>msl3</bold>
+                    <xref ref-type="table-fn" rid="nt101">a</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">msl3F</td>
+                  <td align="left" rowspan="1" colspan="1">(-282) <named-content content-type="gene">GTCGAGCAGTGTTGCTACC</named-content> (-264)</td>
+                  <td align="left" rowspan="1" colspan="1">311</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">msl3R</td>
+                  <td align="left" rowspan="1" colspan="1">(+28) <named-content content-type="gene">CGACCGATGTGGCGGTTGCGG</named-content> (+8)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>msl3a</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">msl3aF</td>
+                  <td align="left" rowspan="1" colspan="1">(-282) <named-content content-type="gene">GTCGAGCAGTGTTGCTACC</named-content> (-264)</td>
+                  <td align="left" rowspan="1" colspan="1">234</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">msl3aR</td>
+                  <td align="left" rowspan="1" colspan="1">(-49) <named-content content-type="gene">TACCAACACATTCGGGCTC</named-content> (-67)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>msl3b</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">msl3bF</td>
+                  <td align="left" rowspan="1" colspan="1">(-67) <named-content content-type="gene">GAGCCCGAATGTGTTGGTA</named-content> (-49)</td>
+                  <td align="left" rowspan="1" colspan="1">98</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">msl3bR</td>
+                  <td align="left" rowspan="1" colspan="1">(+30) <named-content content-type="gene">CGACCGATGTGGCGGTTGCGG</named-content> (+10)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>msl3a2</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">msl3a2F</td>
+                  <td align="left" rowspan="1" colspan="1">(-269) <named-content content-type="gene">GCTACCTTAACTTTCCCAG</named-content> (-251)</td>
+                  <td align="left" rowspan="1" colspan="1">82</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">msl3a2R</td>
+                  <td align="left" rowspan="1" colspan="1">(-188) <named-content content-type="gene">CGAAGAACACATTATCCAG</named-content> (-206)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>msl3</bold>
+                    <xref ref-type="table-fn" rid="nt103">c</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">msl3DF</td>
+                  <td align="left" rowspan="1" colspan="1">(-311) <named-content content-type="gene">TCACACGCGCGGTGCATGC</named-content> (-293)</td>
+                  <td align="left" rowspan="1" colspan="1">222</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">msl3DR</td>
+                  <td align="left" rowspan="1" colspan="1">(-90) <named-content content-type="gene">TCATGGTAGTGGCTCAAGA</named-content> (-108)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>fadD21</bold>
+                    <xref ref-type="table-fn" rid="nt101">a</xref>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">fadD21F</td>
+                  <td align="left" rowspan="1" colspan="1">(-198) <named-content content-type="gene">GGCCATGGAACGCACGGCTTA</named-content> (-178)</td>
+                  <td align="left" rowspan="1" colspan="1">209</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">fadD21R</td>
+                  <td align="left" rowspan="1" colspan="1">(+10) <named-content content-type="gene">GAGTCGGACATTGGTGCTA</named-content> (-8)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>fadD21b</bold>
+                    <xref ref-type="table-fn" rid="nt102">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">fadD21bF</td>
+                  <td align="left" rowspan="1" colspan="1">(-145) <named-content content-type="gene">CTGCGTACACCGACTTCGA</named-content> (-127)</td>
+                  <td align="left" rowspan="1" colspan="1">85</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">fadD21bR</td>
+                  <td align="left" rowspan="1" colspan="1">(-61) <named-content content-type="gene">GCGATAGCGATGCTGATC</named-content> (-78)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>fadD21</bold>
+                    <xref ref-type="table-fn" rid="nt103">c</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">fadD21DF</td>
+                  <td align="left" rowspan="1" colspan="1">(-194) <named-content content-type="gene">ATGGAACGCACGGCTTAGCAACT</named-content> (-172)</td>
+                  <td align="left" rowspan="1" colspan="1">201</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">fadD21DR</td>
+                  <td align="left" rowspan="1" colspan="1">(-16) <named-content content-type="gene">CGGACATTGGTGCTACATTACCG</named-content> (+7)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a</label>
+              <p>Fragments used for transcriptional fusions.</p>
+            </fn>
+            <fn id="nt102">
+              <label>b</label>
+              <p>Fragments used for electrophoretic mobility shift assays.</p>
+            </fn>
+            <fn id="nt103">
+              <label>c</label>
+              <p>Fragments used for DNase protection assay.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>As indicated in <xref ref-type="fig" rid="pone-0042876-g001">Fig. 1</xref>, expression levels were higher for <italic>M. smegmatis</italic> transformed with the recombinant plasmids carrying <italic>pks2</italic>, <italic>msl3, lipF</italic> or <italic>fadD21</italic> gene fusions than for <italic>M. smegmatis</italic> transformed with the empty pJEM15 vector. No significant expression was detected for <italic>M. smegmatis</italic> transformed with the empty pJEM15 vector. With the plasmid pJEM31 (PAN) used as a positive control, we observed expression of similar magnitude as observed for <italic>pks2, msl3</italic> and <italic>fadD21</italic>. A much lower expression was observed for <italic>M. smegmatis</italic> carrying the <italic>lipF</italic> fusion, under the conditions tested. These results demonstrate that there was a promoter present in the various cloned regions in fusion with <italic>lacZ</italic> gene.</p>
+        <fig id="pone-0042876-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Beta-galactosidase activity in <italic>M. smegmatis</italic> expressing <italic>lacZ</italic> under the control of the promoter regions of the <italic>M. tuberculosis</italic> H37Rv <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> and <italic>fadD21</italic> genes.</title>
+            <p>The <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> and <italic>fadD21</italic> promoter-<italic>lacZ</italic> fusions carried by the pJEM15 plasmid were introduced into <italic>M. smegmatis</italic>. The positive control is <italic>M. smegmatis</italic> transformed with pJEM31(PAN) containing <italic>lacZ</italic> under the control of a mobile genetic element normalized against <italic>M. smegmatis</italic> transformed with pJEM15 empty vector. The results shown are the mean of two independent experiments.</p>
+          </caption>
+          <graphic xlink:href="pone.0042876.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>Identification of PhoP binding sites</title>
+        <p>We investigated whether PhoP bound directly to the DNA sequences upstream from <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> and <italic>fadD21</italic> identified in gene fusion studies, by carrying out electrophoretic mobility shift assays (EMSA) with phosphorylated PhoP protein (PhoP-P). In fact, previous studies have shown that PhoP must be phosphorylated for efficient binding to specific sites. We also carried out EMSA with the regulatory binding region of the PhoP gene itself, Protect40, as a positive control <xref ref-type="bibr" rid="pone.0042876-ChesneSeck1">[29]</xref>, <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio3">[30]</xref>. Only positive bindings were shown in <xref ref-type="fig" rid="pone-0042876-g002">Fig. 2</xref>. We started by using PCR fragments of about 200 bp in size for EMSA (<xref ref-type="table" rid="pone-0042876-t001">Table 1</xref>, <xref ref-type="table" rid="pone-0042876-t002">Table 2</xref>, and <xref ref-type="fig" rid="pone-0042876-g002">Fig. 2A</xref>). For the <italic>lipF</italic> promoter region, we generated three 200 bp subfragments: lipFa (-596 to -375), lipFb (-394 to -168) and lipFc (-167 to +14). Only lipFa displayed a clear shift in electrophoretic mobility in the presence of PhoP-P (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2A</xref> and <xref ref-type="supplementary-material" rid="pone.0042876.s001">Fig.S1</xref>). For <italic>msl3</italic>, we generated two subfragments: msl3a (-282 to -49), which was about 200 bp in length, and msl3b (-67 to +28), which was about 100 bp long. Only msl3a displayed a clear shift in electrophoretic mobility in the presence of PhoP-P (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2A</xref>).</p>
+        <fig id="pone-0042876-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Electrophoretic mobility assays with the lipF, pks2, msl3 and fadD21 promoter fragments and PhoP-P.</title>
+            <p>2A. The large DNA fragments initially selected  -  lipFa (222 bp), pks2 (148 bp), msl3a (235 bp), and fadD21 (210 bp)  -  were incubated with PhoP-P in the presence of poly dI-dC at 10 microg/ml and run on a native polyacrylamide gel (8%), in 0.5x TBE buffer. Complete binding was assessed on the basis of the amount of shifted material for each fragment in the presence of 4 microM of PhoP-P (protein/DNA ratio: 100/1), except for lipFa, for which 8 microM PhoP-P was required (protein/DNA ratio: 200/1). 2B. Smaller DNA fragments  -  lipFa1 (68 bp), pks2a (59 bp), pks2b (40 bp), pks2d (104 bp), msl3a1 (45 bp), msl3a2 (83 pb), fadD21a (55 bp) and fadD21b (79 bp)  -  were designed and incubated with PhoP-P in the presence of poly dI-dC at 10 microg/ml. Protect40 (40 bp) was tested in all mobility shift assays, as a positive control <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref>. 2C. Protect40 (40 bp) fragments with an altered sequence were used: Pho1 (DR1 altered sequence), Pho2 (DR2 altered sequence) and Pho3 (DR1 and DR2 altered sequences). Wild-type Protect40 (40 bp) was tested as a positive control <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref>.</p>
+          </caption>
+          <graphic xlink:href="pone.0042876.g002"/>
+        </fig>
+        <table-wrap id="pone-0042876-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>List of DNA fragments used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0042876-t002-2" xlink:href="pone.0042876.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Oligonucleotides</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence (5'-3' position relative to the translation start)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>lipFa1</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-575) <named-content content-type="gene">AGACGTACAGCAAACTCCCAGTCATACACCGATGCATTTCAAGGTGCCTGTGATCCCCTAAATGCAGG</named-content> (-508)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pks2a</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-52) <named-content content-type="gene">GACACAGCTACATCGAAGGATTGCTAGTTAGGCTACGTATCGCCTCCGGCATTGGGCTT</named-content> (+6)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pks2b</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-95) <named-content content-type="gene">GTGCCCCAGTAGCACAGCCGCTTAGAACTAAAGAGCCACC</named-content> (-56)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>msl3a1</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-242) <named-content content-type="gene">CGTCTGGTAGCGGCATGGCAACGGCCTGTGAGTTGGCTGGATAAT</named-content> (-198)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>fadD21a</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-152) <named-content content-type="gene">GGCGCCCCTGCGTACACCGACTTCGACTCTGCGTCAACCTGTTTCAGCACATGCA</named-content> (-98)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Protect40</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-70) <named-content content-type="gene">GACTGTTAGCAGACTACTGGCAACGAGCTTTCAGGAATTA</named-content> (-31)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Pho1</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-70) <named-content content-type="gene">GCTCAGGTAAAGACTACTGGCAACGAGCTTTCAGGAATTA</named-content> (-31)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Pho2</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-70) <named-content content-type="gene">GACTGTTAGCAGACTTGAACGTCGGAGCTTTCAGGAATTA</named-content> (-31)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Pho3</bold>
+                    <xref ref-type="table-fn" rid="nt104">b</xref>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">(-70) <named-content content-type="gene">GCTCAGGTAAAGACTTGAACGTCGGAGCTTTCAGGAATTA</named-content> (-31)</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt104">
+              <label>b</label>
+              <p>Fragments used for electrophoretic mobility shift assays.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>The 147 bp (-86 to +60) pks2 and the 209 bp (-198 to +10) fadD21 fragments used in beta-galactosidase experiments also displayed a clear shift in electrophoretic mobility in the presence of PhoP-P (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2A</xref>). To address relative affinity differences between the DNA substrates, we varied the protein to DNA ratio to obtain a complete shift. The protein concentrations used ranged from 0 to 8 microM, for a constant DNA concentration of 40 nM. All five regulatory regions studied (<italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic>, <italic>fadD21</italic> and <italic>phoP</italic>) bound to PhoP-P resulted in the detection of higher molecular weight bands. For msl3a, fadD21 and pks2, a PhoP-P:DNA ratio of 100:1 was sufficient to obtain an almost complete shift, whereas a ratio of 200:1 was required for lipFa. The various DNA segments thus have different affinities for PhoP-P (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2</xref>). A faint second band of higher molecular weight was observed for Protect-40, but not for the other targets analyzed here. All reactions were tested for the requirement for phosphorylation (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2</xref>). Non-phosphorylated assays are shown (Fig.S2). No significant binding was observed in absence of phosphorylation.</p>
+        <p>Using the data obtained with the large fragments, we carried out a sequence alignment analysis of all the fragments shown to bind PhoP-P. The regions similar to DR1/DR2 and DR3 previously identified in the <italic>phoP</italic> promoter <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref> were observed.</p>
+        <p>We applied trimming and walking techniques to the initial oligonucleotides to generate subsequent fragments of 50 to 100 bp in size (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2B</xref>, <xref ref-type="fig" rid="pone-0042876-g003">Fig. 3</xref>) and proceeded with PhoP-P binding.</p>
+        <fig id="pone-0042876-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Schematic diagram of the DNA sequences tested in electrophoretic mobility assays.</title>
+            <p>The DR1, DR2 and DR3 sites are indicated in blue, orange and red, respectively. Binding is indicated by (+), with (-) indicating an absence of binding and (-/+) indicating weak binding. Positions on the DNA regions are shown with respect to the translation start site, in brackets.</p>
+          </caption>
+          <graphic xlink:href="pone.0042876.g003"/>
+        </fig>
+        <p>The results from the EMSAs on the subfragments were analyzed in the context of the presence or absence of the DR repeats. In addition to lipFa, we also tested two shorter DNA regions for binding: lipFa1 (-575 to -508) and lipFa2 (-465 to -377). Binding was observed only with lipFa1, which contains DR1 - 3, at a PhoP-P concentration of 2 microM, but not for lipFa2. For <italic>pks2</italic>, we tested four additional shorter DNA regions: pks2a (-52 to +6), pks2b (-95 to -56), pks2c (+10 to +86) and pks2d (-86 to +15). Binding was observed for pks2d, which contains a partial DR1 and DR2 - 3 (at a PhoP-P concentration of 2 microM). Only very weak binding was observed for pks2a, which contained a DR3 sequence alone (at a PhoP-P concentration of 10 microM), and for pks2b, which contained only DR1 and DR2 sequences (at a PhoP-P concentration of 20 microM). pks2c which does not contain any of the DRs did not give any binding (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2B</xref>). We studied <italic>msl3a</italic> binding in more detail with two additional DNA fragments: msl3a1 (-242 to -198) and msl3a2 (-269 to -188). Binding was observed for both of these fragments; msl3a2 which contains the entire DR1 - 3 (binding observed at a PhoP-P concentration of 2 microM), whereas msl3a1 contains only the first 3 bp of DR3 (binding at a PhoP-P concentration of 2 microM). Finally, <italic>fadD21</italic> was studied by testing two additional DNA regions: fadD21a (-152 to -98), and fadD21b (-145 to -61). Binding was observed for fadD21b, which contained all three DR sequences (PhoP-P concentration of 2 microM). Only very weak binding was observed for fadD21a, which contained only DR1 and partial DR2 (PhoP-P concentration of 10 microM), as for pks2b, which also contained only DR1 - 2 (PhoP-P concentration of 20 microM). However, in assays of PhoP-P binding to Protect40, full binding was observed when we used a DR1 - 2-containing fragment (PhoP-P concentration of 4 microM). Interestingly, reducing the size of the DNA targets (45 - 102 bp) resulted in a decrease in the protein/DNA ratio (only 1:50) required to obtain a shift, (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2B</xref>), showing that we indeed were able to increase the affinity as we narrowed down the targets to match the DRs.</p>
+        <p>The transcription initiation sites were determined for <italic>lipF</italic>, <italic>pks2</italic> and <italic>msl3</italic> in previous studies <xref ref-type="bibr" rid="pone.0042876-Goyal1">[31]</xref>, <xref ref-type="bibr" rid="pone.0042876-Gupta2">[32]</xref>. This allowed us to locate DR1, DR2 and DR3 with regard to the transcription start.</p>
+        <p>We investigated the importance of the repeat motifs in sequence-specific DNA binding by PhoP, using oligonucleotides with altered nucleotide sequences Pho1, Pho2, Pho3 (<xref ref-type="table" rid="pone-0042876-t002">Table 2</xref>, <xref ref-type="fig" rid="pone-0042876-g002">Fig. 2C</xref> and <xref ref-type="fig" rid="pone-0042876-g003">3E</xref>) in place of DR1, DR2 or combined DR1/DR2 sequences, respectively whereby we removed one or all of the DR1 - 2 repeats. The Protect-40 wild-type sequence was used as a control (<xref ref-type="fig" rid="pone-0042876-g002">Fig. 2C</xref>). The Pho1 - Pho3 altered sequences severely impaired PhoP-P binding. These results confirm that the binding of PhoP to the <italic>phoP</italic> promoter region is dependent on the direct repeat motifs.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Characterization of the PhoP binding site by DNase I footprinting</title>
+        <p>We defined the DNA regions binding PhoP more precisely, by carrying out DNase I protection assays on the PhoP-P/DNA target complex. We used the <italic>lipF</italic>, <italic>pks2</italic>, <italic>fadD21</italic> and <italic>msl3</italic> promoter regions for these protection experiments. PhoP-P binding enhanced the protection of these four promoters against DNase I digestion (<xref ref-type="fig" rid="pone-0042876-g004">Fig. 4</xref>). The protected regions for <italic>pks2, msl3 and fadD21</italic> were approximately 50 to 70 bp long (<xref ref-type="fig" rid="pone-0042876-g004">Fig. 4</xref>). For <italic>pks2</italic> and <italic>fadD21</italic>, these regions include coverage of the DRs, the spacer region between them, with a complete DR3 motif. In the case of <italic>msl3</italic>, the DR3 is partially protected until position A7 known for being present in all the DRs (<xref ref-type="table" rid="pone-0042876-t003">Table 3</xref>, <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref>). The protected region of <italic>lipF</italic> is only 30 - 35 bp in length and the DR3 region is not protected by PhoP protein.</p>
+        <fig id="pone-0042876-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>DNase I footprinting assay of the <italic>pks2</italic> and <italic>msl3</italic> promoter regions with PhoP-P.</title>
+            <p>Radiolabeled PCR fragments corresponding to (A) pks2 (-136 to +62), (B) msl3 (-312 to -79), (C) fadD21(-194 to +7) and (D) lipF (-639 to -450) were used as DNA targets. Various amounts of PhoP-P were used with pks2 and msl3 (lane 1: 0; lane 2: 1.8 pmol; lane 3: 3.6 pmol; lane 4: 7.2 pmol and lane 5: 14.4 pmol) and were incubated with 0.2 pmol of DNA before DNase 1 digestion. For fadD21 and lipF different amount of PhoP-P were used ((lane 1: 0; lane 2: 1.8 pmol; lane 3: 18 pmol; lane 4: 180 pmol and lane 5: 900 pmol) and were incubated with 1 pmol of DNA before DNase I digestion. Lane 6: A+G Maxam and Gilbert reaction. Protected regions are indicated by a line with colored regions. The blue, orange and red segments correspond to the DR1, DR2 and DR3 sites, respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0042876.g004"/>
+        </fig>
+        <table-wrap id="pone-0042876-t003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Identification of the DR1 - 3 sites on the DNA promoters recognized byPhoP.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0042876-t003-3" xlink:href="pone.0042876.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">DR1</td>
+                  <td align="left" rowspan="1" colspan="1">DR2</td>
+                  <td align="left" rowspan="1" colspan="1">DR3</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>msl3</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">T<underline>CTGGTAGC</underline></named-content> 8/9: 89%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">CA<underline>TGGCAAC</underline></named-content> 7/9: 78%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>A</underline>A<underline>TGT</underline>GTT<underline>C</underline></named-content> 5/9: 56%</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fadD21</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">TG<underline>TTTCAGC</underline></named-content> 7/9: 78%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>A</underline>T<underline>G</underline>CA<underline>CAGC</underline></named-content> 6/9: 67%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>A</underline>T<underline>G</underline>A<underline>TCAGC</underline></named-content> 7/9: 78%</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>lipF</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>ACGT</underline>A<underline>CAGC</underline></named-content> 8/9: 89%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>ACT</underline>CC<underline>CAG</underline>T</named-content> 6/9: 67%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">C<underline>CTGT</underline>G<underline>A</underline>T<underline>C</underline></named-content> 6/9: 67%</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>pks2</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">C<underline>C</underline>CA<underline>GTAGC</underline></named-content> 6/9: 67%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene">C<underline>CG</underline>C<underline>TTAG</underline>A</named-content> 6/9: 67%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>A</underline>GACA<underline>CAGC</underline></named-content> 5/9: 56%</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>phoP</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>ACTGTTAGC</underline></named-content> 9/9: 100%</td>
+                  <td align="left" rowspan="1" colspan="1"><named-content content-type="gene"><underline>ACTGGCAAC</underline></named-content> 9/9: 100%</td>
+                  <td align="left" rowspan="1" colspan="1">-</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">consensus sequence of <italic>phoP</italic></td>
+                  <td colspan="3" align="left" rowspan="1">A C T/G T/G T/G Py A Pu C</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt105">
+              <label/>
+              <p>For each DNA sequence shown to bind PhoP-P, sequences with a complete or partial match to the DR1, DR2 and DR3 sites were identified (underlined). The degree of conservation of the consensus sequence was calculated and is shown as the ratio of matching nucleotides to the consensus: % identity.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2d">
+        <title>DR sequence analyses</title>
+        <p>Using two different approaches (see <xref ref-type="sec" rid="s4">Materials and Methods</xref> section), we identified three motifs matching the original DR1, DR2 and DR3 repeats of the PhoP promoter. These repeats are also present in all target regions upstream the <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> and <italic>fadD21</italic> genes (<xref ref-type="fig" rid="pone-0042876-g005">Fig. 5</xref>). The degree of sequence identity to the consensus of the canonical DR1 - 3 motifs of the <italic>phoP</italic> promoter region <xref ref-type="bibr" rid="pone.0042876-Sirakova1">[23]</xref> ranged from 56% to 89% (<xref ref-type="table" rid="pone-0042876-t003">Table 3</xref>). DR1 was the most conserved motif, followed by DR2, and then DR3. The DR1 and DR2 motifs were separated by 1 to 5 bp. By contrast, DR2 and DR3 were separated by 13 to 35 bp (<xref ref-type="fig" rid="pone-0042876-g005">Fig. 5</xref>). Taking this into account, we analyzed the distribution of the consensus sequences for each motif throughout the MTB genome. Motif configurations with only DR1 and DR2, or with DR1, DR2 and DR3 were observed in the upstream regions of 87 genes, accounting for 83.9% and 16.1% of total cases, respectively. The identified genes were analyzed according to the classes of the Clusters of Orthologous Groups (COGs) classification <xref ref-type="bibr" rid="pone.0042876-ChesneSeck1">[29]</xref>, <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio3">[30]</xref> (<xref ref-type="fig" rid="pone-0042876-g006">Fig. 6A</xref>, <xref ref-type="supplementary-material" rid="pone.0042876.s003">Table S1</xref>). We further investigated, using the Tuberculist data, the function of genes that are not listed in COGs (38 genes, <xref ref-type="fig" rid="pone-0042876-g006">Fig. 6B</xref>). Some of the identified genes have already been reported to be regulated by PhoP on the basis of transcriptomic data <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. Based on the COG classification, we found that PhoP play a key role as a putative transcription regulator mostly for genes involved in transcription (21%) and Secondary metabolites biosynthesis, transport and catabolism (14%), lipid transport and metabolism (9%), and coenzyme transport and metabolism (9%) (<xref ref-type="fig" rid="pone-0042876-g006">Fig. 6A</xref>).</p>
+        <fig id="pone-0042876-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Identification of the DR1, DR2 and DR3 repeats in the upstream regions of the <italic>phoP</italic>, <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> and <italic>fadD21</italic> genes.</title>
+            <p>(A) Nucleotide sequences and mapping of DR1, DR2 and DR3 sites. (B) Illustration of the consensus sequences of DR1, DR2 and DR3 obtained with MEME and Weblogo. The +1 indicate the transcription start site according to Richter <italic>et al.</italic>, (2007) for <italic>lipF</italic> and Goyal <italic>et al.</italic>, (2011) for <italic>pks2</italic> and <italic>msl3</italic>.</p>
+          </caption>
+          <graphic xlink:href="pone.0042876.g005"/>
+        </fig>
+        <fig id="pone-0042876-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0042876.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Distribution of the identified consensus sequences of DR1, DR2 and DR3 in the upstream regions of all <italic>Mycobacterium tuberculosis</italic> H37Rv genes.</title>
+            <p>(A) Distribution according to the Clusters of Orthologous Groups (COG) classification. (B) Genes not listed in the COGs classification were classified on the basis of the functions listed in Tuberculist.</p>
+          </caption>
+          <graphic xlink:href="pone.0042876.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>All living organisms have developed regulatory networks allowing them to survive in different environments, through rapid adaptation to hostile conditions and the conservation of energy by blocking pointless biochemical biosynthesis. TCS regulators, which have an environmentally responsive component, play a major role in this process. One of the advantages of this mode of control is that it allows the expression of complex traits or actions, such as membrane biosynthesis, host defences escape or adaptation, to be coordinated. This regulation results in changes to the patterns of expression of multiple genes <xref ref-type="bibr" rid="pone.0042876-Chang1">[33]</xref>, <xref ref-type="bibr" rid="pone.0042876-Parkinson1">[34]</xref>.</p>
+      <p>The MTB PhoP/PhoR TCS regulates the expression of more than 100 genes, based on differential gene expression data <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>. This includes genes encoding proteins involved in polyketide synthesis, for which differences in expression have been observed between PhoP null mutants and wild-type strains.</p>
+      <p>We aimed to identify genes directly regulated by PhoP. Transcriptome analyses have identified groups of genes regulated by PhoP, including genes encoding regulators that might function as intermediates in regulatory cascades <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. An analysis and comparison of these groups showed that they had only a few genes in common. This result reflects the problems involved in dealing with genes displaying low-level regulation and the importance of taking into account different experimental conditions and different strains genotypes. Indeed, as PhoP plays a key role in the regulation of several virulence factors, its activation varies with stressful conditions and the nature of the stimulus of the cognate sensor. We used a combination of genetic, biochemical and bio-informatics approaches to define PhoP binding sites as hallmarks of PhoP-regulated genes. We studied <italic>lipF, msl3, pks2</italic> and <italic>fadD21</italic>, which were shown to be upregulated by PhoP in genetic <xref ref-type="bibr" rid="pone.0042876-ChesneSeck1">[29]</xref> and transcriptomic studies <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. However, there has been little evidence for the mechanism of regulation by PhoP in terms of DNA recognition sites, binding to selected genes or search for genes distributed throughout the genome with sub threshold regulation levels.</p>
+      <p><italic>M. smegmatis</italic> has been used as a model strain to test <italic>lipF, pks2, msl3</italic>, and <italic>fadD21 lacZ</italic> gene fusions for the identification of promoters. The flanking regions of these genes were used for direct assessments of PhoP interaction by <italic>in vitro</italic> EMSA and DNase I protection assays. All experiments have been done using phosphorylated PhoP protein as unphosphorylated MTB PhoP binds weakly to oligonucleotides derived from the <italic>lipF, pks2</italic>, <italic>msl3</italic>, and <italic>fadD21</italic>, promoter sequences as previously described <xref ref-type="bibr" rid="pone.0042876-Goyal1">[31]</xref>, <xref ref-type="bibr" rid="pone.0042876-Gupta2">[32]</xref>, <xref ref-type="bibr" rid="pone.0042876-Makino1">[35]</xref>. These observations are similar to those for PhoB from <italic>E. coli</italic>, in which PhoR and PhoB constitute a two-component system controlling phosphate uptake <xref ref-type="bibr" rid="pone.0042876-Makino1">[35]</xref>.</p>
+      <p>The first study on PhoP protein interaction with its own promoter revealed the presence of three direct repeat motifs (DRs) <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref>. The first two direct repeats have been shown later to be sufficient for this interaction <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio3">[30]</xref>, <xref ref-type="bibr" rid="pone.0042876-Gupta2">[32]</xref>. More recently, the analyses of the promoter regions of <italic>pks2</italic> and <italic>msl3</italic> genes, revealed the presence of two DRs motifs that are needed for recognition by PhoP protein <xref ref-type="bibr" rid="pone.0042876-Goyal1">[31]</xref>. Nevertheless the motifs published by Goyal <italic>et al.</italic> (2011) are different from those that we identified. While the previously identified DRs regions are different from those reported in our study, the two works identified, overall, the same protected region. The main difference resides in the fact that we took in consideration the previously confirmed DRs regions identified in the promoter region of the <italic>phoP</italic> gene. This led us to clearly identify the presence of DR1 - 3 in some of the promoters that bound PhoP-P, and also allowed us to witness in some cases loss of binding when DR3 was missing. This is confirmed by our footprinting assays and gel shift experiments.</p>
+      <p>In this study, we show that for all studied genes, we were able to identify in their promoter regions three DRs namely DR1, DR2 and DR3. In addition, the DR3 repeat is essential for the binding of PhoP to <italic>pks2</italic> and <italic>fadD21</italic> DR1 - 2 repeats. This result is consistent with a potential cooperative interaction between DR3 and DR1 - 2. By comparing all identified DRs motifs we could suggest that DR3 assisted the binding to all PhoP-P-regulated sites showing low levels of similarity to <italic>phoP</italic>'s DR1 and DR2 sequences (<xref ref-type="table" rid="pone-0042876-t003">Table 3</xref>). Moreover, the ratio of PhoP to DNA required to achieve this binding is variable, thus resulting in additional fine-tuning of expression for different genes under the control of PhoP.</p>
+      <p>The <italic>lipF</italic> promoter region contains, at positions -574, -563, and -530, sequences similar to the previously described DR1, DR2 and DR3 of PhoP. Richter et al. (2007) reported that the position of the transcription start was 511 bp upstream from the translation initiation site. Our results indicate that the lipF -10 site identified by Richter et al. (2007) overlaps with the newly assigned DR3 box described here. Based on the distance between the <italic>lipF</italic> DR1/DR2 sites and the transcription start site, we suggest that a tandem head-to-tail PhoP dimer, close to the -35, binds to the DR1/DR2 repeats that occupy adjacent same-DNA-face strands. The same configuration is also observed for <italic>pks2</italic>. A similar situation has been described for <italic>E. coli</italic> PhoB, which activates transcription by interacting with the sigma 70 subunit of the RNA polymerase in promoters in which the -35 sigma recognition element is replaced by the Pho box.</p>
+      <p>PhoP dimerization would bring the two copies of the DNA-binding domains close to each other, facilitating binding to DR1 and DR2, which are separated by only two nucleotides in this case. The presence of DR1/DR2 PhoP binding sites that overlaps with the -35 transcription region of <italic>lipF</italic> and <italic>pks2</italic> might be indicative of a class II activation mechanism according to which the regulator PhoP binds the region 4 of the sigma factor <xref ref-type="bibr" rid="pone.0042876-Dove1">[36]</xref>. This configuration might result in the recruitment of the RNA polymerase to the promoter and subsequent induction of transcription start. The presence of DR1/DR2 PhoP binding site upstream the -35 transcription region for <italic>msl3</italic> might involve another mechanism of transcription activation that remains to be investigated.</p>
+      <p>With the use of various bioinformatics analyses, we fine-tuned the three consensus sequences for the individual DR1, DR2 and DR3 sites (<xref ref-type="fig" rid="pone-0042876-g006">Fig. 6</xref>). Only DR1 and DR2 were highly conserved in all analysed regions. We used these confirmed consensus sequences by taking into account the length of the spacer sequences between them to investigate the distribution of these motifs throughout the <italic>Mycobacterium tuberculosis</italic> genome, in order to identify all genes that could be potentially regulated directly by the PhoP/PhoR TCS. We found these motifs in the upstream regions of 87 genes, including genes having already been reported to be regulated by PhoP <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. The classification of all identified genes into COG categories revealed a predominance of genes encoding proteins involved in transcriptional regulation (<xref ref-type="fig" rid="pone-0042876-g006">Fig. 6</xref>). This result reflects and confirms the role of <italic>phoP</italic> as a key player in the virulence of tubercle bacilli by controlling the activity of several genes. Indeed, PhoP has been shown to regulate the differential transcription of up to 600 genes in <italic>E. coli</italic>
+<xref ref-type="bibr" rid="pone.0042876-Alteri1">[37]</xref>. Genes encoding proteins involved in the biosynthesis of polyketide-derived lipids were also well represented, providing additional support for our approach. These genes have already been reported to be under the control of the phoP/phoR regulon <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Walters1">[21]</xref>. Some of the other genes identified were classified as involved in lipid biosynthesis pathways. This finding is consistent with previous studies showing that synthesis of the lipid components of the cell surface is regulated by PhoB in <italic>E. coli</italic>.</p>
+      <p>Our analysis provides information that cannot be obtained easily by transcriptomic approaches, because the stimuli of the PhoP cognate sensor have yet to be identified and because transcriptional regulators are often only weakly expressed. The identification of genes directly regulated by PhoP paves the way for the characterization of genes involved in pathogenicity. The role of these genes should be further investigated by genetic approaches and may be used as a starting point for the design of new drugs and vaccines.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains, media and growth conditions</title>
+        <p><italic>Mycobacterium tuberculosis</italic> H37Rv <xref ref-type="bibr" rid="pone.0042876-Cole1">[6]</xref>, <italic>M. smegmatis</italic> mc<sup>2</sup>155 <xref ref-type="bibr" rid="pone.0042876-Snapper1">[38]</xref> and their derivatives were cultured at 37 degrees C in Middlebrook 7H9 medium supplemented with ADC (0.5% bovine serum albumin, 0.2% dextrose, 0.085% NaCl, 0.0003% beef catalase; Difco) and 0.05% Tween 80 or on solid Middlebrook 7H10 medium supplemented with OADC (0.05% oleic acid, 0.5% bovine serum albumin, 0.2% dextrose, 0.085% NaCl, 0.0003% beef catalase; Difco). <italic>Escherichia coli</italic> cultures for cloning were grown in Luria-Bertani (LB) broth or on LB agar plates at 37 degrees C. When required, antibiotics were added to the medium at the following concentrations: kanamycin (20 microg/ml), ampicillin (100 microg/ml). We added isopropyl-beta-D-thiogalactopyranoside (IPTG) at a concentration of 0.5 mM and X-Gal at a concentration of 50 microg/ml, when required.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Plasmid construction</title>
+        <p>For construction of the p<italic>lipF</italic>, p<italic>pks2</italic>, <italic>pmsl3</italic> and p<italic>fadD21</italic> promoter-<italic>lacZ</italic> fusions, we amplified the corresponding fragments from <italic>M. tuberculosis</italic> H37Rv genomic DNA by PCR with the primers shown in <xref ref-type="table" rid="pone-0042876-t001">Table 1</xref>. The PCR products were digested with <italic>Bam</italic>HI and <italic>Kpn</italic>I and inserted into the corresponding sites in the pJEM15 <italic>E. coli</italic>-mycobacterial shuttle plasmid <xref ref-type="bibr" rid="pone.0042876-Timm1">[39]</xref>. We used pJEM31-PAN containing a promoter sequence, PAN, isolated from <italic>M. paratuberculosis</italic> as a positive control. This promoter lies adjacent to and does not overlap the 3' end of an IS900 mobile genetic element <xref ref-type="bibr" rid="pone.0042876-Murray1">[28]</xref>. This plasmid was used to transform <italic>M. smegmatis</italic> mc<sup>2</sup>155. The strains were grown at 37 degrees C in 7H9 medium supplemented with kanamycin (20 microg/ml), until they reached an optical density at 600 nm (OD<sub>600 nm</sub>) of 0.6 - 0.8. The cells were collected by centrifugation and beta-galactosidase activity in the cell extract was evaluated to determine the levels of transcription from the various promoter regions studied (<italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic>, and <italic>fadD21</italic>).</p>
+      </sec>
+      <sec id="s4c">
+        <title>Quantification of beta-galactosidase activity</title>
+        <p>Mycobacterial strains were grown to the exponential growth phase (OD<sub>600 nm</sub>===0.8). The cultures were centrifuged, and the pellets were washed with phosphate-buffered saline. The cells were resuspended in 1 ml Z buffer (0.06 M Na<sub>2</sub>HPO<sub>4</sub>, 0.04 M NaH<sub>2</sub>PO<sub>4</sub>, 0.01 M KCl, 1 mM MgSO<sub>4</sub> and 0.05 M beta-mercaptoethanol pH 7 at 25 degrees C and sonicated to generate a cell extract. The chromogenic substrate o-nitrophenyl-D-galactoside (Sigma, France) was added to the cell extracts at a final concentration of 0.66 mg/ml. The mixtures were incubated at 28 degrees C for 1 hour and the enzymatic reactions were stopped by adding 0.29 M Na<sub>2</sub>CO<sub>3</sub>. The A<sub>420 nm</sub> of the supernatant was determined, and beta-galactosidase activity was calculated in Miller units, according to the following formula: beta-galactosidase activity===(1000xA<sub>420 nm</sub>)/(time (min)xaliquot volume (ml)xOD<sub>600 nm</sub>).</p>
+      </sec>
+      <sec id="s4d">
+        <title>Electrotransformation of mycobacteria</title>
+        <p>50 ml culture of bacteria was grown to an OD<sub>600 nm</sub> of 0.6 to 0.8. The cells were collected by centrifugation, washed twice in 10% glycerol and resuspended in 2 ml of 10% glycerol. Aliquots (400 microl) were electroporated with vector DNA in 0.2 cm-path length cuvettes (Bio-Rad), with a single pulse (2.5 kV, 25 microF, 1000 Omega). Cells were transferred to 1 ml of 7H9-ADC-0.05% Tween 80 and incubated for 2 hours at 37 degrees C.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Production, purification and phosphorylation of PhoP</title>
+        <p>The PhoP protein was produced in <italic>E. coli</italic> Bl21(DE3) pLysS (Agilent Technologies), from the pET15b expression plasmid (Novagen, Merck Chemicals France) <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio3">[30]</xref>. PhoP overproduction was induced by adding 1 mM IPTG (Euromedex, France) to LB medium and incubating for 3 hours at 30 degrees C. The cells were collected by centrifugation at 5,500 rpm (SLA-4000 rotor, RC5c (Sorvall) centrifuge) for 30 min and resuspended in 50 mM Tris-HCl pH 8.0, 1 M NaCl, 5 mM KCl, 10% glycerol, 5 mM imidazole, 100 microM phenyl methyl sulfonyl fluoride (PMSF) (Buffer A). The cells were lysed by passage through an Emulsiflex-C5 (Avestin Europe) at 4 degrees C. PhoP was purified on a 5-ml HiTrap Chelating HP (GE Healthcare) affinity column loaded with 0.5 M Ni<sub>2</sub>SO<sub>4</sub> and equilibrated with Buffer A, on an AKTA-prime FPLC machine (GE Healthcare). The histidine tag was cleaved overnight at 4 degrees C, with a Thrombin CleanCleavage kit (Sigma Aldrich). The released PhoP was further purified with a second passage through the 5-ml HiTrap Chelating HP Ni-affinity column. Pure protein (&gt;95%, based on SDS-PAGE) was obtained after several rounds of FPLC, and stored at -80 degrees C in 50 mM Tris-HCl pH 8, 150 mM NaCl, 5 mM KCl, and 20% glycerol.</p>
+        <p>Aliquots of 200 nmoles of PhoP were incubated for 90 minutes at 30 degrees C with 50 mM acetyl phosphate (AcP) (Sigma Aldrich) in 100 mM Tris-HCl pH 7.0, 10 mM MgCl<sub>2</sub>, 150 mM KCl, to obtain phosphorylated PhoP (PhoP-P).</p>
+      </sec>
+      <sec id="s4f">
+        <title>DNA fragment synthesis and purification</title>
+        <p>Double-stranded DNA fragments (ds-DNAs) were labeled at the 5' end by PCR with commercially synthesized 5'-labeled IRD700 or DY682 (Eurofins MWG Operon, Germany) primer and the various templates described in <xref ref-type="table" rid="pone-0042876-t001">Table 1</xref>, <xref ref-type="table" rid="pone-0042876-t002">2</xref>.</p>
+        <p>ds-DNAs were purified by electrophoresis in 8% polyacrylamide gels, electroeluted in 0.5x TBE (Biosolve, Netherlands), through 10 kDa MWCO (molecular weight cut off) dialysis tubing (Spectra/Por, Spectrum Labs, USA), and dried on a Speed Vac. The DNAs were resuspended in 60 mM sodium acetate pH 5.4, precipitated in 100% ethanol, washed in 70% ethanol and recovered in 10 mM Tris pH 7.8, 0.1 mM EDTA (Gibco). The DNA concentrations were deduced from A<sub>260 nm</sub> before use or storage.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Electrophoretic mobility shift assay (EMSA)</title>
+        <p>Aliquots of 40 nM labeled ds-DNAs were separately mixed with various concentrations of PhoP or PhoP-P, in a final volume of 30 microl in the presence of poly dI-dC at 10 microg/ml. The mixture was dialyzed in several steps against 50 mM Tris-HCl, pH 8.0, 1 mM dithiothreitol (DTT), 1 mM EDTA, 100 microM PMSF, with decreasing concentrations of NaCl (750 mM, 250 mM, 150 mM respectively), at 4 degrees C. The DNA/PhoP(-P) complex obtained at the end of dialysis was mixed with 3 microl of gel loading buffer (0.1% bromophenol blue and 40% sucrose), loaded onto a 20-cmx20-cm 8% native polyacrylamide gel and subjected to electrophoresis at 180 V/cm for 3 hours at 18 degrees C, with 0.5x TBE used as the running buffer. The gels were then transferred onto blotting paper (Whatman 3MM CHR) and scanned on an Odyssey (R)  Infrared Imaging System at 700 nm (Li-cor Inc, NE, USA).</p>
+      </sec>
+      <sec id="s4h">
+        <title>DNaseI footprinting experiments</title>
+        <p>DNA probes were prepared by amplifying fragments of the <italic>lipF</italic>, <italic>pks2</italic>, <italic>msl3</italic> and <italic>fadD21</italic> upstream regions by PCR with the lipFDF/lipFDR, msl3DF/msl3DR pks2DF/pks2DR and fadD21DF/fadD21DR primers, respectively, using <italic>M. tuberculosis</italic> chromosomal DNA as the template. In each case, the 5' end of the forward primer (lipFDF, msl3DF, pks2DF and fadD21DF) was labeled with [gamma-<sup>32</sup>P]ATP, with T4 polynucleotide kinase. Before the DNA binding reaction, PhoP-P was obtained as described above and dialyzed against a buffer containing 20 mM Tris pH 8, 1 mM EDTA, 200 mM NaCl, 50% glycerol. DNase I footprinting reactions were performed as previously described <xref ref-type="bibr" rid="pone.0042876-Camacho1">[25]</xref>. Briefly, 0 to 15 pmol of PhoP-P was mixed with 0.2 pmol of DNA and incubated with DNase 1 at room temperature (~24 degrees C) for 1 min. The samples were analyzed by electrophoresis on a 6% polyacrylamide gel containing 7 M urea. Maxam and Gilbert sequencing ladders (G+A) were also loaded on the same gel.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Sequence analysis</title>
+        <p>We narrowed down the DNA sequences potentially recognized by PhoP-P (to ~60 bp) by EMSA, with iterative sequence alignment to DR1 and DR2 (EMBOSS package, ClustalW). The results were confirmed by footprinting. The resulting sequence datasets were then analyzed further, by two different approaches. In the first, we used a Python script (this study) to search the identified regions for motifs identical and similar (no more than three nucleotides of difference) to those already identified in the upstream region of the PhoP gene <xref ref-type="bibr" rid="pone.0042876-GonzaloAsensio1">[20]</xref>, <xref ref-type="bibr" rid="pone.0042876-Gupta1">[26]</xref>, <xref ref-type="bibr" rid="pone.0042876-Gupta2">[32]</xref>. We then analyzed these regions with the MEME (Multiple Em for Motif Elicitation) program <xref ref-type="bibr" rid="pone.0042876-Bailey1">[40]</xref>, which uses the expectation - maximization (EM) algorithm for iterative improvement of a model of the motif. Finally, we constructed consensus motif sequences with WebLogo 3 <xref ref-type="bibr" rid="pone.0042876-Crooks1">[41]</xref>, <xref ref-type="bibr" rid="pone.0042876-Schneider1">[42]</xref>. The distribution of these consensus sequences in the <italic>Mycobacterium tuberculosis</italic> genome was analyzed with a Python script (this study) by scanning the 800 bp regions immediately upstream all <italic>M. tuberculosis</italic> H37Rv genes.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0042876.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Electrophoretic mobility assays with the lipFb, lipFc, msl3b, lipFa2 and pks2c fragments and PhoP-P.</bold> lipFb (227 bp), lipFc (182 bp), msl3b (98 bp), lipFa2 (89 bp) and pks2c (77 bp) fragments were incubated with PhoP-P in the presence of poly dI-dC at 10 microg/ml and run on a native polyacrylamide gel (8%), in 0.5x TBE buffer. Each fragment was incubated in the presence of 8 microM PhoP-P, with the exception of msl3b, for which 10 microM PhoP-P.</p>
+          <p>(EPS)</p>
+        </caption>
+        <media xlink:href="pone.0042876.s001.eps" mimetype="application" mime-subtype="postscript">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0042876.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Electrophoretic mobility assays for the lipFa, pks2, msl3 and fadD21 fragments with phosphorylated (P) and unphosphorylated (NP) PhoP.</bold> The large DNA fragments initially selected  -  lipFa (222 bp), pks2 (148 bp), msl3a (235 bp), and fadD21 (210 bp)  -  were incubated with PhoP-P and unphosphorylated PhoP in the presence of poly dI-dC at 10 microg/ml and run on a native polyacrylamide gel (8%), in 0.5x TBE buffer. Each fragment was incubated in the presence of 4 microM PhoP-P and PhoP, with the exception of lipFa, for which 8 microM PhoP-P and PhoP was required.</p>
+          <p>(TIFF)</p>
+        </caption>
+        <media xlink:href="pone.0042876.s002.tiff" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0042876.s003">
+        <label>Table S1</label>
+        <caption>
+          <p><bold>List of genes with DR1, DR2 and DR3 in their upstream regions according to </bold><xref ref-type="fig" rid="pone-0042876-g005"><bold>Figure 5</bold></xref><bold>.</bold> First Excel spreadsheet: DR1+DR2; Second spreadsheet: DR1+DR2+DR3.</p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pone.0042876.s003.xls" mimetype="application" mime-subtype="vnd.ms-excel">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0042876-Bermudez1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Bermudez</surname><given-names>LE</given-names></name>, <name><surname>Goodman</surname><given-names>J</given-names></name> (<year>1996</year>) <article-title><italic>Mycobacterium tuberculosis</italic> invades and replicates within type II alveolar cells</article-title>. <source>Infect Immun</source><volume>64</volume>: <fpage>1400</fpage> - <lpage>1406</lpage><pub-id pub-id-type="pmid">8606107</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Bodnar1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Bodnar</surname><given-names>KA</given-names></name>, <name><surname>Serbina</surname><given-names>NV</given-names></name>, <name><surname>Flynn</surname><given-names>JL</given-names></name> (<year>2001</year>) <article-title>Fate of <italic>Mycobacterium tuberculosis</italic> within murine dendritic cells</article-title>. <source>Infect Immun</source><volume>69</volume>: <fpage>800</fpage> - <lpage>809</lpage><pub-id pub-id-type="pmid">11159971</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Hickman1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Hickman</surname><given-names>SP</given-names></name>, <name><surname>Chan</surname><given-names>J</given-names></name>, <name><surname>Salgame</surname><given-names>P</given-names></name> (<year>2002</year>) <article-title><italic>Mycobacterium tuberculosis</italic> induces differential cytokine production from dendritic cells and macrophages with divergent effects on naive T cell polarization</article-title>. <source>J Immunol</source><volume>168</volume>: <fpage>4636</fpage> - <lpage>4642</lpage><pub-id pub-id-type="pmid">11971012</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Jiao1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Jiao</surname><given-names>X</given-names></name>, <name><surname>Lo-Man</surname><given-names>R</given-names></name>, <name><surname>Guermonprez</surname><given-names>P</given-names></name>, <name><surname>Fiette</surname><given-names>L</given-names></name>, <name><surname>Deriaud</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Dendritic cells are host cells for mycobacteria in vivo that trigger innate and acquired immunity</article-title>. <source>J Immunol</source><volume>168</volume>: <fpage>1294</fpage> - <lpage>1301</lpage><pub-id pub-id-type="pmid">11801668</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Tailleux1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Tailleux</surname><given-names>L</given-names></name>, <name><surname>Waddell</surname><given-names>SJ</given-names></name>, <name><surname>Pelizzola</surname><given-names>M</given-names></name>, <name><surname>Mortellaro</surname><given-names>A</given-names></name>, <name><surname>Withers</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Probing host pathogen cross-talk by transcriptional profiling of both <italic>Mycobacterium tuberculosis</italic> and infected human dendritic cells and macrophages</article-title>. <source>PLoS One</source><volume>3</volume>: <fpage>e1403</fpage><pub-id pub-id-type="pmid">18167562</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Cole1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Cole</surname><given-names>ST</given-names></name>, <name><surname>Barrell</surname><given-names>BG</given-names></name> (<year>1998</year>) <article-title>Analysis of the genome of <italic>Mycobacterium tuberculosis</italic> H37Rv</article-title>. <source>Novartis Found Symp</source><volume>217</volume>: <fpage>160</fpage> - <lpage>172; discussion 172 - 167</lpage><pub-id pub-id-type="pmid">9949807</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Perez1">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Perez</surname><given-names>E</given-names></name>, <name><surname>Samper</surname><given-names>S</given-names></name>, <name><surname>Bordas</surname><given-names>Y</given-names></name>, <name><surname>Guilhot</surname><given-names>C</given-names></name>, <name><surname>Gicquel</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>An essential role for phoP in <italic>Mycobacterium tuberculosis</italic> virulence</article-title>. <source>Mol Microbiol</source><volume>41</volume>: <fpage>179</fpage> - <lpage>187</lpage><pub-id pub-id-type="pmid">11454210</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Martin1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Martin</surname><given-names>C</given-names></name>, <name><surname>Williams</surname><given-names>A</given-names></name>, <name><surname>Hernandez-Pando</surname><given-names>R</given-names></name>, <name><surname>Cardona</surname><given-names>PJ</given-names></name>, <name><surname>Gormley</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The live <italic>Mycobacterium tuberculosis</italic> phoP mutant strain is more attenuated than BCG and confers protective immunity against tuberculosis in mice and guinea pigs</article-title>. <source>Vaccine</source><volume>24</volume>: <fpage>3408</fpage> - <lpage>3419</lpage><pub-id pub-id-type="pmid">16564606</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Frigui1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Frigui</surname><given-names>W</given-names></name>, <name><surname>Bottai</surname><given-names>D</given-names></name>, <name><surname>Majlessi</surname><given-names>L</given-names></name>, <name><surname>Monot</surname><given-names>M</given-names></name>, <name><surname>Josselin</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Control of <italic>M. tuberculosis</italic> ESAT-6 secretion and specific T cell recognition by PhoP</article-title>. <source>PLoS Pathog</source><volume>4</volume>: <fpage>e33</fpage><pub-id pub-id-type="pmid">18282096</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Lee1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>JS</given-names></name>, <name><surname>Krause</surname><given-names>R</given-names></name>, <name><surname>Schreiber</surname><given-names>J</given-names></name>, <name><surname>Mollenkopf</surname><given-names>HJ</given-names></name>, <name><surname>Kowall</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Mutation in the transcriptional regulator PhoP contributes to avirulence of <italic>Mycobacterium tuberculosis</italic> H37Ra strain</article-title>. <source>Cell Host Microbe</source><volume>3</volume>: <fpage>97</fpage> - <lpage>103</lpage><pub-id pub-id-type="pmid">18312844</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Zheng1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Zheng</surname><given-names>H</given-names></name>, <name><surname>Lu</surname><given-names>L</given-names></name>, <name><surname>Wang</surname><given-names>B</given-names></name>, <name><surname>Pu</surname><given-names>S</given-names></name>, <name><surname>Zhang</surname><given-names>X</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Genetic basis of virulence attenuation revealed by comparative genomic analysis of <italic>Mycobacterium tuberculosis</italic> strain H37Ra versus H37Rv</article-title>. <source>PLoS One</source><volume>3</volume>: <fpage>e2375</fpage><pub-id pub-id-type="pmid">18584054</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Wang1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>S</given-names></name>, <name><surname>Engohang-Ndong</surname><given-names>J</given-names></name>, <name><surname>Smith</surname><given-names>I</given-names></name> (<year>2007</year>) <article-title>Structure of the DNA-binding domain of the response regulator PhoP from <italic>Mycobacterium tuberculosis</italic></article-title>. <source>Biochemistry</source><volume>46</volume>: <fpage>14751</fpage> - <lpage>14761</lpage><pub-id pub-id-type="pmid">18052041</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Birck1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Birck</surname><given-names>C</given-names></name>, <name><surname>Chen</surname><given-names>Y</given-names></name>, <name><surname>Hulett</surname><given-names>FM</given-names></name>, <name><surname>Samama</surname><given-names>JP</given-names></name> (<year>2003</year>) <article-title>The crystal structure of the phosphorylation domain in PhoP reveals a functional tandem association mediated by an asymmetric interface</article-title>. <source>J Bacteriol</source><volume>185</volume>: <fpage>254</fpage> - <lpage>261</lpage><pub-id pub-id-type="pmid">12486062</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Groisman1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Groisman</surname><given-names>EA</given-names></name>, <name><surname>Cromie</surname><given-names>MJ</given-names></name>, <name><surname>Shi</surname><given-names>Y</given-names></name>, <name><surname>Latifi</surname><given-names>T</given-names></name> (<year>2006</year>) <article-title>A Mg2+-responding RNA that controls the expression of a Mg2+ transporter</article-title>. <source>Cold Spring Harb Symp Quant Biol</source><volume>71</volume>: <fpage>251</fpage> - <lpage>258</lpage><pub-id pub-id-type="pmid">17381304</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-AlpucheAranda1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Alpuche Aranda</surname><given-names>CMSJ</given-names></name>, <name><surname>Loomis</surname><given-names>WP</given-names></name>, <name><surname>Miller</surname><given-names>SI</given-names></name> (<year>1992</year>) <article-title><italic>Salmonella typhimurium</italic> activates virulence gene transcription within acidified macrophage phagosomes</article-title>. <source>Proc Natl Acad Sci U S A Nov 1</source>;<volume>89</volume><issue>21</issue>:<fpage>10079</fpage> - <lpage>10083</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-MartinOrozco1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Martin-Orozco</surname><given-names>N</given-names></name>, <name><surname>Touret</surname><given-names>N</given-names></name>, <name><surname>Zaharik</surname><given-names>ML</given-names></name>, <name><surname>Kopelman</surname><given-names>R</given-names></name>, <name><surname>Miller</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Visualization of vacuolar acidification-induced transcription of genes of pathogens inside macrophages</article-title>. <source>Mol Biol Cell Jan</source>; <volume>17</volume><issue>1</issue>:<fpage>498</fpage> - <lpage>510</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Bader1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Bader</surname><given-names>MW</given-names></name>, <name><surname>Navarre</surname><given-names>WW</given-names></name>, <name><surname>Shiau</surname><given-names>W</given-names></name>, <name><surname>Nikaido</surname><given-names>H</given-names></name>, <name><surname>Frye</surname><given-names>JG</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Regulation of <italic>Salmonella typhimurium</italic> virulence gene expression by cationic antimicrobial peptides</article-title>. <source>Mol Microbiol</source><volume>50</volume>: <fpage>219</fpage> - <lpage>230</lpage><pub-id pub-id-type="pmid">14507376</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Bader2">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Bader</surname><given-names>MW</given-names></name>, <name><surname>Sanowar</surname><given-names>S</given-names></name>, <name><surname>Daley</surname><given-names>ME</given-names></name>, <name><surname>Schneider</surname><given-names>AR</given-names></name>, <name><surname>Cho</surname><given-names>U</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Recognition of antimicrobial peptides by a bacterial sensor kinase</article-title>. <source>Cell</source><volume>122</volume>: <fpage>461</fpage> - <lpage>472</lpage><pub-id pub-id-type="pmid">16096064</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Miller1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>SI</given-names></name>, <name><surname>Pulkkinen</surname><given-names>WS</given-names></name>, <name><surname>Selsted</surname><given-names>ME</given-names></name>, <name><surname>Mekalanos</surname><given-names>JJ</given-names></name> (<year>1990</year>) <article-title>Characterization of defensin resistance phenotypes associated with mutations in the phoP virulence regulon of <italic>Salmonella typhimurium</italic></article-title>. <source>Infect Immun</source><volume>58</volume>: <fpage>3706</fpage> - <lpage>3710</lpage><pub-id pub-id-type="pmid">2172166</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-GonzaloAsensio1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Gonzalo-Asensio</surname><given-names>J</given-names></name>, <name><surname>Mostowy</surname><given-names>S</given-names></name>, <name><surname>Harders-Westerveen</surname><given-names>J</given-names></name>, <name><surname>Huygen</surname><given-names>K</given-names></name>, <name><surname>Hernandez-Pando</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>PhoP: a missing piece in the intricate puzzle of <italic>Mycobacterium tuberculosis</italic> virulence</article-title>. <source>PLoS One</source><volume>3</volume>: <fpage>e3496</fpage><pub-id pub-id-type="pmid">18946503</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Walters1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Walters</surname><given-names>SB</given-names></name>, <name><surname>Dubnau</surname><given-names>E</given-names></name>, <name><surname>Kolesnikova</surname><given-names>I</given-names></name>, <name><surname>Laval</surname><given-names>F</given-names></name>, <name><surname>Daffe</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The <italic>Mycobacterium tuberculosis</italic> PhoPR two-component system regulates genes essential for virulence and complex lipid biosynthesis</article-title>. <source>Mol Microbiol</source><volume>60</volume>: <fpage>312</fpage> - <lpage>330</lpage><pub-id pub-id-type="pmid">16573683</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-GonzaloAsensio2">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Gonzalo Asensio</surname><given-names>J</given-names></name>, <name><surname>Maia</surname><given-names>C</given-names></name>, <name><surname>Ferrer</surname><given-names>NL</given-names></name>, <name><surname>Barilone</surname><given-names>N</given-names></name>, <name><surname>Laval</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The virulence-associated two-component PhoP-PhoR system controls the biosynthesis of polyketide-derived lipids in <italic>Mycobacterium tuberculosis</italic></article-title>. <source>J Biol Chem</source><volume>281</volume>: <fpage>1313</fpage> - <lpage>1316</lpage><pub-id pub-id-type="pmid">16326699</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Sirakova1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Sirakova</surname><given-names>TD</given-names></name>, <name><surname>Thirumala</surname><given-names>AK</given-names></name>, <name><surname>Dubey</surname><given-names>VS</given-names></name>, <name><surname>Sprecher</surname><given-names>H</given-names></name>, <name><surname>Kolattukudy</surname><given-names>PE</given-names></name> (<year>2001</year>) <article-title>The <italic>Mycobacterium tuberculosis</italic> pks2 gene encodes the synthase for the hepta- and octamethyl-branched fatty acids required for sulfolipid synthesis</article-title>. <source>J Biol Chem</source><volume>276</volume>: <fpage>16833</fpage> - <lpage>16839</lpage><pub-id pub-id-type="pmid">11278910</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Dubey1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Dubey</surname><given-names>VS</given-names></name>, <name><surname>Sirakova</surname><given-names>TD</given-names></name>, <name><surname>Kolattukudy</surname><given-names>PE</given-names></name> (<year>2002</year>) <article-title>Disruption of <italic>msl3</italic> abolishes the synthesis of mycolipanoic and mycolipenic acids required for polyacyltrehalose synthesis in <italic>Mycobacterium tuberculosis</italic> H37Rv and causes cell aggregation</article-title>. <source>Mol Microbiol</source><volume>45</volume>: <fpage>1451</fpage> - <lpage>1459</lpage><pub-id pub-id-type="pmid">12207710</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Camacho1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Camacho</surname><given-names>LR</given-names></name>, <name><surname>Ensergueix</surname><given-names>D</given-names></name>, <name><surname>Perez</surname><given-names>E</given-names></name>, <name><surname>Gicquel</surname><given-names>B</given-names></name>, <name><surname>Guilhot</surname><given-names>C</given-names></name> (<year>1999</year>) <article-title>Identification of a virulence gene cluster of <italic>Mycobacterium tuberculosis</italic> by signature-tagged transposon mutagenesis</article-title>. <source>Mol Microbiol</source><volume>34</volume>: <fpage>257</fpage> - <lpage>267</lpage><pub-id pub-id-type="pmid">10564470</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Gupta1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Gupta</surname><given-names>S</given-names></name>, <name><surname>Sinha</surname><given-names>A</given-names></name>, <name><surname>Sarkar</surname><given-names>D</given-names></name> (<year>2006</year>) <article-title>Transcriptional autoregulation by <italic>Mycobacterium tuberculosis</italic> PhoP involves recognition of novel direct repeat sequences in the regulatory region of the promoter</article-title>. <source>FEBS Lett</source><volume>580</volume>: <fpage>5328</fpage> - <lpage>5338</lpage><pub-id pub-id-type="pmid">16979633</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Saviola1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Saviola</surname><given-names>B</given-names></name>, <name><surname>Woolwine</surname><given-names>SC</given-names></name>, <name><surname>Bishai</surname><given-names>WR</given-names></name> (<year>2003</year>) <article-title>Isolation of acid-inducible genes of <italic>Mycobacterium tuberculosis</italic> with the use of recombinase-based in vivo expression technology</article-title>. <source>Infect Immun</source><volume>71</volume>: <fpage>1379</fpage> - <lpage>1388</lpage><pub-id pub-id-type="pmid">12595455</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Murray1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Murray</surname><given-names>A</given-names></name>, <name><surname>Winter</surname><given-names>N</given-names></name>, <name><surname>Lagranderie</surname><given-names>M</given-names></name>, <name><surname>Hill</surname><given-names>DF</given-names></name>, <name><surname>Rauzier</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>1992</year>) <article-title>Expression of Escherichia coli beta-galactosidase in <italic>Mycobacterium bovis</italic> BCG using an expression system isolated from <italic>Mycobacterium paratuberculosis</italic> which induced humoral and cellular immune responses</article-title>. <source>Mol Microbiol</source><volume>6</volume>: <fpage>3331</fpage> - <lpage>3342</lpage><pub-id pub-id-type="pmid">1336563</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-ChesneSeck1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Chesne-Seck</surname><given-names>ML</given-names></name>, <name><surname>Barilone</surname><given-names>N</given-names></name>, <name><surname>Boudou</surname><given-names>F</given-names></name>, <name><surname>Gonzalo Asensio</surname><given-names>J</given-names></name>, <name><surname>Kolattukudy</surname><given-names>PE</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>A point mutation in the two-component regulator PhoP-PhoR accounts for the absence of polyketide-derived acyltrehaloses but not that of phthiocerol dimycocerosates in Mycobacterium tuberculosis H37Ra</article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>1329</fpage> - <lpage>1334</lpage><pub-id pub-id-type="pmid">18065542</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-GonzaloAsensio3">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Gonzalo-Asensio</surname><given-names>J</given-names></name>, <name><surname>Soto</surname><given-names>CY</given-names></name>, <name><surname>Arbues</surname><given-names>A</given-names></name>, <name><surname>Sancho</surname><given-names>J</given-names></name>, <name><surname>del Carmen Menendez</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>The <italic>Mycobacterium tuberculosis</italic> phoPR operon is positively autoregulated in the virulent strain H37Rv</article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>7068</fpage> - <lpage>7078</lpage><pub-id pub-id-type="pmid">18757548</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Goyal1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Goyal</surname><given-names>R</given-names></name>, <name><surname>Das</surname><given-names>AK</given-names></name>, <name><surname>Singh</surname><given-names>R</given-names></name>, <name><surname>Singh</surname><given-names>PK</given-names></name>, <name><surname>Korpole</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Phosphorylation of PhoP protein plays direct regulatory role in lipid biosynthesis of <italic>Mycobacterium tuberculosis</italic></article-title>. <source>J Biol Chem</source><volume>286</volume>: <fpage>45197</fpage> - <lpage>45208</lpage><pub-id pub-id-type="pmid">22072719</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Gupta2">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Gupta</surname><given-names>S</given-names></name>, <name><surname>Pathak</surname><given-names>A</given-names></name>, <name><surname>Sinha</surname><given-names>A</given-names></name>, <name><surname>Sarkar</surname><given-names>D</given-names></name> (<year>2009</year>) <article-title><italic>Mycobacterium tuberculosis</italic> PhoP recognizes two adjacent direct-repeat sequences to form head-to-head dimers</article-title>. <source>J Bacteriol</source><volume>191</volume>: <fpage>7466</fpage> - <lpage>7476</lpage><pub-id pub-id-type="pmid">19820095</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Chang1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Chang</surname><given-names>C</given-names></name>, <name><surname>Stewart</surname><given-names>RC</given-names></name> (<year>1998</year>) <article-title>The two-component system. Regulation of diverse signaling pathways in prokaryotes and eukaryotes</article-title>. <source>Plant Physiol</source><volume>117</volume>: <fpage>723</fpage> - <lpage>731</lpage><pub-id pub-id-type="pmid">9662515</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Parkinson1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Parkinson</surname><given-names>JS</given-names></name>, <name><surname>Kofoid</surname><given-names>EC</given-names></name> (<year>1992</year>) <article-title>Communication modules in bacterial signaling proteins</article-title>. <source>Annu Rev Genet</source><volume>26</volume>: <fpage>71</fpage> - <lpage>112</lpage><pub-id pub-id-type="pmid">1482126</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Makino1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Makino</surname><given-names>K</given-names></name>, <name><surname>Amemura</surname><given-names>M</given-names></name>, <name><surname>Kawamoto</surname><given-names>T</given-names></name>, <name><surname>Kimura</surname><given-names>S</given-names></name>, <name><surname>Shinagawa</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>DNA binding of PhoB and its interaction with RNA polymerase</article-title>. <source>J Mol Biol</source><volume>259</volume>: <fpage>15</fpage> - <lpage>26</lpage><pub-id pub-id-type="pmid">8648643</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Dove1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Dove</surname><given-names>SL</given-names></name>, <name><surname>Darst</surname><given-names>SA</given-names></name>, <name><surname>Hochschild</surname><given-names>A</given-names></name> (<year>2003</year>) <article-title>Region 4 of sigma as a target for transcription regulation</article-title>. <source>Mol Microbiol</source><volume>48</volume>: <fpage>863</fpage> - <lpage>874</lpage><pub-id pub-id-type="pmid">12753182</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Alteri1">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Alteri</surname><given-names>CJ</given-names></name>, <name><surname>Lindner</surname><given-names>JR</given-names></name>, <name><surname>Reiss</surname><given-names>DJ</given-names></name>, <name><surname>Smith</surname><given-names>SN</given-names></name>, <name><surname>Mobley</surname><given-names>HL</given-names></name> (<year>2011</year>) <article-title>The broadly conserved regulator PhoP links pathogen virulence and membrane potential in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source><volume>82</volume>: <fpage>145</fpage> - <lpage>163</lpage><pub-id pub-id-type="pmid">21854465</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Snapper1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Snapper</surname><given-names>SB</given-names></name>, <name><surname>Melton</surname><given-names>RE</given-names></name>, <name><surname>Mustafa</surname><given-names>S</given-names></name>, <name><surname>Kieser</surname><given-names>T</given-names></name>, <name><surname>Jacobs</surname><given-names>WR</given-names><suffix>Jr</suffix></name> (<year>1990</year>) <article-title>Isolation and characterization of efficient plasmid transformation mutants of <italic>Mycobacterium smegmatis</italic></article-title>. <source>Mol Microbiol</source><volume>4</volume>: <fpage>1911</fpage> - <lpage>1919</lpage><pub-id pub-id-type="pmid">2082148</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Timm1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Timm</surname><given-names>J</given-names></name>, <name><surname>Lim</surname><given-names>EM</given-names></name>, <name><surname>Gicquel</surname><given-names>B</given-names></name> (<year>1994</year>) <article-title><italic>Escherichia coli</italic>-mycobacteria shuttle vectors for operon and gene fusions to lacZ: the pJEM series</article-title>. <source>J Bacteriol</source><volume>176</volume>: <fpage>6749</fpage> - <lpage>6753</lpage><pub-id pub-id-type="pmid">7961429</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Bailey1">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Bailey</surname><given-names>TL</given-names></name>, <name><surname>Boden</surname><given-names>M</given-names></name>, <name><surname>Buske</surname><given-names>FA</given-names></name>, <name><surname>Frith</surname><given-names>M</given-names></name>, <name><surname>Grant</surname><given-names>CE</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>MEME SUITE: tools for motif discovery and searching</article-title>. <source>Nucleic Acids Res</source><volume>37</volume>: <fpage>W202</fpage> - <lpage>208</lpage><pub-id pub-id-type="pmid">19458158</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Crooks1">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Crooks</surname><given-names>GE</given-names></name>, <name><surname>Hon</surname><given-names>G</given-names></name>, <name><surname>Chandonia</surname><given-names>JM</given-names></name>, <name><surname>Brenner</surname><given-names>SE</given-names></name> (<year>2004</year>) <article-title>WebLogo: a sequence logo generator</article-title>. <source>Genome Res</source><volume>14</volume>: <fpage>1188</fpage> - <lpage>1190</lpage><pub-id pub-id-type="pmid">15173120</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0042876-Schneider1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Schneider</surname><given-names>TD</given-names></name>, <name><surname>Stephens</surname><given-names>RM</given-names></name> (<year>1990</year>) <article-title>Sequence logos: a new way to display consensus sequences</article-title>. <source>Nucleic Acids Res</source><volume>18</volume>: <fpage>6097</fpage> - <lpage>6100</lpage><pub-id pub-id-type="pmid">2172928</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

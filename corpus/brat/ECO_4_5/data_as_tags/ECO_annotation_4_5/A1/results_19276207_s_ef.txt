@@ -1,0 +1,130 @@
+RESULTS
+
+Sequence analysis of known HapR targets and orthologs
+
+The V. cholerae quorum-sensing regulator HapR is a TetR-family protein that functions both as an activator and as a repressor.
+Quorum sensing in V. cholerae has been demonstrated to regulate a variety of cellular functions, but HapR-binding sites have only been determined for two targets thus far: aphA and hapR itself.
+It has been shown that HapR binds to a site from 61 to 82 bp upstream of the transcriptional start site in the aphA promoter (19) and to a site 12 to 33 bp downstream of the transcriptional start site for hapR (20).
+It is likely that autoregulation of HapR along with virulence regulation via AphA are conserved across the Vibrios, in which case the corresponding binding sites should show strong conservation across species.
+Thus, we carried out a multiple sequence alignment of orthologous regions across closely related Vibrio species for aphA and its orthologs as well as for hapR and its orthologs.
+As noted, a previous study had shown that the binding regions upstream of hapR and aphA show only weak conservation when the direct strands are compared (20) To check for similarity in the binding sites when the complementary strands are also considered, we performed a <term sem="ECO:0000200" id="T1" ECOConfidence="High" AssertionStrength="Medium" Category="SeqFeat" NextSentence="Yes" NegativeStatement="No">sequence alignment</term id="T1"> of the direct strand in the region upstream of aphA with the complementary strand to the region upstream of hapR.
+The alignment results showed that the binding regions for both genes are quite similar when the complementary strand is also considered (see Supplementary Data, Figure S1), indicating that bioinformatic procedures can be used to represent the corresponding binding motif as discussed further below.
+
+The upstream regions of aphA orthologs and hapR orthologs were then aligned, taking the complementary strands into account, in order to identify a consensus binding sequence.
+A notable feature of the conserved binding regions (Table 1) is that for a subset of the genes (specifically hapR orthologs opaR, luxR, smcR and litR), it is possible to identify a conserved region with dyad symmetry similar to the binding sites that have recently been identified for HapR orthologs in Vibrio vulnificus and Vibrio harveyi (29,30).
+These sites are highlighted in Table 1 under the heading Motif 1.
+A more striking observation is that the binding sites for aphA and its orthologs and for hapR do not follow the same pattern.
+While the initial sequence of the binding sites of these genes are similar to those in Motif 1, the concluding sequence does not show the corresponding dyad symmetry and has the absolutely conserved sequence 'TGT' instead of the Motif 1 consensus 'AATAR' (where R represents A/G).
+Binding sites following this second pattern are referred to as Motif 2 sites (Table 1).
+Since HapR is able to activate the V. harveyi luminescence operon, which is a direct target of the HapR ortholog, LuxR, we reasoned that these binding sites in closely related species can be used to construct a preliminary representation of binding motifs for HapR itself (6).
+Thus, the preliminary analysis identifies potential HapR-binding sites and indicates that there are two distinct HapR binding motifs.
+
+
+The above observations are further strengthened when we consider additional V. cholerae genes that are known to be regulated by HapR, but for which specific binding sites have not yet been identified.
+These targets include hapA (31) which encodes the protease HapA and 3 genes which encode GGDEF and/or GGDEF/EAL domain proteins: vc0900, vc2370 and vca0080 (21).
+We identified potential HapR binding sites for these genes by searching their upstream regions for patterns <term sem="ECO:0000028" id="T2" ECOConfidence="Medium" AssertionStrength="High" Category="SeqFeat" NextSentence="Yes" NegativeStatement="No">similar to Motif 1 or Motif 2</term id="T2">.
+Specifically, Motif 1-binding sites were identified for vc0900, vc2370 and vca0080 and a Motif 2-binding site was identified upstream of hapA.
+These sites were included in the initial list of predicted HapR-binding sites (Table 1).
+It is interesting to note that all the known targets listed in Table 1 with Motif 1-binding sites contain the motif AATAR.
+In some cases (e.g. litR), there are multiple contiguous occurrences of this motif, in which case the proposed binding site is taken to end at the last occurrence of the AATAR motif.
+It is noteworthy that for Motif 1 targets listed in Table 1 with a single AATAR concluding motif, the distance between the initial conserved sequence and the concluding AATAR sequence is variable and thus, Motif 1-binding sites appear to be of variable length.
+As we discuss in the following sections, characterization of the HapR-binding motif according to the two categories outlined in Table 1 leads to testable predictions for novel target genes regulated by HapR.
+A schematic flowchart outlining the procedure followed is shown in the Supplementary Data (Figure S2).
+
+
+
+Motif 1 target predictions
+
+Analysis of the Motif 1-binding sites listed in Table 1 reveals that the motif can be characterized by: (i) an initial 7 bp conserved region represented by the motif YWATTKA (where Y stands for C/T, W stands for A/T, and K stands for G/T); (ii) followed by a region of variable length which is typically AT-rich; and (iii) concluding with the sequence AATAR.
+This motif is similar to the binding motif recently identified for HapR orthologs in V. vulnificus and V. harveyi, but an important distinction is that our analysis considers the binding length to be variable.
+Note that while the initial conserved sequence can be summarized by YWATTKA, this would include sequences (e.g. CAATTTA) which are not observed in any of the known targets listed in Table 1.
+A more restrictive constraint for the initial 7-bp sequence is that it corresponds to one of the three patterns represented by YTATTGA, TAATTGA or YTATTTA.
+We carried out a genome-wide search for genes whose upstream regions include a potential binding site satisfying the constraints noted above.
+Since the binding region can be variable in length, we considered binding sites ranging from 16 to 22 bp.
+In some cases, there are multiple occurrences of the motif AATAR, so the length of the spacer region between the conserved elements at the ends is not well defined (Figure 1A).
+Nevertheless, even if we consider only those targets with a single occurrence of the concluding motif AATAR, the length of the binding site is seen to vary over the entire range considered (i.e. from 16 to 22 bp).
+The genome-wide search for potential binding sites yielded 33 intergenic regions.
+For each binding site length, we picked one to two candidate genes for experimental validation.
+These genes, along with their predicted binding sites, are shown in Figure 1A.
+(Note that for the 16-bp targets, we considered targets with 1-bp mutations compared to the patterns noted above, since searching for the exact patterns yielded only one hypothetical gene as a predicted target.)
+As discussed below, all of the targets listed in Figure 1A were subsequently validated by gel retardation assays.
+The functions of the regulated target genes along with predictions for the corresponding operons are provided in Table S1.
+These results demonstrate that the proposed sequence pattern is an effective way of representing a binding motif for HapR and further indicate that there are many more genes that are potentially regulated by HapR.
+
+
+
+
+Motif 2 target predictions
+
+Unlike binding sites corresponding to Motif 1, Motif 2-binding sites contain a strongly conserved 16-bp region that ends with the sequence TGT.
+This suggests that Motif 2-binding sites can be represented using a PSWM corresponding to a 16-bp binding site.
+Accordingly, the predicted Motif 2-binding sites (listed in Table 1) were used to generate a preliminary PSWM.
+This PSWM was used to score potential binding sites in the upstream regions of all genes in the V. cholerae genome.
+We also specifically considered genes which were shown to be differentially regulated in a hapR mutant as compared to WT in previous microarray studies (7).
+The five highest-scoring novel binding sites in the whole-genome scan and the highest-scoring target also identified in microarray data (vca0880) were chosen for experimental validation.
+The predicted targets and the corresponding HapR-binding sites are listed in Figure 1B.
+Target protein function and operon predictions are provided in Table S1.
+As discussed further in the experimental results, all the predicted targets except one (vc0241) were validated by gel retardation assays.
+The binding sites for the experimentally validated targets were used to generate a revised PSWM for HapR based solely on targets in V. cholerae.
+Using the revised PSWM to scan the V. cholerae genome, additional predictions for high-scoring target genes were made.
+Out of these, three additional genes were chosen (based on PSWM scores and microarray data) for further experimental validation.
+All three target genes were confirmed experimentally, and the corresponding binding sites are listed in Figure 1B.
+It is noteworthy that while the 7-bp initial region of Motif 2-binding sites (with consensus sequence YTATTGA) is similar to the corresponding region in Motif 1-binding sites, the concluding sequence for Motif 2-binding sites is strongly conserved (TGT) and distinct from Motif 1-binding sites (AATAR).
+Furthermore, <term sem="ECO:0000200" id="T4" ECOConfidence="High" AssertionStrength="Medium" Category="SeqFeat" NextSentence="No" NegativeStatement="No">alignment of the predicted binding regions</term id="T4"> (Figure 1B) shows minimal conservation beyond the 16-bp region ending with TGT, indicating the Motif 2-binding sites have a fixed binding length of 16 bp and do not exhibit the dyad symmetry typical of Motif 1-binding sites.
+Our results thus provide evidence for two distinct binding motifs for HapR and have led to the identification of novel targets of HapR corresponding to each motif as described further below.
+
+
+
+HapR binds to the promoter regions of newly identified targets
+
+In order to test whether HapR protein can bind to the putative target promoters containing either Motif 1 or Motif 2-binding sites, an MBP-HapR fusion was constructed.
+This tagged HapR protein was able to complement a hapR deletion mutant when using the HapR-activated heterologous luxCDABE operon from V. harveyi as a bioluminescent reporter (data not shown).
+For each promoter region that was tested, a 300 - 400-bp region containing the binding site was PCR amplified and radiolabeled.
+Gel retardation assays were performed to detect binding of the MBP-HapR protein to each of the promoter regions.
+MBP-HapR bound to all 11 of the tested promoters containing a Motif 1-binding site and all but one (vc0241) of the eight promoters containing a Motif 2-binding site (Figure 2) Thus, the Motif 1-binding sequence reliably predicts promoter regions capable of being bound by HapR.
+The original Motif 2 PSWM also predicts HapR-binding sites fairly accurately, and it was further refined based on experimentally validated targets.
+
+
+
+
+HapR activates or represses expression from newly identified target promoters
+
+The above <term sem="ECO:0000096" id="T5" ECOConfidence="Medium" AssertionStrength="Medium" Category="BioProc" NextSentence="No" NegativeStatement="No">gel retardation analysis</term id="T5"> suggests that the target genes validated experimentally are directly regulated by HapR.
+In order to test whether regulation by HapR results in activation or repression of transcription for these genes, transcriptional lux fusions were constructed.
+PCR products used for the electrophoretic mobility shift assays (EMSAs) were cloned upstream of luxCDABE in the pBBR-lux reporter plasmid.
+Many of these promoters are not functional in Escherichia coli (data not shown).
+Therefore, the resulting constructs were transformed into wild-type and hapR-deleted strains of V. cholerae, which is their native host.
+Some binding sites were located between divergently transcribed genes, so these promoters were cloned into the lux reporter in both orientations.
+All the promoters showed either activation or repression by HapR ranging from ~2-fold to almost 80-fold (Figure 3).
+For three of the binding sites located between divergently transcribed genes (vca0246/7, vc0166/7 and vca0182/3), HapR was able to repress expression from the promoters when they were oriented in either direction.
+On the other hand, for the binding site located between vc2634 and vc2635, HapR only repressed expression from the promoter when it was oriented in the same direction as vc2635, while it had no effect on expression in the other direction.
+A control plasmid containing Plac-luxCDABE displayed similar Lux activity in wild-type and hapR mutants (data not shown).
+Therefore, HapR is not only able to bind to promoters containing the Motif 1 or Motif 2 consensus binding sequences, but it is also able to affect transcription levels of genes expressed from these promoters.
+
+
+
+
+Validation of the PSWM for Motif 2
+
+The consensus binding sequence of the HapR ortholog in V. harveyi, LuxR, was studied in detail in a recent paper (30).
+Since this binding sequence is similar to Motif 1, we focused on a Motif 2-binding site for further analysis in this study.
+Single-point mutations were made within the Motif 2-binding sequence located in the promoter region of vca0880 to validate the PSWM for Motif 2.
+The promoter of vca0880 was chosen because it is bound and activated very strongly by HapR (Figures 2 and 3), and would thus allow for better resolution of the binding abilities of various point mutants.
+EMSAs were performed to determine the extent of binding of MBP-HapR to a 60-bp fragment of the promoter region of vca0880 containing the Motif 2 consensus binding sequence as well as to six other versions of the fragment, each with a different single-point mutation.
+DNA fragments containing the desired point mutations were generated by hybridizing complementary oligonucleotides.
+A fragment lacking the entire consensus binding site (Delta16) was used as a negative control.
+As can be seen in Figure 4A, MBP-HapR bound to the wild-type fragment with a fairly high affinity while it was unable to bind to a fragment that was lacking the consensus binding site.
+It should be noted, however, that the difference in length due to binding site deletion could impact DNA stiffness, which in turn could potentially be an important factor for HapR binding.
+Each <term sem="ECO:0001113" id="T6" ECOConfidence="High" AssertionStrength="Low" Category="MolFn" NextSentence="No" NegativeStatement="No">point mutation</term id="T6"> affected HapR-binding affinity to varying degrees, and our results agree with the PSWM in that a mutation at position 9, which is not highly conserved across binding sites known to be bound by HapR, affected HapR binding affinity the least out of all the tested mutations, and in fact, bound to HapR almost as well as the wild-type sequence did.
+The other <term sem="ECO:0001113" id="T7" ECOConfidence="High" AssertionStrength="Low" Category="MolFn" NextSentence="Yes" NegativeStatement="No">point mutations</term id="T7"> altered highly conserved nucleotides, and thus affected HapR binding to a greater degree (Figure 4B and C).
+The T5A mutation resulted in significant loss of binding, which is consistent with the negative EMSA for the vc0241 promoter, which also contains the same T5A mutation.
+The <term sem="ECO:0001113" id="T3" ECOConfidence="Low" AssertionStrength="Medium" Category="MolFn" NextSentence="No" NegativeStatement="No">G6C mutation</term id="T3"> also led to a significant loss of binding, which is consistent with previous studies of HapR binding to the aphA promoter (19).
+While the G15C mutation had a less significant effect on HapR binding than might have been expected based on the PSWM, the change was still more deleterious than the A9G mutation.
+The <term sem="ECO:0001113" id="T8" ECOConfidence="Low" AssertionStrength="Medium" Category="MolFn" NextSentence="Yes" NegativeStatement="No">T14A mutation</term id="T8"> had a strong effect on HapR binding, and a previous study (20) showed that the single change, T16C, prevents HapR binding.
+This suggests that the 'TGT' motif is important for HapR binding, although the G15C mutation by itself does not have a strong effect on HapR binding.
+Taken together, these results suggest that the PSWM that was constructed based on confirmed binding sites is reasonably accurate in terms of the importance of each base's contribution to HapR binding.
+
+
+
+
+

@@ -1,0 +1,2009 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Microbiol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">BMC Microbiol</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Microbiology</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2180</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21314918</article-id>
+      <article-id pub-id-type="pmc">3050690</article-id>
+      <article-id pub-id-type="publisher-id">1471-2180-11-33</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2180-11-33</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Repression of <italic>btuB </italic>gene transcription in <italic>Escherichia coli </italic>by the GadX protein</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Lei</surname>
+            <given-names>Guang-Sheng</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>d87108@ym.edu.tw</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Syu</surname>
+            <given-names>Wan-Jr</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>wjsyu@ym.edu.tw</email>
+        </contrib>
+        <contrib contrib-type="author" id="A3">
+          <name>
+            <surname>Liang</surname>
+            <given-names>Po-Huang</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>phliang@gate.sinica.edu.tw</email>
+        </contrib>
+        <contrib contrib-type="author" id="A4">
+          <name>
+            <surname>Chak</surname>
+            <given-names>Kin-Fu</given-names>
+          </name>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>kfchak@ym.edu.tw</email>
+        </contrib>
+        <contrib contrib-type="author" id="A5">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Wensi S</given-names>
+          </name>
+          <xref ref-type="aff" rid="I4">4</xref>
+          <email>huws@ym.edu.tw</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A6">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Shiau-Ting</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I5">5</xref>
+          <email>tingnahu@ym.edu.tw</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Institute of Microbiology and Immunology, School of Life Science, National Yang-Ming University, Taipei 11221, Taiwan</aff>
+      <aff id="I2"><label>2</label>Institute of Biological Chemistry, Academia Sinica, Taipei 11529, Taiwan</aff>
+      <aff id="I3"><label>3</label>Institute of Biochemistry, National Yang Ming University, Taipei, 11221, Taiwan</aff>
+      <aff id="I4"><label>4</label>Department of Biotechnology and Laboratory Science in Medicine, National Yang-Ming University, Taipei 11221, Taiwan</aff>
+      <aff id="I5"><label>5</label>Department of Education and Research, Taipei City Hospital, Taipei, Taiwan</aff>
+      <pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>2</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>11</volume>
+      <fpage>33</fpage>
+      <lpage>33</lpage>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>6</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>2</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2011 Lei et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <copyright-holder>Lei et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.biomedcentral.com/1471-2180/11/33"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>BtuB (<underline>B</underline> 
+<underline>t</underline>welve <underline>u</underline>ptake) is an outer membrane protein of <italic>Escherichia coli</italic>, it serves as a receptor for cobalamines uptake or bactericidal toxin entry. A decrease in the production of the BtuB protein would cause <italic>E. coli </italic>to become resistant to colicins. The production of BtuB has been shown to be regulated at the post-transcriptional level. The secondary structure switch of 5' untranslated region of <italic>butB </italic>and the intracellular concentration of adenosylcobalamin (Ado-Cbl) would affect the translation efficiency and RNA stability of <italic>btuB</italic>. The transcriptional regulation of <italic>btuB </italic>expression is still unclear.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>To determine whether the <italic>btuB </italic>gene is also transcriptionally controlled by trans-acting factors, a genomic library was screened for clones that enable <italic>E. coli </italic>to grow in the presence of colicin E7, and a plasmid carrying <italic>gadX </italic>and <italic>gadY </italic>genes was isolated. The <italic>lacZ </italic>reporter gene assay revealed that these two genes decreased the <italic>btuB </italic>promoter activity by approximately 50%, and the production of the BtuB protein was reduced by approximately 90% in the presence of a plasmid carrying both <italic>gadX </italic>and <italic>gadY </italic>genes in <italic>E. coli </italic>as determined by Western blotting. Results of electrophoretic mobility assay and DNase I footprinting indicated that the GadX protein binds to the 5' untranslated region of the <italic>btuB </italic>gene. Since <italic>gadX </italic>and <italic>gadY </italic>genes are more highly expressed under acidic conditions, the transcriptional level of <italic>btuB </italic>in cells cultured in pH 7.4 or pH 5.5 medium was examined by quantitative real-time PCR to investigate the effect of GadX. The results showed the transcription of <italic>gadX </italic>with 1.4-fold increase but the level of <italic>btuB </italic>was reduced to 57%.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>Through biological and biochemical analysis, we have demonstrated the GadX can directly interact with <italic>btuB </italic>promoter and affect the expression of <italic>btuB</italic>. In conclusion, this study provides the first evidence that the expression of <italic>btuB </italic>gene is transcriptionally repressed by the acid responsive genes <italic>gadX </italic>and <italic>gadY</italic>.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>BtuB (<underline>B</underline> <underline>t</underline>welve <underline>u</underline>ptake) is a 614 amino acid outer membrane protein of <italic>Escherichia coli</italic>. It is responsible for the uptake of cobalamins [<xref ref-type="bibr" rid="B1">1</xref>], such as vitamin B<sub>12 </sub>including cyanocobalamin, hydroxocobalamin, methylcobalamin, and adenosylcobalamin[<xref ref-type="bibr" rid="B2">2</xref>]. It also serves as the receptor for bacteriophage BF23 [<xref ref-type="bibr" rid="B3">3</xref>]. The synthesis of the BtuB protein in <italic>E. coli </italic>is regulated at the translational level by adenosylcobalamin (Ado-Cbl) which is produced by the BtuR protein (CobA in <italic>Salmonella typhimurium </italic>and CobO in <italic>Pseudomonas denitrificans</italic>) [<xref ref-type="bibr" rid="B4">4</xref>-<xref ref-type="bibr" rid="B6">6</xref>]. BtuR is an ATP:corrinoid adenosyltransferase and converts cobalamins to Ado-Cbl [<xref ref-type="bibr" rid="B4">4</xref>]. In the presence of Ado-Cbl, the stability of the <italic>btuB </italic>mRNA is reduced with a half-life of only 2 - 4 minutes [<xref ref-type="bibr" rid="B7">7</xref>]. In addition, Ado-Cbl binds to the leader region (5' untranslated region, 5' UTR) of the <italic>btuB </italic>mRNA and suppresses its translation [<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>]. A 25-nucleotide sequence designated as the B<sub>12</sub>-box located +138 - +162 nucleotides downstream from the transcription initiation site of <italic>btuB </italic>in <italic>E. coli </italic>has been suggested to be the binding site of Ado-Cbl [<xref ref-type="bibr" rid="B10">10</xref>]. A B<sub>12</sub>-box is also present in the 5' UTR of both <italic>btuB </italic>and <italic>cbiA </italic>genes of <italic>S. typhimurium </italic>[<xref ref-type="bibr" rid="B11">11</xref>]. The <italic>btuB </italic>gene of <italic>S. typhimurium </italic>is highly homologous to that of <italic>E. coli</italic>. The CbiA protein is a cobyrinic acid a, c-diamide synthase using cobyrinic acid as substrate [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B12">12</xref>]. Binding of Ado-Cbl to the 5' UTR of the mRNAs of these genes may interfere with ribosome binding and thus decrease their translation [<xref ref-type="bibr" rid="B7">7</xref>-<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B13">13</xref>].</p>
+      <p>It is unknown whether BtuB synthesis is also controlled by regulatory proteins at the transcriptional level. Results of this study suggest that GadX (<underline>G</underline>lutamic <underline>a</underline>cid <underline>d</underline>ecarboxylation) is a transcriptional regulator of <italic>btuB</italic>. GadX has been shown to suppress the expression of <italic>perA </italic>encoded by a plasmid of enteropathogenic <italic>E. coli </italic>[<xref ref-type="bibr" rid="B14">14</xref>], but activate <italic>gadX, gadA</italic>, <italic>gadB</italic>, and <italic>gadC </italic>in response to acid stress [<xref ref-type="bibr" rid="B15">15</xref>-<xref ref-type="bibr" rid="B19">19</xref>]. GadA and GadB are isozymes of glutamate decarboxylases that convert glutamate to gamma-aminobutyric acid (GABA) which is then exported by the antiporter protein GadC [<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref>]. An intracellular proton is consumed during GABA production [<xref ref-type="bibr" rid="B22">22</xref>], but the released GABA, which is less acidic than glutamate, provides local buffering of the extracellular environment.</p>
+      <p>The expression of <italic>gadX </italic>is activated by the alternative sigma factor RpoS during the stationary phase of growth [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B21">21</xref>], but is repressed during the exponential phase by the nucleoid protein H-NS due to its binding to the <italic>gadX </italic>promoter or its destabilizing effect on RpoS [<xref ref-type="bibr" rid="B23">23</xref>-<xref ref-type="bibr" rid="B25">25</xref>]. However, the acid stress increases the RpoS level and thus induces <italic>gadX </italic>expression even during the exponential phase of growth [<xref ref-type="bibr" rid="B26">26</xref>]. GadW, like GadX, belongs to the family of AraC-like regulators. It represses the expression of <italic>gadX </italic>and inhibits the activation of <italic>gadA </italic>and <italic>gadBC </italic>by GadX [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B27">27</xref>]. In addition to these trans-acting proteins, the production of GadX is also controlled by <italic>gadY </italic>that is located between <italic>gadX </italic>and <italic>gadW </italic>in an opposite orientation to <italic>gadX </italic>[<xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref>]. The <italic>gadY </italic>gene has no known protein products. It produces three RNA species of 105, 90, and 59 nucleotides with a common 3' end [<xref ref-type="bibr" rid="B28">28</xref>]. The 3' ends of <italic>gadX </italic>and <italic>gadY </italic>RNAs overlap by at least 30 nucleotides and are complementary to each other. Annealing of <italic>gadY </italic>RNA to the 3' end of <italic>gadX </italic>mRNA stabilizes <italic>gadX </italic>mRNA, resulting in an increased production of the GadX protein [<xref ref-type="bibr" rid="B28">28</xref>].</p>
+      <p>BtuB is also involved in the import of colicins such as colicin E7 (ColE7) [<xref ref-type="bibr" rid="B30">30</xref>-<xref ref-type="bibr" rid="B34">34</xref>]. ColE7 is composed of three domains responsible for the translocation of ColE7 through the OmpF porin, binding of ColE7 to BtuB, and cleavage of DNA [<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref>], respectively. The import of ColE7 is dependent on the Tol (tolerance to colicin) system that is composed of TolQ, TolR, TolA, and TolB proteins [<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref>]. Deletion or mutation of BtuB, OmpF, or any of the Tol proteins renders <italic>E. coli </italic>resistant to ColE7 [<xref ref-type="bibr" rid="B33">33</xref>,<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B38">38</xref>]. Based on this information, we used a ColE7 resistance assay in this study to search for transcriptional regulators of <italic>btuB </italic>from a genomic library of <italic>E. coli </italic>strain DH5alpha and found that <italic>gadX </italic>and <italic>gadY </italic>genes down regulate the expression of <italic>btuB</italic>.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Screening of genes conferring <italic>E. coli </italic>resistance to ColE7</title>
+        <p>To search for genes that can confer <italic>E. coli </italic>resistance to ColE7, plasmids in the genomic library were transformed into the ColE7-sensitive <italic>E. coli </italic>strain DH5alpha, and the transformants were plated on LB agar plates containing 50 mug/ml of ampicillin and 5.0 ng/ml of His<sub>6</sub>-tagged ColE7/ImE7. Two colonies were seen after incubation at 37 degrees C overnight. The plasmids of each colony were isolated after culturing in 3 ml LB medium containing 50 mug/ml of ampicillin then retransformed into DH5alpha. The new transformants were plated on agar plates containing 0, 1.3, 2.6, 3.9, or 5.2 ng/ml of His<sub>6</sub>-tagged ColE7/ImE7 to confirm their resistance to ColE7. The insert in the plasmid that conferred DH5alpha resistance to 5.2 ng/ml His<sub>6</sub>-tagged ColE7/ImE7 was sequenced. A 1,470-bp DNA region on the chromosome at position 3662617 to 3664086 was analyzed that contains both complete <italic>gadX </italic>and <italic>gadY </italic>genes. The plasmid was thus named pGadXY (Figure <xref ref-type="fig" rid="F1">1</xref>).</p>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Structures of pGAD10, pGadXY, pGadX, and pGadY</bold>. pGAD10 was the vector used to clone <italic>gadXY</italic>, <italic>gadX</italic>, and <italic>gadY</italic>. pGadXY has a 1,470-bp fragment containing <italic>gadX</italic>, <italic>gadY</italic>, and a portion of <italic>gadW </italic>of <italic>E. coli </italic>K-12 genomic DNA inserted into the <italic>Eco</italic>RI site of pGAD10. pGadX contains a DNA fragment carrying the 825-bp <italic>gadX </italic>also inserted into the <italic>Eco</italic>RI site of pGAD10. pGadY is derived from pGadXY by deleting the 601-bp <italic>Nco</italic>I-<italic>Dra</italic>III fragment and thus contains a truncated <italic>gadX</italic>, the entire <italic>gadY</italic>, and a portion of <italic>gadW</italic>. Nucleotide sequences of the promoter regions of <italic>gadX </italic>and <italic>gadY </italic>are shown. The orientation of <italic>gadX </italic>is opposite to that of <italic>gadY</italic>. The sigma factor S (RpoS) recognition site and the Shine-Dalgarno (SD) sequence are shown in the 5' end region of <italic>gadX</italic>. P<sub>ADH </sub>is the promoter of GAL4-AD and is not functional in <italic>E. coli</italic>.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-33-1"/>
+        </fig>
+        <p>To determine whether <italic>gadX </italic>or <italic>gadY </italic>was responsible for ColE7 resistance, pGadX, pGadY, and pGadXY that contain <italic>gadX</italic>, <italic>gadY</italic>, and <italic>gadXY</italic>, respectively, were separately introduced into <italic>E. coli </italic>strain DH5alpha and then assayed for their ability to confer ColE7 resistance. 1 x 10<sup>5 </sup>cells containing pGadX, pGadY, or pGadXY were plated on LB agar containing 1.3, 2.6, 3.9, or 5.2 ng/ml of His<sub>6</sub>-tagged ColE7/ImE7. Cells containing the vector pGAD10 were also plated to serve as controls. The percent survival of cells containing pGAD10, pGadXY, pGadX, and pGadY in the presence of 1.3 ng/ml of His<sub>6</sub>-tagged ColE7/ImE7 were 41.7, 95.5, 71.4, and 73.5%, respectively, and 1.5, 63.9, 3.6, and 9.1%, respectively, in the presence of 2.6 ng/ml of His<sub>6</sub>-tagged ColE7/ImE7. Only pGadXY conferred ColE7 resistance to 3.9 and 5.2 ng/ml of His<sub>6</sub>-tagged ColE7/ImE7 with 29.1 and 17.1% survival rates, respectively (Table <xref ref-type="table" rid="T1">1</xref>).</p>
+        <table-wrap id="T1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Effects of <italic>gadXY</italic>, <italic>gadX</italic>, and <italic>gadY </italic>on ColE7 resistance</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="center">ColE7 conc./Bacteria</th>
+                <th align="center">pGAD10/DH5alpha</th>
+                <th align="center">pGadXY/DH5alpha</th>
+                <th align="center">pGadX/DH5alpha</th>
+                <th align="center">pGadY/DH5alpha</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">1.3 ng/ml</td>
+                <td align="center">41.7%</td>
+                <td align="center">95.5%</td>
+                <td align="center">71.4%</td>
+                <td align="center">73.5%</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">2.6 ng/ml</td>
+                <td align="center">1.5%</td>
+                <td align="center">63.9%</td>
+                <td align="center">3.6%</td>
+                <td align="center">9.1%</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">3.9 ng/ml</td>
+                <td align="center">0</td>
+                <td align="center">29.1%</td>
+                <td align="center">0</td>
+                <td align="center">0</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">5.2 ng/ml</td>
+                <td align="center">0</td>
+                <td align="center">17.1%</td>
+                <td align="center">0</td>
+                <td align="center">0</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Detection of protein whose expression is affected by <italic>gadXY</italic></title>
+        <p>To investigate the mechanism by which <italic>gadXY </italic>affects ColE7 resistance, the expression levels of BtuB, TolQ, TolR, TolA, TolB, Pal, and OmpF that are involved in ColE7 import were determined by Western blotting, and BtuB was the only protein found to be affected. Its expression level was reduced by 93% in the presence of <italic>gadXY </italic>(Figure <xref ref-type="fig" rid="F2">2</xref>) as determined by densitometry.</p>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Effects of <italic>gadXY </italic>on the production of envelope proteins involved in ColE7 uptake</bold>. Cell lysates of <italic>E. coli </italic>DH5alpha cells harboring pGAD10 or pGadXY were examined by Western blotting using antibodies against envelope proteins BtuB, TolQ, TolR, TolA, TolB, Pal, and OmpF.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-33-2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Effect of <italic>gadXY </italic>on <italic>btuB </italic>promoter</title>
+        <p>To determine whether <italic>gadXY </italic>affects the transcription of <italic>btuB</italic>, the beta-galactosidase reporter assay was performed. The 461-, 673-, 913-, and 1285-bp DNA fragments (Figure <xref ref-type="fig" rid="F3">3</xref>) containing the promoter of <italic>btuB </italic>were fused with the <italic>lacZ </italic>coding sequence to generate pCB<sub>461</sub>lacZ, pCB<sub>673</sub>lacZ, pCB<sub>913</sub>lacZ, and pCB<sub>1285</sub>lacZ, respectively. Each of these single copy plasmid together with pGAD10 or pGadXY was transformed into <italic>E. coli </italic>strain DH5alpha. The transformed cells were grown in LB medium with 50 mug/ml of chloramphenicol and ampicilin to OD<sub>600</sub>~0.8 then assayed for beta-galactosidase activity as described by Miller [<xref ref-type="bibr" rid="B39">39</xref>]. The beta-galactosidase activity of cells containing pGadXY and a pCB derivative with the <italic>btuB </italic>promoter-<italic>lacZ </italic>fusion was divided by that of cells containing the control plasmid pGAD10 and the same pCB derivative to determine the percent decrease in <italic>btuB </italic>promoter activity in the presence of <italic>gadXY</italic>. The <italic>btuB </italic>promoter in the 461-, 673-, 913-, and 1285-bp DNA fragment was found to be decreased by 45.7, 47.1, 54.5, and 56.7%, respectively in the presence of <italic>gadXY</italic>, and was about 6 fold more active in the 1285-bp fragment than in other fragments (Table <xref ref-type="table" rid="T2">2</xref>).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>DNA fragments containing the <italic>btuB </italic>promoter used for <italic>lacZ </italic>fusions</bold>. The <italic>btuB </italic>initiation codon ATG is located at nucleotide position +242. Asterisk indicates the first nucleotide of the <italic>btuB </italic>mRNA. The <italic>trmA </italic>(tRNA methyltransferase) gene is located upstream from <italic>btuB</italic>. It has no known effect on btuB expression.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-33-3"/>
+        </fig>
+        <table-wrap id="T2" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>Effect of <italic>gadXY </italic>on <italic>btuB </italic>promoter</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Plasmid</th>
+                <th align="center">
+                  <bold>beta-galactosidase activity</bold>
+                  <sup>
+<bold>a</bold>
+</sup>
+                </th>
+                <th align="center">
+                  <bold>% inhibition</bold>
+                  <sup>
+<bold>b</bold>
+</sup>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">(A): pGAD10 + pC-lacZ</td>
+                <td align="center">0</td>
+                <td/>
+              </tr>
+              <tr>
+                <td align="left">(B): pGadXY + pC-lacZ</td>
+                <td align="center">0</td>
+                <td/>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(A): pGAD10 + pCB<sub>461</sub>lacZ</td>
+                <td align="center">6.4  +-  0.2</td>
+                <td align="center">45.7</td>
+              </tr>
+              <tr>
+                <td align="left">(B): pGadXY + pCB<sub>461</sub>lacZ</td>
+                <td align="center">3.5  +-  0.2</td>
+                <td/>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(A): pGAD10 + pCB<sub>673</sub>lacZ</td>
+                <td align="center">7.2  +-  0.1</td>
+                <td align="center">47.1</td>
+              </tr>
+              <tr>
+                <td align="left">(B): pGadXY + pCB<sub>673</sub>lacZ</td>
+                <td align="center">3.8  +-  0.1</td>
+                <td/>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(A): pGAD10 + pCB<sub>913</sub>lacZ</td>
+                <td align="center">4.8  +-  0.2</td>
+                <td align="center">54.5</td>
+              </tr>
+              <tr>
+                <td align="left">(B): pGadXY + pCB<sub>913</sub>lacZ</td>
+                <td align="center">2.2  +-  0.5</td>
+                <td/>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(A): pGAD10 + pCB<sub>1285</sub>lacZ</td>
+                <td align="center">37.5  +-  0.7</td>
+                <td align="center">56.7</td>
+              </tr>
+              <tr>
+                <td align="left">(B): pGadXY + pCB<sub>1285</sub>lacZ</td>
+                <td align="center">16.2  +-  0.5</td>
+                <td/>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a</sup>Miller unit.</p>
+            <p><sup>b</sup>Caculated according to the following equation: 1- [beta-galactosidase activity of (B) &#xF7; beta-galactosidase activity of (A)] x 100%.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>To investigate the effect of <italic>gadX </italic>or <italic>gadY </italic>alone on the promoter activity of <italic>btuB</italic>, the same experiment was performed using DH5alpha cells containing pCB<sub>1285</sub>lacZ and pGAD10, pGadXY, pGadX, or pGadY. The beta-galactosidase activity of cells containing pCB<sub>1285</sub>lacZ and pGadXY, pGadX, or pGadY was compared to those containing pGAD10 and pCB<sub>1285</sub>lacZ. The results indicated that <italic>btuB </italic>promoter activity was decreased 20.5% by <italic>gadX </italic>and 20.3% by <italic>gadY</italic>, but was decreased 54.4% by <italic>gadXY </italic>(Table <xref ref-type="table" rid="T3">3</xref>).</p>
+        <table-wrap id="T3" position="float">
+          <label>Table 3</label>
+          <caption>
+            <p>Effect of <italic>gadX</italic>, <italic>gadY</italic>, and gad<italic>XY </italic>on <italic>btuB </italic>promoter</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Plasmids</th>
+                <th align="center">
+                  <bold>beta-galactosidase activity</bold>
+                  <sup>
+<bold>a</bold>
+</sup>
+                </th>
+                <th align="center">
+                  <bold>% inhibition</bold>
+                  <sup>
+<bold>b</bold>
+</sup>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">(A): pGAD10/pC-lacZ</td>
+                <td align="center">0</td>
+                <td/>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(B): pGAD10/pCB<sub>1285</sub>lacZ</td>
+                <td align="center">48.8  +-  3.9</td>
+                <td/>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(C): pGadXY/pCB<sub>1285</sub>lacZ</td>
+                <td align="center">22.3  +-  0.7</td>
+                <td align="center">54.4</td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(D): pGadX/pCB<sub>1285</sub>lacZ</td>
+                <td align="center">38.9  +-  2.6</td>
+                <td align="center">20.5</td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">(E): pGadY/pCB<sub>1285</sub>lacZ</td>
+                <td align="center">38.9  +-  2.0</td>
+                <td align="center">20.3</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a</sup>Miller unit</p>
+            <p><sup>b</sup>Calculated according to the following equation: 1- [beta-galactosidase activity of (C), (D), or (E) &#xF7; beta-galactosidase activity of (A)] x 100%.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Binding of GadX to <italic>btuB </italic>promoter</title>
+        <p>GadX has been shown to be a DNA binding protein and can bind to the <italic>gadA </italic>or the <italic>gadB </italic>promoter. To determine whether GadX also binds to the <italic>btuB </italic>promoter, the DNA mobility shift assay was performed. Only GadX was assayed because <italic>gadY </italic>does not encode any proteins. The 461-bp DNA fragment containing the <italic>btuB </italic>promoter was labeled with <sup>32</sup>P and incubated with 2, 4, or 6 pmoles of purified GadX protein (MalE-GadX) that was fused to the maltose binding protein. The DNA fragment containing the promoter of <italic>gadA </italic>or <italic>gadB </italic>was used as the positive control for GadX binding, and the DNA fragment containing the <italic>pal </italic>promoter was used as the negative control. As shown in Figure <xref ref-type="fig" rid="F4">4</xref>, DNA band shift was observed on <italic>gadA </italic>and <italic>gadB </italic>promoter fragments but not on the negative control. Band shift was also observed on the <italic>btuB </italic>promoter fragment in a dose-dependent manner, indicating that GadX binds to the <italic>btuB </italic>promoter.</p>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Binding of GadX to <italic>btuB </italic>promoter</bold>. <sup>32</sup>P-labeled DNA fragments PbtuB, PgadA, PgadB, and Ppal containing the promoters of <italic>btuB</italic>, <italic>gadA</italic>, <italic>gadB</italic>, and <italic>pal</italic>, respectively, were incubated with GadX fused to the maltose binding protein (MalE-GadX) at 0, 2, 4, or 6 pmoles. The reaction mixtures were electrophoresed in a 5% native polyacrylamide gel. Band shift due to GadX binding was visualized by autoradiography. Arrows indicate bands of DNA probes not bound by GadX.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-33-4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Identification of binding sequence of GadX on <italic>btuB </italic>promoter</title>
+        <p>DNase I footprinting was then performed to determine the binding sequence of GadX on the <italic>btuB </italic>promoter. The 461-bp DNA fragment containing the <italic>btuB </italic>promoter was labeled with <sup>32</sup>P and incubated with 0, 2, 4, or 8 pmoles of purified MalE-GadX protein and then digested with DNase I. Results shown in Figure <xref ref-type="fig" rid="F5">5</xref> revealed three MalE-GadX protein binding sites that included nucleotide positions +56 - +81 (I), +96 - +105 (II) and +123 - +137 (III) on the 5' untranslated region of <italic>btuB</italic>.</p>
+        <fig id="F5" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Binding sequence of GadX on <italic>btuB </italic>promoter</bold>. (A) The 461-bp DNA fragment containing <italic>btuB </italic>promoter was labeled at 5' end with <sup>32</sup>P, incubated with 0, 16, 24, 32, or 40 pmoles of MalE-GadX, and then subjected to DNase I footprinting. A Sanger's DNA sequencing reaction was also done on the 461-bp fragment to reveal GadX binding sequences. All reactions were electrophoresed in a 6% urea-acrylamide gel, and the DNA bands were detected by autoradiography. The GadX bound regions are indicated with vertical lines, and the binding sequence of GadX are shown. (B) Sequence of the <italic>btuB </italic>promoter region. The boxed sequences are GadX binding sequences determined by the DNase I footprinting. The shaded sequences are -10 and -35 regions of the <italic>btuB </italic>promoter. The initiation codon of <italic>btuB </italic>is underlined.</p>
+          </caption>
+          <graphic xlink:href="1471-2180-11-33-5"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Decreased <italic>btuB </italic>expression under acidic conditions</title>
+        <p>It is known that <italic>gadX </italic>and <italic>gadY </italic>are more highly expressed under acidic environments in stationary phase [<xref ref-type="bibr" rid="B15">15</xref>-<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B28">28</xref>]. To determine whether the expression of <italic>btuB </italic>is also repressed in an acidic condition, wild type BW25113 cells were cultured in LB medium pH 7.4 or buffered with 100 mM MES pH5.5. Stationary phase cells grown in different culture media were collected and then assayed for the transcriptional level of <italic>btuB </italic>by quantitative real-time PCR. The cDNA amplification comparison results showed the transcription of <italic>gadX </italic>with 1.4-fold increase but the level of <italic>btuB </italic>was reduced to 57% (Table <xref ref-type="table" rid="T4">4</xref>).</p>
+        <table-wrap id="T4" position="float">
+          <label>Table 4</label>
+          <caption>
+            <p>Fold changes of transcripts of <italic>gadX </italic>and <italic>btuB </italic>attribute to different pH medium (pH 5.5/pH 7.4) from early stationary phase.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="center">Gene</th>
+                <th align="center">
+                  <bold>Fold increase</bold>
+                  <sup>
+<bold>a</bold>
+</sup>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <italic>gadX</italic>
+                </td>
+                <td align="center">1.43  +-  0.07</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>btuB</italic>
+                </td>
+                <td align="center">0.57  +-  0.13</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>Experiments were performed in triplicate and the data are presented as mean values  +-  SD.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>Although it has been suggested that the expression of <italic>btuB </italic>in <italic>E. coli </italic>is also regulated at the transcriptional level, the trans-acting regulators of <italic>btuB </italic>had not been identified [<xref ref-type="bibr" rid="B40">40</xref>,<xref ref-type="bibr" rid="B41">41</xref>]. In this study, we used the ColE7 resistance assay to search for such regulators and found that both <italic>gadX </italic>and <italic>gadY </italic>genes can repress the production of BtuB rendering <italic>E. coli </italic>DH5alpha cells resistant to ColE7. Introduction of pGadX, which contains a <italic>gadX </italic>gene, into DH5alpha cells caused 3.6% of the cells to become resistant to 2.6 ng/ml of ColE7. In a similar experiment, pGadY which contains the <italic>gadY </italic>gene enabled 9.1% of the cells to grow in the presence of the same concentration (2.6 ng/ml) of ColE7 (Table <xref ref-type="table" rid="T1">1</xref>). Although <italic>gadY </italic>does not encode any proteins, it had a greater effect on making <italic>E. coli </italic>resistant to ColE7 than <italic>gadX</italic>. This is probably due to the binding of <italic>gadY </italic>RNA derived from pGadY to the <italic>gadX </italic>mRNA produced by the <italic>gadX </italic>gene in the chromosome. This binding stabilizes <italic>gadX </italic>mRNA so that more GadX protein is produced to suppress the production of BtuB, making the cells resistant to ColE7. The greatest effect (63.9% survival in 2.6 ng/ml ColE7) on ColE7 resistance was seen when pGadXY, which contains both <italic>gadX </italic>and <italic>gadY </italic>genes, was introduced into the cells. Since pGadXY is a high copy number plasmid, more <italic>gadX </italic>and <italic>gadY </italic>mRNAs would be produced and thus more GadX protein would be synthesized to suppress BtuB synthesis. However, excess GadX had adverse effects as over expression of GadX with a strong promoter, such as the T5-<italic>lacO </italic>promoter, was found to have toxic effect to <italic>E. coli </italic>[<xref ref-type="bibr" rid="B19">19</xref>]. Therefore, expression of <italic>gadX </italic>and <italic>gadY </italic>in this study was driven by their own promoters.</p>
+      <p>Since GadX is a known transcriptional regulator [<xref ref-type="bibr" rid="B14">14</xref>-<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B42">42</xref>], the decrease in BtuB expression is due to its transcriptional repression by GadX. Our data showed that the <italic>btuB </italic>promoter activity was reduced by approximately 50% in the presence of <italic>gadXY </italic>(Table <xref ref-type="table" rid="T2">2</xref>), most likely due to binding of GadX to the 5' untranslated region of <italic>btuB </italic>as DNase I footprinting experiment revealed binding of GadX to nucleotides positions +56 - +81 (I), +96 - +105 (II) and +123 - +137 (III) downstream from the <italic>btuB </italic>transcription initiation site (Figure <xref ref-type="fig" rid="F5">5</xref>). From the sequence alignment of GadX binding sites on <italic>btuB</italic>, <italic>gadA</italic>, and <italic>gadBC </italic>regulatory regions[<xref ref-type="bibr" rid="B42">42</xref>], we found that sequence in the region I (the 31 nucleotides) has 62.5% identity (+52-AGCG<underline>GTAAGGAAAGGTGCGATGATTGCGTT</underline>AT-+82, underlined nucleotides indicate the protected region) with <italic>gadBC </italic>and sequence in the region III (the 26 nucleotides) has 60.7% identity (+106-AAGTCATCATCTCTTAG<underline>TATCTTAGATA-</underline>+133, underlined nucleotides indicate the protected region) with <italic>gadA </italic>regulatory region. From the footprinting result, the GadX binding sites on 5' untranslated region of <italic>btuB </italic>share only partial homology with the 42 nucleotides consensus sequence which was reported by Tramonti <italic>et. al.</italic>[<xref ref-type="bibr" rid="B42">42</xref>]. The sequence analysis also revealed the <italic>btuB </italic>expression was regulated by the binding of GadX on its 5' untranslated region. Binding of transcriptional regulator to the 5' untranslated region to regulate gene expression is also seen in the <italic>glp </italic>regulon of <italic>E. coli</italic>, in which four repressor binding sites are located at -41 to -60, -9 to -28, +12 to -8, and +52 to +33 of the <italic>glpACB </italic>genes [<xref ref-type="bibr" rid="B43">43</xref>]. In addition, two IHF binding sites are present downstream from the <italic>glpT </italic>transcriptional start site at positions +15 to +51 and +193 to +227 [<xref ref-type="bibr" rid="B44">44</xref>].</p>
+      <p>In the <italic>btuB </italic>promoter assay experiment, different lengths of DNA fragments containing <italic>btuB </italic>promoter were fused to <italic>lacZ</italic>. The minimum length of DNA fragment with <italic>btuB </italic>promoter activity was 461 bp spanning -219 to + 242 nucleotides relative to the translation initiation site of <italic>btuB</italic>. No significant difference in promoter activity was observed when the 5' end of these fragments was extended to -671. However, a 6 fold (37.5 vs. 6.4 beta-galactosidase units, Table <xref ref-type="table" rid="T2">2</xref>) increase in promoter activity was detected when the DNA fragment was extended to -1043 with a total length of 1,285 bp as compared to that of the 461-bp fragment. It is very likely that a certain transcription regulator binds to the region between -1043 and -671 and enhances the expression of <italic>btuB</italic>. The beta-galactosidase activity in these assays was not very high because the <italic>lacZ </italic>fusions were constructed using the single copy plasmid vector pCC1Bac (TM)  (Epicentre). The purpose of using the single copy number plasmid in this experiment was to mimic the natural state of <italic>btuB </italic>expression in <italic>E. coli</italic>. In fact, the promoter activity of <italic>btuB </italic>is lower than other membrane protein, we have determined the <italic>ompC </italic>promoter activity, under the same test condition the Miller's Units of <italic>lacZ </italic>driven by <italic>ompC </italic>promoter is 8 folds higher than that of <italic>btuB </italic>(data not shown).</p>
+      <p>Although the results of footprinting and reporter assay revealed that the GadX binding sites on <italic>btuB </italic>5' untranslated region share only partial homology with the GadX binding consensus sequence[<xref ref-type="bibr" rid="B42">42</xref>] and showing 50% down regulation in the reporter assay, the expression of <italic>btuB </italic>was indeed controlled by GadX.</p>
+      <p>Both <italic>gadX </italic>and <italic>gadY </italic>genes belong to a group of genes that are induced by acid stress under stationary growth phase [<xref ref-type="bibr" rid="B44">44</xref>]. Our data showed that the expression of <italic>btuB </italic>was indeed reduced when <italic>E. coli </italic>cells were grown to stationary phase in an acidic medium as compared to the same cells grown in neutral medium (Table <xref ref-type="table" rid="T4">4</xref>). The reduction in the production of <italic>btuB </italic>in response to acid stress probably represents a physiological regulatory mechanism of bacteria facing environmental challenges such as low pH. Under stress environment, bacteria need to alter their metabolism to adapt to the environmental change. The transportation of cobalamin by BtuB receptor is driven by proton motive force (PMF)[<xref ref-type="bibr" rid="B45">45</xref>]. Since the PMF of bacteria is increased at low pH[<xref ref-type="bibr" rid="B46">46</xref>], the cobalamin transportation may be enhanced by increased PMF. The higher concentration of cobalamin in cytoplasm will initiate riboswitch mechanism to repress the translation of BtuB receptor, which is in good accord with the repression of <italic>btuB </italic>transcription by the acid-induced GadX for bacteria to decrease the production of BtuB in response to this acidic stress.</p>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>Conclusions</title>
+      <p>Through biological and biochemical analysis, we have demonstrated the GadX can directly interact with <italic>btuB </italic>promoter and affect the expression of <italic>btuB</italic>. When bacteria were grown to stationary phase in an acidic medium, the increased <italic>gadX </italic>expression would repress the <italic>btuB </italic>transcription to help bacteria to adapt to acidic shock. In conclusion, this study provides the first evidence that the expression of <italic>btuB </italic>gene is transcriptionally repressed by the acid responsive genes <italic>gadX </italic>and <italic>gadY</italic>.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Plasmid constructions</title>
+        <p>To produce the His<sub>6</sub>-tagged ColE7/Im7 protein complex for the ColE7 resistance assay, pQE30<sub>ColE7-Im7 </sub>was constructed. The <italic>cea7</italic>-<italic>cei7 </italic>genes encoding the colicin E7 and immunity proteins, that form an active ColE7 complex, were amplified from plasmid K317 [<xref ref-type="bibr" rid="B47">47</xref>] by PCR using primers F/cea7-<italic>Bam</italic>HI and R/cei-<italic>Pst</italic>I (Table <xref ref-type="table" rid="T5">5</xref>). The 1,996-bp PCR product thus generated was inserted between <italic>Bam</italic>HI and <italic>Pst</italic>I sites of pQE30 (Qiagen), fusing the His<sub>6</sub>-tag to the N terminus of ColE7. For searching transcriptional regulators of <italic>btuB</italic>, a genomic library of <italic>E. coli </italic>K-12 strain constructed with the pGAD10 vector (Figure <xref ref-type="fig" rid="F1">1</xref>) was purchased from Clontech (catalog number XL4001AB) and transformed into <italic>E. coli </italic>strain DH5alpha. The plasmid pGadXY (Figure <xref ref-type="fig" rid="F1">1</xref>) was isolated from the library in this study. To investigate the effect of GadX on <italic>btuB </italic>expression, pGadX was constructed as follows. A 1,077-bp DNA fragment containing <italic>gadX </italic>was generated by PCR using pGadXY (Figure <xref ref-type="fig" rid="F1">1</xref>) as the template and the MATCHMAKER 5' insert screening sequence 5'-TACCACTACAATGGATG-3' (Clontech) and R/gadX-<italic>Pst</italic>I (Table <xref ref-type="table" rid="T5">5</xref>) as primers. This 1.1-kb PCR fragment was inserted into pGEM-T<sub>Easy </sub>(Promega) by TA cloning, generating pGEMgadX. The 1.1-kb fragment was then isolated from pGEMgadX by <italic>Eco</italic>RI digestion and inserted into the <italic>Eco</italic>RI site of pGAD10, resulting in pGadX (Figure <xref ref-type="fig" rid="F1">1</xref>). To investigate the effect of <italic>gadY </italic>on <italic>btuB </italic>expression, pGadY (Figure <xref ref-type="fig" rid="F1">1</xref>) was constructed by deleting the <italic>Nco</italic>I-<italic>Dra</italic>III fragment containing <italic>gadX </italic>from pGadXY.</p>
+        <table-wrap id="T5" position="float">
+          <label>Table 5</label>
+          <caption>
+            <p>Oligonucleotide primers used in this study</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Primer</th>
+                <th align="left">Sequence 5 '- 3'</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">F/cea7-<italic>Bam</italic>HI</td>
+                <td align="left"><underline>GGATCC</underline>ATGAGCGGTGGAGATGGACG</td>
+              </tr>
+              <tr>
+                <td align="left">R/cei7-<italic>Pst</italic>I</td>
+                <td align="left"><underline>CTGCAG</underline>TCAGCCCTGTTTAAATCC</td>
+              </tr>
+              <tr>
+                <td align="left">F/btuB-219-<italic>Xba</italic>I</td>
+                <td align="left">GGC<underline>TCTAGA</underline>AAACGGTGCCATCATACTTTG</td>
+              </tr>
+              <tr>
+                <td align="left">R/btuB+242-<italic>Hin</italic>dIII</td>
+                <td align="left">GGC<underline>AAGCTT</underline>ATCATTGTAAAGCATCCACAATAG</td>
+              </tr>
+              <tr>
+                <td align="left">F/btuB-767</td>
+                <td align="left">GTTCACCGTTGCTCGATACC</td>
+              </tr>
+              <tr>
+                <td align="left">R/btuB-1087</td>
+                <td align="left">TCAGATAGATGCCGGTATTACG</td>
+              </tr>
+              <tr>
+                <td align="left">F/btuB-431-<italic>Xba</italic>I</td>
+                <td align="left">GC<underline>TCTAGA</underline>ACGGGATTATTACGC</td>
+              </tr>
+              <tr>
+                <td align="left">F/btuB-671-<italic>Xba</italic>I</td>
+                <td align="left">GC<underline>TCTAGA</underline>TCATCTCTTTCCC</td>
+              </tr>
+              <tr>
+                <td align="left">F/btuB-1043-<italic>Xba</italic>I</td>
+                <td align="left">GC<underline>TCTAGA</underline>CCGCTGCGCGGA</td>
+              </tr>
+              <tr>
+                <td align="left">R/lacZ</td>
+                <td align="left">TTATTTTTGACACCAGACC</td>
+              </tr>
+              <tr>
+                <td align="left">F/gadA-176</td>
+                <td align="left">GATCGCCCGAACAGCAA</td>
+              </tr>
+              <tr>
+                <td align="left">R/gadA+77</td>
+                <td align="left">CGTGAATCGAGTAGTTC</td>
+              </tr>
+              <tr>
+                <td align="left">F/gadB-173</td>
+                <td align="left">AATAACAGCATAAAACA</td>
+              </tr>
+              <tr>
+                <td align="left">R/gadB+77</td>
+                <td align="left">CGTGAATCGAGTAGTTCC</td>
+              </tr>
+              <tr>
+                <td align="left">F/pal-<italic>Xba</italic>I</td>
+                <td align="left"><underline>TCTAGA</underline>GAGGCGTACAAGTTCTG</td>
+              </tr>
+              <tr>
+                <td align="left">R/pal-<italic>Hin</italic>dIII</td>
+                <td align="left"><underline>AAGCTT</underline>ATCATTTCAATGATTCCTTTAC</td>
+              </tr>
+              <tr>
+                <td align="left">F/gadX-<italic>Bam</italic>HI</td>
+                <td align="left"><underline>GGATCC</underline>ATGCAACCACTACATGG</td>
+              </tr>
+              <tr>
+                <td align="left">R/gadX-<italic>Pst</italic>I</td>
+                <td align="left"><underline>CTGCAG</underline>CTATAATCTTATTCCTT</td>
+              </tr>
+              <tr>
+                <td align="left">F/gadX-393</td>
+                <td align="left">TATACCGCTGCTTCTGAACG</td>
+              </tr>
+              <tr>
+                <td align="left">R/gadX-726</td>
+                <td align="left">TCGCTCCTGATACTCTGTGG</td>
+              </tr>
+              <tr>
+                <td align="left">F/rrsA-483</td>
+                <td align="left">CGTTACCCGCAGAAGAAGC</td>
+              </tr>
+              <tr>
+                <td align="left">R/rrsA-808</td>
+                <td align="left">GTGGACTACCAGGGTATCTAATCC</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>The underlined letters indicate restriction sites.</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>To assay <italic>btuB </italic>promoter activity, DNA fragments (461, 673, 913, and 1,285 bp) containing different portions (Figure <xref ref-type="fig" rid="F3">3</xref>) of the <italic>btuB </italic>promoter was fused to <italic>lacZ</italic>. These fragments were generated by PCR using primers F/btuB-219-<italic>Xba</italic>I, F/btuB-431-<italic>Xba</italic>I, F/btuB-671-<italic>Xba</italic>I, and F/btuB-1043-<italic>Xba</italic>I paired with the 3' primer R/btuB +242-<italic>Hin</italic>dIII (Table <xref ref-type="table" rid="T5">5</xref>). The resulting PCR products were digested with <italic>Xba</italic>I and <italic>Hin</italic>dIII and then inserted into corresponding sites on pKM005 that carries a promoterless <italic>lacZ </italic>gene [<xref ref-type="bibr" rid="B48">48</xref>], generating pKMbtuB<sub>461</sub>-lacZ, pKMbtuB<sub>673</sub>-lacZ, pKMbtuB<sub>913</sub>-lacZ, and pKMbtuB<sub>1285</sub>-lacZ. To mimic native expression of <italic>btuB</italic>, these <italic>btuB</italic>-<italic>lacZ </italic>fusions were transferred to the single copy plasmid vector pCC1 (Epicentre). The fragments containing <italic>btuB </italic>promoter and <italic>lacZ </italic>on pKM005 derivatives were amplified with primers F/btuB-219-<italic>Xba</italic>I, F/btuB-431-<italic>Xba</italic>I, F/btuB-671-<italic>Xba</italic>I, and F/btuB-1043-<italic>Xba</italic>I paired with the 3' primer R/lacZ (Table <xref ref-type="table" rid="T5">5</xref>), and the resulting 3.3, 3.5, 3.74, and 4.1-kb DNA fragments were separately inserted into pGEM-T<sub>Easy </sub>(Promega) by TA cloning. The 3.3, 3.5, 3.74, and 4.1-kb fragments were then isolated from these pGEM-T<sub>Easy </sub>derivatives by <italic>Not</italic>I digestion and inserted into the <italic>Not</italic>I site of pCC1 vector, generating pCB<sub>461</sub>lacZ, pCB<sub>673</sub>lacZ, pCB<sub>913</sub>lacZ, and pCB<sub>1285</sub>lacZ. The plasmid pC-lacZ that contains a promoterless <italic>lacZ </italic>gene inserted into pCC1 vector was used as a negative control. To produce GadX for DNA binding assay, pMalE-GadX that contains maltose-binding protein fused to GadX (MalE-GadX) was constructed. The 825-bp DNA fragment containing <italic>gadX </italic>was generated by PCR using pGadXY as the template and F/gadX-<italic>Bam</italic>HI and R/gadX-<italic>Pst</italic>I (Table <xref ref-type="table" rid="T5">5</xref>) as primers and then ligated between the <italic>Bam</italic>HI and <italic>Pst</italic>I sites of pMAL-C2X (New England Biolab), resulting in pMalE-GadX.</p>
+      </sec>
+      <sec>
+        <title>Production of ColE7</title>
+        <p>To produce the His<sub>6</sub>-tagged ColE7/ImE7 complex, <italic>E. coli </italic>strain XL1-Blue containing plasmid pQE30<sub>ColE7-Im7 </sub>was cultured in LB medium containing ampicillin (50 mug/ml) and tetracycline (20 mug/ml). When the bacterial growth reached OD<sub>600 </sub>~1.0, IPTG was added to a final concentration of 1 mM. After a 2-hr induction, bacteria were harvested by centrifugation at 6,500 x g for 20 min and then resuspended in HB buffer (20 mM Tris, 150 mM NaCl, 30 mM imidazole, pH8.0). The resuspended bacteria were lysed with a French Pressure Cell (SLM Instruments, Inc. Urbane, IL), and the cell lysate was centrifuged at 48,000 x g for 1 hour. The clarified supernatant was passed through a ProBond (TM)  nickel-nitrilotriacetic acid resin affinity column (Invitrogen, Carlsbad, CA) to purify the His<sub>6</sub>-tagged ColE7/ImE7 according to manufacture's protocol (Invitrogen, Carlsbad, CA).</p>
+      </sec>
+      <sec>
+        <title>Antibody preparation for detection of protein whose expression is affected by <italic>gadXY</italic></title>
+        <p>To prepare antibodies against envelope proteins BtuB, TolQ, TolR, TolA, TolB, Pal, and OmpF, the coding region of each protein was fused inframe with His<sub>6</sub>-tag in the plasmid pQE30 (Qiagen), respectively. The His<sub>6</sub>-tagged proteins were then expressed and purified using the same method as described for His<sub>6</sub>-tagged ColE7/ImE7 and sent to the company to prepare polyclonal antibodies. The specificities of these antibodies were confirmed by Western blotting using these antibodies as reported by Pan <italic>et. al</italic>[<xref ref-type="bibr" rid="B49">49</xref>].</p>
+      </sec>
+      <sec>
+        <title>DNA binding assay</title>
+        <p>The electrophoretic mobility shift assay was performed to investigate binding of GadX to the <italic>btuB </italic>promoter. To obtain purified MalE-GadX protein, <italic>E. coli </italic>strain XL-1 Blue containing pMalE-GadX was grown in 100 ml of LB containing ampicillin (50 mug/ml) and 0.2% glucose to OD<sub>600 </sub>~1.0. IPTG was then added to a final concentration of 1 mM. After 2 hr of incubation, the cells were pelleted, resuspended in maltose binding buffer (20 mM Tris-HCl pH 8.0, 200 mM NaCl), and lysed with a French Pressure Cell. The cell lysate was centrifuged at 48,000 x g for 1 hr, and the supernatant was subjected to an amylose resin affinity chromatography (New England BioLabs) to purify the MalE-GadX protein.</p>
+        <p>To make probes for the DNA binding assay, a 461-bp (Figure <xref ref-type="fig" rid="F3">3</xref>, -219 - +242) DNA fragment containing the <italic>btuB </italic>promoter was amplified with primers F/btuB-219-<italic>Xba</italic>I and R/btuB+242-<italic>Hin</italic>dIII (Table <xref ref-type="table" rid="T5">5</xref>) by PCR. The DNA fragment containing the promoter of <italic>gadA </italic>(-176 - +77, 253 bp) or <italic>gadB </italic>(-173 - +77, 250 bp) was used as the positive control, which were amplified with primer pairs F/gadA-176 and R/gadA+77 and F/gadB-173 and R/gadB+77 (Table <xref ref-type="table" rid="T5">5</xref>), respectively, as described by Tramonti <italic>et al. </italic>[<xref ref-type="bibr" rid="B19">19</xref>]. The DNA fragment containing the upstream noncoding region of <italic>pal </italic>was used as the negative control, which was amplified with primers F/pal-<italic>Xba</italic>I and R/pal-<italic>Hin</italic>dIII (Table <xref ref-type="table" rid="T5">5</xref>). These DNA fragments were end-labeled with [gamma-<sup>32</sup>P] ATP by T4 polynucleotide kinase (New England BioLabs). The labeled DNA fragments (6 fmol) were incubated with the MalE-GadX protein at room temperature for 20 min in 10 mul of binding buffer [<xref ref-type="bibr" rid="B19">19</xref>]. Samples were then loaded on a 5% nondenaturing polyacrylamide gel in 0.5X TBE buffer and electrophoresed for 35 min at room temperature. The gels were then dried and autoradiographed.</p>
+      </sec>
+      <sec>
+        <title>DNase I footprinting</title>
+        <p>DNase I footprinting was performed to determine the binding sequence of MalE-GadX on <italic>btuB </italic>promoter as described by Tramonti <italic>et al </italic>[<xref ref-type="bibr" rid="B19">19</xref>]. Thirty mul of reaction mixture that contains 5 ng of <sup>32</sup>P-labeled 461-bp <italic>btuB </italic>promoter fragment, various amounts of the MalE-GadX protein, and reaction buffer (40 mM HEPES pH 8.0, 100 mM potassium chloride, and 10 mM magnesium acetate) was incubated at room temperature for 20 min. At the end of the incubation, 0.5 U DNase I (Roche Biochemicals, Indianapolis, IN) was added to each reaction mixture and then incubated at 37 degrees C for 1 min followed by addition of 3 mul of quench solution (0.1% xylene cyanol, 4% SDS, and 50% glycerol) to stop the DNase I digestion. The partially digested product was passed through a Sephadex G25 spin column (GE Healthcare), and the eluate was subjected to 30 cycles of asymmetric PCR (SequiTherm Excel (TM) II, Epicentre) using 5'-end <sup>32</sup>P-labeled primer R/btuB+242-<italic>Hin</italic>dIII (Table <xref ref-type="table" rid="T5">5</xref>). The PCR-generated products were electrophoresed on a 6% sequencing gel. The gel was then dried and autoradiographed. To determine the binding sequence of GadX, the 461-bp <italic>btuB </italic>DNA probe was sequenced by the Sanger's sequencing method using the 5'-end <sup>32</sup>P-labeled primer R/btuB+242-<italic>Hin</italic>dIII (Table <xref ref-type="table" rid="T5">5</xref>).</p>
+      </sec>
+      <sec>
+        <title>Quantitative Real-Time Polymerase Chain Reaction</title>
+        <p>Total RNA of wild type <italic>Escherichia coli </italic>strain BW25113 grown under LB (pH 7.4) or LB/MES (LB buffered with 100 mM MES, pH 5.5) to early stationary phase were isolated using a modified hot-phenol extraction method[<xref ref-type="bibr" rid="B21">21</xref>]. This was followed by further purification using RNAspin Mini RNA purification kit (GE) to remove contaminating genomic DNA and enhance the quality of RNA. Each cDNA sample was synthesized from 0.1 microg total RNA with specific primers of <italic>rrsA</italic>, <italic>gadX </italic>and <italic>btuB </italic>using RevertAid (TM)  First strand cDNA synthesis kit (Fermentas). Following reverse transcription, specific gene transcription levels were determined by quantitative real-time PCR using the ABI PRISM 7700 Sequence Detection System (Applied Biosystem). Real-time PCR was performed with each specific primer pair using SYBR Green PCR Master mix (MBI). For <italic>rrsA</italic>, primer pair rrsA F and rrsA R was used; for <italic>gadX</italic>, primer pair gadX F and gadX R was used; and for <italic>btuB</italic>, primer pair btub F and btub R was used (Table <xref ref-type="table" rid="T5">5</xref>). The rrsA of 16S rRNA was chosen as the normalizing gene. The expression levels of <italic>gadX </italic>and <italic>btuB </italic>of cells grown in medium with different pH and different growth were compared.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Competing interests</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>GSL designed and performed most of the experiments, analyzed data and wrote the manuscript. STH designed, supervised all the experiments, analyzed data and wrote the manuscript. KFC provided ColE7 for colicin assay and gave suggestions. PHL provided the antibodies against BtuB, TolQ, TolR, TolA, TolB, Pal, and OmpF for this research. WJS and WSH gave suggestions and analyzed data for this research.</p>
+      <p>All the authors have read and approved the final manuscript.</p>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We thank Dr. Chao-Hung Lee for discussion and critical editing of this manuscript. This work was supported by grants from Ministry of Education, Aim for the Top University Plan (96A-D-T130, 97A-C-T130, 98A-C-T131, and 99A-C-T130) to S.-T. H, and the National Science Council, Taiwan R. O. C. (NSC92-2321-B-010-007, NSC93-2321-B-010-008, and NSC94-2321-B-010-002) to S.-T. H.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Heller</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Mann</surname>
+            <given-names>BJ</given-names>
+          </name>
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Cloning and expression of the gene for the vitamin B12 receptor protein in the outer membrane of Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>1985</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>896</fpage>
+          <lpage>903</lpage>
+          <pub-id pub-id-type="pmid">2982793</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Roth</surname>
+            <given-names>JR</given-names>
+          </name>
+          <name>
+            <surname>Lawrence</surname>
+            <given-names>JG</given-names>
+          </name>
+          <name>
+            <surname>Bobik</surname>
+            <given-names>TA</given-names>
+          </name>
+          <article-title>Cobalamin (coenzyme B12): synthesis and biological significance</article-title>
+          <source>Annu Rev Microbiol</source>
+          <year>1996</year>
+          <volume>11</volume>
+          <fpage>137</fpage>
+          <lpage>181</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.micro.50.1.137</pub-id>
+          <pub-id pub-id-type="pmid">8905078</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bradbeer</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Woodrow</surname>
+            <given-names>ML</given-names>
+          </name>
+          <name>
+            <surname>Khalifah</surname>
+            <given-names>LI</given-names>
+          </name>
+          <article-title>Transport of vitamin B12 in Escherichia coli: common receptor system for vitamin B12 and bacteriophage BF23 on the outer membrane of the cell envelope</article-title>
+          <source>J Bacteriol</source>
+          <year>1976</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>1032</fpage>
+          <lpage>1039</lpage>
+          <pub-id pub-id-type="pmid">1254550</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lundrigan</surname>
+            <given-names>MD</given-names>
+          </name>
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Altered cobalamin metabolism in Escherichia coli btuR mutants affects btuB gene regulation</article-title>
+          <source>J Bacteriol</source>
+          <year>1989</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>154</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="pmid">2644187</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Escalante-Semerena</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Suh</surname>
+            <given-names>SJ</given-names>
+          </name>
+          <name>
+            <surname>Roth</surname>
+            <given-names>JR</given-names>
+          </name>
+          <article-title>cobA function is required for both de novo cobalamin biosynthesis and assimilation of exogenous corrinoids in Salmonella typhimurium</article-title>
+          <source>J Bacteriol</source>
+          <year>1990</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>273</fpage>
+          <lpage>280</lpage>
+          <pub-id pub-id-type="pmid">2403541</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Crouzet</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Levy-Schil</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Cameron</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Cauchois</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Rigault</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Rouyez</surname>
+            <given-names>MC</given-names>
+          </name>
+          <name>
+            <surname>Blanche</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Debussche</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Thibaut</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>Nucleotide sequence and genetic analysis of a 13.1-kilobase-pair Pseudomonas denitrificans DNA fragment containing five cob genes and identification of structural genes encoding Cob(I)alamin adenosyltransferase, cobyric acid synthase, and bifunctional cobinamide kinase-cobinamide phosphate guanylyltransferase</article-title>
+          <source>J Bacteriol</source>
+          <year>1991</year>
+          <volume>11</volume>
+          <issue>19</issue>
+          <fpage>6074</fpage>
+          <lpage>6087</lpage>
+          <pub-id pub-id-type="pmid">1655697</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nou</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Coupled changes in translation and transcription during cobalamin-dependent regulation of btuB expression in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>1998</year>
+          <volume>11</volume>
+          <issue>24</issue>
+          <fpage>6719</fpage>
+          <lpage>6728</lpage>
+          <pub-id pub-id-type="pmid">9852020</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nou</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Adenosylcobalamin inhibits ribosome binding to btuB RNA</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2000</year>
+          <volume>11</volume>
+          <issue>13</issue>
+          <fpage>7190</fpage>
+          <lpage>7195</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.130013897</pub-id>
+          <pub-id pub-id-type="pmid">10852957</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nahvi</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Sudarsan</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Ebert</surname>
+            <given-names>MS</given-names>
+          </name>
+          <name>
+            <surname>Zou</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Brown</surname>
+            <given-names>KL</given-names>
+          </name>
+          <name>
+            <surname>Breaker</surname>
+            <given-names>RR</given-names>
+          </name>
+          <article-title>Genetic control by a metabolite binding mRNA</article-title>
+          <source>Chem Biol</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <issue>9</issue>
+          <fpage>1043</fpage>
+          <lpage>1049</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1074-5521(02)00224-7</pub-id>
+          <pub-id pub-id-type="pmid">12323379</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Richter-Dahlfors</surname>
+            <given-names>AA</given-names>
+          </name>
+          <name>
+            <surname>Andersson</surname>
+            <given-names>DI</given-names>
+          </name>
+          <article-title>Cobalamin (vitamin B12) repression of the Cob operon in Salmonella typhimurium requires sequences within the leader and the first translated open reading frame</article-title>
+          <source>Mol Microbiol</source>
+          <year>1992</year>
+          <volume>11</volume>
+          <issue>6</issue>
+          <fpage>743</fpage>
+          <lpage>749</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.1992.tb01524.x</pub-id>
+          <pub-id pub-id-type="pmid">1374146</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ravnum</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Andersson</surname>
+            <given-names>DI</given-names>
+          </name>
+          <article-title>Vitamin B12 repression of the btuB gene in Salmonella typhimurium is mediated via a translational control which requires leader and coding sequences</article-title>
+          <source>Mol Microbiol</source>
+          <year>1997</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>35</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1997.1761543.x</pub-id>
+          <pub-id pub-id-type="pmid">9004218</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rodionov</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Vitreschak</surname>
+            <given-names>AG</given-names>
+          </name>
+          <name>
+            <surname>Mironov</surname>
+            <given-names>AA</given-names>
+          </name>
+          <name>
+            <surname>Gelfand</surname>
+            <given-names>MS</given-names>
+          </name>
+          <article-title>Comparative genomics of the vitamin B12 metabolism and regulation in prokaryotes</article-title>
+          <source>J Biol Chem</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <issue>42</issue>
+          <fpage>41148</fpage>
+          <lpage>41159</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M305837200</pub-id>
+          <pub-id pub-id-type="pmid">12869542</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nahvi</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Barrick</surname>
+            <given-names>JE</given-names>
+          </name>
+          <name>
+            <surname>Breaker</surname>
+            <given-names>RR</given-names>
+          </name>
+          <article-title>Coenzyme B12 riboswitches are widespread genetic control elements in prokaryotes</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2004</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>143</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh167</pub-id>
+          <pub-id pub-id-type="pmid">14704351</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Shin</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Castanie-Cornet</surname>
+            <given-names>MP</given-names>
+          </name>
+          <name>
+            <surname>Foster</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Crawford</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Brinkley</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Kaper</surname>
+            <given-names>JB</given-names>
+          </name>
+          <article-title>An activator of glutamate decarboxylase genes regulates the expression of enteropathogenic Escherichia coli virulence genes through control of the plasmid-encoded regulator, Per</article-title>
+          <source>Mol Microbiol</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>1133</fpage>
+          <lpage>1150</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2001.02570.x</pub-id>
+          <pub-id pub-id-type="pmid">11555293</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Richard</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Tucker</surname>
+            <given-names>DL</given-names>
+          </name>
+          <name>
+            <surname>Conway</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Foster</surname>
+            <given-names>JW</given-names>
+          </name>
+          <article-title>Collaborative regulation of Escherichia coli glutamate-dependent acid resistance by two AraC-like regulators, GadX and GadW (YhiW)</article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <issue>24</issue>
+          <fpage>7001</fpage>
+          <lpage>7012</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.184.24.7001-7012.2002</pub-id>
+          <pub-id pub-id-type="pmid">12446650</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Castanie-Cornet</surname>
+            <given-names>MP</given-names>
+          </name>
+          <name>
+            <surname>Penfound</surname>
+            <given-names>TA</given-names>
+          </name>
+          <name>
+            <surname>Smith</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Elliott</surname>
+            <given-names>JF</given-names>
+          </name>
+          <name>
+            <surname>Foster</surname>
+            <given-names>JW</given-names>
+          </name>
+          <article-title>Control of acid resistance in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <issue>11</issue>
+          <fpage>3525</fpage>
+          <lpage>3535</lpage>
+          <pub-id pub-id-type="pmid">10348866</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hommais</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Krin</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Laurent-Winter</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Soutourina</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Malpertuy</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Le Caer</surname>
+            <given-names>JP</given-names>
+          </name>
+          <name>
+            <surname>Danchin</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Bertin</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Large-scale monitoring of pleiotropic regulation of gene expression by the prokaryotic nucleoid-associated protein, H-NS</article-title>
+          <source>Mol Microbiol</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>20</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2001.02358.x</pub-id>
+          <pub-id pub-id-type="pmid">11298273</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Richard</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Foster</surname>
+            <given-names>JW</given-names>
+          </name>
+          <article-title>pH-Dependent modulation of cyclic AMP levels and GadW-dependent repression of RpoS affect synthesis of the GadX regulator and Escherichia coli acid resistance</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <issue>23</issue>
+          <fpage>6852</fpage>
+          <lpage>6859</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.185.23.6852-6859.2003</pub-id>
+          <pub-id pub-id-type="pmid">14617649</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tramonti</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Visca</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>De Canio</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Falconi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>De Biase</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>Functional characterization and regulation of gadX, a gene encoding an AraC/XylS-like transcriptional activator of the Escherichia coli glutamic acid decarboxylase system</article-title>
+          <source>J Bacteriol</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <issue>10</issue>
+          <fpage>2603</fpage>
+          <lpage>2613</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.184.10.2603-2613.2002</pub-id>
+          <pub-id pub-id-type="pmid">11976288</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Waterman</surname>
+            <given-names>SR</given-names>
+          </name>
+          <name>
+            <surname>Small</surname>
+            <given-names>PL</given-names>
+          </name>
+          <article-title>Transcriptional expression of Escherichia coli glutamate-dependent acid resistance genes gadA and gadBC in an hns rpoS mutant</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <issue>15</issue>
+          <fpage>4644</fpage>
+          <lpage>4647</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.185.15.4644-4647.2003</pub-id>
+          <pub-id pub-id-type="pmid">12867478</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>De Biase</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Tramonti</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Bossa</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Visca</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>The response to stationary-phase stress conditions in Escherichia coli: role and regulation of the glutamic acid decarboxylase system</article-title>
+          <source>Mol Microbiol</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <issue>6</issue>
+          <fpage>1198</fpage>
+          <lpage>1211</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1999.01430.x</pub-id>
+          <pub-id pub-id-type="pmid">10383761</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Homola</surname>
+            <given-names>AD</given-names>
+          </name>
+          <name>
+            <surname>Dekker</surname>
+            <given-names>EE</given-names>
+          </name>
+          <article-title>Decarboxylation of gamma-hydroxyglutamate by glutamate decarboxylase of Escherichia coli (ATCC 11246)</article-title>
+          <source>Biochemistry</source>
+          <year>1967</year>
+          <volume>11</volume>
+          <issue>8</issue>
+          <fpage>2626</fpage>
+          <lpage>2634</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi00860a046</pub-id>
+          <pub-id pub-id-type="pmid">4860555</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Giangrossi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Zattoni</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Tramonti</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>De Biase</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Falconi</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Antagonistic role of H-NS and GadX in the regulation of the glutamate decarboxylase-dependent acid resistance system in Escherichia coli</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <issue>22</issue>
+          <fpage>21498</fpage>
+          <lpage>21505</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M413255200</pub-id>
+          <pub-id pub-id-type="pmid">15795232</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yamashino</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Ueguchi</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Mizuno</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Quantitative control of the stationary phase-specific sigma factor, sigma S, in Escherichia coli: involvement of the nucleoid protein H-NS</article-title>
+          <source>Embo J</source>
+          <year>1995</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>594</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="pmid">7859747</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Barth</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Marschall</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Muffler</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Fischer</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Hengge-Aronis</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Role for the histone-like protein H-NS in growth phase-dependent and osmotic regulation of sigma S and many sigma S-dependent genes in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>1995</year>
+          <volume>11</volume>
+          <issue>12</issue>
+          <fpage>3455</fpage>
+          <lpage>3464</lpage>
+          <pub-id pub-id-type="pmid">7768855</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hengge-Aronis</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Back to log phase: sigma S as a global regulator in the osmotic control of gene expression in Escherichia coli</article-title>
+          <source>Mol Microbiol</source>
+          <year>1996</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>887</fpage>
+          <lpage>893</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1996.511405.x</pub-id>
+          <pub-id pub-id-type="pmid">8885260</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Gong</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Richard</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Tucker</surname>
+            <given-names>DL</given-names>
+          </name>
+          <name>
+            <surname>Conway</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Foster</surname>
+            <given-names>JW</given-names>
+          </name>
+          <article-title>GadE (YhiE) activates glutamate decarboxylase-dependent acid resistance in Escherichia coli K-12</article-title>
+          <source>Mol Microbiol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>1309</fpage>
+          <lpage>1320</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03633.x</pub-id>
+          <pub-id pub-id-type="pmid">12940989</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Opdyke</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Kang</surname>
+            <given-names>JG</given-names>
+          </name>
+          <name>
+            <surname>Storz</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>GadY, a small-RNA regulator of acid response genes in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>11</volume>
+          <issue>20</issue>
+          <fpage>6698</fpage>
+          <lpage>6705</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.20.6698-6705.2004</pub-id>
+          <pub-id pub-id-type="pmid">15466020</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tucker</surname>
+            <given-names>DL</given-names>
+          </name>
+          <name>
+            <surname>Tucker</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Ma</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Foster</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Miranda</surname>
+            <given-names>RL</given-names>
+          </name>
+          <name>
+            <surname>Cohen</surname>
+            <given-names>PS</given-names>
+          </name>
+          <name>
+            <surname>Conway</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Genes of the GadX-GadW regulon in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <issue>10</issue>
+          <fpage>3190</fpage>
+          <lpage>3201</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.185.10.3190-3201.2003</pub-id>
+          <pub-id pub-id-type="pmid">12730179</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Di Masi</surname>
+            <given-names>DR</given-names>
+          </name>
+          <name>
+            <surname>White</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Schnaitman</surname>
+            <given-names>CA</given-names>
+          </name>
+          <name>
+            <surname>Bradbeer</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>Transport of vitamin B12 in Escherichia coli: common receptor sites for vitamin B12 and the E colicins on the outer membrane of the cell envelope</article-title>
+          <source>J Bacteriol</source>
+          <year>1973</year>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>506</fpage>
+          <lpage>513</lpage>
+          <pub-id pub-id-type="pmid">4579869</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Riley</surname>
+            <given-names>MA</given-names>
+          </name>
+          <article-title>Positive selection for colicin diversity in bacteria</article-title>
+          <source>Mol Biol Evol</source>
+          <year>1993</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>1048</fpage>
+          <lpage>1059</lpage>
+          <pub-id pub-id-type="pmid">8412648</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>James</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Kleanthous</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Moore</surname>
+            <given-names>GR</given-names>
+          </name>
+          <article-title>The biology of E colicins: paradigms and paradoxes</article-title>
+          <source>Microbiology</source>
+          <year>1996</year>
+          <volume>11</volume>
+          <issue>Pt 7</issue>
+          <fpage>1569</fpage>
+          <lpage>1580</lpage>
+          <pub-id pub-id-type="doi">10.1099/13500872-142-7-1569</pub-id>
+          <pub-id pub-id-type="pmid">8757721</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Repression of synthesis of the vitamin B12 receptor in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>1978</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>1050</fpage>
+          <lpage>1057</lpage>
+          <pub-id pub-id-type="pmid">363685</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kurisu</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Zakharov</surname>
+            <given-names>SD</given-names>
+          </name>
+          <name>
+            <surname>Zhalnina</surname>
+            <given-names>MV</given-names>
+          </name>
+          <name>
+            <surname>Bano</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Eroukova</surname>
+            <given-names>VY</given-names>
+          </name>
+          <name>
+            <surname>Rokitskaya</surname>
+            <given-names>TI</given-names>
+          </name>
+          <name>
+            <surname>Antonenko</surname>
+            <given-names>YN</given-names>
+          </name>
+          <name>
+            <surname>Wiener</surname>
+            <given-names>MC</given-names>
+          </name>
+          <name>
+            <surname>Cramer</surname>
+            <given-names>WA</given-names>
+          </name>
+          <article-title>The structure of BtuB with bound colicin E3 R-domain implies a translocon</article-title>
+          <source>Nat Struct Biol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <issue>11</issue>
+          <fpage>948</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsb997</pub-id>
+          <pub-id pub-id-type="pmid">14528295</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lazdunski</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Bouveret</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Rigal</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Journet</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lloubes</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Benedetti</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Colicin import into Escherichia coli cells requires the proximity of the inner and outer membranes and other factors</article-title>
+          <source>Int J Med Microbiol</source>
+          <year>2000</year>
+          <volume>11</volume>
+          <issue>4-5</issue>
+          <fpage>337</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="pmid">11111908</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lazdunski</surname>
+            <given-names>CJ</given-names>
+          </name>
+          <name>
+            <surname>Bouveret</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Rigal</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Journet</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lloubes</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Benedetti</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Colicin import into Escherichia coli cells</article-title>
+          <source>J Bacteriol</source>
+          <year>1998</year>
+          <volume>11</volume>
+          <issue>19</issue>
+          <fpage>4993</fpage>
+          <lpage>5002</lpage>
+          <pub-id pub-id-type="pmid">9748429</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Isnard</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Rigal</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Lazzaroni</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Lazdunski</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Lloubes</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Maturation and localization of the TolB protein required for colicin import</article-title>
+          <source>J Bacteriol</source>
+          <year>1994</year>
+          <volume>11</volume>
+          <issue>20</issue>
+          <fpage>6392</fpage>
+          <lpage>6396</lpage>
+          <pub-id pub-id-type="pmid">7929011</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jeanteur</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Schirmer</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Fourel</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Simonet</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Rummel</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Widmer</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Rosenbusch</surname>
+            <given-names>JP</given-names>
+          </name>
+          <name>
+            <surname>Pattus</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Pages</surname>
+            <given-names>JM</given-names>
+          </name>
+          <article-title>Structural and functional alterations of a colicin-resistant mutant of OmpF porin from Escherichia coli</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1994</year>
+          <volume>11</volume>
+          <issue>22</issue>
+          <fpage>10675</fpage>
+          <lpage>10679</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.91.22.10675</pub-id>
+          <pub-id pub-id-type="pmid">7524100</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Miller</surname>
+            <given-names>JH</given-names>
+          </name>
+          <source>Experiments in molecular genetics</source>
+          <year>1972</year>
+          <publisher-name>Cold Spring Harbor Laboratory, Cold Spring Harbor, NY</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Franklund</surname>
+            <given-names>CV</given-names>
+          </name>
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Multiple transcribed elements control expression of the Escherichia coli btuB gene</article-title>
+          <source>J Bacteriol</source>
+          <year>1997</year>
+          <volume>11</volume>
+          <issue>12</issue>
+          <fpage>4039</fpage>
+          <lpage>4042</lpage>
+          <pub-id pub-id-type="pmid">9190822</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lundrigan</surname>
+            <given-names>MD</given-names>
+          </name>
+          <name>
+            <surname>Koster</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Kadner</surname>
+            <given-names>RJ</given-names>
+          </name>
+          <article-title>Transcribed sequences of the Escherichia coli btuB gene control its expression and regulation by vitamin B12</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1991</year>
+          <volume>11</volume>
+          <issue>4</issue>
+          <fpage>1479</fpage>
+          <lpage>1483</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.88.4.1479</pub-id>
+          <pub-id pub-id-type="pmid">1847525</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tramonti</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>De Canio</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>De Biase</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>GadX/GadW-dependent regulation of the Escherichia coli acid fitness island: transcriptional control at the gadY-gadW divergent promoters and identification of four novel 42 bp GadX/GadW-specific binding sites</article-title>
+          <source>Mol Microbiol</source>
+          <year>2008</year>
+          <volume>11</volume>
+          <issue>4</issue>
+          <fpage>965</fpage>
+          <lpage>982</lpage>
+          <pub-id pub-id-type="pmid">18808381</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Larson</surname>
+            <given-names>TJ</given-names>
+          </name>
+          <name>
+            <surname>Cantwell</surname>
+            <given-names>JS</given-names>
+          </name>
+          <name>
+            <surname>van Loo-Bhattacharya</surname>
+            <given-names>AT</given-names>
+          </name>
+          <article-title>Interaction at a distance between multiple operators controls the adjacent, divergently transcribed glpTQ-glpACB operons of Escherichia coli K-12</article-title>
+          <source>J Biol Chem</source>
+          <year>1992</year>
+          <volume>11</volume>
+          <issue>9</issue>
+          <fpage>6114</fpage>
+          <lpage>6121</lpage>
+          <pub-id pub-id-type="pmid">1556120</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yang</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Gerhardt</surname>
+            <given-names>SG</given-names>
+          </name>
+          <name>
+            <surname>Larson</surname>
+            <given-names>TJ</given-names>
+          </name>
+          <article-title>Action at a distance for glp repressor control of glpTQ transcription in Escherichia coli K-12</article-title>
+          <source>Mol Microbiol</source>
+          <year>1997</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>511</fpage>
+          <lpage>521</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1997.3651733.x</pub-id>
+          <pub-id pub-id-type="pmid">9179845</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bradbeer</surname>
+            <given-names>C</given-names>
+          </name>
+          <article-title>The proton motive force drives the outer membrane transport of cobalamin in Escherichia coli</article-title>
+          <source>J Bacteriol</source>
+          <year>1993</year>
+          <volume>11</volume>
+          <issue>10</issue>
+          <fpage>3146</fpage>
+          <lpage>3150</lpage>
+          <pub-id pub-id-type="pmid">8387997</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kashket</surname>
+            <given-names>ER</given-names>
+          </name>
+          <article-title>Proton motive force in growing Streptococcus lactis and Staphylococcus aureus cells under aerobic and anaerobic conditions</article-title>
+          <source>J Bacteriol</source>
+          <year>1981</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>369</fpage>
+          <lpage>376</lpage>
+          <pub-id pub-id-type="pmid">6260743</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lu</surname>
+            <given-names>FM</given-names>
+          </name>
+          <name>
+            <surname>Chak</surname>
+            <given-names>KF</given-names>
+          </name>
+          <article-title>Two overlapping SOS-boxes in ColE operons are responsible for the viability of cells harboring the Col plasmid</article-title>
+          <source>Mol Gen Genet</source>
+          <year>1996</year>
+          <volume>11</volume>
+          <issue>4</issue>
+          <fpage>407</fpage>
+          <lpage>411</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02172368</pub-id>
+          <pub-id pub-id-type="pmid">8709943</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Masui</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Coleman</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Inouye</surname>
+            <given-names>M</given-names>
+          </name>
+          <person-group person-group-type="editor">Inouye M</person-group>
+          <source>Multipurose expression cloning vehicles in E. coli In experimental manipulation of gene expression</source>
+          <year>1983</year>
+          <publisher-name>Academic press, Inc., NY</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pan</surname>
+            <given-names>YH</given-names>
+          </name>
+          <name>
+            <surname>Liao</surname>
+            <given-names>CC</given-names>
+          </name>
+          <name>
+            <surname>Kuo</surname>
+            <given-names>CC</given-names>
+          </name>
+          <name>
+            <surname>Duan</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>Liang</surname>
+            <given-names>PH</given-names>
+          </name>
+          <name>
+            <surname>Yuan</surname>
+            <given-names>HS</given-names>
+          </name>
+          <name>
+            <surname>Hu</surname>
+            <given-names>ST</given-names>
+          </name>
+          <name>
+            <surname>Chak</surname>
+            <given-names>KF</given-names>
+          </name>
+          <article-title>The critical roles of polyamines in regulating ColE7 production and restricting ColE7 uptake of the colicin-producing Escherichia coli</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <issue>19</issue>
+          <fpage>13083</fpage>
+          <lpage>13091</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M511365200</pub-id>
+          <pub-id pub-id-type="pmid">16549429</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

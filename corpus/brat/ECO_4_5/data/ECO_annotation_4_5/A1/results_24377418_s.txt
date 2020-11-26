@@ -1,0 +1,140 @@
+Results
+
+IpsA is a novel LacI-type regulator conserved in the Corynebacteriales
+
+IpsA was assigned by homology to the LacI family of transcriptional regulators, which often coordinate the available nutrients with the expression of catabolic genes [16].
+The corresponding genomic loci display a remarkable level of conservation across the Corynebacteriales (Figure 1B).
+In previous studies, the structure of IpsA (Cg2910) was analyzed (PDB:3H5T); its physiological function is the subject of this study.
+
+
+
+IpsA deletion affects cell shape and growth
+
+To gain insight into the function and possible target genes of IpsA, an in-frame deletion mutant was constructed.
+Growth rates and final backscatter of DeltaipsA cells were significantly below control levels using minimal medium with glucose as carbon source, and these shortfalls increased in magnitude with successive subcultivation (Figure 1C).
+The morphology of the mutant strain was altered, as revealed by fluorescence microscopy with staining of DNA (4',6-diamidino-2-phenylindole (DAPI)) and membranes (nile red).
+DeltaipsA cells formed chain-like structures and failed to divide properly.
+DNA in the cells was unevenly distributed and was frequently found in the extracellular space, indicative of severe damage to the cell membrane and/or the cell wall (Figure 1D, for a larger sample see Additional file 1: Figure S1).
+Membrane staining revealed several intact cell septa in the unshaped mutant cells.
+
+Both the growth defect and altered morphology could be partially overcome by plasmid-encoded ipsA under control of the native or an inducible promoter (data not shown).
+These efforts revealed that increased levels of IpsA also affect growth of C. glutamicum.
+Full restoration of the wild-type phenotype was only achieved when ipsA was reintegrated into the mutant strain (intergenic region cg1121 to cg1122) and expressed from its native promoter (Figure 2A, B).
+When the cells were cultivated with myo-inositol instead of glucose as carbon source, no differences were observed between the wild-type and DeltaipsA strains in terms of growth and morphology (Figure 1C, D).
+
+
+
+The impact of ipsA mutation on transcription
+
+To elucidate the transcriptional changes caused by the deletion of ipsA, DNA microarray experiments were performed.
+More than 450 genes showed alterations in mRNA level greater than a factor of 2, using cells in the exponential growth phase (OD600 = 5) cultivated in minimal medium with glucose as carbon source (Additional file 1: Table S3, full data deposited in GEO database [17] under accession number GSE50210).
+
+The expression of the gene cg3323, which encodes a myo-inositol phosphate synthase (ino1), and of the operon (cg0044 to cg0046), which encodes an uncharacterized ABC transporter, was reduced by more than a factor of ten in the mutant strain (Table 1).
+Other downregulated genes included a flavin-containing monooxygenase (cg3195), a hypothetical endoglucanase (cg2896), and two further transporters (cg0621 to cg0623 and cg2181 to cg2184) (Additional file 1: Table S3).
+Among the strongly upregulated genes was a cluster encoding enzymes for inositol catabolism (cg3389 to cg3392), an operon encoding both menE and a putative integral membrane protein (cg0533 to cg0534), and a putative dinucleotide-binding enzyme (cg1421).
+Many of the affected genes are components of the DtxR stimulon, which plays a central role in iron homeostasis in C. glutamicum[18,19].
+We speculate that these changes are the result of an impaired iron uptake of the mutant strain due to the defects in the cell wall.
+In combination with the observed growth phenotype of the mutant strain, the alterations in gene expression indicate that IpsA is a major regulator of inositol-derived cell wall components.
+
+
+
+Identification of direct IpsA target promoters
+
+The microarray experiments revealed several putative target genes of IpsA.
+To determine whether these genes are directly regulated by IpsA, the promoter regions of the respective genes were tested in electrophoretic mobility shift assays (EMSAs) for the formation of complexes with purified IpsA protein.
+We analyzed the promoters of all genes that were more than fourfold regulated but excluded ribosomal proteins and genes belonging to the DtxR/RipA regulon.
+DNA fragments (approximately 500 bp) covering the promoter regions of putative target genes, were incubated with increasing IpsA-His concentrations.
+IpsA-His bound with high affinity to the promoter regions of cg0044 and ino1 (cg3323) and with lower affinity to the promoter regions of cg0534 (a putative integral membrane protein), cg1421 (a putative dinucleotide binding enzyme), cg1476 (thiC, thiamine biosynthesis protein ThiC), cg1918 (a putative secreted protein), and cg3195 (flavin containing monooxygenase) (Figure 3; all tested fragments are shown in Additional file 1: Figure S3).
+
+
+
+Determination of the IpsA DNA binding site
+
+Using EMSAs, two separate binding sites were identified in the promoter of ino1 and one in the promoter of cg0044 (Figure 3A and Additional file 1: Figure S4).
+Analysis of these sites using the motif-based sequence analysis tool MEME [20] revealed a conserved palindromic motif, which was subsequently verified by mutational analysis (Figure 4).
+In particular, the central six base pairs appear to be crucial for IpsA binding.
+The preliminary motif was used to search for further binding sites in putative target genes and across the genome of C. glutamicum.
+Binding sites were identified by EMSAs using oligonucleotides in the promoters of cg1421, cg3195, cg3210 and cg0534 (Table 1, Figure 3A and Additional file 1: Figure S5).
+The identified motifs were used to define the IpsA consensus motif shown in Figure 3C.
+
+
+
+Myo-inositol is an effector molecule of IpsA
+
+The enzyme encoded by the main IpsA target gene is Ino1, a myo-inositol phosphate synthase that catalyzes the formation of 1D-myo-inositol-3-phosphate from glucose-6-phosphate [7].
+We tested several metabolites involved in the relevant pathway for their influence on the formation of the IpsA-DNA complex.
+A clear backshift was observed for myo-inositol but not for 1D-myo-inositol-1-phosphate, 1D-myo-inositol-3-phosphate or glucose-6-phosphate (Figure 3B).
+The effect of myo-inositol could be observed at concentrations down to 0.2 mM (Additional file 1: Figure S6).
+This effect is specific for IpsA DNA binding, as the addition of up to 50 mM myo-inositol did not have any effect on the formation of an unrelated protein-DNA complex (for example, AcnR and the acn promoter, Additional file 1: Figure S7).
+
+
+
+IpsA is required for inositol-dependent regulation of ino1
+
+The major function of IpsA revealed thus far is the activation of ino1 in the absence of external inositol.
+Consistent with this, the growth and cell morphology of the DeltaipsA strain is complemented by the constitutive expression of ino1 under standard conditions (Figure 2C).
+To study the influence of IpsA and myo-inositol on the expression of ino1 in vivo, we fused the ino1 promoter to eyfp (enhanced yellow fluorescent protein) and monitored the fluorescence output of the wild-type and the DeltaipsA strain during growth on glucose and myo-inositol (Figure 3D).
+Strong promoter activity was observed in the wild-type during growth on glucose.
+Expression of eyfp was significantly decreased in the ipsA deletion strain and was lower still when either strain was cultivated with myo-inositol as the carbon source.
+
+
+
+IpsA function is conserved in C. diphtheriae and M. tuberculosis
+
+The conservation of IpsA in the Corynebacteriales suggests that it may play a similar role in pathogenic relatives.
+To assess this possibility, we tested in vivo complementation of C. glutamicum DeltaipsA with the IpsA homologs of M. tuberculosis (Rv3575) and C. diphtheriae (DIP1969).
+Partial complementation of growth and morphology was achieved (Figure 5A-C).
+Growth was still slightly retarded but the final OD was significantly increased in comparison with the DeltaipsA strain.
+Likewise, the morphological phenotype of the complemented strains fell in between the wild-type and the DeltaipsA strain, with a slightly better complementation by DIP1969 compared to Rv3575.
+Most cells displayed the wild-type morphology and, while some chain-like cell clusters were observed (Figure 5C), these were shorter than clusters of the DeltaipsA strain (Figure 1D).
+
+We also tested the binding of IpsA to the promoter regions of C. diphtheriae and M. tuberculosis homologs of cg3323 and cg0044 using EMSAs (Figure 5D).
+C. glutamicum IpsA bound strongly to the C. diphtheriae promoters DIP0115 and DIP0021 and the binding sites were determined (Figure 5E and Additional file 1: Figure S8).
+In M. tuberculosis, Rv0046c is organized in an operon with Rv0047c.
+A binding site was identified within the open reading frame (ORF) of Rv0047c, suggesting the occurrence of a second promoter upstream of ino1 (Figure 5E).
+
+
+
+Mycothiol synthesis is abolished in C. glutamicum del-ipsA
+
+Besides being a precursor of PI and derived lipids, myo-inositol is one of the building blocks of mycothiol, the major antioxidant of Corynebacteria and Mycobacteria.
+Therefore, we measured mycothiol in a set of our strains (Figure 6) using a method previously published for C. glutamicum[21].
+The mycothiol peak was identified by comparison of wild-type chromatograms with those of a mutant depleted in mycothiol synthesis (DeltamshC).
+To proof that the corresponding peak, lacking in DeltamshC, represents mycothiol, thiols were blocked with NMM (N-methyl-maleimide) prior to derivatization with bromobimane.
+In this sample, the largest peak of the wild-type at 5.6 minutes was indeed absent the two control samples.
+In fact, this mycothiol peak was absent in the DeltaipsA strain but could fully be restored by plasmid-based expression of ipsA (Figure 6).
+Interestingly, the mycothiol measurements showed a partial complementation with the ipsA homologs from C. diphtheriae and M. tuberculosis, which is in line with our previous findings regarding growth and morphology of cross-complemented strains (Figure 5).
+
+
+
+PI-based glycolipid synthesis is lost in C. glutamicum del-ipsA
+
+To study the effect of IpsA on the formation of PI-based phosphoglycolipids, [14C]-labeled polar lipids were extracted from wild-type and del-ipsA C. glutamicum.
+The glycolipid profiles were examined using two-dimensional thin-layer chromatography (2D-TLC) (Figure 7).
+The wild-type strain showed presence of AcPIM2, PI, Gl-A (GlcAGroAc2) and Gl-X (ManGlcAGroAc2) in lipid extracts as compared to known standards and previous studies [22], isolated from the cells grown with either myo-inositol or glucose.
+Under normal conditions, C. glutamicum produces both PI and Gl-X, which is an alternative glycolipid anchor to PI for synthesis of Cg-LM.
+The glycolipid Gl-X is derived from Gl-A, its precursor product.
+Although both PI and Gl-X can be visualized on TLC analysis, the formation of Gl-X is distinguished only in the case of mutants lacking PI, as both Gl-X and PI do not separate out as distinct spots [23,24].
+However, Gl-A appears as a distinct spot on the TLC results in both wild-type and mutant strains.
+For convenience, the TLC results for polar lipid extracts from the ipsA mutant defective in PI synthesis have been marked to depict Gl-X at the same position at which PI is depicted in the wild-type and complemented strains.
+The labeling for Gl-A remained unchanged.
+Interestingly, the complete absence of AcPIM2 was observed in lipid extracts isolated from C. glutamicum del-ipsA when cultured in minimal media supplemented with glucose indicating the loss of PI-based glycolipid synthesis in the mutant (Figure 7B).
+The lipid profiles of complemented strains C. glutamicum DeltaipsA::pK18-ipsA and C. glutamicum DeltaipsA harboring cg3323 and DIP1969 in plasmid pAN6, were identical to the wild-type when grown on glucose, demonstrating successful complementation of the loss of gene function in these strains (Figure 7C-E).
+However, the lipid extracts from C. glutamicum DeltaipsA harboring Rv3575 in plasmid pAN6 cultured under the same conditions displayed no complementation as none of the components was stained with phosphate stain (results not shown).
+The lipid extracts isolated from the mutant and complemented strains cultured in minimal media supplemented with myo-inositol were similar to wild-type, with distinct AcPIM2 and PI production (Figure 7G, H and Additional file 1: Figure S9).
+
+
+
+Analysis of lipoglycan extracts
+
+Since the lipoglycans LM and LAM are built on PIMs which are mannosylated products of PI, the effect of IpsA was also studied on these lipoglycans extracted from the wild-type, C. glutamicum del-ipsA and the complemented strains (Additional file 1: Figure S10A).
+LAM and Cg-LM-A/B were clearly present in extracts from the wild-type cultured in glucose or myo-inositol.
+However, the lipoglycan extracts from the mutant C. glutamicum del-ipsA grown on glucose revealed no LAM while a band corresponding to Cg-LM-B could be observed.
+On glucose the complemented strains C. glutamicum DeltaipsA::pK18-ipsA and C. glutamicum DeltaipsA containing plasmid encoded Cg3323 and DIP1969 exhibited lipoglycan profiles identical to the wild-type as distinct bands corresponding to both LAM and Cg-LM-A/B.
+However, no band corresponding to LAM was observed in lipoglycan extracts of C. glutamicum DeltaipsA complemented with Rv3575c in pAN6 plasmid grown in minimal media supplemented with glucose.
+Instead, a band corresponding to Cg-LM-B was evident.
+The lipoglycan extracts isolated from the mutant and complemented strains cultured in minimal media supplemented with myo-inositol were similar to wild-type with distinct LM and LAM (Additional file 1: Figure S10B).
+
+
+
+

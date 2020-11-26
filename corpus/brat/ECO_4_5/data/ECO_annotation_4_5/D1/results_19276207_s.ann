@@ -1,0 +1,23 @@
+T1	ECO 1259 1277	sequence alignment
+A1	Category T1 SeqFeat
+A2	ECOConfidence T1 High
+A3	NextSentence T1 Yes
+A4	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000200	sequence alignment evidence
+T2	ECO 3615 3690	searching their upstream regions for patterns similar to Motif 1 or Motif 2
+A5	Category T2 SeqFeat
+A6	ECOConfidence T2 High
+A7	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0000028	motif similarity evidence
+T3	ECO 10937 10961	gel retardation analysis
+A8	Category T3 BioProc
+A9	ECOConfidence T3 High
+A10	AssertionStrength T3 Medium
+N3	Reference T3 brat_eco:ECO:0000096	electrophoretic mobility shift assay evidence
+T4	ECO 15099 15107	mutation
+A11	Category T4 BioProc
+A12	ECOConfidence T4 High
+A13	NextSentence T4 Yes
+A14	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0001113	point mutation evidence
+A15	NextSentence T2 Yes

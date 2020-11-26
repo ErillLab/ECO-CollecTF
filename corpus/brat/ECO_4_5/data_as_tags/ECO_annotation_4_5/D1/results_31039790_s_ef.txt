@@ -1,0 +1,76 @@
+Results
+
+Phenotypical characterization of scoC deletion mutant
+
+A scoC deletion mutant strain (BA06-del-scoC) was successfully disrupted by homologous recombination following the strategy as showed in Fig.1 and confirming by colony PCR and DNA sequencing (Additional file 1: Figure S1).
+Furthermore, an overexpression strain (del-scoC/scoC+) was also constructed to overexpression ScoC on the multiple-copies plasmids (pSU03-scoC).
+
+Firstly, we compared the growth pattern of the wild-type (wt), scoC <term sem="ECO:0001038" id="T1" ECOConfidence="High" AssertionStrength="High" Category="Phen" NextSentence="Yes" NegativeStatement="Yes">deletion mutant</term id="T1"> (BA06-del-scoC), and scoC/scoC+ <term sem="ECO:0000120" id="T3" ECOConfidence="High" AssertionStrength="High" Category="Phen" NextSentence="Yes" NegativeStatement="Yes">overexpression</term id="T3"> strains.
+Figure 2a showed that the defect or <term sem="ECO:0000120" id="T2" ECOConfidence="High" AssertionStrength="High" Category="Phen" NextSentence="No" NegativeStatement="Yes">overexpression</term id="T2"> of scoC did not affect the cell growth in MM broth in comparison with the wt.
+Secondly, since the <term sem="ECO:0000034" id="T4" ECOConfidence="Medium" AssertionStrength="High" Category="BioProc" NextSentence="No" NegativeStatement="No">previous studies</term id="T4"> in B. subtilis showed that ScoC negatively regulated protease genes of aprE and nprE, and scoC disruption led to significant increase of extracellular protease activity [19, 24], the total extracellular protease activity was determined in of B. pumilus (Fig. 2b).
+It was showed that <term sem="ECO:0001038" id="T5" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="Yes" NegativeStatement="No">scoC deletion</term id="T5"> caused 2-fold increase in extracellular proteolytic activity compared to the wt at the time point of 60 h. On the other hand, <term sem="ECO:0000120" id="T6" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="Yes" NegativeStatement="No">overexpression of scoC</term id="T6"> in the del-scoC/scoC+ strain reversed to diminish the increased extracellular protease activity.
+Like in B. subtilis, ScoC acted as a negative regulator of extracellular proteases in B. pumilus.
+
+Next, we examined the bacterial motility on the solid and semi-solid plates with agar concentrations of 0.7 and 0.3% [25].
+Figure 3 showed that the colony size of BA06-<term sem="ECO:0001038" id="T10" ECOConfidence="Medium" AssertionStrength="High" Category="Phen" NextSentence="No" NegativeStatement="No">del-scoC</term id="T10"> was much smaller than that of the wt and del-scoC/scoC+ strains on LB plate with 0.7% agar and MM plate with 0.3% agar, respectively, indicating that both the swarming and swimming motility were compromised after scoC disruption.
+The <term sem="ECO:0007081" id="T7" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="Yes" NegativeStatement="No">colony expansion</term id="T7"> in diameter of BA06-<term sem="ECO:0001038" id="T8" ECOConfidence="Medium" AssertionStrength="High" Category="BioProc" NextSentence="Yes" NegativeStatement="No">del-scoC</term id="T8"> was statistically different from the wt and <term sem="ECO:0000120" id="T9" ECOConfidence="Medium" AssertionStrength="High" Category="BioProc" NextSentence="Yes" NegativeStatement="No">overexpression</term id="T9"> strains with p < 0.05 and 0.01, respectively.
+These results indicated that scoC could modulate the cell motility of B. pumilus.
+
+Since flagellum is the movement organ of bacteria, we counted the cell number with flagella or without flagella for the three B. pumilus strains.
+It was found that scoC disruption reduced the flagella formation (Fig. 4).
+The percentage of cells with flagella were only 23.7% for BA06-del-ScoC.
+By contrast, the percentages were 69.8 and 71.1% for the wt and overexpression strains, respectively.
+Of interest, previous studies done in B. subtilis showed that many flagellar genes were downregulated in scoC deletion mutant [22].
+These results suggested that decrease of cell motility of BA06-del-scoC was at least partially resulted from the reduction of flagella formation.
+
+In addition, formation of endospore and biofilm was also examined.
+In contrast to B. subtilis, no significant difference was found among the three B. pumilus stains (Additional file 2: Figure S2), implicating ScoC also plays strain-specific role.
+
+
+
+Transcriptome profiling of scoC mutant
+
+To better understand the mechanism underlying the observed phenotypes in B. pumilus, we performed comparative transcriptome profiling using RNA sequencing.
+Overall, a total 1674 differentially expressed genes (DEGs) with the expression level > 2.5-fold change and p < 0.01 were identified across the three time points at which the BA06-del-scoC and wt cells were compared (Fig. 5a, Additional file 3: Table S1).
+The most DEGs were identified at the time point of 12 h with 531 up-regulated and 467 down-regulated.
+And DEGs subsequently declined at the later growth phases, suggesting that scoC may play a major role at the transition phase.
+
+By KEGG pathway analysis, the DEGs were categorized into various metabolic pathways, of which the top 10 were displayed in Fig. 5b.
+Overall, the expression patterns are very similar between B. subtilis and B. pumilus after scoC disruption.
+The largest group with altered transcriptional level in the scoC deletion mutant belongs to the KEGG category of membrane transport [22].
+For example, some putative operons involved in the metal ion transport systems (cds3101 - 3105; cds3029 - 3032) were downregulated in BA06-del-scoC strain (Additional file 3: Table S1).
+In B. subtilis, some operons like opp and app encoding oligopeptide transport systems have been experimentally confirmed to be directly regulated by scoC [20].
+In addition, many affected genes were also enriched in amino acid metabolism, carbohydrate metabolism, translation, transcription, etc.
+
+Nevertheless, there are also significant differences from B. subtilis.
+For instance, two protease genes aprE (cds0935) and aprX (cds1594) showed same expression pattern, i.e. upregulation in both strains at 24 and 36 h (Table 1), while the neutral protease gene aprN (cds2061) was decreased in B. pumilus but increased in B. subtilis, respectively.
+Furthermore, the other protease gene like epr (cds0246) and vpr (cds3474) did not changed obviously in transcription level in B. pumilus after scoC deletion (Table 1).
+Because the proteases like AprE is regulated by both positive and negative regulators in B. subtilis, herein we examined transcriptional level of the homologous regulatory genes in B. pumilus.
+It was showed that the negative regulator gene abrB (cds0014) and sinR (cds2171) did not change (Additional file 3: Table S1).
+However, the sensor histidine kinase gene degS (cds3226) were upregulated at 12 h, which may promote the phosphorylation level of DegU and in turn enhance the transcription of aprE [26].
+This is consistent with increased aprE expression.
+
+Since the scoC mutation displayed defective flagella formation (Fig. 4), we examined the transcriptional profiling of flagella-related genes.
+In B. pumilus, these genes are organized as several operons (like flc/che and motAB) or individually scattered in the genome (Additional file 4: Figure S3).
+Overall, 63 genes categorized into the KEGG Bacterial Motility (k02035) and Flagellar Assembly (k02040) pathways have a trend to downregulation in BA06-del-scoC strain (Fig. 6a, Additional file 3: Table S1).
+Nevertheless, seldom genes were upregulated.
+For example, the flgM gene (cds3219, encoding an anti-sigma factor) were upregulated for about 3-fold at 12 h (Additional file 4: Figure S3).
+In the fla/che operon, the upregulated genes (fliEFGH, fliJ) may be transcribed from another independent promoter [27].
+In addition, the gene swrA encoding a master regulator of motility that activates the cell motility in B. subtilis [28], was also upregulated in scoC deletion mutant of B. pumilus.
+Taken together, the transcriptome data suggest that the compromised flagella formation is at least in part due to downregulation of the flagellar structural genes after scoC deletion.
+
+Another group of DEGs is enriched into the KEGG Cell Growth pathway (99978).
+Most of these genes related to sporulation were continually upregulated at all three time points in BA06-del-scoC (Fig. 6b), consistent with the finding that scoC disruption promoted sporulation in B. subtilis [17, 24].
+However, no overt enhanced sporulation was observed in B. pumilus (Additional file 2: Figure S2A), implicating there might existed additional regulatory pathway in B. pumilus.
+Of note, these sporulation-related genes are still not found to interact directly with ScoC.
+Therefore, scoC may undergo an indirect pathway to regulate sporulation.
+For example, scoC can suppress sporulation by acting as a repressor of the signaling peptide transport systems, opp and app in B. subtilis [20].
+Indeed, we found the opp operon (oppABCDF, cds1038 - 1042) was downregulated at 12 h and then upregulated at 24 h in B. pumilus scoC mutant (Additional file 3: Table S1).
+
+Lastly, to confirm the accuracy and reproducibility of the transcriptome data, 13 genes were selected for qPCR validation.
+RNA samples from the same cultures of MM at different growth phases were used as template.
+The data shown in Table S2 (Additional file 5) indicated that RNA-seq data were almost consistent with the qPCR results.
+
+
+
+

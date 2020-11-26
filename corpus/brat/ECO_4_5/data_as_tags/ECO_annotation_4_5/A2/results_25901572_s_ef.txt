@@ -1,0 +1,107 @@
+Results
+
+Overview of RNA-Seq data analysis of the OpaR regulon in V. parahaemolyticus
+
+A screening RNA-Seq analysis established the full scope of the V. parahaemolyticus OpaR regulon by comparing the transcriptome of V. parahaemolyticus LM5312 (opaR+) and LM5674 (del-opaR1).
+The total RNA extracted from LM5312 and LM5674 had RNA integrity values (RIN) of 9.8 and 10 respectively.
+Following rRNA depletion, approximately 30 million 50-bp transcripts were obtained for each sample corresponding to an average gene coverage of more than 300 times.
+Greater than 15% of the genome showed a two-fold or greater change in expression between the opaR+ and del-opaR1 samples (Fig 1).
+Similar to what had been observed in the microarray comparison [13], OpaR activated genes involved in capsular polysaccharide production and the type VI secretion system located on chromosome 2 (T6SS2), and repressed the type III secretion system 1 located on chromosome 1 (T3SS1), type VI secretion system 1 (T6SS1), and the lateral flagellar regulon.
+Chromosome 1 has a total of 2848 predicted genes, of these 237 were activated two-fold or greater by OpaR and 219 were repressed at least two-fold.
+Chromosome 2 has 1600 potential genes, 206 genes were activated and 128 genes were repressed two-fold or more.
+The <term sem="ECO:0000295" id="T2" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="No" NegativeStatement="No">RNA-Seq data</term id="T2"> confirmed that OpaR plays a significant role in global regulation of gene expression in V. parahaemolyticus BB22OP as had been <term sem="ECO:0000033" id="T3" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="No" NegativeStatement="No">previously demonstrated</term id="T3"> <term sem="ECO:0000101" id="T1" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="No" NegativeStatement="No">via microarrays using an Affymetrix GeneChip</term id="T1"> designed to the V. parahaemolyticus RIMD2210633 strain [25].
+The microarray data and RNA-Seq data showed a high degree of similarity (S1 Fig).
+Only 18 genes appeared to exhibit expression changes in opposite directions for these two platforms (S3 Table).
+Since six of the discordant genes from chromosome 2 were phosphate transport related and two of the discordant genes from chromosome 1 were DNA uptake related genes, it is likely that most of these minor differences in expression may be attributed to subtle differences in growth conditions.
+
+Genes that are unique to V. parahaemolyticus BB22OP and not found in V. parahaemolyticus RIMD2210633 were also analyzed to determine what limitations had been imposed on the BB22OP transcriptome analysis by using the RIMD2210633 GeneChip.
+Twenty-four genes that were regulated four-fold or greater by OpaR and had greater than 50 reads for at least one of the sequencing reactions were identified as being unique to BB22OP (S4 Table).
+Three of these genes are on chromosome 2 and 21 are on chromosome 1.
+Of the 21 unique OpaR-regulated genes on chromosome 1, fourteen are found in an integron region that is unique to the BB22OP strain [16].
+Twenty-one of the 24 unique genes are annotated as hypothetical proteins, whereas the other three genes encode a putative lipase, an acetyltransferase and a halogenase.
+
+NCBI BLAST was used to analyze the homology of 21 genes encoding hypothetical proteins to determine if a function could be assigned.
+VPBB_1425 shares 74 of its 132 base pairs with the gene for an Rhs-family protein found in V. parahaemolyticus UCM-V493 with the locus tag VPUCM_1621.
+However, the Rhs-family protein in UCM-V493 is 960 bp suggesting that VPBB_1425 may be truncated.
+VPBB_2301 matches 116 bp of its 117 bp to a 117 bp gene encoding glutamate-1-semialdehyde aminotransferase in V. parahaemolyticus O1:Kuk str.
+FDA_R31 with the locus tag M634_14765.
+This suggests that VPBB_2301 should also be annotated as encoding glutamate-1-semialdehyde aminotransferase.
+
+
+
+Identification of transcriptional regulators in the OpaR regulon and validation of their expression via qRT-PCR
+
+The RNA-Seq data (S4 Table) and microarray data (previously published [13]) were analyzed for OpaR-controlled transcription factors that were differentially expressed four fold or greater between the LM5312 (opaR+) and LM5674 (del-del-opaR1) strains, using at least one of the two approaches.
+Eleven transcription factors were chosen for further study as described above (Table 1) and qRT-PCR was performed to validate the changes in gene expression observed in the Illumina sequencing.
+Two separate RNA samples extracted independently of the sample generated for RNA-Seq analysis were used.
+The expression of the 16S rRNA coding region was used as reference to normalize expression of other genes.
+Although the ratios of change in expression obtained via RNA-Seq and qRT-PCR differed slightly, all genes displayed similar trends in regulation (activation vs. repression) (Table 1).
+The two control genes, rpoD and fliAP, had been <term sem="ECO:0000033" id="T4" ECOConfidence="High" AssertionStrength="Medium" Category="BioProc" NextSentence="No" NegativeStatement="No">previously demonstrated</term id="T4"> to be constitutively expressed in V. parahaemolyticus BB22OP regardless of OpaR function [13].
+
+
+
+EMSA analysis of OpaR-controlled transcription factors
+
+A bioinformatics search using the PATSER program [28] and a previously published LuxR family binding sequence [27] identified putative binding sites upstream of eight of the 11 genes encoding transcription factors (Table 2).
+Two of the genes, VPBB_1558 (encoding the T3SS1 regulator ExsA) and VPBB_A0869 (encoding an ArsR-family regulator), appeared to be at the beginning of operons with predicted OpaR-binding sites directly upstream of the transcription factor; whereas three of the regulatory genes, VPBB_1307 (encoding an FhlA-family transcription factor), VPBB_1322 (encoding an AsnC-family regulator), and VPBB_A1405 (encoding the flagellar regulator LafK), are located within operons with the potential OpaR-binding site not directly upstream of the gene encoding the transcription factor (Fig 2).
+Three genes, VPBB_0645 (encoding a Crl-family regulator), VPBB_2619 (encoding the low-cell density regulator AphA), and VPBB_A1319 (encoding the capsule regulator CpsQ), are not part of an operon and have the putative binding site directly upstream of the start site.
+It was predicted that OpaR would not bind the promoter regions of VPBB_0491(encoding another capsule regulator CpsR), VPBB_2530 (encoding a CsgD/VpsT-family regulator), or VPBB_A0554 (encoding an AraC-family regulator) because they lacked potential binding sites.
+Most of the PATSER scores for the eight candidate binding sites were between three and five (Table 2).
+Only three transcription factor genes, aphA, exsA, and lafK, had upstream putative binding sites for OpaR with PATSER scores greater than seven, which is the default setting for significance in PATSER.
+
+Remarkably, the <term sem="ECO:0000096" id="T5" ECOConfidence="High" AssertionStrength="Medium" Category="MolFn" NextSentence="No" NegativeStatement="No">EMSA</term id="T5"> analysis demonstrated that OpaR bound nine of the 11 target promoters (Fig 3).
+Thus, the weaker scoring OpaR-binding sites appear to be functional.
+This was clearly illustrated by the multiple shifted bands observed in several of the promoters.
+The MQSR matrix [27] utilized with PATSER, in combination with the RNA-Seq data selecting for highly regulated genes, appeared to be quite effective in identifying possible OpaR-binding sites since even sequences with low scores appeared to be valid based on the EMSA results.
+OpaR did not bind the promoter region of VPBB_2530 and VPBB_A0554 (Fig 3), which were two of the three genes that lacked predicted binding boxes.
+However, it did bind to the promoter of VPBB_0491 with no predicted OpaR-binding site, illustrating that there are limits to the ability of the bioinformatics tools to identify all possible OpaR targets.
+This in part may be due to the fact that the MQSR matrix is not specific for OpaR, since binding sites for multiple LuxR homologues were used to design it.
+Nevertheless, for the purpose of this study, the MQSR matrix did serve as a useful tool to identify putative target genes for further EMSA analysis.
+
+
+
+Bioinformatics analysis of RNA-Seq data to identify additional OpaR direct targets
+
+Since the bioinformatics method was quite effective in identifying putative OpaR targets, a second purely theoretical bioinformatics approach was applied to the RNA-Seq data in an effort to identify more OpaR direct targets.
+First, a list of genes with a five-fold or greater change in OpaR-dependent expression was generated.
+The more stringent five-fold cut off was used to help decrease possible false positives.
+This initial list was then cross-referenced with 2702 putative OpaR-binding sites with a PATSER score of 3 or higher identified by the PATSER program using the MQSR matrix with the RIMD2210633 genome [31].
+The RIMD2210633 genome was utilized since it was already accessible in the PATSER program and there were only five unique BB22OP genes with greater than five-fold differential OpaR-dependent expression.
+This analysis yielded a list that included eight of the 11 transcription factors of interest and 60 additional OpaR-controlled genes that may have OpaR-binding sites in the V. parahaemolyticus BB22OP genome (S5 Table).
+
+The 60 newly identified genes, not including the eight transcription factors, can be classified into nine different categories.
+Sixteen genes appear to encode hypothetical proteins, nine encode methyl-accepting chemotaxis related proteins, seven encode cell surface related proteins, seven encode transporter proteins, seven encode regulatory or metabolic enzymes, three genes encode lateral flagellar proteins, five encode proteins with domains predicted to be involved in c-di-GMP synthesis or degradation, and one gene encodes the polar flagellar protein FlhA.
+There are five remaining genes that do not classify into one of the above categories: VPBB_1560 (encoding type III secretion regulator ExsC), VPBB_1309 (encoding type VI secretion Hcp protein), VPBB_1336 (encoding SM-20-related protein), VPBB_1851 (encoding cytochrome c4), and VPBB_2845 (encoding putative signal peptide protein).
+While further analysis of these putative direct targets of OpaR was beyond the scope of this study, their identification suggests that OpaR may directly control a variety of genes in V. parahaemolyticus.
+
+After the BB22OP genome sequence became available in the PATSER database, an analysis of the promoter regions of the five unique BB22OP genes regulated five-fold or more by OpaR was similarly performed.
+Using these criterion, results indicated only one gene specific to BB22OP as being theoretically directly regulated by OpaR.
+VPBB_A0413 is a gene encoding a hypothetical protein with a PATSER score of 7.8 and opaR+/DeltaopaR1 RNA-Seq regulation of 0.11.
+The predicted OpaR binding site is -412 to -393 upstream of the start site (S5 Table).
+
+
+
+Bioinformatics analysis of RNA-Seq data to identify putative sRNAs
+
+Outputs from two different published databases, BSRD [30] and sRNApredict2 [29], that utilized the V. parahaemolyticus RIMD2210633 genome, were initially compared to help identify sRNAs predicted to also exist in BB22OP.
+For Chromosome 1, sRNApredict2 predicted 50 candidate sRNAs, BSRD predicted 45, but only 14 were predicted by both programs.
+The sRNApredict2 program identified 42 possible sRNAs for chromosome 2, while BSRD predicted 20, with only six predicted by both programs.
+Both programs successfully predicted the five Qrrs believed to control OpaR translation [29,30].
+
+The BB22OP RNA-Seq data validated expression of several predicted sRNAs described above in at least one of the two strains examined.
+RPM values were computed for each of the predicted sRNAs sequences from the two RNA-Seq samples, revealing six predicted sRNAs found in one or both of the sRNA databases that were differentially regulated greater than four-fold by OpaR (Table 3).
+Four of the six sRNAs were too small for efficient qRT-PCR validation, and since all of them were already deposited into public databases, no additional analysis was performed.
+The BB22OP RNA-Seq data was also analyzed for differential expression of novel sRNAs not predicted by the two databases by looking for the pileup of reads mapping to intergenic regions.
+Two candidates were discovered to be possible OpaR controlled sRNAs.
+One appears to be a 5' untranslated region upstream of gene VPBB_1422 rather than a distinct sRNA.
+VPBB_1422 (VP1517) encodes an Rhs-family protein; its upstream region was similarly regulated in the microarray analysis (~34-fold).
+The second candidate has all the characteristics of a sRNA.
+This putative sRNA, called Srr, is located between genes VPBB_1217 and VPBB_1218 on the VP B22OP chromosome 1.
+The Srr RNA was previously identified as being part of the lateral flagellar regulon and was repressed 73-fold by OpaR [13,25].
+The RNA-Seq data showed Srr as being repressed 222.69 +- 1.54 fold by OpaR (Table 3).
+The existence of this novel sRNA was verified, and OpaR-control of its expression was validated when subsequent <term sem="ECO:0000109" id="T6" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="No" NegativeStatement="No">qRT-PCR analysis</term id="T6"> demonstrated 167.93 +- 62.92-fold repression by OpaR.
+Thus, along with the transcripts of the lateral flagellar genes, it is one of the most highly regulated transcripts in the entire OpaR regulon.
+
+
+
+

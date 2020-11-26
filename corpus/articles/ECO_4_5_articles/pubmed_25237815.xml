@@ -1,0 +1,1485 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">25237815</article-id>
+      <article-id pub-id-type="pmc">4169559</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-14-09721</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0107812</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Gene Regulatory Networks</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Mutation</subject>
+              <subj-group>
+                <subject>Gene Deletion</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Gene Function</subject>
+              <subject>Microbial Genetics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Biology</subject>
+            <subj-group>
+              <subject>Molecular Biology Techniques</subject>
+              <subj-group>
+                <subject>Mutagenesis and Gene Deletion Techniques</subject>
+                <subj-group>
+                  <subject>Site-Directed Mutagenesis</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Genes</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Medical Microbiology</subject>
+              <subj-group>
+                <subject>Microbial Pathogens</subject>
+                <subj-group>
+                  <subject>Bacterial Pathogens</subject>
+                  <subj-group>
+                    <subject>Klebsiella</subject>
+                    <subj-group>
+                      <subject>Klebsiella Pneumoniae</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine and Health Sciences</subject>
+          <subj-group>
+            <subject>Infectious Diseases</subject>
+            <subj-group>
+              <subject>Bacterial Diseases</subject>
+              <subj-group>
+                <subject>Klebsiella Infections</subject>
+                <subj-group>
+                  <subject>Klebsiella Pneumonia</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Research and Analysis Methods</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>IscR Regulation of Capsular Polysaccharide Biosynthesis and Iron-Acquisition Systems in <italic>Klebsiella pneumoniae</italic> CG43</article-title>
+        <alt-title alt-title-type="running-head">Characterization of IscR in <italic>Klebsiella pneumoniae</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Chien-Chen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Chien-Kuo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Yu-Ching</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Tien-Huang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jinn</surname>
+            <given-names>Tzyy-Rong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Ching-Ting</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Institute of Biochemistry and Molecular Biology, National Yang-Ming University, Taipei, Taiwan, Republic of China</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Biotechnology, Asia University, Taichung, Taiwan, Republic of China</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Department of Biomedical Informatics, Asia University, Taichung, Taiwan, Republic of China</addr-line>
+      </aff>
+      <aff id="aff4">
+        <label>4</label>
+        <addr-line>Division of Urology, Taichung Tzu Chi Hospital, The Buddhist Tzu Chi Medical Foundation, Taichung, Taiwan, Republic of China</addr-line>
+      </aff>
+      <aff id="aff5">
+        <label>5</label>
+        <addr-line>Graduate Institute of Chinese Medicine, School of Chinese Medicine, China Medical University, Taichung, Taiwan, Republic of China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bengoechea</surname>
+            <given-names>Jose A.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Queen's University Belfast, United Kingdom</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>gingting@mail.cmu.edu.tw</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: CTL CKW YCC CCW THL. Performed the experiments: CTL CKW YCC CCW THL. Analyzed the data: CTL CCW TRJ. Contributed reagents/materials/analysis tools: CTL CKW YCC THL. Wrote the paper: CTL CCW.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>9</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>9</issue>
+      <elocation-id>e107812</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>3</day>
+          <month>3</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>8</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Wu et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>IscR, an Fe - S cluster-containing transcriptional factor, regulates genes involved in various cellular processes. In response to environmental stimuli such as oxidative stress and iron levels, IscR switches between its holo and apo forms to regulate various targets. IscR binding sequences are classified into two types: the type 1 IscR box that is specific for holo-IscR binding, and the type 2 IscR box that binds holo- and apo-IscR. Studying <italic>Klebsiella pneumoniae</italic> CG43S3, we have previously shown that iron availability regulates capsular polysaccharide (CPS) biosynthesis and iron-acquisition systems. The present study investigated whether IscR is involved in this regulation. Compared with that in CG43S3, the amount of CPS was decreased in AP001 (Delta<italic>iscR</italic>) or AP002 (<italic>iscR</italic><sub>3CA</sub>), a CG43S3-derived strain expressing mutated IscR mimicked apo-IscR, suggesting that only holo-IscR activates CPS biosynthesis. Furthermore, a promoter-reporter assay verified that the transcription of <italic>cps</italic> genes was reduced in AP001 and AP002. Purified IscR::His<sub>6</sub>, but not IscR<sub>3CA</sub>::His<sub>6</sub>, was also found to bind the predicted type 1 IscR box specifically in the <italic>cps</italic> promoter. Furthermore, reduced siderophore production was observed in AP004 (Delta<italic>fur</italic>-Delta<italic>iscR</italic>) but not in AP005 (Delta<italic>fur</italic>-<italic>iscR</italic><sub>3CA</sub>), implying that apo-IscR activates iron acquisition. Compared with those in AP004, mRNA levels of three putative iron acquisition systems (<italic>fhu</italic>, <italic>iuc</italic>, and <italic>sit</italic>) were increased in AP005, and both purified IscR::His<sub>6</sub> and IscR<sub>3CA</sub>::His<sub>6</sub> bound the predicted type 2 IscR box in the <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic> promoters, whereas IscR<sub>3CA</sub>::His<sub>6</sub> displayed a lower affinity. Finally, we analyzed the effect of external iron levels on <italic>iscR</italic> expression. The transcription of <italic>iscR</italic> was increased under iron-depleted conditions as well as in AP001 and AP002, suggesting an auto-repression exerted by apo-IscR. Our results show that in <italic>K. pneumoniae</italic>, IscR plays a dual role in the regulation of CPS biosynthesis and iron-acquisition systems in response to environmental iron availability.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>The work is supported by the grants from National Science Council (NSC 99-2320-B-039-002-MY3 and NSC 102-2320-B-039-042-), China Medical University (CMU99-ASIA-07 and CMU100-ASIA-12), and Taichung Tzuchi Hospital, The Buddhist Tzu Chi Medical Foundation (TTCRD-10218). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Klebsiella pneumoniae</italic> is a rod-shaped, gram-negative bacterium that causes community-acquired diseases including pneumonia, bacteremia, septicemia, and urinary and respiratory tract infections that occurr particularly in immune-compromised patients <xref rid="pone.0107812-Podschun1" ref-type="bibr">[1]</xref>. In Asian countries, especially in Taiwan and Korea, <italic>K. pneumoniae</italic> is the predominant pathogen responsible for pyogenic liver abscesses in diabetic patients <xref rid="pone.0107812-Han1" ref-type="bibr">[2]</xref>, <xref rid="pone.0107812-Lau1" ref-type="bibr">[3]</xref>, <xref rid="pone.0107812-Yang1" ref-type="bibr">[4]</xref>. Among the virulence factors identified in <italic>K. pneumoniae</italic>, capsular polysaccharide (CPS) is considered the major determinant for <italic>K. pneumoniae</italic> infections. Pyogenic liver abscess isolates often carry heavy CPS loads that protect bacteria from phagocytosis and from being killed by serum factors <xref rid="pone.0107812-Sahly1" ref-type="bibr">[5]</xref>, <xref rid="pone.0107812-Lin1" ref-type="bibr">[6]</xref>. Apart from its anti-phagocytic function, <italic>Klebsiella</italic> CPS also promotes bacterial colonization and biofilm formation at infection sites <xref rid="pone.0107812-Boddicker1" ref-type="bibr">[7]</xref>, <xref rid="pone.0107812-Moranta1" ref-type="bibr">[8]</xref>, <xref rid="pone.0107812-FavreBonte1" ref-type="bibr">[9]</xref>.</p>
+      <p>Our previous studies have demonstrated that CPS biosynthesis in <italic>K. pneumoniae</italic> is repressed in iron-replete conditions, and this regulation is controlled by an iron uptake regulator (Fur) <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>. Under iron-replete conditions, dimeric Fur in complex with Fe(II) indirectly activates <italic>K. pneumoniae</italic> CPS biosynthesis through transcriptional factors RmpA and RcsA and a small non-coding RNA, RyhB <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>, <xref rid="pone.0107812-Huang1" ref-type="bibr">[11]</xref>. The transcription of <italic>cps</italic> genes is directly regulated by RmpA and RcsA but appears to be indirectly regulated by RyhB. These findings indicate that environmental iron availability influences <italic>K. pneumoniae</italic> CPS biosynthesis through multiple regulators.</p>
+      <p>To maintain iron homeostasis, Fur acts as a master regulator to control iron transport, storage, and metabolism in many gram-negative bacteria including <italic>K. pneumoniae</italic>
+<xref rid="pone.0107812-Huang1" ref-type="bibr">[11]</xref> - <xref rid="pone.0107812-Outten1" ref-type="bibr">[13]</xref>. We have previously reported that Fur directly represses at least six of the eight iron acquisition systems in <italic>K. pneumoniae</italic> CG43S3 <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>. In addition to Fur, the transcriptional regulator IscR plays a crucial role in iron metabolism. IscR regulates the biosynthesis of Fe-S clusters, which are key cofactors of proteins intervening in various cellular processes in bacteria <xref rid="pone.0107812-Andrews1" ref-type="bibr">[12]</xref>, <xref rid="pone.0107812-Outten1" ref-type="bibr">[13]</xref>. Fe-S clusters can be generally classified into two types, rhombic [2Fe-2S] and cubic [4Fe-4S], which have either ferrous (Fe<sup>2+</sup>) or ferric (Fe<sup>3+</sup>) iron and sulphide (S<sup>2-</sup>) <xref rid="pone.0107812-Johnson1" ref-type="bibr">[14]</xref>, <xref rid="pone.0107812-AyalaCastro1" ref-type="bibr">[15]</xref>. IscR is itself a [2Fe-2S] cluster-containing protein encoded by the first gene of the <italic>iscRSUA</italic> operon. The switch between the [2Fe-2S] holo and apo forms of IscR is believed to be influenced by environmental conditions such as oxidative and nitric oxide stress and cellular iron levels <xref rid="pone.0107812-Outten1" ref-type="bibr">[13]</xref>, <xref rid="pone.0107812-Giel1" ref-type="bibr">[16]</xref>, <xref rid="pone.0107812-Pullan1" ref-type="bibr">[17]</xref>, <xref rid="pone.0107812-Yeo1" ref-type="bibr">[18]</xref>. Moreover, holo- and apo-IscR have been shown to regulate different target genes, suggesting that the presence of the [2Fe-2S] cluster affects the regulatory specificity of IscR <xref rid="pone.0107812-Yeo1" ref-type="bibr">[18]</xref>, <xref rid="pone.0107812-Giel2" ref-type="bibr">[19]</xref>, <xref rid="pone.0107812-Schwartz1" ref-type="bibr">[20]</xref>, <xref rid="pone.0107812-Nesbit1" ref-type="bibr">[21]</xref>.</p>
+      <p>Transcriptomic analysis has identified 40 genes in 20 predicted operons, which are regulated by IscR under aerobic and anaerobic conditions in <italic>Escherichia coli</italic>
+<xref rid="pone.0107812-Giel2" ref-type="bibr">[19]</xref>. This analysis has also revealed two classes of IscR binding sites (IscR boxes). Type 1 IscR box consists of a 25-bp sequence interacted with holo-IscR, whereas type 2 IscR box consists of a 26-bp sequence interacted with apo-IscR <xref rid="pone.0107812-Giel2" ref-type="bibr">[19]</xref>. Furthermore, a detailed analysis of the type 2 IscR box has verified an IscR binding motif for both holo and apo-IscR binding <xref rid="pone.0107812-Nesbit1" ref-type="bibr">[21]</xref>.</p>
+      <p>In this study, we investigated whether IscR participates in the regulation of CPS biosynthesis and the expression of iron acquisition systems in <italic>K. pneumoniae</italic>. We also analysed the expression of <italic>iscR</italic> in response to various iron levels.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>IscR activates <italic>K. pneumoniae</italic> CPS biosynthesis in an Fe-S cluster-dependent manner</title>
+        <p>To study whether IscR regulates <italic>K. pneumoniae</italic> CPS biosynthesis, we determined the amounts of K2 CPS in CG43S3 (wild type [WT]) and AP001 (Delta<italic>iscR</italic>) strains. Compared with the WT, AP001 produced significantly lower amounts of CPS (<xref ref-type="fig" rid="pone-0107812-g001">Fig. 1A</xref>), suggesting that IscR activates the biosynthesis of CPS. In <italic>K. pneumoniae</italic>, IscR contains three highly conserved cysteine residues (C92, C98, and C104 in <italic>E. coli</italic> IscR) which are thought to coordinate the [2Fe-2S] cluster <xref rid="pone.0107812-Schwartz1" ref-type="bibr">[20]</xref>.</p>
+        <fig id="pone-0107812-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Holo-IscR positively regulates the biosynthesis of CPS.</title>
+            <p>(A) CPS levels of the WT, AP001, and AP002 strains grown in LB broth. (B) CPS levels in WT carrying pACYC184 and AP001 carrying pACYC184, pIscR, or pIscR<sub>3CA</sub> were determined in LB. Bacterial glucuronic acid content was determined after 16 h of growth. (C) beta-Galactosidase activities of <italic>K. pneumoniae</italic> AP006 and isogenic strains (AP007 and AP008) carrying the reporter plasmid pOrf12 (P<italic><sub>orf1-2</sub></italic>::<italic>lacZ)</italic>, pOrf315 (P<italic><sub>orf3-15</sub></italic>::<italic>lacZ</italic>), or pOrf1617 (P<italic><sub>orf16-17</sub></italic>::<italic>lacZ</italic>) were determined using log-phase cultures grown in LB medium. Error bars indicate standard deviations. *<italic>P</italic>&lt;0.01 compared with the indicated groups.</p>
+          </caption>
+          <graphic xlink:href="pone.0107812.g001"/>
+        </fig>
+        <p>To investigate the role of the [2Fe-2S] cluster in IscR regulation of CPS biosynthesis, we created an <italic>iscR</italic> mutant AP002 (<italic>iscR</italic><sub>3CA</sub>) by replacing the three cysteines with alanines and tested whether this mutant, which is predicted to encode an IscR lacking an Fe-S cluster, affected CPS biosynthesis. As shown in <xref ref-type="fig" rid="pone-0107812-g001">Fig. 1A</xref>, we found that the amount of CPS decreased in the AP002 strain compared with that in the WT, indicating that the regulation of IscR required the [2Fe-2S] cluster. Moreover, <italic>iscR</italic> and <italic>iscR</italic><sub>3CA</sub> were respectively cloned into pACYC184, to yield pIscR and pIscR<sub>3CA</sub>, for complementation analysis. Compared with AP001 [pACYC184], AP001 [pIscR] produced a significantly higher amount of CPS, whereas the introduction of pIscR<sub>3CA</sub> into the AP001 strain did not change the CPS amount (<xref ref-type="fig" rid="pone-0107812-g001">Fig. 1B</xref>). These results confirmed that IscR has a positive role in the regulation of CPS biosynthesis and that the presence of the [2Fe-2S] cluster of IscR is essential for this regulation. On the other hand, the CPS amount appeared to obviously increased in AP001 [pIscR], compared with that in WT [pACYC184] (<xref ref-type="fig" rid="pone-0107812-g001">Fig. 1B</xref>), which may result from multicopy plasmids are used for complementation. Therefore, we also used single copy constructs to complement the <italic>iscR</italic>-deletion (<xref ref-type="supplementary-material" rid="pone.0107812.s002">Methods S1</xref>), and the result showed that the expression of <italic>iscR</italic>, but not <italic>iscR</italic><sub>3CA</sub>, could restore the CPS biosynthesis (<xref ref-type="supplementary-material" rid="pone.0107812.s001">Fig. S1</xref>).</p>
+        <p>The K2 <italic>cps</italic> gene cluster of <italic>K. pneumoniae</italic> contains 19 open reading frames (ORFs) organised into 3 transcription units - namely, <italic>orf1 - 2</italic>, <italic>orf3 - 15</italic>, and <italic>orf16 - 17</italic>
+<xref rid="pone.0107812-Arakawa1" ref-type="bibr">[22]</xref>. To determine the role of IscR in regulating <italic>cps</italic> transcription, we used the reporter plasmids pOrf12 (P<italic><sub>orf1-2</sub></italic>::<italic>lacZ</italic>), pOrf315 (P<italic><sub>orf3-15</sub></italic>::<italic>lacZ</italic>), and pOrf1617 (P<italic><sub>orf16-17</sub></italic>::<italic>lacZ</italic>), each carrying a promoterless <italic>lacZ</italic> gene transcriptionally fused to the putative promoter region of the K2 <italic>cps</italic> gene cluster <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>, to transform the <italic>K. pneumoniae</italic> strains AP006 (Delta<italic>lacZ</italic>), AP007 (Delta<italic>lacZ-</italic>Delta<italic>iscR</italic>), and AP008 (Delta<italic>lacZ-iscR</italic><sub>3CA</sub>). The measurements shown in <xref ref-type="fig" rid="pone-0107812-g001">Fig. 1C</xref> reveal that the promoter activity of <italic>orf1 - 2</italic> and <italic>orf16 - 17</italic> in AP007 and AP008 was lower than that in AP006 (<italic>P</italic>&lt;0.01). Additionally, the promoter activity of <italic>orf3 - 15</italic> was apparently decreased in AP008 but slightly decreased in AP007 compared with that in AP006. These results indicated that IscR activates the transcription of <italic>cps</italic> genes in an Fe-S cluster-dependent manner.</p>
+      </sec>
+      <sec id="s2b">
+        <title>IscR directly binds the promoter of <italic>galF</italic></title>
+        <p>For further investigation of the mechanism of IscR regulation on <italic>cps</italic> transcription, the sequence of the putative IscR binding site was manually analysed in the three promoter regions of the K2 <italic>cps</italic> gene cluster. As shown in <xref ref-type="fig" rid="pone-0107812-g002">Fig. 2A</xref>, we found a putative type 1 IscR box with 52% (13/25 bp) homology to the consensus sequence located between -173 bp and -197 bp relative to the translational start codon of <italic>galF</italic> (<italic>orf1</italic> in the K2 <italic>cps</italic> gene cluster). In addition, the putative IscR binding sequence in P<italic><sub>galF</sub></italic> was highly homologous to the IscR-binding motif (5'-AxxxCCxxAxxxxxxxTAxGGxxxT-3') reported by Nesbit <italic>et al</italic>. <xref rid="pone.0107812-Nesbit1" ref-type="bibr">[21]</xref>. However, no typical IscR binding site was found in the upstream sequence of <italic>wzi</italic> (<italic>orf3</italic> in the K2 <italic>cps</italic> gene cluster) or <italic>manC</italic> (<italic>orf16</italic> in the K2 <italic>cps</italic> gene cluster), suggesting that IscR indirectly regulates the promoter activities of <italic>orf3</italic>-<italic>15</italic> and <italic>orf16</italic>-<italic>17</italic>, which remains to be studied. On the other hand, we hypothesised that IscR binds directly to the promoter region of <italic>galF</italic> to activate gene transcription, and we confirmed this by performing an electrophoretic mobility shift assay (EMSA). As shown in the upper panel of <xref ref-type="fig" rid="pone-0107812-g002">Fig. 2B</xref>, purified recombinant IscR::His<sub>6</sub> protein was able to bind <italic>PgalF-1</italic> but not <italic>PgalF-2</italic>, in which the region containing the putative IscR binding site was deleted. In addition, compared with that of IscR::His<sub>6</sub>, the recombinant [2Fe-2S] clusterless IscR<sub>3CA</sub>::His<sub>6</sub> had reduced <italic>PgalF-1</italic> binding activity. Furthermore, no obvious interaction between the recombinant IscR proteins and <italic>PgalF-1*</italic>, the <italic>galF</italic> promoter lacking only the 25-bp predicted IscR box, was found (the lower panel of <xref ref-type="fig" rid="pone-0107812-g002">Fig. 2B</xref>). Besides, <italic>PgalF-1</italic> and <italic>PgalF-1</italic>* DNA showed a slightly different mobility in the gel. These results suggested a direct interaction between IscR and the <italic>galF</italic> promoter and that the [2Fe-2S] cluster of IscR plays a crucial role in this interaction. On the contrary, we also analysed whether recombinant IscR::His<sub>6</sub> could bind the promoter regions of <italic>wzi</italic> and <italic>manC</italic>. As expected, EMSA showed no obvious DNA-protein complex (data not shown).</p>
+        <fig id="pone-0107812-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>IscR binds directly to P<italic><sub>galF</sub></italic>.</title>
+            <p>(A) Diagrammatic representation of the <italic>galF</italic> loci. The primer sets used in PCR amplification of the DNA probes are indicated, and the numbers denote the DNA amplified length. DNA probes are listed on the left. The box in grey indicates the predicted type 1 IscR box. The dashed box indicates the DNA sequence alignment among the predicted type 1 IscR box, the IscR binding motif, and the putative IscR binding sequence in P<italic><sub>galF</sub></italic>, and the numbers denote the positions relative to the translational start site. Deletion of the predicted IscR box on <italic>PgalF-1</italic>* is indicated by a caret. (B) EMSA of IscR recombinant proteins and various DNA fragments of the upstream regions of <italic>galF</italic>. Different concentrations of purified IscR::His<sub>6</sub> or IscR<sub>3CA</sub>::His<sub>6</sub> were incubated with 5 ng of DNA fragments, as indicated in the margin. After incubation at room temperature for 30 min, the mixtures were resolved on a 5% non-denaturing polyacrylamide gel. The gel was stained with SYBR Green I dye and photographed.</p>
+          </caption>
+          <graphic xlink:href="pone.0107812.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>Effect of IscR on normal human serum resistance</title>
+        <p>Because CPS acts as a protectant for <italic>K. pneumoniae</italic> against serum factors, we hypothesize that through modulation of CPS levels, IscR affects the ability of <italic>K. pneumoniae</italic> to resist the bactericidal effects of serum. To test this hypothesis, we treated <italic>K. pneumoniae</italic> strains with 75% normal human serum and determined their survival rates. Compared with the WT, the AP001 and AP002 strains had a slightly reduced survival rate (<xref ref-type="fig" rid="pone-0107812-g003">Fig. 3A</xref>), implying a positive role for [2Fe-2S]-IscR in the serum resistance of <italic>K. pneumoniae</italic>. To confirm this result further, we performed a complementation study. As shown in <xref ref-type="fig" rid="pone-0107812-g003">Fig. 3B</xref>, the introduction of pIscR, but not pACYC184 or pIscR<sub>3CA</sub>, into the AP001 strain increased the bacterial survival rate, to a similar level compared with that of WT [pACYC184], after serum treatment. These results supported the hypothesis that [2Fe-2S]-IscR activates the expression of CPS to increase <italic>K. pneumoniae</italic> resistance to normal human serum.</p>
+        <fig id="pone-0107812-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Deletion effect of <italic>iscR</italic> on <italic>K. pneumoniae</italic> susceptibility to normal human serum.</title>
+            <p>The susceptibility to normal human serum of each bacterial mutant (A) and the complement strains (B) indicated in the margin was determined. Bacterial serum resistance was determined using log-phase cultures grown in LB medium. *<italic>P</italic>&lt;0.01 compared with the indicated groups.</p>
+          </caption>
+          <graphic xlink:href="pone.0107812.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>IscR has a regulatory role in iron acquisition systems</title>
+        <p>In <italic>E. coli</italic>, both Fur and IscR play important roles in the maintenance of cellular iron homeostasis <xref rid="pone.0107812-Andrews1" ref-type="bibr">[12]</xref>, <xref rid="pone.0107812-Outten1" ref-type="bibr">[13]</xref>. To analyse whether IscR regulates iron acquisition in <italic>K. pneumoniae</italic>, we performed a chrome azurol S (CAS) assay to assess siderophore secretion in <italic>K. pneumoniae</italic> strains. As shown in <xref ref-type="fig" rid="pone-0107812-g004">Fig. 4A</xref>, no apparent siderophore secretion was detected in the WT, AP001, or AP002 strains. Moreover, as in our previous report <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>, deletion of <italic>fur</italic> clearly increased halo formation on the CAS plate. However, the halo was reduced in the AP003 (Delta<italic>fur</italic>) strain background by the further deletion of <italic>iscR</italic>, indicating the positive role of IscR in iron acquisition. Furthermore, no obvious difference in siderophore secretion was found between the AP003 and AP005 (Delta<italic>fur</italic>- <italic>iscR</italic><sub>3CA</sub>) strains, suggesting that the IscR regulation of iron acquisition does not require the [2Fe-2S] cluster.</p>
+        <fig id="pone-0107812-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Deletion of <italic>iscR</italic> decreases <italic>K. pneumoniae</italic> Delta<italic>fur</italic> siderophore production assessed using CAS assay.</title>
+            <p>All assayed bacterial mutants (A) and the complement strains (B) are indicated. The halos around the colonies correspond to the iron-chelating activity of siderophores in bacteria were measured after 24 h of incubation at 37 degrees C. The assay was independently repeated at least five times, and the differences among strains are consistent.</p>
+          </caption>
+          <graphic xlink:href="pone.0107812.g004"/>
+        </fig>
+        <p>To verify whether apo-IscR activates iron acquisition, we introduced pACYC184, pIscR, or pIscR<sub>3CA</sub> into the AP004 (Delta<italic>fur</italic>-Delta<italic>iscR</italic>) strain and performed a CAS assay. As shown in <xref ref-type="fig" rid="pone-0107812-g004">Fig. 4B</xref>, the introduction of both pIscR and pIscR<sub>3CA</sub> increased the halo phenotype on the CAS plate compared with that of the vector-only control. These results confirmed that IscR activates siderophore secretion in a [2Fe-2S] cluster-independent manner.</p>
+        <p>To further investigate the regulatory effect of IscR on iron acquisition, we used quantitative reverse transcription polymerase chain reaction (qRT-PCR) to measure the expression of genes corresponding to the eight putative iron acquisition systems in the indicated <italic>K. pneumoniae</italic> strains. As shown in <xref ref-type="table" rid="pone-0107812-t001">Table 1</xref>, messenger RNA (mRNA) levels of genes (<italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic>) corresponding to three iron acquisition systems were increased more than 2-fold in the AP005 strain as compared with that in the AP004 strain. To further confirm this result, pACYC184, pIscR<sub>3CA</sub>, or pIscR were respectively introduced into the AP004 strain, to avoid the effects of Fur, and the transcription of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic> were measured. The introduction of pIscR<sub>3CA</sub> into AP004 apparently increased the transcription of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic> compared with that in the AP004 strain carrying pACYC184 only (<xref ref-type="table" rid="pone-0107812-t001">Table 1</xref>). These results implied that apo-IscR activates the transcription of <italic>fhu</italic>, <italic>iuc</italic>, and <italic>sit</italic> to increase iron acquisition in <italic>K. pneumoniae</italic>. Besides, the introduction of pIscR into AP004 also slightly increased transcription of <italic>fhu</italic>, <italic>iuc</italic>, and <italic>sit</italic> (<xref ref-type="table" rid="pone-0107812-t001">Table 1</xref>).</p>
+        <table-wrap id="pone-0107812-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>qRT-PCR analyses of the expression of iron-acquisition genes in <italic>K. pneumoniae</italic> strains.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0107812-t001-1" xlink:href="pone.0107812.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Systems</td>
+                  <td align="left" rowspan="1" colspan="1">Gene</td>
+                  <td colspan="3" align="left" rowspan="1">RNA expression ratio <xref ref-type="table-fn" rid="nt102">b</xref></td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">AP005/AP004 <xref ref-type="table-fn" rid="nt101">a</xref></td>
+                  <td align="left" rowspan="1" colspan="1">AP004 [pIscR<sub>3CA</sub>]/AP004 [pACYC184]</td>
+                  <td align="left" rowspan="1" colspan="1">AP004 [pIscR]/AP004 [pACYC184]</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Fe<sup>3+</sup></td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Ferrichrome</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fhuA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">2.17  +-  0.31</td>
+                  <td align="left" rowspan="1" colspan="1">2.83  +-  0.14</td>
+                  <td align="left" rowspan="1" colspan="1">1.78  +-  0.42</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Aerobactin</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>iucA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">2.24  +-  0.12</td>
+                  <td align="left" rowspan="1" colspan="1">3.23  +-  0.15</td>
+                  <td align="left" rowspan="1" colspan="1">1.84  +-  0.22</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Enterobactin</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fepA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.07  +-  0.38</td>
+                  <td align="left" rowspan="1" colspan="1">ND <xref ref-type="table-fn" rid="nt103">c</xref></td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fepB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.11  +-  0.09</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>entC</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">0.80  +-  0.09</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Ferric citrate</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fecA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.23  +-  0.52</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fecE</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.74  +-  0.25</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Salmochelin</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>iroB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.92  +-  0.13</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Heme</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>hmuR</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.58  +-  0.22</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Fe<sup>2+</sup></td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Ferrous iron</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>feoB</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">1.35  +-  0.36</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                  <td align="left" rowspan="1" colspan="1">ND</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>sitA</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">3.16  +-  0.01</td>
+                  <td align="left" rowspan="1" colspan="1">3.68  +-  0.11</td>
+                  <td align="left" rowspan="1" colspan="1">2.27  +-  0.23</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a</label>
+              <p> AP004, CG43S3Delta<italic>fur</italic>-Delta<italic>iscR</italic>; AP005, CG43S3Delta<italic>fur-iscR</italic><sub>3CA</sub>.</p>
+            </fn>
+            <fn id="nt102">
+              <label>b</label>
+              <p> Mean expression ratio ( +- SD) of AP005 relative to AP004, AP004 [pIscR<sub>3CA</sub>] relative to AP004 [pACYC184], or AP004 [pIscR] relative to AP004 [pACYC184].</p>
+            </fn>
+            <fn id="nt103">
+              <label>c</label>
+              <p> ND, not determined.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2e">
+        <title>IscR<sub>3CA</sub> directly binds the promoter region of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic></title>
+        <p>Apo-IscR has been demonstrated to bind the type 2 IscR box in IscR-regulated promoter sequences directly in <italic>E. coli</italic>
+<xref rid="pone.0107812-Giel2" ref-type="bibr">[19]</xref>. Analysis of the promoter regions of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic> revealed consensus sequences of the <italic>E. coli</italic> type 2 IscR box. As shown in <xref ref-type="fig" rid="pone-0107812-g005">Fig. 5A</xref>, the predicted type 2 IscR boxes are located at -154 to -130 relative to the translation start site of <italic>fhuA</italic> and -67 to -43 relative to the translation start site of <italic>iucA</italic>. The predicted type 2 IscR boxes in P<italic><sub>fhuA</sub></italic> and P<italic><sub>iucA</sub></italic> have 50% (13/26 bp) and 46% (12/26 bp) homology, respectively, with the consensus sequence. In addition, two putative type 2 IscR boxes (R1 and R2) located at -112 to -87 and at -53 to -28 relative to the translation start site of <italic>sitA</italic> were found in P<italic><sub>sitA</sub></italic>. The R1 and R2 sites contain 50% (13/26 bp) and 61.5% (16/26 bp) homology, respectively, with the consensus sequence.</p>
+        <fig id="pone-0107812-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>IscR<sub>3CA</sub>::His<sub>6</sub> binds directly to P<italic><sub>fhuA</sub></italic>, P<italic><sub>iucA</sub></italic>, and P<italic><sub>sitA</sub></italic>.</title>
+            <p>(A) DNA sequence alignment between the <italic>E. coli</italic> type 2 IscR box and the putative IscR binding sequence in the upstream regions of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic>. Positions identical to the consensus sequences are bolded. Diagrammatic representation of the <italic>fhuA</italic> (B), <italic>iucA</italic> (C), and <italic>sitA</italic> (D) loci. The large arrows represent the open reading frames. The primer sets used in PCR amplification of the DNA probes are indicated, and the numbers denote the DNA amplified length. The predicted IscR boxes is deleted and indicated by a caret. The grey boxes indicate the predicted type 2 IscR box. Different concentrations of purified IscR<sub>3CA</sub>::His<sub>6</sub> were incubated with 5 ng of various DNA fragments of the upstream regions of indicated genes. Following incubation at room temperature for 30 min, the mixtures were analysed on a 5% non-denaturing polyacrylamide gel. The gel was stained with SYBR Green I dye and photographed.</p>
+          </caption>
+          <graphic xlink:href="pone.0107812.g005"/>
+        </fig>
+        <p>To verify whether apo-IscR binds to these predicted type 2 IscR boxes, we performed an EMSA. As shown in <xref ref-type="fig" rid="pone-0107812-g005">Fig. 5B - D</xref>, both the purified IscR::His<sub>6</sub> and IscR<sub>3CA</sub>::His<sub>6</sub> were able to bind with the promoter regions of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic>, and IscR::His<sub>6</sub> appeared to contain higher binding activities. Furthermore, IscR<sub>3CA</sub>::His<sub>6</sub> did not bind <italic>PfhuA-2</italic> and <italic>PiucA-2</italic>, which lacked a region containing a putative IscR box (<xref ref-type="fig" rid="pone-0107812-g006">Fig. 6B - C</xref>). We also found that IscR<sub>3CA</sub>::His<sub>6</sub> did not bind <italic>PiucA-2</italic>, which contained the R1 site but not the R2 site (<xref ref-type="fig" rid="pone-0107812-g006">Fig. 6D</xref>). To further confirm the importance of these predicted IscR boxes, recombinant IscR proteins were respectively interacted with these promoters lacking only the 26-bp predicted type 2 IscR box (<italic>PfhuA-1*</italic>, <italic>PiucA-1*</italic>, and <italic>PiucA-1*</italic>), and no obvious interaction was found. These results suggested that apo-IscR interacts directly with the promoters of <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic> via the predicted type 2 IscR boxes.</p>
+        <fig id="pone-0107812-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Regulation of <italic>K. pneumoniae iscR</italic> expression.</title>
+            <p>(A) beta-Galactosidase activity of <italic>K. pneumoniae</italic> AP006 (Delta<italic>lacZ</italic>) carrying the reporter plasmid piscRZ15 (P<italic><sub>iscR</sub></italic>::<italic>lacZ</italic>) were determined using log-phase cultures grown in the indicated concentrations of Dip. (B) The beta-galactosidase activity of piscRZ15 was determined in the AP006 and isogenic strains, AP009 (Delta<italic>lacZ-</italic>Delta<italic>fur</italic>), AP010 (Delta<italic>lacZ-</italic>Delta<italic>fur-</italic>Delta<italic>ryhB</italic>), AP007 (Delta<italic>lacZ-</italic>Delta<italic>iscR</italic>), and AP008 (Delta<italic>lacZ-iscR</italic><sub>3CA</sub>), using log-phase cultures grown in LB medium. (C) The beta-galactosidase activity of piscRZ15 was determined in the AP006 and isogenic strains, AP007, AP008, and AP011 (Delta<italic>lacZ-</italic>Delta<italic>fur-</italic>Delta<italic>iscR</italic>), using log-phase cultures grown in the indicated media. Error bars indicate standard deviations. *<italic>P</italic>&lt;0.01 compared with the indicated group.</p>
+          </caption>
+          <graphic xlink:href="pone.0107812.g006"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>Regulatory control of <italic>iscR</italic> transcription in <italic>K. pneumoniae</italic></title>
+        <p>To analyse whether environmental iron availability affects <italic>K. pneumoniae iscR</italic> expression, we grew AP006 in Luria-Bertani (LB) broth supplemented with increasing amounts of the iron chelator 2, 2-dipyridyl (Dip) and monitored the promoter activity of <italic>iscR</italic> using a LacZ reporter system <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>. As shown in <xref ref-type="fig" rid="pone-0107812-g006">Fig. 6A</xref>, the addition of 250 or 500 microM Dip to the growth medium increased <italic>iscR</italic> promoter (P<italic><sub>iscR</sub></italic>) activity by approximately 2-fold and 3.9-fold, respectively, indicating that the transcription of the <italic>iscRSUA</italic> operon was activated by iron limitation.</p>
+        <p>In <italic>K. pneumoniae</italic>, Fur and RyhB reportedly play crucial roles in gene regulation in response to cellular iron levels <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>, <xref rid="pone.0107812-Huang1" ref-type="bibr">[11]</xref>. Thus, we investigated whether Fur and RyhB regulate the activity of P<italic><sub>iscR</sub></italic>. As shown in <xref ref-type="fig" rid="pone-0107812-g006">Fig. 6B</xref>, the deletion of <italic>fur</italic> and the further deletion of <italic>ryhB</italic> in AP006 strain had no obvious effects on P<italic><sub>iscR</sub></italic> activity, whereas the deletion of <italic>iscR</italic> in AP006 strain activated P<italic><sub>iscR</sub></italic> activity by approximately 4.5-fold. In <italic>E. coli,</italic> IscR has been demonstrated to exert negative auto-regulation which requires the [2Fe-2S] cluster <xref rid="pone.0107812-Schwartz1" ref-type="bibr">[20]</xref>. Thus, we measured P<italic><sub>iscR</sub></italic> activity in an AP006-derived strain, AP008 (Delta<italic>lacZ-iscR</italic><sub>3CA</sub>), expressing a mutated IscR predicted to be defective in cluster binding <xref rid="pone.0107812-Schwartz1" ref-type="bibr">[20]</xref>. As shown in <xref ref-type="fig" rid="pone-0107812-g006">Fig. 6B</xref>, the P<italic><sub>iscR</sub></italic> activity in AP008 was increased approximately 4.5-fold. This increase was comparable to that in AP007 (Delta<italic>lacZ-</italic>Delta<italic>iscR</italic>). Our results suggested that IscR inhibits the transcription of the <italic>iscRSUA</italic> operon in a [2Fe-2S] cluster-dependent manner in <italic>K. pneumoniae</italic>.</p>
+        <p>To investigate whether IscR is the sole regulator of <italic>iscRSUA</italic> transcription in response to iron availability, we monitored P<italic><sub>iscR</sub></italic> activity in the AP007 and AP008 strains in LB broth containing various levels of iron. As shown in <xref ref-type="fig" rid="pone-0107812-g006">Fig. 6C</xref>, the P<italic><sub>iscR</sub></italic> activity in AP006 was activated in LB broth supplemented with Dip, and the further addition of 100 or 250 microM FeSO<sub>4</sub> reversed the activation. In the AP007 and AP008 strains, P<italic><sub>iscR</sub></italic> activity was increased compared with that of AP006. Nevertheless, the addition of Dip still activated P<italic><sub>iscR</sub></italic> activity, suggesting the presence of unknown factors, and the further addition of FeSO<sub>4</sub> restored the effect.</p>
+        <p>To analyse whether Fur is responsible for this regulation, we measured P<italic><sub>iscR</sub></italic> activity in AP011 (Delta<italic>lacZ</italic>-Delta<italic>fur</italic>-Delta<italic>iscR</italic>) compared with that of AP007 at various iron levels and noted no obvious effect. These results indicated that in addition to IscR and Fur, other factors modulate the transcription of the <italic>iscRSUA</italic> operon in response to environmental iron availability.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>Clinically isolated <italic>K. pneumoniae</italic> strains usually carry large amounts of CPS to resist engulfment by phagocytes and serum bactericidal factors <xref rid="pone.0107812-Lin1" ref-type="bibr">[6]</xref>, <xref rid="pone.0107812-Regueiro1" ref-type="bibr">[24]</xref>. Therefore, tightly controlling CPS biosynthesis is critical for successful infection by <italic>K. pneumoniae</italic>
+<xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>, <xref rid="pone.0107812-Huang1" ref-type="bibr">[11]</xref>, <xref rid="pone.0107812-Lin4" ref-type="bibr">[25]</xref>. We have previously shown that Fur represses the expression of mucoid factors RmpA and RcsA as well as the small RNA RyhB in response to environmental iron to decrease CPS biosynthesis indirectly in <italic>K. pneumoniae</italic>
+<xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>, <xref rid="pone.0107812-Huang1" ref-type="bibr">[11]</xref>. In this study, we focused on IscR, a central regulator of iron metabolism, to analyse more thoroughly how external iron affects CPS biosynthesis. Our data indicated that IscR activates CPS biosynthesis in a Fe-S cluster-dependent manner (<xref ref-type="fig" rid="pone-0107812-g001">Fig. 1A and B</xref>). Moreover, IscR positively regulates the transcription of three transcription units in the <italic>cps</italic> gene cluster (<xref ref-type="fig" rid="pone-0107812-g001">Fig. 1C</xref>). Purified IscR::His<sub>6</sub> also directly interacts with the promoter of <italic>orf1 - 2</italic>, possibly through the predicted type 1 IscR box (<xref ref-type="fig" rid="pone-0107812-g002">Fig. 2</xref>). These findings indicated that Fur and IscR exert negative and positive regulation, respectively, on CPS biosynthesis in response to external iron.</p>
+      <p>However, we hypothesize herein that Fur plays a major regulatory role because (i) <italic>K. pneumoniae</italic> grown under iron-replete conditions displayed decreased CPS levels, (ii) the AP004 strain produced elevated amounts of CPS compared with that of the WT and in the AP004 background, expression of IscR or IscR<sub>3CA</sub> did not cause an obvious effect on CPS amount under iron-replete or iron-limited conditions (data not shown), and (iii) all three transcription units of the <italic>cps</italic> genes were obviously increased after <italic>fur</italic> deletion <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>. This result supported the notion that Fur plays a major regulatory role in the regulation of CPS biosynthesis. Nevertheless, the contribution of IscR could also be an important part of the iron network. On one hand, in iron-replete conditions, Fur indirectly represses the CPS production, however CPS is still needed for <italic>K. pneumoniae</italic> survival inside the host, so IscR may contribute in maintaining a higher basal expression level of the genes involved in CPS biosynthesis. On the other hand, in iron-limited conditions, the transcription of iron-acquisition genes is increased not only due to the de-repression of apo-Fur but also the activation of apo-IscR. Besides, in addition to iron level, oxidative stress has been demonstrated to signal Fur and IscR, and the reversible interconversion of Fe-S clusters makes them exquisite sensors of such stress <xref rid="pone.0107812-Outten1" ref-type="bibr">[13]</xref>, <xref rid="pone.0107812-Yeo1" ref-type="bibr">[18]</xref>, <xref rid="pone.0107812-daSilvaNeto1" ref-type="bibr">[26]</xref>. Thus, the modulation of CPS levels by Fur and IscR under oxidative stress conditions could be predicted, but this hypothesis remains to be elucidated.</p>
+      <p>A BLAST search identified eight putative iron acquisition systems in the genome of <italic>K. pneumoniae</italic> CG43S3. Moreover, Fur directly represses the transcription of genes corresponding to six iron acquisition systems (<italic>iucA</italic>, <italic>iroB</italic>, <italic>entC</italic>, <italic>hmuR</italic>, <italic>feoA</italic>, and <italic>fecA</italic>) under iron-replete conditions <xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>. In this study, we have shown that IscR directly activates the transcription of <italic>fhuA</italic>, <italic>sitA</italic>, and <italic>iucA</italic> (<xref ref-type="table" rid="pone-0107812-t001">Table 1</xref> and <xref ref-type="fig" rid="pone-0107812-g005">Fig. 5</xref>). Although <italic>fur</italic> deletion also led to increased expression of these three iron acquisition systems, an <italic>in vivo</italic> Fur titration assay demonstrated that Fur did not interact with the promoters of <italic>fhuA</italic> and <italic>sitA</italic> and also had a relatively lower binding affinity to <italic>iucA</italic>
+<xref rid="pone.0107812-Lin2" ref-type="bibr">[10]</xref>. These findings indicated that Fur and IscR orchestrate the expression of iron acquisition systems in <italic>K. pneumoniae</italic>. In addition, Fur is suggested to play a major regulatory role because deletion of <italic>fur</italic>, but not <italic>iscR</italic> deletion, activated the secretion of siderophores, and the effect mediated by IscR was observed only in the <italic>fur</italic>-deleted background (<xref ref-type="fig" rid="pone-0107812-g004">Fig. 4</xref>).</p>
+      <p>Because IscR and Fur are both iron-responsive regulators which share strong overlap among downstream targets, we next investigated whether IscR and Fur are cross-regulated. In <italic>E. coli</italic>, the expression of the <italic>iscR</italic> is controlled not by Fur but by IscR itself <xref rid="pone.0107812-Giel2" ref-type="bibr">[19]</xref>, <xref rid="pone.0107812-Schwartz1" ref-type="bibr">[20]</xref>. In <italic>K. pneumoniae</italic>, we found that P<italic><sub>iscR</sub></italic> activity is clearly activated by IscR but not influenced by Fur (<xref ref-type="fig" rid="pone-0107812-g006">Fig. 6</xref>), which is consistent to the finding in <italic>E. coli</italic>. Moreover, deletion of <italic>iscR</italic> did not affect the transcription of <italic>fur</italic> (data not shown), suggesting that in <italic>K. pneumoniae</italic>, IscR and Fur do not share cross-regulation. Furthermore, <italic>E. coli</italic> RyhB reportedly binds directly to the upstream region of <italic>iscS</italic> mRNA to decrease the stability of <italic>iscRSUA</italic> but not <italic>iscR</italic> mRNA, thereby leading to a stable secondary <italic>iscR</italic> structure and resulting in active translation <xref rid="pone.0107812-Kiley1" ref-type="bibr">[27]</xref>. Then, the increased IscR likely causes auto-repression of P<italic><sub>iscR</sub></italic> activity.</p>
+      <p>An analysis of the upstream region of <italic>iscS</italic> in <italic>K. pneumoniae</italic>, also identified a conserved sequence paired with RyhB (data not shown). However, the regulatory effect on P<italic><sub>iscR</sub></italic> activity mediated by RyhB was not obvious under our assay conditions (<xref ref-type="fig" rid="pone-0107812-g006">Fig. 6B</xref>). On the contrary, as shown in <xref ref-type="fig" rid="pone-0107812-g006">Fig. 6C</xref>, P<italic><sub>iscR</sub></italic> activity in AP007 and AP008 was still activated by iron depletion, which prompted us to verify whether IscR is the sole iron-responsive regulator that controls P<italic><sub>iscR</sub></italic> activity. However, in AP007, the addition of FeSO<sub>4</sub> to iron-depleted medium still led to a reduction in P<italic><sub>iscR</sub></italic> activity. These results suggested that an unknown regulator, beside of IscR and Fur, represses the transcription of <italic>iscR</italic> in response to external iron. In addition to IscR, the [2Fe-2S] cluster is critical for regulation mediated by FNR and SoxR <xref rid="pone.0107812-Kiley1" ref-type="bibr">[27]</xref>. However, sequence analysis of the promoter region of <italic>iscR</italic> revealed no typical FNR and SoxR binding sites. On the contrary, we found a putative binding site of SoxS <xref rid="pone.0107812-Griffith1" ref-type="bibr">[28]</xref>, an oxidative transcriptional regulator activated by SoxR, in P<italic><sub>iscR</sub></italic>. This putative SoxS binding site displays 79% (15/19 bp) homology with the consensus sequence and is located at position -144 to -126 relative to the translation start site of <italic>iscR</italic>. Therefore, we hypothesized that SoxS may be involved in the regulation of <italic>iscR</italic> in response to oxidative stress and will investigate this possibility in future studies.</p>
+      <p>IscR differs from other known Fe-S cluster-containing transcription factors such as FNR and SoxR because both apo- and holo-IscR regulate transcription and exhibit different DNA binding specificities <xref rid="pone.0107812-Rajagopalan1" ref-type="bibr">[29]</xref>. Structural and biochemical studies have suggested that the ligation of the [2Fe-2S] cluster broadens the DNA binding specificity of IscR, thereby allowing holo-IscR to bind both type 1 and type 2 boxes, whereas apo-IscR binds only the type 2 box <xref rid="pone.0107812-Rajagopalan1" ref-type="bibr">[29]</xref>. In the <italic>K. pneumoniae</italic> K2 <italic>cps</italic> gene cluster, we found a type 1 box in the promoter region of <italic>galF</italic>, and purified IscR::His<sub>6</sub> could bind this motif <italic>in vitro</italic> (<xref ref-type="fig" rid="pone-0107812-g002">Fig. 2</xref>). In addition and as expected, the clusterless IscR<sub>3CA</sub>:His<sub>6</sub>, mimicking apo-IscR, showed no obvious binding affinity to P<italic><sub>galF</sub></italic>. On the contrary, all three promoters of the iron acquisition genes regulated by IscR contain predicted type 2 boxes, and both IscR::His<sub>6</sub> and IscR<sub>3CA</sub>:His<sub>6</sub> appeared to bind these boxes (<xref ref-type="fig" rid="pone-0107812-g005">Fig. 5</xref>). Although apo- and holo-IscR have been demonstrated to bind the type 2 box with similarly high affinity <xref rid="pone.0107812-Nesbit1" ref-type="bibr">[21]</xref>, EMSA revealed that IscR<sub>3CA</sub>:His<sub>6</sub> displayed weaker binding (<xref ref-type="fig" rid="pone-0107812-g005">Fig. 5</xref>). In <italic>E. coli</italic>, the Fe-S cluster status of IscR is a key variable that regulates gene expression in response to iron availability <xref rid="pone.0107812-Andrews1" ref-type="bibr">[12]</xref>. Our results suggested that the transcription of <italic>cps</italic> and iron acquisition genes is regulated by not only the level of IscR but also the cellular ratio of apo- and holo-IscR.</p>
+      <p>Although IscR was first discovered as an auto-repressor of the <italic>isc</italic> operon, it is now known to be a global regulator that influences the expression of ~40 genes in <italic>E. coli</italic> and ~67 genes in <italic>Vibrio vulnificus</italic>
+<xref rid="pone.0107812-Giel2" ref-type="bibr">[19]</xref>, <xref rid="pone.0107812-Lim1" ref-type="bibr">[30]</xref>. Although the regulon of IscR in <italic>K. pneumoniae</italic> has not been identified, our study provided evidence that IscR regulates CPS biosynthesis and iron acquisition, which are also regulated by Fur. Moreover, previous studies have shown that Fur controls type 3 fimbriae expression and biofilm formation in <italic>K. pneumoniae</italic>
+<xref rid="pone.0107812-Wu1" ref-type="bibr">[31]</xref>. The possibility that IscR also participates in the regulation of these phenotypes is currently under investigation.</p>
+      <p>After infection, bacterial pathogens frequently encounter iron starvation and oxidative/nitric oxide stress conditions that are highly detrimental for maintaining Fe-S cluster homeostasis <xref rid="pone.0107812-Wilks1" ref-type="bibr">[32]</xref>, <xref rid="pone.0107812-Miller1" ref-type="bibr">[33]</xref>, <xref rid="pone.0107812-Py1" ref-type="bibr">[34]</xref>. These conditions are predicted to influence the transcription of genes regulated by IscR. Thus, in response to these stress conditions, IscR may regulate CPS biosynthesis, iron acquisition systems, and other virulence factors in <italic>K. pneumoniae</italic> to facilitate bacterial persistence in the host. In this study, we demonstrated that external iron levels regulate CPS biosynthesis and iron acquisition systems through IscR in <italic>K. pneumoniae</italic> and proposed a working model (<xref ref-type="fig" rid="pone-0107812-g007">Fig. 7</xref>). In response to iron availability, IscR and Fur control the expression of downstream targets in a parallel and cooperative manner, which is predicted to play a crucial regulatory role during infection.</p>
+      <fig id="pone-0107812-g007" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0107812.g007</object-id>
+        <label>Figure 7</label>
+        <caption>
+          <title>A proposed model for IscR regulation on the CPS biosynthesis and iron-acquisition genes in <italic>K. pneumoniae</italic>.</title>
+          <p>(A) Under iron-replete conditions, and when the cellular supply of Fe-S clusters is sufficient, the holo-IscR exerts an auto-repression as well as activates the K2 <italic>cps</italic> genes and the iron-acquisition genes; however, Fur in complex with Fe(II) exerts a stronger repression on these genes (red lines). (B) Under iron-deplete conditions, the apo-IscR accumulates and preferably activates the transcription of the iron-acquisition genes but not the <italic>cps</italic> genes. Upon the de-repression of Fur, both the transcription of the iron-acquisition and <italic>cps</italic> genes are increased.</p>
+        </caption>
+        <graphic xlink:href="pone.0107812.g007"/>
+      </fig>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains, plasmids, and media</title>
+        <p>Bacterial strains and plasmids used in this study are listed in <xref ref-type="table" rid="pone-0107812-t002">Table 2</xref>. Primers used in this study are list in <xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>. Bacteria were routinely cultured at 37 degrees C in LB medium supplemented with appropriate antibiotics. The antibiotics used include ampicillin (100 microg/ml), kanamycin (25 microg/ml), streptomycin (500 microg/ml), and tetracycline (12.5 microg/ml).</p>
+        <table-wrap id="pone-0107812-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Bacterial strains and plasmids used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0107812-t002-2" xlink:href="pone.0107812.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strains or plasmids</td>
+                  <td align="left" rowspan="1" colspan="1">Descriptions</td>
+                  <td align="left" rowspan="1" colspan="1">Reference or source</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>K. pneumoniae</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">CG43S3</td>
+                  <td align="left" rowspan="1" colspan="1">CG43 Sm<sup>r</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lai2" ref-type="bibr">[41]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP001</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>iscR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP002</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3<italic>iscR</italic><sub>3CA</sub></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP003</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>fur</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Cheng1" ref-type="bibr">[42]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP004</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>fur</italic>-Delta<italic>iscR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP005</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>fur-iscR</italic><sub>3CA</sub></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP006</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>lacZ</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP007</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>lacZ-</italic>Delta<italic>iscR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP008</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>lacZ-iscR</italic><sub>3CA</sub></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP009</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>lacZ-</italic>Delta<italic>fur</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP010</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>lacZ</italic>-Delta<italic>fur</italic>-Delta<italic>ryhB</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP011</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>lacZ</italic>-Delta<italic>fur</italic>-Delta<italic>iscR</italic></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AP012</td>
+                  <td align="left" rowspan="1" colspan="1">CG43S3Delta<italic>galU</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lai1" ref-type="bibr">[35]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>E. coli</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">DH5alpha</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>supE44</italic>Delta<italic>lacU169 (f80 lacZ</italic>DeltaM15)15)169<italic>recA1 endA1 gyrA96 thi-1 relA1</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Hanahan1" ref-type="bibr">[43]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">BL21(DE3)</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>F<sup>-</sup> ompT hsdS<sub>B</sub>[r<sub>B</sub><sup>-</sup>m<sub>B</sub><sup>-</sup>]gal dcm</italic> [DE3]</td>
+                  <td align="left" rowspan="1" colspan="1">New England Biolabs</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">S17-1 <italic>lambda pir</italic></td>
+                  <td align="left" rowspan="1" colspan="1"><italic>hsdR recA pro</italic> RP4-2 [Tc::Mu; Km::Tn<italic>7</italic>] [<italic>lambdapir</italic>]</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Miller2" ref-type="bibr">[37]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Plasmids</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pKAS46</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup> Km<sup>r</sup>, positive selection suicide vector, <italic>rpsL</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Skorupski1" ref-type="bibr">[36]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">yT&amp;A</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup>, TA cloning vector</td>
+                  <td align="left" rowspan="1" colspan="1">Yeastern</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pACYC184</td>
+                  <td align="left" rowspan="1" colspan="1">Tc<sup>r</sup>Cm<sup>r</sup>, low copy number cloning vector</td>
+                  <td align="left" rowspan="1" colspan="1">New England Biolabs</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pIscR</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, 980-bp fragment containing an <italic>iscR</italic> allele cloned into pACYC184</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pIscR<sub>3CA</sub></td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, 980-bp fragment containing C92A, C98A and C104A mutant allele of <italic>iscR</italic> cloned into pACYC184</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">placZ15</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, promoter selection vector, <italic>lacZ</italic><sup>+</sup></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">piscRZ15</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, 312-bp fragment containing the region upstream of <italic>iscR</italic> cloned into placZ15</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pOrf12</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, 500-bp fragment containing the region upstream of <italic>Klebsiella K2 cps orf1-orf2 cloned into placZ15</italic></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pOrf315</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, 900-bp fragment containing the region upstream of <italic>Klebsiella K2 cps orf3-orf15</italic> cloned into placZ15</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pOrf1617</td>
+                  <td align="left" rowspan="1" colspan="1">Cm<sup>r</sup>, 300-bp fragment containing the region upstream of <italic>Klebsiella K2 cps orf16-orf17</italic> cloned into placZ15</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET30b-IscR</td>
+                  <td align="left" rowspan="1" colspan="1">Km<sup>r</sup>, 654-bp fragment encoding full-length IscR cloned into pET30b</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pET30b-IscR<sub>3CA</sub></td>
+                  <td align="left" rowspan="1" colspan="1">Km<sup>r</sup>, 654-bp fragment encoding full-length C92A, C98A and C104A mutant allele of <italic>iscR</italic> cloned into pET30b</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">piscR-pKAS46</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup>Km<sup>r</sup>, 2.0 kb fragment containing <italic>iscR</italic> and its flanking regions cloned into pKAS46</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">piscR<sub>3CA</sub>-pKAS46</td>
+                  <td align="left" rowspan="1" colspan="1">Ap<sup>r</sup>Km<sup>r</sup>, 2.0 kb fragment containing full-length C92A, C98A and C104A mutant allele of <italic>iscR</italic> and its flanking regions cloned into pKAS46</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <table-wrap id="pone-0107812-t003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0107812.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Primers used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0107812-t003-3" xlink:href="pone.0107812.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Primer</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence (5'->3')</td>
+                  <td align="left" rowspan="1" colspan="1">Enzyme cleaved</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT138</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATCCTGCGTCGTCTGTTCACCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT139</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AAGCTTCAATGCAAGGAATCAGGCA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Hind</italic>III</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT142</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATCCCGGTCACGGCATAA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT143</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AGATCTAGTTGAACATCCTGCGCGGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bgl</italic>II</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT206</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CTGAGCGCCGCCCTTGCCCTGGGCACG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT207</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGCGGCGATAAAGCCCTGACTCACG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT215</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCTCGAGGGCGCGCAGTTTAACGTCAAT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Nhe</italic>I</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT216</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCATATGAGACTGACATCTAAAGGGCG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Xho</italic>I</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT241</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CGAGCTCCCATACCGGCAACATGGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Sac</italic>I</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT242</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CTCTAGACGCGCCATCTCGCTTTCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Xba</italic>I</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">CC02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATCCTCTCATGTCTTACTTAACC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">CC03</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATCCAGGACGCGATTGAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT200</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCAGCGGCTCGTTCCTTTGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT201</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCTCACTTCTGACTGTTGGTAAAAGGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">YCC02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ACTGGATCCTGCGACCGGAATAACC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fhuA01</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAGCTTGTCGCGGGCTGGATCAAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Hind</italic>III</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fhuA02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CGGATCCCGCAGCGAGTGATTTGGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fhuA03</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AATTCAGCCTTCGACCGGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fhuA04</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AAAGAGCCGTTAACTTTTTTAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">fhuA05</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATTCAGCCTTCGACCGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">iucA01</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGCAAAGTCATAGTCAAACAGATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">iucA02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAATCACCAGTACAGGGATCG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">iucA03</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ACAACATCGTGACGTCTCTTGA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">iucA04</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTATAAAATAAATTTTATCAATCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">sitA02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGTGTAGCATAGGATCCCTC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">sitA03</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ATTTCTTGATCTTCGCCCGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">sitA05</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GTTATATAGCACAAGCTATTTAT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">sitA06</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ATTAACCACACCATTGCGAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">galF01</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCAGCGGCTCGTTCCTTTG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">cc02</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGATCCTCTCATGTCTTACTTAACC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Bam</italic>HI</td>
+                </tr>
+              </tbody>
+            </table>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">For RT-qPCR</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence (5'->3')</td>
+                  <td align="left" rowspan="1" colspan="1">TaqMan probes</td>
+                  <td align="left" rowspan="1" colspan="1">Target</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">RT11</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGTAGGGGAGCGTTCTGTAA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">67</td>
+                  <td align="left" rowspan="1" colspan="1">23S rRNA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">RT12</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCAGCATTCGCACTTCTGAT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT56</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ACCCCGCCAGCTTTAACTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>entC</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT57</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGTCCTTCTTTACGCAGCAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT58</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CAACCTGAACAGCGATTTCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fecA</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT59</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCGGCGCTCTCTTTAACAGT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT62</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CAGATGTCAGCGCAGATCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>feoB</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT63</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CATAGGCCCGGCTGTAGA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT64</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AAAGAGATTGGCCTCGAGTTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fepA</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT59</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCGGCGCTCTCTTTAACAGT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT66</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AATAAACAGCTCGTTTCGTTAAAAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">160</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fepB</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT67</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GTATAGACCAGGGCGGTCAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT68</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GTTTGGTCGTATCGCCTGAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>fhuA</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT69</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGAAGGTGAAGTCAGTTTTATCG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT72</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGATGACCTACCTGCAGTACCA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>hmuR</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT73</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAGCCGAGGTTCCAGGAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT74</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CGGAGGAACATTCGTCAAA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">84</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>iroB</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT75</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTCGGAATCTAAGCCTGGTG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT78</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCTCCCGGCTTATTGTTGATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">67</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>iucA</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT79</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGAAGGTTTCGCAACTGGT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT82</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAGATCCGTCAGACGATGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>sitA</italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GT83</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAGTCGCGGGCCAGATAG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s4b">
+        <title>Construction of the deletion of <italic>iscR</italic> mutants</title>
+        <p>Specific gene deletion of <italic>iscR</italic> was introduced into <italic>K. pneumoniae</italic> CG43S3 using an allelic exchange strategy as previously described <xref rid="pone.0107812-Lai1" ref-type="bibr">[35]</xref>. In brief, two approximately 1000 bp DNA fragments flanking both sides of <italic>iscR</italic> were cloned into the suicide vector pKAS46 <xref rid="pone.0107812-Skorupski1" ref-type="bibr">[36]</xref>, a suicide vector containing <italic>rpsL</italic>, which allows positive selection with streptomycin for vector loss. The resulting plasmid was then mobilized from <italic>E. coli</italic> S17-1lambda<italic>pir</italic>
+<xref rid="pone.0107812-Miller2" ref-type="bibr">[37]</xref> to <italic>K. pneumoniae</italic> CG43S3 or CG43S3-derived strains by conjugation. The transconjugants, with the plasmid integrated into the chromosome via homologous recombination, were selected with ampicillin and kanamycin on M9 agar plates. Several of the colonies were grown in LB broth supplemented with 500 microg/mL of streptomycin to log phase at 37 degrees C and then spread onto an LB agar plate containing 500 microg/mL of streptomycin. The streptomycin-resistant and kanamycin-sensitive colonies were selected, and the deletion was verified by PCR and Southern hybridization (data not shown). The resulting <italic>K. pneumoniae</italic> mutants are listed in <xref ref-type="table" rid="pone-0107812-t002">Table 2</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Construction of the pIscR complementation plasmid and the pIscR<sub>3CA</sub> mutant plasmid</title>
+        <p>To obtain the complementation plasmid (pIscR), a DNA fragment containing the promoter and coding sequence of <italic>iscR</italic> was amplified by PCR using the primer pair GT138/GT139 (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>) and cloned into the pACYC184 shuttle vector. The pIscR<sub>3CA</sub> plasmid, which carried the mutant allele encoding IscR with the C92A, C98A, and C104A mutations, was constructed using the inverse-PCR method. Briefly, the pIscR plasmid was used as the PCR template to generate the mutant allele with the primer pair GT206/GT207 (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>). The recovered PCR product was treated with <italic>Dpn</italic>I for 2 h, subjected to T4 polynucleotide kinase treatment, and self-ligated with T4 DNA ligase. The ligation product was transformed into <italic>E. coli</italic> DH5alpha. The pIscR<sub>3CA</sub> plasmid was subsequently confirmed by sequence analysis.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Construction of a <italic>K. pneumoniae iscR<sub>3CA</sub></italic> mutant</title>
+        <p>A DNA fragment carrying <italic>iscR</italic> and approximately 1000 bp adjacent regions on either side was amplified by PCR using primer pairs GT241/GT242 (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>) and cloned into yT&amp;A. The resulting plasmid was used as the template for the inverse-PCR with the primer pair GT206/GT207 (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>) to generate a mutant <italic>iscR</italic> allele encoding the C92A, C98A and C104A mutations. Subsequently, the mutant allele of <italic>iscR</italic> was subcloned into pKAS46 and confirmed by DNA sequencing. Then, the plasmid was mobilized from <italic>E. coli</italic> S17-1 lambda<italic>pir</italic> to the <italic>K. pneumoniae</italic> AP001 strain by conjugation, and the subsequent selection was performed as described above.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Extraction and quantification of CPS</title>
+        <p>CPS was extracted and quantified as previously described <xref rid="pone.0107812-Domenico1" ref-type="bibr">[38]</xref>. The glucuronic acid content, represents the amount of <italic>K. pneumoniae</italic> K2 CPS, was determined from a standard curve of glucuronic acid (Sigma-Aldrich) and expressed as micrograms per 10<sup>9</sup> c.f.u. <xref rid="pone.0107812-Blumenkrantz1" ref-type="bibr">[39]</xref>.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Measurement of promoter activity</title>
+        <p>The promoter-reporter plasmids, pOrf12, pOrf315, pOrf1617, and piscRZ15 were individually mobilized into <italic>K. pneumoniae</italic> strains by conjugation from <italic>E. coli</italic> S17-1 lambda<italic>pir</italic>. The bacteria were grown to logarithmic phase in LB broth or indicated medium, and the beta-galactosidase activity was measured as previously described <xref rid="pone.0107812-Lin3" ref-type="bibr">[23]</xref>.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Bacterial survival in serum</title>
+        <p>Normal human serum, pooled from healthy volunteers, was divided into equal volumes and stored at -70 degrees C before use. Bacterial survival in serum was determined as previously described <xref rid="pone.0107812-Lai1" ref-type="bibr">[35]</xref>. First, the bacteria were grown to log phase in LB broth and the viable bacterial concentration was adjusted to 1x10<sup>6</sup> c.f.u./ml. Next, 1 ml of the cultures was washed twice using phosphate-buffered saline (PBS) and resuspended in 1 ml PBS. A mixture containing 250 microl of the cell suspension and 750 microl of pooled human serum was incubated at 37 degrees C for 15 min. The number of viable bacteria was then determined by plate counting. The survival rate was expressed as the number of viable bacteria treated with human serum compared with the number of viable bacteria pretreatment. The 0% survival of <italic>K. pneumoniae</italic> AP012 (Delta<italic>galU</italic>) served as a negative control.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Purification of IscR::His<sub>6</sub> and IscR<sub>3CA</sub>::His<sub>6</sub></title>
+        <p>The coding regions of <italic>iscR</italic> and <italic>iscR</italic><sub>3CA</sub> were amplified using the primer pair GT215/GT216 (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>) and cloned into the <italic>Nhe</italic>I/<italic>Xho</italic>I site in pET30b (Novagen, 205 Madison, Wis). The resulting plasmids (pET30b-IscR and pET30b-IscR<sub>3CA</sub>, respectively) were then transformed into <italic>E. coli</italic> BL21(DE3)[pLysS] (Invitrogen, USA), and overproduction of the recombinant proteins IscR::His<sub>6</sub> and IscR<sub>3CA</sub>::His<sub>6</sub>, respectively, were induced by the addition of 1 mM IPTG for 3 h at 37 degrees C. The cell pellets were washed and resuspended in cold binding buffer (20 mM sodium phosphate, 0.5 M NaCl, 5 mM imidazole, pH 7.4). The cells were then broken by sonication and the cell pellets were removed by centrifugation at 14000 rpm for 10 min at 4 degrees C. The recombinant proteins were then purified from the soluble fraction of the total cell lysate by affinity chromatography using His-Bind resin (Novagen, Madison, Wis) according to the manufacturer's instructions. The nonbinding proteins were washed away using binding buffer and the recombinant proteins were eluted by elution buffer (20 mM sodium phosphate, 0.5 M NaCl, 500 mM imidazole, pH 7.4). Finally, the purified proteins were dialyzed against TEGX buffer [20 mM Tris-HCl (pH 8.0), 0.5 mM EDTA (pH 8.0), 10% (v/v) glycerol, 0.2% Triton-X 100] containing 0.1 mM NaCl at 4 degrees C overnight. Subsequently, the dialyzed protein was checked for purity by SDS-PAGE and stored for up to two weeks at 4 degrees C. The purified protein was transparent and no obvious precipitation was observed after storage.</p>
+      </sec>
+      <sec id="s4i">
+        <title>EMSA</title>
+        <p>DNA fragments of the putative promoter regions <italic>galF</italic>, <italic>fhuA</italic>, <italic>iucA</italic>, and <italic>sitA</italic> were amplified with Pfu polymerase using specific primer sets (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>) to generate DNA probes for EMSA (<italic>PgalF-1</italic> and <italic>PgalF-2</italic> for <italic>galF</italic>; <italic>PfhuA-1</italic> and <italic>PfhuA-2</italic> for <italic>fhuA</italic>; <italic>PiucA-1</italic> and <italic>PiucA-2</italic> for <italic>iucA</italic>; and <italic>PsitA-1</italic> and <italic>PsitA-2</italic> for <italic>sitA</italic>). To obtain probes that lacked a putative IscR box, the DNA fragments were respectively amplified with Taq polymerase using the above-described primer sets (<xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>) and then cloned into yT&amp;A to generate the plasmids pgalF, pfhuA, piucA, and psitA for subsequent mutagenesis via the inverse-PCR method using the primer pairs GT201/galF01, fhuA04/fhuA05, iucA03/iucA04, and sitA05/sitA06, respectively. The resulting mutant plasmids, pgalF*, pfhuA*, piucA*, and psitA*, respectively, were amplified with specific primer sets to generate the DNA fragments <italic>PgalF-1*</italic>, <italic>PfhuA-1*</italic>, <italic>PiucA-1*</italic>, and <italic>PsitA-1*</italic> for DNA probes in EMSA.</p>
+        <p>For the EMSA, the purified IscR::His<sub>6</sub> and IscR<sub>3CA</sub>::His<sub>6</sub> proteins were incubated with 5-ng DNA in a 10 microl solution containing 4 mM Tris-HCl (pH 7.4), 10 mM KCl, 100 mM dithiothreitol, and 10 microg/ml BSA at 37 degrees C for 30 min. The samples were then loaded onto a native gel of 5% nondenaturing polyacrylamide in 0.5x TB buffer (45 mM Tris-HCl, pH 8.0, 45 mM boric acid). Gels were electrophoresed with a 20-mA current at 4 degrees C and then stained with SYBR Green I dye (Invitrogen). The assay was repeated in at least 3 independent experiments.</p>
+      </sec>
+      <sec id="s4j">
+        <title>qRT-PCR</title>
+        <p>Total RNAs were isolated from early-exponential-phase grown bacteria cells by use of the RNeasy midi-column (QIAGEN) according to the manufacturer's instructions. RNA was DNase-treated with RNase-free DNase I (MoBioPlus) to eliminate DNA contamination. RNA of 100-ng was reverse-transcribed with the Transcriptor First Strand cDNA Synthesis Kit (Roche) using random primers. qRT-PCR was performed in a Roche LightCycler 1.5 Instrument using LightCycler TaqMan Master (Roche). Primers and probes were designed for selected target sequences using Universal ProbeLibrary Assay Design Center (Roche-applied science) and listed in <xref ref-type="table" rid="pone-0107812-t003">Table 3</xref>. Data were analyzed using the real time PCR software of Roche LightCycler 1.5 Instrument. Relative gene expressions were quantified using the comparative threshold cycle 2<sup>-DeltaDeltaCT</sup> method with 23S rRNA as the endogenous reference.</p>
+      </sec>
+      <sec id="s4k">
+        <title>CAS assay</title>
+        <p>The CAS assay was performed according to the method described by Schwyn and Neilands <xref rid="pone.0107812-Schwyn1" ref-type="bibr">[40]</xref>. Each of the bacterial strain was grown overnight in LB medium, and then 5 microl of culture was added onto a CAS agar plate. After 24 h incubation at 37 degrees C, the effects of the bacterial siderophore production could be observed. Siderophore production was apparent as a halo around the colonies; the absence of a halo indicated the inability to produce siderophores.</p>
+      </sec>
+      <sec id="s4l">
+        <title>Statistical methods</title>
+        <p>An unpaired t-test was used to determine the statistical significance and values of <italic>P</italic>&lt;0.01 were considered significant. The results of CPS quantification, beta-galactosidase activity, serum survival rate, and qRT-PCR analysis were performed in triplicate and independently repeated at least three times, and the mean activity and standard deviation are presented.</p>
+      </sec>
+      <sec id="s4m">
+        <title>Ethics statement</title>
+        <p>For isolation of normal human serum from healthy volunteers, the procedure and the respective consent documents were approved by the Ethics Committee of the China Medical University Hospital, Taichung, Taiwan. All healthy volunteers provided written informed consent.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0107812.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Single-copy complementation of </bold><bold><italic>iscR</italic></bold><bold> but not </bold><bold><italic>iscR</italic></bold><bold><sub>3CA</sub> in the AP001 strain restores native production levels of CPS.</bold> CPS levels of the <italic>K. pneumoniae</italic> strains, as indicated, grown in LB broth were determined as described in Materials and Methods (*<italic>P</italic>&lt;0.01).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0107812.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0107812.s002">
+        <label>Methods S1</label>
+        <caption>
+          <p>
+            <bold>Supporting Materials and Methods.</bold>
+          </p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0107812.s002.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0107812-Podschun1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Podschun</surname><given-names>R</given-names></name>, <name><surname>Ullmann</surname><given-names>U</given-names></name> (<year>1998</year>) <article-title><italic>Klebsiella</italic> spp. as nosocomial pathogens: epidemiology, taxonomy, typing methods, and pathogenicity factors</article-title>. <source>Clin Microbiol Rev</source><volume>11</volume>: <fpage>589</fpage> - <lpage>603</lpage><pub-id pub-id-type="pmid">9767057</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Han1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Han</surname><given-names>SH</given-names></name> (<year>1995</year>) <article-title>Review of hepatic abscess from <italic>Klebsiella pneumoniae</italic>. An association with diabetes mellitus and septic endophthalmitis</article-title>. <source>West J Med</source><volume>162</volume>: <fpage>220</fpage> - <lpage>224</lpage><pub-id pub-id-type="pmid">7725704</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lau1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Lau</surname><given-names>YJ</given-names></name>, <name><surname>Hu</surname><given-names>BS</given-names></name>, <name><surname>Wu</surname><given-names>WL</given-names></name>, <name><surname>Lin</surname><given-names>YH</given-names></name>, <name><surname>Chang</surname><given-names>HY</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Identification of a major cluster of <italic>Klebsiella pneumoniae</italic> isolates from patients with liver abscess in Taiwan</article-title>. <source>J Clin Microbiol</source><volume>38</volume>: <fpage>412</fpage> - <lpage>414</lpage><pub-id pub-id-type="pmid">10618128</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Yang1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>YS</given-names></name>, <name><surname>Siu</surname><given-names>LK</given-names></name>, <name><surname>Yeh</surname><given-names>KM</given-names></name>, <name><surname>Fung</surname><given-names>CP</given-names></name>, <name><surname>Huang</surname><given-names>SJ</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Recurrent <italic>Klebsiella pneumoniae</italic> liver abscess: clinical and microbiological characteristics</article-title>. <source>J Clin Microbiol</source><volume>47</volume>: <fpage>3336</fpage> - <lpage>3339</lpage><pub-id pub-id-type="pmid">19692563</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Sahly1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Sahly</surname><given-names>H</given-names></name>, <name><surname>Podschun</surname><given-names>R</given-names></name>, <name><surname>Oelschlaeger</surname><given-names>TA</given-names></name>, <name><surname>Greiwe</surname><given-names>M</given-names></name>, <name><surname>Parolis</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Capsule impedes adhesion to and invasion of epithelial cells by <italic>Klebsiella pneumoniae</italic></article-title>. <source>Infect Immun</source><volume>68</volume>: <fpage>6744</fpage> - <lpage>6749</lpage><pub-id pub-id-type="pmid">11083790</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lin1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>JC</given-names></name>, <name><surname>Chang</surname><given-names>FY</given-names></name>, <name><surname>Fung</surname><given-names>CP</given-names></name>, <name><surname>Xu</surname><given-names>JZ</given-names></name>, <name><surname>Cheng</surname><given-names>HP</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>High prevalence of phagocytic-resistant capsular serotypes of <italic>Klebsiella pneumoniae</italic> in liver abscess</article-title>. <source>Microbes Infect</source><volume>6</volume>: <fpage>1191</fpage> - <lpage>1198</lpage><pub-id pub-id-type="pmid">15488738</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Boddicker1">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Boddicker</surname><given-names>JD</given-names></name>, <name><surname>Anderson</surname><given-names>RA</given-names></name>, <name><surname>Jagnow</surname><given-names>J</given-names></name>, <name><surname>Clegg</surname><given-names>S</given-names></name> (<year>2006</year>) <article-title>Signature-tagged mutagenesis of <italic>Klebsiella pneumoniae</italic> to identify genes that influence biofilm formation on extracellular matrix material</article-title>. <source>Infect Immun</source><volume>74</volume>: <fpage>4590</fpage> - <lpage>4597</lpage><pub-id pub-id-type="pmid">16861646</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Moranta1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Moranta</surname><given-names>D</given-names></name>, <name><surname>Regueiro</surname><given-names>V</given-names></name>, <name><surname>March</surname><given-names>C</given-names></name>, <name><surname>Llobet</surname><given-names>E</given-names></name>, <name><surname>Margareto</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title><italic>Klebsiella pneumoniae</italic> capsule polysaccharide impedes the expression of beta-defensins by airway epithelial cells</article-title>. <source>Infect Immun</source><volume>78</volume>: <fpage>1135</fpage> - <lpage>1146</lpage><pub-id pub-id-type="pmid">20008534</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-FavreBonte1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Favre-Bonte</surname><given-names>S</given-names></name>, <name><surname>Joly</surname><given-names>B</given-names></name>, <name><surname>Forestier</surname><given-names>C</given-names></name> (<year>1999</year>) <article-title>Consequences of reduction of <italic>Klebsiella pneumoniae</italic> capsule expression on interactions of this bacterium with epithelial cells</article-title>. <source>Infect Immun</source><volume>67</volume>: <fpage>554</fpage> - <lpage>561</lpage><pub-id pub-id-type="pmid">9916058</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lin2">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>CT</given-names></name>, <name><surname>Wu</surname><given-names>CC</given-names></name>, <name><surname>Chen</surname><given-names>YS</given-names></name>, <name><surname>Lai</surname><given-names>YC</given-names></name>, <name><surname>Chi</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Fur regulation of the capsular polysaccharide biosynthesis and iron-acquisition systems in <italic>Klebsiella pneumoniae</italic> CG43</article-title>. <source>Microbiology</source><volume>157</volume>: <fpage>419</fpage> - <lpage>429</lpage><pub-id pub-id-type="pmid">21071493</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Huang1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Huang</surname><given-names>SH</given-names></name>, <name><surname>Wang</surname><given-names>CK</given-names></name>, <name><surname>Peng</surname><given-names>HL</given-names></name>, <name><surname>Wu</surname><given-names>CC</given-names></name>, <name><surname>Chen</surname><given-names>YT</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Role of the small RNA RyhB in the Fur regulon in mediating the capsular polysaccharide biosynthesis and iron acquisition systems in <italic>Klebsiella pneumoniae</italic></article-title>. <source>BMC Microbiol</source><volume>12</volume>: <fpage>148</fpage><pub-id pub-id-type="pmid">22827802</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Andrews1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Andrews</surname><given-names>SC</given-names></name>, <name><surname>Robinson</surname><given-names>AK</given-names></name>, <name><surname>Rodriguez-Quinones</surname><given-names>F</given-names></name> (<year>2003</year>) <article-title>Bacterial iron homeostasis</article-title>. <source>FEMS Microbiol Rev</source><volume>27</volume>: <fpage>215</fpage> - <lpage>237</lpage><pub-id pub-id-type="pmid">12829269</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Outten1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Outten</surname><given-names>FW</given-names></name>, <name><surname>Djaman</surname><given-names>O</given-names></name>, <name><surname>Storz</surname><given-names>G</given-names></name> (<year>2004</year>) <article-title>A <italic>suf</italic> operon requirement for Fe-S cluster assembly during iron starvation in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source><volume>52</volume>: <fpage>861</fpage> - <lpage>872</lpage><pub-id pub-id-type="pmid">15101990</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Johnson1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Johnson</surname><given-names>DC</given-names></name>, <name><surname>Dean</surname><given-names>DR</given-names></name>, <name><surname>Smith</surname><given-names>AD</given-names></name>, <name><surname>Johnson</surname><given-names>MK</given-names></name> (<year>2005</year>) <article-title>Structure, function, and formation of biological iron-sulfur clusters</article-title>. <source>Annu Rev Biochem</source><volume>74</volume>: <fpage>247</fpage> - <lpage>281</lpage><pub-id pub-id-type="pmid">15952888</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-AyalaCastro1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Ayala-Castro</surname><given-names>C</given-names></name>, <name><surname>Saini</surname><given-names>A</given-names></name>, <name><surname>Outten</surname><given-names>FW</given-names></name> (<year>2008</year>) <article-title>Fe-S cluster assembly pathways in bacteria</article-title>. <source>Microbiol Mol Biol Rev</source><volume>72</volume>: <fpage>110</fpage> - <lpage>125</lpage><pub-id pub-id-type="pmid">18322036</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Giel1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Giel</surname><given-names>JL</given-names></name>, <name><surname>Nesbit</surname><given-names>AD</given-names></name>, <name><surname>Mettert</surname><given-names>EL</given-names></name>, <name><surname>Fleischhacker</surname><given-names>AS</given-names></name>, <name><surname>Wanta</surname><given-names>BT</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Regulation of iron-sulphur cluster homeostasis through transcriptional control of the Isc pathway by [2Fe-2S]-IscR in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source><volume>87</volume>: <fpage>478</fpage> - <lpage>492</lpage><pub-id pub-id-type="pmid">23075318</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Pullan1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Pullan</surname><given-names>ST</given-names></name>, <name><surname>Gidley</surname><given-names>MD</given-names></name>, <name><surname>Jones</surname><given-names>RA</given-names></name>, <name><surname>Barrett</surname><given-names>J</given-names></name>, <name><surname>Stevanin</surname><given-names>TM</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Nitric oxide in chemostat-cultured <italic>Escherichia coli</italic> is sensed by Fnr and other global regulators: unaltered methionine biosynthesis indicates lack of S nitrosation</article-title>. <source>J Bacteriol</source><volume>189</volume>: <fpage>1845</fpage> - <lpage>1855</lpage><pub-id pub-id-type="pmid">17189370</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Yeo1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Yeo</surname><given-names>WS</given-names></name>, <name><surname>Lee</surname><given-names>JH</given-names></name>, <name><surname>Lee</surname><given-names>KC</given-names></name>, <name><surname>Roe</surname><given-names>JH</given-names></name> (<year>2006</year>) <article-title>IscR acts as an activator in response to oxidative stress for the <italic>suf</italic> operon encoding Fe-S assembly proteins</article-title>. <source>Mol Microbiol</source><volume>61</volume>: <fpage>206</fpage> - <lpage>218</lpage><pub-id pub-id-type="pmid">16824106</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Giel2">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Giel</surname><given-names>JL</given-names></name>, <name><surname>Rodionov</surname><given-names>D</given-names></name>, <name><surname>Liu</surname><given-names>M</given-names></name>, <name><surname>Blattner</surname><given-names>FR</given-names></name>, <name><surname>Kiley</surname><given-names>PJ</given-names></name> (<year>2006</year>) <article-title>IscR-dependent gene expression links iron-sulphur cluster assembly to the control of O2-regulated genes in <italic>Escherichia coli</italic></article-title>. <source>Mol Microbiol</source><volume>60</volume>: <fpage>1058</fpage> - <lpage>1075</lpage><pub-id pub-id-type="pmid">16677314</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Schwartz1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Schwartz</surname><given-names>CJ</given-names></name>, <name><surname>Giel</surname><given-names>JL</given-names></name>, <name><surname>Patschkowski</surname><given-names>T</given-names></name>, <name><surname>Luther</surname><given-names>C</given-names></name>, <name><surname>Ruzicka</surname><given-names>FJ</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>IscR, an Fe-S cluster-containing transcription factor, represses expression of <italic>Escherichia coli</italic> genes encoding Fe-S cluster assembly proteins</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>98</volume>: <fpage>14895</fpage> - <lpage>14900</lpage><pub-id pub-id-type="pmid">11742080</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Nesbit1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Nesbit</surname><given-names>AD</given-names></name>, <name><surname>Giel</surname><given-names>JL</given-names></name>, <name><surname>Rose</surname><given-names>JC</given-names></name>, <name><surname>Kiley</surname><given-names>PJ</given-names></name> (<year>2009</year>) <article-title>Sequence-specific binding to a subset of IscR-regulated promoters does not require IscR Fe-S cluster ligation</article-title>. <source>J Mol Biol</source><volume>387</volume>: <fpage>28</fpage> - <lpage>41</lpage><pub-id pub-id-type="pmid">19361432</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Arakawa1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Arakawa</surname><given-names>Y</given-names></name>, <name><surname>Wacharotayankun</surname><given-names>R</given-names></name>, <name><surname>Nagatsuka</surname><given-names>T</given-names></name>, <name><surname>Ito</surname><given-names>H</given-names></name>, <name><surname>Kato</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>1995</year>) <article-title>Genomic organization of the <italic>Klebsiella pneumoniae cps</italic> region responsible for serotype K2 capsular polysaccharide synthesis in the virulent strain Chedid</article-title>. <source>J Bacteriol</source><volume>177</volume>: <fpage>1788</fpage> - <lpage>1796</lpage><pub-id pub-id-type="pmid">7896702</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lin3">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>CT</given-names></name>, <name><surname>Huang</surname><given-names>TY</given-names></name>, <name><surname>Liang</surname><given-names>WC</given-names></name>, <name><surname>Peng</surname><given-names>HL</given-names></name> (<year>2006</year>) <article-title>Homologous response regulators KvgA, KvhA and KvhR regulate the synthesis of capsular polysaccharide in <italic>Klebsiella pneumoniae</italic> CG43 in a coordinated manner</article-title>. <source>J Biochem (Tokyo)</source><volume>140</volume>: <fpage>429</fpage> - <lpage>438</lpage><pub-id pub-id-type="pmid">16877448</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Regueiro1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Regueiro</surname><given-names>V</given-names></name>, <name><surname>Campos</surname><given-names>MA</given-names></name>, <name><surname>Pons</surname><given-names>J</given-names></name>, <name><surname>Alberti</surname><given-names>S</given-names></name>, <name><surname>Bengoechea</surname><given-names>JA</given-names></name> (<year>2006</year>) <article-title>The uptake of a <italic>Klebsiella pneumoniae</italic> capsule polysaccharide mutant triggers an inflammatory response by human airway epithelial cells</article-title>. <source>Microbiology</source><volume>152</volume>: <fpage>555</fpage> - <lpage>566</lpage><pub-id pub-id-type="pmid">16436443</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lin4">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>CT</given-names></name>, <name><surname>Chen</surname><given-names>YC</given-names></name>, <name><surname>Jinn</surname><given-names>TR</given-names></name>, <name><surname>Wu</surname><given-names>CC</given-names></name>, <name><surname>Hong</surname><given-names>YM</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Role of the cAMP-Dependent Carbon Catabolite Repression in Capsular Polysaccharide Biosynthesis in <italic>Klebsiella pneumoniae</italic></article-title>. <source>PLoS One</source><volume>8</volume>: <fpage>e54430</fpage><pub-id pub-id-type="pmid">23408939</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-daSilvaNeto1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>da Silva Neto</surname><given-names>JF</given-names></name>, <name><surname>Braz</surname><given-names>VS</given-names></name>, <name><surname>Italiani</surname><given-names>VC</given-names></name>, <name><surname>Marques</surname><given-names>MV</given-names></name> (<year>2009</year>) <article-title>Fur controls iron homeostasis and oxidative stress defense in the oligotrophic alpha-proteobacterium <italic>Caulobacter crescentus</italic></article-title>. <source>Nucleic Acids Res</source><volume>37</volume>: <fpage>4812</fpage> - <lpage>4825</lpage><pub-id pub-id-type="pmid">19520766</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Kiley1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Kiley</surname><given-names>PJ</given-names></name>, <name><surname>Beinert</surname><given-names>H</given-names></name> (<year>2003</year>) <article-title>The role of Fe-S proteins in sensing and regulation in bacteria</article-title>. <source>Curr Opin Microbiol</source><volume>6</volume>: <fpage>181</fpage> - <lpage>185</lpage><pub-id pub-id-type="pmid">12732309</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Griffith1">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Griffith</surname><given-names>KL</given-names></name>, <name><surname>Wolf</surname><given-names>RE</given-names><suffix>Jr</suffix></name> (<year>2001</year>) <article-title>Systematic mutagenesis of the DNA binding sites for SoxS in the <italic>Escherichia coli zwf</italic> and <italic>fpr</italic> promoters: identifying nucleotides required for DNA binding and transcription activation</article-title>. <source>Mol Microbiol</source><volume>40</volume>: <fpage>1141</fpage> - <lpage>1154</lpage><pub-id pub-id-type="pmid">11401718</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Rajagopalan1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Rajagopalan</surname><given-names>S</given-names></name>, <name><surname>Teter</surname><given-names>SJ</given-names></name>, <name><surname>Zwart</surname><given-names>PH</given-names></name>, <name><surname>Brennan</surname><given-names>RG</given-names></name>, <name><surname>Phillips</surname><given-names>KJ</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Studies of IscR reveal a unique mechanism for metal-dependent regulation of DNA binding specificity</article-title>. <source>Nat Struct Mol Biol</source><volume>20</volume>: <fpage>740</fpage> - <lpage>747</lpage><pub-id pub-id-type="pmid">23644595</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lim1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Lim</surname><given-names>JG</given-names></name>, <name><surname>Choi</surname><given-names>SH</given-names></name> (<year>2013</year>) <article-title>IscR is a global regulator essential for pathogenesis of <italic>Vibrio vulnificus</italic> and induced by host cells</article-title>. <source>Infect Immun</source><volume>82</volume>: <fpage>569</fpage> - <lpage>578</lpage><pub-id pub-id-type="pmid">24478072</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Wu1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>CC</given-names></name>, <name><surname>Lin</surname><given-names>CT</given-names></name>, <name><surname>Cheng</surname><given-names>WY</given-names></name>, <name><surname>Huang</surname><given-names>CJ</given-names></name>, <name><surname>Wang</surname><given-names>ZC</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Fur-dependent MrkHI regulation of type 3 fimbriae in <italic>Klebsiella pneumoniae</italic> CG43</article-title>. <source>Microbiology</source><volume>158</volume>: <fpage>1045</fpage> - <lpage>1056</lpage><pub-id pub-id-type="pmid">22262101</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Wilks1">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Wilks</surname><given-names>A</given-names></name>, <name><surname>Burkhard</surname><given-names>KA</given-names></name> (<year>2007</year>) <article-title>Heme and virulence: how bacterial pathogens regulate, transport and utilize heme</article-title>. <source>Nat Prod Rep</source><volume>24</volume>: <fpage>511</fpage> - <lpage>522</lpage><pub-id pub-id-type="pmid">17534527</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Miller1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>RA</given-names></name>, <name><surname>Britigan</surname><given-names>BE</given-names></name> (<year>1997</year>) <article-title>Role of oxidants in microbial pathophysiology</article-title>. <source>Clin Microbiol Rev</source><volume>10</volume>: <fpage>1</fpage> - <lpage>18</lpage><pub-id pub-id-type="pmid">8993856</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Py1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Py</surname><given-names>B</given-names></name>, <name><surname>Moreau</surname><given-names>PL</given-names></name>, <name><surname>Barras</surname><given-names>F</given-names></name> (<year>2011</year>) <article-title>Fe-S clusters, fragile sentinels of the cell</article-title>. <source>Curr Opin Microbiol</source><volume>14</volume>: <fpage>218</fpage> - <lpage>223</lpage><pub-id pub-id-type="pmid">21288764</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lai1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Lai</surname><given-names>YC</given-names></name>, <name><surname>Peng</surname><given-names>HL</given-names></name>, <name><surname>Chang</surname><given-names>HY</given-names></name> (<year>2003</year>) <article-title>RmpA2, an activator of capsule biosynthesis in <italic>Klebsiella pneumoniae</italic> CG43, regulates K2 cps gene expression at the transcriptional level</article-title>. <source>J Bacteriol</source><volume>185</volume>: <fpage>788</fpage> - <lpage>800</lpage><pub-id pub-id-type="pmid">12533454</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Skorupski1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Skorupski</surname><given-names>K</given-names></name>, <name><surname>Taylor</surname><given-names>RK</given-names></name> (<year>1996</year>) <article-title>Positive selection vectors for allelic exchange</article-title>. <source>Gene</source><volume>169</volume>: <fpage>47</fpage> - <lpage>52</lpage><pub-id pub-id-type="pmid">8635748</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Miller2">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>VL</given-names></name>, <name><surname>Mekalanos</surname><given-names>JJ</given-names></name> (<year>1988</year>) <article-title>A novel suicide vector and its use in construction of insertion mutations: osmoregulation of outer membrane proteins and virulence determinants in <italic>Vibrio cholerae</italic> requires <italic>toxR</italic></article-title>. <source>J Bacteriol</source><volume>170</volume>: <fpage>2575</fpage> - <lpage>2583</lpage><pub-id pub-id-type="pmid">2836362</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Domenico1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Domenico</surname><given-names>P</given-names></name>, <name><surname>Schwartz</surname><given-names>S</given-names></name>, <name><surname>Cunha</surname><given-names>BA</given-names></name> (<year>1989</year>) <article-title>Reduction of capsular polysaccharide production in <italic>Klebsiella pneumoniae</italic> by sodium salicylate</article-title>. <source>Infect Immun</source><volume>57</volume>: <fpage>3778</fpage> - <lpage>3782</lpage><pub-id pub-id-type="pmid">2680983</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Blumenkrantz1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Blumenkrantz</surname><given-names>N</given-names></name>, <name><surname>Asboe-Hansen</surname><given-names>G</given-names></name> (<year>1973</year>) <article-title>New method for quantitative determination of uronic acids</article-title>. <source>Anal Biochem</source><volume>54</volume>: <fpage>484</fpage> - <lpage>489</lpage><pub-id pub-id-type="pmid">4269305</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Schwyn1">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Schwyn</surname><given-names>B</given-names></name>, <name><surname>Neilands</surname><given-names>JB</given-names></name> (<year>1987</year>) <article-title>Universal chemical assay for the detection and determination of siderophores</article-title>. <source>Anal Biochem</source><volume>160</volume>: <fpage>47</fpage> - <lpage>56</lpage><pub-id pub-id-type="pmid">2952030</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Lai2">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Lai</surname><given-names>YC</given-names></name>, <name><surname>Peng</surname><given-names>HL</given-names></name>, <name><surname>Chang</surname><given-names>HY</given-names></name> (<year>2001</year>) <article-title>Identification of genes induced in vivo during <italic>Klebsiella pneumoniae</italic> CG43 infection</article-title>. <source>Infect Immun</source><volume>69</volume>: <fpage>7140</fpage> - <lpage>7145</lpage><pub-id pub-id-type="pmid">11598090</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Cheng1">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Cheng</surname><given-names>HY</given-names></name>, <name><surname>Chen</surname><given-names>YS</given-names></name>, <name><surname>Wu</surname><given-names>CY</given-names></name>, <name><surname>Chang</surname><given-names>HY</given-names></name>, <name><surname>Lai</surname><given-names>YC</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>RmpA regulation of capsular polysaccharide biosynthesis in <italic>Klebsiella pneumoniae</italic> CG43</article-title>. <source>J Bacteriol</source><volume>192</volume>: <fpage>3144</fpage> - <lpage>3158</lpage><pub-id pub-id-type="pmid">20382770</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0107812-Hanahan1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Hanahan</surname><given-names>D</given-names></name> (<year>1983</year>) <article-title>Studies on transformation of <italic>Escherichia coli</italic> with plasmids</article-title>. <source>J Mol Biol</source><volume>166</volume>: <fpage>557</fpage> - <lpage>580</lpage><pub-id pub-id-type="pmid">6345791</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

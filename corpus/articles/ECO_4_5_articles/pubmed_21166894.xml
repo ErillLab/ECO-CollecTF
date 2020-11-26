@@ -1,0 +1,1857 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Microbiol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Mol. Microbiol</journal-id>
+      <journal-id journal-id-type="publisher-id">mmi</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Microbiology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0950-382X</issn>
+      <issn pub-type="epub">1365-2958</issn>
+      <publisher>
+        <publisher-name>Blackwell Publishing Ltd</publisher-name>
+        <publisher-loc>Oxford, UK</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">21166894</article-id>
+      <article-id pub-id-type="pmc">3050613</article-id>
+      <article-id pub-id-type="doi">10.1111/j.1365-2958.2010.07430.x</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Articles</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Regulation of the phototrophic iron oxidation (<italic>pio</italic>) genes in <italic>Rhodopseudomonas palustris</italic> TIE-1 is mediated by the global regulator, FixK</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bose</surname>
+            <given-names>Arpita</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+          <xref ref-type="aff" rid="au2">2</xref>
+          <xref ref-type="corresp" rid="cor1">+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Newman Dianne</surname>
+            <given-names>K</given-names>
+          </name>
+          <xref ref-type="aff" rid="au1">1</xref>
+          <xref ref-type="aff" rid="au2">2</xref>
+          <xref ref-type="aff" rid="au3">3</xref>
+          <xref ref-type="corresp" rid="cor2">*</xref>
+          <xref ref-type="corresp" rid="cor3">&#x2021;</xref>
+        </contrib>
+        <aff id="au1">Departments of <label>1</label><institution>Biology</institution> and </aff>
+        <aff id="au3">
+          <label>3</label>
+          <institution>Earth, Atmospheric and Planetary Sciences</institution>
+        </aff>
+        <aff id="au2"><label>2</label><institution>Massachusetts Institute of Technology</institution>, <addr-line>Howard Hughes Medical Institute, 77 Massachusetts Ave., 68-380, Cambridge, MA 02139, USA</addr-line></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor2"><sup>* </sup>E-mail <email>dkn@caltech.edu</email>; Tel. (+1) 626 395 3543; Fax (+1) 626 395 4135.</corresp>
+        <corresp id="cor1">Present address: <sup>+</sup><institution>Department of Organismic and Evolutionary Biology, Harvard University, Biological Laboratories, </institution><addr-line>16 Divinity Avenue, Cambridge, MA 02138, USA;</addr-line></corresp>
+        <corresp id="cor3">
+          <sup>&#x2021;</sup>
+          <institution>Division of Biology, California Institute of Technology, </institution>
+          <addr-line>147-75, 1200 East California Blvd., Pasadena, CA 91125, USA.</addr-line>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>10</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>79</volume>
+      <issue>1</issue>
+      <fpage>63</fpage>
+      <lpage>75</lpage>
+      <history>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>10</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2010 Blackwell Publishing Ltd</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.5/">
+          <license-p>Re-use of this article is permitted in accordance with the Creative Commons Deed, Attribution 2.5, which does not permit commercial exploitation.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Summary</title>
+        <p>The <italic>pioABC</italic> operon is required for phototrophic iron oxidative (photoferrotrophic) growth by the alphaproteobacterium <italic>Rhodopseudomonas palustris</italic> TIE-1. Expression analysis of this operon showed that it was transcribed and translated during anaerobic growth, upregulation being observed only under photoferrotrophic conditions. Very low levels of transcription were observed during aerobic growth, suggesting expression was induced by anoxia. The presence of two canonical FixK boxes upstream of the identified <italic>pioABC</italic> transcription start site implicated FixK as a likely regulator. To test this possibility, a <italic>deltafixK</italic> mutant of <italic>R. palustris</italic> TIE-1 was assessed for <italic>pioABC</italic> expression. <italic>pioABC</italic> expression decreased dramatically in <italic>deltafixK</italic> versus WT during photoferrotrophic growth, implying that FixK positively regulates its expression; coincidently, the onset of iron oxidation was prolonged in this mutant. In contrast, <italic>pioABC</italic> expression increased in <italic>deltafixK</italic> under all non-photoferrotrophic conditions tested, suggesting the presence of additional levels of regulation. Purified FixK directly bound only the proximal FixK box in gel mobility-shift assays. Mutant expression analysis revealed that FixK regulates anaerobic phototrophic expression of other target genes with FixK binding sites in their promoters. This study shows that FixK regulates key iron metabolism genes in an alphaproteobacterium, pointing to a departure from the canonical Fur/Irr mode of regulation.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="ss1">
+      <title>Introduction</title>
+      <p>Phototrophic iron oxidation (photoferrotrophy) is a microbial metabolism that was initially described in 1993 and the first photoferrotroph was isolated in 1994 (<xref ref-type="bibr" rid="b43">Widdel <italic>et al</italic>., 1993</xref>; <xref ref-type="bibr" rid="b11">Ehrenreich and Widdel, 1994</xref>). It involves the light-dependent oxidation of reduced ferrous iron Fe(II) to ferric iron Fe(III) under anoxic conditions, leading to the fixation of carbon dioxide (CO<sub>2</sub>). Currently, photoferrotrophy is known to be performed by five anoxygenic purple (non) sulphur bacteria and one green sulphur bacterium (<xref ref-type="bibr" rid="b11">Ehrenreich and Widdel, 1994</xref>; <xref ref-type="bibr" rid="b22">Heising and Schink, 1998</xref>; <xref ref-type="bibr" rid="b21">Heising <italic>et al</italic>., 1999</xref>; <xref ref-type="bibr" rid="b41">Straub <italic>et al</italic>., 1999</xref>; <xref ref-type="bibr" rid="b24">Jiao <italic>et al</italic>., 2005</xref>). The interest in photoferrotrophy arose due to its possible role in the deposition of some of the earliest Precambrian banded iron formations (BIFs) (<xref ref-type="bibr" rid="b20">Hartman, 1984</xref>; <xref ref-type="bibr" rid="b43">Widdel <italic>et al</italic>., 1993</xref>; <xref ref-type="bibr" rid="b9">Croal <italic>et al</italic>., 2004</xref>; <xref ref-type="bibr" rid="b42">Weber <italic>et al</italic>., 2006</xref>). Although over a decade has passed since the isolation of the first photoferrotroph, very little is known about their cellular and molecular biology. The dearth of tools available to study these organisms has hindered scientists from assessing their importance in modern environments, much less being able to critically speculate on whether ancient BIF deposition was linked to photoferrotrophy. Recent advances in the genetics of <italic>Rhodopseudomonas palustris</italic> TIE-1, a facultative photoferrotroph, have allowed us to at least begin understanding this novel metabolism (<xref ref-type="bibr" rid="b24">Jiao <italic>et al</italic>., 2005</xref>; <xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>).</p>
+      <p><italic>Rhodopseudomonas palustris</italic> TIE-1 is a Gram-negative alphaproteobacterium (<italic>Rhizobiales</italic>) that was isolated from an iron-rich mat from School Street Marsh in Woods Hole, MA, USA (<xref ref-type="bibr" rid="b24">Jiao <italic>et al</italic>., 2005</xref>). This purple non-sulphur bacterium is genetically tractable and a number of tools available for purple phototrophs operate efficiently in this isolate. It is also metabolically versatile, being able to grow aerobically as a chemoheterotroph and anaerobically as a phototroph (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). In addition, its genome sequence and those of closely related strains such as <italic>R. palustris</italic> CGA009, <italic>R. palustris</italic> BisB18 and <italic>R. palustris</italic> BisA53 are readily available (<xref ref-type="bibr" rid="b27">Larimer <italic>et al</italic>., 2004</xref>; <xref ref-type="bibr" rid="b35">Oda <italic>et al</italic>., 2008</xref>, http://genome.ornl.gov/microbial/rpal_tie1/). Using markerless deletion, we showed that the <italic>pioABC</italic> operon of <italic>R. palustris</italic> TIE-1 (Fig. S1) is the genetic locus that allows this organism to perform photoferrotrophy (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). PioA is predicted to be a decahaem cytochrome, PioB is a predicted outer membrane porin and PioC is a predicted high potential iron sulphur protein. However, the mechanism of electron transfer from Fe(II) to the reaction centre is not fully understood. Presumably, cyclic electron flow generates ATP, as is known to be the case in other purple phototrophs (<xref ref-type="bibr" rid="b14">Feniouk and Junge, 2009</xref>) and reducing equivalents for the formation of NADH derive from reverse electron transport, as occurs in Fe(II) oxidizing aerobic acidophiles (<xref ref-type="bibr" rid="b12">Elbehti <italic>et al</italic>., 2000</xref>).</p>
+      <p>Although the <italic>pioABC</italic> operon is conserved in four sequenced <italic>R. palustris</italic> strains, only <italic>R. palustris</italic> TIE-1 has been rigorously tested for its ability to perform photoferrotrophy (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). Comparison of this locus showed that <italic>R. palustris</italic> TIE-1 and <italic>R. palustris</italic> CGA009 are most closely related in locus organization and open reading frame (ORF) amino acid sequence identity, while <italic>R. palustris</italic> BisB18 and <italic>R. palustris</italic> BisA53 have variable locus organization and lower ORF amino acid sequence identity compared with their homologues in <italic>R. palustris</italic> TIE-1 (Fig. S1). Haem staining of the PioA protein showed that it was most abundant during photoferrotrophic growth but was also detected at lower levels during photoautotrophic growth on hydrogen (H<sub>2</sub>) (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). This indicated that expression of this operon might be highly regulated. Recent microarray analysis performed on <italic>R. palustris</italic> CGA009 showed that <italic>pioABC</italic> expression decreased in a <italic>deltafixK</italic> regulator mutant versus wild-type (WT) during microaerobic chemoheterotrophic growth on succinate (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). Although these results implied that FixK might control expression of the <italic>pioABC</italic> operon in <italic>R. palustris</italic> TIE-1, whether this occurs under anoxic phototrophic conditions including photoferrotrophic growth was not tested.</p>
+      <p>FixK belongs to the CRP/FNR family of regulators, which is distinct from the Fur/Irr family of regulators traditionally known to control iron metabolic genes in a number of bacteria (<xref ref-type="bibr" rid="b13">Escolar <italic>et al</italic>., 1999</xref>; <xref ref-type="bibr" rid="b19">Hantke, 2001</xref>; <xref ref-type="bibr" rid="b25">Johnston <italic>et al</italic>., 2007</xref>). FixK was first identified in <italic>Sinorhizobium meliloti</italic> (<xref ref-type="bibr" rid="b1">Batut <italic>et al</italic>., 1989</xref>). It binds a palindromic sequence 5'-TTGA(N6)TCAA-3', which has been dubbed the FixK box (<xref ref-type="bibr" rid="b18">Green <italic>et al</italic>., 1996</xref>; <xref ref-type="bibr" rid="b34">Nellen-Anthamatten <italic>et al</italic>., 1998</xref>). FixK is part of the FixLJ two-component regulatory system that has been well characterized in rhizobial species such as <italic>Bradyrhizobium japonicum</italic> and <italic>Sinorhizobium meliloti</italic>, as well as the non-rhizobial species <italic>Caulobacter crescentus</italic>. This regulatory system allows these organisms to sense low oxygen (O<sub>2</sub>) and change the expression of numerous genes permitting adaptation to microoxic as well as anoxic conditions (<xref ref-type="bibr" rid="b10">Crosson <italic>et al</italic>., 2005</xref>; <xref ref-type="bibr" rid="b3">Bobik <italic>et al</italic>., 2006</xref>; <xref ref-type="bibr" rid="b31">Mesa <italic>et al</italic>., 2008</xref>). FixL and FixJ act as a classical histidine kinase - reponse regulator pair leading to activation of <italic>fixK</italic> under low O<sub>2</sub>. FixK then relays this signal by modulating global gene expression (<xref ref-type="bibr" rid="b15">Gilles-Gonzalez and Gonzalez, 2005</xref>). Although FixK homologues exist in all rhizobial species known, they are not found in purple non-sulphur bacteria other than <italic>R. palustris</italic> (<xref ref-type="bibr" rid="b8">Cosseau and Batut, 2004</xref>; <xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>).</p>
+      <p>This study was initiated to understand the expression pattern of the <italic>pioABC</italic> operon and determine the regulatory mechanism that controls its expression in the photoferrotroph <italic>R. palustris</italic> TIE-1. By using both genetic and biochemical approaches, we identified FixK as an activator of the <italic>pioABC</italic> operon as well as other genes involved in regulation, photosynthesis, respiration and transport.</p>
+    </sec>
+    <sec sec-type="results" id="ss2">
+      <title>Results</title>
+      <sec id="ss3">
+        <title><italic>pioABC</italic> expression is induced during anaerobic growth</title>
+        <p>To assess differences in the expression of the <italic>pioABC</italic> operon in <italic>R. palustris</italic> TIE-1, our first approach was to use quantitative reverse transcription PCR (qRT-PCR). Comparison of the mRNA abundance of <italic>pioA, pioB</italic> and <italic>pioC</italic> under various growth conditions revealed that expression was lowest during aerobic chemoheterotrophic growth. This condition was therefore used as a baseline to calculate the relative fold change in mRNA abundance. Expression of the <italic>pioABC</italic> transcripts was highly upregulated during photoferrotrophic growth relative to aerobic chemoheterotrophic growth (<xref ref-type="fig" rid="fig01">Fig. 1A</xref>). Interestingly, <italic>pioABC</italic> mRNA transcripts were in general higher during anaerobic phototrophic growth, although transcript levels were significantly higher under photoferrotrophic conditions.</p>
+        <fig id="fig01" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Expression of the <italic>pioABC</italic> operon was tested using two approaches. (A) qRT-PCR and (B) translational <italic>lacZ</italic> fusion to the <italic>pioABC</italic> promoter. FW, fresh water minimal medium for anaerobic phototrophic growth; YP, yeast- and peptone-rich medium for aerobic chemotrophic growth; S, succinate; A, acetate; B, benzoate; HB, 4-hydroxybenzoate; H<sub>2</sub>, hydrogen; Fe-NTA, FeCl<sub>2</sub> with nitrilotriacetic acid; Fe, FeCl<sub>2</sub> alone; ND, not detectable. A. Fold change was calculated with <italic>clpX</italic> as the internal control and by using the deltadeltaCt method for comparative expression analysis.B. beta-Galactosidase activity was determined using a modified Miller assay and normalized with total protein to get specific activity [represented in U  -  Units (mumol min<sup>-1</sup> mg protein<sup>-1</sup>)]. Assays were performed as three independent triplicates  +-  standard error.</p>
+          </caption>
+          <graphic xlink:href="mmi7430-0063-f1"/>
+        </fig>
+        <p>To complement our qRT-PCR transcriptional data, we constructed an integrative <italic>lacZ</italic> reporter to determine the <italic>in vivo</italic> expression of the <italic>pioABC</italic> operon under various conditions. The <italic>pioABC</italic> genes form an operon as shown previously (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). With the assumption that a single promoter drives the expression of the <italic>pioABC</italic> operon, we fused the entire intergenic region between <italic>pioA</italic> and the upstream gene Rpal_0818, in frame with the ATG start codon of the <italic>lacZ</italic> gene of <italic>Escherichia coli</italic> that encodes beta-galactosidase. This led to formation of a <italic>lacZ</italic> translational fusion that was subsequently integrated onto the chromosome of WT <italic>R. palustris</italic> TIE-1. The level of beta-galactosidase activity measured from this strain represented a combination of transcription and translation initiation. Assessment of beta-galactosidase activity under various growth conditions revealed that there was no detectable activity of the <italic>pioABC</italic> operon during aerobic growth. beta-Galactosidase activity was observed under all anaerobic growth conditions tested, being highest during photoferrotrophic growth (<xref ref-type="fig" rid="fig01">Fig. 1B</xref>). beta-Galactosidase activity was 10-fold higher during photoferrotrophic growth compared with photoheterotrophic growth on succinate. Overall, these data are qualitatively similar to what we observed with qRT-PCR.</p>
+      </sec>
+      <sec id="ss4">
+        <title>The <italic>pioABC</italic> transcription start site is a guanine residue upstream of which lie two canonical FixK binding sites</title>
+        <p>The transcription start site (TSS) of the <italic>pioABC</italic> operon was determined during photoheterotrophic growth on succinate, photoautotrophic growth on H<sub>2</sub> as well as photoferrotrophic growth on Fe(II). cRACE and 5' RLM-RACE revealed that the TSS of the <italic>pioABC</italic> operon is a guanine residue 177 bp upstream of the predicted ATG start codon of <italic>pioA</italic> under all the growth conditions tested (<xref ref-type="fig" rid="fig02">Fig. 2</xref> and Fig. S2). 5' RLM-RACE also revealed the presence of a processed site, which is an adenine residue 152 bp upstream of the predicted start codon. This processed site might be important for regulation mediated either by regulatory proteins or other mechanisms. A similar site has been observed in the <italic>E. coli yfiD</italic> promoter under the control of the Fnr protein (<xref ref-type="bibr" rid="b17">Green <italic>et al</italic>., 1998</xref>). Assessment of the region near the TSS revealed the presence of -10 and -35 core promoter elements of which only the -10 resembles the <italic>E. coli</italic>sigmaf<sup>70</sup> consensus (<xref ref-type="bibr" rid="b30">McClure, 1985</xref>). Centred at -44.5 is a canonical FixK box (named FixK I) assigning this promoter to a CRP/FNR class II promoter (<xref ref-type="bibr" rid="b32">Mesa <italic>et al</italic>., 2005</xref>). Another canonical FixK box (FixK II) is centred at position -137.5. Use of two identical binding sites has been observed for interaction of Fnr with the <italic>yfiD</italic> promoter and CRP interaction with the <italic>acsP2</italic> promoter in <italic>E. coli</italic> (<xref ref-type="bibr" rid="b16">Green and Baldwin, 1997</xref>; <xref ref-type="bibr" rid="b2">Beatty <italic>et al</italic>., 2003</xref>).</p>
+        <fig id="fig02" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>The transcription start site (TSS) of the <italic>pioABC</italic> operon was identified using cRACE and the processed site was identified using 5' RLM-RACE. The TSS was 177 bp upstream of the ATG (solid light grey box) start codon of <italic>pioA</italic> (upward black arrow). A processed site was observed 152 bp upstream of the ATG start codon of <italic>pioA</italic> (downward black arrow). A canonical FixK binding site is present 37 bp upstream of the TSS (FixK I) denoted by grey bases (lined grey box). Another potential FixK binding site is present 129 bp upstream of the TSS (FixK II) denoted by grey bases (lined grey box). The RBS is shown in solid dark grey box. The -10 box is denoted by a dashed line box and the -35 is denoted by a black box.</p>
+          </caption>
+          <graphic xlink:href="mmi7430-0063-f2"/>
+        </fig>
+      </sec>
+      <sec id="ss5">
+        <title>Both identified FixK binding sites influence expression of the <italic>pioABC</italic> operon <italic>in vivo</italic></title>
+        <p>To assess the importance of the canonical FixK binding sites conserved in the <italic>pioABC</italic> promoter, we constructed DNA templates lacking either FixK I or FixK II boxes and fused them in frame with <italic>lacZ</italic>, forming translational fusions. These constructs were then integrated onto the chromosome of WT <italic>R. palustris</italic> TIE-1 and assayed for beta-galactosidase activity on various growth substrates. Deletion of FixK I led to dramatic downregulation of beta-galactosidase activity on all the substrates tested (<xref ref-type="fig" rid="fig03">Fig. 3</xref>). These data demonstrated that FixK I was important for activation of expression of the <italic>pioABC</italic> operon. Only a modest downregulation of beta-galactosidase activity was observed when FixK II was deleted. This suggests that although the primary DNA site that influences <italic>pioABC</italic> expression is FixK I, FixK II does play a role in activating <italic>pioABC</italic> expression.</p>
+        <fig id="fig03" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p>beta-Galactosidase activity was determined for translational fusions with FixK I and FixK II boxes deleted. FW, fresh water minimal medium for anaerobic phototrophic growth; S, succinate; A, acetate; B, benzoate; HB, 4-hydroxybenzoate; H<sub>2</sub>, hydrogen; Fe-NTA, FeCl<sub>2</sub> with nitrilotriacetic acid; Fe, FeCl<sub>2</sub> alone. The grey-hashed boxes represent the FixK I and II boxes. The black box represents the -35 and the white box represents the -10. The black bent arrow represents the TSS. beta-Galactosidase activity was determined using a modified Miller assay and normalized with total protein to get specific activity [milliUnits-mU (nmol min<sup>-1</sup> mg protein<sup>-1</sup>)]. Values represent average of three independent triplicates  +-  standard error.</p>
+          </caption>
+          <graphic xlink:href="mmi7430-0063-f3"/>
+        </fig>
+      </sec>
+      <sec id="ss6">
+        <title><italic>deltafixK</italic> has a phototrophic iron oxidation defect and is severely impaired during anaerobic phototrophic growth</title>
+        <p>The identification of FixK binding sites in the <italic>pioABC</italic> promoter and the influence of these sites on <italic>pioABC</italic> expression implicated the FixK protein in controlling expression of this operon. We thus deleted this gene (Rpal_4729) from the chromosome of the P<italic>pioA - lacZ</italic> translational fusion strain and confirmed the mutant using PCR (Fig. S3). This <italic>deltafixK</italic> strain was then characterized with respect to phototrophic Fe(II) oxidation and defects in growth (<xref ref-type="fig" rid="fig04">Fig.4</xref> and Table S1). Comparison of the ability of <italic>deltafixK</italic> and WT <italic>R. palustris</italic> TIE-1 to oxidize Fe(II) phototrophically revealed that <italic>deltafixK</italic> was severely delayed in photoferrotrophic growth (<xref ref-type="fig" rid="fig04">Fig. 4</xref>). WT <italic>R. palustris</italic> TIE-1 started oxidizing Fe(II)-NTA at ~ 120 h after inoculation while <italic>deltafixK</italic> showed first signs of Fe(II)-NTA oxidation at ~ 320 h post inoculation. Eventually, both WT and <italic>deltafixK</italic> were able to oxidize 5 mM Fe(II) with 10 mM NTA to completion as well as achieve similar levels of total protein content. The rate of Fe(II)-NTA oxidation by WT and <italic>deltafixK</italic> also appeared to be similar [~ 0.03 mM Fe(II)-NTA oxidized per hour]. No significant difference in lag time was observed between WT and <italic>deltafixK</italic> during aerobic growth on YP medium, although slight differences in generation time were detected (Table S1). In contrast, a substantial increase in lag time was observed in <italic>deltafixK</italic> versus WT during anaerobic phototrophic growth in FW medium. In general, the <italic>deltafixK</italic> mutant had lower pigmentation both during aerobic chemoheterotrophic growth as well as phototrophic growth (Fig. S4). A similar defect was observed in <italic>R. palustris</italic> CGA009 and was attributed to production of lower amounts of reaction centre as well as light harvesting complexes 1 and 2 (LH1 and 2) (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). Moreover, the expression of genes for the LH1 complex (<italic>pufAB</italic>) was found to decrease slightly in the <italic>deltafixK</italic> mutant (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). Reasoning that the lower pigmentation in the <italic>R. palustris</italic> TIE-1 <italic>deltafixK</italic> mutant was likely due to similar expression changes, we next sought to determine whether the phototrophic Fe(II) oxidation defect was an indirect effect or due to a direct interaction between the <italic>pioABC</italic> promoter with FixK.</p>
+        <fig id="fig04" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p>Deletion of <italic>fixK</italic> affects the ability of <italic>R. palustris</italic> TIE-1 to oxidize Fe(II). WT and delta<italic>fixK</italic> were pre-grown on hydrogen and inoculated into FW medium with Fe(II). The soluble Fe(II) concentration was monitored using the Ferrozine assay. Growth was monitored as increase in protein content as described in <italic>Experimental procedures</italic>. This experiment was performed thrice and one representative experiment is shown.</p>
+          </caption>
+          <graphic xlink:href="mmi7430-0063-f4"/>
+        </fig>
+      </sec>
+      <sec id="ss7">
+        <title>FixK affects expression of the <italic>pioABC</italic> operon</title>
+        <p>To assess whether FixK directly affects <italic>pioABC</italic> expression, we determined expression of this operon in <italic>deltafixK</italic> versus WT using qRT-PCR and translational reporter gene fusions (<xref ref-type="fig" rid="fig05">Fig. 5</xref>). No significant difference was observed between <italic>pioABC</italic> transcripts levels in the <italic>deltafixK</italic> mutant versus WT during aerobic chemoheterotrophic growth on succinate (<xref ref-type="fig" rid="fig05">Fig. 5A</xref>). However, expression of the <italic>pioABC</italic> genes increased in the <italic>deltafixK</italic> mutant versus WT under all the phototrophic conditions tested except during photoferrotrophic growth, when <italic>pioABC</italic> mRNA decreased in the mutant. The translational fusion data coincided with the mRNA abundance data and showed that beta-galactosidase activity increased in the <italic>deltafixK</italic> mutant versus WT under most phototrophic conditions tested but decreased during photoferrotrophic growth. The decrease in beta-galactosidase activity during photoferrotrophic growth was approximately fivefold. The stability of the beta-galactosidase enzyme might account for the modest decrease in expression from the P<italic>pio - lacZ</italic> fusion compared with the dramatic decrease in <italic>pioABC</italic> mRNA abundance. Overall, these data suggest that FixK either directly or indirectly regulates expression of the <italic>pioABC</italic> operon in response to growth conditions. The only condition we identified under which FixK activated <italic>pioABC</italic> expression was photoferrotrophy, whereas repression occurred on all other phototrophic conditions tested. Complementation of the <italic>deltafixK</italic> mutant with either WT or N-terminal His<sub>6</sub>-tagged FixK resulted in partial restoration of <italic>pioABC</italic> expression as well as full restoration of FixK expression during photoferrotrophic growth (Fig. S4). The complemented strains had similar pigmentation to WT during phototrophic growth most likely due to restored production of haem, bacteriochlorophyll and LH1 and LH2 complex proteins similar to that observed in <italic>R. palustris</italic> CGA009 (Fig. S4) (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). Why only partial restoration of <italic>pioABC</italic> expression occurred is unclear.</p>
+        <fig id="fig05" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Comparison of <italic>pioABC</italic> expression between delta<italic>fixK</italic> and WT reveals that FixK affects this operon's expression. (A) qRT-PCR and (B) translational <italic>lacZ</italic> fusion to the <italic>pioABC</italic> promoter. FW, fresh water minimal medium for anaerobic phototrophic growth; YP, yeast- and peptone-rich medium for aerobic chemotrophic growth; S, succinate; A, acetate; B, benzoate; HB, 4-hydroxybenzoate; H<sub>2</sub>, hydrogen; Fe-NTA, FeCl<sub>2</sub> with nitrilotriacetic acid; Fe, FeCl<sub>2</sub> alone; ND, not detectable. A. Fold change was calculated with <italic>clpX</italic> as the internal control and by using the deltadeltaCt method for comparative expression analysis. B. beta-Galactosidase activity was determined using a modified Miller assay and normalized with total protein to get specific activity [represented in U  -  Units (mumol min<sup>-1</sup> mg protein<sup>-1</sup>)]. Values represent average of three independent triplicates  +-  standard error.</p>
+          </caption>
+          <graphic xlink:href="mmi7430-0063-f5"/>
+        </fig>
+      </sec>
+      <sec id="ss8">
+        <title>FixK directly binds the FixK I box of the <italic>pioABC</italic> promoter</title>
+        <p>To determine whether FixK could directly interact with the identified FixK I and FixK II boxes, we performed gel mobility-shift assays using recombinant FixK protein (Fig. S5 and <xref ref-type="fig" rid="fig06">Fig. 6</xref>). These experiments showed that purified FixK protein was able to bind a double-stranded (ds) DNA substrate that had the FixK I box as well as a dsDNA substrate that had both the FixK I and FixK II box. However, purified FixK did not bind a dsDNA substrate that had only the FixK II box. FixK binding was specific as it could be competed out with competitive unlabelled DNA. In addition, purified FixK was unable to bind a non-cognate, Oct2A (a eukaryotic transcription factor; <xref ref-type="bibr" rid="b7">Corcoran and Shore, 2000</xref>) binding site containing dsDNA substrate (provided in the DIG Gel Shift Kit, Second Generation; Roche, Indianapolis, IN). Overall, these data suggest that FixK binds the <italic>pioABC</italic> promoter at the FixK I box but not the FixK II box, thereby mediating regulation of this operon. Although the FixK II box was observed to be important for expression <italic>in vivo</italic>, it did not bind FixK. This implies that either it binds other proteins in the CRP/FNR family or can bind FixK only under specific conditions absent in our <italic>in vitro</italic> assay. DNA topology of the FixK II box and/or the low binding affinity of FixK protein for this site might also account for this result.</p>
+        <fig id="fig06" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Gel mobility-shift assays were performed using purified Nterm-His<sub>6</sub>-FixK protein. A. A double-stranded DNA substrate encompassing both FixK I and II binding sites was tested for the ability to bind FixK. B. A double-stranded DNA substrate encompassing only the FixK I binding sites was tested for the ability to bind FixK. C. A double-stranded DNA substrate encompassing only the FixK II binding site was tested for the ability to bind FixK. D. A double-stranded DNA substrate encompassing only the Oct2A binding site was tested for the ability to bind FixK. Approximately 30 fmol of labelled DNA (Lab. DNA) was used with twofold increase in purified FixK protein starting from 2.9 muM (represented by the black triangle). A 100-fold higher concentration of competitive unlabelled DNA (C. Unlab. DNA) was added to determine specificity of binding when 8.7 muM FixK was added to the reaction.</p>
+          </caption>
+          <graphic xlink:href="mmi7430-0063-f6"/>
+        </fig>
+      </sec>
+      <sec id="ss9">
+        <title>Putative FixK target genes are upregulated during anaerobic phototrophic growth</title>
+        <p>The <italic>R. palustris</italic> CGA009 genome was scanned for the presence of potential FixK binding sites in a previous study (<xref ref-type="bibr" rid="b6">Conlan <italic>et al</italic>., 2005</xref>). Canonical FixK boxes were observed in the promoter regions of 21 ORFs in this organism including <italic>pioA</italic>. We therefore identified homologues of these genes in <italic>R. palustris</italic> TIE-1 and assessed the change in their expression using qRT-PCR. The fold change in mRNA abundance was calculated with respect to aerobic chemoheterotrophic growth on succinate (<xref ref-type="table" rid="tbl1">Table 1</xref>). This revealed that a number of selected genes are upregulated more than fivefold during phototrophic growth. These genes encompassed a number of different aspects of the physiology of <italic>R. palustris</italic> TIE-1 including respiration, photosynthesis, gene regulation and transport. A detailed description of these genes can be found in the supporting information. Their upregulation during anaerobic growth suggests that they are likely part of the FixK regulon in <italic>R. palustris</italic> TIE-1 that allows it to adapt to anoxia as shown recently for <italic>R. palustris</italic> CGA009 under microoxic conditions (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>).</p>
+        <table-wrap id="tbl1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Fold change<xref ref-type="table-fn" rid="tf1-1"><sup>a</sup></xref> in mRNA abundance of genes likely controlled by FixK during anaerobic versus aerobic growth on various substrates.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Locus tag</th>
+                <th align="left" rowspan="1" colspan="1">Gene annotation and likely function</th>
+                <th align="left" rowspan="1" colspan="1">Fold change during anaerobic versus aerobic growth</th>
+              </tr>
+              <tr>
+                <th rowspan="1" colspan="1">Succinate</th>
+                <th rowspan="1" colspan="1">Acetate</th>
+                <th rowspan="1" colspan="1">Benzoate</th>
+                <th rowspan="1" colspan="1">4-hydroxy benzoate</th>
+                <th rowspan="1" colspan="1">Hydrogen</th>
+                <th rowspan="1" colspan="1">Fe(II)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">Regulation</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1207</td>
+                <td rowspan="1" colspan="1">Transcriptional regulator, PadR-like family</td>
+                <td rowspan="1" colspan="1">3.7  +-  0.5</td>
+                <td rowspan="1" colspan="1">2.9  +-  0.3</td>
+                <td rowspan="1" colspan="1">3.9  +-  0.6</td>
+                <td rowspan="1" colspan="1">4.6  +-  0.1</td>
+                <td rowspan="1" colspan="1">3.9  +-  1.1</td>
+                <td rowspan="1" colspan="1">5.1  +-  0.6</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1280</td>
+                <td rowspan="1" colspan="1">CRP/FNR family protein</td>
+                <td rowspan="1" colspan="1">7.9  +-  1.0</td>
+                <td rowspan="1" colspan="1">12.7  +-  1.7</td>
+                <td rowspan="1" colspan="1">4.4  +-  0.4</td>
+                <td rowspan="1" colspan="1">8.5  +-  1.3</td>
+                <td rowspan="1" colspan="1">2.5  +-  0.7</td>
+                <td rowspan="1" colspan="1">40.4  +-  3.8</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2583</td>
+                <td rowspan="1" colspan="1">Ferric-uptake regulator (possibly Irr)</td>
+                <td rowspan="1" colspan="1">91.8  +-  16.5</td>
+                <td rowspan="1" colspan="1">73.3  +-  14.4</td>
+                <td rowspan="1" colspan="1">21.9  +-  5.1</td>
+                <td rowspan="1" colspan="1">54.7  +-  11.8</td>
+                <td rowspan="1" colspan="1">70.5  +-  5.0</td>
+                <td rowspan="1" colspan="1">13.0  +-  1.3</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4713</td>
+                <td rowspan="1" colspan="1">Anaerobic aromatic degradation regulator AadR, CRP/FNR family (<italic>aadR</italic>)</td>
+                <td rowspan="1" colspan="1">6.7  +-  1.1</td>
+                <td rowspan="1" colspan="1">5.4  +-  1.8</td>
+                <td rowspan="1" colspan="1">4.5  +-  1.3</td>
+                <td rowspan="1" colspan="1">4.0  +-  0.7</td>
+                <td rowspan="1" colspan="1">2.6  +-  0.2</td>
+                <td rowspan="1" colspan="1">10.1  +-  3.2</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4729</td>
+                <td rowspan="1" colspan="1">FixK (<italic>fixK</italic>)</td>
+                <td rowspan="1" colspan="1">8.7  +-  2.0</td>
+                <td rowspan="1" colspan="1">2.4  +-  0.4</td>
+                <td rowspan="1" colspan="1">14.0  +-  3.3</td>
+                <td rowspan="1" colspan="1">38.5  +-  11.7</td>
+                <td rowspan="1" colspan="1">9.8  +-  2.4</td>
+                <td rowspan="1" colspan="1">12.2  +-  2.4</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Photosynthesis</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_0922</td>
+                <td rowspan="1" colspan="1">Haem and sirohaem biosynthesis protein HemO (<italic>hemO</italic>)</td>
+                <td rowspan="1" colspan="1">6.5  +-  0.7</td>
+                <td rowspan="1" colspan="1">10.5  +-  1.5</td>
+                <td rowspan="1" colspan="1">5.3  +-  0.4</td>
+                <td rowspan="1" colspan="1">5.8  +-  0.6</td>
+                <td rowspan="1" colspan="1">4.8  +-  1.1</td>
+                <td rowspan="1" colspan="1">14.3  +-  0.2</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1692</td>
+                <td rowspan="1" colspan="1">Porphobilinogen deaminase (<italic>bchD</italic>)</td>
+                <td rowspan="1" colspan="1">9.9  +-  1.6</td>
+                <td rowspan="1" colspan="1">28.2  +-  1.3</td>
+                <td rowspan="1" colspan="1">17.4  +-  2.7</td>
+                <td rowspan="1" colspan="1">17.1  +-  3.2</td>
+                <td rowspan="1" colspan="1">21.9  +-  7.7</td>
+                <td rowspan="1" colspan="1">16.1  +-  0.1</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2130</td>
+                <td rowspan="1" colspan="1">Cytochrome C biogenesis protein (<italic>cycH</italic>)</td>
+                <td rowspan="1" colspan="1">6.2  +-  0.2</td>
+                <td rowspan="1" colspan="1">8.3  +-  2.0</td>
+                <td rowspan="1" colspan="1">5.4  +-  0.3</td>
+                <td rowspan="1" colspan="1">11.1  +-  1.0</td>
+                <td rowspan="1" colspan="1">3.0  +-  0.8</td>
+                <td rowspan="1" colspan="1">23.2  +-  5.1</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Respiration</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_0020</td>
+                <td rowspan="1" colspan="1">Cytochrome oxidase CcoN(OQP)(<italic>ccoN</italic>)</td>
+                <td rowspan="1" colspan="1">1.3  +-  0.1</td>
+                <td rowspan="1" colspan="1">5.2  +-  1.4</td>
+                <td rowspan="1" colspan="1">2.7  +-  0.8</td>
+                <td rowspan="1" colspan="1">2.7  +-  0.6</td>
+                <td rowspan="1" colspan="1">2.3  +-  0.1</td>
+                <td rowspan="1" colspan="1">2.7  +-  0.1</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1206</td>
+                <td rowspan="1" colspan="1">Gene next to <italic>ccoG</italic></td>
+                <td rowspan="1" colspan="1">2.2  +-  0.4</td>
+                <td rowspan="1" colspan="1">2.4  +-  0.5</td>
+                <td rowspan="1" colspan="1">2.1  +-  0.8</td>
+                <td rowspan="1" colspan="1">3.7  +-  0.2</td>
+                <td rowspan="1" colspan="1">1.4  +-  0.3</td>
+                <td rowspan="1" colspan="1">2.2  +-  0.5</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Transport</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1412</td>
+                <td rowspan="1" colspan="1">Hypothetical protein with signal peptide and transmembrane domains</td>
+                <td rowspan="1" colspan="1">9.3  +-  0.2</td>
+                <td rowspan="1" colspan="1">26.6  +-  5.3</td>
+                <td rowspan="1" colspan="1">22.8  +-  1.8</td>
+                <td rowspan="1" colspan="1">34.7  +-  8.2</td>
+                <td rowspan="1" colspan="1">18.0  +-  3.4</td>
+                <td rowspan="1" colspan="1">11.2  +-  0.1</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1868</td>
+                <td rowspan="1" colspan="1">Transport-associated and nodulation region associated ORF (<italic>osmY</italic>)</td>
+                <td rowspan="1" colspan="1">18.6  +-  2.3</td>
+                <td rowspan="1" colspan="1">10.0  +-  0.2</td>
+                <td rowspan="1" colspan="1">3.1  +-  0.6</td>
+                <td rowspan="1" colspan="1">2.3  +-  0.4</td>
+                <td rowspan="1" colspan="1">3.3  +-  0.2</td>
+                <td rowspan="1" colspan="1">6.4  +-  1.8</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2582</td>
+                <td rowspan="1" colspan="1">Predicted ORF in operon with heavy metal transporter</td>
+                <td rowspan="1" colspan="1">246.0  +-  64.8</td>
+                <td rowspan="1" colspan="1">264.8  +-  33.0</td>
+                <td rowspan="1" colspan="1">68.7  +-  14.6</td>
+                <td rowspan="1" colspan="1">127.2  +-  5.1</td>
+                <td rowspan="1" colspan="1">77.7  +-  14.9</td>
+                <td rowspan="1" colspan="1">52.7  +-  14.3</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_3436</td>
+                <td rowspan="1" colspan="1">Putative potassium uptake protein Kup1 (<italic>kup1</italic>)</td>
+                <td rowspan="1" colspan="1">3.6  +-  0.3</td>
+                <td rowspan="1" colspan="1">4.4  +-  0.9</td>
+                <td rowspan="1" colspan="1">1.9  +-  0.1</td>
+                <td rowspan="1" colspan="1">1.8  +-  0.4</td>
+                <td rowspan="1" colspan="1">3.5  +-  0.8</td>
+                <td rowspan="1" colspan="1">4.3  +-  0.1</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4015</td>
+                <td rowspan="1" colspan="1">Uncharacterized protein involved in siderophore biosynthesis</td>
+                <td rowspan="1" colspan="1">23.9  +-  1.7</td>
+                <td rowspan="1" colspan="1">76.3  +-  14.2</td>
+                <td rowspan="1" colspan="1">36.9  +-  6.1</td>
+                <td rowspan="1" colspan="1">45.2  +-  0.2</td>
+                <td rowspan="1" colspan="1">30.5  +-  8.2</td>
+                <td rowspan="1" colspan="1">81.7  +-  2.4</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4717</td>
+                <td rowspan="1" colspan="1">Putative ABC transporter</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (3.0  +-  0.9)</td>
+                <td rowspan="1" colspan="1">1.1  +-  0.2</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.5  +-  0.5)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.8  +-  1.0)</td>
+                <td rowspan="1" colspan="1">0.6  +-  0.1 (1.8  +-  0.2)</td>
+                <td rowspan="1" colspan="1">1.5  +-  0.2</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4994</td>
+                <td rowspan="1" colspan="1">Putative outer membrane protein (<italic>ompW</italic>)</td>
+                <td rowspan="1" colspan="1">15.8  +-  1.6</td>
+                <td rowspan="1" colspan="1">83.4  +-  10.1</td>
+                <td rowspan="1" colspan="1">19.8  +-  3.7</td>
+                <td rowspan="1" colspan="1">27.0  +-  2.2</td>
+                <td rowspan="1" colspan="1">31.6  +-  5.0</td>
+                <td rowspan="1" colspan="1">2.8  +-  0.4</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Other functions</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1413</td>
+                <td rowspan="1" colspan="1">Inosine-5'-monophosphate dehydrogenase</td>
+                <td rowspan="1" colspan="1">1.5  +-  0.4</td>
+                <td rowspan="1" colspan="1">4.8  +-  0.1</td>
+                <td rowspan="1" colspan="1">2.1  +-  0.7</td>
+                <td rowspan="1" colspan="1">1.8  +-  0.6</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.1 (1.2  +-  0.3)</td>
+                <td rowspan="1" colspan="1">2.1  +-  0.3</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1691</td>
+                <td rowspan="1" colspan="1">Hypothetical protein</td>
+                <td rowspan="1" colspan="1">5.4  +-  0.3</td>
+                <td rowspan="1" colspan="1">7.8  +-  0.2</td>
+                <td rowspan="1" colspan="1">5.3  +-  1.4</td>
+                <td rowspan="1" colspan="1">5.3  +-  0.3</td>
+                <td rowspan="1" colspan="1">2.2  +-  0.1</td>
+                <td rowspan="1" colspan="1">12.2  +-  1.4</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1869</td>
+                <td rowspan="1" colspan="1">Putative phosphoketolase</td>
+                <td rowspan="1" colspan="1">2.3  +-  0.5</td>
+                <td rowspan="1" colspan="1">2.4  +-  0.8</td>
+                <td rowspan="1" colspan="1">1.6  +-  0.1</td>
+                <td rowspan="1" colspan="1">1.4  +-  0.3</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.1 (1.2  +-  0.3)</td>
+                <td rowspan="1" colspan="1">10.1  +-  1.2</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2453</td>
+                <td rowspan="1" colspan="1">Putative short chain dehydrogenase</td>
+                <td rowspan="1" colspan="1">2.3  +-  0.6</td>
+                <td rowspan="1" colspan="1">4.0  +-  1.5</td>
+                <td rowspan="1" colspan="1">3.7  +-  0.9</td>
+                <td rowspan="1" colspan="1">4.3  +-  0.8</td>
+                <td rowspan="1" colspan="1">1.8  +-  0.3</td>
+                <td rowspan="1" colspan="1">3.1  +-  0.4</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="tf1-1">
+              <p><bold>a.</bold> Fold change was calculated as indicated in <italic>Experimental procedures</italic>. Numbers &gt; 1 represent higher mRNA abundance under anaerobic versus aerobic growth. Numbers &lt; 1 represent lower mRNA abundance under anaerobic versus aerobic growth. The values in parentheses represent this decrease in mRNA abundance. Values represent the average of three independent cultures assayed in triplicate  +-  the standard error.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="ss10">
+        <title>FixK affects the expression of a number of predicted target genes</title>
+        <p>To establish the influence of FixK on expression of the putative target genes, we determined their level of expression in WT <italic>R. palustris</italic> TIE-1 using qRT-PCR and compared it with <italic>deltafixK</italic> (<xref ref-type="table" rid="tbl2">Table 2</xref>). Only one gene, encoding a putative potassium uptake protein (<italic>kup1</italic>), showed more than fivefold increase in expression in <italic>deltafixK</italic> under anaerobic growth conditions (<xref ref-type="bibr" rid="b38">Schleyer and Bakker, 1993</xref>). Transcripts for this gene were not significantly upregulated during any anaerobic growth condition in the WT (<xref ref-type="table" rid="tbl1">Table 1</xref>). In contrast, expression of 14 of the 20 putative FixK target genes assessed decreased in <italic>deltafixK</italic>. <italic>hemO</italic>, <italic>ccoN(OQP)</italic> and <italic>bchD</italic>, all photosynthetic genes, showed a dramatic decrease in <italic>deltafixK</italic> during phototrophic growth. The regulatory genes selected were also downregulated more than fivefold on at least one anaerobic growth condition in <italic>deltafixK</italic>. Some other interesting genes encoding transport-related functions also emerged as FixK targets such as Rpal_4015 (predicted ORF involved in siderophore biosynthesis), Rpal_4994 (<italic>ompW</italic> homologue), Rpal_1868 (<italic>osmY</italic> homologue), Rpal_2582 (first gene of a heavy metal transporting operon) and Rpal_1412 (a signal peptide containing ORF with transmembrane domains). Two ORFs Rpal_1413 (putative inosine-5'-monophosphate dehydrogenase) (<xref ref-type="bibr" rid="b44">Zhang <italic>et al</italic>., 1999</xref>) and Rpal_1691 (hypothetical protein) were also modestly downregulated in <italic>deltafixK</italic>.</p>
+        <table-wrap id="tbl2" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>Fold change<xref ref-type="table-fn" rid="tf2-1"><sup>a</sup></xref> in mRNA abundance of genes likely controlled by FixK in the <italic>deltafixK</italic> mutant versus WT on various growth substrates.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left" rowspan="1" colspan="1">Locus tag</th>
+                <th align="left" rowspan="1" colspan="1">Gene annotation and likely function</th>
+                <th align="left" rowspan="1" colspan="1">Fold change in <italic>deltafixK</italic> mutant versus WT</th>
+              </tr>
+              <tr>
+                <th rowspan="1" colspan="1">Succinate</th>
+                <th rowspan="1" colspan="1">Acetate</th>
+                <th rowspan="1" colspan="1">Benzoate</th>
+                <th rowspan="1" colspan="1">4-hydroxy benzoate</th>
+                <th rowspan="1" colspan="1">Hydrogen</th>
+                <th rowspan="1" colspan="1">Fe(II)</th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td rowspan="1" colspan="1">Regulation</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1207</td>
+                <td rowspan="1" colspan="1">Transcriptional regulator, PadR-like family</td>
+                <td rowspan="1" colspan="1">0.1  +-  0.0.01 (8.4  +-  0.7)</td>
+                <td rowspan="1" colspan="1">1.1  +-  0.4</td>
+                <td rowspan="1" colspan="1">0.17  +-  0.01 (5.4  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.43  +-  0.07 (2.4  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.18  +-  0.05 (5.7  +-  1.6)</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.2 (1.3  +-  0.1)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1280</td>
+                <td rowspan="1" colspan="1">CRP/FNR family protein</td>
+                <td rowspan="1" colspan="1">0.1  +-  0.03 (9.2  +-  3.0)</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.06 (3.8  +-  0.9)</td>
+                <td rowspan="1" colspan="1">0.14  +-  0.02 (7.2  +-  1.6)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.9  +-  0.7)</td>
+                <td rowspan="1" colspan="1">0.16  +-  0.04 (6.2  +-  1.7)</td>
+                <td rowspan="1" colspan="1">0.13  +-  0.01 (7.9  +-  1.1)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2583</td>
+                <td rowspan="1" colspan="1">Ferric-uptake regulator (possibly Irr)</td>
+                <td rowspan="1" colspan="1">0.04  +-  0.01 (26.6  +-  4.5)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.04 (5.0  +-  1.2)</td>
+                <td rowspan="1" colspan="1">0.5  +-  0.2 (2.8  +-  1.6)</td>
+                <td rowspan="1" colspan="1">4.3  +-  0.8</td>
+                <td rowspan="1" colspan="1">0.12  +-  0.03 (8.93  +-  2.9)</td>
+                <td rowspan="1" colspan="1">1.49  +-  0.01</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4713</td>
+                <td rowspan="1" colspan="1">Anaerobic aromatic degradation regulator AadR, CRP/FNR family (<italic>aadR</italic>)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.05 (4.2  +-  0.8)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.08 (7.7  +-  0.3)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.01 (6.0  +-  0.4)</td>
+                <td rowspan="1" colspan="1">0.64  +-  0.04 (1.6  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.2 (1.6  +-  0.4)</td>
+                <td rowspan="1" colspan="1">0.34  +-  0.03 (3.0  +-  0.3)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4729</td>
+                <td rowspan="1" colspan="1">FixK (<italic>fixK</italic>)</td>
+                <td rowspan="1" colspan="1">ND</td>
+                <td rowspan="1" colspan="1">ND</td>
+                <td rowspan="1" colspan="1">ND</td>
+                <td rowspan="1" colspan="1">ND</td>
+                <td rowspan="1" colspan="1">ND</td>
+                <td rowspan="1" colspan="1">ND</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Photosynthesis</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_0922</td>
+                <td rowspan="1" colspan="1">Haem and sirohaem biosynthesis protein HemO (<italic>hemO</italic>)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.004 (5.2  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.1  +-  0.01 (7.9  +-  0.3)</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.1 (3.7  +-  1.4)</td>
+                <td rowspan="1" colspan="1">1.5  +-  0.2</td>
+                <td rowspan="1" colspan="1">0.12  +-  0.01 (8.3  +-  0.4)</td>
+                <td rowspan="1" colspan="1">0.02  +-  0.002 (57.5  +-  9.2)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1692</td>
+                <td rowspan="1" colspan="1">Porphobilinogen deaminase (<italic>bchD</italic>)</td>
+                <td rowspan="1" colspan="1">0.03  +-  0.01 (31.6  +-  6.2)</td>
+                <td rowspan="1" colspan="1">0.02  +-  0.003 (40.6  +-  4.9)</td>
+                <td rowspan="1" colspan="1">0.09  +-  0.02 (10.3  +-  2.0)</td>
+                <td rowspan="1" colspan="1">0.09  +-  0.02 (10.8  +-  2.3)</td>
+                <td rowspan="1" colspan="1">0.05  +-  0.01 (17.7  +-  3.4)</td>
+                <td rowspan="1" colspan="1">0.01  +-  0.002 (85.6  +-  15.3)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2130</td>
+                <td rowspan="1" colspan="1">Cytochrome C biogenesis protein (<italic>cycH</italic>)</td>
+                <td rowspan="1" colspan="1">0.25  +-  0.01 (4.0  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.5  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.2 (2.7  +-  1.2)</td>
+                <td rowspan="1" colspan="1">0.50  +-  0.07 (2.2  +-  0.3)</td>
+                <td rowspan="1" colspan="1">0.38  +-  0.05 (2.6  +-  0.3)</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.1 (3.4  +-  1.6)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Respiration</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_0020</td>
+                <td rowspan="1" colspan="1">Cytochrome oxidase CcoN(OQP)(<italic>ccoN</italic>)</td>
+                <td rowspan="1" colspan="1">0.07  +-  0.02 (13.8  +-  3.1)</td>
+                <td rowspan="1" colspan="1">0.04  +-  0.006 (24.7  +-  3.5)</td>
+                <td rowspan="1" colspan="1">0.15  +-  0.02 (6.7  +-  0.9)</td>
+                <td rowspan="1" colspan="1">0.10  +-  0.01 (9.3  +-  1.0)</td>
+                <td rowspan="1" colspan="1">0.06  +-  0.01 (15.9  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.008  +-  0.001 (129.1  +-  11.2)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1206</td>
+                <td rowspan="1" colspan="1">Gene next to <italic>ccoG</italic></td>
+                <td rowspan="1" colspan="1">0.14  +-  0.03 (7.5  +-  1.9)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.4  +-  0.8)</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.03 (4.0  +-  0.5)</td>
+                <td rowspan="1" colspan="1">0.14  +-  0.03 (7.0  +-  1.9)</td>
+                <td rowspan="1" colspan="1">0.25  +-  0.01 (4.0  +-  0.2)</td>
+                <td rowspan="1" colspan="1">0.21  +-  0.04 (4.8  +-  0.9)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Transport</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1412</td>
+                <td rowspan="1" colspan="1">Hypothetical protein with signal peptide and transmembrane domains</td>
+                <td rowspan="1" colspan="1">0.08  +-  0.004 (13.3  +-  0.7)</td>
+                <td rowspan="1" colspan="1">0.03  +-  0.003 (31.7  +-  3.3)</td>
+                <td rowspan="1" colspan="1">0.09  +-  0.02 (10.3  +-  2.0)</td>
+                <td rowspan="1" colspan="1">0.30  +-   +-  0.05 (3.3  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.09  +-  0.01 (10.4  +-  0.9)</td>
+                <td rowspan="1" colspan="1">0.04  +-  0.01 (30.2  +-  11.9)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1868</td>
+                <td rowspan="1" colspan="1">Transport-associated and nodulation region associated ORF (<italic>osmY</italic>)</td>
+                <td rowspan="1" colspan="1">0.01  +-  0.002 (145.1  +-  48)</td>
+                <td rowspan="1" colspan="1">0.03  +-  0.001 (39.5  +-  2.1)</td>
+                <td rowspan="1" colspan="1">0.06  +-  0.01 (18.7  +-  4.6)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.8  +-  0.7)</td>
+                <td rowspan="1" colspan="1">0.03  +-  0.01 (26.3  +-  2.7)</td>
+                <td rowspan="1" colspan="1">0.08  +-  0.01 (12.4  +-  1.4)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2582</td>
+                <td rowspan="1" colspan="1">Predicted ORF in operon with heavy metal transporter</td>
+                <td rowspan="1" colspan="1">0.03  +-  0.01 (34.3  +-  7.7)</td>
+                <td rowspan="1" colspan="1">0.04  +-  0.005 (22.4  +-  2.5)</td>
+                <td rowspan="1" colspan="1">0.41  +-  0.03 (2.4  +-  0.2)</td>
+                <td rowspan="1" colspan="1">1.4  +-  0.1</td>
+                <td rowspan="1" colspan="1">0.25  +-  0.04 (3.9  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.10  +-  0.02 (9.4  +-  1.9)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_3436</td>
+                <td rowspan="1" colspan="1">Putative potassium uptake protein Kup1 (<italic>kup1</italic>)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.05 (5.1  +-  1.3)</td>
+                <td rowspan="1" colspan="1">8.2  +-  1.8</td>
+                <td rowspan="1" colspan="1">1.0  +-  0.1</td>
+                <td rowspan="1" colspan="1">5.3  +-  1.0</td>
+                <td rowspan="1" colspan="1">2.1  +-  0.8</td>
+                <td rowspan="1" colspan="1">0.22  +-  0.01 (4.6  +-  0.1)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4015</td>
+                <td rowspan="1" colspan="1">Uncharacterized protein involved in siderophore biosynthesis</td>
+                <td rowspan="1" colspan="1">0.08  +-  0.003 (13.1  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.03  +-  0.002 (26.4  +-  2.1)</td>
+                <td rowspan="1" colspan="1">0.11  +-  0.02 (9.3  +-  1.8)</td>
+                <td rowspan="1" colspan="1">0.24  +-  0.04 (4.2  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.08  +-  0.01 (11.7  +-  1.7)</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.01 (4.9  +-  0.2)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4717</td>
+                <td rowspan="1" colspan="1">Putative ABC transporter</td>
+                <td rowspan="1" colspan="1">0.8  +-  0.2 (1.2  +-  0.3)</td>
+                <td rowspan="1" colspan="1">1.0  +-  0.1</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.2 (1.5  +-  0.6)</td>
+                <td rowspan="1" colspan="1">1.8  +-  0.4</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.1 (1.4  +-  0.3)</td>
+                <td rowspan="1" colspan="1">0.36  +-  0.1 (2.8  +-  0.6)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_4994</td>
+                <td rowspan="1" colspan="1">Putative outer membrane protein (<italic>ompW</italic>)</td>
+                <td rowspan="1" colspan="1">0.04  +-  0.01 (25.4  +-  5.1)</td>
+                <td rowspan="1" colspan="1">0.02  +-  0.001 (59.1  +-  3.9)</td>
+                <td rowspan="1" colspan="1">0.40  +-  0.04 (2.7  +-  0.3)</td>
+                <td rowspan="1" colspan="1">0.33  +-  0.01 (3.1  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.17  +-  0.06 (6.21  +-  2.2)</td>
+                <td rowspan="1" colspan="1">0.15  +-  0.01 (6.6  +-  0.5)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Other functions</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1413</td>
+                <td rowspan="1" colspan="1">Inosine-5'-monophosphate dehydrogenase</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.04 (5.0  +-  0.9)</td>
+                <td rowspan="1" colspan="1">0.1  +-  0.01 (7.4  +-  0.7)</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.1 (1.5  +-  0.2)</td>
+                <td rowspan="1" colspan="1">1.6  +-  0.3</td>
+                <td rowspan="1" colspan="1">0.9  +-  0.3 (1.3  +-  0.5)</td>
+                <td rowspan="1" colspan="1">0.09  +-  0.04 (11.6  +-  3.6)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1691</td>
+                <td rowspan="1" colspan="1">Hypothetical protein</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.03 (3.3  +-  0.4)</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.06 (4.2  +-  1.2)</td>
+                <td rowspan="1" colspan="1">0.4  +-  0.1 (2.3  +-  0.6)</td>
+                <td rowspan="1" colspan="1">0.6  +-  0.2 (1.9  +-  0.1)</td>
+                <td rowspan="1" colspan="1">0.5  +-  0.1 (2.2  +-  0.7)</td>
+                <td rowspan="1" colspan="1">0.04  +-  0.01 (25.0  +-  3.2)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_1869</td>
+                <td rowspan="1" colspan="1">Putative phosphoketolase</td>
+                <td rowspan="1" colspan="1">0.6  +-  0.3 (2.0  +-  0.8)</td>
+                <td rowspan="1" colspan="1">1.1  +-  0.5</td>
+                <td rowspan="1" colspan="1">0.7  +-  0.1 (1.4  +-  0.2)</td>
+                <td rowspan="1" colspan="1">1.5  +-  0.5</td>
+                <td rowspan="1" colspan="1">2.1  +-  0.9</td>
+                <td rowspan="1" colspan="1">0.11  +-  0.02 (9.4  +-  1.9)</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">Rpal_2453</td>
+                <td rowspan="1" colspan="1">Putative short chain dehydrogenase</td>
+                <td rowspan="1" colspan="1">0.2  +-  0.05 (4.9  +-  1.0)</td>
+                <td rowspan="1" colspan="1">1.1  +-  0.3</td>
+                <td rowspan="1" colspan="1">0.3  +-  0.04 (3.6  +-  0.7)</td>
+                <td rowspan="1" colspan="1">0.54  +-  0.07 (1.9  +-  0.2)</td>
+                <td rowspan="1" colspan="1">0.45  +-  0.07 (2.3  +-  0.4)</td>
+                <td rowspan="1" colspan="1">5.0  +-  0.05</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="tf2-1">
+              <label>a.</label>
+              <p>Fold change was calculated as indicated in <italic>Experimental procedures</italic>. Numbers &gt; 1 represent higher mRNA abundance in <italic>deltafixK</italic> versus WT. Numbers &lt; 1 represent lower mRNA abundance in <italic>deltafixK</italic> versus WT. The values in parentheses represent decrease in mRNA abundance. ND, not detectable. Values represent the average of three independent cultures assayed in triplicate  +-  the standard error.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="ss11">
+      <title>Discussion</title>
+      <p>In this study, we showed that the phototrophic iron oxidation genes of <italic>R. palustris</italic> TIE-1 were expressed under all anaerobic phototrophic growth conditions tested. Interestingly, expression was further induced during photoferrotrophic growth. FixK regulates <italic>pioABC</italic> expression, although its mode of regulation varies based on the growth condition. Although Fur family proteins might also contribute to <italic>pioABC</italic> expression, the involvement of FixK indicates that the regulation of iron metabolism in this organism lies outside the canonical Fur/Irr paradigm. We identified FixK target genes under anaerobic phototrophic growth, some of which are homologues of those identified as part of the FixK regulon under microoxic conditions in <italic>R. palustris</italic> CGA009 (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). Additional novel FixK targets were also revealed. This study represents the first expression and regulation analysis of photoferrotrophic genes in any organism, and raises a number of physiological and mechanistic questions.</p>
+      <sec id="ss12">
+        <title>Why are <italic>pio</italic> genes induced by anoxia?</title>
+        <p>The <italic>pioABC</italic> operon was shown to be essential for photoferrotrophic growth by <italic>R. palustris</italic> TIE-1 (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). The deletion of this operon had no effect on growth under other growth conditions (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). Yet we observed that it was transcribed and translated under all anaerobic phototrophic conditions. This was unexpected and pointed to the possibility that the Pio proteins might serve a function other than supporting photoferrotrophic growth. In this regard, it is interesting to note that it was recently observed that phototrophic Fe(II) oxidation might serve as a detoxification mechanism for <italic>Rhodobacter capsulatus</italic> strain SB1003 in the presence of low micromolar concentrations of Fe(II) (<xref ref-type="bibr" rid="b36">Poulain and Newman, 2009</xref>). If PioABC were to serve a similar function for <italic>R. palustris</italic> TIE-1, then we could rationalize expression of this operon during anaerobic growth even in the absence of high levels of Fe(II). An alternative explanation is that even though the <italic>pio</italic> genes are transcribed and translated, the fully functional decahaem cytochrome PioA does not form except during photoferrotrophic growth due to lack of sufficient or appropriate maturation proteins. Because haem-containing cytochromes such as PioA require additional maturation, such a situation is conceivable and is in agreement with the haem staining data reported previously (<xref ref-type="bibr" rid="b39">Stevens <italic>et al</italic>., 2005</xref>; <xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). Whether apo-PioA has a biological function independent of Fe(II) oxidation remains to be determined.</p>
+      </sec>
+      <sec id="ss13">
+        <title>How does FixK regulate <italic>pioABC</italic> expression?</title>
+        <p>The mode of regulation of this operon is most likely via activation by FixK. This is based on the location of the FixK I binding site that interacts directly with the purified protein <italic>in vitro</italic> at -44.5 (<xref ref-type="bibr" rid="b32">Mesa <italic>et al</italic>., 2005</xref>). This promoter resembles a class II CRP/FNR promoter, where it is expected to make contacts with domain 4 of the sigma factor thus activating transcription (<xref ref-type="bibr" rid="b5">Browning and Busby, 2004</xref>). Mutant analysis combined with the <italic>in vitro</italic> data suggests that this activation happens specifically during photoferrotrophic growth. Moreover, the deletion of the FixK I and FixK II binding sites leads to a drastic downregulation of <italic>pioABC</italic> expression, supporting an activator function of FixK. Intriguingly, expression of the <italic>pioABC</italic> operon increased in <italic>deltafixK</italic> during non-photoferrotrophic growth, suggesting that FixK acts as a repressor of <italic>pioABC</italic> expression on other growth substrates. Based on the binding site results, this effect is likely indirect. Future studies using <italic>in vitro</italic> transcription assays might confirm the direct activation role of FixK. Additional levels of <italic>pioABC</italic> regulation clearly exist and await discovery.</p>
+      </sec>
+      <sec id="ss14">
+        <title>How similar is the <italic>R. palustris</italic> CGA009 microoxic chemoheterotrophic response to the <italic>R. palustris</italic> TIE-1 anoxic phototrophic response?</title>
+        <p>In a recent study, the role of FixK in the microoxic chemoheterotrophic response of <italic>R. palustris</italic> CGA009 was reported (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). This study showed that the FixK regulon included genes for microaerobic respiration, phototrophy, autotrophy and aromatic compound degradation. This data set also revealed that during microaerobic chemotrophic growth on succinate, the <italic>pioABC</italic> genes were expressed and positively regulated by FixK. Although it has never been shown whether <italic>R. palustris</italic> CGA009 can perform photoferrotrophy, the <italic>pioABC</italic> genes were clearly expressed in this organism under microoxic non-photoferrotrophic conditions. Our data on <italic>R. palustris</italic> TIE-1 showed that there was no difference in <italic>pioABC</italic> mRNA abundance between WT and <italic>deltafixK</italic> during aerobic chemotrophic growth. In contrast to what was observed during microaerobic growth in <italic>R. palustris</italic> CGA009, during anaerobic growth in <italic>R. palustris</italic> TIE-1, expression of the <italic>pioABC</italic> operon increased in <italic>deltafixK</italic> under non-photoferrotrophic conditions. Therefore, a disparity exists in <italic>pioABC</italic> expression data, which might be due to the use of microoxic conditions for <italic>R. palustris</italic> CGA009 growth versus anoxic conditions for <italic>R. palustris</italic> TIE-1. Comparison of expression of other FixK targets between the two data sets showed similarities; expression of some common regulators decreased in <italic>deltafixK</italic> along with genes encoding photosynthetic proteins and microaerobic respiratory proteins (<xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>). Some new targets emerged from our data set, most of which encode transport-related functions (<xref ref-type="table" rid="tbl2">Table 2</xref>).</p>
+        <p>In the coming years, it will be interesting to learn what other factors are necessary to support photoferrotrophic growth, or anaerobic growth in the presence of Fe(II) more generally, and what other additional layers of regulation beyond FixK are involved.</p>
+      </sec>
+    </sec>
+    <sec sec-type="methods" id="ss15">
+      <title>Experimental procedures</title>
+      <sec id="ss16">
+        <title>Bacterial strains, media and growth conditions</title>
+        <p>All strains used and constructed in this study are indicated in Table S2. <italic>E. coli</italic> strains were routinely grown in Luria - Bertani (LB) broth at 37 degrees C with shaking at 250 r.p.m. For aerobic chemoheterotrophic growth, <italic>Rhodopseudomonas palustris</italic> TIE-1 was grown in 100 mM MOPS [3-N (morpholino) propanesulphonic acid] pH 7.0 0.3% Yeast extract and 0.3% Peptone (YP) medium in the dark at 30 degrees C with shaking at 250 r.p.m. For anaerobic phototrophic growth <italic>R. palustris</italic> TIE-1 strains were grown in anoxic bicarbonate buffered freshwater (FW) medium (<xref ref-type="bibr" rid="b24">Jiao <italic>et al</italic>., 2005</xref>). For photoheterotrophic growth the FW medium was supplemented with anoxic 1 M stocks at pH 7.0 of sodium succinate, sodium acetate, sodium benzoate and sodium 4-hydroxybenzoate to a final concentration of 1 mM and incubated at 30 degrees C in a Percival Intellus Environmental Controller Model  -  AR22LC8 fitted with two 60 W tungsten bulbs providing total irradiance of ~ 40 W m<sup>-2</sup>. For photoautotrophic growth on H<sub>2</sub>, <italic>R. palustris</italic> TIE-1 was grown in FW medium pressurized with 50 kPascal of H<sub>2</sub>/CO<sub>2</sub> (80%/20%). For photoautotrophic growth on Fe(II), FW medium was prepared under the flow of 34.5 kPascal N<sub>2</sub>/CO<sub>2</sub> (80%/20%) and dispensed into sterile serum bottles/Balch tubes purged with 34.5 kPascal N<sub>2</sub>/CO<sub>2</sub> (80%/20%). The container was then sealed using sterile butyl rubber stoppers and stored at room temperature for at least a day before supplementing with anoxic sterile stocks of FeCl<sub>2</sub> to a final concentration of 5 mM and nitrilotriacetic (NTA) acid to a final concentration of 10 mM when required. For growth on solidified medium, LB or YP medium was solidified with 1.5% agar and supplemented with gentamicin at 20 mug ml<sup>-1</sup> (<italic>E. coli</italic>) and 800 mug ml<sup>-1</sup> (<italic>R. palustris</italic> TIE-1). For growth curve experiments and doubling time calculations, exponential phase cultures were inoculated into appropriate media at 10<sup>-2</sup> dilution and optical density (OD) was monitored at 660 nM. The OD<sub>660</sub> measurements were plotted versus time on a log scale and the slope of the curve was used to determine the growth constant <italic>k</italic>. The doubling time, <italic>g</italic>, was calculated from the following equation: <italic>g</italic> = ln(2)/<italic>k</italic>.</p>
+      </sec>
+      <sec id="ss17">
+        <title>DNA methods, plasmid and strain construction</title>
+        <p>All plasmid constructions and primers used in this study are indicated in Tables S2 and S3. All primers used in this study were obtained from Integrated DNA Technologies, Coralville, IA. A QIAprep Spin Miniprep kit (Qiagen, Valencia, CA, USA) was used for isolation of plasmid DNA from <italic>E. coli</italic>. Genomic DNA was isolated from <italic>R. palustris</italic> TIE-1 cells using the DNeasy Blood and Tissue kit (Qiagen, Valencia, CA, USA) and used as template for PCR reactions. All nucleic acids isolated in this study were quantified when necessary using a Nanodrop 1000 Spectrophotometer (Thermo Scientific, Waltham, MA). DNA sequencing was performed to confirm identity of all DNA constructs at the Biopolymers Laboratory in the Massachusetts Institute of Technology Center for Cancer Research. <italic>E. coli</italic> strains were transformed by electroporation using an Electroporator 2510 (Eppendorf, Hamburg, Germany), as recommended by the supplier. Plasmids were mobilized from <italic>E. coli</italic> S17-1/lambdapir into <italic>R. palustris</italic> TIE-1 by conjugation on YP agar plates as described previously (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>).</p>
+      </sec>
+      <sec id="ss18">
+        <title>Construction of a single integration system for <italic>R. palustris</italic> TIE-1</title>
+        <p>In order to employ <italic>lacZ</italic> reporter gene fusions in <italic>R. palustris</italic> TIE-1, it was imperative to ensure that the fusion was present in single copy on the chromosome of this organism. We designed an integrative system in <italic>R. palustris</italic> TIE-1 such that a desired region of DNA could be inserted onto the intergenic region of the operon Rpal_2933-2935 (<italic>glmUS</italic> homologue followed by an ORF of unknown function called gene <italic>glmX</italic> here) and Rpal_2936 (<italic>recG</italic> homologue). Details of the construction of this system can be found in the supporting information.</p>
+      </sec>
+      <sec id="ss19">
+        <title>Construction of a <italic>lacZ</italic> reporter system for <italic>R. palustris</italic> TIE-1</title>
+        <p>A pBBR1-based <italic>lacZ</italic> plasmid, pAB301 was designed for making translational fusions (Fig. S6). Details of this construct can be found in the supporting information. For assessing the expression of the <italic>pioABC</italic> operon of <italic>R. palustris</italic> TIE-1, the intergenic region between <italic>pioABC</italic> (Rpal_0817-0815) and Rpal_0818 (putative sulphate ABC transport subunit) was cloned into pAB301 forming pAB307. This entire cassette was re-amplified to incorporate NcoI sites on either side. This cassette was then cloned into the unique NcoI site of pAB314 (described in the supporting information) resulting in pAB322. This plasmid was used to insert the Ppio<sup>TIE-1</sup>-<italic>lacZ</italic> translational fusion onto the chromosome of WT <italic>R. palustris</italic> TIE-1, resulting in strain AB8.</p>
+      </sec>
+      <sec id="ss20">
+        <title>Construction of <italic>R. palustris</italic> TIE-1 <italic>fixK</italic> deletion mutant</title>
+        <p>The <italic>deltafixK</italic> deletion mutant was constructed in <italic>R. palustris</italic> TIE-1 as described previously (<xref ref-type="bibr" rid="b23">Jiao and Newman, 2007</xref>). In short, the 1 kb upstream and 1 kb downstream region of the <italic>fixK</italic> ORF (Rpal_4729) was fused using overlap extension PCR as described previously (<xref ref-type="bibr" rid="b4">Bose and Metcalf, 2008</xref>). This PCR product was cloned into pJQ200KS resulting in pAB337. pAB337 was transferred to <italic>R. palustris</italic> TIE-1 strain AB8 using <italic>E. coli</italic> S17-1/lambdapir. The integration of the plasmid either at the <italic>fixK</italic> upstream or downstream region was selected by gentamicin resistance and the resulting integrants were screened by PCR. The integrants were grown selectively in the presence of gentamicin followed by two passages at 10<sup>-2</sup> dilutions in non-selective YP medium. One integrant AB9 was chosen for segregation, which was achieved by plating on YP medium with 10% sucrose. Fifty sucrose resistant colonies were grown on plain YP medium and screened by PCR. One of the 50 colonies was a <italic>fixK</italic> (AB10) deletion mutant (as confirmed by PCR in Fig. S3) and was single colony purified 4 times on plain YP medium solidified with 1.5% agar.</p>
+      </sec>
+      <sec id="ss21">
+        <title>Complementation of the <italic>deltafixK</italic> mutant</title>
+        <p>The <italic>R. palustris</italic> TIE-1 <italic>fixK</italic> gene was cloned such that an NdeI site was incorporated to overlap with the ATG start codon and a SpeI site was incorporated at the end of the gene. This PCR product was then cloned into pSRKGm giving rise to pAB363 (<xref ref-type="bibr" rid="b26">Khan <italic>et al</italic>., 2008</xref>). This plasmid allows controlled expression of the cloned gene driven by a modified Plac promoter. pAB363 was transferred to AB10 (<italic>deltafixK</italic>) using the mating strain <italic>E. coli</italic> S17-1/lambdapir and selected on 800 mug ml<sup>-1</sup> gentamicin. A single colony was chosen and grown on 800 mug ml<sup>-1</sup> gentamicin with 10 mM IPTG (AB15). For subsequent purification of FixK protein an N-terminal 6x Histidine tag was chosen. To test whether this form of FixK was able to complement AB10 we cloned the N-terminal 6x Histidine tagged version of <italic>fixK</italic> into pSRKGm to give rise to pAB408. pAB408 was transferred to AB10 (<italic>deltafixK</italic>) using mating strain <italic>E. coli</italic> S17-1/lambdapir and selected on 800 mug ml<sup>-1</sup> gentamicin. A single colony was chosen and grown on 800 mug ml<sup>-1</sup> gentamicin with 10 mM IPTG (AB20).</p>
+      </sec>
+      <sec id="ss22">
+        <title>Determination of transcription start sites</title>
+        <p>Transcription start sites were determined using two variations of rapid amplification of cDNA ends, namely, 5' RLM-RACE and cRACE (the primers used are indicated in Table S4). 5' RLM-RACE was performed as previously described with minor changes described in the supporting information (<xref ref-type="bibr" rid="b4">Bose and Metcalf, 2008</xref>). cRACE was performed as described previously with minor modifications described in the supporting information (<xref ref-type="bibr" rid="b29">Maruyama <italic>et al</italic>., 1995</xref>, <xref ref-type="bibr" rid="b28">Main-Hester <italic>et al</italic>., 2008</xref>; <xref ref-type="bibr" rid="b37">Rey and Harwood, 2010</xref>).</p>
+      </sec>
+      <sec id="ss23">
+        <title>Measurement of beta-galactosidase activity</title>
+        <p>beta-Galactosidase activity was measured by a variation of the method of Miller as described in the supporting information (<xref ref-type="bibr" rid="b33">Miller, 1992</xref>).</p>
+      </sec>
+      <sec id="ss24">
+        <title>Quantitative reverse-transcription PCR</title>
+        <p>For expression analysis, RNA was isolated from exponentially growing cultures of <italic>R. palustris</italic> TIE-1 strains (OD<sub>660</sub> 0.2 for aerobic cultures grown on YP alone or supplemented with 1 mM succinate, acetate, benzoate, 4-hydroxybenzoate; for photoheterotrophic growth in FW medium supplemented with 1 mM succinate, acetate, benzoate, 4-hydroxybenzoate cells were harvested at OD<sub>660</sub> of 0.2; for photoautotrophic growth on H<sub>2</sub> cells were harvested at OD<sub>660</sub> of 0.2; for photoautotrophic growth on Fe(II) cells were harvested when half of the added Fe(II) was oxidized). The anoxic cultures were harvested in a Coy anaerobic chamber and the aerobic samples were harvested on the bench top. Details of the qRT-PCR protocol can be found in the supporting information (the primers used are indicated in Table S5).</p>
+      </sec>
+      <sec id="ss25">
+        <title>Overexpression and purification of FixK from <italic>E. coli</italic></title>
+        <p><italic>Escherichia coli</italic> Rosetta (DE3) pLysS (Novagen, Gibbstown, NJ, USA) cells carrying the appropriate overexpression plasmid were grown in LB broth with 25 mug ml<sup>-1</sup> chloramphenicol and 50 mug ml<sup>-1</sup> ampicillin to mid-log phase at 37 degrees C. The cells were then cold-shocked on ice for 15 min followed by induction with 1 mM IPTG and the cells were grown at 30 degrees C for 24 h. The cultures were then pelleted at 4000 <italic>g</italic> and the cell pellets frozen at -80 degrees C untill use. Details of the purification protocol can be found in the supporting information.</p>
+      </sec>
+      <sec id="ss26">
+        <title>Electrophoretic mobility shift assay</title>
+        <p>The DIG Gel Shift Kit, second generation (Roche, Indianapolis, IN, USA) was used as a non-radioactive way to perform electrophoretic mobility shift assays using the manufacturer's specifications. PCR was used to generate the DNA substrates (the primers used are indicated in Table S6) and the resulting products were gel purified using Wizard SV Gel and PCR Clean-Up System (Promega, Madison, WI, USA). Two substrates were designed to encompass the first (120 bp) and second (150 bp) consensus FixK binding sites as depicted in <xref ref-type="fig" rid="fig06">Fig. 6</xref>. The third substrate was designed to include both the first and second consensus FixK binding sites (247 bp) (<xref ref-type="fig" rid="fig06">Fig. 6</xref>). The control probe encompassing the Oct2A binding site (39 bp) was used to ascertain the specificity of FixK binding, which was provided in the DIG Gel Shift Kit, second generation (Roche, Indianapolis, IN, USA). The unlabelled probes were diluted as specified by the manufacturer and labelled with digoxygenin-11-dUTP (DIG) as specified. Details of the gel mobility-shift assays are provided in the supporting information.</p>
+      </sec>
+      <sec id="ss27">
+        <title>Other procedures</title>
+        <p>Fe(II) concentration was measured using the Ferrozine assay (<xref ref-type="bibr" rid="b40">Stookey, 1970</xref>). Total protein during growth on Fe(II)-NTA was measured using trichloroacetic acid (TCA) precipitation as follows: total protein in 2 ml of culture was precipitated using 500 mul 100% TCA. This mixture was incubated for 10 min at 4 degrees C and spun at 14 000 r.p.m. for 30 min in a microcentrifuge at 4 degrees C. The pellet was washed with 200 mul cold acetone at 14 000 r.p.m. for 10 min in a microcentrifuge at 4 degrees C. The pellet was dried at 95 degrees C for 10 min to remove residual acetone and resuspended in 50 mul 2.67 M guanidine HCl buffered with 100 mM Tris-Cl pH 8.0. The BCA (bichinchoninic acid) Protein Assay Kit was employed using the microtitre plate method for protein estimation as specified by the manufacturer following TCA precipitation with bovine serum albumin as control (Thermo Scientific, Waltham, MA, USA). Absorbance at 562 nm was measured using the Biotek Synergy 4 microtitre plate reader.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank Jacob Thomas and Alan D. Grossman for providing X-ray cassettes for gel mobility-shift analysis, Graham C. Walker for providing the Kodak (CareStream) M35A X-Omat film processor and Steven K. Farrand for pSRK-Gm. A.B. is a Howard Hughes Medical Institute (HHMI) fellow of the Life Sciences Research Foundation. D.K.N. is an investigator of the HHMI. This research was supported by grants to D.K.N. from the National Science Foundation (Grant MCB-0616323) and HHMI.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batut</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Daveranmingot</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>MDJ</given-names>
+            </name>
+            <name>
+              <surname>Garnerone</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Kahn</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <source>FixK, a gene homologous with Fnr and Crp from <italic>Escherichia coli,</italic> regulates nitrogen-fixation genes both positively and negatively in <italic>Rhizobium meliloti</italic></source>
+          <year>1989</year>
+          <comment>EMBO J 8: 1279 - 1286</comment>
+        </element-citation>
+      </ref>
+      <ref id="b2">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beatty</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Browning</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Wolfe</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <source>Cyclic AMP receptor protein-dependent activation of the Escherichia coli acsP2 promoter by a synergistic class III mechanism</source>
+          <year>2003</year>
+          <comment>J Bacteriol 185: 5148 - 5157</comment>
+        </element-citation>
+      </ref>
+      <ref id="b3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bobik</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Meilhoc</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Batut</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <source>FixJ: a major regulator of the oxygen limitation response and late symbiotic functions of Sinorhizobium meliloti</source>
+          <year>2006</year>
+          <comment>J Bacteriol 188: 4890 - 4902</comment>
+        </element-citation>
+      </ref>
+      <ref id="b4">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bose</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Metcalf</surname>
+              <given-names>WW</given-names>
+            </name>
+          </person-group>
+          <source>Distinct regulators control the expression of methanol methyltransferase isozymes in Methanosarcina acetivorans C2A</source>
+          <year>2008</year>
+          <comment>Mol Microbiol 67: 649 - 661</comment>
+        </element-citation>
+      </ref>
+      <ref id="b5">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Browning</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <source>The regulation of bacterial transcription initiation</source>
+          <year>2004</year>
+          <comment>Nat Rev Microbiol 2: 57 - 65</comment>
+        </element-citation>
+      </ref>
+      <ref id="b6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Conlan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>McCue</surname>
+              <given-names>LA</given-names>
+            </name>
+          </person-group>
+          <source>Rhodopseudomonas palustris regulons detected by cross-species analysis of alpha-proteobacterial genomes</source>
+          <year>2005</year>
+          <comment>Appl Environ Microbiol 71: 7442 - 7452</comment>
+        </element-citation>
+      </ref>
+      <ref id="b7">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corcoran</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Shore</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <source>Transcription factors in B-cell development and function</source>
+          <year>2000</year>
+          <comment>Immunologist 8: 11 - 13</comment>
+        </element-citation>
+      </ref>
+      <ref id="b8">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cosseau</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Batut</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <source>Genomics of the ccoNOQP-encoded cbb3 oxidase complex in bacteria</source>
+          <year>2004</year>
+          <comment>Arch Microbiol 181: 89 - 96</comment>
+        </element-citation>
+      </ref>
+      <ref id="b9">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Croal</surname>
+              <given-names>LR</given-names>
+            </name>
+            <name>
+              <surname>Gralnick</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Malasarn</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>DK</given-names>
+            </name>
+          </person-group>
+          <source>The genetics of geochemistry</source>
+          <year>2004</year>
+          <comment>Annu Rev Genet 38: 175 - 202</comment>
+        </element-citation>
+      </ref>
+      <ref id="b10">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crosson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>McGrath</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>McAdams</surname>
+              <given-names>HH</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <source>Conserved modular design of an oxygen sensory/signaling network with species-specific output</source>
+          <year>2005</year>
+          <comment>Proc Natl Acad Sci USA 102: 8018 - 8023</comment>
+        </element-citation>
+      </ref>
+      <ref id="b11">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ehrenreich</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Widdel</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <source>Anaerobic oxidation of ferrous iron by purple bacteria, a new type of phototrophic metabolism</source>
+          <year>1994</year>
+          <comment>Appl Environ Microbiol 60: 4517 - 4526</comment>
+        </element-citation>
+      </ref>
+      <ref id="b12">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elbehti</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Brasseur</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lemesle-Meunier</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <source>First evidence for existence of an uphill electron transfer through the bc(1) and NADH-Q oxidoreductase complexes of the acidophilic obligate chemolithotrophic ferrous ion-oxidizing bacterium Thiobacillus ferrooxidans</source>
+          <year>2000</year>
+          <comment>J Bacteriol 182: 3602 - 3606</comment>
+        </element-citation>
+      </ref>
+      <ref id="b13">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Escolar</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Perez-Martin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>de Lorenzo</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <source>Opening the iron box: transcriptional metalloregulation by the Fur protein</source>
+          <year>1999</year>
+          <comment>J Bacteriol 181: 6223 - 6229</comment>
+        </element-citation>
+      </ref>
+      <ref id="b14">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feniouk</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Junge</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <source>Proton translocation and ATP synthesis by the F<sub>0</sub>F<sub>1</sub>-ATPase of purple bacteria</source>
+          <year>2009</year>
+          <comment>The Purple Phototrophic Bacteria C. Dordrecht: Springer, pp. 475 - 493</comment>
+        </element-citation>
+      </ref>
+      <ref id="b15">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gilles-Gonzalez</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <source>Heme-based sensors: defining characteristics, recent developments, and regulatory hypotheses</source>
+          <year>2005</year>
+          <comment>J Inorg Biochem 99: 1 - 22</comment>
+        </element-citation>
+      </ref>
+      <ref id="b16">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Green</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Baldwin</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <source>HlyX, the FNR homologue of Actinobacillus pleuropneumoniae, is a [4Fe-4S]-containing oxygen-responsive transcription regulator that anaerobically activates FNR-dependent class I promoters via an enhanced AR1 contact</source>
+          <year>1997</year>
+          <comment>Mol Microbiol 24: 593 - 605</comment>
+        </element-citation>
+      </ref>
+      <ref id="b18">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Green</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Irvine</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Guest</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <source>FNR-DNA interactions at natural and semi-synthetic promoters</source>
+          <year>1996</year>
+          <comment>Mol Microbiol 19: 125 - 137</comment>
+        </element-citation>
+      </ref>
+      <ref id="b17">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Green</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Baldwin</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <source>Downregulation of Escherichia coli yfiD expression by FNR occupying a site at -93.5 involves the AR1-containing face of FNR</source>
+          <year>1998</year>
+          <comment>Mol Microbiol 29: 1113 - 1123</comment>
+        </element-citation>
+      </ref>
+      <ref id="b19">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hantke</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <source>Iron and metal regulation in bacteria</source>
+          <year>2001</year>
+          <comment>Curr Opin Microbiol 4: 172 - 177</comment>
+        </element-citation>
+      </ref>
+      <ref id="b20">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hartman</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Cohen</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Castenhole</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Halvorson</surname>
+              <given-names>HO</given-names>
+            </name>
+          </person-group>
+          <source>The evolution of photosynthesis and microbial mats: a speculation on the banded iron formations</source>
+          <year>1984</year>
+          <comment>Microbial Mats: Stromatolites. New York: Alan R. Liss 449 - 453</comment>
+        </element-citation>
+      </ref>
+      <ref id="b22">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heising</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schink</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <source>Phototrophic oxidation of ferrous iron by a Rhodomicrobium vannielii strain</source>
+          <year>1998</year>
+          <comment>Microbiology 144: 2263 - 2269</comment>
+        </element-citation>
+      </ref>
+      <ref id="b21">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heising</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Richter</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ludwig</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Schink</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <source>Chlorobium ferrooxidans sp nov., a phototrophic green sulfur bacterium that oxidizes ferrous iron in coculture with a 'Geospirillum' sp strain</source>
+          <year>1999</year>
+          <comment>Arch Microbiol 172: 116 - 124</comment>
+        </element-citation>
+      </ref>
+      <ref id="b23">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>DK</given-names>
+            </name>
+          </person-group>
+          <source>The pio operon is essential for phototrophic Fe(II) oxidation in Rhodopseudomonas palustris TIE-1</source>
+          <year>2007</year>
+          <comment>J Bacteriol 189: 1765 - 1773</comment>
+        </element-citation>
+      </ref>
+      <ref id="b24">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiao</surname>
+              <given-names>YYQ</given-names>
+            </name>
+            <name>
+              <surname>Kappler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Croal</surname>
+              <given-names>LR</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>DK</given-names>
+            </name>
+          </person-group>
+          <source>Isolation and characterization of a genetically tractable photoautotrophic Fe(II)-oxidizing bacterium, Rhodopseudomonas palustris strain TIE-1</source>
+          <year>2005</year>
+          <comment>Appl Environ Microbiol 71: 4487 - 4496</comment>
+        </element-citation>
+      </ref>
+      <ref id="b25">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnston</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Todd</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Curson</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nikolaidou-Katsaridou</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Gelfand</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Rodionov</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <source>Living without Fur: the subtlety and complexity of iron-responsive gene regulation in the symbiotic bacterium Rhizobium and other alpha-proteobacteria</source>
+          <year>2007</year>
+          <comment>Biometals 20: 501 - 511</comment>
+        </element-citation>
+      </ref>
+      <ref id="b26">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khan</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Gaines</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Roop</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Farrand</surname>
+              <given-names>SK</given-names>
+            </name>
+          </person-group>
+          <source>Broad-host-range expression vectors with tightly regulated promoters and their use to examine the influence of TraR and TraM expression on Ti plasmid quorum sensing</source>
+          <year>2008</year>
+          <comment>Appl Environ Microbiol 74: 5053 - 5062</comment>
+        </element-citation>
+      </ref>
+      <ref id="b27">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larimer</surname>
+              <given-names>FW</given-names>
+            </name>
+            <name>
+              <surname>Chain</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Hauser</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Lamerdin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Malfatti</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Do</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Complete genome sequence of the metabolically versatile photosynthetic bacterium Rhodopseudomonas palustris</source>
+          <year>2004</year>
+          <comment>Nat Biotechnol 22: 55 - 61</comment>
+        </element-citation>
+      </ref>
+      <ref id="b30">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McClure</surname>
+              <given-names>WR</given-names>
+            </name>
+          </person-group>
+          <source>Mechanism and control of transcription initiation in prokaryotes</source>
+          <year>1985</year>
+          <comment>Annu Rev Biochem 54: 171 - 204</comment>
+        </element-citation>
+      </ref>
+      <ref id="b28">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Main-Hester</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Colpitts</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>FC</given-names>
+            </name>
+            <name>
+              <surname>Libby</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <source>Coordinate regulation of Salmonella pathogenicity island 1 (SPI1) and SPI4 in Salmonella enterica serovar typhimurium</source>
+          <year>2008</year>
+          <comment>Infect Immun 76: 1024 - 1035</comment>
+        </element-citation>
+      </ref>
+      <ref id="b29">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maruyama</surname>
+              <given-names>IN</given-names>
+            </name>
+            <name>
+              <surname>Rakow</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Maruyama</surname>
+              <given-names>HI</given-names>
+            </name>
+          </person-group>
+          <source>cRACE  -  a simple method for identification of the 5'-end of messenger RNAs</source>
+          <year>1995</year>
+          <comment>Nucleic Acids Res 23: 3796 - 3797</comment>
+        </element-citation>
+      </ref>
+      <ref id="b32">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mesa</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ucurum</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Hennecke</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>HM</given-names>
+            </name>
+          </person-group>
+          <source>Transcription activation in vitro by the Bradyrhizobium japonicum regulatory protein FixK2</source>
+          <year>2005</year>
+          <comment>J Bacteriol 187: 3329 - 3338</comment>
+        </element-citation>
+      </ref>
+      <ref id="b31">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mesa</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hauser</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Friberg</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Malaguti</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Hennecke</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <source>Comprehensive assessment of the regulons controlled by the FixLJ-FixK2-FixK1 cascade in Bradyrhizobium japonicum</source>
+          <year>2008</year>
+          <comment>J Bacteriol 190: 6568 - 6579</comment>
+        </element-citation>
+      </ref>
+      <ref id="b33">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <source>Experiments in Molecular Genetics</source>
+          <year>1992</year>
+          <comment>Cold Spring Harbor, NY: Cold Spring Harbor Laboratory</comment>
+        </element-citation>
+      </ref>
+      <ref id="b34">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nellen-Anthamatten</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Rossi</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Preisig</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Kullik</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Babst</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Hennecke</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <source>Bradyrhizobium japonicum FixK2, a crucial distributor in the FixLJ-dependent regulatory cascade for control of genes inducible by low oxygen levels</source>
+          <year>1998</year>
+          <comment>J Bacteriol 180: 5251 - 5255</comment>
+        </element-citation>
+      </ref>
+      <ref id="b35">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oda</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Larimer</surname>
+              <given-names>FW</given-names>
+            </name>
+            <name>
+              <surname>Chain</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Malfatti</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>Vergez</surname>
+              <given-names>LM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Multiple genome sequences reveal adaptations of a phototrophic bacterium to sediment microenvironments</source>
+          <year>2008</year>
+          <comment>Proc Natl Acad Sci USA 105: 18543 - 18548</comment>
+        </element-citation>
+      </ref>
+      <ref id="b36">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poulain</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>DK</given-names>
+            </name>
+          </person-group>
+          <source>Rhodobacter capsulatus catalyzes light-dependent Fe(II) oxidation under anaerobic conditions as a potential detoxification mechanism</source>
+          <year>2009</year>
+          <comment>Appl Environ Microbiol 75: 6639 - 6646</comment>
+        </element-citation>
+      </ref>
+      <ref id="b37">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rey</surname>
+              <given-names>FE</given-names>
+            </name>
+            <name>
+              <surname>Harwood</surname>
+              <given-names>CS</given-names>
+            </name>
+          </person-group>
+          <source>FixK, a global regulator of microaerobic growth, controls photosynthesis in Rhodopseudomonas palustris</source>
+          <year>2010</year>
+          <comment>Mol Microbiol 75: 1007 - 1020</comment>
+        </element-citation>
+      </ref>
+      <ref id="b38">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schleyer</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bakker</surname>
+              <given-names>EP</given-names>
+            </name>
+          </person-group>
+          <source>Nucleotide sequence and 3'-end deletion studies indicate that the K(+)-uptake protein kup from Escherichia coli is composed of a hydrophobic core linked to a large and partially essential hydrophilic C terminus</source>
+          <year>1993</year>
+          <comment>J Bacteriol 175: 6925 - 6931</comment>
+        </element-citation>
+      </ref>
+      <ref id="b39">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stevens</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Uchida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Daltrop</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <source>Covalent cofactor attachment to proteins: cytochrome c biogenesis</source>
+          <year>2005</year>
+          <comment>Biochem Soc Trans 33: 792 - 795</comment>
+        </element-citation>
+      </ref>
+      <ref id="b40">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stookey</surname>
+              <given-names>LL</given-names>
+            </name>
+          </person-group>
+          <source>Ferrozine  -  a new spectrophotometric reagent for iron</source>
+          <year>1970</year>
+          <comment>Anal Chem 42: 779 - 781</comment>
+        </element-citation>
+      </ref>
+      <ref id="b41">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Straub</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Rainey</surname>
+              <given-names>FA</given-names>
+            </name>
+            <name>
+              <surname>Widdel</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <source>Rhodovulum iodosum sp. nov, and Rhodovulum robiginosum sp. nov., two new marine phototrophic ferrous-iron-oxidizing purple bacteria</source>
+          <year>1999</year>
+          <comment>Int J Syst Bacteriol 49: 729 - 735</comment>
+        </element-citation>
+      </ref>
+      <ref id="b42">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weber</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Achenbach</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Coates</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <source>Microorganisms pumping iron: anaerobic microbial iron oxidation and reduction</source>
+          <year>2006</year>
+          <comment>Nat Rev Microbiol 4: 752 - 764</comment>
+        </element-citation>
+      </ref>
+      <ref id="b43">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Widdel</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Schnell</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Heising</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ehrenreich</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Assmus</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Schink</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <source>Ferrous iron oxidation by anoxygenic phototrophic bacteria</source>
+          <year>1993</year>
+          <comment>Nature 362: 834 - 836</comment>
+        </element-citation>
+      </ref>
+      <ref id="b44">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Rotella</surname>
+              <given-names>FJ</given-names>
+            </name>
+            <name>
+              <surname>Westbrook</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Beno</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Huberman</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Characteristics and crystal structure of bacterial inosine-5'-monophosphate dehydrogenase</source>
+          <year>1999</year>
+          <comment>Biochemistry 38: 4691 - 4700</comment>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="supplementary-material">
+      <title>Supporting Information</title>
+      <p>Additional supporting information may be found in the online version of this article.</p>
+      <supplementary-material content-type="local-data" id="SD1">
+        <media xlink:href="mmi7430-0063-SD1.pdf" xlink:type="simple" id="d34e3727" position="anchor" mimetype="application" mime-subtype="pdf"/>
+      </supplementary-material>
+      <p>Please note: Wiley-Blackwell are not responsible for the content or functionality of any supporting materials supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.</p>
+    </sec>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

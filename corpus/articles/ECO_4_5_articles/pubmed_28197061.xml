@@ -1,0 +1,2080 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Bioinformation</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Bioinformation</journal-id>
+      <journal-id journal-id-type="publisher-id">Bioinformation</journal-id>
+      <journal-title-group>
+        <journal-title>Bioinformation</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">0973-2063</issn>
+      <publisher>
+        <publisher-name>Biomedical Informatics</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">28197061</article-id>
+      <article-id pub-id-type="pmc">5290665</article-id>
+      <article-id pub-id-type="publisher-id">97320630012241</article-id>
+      <article-id pub-id-type="doi">10.6026/97320630012241</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Hypothesis</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Presence of Bacterial Virulence Gene Homologues in the dibenzo-p-dioxins degrading bacterium Sphingomonas wittichii</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saeb</surname>
+            <given-names>Amr T. M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+        <aff id="A1"><label>1</label>Biotechnology Department, Strategic Center for Diabetes Research, College of medicine, King Saud University, Saudi Arabia.</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="COR1"><label>*</label>Amr T. M. Saeb<email>saeb.1@osu.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>7</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>4</issue>
+      <fpage>241</fpage>
+      <lpage>248</lpage>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>5</month>
+          <year>2016</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>22</day>
+          <month>6</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>6</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 Biomedical Informatics</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="open-access">
+          <license-p>This is an Open Access article which permits unrestricted use, distribution, 
+and reproduction in any medium, provided the original work is properly credited. This is distributed under the terms of the Creative Commons Attribution License.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Sphingomonas wittichii, a close relative of the human pathogen Sphingomonas paucimobilis, is a microorganism of great interest to the
+bioremediation community for its ability of biodegradation to a large number of toxic polychlorinated dioxins. In the present study we
+investigated the presence of different virulence factors and genes in S. wittichii. We utilized phylogenetic, comparative genomics and
+bioinformatics analysis to investigate the potentiality of S. wittichii as a potential virulent pathogen. The 16SrDNA phylogenetic tree
+showed that the closest bacterial taxon to S. wittichii is Brucella followed by Helicobacter, Campylobacter, Pseudomonas then Legionella.
+Despite their close phylogenetic relationship, S. wittichii did not share any virulence factors with Helicobacter or Campylobacter. On the
+contrary, in spite of the phylogenetic divergence between S. wittichii and Pseudomonas spp., they shared many major virulence factors,
+such as, adherence, antiphagocytosis, Iron uptake, proteases and quorum sensing. S. wittichii contains several major virulence factors
+resembling Pseudomonas sp., Legionella sp., Brucella sp. and Bordetella sp. virulence factors. Similarity of virulence factors did not match
+phylogenetic relationships. These findings suggest horizontal gene transfer of virulence factors rather than sharing a common
+pathogenic ancestor. S. wittichii is a potential virulent bacterium. Another possibility is that reductive evolution process attenuated S.
+wittichii pathogenic capabilities. Thus plenty of care must be taken when using this bacterium in soil remediation purposes.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Sphingomonas wittichii</kwd>
+        <kwd>Virulence factors</kwd>
+        <kwd>Phylogenetics</kwd>
+        <kwd>Comparative genomics</kwd>
+        <kwd>Bioinformatics</kwd>
+        <kwd>Pseudomonas sp</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Background</title>
+      <p>Sphingomonas wittichii is a bacterium of immense importance in
+the context of bioremediation because of its ability to biodegrade
+large number of toxic polychlorinated dioxins and to utilize both
+non-chlorinated dibenzo-p-dioxin and non-chlorinated
+dibenzofuran as a growth substrate and a sole source of carbon
+and energy [<xref rid="R01" ref-type="bibr">1</xref>]. S. wittichii belongs to the genus Sphingomonas
+that is a group of Gram-negative, rod-shaped, non-sporeforming,
+chemoheterotrophic, strictly aerobic bacterium that produces
+yellow or off white pigmented colonies. The distinctive features
+of Sphingomonas include its possession of ubiquinone 10 as its
+major respiratory quinone, the presence of glycosphingolipids
+(GDLs) in their cell envelopes and its metabolic versatility [<xref rid="R02" ref-type="bibr">2</xref>].</p>
+      <p>Members of the Sphingomonas genus are gaining popularity for
+their significant ability to degrade numerous recalcitrant
+compounds [<xref rid="R03" ref-type="bibr">3</xref>,<xref rid="R04" ref-type="bibr">4</xref>,
+<xref rid="R05" ref-type="bibr">5</xref>,<xref rid="R06" ref-type="bibr">6</xref>]. The completed 5,915,246-bp genome of S.
+wittichii consists of a main chromosome of 5,382,261 bp and two
+mega-plasmids, designated as pSWIT01 and pSWIT02 with sizes
+of 310,228 bp and 222,757 bp respectively [<xref rid="R07" ref-type="bibr">7</xref>]. S. wittichii is also
+known to be a compelling degrader of toxic dioxin pollutants, as
+it fully degrades the organic backbone of the dibenzo-p-dioxin
+structure [<xref rid="R06" ref-type="bibr">6</xref>,<xref rid="R08" ref-type="bibr">8</xref>]. This bacterium was largely isolated for its ability 
+to grow on dioxin-like compounds as the sole carbon and energy
+source [<xref rid="R06" ref-type="bibr">6</xref>]. And since its isolation, compelling research has shown
+that S. wittichii can biodegrade a larger number and greater
+diversity of chlorinated diaryl ethers than any other known
+bacterium [<xref rid="R06" ref-type="bibr">6</xref>,<xref rid="R09" ref-type="bibr">9</xref>,<xref rid="R10" ref-type="bibr">10</xref>].</p>
+      <p>In a previous study, we confirmed the presence of many
+virulence factors in S. paucimobilis, a human pathogen that had
+been frequently isolated from Diabetic foot ulcer patients [<xref rid="R11" ref-type="bibr">11</xref>] and
+is also closely related to S. wittichii. Henceforth, in this study, we
+aimed to investigate the pathogenic potentials of Sphingomonas
+wittichii by employing comparative genomics and bioinformatics
+techniques. This is the first study to investigate the presence of
+bacterial virulence factors in the presumed environmentally
+friendly bacterium, S. wittichii.</p>
+    </sec>
+    <sec sec-type="methods" id="s2">
+      <title>Methodology</title>
+      <sec id="s2a">
+        <title>Phylogenetic relationships reconstruction:</title>
+        <p>We acquired partial 16S rDNA sequences of selected
+Sphingomonas species and pathogenic bacteria from the
+GenBank (Supporting information <xref ref-type="table" rid="T3">Table 3</xref>). These sequences
+were then aligned using the Bioedit built-in clustal W program
+(gap opening penalty = 10, gap extension penalty = 5, delay
+divergent sequences = 40%). We compared the resulting
+alignments and the final alignments were improved manually
+and prepared in FASTA, MEGA formats using format converter
+tool v2.2.5 available online at: http://www.hiv.lanl.gov/
+content/sequence/FORMAT_CONV E RSION/form.html.</p>
+        <p>In order to establish the phylogenetic relationships among taxa,
+tree was constructed using the Maximum Likelihood (ML) 
+method based on the Tamura-Nei model and Jukes Cantor the
+best fit to the data according to AIC criterion [<xref rid="R12" ref-type="bibr">12</xref>]. The percentage
+of trees in which the associated taxa clustered together is shown
+next to the branches. Initial tree(s) for the heuristic search were
+obtained automatically by applying Neighbor-Join and BioNJ
+algorithms to a matrix of pairwise distances estimated using the
+Maximum Composite Likelihood (MCL) approach, and then the
+topology was selected with superior log likelihood value. The
+tree was drawn to scale, with branch lengths measured in the
+number of substitutions per site. The analysis involved 18
+nucleotide sequences. Codon positions included were
+1st+2nd+3rd+Noncoding. All positions containing gaps and
+missing data were eliminated. MEGA6 (program/software/tool)
+was used to conduct evolutionary analyses and pairwise distance
+[<xref rid="R13" ref-type="bibr">13</xref>].</p>
+      </sec>
+      <sec id="s2b">
+        <title>Comparative genomics analysis:</title>
+        <p>Virulence genes sequences and functions, corresponding to
+different major bacterial virulence factors of chosen pathogens,
+were acquired as described before by Saeb et al. [<xref rid="R11" ref-type="bibr">11</xref>]. Sequences
+were acquired from GenBank then compared and validated with
+virulence factors of pathogenic bacteria data base Supporting
+information <xref ref-type="table" rid="T2">Table 2</xref> that shows the tested major pathogenic
+virulence factors. Selected gene sequences were tested against
+available Sphingomonas gene information using Sphingomonas
+Nucleotide BLAST tool. The search set all Sphingomonas complete
+genomes and selected organism was Sphingomonas (taxid: 13687).
+Because of evolutionary divergence of the tested and query taxa
+we used BLASTN that is optimized for fairly similar sequences.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results and Discussion:</title>
+      <p>In this study, the presence of major known bacterial virulence
+factors in Sphingomonas wittichii was investigated. Phylogenetic
+relationships among 74 species of genus Sphingomonas, including
+the human pathogen Sphingomonas paucimobilis were
+reconstructed. <xref ref-type="fig" rid="F1">Figure 1</xref> shows the Partial 16SrDNA based
+Maximum Likelihood phylogenetic tree for all 74 species of the
+genus Sphingomonas. This figure also shows that Sphingomonas
+wittichii is a relatively close taxon to S. starnbergensis, S.
+histidinilytica, S. parapaucimobilis, S. yabuuchiae and the human
+pathogen S. paucimobilis. The pair wise genetic distance analysis
+was performed which showed the overall value of distance
+analysis among Sphingomonas species to be 0.05. The individual
+values of pairwise distance between of S. wittichii with S.sanguinis, 
+S. histidinilytica, S. parapaucimobilis, S. paucimobilis, S.
+yabuuchiae and the distantly related species S. mali were 0.016,
+0.026, 0.048, 0.042, 0.042 and 0.06 (Supporting information <xref ref-type="table" rid="T1">Table 1</xref>) respectively. The S. starnbergensis is a novel type of freshwater
+bacterium isolated from the prealpine mesotrophic Starnberger
+See (Bavaria, southern Germany). This species showed 95.3 %
+sequence similarity with S. paucimobilis DSM 1098(T), the type
+species of the genus Sphingomonas [<xref rid="R14" ref-type="bibr">14</xref>]. While, the S.
+histidinilytica was isolated from an open hexachlorocyclohexane
+(HCH) dump site at Ummari village in Lucknow, India. It
+showed 16S rDNA similarity of 99.4 %, with Sphingomonas
+wittichii DSM 6014(T) [<xref rid="R15" ref-type="bibr">15</xref>]. Moreover, S. yabuuchiae was
+identified from samples taken from the Russian space laboratory
+Mir. As shown in our results (Figure 1), S. yabuuchiae 16S rDNA
+sequence formed a coherent cluster with Sphingomonas
+sanguinis, Sphingomonas parapaucimobilis, Sphingomonas
+paucimobilis and Sphingomonas roseiflava with sequence
+similarity of 97-5 - 98-6% [<xref rid="R16" ref-type="bibr">16</xref>]. Sphingomonas wittichii also came in a
+coherent cluster with S. parapaucimobilis and S. paucimobilis, the
+only two species that are considered of human clinical
+significance [<xref rid="R17" ref-type="bibr">17</xref>].</p>
+      <p>The Maximum Likelihood method was used to construct a
+phylogenetic tree using partial 16S rDNA sequences of selected
+pathogenic bacteria as mentioned above in (<xref ref-type="fig" rid="F2">Figure 2</xref>) and this
+was specifically done in order to make a guided decision for the
+choice of pathogenic bacteria species that will be used in the
+following comparative genomics analysis with Sphingomonas
+wittichii. This phylogenetic tree showed that Brucella sp. was the
+closest bacterial taxon to Sphingomonas, followed by Helicobacter
+spp., Campylobacter sp., Pseudomonas sp., and then Legionella sp.
+Based on these suggested phylogenetic relationships, the
+following bacterial species, Brucella sp., Helicobacter sp.,
+Campylobacter sp., Pseudomonas sp. and Legionella sp, were selected
+for further comparative genomic and bioinformatics analysis.</p>
+      <p><xref ref-type="table" rid="T1">Table 1</xref> shows the selected bacterial genera with its
+corresponding species, hosts, and the diseases. All the chosen
+pathogens were mainly human, animal, protozoa, and plants
+pathogens. (<xref ref-type="table" rid="T2">Table 2</xref>) shows the virulent factors acquired by the
+chosen pathogens that were tested for its presence in S. wittichii
+genomic information. The major categories of bacterial virulence
+factors include adherence, endotoxin production, adherence,
+mobility, secretion systems and quorum sensing.</p>
+      <p><xref ref-type="table" rid="T3">Table 3</xref> and <xref ref-type="fig" rid="F3">Figure 3</xref> presents the shared virulence factors among
+S. wittichii and the selected five bacterial pathogens. Results in
+<xref ref-type="table" rid="T3">Table 3</xref> showed that S. wittichii shares the genes accountable for
+intracellular survival capability (manC and pgm) with Brucella sp.
+with e-values ranging from 0 to 3.00E-09 [<xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R12" ref-type="bibr">12</xref>,
+<xref rid="R13" ref-type="bibr">13</xref>]. In addition,
+Sphingomonas spp., shares the genes encoding for Type IV
+secretion system such as BMEII0026 with Brucella sp. with e-value
+of 6.00E-04 and identity similarity of 90%. On the contrary, S.
+wittichii does not share any virulence factors with Helicobacter spp.
+or Campylobacter sp. despite their close phylogenetic relationship.
+Moreover, S. wittichii shared Legionella sp. genes accountable for
+adherence and motility, namely, htpB and flip. In addition, S.
+wittichii and Legionella sp. shared the gene responsible for stress
+tolerance and sodB. The sodB encodes for superoxide dismutase
+which is a cytoplasmic iron superoxide dismutase important for
+intracellular survival and transmission [<xref rid="R18" ref-type="bibr">18</xref>].</p>
+      <p>Notwithstanding of the phylogenetic divergence between S.
+wittichii and Pseudomonas sp., it was noticed that they share
+several major virulence factors such as, adherence,
+antiphagocytosis, iron uptake, proteases, quorum sensing. S.
+wittichii and Pseudomonas sp. shared 19 genes of flagella formation
+(adherence) including flgK with e-value of 1.00E-04 and identity
+similarity of 94% and flgF with e-value of 6.00E-05 and identity
+similarity of 89%. The Flagella formation plays an important role
+as a virulence factor that enable motility toward the infection site,
+biofilm formation and several other pathogenic adaptations [<xref rid="R19" ref-type="bibr">19</xref>,
+<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R22" ref-type="bibr">22</xref>,
+<xref rid="R23" ref-type="bibr">23</xref>]. Moreover, S. wittichii and Pseudomonas sp. shared many genes
+implicated in type IV pili biogenesis and mechanical function of
+pili, such as fimU with e-value of 3.00E-04 and pilB with e-value
+of 3.00E-04 and 93% identity similarity. The type IV pili system
+plays an important role in adherence by assisting the pathogens
+to attach with their host cells and the twitching motility that
+allows the bacteria to move along the cell surface and in biofilm
+formation [<xref rid="R20" ref-type="bibr">20</xref>, <xref rid="R24" ref-type="bibr">24</xref>,
+<xref rid="R25" ref-type="bibr">25</xref>,<xref rid="R26" ref-type="bibr">26</xref>,
+<xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R28" ref-type="bibr">28</xref>]. Moreover, they shared two genes waaG
+and waaP implicated in lipopolysaccharide production that also 
+play role in adherence ability. Additionally, S. wittichii and
+Pseudomonas sp. share many genes implicated in antiphagocytosis
+through alginate production. They shared six alginate genes
+including algJ with e-value of 7.00E-04 and identity similarity of
+94% and alg44 with e-value of 7.00E-04 and identity similarity of
+85%. Alginate production allows pathogens to form bacterial
+biofilms and contributes to the persistence of bacteria in the lung
+by acting as an adhesin, which prevents the bacteria from being
+expelled from the infection site. The alginate slime layer makes it
+more difficult for phagocytes to ingest and kill the bacteria [<xref rid="R29" ref-type="bibr">29</xref>,
+<xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref>,<xref rid="R32" ref-type="bibr">32</xref>,
+<xref rid="R33" ref-type="bibr">33</xref>].</p>
+      <p>Another important bacterial virulence factor shared between S.
+wittichii and Pseudomonas sp. is quorum-sensing ability. S. wittichii
+has both rhlL and rhlR with e-values of 3.00E-4 and 5.00E-9,
+respectively. Thus S. wittichii possess only rhl system of quorum
+sensing. Whilst in Pseudomonas sp. quorum sensing consists of
+two separate but interrelated systems, namely; las and rhl which
+are found to regulate the production of multiple virulence factors
+and are also crucial for proper biofilm formation [<xref rid="R34" ref-type="bibr">34</xref>,
+<xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R36" ref-type="bibr">36</xref>]. In
+addition, S. wittichii and Pseudomonas sp. share seven genes
+encoding for xcp secretion system (Type II secretion system)
+including xcpX and xcpR with e-values of 1.00E-5 and 3.00E-174,
+respectively. The xcp secretion system is found to be responsible
+for secretion of toxins and enzymes into the extracellular fluid
+[<xref rid="R37" ref-type="bibr">37</xref>,<xref rid="R38" ref-type="bibr">38</xref>]. It was also observed that both S. wittichii and
+Pseudomonas sp. share several genes involved in Iron uptake using
+both Pyochelin (10 genes) and Pyoverdine (4 genes). The
+Pyochelin is effective at enhancing iron uptake in P. aeruginosa,
+catalyzes the formation of tissue-damaging free radicals and also
+binds other transition metals (e.g. Mo (IV), Co (II)) with
+appreciable affinity and is also implicated in the delivery of both
+Co (II) and Mo (IV) to P. aeruginosa cells [<xref rid="R39" ref-type="bibr">39</xref>,<xref rid="R40" ref-type="bibr">40</xref>]. The Pyoverdine
+is effective at acquiring iron from Transferrin and Lactoferrin.
+Moreover, Pyoverdine is cytotoxic due to its ability to stimulate
+the production of reactive oxygen species [<xref rid="R41" ref-type="bibr">41</xref>,<xref rid="R42" ref-type="bibr">42</xref>].</p>
+      <p>Since production of bacterial toxins is very important aspect of
+virulence, we extended our comparative analysis in order to
+investigate the presence of toxin related genes in S. wittichii.
+<xref ref-type="table" rid="T2">Table 2</xref> shows toxins that were found to share between S.
+wittichii and Bordetella pertussis, the strictly aerobic Gram-negative
+coccobacilli pathogen. B. pertussis is a strict human pathogen
+causing whooping cough, a highly contagious respiratory disease
+marked by severe, spasmodic coughing episodes [<xref rid="R43" ref-type="bibr">43</xref>,
+<xref rid="R44" ref-type="bibr">44</xref>,<xref rid="R45" ref-type="bibr">45</xref>]. It was
+also observed that S. wittichii contains genes for Invasive
+Adenylate cyclase /haemolysin, cyclolysin secretion protein
+which is a bi-functional toxin harboring both adenylate cyclase
+and hemolytic activities and functions primarily as an antiinflammatory
+factor [<xref rid="R46" ref-type="bibr">46</xref>,
+<xref rid="R47" ref-type="bibr">47</xref>,<xref rid="R48" ref-type="bibr">48</xref>]. Moreover, Sphingomonas spp.
+contains genes responsible for Pertussis toxin and its secretion
+system which assists in the attachment of B. pertussis to ciliated
+respiratory cells, important immunogen and activate cyclic
+Adenosine Phosphate (cAMP), Histamine Sensitising Factor
+(HSF), Lymphocytosis Promoting Factor (LPF), Islet-activating
+protein (IAP), interferes with leucocyte function and is
+haemolytic [<xref rid="R49" ref-type="bibr">49</xref>,
+<xref rid="R50" ref-type="bibr">50</xref>,<xref rid="R51" ref-type="bibr">51</xref>][<xref rid="R52" ref-type="bibr">52</xref>,
+<xref rid="R53" ref-type="bibr">53</xref>].</p>
+      <p>Results of this study showed that S. wittichii contains several
+major virulence factors mainly resembling Pseudomonas sp. Other
+virulence factors from Legionella sp., Brucella sp. and Bordetella sp.,
+have also been observed. Moreover, the similarity of virulence
+factors did not correspond to the phylogenetic relationships.
+These findings suggest horizontal gene transfer of virulence
+factors rather than sharing a common pathogenic ancestor. The
+other possible scenario is that S. wittichii went through a
+reductive evolution process that attenuated its pathogenic
+capabilities. In both cases we suggest that lots of care must be
+taken when releasing S. wittichii higher concentrations in the
+process environmental remediation.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We like to thank all members of the Information Technology
+Department in Strategic Center for Diabetes Research, College of
+Medicine, King Saud University</p>
+    </ack>
+    <fn-group>
+      <fn id="FN" fn-type="other">
+        <p>
+          <bold>Edited by P Kangueane</bold>
+        </p>
+      </fn>
+    </fn-group>
+    <fn-group>
+      <fn id="FN1" fn-type="other">
+        <p><bold>Citation:</bold>Saeb, Bioinformation 12(4): 241-248 (2016)</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="R01">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halden</surname>
+              <given-names>RU</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Appl Environ Microbiol.</source>
+          <year>1999</year>
+          <volume>65</volume>
+          <fpage>2246</fpage>
+          <pub-id pub-id-type="pmid">10224029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R02">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gai</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Appl Environ Microbiol.</source>
+          <year>2007</year>
+          <volume>73</volume>
+          <fpage>2832</fpage>
+          <pub-id pub-id-type="pmid">17337542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R03">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gai</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Microbiol Read Engl.</source>
+          <year>2008</year>
+          <volume>154</volume>
+          <fpage>3804</fpage>
+          <pub-id pub-id-type="pmid">19047748</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R04">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stolz</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <source>Appl Microbiol Biotechnol.</source>
+          <year>2009</year>
+          <volume>81</volume>
+          <fpage>793</fpage>
+          <pub-id pub-id-type="pmid">19002456</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R05">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wittich</surname>
+              <given-names>RM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Appl Environ Microbiol.</source>
+          <year>1992</year>
+          <volume>58</volume>
+          <fpage>1005</fpage>
+          <pub-id pub-id-type="pmid">1575472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R06">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arellano-Reynoso</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Nat Immunol.</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <fpage>618</fpage>
+          <pub-id pub-id-type="pmid">15880113</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R07">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>TR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Bacteriol.</source>
+          <year>2010</year>
+          <volume>192</volume>
+          <fpage>6101</fpage>
+          <pub-id pub-id-type="pmid">20833805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R08">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilkes</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Appl Environ Microbiol.</source>
+          <year>1996</year>
+          <volume>62</volume>
+          <fpage>367</fpage>
+          <pub-id pub-id-type="pmid">16535225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R09">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halden</surname>
+              <given-names>RU</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Appl Environ Microbiol.</source>
+          <year>2005</year>
+          <volume>71</volume>
+          <fpage>2442</fpage>
+          <pub-id pub-id-type="pmid">15870332</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hong</surname>
+              <given-names>H-B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Appl Environ Microbiol.</source>
+          <year>2002</year>
+          <volume>68</volume>
+          <fpage>2584</fpage>
+          <pub-id pub-id-type="pmid">11976140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saeb</surname>
+              <given-names>ATM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Evol Bioinforma.</source>
+          <year>2014</year>
+          <volume>10</volume>
+          <fpage>229</fpage>
+          <pub-id pub-id-type="pmid">25574122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Nei</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Mol Biol Evol.</source>
+          <year>1993</year>
+          <volume>10</volume>
+          <fpage>512</fpage>
+          <pub-id pub-id-type="pmid">8336541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Mol Biol Evol.</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <fpage>2725</fpage>
+          <pub-id pub-id-type="pmid">24132122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Int J Syst Evol Microbiol.</source>
+          <year>2013</year>
+          <volume>63</volume>
+          <fpage>1017</fpage>
+          <pub-id pub-id-type="pmid">22685105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nigam</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Int J Syst Evol Microbiol.</source>
+          <year>2010</year>
+          <volume>60</volume>
+          <fpage>1038</fpage>
+          <pub-id pub-id-type="pmid">19666786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Int J Syst Evol Microbiol.</source>
+          <year>2004</year>
+          <volume>54</volume>
+          <fpage>819</fpage>
+          <pub-id pub-id-type="pmid">15143030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toh</surname>
+              <given-names>HS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Microbiol Immunol Infect.</source>
+          <year>2011</year>
+          <volume>44</volume>
+          <fpage>289</fpage>
+          <pub-id pub-id-type="pmid">21524965</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guidolin</surname>
+              <given-names>LS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Bacteriol.</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>1230</fpage>
+          <pub-id pub-id-type="pmid">19074375</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cardoso</surname>
+              <given-names>PG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Microb Cell Factories.</source>
+          <year>2006</year>
+          <volume>5</volume>
+          <fpage>13</fpage>
+          <pub-id pub-id-type="pmid">17090431</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haag</surname>
+              <given-names>AF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Int J Microbiol.</source>
+          <year>2010</year>
+          <volume>2010</volume>
+          <fpage>124509</fpage>
+          <pub-id pub-id-type="pmid">21151694</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sadosky</surname>
+              <given-names>AB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Bacteriol.</source>
+          <year>1994</year>
+          <volume>176</volume>
+          <fpage>3790</fpage>
+          <pub-id pub-id-type="pmid">8206858</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feldman</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Infect Immun.</source>
+          <year>1998</year>
+          <volume>66</volume>
+          <fpage>43</fpage>
+          <pub-id pub-id-type="pmid">9423837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O'Toole</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Kolter</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>Mol Microbiol.</source>
+          <year>1998</year>
+          <volume>30</volume>
+          <fpage>295</fpage>
+          <pub-id pub-id-type="pmid">9791175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ciacci-Woolwine</surname>
+              <given-names>F</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Infect Immun.</source>
+          <year>1999</year>
+          <volume>67</volume>
+          <fpage>5176</fpage>
+          <pub-id pub-id-type="pmid">10496893</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adamo</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Am J Respir Cell Mol Biol.</source>
+          <year>2004</year>
+          <volume>30</volume>
+          <fpage>627</fpage>
+          <pub-id pub-id-type="pmid">14607814</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dasgupta</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Mol Microbiol.</source>
+          <year>2003</year>
+          <volume>50</volume>
+          <fpage>809</fpage>
+          <pub-id pub-id-type="pmid">14617143</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hahn</surname>
+              <given-names>HP.</given-names>
+            </name>
+          </person-group>
+          <source>Gene</source>
+          <year>1997</year>
+          <volume>192</volume>
+          <fpage>99</fpage>
+          <pub-id pub-id-type="pmid">9224879</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keizer</surname>
+              <given-names>DW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Biol Chem.</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <fpage>24186</fpage>
+          <pub-id pub-id-type="pmid">11294863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skerker</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>HC.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <volume>98</volume>
+          <fpage>6901</fpage>
+          <pub-id pub-id-type="pmid">11381130</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mattick</surname>
+              <given-names>JS.</given-names>
+            </name>
+          </person-group>
+          <source>Annu Rev Microbiol.</source>
+          <year>2002</year>
+          <volume>56</volume>
+          <fpage>289</fpage>
+          <pub-id pub-id-type="pmid">12142488</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whitchurch</surname>
+              <given-names>CB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Mol Microbiol.</source>
+          <year>2004</year>
+          <volume>52</volume>
+          <fpage>873</fpage>
+          <pub-id pub-id-type="pmid">15101991</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pier</surname>
+              <given-names>GB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Infect Immun.</source>
+          <year>2001</year>
+          <volume>69</volume>
+          <fpage>1895</fpage>
+          <pub-id pub-id-type="pmid">11179370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nivens</surname>
+              <given-names>DE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Bacteriol.</source>
+          <year>2001</year>
+          <volume>183</volume>
+          <fpage>1047</fpage>
+          <pub-id pub-id-type="pmid">11208804</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Med Microbiol.</source>
+          <year>2003</year>
+          <volume>52</volume>
+          <fpage>731</fpage>
+          <pub-id pub-id-type="pmid">12909647</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stapper</surname>
+              <given-names>AP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Med Microbiol.</source>
+          <year>2004</year>
+          <volume>53</volume>
+          <fpage>679</fpage>
+          <pub-id pub-id-type="pmid">15184541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franklin</surname>
+              <given-names>MJ,</given-names>
+            </name>
+            <name>
+              <surname>Douthit</surname>
+              <given-names>SA,</given-names>
+            </name>
+            <name>
+              <surname>McClure</surname>
+              <given-names>MA.</given-names>
+            </name>
+          </person-group>
+          <source>J Bacteriol</source>
+          <year>2004</year>
+          <volume>4759</volume>
+          <pub-id pub-id-type="pmid">15231808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL.</given-names>
+            </name>
+          </person-group>
+          <source>Annu Rev Microbiol</source>
+          <year>2001</year>
+          <volume>55</volume>
+          <fpage>165</fpage>
+          <pub-id pub-id-type="pmid">11544353</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Erickson</surname>
+              <given-names>DL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Infect Immun</source>
+          <year>2002</year>
+          <volume>70</volume>
+          <fpage>1783</fpage>
+          <pub-id pub-id-type="pmid">11895939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Iglewski</surname>
+              <given-names>BH. P.</given-names>
+            </name>
+          </person-group>
+          <source>CurrOpinMicrobiol</source>
+          <year>2003</year>
+          <volume>6</volume>
+          <fpage>56</fpage>
+          <pub-id pub-id-type="pmid">14617745</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chapon-Herve</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Mol Microbiol.</source>
+          <year>1997</year>
+          <volume>24</volume>
+          <fpage>1169</fpage>
+          <pub-id pub-id-type="pmid">9218766</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Filloux</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>FEMS Microbiol Rev</source>
+          <year>1998</year>
+          <volume>22</volume>
+          <fpage>177</fpage>
+          <pub-id pub-id-type="pmid">9818381</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ankenbauer</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Quan</surname>
+              <given-names>HN.</given-names>
+            </name>
+          </person-group>
+          <source>J Bacteriol</source>
+          <year>1994</year>
+          <volume>176</volume>
+          <fpage>307</fpage>
+          <pub-id pub-id-type="pmid">8288523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poole</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>McKay</surname>
+              <given-names>GA.</given-names>
+            </name>
+          </person-group>
+          <source>Front Biosci J Virtual Libr</source>
+          <year>2003</year>
+          <volume>8</volume>
+          <fpage>d66.</fpage>
+          <pub-id pub-id-type="pmid">12700066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meyer</surname>
+              <given-names>JM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Infect Immun.</source>
+          <year>1996</year>
+          <volume>64</volume>
+          <fpage>518</fpage>
+          <pub-id pub-id-type="pmid">8550201</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kisaalita</surname>
+              <given-names>WS.</given-names>
+            </name>
+          </person-group>
+          <source>Microbiol Read Engl</source>
+          <year>1997</year>
+          <volume>143 (Pt7)</volume>
+          <fpage>2509</fpage>
+          <pub-id pub-id-type="pmid">9245831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Terada</surname>
+              <given-names>LS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Infect Immun.</source>
+          <year>1999</year>
+          <volume>67</volume>
+          <fpage>2371</fpage>
+          <pub-id pub-id-type="pmid">10225897</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luberto</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>J Biol Chem</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>32733</fpage>
+          <pub-id pub-id-type="pmid">12799377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parkhill</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Nat Genet</source>
+          <year>2003</year>
+          <volume>35</volume>
+          <fpage>32</fpage>
+          <pub-id pub-id-type="pmid">12910271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glaser</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>EMBO J</source>
+          <year>1988</year>
+          <volume>7</volume>
+          <fpage>3997</fpage>
+          <pub-id pub-id-type="pmid">2905265</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gallay</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>Eur J Biochem FEBS</source>
+          <year>2004</year>
+          <volume>271</volume>
+          <fpage>821</fpage>
+          <pub-id pub-id-type="pmid">14764099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bumba</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>PLoSPathog.</source>
+          <year>2010</year>
+          <volume>6</volume>
+          <fpage>e1000901.</fpage>
+          <pub-id pub-id-type="pmid">2048556</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>FEMS Microbiol Rev.</source>
+          <year>2001</year>
+          <volume>25</volume>
+          <fpage>309</fpage>
+          <pub-id pub-id-type="pmid">11348687</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Locht</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>N. FEBS J</source>
+          <year>2011</year>
+          <volume>278</volume>
+          <fpage>4668</fpage>
+          <pub-id pub-id-type="pmid">21740523</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list id="ABB1">
+        <def-item>
+          <term>GDLs</term>
+          <def>
+            <p>Glycosphingolipids</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>16S rDNA</term>
+          <def>
+            <p>16S ribosomal RNA</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NJ</term>
+          <def>
+            <p>Neighbor-Joining</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MCL</term>
+          <def>
+            <p>Maximum Composite Likelihood</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>taxid</term>
+          <def>
+            <p>Taxon identity</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>cAMP</term>
+          <def>
+            <p>Cyclic adenosine phosphate</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>HSF</term>
+          <def>
+            <p>Histamine sensitizing factor</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>LPF</term>
+          <def>
+            <p>Lymphocytosis promoting factor (LPF)</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>IAP</term>
+          <def>
+            <p>Islet-activating protein</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+  </back>
+  <floats-group>
+    <table-wrap id="T1" position="float">
+      <label>Table 1</label>
+      <caption>
+        <title>Major pathogenic taxa used in the comparative analysis against Sphingomonas wittichii</title>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <td rowspan="1" colspan="1">Genus</td>
+            <td rowspan="1" colspan="1">Species</td>
+            <td rowspan="1" colspan="1">Host</td>
+            <td rowspan="1" colspan="1">Disease</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5" colspan="1">Brucella</td>
+            <td rowspan="1" colspan="1">B. abortus </td>
+            <td rowspan="1" colspan="1">Human and Cattle </td>
+            <td rowspan="1" colspan="1">Brucellosis, Osteoarthritis, endocarditis and several neurological disorders</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B. canis </td>
+            <td rowspan="1" colspan="1">Human and Dogs </td>
+            <td rowspan="1" colspan="1">Brucellosis, Osteoarthritis, endocarditis and several neurological disorders</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B. melitensis </td>
+            <td rowspan="1" colspan="1">Human Goats and Sheep </td>
+            <td rowspan="1" colspan="1">Brucellosis, Osteoarthritis, endocarditis and several neurological disorders</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B. ovis </td>
+            <td rowspan="1" colspan="1">Sheep </td>
+            <td rowspan="1" colspan="1">Brucellosis, Osteoarthritis, endocarditis and several neurological disorders</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B. suis </td>
+            <td rowspan="1" colspan="1">Human and Pigs </td>
+            <td rowspan="1" colspan="1">Brucellosis, Osteoarthritis, endocarditis and several neurological disorders</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Helicobacter</td>
+            <td rowspan="1" colspan="1">H. acinonychis </td>
+            <td rowspan="1" colspan="1">Humans and other mammals </td>
+            <td rowspan="1" colspan="1">Bacterial carcinogen, Gastroduodenal diseases</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">H. hepaticus </td>
+            <td rowspan="1" colspan="1">Humans and other mammals </td>
+            <td rowspan="1" colspan="1">Bacterial carcinogen, Gastroduodenal diseases</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">H. pylori </td>
+            <td rowspan="1" colspan="1">Humans and other mammals </td>
+            <td rowspan="1" colspan="1">Bacterial carcinogen, Gastroduodenal diseases</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">Campylobacter</td>
+            <td rowspan="1" colspan="1">C. fetus </td>
+            <td rowspan="1" colspan="1">Humans </td>
+            <td rowspan="1" colspan="1">Bacterial Campylobacter gastroenteritis</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">C. jejuni </td>
+            <td rowspan="1" colspan="1">Humans </td>
+            <td rowspan="1" colspan="1">Guillain-Barre syndrome (GBS)</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Legionella Pseudomonas </td>
+            <td rowspan="1" colspan="1">L. pneumophila </td>
+            <td rowspan="1" colspan="1">Humans and protozoa </td>
+            <td rowspan="1" colspan="1">Legionnaires' Disease</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">P. aeruginosa </td>
+            <td rowspan="1" colspan="1">Human </td>
+            <td rowspan="1" colspan="1">Eye, burn and wound infections</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">P. syringae </td>
+            <td rowspan="1" colspan="1">Plant </td>
+            <td rowspan="1" colspan="1">Bacterial speck and bacterial blight</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T2" position="float">
+      <label>Table 2</label>
+      <caption>
+        <title>Suggested Sphingomonas wittichii toxin information in relation to Bordetella pertussis toxins.</title>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <td rowspan="2" colspan="1">Bordetella Toxin</td>
+            <td rowspan="2" colspan="1">Related Gene</td>
+            <td rowspan="2" colspan="1">Product name</td>
+            <td rowspan="2" colspan="1">Genbank ID</td>
+            <td colspan="3" rowspan="1">Shingomonas spp</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">E value</td>
+            <td rowspan="1" colspan="1">Identity(%)</td>
+            <td rowspan="1" colspan="1">Accession</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Cya (Invasive Adenylate cyclase/haemolysin)</td>
+            <td rowspan="1" colspan="1">cyaA</td>
+            <td rowspan="1" colspan="1">bifunctional hemolysin-adenylate cyclase precursor</td>
+            <td rowspan="1" colspan="1">33591934</td>
+            <td rowspan="1" colspan="1">2.00E-12</td>
+            <td rowspan="1" colspan="1">73</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">cyaD</td>
+            <td rowspan="1" colspan="1">cyclolysin secretion protein</td>
+            <td rowspan="1" colspan="1">33591936</td>
+            <td rowspan="1" colspan="1">8.00E-04</td>
+            <td rowspan="1" colspan="1">81</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">cyaE</td>
+            <td rowspan="1" colspan="1">cyclolysin secretion protein</td>
+            <td rowspan="1" colspan="1">33591937</td>
+            <td rowspan="1" colspan="1">2.00E-04</td>
+            <td rowspan="1" colspan="1">89</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Ptx (Pertussis toxin)</td>
+            <td rowspan="1" colspan="1">ptlC</td>
+            <td rowspan="1" colspan="1">putative bacterial secretion system protein</td>
+            <td rowspan="1" colspan="1">33594645</td>
+            <td rowspan="1" colspan="1">3.00E-06</td>
+            <td rowspan="1" colspan="1">88</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">ptlF</td>
+            <td rowspan="1" colspan="1">putative bacterial secretion system protein</td>
+            <td rowspan="1" colspan="1">33594649</td>
+            <td rowspan="1" colspan="1">5.00E-04</td>
+            <td rowspan="1" colspan="1">76</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">ptlH</td>
+            <td rowspan="1" colspan="1">putative bacterial secretion system protein</td>
+            <td rowspan="1" colspan="1">33594651</td>
+            <td rowspan="1" colspan="1">3.00E-08</td>
+            <td rowspan="1" colspan="1">75</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3" position="float">
+      <label>Table 3</label>
+      <caption>
+        <title>Comparative analysis Sphingomonas wittichii against major bacterial virulence factors and functions</title>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <td rowspan="1" colspan="1">Bacterial Taxa</td>
+            <td rowspan="1" colspan="1">Major virulence factors (VFs)</td>
+            <td rowspan="1" colspan="1">Sub VFs</td>
+            <td rowspan="1" colspan="1">Related Gene</td>
+            <td rowspan="1" colspan="1">E value</td>
+            <td rowspan="1" colspan="1">Identity (%)</td>
+            <td rowspan="1" colspan="1">Accession #</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4" colspan="1">Brucella</td>
+            <td rowspan="1" colspan="1">Intra-cellular survival and Immuno- modulatory activityMannose-1-phosphate guanylyl-transferase</td>
+            <td rowspan="1" colspan="1">Mannose-1-phosphate guanylyl-transferase</td>
+            <td rowspan="1" colspan="1">manC</td>
+            <td rowspan="1" colspan="1">3.00E-09</td>
+            <td rowspan="1" colspan="1">77</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Secretion systemPhospho-glucomutase </td>
+            <td rowspan="1" colspan="1">Phospho-glucomutase</td>
+            <td rowspan="1" colspan="1">pgm </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">74</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">VirB type IV </td>
+            <td rowspan="1" colspan="1">BMEII0026 </td>
+            <td rowspan="1" colspan="1">6.00E-04</td>
+            <td rowspan="1" colspan="1">90</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">VirB type IV </td>
+            <td rowspan="1" colspan="1">BMEII0035 </td>
+            <td rowspan="1" colspan="1">4.00E-06</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Legionella</td>
+            <td rowspan="1" colspan="1">Adherence</td>
+            <td rowspan="1" colspan="1">Hsp60</td>
+            <td rowspan="1" colspan="1">htpB </td>
+            <td rowspan="1" colspan="1">6.00E-19</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Motility</td>
+            <td rowspan="1" colspan="1">Flagella</td>
+            <td rowspan="1" colspan="1">fliP </td>
+            <td rowspan="1" colspan="1">1.00E-04</td>
+            <td rowspan="1" colspan="1">66</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Stress protein</td>
+            <td rowspan="1" colspan="1">SodB</td>
+            <td rowspan="1" colspan="1">sodB </td>
+            <td rowspan="1" colspan="1">3.00E-04</td>
+            <td rowspan="1" colspan="1">76</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="70" colspan="1">Pseudomonas</td>
+            <td rowspan="19" colspan="1">Adherence</td>
+            <td rowspan="19" colspan="1">Flagella</td>
+            <td rowspan="1" colspan="1">fleQ </td>
+            <td rowspan="1" colspan="1">4.00E-65</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flgE </td>
+            <td rowspan="1" colspan="1">5.00E-19</td>
+            <td rowspan="1" colspan="1">67</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flgF </td>
+            <td rowspan="1" colspan="1">7.00E-14</td>
+            <td rowspan="1" colspan="1">71</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flgG </td>
+            <td rowspan="1" colspan="1">3.00E-44</td>
+            <td rowspan="1" colspan="1">68</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flgH </td>
+            <td rowspan="1" colspan="1">3.00E-25</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flgI </td>
+            <td rowspan="1" colspan="1">6.00E-87</td>
+            <td rowspan="1" colspan="1">68</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flgK </td>
+            <td rowspan="1" colspan="1">1.00E-04</td>
+            <td rowspan="1" colspan="1">94</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flhA </td>
+            <td rowspan="1" colspan="1">2.00E-139</td>
+            <td rowspan="1" colspan="1">70</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flhB </td>
+            <td rowspan="1" colspan="1">2.00E-11</td>
+            <td rowspan="1" colspan="1">70</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">flhF </td>
+            <td rowspan="1" colspan="1">6.00E-05</td>
+            <td rowspan="1" colspan="1">89</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliC </td>
+            <td rowspan="1" colspan="1">1.00E-32</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliE </td>
+            <td rowspan="1" colspan="1">6.00E-04</td>
+            <td rowspan="1" colspan="1">74</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliF </td>
+            <td rowspan="1" colspan="1">3.00E-04</td>
+            <td rowspan="1" colspan="1">66</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliG </td>
+            <td rowspan="1" colspan="1">8.00E-09</td>
+            <td rowspan="1" colspan="1">63</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliI </td>
+            <td rowspan="1" colspan="1">1.00E-115</td>
+            <td rowspan="1" colspan="1">71</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliN </td>
+            <td rowspan="1" colspan="1">3.00E-16</td>
+            <td rowspan="1" colspan="1">70</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliP </td>
+            <td rowspan="1" colspan="1">7.00E-84</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliQ </td>
+            <td rowspan="1" colspan="1">2.00E-08</td>
+            <td rowspan="1" colspan="1">84</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fliR </td>
+            <td rowspan="1" colspan="1">7.00E-08</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="17" colspan="1">Adherence</td>
+            <td rowspan="2" colspan="1">LPS (lipopolysaccharide)</td>
+            <td rowspan="1" colspan="1">waaG </td>
+            <td rowspan="1" colspan="1">4.00E-07</td>
+            <td rowspan="1" colspan="1">76</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">waaP </td>
+            <td rowspan="1" colspan="1">1.00E-04</td>
+            <td rowspan="1" colspan="1">83</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="15" colspan="1">Type IV pili</td>
+            <td rowspan="1" colspan="1">chpA </td>
+            <td rowspan="1" colspan="1">2.00E-13</td>
+            <td rowspan="1" colspan="1">69</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">chpC </td>
+            <td rowspan="1" colspan="1">8.00E-05</td>
+            <td rowspan="1" colspan="1">82</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">fimU </td>
+            <td rowspan="1" colspan="1">3.00E-04</td>
+            <td rowspan="1" colspan="1">93</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilB </td>
+            <td rowspan="1" colspan="1">3.00E-04</td>
+            <td rowspan="1" colspan="1">93</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilG </td>
+            <td rowspan="1" colspan="1">2.00E-04</td>
+            <td rowspan="1" colspan="1">79</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilH </td>
+            <td rowspan="1" colspan="1">2.00E-04</td>
+            <td rowspan="1" colspan="1">77</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilJ </td>
+            <td rowspan="1" colspan="1">2.00E-19</td>
+            <td rowspan="1" colspan="1">76</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilK </td>
+            <td rowspan="1" colspan="1">3.00E-06</td>
+            <td rowspan="1" colspan="1">83</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilQ </td>
+            <td rowspan="1" colspan="1">1.00E-09</td>
+            <td rowspan="1" colspan="1">73</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilR </td>
+            <td rowspan="1" colspan="1">9.00E-54</td>
+            <td rowspan="1" colspan="1">70</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilS </td>
+            <td rowspan="1" colspan="1">2.00E-05</td>
+            <td rowspan="1" colspan="1">74</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilT </td>
+            <td rowspan="1" colspan="1">1.00E-07</td>
+            <td rowspan="1" colspan="1">83</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilU </td>
+            <td rowspan="1" colspan="1">1.00E-12</td>
+            <td rowspan="1" colspan="1">75</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilV </td>
+            <td rowspan="1" colspan="1">3.00E-04</td>
+            <td rowspan="1" colspan="1">78</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pilW </td>
+            <td rowspan="1" colspan="1">1.00E-05</td>
+            <td rowspan="1" colspan="1">88</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="6" colspan="1">Antiphagocytosis</td>
+            <td rowspan="6" colspan="1">Alginate</td>
+            <td rowspan="1" colspan="1">Alg44 </td>
+            <td rowspan="1" colspan="1">7.00E-04</td>
+            <td rowspan="1" colspan="1">85</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">algA </td>
+            <td rowspan="1" colspan="1">1.00E-21</td>
+            <td rowspan="1" colspan="1">65</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">algB </td>
+            <td rowspan="1" colspan="1">2.00E-36</td>
+            <td rowspan="1" colspan="1">69</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">algI </td>
+            <td rowspan="1" colspan="1">1.00E-59</td>
+            <td rowspan="1" colspan="1">67</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">algJ </td>
+            <td rowspan="1" colspan="1">7.00E-04</td>
+            <td rowspan="1" colspan="1">94</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">algP </td>
+            <td rowspan="1" colspan="1">1.00E-07</td>
+            <td rowspan="1" colspan="1">80</td>
+            <td rowspan="1" colspan="1">CP006644.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Biosurfactant</td>
+            <td rowspan="1" colspan="1">Rhamnolipid</td>
+            <td rowspan="1" colspan="1">rhlA </td>
+            <td rowspan="1" colspan="1">5.00E-04</td>
+            <td rowspan="1" colspan="1">89</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="14" colspan="1">Iron uptake</td>
+            <td rowspan="10" colspan="1">Pyochelin</td>
+            <td rowspan="1" colspan="1">fptA </td>
+            <td rowspan="1" colspan="1">6.00E-08</td>
+            <td rowspan="1" colspan="1">86</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchA </td>
+            <td rowspan="1" colspan="1">8.00E-04</td>
+            <td rowspan="1" colspan="1">93</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchB </td>
+            <td rowspan="1" colspan="1">6.00E-04</td>
+            <td rowspan="1" colspan="1">67</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchC </td>
+            <td rowspan="1" colspan="1">1.00E-04</td>
+            <td rowspan="1" colspan="1">80</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchD </td>
+            <td rowspan="1" colspan="1">1.00E-09</td>
+            <td rowspan="1" colspan="1">67</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchE </td>
+            <td rowspan="1" colspan="1">6.00E-05</td>
+            <td rowspan="1" colspan="1">81</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchF </td>
+            <td rowspan="1" colspan="1">1.00E-07</td>
+            <td rowspan="1" colspan="1">85</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchG </td>
+            <td rowspan="1" colspan="1">1.00E-05</td>
+            <td rowspan="1" colspan="1">79</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchH </td>
+            <td rowspan="1" colspan="1">4.00E-09</td>
+            <td rowspan="1" colspan="1">67</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pchI </td>
+            <td rowspan="1" colspan="1">6.00E-13</td>
+            <td rowspan="1" colspan="1">74</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1">Pyoverdine</td>
+            <td rowspan="1" colspan="1">fpvA </td>
+            <td rowspan="1" colspan="1">3.00E-12</td>
+            <td rowspan="1" colspan="1">68</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pvdA </td>
+            <td rowspan="1" colspan="1">8.00E-04</td>
+            <td rowspan="1" colspan="1">86</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pvdD </td>
+            <td rowspan="1" colspan="1">1.00E-04</td>
+            <td rowspan="1" colspan="1">91</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">pvdE </td>
+            <td rowspan="1" colspan="1">7.00E-06</td>
+            <td rowspan="1" colspan="1">82</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">Pigment</td>
+            <td rowspan="1" colspan="1">Pyocyanin</td>
+            <td rowspan="1" colspan="1">phzM </td>
+            <td rowspan="1" colspan="1">5.00E-05</td>
+            <td rowspan="1" colspan="1">77</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pyocyanin</td>
+            <td rowspan="1" colspan="1">phzS </td>
+            <td rowspan="1" colspan="1">6.00E-05</td>
+            <td rowspan="1" colspan="1">68</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">Protease</td>
+            <td rowspan="1" colspan="1">Alkaline protease</td>
+            <td rowspan="1" colspan="1">aprA </td>
+            <td rowspan="1" colspan="1">5.00E-07</td>
+            <td rowspan="1" colspan="1">76</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">LasA</td>
+            <td rowspan="1" colspan="1">lasA </td>
+            <td rowspan="1" colspan="1">7.00E-04</td>
+            <td rowspan="1" colspan="1">86</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Regulation</td>
+            <td rowspan="1" colspan="1">Quorum sensing</td>
+            <td rowspan="1" colspan="1">rhlL </td>
+            <td rowspan="1" colspan="1">3.00E-04</td>
+            <td rowspan="1" colspan="1">93</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="8" colspan="1">Secretion system</td>
+            <td rowspan="8" colspan="1">xcp secretion system</td>
+            <td rowspan="1" colspan="1">rhlR </td>
+            <td rowspan="1" colspan="1">5.00E-09</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpQ </td>
+            <td rowspan="1" colspan="1">2.00E-46</td>
+            <td rowspan="1" colspan="1">70</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpR </td>
+            <td rowspan="1" colspan="1">3.00E-174</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpS </td>
+            <td rowspan="1" colspan="1">1.00E-44</td>
+            <td rowspan="1" colspan="1">66</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpT </td>
+            <td rowspan="1" colspan="1">3.00E-23</td>
+            <td rowspan="1" colspan="1">69</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpU </td>
+            <td rowspan="1" colspan="1">2.00E-07</td>
+            <td rowspan="1" colspan="1">78</td>
+            <td rowspan="1" colspan="1">NC_020561.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpW </td>
+            <td rowspan="1" colspan="1">4.00E-04</td>
+            <td rowspan="1" colspan="1">73</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">xcpX </td>
+            <td rowspan="1" colspan="1">6.00E-04</td>
+            <td rowspan="1" colspan="1">88</td>
+            <td rowspan="1" colspan="1">NC_009511.1</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <fig id="F1" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>Partial 16SrDNA based phylogenetic tree for 74 species of genus Sphingomonas including the human pathogen S. paucimobilis.</p>
+      </caption>
+      <graphic xlink:href="97320630012241F1"/>
+    </fig>
+    <fig id="F2" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>Partial 16SrDNA based phylogenetic tree for a major pathogenic bacterial taxa.</p>
+      </caption>
+      <graphic xlink:href="97320630012241F2"/>
+    </fig>
+    <fig id="F3" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>Percentage of different virulence factors associated with Sphingomonas spp.</p>
+      </caption>
+      <graphic xlink:href="97320630012241F3"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>
+
+
+

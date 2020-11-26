@@ -1,0 +1,84 @@
+T1	ECO 1674 1680	BLASTP
+A1	Category T1 Tax
+A2	ECOConfidence T1 High
+A3	AssertionStrength T1 High
+N1	Reference T1 brat_eco:ECO:0000208	protein BLAST evidence
+T2	ECO 3892 3909	Sequence analysis
+A4	Category T2 SeqFeat
+A5	ECOConfidence T2 Medium
+A6	AssertionStrength T2 Medium
+N2	Reference T2 brat_eco:ECO:0000200	sequence alignment evidence
+T3	ECO 5071 5088	deletion analysis
+A7	Category T3 SeqFeat
+A8	ECOConfidence T3 High
+A9	AssertionStrength T3 High
+N3	Reference T3 brat_eco:ECO:0001038	deletion mutation evidence
+T4	ECO 7992 7998	BLASTP
+A10	Category T4 Tax
+A11	ECOConfidence T4 High
+A12	NextSentence T4 Yes
+A13	AssertionStrength T4 Medium
+N4	Reference T4 brat_eco:ECO:0000208	protein BLAST evidence
+T5	ECO 8239 8253	qRT-PCR assays
+A14	Category T5 BioProc
+A15	ECOConfidence T5 High
+A16	AssertionStrength T5 High
+N5	Reference T5 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+T6	ECO 8652 8665	BPROM program
+A17	Category T6 SeqFeat
+A18	ECOConfidence T6 High
+A19	AssertionStrength T6 High
+T7	ECO 8652 8665	BPROM program
+A20	Category T7 SeqFeat
+A21	ECOConfidence T7 High
+A22	NextSentence T7 Yes
+A23	AssertionStrength T7 High
+N7	Reference T7 brat_eco:ECO:0000044	sequence similarity evidence
+N6	Reference T6 brat_eco:ECO:0000044	sequence similarity evidence
+T8	ECO 1852 1871	sequence similarity
+A24	Category T8 BioProc
+A25	ECOConfidence T8 High
+A26	NextSentence T8 Yes
+A27	AssertionStrength T8 Low
+N8	Reference T8 brat_eco:ECO:0000044	sequence similarity evidence
+T9	ECO 2324 2331	qRT-PCR
+A28	Category T9 BioProc
+A29	ECOConfidence T9 High
+A30	NextSentence T9 Yes
+A31	AssertionStrength T9 High
+N9	Reference T9 brat_eco:ECO:0001566	quantitative reverse transcription polymerase chain reaction evidence
+T10	ECO 7992 7998	BLASTP
+A32	Category T10 SeqFeat
+A33	ECOConfidence T10 High
+A34	AssertionStrength T10 High
+N10	Reference T10 brat_eco:ECO:0000208	protein BLAST evidence
+T11	ECO 9056 9068	cDNA product
+A35	Category T11 BioProc
+A36	ECOConfidence T11 Low
+A37	AssertionStrength T11 High
+N11	Reference T11 brat_eco:ECO:0000104	DNA to cDNA expression microarray evidence
+T12	ECO 9478 9492	gfp expression
+A38	Category T12 BioProc
+A39	ECOConfidence T12 High
+A40	AssertionStrength T12 High
+N12	Reference T12 brat_eco:ECO:0001816	green fluorescent protein reporter gene assay evidence
+T13	ECO 9478 9492	gfp expression
+A41	Category T13 BioProc
+A42	ECOConfidence T13 High
+A43	NextSentence T13 Yes
+A44	NegativeStatement T13 Yes
+A45	AssertionStrength T13 High
+N13	Reference T13 brat_eco:ECO:0001816	green fluorescent protein reporter gene assay evidence
+A46	NextSentence T12 Yes
+T14	ECO 9920 9934	gfp expression
+A47	Category T14 SeqFeat
+A48	ECOConfidence T14 High
+A49	NextSentence T14 Yes
+A50	AssertionStrength T14 High
+N14	Reference T14 brat_eco:ECO:0001816	green fluorescent protein reporter gene assay evidence
+T15	ECO 11439 11456	DNase I digestion
+A51	Category T15 MolFn
+A52	ECOConfidence T15 High
+A53	AssertionStrength T15 Medium
+N15	Reference T15 brat_eco:ECO:0001810	DNAse footprinting evidence
+A54	NextSentence T15 Yes

@@ -1,0 +1,1598 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19276207</article-id>
+      <article-id pub-id-type="pmc">2677876</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkp121</article-id>
+      <article-id pub-id-type="publisher-id">gkp121</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Molecular Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Regulatory targets of quorum sensing in <italic>Vibrio cholerae:</italic> evidence for two distinct HapR-binding motifs</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tsou</surname>
+            <given-names>Amy M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cai</surname>
+            <given-names>Tao</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Zhi</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Jun</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kulkarni</surname>
+            <given-names>Rahul V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="AFF1"><sup>1</sup>Department of Microbiology, University of Pennsylvania School of Medicine, Philadelphia, PA 19104, USA, <sup>2</sup>Department of Microbiology, MOA Key Lab of Microbiological Engineering of Agricultural Environment, Nanjing Agricultural University, Nanjing, China and <sup>3</sup>Department of Physics, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061, USA</aff>
+      <author-notes>
+        <corresp id="COR1">*To whom correspondence should be addressed. Tel: <phone>+1 215 573 4104</phone>. Fax: <fax>+1 215898 9557</fax>; Email: <email>junzhu@mail.med.upenn.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>5</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>10</day>
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>37</volume>
+      <issue>8</issue>
+      <fpage>2747</fpage>
+      <lpage>2756</lpage>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>11</month>
+          <year>2008</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>13</day>
+          <month>2</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>2</month>
+          <year>2009</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2009 The Author(s)</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/2.0/uk/">
+          <license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/2.0/uk/">http://creativecommons.org/licenses/by-nc/2.0/uk/</ext-link>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The quorum-sensing pathway in <italic>Vibrio cholerae</italic> controls the expression of the master regulator HapR, which in turn regulates several important processes such as virulence factor production and biofilm formation. While HapR is known to control several important phenotypes, there are only a few target genes known to be transcriptionally regulated by HapR. In this work, we combine bioinformatic analysis with experimental validation to discover a set of novel direct targets of HapR. Our results provide evidence for two distinct binding motifs for HapR-regulated genes in <italic>V. cholerae</italic>. The first binding motif is similar to the motifs recently discovered for orthologs of HapR in <italic>V. harveyi</italic> and <italic>V. vulnificus</italic>. However, our results demonstrate that this binding motif can be of variable length in <italic>V. cholerae</italic>. The second binding motif shares common elements with the first motif, but is of fixed length and lacks dyad symmetry at the ends. The contributions of different bases to HapR binding for this second motif were demonstrated using systematic mutagenesis experiments. The current analysis presents an approach for systematically expanding our knowledge of the quorum-sensing regulon in <italic>V. cholerae</italic> and other related bacteria.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body><sec><title>INTRODUCTION</title><p>The Gram-negative bacterium <italic>Vibrio cholerae</italic> is the causative agent of cholera, an acute dehydrating diarrheal disease that is still endemic in many developing countries. Within its human host, <italic>V. cholerae</italic> must survive harsh conditions in the stomach before reaching its colonization site in the small intestine. Outside of its human host, <italic>V. cholerae</italic> can be found in marine environments in association with either biotic substrates, such as copepods, or abiotic substrates, such as sediment (<xref ref-type="bibr" rid="B1">1</xref>) To survive and disseminate effectively, <italic>V. cholerae</italic> must be able to sense and respond to transitions between these starkly contrasting environmental conditions. A major regulatory network controlling the response to changing conditions is the pathway involved in 'quorum sensing', generally defined as the regulation of gene expression in response to cell density (<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>). Quorum sensing has been shown to regulate a number of physiological functions that are important for <italic>V. cholerae</italic> pathogenesis and environmental survival (<xref ref-type="bibr" rid="B4 B5 B6 B7 B8 B9 B10">4 - 10</xref>). Microarray experiments have demonstrated that the quorum-sensing pathway brings about global changes in gene expression (<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B11">11</xref>). However, the connections between the regulatory elements of the pathway and the regulated targets have been established for only a limited number of targets.</p><p>The master regulator of the quorum-sensing pathway is the TetR-family transcriptional regulator HapR (<xref ref-type="bibr" rid="B12">12</xref>). Members of the TetR family share sequentially similar N-terminal binding domains containing helix - turn - helix motifs as well as structurally similar but sequentially diverse C-terminal domains usually involved in dimerization (<xref ref-type="bibr" rid="B13">13</xref>). The quorum-sensing pathway controls expression of HapR post-transcriptionally using multiple regulatory small RNAs (<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>). At low cell density, the small RNAs are transcribed at high levels and act to destabilize <italic>hapR</italic> mRNA, effectively repressing its expression. In contrast, small RNA production is significantly reduced at high-cell density, thereby resulting in increased HapR levels. In addition to post-transcriptional regulation via the small regulatory RNAs, the transcription of <italic>hapR</italic> is regulated by other regulatory components (<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref>). Correspondingly, several genes are activated or repressed by HapR, and these regulated targets, in turn, are responsible for the control of important phenotypes. Thus, an important step in connecting the quorum-sensing pathway to the regulated phenotypes is identification of novel target genes directly regulated by HapR. Bioinformatic approaches can potentially identify genes that are regulatory targets under different natural settings and thus, they can complement studies such as microarray analyses and genetic screens, which are performed under specific conditions.</p><p>The identification of target genes regulated by HapR can be facilitated by the identification of specific binding sites for HapR, which can be used to characterize the HapR-binding motif. One of the challenges in doing so is the limited number of HapR targets for which specific binding regions have been identified. A known direct target is the transcription factor AphA, which regulates virulence gene expression via <italic>tcpP</italic> (<xref ref-type="bibr" rid="B18">18</xref>). HapR has been shown to repress AphA by binding to a specific site in the <italic>aphA</italic> promoter (<xref ref-type="bibr" rid="B19">19</xref>). Follow-up experiments have also shown that HapR is autoregulatory and binds to its own promoter. However, it was concluded that the binding region upstream of <italic>hapR</italic> shows only weak conservation when compared to the corresponding binding region in the <italic>aphA</italic> promoter (<xref ref-type="bibr" rid="B20">20</xref>). Additional targets of HapR have been identified in recent studies (<xref ref-type="bibr" rid="B21">21</xref>), but their HapR-binding regions have not been characterized in as much detail as those of <italic>aphA</italic> and <italic>hapR</italic>. Thus, the challenge is to develop a predictive approach for identifying novel targets of HapR given the limited experimental information currently available.</p><p>In this work, we use an integrated approach combining bioinformatic analysis and experiments to discover additional genes regulated by HapR in <italic>V. cholerae</italic>. The starting point of our analysis is the observation that the binding sites identified upstream of <italic>aphA</italic> and <italic>hapR</italic> are actually quite similar when the complementary strand is taken into consideration. Furthermore, similar binding sequences can be found upstream of <italic>aphA</italic> and <italic>hapR</italic> orthologs in other Vibrios. Our analysis suggests that the predicted binding sites can be organized into two distinct categories: Motif 1 binding sites are variable in length whereas Motif 2 binding sites can be represented using the standard position specific weight matrix (PSWM) approach (<xref ref-type="bibr" rid="B22">22</xref>). We then carried out experiments to test predicted targets in both categories to validate this categorization based on sequence analysis. In summary, our combined analysis provides evidence that HapR binds to two distinct binding motifs and has led to the identification of several novel HapR-regulated targets in <italic>V. cholerae</italic>.</p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Sequence analysis</title><p>Genomic upstream regions from  - 300 bp relative to the translation start site were obtained, and the corresponding analysis was carried out using the sequence analysis tools at: <ext-link ext-link-type="uri" xlink:href="http://rsat.ulb.ac.be/rsat/">http://rsat.ulb.ac.be/rsat/</ext-link> (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>). Multiple sequence alignments were carried out using the TCoffee alignment tool (<xref ref-type="bibr" rid="B25">25</xref>). Genome-wide searches for binding sites were carried out using the programs CONSENSUS and PATSER (<xref ref-type="bibr" rid="B22">22</xref>), as implemented at: <ext-link ext-link-type="uri" xlink:href="http://rsat.ulb.ac.be/rsat/">http://rsat.ulb.ac.be/rsat/</ext-link>. Sequence logos were generated using the Weblogo program (<xref ref-type="bibr" rid="B26">26</xref>).</p></sec><sec><title>Bacterial strains, plasmids and standard culture conditions</title><p>All <italic>V. cholerae</italic> strains used in this study were derived from E1 Tor C6706 (<xref ref-type="bibr" rid="B27">27</xref>) and were propagated in Luria broth (LB) media containing appropriate antibiotics at 37 degrees C. A plasmid used to overexpress the maltose binding protein (MBP) - HapR fusion was constructed by PCR-amplifying the HapR coding sequence and cloning into pMal-c2x (New England Biolabs). Plasmids used to measure HapR-regulated transcription were constructed by PCR-amplifying the promoter regions of each putative target gene and cloning into pBBR-lux (<xref ref-type="bibr" rid="B28">28</xref>) to make transcriptional fusions with the <italic>luxCDABE</italic> genes. The resulting plasmids were introduced into <italic>V. cholerae</italic> wild type and <italic>hapR</italic> mutants (<xref ref-type="bibr" rid="B8">8</xref>) by conjugal transfer.</p></sec><sec><title>Gel retardation assays</title><p>MBP - HapR fusions were purified through amylose columns according to the manufacturer's instructions (New England Biolabs). Upstream regions of the putative HapR-regulated targets were PCR-amplified while systematic point mutations in the Motif 2-binding site of <italic>vca0880</italic> were generated by hybridizing complementary oligonucleotides containing the desired mutations. The DNA fragments were digested with EcoRI and end-labeled using [alpha-<sup>32</sup>P]dATP and the Klenow fragment of DNA polymerase I. Binding reactions contained 0.1 ng DNA and various amounts of MBP - HapR protein in a buffer of 10 mM Tris - HCl (pH 7.9), 1 mM EDTA, 1 mM DTT, 60 mM KCl, 30 mg/ml poly(dI - dC) DNA, 20 mg/ml BSA and 10% glycerol. After a 20-min incubation at room temperature, samples were size-fractionated using 5% polyacrylamide gels in 1 x TAE buffer (20 mM Tris - acetate, 1 mM EDTA, pH 8.5) at 4 degrees C. Radioactivity of free DNA and HapR - DNA complexes was visualized using a StormB840 PhosphorImager (Molecular Dynamics).</p></sec><sec><title>Luminescence assay of putative HapR-regulated genes</title><p>The <italic>V. cholerae</italic> wild type and <italic>hapR</italic> mutant strains containing transcriptional <italic>lux</italic> fusion plasmids were grown in LB with appropriate antibiotics at 37 degrees C overnight, diluted by a ratio of 1:1000 in fresh LB and incubated at 37 degrees C. Luminescence was read at 2-h intervals for 8 h using a Bio-Tek Synergy HT spectrophotometer. Relative Light Units are defined as light unit/OD<sub>600</sub>.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Sequence analysis of known HapR targets and orthologs</title><p>The <italic>V. cholerae</italic> quorum-sensing regulator HapR is a TetR-family protein that functions both as an activator and as a repressor. Quorum sensing in <italic>V. cholerae</italic> has been demonstrated to regulate a variety of cellular functions, but HapR-binding sites have only been determined for two targets thus far: <italic>aphA</italic> and <italic>hapR</italic> itself. It has been shown that HapR binds to a site from 61 to 82 bp upstream of the transcriptional start site in the <italic>aphA</italic> promoter (<xref ref-type="bibr" rid="B19">19</xref>) and to a site 12 to 33 bp downstream of the transcriptional start site for <italic>hapR</italic> (<xref ref-type="bibr" rid="B20">20</xref>). It is likely that autoregulation of HapR along with virulence regulation via AphA are conserved across the Vibrios, in which case the corresponding binding sites should show strong conservation across species. Thus, we carried out a multiple sequence alignment of orthologous regions across closely related <italic>Vibrio</italic> species for <italic>aphA</italic> and its orthologs as well as for <italic>hapR</italic> and its orthologs. As noted, a previous study had shown that the binding regions upstream of <italic>hapR</italic> and <italic>aphA</italic> show only weak conservation when the direct strands are compared (<xref ref-type="bibr" rid="B20">20</xref>) To check for similarity in the binding sites when the complementary strands are also considered, we performed a sequence alignment of the direct strand in the region upstream of <italic>aphA</italic> with the complementary strand to the region upstream of <italic>hapR</italic>. The alignment results showed that the binding regions for both genes are quite similar when the complementary strand is also considered (see <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkp121/DC1">Supplementary Data</ext-link>, Figure S1), indicating that bioinformatic procedures can be used to represent the corresponding binding motif as discussed further below.</p><p>The upstream regions of <italic>aphA</italic> orthologs and <italic>hapR</italic> orthologs were then aligned, taking the complementary strands into account, in order to identify a consensus binding sequence. A notable feature of the conserved binding regions (<xref ref-type="table" rid="T1">Table 1</xref>) is that for a subset of the genes (specifically <italic>hapR</italic> orthologs <italic>opaR, luxR, smcR</italic> and <italic>litR</italic>), it is possible to identify a conserved region with dyad symmetry similar to the binding sites that have recently been identified for HapR orthologs in <italic>Vibrio vulnificus</italic> and <italic>Vibrio harveyi</italic> (<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref>). These sites are highlighted in <xref ref-type="table" rid="T1">Table 1</xref> under the heading Motif 1. A more striking observation is that the binding sites for <italic>aphA</italic> and its orthologs and for <italic>hapR</italic> do not follow the same pattern. While the initial sequence of the binding sites of these genes are similar to those in Motif 1, the concluding sequence does not show the corresponding dyad symmetry and has the absolutely conserved sequence 'TGT' instead of the Motif 1 consensus 'AATAR' (where R represents A/G). Binding sites following this second pattern are referred to as Motif 2 sites (<xref ref-type="table" rid="T1">Table 1</xref>). Since HapR is able to activate the <italic>V. harveyi</italic> luminescence operon, which is a direct target of the HapR ortholog, LuxR, we reasoned that these binding sites in closely related species can be used to construct a preliminary representation of binding motifs for HapR itself (<xref ref-type="bibr" rid="B6">6</xref>). Thus, the preliminary analysis identifies potential HapR-binding sites and indicates that there are two distinct HapR binding motifs.
+<table-wrap id="T1" position="float"><label>Table 1.</label><caption><p>Predicted HapR-binding sites upstream of orthologs of <italic>hapR</italic> and <italic>aphA</italic> in the Vibrios and upstream of four additional genes in <italic>V. cholerae</italic> (VCA0865, VC0900, VC2370 and VCA0080) known to be regulated by HapR</p></caption><table frame="hsides" rules="groups"><tbody align="left"><tr><td rowspan="1" colspan="1"><inline-graphic xlink:href="gkp121i1.jpg"/></td></tr></tbody></table><table-wrap-foot><fn><p>Binding sites are categorized according to two distinct motifs.</p><p><sup>a</sup>Binding sites on complementary strands are highlighted.</p></fn></table-wrap-foot></table-wrap></p><p>The above observations are further strengthened when we consider additional <italic>V. cholerae</italic> genes that are known to be regulated by HapR, but for which specific binding sites have not yet been identified. These targets include <italic>hapA</italic> (<xref ref-type="bibr" rid="B31">31</xref>) which encodes the protease HapA and 3 genes which encode GGDEF and/or GGDEF/EAL domain proteins: <italic>vc0900</italic>, <italic>vc2370</italic> and <italic>vca0080</italic> (<xref ref-type="bibr" rid="B21">21</xref>). We identified potential HapR binding sites for these genes by searching their upstream regions for patterns similar to Motif 1 or Motif 2. Specifically, Motif 1-binding sites were identified for <italic>vc0900</italic>, <italic>vc2370</italic> and <italic>vca0080</italic> and a Motif 2-binding site was identified upstream of <italic>hapA</italic>. These sites were included in the initial list of predicted HapR-binding sites (<xref ref-type="table" rid="T1">Table 1</xref>). It is interesting to note that all the known targets listed in <xref ref-type="table" rid="T1">Table 1</xref> with Motif 1-binding sites contain the motif AATAR. In some cases (e.g. <italic>litR</italic>), there are multiple contiguous occurrences of this motif, in which case the proposed binding site is taken to end at the last occurrence of the AATAR motif. It is noteworthy that for Motif 1 targets listed in <xref ref-type="table" rid="T1">Table 1</xref> with a single AATAR concluding motif, the distance between the initial conserved sequence and the concluding AATAR sequence is variable and thus, Motif 1-binding sites appear to be of variable length. As we discuss in the following sections, characterization of the HapR-binding motif according to the two categories outlined in <xref ref-type="table" rid="T1">Table 1</xref> leads to testable predictions for novel target genes regulated by HapR. A schematic flowchart outlining the procedure followed is shown in the <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkp121/DC1">Supplementary Data</ext-link> (Figure S2).</p></sec><sec><title>Motif 1 target predictions</title><p>Analysis of the Motif 1-binding sites listed in <xref ref-type="table" rid="T1">Table 1</xref> reveals that the motif can be characterized by: (i) an initial 7 bp conserved region represented by the motif YWATTKA (where Y stands for C/T, W stands for A/T, and K stands for G/T); (ii) followed by a region of variable length which is typically AT-rich; and (iii) concluding with the sequence AATAR. This motif is similar to the binding motif recently identified for HapR orthologs in <italic>V. vulnificus</italic> and <italic>V. harveyi</italic>, but an important distinction is that our analysis considers the binding length to be variable. Note that while the initial conserved sequence can be summarized by YWATTKA, this would include sequences (e.g. CAATTTA) which are not observed in any of the known targets listed in <xref ref-type="table" rid="T1">Table 1</xref>. A more restrictive constraint for the initial 7-bp sequence is that it corresponds to one of the three patterns represented by YTATTGA, TAATTGA or YTATTTA. We carried out a genome-wide search for genes whose upstream regions include a potential binding site satisfying the constraints noted above. Since the binding region can be variable in length, we considered binding sites ranging from 16 to 22 bp. In some cases, there are multiple occurrences of the motif AATAR, so the length of the spacer region between the conserved elements at the ends is not well defined (<xref ref-type="fig" rid="F1">Figure 1</xref>A). Nevertheless, even if we consider only those targets with a single occurrence of the concluding motif AATAR, the length of the binding site is seen to vary over the entire range considered (i.e. from 16 to 22 bp). The genome-wide search for potential binding sites yielded 33 intergenic regions. For each binding site length, we picked one to two candidate genes for experimental validation. These genes, along with their predicted binding sites, are shown in <xref ref-type="fig" rid="F1">Figure 1</xref>A. (Note that for the 16-bp targets, we considered targets with 1-bp mutations compared to the patterns noted above, since searching for the exact patterns yielded only one hypothetical gene as a predicted target.) As discussed below, all of the targets listed in <xref ref-type="fig" rid="F1">Figure 1</xref>A were subsequently validated by gel retardation assays. The functions of the regulated target genes along with predictions for the corresponding operons are provided in Table S1. These results demonstrate that the proposed sequence pattern is an effective way of representing a binding motif for HapR and further indicate that there are many more genes that are potentially regulated by HapR.
+<fig id="F1" position="float"><label>Figure 1.</label><caption><p>Alignment of predicted Motif 1 (<bold>A</bold>) and Motif 2 (<bold>B</bold>) binding sites in intergenic regions of <italic>V. cholerae</italic>. Genes for which predicted binding sites are on the complementary strand are indicated with gray shading. Loci labeled in orange indicate the first of two divergently transcribed genes that contain a HapR binding site in the intergenic region. The 22-bp-binding regions are shown for each binding site. While the predicted binding site length is seen to be variable for Motif 1 genes, Motif 2-binding sites show very weak conservation beyond 16 bp. The alignment demonstrates the distinctions between the two proposed motifs in terms of concluding sequences and binding site lengths.</p></caption><graphic xlink:href="gkp121f1"/></fig></p></sec><sec><title>Motif 2 target predictions</title><p>Unlike binding sites corresponding to Motif 1, Motif 2-binding sites contain a strongly conserved 16-bp region that ends with the sequence TGT. This suggests that Motif 2-binding sites can be represented using a PSWM corresponding to a 16-bp binding site. Accordingly, the predicted Motif 2-binding sites (listed in <xref ref-type="table" rid="T1">Table 1</xref>) were used to generate a preliminary PSWM. This PSWM was used to score potential binding sites in the upstream regions of all genes in the <italic>V. cholerae</italic> genome. We also specifically considered genes which were shown to be differentially regulated in a <italic>hapR</italic> mutant as compared to WT in previous microarray studies (<xref ref-type="bibr" rid="B7">7</xref>). The five highest-scoring novel binding sites in the whole-genome scan and the highest-scoring target also identified in microarray data (<italic>vca0880</italic>) were chosen for experimental validation. The predicted targets and the corresponding HapR-binding sites are listed in <xref ref-type="fig" rid="F1">Figure 1</xref>B. Target protein function and operon predictions are provided in Table S1. As discussed further in the experimental results, all the predicted targets except one (<italic>vc0241</italic>) were validated by gel retardation assays. The binding sites for the experimentally validated targets were used to generate a revised PSWM for HapR based solely on targets in <italic>V. cholerae</italic>. Using the revised PSWM to scan the <italic>V. cholerae</italic> genome, additional predictions for high-scoring target genes were made. Out of these, three additional genes were chosen (based on PSWM scores and microarray data) for further experimental validation. All three target genes were confirmed experimentally, and the corresponding binding sites are listed in <xref ref-type="fig" rid="F1">Figure 1</xref>B. It is noteworthy that while the 7-bp initial region of Motif 2-binding sites (with consensus sequence YTATTGA) is similar to the corresponding region in Motif 1-binding sites, the concluding sequence for Motif 2-binding sites is strongly conserved (TGT) and distinct from Motif 1-binding sites (AATAR). Furthermore, alignment of the predicted binding regions (<xref ref-type="fig" rid="F1">Figure 1</xref>B) shows minimal conservation beyond the 16-bp region ending with TGT, indicating the Motif 2-binding sites have a fixed binding length of 16 bp and do not exhibit the dyad symmetry typical of Motif 1-binding sites. Our results thus provide evidence for two distinct binding motifs for HapR and have led to the identification of novel targets of HapR corresponding to each motif as described further below.</p></sec><sec><title>HapR binds to the promoter regions of newly identified targets</title><p>In order to test whether HapR protein can bind to the putative target promoters containing either Motif 1 or Motif 2-binding sites, an MBP-HapR fusion was constructed. This tagged HapR protein was able to complement a <italic>hapR</italic> deletion mutant when using the HapR-activated heterologous <italic>luxCDABE</italic> operon from <italic>V. harveyi</italic> as a bioluminescent reporter (data not shown). For each promoter region that was tested, a 300 - 400-bp region containing the binding site was PCR amplified and radiolabeled. Gel retardation assays were performed to detect binding of the MBP-HapR protein to each of the promoter regions. MBP-HapR bound to all 11 of the tested promoters containing a Motif 1-binding site and all but one (<italic>vc0241</italic>) of the eight promoters containing a Motif 2-binding site (<xref ref-type="fig" rid="F2">Figure 2</xref>) Thus, the Motif 1-binding sequence reliably predicts promoter regions capable of being bound by HapR. The original Motif 2 PSWM also predicts HapR-binding sites fairly accurately, and it was further refined based on experimentally validated targets.
+<fig id="F2" position="float"><label>Figure 2.</label><caption><p>HapR binds to promoters containing either Motif 1- or Motif 2-binding sites. HapR's ability to bind to various promoters containing either of the two consensus binding sites was determined by EMSA in the presence of poly(dI - dC). Due to differences in HapR-binding affinity, two different sets of HapR protein concentrations were used, as indicated by the color of the wedges above the gel shifts. Solid wedges represent four times more protein than unfilled wedges. Since Motif 1 does not have a set length, promoters containing Motif 1-binding sites of varying lengths were tested, and the length of the putative binding site for each promoter is indicated. Consensus binding sequences that fall between two divergently transcribed genes are labeled with both flanking gene locus numbers. The double bands of <italic>vc1181</italic> resulted from the nonspecific labeled PCR products of the <italic>vc1181</italic> promoter region.</p></caption><graphic xlink:href="gkp121f2"/></fig></p></sec><sec><title>HapR activates or represses expression from newly identified target promoters</title><p>The above gel retardation analysis suggests that the target genes validated experimentally are directly regulated by HapR. In order to test whether regulation by HapR results in activation or repression of transcription for these genes, transcriptional <italic>lux</italic> fusions were constructed. PCR products used for the electrophoretic mobility shift assays (EMSAs) were cloned upstream of <italic>luxCDABE</italic> in the pBBR-lux reporter plasmid. Many of these promoters are not functional in <italic>Escherichia coli</italic> (data not shown). Therefore, the resulting constructs were transformed into wild-type and <italic>hapR</italic>-deleted strains of <italic>V. cholerae</italic>, which is their native host. Some binding sites were located between divergently transcribed genes, so these promoters were cloned into the <italic>lux</italic> reporter in both orientations. All the promoters showed either activation or repression by HapR ranging from ~2-fold to almost 80-fold (<xref ref-type="fig" rid="F3">Figure 3</xref>). For three of the binding sites located between divergently transcribed genes (<italic>vca0246/7</italic>, <italic>vc0166/7</italic> and <italic>vca0182/3</italic>), HapR was able to repress expression from the promoters when they were oriented in either direction. On the other hand, for the binding site located between <italic>vc2634</italic> and <italic>vc2635</italic>, HapR only repressed expression from the promoter when it was oriented in the same direction as <italic>vc2635</italic>, while it had no effect on expression in the other direction. A control plasmid containing P<italic><sub>lac</sub>-luxCDABE</italic> displayed similar Lux activity in wild-type and <italic>hapR</italic> mutants (data not shown). Therefore, HapR is not only able to bind to promoters containing the Motif 1 or Motif 2 consensus binding sequences, but it is also able to affect transcription levels of genes expressed from these promoters.
+<fig id="F3" position="float"><label>Figure 3.</label><caption><p>HapR regulates expression from promoters containing either Motif 1 or Motif 2. Promoter-<italic>lux</italic> fusions were constructed and transformed into WT and <italic>hapR</italic>-deleted strains. Fold induction by HapR was determined as the ratio between bioluminescence readings from the reporter fusions in WT/Delta<italic>hapR</italic>. Negative fold induction indicates repression. Each bar represents three data points, and error bars represent standard deviations. Divergently transcribed genes with HapR binding sites located in between are indicated with boxes.</p></caption><graphic xlink:href="gkp121f3"/></fig></p></sec><sec><title>Validation of the PSWM for Motif 2</title><p>The consensus binding sequence of the HapR ortholog in <italic>V. harveyi</italic>, LuxR, was studied in detail in a recent paper (<xref ref-type="bibr" rid="B30">30</xref>). Since this binding sequence is similar to Motif 1, we focused on a Motif 2-binding site for further analysis in this study. Single-point mutations were made within the Motif 2-binding sequence located in the promoter region of <italic>vca0880</italic> to validate the PSWM for Motif 2. The promoter of <italic>vca0880</italic> was chosen because it is bound and activated very strongly by HapR (<xref ref-type="fig" rid="F2">Figures 2</xref> and <xref ref-type="fig" rid="F3">3</xref>), and would thus allow for better resolution of the binding abilities of various point mutants. EMSAs were performed to determine the extent of binding of MBP-HapR to a 60-bp fragment of the promoter region of <italic>vca0880</italic> containing the Motif 2 consensus binding sequence as well as to six other versions of the fragment, each with a different single-point mutation. DNA fragments containing the desired point mutations were generated by hybridizing complementary oligonucleotides. A fragment lacking the entire consensus binding site (Delta16) was used as a negative control. As can be seen in <xref ref-type="fig" rid="F4">Figure 4</xref>A, MBP-HapR bound to the wild-type fragment with a fairly high affinity while it was unable to bind to a fragment that was lacking the consensus binding site. It should be noted, however, that the difference in length due to binding site deletion could impact DNA stiffness, which in turn could potentially be an important factor for HapR binding. Each point mutation affected HapR-binding affinity to varying degrees, and our results agree with the PSWM in that a mutation at position 9, which is not highly conserved across binding sites known to be bound by HapR, affected HapR binding affinity the least out of all the tested mutations, and in fact, bound to HapR almost as well as the wild-type sequence did. The other point mutations altered highly conserved nucleotides, and thus affected HapR binding to a greater degree (<xref ref-type="fig" rid="F4">Figure 4</xref>B and C). The T5A mutation resulted in significant loss of binding, which is consistent with the negative EMSA for the <italic>vc0241</italic> promoter, which also contains the same T5A mutation. The G6C mutation also led to a significant loss of binding, which is consistent with previous studies of HapR binding to the <italic>aphA</italic> promoter (<xref ref-type="bibr" rid="B19">19</xref>). While the G15C mutation had a less significant effect on HapR binding than might have been expected based on the PSWM, the change was still more deleterious than the A9G mutation. The T14A mutation had a strong effect on HapR binding, and a previous study (<xref ref-type="bibr" rid="B20">20</xref>) showed that the single change, T16C, prevents HapR binding. This suggests that the 'TGT' motif is important for HapR binding, although the G15C mutation by itself does not have a strong effect on HapR binding. Taken together, these results suggest that the PSWM that was constructed based on confirmed binding sites is reasonably accurate in terms of the importance of each base's contribution to HapR binding.
+<fig id="F4" position="float"><label>Figure 4.</label><caption><p>Point mutations in the Motif 2-consensus-binding site alter HapR binding affinity as predicted by the PSWM. (<bold>A</bold>) EMSAs were performed on a 60-bp region of the <italic>vca0880</italic> promoter that contains the Motif 2-binding site as well as the same region with the binding site deleted. (<bold>B</bold>) Sequence logo for Motif 2-binding sites reflecting the <italic>V. cholerae-</italic>specific PSWM derived after one iteration of the procedure outlined in Figure S1. (<bold>C</bold>) HapR-binding affinity was determined by quantifying the amount of bound and unbound DNA and calculating the ratio of bound/unbound. The effect of various point mutations in the binding site on HapR-binding affinity was determined by EMSAs over a range of HapR concentrations.</p></caption><graphic xlink:href="gkp121f4"/></fig></p></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>In this paper, we present a sequence-based strategy for uncovering novel genes regulated by the quorum-sensing master regulator HapR in <italic>V. cholerae</italic>. Previously identified HapR-binding regions in combination with sequence alignments of orthologous regions across closely related species, taking both the direct and reverse complementary strand into account, were used to identify potential binding sites. Potential binding sites that were experimentally verified were then used to further refine the binding motif. The predicted binding sites were classified into two categories, and this scheme of classification led to several novel predictions for regulated targets, some of which have been validated in this study. The results presented in this study are thus an important step towards understanding global regulation by quorum sensing in <italic>V. cholerae</italic>.</p><sec><title>Comparison of Motif 1- versus Motif 2-binding Motifs</title><p>To compare the two proposed binding motifs, consider the sequence logos generated using 22-bp sequences from the predicted start positions of the binding sites for all the experimentally validated targets (Figure S3). Note that the initial 7-bp region is quite similar for the two motifs. However, all of the binding sequences used to generate the sequence logo for Motif 1 end with the sequence AATAR (which is the complement of the initial binding site sequence YTATT), while all of the sequences for Motif 2 end with TGT. Additionally, the intervening region between the beginning YTATT and the ending AATAR for Motif 1 is not strongly conserved, and binding sites can range from 16 to 22 bp. Note that, even with the 7-bp variability in the spacer region, the probability for a random sequence to contain the motif AATAR is ~1/73. In contrast, Motif 2-binding sites show strong conservation of the sequence TGT in positions 14 - 16 and very little conservation beyond that, indicating that the binding sites are of fixed length and are distinct from those of Motif 1. Another interesting distinction is that all but one of the Motif 1 targets are repressed by HapR, whereas Motif 2 targets can be either repressed or activated. It will be of interest to explore whether the presence of two distinct motifs is related to the action of a small-molecule ligand that was suggested to bind HapR by recent work analyzing the structure of HapR (<xref ref-type="bibr" rid="B32">32</xref>). It will also be of interest to explore the mechanism of activation or repression by HapR at target gene promoters. Our results indicate that there is no correlation between binding site orientation (direct or reverse complement) and activation/repression of a regulated target (i.e. HapR can function as an activator or a repressor regardless of whether the target promoter binding site is located on the direct strand or on the complementary strand). It will be of interest to carry out more in-depth studies to identify characteristics of binding sites that determine whether a target gene is activated or repressed by HapR.</p><p>A comparison with recent studies analyzing the regulons for the HapR orthologs LuxR (<italic>V. harveyi</italic>) (<xref ref-type="bibr" rid="B30">30</xref>) and SmcR (<italic>V. vulnificus</italic>) (<xref ref-type="bibr" rid="B29">29</xref>) indicates that 22-bp-long Motif 1-binding sites are similar to the binding motif identified for these HapR orthologs. Since the present work has shown that Motif 1-binding sites can vary in length from 16 to 22 bp, it would be of interest to investigate if this feature also holds true for binding sites of LuxR and SmcR. Along the same lines, it will be of interest to investigate whether or not the presence of two distinct binding motifs is specific to HapR in <italic>V. cholerae</italic> or whether it also applies to HapR orthologs in other Vibrios.</p></sec><sec><title>Novel direct targets reveal new roles for HapR-mediated quorum sensing</title><p>Not only has our work revealed that HapR binds to two distinct sequence motifs, but it has also identified new direct targets of HapR. Some of these newly discovered HapR-regulated genes reveal novel connections between known components of the HapR regulatory network while others hint at previously unknown roles for HapR in <italic>V. cholerae</italic> biology and pathogenesis. Examples of targets that affect known network components include <italic>vc1213</italic>, which encodes VarA, <italic>vc0934</italic>, which encodes VpsL and <italic>vc1222</italic>, which encodes IHFalpha. VarA, the response regulator for the VarS/VarA two-component regulatory system (<xref ref-type="bibr" rid="B33">33</xref>), has already been shown to modulate virulence factor expression (<xref ref-type="bibr" rid="B34">34</xref>) as well as the expression of HapR itself (<xref ref-type="bibr" rid="B15">15</xref>). Here, we uncover a feedback loop in this system by showing that HapR represses expression from the <italic>varA</italic> promoter, adding yet another layer of complexity to quorum-sensing regulation in <italic>V. cholerae</italic>. Additionally, HapR has already been shown in numerous works to regulate biofilm formation (<xref ref-type="bibr" rid="B5">5</xref>). Previous studies have shown that this regulation is mediated through two transcriptional activators, VpsR and VpsT (<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B21">21</xref>). VpsR and VpsT, in turn, are required for expression from the two <italic>Vibrio</italic> polysaccharide biosynthesis operons <italic>vpsA-K</italic> and <italic>vpsL-Q</italic> (<xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref>). Direct binding of HapR to the <italic>vpsT</italic> promoter has been shown (<xref ref-type="bibr" rid="B21">21</xref>). In that same study, weak binding of HapR to the <italic>vpsL</italic> promoter was also demonstrated, but it was difficult to conclude whether or not this binding was physiologically relevant. In this study, we confirm the positive EMSA results and go further to identify the HapR binding sequence in the <italic>vpsL</italic> promoter. This provides further credibility to the proposition that HapR regulates biofilm production not only through the transcriptional regulators, VpsR and VpsT, but also directly by binding to a <italic>vps</italic> biosynthesis gene promoter. Finally, HapR regulation of the virulence factors, cholera toxin (CT) and the toxin-coregulated pilus (TCP), via AphA has been studied extensively (<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B38">38</xref>). Here, we show that HapR regulates IHFalpha, which has previously been shown to positively regulate expression from both the <italic>tcpA</italic> and <italic>ctx</italic> promoters (<xref ref-type="bibr" rid="B39">39</xref>). This indicates that HapR is able to regulate known virulence factors via distinct pathways, which may allow for integration of cell-density information with other sensory inputs to precisely regulate virulence gene expression.</p><p>Several newly identified targets indicate completely novel roles for HapR (Table S1). The most strongly induced target that we identified is <italic>vca0880</italic>, which encodes a hypothetical protein. <italic>vca0880</italic> is found in an operon with <italic>vca0881</italic>, <italic>vca0882</italic> and <italic>vca0883</italic>, which are all annotated as hypothetical proteins. Interestingly, a protein BLAST search showed homology between VCA0883 and the L1 component of hemolysin BL as well as the nonhemolytic enterotoxin NheB, both of which are found in <italic>Bacillus cereus</italic> (<xref ref-type="bibr" rid="B40">40</xref>). This is potentially a new mechanism by which HapR controls the virulence of <italic>V. cholerae</italic> and warrants further investigation. Additionally, one of the newly identified HapR-regulated genes is <italic>vca0183</italic>, which is annotated as a ferrisiderophore reductase. In fact, sequence analysis reveals that it belongs to a class of microbial globins known as flavohemoproteins. The prototypic flavohemoprotein, Hmp, found in <italic>E. coli</italic> and <italic>Salmonella enterica</italic> serovar <italic>typhimurium</italic>, has been implicated in responses to nitric oxide (NO) and nitrosative stress (<xref ref-type="bibr" rid="B41">41</xref>,<xref ref-type="bibr" rid="B42">42</xref>). Transcription from the <italic>E. coli hmp</italic> promoter has been shown to be activated by the addition of NO, and its gene product acts to detoxify NO (<xref ref-type="bibr" rid="B43 B44 B45 B46">43 - 46</xref>). Interestingly, upstream of and transcribed divergently from <italic>vca0183</italic> is <italic>vca0182</italic>, which encodes a homolog of the NO-responsive transcriptional regulator, NorR. Our results show that both <italic>vca0182</italic> and <italic>vca0183</italic> are repressed by HapR, thereby suggesting a potentially novel role for HapR in the response of <italic>V. cholerae</italic> to NO stress.</p></sec><sec><title>Generalizing HapR-binding motifs to expand known HapR regulon</title><p>All but one of the predicted targets were validated experimentally in this study, which not only indicates that the proposed motifs can successfully predict HapR-binding sites, but also suggests that the actual binding motifs could be more general. A previous study (<xref ref-type="bibr" rid="B11">11</xref>) identified a different consensus motif for predicting HapR targets, and this motif shares some common elements with motifs identified in this work but emphasizes the contributions of different bases to HapR binding. It is likely that future work will combine these different approaches to provide evidence for a broader characterization of HapR-binding motifs. Indeed, this is already indicated by sequence analysis of other known targets of HapR in <italic>V. cholerae</italic> for which the binding regions have not yet been identified but binding of HapR to upstream regions has been demonstrated. These include the transcriptional regulator VpsT (VCA0952) (<xref ref-type="bibr" rid="B21">21</xref>), a transcription factor required for competence in <italic>V. cholerae</italic> (VC1917) (<xref ref-type="bibr" rid="B4">4</xref>), the regulator H-NS (VC1130) (<xref ref-type="bibr" rid="B47">47</xref>), a GGDEF-domain protein (VCA0074) and an EAL-domain protein (VC1851) (<xref ref-type="bibr" rid="B21">21</xref>). For the above regulated targets, we have identified potential binding sites which are very similar to Motif 1-binding sites but with a significant difference being that the predicted binding region is in some cases &gt;22 bp. These predictions, if validated in future studies, would yield important insight into the regulation of critical processes such as biofilm formation and competence by HapR, and they would also provide evidence for a broader range of binding lengths and patterns corresponding to Motif 1 for HapR-binding sites.</p><p>Our method of combining computational and experimental approaches for identifying HapR targets allows for the identification of targets that would be difficult to identify by experimental means alone. The traditional approach to discovering the regulon of a particular transcription factor is to compare the gene expression profile of a wild-type strain with that of a strain deleted for the transcription factor, which is often done using microarray experiments. The success of this approach is dependent on the samples being collected under conditions that allow for optimal activation or repression of target genes, which is impossible to ensure when the target genes are not known. Even when the genes are known, it is still difficult to determine what <italic>in vitro</italic> experimental conditions to use. Thus, the incorporation of a computational approach that focuses on promoter sequences and is unaltered by experimental conditions increases the number of target genes that can be found and opens up new avenues for research on the HapR regulon.</p></sec><sec><title>Summary</title><p>In conclusion, we have demonstrated that the iterative use of bioinformatic predictions and experimental validation can be used to progressively refine the initial motif representation of the HapR-binding site to successfully predict several novel members of the HapR regulon. It is hoped that future work combining bioinformatic approaches and experiments will uncover even more targets regulated by quorum sensing via HapR and will lead to the discovery of novel regulon members for related global regulatory proteins.</p></sec></sec><sec><title>SUPPLEMENTARY DATA</title><p><ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkp121/DC1">Supplementary Data</ext-link> are available at NAR Online.</p></sec><sec><title>FUNDING</title><p>The Jeffress Foundation and a seed grant from the Institute for Critical Technology and Applied Science at Virginia Tech (to R.V.K); the <funding-source>National Institutes of Health</funding-source> (<award-id>R01AI072479</award-id> to J.Z); a National Institutes of Health T32 Bacteriology training grant (to A.T); and an award from the China Scholarship Council (to T.C). Funding for open access charge: <funding-source>National Institutes of Health</funding-source> (<award-id>R01AI072479</award-id>).</p><p><italic>Conflict of interest statement</italic>: None declared.</p></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>[Supplementary Data]</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="gkp121_index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="gkp121_1.pdf"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>We are grateful to Dr Bonnie Bassler for providing the plasmid pBBR-lux.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vezzulli</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Guzman</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Colwell</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Pruzzo</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Dual role colonization factors connecting Vibrio cholerae's lifestyles in human and aquatic environments open new perspectives for combating infectious diseases</article-title>
+          <source>Curr. Opin. Biotechnol.</source>
+          <year>2008</year>
+          <volume>19</volume>
+          <fpage>254</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="pmid">18501582</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuqua</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Winans</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Greenberg</surname>
+              <given-names>EP</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing in bacteria: the LuxR-LuxI family of cell density-responsive transcriptional regulators</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1994</year>
+          <volume>176</volume>
+          <fpage>269</fpage>
+          <lpage>275</lpage>
+          <pub-id pub-id-type="pmid">8288518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Waters</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing: cell-to-cell communication in bacteria</article-title>
+          <source>Annu. Rev. Cell Dev. Biol.</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>319</fpage>
+          <lpage>346</lpage>
+          <pub-id pub-id-type="pmid">16212498</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meibom</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Blokesch</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Dolganov</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>CY</given-names>
+            </name>
+            <name>
+              <surname>Schoolnik</surname>
+              <given-names>GK</given-names>
+            </name>
+          </person-group>
+          <article-title>Chitin induces natural competence in Vibrio cholerae</article-title>
+          <source>Science</source>
+          <year>2005</year>
+          <volume>310</volume>
+          <fpage>1824</fpage>
+          <lpage>1827</lpage>
+          <pub-id pub-id-type="pmid">16357262</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hammer</surname>
+              <given-names>BK</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing controls biofilm formation in Vibrio cholerae</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2003</year>
+          <volume>50</volume>
+          <fpage>101</fpage>
+          <lpage>104</lpage>
+          <pub-id pub-id-type="pmid">14507367</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lenz</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Parallel quorum sensing systems converge to regulate virulence in Vibrio cholerae</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>110</volume>
+          <fpage>303</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">12176318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mekalanos</surname>
+              <given-names>JJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing-dependent biofilms enhance colonization in Vibrio cholerae</article-title>
+          <source>Dev. Cell</source>
+          <year>2003</year>
+          <volume>5</volume>
+          <fpage>647</fpage>
+          <lpage>656</lpage>
+          <pub-id pub-id-type="pmid">14536065</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Vance</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Dziejman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+            <name>
+              <surname>Mekalanos</surname>
+              <given-names>JJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum-sensing regulators control virulence gene expression in Vibrio cholerae</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>3129</fpage>
+          <lpage>3134</lpage>
+          <pub-id pub-id-type="pmid">11854465</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Dolganov</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Otto</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>CY</given-names>
+            </name>
+            <name>
+              <surname>Schoolnik</surname>
+              <given-names>GK</given-names>
+            </name>
+          </person-group>
+          <article-title>RpoS controls the Vibrio cholerae mucosal escape response</article-title>
+          <source>PLoS Pathog.</source>
+          <year>2006</year>
+          <volume>2</volume>
+          <fpage>e109</fpage>
+          <pub-id pub-id-type="pmid">17054394</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaitkevicius</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lindmark</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Toma</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Iwanaga</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hammarstrom</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Tuck</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A Vibrio cholerae protease needed for killing of Caenorhabditis elegans has a role in protection from natural predator grazing</article-title>
+          <source>Proc Natl Acad. Sci. USA</source>
+          <year>2006</year>
+          <volume>103</volume>
+          <fpage>9280</fpage>
+          <lpage>9285</lpage>
+          <pub-id pub-id-type="pmid">16754867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yildiz</surname>
+              <given-names>FH</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>XS</given-names>
+            </name>
+            <name>
+              <surname>Heydorn</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schoolnik</surname>
+              <given-names>GK</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular analysis of rugosity in a Vibrio cholerae O1 El Tor phase variant</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2004</year>
+          <volume>53</volume>
+          <fpage>497</fpage>
+          <lpage>515</lpage>
+          <pub-id pub-id-type="pmid">15228530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jobling</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Holmes</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of hapR, a positive regulator of the Vibrio cholerae HA/protease gene hap, and its identification as a functional homologue of the Vibrio harveyi luxR gene</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>1997</year>
+          <volume>26</volume>
+          <fpage>1023</fpage>
+          <lpage>1034</lpage>
+          <pub-id pub-id-type="pmid">9426139</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramos</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Martinez-Bueno</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Molina-Henares</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Teran</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Gallegos</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Tobes</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>The TetR family of transcriptional repressors</article-title>
+          <source>Microbiol. Mol. Biol. Rev.</source>
+          <year>2005</year>
+          <volume>69</volume>
+          <fpage>326</fpage>
+          <lpage>356</lpage>
+          <pub-id pub-id-type="pmid">15944459</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenz</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Mok</surname>
+              <given-names>KC</given-names>
+            </name>
+            <name>
+              <surname>Lilley</surname>
+              <given-names>BN</given-names>
+            </name>
+            <name>
+              <surname>Kulkarni</surname>
+              <given-names>RV</given-names>
+            </name>
+            <name>
+              <surname>Wingreen</surname>
+              <given-names>NS</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>The small RNA chaperone Hfq and multiple small RNAs control quorum sensing in Vibrio harveyi and Vibrio cholerae</article-title>
+          <source>Cell</source>
+          <year>2004</year>
+          <volume>118</volume>
+          <fpage>69</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="pmid">15242645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenz</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kulkarni</surname>
+              <given-names>RV</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>CsrA and three redundant small RNAs regulate quorum sensing in Vibrio cholerae</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2005</year>
+          <volume>58</volume>
+          <fpage>1186</fpage>
+          <lpage>1202</lpage>
+          <pub-id pub-id-type="pmid">16262799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Hsiao</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Joelsson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The transcriptional regulator VqmA increases expression of the quorum-sensing activator HapR in Vibrio cholerae</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>2446</fpage>
+          <lpage>2453</lpage>
+          <pub-id pub-id-type="pmid">16547031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Miyashiro</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Tsou</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hsiao</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Goulian</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Mucosal penetration primes Vibrio cholerae for host colonization by repressing quorum sensing</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>9769</fpage>
+          <lpage>9774</lpage>
+          <pub-id pub-id-type="pmid">18606988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>A new level in the Vibrio cholerae ToxR virulence cascade: AphA is required for transcriptional activation of the tcpPH operon</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>1999</year>
+          <volume>31</volume>
+          <fpage>763</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="pmid">10048021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kovacikova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of virulence gene expression in Vibrio cholerae by quorum sensing: HapR functions at the aphA promoter</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>46</volume>
+          <fpage>1135</fpage>
+          <lpage>1147</lpage>
+          <pub-id pub-id-type="pmid">12421317</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Kovacikova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Requirements for Vibrio cholerae HapR binding and transcriptional repression at the hapR promoter are distinct from those at the aphA promoter</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>3013</fpage>
+          <lpage>3019</lpage>
+          <pub-id pub-id-type="pmid">15838027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Waters</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Rabinowitz</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Quorum sensing controls biofilm formation in Vibrio cholerae through modulation of cyclic di-GMP levels and repression of vpsT</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <fpage>2527</fpage>
+          <lpage>2536</lpage>
+          <pub-id pub-id-type="pmid">18223081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hertz</surname>
+              <given-names>GZ</given-names>
+            </name>
+            <name>
+              <surname>Stormo</surname>
+              <given-names>GD</given-names>
+            </name>
+          </person-group>
+          <article-title>Identifying DNA and protein patterns with statistically significant alignments of multiple sequences</article-title>
+          <source>Bioinformatics</source>
+          <year>1999</year>
+          <volume>15</volume>
+          <fpage>563</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="pmid">10487864</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas-Chollier</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sand</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Turatsinze</surname>
+              <given-names>JV</given-names>
+            </name>
+            <name>
+              <surname>Janky</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Defrance</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Vervisch</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Brohee</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>van Helden</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>RSAT: regulatory sequence analysis tools</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2008</year>
+          <volume>36</volume>
+          <fpage>W119</fpage>
+          <lpage>W127</lpage>
+          <pub-id pub-id-type="pmid">18495751</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Helden</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory sequence analysis tools</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>3593</fpage>
+          <lpage>3596</lpage>
+          <pub-id pub-id-type="pmid">12824373</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poirot</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>O'Toole</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Notredame</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Tcoffee@igs: a web server for computing, evaluating and combining multiple sequence alignments</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>3503</fpage>
+          <lpage>3506</lpage>
+          <pub-id pub-id-type="pmid">12824354</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crooks</surname>
+              <given-names>GE</given-names>
+            </name>
+            <name>
+              <surname>Hon</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Chandonia</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Brenner</surname>
+              <given-names>SE</given-names>
+            </name>
+          </person-group>
+          <article-title>WebLogo: a sequence logo generator</article-title>
+          <source>Genome Res.</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>1188</fpage>
+          <lpage>1190</lpage>
+          <pub-id pub-id-type="pmid">15173120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thelin</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxin-coregulated pilus, but not mannose-sensitive hemagglutinin, is required for colonization by Vibrio cholerae O1 El Tor biotype and O139 strains</article-title>
+          <source>Infect. Immun.</source>
+          <year>1996</year>
+          <volume>64</volume>
+          <fpage>2853</fpage>
+          <lpage>2856</lpage>
+          <pub-id pub-id-type="pmid">8698524</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hammer</surname>
+              <given-names>BK</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory small RNAs circumvent the conventional quorum sensing pathway in pandemic Vibrio cholerae</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2007</year>
+          <volume>104</volume>
+          <fpage>11145</fpage>
+          <lpage>11149</lpage>
+          <pub-id pub-id-type="pmid">17556542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>HS</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>HG</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>SH</given-names>
+            </name>
+          </person-group>
+          <article-title>A consensus sequence for binding of SmcR, a Vibrio vulnificus LuxR homologue, and genome-wide identification of the SmcR regulon</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <fpage>23610</fpage>
+          <lpage>23618</lpage>
+          <pub-id pub-id-type="pmid">18579523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pompeani</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Irgon</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Bulyk</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Wingreen</surname>
+              <given-names>NS</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>The Vibrio harveyi master quorum-sensing regulator, LuxR, a TetR-type protein is both an activator and a repressor: DNA recognition and binding specificity at target promoters</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2008</year>
+          <volume>70</volume>
+          <fpage>76</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="pmid">18681939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silva</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Pham</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Benitez</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Haemagglutinin/protease expression and mucin gel penetration in El Tor biotype Vibrio cholerae</article-title>
+          <source>Microbiology</source>
+          <year>2003</year>
+          <volume>149</volume>
+          <fpage>1883</fpage>
+          <lpage>1891</lpage>
+          <pub-id pub-id-type="pmid">12855739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Silva</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Kovacikova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kull</surname>
+              <given-names>FJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structure of the Vibrio cholerae quorum-sensing regulatory protein HapR</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>5683</fpage>
+          <lpage>5691</lpage>
+          <pub-id pub-id-type="pmid">17526705</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lapouge</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Schubert</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Allain</surname>
+              <given-names>FH</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Gac/Rsm signal transduction pathway of gamma-proteobacteria: from RNA recognition to regulation of social behaviour</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2008</year>
+          <volume>67</volume>
+          <fpage>241</fpage>
+          <lpage>253</lpage>
+          <pub-id pub-id-type="pmid">18047567</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wong</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Carroll</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Rahme</surname>
+              <given-names>LG</given-names>
+            </name>
+            <name>
+              <surname>Ausubel</surname>
+              <given-names>FM</given-names>
+            </name>
+            <name>
+              <surname>Calderwood</surname>
+              <given-names>SB</given-names>
+            </name>
+          </person-group>
+          <article-title>Modulation of expression of the ToxR regulon in Vibrio cholerae by a member of the two-component family of response regulators</article-title>
+          <source>Infect. Immun.</source>
+          <year>1998</year>
+          <volume>66</volume>
+          <fpage>5854</fpage>
+          <lpage>5861</lpage>
+          <pub-id pub-id-type="pmid">9826365</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casper-Lindley</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Yildiz</surname>
+              <given-names>FH</given-names>
+            </name>
+          </person-group>
+          <article-title>VpsT is a transcriptional regulator required for expression of vps biosynthesis genes and the development of rugose colonial morphology in Vibrio cholerae O1 El Tor</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>1574</fpage>
+          <lpage>1578</lpage>
+          <pub-id pub-id-type="pmid">14973043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yildiz</surname>
+              <given-names>FH</given-names>
+            </name>
+            <name>
+              <surname>Dolganov</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Schoolnik</surname>
+              <given-names>GK</given-names>
+            </name>
+          </person-group>
+          <article-title>VpsR, a member of the response regulators of the two-component regulatory systems, is required for expression of vps biosynthesis genes and EPS(ETr)-associated phenotypes in Vibrio cholerae O1 El Tor</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2001</year>
+          <volume>183</volume>
+          <fpage>1716</fpage>
+          <lpage>1726</lpage>
+          <pub-id pub-id-type="pmid">11160103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kovacikova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>The virulence activator AphA links quorum sensing to pathogenesis and physiology in Vibrio cholerae by repressing the expression of a penicillin amidase gene on the small chromosome</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2003</year>
+          <volume>185</volume>
+          <fpage>4825</fpage>
+          <lpage>4836</lpage>
+          <pub-id pub-id-type="pmid">12897002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Kovacikova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>The quorum sensing regulator HapR downregulates the expression of the virulence gene transcription factor AphA in Vibrio cholerae by antagonizing Lrp- and VpsR-mediated activation</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2007</year>
+          <volume>64</volume>
+          <fpage>953</fpage>
+          <lpage>967</lpage>
+          <pub-id pub-id-type="pmid">17501920</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stonehouse</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Kovacikova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Skorupski</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Integration host factor positively regulates virulence gene expression in Vibrio cholerae</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <fpage>4736</fpage>
+          <lpage>4748</lpage>
+          <pub-id pub-id-type="pmid">18456804</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Granum</surname>
+              <given-names>PE</given-names>
+            </name>
+          </person-group>
+          <article-title>Bacillus cereus and its toxins</article-title>
+          <source>Soc Appl Bacteriol Symp Ser</source>
+          <year>1994</year>
+          <volume>23</volume>
+          <fpage>61S</fpage>
+          <lpage>66S</lpage>
+          <pub-id pub-id-type="pmid">8047911</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Membrillo-Hernandez</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Coopamah</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Anjum</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Stevanin</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>The flavohemoglobin of Escherichia coli confers resistance to a nitrosating agent, a "nitric oxide releaser," and paraquat and is essential for transcriptional responses to oxidative stress</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1999</year>
+          <volume>274</volume>
+          <fpage>748</fpage>
+          <lpage>754</lpage>
+          <pub-id pub-id-type="pmid">9873011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stevanin</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Demoncheaux</surname>
+              <given-names>EAG</given-names>
+            </name>
+            <name>
+              <surname>Read</surname>
+              <given-names>RC</given-names>
+            </name>
+          </person-group>
+          <article-title>Flavohemoglobin Hmp Protects Salmonella enterica Serovar Typhimurium from Nitric Oxide-Related Killing by Human Macrophages</article-title>
+          <source>Infect. Immun.</source>
+          <year>2002</year>
+          <volume>70</volume>
+          <fpage>4399</fpage>
+          <lpage>4405</lpage>
+          <pub-id pub-id-type="pmid">12117950</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poole</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Anjum</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Membrillo-Hernandez</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>SO</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitric oxide, nitrite, and Fnr regulation of hmp (flavohemoglobin) gene expression in Escherichia coli K-12</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>5487</fpage>
+          <lpage>5492</lpage>
+          <pub-id pub-id-type="pmid">8808940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corker</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitric oxide formation by Escherichia coli. Dependence on nitrite reductase, the NO-sensing regulator Fnr, and flavohemoglobin Hmp</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>31584</fpage>
+          <lpage>31592</lpage>
+          <pub-id pub-id-type="pmid">12783887</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cruz-Ramos</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Crack</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Thomson</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Poole</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>NO sensing by FNR: regulation of the Escherichia coli NO-detoxifying flavohaemoglobin, Hmp</article-title>
+          <source>EMBO J.</source>
+          <year>2002</year>
+          <volume>21</volume>
+          <fpage>3235</fpage>
+          <lpage>3244</lpage>
+          <pub-id pub-id-type="pmid">12093725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gardner</surname>
+              <given-names>PR</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Salzman</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitric oxide dioxygenase: an enzymic function for flavohemoglobin</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>10378</fpage>
+          <lpage>10383</lpage>
+          <pub-id pub-id-type="pmid">9724711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Svenningsen</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Waters</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Bassler</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>A negative feedback loop involving small RNAs accelerates Vibrio cholerae's transition out of quorum-sensing mode</article-title>
+          <source>Genes Dev.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>226</fpage>
+          <lpage>238</lpage>
+          <pub-id pub-id-type="pmid">18198339</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

@@ -1,0 +1,132 @@
+Results
+
+Transcription of mafR under laboratory conditions
+
+The genome of the E. faecalis strain OG1RF has been totally sequenced (GenBank CP002621.1)14.
+By quantitative RT-PCR (qRT-PCR) assays and using the comparative CT method15, we determined the relative expression of the regulatory mafR gene (locus_tag OG1RF_12293) in cells grown under laboratory conditions (Brain Heart Infusion (BHI) broth, 37 degrees C, without aeration) to both logarithmic and stationary phases.
+Transcription of mafR was found to be higher at logarithmic phase.
+Compared to stationary phase, the fold change (log2FC) in mafR expression was ~4.
+Therefore, all the experiments shown in this work were performed at the logarithmic growth phase.
+
+
+
+Gene OG1RF_12294 encodes a putative P-type ATPase cation transporter
+
+P-type ATPases constitute a large superfamily of cation and lipid pumps that use ATP hydrolysis for energy.
+They are integral, multispanning membrane proteins that are found in bacteria and in a number of eukaryotic plasma membranes and organelles16.
+The enterococcal OG1RF_12294 gene, which is adjacent to mafR (Fig. 1A), encodes a putative P-type ATPase cation transporter.
+Such a gene has been annotated as pmr1 (GeneID: 12289043) because it encodes a protein (850 amino acids) that has sequence similarity (~52%) to eukaryotic PMR1 (plasma membrane ATPase related) P-type ATPases (Supplementary Table S1).
+Some PMR1-type pumps are able to transport calcium, as well as manganese, into the Golgi apparatus17 - 19.
+
+In addition to OG1RF_12294, the OG1RF genome encodes two putative calcium-transporting ATPases: OG1RF_10600 and OG1RF_11602 (Supplementary Table S2).
+Using the <term sem="ECO:0000208" id="T1" ECOConfidence="High" AssertionStrength="Medium" Category="Tax" NextSentence="No" NegativeStatement="No">BLASTP</term id="T1"> protein sequence alignment program20, we found that OG1RF_12294 has sequence similarity (~53 - 56%) to both ATPases (Supplementary Table S1).
+Furthermore, OG1RF_12294 has <term sem="ECO:0000044" id="T9" ECOConfidence="High" AssertionStrength="Low" Category="BioProc" NextSentence="Yes" NegativeStatement="No">sequence similarity</term id="T9"> (~53 - 56%) to several prokaryotic proteins characterized as calcium P-type ATPases (Supplementary Table S1)21 - 25.
+Thus, protein OG1RF_12294 might contribute to maintain calcium homeostasis in enterococcal cells.
+
+
+
+MafR influences positively the transcription of OG1RF_12294
+
+To analyse whether MafR regulates the expression of the OG1RF_12294 gene, we determined its relative expression in OG1RF (wild-type) and OG1RFDeltamafR (deletion mutant) by <term sem="ECO:0001566" id="T2" ECOConfidence="High" AssertionStrength="Medium" Category="BioProc" NextSentence="Yes" NegativeStatement="No">qRT-PCR</term id="T2">.
+The log2FC in OG1RF_12294 expression due to the presence of MafR was ~3, indicating that MafR has a positive effect on the transcription of such a gene.
+This conclusion was further confirmed by increasing the intracellular level of MafR.
+Specifically, we determined the relative expression of OG1RF_12294 in two strains: OG1RFDeltamafR harbouring pDLF (absence of MafR) and OG1RFDeltamafR harbouring pDLFmafR (plasmid-encoded MafR).
+In addition, we determined the relative expression of the OG1RF_10600 and OG1RF_11602 genes, which encode putative calcium-transporting ATPases (Supplementary Table S1).
+In the presence of plasmid-encoded MafR, only transcription of OG1RF_12294 was increased (log2FC ~4).
+Thus, MafR influences positively and specifically the transcription of the OG1RF_12294 gene.
+
+
+
+MafR activates the P12294 promoter in vivo
+
+In the OG1RF genome14, the ATG codon at coordinate 2425611 is likely the translation start site of the OG1RF_12294 gene (Fig. 1A).
+It is preceded by a putative ribosome binding site sequence (AGGAGG).
+Upstream of such a sequence there is a putative promoter (here named P12294) that has a canonical -10 element (TATAAT) but lacks a potential -35 element (consensus TTGACA) at the optimal length of 17 nucleotides.
+Nevertheless, there is a near-consensus -35 element (TCGACC) at the suboptimal spacer length of 22 nucleotides.
+These features suggested that promoter P12294 could be recognized by a sigma factor similar to the Escherichia coli sigma70 and that its activity could be enhanced by regulatory proteins.
+<term sem="ECO:0000200" id="T10" ECOConfidence="High" AssertionStrength="Medium" Category="SeqFeat" NextSentence="No" NegativeStatement="No">Sequence analysis</term id="T10"> of the region located between the TAA stop codon of the OG1RF_12295 gene (coordinate 2425761) and the P12294 promoter revealed the existence of an inverted-repeat (IR) that may function as a Rho-independent transcriptional terminator (Fig. 1A).
+
+To characterize the P12294 promoter, a 255-bp DNA fragment (coordinates 2425885 to 2425631) (Fig. 2) was inserted into the pASTT promoter-probe vector, which is based on the gfp reporter gene.
+The recombinant plasmid (pASTT-P12294) was first introduced into OG1RF and OG1RFDeltamafR.
+In these strains, the expression of gfp (0.32 +- 0.02 and 0.26 +- 0.04 units, respectively) was similar to the basal level (OG1RF harbouring pASTT; 0.38 +- 0.02 units).
+Different results were obtained when pASTT-P12294 was introduced into OG1RFDeltamafR harbouring either pDLF or pDLFmafR (plasmid-encoded MafR) (Fig. 2).
+The <term sem="ECO:0001816" id="T3" ECOConfidence="Medium" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No">expression of gfp was ~2.5-fold higher in the presence of plasmid-encoded MafR</term id="T3">.
+This result indicated that the 255-bp DNA fragment contains a MafR-dependent promoter activity.
+Removal of the -10 element of the P12294 promoter resulted in loss of such an activity (plasmid pASTT-P12294Delta-10).
+A further <term sem="ECO:0001038" id="T4" ECOConfidence="High" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No">deletion analysis</term id="T4"> allowed us to conclude that the 186-bp region between coordinates 2425816 and 2425631 contains both the P12294 promoter and the site required for its activation by MafR (plasmids pASTT-P12294Delta69 and pASTT-P12294Delta208) (Fig. 2).
+
+
+
+MafR binds to the P12294 promoter region in vitro
+
+To investigate whether MafR activates directly the expression of the OG1RF_12294 gene, we performed DNase I footprinting experiments.
+We used a His-tagged MafR protein (MafR-His) and a 270-bp DNA fragment (coordinates 2425817 to 2425548).
+This fragment contains the P12294 promoter and the site required for its activation by MafR in vivo (Fig. 2).
+The presence of a His-tag at the C-terminal end of MafR does not affect its DNA-binding properties4.
+The 270-bp DNA fragment was radioactively labelled either at the 5'-end of the coding strand or at the 5'-end of the non-coding strand (Fig. 3).
+On the coding strand and at 100 nM of MafR-His, protections against DNase I digestion were observed within the region spanning coordinates 2425708 and 2425658.
+On the non-coding strand and at 125 nM of MafR-His, diminished cleavages were observed between coordinates 2425712 and 2425686.
+Thus, MafR-His recognizes a site overlapping the -35 element of the P12294 promoter (Fig. 3).
+This result allowed us to conclude that MafR activates directly the transcription of the OG1RF_12294 gene.
+
+Figure 1B shows the bendability/curvature propensity plot of the 270-bp DNA fragment according to the bend.it program26.
+The profile contains an intrinsic curvature of high magnitude (~13 degrees per helical turn), which is adjacent to the MafR binding site.
+In addition, the site recognized by MafR contains a region of potential bendability (~5.2 units).
+
+
+
+Gene OG1RF_11486 encodes a putative QueT transporter family protein
+
+Energy-coupling factor (ECF) transporters are a family of ATP-binding cassette (ABC) transporters that are responsible for the uptake of essential micronutrients in prokaryotes.
+They consist of a membrane-embedded S-component that provides substrate specificity and a three-subunit ECF module that couples ATP hydrolysis to transport.
+In the so-called group II ECF transporters, different S-components share the same ECF module.
+Furthermore, the S-component genes are not located in the same operon as the genes for the ECF module27 - 29.
+
+The enterococcal OG1RF_11486 gene encodes a putative QueT transporter family protein (GenBank AEA94173.1).
+Proteins identical to OG1RF_11486 (173 residues) are encoded by Mycobacterium abscessus (CPW17925.1), Listeria monocytogenes (CWW42654.1; 172 up to 173 residues are identical) and S. agalactiae (KLL29182.1).
+In the two former bacteria, the corresponding protein has been annotated as queuosine precursor ECF transporter S-component QueT.
+Therefore, protein OG1RF_11486 could be involved in the uptake of a queuosine biosynthetic intermediate.
+Using the <term sem="ECO:0000208" id="T5" ECOConfidence="High" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No"><term sem="ECO:0000208" id="T11" ECOConfidence="High" AssertionStrength="High" Category="Tax" NextSentence="Yes" NegativeStatement="No">BLASTP</term id="T11"></term id="T5"> program20, we found that the OG1RF genome encodes an additional QueT transporter family protein (OG1RF_12031; 168 residues; AEA94718.1).
+It has 55% of similarity to the OG1RF_11486 protein.
+
+
+
+MafR activates the P11486 promoter in vivo
+
+By <term sem="ECO:0000231" id="T6" ECOConfidence="High" AssertionStrength="High" Category="BioProc" NextSentence="No" NegativeStatement="No">qRT-PCR assays</term id="T6">, we found that MafR has a positive effect on the transcription of OG1RF_11486.
+Compared to strain OG1RFDeltamafR, the relative expression of OG1RF_11486 was slightly higher in strain OG1RF (log2FC ~0.9).
+Moreover, the relative expression of OG1RF_11486 was higher in strain OG1RFDeltamafR harbouring pDLFmafR (plasmid-encoded MafR) than in strain OG1RFDeltamafR harbouring pDLF (log2FC ~2.4).
+
+The <term sem="ECO:0000044" id="T7" ECOConfidence="High" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No"><term sem="ECO:0000044" id="T13" ECOConfidence="High" AssertionStrength="High" Category="SeqFeat" NextSentence="Yes" NegativeStatement="No">BPROM</term id="T13"></term id="T7"> program (Softberry, Inc.) predicts a promoter sequence (named P11486 herein) upstream of the OG1RF_11486 gene.
+The -35 (TTTACA) and -10 (TAACAT) elements of this promoter are separated by 17 nucleotides (Fig. 4A).
+By primer extension using total RNA from OG1RF cells, we demonstrated that the P11486 promoter is functional in vivo (Fig. 5).
+Oligonucleotide R11486-D was used as primer (Table 1).
+A <term sem="ECO:0000104" id="T8" ECOConfidence="Low" AssertionStrength="Medium" Category="SeqFeat" NextSentence="No" NegativeStatement="No">cDNA product</term id="T8"> of 130 nucleotides was detected, indicating that transcription of OG1RF_11486 starts at coordinate 1543115 (Fig. 4A).
+
+To further characterize the P11486 promoter, we constructed several transcriptional fusions (Fig. 6).
+A 284-bp DNA fragment (coordinates 1542902 to 1543185) was inserted into pASTT.
+The recombinant plasmid (pASTT-P11486) was first introduced into OG1RF and OG1RFDeltamafR.
+In both strains, <term sem="ECO:0001816" id="T12" ECOConfidence="High" AssertionStrength="Medium" Category="SeqFeat" NextSentence="Yes" NegativeStatement="No">gfp expression</term id="T12"> (1.48 +- 0.10 and 1.51 +- 0.16 units, respectively) was ~4-fold higher than the basal level (OG1RF harbouring pASTT).
+This result indicated that the 284-bp DNA fragment has promoter activity, however, the chromosomal copy of mafR is not sufficient to activate such a promoter located on pASTT (multicopy plasmid).
+Next, we introduced pASTT-P11486 into OG1RFDeltamafR harbouring pDLFmafR (plasmid-encoded MafR).
+In this strain, <term sem="ECO:0001816" id="T14" ECOConfidence="Medium" AssertionStrength="High" Category="SeqFeat" NextSentence="Yes" NegativeStatement="No">gfp expression</term id="T14"> was ~3-fold higher than in the control strain (OG1RFDeltamafR harbouring pDLF) (Fig. 6).
+Similar results were obtained with plasmids pASTT-P11486Delta66 and pASTT-P11486Delta145, which allowed us to conclude that the 139-bp region between coordinates 1543047 and 1543185 contains both the P11486 promoter and the site required for its activation by MafR.
+A further <term sem="ECO:0001038" id="T15" ECOConfidence="High" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No">deletion analysis</term id="T15"> showed that sequences between coordinates 1543047 and 1543071 (plasmid pASTT-P11486Delta169) are needed for MafR-mediated activation of the P11486 promoter but not for promoter activity.
+Moreover, deletion of the region that spans coordinates 1543071 and 1543090 (plasmid pASTT-P11486Delta188) removes the -35 element of the P11486 promoter and, consequently, reduces the expression of gfp to basal levels (Fig. 6).
+
+
+
+MafR binds to the P11486 promoter region in vitro
+
+By DNase I footprinting assays, we analysed whether MafR-His binds to the P11486 promoter region (Fig. 7).
+We used a 275-bp DNA fragment (coordinates 1542969 to 1543243), which contains both the P11486 promoter and the site required for its activation by MafR in vivo (Fig. 6).
+On the coding strand and at 350 nM of MafR-His, changes in DNase I sensitivity (diminished cleavages) were observed within the region spanning coordinates 1543047 and 1543110.
+On the non-coding strand and at 300 nM of MafR-His, diminished cleavages were observed between coordinates 1543043 and 1543110.
+On both strands and at 400 nM of MafR-His, regions protected against <term sem="ECO:0001810" id="T16" ECOConfidence="Medium" AssertionStrength="Medium" Category="MolFn" NextSentence="Yes" NegativeStatement="No">DNase I digestion</term id="T16"> were observed along the DNA fragment, which is consistent with the ability of MafR-His to generate multimeric complexes4.
+Therefore, MafR-His recognizes preferentially a DNA site overlapping the P11486 core promoter.
+Such a DNA site includes sequences needed for MafR-mediated activation of the P11486 promoter in vivo (Fig. 6).
+According to the bendability/curvature propensity plot of the 275-bp DNA fragment, the MafR binding site contains regions of potential bendability (Fig. 4B).
+
+
+
+

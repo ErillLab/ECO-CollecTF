@@ -1,0 +1,62 @@
+Results
+
+86 genes belong to the Crl regulon
+
+Available information regarding the Crl regulon was gathered through an exhaustive review of the literature.
+In this regard, diverse experimental evidences were considered significant for determining the association between the regulated genes and Crl protein regulator, such as gene expression analysis (transcriptional fusions), mapping of signal intensities (RNA-seq or microarray analysis), and inferences made from a mutant phenotype (mutation of a TF with a visible cell phenotype), among other analyses.
+Therefore, 86 genes were included in this work as members of the sigmaS sigmulon, of which 37 had already been reported in both RegulonDB and EcoCyc database; whereas, 49 genes identified by microarray data and crl rpoS double mutants [8 - 16], in previous works were also added (see Additional file 1).
+From the 86 genes identified as members of this regulon (see Table 1 and Fig. 1), 34 have a sigmaS-type promoter experimentally determined and 8 genes have 13 sigmaS-type promoters predicted by computational approaches [17].
+These 86 genes are organized in 77 transcription units (TUs), where 52% are TUs with only one gene.
+
+Previously, genes under the control of Crl were classified in four main categories depending on their role(s) in the cell: DNA metabolism, central metabolism, response to environmental modifications, and miscellaneous [11].
+Based on Gene Ontology (GO) annotations, multifunctional classification, and KEGG pathway maps to categorize functions, Crl-regulated genes appear to be involved in metabolic processes such as energy metabolism, amino acid, carbohydrate, and lipid metabolism, and biosynthetic processes such as glycan biosynthesis and biosynthesis of other secondary metabolites, among other metabolic processes.
+These functions correlate with results of the enrichment analysis using PANTHER, which showed that catabolic processes, metabolic processes, and cellular responses to xenobiotic stimuli were overrepresented among the functions associated with genes under the control of Crl (See Fig. 2).
+
+In general, genes under Crl control are involved in regulating many aspects of cellular metabolism through Crl's interaction with a subset of genes of the sigmaS regulon [8] in addition to quorum sensing playing a major role in cell-to-cell communication during stationary phase and in different processes such as biofilm formation or virulence, transporters [11] and genes involved in the uptake and utilization of beta-glucosides [16].
+
+
+
+Composition of the Crl regulon
+
+In order to determine whether additional TFs also regulate the genes under the control of Crl, RegulonDB was used to evaluate how genes associated with Crl are also regulated by alternative TFs or sigma factors.
+A total of 24 genes were identified as exclusively controlled by Crl, whereas 62 are regulated by additional TFs (See Additional file 2).
+In this regard, 55 different TFs are involved in the regulation of genes associated with Crl, including Crp, IHF, H-NS, Fis, FNR, ArcA, GadX, GadW, GadE, and CsgD (Table 1), suggesting that all genes regulated by Crl are also involved in multiple functions beyond the stationary phase, or, alternatively, phase transition has to regulate genes involved in large number of different functions.
+It is interesting that six of seven global regulators identified in the regulatory network of E. coli are also associated with the set regulated by Crl.
+Another way to look at this small network is that 19 genes of the total of Crl-regulated genes are regulated by one TF, 11 by two TFs, and 14 by three different TFs.
+Therefore, Crl is regulating positively 73 (85%) genes, whereas 12 (15%) genes are regulated negatively (Table 1).
+The predominance of positive regulation suggests that genes associated with this regulon are in high demand according the demand theory suggested by Savageau [18], and the activities of their proteins are enhanced to contend with varied environmental stimuli.
+Thirty-four of the 86 genes have a sigmaS-type promoter that was experimentally determined (RegulonDB).
+Finally, the promoters of 49 genes identified as members of Crl and of the sigmaS sigmulon, based on transcriptional fusions and microarray analysis data, remain to be experimentally determined.
+
+
+
+Phylogenetic analysis of Crl
+
+In order to evaluate the phylogenetic history of Crl across the bacterial and archaeal cellular domains, its homologs were identified as described in the Methods section, and a <term sem="ECO:0000080" id="T1" ECOConfidence="High" AssertionStrength="High" Category="Tax" NextSentence="No" NegativeStatement="No">phylogenetic tree</term id="T1"> with maximum likelihood was generated (Fig. 3 and Additional file 3).
+From this analysis, we found that Crl and its homologs are distributed almost exclusively among Gammaproteobacteria but do not share homology with proteins from other taxonomical divisions, as has been previously noted for E. coli, Vibrio spp., Citrobacter spp., Salmonella spp., and Enterobacter aerogenes [16].
+Additional information suggests that Crl is less widespread and less conserved at the sequence level than sigmaS [19].
+In this regard, four conserved residues (Y22, F53, W56, and W82) are important for Crl activity and for Crl-sigmaS interaction but not for Crl stability in S. Typhimurium [19].
+On one hand it is probable that Crl homologs exist in some sigmaS-containing bacteria; however, some species might use alternative strategies to favor sigmaS interaction with the core of the RNAP [19].
+Therefore, our phylogenetic analysis suggests that Crl is a protein conserved and constrained to Gammaproteobacteria, such as in Vibrio spp., Klebsiella spp., Enterobacter spp., and Escherichia coli.
+Contrary to Crl, several other of the TFs that co-regulate the Crl regulon, are present beyond the gamma-proteobacterial, probably pre-dating regulation of some of the target genes, which have been more recently subject to Crl regulation.
+
+In addition, homologous of Crl were found in low copy numbers, i.e., one Crl-like protein per genome.
+This information, together with the distribution of sigmaS, suggests that the regulator was recruited as an element to regulate a subset of sigmaS-regulated genes in Gammaproteobacteria.
+In this regard, it is interesting that genes under the control of Crl contain an UP element with A/T-rich DNA sequence upstream of a poorly conserved - 35 promoter which may serve for alpha subunit binding of RNAP; suggesting that Crl could play a fundamental role in the contacts between RNAP and its promoter [13].
+In addition, Crl would increase transcription rate during the transition from growing to stationary phase at low temperatures [8], using indole as an effector molecule.
+In summary, this result opens the question explored in the follow section of whether genes regulated by Crl are also constrained to this taxonomical division.
+
+
+
+Taxonomical distribution of Crl-regulated genes
+
+Based on the identification of orthologs of 86 Crl-regulated genes, we evaluated their taxonomical distribution across archaea and bacteria sequence genomes, as described in Methods (See Fig. 4 and Additional file 4).
+Based on a taxonomical profile, we determined that the evolution of the Crl regulon seems to have involved diverse losses and gains of regulatory interactions.
+It is possible that large portions of the regulatory network associated with Crl evolved through extensive genetic changes during the evolution of the species studied.
+Indeed, we suggest three main events modeled the evolution of this regulon: (i) the regulation of a large number of genes widely distributed among Bacteria and Archaea, such as those genes involved in ancient metabolic processes such as glycolysis (fbaB, pykF, pfkA, and sucA) and those involved in the tricarboxylic acid cycle (gltA and sucD) [20]; (ii) the regulation of genes with a distribution pattern mainly constrained to Proteobacteria, with some secondary losses in other organisms, such as those genes involved in response to stress and starvation (cstA and hdcA) or cell adhesion (csgA and csgB), among others; and (iii) the recruitment of Crl as a consequence of its emergence in Enterobacteriales.
+It is interesting that Crl-regulated genes are also part of the sigmaS sigmulon, where there are no essential genes [21 - 24].
+All these elements suggest that the Crl regulon is highly flexible for phenotypic adaptation, probably as a consequence of the diverse growth environments associated with the organisms in which members of this regulatory network are present.
+
+
+
+

@@ -1,0 +1,1143 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Biol Chem</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J. Biol. Chem</journal-id>
+      <journal-id journal-id-type="hwp">jbc</journal-id>
+      <journal-id journal-id-type="pmc">jbc</journal-id>
+      <journal-id journal-id-type="publisher-id">JBC</journal-id>
+      <journal-title-group>
+        <journal-title>The Journal of Biological Chemistry</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0021-9258</issn>
+      <issn pub-type="epub">1083-351X</issn>
+      <publisher>
+        <publisher-name>American Society for Biochemistry and Molecular Biology</publisher-name>
+        <publisher-loc>9650 Rockville Pike, Bethesda, MD 20814, U.S.A.</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22665491</article-id>
+      <article-id pub-id-type="pmc">3411052</article-id>
+      <article-id pub-id-type="publisher-id">M112.376368</article-id>
+      <article-id pub-id-type="doi">10.1074/jbc.M112.376368</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Microbiology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Second Type VI Secretion System of <italic>Pseudomonas aeruginosa</italic> Strain PAO1 Is Regulated by Quorum Sensing and Fur and Modulates Internalization in Epithelial Cells<xref ref-type="fn" rid="FN1">*</xref><xref ref-type="fn" rid="FN2"><sup><inline-graphic xlink:href="sbox.jpg"/></sup></xref></article-title>
+        <alt-title alt-title-type="short">P. aeruginosa H2-T6SS Regulation and Function</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sana</surname>
+            <given-names>Thibault G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hachani</surname>
+            <given-names>Abderrahman</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="FN3">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bucior</surname>
+            <given-names>Iwona</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>&#xA7;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Soscia</surname>
+            <given-names>Chantal</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Garvis</surname>
+            <given-names>Steve</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Termine</surname>
+            <given-names>Elise</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="FN4">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Engel</surname>
+            <given-names>Joanne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>&#xA7;</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff3">
+            <sup>&#xB6;</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Filloux</surname>
+            <given-names>Alain</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="FN3">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bleves</surname>
+            <given-names>Sophie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>&#x2021;</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1">From the <label>&#x2021;</label>Aix-Marseille Universite et CNRS, Laboratoire d'Ingenierie des Syst&#xE8;mes Macromoleculaires, UMR7255, 13402 Marseille cedex 20, France and the University of California San Francisco, </aff>
+        <aff id="aff2">Departments of <label>&#xA7;</label>Medicine and </aff>
+        <aff id="aff3"><label>&#xB6;</label>Microbiology and Immunology, San Francisco, California 94143</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><label>3</label> To whom correspondence should be addressed: <addr-line>Aix-Marseille Universite et CNRS, Laboratoire d'Ingenierie des Syst&#xE8;mes Macromoleculaires (UMR7255), 31 Chemin Joseph Aiguier, 13402 Marseille cedex 20, France.</addr-line> Tel.: <phone>33491164126</phone>; Fax: <fax>33491712124</fax>; E-mail: <email>bleves@imm.cnrs.fr</email>.</corresp>
+        <fn fn-type="present-address" id="FN3">
+          <label>1</label>
+          <p>Present address: Imperial College London, Division of Cell and Molecular Biology, Centre for Molecular Microbiology and Infection, South Kensington Campus, Flowers Bldg., SW7 2AZ London, UK.</p>
+        </fn>
+        <fn fn-type="present-address" id="FN4">
+          <label>2</label>
+          <p>Present address: INSERM U624, Parc Scientifique de Luminy, 163 Ave. de Luminy, Case 915 13288, Marseille Cedex 09, France.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>3</day>
+        <month>8</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>4</day>
+        <month>6</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>4</day>
+        <month>6</month>
+        <year>2012</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>287</volume>
+      <issue>32</issue>
+      <fpage>27095</fpage>
+      <lpage>27105</lpage>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>4</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>1</day>
+          <month>6</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2012 by The American Society for Biochemistry and Molecular Biology, Inc.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license license-type="open-access">
+          <license-p><italic>Author's Choice</italic> - Final version full access.</license-p>
+          <license-p><ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution Non-Commercial License</ext-link> applies to Author Choice Articles</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:type="simple" xlink:href="zbc03212027095.pdf"/>
+      <abstract abstract-type="teaser">
+        <p><bold>Background:</bold> Three T6SSs are present in <italic>P. aeruginosa</italic>. H1-T6SS secretes bacteriolytic toxins.</p>
+        <p><bold>Results:</bold> H2-T6SS is regulated by quorum sensing and Fur and modulates internalization in epithelial cells through PI3K-Akt host pathway activation.</p>
+        <p><bold>Conclusion:</bold> H2-T6SS plays a role in virulence.</p>
+        <p><bold>Significance:</bold> In contrast to the anti-prokaryotic H1-T6SS, H2-T6SS targets human cells. Those T6SSs can carry out different functions important in establishing infection.</p>
+      </abstract>
+      <abstract>
+        <p>The genome of <italic>Pseudomonas aeruginosa</italic> PAO1 contains three type VI secretion systems (T6SSs) called H1-, H2-, and H3-T6SS. The H1-T6SS secretes three identified toxins that target other bacteria, providing a fitness advantage for <italic>P. aeruginosa</italic>, and likely contributes to bacterial pathogenesis in chronic infections. However, no specific substrates or defined roles have been described for the two other systems. Here, we demonstrate that the expression of <italic>H2-T6SS</italic> genes of strain PAO1 is up-regulated during the transition from exponential to stationary phase growth and regulated by the Las and Rhl quorum sensing systems. In addition, we identify two putative Fur boxes in the promoter region and find that <italic>H2-T6SS</italic> transcription is negatively regulated by iron. We also show that the H2-T6SS system enhances bacterial uptake into HeLa cells (75% decrease in internalization with a H2-T6SS mutant) and into lung epithelial cells through a phosphatidylinositol 3-kinase-dependent pathway that induces Akt activation in the host cell (50% decrease in Akt phosphorylation). Finally, we show that H2-T6SS plays a role in <italic>P. aeruginosa</italic> virulence in the worm model. Thus, in contrast to H1-T6SS, H2-T6SS modulates interaction with eukaryotic host cells. Together, T6SS can carry out different functions that may be important in establishing chronic <italic>P. aeruginosa</italic> infections in the human host.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Invasion</kwd>
+        <kwd>Iron</kwd>
+        <kwd>Protein Secretion</kwd>
+        <kwd>Pseudomonas aeruginosa</kwd>
+        <kwd>Quorum Sensing</kwd>
+        <kwd>Fur</kwd>
+        <kwd>Internalization</kwd>
+        <kwd>T6SS</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source id="CS100">National Institutes of Health</funding-source>
+          <award-id rid="CS100">P01 AI053194</award-id>
+          <award-id rid="CS100">R01 AI065902</award-id>
+        </award-group>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p><italic>Pseudomonas aeruginosa</italic> is one of the leading causes of nosocomial infections in immunocompromised humans and is responsible for chronic respiratory disease of patients with cystic fibrosis. A key factor in <italic>P. aeruginosa</italic> virulence is its capacity to secrete a wide range of hydrolytic enzymes and toxins to the extracellular medium as well as to inject virulence effectors directly into host cells (<xref ref-type="bibr" rid="B1">1</xref>, <xref ref-type="bibr" rid="B2">2</xref>). Recently, a new secretion pathway, called the type VI secretion system (T6SS),<xref ref-type="fn" rid="FN5"><sup>4</sup></xref> that resembles an inverted phage tail has been described among Gram-negative bacteria, including <italic>P. aeruginosa</italic> (<xref ref-type="bibr" rid="B3">3</xref> - <xref ref-type="bibr" rid="B6">6</xref>). Substrates for this secretion system were first discovered in <italic>Vibrio cholerae</italic> by Pukatzki <italic>et al.</italic> (<xref ref-type="bibr" rid="B7">7</xref>), who demonstrated that secretion of proteins lacking a signal peptide, such as Hcp (<underline>h</underline>emolysin <underline>c</underline>o-regulated <underline>p</underline>rotein) and VgrG (<underline>v</underline>aline-<underline>g</underline>lycine <underline>r</underline>epeat), requires a functional T6SS. Gene clusters encoding T6SS machinery and putative substrates have been found in diverse animal and plant pathogens (<xref ref-type="bibr" rid="B8">8</xref> - <xref ref-type="bibr" rid="B10">10</xref>). Many bacteria encode more than one T6SS; in the case of <italic>P. aeruginosa</italic>, three T6SS, H1-T6SS to H3-T6SS, have been described. There is emerging evidence that secreted T6SS effectors can target either eukaryotic host cells or other bacteria (<xref ref-type="bibr" rid="B9">9</xref>, <xref ref-type="bibr" rid="B10">10</xref>), and various T6SS within a single strain may serve different functions and/or be differentially regulated. <italic>V. cholerae</italic> VgrG1, which is homologous to a phage tail protein, is thought to function both as part of the secretion system and as a translocated effector (<xref ref-type="bibr" rid="B11">11</xref>). It encodes a C-terminal extension that can cross-link actin <italic>in vitro</italic> and <italic>in vivo</italic> and has been shown to be translocated into eukaryotic cells by a T6SS-dependent mechanism, where it is associated with cytotoxicity and virulence (<xref ref-type="bibr" rid="B12">12</xref>, <xref ref-type="bibr" rid="B13">13</xref>). Similarly, the VgrG1 protein of <italic>Aeromonas hydrophila</italic> contains a VIP-2 (<underline>v</underline>egetative <underline>i</underline>nsecticidal <underline>p</underline>rotein domain <underline>2</underline>) domain with an ADP-ribosyltransferase activity capable of modifying actin <italic>in vivo</italic> and is targeted to the host cytosol upon infection (<xref ref-type="bibr" rid="B14">14</xref>).</p>
+      <p>Interestingly, gene loci encoding T6SSs are also found in nonpathogenic bacteria and symbionts, suggesting that T6SS may not be dedicated exclusively to pathogenic interactions of bacteria with eukaryotes (<xref ref-type="bibr" rid="B9">9</xref>, <xref ref-type="bibr" rid="B10">10</xref>). Indeed, T6SS can be potent mediators of interbacterial interactions as discovered in <italic>P. aeruginosa</italic>, where the type VI exported effectors Tse1 - 3 are bacteriolytic (<xref ref-type="bibr" rid="B15">15</xref>, <xref ref-type="bibr" rid="B16">16</xref>) and may give <italic>P. aeruginosa</italic> a survival benefit in a multi-bacterial environment, in biofilms, and in polymicrobial infections, such as those encountered in cystic fibrosis patient airways (<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B17">17</xref>, <xref ref-type="bibr" rid="B18">18</xref>).</p>
+      <p>Despite the increasing information available on the H1-T6SS, very little is known about the two other T6SSs encoded by <italic>P. aeruginosa</italic>. The H2-T6SS locus of the PA14 strain is required for virulence in the plant model <italic>Arabidopsis thaliana</italic> and in the mouse model of acute infections (<xref ref-type="bibr" rid="B19">19</xref>). Although the H1-T6SS loci are very similar between the <italic>P. aeruginosa</italic> strains, PA14 and PAO1, their H2-T6SS loci differ; two putative structural components that are also exported, <italic>hcp2</italic> and <italic>vgrG2</italic>, are present in PA14 but missing in PAO1. They constitute, together with two other genes, a divergent operon to the H2-T6SS secretion machinery operon. Indeed the H2-T6SS of strain PAO1 may lack the extracytoplasmic part of the T6SS contractile phage tail-like structure that is thought to punctuate the outer membrane and host cell membrane (<xref ref-type="bibr" rid="B5">5</xref>). One could even ask whether the PAO1 H2-T6SS machinery can be functional. Here, we examined the regulation and function of H2-T6SS in PAO1. We find that it is subject to regulation by quorum sensing (QS) and by iron. In addition, we provide evidence that the H2 secretion machinery promotes bacterial internalization into epithelial cells, suggesting that this T6SS targets eukaryotic cells. Finally, we show that H2-T6SS plays a role in <italic>P. aeruginosa</italic> virulence in the worm model.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>EXPERIMENTAL PROCEDURES</title>
+      <sec>
+        <title/>
+        <sec>
+          <title/>
+          <sec>
+            <title>Bacterial Strains, Plasmids, and Growth Conditions</title>
+            <p>The bacterial strains and plasmids used in this study are described in <xref ref-type="table" rid="T1">Table 1</xref>. LB and TSB broths and agar were used for the growth of <italic>P. aeruginosa</italic> and <italic>Escherichia coli</italic> strains at 37  degrees C. The cultures were inoculated at <italic>A</italic><sub>600</sub> of 0.1 with overnight cultures, and strains were grown at 37  degrees C with aeration in LB or TSB. Recombinant plasmids were introduced in <italic>P. aeruginosa</italic> using the conjugative properties of pRK2013 (see <xref ref-type="table" rid="T1">Table 1</xref>). <italic>P. aeruginosa</italic> transconjugants were selected on <italic>Pseudomonas</italic> isolation agar (Difco Laboratories) supplemented with appropriate antibiotics. The antibiotics concentrations were as follows: for <italic>E. coli</italic>, ampicillin (50 mug ml<sup>-1</sup>), kanamycin (25 mug ml<sup>-1</sup>), tetracycline (15 mug ml<sup>-1</sup>), and chloramphenicol (50 mug ml<sup>-1</sup>); and for <italic>P. aeruginosa</italic>, carbenicillin (500 mug ml<sup>-1</sup>) and tetracycline (200 mug ml<sup>-1</sup> for plates or 50 mug ml<sup>-1</sup> for liquid growth).</p>
+          </sec>
+          <sec>
+            <title>Construction of the clpV2 Mutant</title>
+            <p>To generate <italic>clpV2</italic> deletion, 500 bp upstream and 500 bp downstream of the <italic>clpV2</italic> gene were amplified by overlapping PCR with High Fidelity DNA polymerase (Roche Applied Science) using TSO49, TSO50, TSO51, and TSO52 primers (see <xref ref-type="table" rid="T1">Table 1</xref>) (<xref ref-type="bibr" rid="B20">20</xref>). The PCR product was cloned in pCR2.1 (TA cloning kit; Invitrogen) giving pTS24, which was then sequenced (GATC) and subcloned in pKNG101 suicide vector giving the mutator pTS27. pTS27, maintained in the <italic>E. coli</italic> CC118lambdapir strain, was mobilized in the wild type <italic>P. aeruginosa</italic> strain PAO1. The mutants, in which the double recombination events occurred that resulted in the nonpolar deletion of <italic>clpV2</italic> gene, were verified by PCR using external primers OA14 - OA17.</p>
+          </sec>
+          <sec>
+            <title>lacZ Reporter Fusion and beta-Galactosidase Assay</title>
+            <p>The <italic>H2-T6SS-lacZ</italic> transcriptional fusions were constructed by PCR amplification of the 722-bp upstream DNA region from the <italic>tssA2</italic> gene by using TSO1 and TSO3 primers (see <xref ref-type="table" rid="T1">Table 1</xref>). PCR amplification products were directly cloned into the pMini-CTX::lacZ vector (<xref ref-type="bibr" rid="B21">21</xref>), yielding pTS2, or into pCR2.1 and pMP220, yielding pTS28 and pTS29, respectively. Nucleotide sequence was verified (GATC). The promoter fragment was integrated at the CTX phage attachment site in PAO1 and isogenic mutants using established protocols (<xref ref-type="bibr" rid="B21">21</xref>). The pTS29 was transferred into <italic>E. coli</italic> by conjugation.</p>
+            <p>For beta-galactosidase assay, overnight bacterial culture was diluted in TSB to an <italic>A</italic><sub>600</sub> of 0.1. Growth and beta-galactosidase activity were monitored by harvesting samples at different time intervals. beta-Galactosidase activity was measured according to the Miller method, based on <italic>o-</italic>nitrophenyl-beta-<sc>d</sc>-galactopyranoside hydrolysis (<xref ref-type="bibr" rid="B22">22</xref>), and expressed in Miller units.</p>
+          </sec>
+          <sec>
+            <title>RNA Extraction and Determination of the Transcription Start</title>
+            <p>PAO1 was grown in TSB at 37  degrees C for 5 h, and total RNA was extracted using the PureYield RNA Midiprep system (Promega). The MICROBExpress kit was used to purify mRNA (Ambion). 5' RNA ligase-mediated rapid amplification of 5' cDNA ends was performed using the GeneRacer kit (Invitrogen), starting at the TAP step on 1 mug of mRNA. Reverse transcription with Superscript III RT was performed with random oligonucleotides. TSO37, TSO38, GeneRacer 5' Nested Primer, and GeneRacer 5' Primer (see <xref ref-type="table" rid="T1">Table 1</xref>) were used for PCR amplification (high fidelity expand system; Roche Applied Science) of the first strand cDNA. The PCR product was cloned into the PCR2.1 vector using the TA cloning kit (Invitrogen) and transformed in TOP10F' competent cells. Cloning was screened using the M13 forward primer and M13 reverse primer, and the cloned products were sequenced using the M13 forward primer (GATC).</p>
+          </sec>
+          <sec>
+            <title>HeLa Cell Invasion, Survival, and Adhesion Assays</title>
+            <p>For invasion assay, HeLa cells (ATCC, Manassas, VA) were cultured to 70% confluence at the day of the experiment in 24-well plates in Eagle's minimal essential medium (MEM) supplemented with 10% FBS. The cells were washed twice with sterile PBS and infected with <italic>P. aeruginosa</italic> wild type strain and the <italic>clpV2</italic> mutant, grown as indicated in the text (log, transition, or stationary phase) at a multiplicity of infection of 10 in MEM with FBS at final volume of 1 ml. The plates were spun down at 1000 x <italic>g</italic> for 5 min to allow bacteria close contact with HeLa cells. After 3 h of infection at 37  degrees C in 5% CO<sub>2</sub>, the cells were washed twice with sterile PBS and incubated with MEM supplemented with 300 mug ml<sup>-1</sup>of gentamicin (Sigma) for 2 h to kill extracellular bacteria. Afterward, the cells were washed three times with room temperature PBS and osmotically shocked with ice-cold sterile water containing 0.05% Triton X-100 (Sigma) for 30 min on ice. Lysed cells were collected in Eppendorf tubes, and serial dilutions in sterile LB were plated onto <italic>Pseudomonas</italic> isolation agar plates. Colony-forming units were enumerated and reported as internalized bacteria.</p>
+            <p>For survival assay, HeLa cells were infected for 1.5 h and treated for 1 or 4 h with gentamicin 300 mug ml<sup>-1</sup> to allow 3 h more for intracellular replication. For adhesion assays, infected cells were not incubated with gentamicin.</p>
+          </sec>
+          <sec>
+            <title>Calu-3 Cell Invasion Assay</title>
+            <p>Calu-3 cells, obtained from the ATCC, were maintained in MEM supplemented with 10% FBS (Invitrogen) and <sc>l</sc>-glutamate at 37  degrees C with 5% CO<sub>2</sub>. For experiments, the cells were grown on 12-mm Transwell filters (0.4-mum pore size; Corning) for 2 days (1 x 10<sup>6</sup> cells/well). Calu-3 cells grown on Transwell filters were washed in serum-free MEM and preincubated with LY (Sigma-Aldrich) in serum-free MEM supplemented with <sc>l</sc>-glutamine for 1 h. Transition phase grown bacteria were added to the apical chamber of the Transwell filter for 3 h at an multiplicity of infection of 10. After incubation, the cells were washed with serum-free MEM and incubated with serum-free MEM containing 250 mug ml<sup>-1</sup> gentamicin (Fisher) for 2.5 h. The cells were washed twice in PBS to remove antibiotic and lysed in 1 ml Ca<sup>2+</sup> Mg<sup>2+</sup>-free PBS with 0.25% Triton X-100 (Sigma-Aldrich) for 30 min. The cells were scraped off the Transwell filters, and the cell lysates were transferred to new tubes. Internalized bacteria were enumerated by plating serial dilutions of cell lysates to LB plates and counting colony-forming units. All of the assays were carried out on triplicate wells, and the results are reported as the average of three experiments  +-  S.D. (standard deviation).</p>
+          </sec>
+          <sec>
+            <title>Akt Immunoprecipitation</title>
+            <p>Calu-3 grown on Transwell filters were washed and placed in serum-free MEM supplemented with <sc>l</sc>-glutamate for 12 h. Transition phase grown bacteria were added for 1 h at an multiplicity of infection of 100. The infected monolayers were washed with cold PBS containing 1 m<sc>m</sc> sodium orthovanadate (Sigma-Aldrich). The cells were lysed in modified radioimmunoprecipitation assay buffer (50 m<sc>m</sc> Tris, pH 7.4, 150 m<sc>m</sc> NaCl, 2 m<sc>m</sc> EDTA, 2 m<sc>m</sc> EGTA, 1% Triton X-100, 0.5% deoxycholate, 0.1% SDS, 1 m<sc>m</sc> sodium orthovanadate, 50 m<sc>m</sc> NaF, 0.1 m<sc>m</sc> okadaic acid (Sigma-Aldrich), 1 m<sc>m</sc> phenylmethylsulfonyl fluoride (Sigma-Aldrich), and proteinase inhibitor tablets (Complete; Roche Applied Science)) for 30 min. The cells were scraped off the Transwell filters, and the cell lysates were centrifuged at 16,000 x <italic>g</italic> for 20 min. To preclear the cell lysate, the supernatant was mixed with 20 mul of protein G-Sepharose (4 Fast Flow; Amersham Biosciences), and the protein content was determined using protein assay reagent (bicinchoninic acid; Pierce). The cleared lysate (300 - 400 mug of protein) was incubated with polyclonal Akt antibody (Cell Signaling Technology) overnight at 4  degrees C and incubated for 2 h with protein G-Sepharose. The immune complexes were washed three times with modified radioimmunoprecipitation assay buffer without deoxycholate, eluted in SDS sample buffer, electrophoresed on 10% SDS-polyacrylamide gels, and transferred to polyvinylidene difluoride membranes. The membranes were blocked with PBS containing 0.05% Tween 20 (PBST) and 5% nonfat milk for 1 h at room temperature and then incubated overnight at 4  degrees C with a monoclonal antibody that recognizes Akt phosphorylated on serine 473 (Cell Signaling Technology). The membranes were washed with PBST, incubated with horseradish peroxidase-conjugated secondary antibody (Jackson ImmunoResearch Laboratories) for 1 h at room temperature, and developed using an enhanced chemiluminescence kit (Amersham Biosciences). The membranes were then stripped and reprobed with a monoclonal antibody that recognizes all forms of Akt (Cell Signaling Technology). Primary antibodies were diluted 1:1000 and secondary antibodies were diluted 1:3000.</p>
+          </sec>
+          <sec>
+            <title>Caenorhabditis elegans Killing Assay</title>
+            <p>The slow killing assay was performed as described previously with modifications based on Ref. <xref ref-type="bibr" rid="B23">23</xref>. Each independent assay consisted of three replicates. <italic>E. coli</italic> OP50 was used as a control. L4 to adult stage <italic>C. elegans</italic> were removed from food and placed on unseeded NGM plates for 24 h at 25  degrees C. 50 worms were then picked onto plates containing overnight growth of each bacterial strain. The worms were evaluated for viability on a daily basis. The assay was performed three times. Animal survival was plotted using the PRISM 5.0 program. Survival curves were considered significantly different from the control when <italic>p</italic> values were &lt;0.05. PRISM calculated survival fractions using the product limit (Kaplan-Meier) method and compared survival curves by two methods: the log-rank test (also called the Mantel-Cox test) and the Gehan-Breslow-Wilcoxon test.</p>
+          </sec>
+          <sec>
+            <title>Statistical Analysis</title>
+            <p>Paired Student's <italic>t</italic> tests were performed using Excel software. In the figures, * indicates <italic>p</italic>  LTEQ  0.05, ** indicates <italic>p</italic>  LTEQ  0.01, and *** indicates <italic>p</italic>  LTEQ  0.001.</p>
+          </sec>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>RESULTS</title>
+      <sec>
+        <title/>
+        <sec>
+          <title/>
+          <sec>
+            <title>The Expression of the H2-T6SS Genes Is Controlled by Quorum Sensing</title>
+            <p>Although the <italic>H1-T6SS</italic> cluster is repressed by RetS/Gac signaling system in PAO1, the <italic>H2-T6SS</italic> and <italic>H3-T6SS</italic> are not (<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B24">24</xref> - <xref ref-type="bibr" rid="B26">26</xref>). To probe the transcriptional regulation of the <italic>H2-T6SS</italic> gene cluster, we analyzed the DNA region upstream of the first gene, <italic>hsiA2</italic> (<italic>PA1656</italic>), of the cluster in PAO1 (<xref ref-type="fig" rid="F1">Fig. 1</xref><italic>A</italic>). Two sigma<sup>70</sup>-dependent promoters were predicted in the intergenic region between the upstream gene (<italic>PA1655</italic>) and <italic>hsiA2</italic> (<italic>PA1656</italic>) by the BProm program (<xref ref-type="fig" rid="F1">Fig. 1</xref><italic>B</italic>). We created a <italic>lacZ</italic> transcriptional fusion in which the DNA region upstream of the ATG of the first gene of the <italic>H2-T6SS</italic> cluster was fused to <italic>lacZ</italic> and integrated at the CTX phage <italic>attB</italic> site as a single copy on the chromosome, yielding strain PAO1TS2. Strain PAO1Z was similarly constructed by integrating a promoter-less <italic>lacZ</italic> gene to serve as a negative control (<xref ref-type="table" rid="T1">Table 1</xref>). The beta-galactosidase activity profile associated with the transcriptional fusion indicated that the <italic>H2-T6SS</italic> gene cluster expression was low during the exponential phase but increased at 3 h of growth in TSB medium at 37  degrees C, during the log to stationary phase transition (<xref ref-type="fig" rid="F2">Fig. 2</xref><italic>A</italic>). The expression was at its highest (10-fold above background) in stationary phase, whereas promoter activity was undetectable in the control strain PAO1Z.</p>
+            <fig id="F1" position="float">
+              <label>FIGURE 1.</label>
+              <caption>
+                <p><bold>The <italic>H2-T6SS</italic> gene cluster of <italic>P. aeruginosa</italic> PAO1.</bold>
+<italic>A</italic>, the genes are labeled <italic>hsiA2</italic> to <italic>hsiJ2</italic> and, when applicable, with the given name, <italic>i.e.</italic>, <italic>clpV2</italic> or <italic>sfa2</italic>. They are also indicated by the number of their annotation (<italic>e.g.</italic> PA1656). <italic>B</italic>, the sequence corresponding to 1173 bp upstream of the <italic>H2-T6SS</italic> gene cluster is represented. The two predicted sigma<sup>70</sup> promoters are framed in <italic>black</italic>, a Las-Rhl consensus box is indicated in <italic>bold letters</italic>, and two Fur binding sites are <italic>underlined</italic>. The experimentally demonstrated transcription initiation site and its cognate sigma<sup>70</sup> promoter are shaded in <italic>gray</italic>. The start codon of <italic>hsiA2</italic>, the first gene of the cluster, is written in <italic>gray</italic>. 722 bp upstream the start codon have been used for the transcriptional fusion encoded by pTS2 or pTS29. No promoter could be predicted in the intergenic region in between <italic>hsiF2</italic> (<italic>PA1659</italic>) and <italic>hsiG2</italic> (<italic>PA1660</italic>). <italic>C</italic>, alignment of the LasR-RhlR consensus sequence from Ref. <xref ref-type="bibr" rid="B36">36</xref> with the sequence framed in <italic>B</italic>. The size of each letter indicates the relative abundance at the respective position in the consensus matrix generated with MATRIX. <italic>D</italic>, alignment of the two Fur consensus sequences (<xref ref-type="bibr" rid="B37">37</xref>, <xref ref-type="bibr" rid="B39">39</xref>) with the two regions <italic>underlined</italic> in <italic>B</italic> and overlapping with the distal promoter (<italic>left panel</italic>) or the proximal (<italic>right panel</italic>).</p>
+              </caption>
+              <graphic xlink:href="zbc0321217080001"/>
+            </fig>
+            <table-wrap id="T1" position="float">
+              <label>TABLE 1</label>
+              <caption>
+                <p>
+                  <bold>Strains, plasmids, and oligonucleotides used in this study</bold>
+                </p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead valign="bottom">
+                  <tr>
+                    <th align="center" rowspan="1" colspan="1">Strain, plasmid, or oligonucleotide</th>
+                    <th align="center" rowspan="1" colspan="1">Genotype, description, or sequence</th>
+                    <th align="center" rowspan="1" colspan="1">Source and/or reference</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold><italic>E. coli</italic> strains</bold>
+                    </td>
+                    <td rowspan="1" colspan="1"/>
+                    <td rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TG1</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>supE</italic>, <italic>hsd</italic>Delta<italic>R</italic>, <italic>thi</italic>Delta <italic>(lac-proAB)</italic>, F' (<italic>traD36</italic>, <italic>proAB</italic>+, <italic>lacIq</italic>, <italic>lacZ</italic>Delta<italic>M15</italic>))</td>
+                    <td align="left" rowspan="1" colspan="1">Laboratory collection</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;CC118(lambdapir)</td>
+                    <td align="left" rowspan="1" colspan="1">(lambda<italic>pir</italic>) Delta (<italic>ara-leu</italic>), <italic>araD</italic>, Delta<italic>lacX74</italic>, <italic>galE</italic>, <italic>galK</italic>, <italic>phoA-20</italic>, <italic>thi-1</italic>, <italic>rpsE</italic>, <italic>rpoB</italic>, <italic>Arg</italic>(Am), <italic>recA1</italic>, Rfr (lambda<italic>pir</italic>)</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B70">70</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TOP10F'</td>
+                    <td align="left" rowspan="1" colspan="1">F<sup>-</sup>
+<italic>mcrA</italic> Delta<italic>(mrr-hsdRMS-mcrBC)</italic> phi<italic>80lacZ</italic>Delta<italic>M15</italic> Delta<italic>lacX74 nupG recA1 araD139</italic> Delta(<italic>ara-leu</italic>)7697 <italic>galE15 galK16 rpsL</italic>(Str<sup>R</sup>) <italic>endA1</italic> lambda<sup>-</sup></td>
+                    <td align="left" rowspan="1" colspan="1">Laboratory collection</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;MG1655</td>
+                    <td align="left" rowspan="1" colspan="1">F<sup>-</sup> lambda<sup>-</sup>
+<italic>ilvG-</italic>, <italic>rfb-50</italic>, <italic>rph-1</italic></td>
+                    <td align="left" rowspan="1" colspan="1">Laboratory collection</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;MG1655<italic>fur</italic></td>
+                    <td align="left" rowspan="1" colspan="1">MG1655 <italic>fur</italic>::<italic>kan</italic></td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B71">71</xref></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold><italic>P. aeruginosa</italic> strains</bold>
+                    </td>
+                    <td rowspan="1" colspan="1"/>
+                    <td rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAO1</td>
+                    <td align="left" rowspan="1" colspan="1">Wild type, prototroph, <italic>chl</italic>-2</td>
+                    <td align="left" rowspan="1" colspan="1">B. Holloway</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAO1Z</td>
+                    <td align="left" rowspan="1" colspan="1">Promoterless <italic>lacZ</italic> gene integrated at ctx att site in PAO1</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAO1TS2</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>H2-T6SS</italic> promoter integrated at ctx att site in PAO1</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAOR</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>lasR</italic> mutant of PAO1, CbR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B28">28</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAORTS2</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>H2-T6SS</italic> promoter integrated at ctx att site in PAOR, CbR</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PDO100</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>rhlI</italic> mutant of PAO1, HgR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B29">29</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PDO100TS2</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>H2-T6SS</italic> promoter integrated at ctx att site in PDO100, HgR</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAO1Delta<italic>clpV2</italic></td>
+                    <td align="left" rowspan="1" colspan="1"><italic>clpV2</italic> deletion mutant</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAO1::<italic>gfp</italic></td>
+                    <td align="left" rowspan="1" colspan="1">miniTn7<italic>gfp</italic> integrated in PAO1</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;PAO1::<italic>gfp</italic> Delta<italic>clpV2</italic></td>
+                    <td align="left" rowspan="1" colspan="1">miniTn7<italic>gfp</italic> integrated in PAO1Delta<italic>clpV2</italic></td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Plasmids</bold>
+                    </td>
+                    <td rowspan="1" colspan="1"/>
+                    <td rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pCR2.1</td>
+                    <td align="left" rowspan="1" colspan="1">TA cloning, <italic>lacZ</italic>alpha, ColE1, f1 ori, ApR KmR</td>
+                    <td align="left" rowspan="1" colspan="1">Invitrogen</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pMini-CTX::<italic>lacZ</italic></td>
+                    <td align="left" rowspan="1" colspan="1">Omega-FRT-attP-MCS, ori, int, oriT, TcR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B21">21</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pMP220</td>
+                    <td align="left" rowspan="1" colspan="1">Broad host range <italic>lacZ</italic> transcriptional fusion, TcR</td>
+                    <td align="left" rowspan="1" colspan="1">Laboratory collection</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pTS2</td>
+                    <td align="left" rowspan="1" colspan="1">722-bp upstream region of <italic>H2-T6SS</italic> in pMini-CTX::lacZ</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pTS28</td>
+                    <td align="left" rowspan="1" colspan="1">722-bp upstream region of <italic>H2-T6SS</italic> in pCR2.1</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pTS29</td>
+                    <td align="left" rowspan="1" colspan="1">722-bp upstream region of <italic>H2-T6SS</italic> from pTS28 in pMP220</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pRK2013</td>
+                    <td align="left" rowspan="1" colspan="1">Tra+, Mob+, ColE1, KmR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B72">72</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pRK600</td>
+                    <td align="left" rowspan="1" colspan="1">Tra+, OriT, OriV, Col E1, CmR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B73">73</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pUX-BF13</td>
+                    <td align="left" rowspan="1" colspan="1">Tra+, Mob+, R6K, providing Tn7 transposition functions in <italic>trans</italic>, ApR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B74">74</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;miniTn7<italic>gfp</italic></td>
+                    <td align="left" rowspan="1" colspan="1">mob + ori; ApR GmR; miniTn7 vector containing gfpmut3 inserted into notI site</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B75">75</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pKNG101</td>
+                    <td align="left" rowspan="1" colspan="1">oriR6K, mobRK2, sacBR+, SmR (suicide vector)</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B76">76</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pTS24</td>
+                    <td align="left" rowspan="1" colspan="1">500 bp upstream and 500 bp downstream <italic>clpV2</italic> in pCR2.1</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pTS27</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>clpV2</italic> deletion of pTS24 in pKNG101</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pMMB67 - 42</td>
+                    <td align="left" rowspan="1" colspan="1">Broad host range vector adapted for the Gateway system <italic>tac</italic> promoter, ApR</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pHM49</td>
+                    <td align="left" rowspan="1" colspan="1">pMM67 - 42 encompassing <italic>clpV2-v5his6</italic></td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pBLasR</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>lasR</italic> gene in the pBBRMCS-2, KmR</td>
+                    <td align="left" rowspan="1" colspan="1">Ref. <xref ref-type="bibr" rid="B28">28</xref></td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;pBRhlRI</td>
+                    <td align="left" rowspan="1" colspan="1"><italic>rhlR</italic> and <italic>rhlI</italic> genes in the pBBRMCS-2, KmR</td>
+                    <td align="left" rowspan="1" colspan="1">Laboratory collection</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">
+                      <bold>Oligonucleotide<italic>s</italic></bold>
+                    </td>
+                    <td rowspan="1" colspan="1"/>
+                    <td rowspan="1" colspan="1"/>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO1</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>CCTAACCCTTCAATGCACACC</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO3</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>GTCGACCTATTACGCTCTAAATCAGC</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO37</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>TAATGCGAGGAGAGCTTGCTCG</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO38</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>ATGCCGGCTGCACAGACGTTCC</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO49</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>ACGCCCACCTCACATCCATCCTTAATGAATCTTG</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO50</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>AAGGATGGATGTGAGGTGGGTGCGATGTTCAGC</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO51</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>ACTGGAAACGCCTGATGCCCTACCTGG</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;TSO52</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>CGAACGAGCCCAGCTGGCCCAGTGGATGG</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;OA14</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>GGAAAGCTTTTCGCCCTCGTCGGATTG</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;OA17</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>AAAGAATTCGAGGCGTTGCAGCAGATG</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">This work</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">&#x2003;&#x2003;&#x2003;&#x2003;GeneRacer 5' primer</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>CGACTGGAGCACGAGGACACTGA</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">Invitrogen</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">GeneRacer 5' nested primer</td>
+                    <td align="left" rowspan="1" colspan="1">5'-<monospace>GGACACTGACATGGACTGAAGGAGTA</monospace>-3'</td>
+                    <td align="left" rowspan="1" colspan="1">Invitrogen</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <fig id="F2" position="float">
+              <label>FIGURE 2.</label>
+              <caption>
+                <p><bold>The <italic>H2-T6SS</italic> gene cluster of <italic>P. aeruginosa</italic> PAO1 is induced upon iron starvation and regulated by QS.</bold>
+<italic>A</italic>, the expression pattern of the <italic>H2-T6SS-lacZ</italic> transcriptional fusion from the wild type PAO1 strain (PAO1TS2) (<italic>squares</italic>) and a control strain (PAO1Z) (<italic>triangles</italic>) is given in Miller units at different time points over the growth period. The <italic>A</italic><sub>600</sub> is also presented. <italic>B</italic>, expression of the <italic>H2-T6SS-lacZ</italic> transcriptional fusion from the PAO1 <italic>lasR</italic> strain (PAORTS2) with (<italic>filled circles</italic>) or without (<italic>open circles</italic>) the pBLasR plasmid, and from the PAO1 <italic>rhlI</italic> strain (PDO100TS2) grown in the presence (<italic>filled triangles</italic>) or absence (<italic>open triangles</italic>) of 10 mu<sc>m</sc> C<sub>4</sub>-HSL. PAORTS2 pBlasR curve is significantly different from PAORTS2 (<italic>p</italic>  LTEQ  0.001), with the last five points of the PDO100TS2 + C<sub>4</sub>-HSL from PDO100TS2 (<italic>p</italic>  LTEQ  0.001). <italic>C</italic>, expression of the <italic>H2-T6SS-lacZ</italic> transcriptional fusion from the pTS29 plasmid in the <italic>E. coli</italic> TG1 with (<italic>gray bars</italic>) or without (<italic>white bar</italic>) the pBRhlRI plasmid. Expression of <italic>rhlR</italic> and <italic>rhlI</italic> gene induced in the presence of 0.5 m<sc>m</sc> IPTG (<italic>dark gray bar</italic>) or suppressed in the absence of IPTG (<italic>light gray bar</italic>). <italic>D</italic>, expression of the <italic>H2-T6SS-lacZ</italic> transcriptional fusion from the PAO1 strain (PAO1TS2) grown in high (<italic>white bar</italic>) or low iron (<italic>gray bar</italic>). <italic>E</italic>, expression of the <italic>H2-T6SS-lacZ</italic> transcriptional fusion from the pTS29 plasmid in the <italic>E. coli</italic> MG1655 (<italic>white bar</italic>) and its isogenic <italic>fur</italic> mutant (<italic>gray bar</italic>). Each experiment was done in duplicate and independently repeated three times; the <italic>error bars</italic> indicate standard deviations, and the <italic>asterisks</italic> indicate <italic>p</italic> values.</p>
+              </caption>
+              <graphic xlink:href="zbc0321217080002"/>
+            </fig>
+            <p>The biphasic, cell density-dependent expression profile of the reporter fusion suggested that the transcription of <italic>H2-T6SS</italic> might be regulated by QS. This could be in agreement with the regulation by LasR of the PA14 <italic>hcp2</italic> gene, which lacks in PAO1 (<xref ref-type="bibr" rid="B19">19</xref>). We therefore examined <italic>H2-T6SS</italic> expression in <italic>P. aeruginosa</italic> QS mutants. Two homoserine lactone-mediated QS systems, the Las and Rhl systems, have been described in <italic>P. aeruginosa</italic> (<xref ref-type="bibr" rid="B27">27</xref>). The transcriptional regulators LasR and RhlR are activated by their cognate autoinducers, <italic>N</italic>-(3-oxododecanoyl)-<sc>l</sc>-homoserine lactone and <italic>N</italic>-(butanoyl)-<sc>l</sc>-HSL (C<sub>4</sub>-HSL) produced by the LasI and RhlI synthases, respectively. The pTS2 fusion was integrated on the chromosome of a <italic>lasR</italic> mutant (PAOR) (<xref ref-type="bibr" rid="B28">28</xref>) and that of a <italic>rhlI</italic> mutant (PDO100) (<xref ref-type="bibr" rid="B29">29</xref>) creating PAORTS2 and PDO100TS2 QS mutant strains. Compared with wild type PAO1, the expression of <italic>H2-T6SS</italic> was significantly delayed in the two QS mutants, becoming detectable 6 h post-inoculation, with maximal levels decreased 22- and 8.5-fold, respectively (<xref ref-type="fig" rid="F2">Fig. 2</xref><italic>B</italic>). Complementation <italic>in trans</italic> of the <italic>lasR</italic> mutation in PAORTS2 with pBLasR, a plasmid constitutively producing LasR, affected the growth of the strain (the strain stops growing at <italic>A</italic><sub>600</sub> = 2.5) but restored the fusion activity almost to its wild type levels at the exponential phase (<italic>filled circles</italic> in <xref ref-type="fig" rid="F2">Fig. 2</xref><italic>B</italic>). <italic>N</italic>-Acylhomoserine lactone synthase mutants, such as <italic>rhlI</italic>, can be phenotypically complemented by addition of the corresponding <italic>N</italic>-acylhomoserine lactone (<xref ref-type="bibr" rid="B30">30</xref>, <xref ref-type="bibr" rid="B31">31</xref>). The addition of the C<sub>4</sub>-HSL (10 mu<sc>m</sc>) to the <italic>rhlI</italic> mutant PDO100TS2 restored induction of the expression at the transition phase of growth, and the expression was 4-fold higher than in the mutant (<xref ref-type="fig" rid="F2">Fig. 2</xref><italic>B</italic>). One can note that the decrease in <italic>H2-T6SS</italic> expression observed with the <italic>lasR</italic> mutant is greater (2.6-fold) than with the <italic>rhlI</italic> mutant. This may imply a direct effect of LasR, as well as an indirect effect mediated through Rhl system.</p>
+            <p>Thus to confirm a direct effect of RhlR-C<sub>4</sub>-HSL on <italic>H2-T6SS</italic> expression too, the <italic>H2-T6SS</italic> promoter region was cloned into pMP220 to generate a plasmid borne <italic>lacZ</italic> transcriptional fusion whose expression was quantified in a strain of <italic>E. coli,</italic> which harbored IPTG-inducible copies of <italic>rhlR</italic> and <italic>rhlI</italic>. Upon RhlR and RhlI production, a 3.3-fold up-regulation of the <italic>H2-T6SS</italic> promoter region was observed (<xref ref-type="fig" rid="F2">Fig. 2</xref><italic>C</italic>), suggesting that the Rhl system is sufficient for the induction of <italic>H2-T6SS</italic> expression.</p>
+            <p>The promoter region of QS regulated genes in <italic>P. aeruginosa</italic> usually contains a Las-Rhl box, a 20-bp repeat located approximately between 60 and 40 bp from the start of transcription (<xref ref-type="bibr" rid="B32">32</xref>, <xref ref-type="bibr" rid="B33">33</xref>). As shown in <xref ref-type="fig" rid="F1">Fig. 1</xref> (<italic>B</italic> and <italic>C</italic>), a putative Las-Rhl box can be identified in the upstream region of the <italic>H2-T6SS</italic> gene cluster, but far from the two predicted promoters. Using 5' rapid amplification of 5' cDNA ends PCR, we located a transcription initiation site 246 bp upstream of the translation initiation codon of the <italic>hsiA2</italic> gene (the +1 position is indicated in <italic>gray</italic> in <xref ref-type="fig" rid="F1">Fig. 1</xref><italic>B</italic>). We were thus able to position -10 and -35 boxes of a sigma<sup>70</sup> promoter in proximity of the Las-Rhl box centered at -47 with respect to the transcript start site. Together, our studies support the notion that the expression of the <italic>P. aeruginosa H2-T6SS</italic> genes appears to be directly controlled by the Las and Rhl QS systems.</p>
+          </sec>
+          <sec>
+            <title>H2-T6SS Gene Expression Is Induced in Iron-limiting Conditions and Regulated by Fur</title>
+            <p>For many pathogens, the host environment is often iron poor, which triggers the expression of a group of genes transcriptionally regulated by iron through the ferric uptake regulator protein Fur. In addition to its role in iron homeostasis, Fur is involved in the coordinate regulation of numerous virulence genes. In the case of <italic>P. aeruginosa</italic>, Fur regulates exotoxin A and alkaline protease production (<xref ref-type="bibr" rid="B34">34</xref>, <xref ref-type="bibr" rid="B35">35</xref>), as well as biofilm formation (<xref ref-type="bibr" rid="B36">36</xref>). We noted the presence of a sequence upstream of the <italic>H2-T6SS</italic> gene cluster that conformed to the <italic>E. coli</italic> and <italic>P. aeruginosa</italic> consensus Fur binding sequence (GATAATGATAATCATTATC) (<xref ref-type="bibr" rid="B37">37</xref>, <xref ref-type="bibr" rid="B38">38</xref>) or the (NATWAT)<sub>3</sub> sequence proposed as the <italic>E. coli</italic> Fur box (<xref ref-type="bibr" rid="B39">39</xref>) (<xref ref-type="fig" rid="F1">Fig. 1</xref>, <italic>B</italic> and <italic>D</italic>). The two putative Fur boxes overlapped with the -10 box of the two predicted sigma<sup>70</sup> promoters, suggesting that Fur binding at this position in presence of iron prevents RNA polymerase binding to the -10 box and thus represses transcription. To test this, PAO1TS2, which harbored the <italic>H2-T6SS-lacZ</italic> transcriptional fusion, was grown in TSB in presence of the iron chelator 2,2'-bipyridyl (250 mu<sc>m</sc>). The activity of the promoter was induced 2.2-fold in these conditions (<xref ref-type="fig" rid="F2">Fig. 2</xref><italic>D</italic>).</p>
+            <p>To determine whether Fur is required for <italic>H2-T6SS</italic> regulation and because Fur seems to be essential for <italic>P. aeruginosa</italic> viability (<xref ref-type="bibr" rid="B40">40</xref>), the expression of the plasmid borne transcriptional fusion was studied in an <italic>E. coli</italic> WT and isogenic <italic>fur</italic> mutant. After 4 h of growth, the activity of the fusion increased by 2.6-fold in the Fur mutant (<xref ref-type="fig" rid="F2">Fig. 2</xref><italic>E</italic>). Together, these data suggest that transcription of the <italic>H2-T6SS</italic> gene cluster is induced under iron-limiting conditions, an environment that the pathogen encounters in the human host.</p>
+          </sec>
+          <sec>
+            <title>H2-T6SS Contributes to P. aeruginosa Internalization in Non-phagocytic Cells</title>
+            <p>Although <italic>P. aeruginosa</italic> is considered an extracellular pathogen, it is able to measurably enter (<italic>i.e.</italic>, invade) normally nonphagocytic cells ((<xref ref-type="bibr" rid="B41">41</xref>), for a review see Ref. <xref ref-type="bibr" rid="B77">77</xref>). To address the potential role of H2-T6SS in <italic>P. aeruginosa</italic> internalization, we constructed a nonpolar mutant in the AAA+ ATPase ClpV2 whose homologue was shown to play a crucial role in the functionality of the H1-T6SS system (<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B42">42</xref>). We verified that the mutation does not affect the growth of the strain, nor the major adhesins of <italic>P. aeruginosa</italic> (flagellum and type IV pili), nor the secretion of ExoS, an anti-internalization factor (<ext-link ext-link-type="uri" xlink:href="http://www.jbc.org/cgi/content/full/M112.376368/DC1">supplemental Fig. S1</ext-link>). Moreover, adhesion of the <italic>clpV2</italic> mutant was unaffected (<ext-link ext-link-type="uri" xlink:href="http://www.jbc.org/cgi/content/full/M112.376368/DC1">supplemental Fig. S2, <italic>A</italic> and <italic>B</italic></ext-link>). We then compared invasion of transition phase grown wild type PAO1 with a mutant defective in H2-T6SS (PAO1Delta<italic>clpV2</italic>), using a standard antibiotic protection assay adapted from Ref. <xref ref-type="bibr" rid="B43">43</xref>. As shown in <xref ref-type="fig" rid="F3">Fig. 3</xref><italic>A</italic>, PAO1 was able to invade nonphagocytic cells, with an average of 1.7% of adherent bacteria internalized (<ext-link ext-link-type="uri" xlink:href="http://www.jbc.org/cgi/content/full/M112.376368/DC1">supplemental Fig. S2<italic>C</italic></ext-link>), whereas PAO1Delta<italic>clpV2</italic> entry into host cells was reduced by ~75%. Invasion was restored to wild type levels in the complemented <italic>clpV2</italic> mutant (<xref ref-type="fig" rid="F3">Fig. 3</xref><italic>A</italic>).</p>
+            <fig id="F3" position="float">
+              <label>FIGURE 3.</label>
+              <caption>
+                <p><bold>Maximal uptake of <italic>P. aeruginosa</italic> by HeLa cells requires the H2-T6SS apparatus.</bold> Standard bacterial invasion (<italic>A</italic>) or survival (<italic>B</italic>) assays in HeLa cells upon infection with <italic>P. aeruginosa</italic> strains grown at the transition phase in TSB. <italic>A</italic>, the percent invasion of PAO1Delta<italic>clpV2</italic> with (<italic>gray bars</italic>) or without (<italic>white bars</italic>) pHM49, normalized to PAO1 (<italic>black bars</italic>) that represents an average of 1.3 x 10<sup>5</sup> colony-forming units of internalized bacteria/well (2.5 x 10<sup>5</sup> HeLa cells). ClpV2<sub>V5/6His</sub> expression is induced with 1 m<sc>m</sc> with IPTG (<italic>dark gray bars</italic>) or remains suppressed in the absence of IPTG (<italic>light gray bars</italic>). <italic>B</italic>, the ratio between the numbers of intracellular bacteria recovered after 5.5 and 2.5 h of infection (including the gentamicin treatment). Same strain color code than in <italic>A</italic>. All of the assays were performed a minimum of three times in triplicate. The <italic>error bars</italic> represent standard deviations, and the <italic>asterisks</italic> indicate <italic>p</italic> values.</p>
+              </caption>
+              <graphic xlink:href="zbc0321217080003"/>
+            </fig>
+            <p>Because we previously observed a cell density expression pattern of <italic>H2-T6SS</italic> genes, we asked whether the growth phase of the bacteria impacts the internalization capacity. Although exponential grown <italic>clpV2</italic> mutant bacteria were less internalized (~75% reduction as with transition phase bacteria; data not shown), stationary phase bacteria were internalized at the same level as the wild type strain (<ext-link ext-link-type="uri" xlink:href="http://www.jbc.org/cgi/content/full/M112.376368/DC1">supplemental Fig. S3</ext-link>).</p>
+            <p>Even if <italic>P. aeruginosa</italic> escapes the normal bactericidal mechanisms of epithelial cells, it only poorly replicates in A549 pneumocytes (<xref ref-type="bibr" rid="B41">41</xref>) or in corneal epithelial cells (<xref ref-type="bibr" rid="B43">43</xref>). Given the length of the infection in the invasion assay (5 h including the gentamicin treatment), to examine the possibility of an intracellular replication and/or persistence defect of the <italic>clpV2</italic> mutant, we compared the number of intracellular bacteria after 2.5 and 5.5 h of infection for each strain. After allowing 3 h for bacterial replication, we observed the same range of data (between 4.9- and 6-fold increase) for all the strains (<xref ref-type="fig" rid="F3">Fig. 3</xref><italic>B</italic>). In conclusion, the H2-T6SS mutant displays an invasion defect.</p>
+            <p>In a complementary assay, HeLa cells were infected with GFP-labeled <italic>P. aeruginosa</italic> and visualized by laser confocal microscopy (data not shown). Few bacteria were found in HeLa cells infected with the wild type PAO1. Conversely no bacteria were found in cells infected with the <italic>clpV2</italic> mutant. Together, these results support the assertion that the H2-T6SS system stimulates internalization of <italic>P. aeruginosa</italic> into HeLa cells.</p>
+          </sec>
+          <sec>
+            <title>Akt Phosphorylation upon Bacterial Invasion of Polarized Epithelial Cells Is Dependent on H2-T6SS</title>
+            <p>We further explored H2-T6SS-dependent bacterial entry into a more physiologically relevant cell line, Calu-3 cells, which are derived from human lung alveolar cells and which form polarized monolayers when grown on Transwell filters. <italic>P. aeruginosa</italic> binding to polarized epithelial cells activates a central host signaling molecule, PI3K, which is required for phosphatidylinositol 1,4,5-trisphosphate synthesis and for activation of a downstream effector, the protein kinase B/Akt (Akt) (<xref ref-type="bibr" rid="B44">44</xref>, <xref ref-type="bibr" rid="B45">45</xref>). Activation of the PI3K/phosphatidylinositol 1,4,5-trisphosphate/Akt pathway was shown to be necessary and sufficient for <italic>P. aeruginosa</italic> entry from the apical surface (<xref ref-type="bibr" rid="B44">44</xref>). This event leads to a remarkable remodeling of the apical membrane in which protrusions enriched for phosphatidylinositol 1,4,5-trisphosphate and actin form at the apical surface at the site of bacterial entry (<xref ref-type="bibr" rid="B46">46</xref>). To determine whether the PI3K/Akt signaling pathway is required during the H2-T6SS-dependent uptake of <italic>P. aeruginosa</italic> by lung epithelial cells, polarized human airway epithelial Calu-3 cells were infected in the presence or absence of LY294002 (LY), a PI3K inhibitor, and adhesion, internalization, and Akt phosphorylation were determined. Although the treatment with LY did not affect bacterial adhesion, it reduced invasion of both PAO1 and the complemented PAO1Delta<italic>clpV2</italic> mutant in a dose-dependent manner (<xref ref-type="fig" rid="F4">Fig. 4</xref><italic>A</italic>). Internalization levels of the <italic>clpV2</italic> mutant were lower than that of PAO1 or the complemented <italic>clpV2</italic> mutant; thus, LY treatment had little effect on the ability of the <italic>clpV2</italic> mutant to enter host cells (<xref ref-type="fig" rid="F4">Fig. 4</xref><italic>A</italic>).</p>
+            <fig id="F4" position="float">
+              <label>FIGURE 4.</label>
+              <caption>
+                <p><bold>Activation of PI3K pathway in Calu-3 cells relies on H2-T6SS-dependent PAO1 invasion.</bold>
+<italic>A</italic>, the percent invasion of PAO1Delta<italic>clpV2</italic> with (<italic>gray bars</italic>) or without (<italic>white bars</italic>) pHM49, normalized to PAO1 that represents an average of 3500 colony-forming units of internalized bacteria/well (0.8. x 10<sup>6</sup> Calu-3). When indicated, the cells were incubated with a PI3K inhibitor, LY294002, at various concentrations (25, 50, and 100 mu<sc>m</sc>) for 1 h prior to infection. The assays were performed a minimum of three times in triplicate. The <italic>error bars</italic> represent standard deviations, and the <italic>asterisks</italic> indicate <italic>p</italic> values. <italic>B</italic>, levels of phosphorylated Akt in Calu-3 cells infected with PAO1, PAO1Delta<italic>clpV2</italic> with or without pHM49, or left uninfected (<italic>untreated</italic>). Akt phosphorylation was detected with anti-phospho-Akt antibodies (P-Akt), and total Akt with anti-Akt antibodies (T-Akt). When indicated (+), the cells were incubated with LY294002 at 50 mu<sc>m</sc> for 1 h prior to infection. <italic>C</italic>, quantification of band density by volume analysis using ChemiDoc XRS. The graph presents phospho-Akt as a percentage of Total-Akt and normalized to untreated cells from <italic>B</italic>.</p>
+              </caption>
+              <graphic xlink:href="zbc0321217080004"/>
+            </fig>
+            <p>We next determined whether Akt is activated in an H2-T6SS dependent manner, as determined by phosphorylation of Akt at serine 473. Polarized Calu-3 cells were co-cultivated with PAO1, <italic>clpV2</italic> mutant, or the complemented <italic>clpV2</italic> mutant. At 60 min after infection, Akt was immunoprecipitated followed by immunoblotting with anti-phospho-Akt<sup>Ser473</sup> antibody. The ratio of phospho-Akt to total Akt was quantified and normalized to the ratio observed in untreated cells. Infection with the <italic>clpV2</italic> mutant resulted in ~50% decrease in Akt phosphorylation levels compared with infection with PAO1 or with the complemented mutant (<xref ref-type="fig" rid="F4">Fig. 4</xref>, <italic>B</italic> and <italic>C</italic>). The magnitude of the decrease in Akt phosphorylation was similar to the magnitude of the decrease in internalization by the <italic>clpV2</italic> mutant (<xref ref-type="fig" rid="F4">Fig. 4</xref>, <italic>B</italic> and <italic>C</italic>). LY treatment decreased Akt phosphorylation upon infection with any strain to levels observed in uninfected Calu-3 cells (<xref ref-type="fig" rid="F4">Fig. 4</xref>, <italic>B</italic> and <italic>C</italic>). Together, these data suggest that H2-T6SS stimulates bacterial entry of transition phase-grown bacteria through the PI3K/Akt pathway.</p>
+          </sec>
+          <sec>
+            <title>H2-T6SS Contributes to P. aeruginosa Virulence in C. elegans</title>
+            <p>The involvement of H2-T6SS in <italic>P. aeruginosa</italic> pathogenicity led us to test its role in virulence on <italic>C. elegans</italic>. Previous studies have shown that <italic>C. elegans</italic> is a good model in which to identify <italic>P. aeruginosa</italic> virulence genes important for mammalian pathogenesis (<xref ref-type="bibr" rid="B47">47</xref>, <xref ref-type="bibr" rid="B48">48</xref>). In a modified slow killing assay, we observed that the <italic>clpV2</italic> mutant was significantly less virulent than the PAO1 strain (<xref ref-type="fig" rid="F5">Fig. 5</xref>), indicating that H2-T6SS plays a role in <italic>P. aeruginosa</italic> virulence.</p>
+            <fig id="F5" position="float">
+              <label>FIGURE 5.</label>
+              <caption>
+                <p><bold>H2-T6SS is required for virulence in <italic>C. elegans</italic>.</bold>
+<italic>C. elegans</italic> was infected with PAO1 and its isogenic Delta<italic>clpV2</italic> mutant (survival curve, <italic>p</italic> value &lt;0.0001; Prism 4 software).</p>
+              </caption>
+              <graphic xlink:href="zbc0321217080005"/>
+            </fig>
+          </sec>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>DISCUSSION</title>
+      <p><italic>P. aeruginosa</italic> possesses three distinct T6SS genetic loci, but the function and regulation of H2-T6SS and H3-T6SS have yet to be elucidated. Here, we show that the <italic>H2-T6SS</italic> gene cluster is up-regulated in PAO1 during the transition from exponential to stationary phase growth and that its transcription is regulated by QS and induced upon iron limitation through the Fur regulator. Moreover, we demonstrate that H2-T6SS is required for PI3K/Akt-dependent internalization into epithelial cells and plays a role in <italic>P. aeruginosa</italic> virulence. Together, these data suggest that H2-T6SS is important in bacterial interactions with eukaryotic cells, which is quite distinct from the known functions of H1-T6SS. The latter is not expressed under laboratory conditions (<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B24">24</xref>, <xref ref-type="bibr" rid="B25">25</xref>), secretes bacteriolytic effectors, and is primarily thought to give <italic>P. aeruginosa</italic> a growth advantage in mixed bacterial populations (<xref ref-type="bibr" rid="B15">15</xref>, <xref ref-type="bibr" rid="B16">16</xref>). Thus, although the T6SS apparatus may be conserved, the diversity in secreted effectors may allow interactions with many different hosts in a broad range of habitats and conditions (<xref ref-type="fig" rid="F6">Fig. 6</xref>).</p>
+      <fig id="F6" position="float">
+        <label>FIGURE 6.</label>
+        <caption>
+          <p><bold>A model of T6SS functions in <italic>P. aeruginosa</italic>.</bold> H1- and H2-T6SS are differently regulated and have diverse functions. H1-T6SS targets bacteriolytic effectors in host bacteria providing a fitness advantage to <italic>P. aeruginosa</italic> presumably during chronic infection, whereas H2-T6SS mediates <italic>P. aeruginosa</italic> internalization into epithelial cells that could lead to a chronic infection.</p>
+        </caption>
+        <graphic xlink:href="zbc0321217080006"/>
+      </fig>
+      <p>Our results demonstrate that the LasR and RhlR QS regulators induce expression of genes coding the H2-T6SS machinery components in PAO1. In a different <italic>P. aeruginosa</italic> strain, PA14, representative gene transcripts from the three <italic>T6SS</italic> gene clusters, <italic>hcp1</italic>, <italic>hcp2</italic>, and <italic>hcp3</italic>, have also been reported to be regulated by LasR (<xref ref-type="bibr" rid="B19">19</xref>). As noted earlier, PAO1 and PA14 strains differ at the level of <italic>H2-T6SS</italic> loci, <italic>hcp2</italic> is absent from PAO1 locus, and the PA14 locus contains also three other putative substrate genes, <italic>vgrG2</italic>, PA14_43090 encoding an homologue of an <italic>A. hydrophila</italic> type III secretion system (T3SS) effector and PA14_43100 encoding a putative Rhs family protein (<xref ref-type="bibr" rid="B19">19</xref>). From our observation, it thus stands to reason to propose that the H2-T6SS machinery of PA14 is under QS control too. Collectively, these findings tend to indicate that the H2-T6SS machinery and cognate substrates are co-regulated by QS, even if those divergences may even reflect a different function of the H2-T6SS machinery in these two <italic>P. aeruginosa</italic> strains. Indeed, QS control of the T6SS may be generally conserved, as it has also been reported for the plant pathogen <italic>Pectobacterium atrosepticum</italic> (<xref ref-type="bibr" rid="B49">49</xref>), <italic>V. cholerae</italic> 01 (<xref ref-type="bibr" rid="B50">50</xref>, <xref ref-type="bibr" rid="B51">51</xref>), a clinical isolate of <italic>A. hydrophila</italic> (<xref ref-type="bibr" rid="B52">52</xref>), and in <italic>Yersinia pseudotuberculosis</italic> (<xref ref-type="bibr" rid="B53">53</xref>). This strategy may allow pathogens to coordinately regulate the T6SS with other important virulence determinants, including other secretion systems, toxins, proteases, and biofilm-promoting factors.</p>
+      <p>One challenge that many pathogens face is the low iron availability in host tissues, which sequester iron as a protective mechanism against bacterial infections. The <italic>P. aeruginosa</italic> Fur regulator responds to low iron conditions by de-repressing virulence factors, including siderophores, heme uptake system, exotoxin A, and proteases (<xref ref-type="bibr" rid="B54">54</xref>). We now show that <italic>H2-T6SS</italic> is also negatively regulated by the Fur system, which may facilitate uptake of the bacteria into epithelial cells. The co-regulation of iron acquisition genes and secretion machinery genes have been recently reported for other bacteria, including the T3SS genes of <italic>Bordetella pertussis</italic> (<xref ref-type="bibr" rid="B55">55</xref>), the T6SS of enteroaggregative <italic>E. coli</italic> (<xref ref-type="bibr" rid="B56">56</xref>), and the T6SS and T3SS genes of <italic>Edwarsiella tarda</italic> (<xref ref-type="bibr" rid="B57">57</xref>). The co-regulation of iron uptake systems and secreted virulence factors may function synergistically to improve iron availability to bacteria that are in the iron-limited environment of the host. In addition, other Fur-regulated genes may contribute to bacterial survival in the hostile environment of the host. For instance, Fur regulates the expression of stress genes involved in <italic>Helicobacter pylori</italic> acid resistance response during the gut infection (<xref ref-type="bibr" rid="B58">58</xref>), helping the bacteria to adapt and to adjust to the acidic conditions encountered in the stomach.</p>
+      <p>Our studies reveal that H2-T6SS mediates interactions with mammalian host cells. Interestingly, phylogenetic analysis demonstrates that the <italic>P. aeruginosa</italic> H2-T6SS is most closely related to the eukaryotic-cell targeting T6SSs of <italic>V. cholerae</italic>, <italic>A. hydrophila</italic>, or <italic>H. hepaticus</italic> (<xref ref-type="bibr" rid="B59">59</xref> - <xref ref-type="bibr" rid="B61">61</xref>). Consistent with the notion that H2-T6SS targets eukaryotic cells, we find that H2-T6SS plays a role in PI3K/Akt-dependent bacterial entry into epithelial cells; inactivation of the ATPase ClpV2 results in an ~50% decrease in bacterial internalization and a corresponding decrease in Akt phosphorylation. This raises an interesting question about the mechanism of action of H2-T6SS in facilitating the uptake of bacteria by mammalian cells. Internalization promoting factors could act from the cellular exterior in analogy with the <italic>Listeria</italic> internalins or <italic>Yersinia</italic> invasin or from the inside as the T3SS effectors of <italic>Shigella</italic> or <italic>Salmonellae</italic> (<xref ref-type="bibr" rid="B62">62</xref>). Because an intracellular delivery has been demonstrated for certain VgrG proteins in other Gram-negative bacteria (<xref ref-type="bibr" rid="B11">11</xref>, <xref ref-type="bibr" rid="B12">12</xref>, <xref ref-type="bibr" rid="B14">14</xref>), we would favor that one or more H2-T6SS substrates may directly activate PI3K/Akt pathway to trigger cytoskeleton rearrangement and/or to modulate the innate immune response.</p>
+      <p>In contrast to H2-T6SS, the T3SS regulon of <italic>P. aeruginosa</italic> is negatively controlled by QS (<xref ref-type="bibr" rid="B30">30</xref>) and acts as an anti-internalization factor (<xref ref-type="bibr" rid="B63">63</xref>). Thus, H2-T6SS and T3SS are reciprocally regulated, possibly reflecting their divergent functions at different stages of the infection process (colonization <italic>versus</italic> dissemination) or the infection mode (acute virulence <italic>versus</italic> chronic persistence). One possibility could have been a direct cross-talk between the two systems, but we did not observe a type III secretion defect in the H2-T6SS mutant (<ext-link ext-link-type="uri" xlink:href="http://www.jbc.org/cgi/content/full/M112.376368/DC1">supplemental Fig. S1<italic>C</italic></ext-link>). We did not monitor any difference in cell rounding and toxicity (lactate dehydrogenase release) in HeLa and macrophages infected with wild type or H2-T6SS mutant strains (data not shown). This suggests that H2-T6SS is most likely important in establishing chronic infection because it does not seem to play a role in acute toxic events like T3SS.</p>
+      <p>Taken together, our observations suggest that the H2-T6SS machinery secretes proteins that target eukaryotic host cell. Despite the lack of apparent <italic>hcp</italic> or <italic>vgrG</italic> genes within the <italic>H2-T6SS</italic> locus of PAO1, two sets of protein (Hcp2a-VgrG2a (PA1512-PA1511) and Hcp2b-VgrG2b (PA0263-PA0262)) have been proposed as putative H2-T6SS substrates (<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B4">4</xref>, <xref ref-type="bibr" rid="B42">42</xref>, <xref ref-type="bibr" rid="B64">64</xref>). One can note that neither VgrG2a nor VgrG2b is an orthologue of VgrG2 from PA14, which is homologous to VgrG6 (<xref ref-type="bibr" rid="B42">42</xref>). Interestingly, transcriptional analysis has revealed that these putative effectors are co-regulated with the H2-T6SS machinery in PAO1 (<xref ref-type="bibr" rid="B65">65</xref> - <xref ref-type="bibr" rid="B69">69</xref>). Future studies will be aimed at identifying the secreted substrates of the H2-T6SS machinery from PAO1 and determining whether they target the host eukaryotic cell.</p>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn fn-type="supported-by" id="FN1">
+        <label>*</label>
+        <p>This work was supported, in whole or in part, by EuroPathoGenomics REX Grant LSHB-CT-2005512061-EPG), "Pathomics" ERA-net PATHO Grant ANR-08-PATH-004-01. This work was also supported by funds from the Royal Society Wellcome Trust Grant WT097939 (to A. F.), National Institutes of Health Grants P01 AI053194 and R01 AI065902 (to J. E.), a Ph.D. fellowship from the French Research Ministry (to T. G. S.), a post-doctoral fellowship from the French Research Minister and from EuroPathoGenomics network of excellence (to A. H.), and a Elizabeth Nash Memorial Fellowship from Cystic Fibrosis Research Inc. (to I. B.).</p>
+      </fn>
+      <fn fn-type="supplementary-material" id="FN2">
+        <label>
+          <inline-graphic xlink:href="sbox.jpg"/>
+        </label>
+        <p>This article contains <ext-link ext-link-type="uri" xlink:href="http://www.jbc.org/cgi/content/full/M112.376368/DC1">supplemental Figs. S1 - S3</ext-link>.</p>
+      </fn>
+    </fn-group>
+    <fn-group content-type="abbreviations">
+      <fn id="FN5">
+        <label>4</label>
+        <p>The abbreviations used are:
+<def-list><def-item><term id="G1">T6SS</term><def><p>type VI secretion system</p></def></def-item><def-item><term id="G2">T3SS</term><def><p>type III secretion system</p></def></def-item><def-item><term id="G3">QS</term><def><p>quorum sensing</p></def></def-item><def-item><term id="G4">MEM</term><def><p>Eagle's minimal essential medium</p></def></def-item><def-item><term id="G5">C<sub>4</sub>-HSL</term><def><p><italic>N</italic>-(butanoyl)-<sc>l</sc>-HSL</p></def></def-item><def-item><term id="G6">LY</term><def><p>LY294002</p></def></def-item><def-item><term id="G7">TSB</term><def><p>Tryptic Soy Broth.</p></def></def-item></def-list></p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank Paul Williams for the generous gift of C<sub>4</sub>-HSL; Rome Voulhoux, Genevi&#xE8;ve Ball, and Bereng&#xE8;re Ize for constant support; and Sana's thesis committee for fruitful discussions.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brencic</surname><given-names>A.</given-names></name><name><surname>Lory</surname><given-names>S.</given-names></name></person-group> (<year>2009</year>) <article-title>Determination of the regulon and identification of novel mRNA targets of <italic>Pseudomonas aeruginosa</italic> RsmA</article-title>. <source>Mol. Microbiol.</source>
+<volume>72</volume>, <fpage>612</fpage> - <lpage>632</lpage><pub-id pub-id-type="pmid">19426209</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bleves</surname><given-names>S.</given-names></name><name><surname>Viarre</surname><given-names>V.</given-names></name><name><surname>Salacha</surname><given-names>R.</given-names></name><name><surname>Michel</surname><given-names>G. P.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name><name><surname>Voulhoux</surname><given-names>R.</given-names></name></person-group> (<year>2010</year>) <article-title>Protein secretion systems in <italic>Pseudomonas aeruginosa.</italic> A wealth of pathogenic weapons</article-title>. <source>Int. J. Med. Microbiol.</source>
+<volume>300</volume>, <fpage>534</fpage> - <lpage>543</lpage><pub-id pub-id-type="pmid">20947426</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mougous</surname><given-names>J. D.</given-names></name><name><surname>Cuff</surname><given-names>M. E.</given-names></name><name><surname>Raunser</surname><given-names>S.</given-names></name><name><surname>Shen</surname><given-names>A.</given-names></name><name><surname>Zhou</surname><given-names>M.</given-names></name><name><surname>Gifford</surname><given-names>C. A.</given-names></name><name><surname>Goodman</surname><given-names>A. L.</given-names></name><name><surname>Joachimiak</surname><given-names>G.</given-names></name><name><surname>Ordo&#xF1;ez</surname><given-names>C. L.</given-names></name><name><surname>Lory</surname><given-names>S.</given-names></name><name><surname>Walz</surname><given-names>T.</given-names></name><name><surname>Joachimiak</surname><given-names>A.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2006</year>) <article-title>A virulence locus of <italic>Pseudomonas aeruginosa</italic> encodes a protein secretion apparatus</article-title>. <source>Science</source>
+<volume>312</volume>, <fpage>1526</fpage> - <lpage>1530</lpage><pub-id pub-id-type="pmid">16763151</pub-id></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filloux</surname><given-names>A.</given-names></name><name><surname>Hachani</surname><given-names>A.</given-names></name><name><surname>Bleves</surname><given-names>S.</given-names></name></person-group> (<year>2008</year>) <article-title>The bacterial type VI secretion machine. Yet another player for protein transport across membranes</article-title>. <source>Microbiology</source>
+<volume>154</volume>, <fpage>1570</fpage> - <lpage>1583</lpage><pub-id pub-id-type="pmid">18524912</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Basler</surname><given-names>M.</given-names></name><name><surname>Pilhofer</surname><given-names>M.</given-names></name><name><surname>Henderson</surname><given-names>G. P.</given-names></name><name><surname>Jensen</surname><given-names>G. J.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2012</year>) <article-title>Type VI secretion requires a dynamic contractile phage tail-like structure</article-title>. <source>Nature</source>
+<volume>483</volume>, <fpage>182</fpage> - <lpage>186</lpage><pub-id pub-id-type="pmid">22367545</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cascales</surname><given-names>E.</given-names></name><name><surname>Cambillau</surname><given-names>C.</given-names></name></person-group> (<year>2012</year>) <article-title>Structural biology of type VI secretion systems</article-title>. <source>Philos. Trans. R. Soc. Lond.</source>
+<volume>367</volume>, <fpage>1102</fpage> - <lpage>1111</lpage><pub-id pub-id-type="pmid">22411981</pub-id></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pukatzki</surname><given-names>S.</given-names></name><name><surname>Ma</surname><given-names>A. T.</given-names></name><name><surname>Sturtevant</surname><given-names>D.</given-names></name><name><surname>Krastins</surname><given-names>B.</given-names></name><name><surname>Sarracino</surname><given-names>D.</given-names></name><name><surname>Nelson</surname><given-names>W. C.</given-names></name><name><surname>Heidelberg</surname><given-names>J. F.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2006</year>) <article-title>Identification of a conserved bacterial protein secretion system in <italic>Vibrio cholerae</italic> using the <italic>Dictyostelium</italic> host model system</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>103</volume>, <fpage>1528</fpage> - <lpage>1533</lpage><pub-id pub-id-type="pmid">16432199</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pukatzki</surname><given-names>S.</given-names></name><name><surname>McAuley</surname><given-names>S. B.</given-names></name><name><surname>Miyata</surname><given-names>S. T.</given-names></name></person-group> (<year>2009</year>) <article-title>The type VI secretion system. Translocation of effectors and effector-domains</article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>12</volume>, <fpage>11</fpage> - <lpage>17</lpage><pub-id pub-id-type="pmid">19162533</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwarz</surname><given-names>S.</given-names></name><name><surname>Hood</surname><given-names>R. D.</given-names></name><name><surname>Mougous</surname><given-names>J. D.</given-names></name></person-group> (<year>2010a</year>) <article-title>What is type VI secretion doing in all those bugs?</article-title>
+<source>Trends microbiol.</source>
+<volume>18</volume>, <fpage>531</fpage> - <lpage>537</lpage><pub-id pub-id-type="pmid">20961764</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jani</surname><given-names>A. J.</given-names></name><name><surname>Cotter</surname><given-names>P. A.</given-names></name></person-group> (<year>2010</year>) <article-title>Type VI secretion. Not just for pathogenesis anymore</article-title>. <source>Cell Host Microbe</source>
+<volume>8</volume>, <fpage>2</fpage> - <lpage>6</lpage><pub-id pub-id-type="pmid">20638635</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pukatzki</surname><given-names>S.</given-names></name><name><surname>Ma</surname><given-names>A. T.</given-names></name><name><surname>Revel</surname><given-names>A. T.</given-names></name><name><surname>Sturtevant</surname><given-names>D.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2007</year>) <article-title>Type VI secretion system translocates a phage tail spike-like protein into target cells where it cross-links actin</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>104</volume>, <fpage>15508</fpage> - <lpage>15513</lpage><pub-id pub-id-type="pmid">17873062</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ma</surname><given-names>A. T.</given-names></name><name><surname>McAuley</surname><given-names>S.</given-names></name><name><surname>Pukatzki</surname><given-names>S.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2009</year>) <article-title>Translocation of a <italic>Vibrio cholerae</italic> type VI secretion effector requires bacterial endocytosis by host cells</article-title>. <source>Cell Host Microbe</source>
+<volume>5</volume>, <fpage>234</fpage> - <lpage>243</lpage><pub-id pub-id-type="pmid">19286133</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ma</surname><given-names>A. T.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2010</year>) <article-title><italic>In vivo</italic> actin cross-linking induced by <italic>Vibrio cholerae</italic> type VI secretion system is associated with intestinal inflammation</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>107</volume>, <fpage>4365</fpage> - <lpage>4370</lpage><pub-id pub-id-type="pmid">20150509</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Suarez</surname><given-names>G.</given-names></name><name><surname>Sierra</surname><given-names>J. C.</given-names></name><name><surname>Erova</surname><given-names>T. E.</given-names></name><name><surname>Sha</surname><given-names>J.</given-names></name><name><surname>Horneman</surname><given-names>A. J.</given-names></name><name><surname>Chopra</surname><given-names>A. K.</given-names></name></person-group> (<year>2010</year>) <article-title>A type VI secretion system effector protein, VgrG1, from <italic>Aeromonas hydrophila</italic> that induces host cell toxicity by ADP ribosylation of actin</article-title>. <source>J. Bacteriol.</source>
+<volume>192</volume>, <fpage>155</fpage> - <lpage>168</lpage><pub-id pub-id-type="pmid">19880608</pub-id></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hood</surname><given-names>R. D.</given-names></name><name><surname>Singh</surname><given-names>P.</given-names></name><name><surname>Hsu</surname><given-names>F.</given-names></name><name><surname>Guvener</surname><given-names>T.</given-names></name><name><surname>Carl</surname><given-names>M. A.</given-names></name><name><surname>Trinidad</surname><given-names>R. R.</given-names></name><name><surname>Silverman</surname><given-names>J. M.</given-names></name><name><surname>Ohlson</surname><given-names>B. B.</given-names></name><name><surname>Hicks</surname><given-names>K. G.</given-names></name><name><surname>Plemel</surname><given-names>R. L.</given-names></name><name><surname>Li</surname><given-names>M.</given-names></name><name><surname>Schwarz</surname><given-names>S.</given-names></name><name><surname>Wang</surname><given-names>W. Y.</given-names></name><name><surname>Merz</surname><given-names>A. J.</given-names></name><name><surname>Goodlett</surname><given-names>D. R.</given-names></name><name><surname>Mougous</surname><given-names>J. D.</given-names></name></person-group> (<year>2010</year>) <article-title>A type VI secretion system of <italic>Pseudomonas aeruginosa</italic> targets a toxin to bacteria</article-title>. <source>Cell Host Microbe</source>
+<volume>7</volume>, <fpage>25</fpage> - <lpage>37</lpage><pub-id pub-id-type="pmid">20114026</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Russell</surname><given-names>A. B.</given-names></name><name><surname>Hood</surname><given-names>R. D.</given-names></name><name><surname>Bui</surname><given-names>N. K.</given-names></name><name><surname>LeRoux</surname><given-names>M.</given-names></name><name><surname>Vollmer</surname><given-names>W.</given-names></name><name><surname>Mougous</surname><given-names>J. D.</given-names></name></person-group> (<year>2011</year>) <article-title>Type VI secretion delivers bacteriolytic effectors to target cells</article-title>. <source>Nature</source>
+<volume>475</volume>, <fpage>343</fpage> - <lpage>347</lpage><pub-id pub-id-type="pmid">21776080</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Southey-Pillig</surname><given-names>C. J.</given-names></name><name><surname>Davies</surname><given-names>D. G.</given-names></name><name><surname>Sauer</surname><given-names>K.</given-names></name></person-group> (<year>2005</year>) <article-title>Characterization of temporal protein production in <italic>Pseudomonas aeruginosa</italic> biofilms</article-title>. <source>J. Bacteriol.</source>
+<volume>187</volume>, <fpage>8114</fpage> - <lpage>8126</lpage><pub-id pub-id-type="pmid">16291684</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Potvin</surname><given-names>E.</given-names></name><name><surname>Lehoux</surname><given-names>D. E.</given-names></name><name><surname>Kukavica-Ibrulj</surname><given-names>I.</given-names></name><name><surname>Richard</surname><given-names>K. L.</given-names></name><name><surname>Sanschagrin</surname><given-names>F.</given-names></name><name><surname>Lau</surname><given-names>G. W.</given-names></name><name><surname>Levesque</surname><given-names>R. C.</given-names></name></person-group> (<year>2003</year>) <article-title><italic>In vivo</italic> functional genomics of <italic>Pseudomonas aeruginosa</italic> for high-throughput screening of new virulence factors and antibacterial targets</article-title>. <source>Environ. Microbiol.</source>
+<volume>5</volume>, <fpage>1294</fpage> - <lpage>1308</lpage><pub-id pub-id-type="pmid">14641575</pub-id></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lesic</surname><given-names>B.</given-names></name><name><surname>Starkey</surname><given-names>M.</given-names></name><name><surname>He</surname><given-names>J.</given-names></name><name><surname>Hazan</surname><given-names>R.</given-names></name><name><surname>Rahme</surname><given-names>L. G.</given-names></name></person-group> (<year>2009</year>) <article-title>Quorum sensing differentially regulates <italic>Pseudomonas aeruginosa</italic> type VI secretion locus I and homologous loci II and III, which are required for pathogenesis</article-title>. <source>Microbiology</source>
+<volume>155</volume>, <fpage>2845</fpage> - <lpage>2855</lpage><pub-id pub-id-type="pmid">19497948</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vasseur</surname><given-names>P.</given-names></name><name><surname>Vallet-Gely</surname><given-names>I.</given-names></name><name><surname>Soscia</surname><given-names>C.</given-names></name><name><surname>Genin</surname><given-names>S.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group> (<year>2005</year>) <article-title>The pel genes of the <italic>Pseudomonas aeruginosa</italic> PAK strain are involved at early and late stages of biofilm formation</article-title>. <source>Microbiology</source>
+<volume>151</volume>, <fpage>985</fpage> - <lpage>997</lpage><pub-id pub-id-type="pmid">15758243</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoang</surname><given-names>T. T.</given-names></name><name><surname>Kutchma</surname><given-names>A. J.</given-names></name><name><surname>Becher</surname><given-names>A.</given-names></name><name><surname>Schweizer</surname><given-names>H. P.</given-names></name></person-group> (<year>2000</year>) <article-title>Integration-proficient plasmids for <italic>Pseudomonas aeruginosa.</italic> Site-specific integration and use for engineering of reporter and expression strains</article-title>. <source>Plasmid</source>
+<volume>43</volume>, <fpage>59</fpage> - <lpage>72</lpage><pub-id pub-id-type="pmid">10610820</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <mixed-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>J. H.</given-names></name></person-group> (<year>1972</year>) <source>Experiments in Molecular Genetics</source>, <publisher-name>Cold Spring Harbor Laboratory</publisher-name>, <publisher-loc>Cold Spring Harbor, NY</publisher-loc></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zaborin</surname><given-names>A.</given-names></name><name><surname>Romanowski</surname><given-names>K.</given-names></name><name><surname>Gerdes</surname><given-names>S.</given-names></name><name><surname>Holbrook</surname><given-names>C.</given-names></name><name><surname>Lepine</surname><given-names>F.</given-names></name><name><surname>Long</surname><given-names>J.</given-names></name><name><surname>Poroyko</surname><given-names>V.</given-names></name><name><surname>Diggle</surname><given-names>S. P.</given-names></name><name><surname>Wilke</surname><given-names>A.</given-names></name><name><surname>Righetti</surname><given-names>K.</given-names></name><name><surname>Morozova</surname><given-names>I.</given-names></name><name><surname>Babrowski</surname><given-names>T.</given-names></name><name><surname>Liu</surname><given-names>D. C.</given-names></name><name><surname>Zaborina</surname><given-names>O.</given-names></name><name><surname>Alverdy</surname><given-names>J. C.</given-names></name></person-group> (<year>2009</year>) <article-title>Red death in <italic>Caenorhabditis elegans</italic> caused by <italic>Pseudomonas aeruginosa</italic> PAO1</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>106</volume>, <fpage>6327</fpage> - <lpage>6332</lpage><pub-id pub-id-type="pmid">19369215</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goodman</surname><given-names>A. L.</given-names></name><name><surname>Kulasekara</surname><given-names>B.</given-names></name><name><surname>Rietsch</surname><given-names>A.</given-names></name><name><surname>Boyd</surname><given-names>D.</given-names></name><name><surname>Smith</surname><given-names>R. S.</given-names></name><name><surname>Lory</surname><given-names>S.</given-names></name></person-group> (<year>2004</year>) <article-title>A signaling network reciprocally regulates genes associated with acute infection and chronic persistence in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Dev. Cell</source>
+<volume>7</volume>, <fpage>745</fpage> - <lpage>754</lpage><pub-id pub-id-type="pmid">15525535</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bordi</surname><given-names>C.</given-names></name><name><surname>Lamy</surname><given-names>M. C.</given-names></name><name><surname>Ventre</surname><given-names>I.</given-names></name><name><surname>Termine</surname><given-names>E.</given-names></name><name><surname>Hachani</surname><given-names>A.</given-names></name><name><surname>Fillet</surname><given-names>S.</given-names></name><name><surname>Roche</surname><given-names>B.</given-names></name><name><surname>Bleves</surname><given-names>S.</given-names></name><name><surname>Mejean</surname><given-names>V.</given-names></name><name><surname>Lazdunski</surname><given-names>A.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group> (<year>2010</year>) <article-title>Regulatory RNAs and the HptB/RetS signalling pathways fine-tune <italic>Pseudomonas aeruginosa</italic> pathogenesis</article-title>. <source>Mol. Microbiol.</source>
+<volume>76</volume>, <fpage>1427</fpage> - <lpage>1443</lpage><pub-id pub-id-type="pmid">20398205</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moscoso</surname><given-names>J. A.</given-names></name><name><surname>Mikkelsen</surname><given-names>H.</given-names></name><name><surname>Heeb</surname><given-names>S.</given-names></name><name><surname>Williams</surname><given-names>P.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group> (<year>2011</year>) <article-title>The <italic>Pseudomonas aeruginosa</italic> sensor RetS switches type III and type VI secretion via c-di-GMP signalling</article-title>. <source>Environ. Microbiol.</source>
+<volume>13</volume>, <fpage>3128</fpage> - <lpage>3138</lpage><pub-id pub-id-type="pmid">21955777</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lazdunski</surname><given-names>A. M.</given-names></name><name><surname>Ventre</surname><given-names>I.</given-names></name><name><surname>Sturgis</surname><given-names>J. N.</given-names></name></person-group> (<year>2004</year>) <article-title>Regulatory circuits and communication in Gram-negative bacteria</article-title>. <source>Nat. Rev. Microbiol.</source>
+<volume>2</volume>, <fpage>581</fpage> - <lpage>592</lpage><pub-id pub-id-type="pmid">15197393</pub-id></mixed-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Latifi</surname><given-names>A.</given-names></name><name><surname>Foglino</surname><given-names>M.</given-names></name><name><surname>Tanaka</surname><given-names>K.</given-names></name><name><surname>Williams</surname><given-names>P.</given-names></name><name><surname>Lazdunski</surname><given-names>A.</given-names></name></person-group> (<year>1996</year>) <article-title>A hierarchical quorum-sensing cascade in <italic>Pseudomonas aeruginosa</italic> links the transcriptional activators LasR and RhIR (VsmR) to expression of the stationary-phase sigma factor RpoS</article-title>. <source>Mol. Microbiol.</source>
+<volume>21</volume>, <fpage>1137</fpage> - <lpage>1146</lpage><pub-id pub-id-type="pmid">8898383</pub-id></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brint</surname><given-names>J. M.</given-names></name><name><surname>Ohman</surname><given-names>D. E.</given-names></name></person-group> (<year>1995</year>) <article-title>Synthesis of multiple exoproducts in <italic>Pseudomonas aeruginosa</italic> is under the control of RhlR-RhlI, another set of regulators in strain PAO1 with homology to the autoinducer-responsive LuxR-LuxI family</article-title>. <source>J. Bacteriol.</source>
+<volume>177</volume>, <fpage>7155</fpage> - <lpage>7163</lpage><pub-id pub-id-type="pmid">8522523</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bleves</surname><given-names>S.</given-names></name><name><surname>Soscia</surname><given-names>C.</given-names></name><name><surname>Nogueira-Orlandi</surname><given-names>P.</given-names></name><name><surname>Lazdunski</surname><given-names>A.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group> (<year>2005</year>) <article-title>Quorum sensing negatively controls type III secretion regulon expression in <italic>Pseudomonas aeruginosa</italic> PAO1</article-title>. <source>J. Bacteriol.</source>
+<volume>187</volume>, <fpage>3898</fpage> - <lpage>3902</lpage><pub-id pub-id-type="pmid">15901720</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Winson</surname><given-names>M. K.</given-names></name><name><surname>Camara</surname><given-names>M.</given-names></name><name><surname>Latifi</surname><given-names>A.</given-names></name><name><surname>Foglino</surname><given-names>M.</given-names></name><name><surname>Chhabra</surname><given-names>S. R.</given-names></name><name><surname>Daykin</surname><given-names>M.</given-names></name><name><surname>Bally</surname><given-names>M.</given-names></name><name><surname>Chapon</surname><given-names>V.</given-names></name><name><surname>Salmond</surname><given-names>G. P.</given-names></name><name><surname>Bycroft</surname><given-names>B. W.</given-names></name></person-group> (<year>1995</year>) <article-title>Multiple <italic>N</italic>-acyl-<sc>l</sc>-homoserine lactone signal molecules regulate production of virulence determinants and secondary metabolites in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>92</volume>, <fpage>9427</fpage> - <lpage>9431</lpage><pub-id pub-id-type="pmid">7568146</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Whiteley</surname><given-names>M.</given-names></name><name><surname>Lee</surname><given-names>K. M.</given-names></name><name><surname>Greenberg</surname><given-names>E. P.</given-names></name></person-group> (<year>1999</year>) <article-title>Identification of genes controlled by quorum sensing in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>96</volume>, <fpage>13904</fpage> - <lpage>13909</lpage><pub-id pub-id-type="pmid">10570171</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Egland</surname><given-names>K. A.</given-names></name><name><surname>Greenberg</surname><given-names>E. P.</given-names></name></person-group> (<year>1999</year>) <article-title>Quorum sensing in <italic>Vibrio fischeri.</italic> Elements of the luxl promoter</article-title>. <source>Mol. Microbiol.</source>
+<volume>31</volume>, <fpage>1197</fpage> - <lpage>1204</lpage><pub-id pub-id-type="pmid">10096086</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ochsner</surname><given-names>U. A.</given-names></name><name><surname>Wilderman</surname><given-names>P. J.</given-names></name><name><surname>Vasil</surname><given-names>A. I.</given-names></name><name><surname>Vasil</surname><given-names>M. L.</given-names></name></person-group> (<year>2002</year>) <article-title>GeneChip expression analysis of the iron starvation response in <italic>Pseudomonas aeruginosa.</italic> Identification of novel pyoverdine biosynthesis genes</article-title>. <source>Mol. Microbiol.</source>
+<volume>45</volume>, <fpage>1277</fpage> - <lpage>1287</lpage><pub-id pub-id-type="pmid">12207696</pub-id></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ochsner</surname><given-names>U. A.</given-names></name><name><surname>Vasil</surname><given-names>A. I.</given-names></name><name><surname>Vasil</surname><given-names>M. L.</given-names></name></person-group> (<year>1995</year>) <article-title>Role of the ferric uptake regulator of <italic>Pseudomonas aeruginosa</italic> in the regulation of siderophores and exotoxin A expression. Purification and activity on iron-regulated promoters</article-title>. <source>J. Bacteriol.</source>
+<volume>177</volume>, <fpage>7194</fpage> - <lpage>7201</lpage><pub-id pub-id-type="pmid">8522528</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Banin</surname><given-names>E.</given-names></name><name><surname>Vasil</surname><given-names>M. L.</given-names></name><name><surname>Greenberg</surname><given-names>E. P.</given-names></name></person-group> (<year>2005</year>) <article-title>Iron and <italic>Pseudomonas aeruginosa</italic> biofilm formation</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>102</volume>, <fpage>11076</fpage> - <lpage>11081</lpage><pub-id pub-id-type="pmid">16043697</pub-id></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <label>37.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Lorenzo</surname><given-names>V.</given-names></name><name><surname>Wee</surname><given-names>S.</given-names></name><name><surname>Herrero</surname><given-names>M.</given-names></name><name><surname>Neilands</surname><given-names>J. B.</given-names></name></person-group> (<year>1987</year>) <article-title>Operator sequences of the aerobactin operon of plasmid ColV-K30 binding the ferric uptake regulation (fur) repressor</article-title>. <source>J. Bacteriol.</source>
+<volume>169</volume>, <fpage>2624</fpage> - <lpage>2630</lpage><pub-id pub-id-type="pmid">3294800</pub-id></mixed-citation>
+      </ref>
+      <ref id="B38">
+        <label>38.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ochsner</surname><given-names>U. A.</given-names></name><name><surname>Johnson</surname><given-names>Z.</given-names></name><name><surname>Lamont</surname><given-names>I. L.</given-names></name><name><surname>Cunliffe</surname><given-names>H. E.</given-names></name><name><surname>Vasil</surname><given-names>M. L.</given-names></name></person-group> (<year>1996</year>) <article-title>Exotoxin A production in <italic>Pseudomonas aeruginosa</italic> requires the iron-regulated pvdS gene encoding an alternative sigma factor</article-title>. <source>Mol. Microbiol.</source>
+<volume>21</volume>, <fpage>1019</fpage> - <lpage>1028</lpage><pub-id pub-id-type="pmid">8885271</pub-id></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <label>39.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Escolar</surname><given-names>L.</given-names></name><name><surname>Perez-Martin</surname><given-names>J.</given-names></name><name><surname>de Lorenzo</surname><given-names>V.</given-names></name></person-group> (<year>1998</year>) <article-title>Binding of the fur (ferric uptake regulator) repressor of <italic>Escherichia coli</italic> to arrays of the GATAAT sequence</article-title>. <source>J. Mol. Biol.</source>
+<volume>283</volume>, <fpage>537</fpage> - <lpage>547</lpage><pub-id pub-id-type="pmid">9784364</pub-id></mixed-citation>
+      </ref>
+      <ref id="B40">
+        <label>40.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barton</surname><given-names>H. A.</given-names></name><name><surname>Johnson</surname><given-names>Z.</given-names></name><name><surname>Cox</surname><given-names>C. D.</given-names></name><name><surname>Vasil</surname><given-names>A. I.</given-names></name><name><surname>Vasil</surname><given-names>M. L.</given-names></name></person-group> (<year>1996</year>) <article-title>Ferric uptake regulator mutants of <italic>Pseudomonas aeruginosa</italic> with distinct alterations in the iron-dependent repression of exotoxin A and siderophores in aerobic and microaerobic environments</article-title>. <source>Mol. Microbiol.</source>
+<volume>21</volume>, <fpage>1001</fpage> - <lpage>1017</lpage><pub-id pub-id-type="pmid">8885270</pub-id></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <label>41.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chi</surname><given-names>E.</given-names></name><name><surname>Mehl</surname><given-names>T.</given-names></name><name><surname>Nunn</surname><given-names>D.</given-names></name><name><surname>Lory</surname><given-names>S.</given-names></name></person-group> (<year>1991</year>) <article-title>Interaction of <italic>Pseudomonas aeruginosa</italic> with A549 pneumocyte cells</article-title>. <source>Infect. Immun.</source>
+<volume>59</volume>, <fpage>822</fpage> - <lpage>828</lpage><pub-id pub-id-type="pmid">1671777</pub-id></mixed-citation>
+      </ref>
+      <ref id="B42">
+        <label>42.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hachani</surname><given-names>A.</given-names></name><name><surname>Lossi</surname><given-names>N. S.</given-names></name><name><surname>Hamilton</surname><given-names>A.</given-names></name><name><surname>Jones</surname><given-names>C.</given-names></name><name><surname>Bleves</surname><given-names>S.</given-names></name><name><surname>Albesa-Jove</surname><given-names>D.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group> (<year>2011</year>) <article-title>Type VI secretion system in <italic>Pseudomonas aeruginosa.</italic> Secretion and multimerization of VgrG proteins</article-title>. <source>J. Biol. Chem.</source>
+<volume>286</volume>, <fpage>12317</fpage> - <lpage>12327</lpage><pub-id pub-id-type="pmid">21325275</pub-id></mixed-citation>
+      </ref>
+      <ref id="B43">
+        <label>43.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fleiszig</surname><given-names>S. M.</given-names></name><name><surname>Zaidi</surname><given-names>T. S.</given-names></name><name><surname>Pier</surname><given-names>G. B.</given-names></name></person-group> (<year>1995</year>) <article-title><italic>Pseudomonas aeruginosa</italic> invasion of and multiplication within corneal epithelial cells <italic>in vitro</italic></article-title>. <source>Infect. Immun.</source>
+<volume>63</volume>, <fpage>4072</fpage> - <lpage>4077</lpage><pub-id pub-id-type="pmid">7558321</pub-id></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <label>44.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kierbel</surname><given-names>A.</given-names></name><name><surname>Gassama-Diagne</surname><given-names>A.</given-names></name><name><surname>Mostov</surname><given-names>K.</given-names></name><name><surname>Engel</surname><given-names>J. N.</given-names></name></person-group> (<year>2005</year>) <article-title>The phosphoinositol-3-kinase-protein kinase B/Akt pathway is critical for <italic>Pseudomonas aeruginosa</italic> strain PAK internalization</article-title>. <source>Mol. Biol. Cell</source>
+<volume>16</volume>, <fpage>2577</fpage> - <lpage>2585</lpage><pub-id pub-id-type="pmid">15772151</pub-id></mixed-citation>
+      </ref>
+      <ref id="B45">
+        <label>45.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kierbel</surname><given-names>A.</given-names></name><name><surname>Gassama-Diagne</surname><given-names>A.</given-names></name><name><surname>Rocha</surname><given-names>C.</given-names></name><name><surname>Radoshevich</surname><given-names>L.</given-names></name><name><surname>Olson</surname><given-names>J.</given-names></name><name><surname>Mostov</surname><given-names>K.</given-names></name><name><surname>Engel</surname><given-names>J.</given-names></name></person-group> (<year>2007</year>) <article-title><italic>Pseudomonas aeruginosa</italic> exploits a PIP<sub>3</sub>-dependent pathway to transform apical into basolateral membrane</article-title>. <source>J. Cell Biol.</source>
+<volume>177</volume>, <fpage>21</fpage> - <lpage>27</lpage><pub-id pub-id-type="pmid">17403925</pub-id></mixed-citation>
+      </ref>
+      <ref id="B46">
+        <label>46.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engel</surname><given-names>J.</given-names></name><name><surname>Eran</surname><given-names>Y.</given-names></name></person-group> (<year>2011</year>) <article-title>Subversion of mucosal barrier polarity by <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Front. Microbiol.</source>
+<volume>2</volume>, <fpage>114</fpage><pub-id pub-id-type="pmid">21747810</pub-id></mixed-citation>
+      </ref>
+      <ref id="B47">
+        <label>47.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garvis</surname><given-names>S.</given-names></name><name><surname>Munder</surname><given-names>A.</given-names></name><name><surname>Ball</surname><given-names>G.</given-names></name><name><surname>de Bentzmann</surname><given-names>S.</given-names></name><name><surname>Wiehlmann</surname><given-names>L.</given-names></name><name><surname>Ewbank</surname><given-names>J. J.</given-names></name><name><surname>Tummler</surname><given-names>B.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group> (<year>2009</year>) <article-title><italic>Caenorhabditis elegans</italic> semi-automated liquid screen reveals a specialized role for the chemotaxis gene cheB2 in <italic>Pseudomonas aeruginosa</italic> virulence</article-title>. <source>PLoS Pathogens</source>
+<volume>5</volume>, <fpage>e1000540</fpage><pub-id pub-id-type="pmid">19662168</pub-id></mixed-citation>
+      </ref>
+      <ref id="B48">
+        <label>48.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tan</surname><given-names>M. W.</given-names></name><name><surname>Ausubel</surname><given-names>F. M.</given-names></name></person-group> (<year>2000</year>) <article-title><italic>Caenorhabditis elegans.</italic> A model genetic host to study <italic>Pseudomonas aeruginosa</italic> pathogenesis</article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>3</volume>, <fpage>29</fpage> - <lpage>34</lpage><pub-id pub-id-type="pmid">10679415</pub-id></mixed-citation>
+      </ref>
+      <ref id="B49">
+        <label>49.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>H.</given-names></name><name><surname>Coulthurst</surname><given-names>S. J.</given-names></name><name><surname>Pritchard</surname><given-names>L.</given-names></name><name><surname>Hedley</surname><given-names>P. E.</given-names></name><name><surname>Ravensdale</surname><given-names>M.</given-names></name><name><surname>Humphris</surname><given-names>S.</given-names></name><name><surname>Burr</surname><given-names>T.</given-names></name><name><surname>Takle</surname><given-names>G.</given-names></name><name><surname>Brurberg</surname><given-names>M. B.</given-names></name><name><surname>Birch</surname><given-names>P. R.</given-names></name><name><surname>Salmond</surname><given-names>G. P.</given-names></name><name><surname>Toth</surname><given-names>I. K.</given-names></name></person-group> (<year>2008</year>) <article-title>Quorum sensing coordinates brute force and stealth modes of infection in the plant pathogen <italic>Pectobacterium atrosepticum</italic></article-title>. <source>PLoS Pathogens</source>
+<volume>4</volume>, <fpage>e1000093</fpage><pub-id pub-id-type="pmid">18566662</pub-id></mixed-citation>
+      </ref>
+      <ref id="B50">
+        <label>50.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ishikawa</surname><given-names>T.</given-names></name><name><surname>Rompikuntal</surname><given-names>P. K.</given-names></name><name><surname>Lindmark</surname><given-names>B.</given-names></name><name><surname>Milton</surname><given-names>D. L.</given-names></name><name><surname>Wai</surname><given-names>S. N.</given-names></name></person-group> (<year>2009</year>) <article-title>Quorum sensing regulation of the two hcp alleles in <italic>Vibrio cholerae</italic> O1 strains</article-title>. <source>PLoS One</source>
+<volume>4</volume>, <fpage>e6734</fpage><pub-id pub-id-type="pmid">19701456</pub-id></mixed-citation>
+      </ref>
+      <ref id="B51">
+        <label>51.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zheng</surname><given-names>J.</given-names></name><name><surname>Shin</surname><given-names>O. S.</given-names></name><name><surname>Cameron</surname><given-names>D. E.</given-names></name><name><surname>Mekalanos</surname><given-names>J. J.</given-names></name></person-group> (<year>2010</year>) <article-title>Quorum sensing and a global regulator TsrA control expression of type VI secretion and virulence in <italic>Vibrio cholerae</italic></article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>107</volume>, <fpage>21128</fpage> - <lpage>21133</lpage><pub-id pub-id-type="pmid">21084635</pub-id></mixed-citation>
+      </ref>
+      <ref id="B52">
+        <label>52.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khajanchi</surname><given-names>B. K.</given-names></name><name><surname>Sha</surname><given-names>J.</given-names></name><name><surname>Kozlova</surname><given-names>E. V.</given-names></name><name><surname>Erova</surname><given-names>T. E.</given-names></name><name><surname>Suarez</surname><given-names>G.</given-names></name><name><surname>Sierra</surname><given-names>J. C.</given-names></name><name><surname>Popov</surname><given-names>V. L.</given-names></name><name><surname>Horneman</surname><given-names>A. J.</given-names></name><name><surname>Chopra</surname><given-names>A. K.</given-names></name></person-group> (<year>2009</year>) <article-title><italic>N</italic>-Acylhomoserine lactones involved in quorum sensing control the type VI secretion system, biofilm formation, protease production, and <italic>in vivo</italic> virulence in a clinical isolate of <italic>Aeromonas hydrophila</italic></article-title>. <source>Microbiology</source>
+<volume>155</volume>, <fpage>3518</fpage> - <lpage>3531</lpage><pub-id pub-id-type="pmid">19729404</pub-id></mixed-citation>
+      </ref>
+      <ref id="B53">
+        <label>53.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>W.</given-names></name><name><surname>Xu</surname><given-names>S.</given-names></name><name><surname>Li</surname><given-names>J.</given-names></name><name><surname>Shen</surname><given-names>X.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Yuan</surname><given-names>Z.</given-names></name></person-group> (<year>2011</year>) <article-title>Modulation of a thermoregulated type VI secretion system by AHL-dependent quorum sensing in <italic>Yersinia pseudotuberculosis</italic></article-title>. <source>Arch. Microbiol.</source>
+<volume>193</volume>, <fpage>351</fpage> - <lpage>363</lpage><pub-id pub-id-type="pmid">21298257</pub-id></mixed-citation>
+      </ref>
+      <ref id="B54">
+        <label>54.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornelis</surname><given-names>P.</given-names></name><name><surname>Matthijs</surname><given-names>S.</given-names></name><name><surname>Van Oeffelen</surname><given-names>L.</given-names></name></person-group> (<year>2009</year>) <article-title>Iron uptake regulation in <italic>Pseudomonas aeruginosa</italic></article-title>. <source>Biometals</source>
+<volume>22</volume>, <fpage>15</fpage> - <lpage>22</lpage><pub-id pub-id-type="pmid">19130263</pub-id></mixed-citation>
+      </ref>
+      <ref id="B55">
+        <label>55.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brickman</surname><given-names>T. J.</given-names></name><name><surname>Cummings</surname><given-names>C. A.</given-names></name><name><surname>Liew</surname><given-names>S. Y.</given-names></name><name><surname>Relman</surname><given-names>D. A.</given-names></name><name><surname>Armstrong</surname><given-names>S. K.</given-names></name></person-group> (<year>2011</year>) <article-title>Transcriptional profiling of the iron starvation response in <italic>Bordetella pertussis</italic> provides new insights into siderophore utilization and virulence gene expression</article-title>. <source>J. Bacteriol.</source>
+<volume>193</volume>, <fpage>4798</fpage> - <lpage>4812</lpage><pub-id pub-id-type="pmid">21742863</pub-id></mixed-citation>
+      </ref>
+      <ref id="B56">
+        <label>56.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brunet</surname><given-names>Y. R.</given-names></name><name><surname>Bernard</surname><given-names>C. S.</given-names></name><name><surname>Gavioli</surname><given-names>M.</given-names></name><name><surname>Lloub&#xE8;s</surname><given-names>R.</given-names></name><name><surname>Cascales</surname><given-names>E.</given-names></name></person-group> (<year>2011</year>) <article-title>An epigenetic switch involving overlapping fur and DNA methylation optimizes expression of a type VI secretion gene cluster</article-title>. <source>PLoS Genet.</source>
+<volume>7</volume>, <fpage>e1002205</fpage><pub-id pub-id-type="pmid">21829382</pub-id></mixed-citation>
+      </ref>
+      <ref id="B57">
+        <label>57.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chakraborty</surname><given-names>S.</given-names></name><name><surname>Sivaraman</surname><given-names>J.</given-names></name><name><surname>Leung</surname><given-names>K. Y.</given-names></name><name><surname>Mok</surname><given-names>Y. K.</given-names></name></person-group> (<year>2011</year>) <article-title>Two-component PhoB-PhoR regulatory system and ferric uptake regulator sense phosphate and iron to control virulence genes in type III and VI secretion systems of <italic>Edwardsiella tarda</italic></article-title>. <source>J. Biol. Chem.</source>
+<volume>286</volume>, <fpage>39417</fpage> - <lpage>39430</lpage><pub-id pub-id-type="pmid">21953460</pub-id></mixed-citation>
+      </ref>
+      <ref id="B58">
+        <label>58.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gancz</surname><given-names>H.</given-names></name><name><surname>Censini</surname><given-names>S.</given-names></name><name><surname>Merrell</surname><given-names>D. S.</given-names></name></person-group> (<year>2006</year>) <article-title>Iron and pH homeostasis intersect at the level of Fur regulation in the gastric pathogen <italic>Helicobacter pylori</italic></article-title>. <source>Infect. Immun.</source>
+<volume>74</volume>, <fpage>602</fpage> - <lpage>614</lpage><pub-id pub-id-type="pmid">16369017</pub-id></mixed-citation>
+      </ref>
+      <ref id="B59">
+        <label>59.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bingle</surname><given-names>L. E.</given-names></name><name><surname>Bailey</surname><given-names>C. M.</given-names></name><name><surname>Pallen</surname><given-names>M. J.</given-names></name></person-group> (<year>2008</year>) <article-title>Type VI secretion. A beginner's guide</article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>11</volume>, <fpage>3</fpage> - <lpage>8</lpage><pub-id pub-id-type="pmid">18289922</pub-id></mixed-citation>
+      </ref>
+      <ref id="B60">
+        <label>60.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boyer</surname><given-names>F.</given-names></name><name><surname>Fichant</surname><given-names>G.</given-names></name><name><surname>Berthod</surname><given-names>J.</given-names></name><name><surname>Vandenbrouck</surname><given-names>Y.</given-names></name><name><surname>Attree</surname><given-names>I.</given-names></name></person-group> (<year>2009</year>) <article-title>Dissecting the bacterial type VI secretion system by a genome wide in silico analysis. What can be learned from available microbial genomic resources?</article-title>
+<source>BMC Genomics</source>
+<volume>10</volume>, <fpage>104</fpage><pub-id pub-id-type="pmid">19284603</pub-id></mixed-citation>
+      </ref>
+      <ref id="B61">
+        <label>61.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwarz</surname><given-names>S.</given-names></name><name><surname>West</surname><given-names>T. E.</given-names></name><name><surname>Boyer</surname><given-names>F.</given-names></name><name><surname>Chiang</surname><given-names>W. C.</given-names></name><name><surname>Carl</surname><given-names>M. A.</given-names></name><name><surname>Hood</surname><given-names>R. D.</given-names></name><name><surname>Rohmer</surname><given-names>L.</given-names></name><name><surname>Tolker-Nielsen</surname><given-names>T.</given-names></name><name><surname>Skerrett</surname><given-names>S. J.</given-names></name><name><surname>Mougous</surname><given-names>J. D.</given-names></name></person-group> (<year>2010b</year>) <article-title>Burkholderia type VI secretion systems have distinct roles in eukaryotic and bacterial cell interactions</article-title>. <source>PLoS Pathogens</source>
+<volume>6</volume>, <fpage>e1001068</fpage><pub-id pub-id-type="pmid">20865170</pub-id></mixed-citation>
+      </ref>
+      <ref id="B62">
+        <label>62.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cossart</surname><given-names>P.</given-names></name><name><surname>Sansonetti</surname><given-names>P. J.</given-names></name></person-group> (<year>2004</year>) <article-title>Bacterial invasion. The paradigms of enteroinvasive pathogens</article-title>. <source>Science</source>
+<volume>304</volume>, <fpage>242</fpage> - <lpage>248</lpage><pub-id pub-id-type="pmid">15073367</pub-id></mixed-citation>
+      </ref>
+      <ref id="B63">
+        <label>63.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engel</surname><given-names>J.</given-names></name><name><surname>Balachandran</surname><given-names>P.</given-names></name></person-group> (<year>2009</year>) <article-title>Role of <italic>Pseudomonas aeruginosa</italic> type III effectors in disease</article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>12</volume>, <fpage>61</fpage> - <lpage>66</lpage><pub-id pub-id-type="pmid">19168385</pub-id></mixed-citation>
+      </ref>
+      <ref id="B64">
+        <label>64.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barret</surname><given-names>M.</given-names></name><name><surname>Egan</surname><given-names>F.</given-names></name><name><surname>Fargier</surname><given-names>E.</given-names></name><name><surname>Morrissey</surname><given-names>J. P.</given-names></name><name><surname>O'Gara</surname><given-names>F.</given-names></name></person-group> (<year>2011</year>) <article-title>Genomic analysis of the type VI secretion systems in <italic>Pseudomonas</italic> spp. Novel clusters and putative effectors uncovered</article-title>. <source>Microbiology</source>
+<volume>157</volume>, <fpage>1726</fpage> - <lpage>1739</lpage><pub-id pub-id-type="pmid">21474537</pub-id></mixed-citation>
+      </ref>
+      <ref id="B65">
+        <label>65.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>V. E.</given-names></name><name><surname>Bushnell</surname><given-names>D.</given-names></name><name><surname>Passador</surname><given-names>L.</given-names></name><name><surname>Brooks</surname><given-names>A. I.</given-names></name><name><surname>Iglewski</surname><given-names>B. H.</given-names></name></person-group> (<year>2003</year>) <article-title>Microarray analysis of <italic>Pseudomonas aeruginosa</italic> quorum-sensing regulons. Effects of growth phase and environment</article-title>. <source>J. Bacteriol.</source>
+<volume>185</volume>, <fpage>2080</fpage> - <lpage>2095</lpage><pub-id pub-id-type="pmid">12644477</pub-id></mixed-citation>
+      </ref>
+      <ref id="B66">
+        <label>66.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schuster</surname><given-names>M.</given-names></name><name><surname>Lostroh</surname><given-names>C. P.</given-names></name><name><surname>Ogi</surname><given-names>T.</given-names></name><name><surname>Greenberg</surname><given-names>E. P.</given-names></name></person-group> (<year>2003</year>) <article-title>Identification, timing, and signal specificity of <italic>Pseudomonas aeruginosa</italic> quorum-controlled genes. A transcriptome analysis</article-title>. <source>J. Bacteriol.</source>
+<volume>185</volume>, <fpage>2066</fpage> - <lpage>2079</lpage><pub-id pub-id-type="pmid">12644476</pub-id></mixed-citation>
+      </ref>
+      <ref id="B67">
+        <label>67.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schuster</surname><given-names>M.</given-names></name><name><surname>Hawkins</surname><given-names>A. C.</given-names></name><name><surname>Harwood</surname><given-names>C. S.</given-names></name><name><surname>Greenberg</surname><given-names>E. P.</given-names></name></person-group> (<year>2004</year>) <article-title>The <italic>Pseudomonas aeruginosa</italic> RpoS regulon and its relationship to quorum sensing</article-title>. <source>Mol. Microbiol.</source>
+<volume>51</volume>, <fpage>973</fpage> - <lpage>985</lpage><pub-id pub-id-type="pmid">14763974</pub-id></mixed-citation>
+      </ref>
+      <ref id="B68">
+        <label>68.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Castang</surname><given-names>S.</given-names></name><name><surname>McManus</surname><given-names>H. R.</given-names></name><name><surname>Turner</surname><given-names>K. H.</given-names></name><name><surname>Dove</surname><given-names>S. L.</given-names></name></person-group> (<year>2008</year>) <article-title>H-NS family members function coordinately in an opportunistic pathogen</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>105</volume>, <fpage>18947</fpage> - <lpage>18952</lpage><pub-id pub-id-type="pmid">19028873</pub-id></mixed-citation>
+      </ref>
+      <ref id="B69">
+        <label>69.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deziel</surname><given-names>E.</given-names></name><name><surname>Gopalan</surname><given-names>S.</given-names></name><name><surname>Tampakaki</surname><given-names>A. P.</given-names></name><name><surname>Lepine</surname><given-names>F.</given-names></name><name><surname>Padfield</surname><given-names>K. E.</given-names></name><name><surname>Saucier</surname><given-names>M.</given-names></name><name><surname>Xiao</surname><given-names>G.</given-names></name><name><surname>Rahme</surname><given-names>L. G.</given-names></name></person-group> (<year>2005</year>) <article-title>The contribution of MvfR to <italic>Pseudomonas aeruginosa</italic> pathogenesis and quorum sensing circuitry regulation. Multiple quorum sensing-regulated genes are modulated without affecting lasRI, rhlRI or the production of <italic>N</italic>-acyl-<sc>l</sc>-homoserine lactones</article-title>. <source>Mol. Microbiol.</source>
+<volume>55</volume>, <fpage>998</fpage> - <lpage>1014</lpage><pub-id pub-id-type="pmid">15686549</pub-id></mixed-citation>
+      </ref>
+      <ref id="B70">
+        <label>70.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herrero</surname><given-names>M.</given-names></name><name><surname>de Lorenzo</surname><given-names>V.</given-names></name><name><surname>Timmis</surname><given-names>K. N.</given-names></name></person-group> (<year>1990</year>) <article-title>Transposon vectors containing non-antibiotic resistance selection markers for cloning and stable chromosomal insertion of foreign genes in gram-negative bacteria</article-title>. <source>J. Bacteriol.</source>
+<volume>172</volume>, <fpage>6557</fpage> - <lpage>6567</lpage><pub-id pub-id-type="pmid">2172216</pub-id></mixed-citation>
+      </ref>
+      <ref id="B71">
+        <label>71.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Touati</surname><given-names>D.</given-names></name><name><surname>Jacques</surname><given-names>M.</given-names></name><name><surname>Tardat</surname><given-names>B.</given-names></name><name><surname>Bouchard</surname><given-names>L.</given-names></name><name><surname>Despied</surname><given-names>S.</given-names></name></person-group> (<year>1995</year>) <article-title>Lethal oxidative damage and mutagenesis are generated by iron in delta fur mutants of <italic>Escherichia coli.</italic> Protective role of superoxide dismutase</article-title>. <source>J. Bacteriol.</source>
+<volume>177</volume>, <fpage>2305</fpage> - <lpage>2314</lpage><pub-id pub-id-type="pmid">7730258</pub-id></mixed-citation>
+      </ref>
+      <ref id="B72">
+        <label>72.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Figurski</surname><given-names>D. H.</given-names></name><name><surname>Helinski</surname><given-names>D. R.</given-names></name></person-group> (<year>1979</year>) <article-title>Replication of an origin-containing derivative of plasmid RK2 dependent on a plasmid function provided in trans</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>76</volume>, <fpage>1648</fpage> - <lpage>1652</lpage><pub-id pub-id-type="pmid">377280</pub-id></mixed-citation>
+      </ref>
+      <ref id="B73">
+        <label>73.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kessler</surname><given-names>B.</given-names></name><name><surname>de Lorenzo</surname><given-names>V.</given-names></name><name><surname>Timmis</surname><given-names>K. N.</given-names></name></person-group> (<year>1992</year>) <article-title>A general system to integrate lacZ fusions into the chromosomes of gram-negative eubacteria. Regulation of the Pm promoter of the TOL plasmid studied with all controlling elements in monocopy</article-title>. <source>Mol. Gen. Genet.</source>
+<volume>233</volume>, <fpage>293</fpage> - <lpage>301</lpage><pub-id pub-id-type="pmid">1318499</pub-id></mixed-citation>
+      </ref>
+      <ref id="B74">
+        <label>74.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bao</surname><given-names>Y.</given-names></name><name><surname>Lies</surname><given-names>D. P.</given-names></name><name><surname>Fu</surname><given-names>H.</given-names></name><name><surname>Roberts</surname><given-names>G. P.</given-names></name></person-group> (<year>1991</year>) <article-title>An improved Tn7-based system for the single-copy insertion of cloned genes into chromosomes of gram-negative bacteria</article-title>. <source>Gene</source>
+<volume>109</volume>, <fpage>167</fpage> - <lpage>168</lpage><pub-id pub-id-type="pmid">1661697</pub-id></mixed-citation>
+      </ref>
+      <ref id="B75">
+        <label>75.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koch</surname><given-names>B.</given-names></name><name><surname>Jensen</surname><given-names>L. E.</given-names></name><name><surname>Nybroe</surname><given-names>O.</given-names></name></person-group> (<year>2001</year>) <article-title>A panel of Tn7-based vectors for insertion of the gfp marker gene or for delivery of cloned DNA into Gram-negative bacteria at a neutral chromosomal site</article-title>. <source>J. Microbiol. Methods</source>
+<volume>45</volume>, <fpage>187</fpage> - <lpage>195</lpage><pub-id pub-id-type="pmid">11348676</pub-id></mixed-citation>
+      </ref>
+      <ref id="B76">
+        <label>76.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaniga</surname><given-names>K.</given-names></name><name><surname>Delor</surname><given-names>I.</given-names></name><name><surname>Cornelis</surname><given-names>G. R.</given-names></name></person-group> (<year>1991</year>) <article-title>A wide-host-range suicide vector for improving reverse genetics in gram-negative bacteria. Inactivation of the blaA gene of <italic>Yersinia enterocolitica</italic></article-title>. <source>Gene</source>
+<volume>109</volume>, <fpage>137</fpage> - <lpage>141</lpage><pub-id pub-id-type="pmid">1756974</pub-id></mixed-citation>
+      </ref>
+      <ref id="B77">
+        <label>77.</label>
+        <mixed-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Engel</surname><given-names>J.</given-names></name></person-group> (<year>2007</year>) <source>Pseudomonas: A Model System in Biology</source> (<person-group person-group-type="editor"><name><surname>Ramos</surname><given-names>J. L.</given-names></name><name><surname>Filloux</surname><given-names>A.</given-names></name></person-group>, eds) pp. <fpage>343</fpage> - <lpage>368</lpage>, <publisher-name>Springer</publisher-name>, <publisher-loc>New York</publisher-loc></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

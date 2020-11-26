@@ -1,0 +1,1401 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">25901572</article-id>
+      <article-id pub-id-type="pmc">4406679</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0121863</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-14-48020</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>OpaR Controls a Network of Downstream Transcription Factors in <italic>Vibrio parahaemolyticus</italic> BB22OP</article-title>
+        <alt-title alt-title-type="running-head">Quorum-Sensing Regulon of <italic>Vibrio parahaemolyticus</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kernell Burke</surname>
+            <given-names>Alison</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guthrie</surname>
+            <given-names>Leah T. C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Modise</surname>
+            <given-names>Thero</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cormier</surname>
+            <given-names>Guy</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jensen</surname>
+            <given-names>Roderick V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McCarter</surname>
+            <given-names>Linda L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stevens</surname>
+            <given-names>Ann M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref>
+          <xref rid="cor001" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001">
+<label>1</label>
+<addr-line>Department of Biological Sciences, Virginia Tech, Blacksburg, VA, United States of America</addr-line>
+</aff>
+      <aff id="aff002">
+<label>2</label>
+<addr-line>Georgia Advanced Computing Resource Center, University of Georgia, Athens, GA, United States of America</addr-line>
+</aff>
+      <aff id="aff003">
+<label>3</label>
+<addr-line>Department of Microbiology, University of Iowa, Iowa City, IA, United States of America</addr-line>
+</aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con" id="contrib001">
+          <p>Conceived and designed the experiments: AKB LTCG RVJ LLM AMS. Performed the experiments: AKB LTCG. Analyzed the data: AKB LTCG TM GC RVJ LLM AMS. Contributed reagents/materials/analysis tools: AKB LTCG GC RVJ. Wrote the paper: AKB TM RVJ LLM AMS.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>ams@vt.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>4</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>4</issue>
+      <elocation-id>e0121863</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>10</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>2</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2015 Kernell Burke et al</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Kernell Burke et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0121863.pdf"/>
+      <abstract>
+        <p>
+<italic>Vibrio parahaemolyticus</italic> is an emerging world-wide human pathogen that is associated with food-borne gastroenteritis when raw or undercooked seafood is consumed. Expression of virulence factors in this organism is modulated by the phenomenon known as quorum sensing, which permits differential gene regulation at low versus high cell density. The master regulator of quorum sensing in <italic>V</italic>. <italic>parahaemolyticus </italic>is OpaR. OpaR not only controls virulence factor gene expression, but also the colony and cellular morphology associated with growth on a surface and biofilm formation. Whole transcriptome Next Generation sequencing (RNA-Seq) was utilized to determine the OpaR regulon by comparing strains BB22OP (<italic>opaR</italic>
+<sup>+</sup>, LM5312) and BB22TR (del-<italic>opaR1</italic>, LM5674). This work, using the published <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP genome sequence, confirms and expands upon a previous microarray analysis for these two strains that used an Affymetrix GeneChip designed from the closely related <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 genome sequence. Overall there was excellent correlation between the microarray and RNA-Seq data. Eleven transcription factors under OpaR control were identified by both methods and further confirmed by quantitative reverse transcription PCR (qRT-PCR) analysis. Nine of these transcription factors were demonstrated to be direct OpaR targets via <italic>in vitro</italic> electrophoretic mobility shift assays with purified hexahistidine-tagged OpaR. Identification of the direct and indirect targets of OpaR, including small RNAs, will enable the construction of a network map of regulatory interactions important for the switch between the nonpathogenic and pathogenic states.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>The work was supported by the Fralin Life Sciences Institute, Virginia Bioinformatics Institute, Graduate Research Development Program, and Life Sciences I Building Fund, and its publication was supported by Virginia Tech's Open Access Subvention Fund. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="3"/>
+        <page-count count="18"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>The read data for the V. parahaemolyticus BB22OP LM5312 (opaR+) QS-proficient strain, and V. parahaemolyticus BB22TR LM5674 (del-opaR1) QS-deficient strain, have been deposited in the NCBI Sequence Read Archive (SRA) with accession numbers GSM1297676 and GSM1297677, respectively. An Excel file summarizing the differential gene expression in total counts and normalized RPM, using the BB22OP and RIMD2210633 annotations, has been deposited in the NCBI Gene Expression Omnibus (GEO) database (GEO Accession GSE53639).</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>The read data for the V. parahaemolyticus BB22OP LM5312 (opaR+) QS-proficient strain, and V. parahaemolyticus BB22TR LM5674 (del-opaR1) QS-deficient strain, have been deposited in the NCBI Sequence Read Archive (SRA) with accession numbers GSM1297676 and GSM1297677, respectively. An Excel file summarizing the differential gene expression in total counts and normalized RPM, using the BB22OP and RIMD2210633 annotations, has been deposited in the NCBI Gene Expression Omnibus (GEO) database (GEO Accession GSE53639).</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec001">
+      <title>Introduction</title>
+      <p>
+<italic>Vibrio parahaemolyticus</italic> is a marine bacterium that causes gastroenteritis in humans when consumed while eating raw or undercooked shellfish and potential life-threatening systemic infections if it enters open wounds [<xref rid="pone.0121863.ref001" ref-type="bibr">1</xref>]. It has the ability to survive in a variety of environments with varying ranges of salt and temperature [<xref rid="pone.0121863.ref002" ref-type="bibr">2</xref>] and in particular, oyster-associated outbreaks are occurring with increasing frequency worldwide [<xref rid="pone.0121863.ref003" ref-type="bibr">3</xref>]. In the USA, it is an issue throughout the Atlantic, Gulf and Pacific coasts [<xref rid="pone.0121863.ref004" ref-type="bibr">4</xref>,<xref rid="pone.0121863.ref005" ref-type="bibr">5</xref>]. BB22OP [<xref rid="pone.0121863.ref006" ref-type="bibr">6</xref>], an environmental non-clinical isolate, is one of the most genetically characterized <italic>V</italic>. <italic>parahaemolyticus</italic> strains. It exhibits a profound phenotypic change from opaque (OP) to translucent (TR) when OpaR, a key transcriptional regulator involved in quorum sensing (QS), is mutated [<xref rid="pone.0121863.ref007" ref-type="bibr">7</xref>]. During bacterial QS, intercellular signaling molecules enable individual cells to function in unison to coordinately control outputs such as biofilm formation, antibiotic production, bioluminescence, and virulence factor expression. Signaling molecules, called autoinducers (AIs), are produced and released by the bacteria and once a critical concentration of signal is achieved the bacteria respond by changing their patterns of gene expression [<xref rid="pone.0121863.ref008" ref-type="bibr">8</xref> - <xref rid="pone.0121863.ref012" ref-type="bibr">12</xref>]. Different bacterial species produce diverse AI molecules and use these communication signals to control specific traits. Defining the QS mechanisms specific to <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP will provide a better understanding for how colonization and pathogenicity are coordinately regulated as the organism transitions between environmental and host-associated niches.</p>
+      <p>OpaR is a homologue of LuxR in <italic>Vibrio harveyi</italic> [<xref rid="pone.0121863.ref007" ref-type="bibr">7</xref>]. It is the master QS regulator that controls opacity, biofilm formation, swarming motility, type III secretion, and type VI secretion systems in <italic>V</italic>. <italic>parahaemolyticus</italic> [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]. The QS pathway upstream of OpaR in <italic>V</italic>. <italic>parahaemolyticus</italic> appears to utilize a phosphorelay cascade similar to that of the well-studied <italic>V</italic>. <italic>harveyi</italic> system [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]. In the <italic>V</italic>. <italic>harveyi</italic> QS system, at low cell density, which corresponds to low levels of three different AIs, LuxU is phosphorylated by upstream receptors that sense the AIs. LuxU-P in turn controls the phosphorylation state of the sigma<sup>54</sup>- dependent regulator, LuxO [<xref rid="pone.0121863.ref014" ref-type="bibr">14</xref>]. Then the activated LuxO-P induces the expression of five small quorum regulatory RNAs (Qrrs) that target <italic>luxR</italic> transcripts, silencing their translation. At high cell density, the higher concentration of AIs causes LuxO dephosphorylation, the Qrrs are not expressed, and LuxR is synthesized [<xref rid="pone.0121863.ref015" ref-type="bibr">15</xref>].</p>
+      <p>In <italic>V</italic>. <italic>parahaemolyticus</italic>, when its LuxR homolog OpaR is not synthesized, this strain produces translucent colonies, is swarm proficient and expresses virulence factors such as the type III secretion system on chromosome 1 (T3SS1). Conversely, when OpaR is present, the <italic>V</italic>. <italic>parahaemolyticus</italic> colonies are opaque. The OpaR-producing strain swarms poorly and is less virulent in cytotoxicity assays [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]. <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP is of particular interest because it has a functional QS system, whereas <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 and many other clinical isolates are postulated to have mutations in genes within the QS cascade that lock the system in the pathogenic state, e.g., mutations resulting in constitutively active variants of LuxO that cause repressed production of OpaR at all cell densities [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>].</p>
+      <p>Previous microarray work comparing the transcriptome of <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP (LM5312) to an <italic>opaR</italic> deletion strain BB22TR (LM5674) was performed using an Affymetrix GeneChip designed using the <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 genome [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]. This microarray analysis provided valuable insights into the QS regulon. However, the recently completed assembly of the BB22OP genome has revealed a number of differences between RIMD2210633 and BB22OP [<xref rid="pone.0121863.ref016" ref-type="bibr">16</xref>], including genes unique to RIMD2210633 and genes unique to BB22OP. Further analysis of BB22OP using RNA-Seq [<xref rid="pone.0121863.ref017" ref-type="bibr">17</xref>,<xref rid="pone.0121863.ref018" ref-type="bibr">18</xref>] as a technique to capture the entire transcriptome, is now providing a more complete understanding of the QS pathway for the BB22OP strain, as well as information with respect to operon structure, transcription start and stop sites, and small noncoding RNAs expression.</p>
+      <p>In this study, RNA-Seq was used to compare the transcriptome of <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP (<italic>opaR</italic>
+<sup>+</sup>, LM5312) with BB22TR (del-<italic>opaR1</italic>, LM5674), at one time point during mid-exponential phase growth. Overall there was excellent agreement between the microarray and RNA-Seq data. Hundreds of genes were found to be up or down regulated by OpaR. To begin to trace the network of direct and indirect QS regulation, eleven transcription factors regulated greater than four-fold by OpaR were identified and their QS control was further confirmed by quantitative reverse transcription PCR (qRT-PCR) analysis. The transcriptional start sites for the genes encoding these transcription factors were located using the RNA-Seq data and direct OpaR binding to their promoters was analyzed by electrophoretic mobility shift assays (EMSAs). In addition, the differential expression of previously predicted small noncoding RNAs was examined. Collectively, these efforts have further defined the QS signaling network downstream of OpaR in <italic>V</italic>. <italic>parahaemolyticus</italic>.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="sec002">
+      <title>Materials and Methods</title>
+      <sec id="sec003">
+        <title>Growth conditions</title>
+        <p>The strains used for these experiments have been described [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]; <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP strain LM5312 is <italic>opaR</italic>
+<sup><italic>+</italic></sup> and BB22TR strain LM5674 contains the del-<italic>opaR1</italic> allele, which is an 85-bp deletion in the upstream and N-terminal coding region of <italic>opaR</italic>. Extraction of total RNA following, growth and harvesting procedures, were performed similarly to Gode-Potratz et al [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]. Heart infusion agar (HI, 25g/L, Remel, Lenexa, KS with 15g/L NaCl and 2% agar) was used to grow LM5312 and LM5674 overnight. The cells were then scraped from the agar plates and suspended in HI broth to an OD<sub>600</sub> of 0.05. Fifty microliters of the suspended cells were spread on fresh HI agar and incubated at 30 degrees C for 6 hours. After incubation, the cells were again scraped from the agar and suspended to an OD<sub>600</sub> of 1.0 in RNAprotect (Qiagen, Gaithersburg, MD) that had been diluted 2-fold in phosphate-buffered saline (8 g NaCl, 0.2 g KCl, 1.44 g Na<sub>2</sub>HPO<sub>4</sub>, and 0.24 g KH<sub>2</sub>PO<sub>4</sub> per liter), pH 7.1. Cells were vortexed for 10 sec and incubated at room temperature for 5 min to stabilize mRNA before samples were centrifuged for 10 min at 5000 x <italic>g</italic>. Cell pellets were stored at -20 degrees C until RNA extraction was completed.</p>
+      </sec>
+      <sec id="sec004">
+        <title>RNA extraction</title>
+        <p>Cell pellets were suspended with 200 mul of Tris EDTA (TE) buffer (pH 7.0) containing 15 mg/ml lysozyme (Sigma, St. Louis, MO), 20 mul proteinase K (Qiagen), and 700 mul of QIAzol (Qiagen). The total RNA was harvested using a miRNeasy kit (Qiagen) following the bench protocol in the miRNeasy Mini Handbook. The sample purity and concentration were first analyzed using a NanoPhotometer (Implen, Westlake Village, CA) and the final quantity and quality of total RNA was assessed on an Agilent Bioanalyzer 2100 at the Virginia Bioinformatics Institute (VBI) (Blacksburg, VA). Total RNA was subjected to a depletion protocol to enrich the mRNA fraction using the Ribo-Zero rRNA Removal Kit for Gram-negative Bacteria (Epicentre, Madison WI). The rRNA-depleted sample was assessed for quality, including rRNA removal, prior to sample processing for Illumina sequencing (VBI) with single-paired end 50-bp reads.</p>
+      </sec>
+      <sec id="sec005">
+        <title>ExpressSeq pipeline for RNA-Seq data analysis</title>
+        <p>The <italic>V</italic>. <italic>parahaemolyticus</italic> LM5312 (<italic>opaR</italic>
+<sup>+</sup>) and LM5674 (del-<italic>opaR1</italic>) RNA-Seq data were processed as per Ramachandran et al. [<xref rid="pone.0121863.ref019" ref-type="bibr">19</xref>] with the transcriptome sequencing read files in FASTQ format transformed into FASTA format using the SeqIO module of BioPython [<xref rid="pone.0121863.ref020" ref-type="bibr">20</xref>]. Then the standalone BLAST+ suite [<xref rid="pone.0121863.ref021" ref-type="bibr">21</xref>,<xref rid="pone.0121863.ref022" ref-type="bibr">22</xref>] was used to align the reads to the annotated <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP protein coding sequences downloaded from the NCBI nucleotide pages for Chromosome 1 (CP003972.1) and Chromosome 2 (CP003973.1). First, a BLAST database and its index were created using the FASTA files for each of the samples using the makeblastdb and makembindex BLAST+ routines. Second, for each sample, standalone blastn queries were performed using the nucleotide sequences for the <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP protein coding genes against the BLAST database for each sample. In blastn a word size of 16 and a maximum e-value of 1.e-10 were chosen for alignment. Finally, the table format output (-outfmt 6) of each blastn query was subsequently processed using an awk-based shell script to count and list the total number of blastn hits for each of the protein-coding genes in the <italic>V</italic>. <italic>parahaemolyticus</italic> data set. Although the BLAST alignment is slower than other alignment algorithms (such as Burrows-Wheeler Aligner [<xref rid="pone.0121863.ref023" ref-type="bibr">23</xref>]), every step uses analysis tools that can repeatedly be used for each protein coding gene and for any other transcribed sequence [<xref rid="pone.0121863.ref024" ref-type="bibr">24</xref>]. Since read hits are counted only if the alignment to the reference sequences are sufficiently close (e-value &lt; 1.e-10), no quality filtering is required and no biases are introduced by preprocessing the reads using quality scores. The one caveat with this pipeline is that reads can be counted as hits to multiple genes, so that differential expression levels for paralogous genes with sufficient sequence similarity will be difficult to determine without further analysis.</p>
+        <p>Subsequent data processing was done using Microsoft Excel. To calculate the fold-changes in differential expression, the read counts for each sample were first normalized to the total number of reads mapped to all genes to determine the numbers of reads aligned to each gene per million mapped reads (RPM). Then the fold-change for each gene was computed by taking the ratio of the RPM values for the two samples. Finally, the error for the ratios of normalized gene expression levels were conservatively estimated using the standard deviation of the ratios across all genes with fold changes &lt; 4-fold on Chromosome 1 (94% of the genes) and Chromosome 2 (91% of the genes). This error estimate assumes that the expression of most genes is not changed and the overall difference in expression levels measured between the two samples is a good surrogate for biological replicates and that a multiplicative biological/sample preparation dominates over the purely technical sampling errors [<xref rid="pone.0121863.ref024" ref-type="bibr">24</xref>].</p>
+      </sec>
+      <sec id="sec006">
+        <title>Procedure for identifying OpaR regulon genes of interest</title>
+        <p>Previous microarray data for the <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>
+<italic>)</italic> and BB22TR LM5674 (del-<italic>opaR1)</italic> strains generated using an Affymetrix GeneChip designed to the <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 strain [<xref rid="pone.0121863.ref025" ref-type="bibr">25</xref>] was initially analyzed for transcriptional regulators differentially expressed four-fold or more. Then the RNA-Seq data was also analyzed to expand the list to include any additional regulators that exhibited a similar four fold or greater change in expression. The normalized RPM for the LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>
+<italic>)</italic> and LM5674 (Delta<italic>opaR1)</italic> strains were compared to determine the regulation. Genes that were activated by OpaR had a greater RPM in the wild-type strain and genes that were repressed by OpaR had a greater RPM in the deletion strain. The list of regulated genes was also filtered to remove low expression genes with ~ 1x read coverage or less (corresponding to an absolute read alignment count of 50). In addition, genes that are unique to BB22OP and not found in RIMD2210633 were examined for differential expression to determine the information that was missed by using the <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 strain GeneChip in the original microarray study [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>].</p>
+      </sec>
+      <sec id="sec007">
+        <title>Quantitative reverse-transcription PCR (qRT-PCR)</title>
+        <p>Cloning primers were designed and used to amplify the coding regions of 11 transcription factors of interest identified as being differentially expressed greater than four-fold in the microarray and/or RNA-Seq studies, plus two negative control genes <italic>rpoD and fliA</italic>
+<sub><italic>P</italic></sub> (for polar flagella), and the 16S rRNA gene for normalization of data (<xref rid="pone.0121863.s002" ref-type="supplementary-material">S1 Table</xref>). PCR was performed using Phusion polymerase (New England Biolabs (NEB), Ipswich, MA). The annealing temperatures used were gene specific and are listed in <xref rid="pone.0121863.s002" ref-type="supplementary-material">S1 Table</xref>. Following PCR amplification, the coding regions for the 14 genes were ligated into pGEM-T vector (Promega, Madison, WI), transformed into <italic>E</italic>. <italic>coli</italic> Top 10 cells and the recombinant plasmids were sequenced at VBI to confirm sequence fidelity.</p>
+        <p>Primer Express 3.0 (Applied Biosystems) was used to design primer pairs for qRT-PCR analysis of the 14 genes (<xref rid="pone.0121863.s002" ref-type="supplementary-material">S1 Table</xref>). Primer design parameters were set as: 18 - 24 base pairs, a melting temperature (Tm) of 60 - 65 degrees C and amplicon length of 80 - 120 bp. Plasmid DNA was used as template to optimize qRT-PCR primers to within 95% and 105% efficiency, at concentrations ranging from 0.001 ng to 1 ng per 25 muL reaction. The reaction mix contained 300 nM each of the specific forward and reverse primer pair and 2x SYBR green PCR master mix (Applied Biosystems) diluted to a 1x concentration with dH<sub>2</sub>O and template DNA or cDNA.</p>
+        <p>
+<italic>V</italic>. <italic>parahaemolyticus</italic> LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>) and LM5674 (del-<italic>opaR1</italic>) were grown and RNA was extracted as described above for the RNA-Seq method [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]. The RNA was then converted to cDNA using the High Capacity cDNA Reverse Transcription Kit (Applied Biosystems, Foster City, CA) per the manufacturer's instructions. The cDNA was quantified using a NanoPhotometer and samples were used as templates in an Applied Biosystems 7300 Real-Time PCR system. cDNA was used at a concentration of 10 ng per 25 muL reaction containing 300 nM each of the specific forward and reverse primer pair and 2x SYBR green PCR master mix (Applied Biosystems) diluted to a 1x concentration with dH<sub>2</sub>O. Reactions were carried out in triplicate in a MicroAmp Optical 96-well Reaction Plate (Applied Biosystems). The thermal cycler settings were programmed for 95 degrees C for 10 min, 45 cycles of 95 degrees C for 15 sec and the appropriate annealing temperature (<xref rid="pone.0121863.s002" ref-type="supplementary-material">S1 Table</xref>) for 1 min. The annealing step was also set as the data collection point. A dissociation stage was added at the end of the PCR run to confirm specific product amplification. The relative expression of the genes of interest was then determined using the PFAFFL method [<xref rid="pone.0121863.ref026" ref-type="bibr">26</xref>] and standardized using 16S rRNA relative expression. The error in fold changes for each gene was estimated by computing the standard deviation for four replicates of the qRT-PCR measurements.</p>
+      </sec>
+      <sec id="sec008">
+        <title>OpaR protein purification</title>
+        <p>An N-terminally 6x-His-tagged OpaR fusion protein gene was constructed in the pET28a vector and purified following the procedure previous outlined by Zhang et al. [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>]. Functionality of the his-tagged protein was confirmed by EMSAs.</p>
+      </sec>
+      <sec id="sec009">
+        <title>EMSAs</title>
+        <p>A published master QS regulator binding site (MQSR) matrix [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>] was used with the position-specific scoring matrix (PSSM) program, PATSER (Regulatory Sequence Analysis Tool) [<xref rid="pone.0121863.ref028" ref-type="bibr">28</xref>], to identify putative OpaR-binding sites in the regions upstream of the 11 transcription factors of interest (<xref rid="pone.0121863.s003" ref-type="supplementary-material">S2 Table</xref>). Transcription start sites were determined by viewing the alignment of reads to the genome in the Seqman Pro (Lasergene, DNASTAR Inc., Madison, WI) browser and looking for a sharp cliff of at least ten reads in height upstream from the translation start site. A candidate promoter region was designated from the end of the adjacent upstream gene, to the +1 site of the gene of interest. These promoter regions were cloned via PCR amplification using primers designed with a FAM label at the end closest to the +1 site (<xref rid="pone.0121863.s003" ref-type="supplementary-material">S2 Table</xref>). The fragment was visualized using 1% agarose gel electrophoresis, purified using the Qiaquick Gel Extraction kit (Qiagen) and quantified using a NanoPhotometer.</p>
+        <p>Purified His-OpaR in the concentration range of 0 - 400 nM, was used to test binding to the putative promoters in reactions with 10 nM FAM-DNA and EMSA buffer (1 mM MgCl<sub>2</sub>, 0.5 mM EDTA, 0.5 mM DTT, 50 mM NaCl, 10 mM Tris-HCl [pH7.5], 0.05 mg/ml poly d(I-C), 150 mug/ml of BSA) [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>]. A control competition reaction with 100 nM unlabeled DNA and 100 nM OpaR was performed to prove specificity of the binding. The reaction was visualized on a 4%, 5%, or 6% TBE (10.8 g/L Tris, 5.5 g/L boric acid, 4 ml 0.5M EDTA) polyacrylamide gel depending on the size of the fragment [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>] (<xref rid="pone.0121863.s003" ref-type="supplementary-material">S2 Table</xref>).</p>
+      </sec>
+      <sec id="sec010">
+        <title>Putative small RNA (sRNA) identification</title>
+        <p>Putative sRNAs were identified using the sRNAPredict 2 [<xref rid="pone.0121863.ref029" ref-type="bibr">29</xref>] and BSRD [<xref rid="pone.0121863.ref030" ref-type="bibr">30</xref>] prediction databases, which self-contained the RIMD2210633 data for analysis. This cumulative list was then analyzed to determine the subset of sRNAs identified in both databases. The RNA-Seq expression of the sRNAs from this shortened list was determined as previously described above for the protein coding genes. In addition, previously unidentified sRNAs were located using the intergenic regions of microarray data [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>] plus an examination of the RNA-Seq data to determine if the sRNA was real or part of an untranslated region of a neighboring gene. Expression of one novel sRNA that was controlled by OpaR and not previously predicted or deposited in a database was verified using qRT-PCR as described above for the transcriptional regulators.</p>
+      </sec>
+      <sec id="sec011">
+        <title>Accession numbers for data</title>
+        <p>The read data for the <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>
+<italic>)</italic> QS-proficient strain, and <italic>V</italic>. <italic>parahaemolyticus</italic> BB22TR LM5674 (del-<italic>opaR1</italic>) QS-deficient strain, have been deposited in the NCBI Sequence Read Archive (SRA) with accession numbers GSM1297676 and GSM1297677, respectively. An Excel file summarizing the differential gene expression in total counts and normalized RPM, using the BB22OP and RIMD2210633 annotations, has been deposited in the NCBI Gene Expression Omnibus (GEO) database (GEO Accession GSE53639).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="sec012">
+      <title>Results</title>
+      <sec id="sec013">
+        <title>Overview of RNA-Seq data analysis of the OpaR regulon in <italic>V</italic>. <italic>parahaemolyticus</italic>
+</title>
+        <p>A screening RNA-Seq analysis established the full scope of the <italic>V</italic>. <italic>parahaemolyticus</italic> OpaR regulon by comparing the transcriptome of <italic>V</italic>. <italic>parahaemolyticus</italic> LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>) and LM5674 (del-<italic>opaR1)</italic>. The total RNA extracted from LM5312 and LM5674 had RNA integrity values (RIN) of 9.8 and 10 respectively. Following rRNA depletion, approximately 30 million 50-bp transcripts were obtained for each sample corresponding to an average gene coverage of more than 300 times. Greater than 15% of the genome showed a two-fold or greater change in expression between the <italic>opaR</italic>
+<sup>+</sup> and del-<italic>opaR1</italic> samples (<xref rid="pone.0121863.g001" ref-type="fig">Fig 1</xref>). Similar to what had been observed in the microarray comparison [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>], OpaR activated genes involved in capsular polysaccharide production and the type VI secretion system located on chromosome 2 (T6SS2), and repressed the type III secretion system 1 located on chromosome 1 (T3SS1), type VI secretion system 1 (T6SS1), and the lateral flagellar regulon. Chromosome 1 has a total of 2848 predicted genes, of these 237 were activated two-fold or greater by OpaR and 219 were repressed at least two-fold. Chromosome 2 has 1600 potential genes, 206 genes were activated and 128 genes were repressed two-fold or more. The RNA-Seq data confirmed that OpaR plays a significant role in global regulation of gene expression in <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP as had been previously demonstrated via microarrays using an Affymetrix GeneChip designed to the <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 strain [<xref rid="pone.0121863.ref025" ref-type="bibr">25</xref>]. The microarray data and RNA-Seq data showed a high degree of similarity (<xref rid="pone.0121863.s001" ref-type="supplementary-material">S1 Fig</xref>). Only 18 genes appeared to exhibit expression changes in opposite directions for these two platforms (<xref rid="pone.0121863.s004" ref-type="supplementary-material">S3 Table</xref>). Since six of the discordant genes from chromosome 2 were phosphate transport related and two of the discordant genes from chromosome 1 were DNA uptake related genes, it is likely that most of these minor differences in expression may be attributed to subtle differences in growth conditions.</p>
+        <fig id="pone.0121863.g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0121863.g001</object-id>
+          <label>Fig 1</label>
+          <caption>
+            <title>Differential mRNA expression controlled by OpaR in <italic>V</italic>. <italic>parahaemolyticus</italic>.</title>
+            <p>Graphical representation of the RNA-Seq data from <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP <italic>s</italic>train LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>) and BB22TR strain LM5674 (del-<italic>opaR1</italic>) for Chromosome 1 (Panel A) and Chromosome 2 (Panel B). The RPM change of normalized expression for most genes (unfilled circles) falls around a line with a slope of 1, indicating that they are equally expressed in both strains. Points with lighter tone are controlled by OpaR greater than 2-fold and the darker points are controlled by OpaR greater than 4-fold with green shades highlighting activated genes and red shades highlighting repressed genes.</p>
+          </caption>
+          <graphic xlink:href="pone.0121863.g001"/>
+        </fig>
+        <p>Genes that are unique to <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP and not found in <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 were also analyzed to determine what limitations had been imposed on the BB22OP transcriptome analysis by using the RIMD2210633 GeneChip. Twenty-four genes that were regulated four-fold or greater by OpaR and had greater than 50 reads for at least one of the sequencing reactions were identified as being unique to BB22OP (<xref rid="pone.0121863.s005" ref-type="supplementary-material">S4 Table</xref>). Three of these genes are on chromosome 2 and 21 are on chromosome 1. Of the 21 unique OpaR-regulated genes on chromosome 1, fourteen are found in an integron region that is unique to the BB22OP strain [<xref rid="pone.0121863.ref016" ref-type="bibr">16</xref>]. Twenty-one of the 24 unique genes are annotated as hypothetical proteins, whereas the other three genes encode a putative lipase, an acetyltransferase and a halogenase.</p>
+        <p>NCBI BLAST was used to analyze the homology of 21 genes encoding hypothetical proteins to determine if a function could be assigned. VPBB_1425 shares 74 of its 132 base pairs with the gene for an Rhs-family protein found in <italic>V</italic>. <italic>parahaemolyticus</italic> UCM-V493 with the locus tag VPUCM_1621. However, the Rhs-family protein in UCM-V493 is 960 bp suggesting that VPBB_1425 may be truncated. VPBB_2301 matches 116 bp of its 117 bp to a 117 bp gene encoding glutamate-1-semialdehyde aminotransferase in <italic>V</italic>. <italic>parahaemolyticus</italic> O1:Kuk str. FDA_R31 with the locus tag M634_14765. This suggests that VPBB_2301 should also be annotated as encoding glutamate-1-semialdehyde aminotransferase.</p>
+      </sec>
+      <sec id="sec014">
+        <title>Identification of transcriptional regulators in the OpaR regulon and validation of their expression via qRT-PCR</title>
+        <p>The RNA-Seq data (<xref rid="pone.0121863.s005" ref-type="supplementary-material">S4 Table</xref>) and microarray data (previously published [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>]) were analyzed for OpaR-controlled transcription factors that were differentially expressed four fold or greater between the LM5312 (<italic>opaR</italic>
+<sup><italic>+</italic></sup>) and LM5674 (del-del-<italic>opaR1)</italic> strains, using at least one of the two approaches. Eleven transcription factors were chosen for further study as described above (<xref rid="pone.0121863.t001" ref-type="table">Table 1</xref>) and qRT-PCR was performed to validate the changes in gene expression observed in the Illumina sequencing. Two separate RNA samples extracted independently of the sample generated for RNA-Seq analysis were used. The expression of the 16S rRNA coding region was used as reference to normalize expression of other genes. Although the ratios of change in expression obtained via RNA-Seq and qRT-PCR differed slightly, all genes displayed similar trends in regulation (activation vs. repression) (<xref rid="pone.0121863.t001" ref-type="table">Table 1</xref>). The two control genes, <italic>rpoD</italic> and <italic>fliA</italic>
+<sub>P</sub>, had been previously demonstrated to be constitutively expressed in <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP regardless of OpaR function [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>].</p>
+        <table-wrap id="pone.0121863.t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0121863.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Validation of Transcription Factors Highly Regulated by OpaR via qRT-PCR.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0121863.t001g" xlink:href="pone.0121863.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1">BB22OP ID</th>
+                  <th align="left" rowspan="1" colspan="1">RIMD 2210633 ID</th>
+                  <th align="left" rowspan="1" colspan="1">Annotation</th>
+                  <th align="left" rowspan="1" colspan="1">Mode of OpaR Regulation</th>
+                  <th align="left" rowspan="1" colspan="1">Microarray Data<xref rid="t001fn001" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</th>
+                  <th align="left" rowspan="1" colspan="1">
+<italic>opaR</italic>
+<sup><italic>+</italic></sup>/Delta<italic>opaR1</italic> RNA-Seq<xref rid="t001fn002" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</th>
+                  <th align="left" rowspan="1" colspan="1">
+<italic>opaR</italic>
+<sup><italic>+</italic></sup>/Delta<italic>opaR1</italic> qRT-PCR<xref rid="t001fn003" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">Chromosome 1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_0491</td>
+                  <td align="left" rowspan="1" colspan="1">VP0514</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>cpsR</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="left" rowspan="1" colspan="1">3.10  +-  0.31</td>
+                  <td align="char" char="." rowspan="1" colspan="1">5.76</td>
+                  <td align="left" rowspan="1" colspan="1">12.87  +-  5.86</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_0645</td>
+                  <td align="left" rowspan="1" colspan="1">VP0675</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>crl</italic> family</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="left" rowspan="1" colspan="1">4.91  +-  0.27</td>
+                  <td align="char" char="." rowspan="1" colspan="1">1.98</td>
+                  <td align="left" rowspan="1" colspan="1">3.50  +-  1.37</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_2530</td>
+                  <td align="left" rowspan="1" colspan="1">VP2710</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>csgD/vpsT</italic> family</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="left" rowspan="1" colspan="1">6.06  +-  0.94</td>
+                  <td align="char" char="." rowspan="1" colspan="1">2.45</td>
+                  <td align="left" rowspan="1" colspan="1">2.88  +-  1.05</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_1307</td>
+                  <td align="left" rowspan="1" colspan="1">VP1391</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>fhlA</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="left" rowspan="1" colspan="1">0.03  +-  0.01</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.06</td>
+                  <td align="left" rowspan="1" colspan="1">0.31  +-  0.13</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_1322</td>
+                  <td align="left" rowspan="1" colspan="1">VP1407</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>asnC</italic> family</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="left" rowspan="1" colspan="1">0.11  +-  0.01</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.32</td>
+                  <td align="left" rowspan="1" colspan="1">0.12  +-  0.03</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_1558</td>
+                  <td align="left" rowspan="1" colspan="1">VP1699</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>exsA</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="left" rowspan="1" colspan="1">0.15  +-  0.02</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.29</td>
+                  <td align="left" rowspan="1" colspan="1">0.30  +-  0.16</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_2619</td>
+                  <td align="left" rowspan="1" colspan="1">VP2762</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>aphA</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="left" rowspan="1" colspan="1">0.24  +-  0.02</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.20</td>
+                  <td align="left" rowspan="1" colspan="1">0.26  +-  0.07</td>
+                </tr>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">Chromosome 2</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A0554</td>
+                  <td align="left" rowspan="1" colspan="1">VPA0606</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>araC</italic> family</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="left" rowspan="1" colspan="1">5.12  +-  0.57</td>
+                  <td align="char" char="." rowspan="1" colspan="1">6.12</td>
+                  <td align="left" rowspan="1" colspan="1">3.43  +-  0.90</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A0869</td>
+                  <td align="left" rowspan="1" colspan="1">VPA0947</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>arsR</italic> family</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="left" rowspan="1" colspan="1">4.38  +-  0.65</td>
+                  <td align="char" char="." rowspan="1" colspan="1">8.05</td>
+                  <td align="left" rowspan="1" colspan="1">3.20  +-  1.74</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A1319</td>
+                  <td align="left" rowspan="1" colspan="1">VPA1446</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>cpsQ</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="left" rowspan="1" colspan="1">3.54  +-  0.24</td>
+                  <td align="char" char="." rowspan="1" colspan="1">8.14</td>
+                  <td align="left" rowspan="1" colspan="1">3.62  +-  0.19</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A1405</td>
+                  <td align="left" rowspan="1" colspan="1">VPA1538</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>lafK</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="left" rowspan="1" colspan="1">0.02  +-  0.003</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.01</td>
+                  <td align="left" rowspan="1" colspan="1">0.01  +-  0.01</td>
+                </tr>
+                <tr>
+                  <td colspan="7" align="left" rowspan="1">Controls</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_0387</td>
+                  <td align="left" rowspan="1" colspan="1">VP0404</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>rpoD</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">none</td>
+                  <td align="left" rowspan="1" colspan="1">0.99  +-  0.02</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.93</td>
+                  <td align="left" rowspan="1" colspan="1">0.65  +-  0.10</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">VPBB_2050</td>
+                  <td align="left" rowspan="1" colspan="1">VP2232</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>fliA</italic>
+<sub>P</sub> (Polar)</td>
+                  <td align="left" rowspan="1" colspan="1">none</td>
+                  <td align="left" rowspan="1" colspan="1">0.39  +-  0.25</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.50</td>
+                  <td align="left" rowspan="1" colspan="1">0.75  +-  0.19</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t001fn001">
+              <p>
+<sup>a</sup>For the microarray data, the standard deviation of the normalized expression in four biological replicates of the del-<italic>opaR1</italic> strain was compared to three biological replicates of <italic>opaR</italic>
+<sup><italic>+</italic></sup> strains.</p>
+            </fn>
+            <fn id="t001fn002">
+              <p>
+<sup>b</sup> RNA-Seq data is fold change of the <italic>opaR</italic>
+<sup><italic>+</italic></sup> strain gene expression divided by the del-<italic>opaR1</italic> strain gene expression. Error for the ratios of normalized gene expression levels were conservatively estimated using the standard deviation ratios across the majority of genes with less than 4-fold change. The standard deviation for chromosome 1 is 1.53 and the error for chromosome 2 is 1.59.</p>
+            </fn>
+            <fn id="t001fn003">
+              <p>
+<sup>c</sup> The error in fold changes for each gene was estimated by computing the standard deviation for four replicates of the qRT-PCR measurements.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="sec015">
+        <title>EMSA analysis of OpaR-controlled transcription factors</title>
+        <p>A bioinformatics search using the PATSER program [<xref rid="pone.0121863.ref028" ref-type="bibr">28</xref>] and a previously published LuxR family binding sequence [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>] identified putative binding sites upstream of eight of the 11 genes encoding transcription factors (<xref rid="pone.0121863.t002" ref-type="table">Table 2</xref>). Two of the genes, VPBB_1558 (encoding the T3SS1 regulator ExsA) and VPBB_A0869 (encoding an ArsR-family regulator), appeared to be at the beginning of operons with predicted OpaR-binding sites directly upstream of the transcription factor; whereas three of the regulatory genes, VPBB_1307 (encoding an FhlA-family transcription factor), VPBB_1322 (encoding an AsnC-family regulator), and VPBB_A1405 (encoding the flagellar regulator LafK), are located within operons with the potential OpaR-binding site not directly upstream of the gene encoding the transcription factor (<xref rid="pone.0121863.g002" ref-type="fig">Fig 2</xref>). Three genes, VPBB_0645 (encoding a Crl-family regulator), VPBB_2619 (encoding the low-cell density regulator AphA), and VPBB_A1319 (encoding the capsule regulator CpsQ), are not part of an operon and have the putative binding site directly upstream of the start site. It was predicted that OpaR would not bind the promoter regions of VPBB_0491(encoding another capsule regulator CpsR), VPBB_2530 (encoding a CsgD/VpsT-family regulator), or VPBB_A0554 (encoding an AraC-family regulator) because they lacked potential binding sites. Most of the PATSER scores for the eight candidate binding sites were between three and five (<xref rid="pone.0121863.t002" ref-type="table">Table 2</xref>). Only three transcription factor genes, <italic>aphA</italic>, <italic>exsA</italic>, and <italic>lafK</italic>, had upstream putative binding sites for OpaR with PATSER scores greater than seven, which is the default setting for significance in PATSER.</p>
+        <fig id="pone.0121863.g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0121863.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title>Organization of select gene loci of <italic>V</italic>. <italic>parahaemolyticus</italic> in the OpaR regulon.</title>
+            <p>Cartoon gene maps, not to scale, are provided for the promoter regions and gene organization near OpaR-regulated transcription factors identified through the RNA-Seq data analysis. Dark green arrows represent genes of transcription factors activated by OpaR, dark red arrows indicate genes of repressed transcription factors and the lighter arrows illustrate other genes in the operons of interest. The diamonds represent predicted OpaR-binding sites from PATSER data (see <xref rid="pone.0121863.t002" ref-type="table">Table 2</xref> for specific locations and scores).</p>
+          </caption>
+          <graphic xlink:href="pone.0121863.g002"/>
+        </fig>
+        <table-wrap id="pone.0121863.t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0121863.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Predicted OpaR-binding sites in Promoters of Select Transcription Factors<xref rid="t002fn001" ref-type="table-fn">
+<sup>a</sup>
+</xref>.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0121863.t002g" xlink:href="pone.0121863.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1">Transcription factor: BB22OP (RIMD2210633)/ annotation</th>
+                  <th align="left" rowspan="1" colspan="1">Score</th>
+                  <th align="left" rowspan="1" colspan="1">OpaR-binding site 5' end</th>
+                  <th align="left" rowspan="1" colspan="1">OpaR-binding site 3' end</th>
+                  <th align="left" rowspan="1" colspan="1">Sequence (5' to 3')<sup>e</sup>
+</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>VPBB_0645 (VP0675) <italic>crl</italic> family</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3.73</td>
+                  <td align="left" rowspan="1" colspan="1">-57</td>
+                  <td align="left" rowspan="1" colspan="1">-38</td>
+                  <td align="left" rowspan="1" colspan="1">AAAAAATAATAATCATTATT</td>
+                </tr>
+                <tr>
+                  <td rowspan="4" align="left" colspan="1">
+<bold>VPBB_1307 (VP1391) <italic>fhlA</italic> family</bold>
+<xref rid="t002fn002" ref-type="table-fn">
+<sup><bold>b</bold></sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">4.39</td>
+                  <td align="left" rowspan="1" colspan="1">-296</td>
+                  <td align="left" rowspan="1" colspan="1">-277</td>
+                  <td align="left" rowspan="1" colspan="1">TATTGGATAAAAAACCAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">-263</td>
+                  <td align="left" rowspan="1" colspan="1">-244</td>
+                  <td align="left" rowspan="1" colspan="1">TAATAATAAATTGATTCAAT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.34</td>
+                  <td align="left" rowspan="1" colspan="1">-259</td>
+                  <td align="left" rowspan="1" colspan="1">-240</td>
+                  <td align="left" rowspan="1" colspan="1">AATAAATTGATTCAATTTTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.74</td>
+                  <td align="left" rowspan="1" colspan="1">-255</td>
+                  <td align="left" rowspan="1" colspan="1">-236</td>
+                  <td align="left" rowspan="1" colspan="1">AATTGATTCAATTTTAAAAA</td>
+                </tr>
+                <tr>
+                  <td rowspan="10" align="left" colspan="1">
+<bold>VPBB_1322 (VP1407) <italic>asnC</italic> family</bold>
+<xref rid="t002fn003" ref-type="table-fn">
+<sup><bold>c</bold></sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3.48</td>
+                  <td align="left" rowspan="1" colspan="1">-397</td>
+                  <td align="left" rowspan="1" colspan="1">-378</td>
+                  <td align="left" rowspan="1" colspan="1">AACTATCAAAATAGGCATTT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.26</td>
+                  <td align="left" rowspan="1" colspan="1">-388</td>
+                  <td align="left" rowspan="1" colspan="1">-369</td>
+                  <td align="left" rowspan="1" colspan="1">AATAGGCATTTCAACCATTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.72</td>
+                  <td align="left" rowspan="1" colspan="1">-287</td>
+                  <td align="left" rowspan="1" colspan="1">-268</td>
+                  <td align="left" rowspan="1" colspan="1">TAATAAAAAAACACCTAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.14</td>
+                  <td align="left" rowspan="1" colspan="1">-272</td>
+                  <td align="left" rowspan="1" colspan="1">-253</td>
+                  <td align="left" rowspan="1" colspan="1">TAATATTAAGTTTATTAAAA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.06</td>
+                  <td align="left" rowspan="1" colspan="1">-264</td>
+                  <td align="left" rowspan="1" colspan="1">-245</td>
+                  <td align="left" rowspan="1" colspan="1">AGTTTATTAAAATGTTCATT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">6.35</td>
+                  <td align="left" rowspan="1" colspan="1">-182</td>
+                  <td align="left" rowspan="1" colspan="1">-163</td>
+                  <td align="left" rowspan="1" colspan="1">AATTGATATTAATATTAGGA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.59</td>
+                  <td align="left" rowspan="1" colspan="1">-99</td>
+                  <td align="left" rowspan="1" colspan="1">-80</td>
+                  <td align="left" rowspan="1" colspan="1">TTTTATCTATAAAATCAGAA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.9</td>
+                  <td align="left" rowspan="1" colspan="1">-40</td>
+                  <td align="left" rowspan="1" colspan="1">-21</td>
+                  <td align="left" rowspan="1" colspan="1">AATAAAAAAATCTATCTTTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.69</td>
+                  <td align="left" rowspan="1" colspan="1">-26</td>
+                  <td align="left" rowspan="1" colspan="1">-7</td>
+                  <td align="left" rowspan="1" colspan="1">TCTTTATTATTTTATTATCA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.37</td>
+                  <td align="left" rowspan="1" colspan="1">-23</td>
+                  <td align="left" rowspan="1" colspan="1">-4</td>
+                  <td align="left" rowspan="1" colspan="1">TTATTATTTTATTATCAACT</td>
+                </tr>
+                <tr>
+                  <td rowspan="7" align="left" colspan="1">
+<bold>VPBB_1558 (VP1699) <italic>exsA</italic></bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3.38</td>
+                  <td align="left" rowspan="1" colspan="1">-369</td>
+                  <td align="left" rowspan="1" colspan="1">-350</td>
+                  <td align="left" rowspan="1" colspan="1">TAATTTTTATTATCATATTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.89</td>
+                  <td align="left" rowspan="1" colspan="1">-366</td>
+                  <td align="left" rowspan="1" colspan="1">-347</td>
+                  <td align="left" rowspan="1" colspan="1">TTTTTATTATCATATTAGTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">6.71</td>
+                  <td align="left" rowspan="1" colspan="1">-362</td>
+                  <td align="left" rowspan="1" colspan="1">-343</td>
+                  <td align="left" rowspan="1" colspan="1">TATTATCATATTAGTAATTT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">7.97</td>
+                  <td align="left" rowspan="1" colspan="1">-354</td>
+                  <td align="left" rowspan="1" colspan="1">-335</td>
+                  <td align="left" rowspan="1" colspan="1">TATTAGTAATTTAATTTATT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.47</td>
+                  <td align="left" rowspan="1" colspan="1">-342</td>
+                  <td align="left" rowspan="1" colspan="1">-323</td>
+                  <td align="left" rowspan="1" colspan="1">AATTTATTCTAATATAAAAA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.74</td>
+                  <td align="left" rowspan="1" colspan="1">-283</td>
+                  <td align="left" rowspan="1" colspan="1">-264</td>
+                  <td align="left" rowspan="1" colspan="1">AATAGACTTATAAGAAAGTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.92</td>
+                  <td align="left" rowspan="1" colspan="1">-79</td>
+                  <td align="left" rowspan="1" colspan="1">-60</td>
+                  <td align="left" rowspan="1" colspan="1">AAATAACAACAAACAAAGTA</td>
+                </tr>
+                <tr>
+                  <td rowspan="4" align="left" colspan="1">
+<bold>VPBB_2619 (VP2762) <italic>aphA</italic></bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3.54</td>
+                  <td align="left" rowspan="1" colspan="1">-299</td>
+                  <td align="left" rowspan="1" colspan="1">-280</td>
+                  <td align="left" rowspan="1" colspan="1">TATTAACTACAAAATAACTC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">10.35</td>
+                  <td align="left" rowspan="1" colspan="1">-279</td>
+                  <td align="left" rowspan="1" colspan="1">-260</td>
+                  <td align="left" rowspan="1" colspan="1">TATTGAGTATTATGTTAGTT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.06</td>
+                  <td align="left" rowspan="1" colspan="1">-94</td>
+                  <td align="left" rowspan="1" colspan="1">-75</td>
+                  <td align="left" rowspan="1" colspan="1">TACTTATACATTAAAAAACT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.81</td>
+                  <td align="left" rowspan="1" colspan="1">-23</td>
+                  <td align="left" rowspan="1" colspan="1">-4</td>
+                  <td align="left" rowspan="1" colspan="1">TATTGACCATTTGGATTGAA</td>
+                </tr>
+                <tr>
+                  <td rowspan="4" align="left" colspan="1">
+<bold>VPBB_A0869 (VPA0947) <italic>arsR</italic> family</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">5.59</td>
+                  <td align="left" rowspan="1" colspan="1">-123</td>
+                  <td align="left" rowspan="1" colspan="1">-104</td>
+                  <td align="left" rowspan="1" colspan="1">TATAATTAACTAAATTAGAA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.58</td>
+                  <td align="left" rowspan="1" colspan="1">-90</td>
+                  <td align="left" rowspan="1" colspan="1">-71</td>
+                  <td align="left" rowspan="1" colspan="1">ATTTATCTAAATTCACAATT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.63</td>
+                  <td align="left" rowspan="1" colspan="1">-47</td>
+                  <td align="left" rowspan="1" colspan="1">-28</td>
+                  <td align="left" rowspan="1" colspan="1">TATTGTTTTAGTAATATCTA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.53</td>
+                  <td align="left" rowspan="1" colspan="1">-39</td>
+                  <td align="left" rowspan="1" colspan="1">-20</td>
+                  <td align="left" rowspan="1" colspan="1">TAGTAATATCTAATTTAGTT</td>
+                </tr>
+                <tr>
+                  <td rowspan="4" align="left" colspan="1">
+<bold>VPBB_A1319 (VPA1446) <italic>cpsQ</italic></bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">-133</td>
+                  <td align="left" rowspan="1" colspan="1">-114</td>
+                  <td align="left" rowspan="1" colspan="1">TTTTGTTTCTGTTTTTAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">5.26</td>
+                  <td align="left" rowspan="1" colspan="1">-121</td>
+                  <td align="left" rowspan="1" colspan="1">-102</td>
+                  <td align="left" rowspan="1" colspan="1">TTTTAATAAATTAGTAATTC</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.11</td>
+                  <td align="left" rowspan="1" colspan="1">-46</td>
+                  <td align="left" rowspan="1" colspan="1">-27</td>
+                  <td align="left" rowspan="1" colspan="1">TGCTGATAATTAACTACGAA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.06</td>
+                  <td align="left" rowspan="1" colspan="1">-39</td>
+                  <td align="left" rowspan="1" colspan="1">-20</td>
+                  <td align="left" rowspan="1" colspan="1">AATTAACTACGAAATTAAGA</td>
+                </tr>
+                <tr>
+                  <td rowspan="7" align="left" colspan="1">
+<bold>VPBB_A1405 (VPA1538) <italic>lafK</italic></bold>
+<xref rid="t002fn004" ref-type="table-fn">
+<sup><bold>d</bold></sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">4.89</td>
+                  <td align="left" rowspan="1" colspan="1">-214</td>
+                  <td align="left" rowspan="1" colspan="1">-195</td>
+                  <td align="left" rowspan="1" colspan="1">CATTTATAAATCGGTTAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.63</td>
+                  <td align="left" rowspan="1" colspan="1">-198</td>
+                  <td align="left" rowspan="1" colspan="1">-179</td>
+                  <td align="left" rowspan="1" colspan="1">AATAAATTAAAATAGCAACT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">7.26</td>
+                  <td align="left" rowspan="1" colspan="1">-122</td>
+                  <td align="left" rowspan="1" colspan="1">-103</td>
+                  <td align="left" rowspan="1" colspan="1">TTATTATAAAAAAATTAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.91</td>
+                  <td align="left" rowspan="1" colspan="1">-118</td>
+                  <td align="left" rowspan="1" colspan="1">-99</td>
+                  <td align="left" rowspan="1" colspan="1">TATAAAAAAATTAATATAAA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.21</td>
+                  <td align="left" rowspan="1" colspan="1">-116</td>
+                  <td align="left" rowspan="1" colspan="1">-97</td>
+                  <td align="left" rowspan="1" colspan="1">TAAAAAAATTAATATAAATA</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">4.76</td>
+                  <td align="left" rowspan="1" colspan="1">-113</td>
+                  <td align="left" rowspan="1" colspan="1">-94</td>
+                  <td align="left" rowspan="1" colspan="1">AAAAATTAATATAAATAGTT</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">3.59</td>
+                  <td align="left" rowspan="1" colspan="1">-110</td>
+                  <td align="left" rowspan="1" colspan="1">-91</td>
+                  <td align="left" rowspan="1" colspan="1">AATTAATATAAATAGTTGTT</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t002fn001">
+              <p>
+<sup>a</sup>Putative binding sites identified through PATSER using MQSR matrix [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>]</p>
+            </fn>
+            <fn id="t002fn002">
+              <p>
+<sup>b</sup>Scores and locations are upstream of VPBB_1307 (VP1392), the first gene of the operon.</p>
+            </fn>
+            <fn id="t002fn003">
+              <p>
+<sup>c</sup> Scores and locations are upstream of VPBB_1322 (VP1409), the first gene of the operon.</p>
+            </fn>
+            <fn id="t002fn004">
+              <p>
+<sup><bold>d</bold></sup> Scores and locations are upstream of VPBB_A1405 (VPA1538), the first gene of the operon.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Remarkably, the EMSA analysis demonstrated that OpaR bound nine of the 11 target promoters (<xref rid="pone.0121863.g003" ref-type="fig">Fig 3</xref>). Thus, the weaker scoring OpaR-binding sites appear to be functional. This was clearly illustrated by the multiple shifted bands observed in several of the promoters. The MQSR matrix [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>] utilized with PATSER, in combination with the RNA-Seq data selecting for highly regulated genes, appeared to be quite effective in identifying possible OpaR-binding sites since even sequences with low scores appeared to be valid based on the EMSA results. OpaR did not bind the promoter region of VPBB_2530 and VPBB_A0554 (<xref rid="pone.0121863.g003" ref-type="fig">Fig 3</xref>), which were two of the three genes that lacked predicted binding boxes. However, it did bind to the promoter of VPBB_0491 with no predicted OpaR-binding site, illustrating that there are limits to the ability of the bioinformatics tools to identify all possible OpaR targets. This in part may be due to the fact that the MQSR matrix is not specific for OpaR, since binding sites for multiple LuxR homologues were used to design it. Nevertheless, for the purpose of this study, the MQSR matrix did serve as a useful tool to identify putative target genes for further EMSA analysis.</p>
+        <fig id="pone.0121863.g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0121863.g003</object-id>
+          <label>Fig 3</label>
+          <caption>
+            <title>EMSA analysis of putative OpaR direct targets.</title>
+            <p>Each panel is labeled with the promoter being analyzed. The black arrow indicates unbound DNA and the grey arrow indicates the DNA shift due to bound OpaR, with additional complexes with higher mobility present at some promoters. The concentration of FAM-labeled DNA probe in all lanes is 10 nM. The lanes within each panel (left to right) consist of the following: DNA probe with 0 nM, 25 nM, 50 nM, 100 nM OpaR, 200 nM or 400 nM OpaR. The sample in the far right lane contains DNA probe plus 100 nM of OpaR with 100 nM unlabeled DNA for competition. Gene names are: VPBB_0491(<italic>cpsR)</italic>, VPBB_0645 (<italic>crl</italic> family<italic>)</italic>, VPBB_2530 (<italic>cspD/vpsT</italic> family), VPBB_1307 <italic>(fhlA</italic> family<italic>)</italic>, VPBB_1322 <italic>(asnC</italic> family<italic>)</italic>, VPBB_1558 <italic>(exsA)</italic>, VPBB_2619 <italic>(aphA)</italic>, VPBB_A0554 (<italic>araC</italic> family), VPBB_A0869 <italic>(ars</italic> family<italic>)</italic>, VPBB_A1319 <italic>(cpsQ</italic> family<italic>)</italic>, and VPBB_A1405 (<italic>lafK)</italic>.</p>
+          </caption>
+          <graphic xlink:href="pone.0121863.g003"/>
+        </fig>
+      </sec>
+      <sec id="sec016">
+        <title>Bioinformatics analysis of RNA-Seq data to identify additional OpaR direct targets</title>
+        <p>Since the bioinformatics method was quite effective in identifying putative OpaR targets, a second purely theoretical bioinformatics approach was applied to the RNA-Seq data in an effort to identify more OpaR direct targets. First, a list of genes with a five-fold or greater change in OpaR-dependent expression was generated. The more stringent five-fold cut off was used to help decrease possible false positives. This initial list was then cross-referenced with 2702 putative OpaR-binding sites with a PATSER score of 3 or higher identified by the PATSER program using the MQSR matrix with the RIMD2210633 genome [<xref rid="pone.0121863.ref031" ref-type="bibr">31</xref>]. The RIMD2210633 genome was utilized since it was already accessible in the PATSER program and there were only five unique BB22OP genes with greater than five-fold differential OpaR-dependent expression. This analysis yielded a list that included eight of the 11 transcription factors of interest and 60 additional OpaR-controlled genes that may have OpaR-binding sites in the <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP genome (<xref rid="pone.0121863.s006" ref-type="supplementary-material">S5 Table</xref>).</p>
+        <p>The 60 newly identified genes, not including the eight transcription factors, can be classified into nine different categories. Sixteen genes appear to encode hypothetical proteins, nine encode methyl-accepting chemotaxis related proteins, seven encode cell surface related proteins, seven encode transporter proteins, seven encode regulatory or metabolic enzymes, three genes encode lateral flagellar proteins, five encode proteins with domains predicted to be involved in c-di-GMP synthesis or degradation, and one gene encodes the polar flagellar protein FlhA. There are five remaining genes that do not classify into one of the above categories: VPBB_1560 (encoding type III secretion regulator ExsC), VPBB_1309 (encoding type VI secretion Hcp protein), VPBB_1336 (encoding SM-20-related protein), VPBB_1851 (encoding cytochrome c4), and VPBB_2845 (encoding putative signal peptide protein). While further analysis of these putative direct targets of OpaR was beyond the scope of this study, their identification suggests that OpaR may directly control a variety of genes in <italic>V</italic>. <italic>parahaemolyticus</italic>.</p>
+        <p>After the BB22OP genome sequence became available in the PATSER database, an analysis of the promoter regions of the five unique BB22OP genes regulated five-fold or more by OpaR was similarly performed. Using these criterion, results indicated only one gene specific to BB22OP as being theoretically directly regulated by OpaR. VPBB_A0413 is a gene encoding a hypothetical protein with a PATSER score of 7.8 and <italic>opaR</italic>
+<sup><italic>+</italic></sup>/Delta<italic>opaR1</italic> RNA-Seq regulation of 0.11. The predicted OpaR binding site is -412 to -393 upstream of the start site (<xref rid="pone.0121863.s006" ref-type="supplementary-material">S5 Table</xref>).</p>
+      </sec>
+      <sec id="sec017">
+        <title>Bioinformatics analysis of RNA-Seq data to identify putative sRNAs</title>
+        <p>Outputs from two different published databases, BSRD [<xref rid="pone.0121863.ref030" ref-type="bibr">30</xref>] and sRNApredict2 [<xref rid="pone.0121863.ref029" ref-type="bibr">29</xref>], that utilized the <italic>V</italic>. <italic>parahaemolyticus</italic> RIMD2210633 genome, were initially compared to help identify sRNAs predicted to also exist in BB22OP. For Chromosome 1, sRNApredict2 predicted 50 candidate sRNAs, BSRD predicted 45, but only 14 were predicted by both programs. The sRNApredict2 program identified 42 possible sRNAs for chromosome 2, while BSRD predicted 20, with only six predicted by both programs. Both programs successfully predicted the five Qrrs believed to control OpaR translation [<xref rid="pone.0121863.ref029" ref-type="bibr">29</xref>,<xref rid="pone.0121863.ref030" ref-type="bibr">30</xref>].</p>
+        <p>The BB22OP RNA-Seq data validated expression of several predicted sRNAs described above in at least one of the two strains examined. RPM values were computed for each of the predicted sRNAs sequences from the two RNA-Seq samples, revealing six predicted sRNAs found in one or both of the sRNA databases that were differentially regulated greater than four-fold by OpaR (<xref rid="pone.0121863.t003" ref-type="table">Table 3</xref>). Four of the six sRNAs were too small for efficient qRT-PCR validation, and since all of them were already deposited into public databases, no additional analysis was performed. The BB22OP RNA-Seq data was also analyzed for differential expression of novel sRNAs not predicted by the two databases by looking for the pileup of reads mapping to intergenic regions. Two candidates were discovered to be possible OpaR controlled sRNAs. One appears to be a 5' untranslated region upstream of gene VPBB_1422 rather than a distinct sRNA. VPBB_1422 (VP1517) encodes an Rhs-family protein; its upstream region was similarly regulated in the microarray analysis (~34-fold). The second candidate has all the characteristics of a sRNA. This putative sRNA, called Srr, is located between genes VPBB_1217 and VPBB_1218 on the VP B22OP chromosome 1. The Srr RNA was previously identified as being part of the lateral flagellar regulon and was repressed 73-fold by OpaR [<xref rid="pone.0121863.ref013" ref-type="bibr">13</xref>,<xref rid="pone.0121863.ref025" ref-type="bibr">25</xref>]. The RNA-Seq data showed Srr as being repressed 222.69  +-  1.54 fold by OpaR (<xref rid="pone.0121863.t003" ref-type="table">Table 3</xref>). The existence of this novel sRNA was verified, and OpaR-control of its expression was validated when subsequent qRT-PCR analysis demonstrated 167.93  +-  62.92-fold repression by OpaR. Thus, along with the transcripts of the lateral flagellar genes, it is one of the most highly regulated transcripts in the entire OpaR regulon.</p>
+        <table-wrap id="pone.0121863.t003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0121863.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Putative sRNAs and 5'-untranslated leaders regulated four-fold or more by OpaR.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0121863.t003g" xlink:href="pone.0121863.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1">sRNA ID</th>
+                  <th align="left" rowspan="1" colspan="1">Flanking BB22OP genes</th>
+                  <th align="left" rowspan="1" colspan="1">Length (bp)</th>
+                  <th align="left" rowspan="1" colspan="1">Mode of OpaR Regulation</th>
+                  <th align="left" rowspan="1" colspan="1">
+<italic>opaR</italic>
+<sup>+</sup>/Delta<italic>opaR1</italic> RNA-Seq<xref rid="t003fn006" ref-type="table-fn">
+<sup>f</sup>
+</xref>
+</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="5" align="left" rowspan="1">
+<bold>Chromosome 1:</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Candidate<xref rid="t003fn001" ref-type="table-fn">
+<sup>a</sup>
+</xref> 18</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_2071-VPBB_2072</td>
+                  <td align="left" rowspan="1" colspan="1">93<xref rid="t003fn004" ref-type="table-fn">
+<sup>d</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.15</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Candidate<xref rid="t003fn001" ref-type="table-fn">
+<sup>a</sup>
+</xref> 33</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_2279-VPBB_2280</td>
+                  <td align="left" rowspan="1" colspan="1">133<xref rid="t003fn004" ref-type="table-fn">
+<sup>d</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.15</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Srr (swarm-specific RNA)<xref rid="t003fn002" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_1217-VPBB_1218</td>
+                  <td align="left" rowspan="1" colspan="1">190<xref rid="t003fn005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.005</td>
+                </tr>
+                <tr>
+                  <td colspan="5" align="left" rowspan="1">
+<bold>Chromosome 2:</bold>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Cyclic di-GMP-II Riboswitch<xref rid="t003fn003" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A1460-VPBB_A1461</td>
+                  <td align="left" rowspan="1" colspan="1">105<xref rid="t003fn004" ref-type="table-fn">
+<sup>d</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.07</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">MicX<xref rid="t003fn003" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A1271-VPBB_A1272</td>
+                  <td align="left" rowspan="1" colspan="1">196</td>
+                  <td align="left" rowspan="1" colspan="1">activated</td>
+                  <td align="char" char="." rowspan="1" colspan="1">4.58</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Purine_riboswitch<xref rid="t003fn003" ref-type="table-fn">
+<sup>c</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A1172-VPBB_A1173</td>
+                  <td align="left" rowspan="1" colspan="1">100<xref rid="t003fn004" ref-type="table-fn">
+<sup>d</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Candidate 12<xref rid="t003fn001" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">VPBB_A1578-VPBB_A1579</td>
+                  <td align="left" rowspan="1" colspan="1">207<xref rid="t003fn005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">repressed</td>
+                  <td align="char" char="." rowspan="1" colspan="1">0.15</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t003fn001">
+              <p>
+<sup>a</sup>sRNAs identified with sRNAPredict2</p>
+            </fn>
+            <fn id="t003fn002">
+              <p>
+<sup>b</sup> Not found in either database</p>
+            </fn>
+            <fn id="t003fn003">
+              <p>
+<sup>c</sup> sRNAs identified with BSRD</p>
+            </fn>
+            <fn id="t003fn004">
+              <p>
+<sup>d</sup> Due to the qRT-PCR size and primer requirements, sRNA expression was not further validated. Only the Srr was confirmed via qRT-PCR since it was not part of one of the existing sRNA databases.</p>
+            </fn>
+            <fn id="t003fn005">
+              <p>
+<sup>e</sup> The approximate genomic location of Srr is 1354895 - 1355085 bp and Candidate 12 is 1776278 - 1776403 bp. Due to the lack of strand specific data, the location of the other sRNAs was not determined, although all sRNAs were observed in the RNA-Seq data.</p>
+            </fn>
+            <fn id="t003fn006">
+              <p>
+<sup>f</sup>RNA-Seq data is fold change of the <italic>opaR</italic>
+<sup>+</sup> strain gene expression divided by the del-<italic>opaR1</italic> strain gene expression. Error for the ratios of normalized gene expression levels were conservatively estimated using the standard deviation ratios across the majority of genes with less than 4-fold change. The standard deviation for chromosome 1 is 1.53 and the error for chromosome 2 is 1.59.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec018">
+      <title>Discussion</title>
+      <p>The recently published genome sequence of the <italic>V</italic>. <italic>parahaemolyticus</italic> strain BB22OP revealed over 200 genes unique to the BB22OP strain that were not found in the previously sequenced RIMD2210633 strain [<xref rid="pone.0121863.ref016" ref-type="bibr">16</xref>]. Knowing there are differences in the two genomes prompted an examination of the complete <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP transcriptome as measured through RNA-Seq. Prior microarray data for <italic>V</italic>. <italic>parahaemolyticus</italic> BB22OP was generated using a custom Affymetrix GeneChip designed using the first sequenced <italic>V</italic>. <italic>parahaemolyticus</italic> genome of strain RIMD2210633. The OpaR regulon revealed by these two analyses were found to correlate very highly with one another, with just 18 genes inversely regulated in <italic>opaR</italic>
+<sup>+</sup> versus del-<italic>opaR1</italic> BB22OP strains. Many of these discordant genes were associated with phosphate transporters suggesting that differences in the medium and or water utilized may have led to these minor discrepancies. The RNA-Seq data was further validated via qRT-PCR for a select subset of 11 transcription factor genes that were highly regulated by OpaR (<xref rid="pone.0121863.t001" ref-type="table">Table 1</xref>). Although absolute levels of regulation observed in the microarray, RNA-Seq and qRT-PCR were not identical, the direction of regulation (activation or repression) was confirmed by all three methods and the degree of regulation was in a similar range (<xref rid="pone.0121863.t001" ref-type="table">Table 1</xref>).</p>
+      <p>The 11 transcription factors downstream of OpaR presumably play an essential role in the regulatory network controlling phenotypic output critical to the survival and virulence of the organism. Transcriptome analyses suggest four major themes with respect to the kinds of genes that are controlled ultimately by OpaR. These include genes pertinent to (1) the cell surface and adhesion, (2) virulence and cell-cell interactions including one type III and two type VI secretion systems, (3) the surface-specific regulon including the lateral flagellar system, chemotaxis and the swarm-specific sRNA, and (4) other functions such as competency (<xref rid="pone.0121863.g004" ref-type="fig">Fig 4</xref>).</p>
+      <fig id="pone.0121863.g004" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0121863.g004</object-id>
+        <label>Fig 4</label>
+        <caption>
+          <title>Model of OpaR regulon highlighting downstream transcription factors.</title>
+          <p>Downstream targets of OpaR include 11 transcription factors differentially regulated by OpaR four-fold or more. The genes controlling nine of the transcription factors are directly controlled by OpaR, as indicated by the solid lines. VPA0606 (AraC family protein) and VP2710 (CsgD/VpsT family protein) appear to be indirectly regulated as indicated by the dashed lines. Blue indicates genes about which some experimental data with relation to hierarchical control has been obtained in <italic>V</italic>. <italic>parahaemolyticus</italic>.</p>
+        </caption>
+        <graphic xlink:href="pone.0121863.g004"/>
+      </fig>
+      <p>Of the 11 transcription factors in the OpaR regulon under investigation in this study, the roles of many have been previously examined in <italic>V</italic>. <italic>parahaemolyticus</italic>. The regulators CpsR and CpsQ control capsule production [<xref rid="pone.0121863.ref032" ref-type="bibr">32</xref>,<xref rid="pone.0121863.ref033" ref-type="bibr">33</xref>]. Recent findings show that the AsnC family protein VPBB_1322 and the FhlA family protein VPBB_1307 play roles in the regulation of the type VI secretion system in <italic>V</italic>. <italic>parahaemolyticus</italic> [<xref rid="pone.0121863.ref034" ref-type="bibr">34</xref>]. ExsA, an AraC-family regulator, controls the T3SS1 in <italic>V</italic>. <italic>parahaemolyticus</italic> similar to its role in type-three secretion in other organisms such as <italic>Pseudomonas aeruginosa</italic> [<xref rid="pone.0121863.ref035" ref-type="bibr">35</xref> - <xref rid="pone.0121863.ref037" ref-type="bibr">37</xref>]. The sigma 54-dependent flagellar regulatory protein LafK is known to play a role in swarming motility [<xref rid="pone.0121863.ref035" ref-type="bibr">35</xref>,<xref rid="pone.0121863.ref038" ref-type="bibr">38</xref> - <xref rid="pone.0121863.ref040" ref-type="bibr">40</xref>]. AphA, is a known quorum-sensing regulator that is active primarily at low cell densities. [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>]. A mutant with a transposon insertion in the AraC-type regulatory gene VBB_A0554 has a striking biofilm phenotype [<xref rid="pone.0121863.ref041" ref-type="bibr">41</xref>]. The roles of the other three transcription factors are less well defined in <italic>V</italic>. <italic>parahaemolyticus</italic>, but their homologues have been studied in other bacterial species. Crl is a transcriptional activator of the curli formation and fibronectin binding in <italic>Escherichia coli</italic> [<xref rid="pone.0121863.ref042" ref-type="bibr">42</xref>]. The ArsR-type regulator is part of a potential operon encoding a cation efflux transporter; many ArsR family proteins are metalloregulators [<xref rid="pone.0121863.ref043" ref-type="bibr">43</xref>]. VPBB_2530 is a predicted c-di-GMP binding protein homologous to CpsQ and VpsT [<xref rid="pone.0121863.ref032" ref-type="bibr">32</xref>,<xref rid="pone.0121863.ref044" ref-type="bibr">44</xref>].</p>
+      <p>EMSA analysis confirmed that the genes for nine transcriptional regulators, were direct targets of OpaR while the genes for the remaining two transcription factors appear to be indirectly controlled by OpaR and therefore located further downstream in the regulon (<xref rid="pone.0121863.g004" ref-type="fig">Fig 4</xref>). Understanding more about each regulator, what it controls specifically in <italic>V</italic>. <italic>parahaemolyticus</italic>, and how it fits into the cascade of quorum-sensing regulations, can help further understand how <italic>V</italic>. <italic>parahaemolyticus</italic> switches from the nonpathogenic to pathogenic states and is capable of living in several different environments.</p>
+      <p>The previously designed MQSR box [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>] proved to be useful for the theoretical identification of OpaR direct targets when utilized in combination with the RNA-Seq data [<xref rid="pone.0121863.ref027" ref-type="bibr">27</xref>]. OpaR was experimentally determined to bind to a number of sites with low scores in the PATSER program. Since the MQSR box was created using all of the LuxR homologue binding sites, it is perhaps not unexpected that some functional binding sites would have lower scores. In addition to the nine transcription factors experimentally confirmed to be direct targets of OpaR, this work has identified 60 other putative targets direct as well as numerous indirect protein-coding targets of OpaR, and 6 sRNAs predicted in published databases that are differentially expressed by OpaR. In addition, both the microarray and RNA-Seq data have revealed a highly regulated, novel sRNA that is controlled by OpaR. Altogether this study has identified a large number of OpaR-regulated genes. The hierarchy of direct and indirect gene control during quorum sensing is starting to become clear and further study of the roles of the OpaR controlled transcriptional regulators will help to elucidate the downstream quorum sensing cascade critical for ultimately regulating virulence gene expression.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec019">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0121863.s001">
+        <label>S1 Fig</label>
+        <caption>
+          <title>Graphical representation of the comparison between the RNA-Seq data and the published microarray data log ratios for chromosome 1 (A) or chromosome 2 (B) of <italic>V</italic>. <italic>parahaemolyticus</italic>.</title>
+          <p>Each point represents a gene reported from the microarray work to have an OpaR fold regulation of four or greater. All genes not along the trend line represent discrepancies in the data. The genes with discrepancies in quadrant II or IV are differentially regulated meaning in one set of data it is repressed and in the second set of data it is activated. For chromosome 1, the genes are mostly DNA uptake related and the differences in chromosome 2 are phosphate transporters (See <xref rid="pone.0121863.s004" ref-type="supplementary-material">S3 Table</xref>).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0121863.s001.TIF">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0121863.s002">
+        <label>S1 Table</label>
+        <caption>
+          <title>Primers for qRT-PCR.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0121863.s002.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0121863.s003">
+        <label>S2 Table</label>
+        <caption>
+          <title>Primers for amplification of promoter regions.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0121863.s003.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0121863.s004">
+        <label>S3 Table</label>
+        <caption>
+          <title>Genes differentially expressed between the microarray and RNA-Seq data.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0121863.s004.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0121863.s005">
+        <label>S4 Table</label>
+        <caption>
+          <title>Genes regulated greater than 4-fold in the RNA-Seq data.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0121863.s005.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0121863.s006">
+        <label>S5 Table</label>
+        <caption>
+          <title>Additional theoretically predicted putative direct targets of OpaR.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0121863.s006.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank David Kruchko for helping with the data processing and analysis. The work was supported by the Fralin Life Sciences Institute, Virginia Bioinformatics Institute, Graduate Research Development Program, and Life Sciences I Building Fund, and its publication was supported by Virginia Tech's Open Access Subvention Fund. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0121863.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Daniels</surname><given-names>NA</given-names></name>, <name><surname>MacKinnon</surname><given-names>L</given-names></name>, <name><surname>Bishop</surname><given-names>R</given-names></name>, <name><surname>Altekruse</surname><given-names>S</given-names></name>, <name><surname>Ray</surname><given-names>B</given-names></name>, <name><surname>Hammond</surname><given-names>RM</given-names></name>, <etal>et al</etal>
+<article-title>
+<italic>Vibrio parahaemolyticus</italic> infections in the United States, 1973 - 1998</article-title>. <source>J Infect Dis</source>. <year>2000</year>;<volume>181</volume>(<issue>5</issue>):<fpage>1661</fpage> - <lpage>6</lpage>. Epub 2000/05/15.
+<pub-id pub-id-type="pmid">10823766</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Reen</surname><given-names>FJ</given-names></name>, <name><surname>Almagro-Moreno</surname><given-names>S</given-names></name>, <name><surname>Ussery</surname><given-names>D</given-names></name>, <name><surname>Boyd</surname><given-names>EF</given-names></name>. <article-title>The genomic code: inferring <italic>Vibrionaceae</italic> niche specialization</article-title>. <source>Nat Rev Microbiol</source>. <year>2006</year>;<volume>4</volume>(<issue>9</issue>):<fpage>697</fpage> - <lpage>704</lpage>. Epub 2006/08/07.
+<pub-id pub-id-type="pmid">16894340</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Nair</surname><given-names>GB</given-names></name>, <name><surname>Ramamurthy</surname><given-names>T</given-names></name>, <name><surname>Bhattacharya</surname><given-names>SK</given-names></name>, <name><surname>Dutta</surname><given-names>B</given-names></name>, <name><surname>Takeda</surname><given-names>Y</given-names></name>, <name><surname>Sack</surname><given-names>DA</given-names></name>. <article-title>Global dissemination of <italic>Vibrio parahaemolyticus</italic> serotype O3:K6 and its serovariants</article-title>. <source>Clin Microbiol Rev</source>. <year>2007</year>;<volume>20</volume>(<issue>1</issue>):<fpage>39</fpage> - <lpage>48</lpage>.
+<pub-id pub-id-type="pmid">17223622</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>DePaola</surname><given-names>A</given-names></name>, <name><surname>Jones</surname><given-names>JL</given-names></name>, <name><surname>Woods</surname><given-names>J</given-names></name>, <name><surname>Burkhardt</surname><given-names>W</given-names><suffix>3rd</suffix></name>, <name><surname>Calci</surname><given-names>KR</given-names></name>, <name><surname>Krantz</surname><given-names>JA</given-names></name>, <etal>et al</etal>
+<article-title>Bacterial and viral pathogens in live oysters: 2007 United States market survey</article-title>. <source>Appl Environ Microbiol</source>. <year>2010</year>;<volume>76</volume>(<issue>9</issue>):<fpage>2754</fpage> - <lpage>68</lpage>. Epub 2010/02/26. <pub-id pub-id-type="doi">10.1128/AEM.02590-09</pub-id>
+<pub-id pub-id-type="pmid">20190085</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McLaughlin</surname><given-names>JB</given-names></name>, <name><surname>DePaola</surname><given-names>A</given-names></name>, <name><surname>Bopp</surname><given-names>CA</given-names></name>, <name><surname>Martinek</surname><given-names>KA</given-names></name>, <name><surname>Napolilli</surname><given-names>NP</given-names></name>, <name><surname>Allison</surname><given-names>CG</given-names></name>, <etal>et al</etal>
+<article-title>Outbreak of <italic>Vibrio parahaemolyticus</italic> gastroenteritis associated with Alaskan oysters</article-title>. <source>N Engl J Med</source>. <year>2005</year>;<volume>353</volume>(<issue>14</issue>):<fpage>1463</fpage> - <lpage>70</lpage>. Epub 2005/10/06.
+<pub-id pub-id-type="pmid">16207848</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Belas</surname><given-names>R</given-names></name>, <name><surname>Simon</surname><given-names>M</given-names></name>, <name><surname>Silverman</surname><given-names>M</given-names></name>. <article-title>Regulation of lateral flagella gene transcription in <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>1986</year>;<volume>167</volume>(<issue>1</issue>):<fpage>210</fpage> - <lpage>8</lpage>.
+<pub-id pub-id-type="pmid">3013835</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>OpaR, a homolog of <italic>Vibrio harveyi</italic> LuxR, controls opacity of <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>1998</year>;<volume>180</volume>(<issue>12</issue>):<fpage>3166</fpage> - <lpage>73</lpage>.
+<pub-id pub-id-type="pmid">9620967</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Joint</surname><given-names>I</given-names></name>, <name><surname>Allan</surname><given-names>Downie J</given-names></name>, <name><surname>Williams</surname><given-names>P</given-names></name>. <article-title>Bacterial conversations: talking, listening and eavesdropping. An introduction</article-title>. <source>Philos Trans R Soc Lond B Biol Sci</source>. <year>2007</year>;<volume>362</volume>(<issue>1483</issue>):<fpage>1115</fpage> - <lpage>7</lpage>.
+<pub-id pub-id-type="pmid">17360281</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fuqua</surname><given-names>WC</given-names></name>, <name><surname>Winans</surname><given-names>SC</given-names></name>, <name><surname>Greenberg</surname><given-names>EP</given-names></name>. <article-title>Quorum sensing in bacteria: the LuxR-LuxI family of cell density-responsive transcriptional regulators</article-title>. <source>J Bacteriol</source>. <year>1994</year>;<volume>176</volume>(<issue>2</issue>):<fpage>269</fpage> - <lpage>75</lpage>.
+<pub-id pub-id-type="pmid">8288518</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Waters</surname><given-names>CM</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name>. <article-title>Quorum sensing: cell-to-cell communication in bacteria</article-title>. <source>Annu Rev Cell Dev Biol</source>. <year>2005</year>;<volume>21</volume>:<fpage>319</fpage> - <lpage>46</lpage>.
+<pub-id pub-id-type="pmid">16212498</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>von Bodman</surname><given-names>SB</given-names></name>, <name><surname>Willey</surname><given-names>JM</given-names></name>, <name><surname>Diggle</surname><given-names>SP</given-names></name>. <article-title>Cell-cell communication in bacteria: united we stand</article-title>. <source>J Bacteriol</source>. <year>2008</year>;<volume>190</volume>(<issue>13</issue>):<fpage>4377</fpage> - <lpage>91</lpage>. Epub 2008/05/02. <pub-id pub-id-type="doi">10.1128/JB.00486-08</pub-id>
+<pub-id pub-id-type="pmid">18456806</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Whitehead</surname><given-names>NA</given-names></name>, <name><surname>Barnard</surname><given-names>AM</given-names></name>, <name><surname>Slater</surname><given-names>H</given-names></name>, <name><surname>Simpson</surname><given-names>NJ</given-names></name>, <name><surname>Salmond</surname><given-names>GP</given-names></name>. <article-title>Quorum-sensing in Gram-negative bacteria</article-title>. <source>FEMS Microbiol Rev</source>. <year>2001</year>;<volume>25</volume>(<issue>4</issue>):<fpage>365</fpage> - <lpage>404</lpage>.
+<pub-id pub-id-type="pmid">11524130</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gode-Potratz</surname><given-names>CJ</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Quorum sensing and silencing in <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>2011</year>;<volume>193</volume>(<issue>16</issue>):<fpage>4224</fpage> - <lpage>37</lpage>. Epub 2011/06/24. <pub-id pub-id-type="doi">10.1128/JB.00432-11</pub-id>
+<pub-id pub-id-type="pmid">21705592</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tu</surname><given-names>KC</given-names></name>, <name><surname>Waters</surname><given-names>CM</given-names></name>, <name><surname>Svenningsen</surname><given-names>SL</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name>. <article-title>A small-RNA-mediated negative feedback loop controls quorum-sensing dynamics in <italic>Vibrio harveyi</italic>
+</article-title>. <source>Mol Microbiol</source>. <year>2008</year>;<volume>70</volume>(<issue>4</issue>):<fpage>896</fpage> - <lpage>907</lpage>. Epub 2008/09/18. <pub-id pub-id-type="doi">10.1111/j.1365-2958.2008.06452.x</pub-id>
+<pub-id pub-id-type="pmid">18808382</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pompeani</surname><given-names>AJ</given-names></name>, <name><surname>Irgon</surname><given-names>JJ</given-names></name>, <name><surname>Berger</surname><given-names>MF</given-names></name>, <name><surname>Bulyk</surname><given-names>ML</given-names></name>, <name><surname>Wingreen</surname><given-names>NS</given-names></name>, <name><surname>Bassler</surname><given-names>BL</given-names></name>. <article-title>The <italic>Vibrio harveyi</italic> master quorum-sensing regulator, LuxR, a TetR-type protein is both an activator and a repressor: DNA recognition and binding specificity at target promoters</article-title>. <source>Mol Microbiol</source>. <year>2008</year>;<volume>70</volume>(<issue>1</issue>):<fpage>76</fpage> - <lpage>88</lpage>. Epub 2008/08/04. <pub-id pub-id-type="doi">10.1111/j.1365-2958.2008.06389.x</pub-id>
+<pub-id pub-id-type="pmid">18681939</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jensen</surname><given-names>RV</given-names></name>, <name><surname>Depasquale</surname><given-names>SM</given-names></name>, <name><surname>Harbolick</surname><given-names>EA</given-names></name>, <name><surname>Hong</surname><given-names>T</given-names></name>, <name><surname>Kernell</surname><given-names>AL</given-names></name>, <name><surname>Kruchko</surname><given-names>DH</given-names></name>, <etal>et al</etal>
+<article-title>Complete genome sequence of prepandemic <italic>Vibrio parahaemolyticus</italic> BB22OP</article-title>. <source>Genome Announc</source>. <year>2013</year>;<volume>1</volume>(<issue>1</issue>). Epub 2013/02/21.</mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Croucher</surname><given-names>NJ</given-names></name>, <name><surname>Thomson</surname><given-names>NR</given-names></name>. <article-title>Studying bacterial transcriptomes using RNA-seq</article-title>. <source>Curr Opin Microbiol</source>. <year>2010</year>;<volume>13</volume>(<issue>5</issue>):<fpage>619</fpage> - <lpage>24</lpage>. Epub 2010/10/29. <pub-id pub-id-type="doi">10.1016/j.mib.2010.09.009</pub-id>
+<pub-id pub-id-type="pmid">20888288</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>Z</given-names></name>, <name><surname>Gerstein</surname><given-names>M</given-names></name>, <name><surname>Snyder</surname><given-names>M</given-names></name>. <article-title>RNA-Seq: a revolutionary tool for transcriptomics</article-title>. <source>Nat Rev Genet</source>. <year>2009</year>;<volume>10</volume>(<issue>1</issue>):<fpage>57</fpage> - <lpage>63</lpage>. <pub-id pub-id-type="doi">10.1038/nrg2484</pub-id>
+<pub-id pub-id-type="pmid">19015660</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ramachandran</surname><given-names>R</given-names></name>, <name><surname>Burke</surname><given-names>AK</given-names></name>, <name><surname>Cormier</surname><given-names>G</given-names></name>, <name><surname>Jensen</surname><given-names>RV</given-names></name>, <name><surname>Stevens</surname><given-names>AM</given-names></name>. <article-title>Transcriptome-based analysis of the <italic>Pantoea stewartii</italic> quorum-sensing regulon and identification of EsaR direct targets</article-title>. <source>Appl Environ Microbiol</source>. <year>2014</year>;<volume>80</volume>(<issue>18</issue>):<fpage>5790</fpage> - <lpage>800</lpage>. Epub 2014/07/11. <pub-id pub-id-type="doi">10.1128/AEM.01489-14</pub-id>
+<pub-id pub-id-type="pmid">25015891</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cock</surname><given-names>PJ</given-names></name>, <name><surname>Antao</surname><given-names>T</given-names></name>, <name><surname>Chang</surname><given-names>JT</given-names></name>, <name><surname>Chapman</surname><given-names>BA</given-names></name>, <name><surname>Cox</surname><given-names>CJ</given-names></name>, <name><surname>Dalke</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Biopython: freely available Python tools for computational molecular biology and bioinformatics</article-title>. <source>Bioinformatics</source>. <year>2009</year>;<volume>25</volume>(<issue>11</issue>):<fpage>1422</fpage> - <lpage>3</lpage>. Epub 2009/03/20. <pub-id pub-id-type="doi">10.1093/bioinformatics/btp163</pub-id>
+<pub-id pub-id-type="pmid">19304878</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Altschul</surname><given-names>SF</given-names></name>, <name><surname>Gish</surname><given-names>W</given-names></name>, <name><surname>Miller</surname><given-names>W</given-names></name>, <name><surname>Myers</surname><given-names>EW</given-names></name>, <name><surname>Lipman</surname><given-names>DJ</given-names></name>. <article-title>Basic local alignment search tool</article-title>. <source>J Mol Biol</source>. <year>1990</year>;<volume>215</volume>(<issue>3</issue>):<fpage>403</fpage> - <lpage>10</lpage>.
+<pub-id pub-id-type="pmid">2231712</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Camacho</surname><given-names>C</given-names></name>, <name><surname>Coulouris</surname><given-names>G</given-names></name>, <name><surname>Avagyan</surname><given-names>V</given-names></name>, <name><surname>Ma</surname><given-names>N</given-names></name>, <name><surname>Papadopoulos</surname><given-names>J</given-names></name>, <name><surname>Bealer</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>BLAST+: architecture and applications</article-title>. <source>BMC Bioinformatics</source>. <year>2009</year>;<volume>10</volume>:<fpage>421</fpage>
+<pub-id pub-id-type="doi">10.1186/1471-2105-10-421</pub-id>
+<pub-id pub-id-type="pmid">20003500</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Li</surname><given-names>H</given-names></name>, <name><surname>Durbin</surname><given-names>R</given-names></name>. <article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source>. <year>2009</year>;<volume>25</volume>(<issue>14</issue>):<fpage>1754</fpage> - <lpage>60</lpage>. Epub 2009/05/18. <pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+<pub-id pub-id-type="pmid">19451168</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mane</surname><given-names>SP</given-names></name>, <name><surname>Evans</surname><given-names>C</given-names></name>, <name><surname>Cooper</surname><given-names>KL</given-names></name>, <name><surname>Crasta</surname><given-names>OR</given-names></name>, <name><surname>Folkerts</surname><given-names>O</given-names></name>, <name><surname>Hutchison</surname><given-names>SK</given-names></name>, <etal>et al</etal>
+<article-title>Transcriptome sequencing of the Microarray Quality Control (MAQC) RNA reference samples using next generation sequencing</article-title>. <source>BMC Genomics</source>. <year>2009</year>;<volume>10</volume>:<fpage>264</fpage>
+<pub-id pub-id-type="doi">10.1186/1471-2164-10-264</pub-id>
+<pub-id pub-id-type="pmid">19523228</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gode-Potratz</surname><given-names>CJ</given-names></name>, <name><surname>Kustusch</surname><given-names>RJ</given-names></name>, <name><surname>Breheny</surname><given-names>PJ</given-names></name>, <name><surname>Weiss</surname><given-names>DS</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Surface sensing in <italic>Vibrio parahaemolyticus</italic> triggers a programme of gene expression that promotes colonization and virulence</article-title>. <source>Mol Microbiol</source>. <year>2011</year>;<volume>79</volume>(<issue>1</issue>):<fpage>240</fpage> - <lpage>63</lpage>. Epub 2010/11/16. <pub-id pub-id-type="doi">10.1111/j.1365-2958.2010.07445.x</pub-id>
+<pub-id pub-id-type="pmid">21166906</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pfaffl</surname><given-names>MW</given-names></name>. <article-title>A new mathematical model for relative quantification in real-time RT - PCR</article-title>. <source>Nucleic Acids Res</source>. <year>2001</year>;<volume>29</volume>(<issue>9</issue>):<fpage>e45</fpage>
+<pub-id pub-id-type="pmid">11328886</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>Y</given-names></name>, <name><surname>Qiu</surname><given-names>Y</given-names></name>, <name><surname>Tan</surname><given-names>Y</given-names></name>, <name><surname>Guo</surname><given-names>Z</given-names></name>, <name><surname>Yang</surname><given-names>R</given-names></name>, <name><surname>Zhou</surname><given-names>D</given-names></name>. <article-title>Transcriptional regulation of <italic>opaR</italic>, <italic>qrr2-4</italic> and <italic>aphA</italic> by the master quorum-sensing regulator OpaR in <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>4</issue>):<fpage>e34622</fpage> Epub 2012/04/10. <pub-id pub-id-type="doi">10.1371/journal.pone.0034622</pub-id>
+<pub-id pub-id-type="pmid">22506036</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hertz</surname><given-names>GZ</given-names></name>, <name><surname>Stormo</surname><given-names>GD</given-names></name>. <article-title>Identifying DNA and protein patterns with statistically significant alignments of multiple sequences</article-title>. <source>Bioinformatics</source>. <year>1999</year>;<volume>15</volume>(<issue>7 - 8</issue>):<fpage>563</fpage> - <lpage>77</lpage>.
+<pub-id pub-id-type="pmid">10487864</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Livny</surname><given-names>J</given-names></name>. <article-title>Efficient annotation of bacterial genomes for small, noncoding RNAs using the integrative computational tool sRNAPredict2</article-title>. <source>Methods Mol Biol</source>. <year>2007</year>;<volume>395</volume>:<fpage>475</fpage> - <lpage>88</lpage>.
+<pub-id pub-id-type="pmid">17993693</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Li</surname><given-names>L</given-names></name>, <name><surname>Huang</surname><given-names>D</given-names></name>, <name><surname>Cheung</surname><given-names>MK</given-names></name>, <name><surname>Nong</surname><given-names>W</given-names></name>, <name><surname>Huang</surname><given-names>Q</given-names></name>, <name><surname>Kwan</surname><given-names>HS</given-names></name>. <article-title>BSRD: a repository for bacterial small regulatory RNA</article-title>. <source>Nucleic Acids Res</source>. <year>2013</year>;<volume>41</volume>(Database issue):<fpage>D233</fpage> - <lpage>8</lpage>. Epub 2012/11/29. <pub-id pub-id-type="doi">10.1093/nar/gks1264</pub-id>
+<pub-id pub-id-type="pmid">23203879</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Makino</surname><given-names>K</given-names></name>, <name><surname>Oshima</surname><given-names>K</given-names></name>, <name><surname>Kurokawa</surname><given-names>K</given-names></name>, <name><surname>Yokoyama</surname><given-names>K</given-names></name>, <name><surname>Uda</surname><given-names>T</given-names></name>, <name><surname>Tagomori</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Genome sequence of <italic>Vibrio parahaemolyticus</italic>: a pathogenic mechanism distinct from that of <italic>V cholerae</italic>
+</article-title>. <source>Lancet</source>. <year>2003</year>;<volume>361</volume>(<issue>9359</issue>):<fpage>743</fpage> - <lpage>9</lpage>.
+<pub-id pub-id-type="pmid">12620739</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ferreira</surname><given-names>RB</given-names></name>, <name><surname>Chodur</surname><given-names>DM</given-names></name>, <name><surname>Antunes</surname><given-names>LC</given-names></name>, <name><surname>Trimble</surname><given-names>MJ</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Output targets and transcriptional regulation by a cyclic dimeric GMP-responsive circuit in the <italic>Vibrio parahaemolyticus</italic> Scr network</article-title>. <source>J Bacteriol</source>. <year>2012</year>;<volume>194</volume>(<issue>5</issue>):<fpage>914</fpage> - <lpage>24</lpage>. Epub 2011/12/22. <pub-id pub-id-type="doi">10.1128/JB.05807-11</pub-id>
+<pub-id pub-id-type="pmid">22194449</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Guvener</surname><given-names>ZT</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Multiple regulators control capsular polysaccharide production in <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>2003</year>;<volume>185</volume>(<issue>18</issue>):<fpage>5431</fpage> - <lpage>41</lpage>.
+<pub-id pub-id-type="pmid">12949095</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Salomon</surname><given-names>D</given-names></name>, <name><surname>Gonzalez</surname><given-names>H</given-names></name>, <name><surname>Updegraff</surname><given-names>BL</given-names></name>, <name><surname>Orth</surname><given-names>K</given-names></name>. <article-title>
+<italic>Vibrio parahaemolyticus</italic> type VI secretion system 1 is activated in marine conditions to target bacteria, and is differentially regulated from system 2</article-title>. <source>PLoS One</source>. <year>2013</year>;<volume>8</volume>(<issue>4</issue>):<fpage>e61086</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0061086</pub-id>
+<pub-id pub-id-type="pmid">23613791</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gode-Potratz</surname><given-names>CJ</given-names></name>, <name><surname>Chodur</surname><given-names>DM</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Calcium and iron regulate swarming and type III secretion in <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>2010</year>;<volume>192</volume>(<issue>22</issue>):<fpage>6025</fpage> - <lpage>38</lpage>. Epub 2010/09/17. <pub-id pub-id-type="doi">10.1128/JB.00654-10</pub-id>
+<pub-id pub-id-type="pmid">20851895</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Brutinel</surname><given-names>ED</given-names></name>, <name><surname>Vakulskas</surname><given-names>CA</given-names></name>, <name><surname>Yahr</surname><given-names>TL</given-names></name>. <article-title>Functional domains of ExsA, the transcriptional activator of the <italic>Pseudomonas aeruginosa</italic> type III secretion system</article-title>. <source>J Bacteriol</source>. <year>2009</year>;<volume>191</volume>(<issue>12</issue>):<fpage>3811</fpage> - <lpage>21</lpage>. Epub 2009/04/17. <pub-id pub-id-type="doi">10.1128/JB.00002-09</pub-id>
+<pub-id pub-id-type="pmid">19376850</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Park</surname><given-names>KS</given-names></name>, <name><surname>Ono</surname><given-names>T</given-names></name>, <name><surname>Rokuda</surname><given-names>M</given-names></name>, <name><surname>Jang</surname><given-names>MH</given-names></name>, <name><surname>Okada</surname><given-names>K</given-names></name>, <name><surname>Iida</surname><given-names>T</given-names></name>, <etal>et al</etal>
+<article-title>Functional characterization of two type III secretion systems of <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>Infect Immun</source>. <year>2004</year>;<volume>72</volume>(<issue>11</issue>):<fpage>6659</fpage> - <lpage>65</lpage>.
+<pub-id pub-id-type="pmid">15501799</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stewart</surname><given-names>BJ</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Lateral flagellar gene system of <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>2003</year>;<volume>185</volume>(<issue>15</issue>):<fpage>4508</fpage> - <lpage>18</lpage>.
+<pub-id pub-id-type="pmid">12867460</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jaques</surname><given-names>S</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Three new regulators of swarming in <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>J Bacteriol</source>. <year>2006</year>;<volume>188</volume>(<issue>7</issue>):<fpage>2625</fpage> - <lpage>35</lpage>.
+<pub-id pub-id-type="pmid">16547050</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Boles</surname><given-names>BR</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>
+<italic>Vibrio parahaemolyticus scrABC</italic>, a novel operon affecting swarming and capsular polysaccharide regulation</article-title>. <source>J Bacteriol</source>. <year>2002</year>;<volume>184</volume>(<issue>21</issue>):<fpage>5946</fpage> - <lpage>54</lpage>.
+<pub-id pub-id-type="pmid">12374828</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Enos-Berlage</surname><given-names>JL</given-names></name>, <name><surname>Guvener</surname><given-names>ZT</given-names></name>, <name><surname>Keenan</surname><given-names>CE</given-names></name>, <name><surname>McCarter</surname><given-names>LL</given-names></name>. <article-title>Genetic determinants of biofilm development of opaque and translucent <italic>Vibrio parahaemolyticus</italic>
+</article-title>. <source>Mol Microbiol</source>. <year>2005</year>;<volume>55</volume>(<issue>4</issue>):<fpage>1160</fpage> - <lpage>82</lpage>.
+<pub-id pub-id-type="pmid">15686562</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Arnqvist</surname><given-names>A</given-names></name>, <name><surname>Olsen</surname><given-names>A</given-names></name>, <name><surname>Pfeifer</surname><given-names>J</given-names></name>, <name><surname>Russell</surname><given-names>DG</given-names></name>, <name><surname>Normark</surname><given-names>S</given-names></name>. <article-title>The Crl protein activates cryptic genes for curli formation and fibronectin binding in <italic>Escherichia coli</italic> HB101</article-title>. <source>Mol Microbiol</source>. <year>1992</year>;<volume>6</volume>(<issue>17</issue>):<fpage>2443</fpage> - <lpage>52</lpage>.
+<pub-id pub-id-type="pmid">1357528</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref043">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Busenlehner</surname><given-names>LS</given-names></name>, <name><surname>Pennella</surname><given-names>MA</given-names></name>, <name><surname>Giedroc</surname><given-names>DP</given-names></name>. <article-title>The SmtB/ArsR family of metalloregulatory transcriptional repressors: Structural insights into prokaryotic metal resistance</article-title>. <source>FEMS Microbiol Rev</source>. <year>2003</year>;<volume>27</volume>(<issue>2 - 3</issue>):<fpage>131</fpage> - <lpage>43</lpage>.
+<pub-id pub-id-type="pmid">12829264</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0121863.ref044">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Krasteva</surname><given-names>PV</given-names></name>, <name><surname>Fong</surname><given-names>JC</given-names></name>, <name><surname>Shikuma</surname><given-names>NJ</given-names></name>, <name><surname>Beyhan</surname><given-names>S</given-names></name>, <name><surname>Navarro</surname><given-names>MV</given-names></name>, <name><surname>Yildiz</surname><given-names>FH</given-names></name>, <etal>et al</etal>
+<article-title>
+<italic>Vibrio cholerae</italic> VpsT regulates matrix production and motility by directly sensing cyclic di-GMP</article-title>. <source>Science</source>. <year>2010</year>;<volume>327</volume>(<issue>5967</issue>):<fpage>866</fpage> - <lpage>8</lpage>. <pub-id pub-id-type="doi">10.1126/science.1181185</pub-id>
+<pub-id pub-id-type="pmid">20150502</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+

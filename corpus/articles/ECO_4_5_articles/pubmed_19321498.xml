@@ -1,0 +1,1422 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19321498</article-id>
+      <article-id pub-id-type="pmc">2691820</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkp162</article-id>
+      <article-id pub-id-type="publisher-id">gkp162</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Molecular Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Phosphate control over nitrogen metabolism in <italic>Streptomyces coelicolor</italic>: direct and indirect negative control of <italic>glnR</italic>, <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic> expression by the response regulator PhoP</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rodriguez-Garcia</surname>
+            <given-names>Antonio</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sola-Landa</surname>
+            <given-names>Alberto</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Apel</surname>
+            <given-names>Kristian</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Santos-Beneit</surname>
+            <given-names>Fernando</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Martin</surname>
+            <given-names>Juan F.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="AFF1"><sup>1</sup>Instituto de Biotecnologia de Leon, INBIOTEC, Parque Cientifico de Leon, Av. Real, 1, 24006 and <sup>2</sup>&#xC1;rea de Microbiologia, Fac. CC. Biologicas y Ambientales, Universidad de Leon, Campus de Vegazana, s/n, 24071, Leon, Spain</aff>
+      <author-notes>
+        <corresp id="COR1">*To whom correspondence should be addressed. Tel: <phone>+34 987 291 505/+34 987 210 308</phone>; Fax: <fax>+34 987 291 506/+34 987 210 388</fax>; Email: <email>jf.martin@unileon.es</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>6</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>24</day>
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>24</day>
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>37</volume>
+      <issue>10</issue>
+      <fpage>3230</fpage>
+      <lpage>3242</lpage>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>1</month>
+          <year>2009</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>27</day>
+          <month>2</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>2</month>
+          <year>2009</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2009 The Author(s)</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/2.0/uk/">
+          <license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/2.0/uk/">http://creativecommons.org/licenses/by-nc/2.0/uk/</ext-link>) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Bacterial growth requires equilibrated concentration of C, N and P sources. This work shows a phosphate control over the nitrogen metabolism in the model actinomycete <italic>Streptomyces coelicolor</italic>. Phosphate control of metabolism in <italic>Streptomyces</italic> is exerted by the two component system PhoR-PhoP. The response regulator PhoP binds to well-known PHO boxes composed of direct repeat units (DRus). PhoP binds to the <italic>glnR</italic> promoter, encoding the major nitrogen regulator as shown by EMSA studies, but not to the <italic>glnRII</italic> promoter under identical experimental conditions. PhoP also binds to the promoters of <italic>glnA</italic> and <italic>glnII</italic> encoding two glutamine synthetases, and to the promoter of the <italic>amtB</italic>-<italic>glnK</italic>-<italic>glnD</italic> operon, encoding an ammonium transporter and two putative nitrogen sensing/regulatory proteins. Footprinting analyses revealed that the PhoP-binding sequence overlaps the GlnR boxes in both <italic>glnA</italic> and <italic>glnII</italic>. 'Information theory' quantitative analyses of base conservation allowed us to establish the structure of the PhoP-binding regions in the <italic>glnR</italic>, <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic> genes. Expression studies using <italic>luxAB</italic> as reporter showed that PhoP represses the above mentioned nitrogen metabolism genes. A mutant deleted in PhoP showed increased expression of the nitrogen metabolism genes. The possible conservation of phosphate control over nitrogen metabolism in other microorganisms is discussed.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body><sec><title>INTRODUCTION</title><p>Bacterial growth requires an equilibrated concentration of carbon, nitrogen and phosphorus sources. Carbon, nitrogen and phosphate concentrations exert an important regulatory effect on primary and secondary metabolism in different bacteria including <italic>Streptomyces</italic> (<xref ref-type="bibr" rid="B1 B2 B3 B4 B5">1 - 5</xref>).</p><p>Phosphorus is an essential component of bacterial nutrition; expression of phosphate-regulated genes in <italic>Streptomyces</italic> species is modulated by the two-component system PhoR-PhoP (<xref ref-type="bibr" rid="B6">6</xref>). PhoR is the membrane sensor protein kinase which senses phosphate scarcity; PhoP is the response regulator which binds DNA and controls the transcription of genes belonging to the so-called <italic>pho</italic> regulon. PhoP was shown to control the expression of primary and secondary metabolism genes including actinorhodin and undecylprodigiosin biosynthesis genes (<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>). Binding of PhoP to the promoter regions of three different genes of the <italic>pho</italic> regulon <italic>pstS</italic>, <italic>phoU</italic> and <italic>phoRP</italic> was shown both in <italic>Streptomyces coelicolor</italic> (<xref ref-type="bibr" rid="B8">8</xref>) and <italic>S. natalensis</italic> (<xref ref-type="bibr" rid="B9">9</xref>). The PhoP-binding operator sequences of these genes as well as those present in the promoter regions of <italic>phoA</italic> and <italic>phoD</italic> of <italic>S. coelicolor</italic> (<xref ref-type="bibr" rid="B10">10</xref>) are composed of direct repeat units (DRu) of 11 nt. Operator sequences of other PhoP-regulated genes have been recently described in <italic>S. coelicolor</italic> and classified into three types of DRus organization with different degrees of complexity (<xref ref-type="bibr" rid="B11">11</xref>).</p><p>In bacteria a central role in nitrogen metabolism is played by glutamine synthetases that assimilate ammonium into the cellular organic nitrogen (NH<sub>3</sub> + glutamate + ATP -> glutamine + ADP + <italic>P</italic><sub>i</sub>) (<xref ref-type="bibr" rid="B2">2</xref>). The overall nitrogen metabolism is regulated in <italic>S. coelicolor</italic> by complex mechanisms that involve an apparent doubling of some structural and regulatory genes (<xref ref-type="bibr" rid="B12">12</xref>). There are two glutamine synthetase (GS) genes in <italic>S. coelicolor</italic>: <italic>glnA</italic> (<xref ref-type="bibr" rid="B13">13</xref>), that encodes the GS type I (GS-I), orthologous to that found in prokaryotes, and <italic>glnII</italic> (<xref ref-type="bibr" rid="B14">14</xref>), which encodes GS type II (GS-II), similar to eukaryotic GS. The <italic>glnII</italic> gene appears to be present in all <italic>Streptomyces</italic> species (<xref ref-type="bibr" rid="B15">15</xref>), but it is absent in the related actinomycetes <italic>Mycobacterium</italic> and <italic>Corynebacterium</italic> (<xref ref-type="bibr" rid="B12">12</xref>). The two types of GS enzymes differ in size, number of subunits, expression pattern and post-translational modification (<xref ref-type="bibr" rid="B2">2</xref>). In <italic>S. coelicolor</italic>, the adenylyltransferase GlnE down-regulates the GS-I enzyme by post-translational modification in response to excess of ammonium (<xref ref-type="bibr" rid="B16">16</xref>). The adenylated GS-I enzyme becomes inactive. GlnE can also deadenylate and restore the GS-I activity under ammonium limitation. This post-translational regulatory mechanism is widespread in bacteria. In <italic>Escherichia coli</italic> the GlnE activity depends on three proteins that are thought to be nitrogen sensing proteins. These are the GlnD protein, an uridylyltransferase/uridylyl-removing enzyme, and two proteins of the P<sub>II</sub> signal transduction superfamily, GlnB and GlnK (<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B17">17</xref>). Both GlnB and GlnK are covalently modified - and thus regulated - by GlnD, and both P<sub>II</sub> proteins modulate the GlnE activity.</p><p>The GlnD and GlnK homologues of <italic>S. coelicolor</italic> were characterized by Hesketh <italic>et al</italic>. (<xref ref-type="bibr" rid="B18">18</xref>). In contrast to the enteric system, these proteins are not required for the GlnE-mediated regulation of the GS-I enzyme. The targets of the GlnK/GlnD system are not yet known (<xref ref-type="bibr" rid="B12">12</xref>). Genes encoding this system are clustered with the putative ammonium transporter gene <italic>amtB</italic> and form the operon <italic>amtB-glnK-glnD</italic> (<xref ref-type="bibr" rid="B19">19</xref>).</p><p>Two regulatory genes <italic>glnR</italic> and <italic>glnRII</italic> control expression of several nitrogen metabolism genes at the transcriptional level. The global nitrogen activator/repressor GlnR controls all the important routes for ammonium assimilation (<xref ref-type="bibr" rid="B19 B20 B21 B22">19 - 22</xref>). GlnR in response to nitrogen limitation activates the transcription of <italic>glnA</italic> and <italic>glnII</italic> (encoding both GSs), as well as the transporter <italic>amtB</italic> and the putative nitrite reductase gene <italic>nirB</italic>. The binding motif of GlnR (GlnR box), has been characterized by footprinting assays of <italic>glnA</italic>, <italic>gdhA</italic> and <italic>nirB</italic> promoters, and by sequence analysis of 13 bound promoters (<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B22">22</xref>).</p><p>The regulator gene <italic>glnRII</italic> is located 1 kb downstream of <italic>glnII</italic>, separated by two hypothetical coding sequences. The overall amino-acid sequence of GlnRII is similar to GlnR, and is nearly identical in the DNA recognition helixes. In fact, GlnRII also binds the promoter regions of <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic> (<xref ref-type="bibr" rid="B19">19</xref>). Nevertheless, it is not strictly a functional homologue of GlnR and its role in nitrogen regulation is not yet clearly established (<xref ref-type="bibr" rid="B12">12</xref>).</p><p>Initial microarray studies (<xref ref-type="bibr" rid="B23">23</xref>) suggested that there might be a connexion between the phosphate control exerted by PhoP and the overall nitrogen regulation mediated by GlnR. It was, therefore, of great interest to study the relationships between these two pleiotropic regulators in the control of metabolism in <italic>S. coelicolor</italic>.</p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Strains, plasmids and growth conditions</title><p>The <italic>S. coelicolor</italic> strain M145 (<xref ref-type="bibr" rid="B24">24</xref>), which is the standard strain for the European Union STREAM (<italic>Streptomyces</italic> analysis of metabolism) project was used as the wild-type strain. The M145-derivative mutant strain <italic>S. coelicolor</italic> INB201 was obtained by replacement of the <italic>phoP</italic> coding sequence by the apramycin resistance cassette (F. Santos-Beneit <italic>et al</italic>., unpublished results). All strains were manipulated and conjugated according to standard procedures (<xref ref-type="bibr" rid="B24">24</xref>).</p><p>All the DNA materials are listed in <xref ref-type="table" rid="T1">Table 1</xref>. PCR using the indicated amplification primer pairs were done to clone promoter regions into adequate vectors. Fidelity of the PCR was checked by sequencing the entire insert. Vectors pGEM-T easy and pBS II KS + were used to clone the indicated amplicons (<xref ref-type="table" rid="T1">Table 1</xref>) for gel retarding and footprinting analyses. For luciferase reporter analysis, primers containing a NdeI-restriction site were designed in order to clone the promoters into the ATG codon of the <italic>luxA</italic> gene. Using this strategy, the cloned promoter sequences include the Shine-Dalgarno nucleotides and maintain the same distance to the start codon in the luciferase fusions than in the original gene.
+<table-wrap id="T1" position="float"><label>Table 1.</label><caption><p>List of primers and plasmids</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th rowspan="1" colspan="1">Primer</th><th rowspan="1" colspan="1">Sequence<xref ref-type="table-fn" rid="TF1"><sup>a</sup></xref></th><th rowspan="1" colspan="1">Promoter</th><th rowspan="1" colspan="1">Size of amplicon</th></tr></thead><tbody align="left"><tr><td rowspan="1" colspan="1">PHO-37</td><td rowspan="1" colspan="1"><underline>TCTAGA</underline>GGCTACGACGAGCGGGAAC</td><td rowspan="1" colspan="1"><italic>glnII</italic></td><td rowspan="1" colspan="1">316</td></tr><tr><td rowspan="1" colspan="1">PHO-38</td><td rowspan="1" colspan="1"><underline>GGATCC</underline>ACGGGGCCACATCCTTCG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">PHO-39</td><td rowspan="1" colspan="1"><underline>TCTAGA</underline>GGAGAGCCACGATCCGATTG</td><td rowspan="1" colspan="1"><italic>glnA</italic></td><td rowspan="1" colspan="1">284</td></tr><tr><td rowspan="1" colspan="1">PHO-40</td><td rowspan="1" colspan="1"><underline>GGATCC</underline>CGGCGTTCTGGAACATCC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">PHO-41</td><td rowspan="1" colspan="1"><underline>TCTAGA</underline>TCCCGAACTGCCCGACTC</td><td rowspan="1" colspan="1"><italic>amtB</italic></td><td rowspan="1" colspan="1">293</td></tr><tr><td rowspan="1" colspan="1">PHO-42</td><td rowspan="1" colspan="1"><underline>GGATCC</underline>ATCGGCGTCTCCTCGTCG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">glnR-1</td><td rowspan="1" colspan="1">GCCGTACGGAGGAAGGTACG</td><td rowspan="1" colspan="1"><italic>glnR</italic></td><td rowspan="1" colspan="1">362</td></tr><tr><td rowspan="1" colspan="1">CAR35</td><td rowspan="1" colspan="1">TCAGGAGCAGCAGAGAACTCATC</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CAR36</td><td rowspan="1" colspan="1">GGCGGTCGGTTGCTCATG</td><td rowspan="1" colspan="1"><italic>glnR</italic></td><td rowspan="1" colspan="1">257</td></tr><tr><td rowspan="1" colspan="1">glnRII-1</td><td rowspan="1" colspan="1"><underline>GGATCC</underline>CCACGCACTGAGAGGAGTCTCCT</td><td rowspan="1" colspan="1"><italic>glnRII</italic></td><td rowspan="1" colspan="1">321</td></tr><tr><td rowspan="1" colspan="1">glnRII-2</td><td rowspan="1" colspan="1"><underline>TCTAGA</underline>ATGAGACGTCAGCTCTTTCGCG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CAR57</td><td rowspan="1" colspan="1"><underline>GTCAGGATC</underline>CGTCTCGGGATGCGGACGATTGG</td><td rowspan="1" colspan="1"><italic>glnR</italic></td><td rowspan="1" colspan="1">308</td></tr><tr><td rowspan="1" colspan="1">CAR58</td><td rowspan="1" colspan="1"><underline>ATGGTACCATA</underline>TGCCCCACCTGCCTGGGACGGTTTG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CAR59</td><td rowspan="1" colspan="1"><underline>GAACGGATCC</underline>GAGCCACGATCCGATTGC</td><td rowspan="1" colspan="1"><italic>glnA</italic></td><td rowspan="1" colspan="1">273</td></tr><tr><td rowspan="1" colspan="1">CAR60</td><td rowspan="1" colspan="1"><underline>ATGGTACCATATG</underline>GCTCCTCCTACTCCCGACCGT</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CAR61</td><td rowspan="1" colspan="1"><underline>TTCTGGATCC</underline>GTCCCACTTCGGACCGCTGATC</td><td rowspan="1" colspan="1"><italic>glnII</italic></td><td rowspan="1" colspan="1">307</td></tr><tr><td rowspan="1" colspan="1">CAR62</td><td rowspan="1" colspan="1"><underline>ATGGTACCATAT</underline>GGCCACATCCTTCGGGGTGGGTCT</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CAR63</td><td rowspan="1" colspan="1"><underline>CCGTGGATC</underline>CGGCCGTACGCGATTTC</td><td rowspan="1" colspan="1"><italic>amtB</italic></td><td rowspan="1" colspan="1">420</td></tr><tr><td rowspan="1" colspan="1">CAR64</td><td rowspan="1" colspan="1"><underline>CTGGTACCATAT</underline>GCGTCTCCTCGTCGTTG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">6FAM-F</td><td rowspan="1" colspan="1">CGACGTTGTAAAACGACGGCCAGT</td><td rowspan="1" colspan="1">Various</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Reverse</td><td rowspan="1" colspan="1">GGAAACAGCTATGACCATG</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">6FAM-R</td><td rowspan="1" colspan="1">CAGGAAACAGCTATGAC</td><td rowspan="1" colspan="1">Various</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Forward</td><td rowspan="1" colspan="1">GTAAAACGACGGCCAGT</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><bold>Plasmid</bold></td><td rowspan="1" colspan="1"><bold>Features</bold><xref ref-type="table-fn" rid="TF2"><sup>b</sup></xref></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><bold>Reference</bold></td></tr><tr><td rowspan="1" colspan="1">pGEM-T-easy</td><td rowspan="1" colspan="1">Cloning vector, Amp<sup>r</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Promega</td></tr><tr><td rowspan="1" colspan="1">pBS II KS+</td><td rowspan="1" colspan="1">Cloning vector, Amp<sup>r</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Stratagene</td></tr><tr><td rowspan="1" colspan="1">pBS II SK+</td><td rowspan="1" colspan="1">Cloning vector, Amp<sup>r</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Stratagene</td></tr><tr><td rowspan="1" colspan="1">pLUXAR+<italic>neo</italic></td><td rowspan="1" colspan="1">Conjugative-integrative promoter-probe vector, <italic>luxAB</italic> genes, Am<sup>r</sup>, Neo<sup>r</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Perez-Redondo, unpublished</td></tr><tr><td rowspan="1" colspan="1">pGEM-P<italic>glnII</italic></td><td rowspan="1" colspan="1">PCR product from PHO-37 and PHO-38 cloned into pGEM-T-easy</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pGEM-P<italic>glnA</italic></td><td rowspan="1" colspan="1">PCR product from PHO-39 and PHO-40 cloned into pGEM-T-easy</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pGEM-P<italic>amtB</italic></td><td rowspan="1" colspan="1">PCR product from PHO-41 and PHO-42 cloned into pGEM-T-easy</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pBS-P<italic>glnR</italic></td><td rowspan="1" colspan="1">PCR product from glnR-1 and CAR35 cloned into pBS II KS+(EcoRV)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pBS-P<italic>glnR</italic>-b</td><td rowspan="1" colspan="1">PCR product from CAR35 and CAR36 cloned into pBS II KS+(EcoRV)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pBS-P<italic>glnRII</italic></td><td rowspan="1" colspan="1">PCR product from glnRII-1 and glnRII-2 cloned into pBS II KS+(EcoRV)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N1</td><td rowspan="1" colspan="1">PCR product from CAR57 and CAR58 cloned into pBS II SK+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N2</td><td rowspan="1" colspan="1"><italic>glnRp</italic> from pAR-N1 (-289 to +3) cloned into pLUXAR+<italic>neo</italic> (BamHI, NdeI)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N3</td><td rowspan="1" colspan="1">PCR product from CAR59 and CAR60 cloned into pBS II SK+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N4</td><td rowspan="1" colspan="1"><italic>glnAp</italic> from pAR-N3 (-253 to +3) cloned into pLUXAR+<italic>neo</italic> (BamHI, NdeI)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N5</td><td rowspan="1" colspan="1">PCR product from CAR61 and CAR62 cloned into pBS II SK+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N6</td><td rowspan="1" colspan="1"><italic>glnIIp</italic> from pAR-N5 (-287 to +3) cloned into pLUXAR+<italic>neo</italic> (BamHI, NdeI)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N7</td><td rowspan="1" colspan="1">PCR product from CAR63 and CAR64 cloned into pBS II SK+</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr><tr><td rowspan="1" colspan="1">pAR-N8</td><td rowspan="1" colspan="1"><italic>amtBp</italic> from pAR-N7 (-401 to +3) cloned into pLUXAR+<italic>neo</italic> (BamHI, NdeI)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">This work</td></tr></tbody></table><table-wrap-foot><fn id="TF1"><p><sup>a</sup>Restriction sites introduced in amplicons are indicated by underline.</p></fn><fn id="TF2"><p><sup>b</sup>Promoter coordinates are referred to the translation start site.</p></fn></table-wrap-foot></table-wrap></p><p><italic>Streptomyces</italic> cultures were carried out in defined MG-3.2 medium containing 50 g l<sup>-1</sup> starch, 60 mM glutamate, and 3.2 mM potassium phosphate. Total 10<sup>6</sup> spores ml<sup>-1</sup> were used to inoculate 100 ml of MG medium in 500 ml baffled flasks and incubated at 30 degrees C, 300 r.p.m. as indicated previously (<xref ref-type="bibr" rid="B25">25</xref>).</p></sec><sec><title>Electrophoretic mobility assays (EMSA)</title><p>DNA - PhoP interaction was tested in electrophoretic mobility shift assays (EMSA) as described previously (<xref ref-type="bibr" rid="B8">8</xref>). The promoters were excised from plasmids by restriction digestion and labelled at both ends with digoxigenin using the DIG Oligonucleotide 3'-end Labeling Kit, Second Generation (Roche). DNA fragments were incubated with different GST-PhoP<sup>DBD</sup> concentrations and DNA - protein complexes were resolved by PAGE.</p></sec><sec><title>DNase I footprinting assays</title><p>Pure GST-PhoP<sup>DBD</sup> protein was used for DNase I footprinting assays as previously described (<xref ref-type="bibr" rid="B8">8</xref>). DNA probes for <italic>glnRp</italic>, <italic>glnAp</italic>, <italic>glnIIp</italic> and <italic>amtBp</italic> were obtained by PCR using a 6-FAM-modified primer for labelling just one strand. Labelled and unlabelled primer pairs correspond to the forward and reverse M13 sequences listed in <xref ref-type="table" rid="T1">Table 1</xref>. The reaction mixtures included 9.3 nM of probe DNA and 2 muM of GST-PhoP<sup>DBD</sup> protein.</p><p>The labelled primers were used also for Sanger sequencing with the Thermo Sequenase Primer Cycle Sequencing Kit (GE Healthcare). Each reaction was loaded into an ABI PRISM 3130 sequencer together with the molecular standard Gene-Scan (R)  500 LIZ (TM)  (Applied Biosystems). Electropherograms were analysed with PeakScanner v1.0 software (Applied Biosystems) to determine the protected sequence.</p></sec><sec><title>Luciferase assay and growth determination</title><p>The reporter luciferase activity was measured in a Luminoskan luminometer (Labsystems, Helsinki) as described previously (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B25">25</xref>). Riboflavine (10 mug ml<sup>-1</sup>) was added to the cell suspension in all samples to improve the sensitivity of luciferase assays, following the recommendation of Bachmann <italic>et al</italic>. (<xref ref-type="bibr" rid="B26">26</xref>). For dry weight determination, culture samples of 2 ml were washed twice with MilliQ water and dried at 80 degrees C during 4 days.</p></sec><sec><title>'Information theory' analysis of binding sites</title><p>To calculate the information content (<italic>R</italic><sub>i</sub> value) of individual sequences (<xref ref-type="bibr" rid="B27">27</xref>), and to obtain logos and walkers for the analysis of binding sites we used the Delila package which include the makebk, encode, rseq, dalvec, makelogo, ri and lister programs (<xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref>). DNA sequences were scanned for binding sites using the RSA tools server (<xref ref-type="bibr" rid="B30">30</xref>) and <italic>R</italic><sub>i</sub> matrixes.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Transcriptional response of the nitrogen metabolism genes to phosphate limitation</title><p>We previously reported that phosphate limitation upregulated nitrogen metabolism genes in the Delta<italic>phoP</italic> mutant (<xref ref-type="bibr" rid="B23">23</xref>). Microarray results showed that glutamine synthetase gene <italic>glnII</italic> and genes of the operon <italic>amtB-glnK-glnD</italic> increased their transcription in response to phosphate downshift in the Delta<italic>phoP</italic> mutant, while no change was detected in the wild-type strain. The GlnA protein, detected in 2D gels, was overproduced in the Delta<italic>phoP</italic> mutant. These expression responses suggested that PhoP might be exerting a negative effect on expression of those nitrogen metabolism genes.</p><p>Inspection of the nucleotide sequences of the promoter regions indicated the presence of PHO-like sequences in the above mentioned nitrogen structural genes and in the <italic>glnR</italic> regulator gene. This suggested that the previously observed transcriptomic profiles were due to both direct and indirect regulation by PhoP. The direct control was checked by DNA-binding analysis of the <italic>glnA, glnII</italic> and <italic>amtB</italic> promoters using the purified DNA-binding domain of the PhoP response regulator (GST-PhoP<sup>DBD</sup>) (<xref ref-type="bibr" rid="B8">8</xref>). The promoter regions of the two regulatory genes, <italic>glnR</italic> and <italic>glnRII</italic>, were also analysed to explore a possible indirect control of the structural genes.</p></sec><sec><title>PhoP binds the <italic>glnR</italic> promoter but not the <italic>glnRII</italic> one</title><p>The <italic>glnR</italic> 5'-region was cloned by PCR as a fragment of 362 bp that also included 98 bp of the upstream coding sequence (CDS). Electrophoretic mobility shift assays (EMSA) of this fragment with the GST-PhoP<sup>DBD</sup> protein revealed the formation of three retarded bands (<xref ref-type="fig" rid="F1">Figure 1</xref>). As reported previously (<xref ref-type="bibr" rid="B11">11</xref>), each retarded DNA - protein complex correspond to a number of protein monomers bound to the DNA fragment. The established model of the PhoP-binding site indicates that each PhoP monomer binds a direct repeat unit (DRu) of 11 nt. Two or three consecutive DRus form the core of the binding site. Once the core is occupied, further protein monomers can bind adjacent DRus, what account for the DNA - protein complexes of lower electrophoretic mobility (see the detailed analysis below).
+<fig id="F1" position="float"><label>Figure 1.</label><caption><p>Analysis by EMSA of the promoters. Lane P, probe without protein; lanes 1 - 4, increasing concentrations of GST-PhoP<sup>DBD</sup> (0.125, 0.25, 0.5 and 1 microM, respectively). An excess (more than 1000-fold) of poly[d(I-C)] is included in every lane as internal control to avoid an unspecific binding of the protein to the DNA. Controls with competing excess of unlabelled probe are shown as <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkp162/DC1">Supplementary Data (Figure S1)</ext-link>. The different shift bands are indicated by arrows. The assays were repeated three times.</p></caption><graphic xlink:href="gkp162f1"/></fig></p><p>To locate the PhoP-binding site, we carried out DNase I footprinting experiments. Electrophoretic separation of digestion products was facilitated by using a smaller fragment of 257 bp that comprised only the <italic>glnR</italic> promoter sequence. The GST-PhoP<sup>DBD</sup> protein at a concentration of 2 muM protected from DNase I digestion a stretch of 33 nt located at positions -139 to -107 in the coding strand (all coordinates are referred to the translation start site; <xref ref-type="fig" rid="F2">Figure 2</xref>A). This stretch comprised a DRu with sequence matching the first seven PHO box consensus bases (GTTCACC). In addition, some upstream and downstream nucleotides were protected to a lesser extent by protein binding. As previously observed in other PhoP footprintings (<xref ref-type="bibr" rid="B11">11</xref>), DNase I hypersensitive sites appeared next to the binding site at its 3'-end. The complementary strand showed protection from -112 to -140 nt, partial protections up to position -103, and hypersensitive sites at positions -144 and -145 (<xref ref-type="fig" rid="F2">Figure 2</xref>B).
+<fig id="F2" position="float"><label>Figure 2.</label><caption><p>DNase I footprints of the GST-PhoP<sup>DBD</sup> protein bound to the promoter regions of <italic>glnR</italic> (<bold>A, B</bold>), <italic>glnA</italic> (<bold>C, D</bold>), <italic>glnII</italic> (<bold>E, F</bold>) and <italic>amtB</italic> (<bold>G, H</bold>). In each panel, the upper electrophoregram (black line) is the control reaction. The protected nucleotide sequence is boxed; partially protected nucleotides (*), and hypersensitive sites (arrows) are also indicated. Sequencing reactions are not included except in panel A. Coordinates are from the translation start codon.</p></caption><graphic xlink:href="gkp162f2a"/><graphic xlink:href="gkp162f2b"/></fig></p><p>The promoter region of <italic>glnR</italic> contains three transcription start sites at positions -200, -170 to -168 and -119, which correspond to promoters P3, P2 and P1, respectively (<xref ref-type="bibr" rid="B21">21</xref>). Promoter P3 is active only during the exponential phase, whereas transcriptions originated from P2 and P1 promoters are detected at both exponential and stationary phases (<xref ref-type="bibr" rid="B31">31</xref>). Fink <italic>et al</italic>. (<xref ref-type="bibr" rid="B19">19</xref>) reported that only P2 and P3 are active in conditions of nitrogen limitation. The PhoP protection covers the distal P1 transcription start (<xref ref-type="fig" rid="F3">Figure 3</xref>A). Thus, binding of PhoP probably blocks the <italic>glnR</italic> expression whatever promoter is active.
+<fig id="F3" position="float"><label>Figure 3.</label><caption><p>'Information content' analysis of the new PhoP-binding sites identified in this work using the sequence walker method (<xref ref-type="bibr" rid="B29">29</xref>). The footprinting results of the promoter regions of <italic>glnR</italic> (<bold>A</bold>), <italic>glnA</italic> (<bold>B</bold>, <bold>C</bold>), <italic>glnII</italic> (<bold>D</bold>) and <italic>amtB</italic> (<bold>E</bold>) are summarized on the nucleotide sequences. The protected regions of the upper and bottom strands are indicated by the respective lines. Symbols for partially protected (asterisk) and hypersensitive sites (upward arrow, downward arrow) are as in <xref ref-type="fig" rid="F2">Figure 2</xref>. For the PhoP-binding site in <italic>glnA</italic>, the two possible walkers are shown in the coding (B) and complementary strands (C). The walker limits are 2 bits, which is also the top of the sine wave, and -3 bits at the bottom. The height of each letter is the individual information value, determined from the Model I weight matrix (<xref ref-type="bibr" rid="B11">11</xref>). Negative values are represented by upside down letters. When a base does not occur at a given position in the set of sequences which forms the model, the letter background is black; a grey background indicates that the letter extends beyond the lower limit (-3 bits). The sine wave has a periodicity of 10.6 bases (the helical twist of B-form DNA) and serves to indicate major/minor groove contacts (<xref ref-type="bibr" rid="B28">28</xref>). The following features are bellow the walkers: boxes containing the <italic>R</italic><sub>i</sub> values for the above 11 nt direct repeat unit (DRu), the total <italic>R</italic><sub>i</sub> for the core site, letter codes for the DRu structure [C for core, E for extension, E<sub>U</sub> for extension unstable, E<sub>S</sub> for extension support (<xref ref-type="bibr" rid="B11">11</xref>)], and line segments comprising the DRus bound by PhoP monomers in the retarded complexes observed in <xref ref-type="fig" rid="F1">Figure 1</xref>. The conserved 5-mer sequences of the GlnR-binding sites are boxed (grey lines). Bent arrows are the transcription start points. The -35 and -10 elements of major and minor <italic>glnII</italic> promoters are also shown.</p></caption><graphic xlink:href="gkp162f3"/></fig></p><p>Although computer searches of the promoter region of the second nitrogen regulatory gene <italic>glnRII</italic> did not reveal any conserved PHO DRu, we examined it for PhoP binding. Even at 1 muM of protein, the EMSA results did not show any binding under conditions identical to those used for <italic>glnR</italic> (<xref ref-type="fig" rid="F1">Figure 1</xref>; see 'Discussion' section).</p></sec><sec><title>PhoP-binding sites overlap the GlnR boxes in both glutamine synthetase genes <italic>glnA</italic> and <italic>glnII</italic></title><p>The 5' sequences of the two glutamine synthetase genes of <italic>S. coelicolor</italic> were amplified by PCR. The cloned <italic>glnA</italic> fragment comprised the intergenic sequence (-220 to +16) and 36 bp of the upstream opposite CDS. The <italic>glnII</italic> fragment contained the full promoter region of 136 bp plus the last 105 bp of the upstream CDS. Both fragments were able to bind PhoP since they gave shifted bands in EMSA.</p><p>The <italic>glnAp</italic> gave a clear shifted band and a weak one of lower electrophoretic mobility (I and II, respectively; <xref ref-type="fig" rid="F1">Figure 1</xref>). The footprinting assay of the <italic>glnA</italic> coding strand revealed a protected region extending from -142 to -114 and partial protection of nucleotides -111 and -110 (<xref ref-type="fig" rid="F2">Figure 2</xref>C). The same region was protected in the complementary strand, from -142 to -108, although a hypersensitive site was evident at nucleotide -113 (<xref ref-type="fig" rid="F2">Figure 2</xref>D). This protected region comprises the first and half of the second GlnR box that have been described in the <italic>glnA</italic> promoter (<xref ref-type="bibr" rid="B22">22</xref>). The GlnR boxes have been defined as composed of two conserved sequences of 5 nt separated by 6 variable nt (<xref ref-type="bibr" rid="B22">22</xref>) (see also <xref ref-type="fig" rid="F3">Figure 3</xref>B - E). GlnR function as a transcriptional activator of <italic>glnA</italic> (<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B22">22</xref>). Binding of PhoP at the <italic>glnA</italic> promoter region is likely to interfere with GlnR binding and possibly with RNA polymerase function since the <italic>glnA</italic> transcription start site is located at position -74 (<xref ref-type="bibr" rid="B20">20</xref>) (<xref ref-type="fig" rid="F3">Figure 3</xref>B).</p><p>The gel mobility shift assays of the <italic>glnII</italic> promoter revealed three clear DNA - protein complexes. Complexes II and III showed stronger retardation (lower mobility) than complex I, and also showed a higher signal intensity (<xref ref-type="fig" rid="F1">Figure 1</xref>).</p><p>As shown in <xref ref-type="fig" rid="F2">Figure 2</xref>E and F, the GST-PhoP<sup>DBD</sup> protein protected a large nt stretch of the <italic>glnII</italic> promoter from DNase I digestion, extending from -145 to -88 in the coding strand, and from -138 to -84 in the complementary strand. In contrast to the <italic>glnA</italic> sequence, the coding strand of <italic>glnII</italic> exhibited a well-conserved DRu (<xref ref-type="fig" rid="F3">Figure 3</xref>D). Also, the large protected nt stretch completely covers the two GlnR boxes described by Tiffert <italic>et al</italic>. (<xref ref-type="bibr" rid="B22">22</xref>). Two closely placed promoters have been described in the <italic>glnII</italic> gene. The main promoter should correspond to the major vegetative sigma factor and its transcription start site is the adenine -79. The minor promoter shows putative elements of sigma<sup>31</sup> (<xref ref-type="bibr" rid="B14">14</xref>). This sigma factor, which is more active at stationary phase, recognizes promoters of <italic>actIII</italic> (an actinorhodin structural gene) and of <italic>hrdD</italic> (a homologue of <italic>Escherichia coli rpoD</italic>), and also the <italic>glnR</italic> P2 promoter (<xref ref-type="bibr" rid="B31">31</xref>). As shown in <xref ref-type="fig" rid="F3">Figure 3</xref>D, the overlapping location of promoters and binding sites indicate that PhoP may repress <italic>glnII</italic> transcription interfering with both GlnR binding and promoter activity.</p></sec><sec><title>The promoter for the <italic>amtB-glnK-glnD</italic> operon contains separated PhoP and GlnR operators</title><p>The <italic>amtB</italic> gene encodes a putative ammonium transporter and forms an operon with <italic>glnK</italic> and <italic>glnD</italic>, which encode the P<sub>II</sub> protein and the P<sub>II</sub> nucleotidyl transferase respectively (<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref>). The latter two proteins may be considered nitrogen metabolism sensors. Using RT - PCR experiments and a <italic>glnR</italic> mutant, Tiffert <italic>et al</italic>. (<xref ref-type="bibr" rid="B22">22</xref>) showed that GlnR activates the transcription of the <italic>amtB</italic> gene.</p><p>EMSA analyses of the DNA fragment containing the <italic>amtB</italic> 5'-region (-285 to +4) showed a clear shifted band and a second weak one with lower mobility (<xref ref-type="fig" rid="F1">Figure 1</xref>). The DNase I protection of this fragment extended from -186 to -152 in the coding strand what contained a conserved DRu (<xref ref-type="fig" rid="F2">Figure 2</xref>G). Results for the complementary strand showed a protected stretch from -142 to -170, and partial protection of the nucleotides -175 and -177 (<xref ref-type="fig" rid="F2">Figure 2</xref>H).</p><p>In contrast to what we have found for the GS genes, the PhoP-binding site at the <italic>amtB</italic> promoter is placed upstream and separated from the GlnR boxes (<xref ref-type="fig" rid="F3">Figure 3</xref>E). Three separated promoters (P3 to P1) have been identified in the <italic>amtB</italic> upstream region by low resolution S1 analysis (<xref ref-type="bibr" rid="B19">19</xref>). In principle, the location of the P1 transcription start site (-76 to -73, <xref ref-type="fig" rid="F3">Figure 3</xref>E) suggests that PhoP does not control this promoter but the upstream ones P3 and P2. In this case PhoP might act as a 'road-block' preventing the expression from the upstream promoters.</p></sec><sec><title>Analysis of the complex operator structures</title><p>The PhoP-binding sites are formed by direct repeats units (DRu) of 11 nt, each one bound by a protein monomer. We have recently described the structures of DRus based on the 'information theory' analysis and on combined EMSA and footprinting results (<xref ref-type="bibr" rid="B11">11</xref>). The differentiated structures served to classify the PHO operators into three groups. Operators that produce a unique retarded band in EMSA are either class I, if formed by 2 DRus (i.e. one PHO box), or class II, if composed of three DRus. More frequently (as occurs in all cases reported here) PhoP binding produces two or more retarded bands in EMSA. Those sites belong to class III and comprise two or three conserved DRus that form the core of the site, and one or several DRus that extend the protein occupancy beyond the core.</p><p><xref ref-type="fig" rid="F3">Figure 3</xref> includes the summary of the footprinting results. The protected regions were analysed by the sequence walker method (<xref ref-type="bibr" rid="B29">29</xref>) using the Model 1 matrix (<xref ref-type="bibr" rid="B11">11</xref>). In each walker, the letter height represents the conservation of the base and its contribution to the information content of the site (<italic>R</italic><sub>i</sub> value). Base conservation correlates with the number of contacts to the protein (<xref ref-type="bibr" rid="B32">32</xref>), and, when displayed as walkers, serves to identify the binding sequence.</p><p>The protected region in the <italic>glnR</italic> promoter comprised three DRus, and a partially protected fourth one (<xref ref-type="fig" rid="F3">Figure 3</xref>A). The proposed DRu structure explains the formation of the three observed complexes in EMSA (<xref ref-type="fig" rid="F1">Figure 1</xref>). A similar operator structure was observed in the phytase gene (SCO7697) (<xref ref-type="bibr" rid="B11">11</xref>).</p><p>The PhoP-binding site in the <italic>glnA</italic> promoter showed a less evident interpretation. In the coding strand a class II structure was suggested. This implies that the <italic>glnAp</italic> fragment should yield a unique retarded complex. Nevertheless, a second faint band appeared above the major retarded band in EMSA (<xref ref-type="fig" rid="F1">Figure 1</xref>). Moreover, the highest conserved DRu is poorly protected, and the total <italic>R</italic><sub>i</sub> for this structure is negative (-1.3 bits, <xref ref-type="fig" rid="F3">Figure 3</xref>B). When an accurate binding model is used, it has been demonstrated that the <italic>R</italic><sub>i</sub> value must be positive (<xref ref-type="bibr" rid="B29">29</xref>). In the complementary strand a more plausible structure was found because the core sequences show a low but positive <italic>R</italic><sub>i</sub> (0.2 bits), they were completely protected, and the two retarded bands can be explained (<xref ref-type="fig" rid="F3">Figure 3</xref>C). The large protected sequence in the <italic>glnII</italic> promoter included five DRus (<xref ref-type="fig" rid="F3">Figure 3</xref>D) that account for the formation of the three EMSA complexes.</p><p>The PhoP protected region in the <italic>amtB</italic> promoter covered a well conserved DRu that is flanked by two poorly conserved DRus. The two observed EMSA complexes indicate a structure composed of a 2 DRu core plus an extension repeat. The degree of protection and the walkers served us to decide which of the flanking DRus forms part of the core (<xref ref-type="fig" rid="F3">Figure 3</xref>E).</p></sec><sec><title>Reporter studies: PhoP represses the transcription of nitrogen genes</title><p>In order to quantify the effect of PhoP on expression of the nitrogen-regulated genes, <italic>glnR, glnA, glnII</italic> and <italic>amtB</italic> promoter regions were cloned in pLUXAR+<italic>neo</italic> driving expression of the <italic>luxAB</italic> reporter gene. The resulting integrative plasmids pAR-N2 (<italic>glnRp</italic>), pAR-N4 (<italic>glnAp</italic>), pAR-N6 (<italic>glnIIp</italic>), pAR-N8 (<italic>amtBp</italic>) were introduced by conjugation into the wild-type M145 strain and into the INB201 (Delta<italic>phoP</italic>) mutant. Plasmids are stably maintained by integration into the <italic>Streptomyces</italic> chromosome PhiC31 <italic>attB</italic> site.</p><p>Cultures were grown in MG-3.2 medium (containing 3.2 mM phosphate), using three independent replicates. The cultures showed a diauxic growth with transition phase from 45 to 51 h that triggered the onset of antibiotic production; the Delta<italic>phoP</italic> mutant showed reduced growth as described in Santos-Beneit <italic>et al</italic>. (<xref ref-type="bibr" rid="B25">25</xref>).</p><p>Using these reporter constructions it was clearly observed that the four promoter regions were repressed by PhoP since reporter enzyme higher activities were observed in the Delta<italic>phoP</italic> mutant with respect to parental strain at all sampling times <xref ref-type="fig" rid="F4">(Figure 4</xref>A - D). The reporter expression patterns, varied among the promoters assayed. Thus, compared to the other assayed promoters (of phosphate transporter genes <italic>pstS</italic>, <italic>pitH1</italic> and <italic>pitH2</italic>, and of glycerophosphodiesterase genes <italic>glpQ1</italic> and <italic>glpQ2</italic>) [(<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B25">25</xref>), Santos-Beneit, unpublished] the promoter region of the <italic>glnR</italic> gene produced usual or low activities across the time course of the culture. Indeed, in the wild-type strain the luminescence signals were below the instrument detection limit at 70 h (<xref ref-type="fig" rid="F4">Figure 4</xref>A). In contrast, the structural <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic> genes appeared to have very strong promoters. Among these, <italic>glnIIp</italic> showed the highest activities in the wild-type strain. Besides, maximum activities of the different promoters were reached at distinct growth phases. In both strains <italic>glnRp</italic> activities increased until the transition phase (45 h, <xref ref-type="fig" rid="F4">Figure 4</xref>A), and decreased thereafter. For the <italic>glnA</italic> and <italic>amtB</italic> promoter activities, the highest values were at the exponential growth phase in the wild-type (35 h, <xref ref-type="fig" rid="F4">Figure 4</xref>B and D). The <italic>glnIIp</italic> showed high activities during the first growth phase and a maximum activity at 42 h (at the initial transition phase, <xref ref-type="fig" rid="F4">Figure 4</xref>C). In all cases, the wild-type activities dropped rapidly after the transition phase resulting in low values in the stationary phase. In contrast, deletion of the <italic>phoP</italic> gene caused slower promoter activity drops, as seen in the INB201 plots (<xref ref-type="fig" rid="F4">Figure 4</xref>A - D).
+<fig id="F4" position="float"><label>Figure 4.</label><caption><p>Promoter activity in <italic>S. coelicolor</italic> M145 (squares, solid lines) and Delta<italic>phoP</italic> mutant (triangles, dashed lines) of <italic>glnR</italic> (<bold>A</bold>), <italic>glnA</italic> (<bold>B</bold>), <italic>glnII</italic> (<bold>C</bold>) and <italic>amtB</italic> (<bold>D</bold>) using the <italic>luxAB</italic> genes as reporter. Error bars correspond to the standard error of triplicated cultures in MG-3.2.</p></caption><graphic xlink:href="gkp162f4"/></fig></p><p>In summary, we can conclude that PhoP represses directly the transcription of GS genes <italic>glnA</italic>, <italic>glnII</italic>, the putative ammonium transporter gene <italic>amtB</italic>, and the nitrogen regulatory genes <italic>glnD</italic> and <italic>glnK</italic>, which form part of the <italic>amtB</italic> operon. In addition, PhoP negatively controls these genes via repression of its activator gene <italic>glnR</italic>.</p></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>For many years it was known that optimal media for growth of <italic>Streptomyces</italic> species and secondary metabolite biosynthesis need to be equilibrated in their C/N/P/S ratios (<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B33">33</xref>), but the molecular mechanism of the interactions between these major nutrients still remain obscure, although they are receiving increasing attention in some microorganisms (<xref ref-type="bibr" rid="B34 B35 B36">34 - 36</xref>).</p><p>Carbon and phosphate sources interact through several metabolic pathways, mainly in the glycolysis and different molecules serve as sensors of the C/P ratio in the cells. In enterobacteria carbon catabolite regulation is mediated by activation of the adenylate cyclase (forming cAMP) through interaction with the phosphorylated form of the IIA protein (IIA<sup>Glu</sup>) of the glucose translocation systems. In <italic>Bacillus subtilis</italic>, the interaction between C and P sources is mediated by fructose 1,6-bisphosphate (FBP) that interacts with the global regulator CcpA [reviewed by Sonenshein (<xref ref-type="bibr" rid="B35">35</xref>)]. Interestingly, CcpA causes repression of the <italic>phoPR</italic> promoter by binding to a novel transcription start site (<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B38">38</xref>). This is a good example of interaction between two regulatory networks. In <italic>S. coelicolor</italic> the level of extracellular phosphate-binding protein PstS responds to both phosphate limitation (<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B23">23</xref>) and some carbon sources like fructose or glucose (<xref ref-type="bibr" rid="B39">39</xref>).</p><p>There are no similar detailed reports of the interaction between the nitrogen and phosphate regulatory circuits. In the model actinomycete <italic>S. coelicolor</italic> the mechanism of phosphate control, mediated by the two-component PhoR-PhoP system, has been widely studied (<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B6 B7 B8 B11">6 - 8</xref>,<xref ref-type="bibr" rid="B11">11</xref>). Phosphate control of many <italic>pho</italic> regulon genes is mediated by binding of PhoP to PHO operators formed by direct repeats of 11-nucleotides (<xref ref-type="bibr" rid="B11">11</xref>). In initial transcriptomic studies we observed that several genes involved in nitrogen metabolism are regulated by phosphate (<xref ref-type="bibr" rid="B23">23</xref>).</p><p>The nitrogen-source regulon in <italic>S. coelicolor</italic> is controlled by two related regulatory proteins - GlnR and GlnRII (<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B22">22</xref>).</p><p>GlnR is a master regulator in <italic>S. coelicolor</italic> that controls several genes involved in nitrogen metabolism in response to ammonium limitation. This response includes activation of <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic> genes, and repression of the putative NADP-specific glutamate dehydrogenase gene <italic>gdhA</italic> (<xref ref-type="bibr" rid="B22">22</xref>). The GlnR regulon appears to be conserved in <italic>Mycobacterium</italic> and other actinomycetes (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B40">40</xref>).</p><p>As shown in this article, PhoP binds to operators located in the upstream regions of <italic>glnR</italic>, <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic>. The complex structures of these operators can provide a tuning mechanism for the PhoP regulation. Expression from these promoter regions was drastically increased in the Delta<italic>phoP</italic> mutant, demonstrating that they are repressed by PhoP. The derepression was clearly observed using the <italic>luxAB</italic> reporter system throughout the time course of the culture and also in the transcriptomic analysis of the phosphate limitation response (<xref ref-type="bibr" rid="B23">23</xref>). These results revealed that there is a control of nitrogen metabolism by phosphate availability. This control is exerted indirectly by the binding of PhoP to the <italic>glnR</italic> promoter that in turn controls expression of the other nitrogen metabolism genes. However, PhoP also binds to the promoter regions of <italic>glnA</italic>, <italic>glnII</italic> and the <italic>amtB-glnD-glnK</italic> operon indicating that, in addition to the <italic>glnR</italic>-mediated regulation, PhoP also directly controls expression of the other five nitrogen metabolism genes. This double mechanism ensures a good degree of control of <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB-glnD-glnK</italic> by PhoP.</p><p>In <italic>S. coelicolor</italic> there is a second nitrogen regulator GlnRII that interacts with the <italic>glnA</italic>, <italic>glnII</italic> and <italic>amtB</italic> promoters (<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B19">19</xref>). It is interesting that PhoP did not bind to the <italic>glnRII</italic> promoter and no PHO sequences were found in its promoter region. This result suggests that there is a nitrogen regulatory system that is independent of PhoP.</p><p>The PhoP negative control on nitrogen assimilation genes can be explained as a way to save the cell resources and to channel them to obtain phosphate from the medium when this nutrient is limiting. Indeed, the negative effect on growth of a high glutamine synthetase activity has been shown (<xref ref-type="bibr" rid="B41">41</xref>), and, as reported here, the <italic>S. coelicolor glnA</italic> and <italic>glnII</italic> promoters showed high activities (<xref ref-type="fig" rid="F4">Figure 4</xref>). A response to phosphate limitation, mediated by an increased PhoP level, is to reduce expression of genes involved in N utilization.</p><p>An important question is how PhoP and GlnR interact with their respective operators in the nitrogen regulated promoters when the binding sequences are overlapping (e.g. <italic>glnA</italic> promoter) or non-overlapping (e.g. <italic>amtB</italic> promoter). We are further investigating if both operators in <italic>glnA</italic> are coincident or whether each of those two regulatory proteins recognize specific sequences in overlapping regions. Initial evidence suggests that in this case PhoP acts by preventing binding of GlnR to its specific operator in <italic>glnA</italic> (A. Sola-Landa <italic>et al</italic>., unpublished work). In the case of the <italic>amtB</italic> promoter PhoP appears to act as a 'road-block' for the transcription originating from upstream transcription start sites. This may explain the results observed in the Delta<italic>phoP</italic> mutant.</p><p><italic>Streptomyces coelicolor</italic> is a habitant of the soil, an oligotrophic medium that is frequently limited in phosphate (<xref ref-type="bibr" rid="B3">3</xref>). An open question is if the phosphate government over nitrogen control is conserved in other microorganisms. A proteomic study on the global analysis of protein synthesis showed that the phosphate limitation decreases the expression of <italic>glnA</italic> in <italic>E. coli</italic> (<xref ref-type="bibr" rid="B42">42</xref>). Microarray analysis provided evidence that <italic>glnII</italic> and <italic>glnK</italic> are repressed after phosphate starvation in <italic>Shinorhizobium meliloti</italic> (<xref ref-type="bibr" rid="B43">43</xref>). These results are in agreement with the conservation of a phosphate control over N metabolism regulation, similar to that of <italic>S. coelicolor</italic>. We have also explored the existence of PHO boxes in nitrogen metabolism genes in <italic>E. coli</italic>. For this purpose, an information model was built based on the alignment of 25 PHO DRu compiled by Blanco <italic>et al</italic>. (<xref ref-type="bibr" rid="B44">44</xref>). Although no clear PHO boxes were detected in the <italic>glnA</italic> promoter region, there were candidate sequences in the promoters of the <italic>glnLG</italic> (<italic>ntrBC</italic>) two-component system that regulates <italic>glnA</italic> (<xref ref-type="bibr" rid="B2">2</xref>) and of the glutamine permease operon (<italic>glnHPQ</italic>) (<xref ref-type="bibr" rid="B45">45</xref>) (<xref ref-type="fig" rid="F5">Figure 5</xref>).
+<fig id="F5" position="float"><label>Figure 5.</label><caption><p>Putative PHO boxes in the <italic>E. coli</italic> genes <italic>glnH</italic> and <italic>glnL</italic>. (<bold>A</bold>) Alignment of the 25 direct repeat units (DRu) that form the known binding sites of PhoB (the orthologue regulator of <italic>Streptomyces</italic> PhoP), and the logo (<xref ref-type="bibr" rid="B28">28</xref>) that depicts the 'information theory' model. Information contents (<italic>R</italic><sub>i</sub>) of each DRu and site are shown. (<bold>B</bold>) Putative PHO boxes (composed of 2 DRu) found in the promoter regions of <italic>glnHPQ</italic> operon (glutamine permease) and <italic>glnLG</italic> (<italic>ntrBC</italic>) operon. Walkers and <italic>R</italic><sub>i</sub> values are determined by the model depicted above. Positions are referred to the translation start codon.</p></caption><graphic xlink:href="gkp162f5"/></fig></p><p>In conclusion, the nitrogen source and phosphate regulatory networks interact in different bacteria to provide an adaptation to changes in the available nitrogen and phosphate nutrients. <italic>S. coelicolor</italic> provides the first description of the control of a nitrogen regulon (GlnR) by the phosphate regulatory protein PhoP, what allows a fine coordination of the utilization of those two nutrient sources.</p></sec><sec><title>SUPPLEMENTARY DATA</title><p><ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkp162/DC1">Supplementary Data</ext-link> are available at NAR Online.</p></sec><sec><title>FUNDING</title><p>'Comision Interministerial de Ciencia y Tecnologia' [BIO2003-01489, BIO2006-14853-C02-01]; the 'Ministerio de Ciencia e Innovacion', Madrid [GEN2003-20245-C09-01]; the AECID (Agencia Espa&#xF1;ola de Cooperacion Internacional para el Desarrollo), 'Ministerio de Asuntos Exteriores y de Cooperacion', Madrid [A/010257/07]; the ERA-NET SySMO Project [GEN2006-27745-E/SYS]; and the European Union (ACTINOGEN LSHM-CT-2004-005224). F.P.U. fellowship of the Ministerio de Ciencia e Innovacion (Spain) (to K.A.); fellowship of the F.P.I. program (Ministerio de Ciencia e Innovacion, Spain) (to F.S.B.). Funding for open access charge: Institute of Biotechnology of Leon.</p><p><italic>Conflict of interest statement</italic>. None declared.</p></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>[Supplementary Data]</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="gkp162_index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="vnd.ms-powerpoint" xlink:href="gkp162_nar-00085-w-2009-File009.ppt"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>We acknowledge the excellent technical help of B. Martin, J. Merino, A. Casenave and B. Aguado.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Demain</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of antibiotic biosynthesis</article-title>
+          <source>Microbiol. Rev.</source>
+          <year>1980</year>
+          <volume>44</volume>
+          <fpage>230</fpage>
+          <lpage>251</lpage>
+          <pub-id pub-id-type="pmid">6991900</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merrick</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrogen control in bacteria</article-title>
+          <source>Microbiol. Rev.</source>
+          <year>1995</year>
+          <volume>59</volume>
+          <fpage>604</fpage>
+          <lpage>622</lpage>
+          <pub-id pub-id-type="pmid">8531888</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hodgson</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>Primary metabolism and its control in streptomycetes: a most unusual group of bacteria</article-title>
+          <source>Adv. Microb. Physiol.</source>
+          <year>2000</year>
+          <volume>42</volume>
+          <fpage>47</fpage>
+          <lpage>238</lpage>
+          <pub-id pub-id-type="pmid">10907551</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphate control of the biosynthesis of antibiotics and other secondary metabolites is mediated by the PhoR-PhoP system: an unfinished story</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>5197</fpage>
+          <lpage>5201</lpage>
+          <pub-id pub-id-type="pmid">15292120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rigali</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Titgemeyer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Barends</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mulder</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Thomae</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Hopwood</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>van Wezel</surname>
+              <given-names>GP</given-names>
+            </name>
+          </person-group>
+          <article-title>Feast or famine: the global regulator DasR links nutrient stress to antibiotic production by <italic>Streptomyces</italic></article-title>
+          <source>EMBO Rep.</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>670</fpage>
+          <lpage>675</lpage>
+          <pub-id pub-id-type="pmid">18511939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Moura</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>The two-component PhoR-PhoP system controls both primary metabolism and secondary metabolite biosynthesis in <italic>Streptomyces lividans</italic></article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>6133</fpage>
+          <lpage>6138</lpage>
+          <pub-id pub-id-type="pmid">12730372</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghorbel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kormanec</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Artus</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Virolle</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional studies and regulatory interactions between the <italic>phoR</italic>-<italic>phoP</italic> operon and the <italic>phoU</italic>, <italic>mtpA</italic>, and <italic>ppk</italic> genes of <italic>Streptomyces lividans</italic> TK24</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>677</fpage>
+          <lpage>686</lpage>
+          <pub-id pub-id-type="pmid">16385057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Garcia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Franco-Dominguez</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Binding of PhoP to promoters of phosphate-regulated genes in <italic>Streptomyces coelicolor</italic>: identification of PHO boxes</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2005</year>
+          <volume>56</volume>
+          <fpage>1373</fpage>
+          <lpage>1385</lpage>
+          <pub-id pub-id-type="pmid">15882427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mendes</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>Tunca</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Anton</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Recio</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Aparicio</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>The two-component <italic>phoR</italic>-<italic>phoP</italic> system of <italic>Streptomyces natalensis</italic>: inactivation or deletion of <italic>phoP</italic> reduces the negative phosphate regulation of pimaricin biosynthesis</article-title>
+          <source>Metab. Eng.</source>
+          <year>2007</year>
+          <volume>9</volume>
+          <fpage>217</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">17142079</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Apel</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Garcia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphate control of <italic>phoA</italic>, <italic>phoC</italic> and <italic>phoD</italic> gene expression in <italic>Streptomyces coelicolor</italic> reveals significant differences in binding of PhoP to their promoter regions</article-title>
+          <source>Microbiology</source>
+          <year>2007</year>
+          <volume>153</volume>
+          <fpage>3527</fpage>
+          <lpage>3537</lpage>
+          <pub-id pub-id-type="pmid">17906150</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Garcia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Apel</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Target genes and structure of the direct repeats in the DNA-binding sequences of the response regulator PhoP in <italic>Streptomyces coelicolor</italic></article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2008</year>
+          <volume>36</volume>
+          <fpage>1358</fpage>
+          <lpage>1368</lpage>
+          <pub-id pub-id-type="pmid">18187507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reuther</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrogen metabolism in <italic>Streptomyces coelicolor</italic>: transcriptional and post-translational regulation</article-title>
+          <source>J. Mol. Microbiol. Biotechnol.</source>
+          <year>2007</year>
+          <volume>12</volume>
+          <fpage>139</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">17183221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wray</surname>
+              <given-names>LV</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>SH</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and nucleotide sequence of the <italic>Streptomyces coelicolor</italic> gene encoding glutamine synthetase</article-title>
+          <source>Gene</source>
+          <year>1988</year>
+          <volume>71</volume>
+          <fpage>247</fpage>
+          <lpage>256</lpage>
+          <pub-id pub-id-type="pmid">2906310</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei&#xDF;schuh</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Fink</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Vierling</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bibb</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Engels</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional analysis of the gene for glutamine synthetase II and two upstream genes in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Mol. Gen. Genet.</source>
+          <year>2000</year>
+          <volume>264</volume>
+          <fpage>461</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="pmid">11129050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Behrmann</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Hillemann</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Strauch</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Overexpression of a <italic>Streptomyces viridochromogenes</italic> gene (<italic>glnII</italic>) encoding a glutamine synthetase similar to those of eucaryotes confers resistance against the antibiotic phosphinothricyl-alanyl-alanine</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1990</year>
+          <volume>172</volume>
+          <fpage>5326</fpage>
+          <lpage>5334</lpage>
+          <pub-id pub-id-type="pmid">1975583</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fink</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Falke</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Engels</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrogen metabolism in <italic>Streptomyces coelicolor</italic> A3(2): modification of glutamine synthetase I by an adenylyltransferase</article-title>
+          <source>Microbiology</source>
+          <year>1999</year>
+          <volume>145</volume>
+          <fpage>2313</fpage>
+          <lpage>2322</lpage>
+          <pub-id pub-id-type="pmid">10517584</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Ninfa</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the GlnK signal transduction protein in the regulation of nitrogen assimilation in <italic>Escherichia coli</italic></article-title>
+          <source>Mol. Microbiol.</source>
+          <year>1998</year>
+          <volume>29</volume>
+          <fpage>431</fpage>
+          <lpage>447</lpage>
+          <pub-id pub-id-type="pmid">9720863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hesketh</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Fink</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gust</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Rexer</surname>
+              <given-names>H-U</given-names>
+            </name>
+            <name>
+              <surname>Scheel</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Chater</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Engels</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The GlnD and GlnK homologues of <italic>Streptomyces coelicolor</italic> A3(2) are functionally dissimilar to their nitrogen regulatory system counterparts from enteric bacteria</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>46</volume>
+          <fpage>319</fpage>
+          <lpage>330</lpage>
+          <pub-id pub-id-type="pmid">12406211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fink</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wei&#xDF;schuh</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Reuther</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Engels</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Two transcriptional regulators GlnR and GlnRII are involved in regulation of nitrogen metabolism in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>46</volume>
+          <fpage>331</fpage>
+          <lpage>347</lpage>
+          <pub-id pub-id-type="pmid">12406212</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wray</surname>
+              <given-names>LV</given-names>
+            </name>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>SH</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and cloning of the <italic>glnR</italic> locus, which is required for transcription of the <italic>glnA</italic> gene in <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1991</year>
+          <volume>173</volume>
+          <fpage>7351</fpage>
+          <lpage>7360</lpage>
+          <pub-id pub-id-type="pmid">1718946</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wray</surname>
+              <given-names>LV</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>SH</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>Streptomyces coelicolor glnR</italic> gene encodes a protein similar to other bacterial response regulators</article-title>
+          <source>Gene</source>
+          <year>1993</year>
+          <volume>130</volume>
+          <fpage>145</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="pmid">7688332</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tiffert</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Supra</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Wurm</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wohlleben</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Reuther</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>Streptomyces coelicolor</italic> GlnR regulon: identification of new GlnR targets and evidence for a central role of GlnR in nitrogen metabolism in actinomycetes</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2008</year>
+          <volume>67</volume>
+          <fpage>861</fpage>
+          <lpage>880</lpage>
+          <pub-id pub-id-type="pmid">18179599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodriguez-Garcia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Barreiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Santos-Beneit</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Sola-Landa</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide transcriptomic and proteomic analysis of the primary response to phosphate limitation in <italic>Streptomyces coelicolor</italic> M145 and in a Delta<italic>phoP</italic> mutant</article-title>
+          <source>Proteomics</source>
+          <year>2007</year>
+          <volume>7</volume>
+          <fpage>2410</fpage>
+          <lpage>2429</lpage>
+          <pub-id pub-id-type="pmid">17623301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kieser</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bibb</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Buttner</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Chater</surname>
+              <given-names>KF</given-names>
+            </name>
+            <name>
+              <surname>Hopwood</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <source>Practical Streptomyces Genetics</source>
+          <year>2000</year>
+          <publisher-loc>Norwich, UK</publisher-loc>
+          <publisher-name>The John Innes Foundation</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santos-Beneit</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Garcia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Franco-Dominguez</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphate-dependent regulation of the low- and high-affinity transport systems in the model actinomycete <italic>Streptomyces coelicolor</italic></article-title>
+          <source>Microbiology</source>
+          <year>2008</year>
+          <volume>154</volume>
+          <fpage>2356</fpage>
+          <lpage>2370</lpage>
+          <pub-id pub-id-type="pmid">18667568</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bachmann</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Kleerebezem</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>van Hylckama Vlieg</surname>
+              <given-names>JET</given-names>
+            </name>
+          </person-group>
+          <article-title>Luciferase detection during stationary phase in <italic>Lactococcus lactis</italic></article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2007</year>
+          <volume>73</volume>
+          <fpage>4704</fpage>
+          <lpage>4706</lpage>
+          <pub-id pub-id-type="pmid">17513590</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Information content of individual genetic sequences</article-title>
+          <source>J. Theor. Biol.</source>
+          <year>1997</year>
+          <volume>189</volume>
+          <fpage>427</fpage>
+          <lpage>441</lpage>
+          <pub-id pub-id-type="pmid">9446751</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Reading of DNA sequence logos: prediction of major groove binding by information theory</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1996</year>
+          <volume>274</volume>
+          <fpage>445</fpage>
+          <lpage>455</lpage>
+          <pub-id pub-id-type="pmid">8902824</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Sequence walkers: a graphical method to display how binding proteins interact with DNA or RNA sequences</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>1997</year>
+          <volume>25</volume>
+          <fpage>4408</fpage>
+          <lpage>4415</lpage>
+          <pub-id pub-id-type="pmid">9336476</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Helden</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory sequence analysis tools</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>3593</fpage>
+          <lpage>3596</lpage>
+          <pub-id pub-id-type="pmid">12824373</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kang</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Hahn</surname>
+              <given-names>MY</given-names>
+            </name>
+            <name>
+              <surname>Ishihama</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Roe</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of sigma factors for growth phase-related promoter selectivity of RNA polymerases from <italic>Streptomyces coelicolor</italic> A3(2)</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>1997</year>
+          <volume>25</volume>
+          <fpage>2566</fpage>
+          <lpage>2573</lpage>
+          <pub-id pub-id-type="pmid">9185565</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mirny</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Gelfand</surname>
+              <given-names>MS</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural analysis of conserved base pairs in protein-DNA complexes</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>1704</fpage>
+          <lpage>1711</lpage>
+          <pub-id pub-id-type="pmid">11917033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hobbs</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Frazer</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>DCJ</given-names>
+            </name>
+            <name>
+              <surname>Flett</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Oliver</surname>
+              <given-names>SG</given-names>
+            </name>
+          </person-group>
+          <article-title>Pigmented antibiotic production by <italic>Streptomyces coelicolor</italic> A3(2): kinetics and the influence of nutrients</article-title>
+          <source>J. Gen. Microbiol.</source>
+          <year>1990</year>
+          <volume>136</volume>
+          <fpage>2291</fpage>
+          <lpage>2296</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oh</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Im</surname>
+              <given-names>YS</given-names>
+            </name>
+            <name>
+              <surname>Yeon</surname>
+              <given-names>KY</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>YJ</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphate and carbon source regulation of alkaline phosphatase and phospholipase in <italic>Vibrio vulnificus</italic></article-title>
+          <source>J. Microbiol.</source>
+          <year>2007</year>
+          <volume>45</volume>
+          <fpage>311</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="pmid">17846584</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sonenshein</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of key metabolic intersections in <italic>Bacillus subtilis</italic></article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>917</fpage>
+          <lpage>927</lpage>
+          <pub-id pub-id-type="pmid">17982469</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Commichau</surname>
+              <given-names>FM</given-names>
+            </name>
+            <name>
+              <surname>Forchhammer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Stulke</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory links between carbon and nitrogen metabolism</article-title>
+          <source>Curr. Opin. Microbiol.</source>
+          <year>2006</year>
+          <volume>9</volume>
+          <fpage>167</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="pmid">16458044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hueck</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Hillen</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Saier</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of a cis-active sequence mediating catabolite repression in gram-positive bacteria</article-title>
+          <source>Res. Microbiol.</source>
+          <year>1994</year>
+          <volume>145</volume>
+          <fpage>503</fpage>
+          <lpage>518</lpage>
+          <pub-id pub-id-type="pmid">7855437</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puri-Taneja</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hulett</surname>
+              <given-names>FM</given-names>
+            </name>
+          </person-group>
+          <article-title>CcpA causes repression of the <italic>phoPR</italic> promoter through a novel transcription start site, P<sub>A6</sub></article-title>
+          <source>J. Bacteriol.</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>1266</fpage>
+          <lpage>1278</lpage>
+          <pub-id pub-id-type="pmid">16452408</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diaz</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Esteban</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Abalos</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Santamaria</surname>
+              <given-names>RI</given-names>
+            </name>
+          </person-group>
+          <article-title>The high-affinity phosphate-binding protein PstS is accumulated under high fructose concentrations and mutation of the corresponding gene affects differentiation in <italic>Streptomyces lividans</italic></article-title>
+          <source>Microbiology</source>
+          <year>2005</year>
+          <volume>151</volume>
+          <fpage>2583</fpage>
+          <lpage>2592</lpage>
+          <pub-id pub-id-type="pmid">16079337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amon</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Titgemeyer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Burkovski</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>A genomic view on nitrogen metabolism and nitrogen control in mycobacteria</article-title>
+          <source>J. Mol. Microbiol. Biotechnol.</source>
+          <year>2008</year>
+          <comment>DOI: 10.1159/000159195</comment>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>YP</given-names>
+            </name>
+            <name>
+              <surname>Pohlmann</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Conrad</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>GP</given-names>
+            </name>
+          </person-group>
+          <article-title>The poor growth of <italic>Rhodospirillum rubrum</italic> mutants lacking P-II proteins is due to an excess of glutamine synthetase activity</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2006</year>
+          <volume>61</volume>
+          <fpage>497</fpage>
+          <lpage>510</lpage>
+          <pub-id pub-id-type="pmid">16762025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>VanBogelen</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Wanner</surname>
+              <given-names>BL</given-names>
+            </name>
+            <name>
+              <surname>Neidhardt</surname>
+              <given-names>FC</given-names>
+            </name>
+          </person-group>
+          <article-title>Global analysis of proteins synthesized during phosphorus restriction in <italic>Escherichia coli</italic></article-title>
+          <source>J. Bacteriol.</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>4344</fpage>
+          <lpage>4366</lpage>
+          <pub-id pub-id-type="pmid">8755861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krol</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Global transcriptional analysis of the phosphate starvation response in <italic>Sinorhizobium meliloti</italic> strains 1021 and 2011</article-title>
+          <source>Mol. Genet. Genomics</source>
+          <year>2004</year>
+          <volume>272</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="pmid">15221452</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blanco</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Sola</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gomis-Ruth</surname>
+              <given-names>FX</given-names>
+            </name>
+            <name>
+              <surname>Coll</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Tandem DNA recognition by PhoB, a two-component signal transduction transcriptional activator</article-title>
+          <source>Structure</source>
+          <year>2002</year>
+          <volume>10</volume>
+          <fpage>701</fpage>
+          <lpage>713</lpage>
+          <pub-id pub-id-type="pmid">12015152</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nohno</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>JS</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and complete nucleotide sequence of the <italic>Escherichia coli</italic> glutamine permease operon (<italic>glnHPQ</italic>)</article-title>
+          <source>Mol. Gen. Genet.</source>
+          <year>1986</year>
+          <volume>205</volume>
+          <fpage>260</fpage>
+          <lpage>269</lpage>
+          <pub-id pub-id-type="pmid">3027504</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

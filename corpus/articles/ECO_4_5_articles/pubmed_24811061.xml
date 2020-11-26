@@ -1,0 +1,966 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24811061</article-id>
+      <article-id pub-id-type="pmc">4014563</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-14-02560</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0096832</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>Regulatory Proteins</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Biomacromolecule-Ligand Interactions</subject>
+              <subject>Nucleic Acids</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Biophysics</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Medical Microbiology</subject>
+              <subj-group>
+                <subject>Microbial Pathogens</subject>
+                <subj-group>
+                  <subject>Bacterial Pathogens</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Bacteriology</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A High-Throughput Method to Examine Protein-Nucleotide Interactions Identifies Targets of the Bacterial Transcriptional Regulatory Protein Fur</article-title>
+        <alt-title alt-title-type="running-head">A High-Throughput Method for Detecting Protein-DNA Interactions</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Chunxiao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Lopez</surname>
+            <given-names>Carlos A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Han</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xia</surname>
+            <given-names>Yu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Freedman</surname>
+            <given-names>David S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Reddington</surname>
+            <given-names>Alexander P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Daaboul</surname>
+            <given-names>George G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>&#xDC;nlu</surname>
+            <given-names>M. Selim</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff6">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Genco</surname>
+            <given-names>Caroline Attardo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Medicine, Section of Infectious Diseases, Boston University School of Medicine, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Electrical and Computer Engineering, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Department of Microbiology, Boston University School of Medicine, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff4">
+        <label>4</label>
+        <addr-line>Department of Biomedical Engineering, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff5">
+        <label>5</label>
+        <addr-line>Bioinformatics Graduate Program, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff6">
+        <label>6</label>
+        <addr-line>Physics Department, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Semsey</surname>
+            <given-names>Szabolcs</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Niels Bohr Institute, Denmark</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>cgenco@bu.edu</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: CY CAG. Performed the experiments: CY CAL HH. Analyzed the data: CY CAL CAG. Contributed reagents/materials/analysis tools: YX APR GGD MSU DSF. Wrote the paper: CY CAL CAG MSU.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>8</day>
+        <month>5</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>5</issue>
+      <elocation-id>e96832</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>1</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>4</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Yu et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The <underline>F</underline>erric <underline>u</underline>ptake <underline>r</underline>egulatory protein (Fur) is a transcriptional regulatory protein that functions to control gene transcription in response to iron in a number of pathogenic bacteria. In this study, we applied a label-free, quantitative and high-throughput analysis method, <underline>I</underline>nterferometric <underline>R</underline>eflectance <underline>I</underline>maging <underline>S</underline>ensor (IRIS), to rapidly characterize Fur-DNA interactions <italic>in vitro</italic> with predicted Fur binding sequences in the genome of <italic>Neisseria gonorrhoeae</italic>, the causative agent of the sexually transmitted disease gonorrhea. IRIS can easily be applied to examine multiple protein-protein, protein-nucleotide and nucleotide-nucleotide complexes simultaneously and demonstrated here that seventy percent of the predicted Fur boxes in promoter regions of iron-induced genes bound to Fur <italic>in vitro</italic> with a range of affinities as observed using this microarray screening technology. Combining binding data with mRNA expression levels in a gonococcal <italic>fur</italic> mutant strain allowed us to identify five new gonococcal genes under Fur-mediated direct regulation.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work is supported by the NIH/NIAID grant RO1AI048611. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="9"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The Interferometric Reflectance Imaging Sensor (IRIS) is a photometric biosensing technology, which is designed on the principles of interferometry and has been applied as a microarray-based screening technique for studying the interactions of biomacromolecules <xref rid="pone.0096832-Daaboul1" ref-type="bibr">[1]</xref>, <xref rid="pone.0096832-Lopez1" ref-type="bibr">[2]</xref>, <xref rid="pone.0096832-Ozkumur1" ref-type="bibr">[3]</xref>, <xref rid="pone.0096832-Ozkumur2" ref-type="bibr">[4]</xref>. IRIS can be broadly applied to characterize many types of biomolecular interactions, such as DNA-DNA hybridization, protein-protein binding, and protein-DNA interaction in a quantitative format <xref rid="pone.0096832-Daaboul1" ref-type="bibr">[1]</xref>, <xref rid="pone.0096832-Lopez1" ref-type="bibr">[2]</xref>, <xref rid="pone.0096832-Ozkumur1" ref-type="bibr">[3]</xref>, <xref rid="pone.0096832-Ozkumur2" ref-type="bibr">[4]</xref>. Specifically, this technique has previously demonstrated utility for probing transcription factor interactions with arrayed oligonucleotides <xref rid="pone.0096832-Ahn1" ref-type="bibr">[5]</xref>. Bacterial transcription factors control tight regulation of gene expression in response to host specific environmental niches in a number of human pathogenic bacteria. One such pathogen is <italic>Neisseria gonorrhoeae</italic>, which is the causative agent of the sexually transmitted disease gonorrhea, one of the most common infectious diseases worldwide.</p>
+      <p>Gonococcal colonization of mucosal surfaces requires tight regulation of gene expression in response to host specific environmental niches including iron-limited host environments. This adaptation is mainly achieved by the up-regulation of iron-acquisition components, which are repressed by a ubiquitous bacterial regulatory protein, the <underline>F</underline>erric <underline>U</underline>ptake <underline>R</underline>egulator protein (Fur) <xref rid="pone.0096832-Agarwal1" ref-type="bibr">[6]</xref>, <xref rid="pone.0096832-Agarwal2" ref-type="bibr">[7]</xref>, <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>. Fur is a conserved 15 - 17 kDa protein comprised of an amino-terminal DNA binding domain and a carboxyl-terminal dimerization domain and is present in a number of diverse bacterial pathogens <xref rid="pone.0096832-Bagg1" ref-type="bibr">[9]</xref>, <xref rid="pone.0096832-Mills1" ref-type="bibr">[10]</xref>, <xref rid="pone.0096832-Sheikh1" ref-type="bibr">[11]</xref>, <xref rid="pone.0096832-Pohl1" ref-type="bibr">[12]</xref>. In the presence of iron (II) or other divalent cations <xref rid="pone.0096832-Bagg1" ref-type="bibr">[9]</xref>, <xref rid="pone.0096832-Mills1" ref-type="bibr">[10]</xref>, <xref rid="pone.0096832-Sheikh1" ref-type="bibr">[11]</xref>, <xref rid="pone.0096832-deLorenzo1" ref-type="bibr">[13]</xref>, Fur forms dimers and binds to dsDNA in a sequence specific manner to manipulate transcription initiation <xref rid="pone.0096832-Bagg1" ref-type="bibr">[9]</xref>, <xref rid="pone.0096832-Mills1" ref-type="bibr">[10]</xref>, <xref rid="pone.0096832-Sheikh1" ref-type="bibr">[11]</xref>, <xref rid="pone.0096832-deLorenzo1" ref-type="bibr">[13]</xref>, <xref rid="pone.0096832-Escolar1" ref-type="bibr">[14]</xref>. In its most basic form, the iron-bound Fur binds to the -10 and -35 motifs in the promoter region of a gene to prevent binding of RNA polymerase and leads to inhibition of transcription initiation <xref rid="pone.0096832-Escolar1" ref-type="bibr">[14]</xref>. For example, Fur represses transcription without an iron cofactor, a process termed <italic>apo</italic>-Fur regulation that has been mainly demonstrated in <italic>Helicobacter pylori</italic>
+<xref rid="pone.0096832-Miles1" ref-type="bibr">[15]</xref>, <xref rid="pone.0096832-Carpenter1" ref-type="bibr">[16]</xref>. In its <italic>apo</italic>-form Fur has also been reported to function as an activator, auto-regulating the <italic>fur</italic> gene in <italic>Vibrio vulnificus</italic>
+<xref rid="pone.0096832-Lee1" ref-type="bibr">[17]</xref>. The iron-bound Fur dimer has also been reported to function as a transcriptional activator via direct binding to defined promoter regions <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>, <xref rid="pone.0096832-Butcher1" ref-type="bibr">[18]</xref>, <xref rid="pone.0096832-Ledala1" ref-type="bibr">[19]</xref>, <xref rid="pone.0096832-Merrell1" ref-type="bibr">[20]</xref>, <xref rid="pone.0096832-Whitby1" ref-type="bibr">[21]</xref>, <xref rid="pone.0096832-Whitby2" ref-type="bibr">[22]</xref>, <xref rid="pone.0096832-Zhou1" ref-type="bibr">[23]</xref>, <xref rid="pone.0096832-Delany1" ref-type="bibr">[24]</xref>. Moreover, Fur influences secondary regulatory components, such as small RNAs and histone-like nucleotide binding protein (H-NS), to regulate a subset of genes indirectly <xref rid="pone.0096832-Davis1" ref-type="bibr">[25]</xref>, <xref rid="pone.0096832-Gaballa1" ref-type="bibr">[26]</xref>, <xref rid="pone.0096832-Mellin1" ref-type="bibr">[27]</xref>, <xref rid="pone.0096832-Mellin2" ref-type="bibr">[28]</xref>, <xref rid="pone.0096832-Troxell1" ref-type="bibr">[29]</xref>, <xref rid="pone.0096832-Wilderman1" ref-type="bibr">[30]</xref>, <xref rid="pone.0096832-Argaman1" ref-type="bibr">[31]</xref>, <xref rid="pone.0096832-Masse1" ref-type="bibr">[32]</xref>, <xref rid="pone.0096832-Vassinova1" ref-type="bibr">[33]</xref>.</p>
+      <p>The Fur regulon of <italic>N. gonorrhoeae</italic> has not been well defined due to the lack of a <italic>fur</italic> mutant strain and an efficient and rapid method to characterize the interactions between the gonococcal Fur protein and predicted Fur binding sequences. To define the gonococcal Fur regulon more efficiently, we developed a microarray-based, label-free quantitative method utilizing IRIS to screen sequence-specific interactions of Fur to dsDNA <italic>in vitro</italic>
+<xref rid="pone.0096832-Ahn1" ref-type="bibr">[5]</xref>, <xref rid="pone.0096832-Lopez2" ref-type="bibr">[34]</xref>. Combining this approach with bioinformatical analysis of the gonococcal genome and transcriptional analysis of <italic>N. gonorrhoeae</italic> wild type, <italic>fur</italic> mutant and <italic>fur</italic> complemented strains, we identified new Fur regulated genes. We also describe potential additional functional roles for Fur mediated regulation in <italic>N. gonorrhoeae</italic>.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Prediction of Fur boxes</title>
+        <p>The sequences upstream (-400 to +50) of ATG, for each open reading frame (ORF) in the <italic>N. gonorrhoeae</italic> FA1090 genome (Genebank No. AE004969.1) were retrieved using RSAT (<ext-link ext-link-type="uri" xlink:href="http://rsat.ulb.ac.be/rsat/">http://rsat.ulb.ac.be/rsat/</ext-link>) <xref rid="pone.0096832-ThomasChollier1" ref-type="bibr">[35]</xref> to represent the putative promoter regions of each gene. Seven experimentally determined Fur boxes in the two pathogenic Neisseria species, <italic>N. meningitidis</italic> and <italic>N. gonorrhoeae</italic>, were used as the patterns for Fur box predictions (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s003">Table S1</xref></bold>). Matched sequences in the putative promoter regions were identified using fuzznuc module from EMBOSS by setting the mismatch rate as 0.4 <xref rid="pone.0096832-Rice1" ref-type="bibr">[36]</xref>. Each Fur box in <bold><xref ref-type="supplementary-material" rid="pone.0096832.s003">Table S1</xref></bold> provided a list of matched sequences in the entire genome. Subsequently, overlapping sequences across the seven lists were kept as the final output of predicted Fur boxes.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Interferometric Reflectance Imaging Sensor (IRIS), substituting EMSA</title>
+        <p>IRIS functions on the principles of interferometry <xref rid="pone.0096832-Daaboul1" ref-type="bibr">[1]</xref>, <xref rid="pone.0096832-Lopez1" ref-type="bibr">[2]</xref>, <xref rid="pone.0096832-Ozkumur1" ref-type="bibr">[3]</xref>, <xref rid="pone.0096832-Ozkumur2" ref-type="bibr">[4]</xref>, <xref rid="pone.0096832-Ozkumur3" ref-type="bibr">[37]</xref>. Briefly, the optical path length of surface-reflected light is affected by changes in accumulated biomass on that surface. Differences in the optical path lengths (OPD) between the top layer and buried silica surface can be measured very precisely, which allows optical height information to be converted to accumulated mass (density) on the surface. With this technique, biomass accumulation can easily be quantified on a surface with a sensitivity of ~10 pg/mm<sup>2</sup> for a large field-of-view (FOV) to study multiple binding interactions simultaneously.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Microarray preparation</title>
+        <p>Amino-labeled forward DNA strands (50 microM) (<xref ref-type="supplementary-material" rid="pone.0096832.s004">Table S2</xref>) were mixed with excess complementary strands to create dsDNA through standard hybridization methods: mixed DNA solutions were heated to 80 degrees C for 10 min and then allowed to cool to room temperature in a slow, controlled manner (&lt;1 degrees C/min). IRIS sensor chips were functionalized with a copolymeric surface chemistry to immobilize the amino-functionalized DNA strands in high density <xref rid="pone.0096832-Cretich1" ref-type="bibr">[38]</xref>, <xref rid="pone.0096832-Pirri1" ref-type="bibr">[39]</xref> as previously demonstrated. The dsDNA solutions were spotted onto the pre-functionalized sensor chips using a non-contact piezo-driven spotter, the sciFLEXARRAYER S3 (Scienion, Inc, Berlin, Germany). After a 12 hr immobilization period, spotted chips were washed with Saline Sodium Citrate (<bold>SSC</bold>) buffer in decreasing concentrations (2x, 0.2x, and 0.1x) to produce a microarray of different covalently-attached dsDNA probes. IRIS images were taken for each chip to determine the initial dsDNA densities corresponding to each spot in the microarray. The chips were then incubated with 0, 200, 400, and 800 nM of purified gonococcal Fur protein <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>, <xref rid="pone.0096832-Yang1" ref-type="bibr">[40]</xref>, <xref rid="pone.0096832-Yang2" ref-type="bibr">[41]</xref>, <xref rid="pone.0096832-Yang3" ref-type="bibr">[42]</xref> in 2 mL of binding buffer (20 mM Tris-Cl pH 7.9, 5 mM MgCl<sub>2</sub>, 40 mM KCl, 0.125 mM MnCl<sub>2</sub>, 2 mM DTT, 10% Glycerol, 0.19 microg/microL poly dIdC), respectively at RT for 2 hr. Subsequently, chips were washed three times (3 min for each wash) using 10 mL binding buffer followed by a 5 sec rinse in 0.1x binding buffer, and images were taken of the post-incubation array.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Binding interaction analysis</title>
+        <p>Increases in mass density due to Fur binding were determined by subtracting initial mass densities, determined for each spot from the pre-incubation images, from the final mass density measurements made after incubation <xref rid="pone.0096832-Agarwal1" ref-type="bibr">[6]</xref> (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s001">Figure S1</xref></bold>). On a spot by spot basis, the number of immobilized dsDNA molecules was determined from knowledge of the measured OPD, a known IRIS conversion factor for OPD (nm) to mass surface density (ng/mm<sup>2</sup>) for dsDNA, and the molecular weight of each dsDNA oligomer. For the post-incubation measurements, an increase in the measured OPD was attributed solely to Fur binding and this difference was converted to the number of bound Fur dimers using similar information as described above for calculating the number of immobilized dsDNA probes. In this way, the number of bound Fur dimers could be calculated for each spot within the microarray to effectively determine the number of protein dimers present per dsDNA molecule that was immobilized. For these measurements, between 6 and 10 spots were used to derive statistics on mass density calculations among the same condition.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Purification of gonococcal Fur</title>
+        <p>Purification of gonococcal Fur protein was performed as described previously <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>. Briefly, the ORF of the <italic>fur gene</italic> was PCR amplified from genomic DNA of <italic>N. gonorrhoeae</italic> F62 and cloned into a PET15b vector (Novagen, San Diego, CA) by the restriction sites <italic>NdeI</italic> and <italic>BamHI</italic>. The 6xHis-tagged Fur protein was over-expressed in a <italic>E. coli fur</italic> mutant strain, HBMV119 <xref rid="pone.0096832-Baumler1" ref-type="bibr">[43]</xref> with 0.1 mM IPTG overnight at RT and purified using Ni-charged resin according to the manufacture's protocol (Novagen) <xref rid="pone.0096832-Yang4" ref-type="bibr">[44]</xref>, <xref rid="pone.0096832-Yang5" ref-type="bibr">[45]</xref>. Purified Fur protein was dialyzed against buffer [50 mM Tris-Cl, 500 mM NaCl, 100 microM MnCl<sub>2</sub>, 10% glycerol, pH 7.9]. The 6xHis tag was cleaved using a biotinylated thrombin (Novagen) and removed by flowing through another Ni-charged resin <xref rid="pone.0096832-Yang1" ref-type="bibr">[40]</xref>, <xref rid="pone.0096832-Yang6" ref-type="bibr">[46]</xref>, <xref rid="pone.0096832-Yang7" ref-type="bibr">[47]</xref>.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Electrophoretic mobility shift assay (EMSA)</title>
+        <p>The probes used in EMSAs had the same sequences as those probes used in IRIS (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s004">Table S2</xref></bold>). The dsDNA probes were obtained by mixing with its complementary strand at equal concentrations (5 microM), which were subsequently labeled with [gamma-<sup>32</sup>P]-ATP using T4 DNA kinase (Applied Biosystems, Ambion, Carlsbad, CA). The radio-labeled probes were purified using a G25 Sephadex QuickSpin column (GE healthcare, Pittsburgh, PA). EMSA was performed as described previously <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>, <xref rid="pone.0096832-Yang2" ref-type="bibr">[41]</xref>, <xref rid="pone.0096832-Yang3" ref-type="bibr">[42]</xref>. Labeled dsDNA Probes (12.5 nM) were incubated with purified gonococcal Fur in binding buffer (20 mM Tris-Cl pH 7.9, 5 mM MgCl<sub>2</sub>, 40 mM KCl, 0.125 mM MnCl<sub>2</sub>, 2 mM DTT, 10% Glycerol, 0.19 microg/microL poly dIdC, 3.125 microg/microL BSA) at RT for 30 min. For cold competition assays, unlabeled competitor DNA, as indicated (50 to 1000 fold), was added to the reaction. Each reaction mixture was electrophoresed on a native 6% polyacrylamide gel (acrylamide/bisacrylamide ratio, 37.5:1 [wt/wt]) (Bio-Rad, Hercules, CA), dried at 80 degrees C on a filter paper for 1 hr and detected by autoradiography. The integrated density of bound and unbound DNA bands was quantified using ImageJ software and the percentage of bound DNA corresponding to a Fur concentration was calculated accordingly in each lane. The binding affinity (KD, equilibrium dissociation constant) of Fur to each DNA probe was calculated using GraphPad Prism Software by plotting the percentage of bound DNA (Y axis) with the Fur concentration (X axis) and using the equation Y=== (Bmax -  X)/(KD + X). In this equation, Bmax is the total number of receptors expressed in the same units as the <italic>Y</italic> values.</p>
+      </sec>
+      <sec id="s2g">
+        <title>RNA purification and quantitative RT-PCR</title>
+        <p><italic>N. gonorrhoeae</italic> F62 wild type, <italic>fur</italic> mutant and <italic>fur</italic> complemented strains <xref rid="pone.0096832-Daou1" ref-type="bibr">[48]</xref> were plated on GCB agar plates (Remel, Thermo Scientific) and grown overnight at 37 degrees C with 5% CO<sub>2</sub> and used to inoculate CDM medium <xref rid="pone.0096832-Morse1" ref-type="bibr">[49]</xref> containing 0.042% Na<sub>2</sub>CO<sub>3</sub> with shaking for 2 hr. The cultures were diluted into fresh CDM medium to an OD<sub>600</sub>===0.1 and incubated for an additional 2 hr. Subsequently, 100 microM ferric nitrate or 150 microM desferal (deferoxamine mesylate) was added to create iron-replete (+Fe) and iron-deplete (-Fe) conditions, respectively. Bacterial pellets were collected 1 hr after the addition of iron or desferal. RNA was purified using an RNeasy kit (Qiagen, Hilden, Germany) and treated with DNase I. Quantitative RT-PCR was carried out using a One-Step QuantiTect SYBR green RT-PCR kit (QIAGEN) on an ABI Prism 7700 sequence detection system (Applied Biosystems, Foster City, CA) and primers are listed in <bold><xref ref-type="supplementary-material" rid="pone.0096832.s006">Table S4</xref></bold>. A total of 12.5 ng RNA was used in each reaction. The relative mRNA levels of each gene were evaluated using the comparative cycle threshold (DeltaDelta<italic>C<sub>T</sub></italic>) method (Applied Biosystems, <italic>User Bulletin No</italic>. <italic>2: Relative Quantification of Gene Expression</italic>, 1997). The relative expression level of each gene was normalized to the endogenous 16S rRNA gene and represented as the ratio to the expression level of the WT+Fe sample. The experiments were performed four times and results are presented as the mean  +-  the standard deviation. Statistics was performed using the Student's t test and a <italic>P</italic>&lt;0.05 threshold was considered as significant.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Prediction of Fur boxes in the genome of <italic>N. gonorrhoeae</italic> FA1090</title>
+        <p>Construction of the IRIS chips required a set of double strand DNA probes containing target sequences. To design the dsDNA probes, we first predicted Fur binding sequences (Fur boxes) throughout the genome using a bioinformatics approach. Neisseria Fur boxes previously defined by DNase I foot printing studies were utilized to avoid the mismatches caused by the species-specific nucleotides in Fur boxes of different bacteria (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s003">Table S1</xref></bold>). A total of 198 Fur boxes in the intergenic regions throughout the gonococcal genome were predicted in this study (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s007">Table S5</xref></bold>). Due to the fact that transcription of Fur regulated genes responds to iron availability, we focused on the iron-regulated genes identified via microarray analyses <xref rid="pone.0096832-Ducey1" ref-type="bibr">[50]</xref>, <xref rid="pone.0096832-Jackson1" ref-type="bibr">[51]</xref> of <italic>N. gonorrhoeae</italic> cultured under iron-replete and iron-deplete conditions. Forty-five iron-repressed genes with predicted Fur boxes in their promoter regions (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s005">Table S3</xref></bold>) were identified, which included 18 out of 21 of the previously identified Fur-repressed genes/operons in <italic>N. gonorrhoeae</italic>
+<xref rid="pone.0096832-Yu2" ref-type="bibr">[52]</xref>. This consistency validated our prediction of Fur binding sequences in the gonococcal genome. Twenty-two Fur binding sequences were predicted in the promoter regions of 21 iron-induced genes in this study (<xref ref-type="table" rid="pone-0096832-t001"><bold>Table 1</bold></xref>) including 2 previously identified Fur-activated genes, NGO0711 and NGO1751 <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>.</p>
+        <table-wrap id="pone-0096832-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0096832.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Predicted Fur binding sequences within the promoter regions of <italic>N. gonorrhoeae</italic> iron-induced genes.<xref ref-type="table-fn" rid="nt101">1</xref></title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0096832-t001-1" xlink:href="pone.0096832.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Predicted Fur box</td>
+                  <td align="left" rowspan="1" colspan="1">Gene</td>
+                  <td align="left" rowspan="1" colspan="1">Function</td>
+                  <td align="left" rowspan="1" colspan="1">Fur binding</td>
+                  <td align="left" rowspan="1" colspan="1">Fur-regulation<xref ref-type="table-fn" rid="nt102">2</xref></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTAAAATATGAATTTAATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0037</td>
+                  <td align="left" rowspan="1" colspan="1">Fe-S oxidoreductases family 1</td>
+                  <td align="left" rowspan="1" colspan="1">-<xref ref-type="table-fn" rid="nt104">4</xref></td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATAATCCGCACCGATTTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0037</td>
+                  <td align="left" rowspan="1" colspan="1">Fe-S oxidoreductases family 1</td>
+                  <td align="left" rowspan="1" colspan="1">-<xref ref-type="table-fn" rid="nt104">4</xref></td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTAAAATAGAACCATTATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0073</td>
+                  <td align="left" rowspan="1" colspan="1">phosphoglycolate phosphatase</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATAAAAAAGAGCATTGTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0101</td>
+                  <td align="left" rowspan="1" colspan="1">cytochrome c4</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATTATATAAATTTTTAGC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0155</td>
+                  <td align="left" rowspan="1" colspan="1">hypothetical DNA binding protein</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">Repressed</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAAACAACGATACTTTTC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0302</td>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">-</td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTAATTAACTTTTGTTTTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0304</td>
+                  <td align="left" rowspan="1" colspan="1">phenylalanyl-tRNA synthetase beta subunit</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CAAAAGAAAAACCGATTTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0377</td>
+                  <td align="left" rowspan="1" colspan="1">NadC family protein, transporter</td>
+                  <td align="left" rowspan="1" colspan="1">-</td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TACACTAAGTATCTTATTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0436</td>
+                  <td align="left" rowspan="1" colspan="1">putative 3-methyl-2-oxobutanoate hydroxymethyltransferase</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">Activated</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATAATAAAATCAATTCTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0641</td>
+                  <td align="left" rowspan="1" colspan="1">type III restriction/modification system modification methylase</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">Repressed</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ACAATAAAGTTTCTTTATA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0711<xref ref-type="table-fn" rid="nt103">3</xref></td>
+                  <td align="left" rowspan="1" colspan="1">alcohol dehydrogenase</td>
+                  <td align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="nt104">4</xref></td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTTAAAAAAAATCAATTTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO0899</td>
+                  <td align="left" rowspan="1" colspan="1">transcription elongation factor, GreA</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TGAAAAAAGAATCCATATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1189</td>
+                  <td align="left" rowspan="1" colspan="1">chaperonin, HslO</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATATCAATATATTGATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1284</td>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">ACAAAGAAGTATACTTCTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1419</td>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAATATAAGCGGCGGTATT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1684</td>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">-</td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">CCATACAACTATATTTTTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1738</td>
+                  <td align="left" rowspan="1" colspan="1">NADH dehydrogenase I subunit M</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">Activated</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAACAGCACGCTCATTGTC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1745</td>
+                  <td align="left" rowspan="1" colspan="1">NADH dehydrogenase I subunit G</td>
+                  <td align="left" rowspan="1" colspan="1">-</td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCAAATAAGAATCGTTATC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1751<xref ref-type="table-fn" rid="nt103">3</xref></td>
+                  <td align="left" rowspan="1" colspan="1">NADH dehydrogenase I subunit A</td>
+                  <td align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="nt104">4</xref></td>
+                  <td align="left" rowspan="1" colspan="1">NE</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">AAGAAAAAAGATGATTTTC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1845</td>
+                  <td align="left" rowspan="1" colspan="1">30S ribosomal protein S12</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TATAAAAAGAAAGTATTTT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1948</td>
+                  <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">NR</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TAAAAGAAAACTCATTCTC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NGO1957</td>
+                  <td align="left" rowspan="1" colspan="1">putative export protein</td>
+                  <td align="left" rowspan="1" colspan="1">+</td>
+                  <td align="left" rowspan="1" colspan="1">Repressed</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>1</label>
+              <p>Iron regulation as previously determined by microarray analyses of <italic>N. gonorrhoeae</italic> grown in defined medium CDM (-Fe) or CDM with 10 microM ferric nitrate (+Fe) <xref rid="pone.0096832-Ducey1" ref-type="bibr">[50]</xref>, <xref rid="pone.0096832-Jackson1" ref-type="bibr">[51]</xref>.</p>
+            </fn>
+            <fn id="nt102">
+              <label>2</label>
+              <p>Fur regulation was determined by comparing mRNA levels in <italic>N. gonorrhoeae</italic> WT, <italic>fur</italic> mutant and <italic>fur</italic> complemented strains grown under iron-replete and iron-deplete conditions at 1h after addition of iron and desferal using qRT-PCR. NR; not regulated by Fur. Activated; mRNA level of the gene was decreased in the <italic>fur</italic> mutant strain under either iron-replete or iron-deplete conditions compared to that in the wild type strain. Repressed; mRNA level of the gene was increased in the <italic>fur</italic> mutant strain under either iron-replete or iron-deplete conditions compared to that in the wild type strain. NE, not examined; transcriptional regulation was not tested in this study.</p>
+            </fn>
+            <fn id="nt103">
+              <label>3</label>
+              <p>Fur regulation of the genes as previously determined <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>.</p>
+            </fn>
+            <fn id="nt104">
+              <label>4</label>
+              <p><italic>In vitro</italic> Fur binding to the 500 bp upstream sequence of ATG of these genes was determined using EMSA and foot printing in previous studies <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s3b">
+        <title>Interactions of Fur with predicted consensus sequences in <italic>N. gonorrhoeae</italic></title>
+        <p>We next characterized <italic>in vitro</italic> binding of the Fur protein to predicted Fur boxes in the promoter regions of iron-induced genes using our high-throughput, label-free technology-IRIS. As shown in <xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>, Fur binding to the probes containing a predicted Fur box demonstrated a concentration dependent increase in differential spot height (DSH). The Fur boxes in the promoter regions of <italic>fur</italic>, <italic>norB</italic> and <italic>nspA</italic>, which have different binding affinities to Fur (26.1 nM, 1.2 nM and 724.8 nM, respectively) were utilized as positive controls and the sequences in the <italic>aniA</italic> promoter as a negative control <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>. EMSA previously demonstrated that while the <italic>aniA</italic> gene contains a predicated Fur box, the Fur protein does not bind to this region <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>. Consistently, Fur binding to the known Fur boxes in <italic>fur</italic> and <italic>norB</italic> promoter regions reached 4.8 +- 0.5 and 5.4 +- 0.9 nm increase in differential spot height, respectively, when 200 nM Fur protein was added <bold>(</bold><xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>). These mass density increases corresponded to 3.8 and 3.6 Fur dimers binding to one dsDNA molecule, respectively (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1B</bold></xref>). The differential spot height of the <italic>nspA</italic> Fur box probe continued to increase with Fur protein concentrations from 2.8 +- 0.4 nm, 3.5 +- 0.1 nm to 4.4 +- 0.1 nm (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>). Two Fur dimers, 2.6 dimers and 3.0 dimers/<italic>nspA</italic> Fur box were detected when 200 nM, 400 nM and 800 nM Fur protein were added to the chips, respectively (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1B</bold></xref>). As the negative control, the <italic>aniA</italic> promoter sequences showed a small mass density increase for the three concentrations of Fur protein (DSH&lt;1 nm) (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>). Therefore, we defined a threshold value for a DSH of  GTEQ 1 nm as a cutoff for determining specific Fur binding to dsDNA probes.</p>
+        <fig id="pone-0096832-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0096832.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Identification of Fur binding to predicted Fur boxes by label-free IRIS screening.</title>
+            <p>A set of ~50 bp dsDNA probes containing the predicted Fur box in the middle of the probes were designed for IRIS screening (<bold><xref ref-type="supplementary-material" rid="pone.0096832.s006">Table S4</xref></bold>). Each dsDNA probe was immobilized on a chip to produce a spot with a diameter of approximately 100 microm. Three concentrations of Fur protein, 200 nM (red bars), 400 nM (blue bars) and 800 nM (orange bars), were incubated with the individually prepared arrays (in addition to a 0 nM control incubation (black bars) and the binding of Fur protein to dsDNA spots was measured. A mass increase for each spot was represented as a differential spot height (DSH). The known Fur boxes in <italic>fur</italic>, <italic>norB</italic> and <italic>nspA</italic> promoter regions were used as positive controls, and the <italic>aniA</italic> promoter region was used as negative control in this IRIS assay. (<bold>A</bold>) Differential spot height for each dsDNA probe after incubation with 0 nM, 200 nM, 400 nM and 800 nM Fur protein, respectively. (<bold>B</bold>) The number of Fur dimers bound per dsDNA molecule of each probe as calculated from initial and post-incubation mass density measurements. The gene designations of <italic>N. gonorrhoeae</italic> F62 were assigned according to their homologues in <italic>N. gonorrhoeae</italic> FA1090.</p>
+          </caption>
+          <graphic xlink:href="pone.0096832.g001"/>
+        </fig>
+        <p>According to the above analytical criteria, a large number of tested predicted Fur boxes (14 out of 18) in the promoter regions of iron-induced gonococcal genes displayed specific binding properties to the Fur protein, while 4 predicted Fur boxes failed to bind to Fur. Specifically, NGO1683 and NGO1745 did not show increased DSH for any concentration of Fur protein (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>). The DSHs of predicted Fur boxes in NGO302 and NGO0377 promoter regions were only ~1 nm (1.0 +- 0.06 nm and 1.0 +- 0.02 nm, respectively) when 800 nM Fur protein was added (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>), suggesting that these two predicted sequences did not bind to Fur according to the defined criteria. In contrast, the other 14 predicted Fur boxes showed variable binding properties to Fur. The predicted Fur boxes in the NGO0436 and NGO1738 promoter region displayed DSH values of 1.4 +- 0.05 nm and 2.0 +- 0.2 nm, respectively when 800 nM Fur was added (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>), corresponding to 0.8 dimer/dsDNA molecule and 1.6 Fur dimers/dsDNA molecule, respectively (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1B</bold></xref>). When 400 nM Fur was added, the predicted Fur boxes in the promoter regions of NGO1284, NGO1845 and NGO1948 showed DSH values of 1.7 +- 0.03 nm, 1.7 +- 0.3 nm and 1.7 +- 0.07 nm, respectively, which all corresponded to 0.5 Fur dimers/dsDNA molecule (half amount of dsDNA is bound by Fur dimers) (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A and B</bold></xref>). The Fur boxes in the promoter regions of NGO0155, NGO0304, NGO0899 and NGO1189 had DSH values of 1.9 +- 0.1 nm, 2.0 +- 0.1 nm, 2.2 +- 0.1 nm and 2.0 +- 0.03 nm, respectively (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A</bold></xref>). These DSH values corresponded to approximately one Fur dimer/dsDNA molecule (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1B</bold></xref>). When 200 nM Fur was added, the predicted Fur boxes in NGO0101, NGO0641 and NGO1419 promoter regions had DSH values of 1.9 +- 0.4 nm, 2.0 +- 0.1 nm and 1.9 +- 0.4 nm, respectively which correlated to one Fur dimer/dsDNA (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A and B</bold></xref>). The two highest binding affinities were observed for predicted Fur boxes in NGO0073 and NGO1957 promoter regions. When 200 nM Fur was added, DSH values of these two Fur boxes were 3.5 +- 0.4 nm and 2.9 +- 0.1 nm, respectively, corresponding to 3 Fur dimers and 1.5 Fur dimers/dsDNA molecule, respectively (<xref ref-type="fig" rid="pone-0096832-g001"><bold>Figure 1A and B</bold></xref>).</p>
+        <p>To further validate Fur binding properties of the predicted Fur boxes characterized with IRIS, we performed traditional EMSA on two of the newly identified Fur bound probes, NGO0073 and NGO0101. Fur binding to the predicted Fur boxes in NGO0073 and NGO0101 promoter regions was specific as determined by a cold competition assay (<xref ref-type="fig" rid="pone-0096832-g002"><bold>Figure 2A</bold></xref>). Consistent with the binding affinity trend estimated using IRIS, the apparent K<sub>D</sub>'s of Fur binding to Fur boxes of <italic>fur</italic> gene, NGO0073 and NGO0101 calculated using EMSA results were 31.8 +- 7.9 nM, 39.8 +- 6.3 nM and 406.1 +- 144.8 nM, respectively (<xref ref-type="fig" rid="pone-0096832-g002"><bold>Figure 2B</bold></xref>). The combination of these results supports IRIS as an accurate method to determine the specificity and affinity of Fur binding to an array of immobilized dsDNA sequences.</p>
+        <fig id="pone-0096832-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0096832.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Fur binding to the predicted Fur boxes. (A) Cold competition assay for the specificity of Fur binding to the predicted Fur boxes.</title>
+            <p><sup>32</sup>P-labeled ~50 bp dsDNAs were analyzed after incubation with Fur and unlabeled dsDNA probes (cold probes). Two types of cold competitor probes were used: <italic>fur</italic>, which contains a Fur box, and <italic>rmp</italic>, which does not bind to Fur. When the unlabeled probes <italic>fur</italic> compete out binding of labeled probes, but the unlabeled <italic>rmp</italic> cannot, the binding of Fur to the predicted Fur box was considered specific. Lane 1, free <sup>32</sup>P-labeled DNA; Lane 2 through Lane 10 contained gonococcal Fur. For the <italic>fur</italic> and NGO0073 Fur box, Fur protein was added at a concentration of 100 nM and for the NGO0101 Fur box, 400 nM of Fur protein was added. The fold excess of the cold probes was increased from Lane 3 to Lane 6 and Lane 7 to Lane 10 ranging from 50 fold, 500 fold to 1000 fold (indicated by the triangles). <bold>(B) Fur binding affinities determined by EMSA.</bold> The <sup>32</sup>P labeled dsDNA probes were incubated with a gradient of concentrations of purified gonococcal Fur protein (Lane 1 to Lane 10, 0 nM, 5 nM, 25 nM, 50 nM, 100 nM, 200 nM, 400 nM, 600 nM, 800 nM and 1000 nM, respectively). Arrows indicate the shift of Fur-bound probes. The apparent binding affinities (K<sub>D</sub>) were calculated using GraphPad Prism and were represented as mean  +-  standard error. The gene designations of <italic>N. gonorrhoeae</italic> F62 were assigned according to their homologues in <italic>N. gonorrhoeae</italic> FA1090.</p>
+          </caption>
+          <graphic xlink:href="pone.0096832.g002"/>
+        </fig>
+        <p>Of interest among the 18 tested predicted Fur boxes in the promoter regions of iron-induced genes, fourteen were shown to bind to Fur specifically <italic>in vitro</italic> (<xref ref-type="table" rid="pone-0096832-t001"><bold>Table 1</bold></xref>). No information about Fur binding to these promoter regions was known previously, highlighting the power of IRIS in identifying novel promoters bound by Fur.</p>
+      </sec>
+      <sec id="s3c">
+        <title>New targets directly regulated by Fur</title>
+        <p>We next examined the regulatory role of Fur in transcription of iron-induced genes containing a functional Fur box in the promoter regions using quantitative RT-PCR of <italic>N. gonorrhoeae</italic> wild type, <italic>fur</italic> mutant, and <italic>fur</italic> complemented strains. This analysis revealed 5 new Fur regulated genes [NGO0155, NGO0436, NGO0641, NGO1738 and NGO1957] (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref><bold>, </bold><xref ref-type="table" rid="pone-0096832-t001"><bold>Table 1</bold></xref>). An iron bound Fur-repressed gene, <italic>fbpA</italic>
+<xref rid="pone.0096832-Agarwal1" ref-type="bibr">[6]</xref>, <xref rid="pone.0096832-Forng1" ref-type="bibr">[53]</xref>, was used as a control for Fur and iron regulation. We observed a statistically significant increase (5-fold) in <italic>fbpA</italic> transcript levels in the <italic>fur</italic> mutant strain grown under iron-replete conditions as compared to the wild type strain grown under iron-replete conditions. AS expected we observed restoration of Fur mediated repression in the <italic>fur</italic> complemented strain (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref>). Transcription of NGO0155 was up-regulated in the <italic>fur</italic> mutant strain compared to the wild type strain under iron-replete (+Fe) conditions, and was partially restored in the <italic>fur</italic> complemented strain (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref>), suggesting that iron-bound Fur directly represses transcription of NGO0155. Transcriptional levels of NGO0436 and NGO1738 were reduced in the <italic>fur</italic> mutant strain compared to those in the wild type strain and partially restored in the <italic>fur</italic> complemented strain grown under iron-replete conditions (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref>), suggesting that NGO0436 and NGO1738 are directly activated by iron-bound Fur. Transcription levels of NGO0641 and NGO1957 were up-regulated in the <italic>fur</italic> mutant strain compared to the wild type strain under iron-deplete conditions (-Fe) and were restored in the <italic>fur</italic> complemented strain (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref>). This transcriptional pattern was similar to that previously observed in <italic>apo</italic>-Fur mediated repression <xref rid="pone.0096832-Miles1" ref-type="bibr">[15]</xref>, <xref rid="pone.0096832-Carpenter1" ref-type="bibr">[16]</xref>.</p>
+        <fig id="pone-0096832-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0096832.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Transcriptional regulation patterns of genes determined by quantitative real-time PCR.</title>
+            <p>The RNA samples were purified from cultures of the wild-type (WT) and <italic>fur</italic> mutant and <italic>fur</italic> complemented strains under iron-replete (+Fe, grey bars) or iron-deplete (-Fe, white bars) conditions 1 h after addition of 100 microM iron or 150 microM desferal. The mRNA levels of <italic>fbpA</italic> and <italic>norB</italic>, genes that were repressed and activated by iron-bound Fur respectively, were used as controls for iron and Fur regulation in <italic>N. gonorrhoeae</italic>. The mRNA levels observed for the five conditions (WT strain under -Fe conditions, <italic>fur</italic> mutant strain under +Fe and -Fe conditions, and <italic>fur</italic> complemented strain under +Fe and -Fe conditions) were compared to the value of WT strain under +Fe conditions. The final results were represented as mean  +-  standard deviation. A * indicates significantly different compared to the mRNA level of WT+Fe. A ** indicates significantly different compared to the mRNA level of WT-Fe. The gene designations of <italic>N. gonorrhoeae</italic> F62 were assigned according to their homologues in <italic>N. gonorrhoeae</italic> FA1090.</p>
+          </caption>
+          <graphic xlink:href="pone.0096832.g003"/>
+        </fig>
+        <p>Transcriptional levels of nine genes, NGO0073, NGO0101 (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref>), NGO0304, NGO0899, NGO1189, NGO1284, NGO1419, NGO1845 and NGO1948, showed no difference in expression among the three strains (<xref ref-type="table" rid="pone-0096832-t001"><bold>Table 1</bold></xref><bold>, <xref ref-type="supplementary-material" rid="pone.0096832.s002">Figure S2</xref></bold>). This suggests that these genes are not regulated by Fur under the growth conditions in this study. However, due to the fact that Fur specifically binds to promoter regions of these genes with high affinities, we termed this phenomenon "silent Fur binding" in <italic>N. gonorrhoeae</italic>.</p>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>IRIS provides a simple microarray screening technique for fast identification of <italic>in vitro</italic> protein-nucleotide interactions, which substitutes for onerous gel shift assay. This method is able to circumvent complicated and tedious operations such as DNA manipulation that may be hindered due to limited availability of genetic tools for some organisms and can be a complementary method for ChIP-seq <xref rid="pone.0096832-Myers1" ref-type="bibr">[54]</xref>. Further application of this microarray screening method includes optimization of biochemical conditions for protein-nucleotide binding, determination of essential nucleotides in the conserved binding sequences, as well as determination of the dissociation constant of a protein-nucleotide interaction through the development of a real-time/dynamic assay.</p>
+      <p>In this study we used Fur, a global transcriptional protein in <italic>N. gonorrhoeae</italic> to demonstrate the application of IRIS in determining the protein-nucleotide interactions. As a successful application of IRIS in this study, we identified 14 new Fur binding sequences out of 18 tested predicted Fur boxes in the intergenic regions within the gonococcal genome and 5 of these 14 genes were shown to be regulated by Fur under the experimental conditions used (<xref ref-type="fig" rid="pone-0096832-g003"><bold>Figure 3</bold></xref>). NGO0155 encodes a small protein of 4.7 kDa that contains a DNA binding domain. NGO0436 and NGO1738 encode a putative hydroxymethyltransferase and a NADH dehydrogenase I subunit M, respectively, which may be important for the metabolism of <italic>N. gonorrhoeae</italic>. NGO1957 encodes a putative export protein and NGO0641 encodes a DNA methyltransferase (ModA13) of a Type III R-M system. ModA13 methyltransferase recognizes <named-content content-type="gene">5'-AGAAA-3'</named-content> and methylates the third adenine <xref rid="pone.0096832-Srikhanta1" ref-type="bibr">[55]</xref>. Deletion of NGO0641 or phase OFF of NGO0641 in <italic>N. gonorrhoeae</italic> resulted in transcriptional alteration of 17 genes, which suggests that the methyltransferase NGO0641 is involved in epigenetic regulation in <italic>N. gonorrhoeae</italic>
+<xref rid="pone.0096832-Srikhanta1" ref-type="bibr">[55]</xref>. While the relationship between Fur and phase variation needs further investigation, it is plausible that transcriptional repression of NGO0641 by Fur may change the methylation profile of the gonococcal genome and results in epigenetic regulation of the gonococcal transcriptome.</p>
+      <p>We also hypothesize a new function for the Fur protein (silent Fur binding), based on the observation that ~64% of gonococcal genes containing a functional Fur box in promoter regions were not regulated by Fur under the used experimental conditions (<xref ref-type="fig" rid="pone-0096832-g004"><bold>Figure 4</bold></xref>). This phenomenon of silent Fur binding has been recently demonstrated with a novel gonococcal phage repressor protein, Npr <xref rid="pone.0096832-Daou1" ref-type="bibr">[48]</xref>. Under <italic>In vivo</italic> conditions, some Fur binding sites may not be accessible due to the binding of other transcriptional regulators and nucleoid-associated proteins including H-NS (histone-like nucleoid structuring protein), IHF (integration host factor), HU (heat unstable protein) and Fis (factor for inversion stimulation) <xref rid="pone.0096832-Dame1" ref-type="bibr">[56]</xref>. Thus it is possible that a number of gonococcal genes that contain a Fur box in the promoter regions are not primarily regulated by Fur, but regulated by other transcriptional regulators that may respond to different stimuli. In this scenario, cross-talk of Fur with other regulatory proteins would result in co-regulation of the same targets in response to multiple environmental signals encountered during gonococcal infection. Such condition-specific expression phenomenon was also discovered in the FNR regulon in <italic>E. coli</italic> via a genome-scale ChIP-seq study <xref rid="pone.0096832-Myers1" ref-type="bibr">[54]</xref>.</p>
+      <fig id="pone-0096832-g004" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0096832.g004</object-id>
+        <label>Figure 4</label>
+        <caption>
+          <title>Schematic depicting Fur mediated control mechanisms in <italic>N. gonorrhoeae</italic> as revealed by IRIS.</title>
+          <p>Solid lines with arrowheads indicate direct activation of transcription via Fur binding to promoter regions of gonococcal genes. Solid lines with bars indicate direct repression of transcription via binding of Fur to promoter regions of gonococcal genes. Ellipsoids indicate transcriptional regulatory proteins other than Fur. Transcriptional repression of NGO0641, encoding a methyltransferase (triangle), results in alteration of DNA methylation (*) and subsequently alters transcription of a subset of genes. Transcriptional repression of NGO0155, encoding a putative transcriptional regulator, results in alteration of transcription of NGO0155 target genes. A subset of genes contain a Fur box in their putative promoter regions but were not regulated by Fur under the used growth conditions in this study are termed silent Fur binding.</p>
+        </caption>
+        <graphic xlink:href="pone.0096832.g004"/>
+      </fig>
+      <p>Previous studies on Fur regulated genes have been designed to identify Fur regulated genes first in a <italic>fur</italic> mutant strain followed by <italic>in vitro</italic> Fur binding assays to confirm the direct regulatory role of Fur in gene transcription <xref rid="pone.0096832-Yu1" ref-type="bibr">[8]</xref>, <xref rid="pone.0096832-Delany1" ref-type="bibr">[24]</xref>, <xref rid="pone.0096832-Delany2" ref-type="bibr">[57]</xref>, <xref rid="pone.0096832-Grifantini1" ref-type="bibr">[58]</xref>, <xref rid="pone.0096832-Sebastian1" ref-type="bibr">[59]</xref>. By design, this type of analysis identifies genes that are either directly or indirectly regulated by Fur. In contrast, IRIS allows for the rapid identification of Fur binding DNA sequences <italic>in vitro</italic> first, followed by subsequent transcriptional analyses. IRIS microarray screening of protein-nucleotide interaction will be a powerful high-throughput tool to complement transcriptome analysis for the identification of regulatory networks of a broad array of bacterial transcriptional proteins.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0096832.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Mass density image of microarray surface produced using IRIS.</bold> (<bold>Left</bold>) Following incubation with Fur protein (800 nM), an image of the oligonucleotide array is produced quantifying the surface mass density across the entire surface. By comparing the post-incubation densities to those of the pre-incubation image, mass changes attributed to Fur binding can be easily determined on a spot by spot basis. (<bold>Right</bold>) The differential spot heights (DSHs) were determined from the mean of between 500 and 800 total pixels, depending on spot size, used for comparison of the circular spot region (green area) and an outer background annulus region (red region). Pixels in the image which returned large residual error during the data fitting process (ex: salt residue left in the center of each spot  -  shown here as missing pixels within the green spot region) were eliminated using a threshold value.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0096832.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Transcriptional regulation patterns of genes determined by quantitative real-time PCR</bold>. The RNA samples were purified from cultures of the wild-type (WT), <italic>fur</italic> mutant and <italic>fur</italic> complemented strains under iron-replete (+Fe, grey bars) or iron-deplete (-Fe, white bars) conditions1 h after addition of 100 microM iron or 150 microM desferal. The mRNA levels observed for the five conditions (WT strain under -Fe conditions, <italic>fur</italic> mutant strain under +Fe and -Fe conditions, and <italic>fur</italic> complemented strain under +Fe and -Fe conditions) were compared to the value of WT strain under +Fe conditions. The final results were represented as mean  +-  standard deviation. A * indicates significantly different compared to the mRNA level of WT+Fe. The gene designations of <italic>N. gonorrhoeae</italic> F62 were assigned according to their homologues in <italic>N. gonorrhoeae</italic> FA1090.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0096832.s003">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Experimentally determined Neisserial Fur boxes used as templates for prediction of Fur boxes in the genome of </bold>
+            <bold>
+              <italic>N. gonorrhoeae</italic>
+            </bold>
+            <bold>.</bold>
+          </p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s003.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0096832.s004">
+        <label>Table S2</label>
+        <caption>
+          <p>
+            <bold>Predicted Fur boxes in the promoter regions of </bold>
+            <bold>
+              <italic>N. gonorrhoeae</italic>
+            </bold>
+            <bold> iron-repressed genes.</bold>
+          </p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s004.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0096832.s005">
+        <label>Table S3</label>
+        <caption>
+          <p>
+            <bold>Double strand DNA probes used in IRIS.</bold>
+          </p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s005.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0096832.s006">
+        <label>Table S4</label>
+        <caption>
+          <p>
+            <bold>Primers used for quantitative RT-PCR.</bold>
+          </p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s006.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0096832.s007">
+        <label>Table S5</label>
+        <caption>
+          <p>
+            <bold>Predicted Fur boxes in the genome of </bold>
+            <bold>
+              <italic>N. gonorrhoeae</italic>
+            </bold>
+            <bold>.</bold>
+          </p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0096832.s007.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Dr. Kenneth Barth and Dr. Ryan McClure for helpful discussions of the manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0096832-Daaboul1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Daaboul</surname><given-names>GG</given-names></name>, <name><surname>Vedula</surname><given-names>RS</given-names></name>, <name><surname>Ahn</surname><given-names>S</given-names></name>, <name><surname>Lopez</surname><given-names>CA</given-names></name>, <name><surname>Reddington</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>LED-based interferometric reflectance imaging sensor for quantitative dynamic monitoring of biomolecular interactions</article-title>. <source>Biosens Bioelectron</source><volume>26</volume>: <fpage>2221</fpage> - <lpage>2227</lpage><pub-id pub-id-type="pmid">20980139</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Lopez1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Lopez</surname><given-names>CA</given-names></name>, <name><surname>Daaboul</surname><given-names>GG</given-names></name>, <name><surname>Vedula</surname><given-names>RS</given-names></name>, <name><surname>Ozkumur</surname><given-names>E</given-names></name>, <name><surname>Bergstein</surname><given-names>DA</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Label-free multiplexed virus detection using spectral reflectance imaging</article-title>. <source>Biosens Bioelectron</source><volume>26</volume>: <fpage>3432</fpage> - <lpage>3437</lpage><pub-id pub-id-type="pmid">21342761</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Ozkumur1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Ozkumur</surname><given-names>E</given-names></name>, <name><surname>Ahn</surname><given-names>S</given-names></name>, <name><surname>Yalcin</surname><given-names>A</given-names></name>, <name><surname>Lopez</surname><given-names>CA</given-names></name>, <name><surname>Cevik</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Label-free microarray imaging for direct detection of DNA hybridization and single-nucleotide mismatches</article-title>. <source>Biosens Bioelectron</source><volume>25</volume>: <fpage>1789</fpage> - <lpage>1795</lpage><pub-id pub-id-type="pmid">20097056</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Ozkumur2">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Ozkumur</surname><given-names>E</given-names></name>, <name><surname>Needham</surname><given-names>JW</given-names></name>, <name><surname>Bergstein</surname><given-names>DA</given-names></name>, <name><surname>Gonzalez</surname><given-names>R</given-names></name>, <name><surname>Cabodi</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Label-free and dynamic detection of biomolecular interactions for high-throughput microarray applications</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>105</volume>: <fpage>7988</fpage> - <lpage>7992</lpage><pub-id pub-id-type="pmid">18523019</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Ahn1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Ahn</surname><given-names>S</given-names></name>, <name><surname>Huang</surname><given-names>CL</given-names></name>, <name><surname>Ozkumur</surname><given-names>E</given-names></name>, <name><surname>Zhang</surname><given-names>X</given-names></name>, <name><surname>Chinnala</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>TATA binding proteins can recognize nontraditional DNA sequences</article-title>. <source>Biophys J</source><volume>103</volume>: <fpage>1510</fpage> - <lpage>1517</lpage><pub-id pub-id-type="pmid">23062343</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Agarwal1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Agarwal</surname><given-names>S</given-names></name>, <name><surname>King</surname><given-names>CA</given-names></name>, <name><surname>Klein</surname><given-names>EK</given-names></name>, <name><surname>Soper</surname><given-names>DE</given-names></name>, <name><surname>Rice</surname><given-names>PA</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>The gonococcal Fur-regulated tbpA and tbpB genes are expressed during natural mucosal gonococcal infection</article-title>. <source>Infect Immun</source><volume>73</volume>: <fpage>4281</fpage> - <lpage>4287</lpage><pub-id pub-id-type="pmid">15972520</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Agarwal2">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Agarwal</surname><given-names>S</given-names></name>, <name><surname>Sebastian</surname><given-names>S</given-names></name>, <name><surname>Szmigielski</surname><given-names>B</given-names></name>, <name><surname>Rice</surname><given-names>PA</given-names></name>, <name><surname>Genco</surname><given-names>CA</given-names></name> (<year>2008</year>) <article-title>Expression of the gonococcal global regulatory protein Fur and genes encompassing the Fur and iron regulon during in vitro and in vivo infection in women</article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>3129</fpage> - <lpage>3139</lpage><pub-id pub-id-type="pmid">18310343</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yu1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Yu</surname><given-names>C</given-names></name>, <name><surname>Genco</surname><given-names>CA</given-names></name> (<year>2012</year>) <article-title>Fur-mediated activation of gene transcription in the human pathogen Neisseria gonorrhoeae</article-title>. <source>J Bacteriol</source><volume>194</volume>: <fpage>1730</fpage> - <lpage>1742</lpage><pub-id pub-id-type="pmid">22287521</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Bagg1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Bagg</surname><given-names>A</given-names></name>, <name><surname>Neilands</surname><given-names>JB</given-names></name> (<year>1987</year>) <article-title>Ferric uptake regulation protein acts as a repressor, employing iron (II) as a cofactor to bind the operator of an iron transport operon in Escherichia coli</article-title>. <source>Biochemistry</source><volume>26</volume>: <fpage>5471</fpage> - <lpage>5477</lpage><pub-id pub-id-type="pmid">2823881</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Mills1">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Mills</surname><given-names>SA</given-names></name>, <name><surname>Marletta</surname><given-names>MA</given-names></name> (<year>2005</year>) <article-title>Metal binding characteristics and role of iron oxidation in the ferric uptake regulator from Escherichia coli</article-title>. <source>Biochemistry</source><volume>44</volume>: <fpage>13553</fpage> - <lpage>13559</lpage><pub-id pub-id-type="pmid">16216078</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Sheikh1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Sheikh</surname><given-names>MA</given-names></name>, <name><surname>Taylor</surname><given-names>GL</given-names></name> (<year>2009</year>) <article-title>Crystal structure of the Vibrio cholerae ferric uptake regulator (Fur) reveals insights into metal co-ordination</article-title>. <source>Mol Microbiol</source><volume>72</volume>: <fpage>1208</fpage> - <lpage>1220</lpage><pub-id pub-id-type="pmid">19400801</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Pohl1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Pohl</surname><given-names>E</given-names></name>, <name><surname>Haller</surname><given-names>JC</given-names></name>, <name><surname>Mijovilovich</surname><given-names>A</given-names></name>, <name><surname>Meyer-Klaucke</surname><given-names>W</given-names></name>, <name><surname>Garman</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Architecture of a protein central to iron homeostasis: crystal structure and spectroscopic analysis of the ferric uptake regulator</article-title>. <source>Mol Microbiol</source><volume>47</volume>: <fpage>903</fpage> - <lpage>915</lpage><pub-id pub-id-type="pmid">12581348</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-deLorenzo1">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>de Lorenzo</surname><given-names>V</given-names></name>, <name><surname>Wee</surname><given-names>S</given-names></name>, <name><surname>Herrero</surname><given-names>M</given-names></name>, <name><surname>Neilands</surname><given-names>JB</given-names></name> (<year>1987</year>) <article-title>Operator sequences of the aerobactin operon of plasmid ColV-K30 binding the ferric uptake regulation (fur) repressor</article-title>. <source>J Bacteriol</source><volume>169</volume>: <fpage>2624</fpage> - <lpage>2630</lpage><pub-id pub-id-type="pmid">3294800</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Escolar1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Escolar</surname><given-names>L</given-names></name>, <name><surname>Perez-Martin</surname><given-names>J</given-names></name>, <name><surname>de Lorenzo</surname><given-names>V</given-names></name> (<year>1998</year>) <article-title>Binding of the fur (ferric uptake regulator) repressor of Escherichia coli to arrays of the GATAAT sequence</article-title>. <source>J Mol Biol</source><volume>283</volume>: <fpage>537</fpage> - <lpage>547</lpage><pub-id pub-id-type="pmid">9784364</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Miles1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Miles</surname><given-names>S</given-names></name>, <name><surname>Carpenter</surname><given-names>BM</given-names></name>, <name><surname>Gancz</surname><given-names>H</given-names></name>, <name><surname>Merrell</surname><given-names>DS</given-names></name> (<year>2010</year>) <article-title>Helicobacter pylori apo-Fur regulation appears unconserved across species</article-title>. <source>J Microbiol</source><volume>48</volume>: <fpage>378</fpage> - <lpage>386</lpage><pub-id pub-id-type="pmid">20571957</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Carpenter1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Carpenter</surname><given-names>BM</given-names></name>, <name><surname>Whitmire</surname><given-names>JM</given-names></name>, <name><surname>Merrell</surname><given-names>DS</given-names></name> (<year>2009</year>) <article-title>This is not your mother's repressor: the complex role of fur in pathogenesis</article-title>. <source>Infect Immun</source><volume>77</volume>: <fpage>2590</fpage> - <lpage>2601</lpage><pub-id pub-id-type="pmid">19364842</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Lee1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>HJ</given-names></name>, <name><surname>Bang</surname><given-names>SH</given-names></name>, <name><surname>Lee</surname><given-names>KH</given-names></name>, <name><surname>Park</surname><given-names>SJ</given-names></name> (<year>2007</year>) <article-title>Positive regulation of fur gene expression via direct interaction of fur in a pathogenic bacterium, Vibrio vulnificus</article-title>. <source>J Bacteriol</source><volume>189</volume>: <fpage>2629</fpage> - <lpage>2636</lpage><pub-id pub-id-type="pmid">17237166</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Butcher1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Butcher</surname><given-names>BG</given-names></name>, <name><surname>Bronstein</surname><given-names>PA</given-names></name>, <name><surname>Myers</surname><given-names>CR</given-names></name>, <name><surname>Stodghill</surname><given-names>PV</given-names></name>, <name><surname>Bolton</surname><given-names>JJ</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Characterization of the Fur Regulon in Pseudomonas syringae pv. tomato DC3000</article-title>. <source>J Bacteriol</source><volume>193</volume>: <fpage>4598</fpage> - <lpage>4611</lpage><pub-id pub-id-type="pmid">21784947</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Ledala1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Ledala</surname><given-names>N</given-names></name>, <name><surname>Sengupta</surname><given-names>M</given-names></name>, <name><surname>Muthaiyan</surname><given-names>A</given-names></name>, <name><surname>Wilkinson</surname><given-names>BJ</given-names></name>, <name><surname>Jayaswal</surname><given-names>RK</given-names></name> (<year>2010</year>) <article-title>Transcriptomic response of Listeria monocytogenes to iron limitation and Fur mutation</article-title>. <source>Appl Environ Microbiol</source><volume>76</volume>: <fpage>406</fpage> - <lpage>416</lpage><pub-id pub-id-type="pmid">19933349</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Merrell1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Merrell</surname><given-names>DS</given-names></name>, <name><surname>Thompson</surname><given-names>LJ</given-names></name>, <name><surname>Kim</surname><given-names>CC</given-names></name>, <name><surname>Mitchell</surname><given-names>H</given-names></name>, <name><surname>Tompkins</surname><given-names>LS</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Growth phase-dependent response of Helicobacter pylori to iron starvation</article-title>. <source>Infect Immun</source><volume>71</volume>: <fpage>6510</fpage> - <lpage>6525</lpage><pub-id pub-id-type="pmid">14573673</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Whitby1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Whitby</surname><given-names>PW</given-names></name>, <name><surname>Seale</surname><given-names>TW</given-names></name>, <name><surname>VanWagoner</surname><given-names>TM</given-names></name>, <name><surname>Morton</surname><given-names>DJ</given-names></name>, <name><surname>Stull</surname><given-names>TL</given-names></name> (<year>2009</year>) <article-title>The iron/heme regulated genes of Haemophilus influenzae: comparative transcriptional profiling as a tool to define the species core modulon</article-title>. <source>BMC Genomics</source><volume>10</volume>: <fpage>6</fpage><pub-id pub-id-type="pmid">19128474</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Whitby2">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Whitby</surname><given-names>PW</given-names></name>, <name><surname>Vanwagoner</surname><given-names>TM</given-names></name>, <name><surname>Seale</surname><given-names>TW</given-names></name>, <name><surname>Morton</surname><given-names>DJ</given-names></name>, <name><surname>Stull</surname><given-names>TL</given-names></name> (<year>2006</year>) <article-title>Transcriptional profile of Haemophilus influenzae: effects of iron and heme</article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>5640</fpage> - <lpage>5645</lpage><pub-id pub-id-type="pmid">16855256</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Zhou1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhou</surname><given-names>D</given-names></name>, <name><surname>Qin</surname><given-names>L</given-names></name>, <name><surname>Han</surname><given-names>Y</given-names></name>, <name><surname>Qiu</surname><given-names>J</given-names></name>, <name><surname>Chen</surname><given-names>Z</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Global analysis of iron assimilation and fur regulation in Yersinia pestis</article-title>. <source>FEMS Microbiol Lett</source><volume>258</volume>: <fpage>9</fpage> - <lpage>17</lpage><pub-id pub-id-type="pmid">16630248</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Delany1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Delany</surname><given-names>I</given-names></name>, <name><surname>Rappuoli</surname><given-names>R</given-names></name>, <name><surname>Scarlato</surname><given-names>V</given-names></name> (<year>2004</year>) <article-title>Fur functions as an activator and as a repressor of putative virulence genes in Neisseria meningitidis</article-title>. <source>Mol Microbiol</source><volume>52</volume>: <fpage>1081</fpage> - <lpage>1090</lpage><pub-id pub-id-type="pmid">15130126</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Davis1">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Davis</surname><given-names>BM</given-names></name>, <name><surname>Quinones</surname><given-names>M</given-names></name>, <name><surname>Pratt</surname><given-names>J</given-names></name>, <name><surname>Ding</surname><given-names>Y</given-names></name>, <name><surname>Waldor</surname><given-names>MK</given-names></name> (<year>2005</year>) <article-title>Characterization of the small untranslated RNA RyhB and its regulon in Vibrio cholerae</article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>4005</fpage> - <lpage>4014</lpage><pub-id pub-id-type="pmid">15937163</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Gaballa1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Gaballa</surname><given-names>A</given-names></name>, <name><surname>Antelmann</surname><given-names>H</given-names></name>, <name><surname>Aguilar</surname><given-names>C</given-names></name>, <name><surname>Khakh</surname><given-names>SK</given-names></name>, <name><surname>Song</surname><given-names>KB</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>The Bacillus subtilis iron-sparing response is mediated by a Fur-regulated small RNA and three small, basic proteins</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>105</volume>: <fpage>11927</fpage> - <lpage>11932</lpage><pub-id pub-id-type="pmid">18697947</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Mellin1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Mellin</surname><given-names>JR</given-names></name>, <name><surname>Goswami</surname><given-names>S</given-names></name>, <name><surname>Grogan</surname><given-names>S</given-names></name>, <name><surname>Tjaden</surname><given-names>B</given-names></name>, <name><surname>Genco</surname><given-names>CA</given-names></name> (<year>2007</year>) <article-title>A novel fur- and iron-regulated small RNA, NrrF, is required for indirect fur-mediated regulation of the sdhA and sdhC genes in Neisseria meningitidis</article-title>. <source>J Bacteriol</source><volume>189</volume>: <fpage>3686</fpage> - <lpage>3694</lpage><pub-id pub-id-type="pmid">17351036</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Mellin2">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Mellin</surname><given-names>JR</given-names></name>, <name><surname>McClure</surname><given-names>R</given-names></name>, <name><surname>Lopez</surname><given-names>D</given-names></name>, <name><surname>Green</surname><given-names>O</given-names></name>, <name><surname>Reinhard</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Role of Hfq in iron-dependent and -independent gene regulation in Neisseria meningitidis</article-title>. <source>Microbiology</source><volume>156</volume>: <fpage>2316</fpage> - <lpage>2326</lpage><pub-id pub-id-type="pmid">20430815</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Troxell1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Troxell</surname><given-names>B</given-names></name>, <name><surname>Sikes</surname><given-names>ML</given-names></name>, <name><surname>Fink</surname><given-names>RC</given-names></name>, <name><surname>Vazquez-Torres</surname><given-names>A</given-names></name>, <name><surname>Jones-Carson</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Fur Negatively Regulates hns and Is Required for the Expression of HilA and Virulence in Salmonella enterica Serovar Typhimurium</article-title>. <source>J Bacteriol</source><volume>193</volume>: <fpage>497</fpage> - <lpage>505</lpage><pub-id pub-id-type="pmid">21075923</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Wilderman1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Wilderman</surname><given-names>PJ</given-names></name>, <name><surname>Sowa</surname><given-names>NA</given-names></name>, <name><surname>FitzGerald</surname><given-names>DJ</given-names></name>, <name><surname>FitzGerald</surname><given-names>PC</given-names></name>, <name><surname>Gottesman</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Identification of tandem duplicate regulatory small RNAs in Pseudomonas aeruginosa involved in iron homeostasis</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>101</volume>: <fpage>9792</fpage> - <lpage>9797</lpage><pub-id pub-id-type="pmid">15210934</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Argaman1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Argaman</surname><given-names>L</given-names></name>, <name><surname>Hershberg</surname><given-names>R</given-names></name>, <name><surname>Vogel</surname><given-names>J</given-names></name>, <name><surname>Bejerano</surname><given-names>G</given-names></name>, <name><surname>Wagner</surname><given-names>EG</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>Novel small RNA-encoding genes in the intergenic regions of Escherichia coli</article-title>. <source>Curr Biol</source><volume>11</volume>: <fpage>941</fpage> - <lpage>950</lpage><pub-id pub-id-type="pmid">11448770</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Masse1">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Masse</surname><given-names>E</given-names></name>, <name><surname>Gottesman</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>A small RNA regulates the expression of genes involved in iron metabolism in Escherichia coli</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>99</volume>: <fpage>4620</fpage> - <lpage>4625</lpage><pub-id pub-id-type="pmid">11917098</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Vassinova1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Vassinova</surname><given-names>N</given-names></name>, <name><surname>Kozyrev</surname><given-names>D</given-names></name> (<year>2000</year>) <article-title>A method for direct cloning of fur-regulated genes: identification of seven new fur-regulated loci in Escherichia coli</article-title>. <source>Microbiology 146 Pt</source><volume>12</volume>: <fpage>3171</fpage> - <lpage>3182</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Lopez2">
+        <label>34</label>
+        <mixed-citation publication-type="other">Lopez CA, Daaboul GG, Ahn S, Reddington AP, Monroe MR, <etal>et al</etal>. (2011) Biomolecular detection employing the Interferometric Reflectance Imaging Sensor (IRIS). J Vis Exp.</mixed-citation>
+      </ref>
+      <ref id="pone.0096832-ThomasChollier1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Thomas-Chollier</surname><given-names>M</given-names></name>, <name><surname>Sand</surname><given-names>O</given-names></name>, <name><surname>Turatsinze</surname><given-names>JV</given-names></name>, <name><surname>Janky</surname><given-names>R</given-names></name>, <name><surname>Defrance</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>RSAT: regulatory sequence analysis tools</article-title>. <source>Nucleic Acids Res</source><volume>36</volume>: <fpage>W119</fpage> - <lpage>127</lpage><pub-id pub-id-type="pmid">18495751</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Rice1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Rice</surname><given-names>P</given-names></name>, <name><surname>Longden</surname><given-names>I</given-names></name>, <name><surname>Bleasby</surname><given-names>A</given-names></name> (<year>2000</year>) <article-title>EMBOSS: the European Molecular Biology Open Software Suite</article-title>. <source>Trends Genet</source><volume>16</volume>: <fpage>276</fpage> - <lpage>277</lpage><pub-id pub-id-type="pmid">10827456</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Ozkumur3">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Ozkumur</surname><given-names>E</given-names></name>, <name><surname>Yalcin</surname><given-names>A</given-names></name>, <name><surname>Cretich</surname><given-names>M</given-names></name>, <name><surname>Lopez</surname><given-names>CA</given-names></name>, <name><surname>Bergstein</surname><given-names>DA</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Quantification of DNA and protein adsorption by optical phase shift</article-title>. <source>Biosens Bioelectron</source><volume>25</volume>: <fpage>167</fpage> - <lpage>172</lpage><pub-id pub-id-type="pmid">19628383</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Cretich1">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Cretich</surname><given-names>M</given-names></name>, <name><surname>Pirri</surname><given-names>G</given-names></name>, <name><surname>Damin</surname><given-names>F</given-names></name>, <name><surname>Solinas</surname><given-names>I</given-names></name>, <name><surname>Chiari</surname><given-names>M</given-names></name> (<year>2004</year>) <article-title>A new polymeric coating for protein microarrays</article-title>. <source>Anal Biochem</source><volume>332</volume>: <fpage>67</fpage> - <lpage>74</lpage><pub-id pub-id-type="pmid">15301950</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Pirri1">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Pirri</surname><given-names>G</given-names></name>, <name><surname>Damin</surname><given-names>F</given-names></name>, <name><surname>Chiari</surname><given-names>M</given-names></name>, <name><surname>Bontempi</surname><given-names>E</given-names></name>, <name><surname>Depero</surname><given-names>LE</given-names></name> (<year>2004</year>) <article-title>Characterization of a polymeric adsorbed coating for DNA microarray glass slides</article-title>. <source>Anal Chem</source><volume>76</volume>: <fpage>1352</fpage> - <lpage>1358</lpage><pub-id pub-id-type="pmid">14987092</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang1">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Gilmartin</surname><given-names>GM</given-names></name>, <name><surname>Doublie</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>The structure of human cleavage factor I(m) hints at functions beyond UGUA-specific RNA binding: a role in alternative polyadenylation and a potential link to 5' capping and splicing</article-title>. <source>RNA Biol</source><volume>8</volume>: <fpage>748</fpage> - <lpage>753</lpage><pub-id pub-id-type="pmid">21881408</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang2">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Coseno</surname><given-names>M</given-names></name>, <name><surname>Gilmartin</surname><given-names>GM</given-names></name>, <name><surname>Doublie</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Crystal structure of a human cleavage factor CFI(m)25/CFI(m)68/RNA complex provides an insight into poly(A) site recognition and RNA looping</article-title>. <source>Structure</source><volume>19</volume>: <fpage>368</fpage> - <lpage>377</lpage><pub-id pub-id-type="pmid">21295486</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang3">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Gilmartin</surname><given-names>GM</given-names></name>, <name><surname>Doublie</surname><given-names>S</given-names></name> (<year>2010</year>) <article-title>Structural basis of UGUA recognition by the Nudix protein CFI(m)25 and implications for a regulatory role in mRNA 3' processing</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>107</volume>: <fpage>10062</fpage> - <lpage>10067</lpage><pub-id pub-id-type="pmid">20479262</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Baumler1">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Baumler</surname><given-names>AJ</given-names></name>, <name><surname>Tsolis</surname><given-names>RM</given-names></name>, <name><surname>van der Velden</surname><given-names>AW</given-names></name>, <name><surname>Stojiljkovic</surname><given-names>I</given-names></name>, <name><surname>Anic</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>1996</year>) <article-title>Identification of a new iron regulated locus of Salmonella typhi</article-title>. <source>Gene</source><volume>183</volume>: <fpage>207</fpage> - <lpage>213</lpage><pub-id pub-id-type="pmid">8996108</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang4">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Bruschweiler</surname><given-names>S</given-names></name>, <name><surname>Chou</surname><given-names>JJ</given-names></name> (<year>2014</year>) <article-title>Purification, crystallization and preliminary X-ray diffraction of the N-terminal calmodulin-like domain of the human mitochondrial ATP-Mg/Pi carrier SCaMC1</article-title>. <source>Acta Crystallogr F Struct Biol Commun</source><volume>70</volume>: <fpage>68</fpage> - <lpage>71</lpage><pub-id pub-id-type="pmid">24419621</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang5">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Bruschweiler</surname><given-names>S</given-names></name>, <name><surname>Chou</surname><given-names>JJ</given-names></name> (<year>2014</year>) <article-title>A Self-Sequestered Calmodulin-like Ca(2+) Sensor of Mitochondrial SCaMC Carrier and Its Implication to Ca(2+)-Dependent ATP-Mg/Pi Transport</article-title>. <source>Structure</source><volume>22</volume>: <fpage>209</fpage> - <lpage>217</lpage><pub-id pub-id-type="pmid">24332718</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang6">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Faucher</surname><given-names>F</given-names></name>, <name><surname>Coseno</surname><given-names>M</given-names></name>, <name><surname>Heckman</surname><given-names>J</given-names></name>, <name><surname>Doublie</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Purification, crystallization and preliminary X-ray diffraction of a disulfide cross-linked complex between bovine poly(A) polymerase and a chemically modified 15-mer oligo(A) RNA</article-title>. <source>Acta Crystallogr Sect F Struct Biol Cryst Commun</source><volume>67</volume>: <fpage>241</fpage> - <lpage>244</lpage></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yang7">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Q</given-names></name>, <name><surname>Nausch</surname><given-names>LW</given-names></name>, <name><surname>Martin</surname><given-names>G</given-names></name>, <name><surname>Keller</surname><given-names>W</given-names></name>, <name><surname>Doublie</surname><given-names>S</given-names></name> (<year>2014</year>) <article-title>Crystal structure of human poly(A) polymerase gamma reveals a conserved catalytic core for canonical poly(A) polymerases</article-title>. <source>J Mol Biol</source><volume>426</volume>: <fpage>43</fpage> - <lpage>50</lpage><pub-id pub-id-type="pmid">24076191</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Daou1">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Daou</surname><given-names>N</given-names></name>, <name><surname>Yu</surname><given-names>C</given-names></name>, <name><surname>McClure</surname><given-names>R</given-names></name>, <name><surname>Gudino</surname><given-names>C</given-names></name>, <name><surname>Reed</surname><given-names>GW</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Neisseria prophage repressor implicated in gonococcal pathogenesis</article-title>. <source>Infect Immun</source><volume>81</volume>: <fpage>3652</fpage> - <lpage>3661</lpage><pub-id pub-id-type="pmid">23876804</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Morse1">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Morse</surname><given-names>SA</given-names></name>, <name><surname>Bartenstein</surname><given-names>L</given-names></name> (<year>1980</year>) <article-title>Purine metabolism in Neisseria gonorrhoeae: the requirement for hypoxanthine</article-title>. <source>Can J Microbiol</source><volume>26</volume>: <fpage>13</fpage> - <lpage>20</lpage><pub-id pub-id-type="pmid">6773641</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Ducey1">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Ducey</surname><given-names>TF</given-names></name>, <name><surname>Carson</surname><given-names>MB</given-names></name>, <name><surname>Orvis</surname><given-names>J</given-names></name>, <name><surname>Stintzi</surname><given-names>AP</given-names></name>, <name><surname>Dyer</surname><given-names>DW</given-names></name> (<year>2005</year>) <article-title>Identification of the iron-responsive genes of Neisseria gonorrhoeae by microarray analysis in defined medium</article-title>. <source>J Bacteriol</source><volume>187</volume>: <fpage>4865</fpage> - <lpage>4874</lpage><pub-id pub-id-type="pmid">15995201</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Jackson1">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Jackson</surname><given-names>LA</given-names></name>, <name><surname>Ducey</surname><given-names>TF</given-names></name>, <name><surname>Day</surname><given-names>MW</given-names></name>, <name><surname>Zaitshik</surname><given-names>JB</given-names></name>, <name><surname>Orvis</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Transcriptional and functional analysis of the Neisseria gonorrhoeae Fur regulon</article-title>. <source>J Bacteriol</source><volume>192</volume>: <fpage>77</fpage> - <lpage>85</lpage><pub-id pub-id-type="pmid">19854902</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Yu2">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Yu</surname><given-names>C</given-names></name>, <name><surname>Genco</surname><given-names>CA</given-names></name> (<year>2012</year>) <article-title>Fur-mediated global regulatory circuits in pathogenic Neisseria species</article-title>. <source>J Bacteriol</source><volume>194</volume>: <fpage>6372</fpage> - <lpage>6381</lpage><pub-id pub-id-type="pmid">22885296</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Forng1">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Forng</surname><given-names>RY</given-names></name>, <name><surname>Ekechukwu</surname><given-names>CR</given-names></name>, <name><surname>Subbarao</surname><given-names>S</given-names></name>, <name><surname>Morse</surname><given-names>SA</given-names></name>, <name><surname>Genco</surname><given-names>CA</given-names></name> (<year>1997</year>) <article-title>Promoter mapping and transcriptional regulation of the iron-regulated Neisseria gonorrhoeae fbpA gene</article-title>. <source>J Bacteriol</source><volume>179</volume>: <fpage>3047</fpage> - <lpage>3052</lpage><pub-id pub-id-type="pmid">9139927</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Myers1">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Myers</surname><given-names>KS</given-names></name>, <name><surname>Yan</surname><given-names>H</given-names></name>, <name><surname>Ong</surname><given-names>IM</given-names></name>, <name><surname>Chung</surname><given-names>D</given-names></name>, <name><surname>Liang</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Genome-scale analysis of escherichia coli FNR reveals complex features of transcription factor binding</article-title>. <source>PLoS Genet</source><volume>9</volume>: <fpage>e1003565</fpage><pub-id pub-id-type="pmid">23818864</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Srikhanta1">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Srikhanta</surname><given-names>YN</given-names></name>, <name><surname>Dowideit</surname><given-names>SJ</given-names></name>, <name><surname>Edwards</surname><given-names>JL</given-names></name>, <name><surname>Falsetta</surname><given-names>ML</given-names></name>, <name><surname>Wu</surname><given-names>HJ</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Phasevarions mediate random switching of gene expression in pathogenic Neisseria</article-title>. <source>PLoS Pathog</source><volume>5</volume>: <fpage>e1000400</fpage><pub-id pub-id-type="pmid">19390608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Dame1">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Dame</surname><given-names>RT</given-names></name> (<year>2005</year>) <article-title>The role of nucleoid-associated proteins in the organization and compaction of bacterial chromatin</article-title>. <source>Mol Microbiol</source><volume>56</volume>: <fpage>858</fpage> - <lpage>870</lpage><pub-id pub-id-type="pmid">15853876</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Delany2">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Delany</surname><given-names>I</given-names></name>, <name><surname>Grifantini</surname><given-names>R</given-names></name>, <name><surname>Bartolini</surname><given-names>E</given-names></name>, <name><surname>Rappuoli</surname><given-names>R</given-names></name>, <name><surname>Scarlato</surname><given-names>V</given-names></name> (<year>2006</year>) <article-title>Effect of Neisseria meningitidis fur mutations on global control of gene transcription</article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>2483</fpage> - <lpage>2492</lpage><pub-id pub-id-type="pmid">16547035</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Grifantini1">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>Grifantini</surname><given-names>R</given-names></name>, <name><surname>Sebastian</surname><given-names>S</given-names></name>, <name><surname>Frigimelica</surname><given-names>E</given-names></name>, <name><surname>Draghi</surname><given-names>M</given-names></name>, <name><surname>Bartolini</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Identification of iron-activated and -repressed Fur-dependent genes by transcriptome analysis of Neisseria meningitidis group B</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>100</volume>: <fpage>9542</fpage> - <lpage>9547</lpage><pub-id pub-id-type="pmid">12883001</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0096832-Sebastian1">
+        <label>59</label>
+        <mixed-citation publication-type="journal"><name><surname>Sebastian</surname><given-names>S</given-names></name>, <name><surname>Agarwal</surname><given-names>S</given-names></name>, <name><surname>Murphy</surname><given-names>JR</given-names></name>, <name><surname>Genco</surname><given-names>CA</given-names></name> (<year>2002</year>) <article-title>The gonococcal fur regulon: identification of additional genes involved in major catabolic, recombination, and secretory pathways</article-title>. <source>J Bacteriol</source><volume>184</volume>: <fpage>3965</fpage> - <lpage>3974</lpage><pub-id pub-id-type="pmid">12081969</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

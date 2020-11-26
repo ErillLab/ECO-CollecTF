@@ -1,0 +1,2186 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Genomics</journal-id>
+      <journal-id journal-id-type="iso-abbrev">BMC Genomics</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Genomics</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2164</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">31039790</article-id>
+      <article-id pub-id-type="pmc">6492404</article-id>
+      <article-id pub-id-type="publisher-id">5671</article-id>
+      <article-id pub-id-type="doi">10.1186/s12864-019-5671-8</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Disruption of the pleiotropic gene <italic>scoC</italic> causes transcriptomic and phenotypical changes in <italic>Bacillus pumilus</italic> BA06</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Han</surname>
+            <given-names>Lin-Li</given-names>
+          </name>
+          <address>
+            <email>linlihan2019@foxmail.com</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Yong-Cheng</given-names>
+          </name>
+          <address>
+            <email>lyc2754295756@163.com</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miao</surname>
+            <given-names>Cui-Cui</given-names>
+          </name>
+          <address>
+            <email>meffort@foxmail.com</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6917-4250</contrib-id>
+          <name>
+            <surname>Feng</surname>
+            <given-names>Hong</given-names>
+          </name>
+          <address>
+            <email>hfeng@scu.edu.cn</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <aff id="Aff1"><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 0807 1581</institution-id><institution-id institution-id-type="GRID">grid.13291.38</institution-id><institution>Key Laboratory for Bio-resources and Eco-Environment of the Ministry of Education, Sichuan Key Laboratory of Molecular Biology and Biotechnology, </institution><institution>College of Life Sciences, Sichuan University, </institution></institution-wrap>Chengdu, People's Republic of China </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>30</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <volume>20</volume>
+      <elocation-id>327</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>12</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>8</day>
+          <month>4</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s). 2019</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <sec>
+          <title>Background</title>
+          <p id="Par1"><italic>Bacillus pumilus</italic> is a Gram-positive and endospore-forming bacterium broadly existing in a variety of environmental niches. Because it produces and secrets many industrially useful enzymes, a lot of studies have been done to understand the underlying mechanisms. Among them, <italic>scoC</italic> was originally identified as a pleiotropic transcription factor negatively regulating protease production and sporulation in <italic>B. subtilis</italic>. Nevertheless, its role in <italic>B. pumilus</italic> largely remains unknown.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p id="Par2">In this study we successfully disrupted <italic>scoC</italic> gene in <italic>B. pumilus</italic> BA06 and found increased total extracellular protease activity in <italic>scoC</italic> mutant strain. Surprisingly, we also found that <italic>scoC</italic> disruption reduced cell motility possibly by affecting flagella formation. To better understand the underlying mechanism, we performed transcriptome analysis with RNA sequencing. The result showed that more than one thousand genes were alternated at transcriptional level across multiple growth phases, and among them the largest number of differentially expressed genes (DEGs) were identified at the transition time point (12 h) between the exponential growth and the stationary growth phases. In accordance with the altered phenotype, many protease genes especially the <italic>aprE</italic> gene encoding alkaline protease were transcriptionally regulated. In contrast to the finding in <italic>B. subtilis</italic>, the <italic>aprN</italic> gene encoding neutral protease was transcriptionally downregulated in <italic>B. pumilus</italic>, implicating that <italic>scoC</italic> plays strain-specific roles.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p id="Par3">The pleiotropic transcription factor ScoC plays multiple roles in various cellular processes in <italic>B. pumilus,</italic> some of which were previously reported in <italic>B. subtilis</italic>. The supervising finding is the identification of ScoC as a positive regulator for flagella formation and bacterial motility. Our transcriptome data may provide hints to understand the underlying mechanism.</p>
+        </sec>
+        <sec>
+          <title>Electronic supplementary material</title>
+          <p>The online version of this article (10.1186/s12864-019-5671-8) contains supplementary material, which is available to authorized users.</p>
+        </sec>
+      </abstract>
+      <kwd-group xml:lang="en">
+        <title>Keywords</title>
+        <kwd>
+          <italic>Bacillus pumilus</italic>
+        </kwd>
+        <kwd>Flagella</kwd>
+        <kwd>Motility</kwd>
+        <kwd>Protease</kwd>
+        <kwd>
+          <italic>scoC</italic>
+        </kwd>
+        <kwd>Transcriptome</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100010905</institution-id>
+              <institution>Major Research Plan</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>31171204</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Hong</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2019</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1">
+      <title>Background</title>
+      <p id="Par14"><italic>Bacillus pumilus</italic> is a Gram-positive bacterium with great potential for industrial applications. It produces and secretes a variety of useful enzymes [<xref ref-type="bibr" rid="CR1">1</xref> - <xref ref-type="bibr" rid="CR5">5</xref>]. It has also been developed as bio-pesticide or bio-fertilizer [<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR7">7</xref>]. Moreover, because of its favorable growth and secretion features, <italic>B. pumilus</italic> has been engineered as host organism for recombinant protein production [<xref ref-type="bibr" rid="CR8">8</xref> - <xref ref-type="bibr" rid="CR10">10</xref>].</p>
+      <p id="Par15">Previously, we isolated a <italic>B. pumilus</italic> strain named BA06 for its high level production of extracellular alkaline protease, which could be used for leather processing [<xref ref-type="bibr" rid="CR11">11</xref> - <xref ref-type="bibr" rid="CR14">14</xref>]. To further elevate the protease production, better knowledge regarding how it is regulated would be necessary. We are interested in the gene <italic>scoC</italic> (also called as <italic>hpr</italic>) because it has been shown to be a pleiotropic regulator in <italic>B. subtilis</italic> and its homolog also exits in <italic>B. pumilus</italic> [<xref ref-type="bibr" rid="CR15">15</xref>]. <italic>scoC</italic> was first recognized in the study of <italic>B. subtilis</italic> mutants which could over-produce alkaline and neutral proteases [<xref ref-type="bibr" rid="CR16">16</xref>] and showed a glucose-insensitive sporulation phenotype [<xref ref-type="bibr" rid="CR17">17</xref>]. Later, <italic>scoC</italic> was cloned [<xref ref-type="bibr" rid="CR18">18</xref>] and its recombinant protein could bind a consensus DNA element (5'-RATANTATY-3') that lies upstream of the <italic>aprE</italic> (encoding alkaline protease) and <italic>nprE</italic> (also called as <italic>aprN</italic>, encoding neutral protease), which acted as a negative regulator of transcription of <italic>aprE</italic> and <italic>nprE</italic> [<xref ref-type="bibr" rid="CR19">19</xref>]. In addition, ScoC was also demonstrated to regulate multiple target genes involved in a broad range of biological processes such as the signaling peptide transport systems, <italic>app</italic> and <italic>opp</italic> [<xref ref-type="bibr" rid="CR20">20</xref>] and bacilysin production in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR21">21</xref>]. Furthermore, the transcriptome analysis showed that <italic>scoC</italic> regulated expression of more than 560 genes in <italic>B. subtilis,</italic> directly or indirectly [<xref ref-type="bibr" rid="CR22">22</xref>].</p>
+      <p id="Par16">Although we found <italic>scoC</italic> expression was peaked at the exponential-growing cells and significantly declined in the later growing phases [<xref ref-type="bibr" rid="CR23">23</xref>], its exact role in <italic>B. pumilus</italic> remains unknown. In this work, we disrupted the <italic>scoC</italic> gene with homologous recombination. The <italic>scoC</italic> mutant strain showed increased extracellular protease activity and decreased bacterial motility possible due to reduced flagellar formation. These phenotypes are consistent with the transcriptome profiling changes with upregulation or downregulation of the related genes.</p>
+    </sec>
+    <sec id="Sec2">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>Phenotypical characterization of <italic>scoC</italic> deletion mutant</title>
+        <p id="Par17">A <italic>scoC</italic> deletion mutant strain (BA06-del-<italic>scoC</italic>) was successfully disrupted by homologous recombination following the strategy as showed in Fig.<xref rid="Fig1" ref-type="fig">1</xref> and confirming by colony PCR and DNA sequencing (Additional file <xref rid="MOESM1" ref-type="media">1</xref>: Figure S1). Furthermore, an overexpression strain (del-<italic>scoC</italic>/<italic>scoC</italic><sup>+</sup>) was also constructed to overexpression ScoC on the multiple-copies plasmids (pSU03-<italic>scoC</italic>).<fig id="Fig1"><label>Fig. 1</label><caption><p>Outline for construction of the disrupting vector pUCETs-<italic>scoC</italic>::cm</p></caption><graphic xlink:href="12864_2019_5671_Fig1_HTML" id="MO1"/></fig></p>
+        <p id="Par18">Firstly, we compared the growth pattern of the wild-type (wt), <italic>scoC</italic> deletion mutant (BA06-del-<italic>scoC</italic>), and <italic>scoC</italic>/<italic>scoC</italic><sup>+</sup> overexpression strains. Figure <xref rid="Fig2" ref-type="fig">2</xref>a showed that the defect or overexpression of <italic>scoC</italic> did not affect the cell growth in MM broth in comparison with the wt. Secondly, since the previous studies in <italic>B. subtilis</italic> showed that ScoC negatively regulated protease genes of <italic>aprE</italic> and <italic>nprE</italic>, and <italic>scoC</italic> disruption led to significant increase of extracellular protease activity [<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR24">24</xref>], the total extracellular protease activity was determined in of <italic>B. pumilus</italic> (Fig. <xref rid="Fig2" ref-type="fig">2</xref>b). It was showed that <italic>scoC</italic> deletion caused 2-fold increase in extracellular proteolytic activity compared to the wt at the time point of 60 h. On the other hand, overexpression of <italic>scoC</italic> in the del-<italic>scoC</italic>/<italic>scoC</italic><sup>+</sup> strain reversed to diminish the increased extracellular protease activity. Like in <italic>B. subtilis</italic>, ScoC acted as a negative regulator of extracellular proteases in <italic>B. pumilus</italic>.<fig id="Fig2"><label>Fig. 2</label><caption><p>Comparison of the growth pattern (<bold>a</bold>) and extracellular proteolytic activity (<bold>b</bold>) of the <italic>scoC</italic> mutant (del-<italic>scoC</italic>), <italic>scoC</italic> overexpression (<italic>scoC</italic><sup>+</sup>), and the wild-type (wt) strains of <italic>B. pumilus</italic> BA06. The bacterial strains were grown in the minimal medium at 37  degrees C with shaking at 200 rpm</p></caption><graphic xlink:href="12864_2019_5671_Fig2_HTML" id="MO2"/></fig></p>
+        <p id="Par19">Next, we examined the bacterial motility on the solid and semi-solid plates with agar concentrations of 0.7 and 0.3% [<xref ref-type="bibr" rid="CR25">25</xref>]. Figure <xref rid="Fig3" ref-type="fig">3</xref> showed that the colony size of BA06-del-<italic>scoC</italic> was much smaller than that of the wt and del-<italic>scoC</italic>/<italic>scoC</italic><sup>+</sup> strains on LB plate with 0.7% agar and MM plate with 0.3% agar, respectively, indicating that both the swarming and swimming motility were compromised after <italic>scoC</italic> disruption. The colony expansion in diameter of BA06-del-<italic>scoC</italic> was statistically different from the wt and overexpression strains with <italic>p</italic> &lt; 0.05 and 0.01, respectively. These results indicated that <italic>scoC</italic> could modulate the cell motility of <italic>B. pumilus</italic>.<fig id="Fig3"><label>Fig. 3</label><caption><p>Analysis of cell motility of <italic>scoC</italic> mutant (del-<italic>scoC</italic>), <italic>scoC</italic> overexpress (<italic>scoC</italic><sup>+</sup>), and the wild-type (wt) strains of <italic>B. pumilus</italic> BA06. Swimming motility (<bold>a</bold>) was assayed on the minimal medium with 0.3% agar. Swarming mobility (<bold>b</bold>) was assayed on LB plate with 0.7% agar. The colony expanding diameter was measured and used for AOVA with <italic>p</italic> &lt; 0.05 (*) or 0.01 (**)</p></caption><graphic xlink:href="12864_2019_5671_Fig3_HTML" id="MO3"/></fig></p>
+        <p id="Par20">Since flagellum is the movement organ of bacteria, we counted the cell number with flagella or without flagella for the three <italic>B. pumilus</italic> strains. It was found that <italic>scoC</italic> disruption reduced the flagella formation (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). The percentage of cells with flagella were only 23.7% for BA06-del-<italic>ScoC</italic>. By contrast, the percentages were 69.8 and 71.1% for the wt and overexpression strains, respectively. Of interest, previous studies done in <italic>B. subtilis</italic> showed that many flagellar genes were downregulated in <italic>scoC</italic> deletion mutant [<xref ref-type="bibr" rid="CR22">22</xref>]. These results suggested that decrease of cell motility of BA06-del-<italic>scoC</italic> was at least partially resulted from the reduction of flagella formation.<fig id="Fig4"><label>Fig. 4</label><caption><p>Analysis of flagellar biosynthesis. The number of cells with flagella (&gt; 4 per cell) and without flagella (&lt; = 3) were counted under oil microscope. Percentage of the cells with flagella were used for AOVA with <italic>p</italic> &lt; 0.001 (***)</p></caption><graphic xlink:href="12864_2019_5671_Fig4_HTML" id="MO4"/></fig></p>
+        <p id="Par21">In addition, formation of endospore and biofilm was also examined. In contrast to <italic>B. subtilis</italic>, no significant difference was found among the three <italic>B. pumilus</italic> stains (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2), implicating ScoC also plays strain-specific role.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>Transcriptome profiling of <italic>scoC</italic> mutant</title>
+        <p id="Par22">To better understand the mechanism underlying the observed phenotypes in <italic>B. pumilus</italic>, we performed comparative transcriptome profiling using RNA sequencing. Overall, a total 1674 differentially expressed genes (DEGs) with the expression level &gt; 2.5-fold change and <italic>p</italic> &lt; 0.01 were identified across the three time points at which the BA06-del-<italic>scoC</italic> and wt cells were compared (Fig. <xref rid="Fig5" ref-type="fig">5</xref>a, Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1). The most DEGs were identified at the time point of 12 h with 531 up-regulated and 467 down-regulated. And DEGs subsequently declined at the later growth phases, suggesting that <italic>scoC</italic> may play a major role at the transition phase.<fig id="Fig5"><label>Fig. 5</label><caption><p>Venn diagram analysis (<bold>a</bold>) and KEGG enrichment (<bold>b</bold>) of the differentially expressed genes (DEGs) between <italic>scoC</italic> mutant and the wild-type strain of <italic>B. pumilus</italic> BA06 across three time-points</p></caption><graphic xlink:href="12864_2019_5671_Fig5_HTML" id="MO5"/></fig></p>
+        <p id="Par23">By KEGG pathway analysis, the DEGs were categorized into various metabolic pathways, of which the top 10 were displayed in Fig. <xref rid="Fig5" ref-type="fig">5</xref>b. Overall, the expression patterns are very similar between <italic>B. subtilis</italic> and <italic>B. pumilus</italic> after <italic>scoC</italic> disruption. The largest group with altered transcriptional level in the <italic>scoC</italic> deletion mutant belongs to the KEGG category of membrane transport [<xref ref-type="bibr" rid="CR22">22</xref>]. For example, some putative operons involved in the metal ion transport systems (cds3101 - 3105; cds3029 - 3032) were downregulated in BA06-del-<italic>scoC</italic> strain (Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1). In <italic>B. subtilis</italic>, some operons like <italic>opp</italic> and <italic>app</italic> encoding oligopeptide transport systems have been experimentally confirmed to be directly regulated by <italic>scoC</italic> [<xref ref-type="bibr" rid="CR20">20</xref>]. In addition, many affected genes were also enriched in amino acid metabolism, carbohydrate metabolism, translation, transcription, etc.</p>
+        <p id="Par24">Nevertheless, there are also significant differences from <italic>B. subtilis</italic>. For instance, two protease genes <italic>aprE</italic> (cds0935) and <italic>aprX</italic> (cds1594) showed same expression pattern, i.e. upregulation in both strains at 24 and 36 h (Table <xref rid="Tab1" ref-type="table">1</xref>), while the neutral protease gene <italic>aprN</italic> (cds2061) was decreased in <italic>B. pumilus</italic> but increased in <italic>B. subtilis</italic>, respectively. Furthermore, the other protease gene like <italic>epr</italic> (cds0246) and <italic>vpr</italic> (cds3474) did not changed obviously in transcription level in <italic>B. pumilus</italic> after <italic>scoC</italic> deletion (Table <xref rid="Tab1" ref-type="table">1</xref>). Because the proteases like AprE is regulated by both positive and negative regulators in <italic>B. subtilis</italic>, herein we examined transcriptional level of the homologous regulatory genes in <italic>B. pumilus</italic>. It was showed that the negative regulator gene <italic>abrB</italic> (cds0014) and <italic>sinR</italic> (cds2171) did not change (Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1). However, the sensor histidine kinase gene <italic>degS</italic> (cds3226) were upregulated at 12 h, which may promote the phosphorylation level of DegU and in turn enhance the transcription of <italic>aprE</italic> [<xref ref-type="bibr" rid="CR26">26</xref>]. This is consistent with increased <italic>aprE</italic> expression.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Relative expression level (TPM) of the protease genes of the <italic>scoC</italic> mutant (del-<italic>scoC</italic>) and the wild-type (wt) strain of <italic>B. pumilus</italic> BA06 across three time-points</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">Gene ID</th><th rowspan="2">Gene</th><th rowspan="2">Protein</th><th colspan="3"><italic>B. pumilus</italic> (wt)</th><th colspan="3">del-<italic>scoC</italic> mutant</th></tr><tr><th>12 h</th><th>24 h</th><th>36 h</th><th>12 h</th><th>24 h</th><th>36 h</th></tr></thead><tbody><tr><td>CDS0232</td><td>
+<italic>wprA</italic>
+</td><td>Cell wall-associated protease</td><td>121</td><td>72</td><td>127</td><td>120</td><td>140</td><td>144</td></tr><tr><td>CDS0246</td><td>
+<italic>epr</italic>
+</td><td>Minor extracellular protease</td><td>58</td><td>50</td><td>47</td><td>45</td><td>40</td><td>33</td></tr><tr><td>CDS0935</td><td>
+<italic>aprE</italic>
+</td><td>Subtilisin E</td><td>10,201</td><td>5730</td><td>11,622</td><td>27,522<sup>a</sup></td><td>53,512<sup>a</sup></td><td>33,455<sup>a</sup></td></tr><tr><td>CDS1190</td><td>
+<italic>isp</italic>
+</td><td>Major intracellular protease</td><td>10,281</td><td>2299</td><td>6415</td><td>3490<sup>a</sup></td><td>5368<sup>a</sup></td><td>8946</td></tr><tr><td>CDS1401</td><td>
+<italic>bpr</italic>
+</td><td>Bacillopeptidase F</td><td>439</td><td>233</td><td>597</td><td>282</td><td>499<sup>a</sup></td><td>353</td></tr><tr><td>CDS1594</td><td>
+<italic>aprX</italic>
+</td><td>Serine protease AprX</td><td>386</td><td>16</td><td>55</td><td>24<sup>a</sup></td><td>388<sup>a</sup></td><td>1002<sup>a</sup></td></tr><tr><td>CDS2061</td><td>
+<italic>aprN</italic>
+</td><td>Subtilisin NAT</td><td>274</td><td>188</td><td>292</td><td>61<sup>a</sup></td><td>42<sup>a</sup></td><td>51<sup>a</sup></td></tr><tr><td>CDS3474</td><td>
+<italic>vpr</italic>
+</td><td>Minor extracellular protease</td><td>390</td><td>465</td><td>484</td><td>297</td><td>218</td><td>199</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>indicating the significant fold-change with |log(FC)| &gt; 1.3219 and p &lt; 0.01</p></table-wrap-foot></table-wrap></p>
+        <p id="Par25">Since the <italic>scoC</italic> mutation displayed defective flagella formation (Fig. <xref rid="Fig4" ref-type="fig">4</xref>), we examined the transcriptional profiling of flagella-related genes. In <italic>B. pumilus</italic>, these genes are organized as several operons (like <italic>flc/che</italic> and <italic>motAB</italic>) or individually scattered in the genome (Additional file <xref rid="MOESM4" ref-type="media">4</xref>: Figure S3). Overall, 63 genes categorized into the KEGG Bacterial Motility (k02035) and Flagellar Assembly (k02040) pathways have a trend to downregulation in BA06-del-<italic>scoC</italic> strain (Fig. <xref rid="Fig6" ref-type="fig">6</xref>a, Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1). Nevertheless, seldom genes were upregulated. For example, the <italic>flgM</italic> gene (cds3219, encoding an anti-sigma factor) were upregulated for about 3-fold at 12 h (Additional file <xref rid="MOESM4" ref-type="media">4</xref>: Figure S3). In the <italic>fla/che</italic> operon, the upregulated genes (<italic>fliEFGH, fliJ</italic>) may be transcribed from another independent promoter [<xref ref-type="bibr" rid="CR27">27</xref>]. In addition, the gene <italic>swrA</italic> encoding a master regulator of motility that activates the cell motility in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR28">28</xref>], was also upregulated in <italic>scoC</italic> deletion mutant of <italic>B. pumilus</italic>. Taken together, the transcriptome data suggest that the compromised flagella formation is at least in part due to downregulation of the flagellar structural genes after <italic>scoC</italic> deletion.<fig id="Fig6"><label>Fig. 6</label><caption><p>The matrix hierarchical cluster analysis of the differentially expressed genes categorized into the cell motility (<bold>a</bold>) and sporulation (<bold>b</bold>) between <italic>scoC</italic> mutant (del-<italic>scoC</italic>) and the wild-type (wt) strain of <italic>B. pumilus</italic> BA06 across three time points</p></caption><graphic xlink:href="12864_2019_5671_Fig6_HTML" id="MO6"/></fig></p>
+        <p id="Par26">Another group of DEGs is enriched into the KEGG Cell Growth pathway (99978). Most of these genes related to sporulation were continually upregulated at all three time points in BA06-del-scoC (Fig. <xref rid="Fig6" ref-type="fig">6</xref>b), consistent with the finding that <italic>scoC</italic> disruption promoted sporulation in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR24">24</xref>]. However, no overt enhanced sporulation was observed in <italic>B. pumilus</italic> (Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Figure S2A), implicating there might existed additional regulatory pathway in <italic>B. pumilus</italic>. Of note, these sporulation-related genes are still not found to interact directly with ScoC. Therefore, <italic>scoC</italic> may undergo an indirect pathway to regulate sporulation. For example, <italic>scoC</italic> can suppress sporulation by acting as a repressor of the signaling peptide transport systems, <italic>opp</italic> and <italic>app</italic> in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR20">20</xref>]. Indeed, we found the <italic>opp</italic> operon (<italic>opp</italic>ABCDF, cds1038 - 1042) was downregulated at 12 h and then upregulated at 24 h in <italic>B. pumilus scoC</italic> mutant (Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1).</p>
+        <p id="Par27">Lastly, to confirm the accuracy and reproducibility of the transcriptome data, 13 genes were selected for qPCR validation. RNA samples from the same cultures of MM at different growth phases were used as template. The data shown in Table S2 (Additional file <xref rid="MOESM5" ref-type="media">5</xref>) indicated that RNA-seq data were almost consistent with the qPCR results.</p>
+      </sec>
+    </sec>
+    <sec id="Sec5">
+      <title>Discussion</title>
+      <p id="Par28">Previous studies have demonstrated that <italic>scoC</italic> negatively regulated a plethora of genes or operons in <italic>B. subtilis</italic> through direct binding to a consensus DNA element located in promoter region of these genes [<xref ref-type="bibr" rid="CR16">16</xref> - <xref ref-type="bibr" rid="CR20">20</xref>]. ScoC homologs have been found in many <italic>Bacillus</italic> species other than <italic>B. subtilis</italic>, but their functions remained largely unknown. In this work, we showed that disruption of <italic>scoC</italic> gene in <italic>B. pumilus</italic> increased extracellular protease activity and decreased cell motility, which could be attributed to transcriptional alternation of ScoC target genes.</p>
+      <p id="Par29">Our data indicated <italic>scoC</italic> disruption leads to many genes to alter the transcriptional level across different growth phases. The large number of DEGs up to 1098 were enriched at 12 h, the transition point between exponential growth and stationary phase [<xref ref-type="bibr" rid="CR23">23</xref>]. Since ScoC is recognized as one of the transition-state regulators that silence expression of genes involved in secondary metabolisms at the exponential growth phase [<xref ref-type="bibr" rid="CR29">29</xref>]. By KEGG analysis, many genes categorized into the secondary metabolisms were identified to be upregulated, such as sporulation related genes and various enzymes after <italic>scoC</italic> disruption. On contrast, some genes involved in primary metabolisms like membrane transport and amino acid metabolism were also down-regulated (Fig. <xref rid="Fig5" ref-type="fig">5</xref>b). Therefore, we conclude that <italic>scoC</italic> may play a leading role in transcriptional regulation at the metabolic transition time.</p>
+      <p id="Par30"><italic>B. pumilus</italic> encodes several extracellular proteases, of which AprE is the major one accounting for more than 70% of the total extracellular proteolytic activity [<xref ref-type="bibr" rid="CR30">30</xref>]. In this work, we found the total extracellular proteolytic activity of the <italic>scoC</italic> mutant was significantly increased, which could be ascribed to the increase of <italic>aprE</italic> transcription. <italic>aprE</italic> has been showed as a direct target by ScoC [<xref ref-type="bibr" rid="CR30">30</xref>], which is also regulated by multiple transcription factors such as AbrB, DegU/DegS, SinR, and Spo0A [<xref ref-type="bibr" rid="CR31">31</xref>]. In viewing of our transcriptome data, DegS and Spo0A may partially contribute to increased transcription of <italic>aprE</italic> in the BA06-del-<italic>scoC</italic> strain. Unexpected, <italic>aprN</italic> encoding neutral protease was seriously downregulated in <italic>scoC</italic> deletion mutant (Table <xref rid="Tab1" ref-type="table">1</xref>). That is totally different from <italic>B. subtilis</italic>, in which <italic>aprN</italic> was a direct target of ScoC [<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR19">19</xref>]. Therefore, <italic>scoC</italic> may underly additional mechanism to regulate expression of <italic>aprN</italic>. In addition, the transcription level of <italic>epr</italic> and <italic>vpr</italic> did not change significantly (Table <xref rid="Tab1" ref-type="table">1</xref>). However, <italic>epr</italic> was reported to be only co-repressed by ScoC and SinR and individual mutant of <italic>scoC</italic> or <italic>sinR</italic> did not repress <italic>epr</italic>'s expression in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR32">32</xref>]. The expression of <italic>vpr</italic> was not mediated by ScoC in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR33">33</xref>]. Conclusively, these protease-encoding genes may be differentially regulated by ScoC in <italic>B. pumilus</italic>.</p>
+      <p id="Par31">Another phenotypical change caused in <italic>scoC</italic> mutant is decrease of cell motility (Fig. <xref rid="Fig3" ref-type="fig">3</xref>) and defective flagella formation (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). As expected, many of these genes involved in flagellar biosynthesis were indeed down-regulated (Fig. <xref rid="Fig6" ref-type="fig">6</xref>a). The similar observation was also found in in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR22">22</xref>]. In <italic>B. cereus</italic>, the flagella-associated genes were upregulated in the swarming cells in comparison with the non-swarming cells [<xref ref-type="bibr" rid="CR34">34</xref>]. All the experimental evidences indicate that the flagellar biosynthesis as well as cell mobility is associated with expression level of the relative genes. In <italic>B. subtilis</italic>, the studies on regulatory mechanism of flagellar biosynthesis are focusing on the <italic>fla/che</italic> operon, which containing 32 genes that encode the flagellar basal-body rod proteins. A SwrA protein has been reported as a master regulator in regulation of flagellar biosynthesis [<xref ref-type="bibr" rid="CR28">28</xref>]. The gain-of function mutations in <italic>swrA</italic> increased the proportion of motile cells and the flagellar number per cells [<xref ref-type="bibr" rid="CR25">25</xref>, <xref ref-type="bibr" rid="CR35">35</xref>]. Although our data showed that <italic>swrA</italic> (cds3194) was upregulated by about 3-fold at 12 h (Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1), the flagella formation was comprised (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). A reasonable explain of this discrepancy is existence of additional regulators. For example, unphosphorylated DegU could bind an inverted repeat-like upstream of the <italic>fla/che</italic> promoter and then activated transcription; while the phosphorylated DegU played a contrast role to depress its expression by binding to another inverted repeat-like sequence in <italic>fla/che</italic> operon [<xref ref-type="bibr" rid="CR36">36</xref>, <xref ref-type="bibr" rid="CR37">37</xref>]. In addition, SwrA activation of the <italic>fla/che</italic> expression may require DegU [<xref ref-type="bibr" rid="CR38">38</xref>, <xref ref-type="bibr" rid="CR39">39</xref>], which may be compensated by enhancement of phosphorylation DegU by DegS because <italic>degS</italic> was up-regulated in transcription in <italic>B. pumilus scoC</italic> mutant.</p>
+      <p id="Par32">In addition, ScoC may regulate flagellar biosynthesis through SigD-mediated pathway. Almost all the flagella-related genes belong to SigD regulon [<xref ref-type="bibr" rid="CR40">40</xref>]. The gene <italic>flgM</italic> to encode anti-sigma factor against sigD was positively regulated by ScoC via binding to its promoter in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR41">41</xref>, <xref ref-type="bibr" rid="CR42">42</xref>]. Our data showed that <italic>flgM</italic> (cds3219) was really upregulated by more than 4-fold at 12 h (Additional file <xref rid="MOESM3" ref-type="media">3</xref>: Table S1). Taken together, ScoC may modulate the flagellar biosynthesis through direct or indirect pathways in <italic>B. pumilus</italic>.</p>
+      <p id="Par33">For <italic>Bacillus</italic>, it is an important to produce endospores under stress conditions. The formation of endospores begins with a period of stable growth of nutrient-poor and is restricted by advanced hierarchical regulation [<xref ref-type="bibr" rid="CR43">43</xref>]. Spo0A is the master regulator to initiate endospore formation [<xref ref-type="bibr" rid="CR44">44</xref>]. According to earlier studies, ScoC is a negative regulator for sporulation of <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR18">18</xref>]. Our transcriptome data demonstrated that many sporulation genes were upregulated after <italic>scoC</italic> deletion (Fig. <xref rid="Fig6" ref-type="fig">6</xref>b). We did not observe any significant change of sporulation between the wt and <italic>scoC</italic> mutation strains. Since no target gene involved in sporulation has been identified [<xref ref-type="bibr" rid="CR40">40</xref>], regulatory role of ScoC on sporulation remains unknown in <italic>B. pumilus</italic>.</p>
+    </sec>
+    <sec id="Sec6">
+      <title>Conclusions</title>
+      <p id="Par34">In conclusion, we found that disruption of <italic>scoC</italic> gene in <italic>B. pumilus</italic> caused increased extracellular protease activity, decreased motility and compromised flagella formation. All these features are well correlated with the transcriptional changes of the corresponding genes. However, our transcriptome data provides new hints to further investigate the putative target genes of ScoC in <italic>B. pumilus</italic>.</p>
+    </sec>
+    <sec id="Sec7">
+      <title>Materials and methods</title>
+      <sec id="Sec8">
+        <title>Bacterial strains, plasmids and culture conditions</title>
+        <p id="Par35">The bacterial strains used here are present in Table <xref rid="Tab2" ref-type="table">2</xref>. The primers used to construct each plasmid are listed Table S3 (Additional file <xref rid="MOESM6" ref-type="media">6</xref>). All strains were grown in Luria-Bertani (LB) broth at 37  degrees C unless stated otherwise. When appropriate, LB broth was supplemented with 50 mug/mL kanamycin (Km) or 100 mug/mL ampicillin (Amp) for <italic>Escherichia coli</italic>, 5 mug/mL erythromycin (Erm) or 10 mug/mL chloramphenicol (Cm) for <italic>B. pumilus</italic>.<table-wrap id="Tab2"><label>Table 2</label><caption><p>The bacterial strains and plasmids used in this work</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Strains and plasmids</th><th>Description</th><th>Reference</th></tr></thead><tbody><tr><td colspan="3">Strains</td></tr><tr><td>&#x2003;<italic>Escherichia coli</italic> DH5alpha</td><td><italic>sup</italic>E44Delta<italic>lac</italic>U169 (<sub>Phi</sub>80 <italic>lacZ</italic>DeltaM15) <italic>hds</italic>R17 <italic>rec</italic>A1 <italic>end</italic>A1 <italic>gyr</italic>A96 <italic>thi</italic>-1 <italic>rel</italic>A1</td><td>Lab stock</td></tr><tr><td>&#x2003;<italic>Bacillus pumilus</italic> BA06</td><td>The wild-type strain</td><td>Lab stock</td></tr><tr><td>&#x2003;<italic>B. pumilus</italic> BA06-del-<italic>scoC</italic></td><td>del-<italic>scoC</italic>; <italic>Cm</italic></td><td>This work</td></tr><tr><td>&#x2003;<italic>B. pumilus</italic> (del-<italic>scoC/scoC</italic><sup>+</sup>)</td><td><italic>scoC</italic><sup>+</sup>; Kan</td><td>This work</td></tr><tr><td colspan="3">Plasmids</td></tr><tr><td>&#x2003;pMD-18 T</td><td>T-vector; Amp; high copies</td><td>TaKaRa Co.</td></tr><tr><td>&#x2003;pHCMC02</td><td>Cm; high copies</td><td>[<xref ref-type="bibr" rid="CR45">45</xref>]</td></tr><tr><td>&#x2003;pUCETs</td><td>Shuttling vector (<italic>E. coli</italic> and <italic>Bacillus)</italic>; temperature-sensitive <italic>ori</italic>; Erm; low copies</td><td>[<xref ref-type="bibr" rid="CR46">46</xref>]</td></tr><tr><td>&#x2003;pSU03-Ap</td><td>expression vector (<italic>Bacillus</italic>); high copies</td><td>[<xref ref-type="bibr" rid="CR47">47</xref>]</td></tr><tr><td>&#x2003;p18T-<italic>scoC</italic>::cm</td><td><italic>scoC</italic>::Cm; Amp; high copies</td><td>This work</td></tr><tr><td>&#x2003;pUCETs:<italic>scoC</italic>::cm</td><td><italic>scoC</italic>::Cm; Erm; low copies</td><td>This work</td></tr><tr><td>&#x2003;pSU03-<italic>scoC</italic></td><td><italic>scoC;</italic> promoter of GAPD; Kan; high copies</td><td>This work</td></tr></tbody></table></table-wrap></p>
+        <p id="Par36">All the restriction enzymes were purchased from Thermo Fisher Scientific Inc. (Waltham, MA, USA). T4 DNA ligase, <italic>Pfu</italic> DNA polymerase, Taq DNA polymerase, RTase and the Genome DNA Eraser Kit were obtained from TaKaRa Bio. Co. (Dalian, China). 2 x Real Time PCR EasyTM -SYBR Green I kit was purchased from Chengdu Fuji Biotechnology Co., Ltd. (Chengdu, China). TRIzol reagent was purchased from Invitrogen Co. (Carlsbad, CA, USA). Gel Recovery Kit and PCR Cycle recovery Kit was obtained from Omega Bio-tek, Inc. (Norcross, GA, USA).</p>
+      </sec>
+      <sec id="Sec9">
+        <title>Construction of vectors</title>
+        <p id="Par37">To construct the disruption vector, two DNA fragments covering the full <italic>scoC</italic> gene as well as its flanked sequences was amplified by <italic>Pfu</italic> DNA polymerase with primers (B6sco.F/Sco-Afl.F, and Sco-Nhe/B6sco.R) using genomic DNA of <italic>B. pumilus</italic> BA06 as template. The PCR fragments were purified and digested with <italic>Afl</italic> II and <italic>Nhe</italic> I, respectively. A 1095-bp <italic>Afl</italic> II-<italic>Nhe</italic> I fragment containing the chloramphenicol resistance gene (Cm) was obtained to digest the plasmid pHCMC02 [<xref ref-type="bibr" rid="CR45">45</xref>]. Then, the Cm fragment was mixed and ligated with the above two PCR fragments using T4 DNA ligase. The ligated product was amplified using primers (B6sco.F and B6sco.R) and <italic>Taq</italic> DNA polymerase. The expected PCR product was directly cloned into pMD-18 T (Takara, Dalian, China) by A/T cloning using T4 DNA ligase, resulting plasmid p18T-<italic>scoC</italic>::cm. After confirmed by DNA sequencing, the <italic>scoC</italic>::cm fragment was obtained by digested with <italic>Hin</italic>d III and inserted into <italic>Hin</italic>d III-digested pUCETs [<xref ref-type="bibr" rid="CR46">46</xref>] using T4 DNA ligase. The resulted vector pUCETs-<italic>scoC</italic>::Cm was used to disrupt the <italic>scoC</italic> gene.</p>
+        <p id="Par38">The vector pSU03-<italic>scoC</italic> was constructed to overexpress <italic>scoC</italic> in <italic>B. pumilus</italic>. The promoter of the gene encoding glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and the coding sequence of <italic>scoC</italic> were amplified using the primers (B06Pgpd.F/B06Pgpd.R, B06P-scoC.F/B06-scoC.R), respectively. And the two PCR fragments were recombined by overlapped PCR with the primers (B06Pgpd.F/B06-scoC.R). The resulting DNA fragment was digested with <italic>Nde</italic> I and <italic>Xho</italic> I. The vector sequence of pSU03-AP [<xref ref-type="bibr" rid="CR47">47</xref>] was amplified by PCR using <italic>Pfu</italic> DNA polymerase and primers (pSU03DeltaAp.F/pSU03DeltaAp.R) and digested with <italic>Nde</italic> I and <italic>Xho</italic> I. Then, the above two fragments were ligated with T4 DNA ligase. The resulting plasmid was assigned as pSU03-<italic>scoC</italic>. A His6-tag was added at the 5'-upstream of <italic>scoC</italic>. The inserted sequence was confirmed by DNA sequencing.</p>
+        <p id="Par39">During the vector construction, transformation of <italic>E. coli</italic> cells was performed as described by Sambrook et al. [<xref ref-type="bibr" rid="CR48">48</xref>].</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Electroporation in <italic>B. pumilus</italic> BA06</title>
+        <p id="Par40">The transformation of <italic>B. pumilus</italic> BA06 was referred to the high-osmolarity electroporation protocol in <italic>B. subtilis</italic> [<xref ref-type="bibr" rid="CR49">49</xref>] with some modification. Briefly, the competent cells of <italic>B. pumilus</italic> BA06 were prepared as following: 0.5 mL of overnight culture in LB broth was transferred into 50 mL of LB broth (containing 0.5 M sorbitol and 5% betaine) and incubated at 37  degrees C up to OD600 to about 1.0; the cells were harvested by centrifugation at 5000 rpm and 4  degrees C for 10 min; after three washes with 50 mL of ice-cold washing buffer (0.5 M sorbitol, 0.5 M mannitol, 10% glycerol and 7.5% betaine), the cells were re-suspended in 1 mL electroporation buffer (0.5 M sorbitol, 1 M mannitol, 10% Glycerol and 7.5% betaine).</p>
+        <p id="Par41">In the electroporation trials, 80 muL competent cells were mixed with 1 - 5 muL DNA (0.1 - 0.5 mug). And then, the mixture was transferred into an electroporation cuvette (0.1- cm electrode gap). The cells were exposed to a single electrical pulse (2400 V, 25 muF, 200 Omega) using Bio-Rad MicroPulser (Bio-Rad, USA). Immediately following the electrical discharge, 1 mL recovery medium (LB containing 0.5 M sorbitol and 0.38 M mannitol) were added to the cells. After incubating at 37  degrees C with vigor shaking for 3 h or longer, the cells were plated on LB-agar plates with appropriate antibiotic. Following the above protocol, dozens or up to hundreds of colonies per microgram plasmid DNA could be formed dependent upon various plasmids.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Screening of <italic>scoC</italic> deletion mutant</title>
+        <p id="Par42">The <italic>B. pumilus</italic> transformant hosting the vector pUCETs-<italic>scoC</italic>::Cm was inoculated in 2~3 mL LB broth with 5 mug/mL Erm and 10 mug/mL Cm and incubated at 30  degrees C for 12 - 18 h. A 0.5-mL culture was transferred into 50 mL LB containing 10 mug/mL Cm in a 250-mL flask and incubated for 36 h at the same temperature. After then, the temperature was elevated to 42  degrees C and the culture was incubated for another 24 h with shaking to diminish the plasmid DNA. Finally, the cells were diluted to 10<sup>5</sup> - 10<sup>6</sup> cells/mL with sterile water and dispensed onto the LB plate with 10 mug/mL Cm. The plates were incubated at 42  degrees C until the colonies were formed. The same colony was picked up and dotted on two LB plates with 10 mug/mL Cm and with 5 mug/mL Erm and 10 mug/mL Cm, respectively. After incubating at 30  degrees C for about 24 h, the colonies growing only on LB plate with Cm and not on the plate amended with Cm and Erm were picked up for further identification by colony-PCR. The primers (Id-ScoC.F/Id-cm3.R, and Id-cm5.F/Id-scoC.R/) were used to amply the DNA sequences to cover the integrating sites in the genome, which were confirmed by DNA sequencing.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Growth curve and extracellular protease activity assay</title>
+        <p id="Par43">Three <italic>B. pumilus</italic> BA06 strains including <italic>scoC</italic> deletion mutant (BA06-del-scoC), del-<italic>scoC/scoC</italic><sup><italic>+</italic></sup> overexpression, and the wt strains were inoculated into 50 mL minimal medium (MM, 1.0 g/L sodium citrate, 2.0 g/L (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 14.0 g/L K<sub>2</sub>HP0<sub>4</sub>, 6.0 g/L KH<sub>2</sub>P0<sub>4</sub>, 0.2 g/L MgS0<sub>4</sub>, 2.5 g/L Yeast extract and 5.0 g/L D-glucose) and incubated at 37  degrees C with shaking at 200 rpm. At the indicated time points, 2 x 1 mL culture was sampled from each flask. The cell density was measured at OD<sub>600</sub>. The extracellular protease activity was determined using casein as substrate by the Folin-Phenol method as described [<xref ref-type="bibr" rid="CR50">50</xref>]. All the experiments were repeated in triplicate.</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Motility analysis</title>
+        <p id="Par44">The motility analysis was performed as described previously [<xref ref-type="bibr" rid="CR25">25</xref>]. Briefly, one microliter of the freshly overnight culture of each strain grown in LB broth (OD<sub>600</sub> ~ 1.0) was seeded at the center of the motility assay plates (90-mm in diameter) with a pipette tip. All plates were immediately air-dried at ambient temperatures (~ 37  degrees C) in a laboratory ventilator. Swimming motility was evaluated on the freshly prepared semi-liquid MM plates containing 0.3% agar. Swarming motility was evaluated on LB plates containing 0.7% agar. Photographs were taken after 24-h incubation at 37  degrees C. And the diameter of motility halos was measured at the same time. All motility assay experiments were independently repeated more than three times.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Flagellum staining</title>
+        <p id="Par45">Flagellum staining was performed as described by a standard method [<xref ref-type="bibr" rid="CR51">51</xref>]. Briefly, a loop of bacterial cells was taken from the colony edge growing on MM plate (0.3% agar) at 37  degrees C for 12 h and dispensed in sterile water on the glass slide. After air-dried, the cells were stained with the solution A (5.0% tannic acid, 1.5 g% FeCl<sub>3</sub>, 0.01% NaOH, 2.0% formalin) for 5 min, subsequently with the solution B (2.0% AgNO<sub>3</sub>) for 0.5 min. After air-dried, the flagella were observed under oil microscope with magnification of x 100 folds. The number of flagella for the cells were counted. The flagellum staining was performed by several times using the various cultures.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>RNA isolation, library construction and transcriptome analysis</title>
+        <p id="Par46">The cell samples of <italic>B. pumilus</italic> cultures growing in MM broth were pelleted by centrifugation at 8000 rpm at the indicated time points (12, 24, and 36 h), and then re-suspended in TE buffer (1 mM EDTA and 10 mM Tris-HCl, pH 8.0) supplemented with 1.5 mg/mL lysozyme. After incubated at 37  degrees C for 10 min, the TRIzol reagent was added. The cell suspension was mixed extensively while using the gauge to disrupt the cells completely. Finally, total RNA was isolated following the instructions provided with the TRIzol reagent. The genomic DNA was removed using the Genome DNA Eraser Kit. The resulting RNAs were fragmented and reverse transcribed using random hexamers as the primer. Second strand cDNA synthesis was performed using DNA Polymerase I and RNase H. The cDNA fragments were processed for end repair and ligated to paired end adaptors. Finally, the library was sequenced on an Illumina HiSeqTM2000.</p>
+        <p id="Par47">The clean data of the wt and BA06-del-<italic>scoC</italic> strains growing for 12 h, 24 h and 36 h were mapped to the genomic annotation by HISAT2 software [<xref ref-type="bibr" rid="CR52">52</xref>, <xref ref-type="bibr" rid="CR53">53</xref>], indicating that more than 99% reads could map onto the genome (Additional file <xref rid="MOESM7" ref-type="media">7</xref>: Table S4). The expression level of each gene was calculated by StringTie software [<xref ref-type="bibr" rid="CR53">53</xref>, <xref ref-type="bibr" rid="CR54">54</xref>]. The number of reads in features were counted by HTseq [<xref ref-type="bibr" rid="CR55">55</xref>] or featureCounts [<xref ref-type="bibr" rid="CR56">56</xref>], which were imported into the edgeR software [<xref ref-type="bibr" rid="CR57">57</xref>] to calculate differentially expressed genes (DEGs) between various samples and different time points. When the value of |log<sub>2</sub><sup>fold change</sup>|  GTEQ  1.3250 and <italic>p</italic> &lt; 0.01, the corresponding gene was defined as the DEG.</p>
+        <p id="Par48">Based on the numbers of DEGs that calculated across the three time points of 12 h, 24 h, and 36 h, the Venn diagram was constructed online (<ext-link ext-link-type="uri" xlink:href="http://bioinformatics.psb.ugent.be/webtools/venn/">http://bioinformatics.psb.ugent.be/webtools/venn/</ext-link>) [<xref ref-type="bibr" rid="CR58">58</xref>]. KEGG analysis was performed online (<ext-link ext-link-type="uri" xlink:href="http://www.kegg.jp/kegg/pathway.html">www.kegg.jp/kegg/pathway.html</ext-link>) [<xref ref-type="bibr" rid="CR59">59</xref>]. The matrix hierarchical cluster analysis for the selected KEGG pathways was performed using PermutMatrix v.1.9.3 (<ext-link ext-link-type="uri" xlink:href="http://www.lirmm.fr/~caraus/PermutMatrix/">www.lirmm.fr/~caraus/PermutMatrix/</ext-link>) [<xref ref-type="bibr" rid="CR60">60</xref>].</p>
+      </sec>
+      <sec id="Sec16">
+        <title>Quantitative real-time PCR analysis</title>
+        <p id="Par49">To confirm the transcriptome data, the quantitative real-time PCR (qPCR) was performed for the selected genes. Totally, 16 pairs of primers were designed (Additional file <xref rid="MOESM8" ref-type="media">8</xref>: Table S5) and the 16 sRNA gene was used as the control. The RNAs were isolated from the same cell samples as the transcriptome analysis. The reverse transcription (RT) was performed in 20 muL mixture including 1 mug RNA sample and 5 U RTase (Takara, Dalian, China). The resulting cDNA was diluted by x 10 folds and used as a template for qPCR. qPCR was carried out following the instruction of 2 x Real Time PCR EasyTM-SYBR Green I Kit. The calculated cycle threshold (CT) was normalized to the CT of 16 sRNA amplified from the corresponding sample. Changes in mRNA levels were calculated using the 2<sup>-DeltaDeltaCT</sup> method [<xref ref-type="bibr" rid="CR61">61</xref>].</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Statistical analysis</title>
+        <p id="Par50">Statistical analysis was performed with SPSS Statistics software. A <italic>P</italic> value of 0.05 or 0.01 was considered significant or extreme significant.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Additional files</title>
+      <sec id="Sec18">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="12864_2019_5671_MOESM1_ESM.jpg"><label>Additional file 1:</label><caption><p><bold>Figure S1.</bold> Strategy of <italic>scoC</italic> disruption (A) and identification of the <italic>scoC</italic> deletion mutant by colony-PCR and DNA sequencing. B, left integrating site; C, right integrating site. (JPG 269 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="12864_2019_5671_MOESM2_ESM.png"><label>Additional file 2:</label><caption><p><bold>Figure S2.</bold> Formation of endospore (A) and biofilm (B) of <italic>scoC</italic> mutant (BA06-del-<italic>scoC</italic>), the wt (BA06) and overexpression (del-<italic>scoC/scoC</italic><sup>+</sup>) strains of <italic>B. pumilus</italic>. (PNG 355 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="12864_2019_5671_MOESM3_ESM.xlsx"><label>Additional file 3:</label><caption><p><bold>Table S1.</bold> The relative expression levels and the fold-change of all the genes in <italic>scoC</italic> mutant (BA06-del-<italic>scoC</italic>) and the wt (BA06) strains of <italic>B. pumilus</italic> across three time points. (XLSX 2020 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="12864_2019_5671_MOESM4_ESM.png"><label>Additional file 4:</label><caption><p><bold>Figure S3.</bold> The organization of flagella-related genes in <italic>B. pumilus</italic> BA06 genome and their fold-change of transcription at 12 h between the wt and <italic>scoC</italic> mutant strains. The arrow indicates the putative transcriptional direction. (PNG 61 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="12864_2019_5671_MOESM5_ESM.docx"><label>Additional file 5:</label><caption><p><bold>Table S2.</bold> Confirmation of the transcriptional data for the selected genes by qPCR. (DOCX 17 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="12864_2019_5671_MOESM6_ESM.docx"><label>Additional file 6:</label><caption><p><bold>Table S3.</bold> The primers used to construct the vectors and for DNA sequencing. (DOCX 16 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM7"><media xlink:href="12864_2019_5671_MOESM7_ESM.docx"><label>Additional file 7:</label><caption><p><bold>Table S4.</bold> Overall mapped reads generated by RNA-seq onto the genome of <italic>B. pumilus</italic> BA06. (DOCX 17 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM8"><media xlink:href="12864_2019_5671_MOESM8_ESM.docx"><label>Additional file 8:</label><caption><p><bold>Table S5.</bold> The primers used in qPCR to confirm the transcriptome data for the selected genes. (DOCX 18 kb)</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>Amp</term>
+          <def>
+            <p id="Par4">Ampicillin</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Cm</term>
+          <def>
+            <p id="Par5">Chloramphenicol</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>DEG</term>
+          <def>
+            <p id="Par6">Differentially expressed gene</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Erm</term>
+          <def>
+            <p id="Par7">Erythromycin</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Kan</term>
+          <def>
+            <p id="Par8">Kanamycin</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>LB</term>
+          <def>
+            <p id="Par9">Luria-Bertani</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PCR</term>
+          <def>
+            <p id="Par10">Polymerase chain reaction</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>qPCR</term>
+          <def>
+            <p id="Par11">Quantitative real-time PCR</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RT</term>
+          <def>
+            <p id="Par12">Reverse transcription</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>wt</term>
+          <def>
+            <p id="Par13">Wild-type</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Dr. Yan Liu for language edition for our manuscript.</p>
+      <sec id="FPar1">
+        <title>Funding</title>
+        <p id="Par51">This research was conducted with the financial support of the National Natural Science Foundation of China under Grant Number of 31171204 and 21472132. The funding bodies played no role in design of the study, collection, analysis and interpretation of data or in writing the manuscript.</p>
+      </sec>
+      <sec id="FPar2" sec-type="data-availability">
+        <title>Availability of data and materials</title>
+        <p id="Par52">The transcriptome data used in this work were deposited. All transcriptome data used in this study were deposited in the NCBI databases under BioProject: PRJNA511594 (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/bioproject/511594">https://www.ncbi.nlm.nih.gov/bioproject/511594</ext-link>).</p>
+      </sec>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Authors' contributions</title>
+      <p>HF conceived the study and drafted the manuscript; LLH performed the experiments and participated in drafting the manuscript; YCL performed data analysis. CCM performed the partial experiments. All authors read and approved this final manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <sec id="FPar3">
+        <title>Ethics approval and consent to participate</title>
+        <p>Not applicable.</p>
+      </sec>
+      <sec id="FPar4">
+        <title>Consent for publication</title>
+        <p>Not applicable.</p>
+      </sec>
+      <sec id="FPar5">
+        <title>Competing interests</title>
+        <p>The authors declare that they have no competing interests.</p>
+      </sec>
+      <sec id="FPar6">
+        <title>Publisher's Note</title>
+        <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </sec>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baweja</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tiwari</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Lata</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Pratyoosh</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>An alkaline protease from <italic>Bacillus pumilus</italic> MP27: functional analysis of its binding model toward its applications as detergent additive</article-title>
+          <source>Front Microbiol</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>1195</fpage>
+          <pub-id pub-id-type="pmid">27536284</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Gui</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>SY</given-names>
+            </name>
+          </person-group>
+          <article-title>Improving the thermoactivity and thermostability of pectate lyase from <italic>Bacillus pumilus</italic>, for ramie degumming</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>2015</year>
+          <volume>99</volume>
+          <fpage>2673</fpage>
+          <lpage>2682</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00253-014-6091-y</pub-id>
+          <pub-id pub-id-type="pmid">25287558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaur</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bhardwaj</surname>
+              <given-names>NK</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Process optimization for hyper production of xylanase via statistical methodology from isolated <italic>Bacillus pumilus</italic> 3GAH using lignocellulosic waste</article-title>
+          <source>Biocatal Agricult Biotechnol</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>159</fpage>
+          <lpage>167</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bcab.2016.03.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asha</surname>
+              <given-names>PC</given-names>
+            </name>
+            <name>
+              <surname>Prema</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Production of cellulase-free endoxylanase from novel alkalophilic thermotolerent <italic>Bacillus pumilus</italic> by solid-state fermentation and its application in wastepaper recycling</article-title>
+          <source>Bioresour Technol</source>
+          <year>2007</year>
+          <volume>98</volume>
+          <fpage>485</fpage>
+          <lpage>490</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biortech.2006.02.033</pub-id>
+          <pub-id pub-id-type="pmid">16844369</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balasubramanian</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Sim&#xF5;es</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Bacillus pumilus</italic>, S124A carboxymethyl cellulase; a thermo stable enzyme with a wide substrate spectrum utility</article-title>
+          <source>Int J Biol Macromol</source>
+          <year>2014</year>
+          <volume>67</volume>
+          <fpage>132</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2014.03.014</pub-id>
+          <pub-id pub-id-type="pmid">24657377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yong</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>KY</given-names>
+            </name>
+          </person-group>
+          <article-title>Antagonistic potential of <italic>Bacillus pumilus</italic> L1 against root-knot nematode, <italic>Meloidogyne arenaria</italic></article-title>
+          <source>J Phytopathol</source>
+          <year>2016</year>
+          <volume>164</volume>
+          <fpage>29</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.1111/jph.12421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brack</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Mikolasch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schlueter</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Otto</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Becher</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wegner</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Albrecht</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Riedel</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Schauer</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Antibacterial metabolites and bacteriolytic enzymes produced by <italic>Bacillus pumilus</italic> during bacteriolysis of <italic>Arthrobacter citreus</italic></article-title>
+          <source>Mar Biotechnol</source>
+          <year>2015</year>
+          <volume>17</volume>
+          <fpage>290</fpage>
+          <lpage>304</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10126-015-9614-3</pub-id>
+          <pub-id pub-id-type="pmid">25678259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <mixed-citation publication-type="other">Food Safety Authority E. Scientific opinion of the scientific committee on the introduction of a qualified presumption of safety (QPS) approach for assessment of selected microorganisms referred to EFSA. vol. 578. 2007.</mixed-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wemhoff</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Meinhardt</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Generation of biologically contained, readily transformable, and genetically manageable mutants of the biotechnologically important <italic>Bacillus pumilus</italic></article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>2013</year>
+          <volume>97</volume>
+          <fpage>7805</fpage>
+          <lpage>7819</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00253-013-4935-5</pub-id>
+          <pub-id pub-id-type="pmid">23644770</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuppers</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Steffen</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Hellmuth</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>O'Connell</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bongaerts</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Maurer</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Wiechert</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Developing a new production host from a blueprint: <italic>Bacillus pumilus</italic> as an industrial enzyme producer</article-title>
+          <source>Microbiol Cell Fact</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>46</fpage>
+          <pub-id pub-id-type="doi">10.1186/1475-2859-13-46</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H-Y</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Engineering <italic>Bacillus pumilus</italic> alkaline serine protease to increase its low-temperature proteolytic activity by directed evolution</article-title>
+          <source>BMC Biotechnol</source>
+          <year>2018</year>
+          <volume>18</volume>
+          <fpage>34</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12896-018-0451-0</pub-id>
+          <pub-id pub-id-type="pmid">29859069</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Single amino acid mutation alters thermostability of the alkaline protease from <italic>Bacillus pumilus</italic>: thermodynamics and temperature dependence</article-title>
+          <source>Acta Biochim Biophys Sin</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <fpage>98</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1093/abbs/gmu120</pub-id>
+          <pub-id pub-id-type="pmid">25534779</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>QY</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>YZ</given-names>
+            </name>
+          </person-group>
+          <article-title>Screening and mutagenesis of a novel <italic>Bacillus pumilus</italic> strain producing alkaline protease for dehairing</article-title>
+          <source>Lett Appl Microbiol</source>
+          <year>2007</year>
+          <volume>44</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1472-765X.2006.02039.x</pub-id>
+          <pub-id pub-id-type="pmid">17209806</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Purification and characterization of an extracellular alkaline serine protease with dehairing function from <italic>Bacillus pumilus</italic></article-title>
+          <source>Curr Microbiol</source>
+          <year>2003</year>
+          <volume>46</volume>
+          <fpage>169</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00284-002-3850-2</pub-id>
+          <pub-id pub-id-type="pmid">12567238</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>YZ</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Draft genome sequence of <italic>Bacillus pumilus</italic> BA06, a producer of alkaline serine protease with leather-dehairing function</article-title>
+          <source>J Bacteriol</source>
+          <year>2012</year>
+          <volume>194</volume>
+          <fpage>6668</fpage>
+          <lpage>6669</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01694-12</pub-id>
+          <pub-id pub-id-type="pmid">23144411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Higerd</surname>
+              <given-names>TB</given-names>
+            </name>
+            <name>
+              <surname>Hoch</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Spizizen</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Hyperprotease-producing mutants of <italic>Bacillus subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1972</year>
+          <volume>112</volume>
+          <fpage>1026</fpage>
+          <lpage>1028</lpage>
+          <pub-id pub-id-type="pmid">4628743</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dod</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Balassa</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Raulet</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Jeannoda</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>Spore control (Sco) mutants in <italic>Bacillus subtilis</italic>. II. Sporulation and the production of extracellular proteases and amylases by sco mutants</article-title>
+          <source>Mol Gen Genet</source>
+          <year>1978</year>
+          <volume>163</volume>
+          <fpage>45</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00268963</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perego</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hoch</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Sequence analysis and regulation of the hpr locus, a regulatory gene for protease production and sporulation in <italic>Bacillus subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1988</year>
+          <volume>170</volume>
+          <fpage>2560</fpage>
+          <lpage>2567</lpage>
+          <pub-id pub-id-type="doi">10.1128/jb.170.6.2560-2567.1988</pub-id>
+          <pub-id pub-id-type="pmid">3131303</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kallio</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name>
+              <surname>Fagelson</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Hoch</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Strauch</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>The transition state regulator Hpr of <italic>Bacillus subtilis</italic> is a DNA-binding protein</article-title>
+          <source>J Biol Chem</source>
+          <year>1991</year>
+          <volume>266</volume>
+          <fpage>13411</fpage>
+          <lpage>13417</lpage>
+          <pub-id pub-id-type="pmid">1906467</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koide</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Perego</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hoch</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>ScoC regulates peptide transport and sporulation initiation in <italic>Bacillus subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1999</year>
+          <volume>181</volume>
+          <fpage>4114</fpage>
+          <lpage>4117</lpage>
+          <pub-id pub-id-type="pmid">10383984</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Inaoka</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Ochi</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>ScoC regulates bacilysin production at the transcription level in <italic>Bacillus subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>7367</fpage>
+          <lpage>7371</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01081-09</pub-id>
+          <pub-id pub-id-type="pmid">19801406</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caldwell</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sapolsky</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Weyler</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Maile</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Causey</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlation between <italic>Bacillus subtilis</italic> scoC phenotype and gene expression determined using microarrays for transcriptome analysis</article-title>
+          <source>J Bacteriol</source>
+          <year>2001</year>
+          <volume>183</volume>
+          <fpage>7329</fpage>
+          <lpage>7340</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.183.24.7329-7340.2001</pub-id>
+          <pub-id pub-id-type="pmid">11717292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>L-L</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>H-H</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y-C</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>C-Y</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>X-J</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H-Y</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>X-M</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptome profiling analysis reveals metabolic changes across various growth phases in <italic>Bacillus pumilus</italic> BA06</article-title>
+          <source>BMC Microbiol</source>
+          <year>2017</year>
+          <volume>17</volume>
+          <fpage>156</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12866-017-1066-7</pub-id>
+          <pub-id pub-id-type="pmid">28693413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Henner</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Perego</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hoch</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcription of <italic>Bacillus subtilis</italic> subtilisin and expression of subtilisin in sporulation mutants</article-title>
+          <source>J Bacteriol</source>
+          <year>1988</year>
+          <volume>170</volume>
+          <fpage>289</fpage>
+          <lpage>295</lpage>
+          <pub-id pub-id-type="doi">10.1128/jb.170.1.289-295.1988</pub-id>
+          <pub-id pub-id-type="pmid">2447062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Calvio</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Celandroni</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Ghelardi</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Amati</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Salvetti</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ceciliani</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Galizzi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sensi</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Swarming differentiation and swimming motility in <italic>Bacillus subtilis</italic> are controlled by swrA, a newly identified dicistronic operon</article-title>
+          <source>J Bacteriol</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>5356</fpage>
+          <lpage>5366</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.187.15.5356-5366.2005</pub-id>
+          <pub-id pub-id-type="pmid">16030230</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Msadek</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kunst</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Henner</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Klier</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rapoport</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Signal transduction pathway controlling synthesis of a class of degradative enzymes in <italic>Bacillus subtilis</italic>: expression of the regulatory genes and analysis of mutations in degS and degU</article-title>
+          <source>J Bacteriol</source>
+          <year>1990</year>
+          <volume>172</volume>
+          <fpage>824</fpage>
+          <lpage>834</lpage>
+          <pub-id pub-id-type="doi">10.1128/jb.172.2.824-834.1990</pub-id>
+          <pub-id pub-id-type="pmid">1688843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ababneh</surname>
+              <given-names>QO</given-names>
+            </name>
+            <name>
+              <surname>Herman</surname>
+              <given-names>JK</given-names>
+            </name>
+          </person-group>
+          <article-title>CodY regulates SigD levels and activity by binding to three sites in <italic>fla/che</italic> operon</article-title>
+          <source>J Bacteriol</source>
+          <year>2015</year>
+          <volume>197</volume>
+          <fpage>2999</fpage>
+          <lpage>3006</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00288-15</pub-id>
+          <pub-id pub-id-type="pmid">26170408</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Patrick</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Kearns</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <article-title>Swarming motility and the control of master regulator of flagellar biosynthesis</article-title>
+          <source>Mol Microbiol</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <fpage>14</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2011.07917.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strauch</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Hoch</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Transition-state regulators: sentinels of <italic>Bacillus subtilis</italic> post-exponential gene expression</article-title>
+          <source>Mol Microbiol</source>
+          <year>1993</year>
+          <volume>7</volume>
+          <fpage>337</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.1993.tb01125.x</pub-id>
+          <pub-id pub-id-type="pmid">8459762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toymentseva</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mascher</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sharipova</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory characteristics of <italic>Bacillus pumilus</italic> protease promoters</article-title>
+          <source>Curr Microbiol</source>
+          <year>2017</year>
+          <volume>74</volume>
+          <fpage>550</fpage>
+          <lpage>559</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00284-017-1212-3</pub-id>
+          <pub-id pub-id-type="pmid">28258295</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yasumura</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of <italic>Bacillus subtilis aprE</italic> expression by <italic>glnA</italic> through inhibition of <italic>scoC</italic> and sigma<sup>D</sup>-dependent <italic>degR</italic> expression</article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>191</volume>
+          <fpage>3050</fpage>
+          <lpage>3058</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00049-09</pub-id>
+          <pub-id pub-id-type="pmid">19251843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kodgire</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Dixit</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>KK</given-names>
+            </name>
+          </person-group>
+          <article-title>ScoC and SinR negatively regulate <italic>epr</italic> by corepressor in <italic>B. subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>6425</fpage>
+          <lpage>6428</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00427-06</pub-id>
+          <pub-id pub-id-type="pmid">16923912</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barbieri</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Voigt</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Albrecht</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hecker</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Albertini</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Sonenshein</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Belitsky</surname>
+              <given-names>BR</given-names>
+            </name>
+          </person-group>
+          <article-title>CodY regulates expression of the <italic>Bacillus subtilis</italic> extracellular proteases Vpr and Mpr</article-title>
+          <source>J Bacteriol</source>
+          <year>2015</year>
+          <volume>197</volume>
+          <fpage>1423</fpage>
+          <lpage>1432</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.02588-14</pub-id>
+          <pub-id pub-id-type="pmid">25666135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salvetti</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Faegri</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ghelardi</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Kolsto</surname>
+              <given-names>A-B</given-names>
+            </name>
+            <name>
+              <surname>Senesi</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Global gene expression profile for swarming <italic>Bacillus cereus</italic> bacteria</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2011</year>
+          <volume>77</volume>
+          <fpage>5149</fpage>
+          <lpage>5156</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.00245-11</pub-id>
+          <pub-id pub-id-type="pmid">21642396</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kearns</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Losick</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Swarming motility in undomesticated <italic>Bacillus subtilis</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2003</year>
+          <volume>49</volume>
+          <fpage>581</fpage>
+          <lpage>590</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03584.x</pub-id>
+          <pub-id pub-id-type="pmid">12864845</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Calvio</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Osera</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Amati</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Galizzi</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Autoregulation of <italic>swrAA</italic> and motility in <italic>Bacillus subtilis</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2008</year>
+          <volume>190</volume>
+          <fpage>5720</fpage>
+          <lpage>5728</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00455-08</pub-id>
+          <pub-id pub-id-type="pmid">18567663</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsukahara</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ougura</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Promoter selectivity of the <italic>Bacillus subtilis</italic> response regulator DegU, a positive regulator of the <italic>fla/che</italic> operon and <italic>sacB</italic></article-title>
+          <source>BMC Microbiol</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>8</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2180-8-8</pub-id>
+          <pub-id pub-id-type="pmid">18197985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ogura</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tsukahara</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>SwrA regulates assembly of <italic>Bacillus subtilis</italic> DegU via its interaction with N-terminal domain of DegU</article-title>
+          <source>J Biochem</source>
+          <year>2012</year>
+          <volume>151</volume>
+          <fpage>643</fpage>
+          <lpage>655</lpage>
+          <pub-id pub-id-type="doi">10.1093/jb/mvs036</pub-id>
+          <pub-id pub-id-type="pmid">22496484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mordini</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Osera</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Marini</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Scavone</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Bellazzi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Galizzi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Calvio</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of SwrA, DegU and P<sub>D3</sub> in <italic>fla/che</italic> expression in <italic>B. subtilis</italic></article-title>
+          <source>PLoS One</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e85065</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0085065</pub-id>
+          <pub-id pub-id-type="pmid">24386445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arrieta-Ortiz</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Hafemeister</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bate</surname>
+              <given-names>AR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>An experimentally supported model of the <italic>Bacillus subtilis</italic> global transcriptional regulatory network</article-title>
+          <source>Mol Syst Biol</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <fpage>839</fpage>
+          <pub-id pub-id-type="doi">10.15252/msb.20156236</pub-id>
+          <pub-id pub-id-type="pmid">26577401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kodgire</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>KK</given-names>
+            </name>
+          </person-group>
+          <article-title>Hag expression in <italic>Bacillus subtilis</italic> is both negatively and positively regulated by ScoC</article-title>
+          <source>Microbiol.</source>
+          <year>2009</year>
+          <volume>155</volume>
+          <fpage>142</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.021899-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kodgire</surname>
+              <given-names>Prashant</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>K. Krishnamurthy</given-names>
+            </name>
+          </person-group>
+          <article-title>A dual mode of regulation of flgM by ScoC in Bacillus subtilis</article-title>
+          <source>Canadian Journal of Microbiology</source>
+          <year>2009</year>
+          <volume>55</volume>
+          <issue>8</issue>
+          <fpage>983</fpage>
+          <lpage>989</lpage>
+          <pub-id pub-id-type="doi">10.1139/W09-049</pub-id>
+          <pub-id pub-id-type="pmid">19898538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Errington</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of endospore formation in <italic>Bacillus subtilis</italic></article-title>
+          <source>Nat Rev Microbiol</source>
+          <year>2003</year>
+          <volume>1</volume>
+          <fpage>117</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrmicro750</pub-id>
+          <pub-id pub-id-type="pmid">15035041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamon</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Lazazzera</surname>
+              <given-names>BA</given-names>
+            </name>
+          </person-group>
+          <article-title>The sporulation transcription factor Spo0A is required for biofilm development in <italic>Bacillus subtilis</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>1199</fpage>
+          <lpage>1209</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2001.02709.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>HD</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>QA</given-names>
+            </name>
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>LCS</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>LT</given-names>
+            </name>
+            <name>
+              <surname>Schumann</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Construction of plasmid-based expression vectors for <italic>Bacillus subtilis</italic> full structural stability</article-title>
+          <source>Plasmid.</source>
+          <year>2005</year>
+          <volume>54</volume>
+          <fpage>241</fpage>
+          <lpage>248</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.plasmid.2005.05.001</pub-id>
+          <pub-id pub-id-type="pmid">16005967</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>T-T</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C-B</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H-Y</given-names>
+            </name>
+          </person-group>
+          <article-title>The construction and application of a genetic manipulation system for <italic>Bacillus pumilu</italic>s</article-title>
+          <source>J Sichuan University (Nat Sci Ed)</source>
+          <year>2017</year>
+          <volume>54</volume>
+          <fpage>1083</fpage>
+          <lpage>1088</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Construction of novel shuttle expression vectors for gene expression in <italic>Bacillus subtilis</italic> and <italic>Bacillus pumilus</italic></article-title>
+          <source>J Gen Appl Microbiol</source>
+          <year>2015</year>
+          <volume>61</volume>
+          <fpage>124</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="doi">10.2323/jgam.61.124</pub-id>
+          <pub-id pub-id-type="pmid">26377132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sambrook</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Fritsch</surname>
+              <given-names>EFMT</given-names>
+            </name>
+          </person-group>
+          <source>Molecular cloning: a laboratory manual, 2nd Ed</source>
+          <year>1989</year>
+          <publisher-loc>New York, NY</publisher-loc>
+          <publisher-name>Cold Spring Harbor</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meddebmouelhi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Dulcey</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Beauregard</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>High transformation efficiency of <italic>Bacillus subtilis</italic> with integrative DNA using glycine betaine as osmoprotectant</article-title>
+          <source>Anal Biochem</source>
+          <year>2012</year>
+          <volume>424</volume>
+          <fpage>127</fpage>
+          <lpage>129</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ab.2012.01.032</pub-id>
+          <pub-id pub-id-type="pmid">22387342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wan</surname>
+              <given-names>M-Y</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H-Y</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y-Z</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Substrate specificity and thermostability of the dehairing alkaline protease from <italic>Bacillus pumilus</italic></article-title>
+          <source>Appl Biochem Biotechnol</source>
+          <year>2009</year>
+          <volume>159</volume>
+          <fpage>394</fpage>
+          <lpage>403</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12010-008-8497-4</pub-id>
+          <pub-id pub-id-type="pmid">19132554</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>L-J</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>Q-H</given-names>
+            </name>
+          </person-group>
+          <source>Laboratory manual of microbiology, 2nd Ed</source>
+          <year>2012</year>
+          <publisher-loc>Beijing</publisher-loc>
+          <publisher-name>Science Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="CR52">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Langmead</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Salzberg</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>HISAT: a fast spliced aligner with low memory requirements</article-title>
+          <source>Nat Methods</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>357</fpage>
+          <lpage>360</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.3317</pub-id>
+          <pub-id pub-id-type="pmid">25751142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR53">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pertea</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Pertea</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Leek</surname>
+              <given-names>JT</given-names>
+            </name>
+            <name>
+              <surname>Salzberg</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcript-level expression analysis of RNA-seq experiments with hisat, stringtie and ballgown</article-title>
+          <source>Nat Protocols</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <fpage>1650</fpage>
+          <lpage>1667</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2016.095</pub-id>
+          <pub-id pub-id-type="pmid">27560171</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR54">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pertea</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pertea</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Antonescu</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>TC</given-names>
+            </name>
+            <name>
+              <surname>Mendell</surname>
+              <given-names>JT</given-names>
+            </name>
+            <name>
+              <surname>Salzberg</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>StringTie enables improved reconstruction of a transcriptome from RNA-seq reads</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2015</year>
+          <volume>33</volume>
+          <fpage>290</fpage>
+          <lpage>295</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt.3122</pub-id>
+          <pub-id pub-id-type="pmid">25690850</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR55">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anders</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Pyl</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>HTSeq--a Python framework to work with high-throughput sequencing data</article-title>
+          <source>Bioinformatics.</source>
+          <year>2015</year>
+          <volume>31</volume>
+          <fpage>166</fpage>
+          <lpage>169</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btu638</pub-id>
+          <pub-id pub-id-type="pmid">25260700</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR56">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Smyth</surname>
+              <given-names>GK</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>featureCounts: an efficient general purpose program for assigning sequence reads to genomic features</article-title>
+          <source>Bioinformatics.</source>
+          <year>2014</year>
+          <volume>30</volume>
+          <fpage>923</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btt656</pub-id>
+          <pub-id pub-id-type="pmid">24227677</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR57">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robinson</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Mccarthy</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Smyth</surname>
+              <given-names>GK</given-names>
+            </name>
+          </person-group>
+          <article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</article-title>
+          <source>Bioinformatics.</source>
+          <year>2010</year>
+          <volume>26</volume>
+          <fpage>139</fpage>
+          <lpage>140</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp616</pub-id>
+          <pub-id pub-id-type="pmid">19910308</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR58">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kestler</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>Andre</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gress</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Buchholz</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Generalized venn diagrams: a new method of visualizing complex genetic set relations</article-title>
+          <source>Bioinformatics.</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>1592</fpage>
+          <lpage>1595</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bti169</pub-id>
+          <pub-id pub-id-type="pmid">15572472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR59">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanehisa</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kawashima</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Furumichi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tanabe</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Data, information, knowledge and principle: back to metabolism in KEGG</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2014</year>
+          <volume>42</volume>
+          <fpage>D199</fpage>
+          <lpage>D205</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkt1076</pub-id>
+          <pub-id pub-id-type="pmid">24214961</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR60">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caraux</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Pinloche</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>PermutMatrix: a graphical environment to arrange gene expression profiles in optimal linear order</article-title>
+          <source>Bioinformatics.</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>1280</fpage>
+          <lpage>1281</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bti141</pub-id>
+          <pub-id pub-id-type="pmid">15546938</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR61">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Livak</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Schmittgen</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2-DeltaDeltaCT method</article-title>
+          <source>Methods.</source>
+          <year>2001</year>
+          <volume>25</volume>
+          <fpage>402</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="doi">10.1006/meth.2001.1262</pub-id>
+          <pub-id pub-id-type="pmid">11846609</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+

@@ -1,0 +1,2134 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">19939938</article-id>
+      <article-id pub-id-type="pmc">2817479</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkp1085</article-id>
+      <article-id pub-id-type="publisher-id">gkp1085</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Gene Regulation, Chromatin and Epigenetics</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genome-wide gene regulation of biosynthesis and energy generation by a novel transcriptional repressor in <italic>Geobacter</italic> species</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ueki</surname>
+            <given-names>Toshiyuki</given-names>
+          </name>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lovley</surname>
+            <given-names>Derek R.</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff>Department of Microbiology, University of Massachusetts Amherst, Morrill Science Center IV North, 639 North Pleasant Street, Amherst, MA 01003-9298, USA</aff>
+      <author-notes>
+        <corresp id="COR1">*To whom correspondence should be addressed. Tel: <phone>+1 413 577 4666</phone>; Fax: <fax>+1 413 545 1578</fax>; Email: <email>tueki@microbio.umass.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>11</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>25</day>
+        <month>11</month>
+        <year>2009</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>38</volume>
+      <issue>3</issue>
+      <fpage>810</fpage>
+      <lpage>821</lpage>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>9</month>
+          <year>2009</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>5</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>5</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2009. Published by Oxford University Press.</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/2.5">
+          <license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/2.5">http://creativecommons.org/licenses/by-nc/2.5</ext-link>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><italic>Geobacter</italic> species play important roles in bioremediation of contaminated environments and in electricity production from waste organic matter in microbial fuel cells. To better understand physiology of <italic>Geobacter</italic> species, expression and function of citrate synthase, a key enzyme in the TCA cycle that is important for organic acid oxidation in <italic>Geobacter</italic> species, was investigated. <italic>Geobacter sulfurreducens</italic> did not require citrate synthase for growth with hydrogen as the electron donor and fumarate as the electron acceptor. Expression of the citrate synthase gene, <italic>gltA,</italic> was repressed by a transcription factor under this growth condition. Functional and comparative genomics approaches, coupled with genetic and biochemical assays, identified a novel transcription factor termed HgtR that acts as a repressor for <italic>gltA</italic>. Further analysis revealed that HgtR is a global regulator for genes involved in biosynthesis and energy generation in <italic>Geobacter</italic> species. The <italic>hgtR</italic> gene was essential for growth with hydrogen, during which <italic>hgtR</italic> expression was induced. These findings provide important new insights into the mechanisms by which <italic>Geobacter</italic> species regulate their central metabolism under different environmental conditions.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>INTRODUCTION</title>
+      <p><italic>Geobacter</italic> species can play an important role in the bioremediation of groundwater contaminated with organics or metals (<xref ref-type="bibr" rid="B1 B2 B3 B4 B5 B6 B7">1 - 7</xref>) and are one of the most effective microorganisms in converting organic compounds to electricity in microbial fuel cells (<xref ref-type="bibr" rid="B8 B9 B10 B11">8 - 11</xref>). Studies on the physiology of <italic>Geobacter</italic> species have primarily focused on <italic>Geobacter sulfurreducens</italic> because it has the key hall mark physiological characteristics of <italic>Geobacter</italic> species (<xref ref-type="bibr" rid="B12">12</xref>), including the ability to completely oxidize organic acids to carbon dioxide with electron transfer to extracellular electron acceptors such as Fe(III) oxides (<xref ref-type="bibr" rid="B13 B14 B15">13 - 15</xref>), toxic metals (<xref ref-type="bibr" rid="B16">16</xref>), humic substances (<xref ref-type="bibr" rid="B17">17</xref>) and electrodes (<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref>). In addition to organic compounds, <italic>Geobacter</italic> species can utilize hydrogen as an electron donor to generate energy for growth (<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref>).</p>
+      <p>The tricarboxylic acid (TCA) cycle is the main pathway for oxidation of organic compounds for energy conservation in <italic>G. sulfurreducens</italic> and serves to synthesize a diversity of precursor metabolites for biosynthetic reactions (<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref>). Citrate synthase is a key TCA cycle enzyme. Analysis of the <italic>G. sulfurreducens</italic> genome revealed only one homologue of the citrate synthase gene, termed <italic>gltA</italic> (<xref ref-type="bibr" rid="B24">24</xref>), which encodes the protein responsible for citrate synthase activity (<xref ref-type="bibr" rid="B25">25</xref>). Surprisingly, the citrate synthases of <italic>G. sulfurreducens</italic> as well as other members of <italic>Geobacter</italic> species show higher sequence similarity to eukaryotic citrate synthases than to the majority of prokaryotic citrate synthases (<xref ref-type="bibr" rid="B24 B25 B26">24 - 26</xref>).</p>
+      <p>The production of citrate synthase in <italic>Geobacter</italic> species appears to be highly regulated. For example, cells grown with hydrogen as the electron donor had much lower citrate synthase activities than cells grown on acetate (<xref ref-type="bibr" rid="B25">25</xref>). Transcript abundance of <italic>gltA</italic> directly correlated with the rates of Fe(III) reduction in chemostats or the rates of electron transfer to electrodes in microbial fuel cells (<xref ref-type="bibr" rid="B26">26</xref>).</p>
+      <p>Here we report on one of the mechanisms by which the expression of <italic>gltA</italic> and other genes encoding proteins important for central metabolism is regulated in <italic>Geobacter</italic> species. The results suggest that a novel transcriptional repressor plays an important role in controlling the expression of these genes.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>MATERIALS AND METHODS</title>
+      <sec>
+        <title>Bacterial strains and growth conditions</title>
+        <p>Genetic and biochemical studies were conducted with <italic>G. sulfurreducens</italic> strain DL1 (<xref ref-type="bibr" rid="B12">12</xref>). <italic>Escherichia coli</italic> DH5alpha (<xref ref-type="bibr" rid="B27">27</xref>) was used for plasmid preparation and grown in LB medium (<xref ref-type="bibr" rid="B28">28</xref>) supplemented with antibiotics, when necessary.</p>
+        <p>Growth studies on <italic>G. sulfurreducens</italic> were carried out in 27-ml pressure tubes containing 10 ml of either donor-free fumarate medium (NBF) or donor-free Fe(III) citrate medium (FWFC) as described previously (<xref ref-type="bibr" rid="B20">20</xref>). Acetate was included as the electron donor at a concentration of 15 or 10 mM in NBF or FWFC medium, respectively. Lactate was included as the electron donor at a concentration of 20 mM in NBF medium. When hydrogen was used as the electron donor, 10 ml of hydrogen gas was injected into the headspace, resulting in an initial headspace composition of 37% H<sub>2</sub>: 12.6% CO<sub>2</sub>: 50.4% N<sub>2</sub> at a total pressure of ca. 1.61 x 10<sup>3</sup> Pa, and media were supplemented with acetate or lactate as a carbon source at a concentration of 4 or 1 mM in NBF or FWFC medium, respectively.</p>
+      </sec>
+      <sec>
+        <title>Analytical techniques</title>
+        <p>Growth of cells in media containing fumarate as the electron acceptor was monitored by measuring the optical density at 600 nm (OD<sub>600</sub>). The number of cells in cultures containing Fe(III) as the electron acceptor was determined by acridine orange staining with epifluorescence microscopy (<xref ref-type="bibr" rid="B15">15</xref>). The concentrations of Fe(II) were determined by the ferrozine assay (<xref ref-type="bibr" rid="B29">29</xref>).</p>
+      </sec>
+      <sec>
+        <title>Western blot analysis</title>
+        <p><italic>Geobacter sulfurreducens</italic> DL1 was grown in media containing electron donors and acceptors indicated in <xref ref-type="fig" rid="F1">Figure 1</xref>A. Cell extracts were prepared with the reagent B-PER (Pierce Biotechnology) as recommended by the manufacturer. Cell extracts were loaded on SDS - PAGE. Western blot analyses were carried out with antisera prepared by Sigma-Genosys against the peptide, TPMLEKWAEEGGRK, from amino acid residues 427 - 440 of the citrate synthase of <italic>G. sulfurreducens</italic>.
+<fig id="F1" position="float"><label>Figure 1.</label><caption><p>Regulation of the citrate synthase. (<bold>A</bold>) Expression of the citrate synthase protein. Cell extracts were prepared from <italic>G. sulfurreducens</italic> DL1 grown in media containing acetate (A), lactate (L), or hydrogen (H) as the electron donor and fumarate or Fe(III) as the electron acceptor and analyzed by western blot analysis. When hydrogen was used, acetate (A) or lactate (L) was included as the carbon (C) source. (<bold>B</bold>) Expression of the <italic>gltA</italic> transcript. Total RNA was prepared from <italic>G. sulfurreducens</italic> DL1 grown in media as described above. G, A, T and C represent sequence ladders generated by the same primer used in the primer extension assays. (<bold>C</bold>) Promoter region of <italic>gltA</italic>. The putative -35/-10 and extended -10 elements are underlined. The 5' end of <italic>gltA</italic> mRNA (transcription initiation site) is indicated by a bold letter with +1. The binding site for the repressor identified in <xref ref-type="fig" rid="F2">Figure 2</xref>B is highlighted in grey with bold letters. The putative ribosome binding site (RBS) is indicated by bold letters. The initiation codon is indicated by bold letters with Met. (<bold>D</bold>) Transcription termination of <italic>gltA</italic>. The termination codon is indicated by bold letters with an underline. Two putative transcription termination signals are indicated by arrows.</p></caption><graphic xlink:href="gkp1085f1"/></fig></p>
+      </sec>
+      <sec>
+        <title>Primer extension assay</title>
+        <p>Total RNA was prepared from <italic>G. sulfurreducens</italic> strains grown in media containing electron donors and acceptors indicated in figure legends. The sequences of primers used in the assays were 5'TCGATAATGACCTTGCCGAACTCC3' (<italic>gltA</italic>), 5'CATCAATTTCCGTCCAGATAATC3' (<italic>icd</italic>), 5'CTTCCCACAGAACTCGTGAAC3' (<italic>frdC</italic>), 5'CGGTTATCGACGATTGTTCTTCC3' (<italic>sfrB</italic>), 5'CCAGGACAATGATTGGCAGGTATAC3' (<italic>nuoA</italic>), 5'CCTGAATAACAAAGGCAAGATC3' (<italic>atpG</italic>), 5'ATGATGGCATCGCGAATGGTTTC3' (<italic>gntR</italic>) and 5'TCATGGAGATAACGTTGTAC3' (<italic>hgtR</italic>).</p>
+      </sec>
+      <sec>
+        <title>Construction of mutants</title>
+        <p>The <italic>gltA</italic> gene was replaced with a kanamycin resistance gene, such that the coding region from amino acid residues 6Thr to 429Met was deleted. Double-crossover homologous recombination was carried out by electroporation (<xref ref-type="bibr" rid="B30">30</xref>) with the linear DNA fragment consisting of the kanamycin resistance gene flanked by 0.7 kbp DNA fragments containing the up- and the downstream regions of the <italic>gltA</italic> gene. These flanking DNA fragments were amplified by PCR with primers, 5'TC<underline>GGATCC</underline>GTCGCACTCTGGCTGAGGAGC3' and 5'TC<underline>GAATTC</underline>CTTGAGTGCCATGTTAC3' (<italic>Bam</italic>HI and <italic>Eco</italic>RI sites are underlined) and, 5'TC<underline>AAGCTT</underline>GAGAAGTGGGCGGAA3' and 5'TC<underline>TCTAGA</underline>CGACGACAAGAAGCTCTTAC3' (<italic>Hin</italic>dIII and <italic>Xba</italic>I sites are underlined), respectively. The DNA fragment of the kanamycin resistance gene was amplified by PCR with primers, 5'GCATGA<underline>GAATTC</underline>CTGACGGAACAGCGGGAAGTCCAGC3' and 5'GCTATG<underline>AAGCTT</underline>TCATAGAAGGCGGCGGTGGAATCGAA3' (<italic>Eco</italic>RI and <italic>Hin</italic>dIII sites are underlined), and pBBR1MCS-2 (<xref ref-type="bibr" rid="B31">31</xref>) as a template. These PCR products were digested with restriction enzymes, ligated and cloned in the plasmid. The sequences of these cloned fragments were confirmed by DNA sequencing. After electroporation, kanamycin-resistant transformants were isolated and inoculated in NBF medium supplemented with 4 mM acetate and 200 microg/ml kanamycin in the presence of hydrogen. The replacement was confirmed by PCR amplification.</p>
+        <p>The <italic>hgtR</italic> gene was replaced with the kanamycin resistance gene, such that the coding region from amino acid residues 4Met to 59Gln was deleted, as described above. The oligonucleotides used to amplify DNA fragments for double-crossover homologous recombination were 5'TCTCTAGAGGGCTGGTTCCGCGAGGATC3' and 5'TCGAATTCTTCCCATGTCTGGTATC3' for the upstream region and 5'TCAAGCTTAGAAGGCCGCCTGATTTTCAC3' and 5'TCTCTCGAGGAAGTGCTGGAGAGCTATGAC3' for the downstream region.</p>
+      </sec>
+      <sec>
+        <title>Preparation of cell extracts and fractionation by ammonium sulfate</title>
+        <p><italic>Geobacter sulfurreducens</italic> DL1 was grown in media containing electron donors and acceptors indicated in <xref ref-type="fig" rid="F2">Figure 2</xref>A. Cells were harvested by centrifugation, resuspended in TGED buffer (10 mM Tris - Cl, pH 7.9; 10% glycerol; 0.1 mM EDTA; 0.1 mM DTT) supplemented with protease inhibitors (Roche), and disrupted by sonication. Cell extracts were prepared by centrifugation after the sonication. For a DNA-binding assay, the cell extracts thus prepared were used. For a footprint assay, the cell extracts were further fractionated by ammonium sulfate. The DNA-binding activity was detected in the fraction of 40 - 65% ammonium sulfate saturation (data not shown). The precipitations by 40 - 65% ammonium sulfate saturation were resuspended in TGED buffer supplemented with the protease inhibitors.
+<fig id="F2" position="float"><label>Figure 2.</label><caption><p>Transcriptional regulation. (<bold>A</bold>) DNA-binding assay. Cell extracts were prepared from cultures grown in media as described in <xref ref-type="fig" rid="F1">Figure 1</xref>A. The probe contained the promoter region from nt -127 to +153 of <italic>gltA</italic>. '-' indicates the DNA-binding assay without cell extracts. (<bold>B</bold>) Footprint assay. The ammonium sulfate fraction (AS) was prepared from cultures with acetate and fumarate as the electron donor and the acceptor, respectively. The probe contained the promoter region from nt -49 to +153 of <italic>gltA</italic>. '-' and '+' indicate footprint assays without or with AS, respectively. G, A, T and C represent sequence ladders. (<bold>C</bold>) <italic>lacZ</italic> fusion assay. The promoter regions from nt -195 to +232, from nt -2 to +232, and from nt -195 to +232 without the repressor binding site in <italic>gltA</italic> were tested. The activity is shown as a percentage of the activity of the promoter from nt -195 to +232.</p></caption><graphic xlink:href="gkp1085f2"/></fig></p>
+      </sec>
+      <sec>
+        <title>DNA-binding and footprint assays</title>
+        <p>DNA fragments containing the promoter regions were amplified by PCR with oligonucleotide primers, 5'TC<underline>TCTAGA</underline>CTTGACCGAGGTGAAACGTC3' and 5'TC<underline>GGATCC</underline>TTCTTCCCCCTCCTTTCCAC3' (<italic>gltA</italic>), 5'TC<underline>TCTAGA</underline>TGTCCATTCCGCGGACCTC3' and 5'TC<underline>GGATCC</underline>TGAATAACAAAGGCAAGATC3' (<italic>atp</italic>), 5'TC<underline>TCTAGA</underline>GCTGTGAGCATTGGCGATTTC3', 5'TC<underline>GGATCC</underline>AGGACAATGATTGGCAGGTATAC3' (<italic>nuo</italic>), and 5'TC<underline>TCTAGA</underline>TTGATCCCACGGGCGGCGAC3' and 5'TC<underline>GGATCC</underline>ATGATGGCATCGCGAATGGTTTC3' (<italic>gntR</italic>) (<italic>Xba</italic>I and <italic>Bam</italic>HI sites are underlined). The PCR products were digested with <italic>Xba</italic>I and <italic>Bam</italic>HI and cloned into a plasmid. For a probe in DNA-binding assays, DNA fragments were prepared by digesting the plasmid with <italic>Xba</italic>I and <italic>Bam</italic>HI and isolating the fragment by agarose gel. The isolated DNA fragments were then labeled with [alpha-<sup>32</sup>P]dCTP by Klenow fragment of DNA polymerase I. For a probe in footprint assays, DNA fragments were prepared by digesting the plasmid with <italic>Sac</italic>II and <italic>Xho</italic>I located in the plasmid vector and isolating the fragment by agarose gel. The isolated fragments were labeled with [alpha-<sup>32</sup>P]dCTP by Klenow fragment of DNA polymerase I. Therefore, only the leading strand was labeled.</p>
+        <p>The reactions and analyses of DNA-binding and footprint assays were performed as described previously (<xref ref-type="bibr" rid="B32">32</xref>).</p>
+      </sec>
+      <sec>
+        <title><italic>lacZ</italic> fusion assay</title>
+        <p>A vector for a transcriptional <italic>lacZ</italic> fusion assay was constructed by inserting the <italic>Eco</italic>RI-<italic>Hin</italic>dIII fragment containing the kanamycin resistance gene, the <italic>Eco</italic>RI - <italic>Bam</italic>HI fragment containing transcription termination signals and cloning sites, and the <italic>Bam</italic>HI - <italic>Sal</italic>I fragment containing the <italic>lacZY</italic> genes into <italic>Hin</italic>dIII and <italic>Xho</italic>I sites of pCM66 (<xref ref-type="bibr" rid="B33">33</xref>). The resultant plasmid was named pCMZKT. The promoter regions from nucleotide (nt) -195 or -2 to +232 of the <italic>gltA</italic> gene were amplified by PCR with primers -195T; 5'TC<underline>TCTAGA</underline>CATTCTCGGACCAGGAAC3', or -2T; 5'TC<underline>TCTAGA</underline>GTAAAATTGTATACAGTATACTA3', respectively, and +232B; 5'TC<underline>GGATCC</underline>TTGAGTGCCATGTTAC3' (<italic>Xba</italic>I and <italic>Bam</italic>HI sites are underlined). The PCR products were digested with <italic>Xba</italic>I and <italic>Bam</italic>HI and cloned into pCMZKT. To examine the effects of the binding site determined by the footprint assay on the promoter activity, the region from nt +11 to +23 containing the binding site was deleted. The promoter regions from nt -195 to +10 and from nt +24 to +232 were amplified by primers -195T and +10B; 5'TC<underline>GAATTC</underline>TACAATTTTACTGTAAAGCCTTA3', and +24T; 5'TC<underline>GAATTC</underline>AAAGAGATTTCCGCCGTTTTCAC3' and +232B, respectively (<italic>Eco</italic>RI site is underlined), and digested with <italic>Xba</italic>I and <italic>Eco</italic>RI, and <italic>Eco</italic>RI and <italic>Bam</italic>HI, respectively. The <italic>Xba</italic>I - <italic>Eco</italic>RI fragment and the <italic>Eco</italic>RI - <italic>Bam</italic>HI fragment were ligated and cloned into pCMZKT. The plasmids thus constructed were introduced into <italic>G. sulfurreducens</italic> DL1 by electroporation (<xref ref-type="bibr" rid="B30">30</xref>).</p>
+        <p>beta-Galactosidase activity was measured by the method described by Miller (<xref ref-type="bibr" rid="B28">28</xref>) with modifications. The strains carrying the plasmids were grown in NBAF medium supplemented with kanamycin and the cells were harvested at the log phase (OD<sub>600</sub> = 0.3 nm) by centrifuging 1 ml of the cultures. The cells were resuspended in 1 ml of the Z buffer and the OD<sub>600</sub> of samples was measured. The rest of the procedure was same as the method described by Miller.</p>
+      </sec>
+      <sec>
+        <title>Construction of expression vectors for transcription factors</title>
+        <p>DNA fragments encoding a putative transcription factor were amplified by PCR with primers: 5'TCT<underline>CATATG</underline>GACGATATCAAATCCCAGATC3' and 5'TCT<underline>CTCGAG</underline>GTCCCGGGTATAGAGAACCGCCAC3' (GSU0079), 5'TCT<underline>CATATG</underline>ACCAGAGCGGACTGTCGCA3' and 5'TCT<underline>CTCGAG</underline>TGCCGGCGCGGCCCCGCCGTCGGCCATGA3' (GSU0175), 5'TCT<underline>CATATG</underline>GATAACCTTGCCGAACACA3' and 5'TCT<underline>CTCGAG</underline>CCGGACCACCTCGAACGTTTTCA3' (GSU0366), 5'TCT<underline>CATATG</underline>GCGAAGAAGGACAAATCCGAA3' and 5'TCT<underline>CTCGAG</underline>CCGATGAAAGCCGAGCTTCATGGATA3' (GSU0514), 5'TCT<underline>CATATG</underline>AAGCTCTCAACGAAAAGCCGGTA3' and 5'TCT<underline>CTCGAG</underline>GATAAAGTACATGAACCGGTGATC3' (GSU0534), 5'TCT<underline>CATATG</underline>AACGAGCTTCGCGAAAAGGATGAATC3' and 5'TCT<underline>CTCGAG</underline>CGGATGTTCCTCCCTGATTGAC3' (GSU0625), 5'TCT<underline>CATATG</underline>ACGAGGGAAAAAAGCTCATAC3' and 5'TCT<underline>CTCGAG</underline>CAGCTTTGCGTAGCCAAACTTC3' (GSU1072), 5'TCT<underline>CATATG</underline>ATATCGAAAAAGACAAAATAC3' and 5'TCT<underline>CTCGAG</underline>GATCGTGTAAAAAAGCACTCCGTCC3' (GSU1345), 5'TCT<underline>CATATG</underline>AACTGTAATATAGGACATGC3' and 5'TCT<underline>CTCGAG</underline>CGGCTTGCTGTACGAGGGGCCGTC3' (GSU1419), 5'TCT<underline>CATATG</underline>GTGGCGGAGGAGACCCCGGACA3' and 5'TCT<underline>CTCGAG</underline>TTGCAGTTGTTTTTTCAGCAATTC3' (GSU1522), 5'TCT<underline>CATATG</underline>ATGGAATTAACCCGGAA3' and 5'TCT<underline>CTCGAG</underline>TTTCGTGGTAGCGGCCAGCTC3' (GSU1639), 5'TCT<underline>CATATG</underline>ATCCGCCCGGCGTTCATC3' and 5'TCT<underline>CTCGAG</underline>GATGTCGAACTCATCACGGGCCA3' (GSU1702), 5'TCT<underline>CATATG</underline>GCGCCGACATTATTGGAATTGAC3' and 5'TCT<underline>CTCGAG</underline>GGCAGTAGCTTTCTTGGCGCGAGTA3' (GSU1863), 5'TCT<underline>CATATG</underline>ACCACCGTGAAATTATC3' and 5'TCT<underline>CTCGAG</underline>GTCGATAAACACCGCGTCC3' (GSU2033), 5'TCT<underline>CATATG</underline>CGACACGACAAATTCGCA3' and 5'TCT<underline>CTCGAG</underline>GCATGGTCCGTGCCCCAGCTTC3' (GSU2354), 5'TCT<underline>CATATG</underline>AACCTCAAGCAGCTCGAAGTA3' and 5'TCT<underline>CTCGAG</underline>GGCGAGCCGGGTTCCGGTCAGTTC3' (GSU2523), 5'TCT<underline>CATATG</underline>AAGATCGGCGAGCGGTTGAA3' and 5'TCT<underline>CTCGAG</underline>GTAATCAAATGTCGGCGGGGTCAC3' (GSU2540), 5'TCT<underline>CATATG</underline>AGACTGTCGACGCGCGCCCA3' and 5'TCT<underline>CTCGAG</underline>TTGATCCTCACTCTCGCCGGGCCGTC3' (GSU2571), 5'TCT<underline>CATATG</underline>GAAATGGAAGAATTCGACAA3' and 5'TCT<underline>CTCGAG</underline>GCCGAGCACGTCGATGAGC3' (GSU2625), 5'TCT<underline>CATATG</underline>TCGAAGCTGGAAAAACGGGAC3' and 5'TCT<underline>CTCGAG</underline>AGAATGAACATTCATTCTTAGCCA3' (GSU2698), 5'TCT<underline>CATATG</underline>ATTCTGCCACGACCTCTTTAC3' and 5'TCT<underline>CTCGAG</underline>TTCCCCGGCAAGCACCGGCAGCCGCTC3' (GSU2716), 5'TCT<underline>CATATG</underline>GATTTGATCCTTCTTAATAC3' and 5'TCT<underline>CTCGAG</underline>CCGGGTGCGCCGGGAGGAGAAC3' (GSU2941), 5'TCT<underline>CATATG</underline>AAACAGGCGGCCCGTTTATTC3' and 5'TCT<underline>CTCGAG</underline>GGCGCAACGATTTCCCTGACC3' (GSU2952), 5'TCT<underline>CATATG</underline>AAACAGGCGGCCCGTTTATTC3' and 5'TCT<underline>CTCGAG</underline>GGCGCAACGATTTCCCTGACC3' (GSU2980), 5'TCT<underline>CATATG</underline>CAGAAAAAAGACAAGTCAGACTAC3' and 5'TC<underline>GAATTC</underline>AGACCCGCGGTAGGAGCGGCATAC3' (GSU3109), 5'TCT<underline>CATATG</underline>ACCGAGTACAATATC3' and 5'TCT<underline>CTCGAG</underline>ACGGGTGACTACGGCGAGAAC3' (GSU3298), 5'TCT<underline>CATATG</underline>GAAAGTGCGCGAAAC3' and 5'TCT<underline>CTCGAG</underline>CAGCTTCACGTTCCGCCAGAC3' (GSU3324), 5'TCT<underline>CATATG</underline>GGAAGAATGAGAGAAAATC3' and 5'TCT<underline>CTCGAG</underline>GGCGGCCTTCTGGTCTCCGGGTTGAGAC3' (GSU3364, HgtR), 5'TCT<underline>CATATG</underline>AAAAAACCGATGGAGAAGCAC3' and 5'TCT<underline>CTCGAG</underline>GATATCAAGTTGCAGGGCAGCA3' (GSU3370), and 5'TCT<underline>CATATG</underline>GACATCAGGGACATCCTC3' and 5'TCT<underline>CTCGAG</underline>GGCCGGGCGCCTCCCGGCAGCGGCCTTCA3' (GSU3421) (<italic>Nde</italic>I, <italic>Xho</italic>I and <italic>Eco</italic>RI sites are underlined). PCR products were digested with <italic>Nde</italic>I and <italic>Xho</italic>I or <italic>Eco</italic>RI and cloned in pET24b (Novagen). The transcription factors were prepared as histidine-tagged proteins at the C-terminus. The overexpression of transcription factors was achieved by Autoinduction system (Novagen) as instructed by the manufacturer. Purification was carried out as described previously (<xref ref-type="bibr" rid="B32">32</xref>).</p>
+      </sec>
+      <sec>
+        <title>Construction of the HgtR overexpressing strain</title>
+        <p>The DNA fragment encoding HgtR was amplified by PCR with primers 5'TCT<underline>CATATG</underline>GGAAGAATGAGAGAAAATC3' and 5'TC<underline>GAATTC</underline>AGGCGGCCTTCTGGTCTCCGGGTTGAGAC3' (<italic>Nde</italic>I and <italic>Eco</italic>RI sites are underlined). PCR products were digested with <italic>Nde</italic>I and <italic>Eco</italic>RI, and ligated with pET24b (Novagen). After sequence confirmation of the PCR products, the DNA fragment encoding HgtR was isolated by digesting the plasmid with <italic>Nde</italic>I and <italic>Eco</italic>RI and ligated with pCDNdeII (Ueki and Lovley, unpublished data). The plasmid containing the DNA fragment encoding HgtR was designated pCDNdeII/HgtR. Plasmids pCDNdeII and pCDNdeII/HgtR were introduced into <italic>G. sulfurreducens</italic> DL1 by electroporation (<xref ref-type="bibr" rid="B30">30</xref>). Overproduction of HgtR was achieved by growing in NBAF media supplemented with kanamycin and IPTG at a final concentration of 1 mM.</p>
+      </sec>
+      <sec>
+        <title>Computational tools</title>
+        <p>To identify a putative repressor binding site, genome sequences of <italic>Geobacter</italic> species reported in NCBI Microbial Genomes (ww.ncbi.nlm.nih.gov/genomes/MICROBES/microbial_taxtree.html) were analyzed with the sequence 5'TTGTATACAGTATACTAA3' by BLAST within the each genomic resource site. Homology search was conducted by NCBI/BLAST (<ext-link ext-link-type="uri" xlink:href="http://blast.ncbi.nlm.nih.gov/Blast.cgi/">http://blast.ncbi.nlm.nih.gov/Blast.cgi/</ext-link>). Sequence alignments were constructed by MAFFT version 6 (<ext-link ext-link-type="uri" xlink:href="http://align.bmr.kyusyu-u.ac.jp/mafft/online/server/">http://align.bmr.kyusyu-u.ac.jp/mafft/online/server/</ext-link>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>RESULTS</title>
+      <sec>
+        <title>Expression and function of the citrate synthase</title>
+        <p>In order to better understand the regulation of the expression of <italic>gltA</italic>, the gene encoding citrate synthase, the abundance of <italic>gltA</italic> transcripts and the citrate synthase protein was compared under a diversity of growth conditions. Western blot analysis revealed that the abundance of the citrate synthase protein was lowest when hydrogen was the electron donor and fumarate was the electron acceptor (<xref ref-type="fig" rid="F1">Figure 1</xref>A). Of the other conditions evaluated, growth with lactate as the electron donor and fumarate as the electron acceptor yielded somewhat higher levels of the citrate synthase protein. Primer extension assays showed that the abundance of <italic>gltA</italic> transcripts followed a similar pattern (<xref ref-type="fig" rid="F1">Figure 1</xref>B), suggesting that the expression of <italic>gltA</italic> was primarily regulated at the level of transcription.</p>
+        <p>The putative -35/-10 promoter elements assigned on the basis of the 5' end of the mRNA sequence in the primer extension assays (<xref ref-type="fig" rid="F1">Figure 1</xref>C) show similarity to those of <italic>E. coli</italic> RpoD-dependent promoters (<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B35">35</xref>) and to those of <italic>G. sulfurreducens</italic> RpoD/RpoS-like promoters (<xref ref-type="bibr" rid="B36">36</xref>). The promoter region contains the putative extended -10 element (<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B38">38</xref>). Putative transcription termination signals were found downstream of the translation termination codon (<xref ref-type="fig" rid="F1">Figure 1</xref>D). These results suggest that <italic>gltA</italic> is monocistronic.</p>
+        <p>A <italic>gltA</italic> deletion mutant was isolated with hydrogen as the electron donor and fumarate as the electron acceptor with acetate as the carbon source. Lactate could be substituted for acetate as the carbon source (<xref ref-type="table" rid="T1">Table 1</xref>). The mutant was unable to grow with organic acids such as acetate and lactate as the electron donor. This is expected because <italic>gltA</italic> encodes the only citrate synthase in <italic>G. sulfurreducens</italic> (<xref ref-type="bibr" rid="B24">24</xref>), and citrate synthase is required for the entry of acetyl-CoA derived from organic acids into the TCA cycle (<xref ref-type="bibr" rid="B39">39</xref>). The mutant also failed to grow with Fe(III) as the electron acceptor even in the presence of hydrogen. Therefore, the citrate synthase was required for all growth conditions other than with hydrogen as the electron donor and fumarate as the electron acceptor, consistent with the low expression of <italic>gltA</italic> under this growth condition.
+<table-wrap id="T1" position="float"><label>Table 1.</label><caption><p>Growth of the <italic>gltA</italic> deletion mutant</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th rowspan="1" colspan="1">Electron donor</th><th rowspan="1" colspan="1">Electron acceptor</th><th rowspan="1" colspan="1">Carbon source</th><th rowspan="1" colspan="1">Growth</th></tr></thead><tbody align="left"><tr><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Fumarate</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Lactate</td><td rowspan="1" colspan="1">Fumarate</td><td rowspan="1" colspan="1">Lactate</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Fe(III)</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Hydrogen</td><td rowspan="1" colspan="1">Fumarate</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Hydrogen</td><td rowspan="1" colspan="1">Fumarate</td><td rowspan="1" colspan="1">Lactate</td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Hydrogen</td><td rowspan="1" colspan="1">Fe(III)</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">No</td></tr></tbody></table></table-wrap></p>
+        <p>Citrate synthase also plays critical roles in growth on organic acids in other microorganisms. For instance, the absence of the citrate synthase influences the growth rate on propionate, as a citrate synthase-negative strain of <italic>E. coli</italic> grows significantly more slowly than its parent strain (<xref ref-type="bibr" rid="B40">40</xref>). This citrate synthase mutant can still grow on propionate because <italic>E. coli</italic> possesses 2-methylcitrate synthase, which is induced during growth on propionate (<xref ref-type="bibr" rid="B40">40</xref>). In <italic>Saccharomyces cerevisiae</italic>, which contains two citrate synthase isozymes, mitochondrial and cytosolic, a deletion of the mitochondrial citrate synthase causes failure in growth on acetate, while the absence of the cytosolic citrate synthase does not affect growth on acetate (<xref ref-type="bibr" rid="B41">41</xref>).</p>
+      </sec>
+      <sec>
+        <title>Transcriptional regulation of <italic>gltA</italic> expression</title>
+        <p>The possibility that the expression of <italic>gltA</italic> is transcriptionally regulated was further investigated. A DNA-binding assay performed with the <italic>gltA</italic> promoter region as a probe detected DNA-binding activity in cell extracts prepared from cultures grown with fumarate as the electron acceptor and acetate or hydrogen as the electron donor (<xref ref-type="fig" rid="F2">Figure 2</xref>A), the growth conditions under which the transcript abundance of <italic>gltA</italic> was low (<xref ref-type="fig" rid="F1">Figure 1</xref>B). In contrast, the DNA-binding activity was undetectable or extremely low, under the other growth conditions in which the transcript abundance of <italic>gltA</italic> was higher. These results suggested that a transcriptional repressor was involved in the gene regulation.</p>
+        <p>To determine the binding site for the putative transcriptional repressor, a footprint assay was performed (<xref ref-type="fig" rid="F2">Figure 2</xref>B). The region from nt +11 to +23 with respect to the transcription initiation site was protected from DNase I in the presence of the ammonium sulfate fraction prepared from cell extracts (see also <xref ref-type="fig" rid="F1">Figure 1</xref>C for the sequence). This repressor-binding site shows the dyad symmetry.</p>
+        <p>To examine the effects of this region on the promoter activity, a <italic>lacZ</italic> fusion assay was carried out (<xref ref-type="fig" rid="F2">Figure 2</xref>C). When the promoter region up to nt -195 with respect to the transcription initiation site was included, there was high beta-galactosidase activity. However, no activity was observed when only the region up to nt -2 was included. Deleting the binding site from the promoter fused to the <italic>lacZ</italic> gene doubled beta-galactosidase activity over that of the wild-type promoter. These results further indicate that a transcription factor repressed the expression of <italic>gltA</italic> by binding the promoter region from nt +11 to +23.</p>
+      </sec>
+      <sec>
+        <title>Other genes involved in metabolism</title>
+        <p>Searching the genome of <italic>G. sulfurreducens</italic> for the transcriptional repressor binding site sequence of <italic>gltA</italic> (<xref ref-type="fig" rid="F1">Figure 1</xref>C) revealed that this sequence is also located upstream of the genes encoding aconitase B (<italic>acnB</italic>), isocitrate dehydrogenase (<italic>icd</italic>), 2-oxoglutarate:ferredoxin oxidoreductase ferredoxin subunit (<italic>oorD</italic>), succinyl:acetyl CoA transferase (<italic>ato</italic>), succinate dehydrogenase/fumarate reductase cytochrome <italic>b</italic> subunit (<italic>frdC</italic>), ATP synthase F0 beta' subunit (<italic>atpG</italic>), nucleoside diphosphate sugar epimerase (<italic>nad</italic>), NADH dehydrogenase I A subunit (<italic>nuoA</italic>), soluble Fe(III) reductase beta' subunit (<italic>sfrB</italic>), sugar phosphate isomerase/epimerase (<italic>iolE</italic>) and a transcription factor (<italic>gntR</italic>) in the GntR family (<xref ref-type="fig" rid="F3">Figure 3</xref>A). These putative binding sites also show the dyad symmetry. These genes, except for the transcription factor, appear to encode proteins involved in biosynthesis and energy generation, such as the TCA cycle and electron transport systems. It appears that some of these identified genes (<italic>acnB</italic>, <italic>icd</italic>, <italic>oorD</italic>, <italic>frdC</italic>, <italic>atpG</italic>, <italic>sfrB</italic>, <italic>nad</italic> and <italic>nuoA</italic>) are the first gene in an operon and others (<italic>ato</italic>, <italic>fumA</italic>, <italic>iolE</italic> and <italic>gntR</italic>) are monocistronic. For example, the <italic>frdC</italic> gene is co-transcribed with <italic>frdA</italic> and <italic>frdB</italic>, the genes encoding the other two subunits of the succinate dehydrogenase/fumarate reductase complex (<xref ref-type="bibr" rid="B42">42</xref>). An analysis of the genome sequence suggested that the <italic>icd</italic> gene for isocitrate dehydrogenase is in an operon with the <italic>mdh</italic> gene encoding malate dehydrogenase. The <italic>oorD</italic> gene encoding a subunit of 2-oxoglutarate:ferredoxin oxidoreductase appears to be in an operon with the genes <italic>oorA</italic>, <italic>oorB</italic> and <italic>oorC</italic> which encode three other subunits of 2-oxoglutarate:ferredoxin oxidoreductase. It is likely that the <italic>atpG</italic> gene is the first gene of the operon encoding other subunits of ATP synthase F0F1. The <italic>nuoA</italic> gene appears to be the first gene of the operon encoding other subunits of NADH dehydrogenase I. It appears likely that the <italic>sfrB</italic> gene composes an operon with the <italic>sfrA</italic> gene (<xref ref-type="bibr" rid="B43">43</xref>).
+<fig id="F3" position="float"><label>Figure 3.</label><caption><p>Genes containing the repressor binding site. (<bold>A</bold>) DNA sequences similar to the repressor binding site in <italic>gltA</italic>. Nucleotides conserved in more than six genes are indicated in bold. (<bold>B</bold>) Expression of genes containing a putative repressor binding site. Expression was analyzed by primer extension assays as described in <xref ref-type="fig" rid="F1">Figure 1</xref>B.</p></caption><graphic xlink:href="gkp1085f3"/></fig></p>
+        <p>All of the genes evaluated (<italic>atpG, nuoA, sfrB, frdC, icd</italic> and <italic>gntR</italic>) had lower transcript abundance during growth with hydrogen as the electron donor and fumarate as the electron acceptor (<xref ref-type="fig" rid="F3">Figure 3</xref>B), similar to the results with <italic>gltA</italic> (<xref ref-type="fig" rid="F1">Figure 1</xref>B). The genes involved in the TCA cycle, <italic>frdC</italic> and <italic>icd,</italic> as well as <italic>sfrB</italic> and <italic>gntR</italic> had expression patterns similar to <italic>gltA</italic> under other growth conditions (<xref ref-type="fig" rid="F3">Figure 3</xref>B). However, <italic>atpG</italic> and <italic>nuoA</italic> had transcript abundances during growth on acetate with fumarate as the electron acceptor that were as high as or higher than during growth on lactate. This contrasts with the higher transcript abundance during growth on lactate for the other genes.</p>
+        <p>Primer extension assays indicated that the putative repressor binding sites are located at the downstream region of the transcription initiation site, the region overlapping the transcription initiation site, or the region overlapping the -35/-10 promoter elements (data not shown). These results suggest that the transcriptional repressor inhibits RNA polymerase from binding to the -35/-10 promoter elements or from elongating transcripts.</p>
+        <p>Searching the genomes of other <italic>Geobacter</italic> species demonstrated that the transcriptional repressor binding site sequence in the <italic>gltA</italic> promoter region identified in <italic>G. sulfurreducens</italic> is conserved within the genus (see <xref ref-type="fig" rid="F4">Figure 4</xref> for the <italic>gltA</italic> genes, data not shown for others). These results suggest that this transcriptional repressor is a regulator for the genes involved in biosynthesis and energy generation in <italic>Geobacter</italic> species.
+<fig id="F4" position="float"><label>Figure 4.</label><caption><p>Comparison of the promoter regions of <italic>gltA</italic> from <italic>Geobacter</italic> species. Nucleotides conserved in all species are indicated by asterisks. The putative -35/-10 and extended -10 elements are indicated in bold. The putative transcription initiation site for the <italic>G. sulfurreducens gltA</italic> is indicated by a bold letter with +1. The binding site for the repressor is indicated by bold letters. The putative RBS is indicated by bold letters. The initiation codon is indicated by bold letters with Met. Gsul; <italic>G. sulfurreducens</italic>, Gmet; <italic>G. metallireducens</italic>, Gura; <italic>G. uraniireducens</italic>, GFRC; <italic>Geobacter</italic> sp. FRC-32, Gbem; <italic>G. bemidjiensis</italic>, GM21; <italic>Geobacter</italic> sp. M21, Glov; <italic>G. lovleyi</italic>.</p></caption><graphic xlink:href="gkp1085f4"/></fig></p>
+      </sec>
+      <sec>
+        <title>Identification of the transcriptional repressor</title>
+        <p>In order to identify the transcriptional repressor, putative transcription factors encoded in the <italic>G. sulfurreducens</italic> genome were analyzed. Among 151 putative transcription factors from <italic>G. sulfurreducens</italic>, 81 are highly conserved in both <italic>G. metallireducens</italic> and <italic>G. uraniireducens</italic>, the other <italic>Geobacter</italic> species for which other complete genome sequences were available at the time of analysis. Putative transcription factors that appeared to be involved in regulatory functions, such as a heat-shock responsive repressor, SOS responsive factors and RNA-binding proteins, were excluded from the subsequent assays. Homologues of enhancer-binding proteins were also excluded because they are typically involved in activation of transcription initiation by RNA polymerase containing the alternative sigma factor RpoN (<xref ref-type="bibr" rid="B44 B45 B46">44 - 46</xref>) whereas the genes regulated by the transcriptional repressor are likely transcribed by RNA polymerase containing the major sigma factor RpoD, as described above. This left 30 putative transcription factors which were selected for the further study.</p>
+        <p>Of the 30 putative transcription factors evaluated, GSU3370, GSU3298 and GSU3364 bound the <italic>gltA</italic> promoter region (<xref ref-type="fig" rid="F5">Figure 5</xref>A). However, GSU3370 showed a different binding pattern from that observed with the <italic>G. sulfurreducens</italic> cell extracts (<xref ref-type="fig" rid="F2">Figure 2</xref>A), while GSU3298 did not bind the promoters of <italic>atp</italic>, <italic>nuo</italic> and <italic>gntR</italic> (data not shown). Thus, it is unlikely that GSU3370 or GSU3298 was the repressor. The ability of GSU3364 to bind the promoter regions of <italic>atpG</italic>, <italic>nuoA</italic> and <italic>gntR</italic>, three other genes predicted to have a repressor-binding site (<xref ref-type="fig" rid="F3">Figure 3</xref>A), was evaluated and GSU3364 bound all the three promoters (<xref ref-type="fig" rid="F5">Figure 5</xref>B). Footprint assays demonstrated that GSU3364 bound specifically the promoter regions of <italic>gltA</italic>, <italic>atpG</italic>, <italic>nuoA</italic> and <italic>gntR</italic> (<xref ref-type="fig" rid="F5">Figure 5</xref>C) in the same region expected from the studies outlined above for <italic>gltA</italic> (<xref ref-type="fig" rid="F2">Figure 2</xref>B) and <italic>atpG</italic>, <italic>nuoA</italic> and <italic>gntR</italic> (<xref ref-type="fig" rid="F3">Figure 3</xref>A). Therefore, GSU3364, which was termed hydrogen-dependent growth transcriptional repressor (HgtR), is likely the transcriptional repressor. Although GSU3298 and GSU3370 are not the repressor that binds the sequence identified by the footprint assay (<xref ref-type="fig" rid="F2">Figure 2</xref>B), it is possible that these transcription factors are involved in the regulation of <italic>gltA</italic> under different growth conditions. Sequence analysis suggests that putative DNA-binding domains of GSU3298 and GSU3370 are similar to those of the XRE and GntR family, respectively, while their putative regulatory (sensor) domains do not exhibit high similarity to known domains (data not shown). Their roles in the regulation of <italic>gltA</italic> remain to be examined.
+<fig id="F5" position="float"><label>Figure 5.</label><caption><p>Identification of the repressor. (<bold>A</bold>) DNA-binding assay with transcription factors conserved in <italic>Geobacter</italic> species. DNA-binding assays were conducted with the probe containing the promoter region of <italic>gltA</italic> and the transcription factors. (<bold>B</bold>) DNA-binding assay with HgtR. Purified HgtR and promoters of <italic>gltA</italic>, <italic>atpG</italic>, <italic>nuoA</italic> and <italic>gntR</italic> were used in the DNA-binding assays. '-' and '+' indicate the absence and presence of HgtR in DNA-binding assays, respectively. (<bold>C</bold>) Footprint assay. Purified HgtR and promoter regions of <italic>gltA</italic>, <italic>atpG</italic>, <italic>nuoA</italic> and <italic>gntR</italic> were used in the DNA-binding reactions. '-' and '+' indicate the absence and presence of HgtR in the DNA-binding reactions, respectively. G, A, T and C represent sequence ladders. (<bold>D</bold>) Comparison of HgtR homologues in <italic>Geobacter</italic> species. Residues conserved in more than three species are indicated in bold.</p></caption><graphic xlink:href="gkp1085f5"/></fig></p>
+        <p>HgtR is a relatively small protein consisting of 62 amino acid residues (<xref ref-type="fig" rid="F5">Figure 5</xref>D). As expected, HgtR is conserved in all <italic>Geobacter</italic> species whose genome sequences are available (<xref ref-type="fig" rid="F5">Figure 5</xref>D). Although the homologues of HgtR in some of other <italic>Geobacter</italic> species were annotated as CopG-like DNA-binding protein, the amino acid sequences of HgtR homologues showed no similarity to known proteins.</p>
+      </sec>
+      <sec>
+        <title>Expression and function of HgtR</title>
+        <p>Primer extension assays demonstrated that the expression of <italic>hgtR</italic> was higher when hydrogen served as the electron donor than in acetate-grown cells (<xref ref-type="fig" rid="F6">Figure 6</xref>A). This is consistent with the previous results that the genes on which the transcriptional repressor acts were expressed at lower levels during growth on hydrogen.
+<fig id="F6" position="float"><label>Figure 6.</label><caption><p>Regulation of <italic>hgtR</italic>. (<bold>A</bold>) Expression of <italic>hgtR</italic>. Total RNA was prepared from <italic>G. sulfurreducens</italic> DL1 grown in media containing acetate (A) or hydrogen (H) as the electron donor and fumarate as the electron acceptor and analyzed by a primer extension assay. G, A, T and C represent sequence ladders generated by the same primer used in the primer extension assays. (<bold>B</bold>) The promoter region of <italic>hgtR</italic>. The RpoN-dependent -24/-12 promoter elements are indicated in bold. The 5' end of mRNA (transcription initiation site) is indicated in bold with +1. The putative RBS is underlined. The initiation codon is indicated by bold letters with Met. (<bold>C</bold>) Transcription termination of <italic>hgtR</italic>. The termination codon is indicated by bold letters with an underline. A putative transcription termination signal is indicated by arrows.</p></caption><graphic xlink:href="gkp1085f6"/></fig></p>
+        <p>The highly conserved sequences, GG and GC, of the -24/-12 promoter elements recognized by RpoN (<xref ref-type="bibr" rid="B44 B45 B46">44 - 46</xref>) were identified (<xref ref-type="fig" rid="F6">Figure 6</xref>B). A transcription termination-like signal was found at the downstream of the translation termination codon (<xref ref-type="fig" rid="F6">Figure 6</xref>C), suggesting that <italic>hgtR</italic> is monocistronic.</p>
+        <p>When the gene for HgtR was deleted, the mutant was unable to grow with hydrogen as the electron donor and either fumarate or Fe(III) as the electron acceptor (<xref ref-type="table" rid="T2">Table 2</xref>). Transcript levels of <italic>gltA</italic> and <italic>nuoA</italic> were examined during growth with either acetate or hydrogen as the electron donor and fumarate as the electron acceptor. Their transcript levels were much higher in the <italic>hgtR</italic> mutant than the wild-type during growth both in the absence and presence of hydrogen (<xref ref-type="fig" rid="F7">Figure 7</xref>A). It should be noted that the <italic>hgtR</italic> mutant grew with acetate as the electron donor as well as the carbon source even in the presence of hydrogen whereas the wild-type cells grew with hydrogen as the electron donor and acetate as the carbon source in the presence of hydrogen. This suggests that HgtR represses the expression of <italic>gltA</italic> and <italic>nuoA</italic> during growth with acetate as the electron donor as well as during growth with hydrogen as the electron donor, which is consistent with the results showing that the activity of HgtR was detected in the culture under these conditions (<xref ref-type="fig" rid="F2">Figure 2</xref>A). Moreover, this aberrant gene expression caused by the deletion of <italic>hgtR</italic> made the <italic>hgtR</italic> mutant cells unable to adapt to growth with hydrogen.
+<table-wrap id="T2" position="float"><label>Table 2.</label><caption><p>Growth of the <italic>hgtR</italic> deletion mutant</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th rowspan="1" colspan="1">Electron donor</th><th rowspan="1" colspan="1">Electron acceptor</th><th rowspan="1" colspan="1">Carbon source</th><th rowspan="1" colspan="1">Growth</th></tr></thead><tbody align="left"><tr><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Fumarate</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Fe(III)</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Hydrogen</td><td rowspan="1" colspan="1">Fumarate</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Hydrogen</td><td rowspan="1" colspan="1">Fe(III)</td><td rowspan="1" colspan="1">Acetate</td><td rowspan="1" colspan="1">No</td></tr></tbody></table></table-wrap>
+<fig id="F7" position="float"><label>Figure 7.</label><caption><p>Effects of deletion and overexpression of HgtR. (<bold>A</bold>) Expression of <italic>gltA</italic> and <italic>nuoA</italic> in the <italic>hgtR</italic> deletion mutant. Total RNA was prepared from the wild-type (WT) and the <italic>hgtR</italic> deletion mutant (Delta<italic>hgtR</italic>) grown in media containing acetate (A) or hydrogen (H) as the electron donor and fumarate as the electron acceptor in the presence of acetate as the carbon source and analyzed by a primer extension assay. (<bold>B</bold>) Expression of <italic>gltA</italic> in the strain overexpressing HgtR. Total RNA was prepared from strains harboring the vector or the HgtR expression vector and analyzed by a primer extension assay.</p></caption><graphic xlink:href="gkp1085f7"/></fig></p>
+        <p>To further evaluate the function of HgtR, a plasmid containing <italic>hgtR</italic> was introduced into <italic>G. sulfurreducens</italic> and HgtR was overexpressed. The overexpression of HgtR resulted in repression of <italic>gltA</italic> expression (<xref ref-type="fig" rid="F7">Figure 7</xref>B). This is consistent with the conclusion that HgtR is the repressor for <italic>gltA</italic>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>DISCUSSION</title>
+      <p>These results suggest that HgtR is a global transcriptional regulator that represses a diversity of genes involved in biosynthesis and energy generation in <italic>Geobacter</italic> species during hydrogen-dependent growth. Proper differential expression of this suite of genes appears to be important for growth with acetate or hydrogen as the electron donor. In addition to <italic>gltA</italic>, many of the other genes that were predicted to have an HgtR-binding site, such as malate dehydrogenase, fumarate reductase, succinate dehydrogenase and <italic>sfrAB,</italic> are required for growth with acetate as the electron donor, but not for growth on hydrogen (<xref ref-type="bibr" rid="B42">42</xref>,<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B47">47</xref>). In contrast, mutants deficient in these genes can grow with hydrogen as the electron donor. Previous studies have demonstrated that levels of expression of genes such as citrate synthase and malate dehydrogenase that are under the transcriptional control by HgtR can be related to the rates of electron transfer to Fe(III) and electrodes in cultures of <italic>G. sulfurreducens</italic> as well as the <italic>in situ</italic> metabolic rates of subsurface <italic>Geobacter</italic> species during the bioremediation of uranium-contaminated groundwater (<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B48">48</xref>). Therefore, HgtR is likely to play an important role in optimizing the growth of <italic>Geobacter</italic> species in a range of environments.</p>
+      <p>Regulation of the expression of citrate synthase via transcriptional repression has been noted previously in other microorganisms. For example, the ArcA two-component response regulator controls the expression of <italic>gltA</italic> in <italic>E. coli</italic> in response to anaerobiosis and carbon supply (<xref ref-type="bibr" rid="B49">49</xref>,<xref ref-type="bibr" rid="B50">50</xref>). The expression of <italic>citZ</italic> encoding the major citrate synthase in <italic>Bacillus subtilis</italic> is under the control of catabolite repression by CcpA and CcpC, a member of the LacI/GalR family and the LysR family of transcriptional regulators, respectively (<xref ref-type="bibr" rid="B51">51</xref>,<xref ref-type="bibr" rid="B52">52</xref>). As with HgtR, ArcA (<xref ref-type="bibr" rid="B53">53</xref>), CcpA and CcpC (<xref ref-type="bibr" rid="B54">54</xref>,<xref ref-type="bibr" rid="B55">55</xref>) are global transcriptional regulators in these bacteria and also control other genes involved in biosynthesis and energy generation.</p>
+      <p>The amino acid sequences of the HgtR homologues showed no homology to known proteins. The only predicted domain from the structure prediction of the HgtR homologues is a DNA-binding domain, which was predicted to form a structure similar to those of the ribbon - helix - helix (RHH) transcription factor superfamily (Aklujkar, personal communication). The RHH transcription factors share a conserved three dimensional structure, but their amino acid sequences are diversified (<xref ref-type="bibr" rid="B56">56</xref>).</p>
+      <p>The molecular mechanism of hydrogen-dependent gene regulation was previously characterized in the aerobic hydrogen oxidizer, <italic>Ralstonia eutropha</italic>, in which a regulatory [NiFe]-hydrogenase acts as a hydrogen receptor and regulates the two-component system consisting of HoxJ and HoxA that controls the gene expression (<xref ref-type="bibr" rid="B57">57</xref>). The increase in <italic>hgtR</italic> transcripts during growth with hydrogen suggests that the expression of <italic>hgtR</italic> is regulated at the level of transcription and the transcription of <italic>hgtR</italic> appears to be mediated by the sigma factor RpoN (<xref ref-type="fig" rid="F6">Figure 6</xref>). Unlike most of other bacterial <italic>rpoN</italic> genes, the <italic>G. sulfurreducens rpoN</italic> is essential under the all conditions tested (<xref ref-type="bibr" rid="B58">58</xref>). In <italic>G. sulfurreducens</italic>, RpoN controls the expression of genes involved in a wide range of cellular processes such as fumarate respiration, Fe(III) reduction, nitrogen fixation, and pili and flagella biosyntheses (<xref ref-type="bibr" rid="B58">58</xref>). The genome sequence analysis identified the gene located at the upstream of <italic>hgtR</italic>, which encodes a putative enhancer-binding protein (EBP) that has a domain similar to the iron only hydrogenase large subunit (data not shown). HgtR does not have an apparent regulatory (sensor) domain. Therefore, it is possible that the EBP senses hydrogen and activates the transcription of <italic>hgtR</italic>. This type of EBP has not been identified in other bacteria. A gene encoding a homologue of the transcription factor GntR appears to be a target of HgtR (<xref ref-type="fig" rid="F5">Figure 5</xref>), and thus the expression of other genes is likely to be affected during growth with hydrogen. Taken together, it is likely that metabolic genes are controlled by novel transcriptional regulatory cascades in <italic>Geobacter</italic> species.</p>
+      <p>It is likely that transcriptional regulation by HgtR represents only one of several levels of regulation of citrate synthase. For example, the promoter regions of <italic>gltA, ato, frdCAB</italic> and <italic>icd-mdh</italic> contain a long 5' untranslated region, which was predicted to form a secondary structure that appears to play a role in translation of their mRNA (data not shown), providing the possibility for further regulation at the post-transcriptional level. Furthermore, western blot analysis showed that the migration of the <italic>G. sulfurreducens</italic> citrate synthase in SDS - PAGE gel was affected by heat-denaturation, suggesting that heat-sensitive modulation occurred at the post-translational level (Yun, personal communication). Phosphorylation is a means of regulating citrate synthase in <italic>Tetrahymena</italic> (<xref ref-type="bibr" rid="B59">59</xref>) and isocitrate dehydrogenase, another enzyme in the TCA cycle, in some bacteria (<xref ref-type="bibr" rid="B60 B61 B62">60 - 62</xref>).</p>
+      <p>In summary, our findings provide important new insights into the mechanisms by which <italic>Geobacter</italic> species regulate, and presumably optimize, their central metabolism under different environmental conditions. Further research into the environmental cue(s) controlling the expression of HgtR and additional mechanisms for regulation of central metabolism is warranted and is underway.</p>
+    </sec>
+    <sec>
+      <title>FUNDING</title>
+      <p>Genomics:GTL program of the Office of Science (BER), US Department of Energy (DE-FC02-20ER63446)]. Funding for open access charge: US Department of Energy.</p>
+      <p><italic>Conflict of interest statement</italic>. None declared.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>The authors thank E. Blunt and J. Ward for technical support and M. Aklujkar and J. Yun for sharing their results before publication. They are grateful to M. Coppi, C. Leang, J. Sun, D. Segura and R. Mahadevan for helpful discussion and critical reading of this manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anderson</surname>
+              <given-names>RT</given-names>
+            </name>
+            <name>
+              <surname>Vrionis</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>Ortiz-Bernad</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Resch</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name>
+              <surname>Dayvault</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Marutzky</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Metzler</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Karp</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lowe</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Stimulated in situ activity of <italic>Geobacter</italic> species to remove uranium from the groundwater of a uranium-contaminated aquifer</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2003</year>
+          <volume>69</volume>
+          <fpage>5884</fpage>
+          <lpage>5891</lpage>
+          <pub-id pub-id-type="pmid">14532040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Botton</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>van Harmelen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Braster</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Parsons</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Roling</surname>
+              <given-names>WFM</given-names>
+            </name>
+          </person-group>
+          <article-title>Dominance of <italic>Geobacteraceae</italic> in BTX-degrading enrichments from an iron-reducing aquifer</article-title>
+          <source>FEMS Microbiol. Ecol.</source>
+          <year>2007</year>
+          <volume>62</volume>
+          <fpage>118</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="pmid">17784862</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmes</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Finneran</surname>
+              <given-names>KT</given-names>
+            </name>
+            <name>
+              <surname>O'N;eil</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Enrichment of members of the family <italic>Geobacteraceae</italic> associated with stimulation of dissimilatory metal reduction in uranium-contaminated aquifer sediments</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2002</year>
+          <volume>68</volume>
+          <fpage>2300</fpage>
+          <lpage>2306</lpage>
+          <pub-id pub-id-type="pmid">11976101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmes</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>O'N;eil</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Vrionis</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>N'G;uessan</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Ortiz-Bernad</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Larrahondo</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Nicoll</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Nevin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Subsurface clade of <italic>Geobacteraceae</italic> that predominates in a diversity of Fe(III)-reducing subsurface environments</article-title>
+          <source>ISME J.</source>
+          <year>2007</year>
+          <volume>1</volume>
+          <fpage>663</fpage>
+          <lpage>677</lpage>
+          <pub-id pub-id-type="pmid">18059491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Bioremediation of organic and metal contaminants with dissimilatory metal reduction</article-title>
+          <source>J. Industr. Microbiol.</source>
+          <year>1995</year>
+          <volume>14</volume>
+          <fpage>85</fpage>
+          <lpage>93</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Cleaning up with genomics: applying molecular biology to bioremediation</article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <year>2003</year>
+          <volume>1</volume>
+          <fpage>35</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">15040178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rooney-Varga</surname>
+              <given-names>JN</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>RT</given-names>
+            </name>
+            <name>
+              <surname>Fraga</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Ringelberg</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbial communities associated with anaerobic benzene mineralization in a petroleum-contaminated aquifer</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>1999</year>
+          <volume>65</volume>
+          <fpage>3056</fpage>
+          <lpage>3063</lpage>
+          <pub-id pub-id-type="pmid">10388703</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbial fuel cells: novel microbial physiologies and engineering approaches</article-title>
+          <source>Curr. Opin. Biotechnol.</source>
+          <year>2006a</year>
+          <volume>17</volume>
+          <fpage>327</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="pmid">16679010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Bug juice: harvesting electricity with microorganisms</article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <year>2006b</year>
+          <volume>4</volume>
+          <fpage>497</fpage>
+          <lpage>508</lpage>
+          <pub-id pub-id-type="pmid">16778836</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nevin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Richter</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Covalla</surname>
+              <given-names>SF</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Woodard</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Orloff</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Jia</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Power output and columbic efficiencies from biofilms of <italic>Geobacter sulfurreducens</italic> comparable to mixed community microbial fuel cells</article-title>
+          <source>Environ. Microbiol.</source>
+          <year>2008</year>
+          <volume>10</volume>
+          <fpage>2505</fpage>
+          <lpage>2514</lpage>
+          <pub-id pub-id-type="pmid">18564184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Nevin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>Franks</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Tender</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Selection of a variant of <italic>Geobacter sulfurreducens</italic> with enhanced capacity for current production in microbial fuel cells</article-title>
+          <source>Biosens. Bioelectron.</source>
+          <year>2009</year>
+          <volume>24</volume>
+          <fpage>3498</fpage>
+          <lpage>3503</lpage>
+          <pub-id pub-id-type="pmid">19487117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caccavo</surname>
+              <given-names>F</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Lonergan</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Stolz</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>McInerney</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Geobacter sulfurreducens sp. Nov., a hydrogen- and acetate-oxidizing dissimilatory metal-reducing microorganism</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>1994</year>
+          <volume>60</volume>
+          <fpage>3752</fpage>
+          <lpage>3759</lpage>
+          <pub-id pub-id-type="pmid">7527204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Stolz</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Nord</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>EJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Anaerobic production of magnetite by a dissimilatory iron-reducing microorganism</article-title>
+          <source>Nature</source>
+          <year>1987</year>
+          <volume>330</volume>
+          <fpage>252</fpage>
+          <lpage>254</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Baedecker</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Lonrgan</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Cozzarelli</surname>
+              <given-names>IM</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>EJP</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>DI</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidation of aromatic contaminants coupled to microbial iron reduction</article-title>
+          <source>Nature</source>
+          <year>1989</year>
+          <volume>339</volume>
+          <fpage>297</fpage>
+          <lpage>299</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>EJP</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel mode of microbial energy metabolism: organic carbon oxidation coupled to dissimilatory reduction of iron or manganese</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>1988</year>
+          <volume>54</volume>
+          <fpage>1472</fpage>
+          <lpage>1480</lpage>
+          <pub-id pub-id-type="pmid">16347658</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Gorby</surname>
+              <given-names>YA</given-names>
+            </name>
+            <name>
+              <surname>Landa</surname>
+              <given-names>ER</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbial reduction of uranium</article-title>
+          <source>Nature</source>
+          <year>1991</year>
+          <volume>350</volume>
+          <fpage>413</fpage>
+          <lpage>416</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Coates</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Blunt-Harris</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>EJP</given-names>
+            </name>
+            <name>
+              <surname>Woodward</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Humic substances as electron acceptors for microbial respiration</article-title>
+          <source>Nature</source>
+          <year>1996</year>
+          <volume>382</volume>
+          <fpage>445</fpage>
+          <lpage>448</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bond</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Holmes</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Tender</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrode-reducing microorganisms harvesting energy from marine sediments</article-title>
+          <source>Science</source>
+          <year>2002</year>
+          <volume>295</volume>
+          <fpage>483</fpage>
+          <lpage>485</lpage>
+          <pub-id pub-id-type="pmid">11799240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bond</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Electricity production by <italic>Geobacter sulfurreducens</italic> attached to electrodes</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2003</year>
+          <volume>69</volume>
+          <fpage>1548</fpage>
+          <lpage>1555</lpage>
+          <pub-id pub-id-type="pmid">12620842</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coppi</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>O'N;eil</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of an uptake hydrogenase required for hydrogen-dependent reduction of Fe(III) and other electron acceptors by <italic>Geobacter sulfurreducens</italic></article-title>
+          <source>J. Bacteriol.</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>3022</fpage>
+          <lpage>3028</lpage>
+          <pub-id pub-id-type="pmid">15126463</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coppi</surname>
+              <given-names>MV</given-names>
+            </name>
+          </person-group>
+          <article-title>The hydrogenases of <italic>Geobacter sulfurreducens</italic>: A comparative genomic perspective</article-title>
+          <source>Microbiology</source>
+          <year>2005</year>
+          <volume>151</volume>
+          <fpage>1239</fpage>
+          <lpage>1254</lpage>
+          <pub-id pub-id-type="pmid">15817791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galushko</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Schink</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidation of acetate through reactions of the citric acid cycle by <italic>Geobacter sulfurreducens</italic> in pure culture and in syntrophic coculture</article-title>
+          <source>Arch. Microbiol.</source>
+          <year>2000</year>
+          <volume>174</volume>
+          <fpage>314</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="pmid">11131021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mahadevan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Bond</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Butler</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Esteve-N&#xFA;&#xF1;ez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Coppi</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>Palsson</surname>
+              <given-names>BO</given-names>
+            </name>
+            <name>
+              <surname>Schilling</surname>
+              <given-names>CH</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of metabolism in the Fe(III)-reducing organism <italic>Geobacter sulfurreducens</italic> by constraint-based modeling</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2006</year>
+          <volume>72</volume>
+          <fpage>1558</fpage>
+          <lpage>1568</lpage>
+          <pub-id pub-id-type="pmid">16461711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Methe</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Eisen</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Paulsen</surname>
+              <given-names>IT</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Heidelberg</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Beanan</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome of <italic>Geobacter sulfurreducens</italic>: metal reduction in subsurface environments</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>302</volume>
+          <fpage>1967</fpage>
+          <lpage>1969</lpage>
+          <pub-id pub-id-type="pmid">14671304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bond</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nesb&#xF8;</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Izquierdo-Lopez</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Collart</surname>
+              <given-names>FL</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of citrate synthase from <italic>Geobacter sulfurreducens</italic> and evidence for a family of citrate synthases similar to those of eukaryotes throughout the <italic>Geobacteraceae</italic></article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2005</year>
+          <volume>71</volume>
+          <fpage>3858</fpage>
+          <lpage>3865</lpage>
+          <pub-id pub-id-type="pmid">16000798</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmes</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Nevin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>O'N;eil</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Woodard</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Vrionis</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Potential for quantifying expression of the <italic>Geobacteraceae</italic> citrate synthase gene to assess the activity of <italic>Geobacteraceae</italic> in the subsurface and on current-harvesting electrodes</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2005</year>
+          <volume>71</volume>
+          <fpage>6870</fpage>
+          <lpage>6877</lpage>
+          <pub-id pub-id-type="pmid">16269721</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanahan</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies on transformation of <italic>Escherichia coli</italic> with plasmids</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>1983</year>
+          <volume>166</volume>
+          <fpage>557</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="pmid">6345791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <source>Experiments in Molecular Genetics</source>
+          <year>1972</year>
+          <publisher-loc>Cold Spring Harbor, NY</publisher-loc>
+          <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Philips</surname>
+              <given-names>EJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Organic matter mineralization with the reduction of ferric iron in anaerobic sediments</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>1986</year>
+          <volume>51</volume>
+          <fpage>683</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="pmid">16347032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coppi</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>Leang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Sandler</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a genetic system for <italic>Geobacter sulfurreducens</italic></article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>2001</year>
+          <volume>67</volume>
+          <fpage>3180</fpage>
+          <lpage>3187</lpage>
+          <pub-id pub-id-type="pmid">11425739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kovach</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Elzer</surname>
+              <given-names>PH</given-names>
+            </name>
+            <name>
+              <surname>Roop</surname>
+              <given-names>RM</given-names>
+              <suffix>II</suffix>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>KM</given-names>
+            </name>
+          </person-group>
+          <article-title>pBBR1MCS: a broad-host-range cloning vector</article-title>
+          <source>BioTechniques</source>
+          <year>1994</year>
+          <volume>16</volume>
+          <fpage>800</fpage>
+          <lpage>802</lpage>
+          <pub-id pub-id-type="pmid">8068328</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ueki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Inouye</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of a gene involved in polysaccharide export as a transcription target of FruA, an essential factor for <italic>Myxococcus xanthus</italic> development</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>32279</fpage>
+          <lpage>32284</lpage>
+          <pub-id pub-id-type="pmid">16040607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marx</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Lidstrom</surname>
+              <given-names>ME</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of improved versatile broad-host-range vectors for use in methylotrophs and other Gram-negative bacteria</article-title>
+          <source>Microbiology</source>
+          <year>2001</year>
+          <volume>147</volume>
+          <fpage>2065</fpage>
+          <lpage>2075</lpage>
+          <pub-id pub-id-type="pmid">11495985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harley</surname>
+              <given-names>CB</given-names>
+            </name>
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>RP</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of <italic>E. coli</italic> promoter sequences</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>1987</year>
+          <volume>15</volume>
+          <fpage>2343</fpage>
+          <lpage>2361</lpage>
+          <pub-id pub-id-type="pmid">3550697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hawley</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>McClure</surname>
+              <given-names>WR</given-names>
+            </name>
+          </person-group>
+          <article-title>Compilation and analysis of <italic>Escherichia coli</italic> promoter DNA sequences</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>1983</year>
+          <volume>11</volume>
+          <fpage>2237</fpage>
+          <lpage>2255</lpage>
+          <pub-id pub-id-type="pmid">6344016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>N&#xFA;&#xF1;ez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ueki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Esteve-N&#xFA;&#xF1;ez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Puljic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Adkins</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Methe</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Krushkal</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Computational prediction of RpoS and RpoD regulatory sites in <italic>Geobacter sulfurreducens</italic> using sequence and gene expression information</article-title>
+          <source>Gene</source>
+          <year>2006</year>
+          <volume>384</volume>
+          <fpage>73</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="pmid">17014972</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burr</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kolb</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Minchin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA sequence elements located immediately upstream of the -10 hexamer in <italic>Escherichia coli</italic> promoters: a systematic study</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2000</year>
+          <volume>28</volume>
+          <fpage>1864</fpage>
+          <lpage>1870</lpage>
+          <pub-id pub-id-type="pmid">10756184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Minchin</surname>
+              <given-names>SD</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and analysis of 'extended -10' promoters in <italic>Escherichia coli</italic></article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>4689</fpage>
+          <lpage>4695</lpage>
+          <pub-id pub-id-type="pmid">12907708</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weitzman</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>Danson</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Citrate synthase</article-title>
+          <source>Curr. Top. Cell. Regul.</source>
+          <year>1976</year>
+          <volume>10</volume>
+          <fpage>161</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="pmid">3389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerike</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Hough</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Dyall-Smith</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Danson</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Citrate synthase and 2-methylcitrate synthase: structural, functional and evolutionary relationships</article-title>
+          <source>Microbiology</source>
+          <year>1998</year>
+          <volume>144</volume>
+          <fpage>929</fpage>
+          <lpage>935</lpage>
+          <pub-id pub-id-type="pmid">9579066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kispal</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Rosenkrantz</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Guarente</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Srere</surname>
+              <given-names>PA</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic changes in <italic>Saccharomyces cerevisiae</italic> strains lacking citrate synthases</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1986</year>
+          <volume>263</volume>
+          <fpage>11145</fpage>
+          <lpage>11149</lpage>
+          <pub-id pub-id-type="pmid">3136154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Butler</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Glaven</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Esteve-Nunez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nunez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Shelobolina</surname>
+              <given-names>ES</given-names>
+            </name>
+            <name>
+              <surname>Bond</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic characterization of a single bifunctional enzyme for fumarate reduction and succinate oxidation in <italic>Geobacter sulfurreducens</italic> and engineering of fumarate reduction in <italic>Geobacter metallireducens</italic></article-title>
+          <source>J. Bacteriol.</source>
+          <year>2006</year>
+          <volume>188</volume>
+          <fpage>450</fpage>
+          <lpage>455</lpage>
+          <pub-id pub-id-type="pmid">16385034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coppi</surname>
+              <given-names>MV</given-names>
+            </name>
+            <name>
+              <surname>O'N;eil</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Leang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kaufmann</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Methe</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Nevin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Woodard</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of <italic>Geobacter sulfurreducens</italic> SfrAB in acetate oxidation rather than intracellular, respiration-linked Fe(III) citrate reduction</article-title>
+          <source>Microbiology</source>
+          <year>2007</year>
+          <volume>153</volume>
+          <fpage>3572</fpage>
+          <lpage>3585</lpage>
+          <pub-id pub-id-type="pmid">17906154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barrios</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Valderrama</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Morett</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Compilation and analysis of sigma(54)-dependent promoter sequences</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>1999</year>
+          <volume>27</volume>
+          <fpage>4305</fpage>
+          <lpage>4313</lpage>
+          <pub-id pub-id-type="pmid">10536136</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buck</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gallegos</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Studholme</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Gralla</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>The bacterial enhancer-dependent sigma(54) (sigma(N)) transcription factor</article-title>
+          <source>J. Bacteriol.</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>4129</fpage>
+          <lpage>4136</lpage>
+          <pub-id pub-id-type="pmid">10894718</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Studholme</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Buck</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Nixon</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of potential sigma<sup>N</sup>-dependent promoters in bacterial genomes</article-title>
+          <source>Microbiology</source>
+          <year>2000</year>
+          <volume>146</volume>
+          <fpage>3021</fpage>
+          <lpage>3023</lpage>
+          <pub-id pub-id-type="pmid">11101659</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Segura</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Mahadevan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Juarez</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Computational and experimental analysis of redundancy in the central metabolism of <italic>Geobacter sulfurreducens</italic></article-title>
+          <source>PLoS Comput. Biol.</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>e36</fpage>
+          <pub-id pub-id-type="pmid">18266464</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmes</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>O'N;eil</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Perpetua</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Larrahondo</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Glaven</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Nevin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Lovley</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>Genes for two multicopper proteins required for Fe(III) oxide reduction in <italic>Geobacter sulfurreducens</italic> have different expression patterns both in the subsurface and on energy-harvesting electrodes</article-title>
+          <source>Microbiology</source>
+          <year>2008</year>
+          <volume>154</volume>
+          <fpage>1422</fpage>
+          <lpage>1435</lpage>
+          <pub-id pub-id-type="pmid">18451051</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lynch</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>ECC</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional control mediated by the ArcA two-component response regulator protein of <italic>Escherichia coli</italic>: characterization of DNA binding at target promoters</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>6238</fpage>
+          <lpage>6249</lpage>
+          <pub-id pub-id-type="pmid">8892825</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>McCabe</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Turna</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gunsalus</surname>
+              <given-names>RP</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of the citrate synthase (<italic>gltA</italic>) gene of <italic>Escherichia coli</italic> in response to anaerobiosis and carbon supply: role of the arcA gene product</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1994</year>
+          <volume>176</volume>
+          <fpage>5086</fpage>
+          <lpage>5092</lpage>
+          <pub-id pub-id-type="pmid">8051021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jourlin-Castelli</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Mani</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Sonenshein</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>CcpC, a novel regulator of the LysR family required for glucose repression of the <italic>citB</italic> gene in <italic>Bacillus subtilis</italic></article-title>
+          <source>J. Mol. Biol.</source>
+          <year>2000</year>
+          <volume>295</volume>
+          <fpage>865</fpage>
+          <lpage>878</lpage>
+          <pub-id pub-id-type="pmid">10656796</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>HJ</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sonenshein</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>Direct and indirect roles of CcpA in regulation of <italic>Bacillus subtilis</italic> Krebs cycle genes</article-title>
+          <source>Mol. Microbiol.</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <fpage>179</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="pmid">12100558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malpica</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Pe&#xF1;a Sandoval</surname>
+              <given-names>GR</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Franco</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Georgellis</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Signaling by the Arc two-component system provides a link between the redox state of the quinone pool and gene expression</article-title>
+          <source>Antioxid. Redox Signal.</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>781</fpage>
+          <lpage>795</lpage>
+          <pub-id pub-id-type="pmid">16771670</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sonenshein</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of key metabolic intersections in <italic>Bacillus subtilis</italic></article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>917</fpage>
+          <lpage>927</lpage>
+          <pub-id pub-id-type="pmid">17982469</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujita</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon catabolite control of the metabolic network in <italic>Bacillus subtilis</italic></article-title>
+          <source>Biosci. Biotechnol. Biochem.</source>
+          <year>2009</year>
+          <volume>73</volume>
+          <fpage>245</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="pmid">19202299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schreiter</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Drennan</surname>
+              <given-names>CL</given-names>
+            </name>
+          </person-group>
+          <article-title>Ribbon-helix-helix transcription factors: variations on a theme</article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>710</fpage>
+          <lpage>720</lpage>
+          <pub-id pub-id-type="pmid">17676053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenz</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Bernhard</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Buhrke</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Friedrich</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>The hydrogen-sensing apparatus in <italic>Ralstonia eutropha</italic></article-title>
+          <source>J. Mol. Microbiol. Biotechnol.</source>
+          <year>2002</year>
+          <volume>4</volume>
+          <fpage>255</fpage>
+          <lpage>262</lpage>
+          <pub-id pub-id-type="pmid">11931556</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Krushkal</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ueki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Puljic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Juarez</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>N&#xFA;&#xF1;ez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Reguera</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>DiDonato</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Postier</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome-wide analysis of the RpoN regulon in <italic>Geobacter sulfurreducens</italic></article-title>
+          <source>BMC Genomics</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>331</fpage>
+          <pub-id pub-id-type="pmid">19624843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kojima</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Numata</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Enzymatic form and cytoskeletal form of bifunctional <italic>Tetrahymena</italic> 49 kDa protein is regulated by phosphorylation</article-title>
+          <source>Zoolog. Sci.</source>
+          <year>2002</year>
+          <volume>19</volume>
+          <fpage>37</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="pmid">12025402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cozzone</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of acetate metabolism by protein phosphorylation in enteric bacteria</article-title>
+          <source>Annu. Rev. Microbiol.</source>
+          <year>1998</year>
+          <volume>52</volume>
+          <fpage>127</fpage>
+          <lpage>164</lpage>
+          <pub-id pub-id-type="pmid">9891796</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cozzone</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>El-Mansi</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of isocitrate dehydrogenase catalytic activity by protein phosphorylation in <italic>Escherichia coli</italic></article-title>
+          <source>J. Mol. Microbiol. Biotechnol.</source>
+          <year>2005</year>
+          <volume>9</volume>
+          <fpage>132</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">16415587</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walsh</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Koshland</surname>
+              <given-names>DE</given-names>
+              <suffix>Jr</suffix>
+            </name>
+          </person-group>
+          <article-title>Branch point control by the phosphorylation state of isocitrate dehydrogenase. A quantitative examination of fluxes during a regulatory transition</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1985</year>
+          <volume>260</volume>
+          <fpage>8430</fpage>
+          <lpage>8437</lpage>
+          <pub-id pub-id-type="pmid">2861202</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

@@ -1,0 +1,657 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">22272299</article-id>
+      <article-id pub-id-type="pmc">3260234</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-11-21325</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0030186</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+            </subj-group>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Signal Transduction</subject>
+              <subj-group>
+                <subject>Signaling Cascades</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Infectious Diseases</subject>
+            <subj-group>
+              <subject>Bacterial Diseases</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Mycobacterial LysR-Type Regulator OxyS Responds to Oxidative Stress and Negatively Regulates Expression of the Catalase-Peroxidase Gene</article-title>
+        <alt-title alt-title-type="running-head">Mycobacterial OxyS Responses to Oxidative Stress</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yuqing</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Zheng-Guo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>National Key Laboratory of Agricultural Microbiology, Center for Proteomics Research, College of Life Science and Technology, Huazhong Agricultural University, Wuhan, Hubei, China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Cornelis</surname>
+            <given-names>Pierre</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Vrije Universiteit Brussel, Belgium</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>hezhengguo@mail.hzau.edu.cn</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: YL Z-GH. Performed the experiments: YL. Analyzed the data: YL Z-GH. Contributed reagents/materials/analysis tools: Z-GH. Wrote the paper: Z-GH YL.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>1</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>1</issue>
+      <elocation-id>e30186</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>10</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>12</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Li, He. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+      </permissions>
+      <abstract>
+        <p>Protection against oxidative stress is one of the primary defense mechanisms contributing to the survival of <italic>Mycobacterium tuberculosis</italic> in the host. In this study, we provide evidence that OxyS, a LysR-type transcriptional regulator functions as an oxidative stress response regulator in mycobacteria. Overexpression of OxyS lowers expression of the catalase-peroxidase (KatG) gene in <italic>M. smegmatis</italic>. OxyS binds directly with the <italic>katG</italic> promoter region and a conserved, GC-rich T-N<sub>11</sub>-A motif for OxyS binding was successfully characterized in the core binding site. Interestingly, the DNA-binding activity of OxyS was inhibited by H<sub>2</sub>O<sub>2</sub>, but not by dithiothreitol. Cys25, which is situated at the DNA-binding domain of OxyS, was found to have a regulatory role for the DNA-binding ability of OxyS in response to oxidative stress. In contrast, the other three cysteine residues in OxyS do not appear to have this function. Furthermore, the mycobacterial strain over-expressing OxyS had a higher sensitivity to H<sub>2</sub>O<sub>2</sub>.Thus, OxyS responds to oxidative stress through a unique cysteine residue situated in its DNA-binding domain and negatively regulates expression of the <italic>katG</italic> gene. These findings uncover a specific regulatory mechanism for mycobacterial adaptation to oxidative stress.</p>
+      </abstract>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Mycobacterium tuberculosis</italic>, the causative microbe of tuberculosis (TB), has a unique ability to survive and persist within host cell macrophages for long periods of time <xref ref-type="bibr" rid="pone.0030186-Nguyen1">[1]</xref>. It can evade the host immune system by preventing phagosomal maturation and resist killing by reactive oxygen <xref ref-type="bibr" rid="pone.0030186-Manca1">[2]</xref> and nitrogen intermediates <xref ref-type="bibr" rid="pone.0030186-Yu1">[3]</xref>. Protection against oxidative stress is one of the primary defense mechanisms contributing to the survival of <italic>M. tuberculosis</italic> in the host <xref ref-type="bibr" rid="pone.0030186-Aderem1">[4]</xref>.</p>
+      <p>In several bacteria, KatG, which encodes a catalase-peroxidase, is important for protection against oxidative stress. <italic>katG</italic> was shown to have a role in protecting the bacterium against micromolar concentrations of H<sub>2</sub>O<sub>2</sub> in <italic>Xanthomonas campestris</italic> pv. Campestris <xref ref-type="bibr" rid="pone.0030186-Jittawuttipoka1">[5]</xref>. A knockout mutation in <italic>katG</italic> that causes loss of catalase-peroxidase activity correlates with increased susceptibility to H<sub>2</sub>O<sub>2</sub>. <italic>katG</italic> expression is induced by oxidants in an OxyR-dependent manner <xref ref-type="bibr" rid="pone.0030186-Jittawuttipoka1">[5]</xref>. It is also required for the activation of INH (isoniazid, a first-line anti-tuberculosis drug) in <italic>M. tuberculosis</italic> <xref ref-type="bibr" rid="pone.0030186-Zhang1">[6]</xref>. Expression of <italic>katG</italic> has been found to be negatively regulated by FurA in both <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic> <xref ref-type="bibr" rid="pone.0030186-Pym1">[7]</xref> - <xref ref-type="bibr" rid="pone.0030186-Zahrt1">[11]</xref>. FurA is a homologue of the ferric uptake regulator Fur and is encoded by a gene located immediately upstream of <italic>katG</italic>. The regulation of <italic>katG</italic> expression by FurA has been shown to be induced upon oxidative stress under the control of <italic>pfurA</italic>, located immediately upstream of the <italic>furA</italic> gene, but not of <italic>pkatG</italic>, located within the terminal region of the <italic>furA</italic> coding sequence <xref ref-type="bibr" rid="pone.0030186-Milano1">[8]</xref>. Master et al. proposed that a <italic>katG</italic> promoter was present in this region <xref ref-type="bibr" rid="pone.0030186-Master1">[12]</xref>. It was also argued that the 5' end of <italic>katG</italic> mRNA is generated by processing instead of transcription initiation <xref ref-type="bibr" rid="pone.0030186-Sala2">[10]</xref>. Recently, a transcript analysis of the <italic>furA-katG</italic> loci revealed that <italic>katG</italic> is transcribed independent of <italic>furA</italic> in a fast-growing <italic>Mycobacterium</italic> sp. strain JC1 DSM 3803 <xref ref-type="bibr" rid="pone.0030186-Lee1">[13]</xref>. However, the mechanism and the transcription factor for <italic>furA</italic>-independent regulation of <italic>katG</italic> remain to be characterized in mycobacteria <xref ref-type="bibr" rid="pone.0030186-Pym1">[7]</xref>, <xref ref-type="bibr" rid="pone.0030186-Master1">[12]</xref>.</p>
+      <p>In several bacteria the expression of <italic>katG</italic> or <italic>ahpC</italic> is regulated in a FurA-independent manner by OxyR <xref ref-type="bibr" rid="pone.0030186-Italiani1">[14]</xref>, <xref ref-type="bibr" rid="pone.0030186-PagnRamos1">[15]</xref>, a well-characterized regulator responsible for adaptation to oxidative stress <xref ref-type="bibr" rid="pone.0030186-Kim1">[16]</xref>. However, both <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic> lack a functional OxyR <xref ref-type="bibr" rid="pone.0030186-Zahrt1">[11]</xref>, <xref ref-type="bibr" rid="pone.0030186-PagnRamos1">[15]</xref>, <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. LysR-type transcriptional regulators (LTTRs) are thought to constitute the largest family of transcriptional regulators, and their functional orthologs have been identified in diverse bacterial genera, archaea and eukaryotic organisms. They regulate diverse functions including oxidative stress response, cell division, virulence, and secretion, among others <xref ref-type="bibr" rid="pone.0030186-Maddocks1">[18]</xref>. Domenech <italic>et al.</italic> showed that OxyS, a <italic>M. tuberculosis</italic> LysR-type regulator, contains OxyR-like DNA binding domain and plays a role in response to oxidative stress in <italic>M. tuberculosis</italic> <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. Overproduction or depletion of OxyS in <italic>M. tuberculosis</italic> did not affect susceptibility to isoniazid but increasing the concentration of OxyS lowered levels of the alkyl hydroperoxide reductase, AhpC, and rendered the tubercle bacillus more susceptible to organic hydroperoxides <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. The introduction of <italic>oxyS</italic> on a multicopy plasmid did not affect catalase-peroxidase activity or KatG levels in the absence of peroxide. In the presence of peroxide they saw an increase in KatG protein level. They deleted the <italic>oxyS</italic> gene from the chromosome of <italic>M. tuberculosis</italic> and found no change in catalase-peroxidase activity, concluding that <italic>oxyS</italic> was not the main regulator of <italic>katG</italic>, but could be involved in a coregulatory process <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. However, they mentioned that OxyS could not be purified successfully in <italic>E. coli</italic> and its biochemical characteristics remained unclear.</p>
+      <p>Here, we report that we have successfully purified soluble OxyS and its mutant forms from an <italic>E. coli</italic> expression system and characterized it as an oxidative stress response regulator in <italic>M. tuberculosis</italic>. OxyS has been shown to bind directly with the <italic>katG</italic> promoter region and the conserved binding site for OxyS in the promoter region of <italic>katG</italic> was successfully mapped out. A regulatory cysteine in the DNA-binding domain of OxyS was found to be important for its response to oxidative stress. Furthermore, we examined the effect of the expression level of OxyS on the mycobacterial sensitivity to H<sub>2</sub>O<sub>2</sub>. Our findings suggest that OxyS is a negative regulator of <italic>katG</italic> in mycobacteria.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>OxyS is a conserved mycobacterial LysR-type regulator and is involved in regulation of <italic>katG</italic></title>
+        <p>Using a previously developed bacterial one-hybrid system, we have successfully isolated a number of novel transcription factors involved in the regulation of virulence genes in <italic>M. tuberculosis</italic> <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. Interestingly, among the many newly identified transcription factors, we found OxyS was involved in the regulation of <italic>katG</italic>. The <italic>M. tuberculosis</italic> OxyS protein shares strong sequence identity with the LysR-type transcriptional regulator family (conserved domains database (CDD), NCBI). As shown in <xref ref-type="fig" rid="pone-0030186-g001">Fig. 1A and 1B</xref>, the N-terminal part of OxyS contains the helix-turn-helix motif and the C-terminal region contains a LysR substrate-binding domain which is structurally homologous to type-2 periplasmic binding proteins. Furthermore, the N-terminal helix-turn-helix motif of OxyS was found to be highly conserved among several different mycobacterial species (<xref ref-type="supplementary-material" rid="pone.0030186.s003">Fig. S1</xref>, <xref ref-type="table" rid="pone-0030186-t001">Table 1</xref>).</p>
+        <fig id="pone-0030186-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0030186.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>OxyS is a LysR-type regulator in <italic>M. tuberculosis</italic> and is involved in regulation of <italic>katG</italic>.</title>
+            <p>(<bold>A</bold>) Conserved domain analysis of <italic>M. tuberculosis</italic> OxyS. The conserved domains in the N-terminus and C-terminus of OxyS were found by searching the CDD database on the NCBI website. (<bold>B</bold>) The modeled structure of OxyS was obtained using the automated comparative protein modeling web server SWISS-MODEL <xref ref-type="bibr" rid="pone.0030186-Arnold1">[34]</xref> and CbnR protein (a LysR family transcriptional regulator in Ralstonia eutropha NH9) <xref ref-type="bibr" rid="pone.0030186-Muraoka1">[35]</xref> as a template (PDB ID: 1iz1). (<bold>C</bold>) Detection of OxyS protein by western blotting in the recombinant mycobacterial strains. An inducible system for conditional gene over-expression in mycobacteria <xref ref-type="bibr" rid="pone.0030186-Stover1">[36]</xref> was used to over-express OxyS in <italic>M. smegmatis</italic>. Lane 1, purified His-OxyS; Lane 2, cell lysate from Msm/pMV261; Lane 3, cell lysate from Msm/pMV261-OxyS. (<bold>D</bold>) qRT-PCR assays conducted to analyze changes in gene expression in <italic>M. smegmatis</italic>. The experiment was carried out as described in the "<xref ref-type="sec" rid="s4">Materials and Methods</xref>" section. The 16S rRNA gene, <italic>rrs</italic>, was used as an internal control for normalization. Target genes were amplified using specific primers. Expression levels of all genes were normalized to the levels of 16S rRNA gene transcripts, and fold-changes in expression of each gene were calculated. Representative data are shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0030186.g001"/>
+        </fig>
+        <table-wrap id="pone-0030186-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0030186.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>List of identified OxyS orthologous proteins from different mycobacteria species.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0030186-t001-1" xlink:href="pone.0030186.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NCBI Accession Number</td>
+                  <td align="left" rowspan="1" colspan="1">Name</td>
+                  <td align="left" rowspan="1" colspan="1">Identity</td>
+                  <td align="left" rowspan="1" colspan="1">Length</td>
+                  <td align="left" rowspan="1" colspan="1">Mycobacteria species</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NP_214631</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS (Rv0117)</td>
+                  <td align="left" rowspan="1" colspan="1">100%</td>
+                  <td align="left" rowspan="1" colspan="1">314 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium tuberculosis</italic> H37Rv</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NP_853788</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS (Mb0121)</td>
+                  <td align="left" rowspan="1" colspan="1">100%</td>
+                  <td align="left" rowspan="1" colspan="1">314 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium bovis</italic> AF2122/97</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">YP_908187</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS (MUL_4805)</td>
+                  <td align="left" rowspan="1" colspan="1">85%</td>
+                  <td align="left" rowspan="1" colspan="1">252 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium ulcerans</italic> Agy99</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ZP_04746764</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS (MkanA1_010100002242)</td>
+                  <td align="left" rowspan="1" colspan="1">82%</td>
+                  <td align="left" rowspan="1" colspan="1">310 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium kansasii</italic> ATCC 12478</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">YP_001848639</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS (MMAR_0317)</td>
+                  <td align="left" rowspan="1" colspan="1">82%</td>
+                  <td align="left" rowspan="1" colspan="1">405 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium marinum</italic> M</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NP_302698</td>
+                  <td align="left" rowspan="1" colspan="1"> -  - </td>
+                  <td align="left" rowspan="1" colspan="1">82%</td>
+                  <td align="left" rowspan="1" colspan="1">310 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium leprae</italic> TN</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">ZP_05227802</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS_1 (MintA_010100022919)</td>
+                  <td align="left" rowspan="1" colspan="1">80%</td>
+                  <td align="left" rowspan="1" colspan="1">309 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium intracellulare</italic> ATCC 13950</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NP_962456</td>
+                  <td align="left" rowspan="1" colspan="1">OxyS_1 (MAP3522)</td>
+                  <td align="left" rowspan="1" colspan="1">76%</td>
+                  <td align="left" rowspan="1" colspan="1">312 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium avium</italic> subsp. paratuberculosis K-10</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">YP_884572</td>
+                  <td align="left" rowspan="1" colspan="1">MSMEG_0156</td>
+                  <td align="left" rowspan="1" colspan="1">62%</td>
+                  <td align="left" rowspan="1" colspan="1">308 aa</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>Mycobacterium smegmatis</italic> str. MC<sup>2</sup> 155</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <p>A previous study implied that OxyS is involved in regulation of KatG activity in <italic>M. tuberculosis</italic> <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. Since the regions upstream of the <italic>katG</italic> gene in <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic> are highly conserved <xref ref-type="bibr" rid="pone.0030186-Milano1">[8]</xref> (<xref ref-type="supplementary-material" rid="pone.0030186.s004">Fig. S2</xref>) we decided to explore that further by over-expressing <italic>M. tuberculosis</italic> OxyS in <italic>M. smegmatis</italic> to determine the physiological role of OxyS. As shown in <xref ref-type="fig" rid="pone-0030186-g001">Fig. 1C</xref>, OxyS reached a high level of expression in the recombinant strain as revealed by Western blotting assays using anti-OxyS serum. Notably, qRT-PCR (Quantitative real-time PCR) analysis indicated that the level of <italic>katG</italic> expression in the recombinant <italic>M. smegmatis</italic> strain was only 36% of that of the control strain (<xref ref-type="fig" rid="pone-0030186-g001">Fig. 1D</xref>). In contrast, the expression level of <italic>furA</italic> showed no significant change when compared with <italic>M. smegmatis</italic> strains harboring empty vectors. These results indicate that the expression of <italic>katG</italic> is negatively regulated by OxyS, while the <italic>furA</italic> expression is not regulated by OxyS.</p>
+      </sec>
+      <sec id="s2b">
+        <title>OxyS directly targets the promoter region of <italic>katG</italic> in <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic></title>
+        <p>To examine whether a direct interaction occurs between OxyS and the regulatory sequence of the <italic>M. tuberculosis katG</italic> gene, a bacterial one-hybrid assay was conducted by cloning the <italic>katG</italic> promoter region upstream of <italic>HIS3-aadA</italic> reporter genes of the bacterial one-hybrid reporter vector pBXcmT (<xref ref-type="fig" rid="pone-0030186-g002">Fig. 2A</xref>) <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. As shown in <xref ref-type="fig" rid="pone-0030186-g002">Fig. 2B</xref>, co-transformant strains with the <italic>katG</italic> promoter and OxyS grew well on selective plates. In contrast, the strains containing either OxyS alone or the <italic>katG</italic> promoter alone did not grow on selective plates. In addition, co-transformant strains containing the promoter of <italic>Rv3911</italic> (<italic>Rv3911p</italic>), an unrelated promoter, and OxyS did not grow either (<xref ref-type="fig" rid="pone-0030186-g002">Fig. 2B</xref>). These results indicate that OxyS can specifically interact with the promoter of the <italic>katG</italic> gene.</p>
+        <fig id="pone-0030186-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0030186.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>OxyS interacts with the regulatory region of <italic>katG</italic> in <italic>M. tuberculosis</italic>.</title>
+            <p>(<bold>A</bold>) The regulatory sequence of the <italic>katG</italic> gene was cloned into the upstream of <italic>HIS3-aadA</italic> reporter genes of the bacterial one-hybrid reporter vector pBXcmT <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. (<bold>B</bold>) The interaction between OxyS and the promter region of <italic>katG</italic> was measured by bacterial one-hybrid analysis <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. Left panel: bacterial one-hybrid plates. Right panel: an outline of the plates in the left panel. Each unit represents the corresponding co-transformant in the plates. CK+: co-transformant containing pBX-Rv2031p and pTRG-Rv3133c as a positive control. CK-: co-transformant containing pBX-Rv2031p and pTRG-Rv3133c-deltaC as a negative control <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. <italic>Rv3911p</italic> (the promoter of the <italic>Rv3911</italic> gene) was also used as a negative control. (<bold>C</bold>) <italic>in vivo</italic> ChIP assays for the interaction of OxyS with the <italic>katG</italic> promoter in <italic>M. tuberculosis</italic>. DNA recovered from the immunoprecipitates was amplified with primers specific for either <italic>katGp</italic> or a negative control promoter <italic>Rv3911p</italic>. '+' refers to the immunoprecipitate obtained with OxyS antibodies, whereas '-' refers to the control in which ChIP was carried out without any primary antibodies. 'Input' refers to total genomic DNA prior to IP reaction and was used as a positive control in PCR. (<bold>D</bold>) EMSA assays for the binding of OxyS to the <italic>katG</italic> promoter. The EMSA reactions (10 microl) for measuring mobility shift contained FITC-labeled DNA and increasing amount of OxyS (100 nM, 200 nM, 300 nM, 400 nM, 500 nM and 600 nM). The protein/DNA complexes are indicated by arrows on the right of the panels.</p>
+          </caption>
+          <graphic xlink:href="pone.0030186.g002"/>
+        </fig>
+        <p>Using anti-OxyS antibodies and ChIP (chromatin immunoprecipitation) assays, we characterized the association of OxyS with the <italic>katG</italic> promoter <italic>in vivo</italic> in <italic>M. tuberculosis</italic>. <xref ref-type="fig" rid="pone-0030186-g002">Fig. 2C</xref> (top panel) shows that the signal for <italic>katG</italic> promoter was enriched in the anti-OxyS immunoprecipitate compared with that in the control sample without any antibody. In contrast, no obvious signal was observed for the promoter of <italic>Rv3911</italic> (<italic>Rv3911p</italic>) in both the anti-OxyS and the control immunoprecipitates (<xref ref-type="fig" rid="pone-0030186-g002">Fig. 2C</xref>, bottom panel). We successfully purified soluble His-tagged OxyS from an <italic>E. coli</italic> expression system by inducing the expression of MtbOxyS protein under low temperature conditions (<xref ref-type="supplementary-material" rid="pone.0030186.s005">Fig. S3</xref>). Binding of the purified OxyS protein with the <italic>katG</italic> promoter was then confirmed by further EMSA (electrophoretic mobility shift assay) experiments. As shown in <xref ref-type="fig" rid="pone-0030186-g002">Fig. 2D</xref>, when increasing amounts of OxyS (100 - 600 nM) were added into the reactions, shifted bands corresponding to the OxyS/<italic>katG</italic> promoter complex were observed and a corresponding increase in the percentage of protein/DNA complexes was seen. Using competitive EMSA assays (<xref ref-type="supplementary-material" rid="pone.0030186.s006">Fig. S4C</xref>), we comfirmed that this interaction was specific. Notably, the interaction of OxyS with the promoter of Msm<italic>katG</italic> was also confirmed in the recombinant OxyS-overexpressing <italic>M. smegmatis</italic> strain by both ChIP and EMSA assays (<xref ref-type="supplementary-material" rid="pone.0030186.s007">Fig. S5</xref>).</p>
+        <p>Taken together, these results indicate that OxyS can specifically interact with the promoter of the <italic>katG</italic> gene <italic>in vivo</italic> and <italic>in vitro</italic>, and this direct interaction is conserved in both <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic>.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Characterization of the binding sites and sequence motifs for OxyS in the promoter region of <italic>katG</italic></title>
+        <p>To identify the binding sites for OxyS in the promoter region of <italic>katG</italic> (<italic>katGp</italic>), we first obtained two short DNA fragments (<italic>katGp1</italic> and <italic>katGp2</italic>) of the <italic>katG</italic> promoter (<xref ref-type="supplementary-material" rid="pone.0030186.s006">Fig. S4A</xref>). As shown in <xref ref-type="supplementary-material" rid="pone.0030186.s006">Fig. S4B</xref>, OxyS could form specific protein/DNA complexes with the substrates <italic>katGp</italic> and <italic>katGp2</italic>. In contrast, no binding activity was observed for the substrate <italic>katGp1</italic>. In addition, unlabeled <italic>katGp</italic> and <italic>katGp2</italic> could competitively inhibit the binding of OxyS with the labeled DNA substrate, while unlabeled <italic>katGp1</italic> had no effect on OxyS binding (<xref ref-type="supplementary-material" rid="pone.0030186.s006">Fig. S4C</xref>). This indicates that the -1 to -180 region (<italic>katGp2</italic>) of the <italic>katG</italic> promoter contains the binding site for OxyS.</p>
+        <p>Two fragments - foot1 and foot2 - were further designed (<xref ref-type="supplementary-material" rid="pone.0030186.s006">Fig. S4A</xref>) to precisely determine the binding sites for OxyS in the <italic>katG</italic> promoter by DNase I footprinting assays. As shown in <xref ref-type="fig" rid="pone-0030186-g003">Fig. 3A</xref>, the foot1 and foot2 fragments were incubated with increasing amounts of the OxyS protein and digested with DNase I. Several regions were protected from digestion in the presence of the OxyS protein (<xref ref-type="fig" rid="pone-0030186-g003">Fig. 3A</xref>). Two OxyS binding boxes, named OxyS box1 and OxyS box2, were further found in the protected regions, as indicated in <xref ref-type="fig" rid="pone-0030186-g003">Fig. 3B</xref>. The core OxyS binding sites of <italic>M. tuberculosis katG</italic> also contained the LysR-binding motif T-N<sub>11</sub>-A, which has previously been shown to be a classic LTTR box <xref ref-type="bibr" rid="pone.0030186-Maddocks1">[18]</xref>.</p>
+        <fig id="pone-0030186-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0030186.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Identification of the binding sites for OxyS in the promoter region of <italic>katG</italic>.</title>
+            <p>(<bold>A</bold>) DNase I footprinting assays were employed to assess the binding sequence of OxyS. The experiments were carried out as described under the "<xref ref-type="sec" rid="s4">Materials and Methods</xref>" section. The ladders are shown in the right panel and the nucleotide sequences obtained are listed. The protected regions are underlined. (<bold>B</bold>) Summary of OxyS footprinting analysis in the <italic>M. tuberculosis katG</italic> promoter region. The DNA sequence where OxyS was found to bind corresponds with the <italic>katG</italic> promoter region from -180 to -1. OxyS footprint regions (underlined) and the position of the <italic>katG</italic> translation start site are indicated. The T-N<sub>11</sub>-A motif conserved in the DNA binding sites of LysR regulators is indicated on the sequence. Two OxyS binding boxes are indicated. (<bold>C</bold>) A blast assay for the conserved sequence motif recognition by OxyS (OxyS box1) among different mycobacterial species. Sequence alignment was carried and visualized locally using the BioEdit software. The conserved T-N<sub>11</sub>-A DNA-binding site in LysR regulators is shown at the bottom. M. tu, <italic>Mycobacterium tuberculosis</italic> H37Rv; M. bo, <italic>Mycobacterium bovis</italic> AF2122/97; M. in, <italic>Mycobacterium intracellulare</italic> ATCC 13950; M. av, <italic>Mycobacterium avium</italic> subsp. paratuberculosis K-10; M. sm, <italic>Mycobacterium smegmatis</italic> str. mc<sup>2</sup>155; M. ka, <italic>Mycobacterium kansasii</italic> ATCC 12478; M. ma, <italic>Mycobacterium marinum</italic> M; M. ul, <italic>Mycobacterium ulcerans</italic> Agy99. (<bold>D</bold>) DNA-binding assays for OxyS on <italic>OxyS box1</italic> and <italic>OxyS box1mut</italic> substrates. The EMSA reactions (10 microl) for measuring mobility shift contained FITC-labeled DNA substrate and increasing amount of OxyS (0 nM, 100 nM, 200 nM and 300 nM). The conserved "TG" and "GA" in <italic>OxyS box1</italic> were replaced by "CC" in <italic>OxyS box1mut</italic> substrate. The protein/DNA complexes are indicated by arrows on the right of the panels.</p>
+          </caption>
+          <graphic xlink:href="pone.0030186.g003"/>
+        </fig>
+        <p>A blast assay for the binding sequence for OxyS (OxyS box1) among different mycobacterial species revealed a conserved, GC-rich T-N<sub>11</sub>-A motif (<named-content content-type="gene">G[C]T<bold><underline>GC[T]CTG</underline></bold>A[G]CNC[G]C [G]C[G]T[G]<bold><underline>CGGAC</underline></bold>G[C]AC[T]A[G]A[G]</named-content>) (<xref ref-type="fig" rid="pone-0030186-g003">Fig. 3C</xref>). Specific binding of OxyS to the motif was then confirmed by base replacement and EMSA assays. As shown in <xref ref-type="fig" rid="pone-0030186-g003">Fig. 3D</xref>, when the conserved "TG" and "GA" in OxyS box1 were replaced by "CC", the OxyS protein lost its ability to bind to the mutant DNA substrate as evidenced by the result of our EMSA assay that specific protein/DNA complexes were observed for the wild type substrate (<xref ref-type="fig" rid="pone-0030186-g003">Fig. 3D</xref>, left panel), but no such complex was observed for the mutant substrate (<xref ref-type="fig" rid="pone-0030186-g003">Fig. 3D</xref>, right panel).</p>
+      </sec>
+      <sec id="s2d">
+        <title>The DNA-binding ability of OxyS is inhibited by H<sub>2</sub>O<sub>2</sub> and Cys25 is a regulatory residue</title>
+        <p>We assayed the effect of redox reagents on the DNA-binding ability of OxyS. As shown in <xref ref-type="fig" rid="pone-0030186-g004">Fig. 4A</xref>, a stepwise decrease in amounts of the specific protein/DNA complex was observed as 0.01 - 3 mM H<sub>2</sub>O<sub>2</sub> was added to the DNA-binding reaction mixture (<xref ref-type="fig" rid="pone-0030186-g004">Fig. 4A</xref>, lanes 1 - 5). In contrast, no effect was observed when DTT (dithiothreitol) was added to the reaction mixture (<xref ref-type="fig" rid="pone-0030186-g004">Fig. 4A</xref>, lanes 6 - 10), indicating that the ability of OxyS to bind DNA was specifically reduced by H<sub>2</sub>O<sub>2</sub>. We also examined the expression level of <italic>katG</italic> in the <italic>M. smegmatis</italic> strain under oxidative stress (due to OxyS over-expression) by qRT-PCR assays. As shown in <xref ref-type="fig" rid="pone-0030186-g004">Fig. 4B</xref>, the expression level of <italic>katG</italic> increased 2-fold after 2 mM H<sub>2</sub>O<sub>2</sub> treatment, indicating that the negative regulation of <italic>katG</italic> by OxyS was eliminated.</p>
+        <fig id="pone-0030186-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0030186.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Effect of H<sub>2</sub>O<sub>2</sub> on the DNA binding ability of OxyS and its mutant variants.</title>
+            <p>(<bold>A</bold>) Effects of H<sub>2</sub>O<sub>2</sub> and DTT on the DNA binding activity of OxyS were measured by EMSA. The concentration of OxyS in lanes 1 to 10 was 400 nM. The increasing concentration of H<sub>2</sub>O<sub>2</sub> or DTT is indicated at the top of the panels. (<bold>B</bold>) qRT-PCR assays conducted to analyze changes in gene expression of <italic>katG</italic> in <italic>M. smegmatis</italic> over-expressing OxyS after H<sub>2</sub>O<sub>2</sub> (2 mM) treatment. The experiment was carried out as described in the "<xref ref-type="sec" rid="s4">Materials and Methods</xref>" section. Expression levels of all genes were normalized to the levels of 16S rRNA gene transcripts, and the fold-changes in expression were calculated. Representative data are shown. (<bold>C</bold>) EMSA assays for the interactions of the mutant proteins with <italic>katGp</italic>. The protein/DNA complexes are indicated by arrows on the right of the panels. The increasing concentrations of proteins are indicated at the top of the panels. (<bold>D</bold>) Effects of H<sub>2</sub>O<sub>2</sub> on the DNA binding activity of the mutant proteins. The concentration of proteins was 400 nM. The concentration of H<sub>2</sub>O<sub>2</sub> is indicated at the top of the panels. The protein/DNA complexes are indicated by arrows on the right of the panels.</p>
+          </caption>
+          <graphic xlink:href="pone.0030186.g004"/>
+        </fig>
+        <p>The OxyS protein contains four cysteines (<xref ref-type="fig" rid="pone-0030186-g001">Fig. 1B</xref>), and two of them (Cys25 and Cys113) were found to be conserved among several mycobacterial OxyS orthologs (<xref ref-type="supplementary-material" rid="pone.0030186.s003">Fig. S1</xref>). Cysteine residues have been shown to be responsible for redox-sensing in many transcriptional regulators <xref ref-type="bibr" rid="pone.0030186-Chen1">[20]</xref> - <xref ref-type="bibr" rid="pone.0030186-Singh1">[22]</xref>. To identify the sites responsible for sensing oxidative stress in OxyS, site-directed mutations were introduced into these cysteine residues in the <italic>oxyS</italic> gene. The mutant proteins were expressed and successfully purified from an <italic>E. coli</italic> expression system (<xref ref-type="supplementary-material" rid="pone.0030186.s005">Fig. S3</xref>). As shown in <xref ref-type="fig" rid="pone-0030186-g004">Fig. 4C</xref>, all the mutant proteins maintained their DNA-binding ability when compared with wild-type protein. We examined the effect of these mutations on the ability of OxyS to bind to DNA in response to H<sub>2</sub>O<sub>2</sub>. Cys113, Cys124 and Cys293 mutations did not change the sensitivity of OxyS to H<sub>2</sub>O<sub>2</sub> (<xref ref-type="fig" rid="pone-0030186-g004">Fig. 4D</xref>). Interestingly, the DNA-binding activity of the mutant protein OxyS-Cys25A, in which the mutation was situated in the DNA-binding domain of OxyS, was not affected by H<sub>2</sub>O<sub>2</sub> (<xref ref-type="fig" rid="pone-0030186-g004">Fig. 4D</xref>) indicating that it lacked the ability to respond to the oxidative signal. These results indicate that the Cys25 residue is involved in the regulation of the DNA-binding ability of OxyS under oxidative stress, while the other three cysteine residues are dispensable.</p>
+        <p>The fate of OxyS and its mutant variants after peroxide treatment was further determined by native-PAGE assays. As shown in <xref ref-type="supplementary-material" rid="pone.0030186.s008">Fig. S6</xref>, addition of 3 mM H<sub>2</sub>O<sub>2</sub> (lane 3) changed the electrophoretic mobility of OxyS and all its mutant variants. In contrast, addition of 3 mM DTT (lane 2) neither altered the electrophoretic pattern nor changed the electrophoretic mobility of MSMEG_6092, a DNA binding protein from <italic>M. smegmatis</italic> with no cysteine residues (<xref ref-type="supplementary-material" rid="pone.0030186.s008">Fig. S6</xref>). These results indicate that purified OxyS proteins are in a reduced state and are capable of redox-sensing.</p>
+        <p>Taken together, our results lend support to a model in which all the cysteine residues in OxyS can sense oxidative signal, but Cys25 is the only regulatory cysteine residue capable of both sensing the oxidative signal and regulating the ability of OxyS to bind to DNA under oxidative stress.</p>
+      </sec>
+      <sec id="s2e">
+        <title>OxyS-Cys25A lacks the ability to respond to the oxidative signal <italic>in vivo</italic> in <italic>M. smegmatis</italic></title>
+        <p>We first examined the effect of over-expressing OxyS on oxidative stress response in <italic>M. smegmatis</italic> using a modified bacterial growth time course assay. As shown in <xref ref-type="fig" rid="pone-0030186-g005">Fig. 5A</xref>, we observed that the <italic>M. smegmatis</italic> strains over-expressing OxyS were more sensitive to H<sub>2</sub>O<sub>2</sub> as 2 - 5 mM H<sub>2</sub>O<sub>2</sub> was added to the medium if compared with the control strain. This is consistent with a previous observation <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. The findings of our detailed bacterial growth time course assays with increasing concentrations of H<sub>2</sub>O<sub>2</sub> also support the same conclusion (<xref ref-type="supplementary-material" rid="pone.0030186.s009">Fig. S7</xref>). As shown above, overexpression of OxyS lowered expression of the <italic>katG</italic> gene in <italic>M. smegmatis</italic> (<xref ref-type="fig" rid="pone-0030186-g001">Fig. 1D</xref>) and OxyS-Cys25 is a regulatory cysteine residue (<xref ref-type="fig" rid="pone-0030186-g004">Fig. 4D</xref>). Thus, we further compared the DNA-binding ability of mutant OxyS proteins with that of the wild type protein for the promoter of <italic>katG in vivo</italic> in response to H<sub>2</sub>O<sub>2</sub>. As shown in <xref ref-type="fig" rid="pone-0030186-g005">Fig. 5B</xref>, when over-expression of OxyS-WT or OxyS-C113A in <italic>M. smegmatis</italic>, the signal for <italic>katG</italic> promoter with 2 mM H<sub>2</sub>O<sub>2</sub> treatment was reduced substantially in the anti-OxyS immunoprecipitate if compared with that in the control sample without H<sub>2</sub>O<sub>2</sub> treatment. In contrast, no obvious signal change for the enriched <italic>katG</italic> promoter in response to H<sub>2</sub>O<sub>2</sub> was observed for over-expression of OxyS-C25A (<xref ref-type="fig" rid="pone-0030186-g005">Fig. 5B</xref>). Therefore, the mutant protein OxyS-Cys25A lacked the ability to respond to the oxidative signal <italic>in vivo</italic> in <italic>M. smegmatis</italic>.</p>
+        <fig id="pone-0030186-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0030186.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Effects of H<sub>2</sub>O<sub>2</sub> on the growth of recombinant mycobacterial strains and the interaction of OxyS with <italic>katG</italic> promoter in <italic>M. smegmatis</italic>.</title>
+            <p>(<bold>A</bold>) Effects of H<sub>2</sub>O<sub>2</sub> on the growth of recombinant mycobacterial strains. The antimicrobial activity of H<sub>2</sub>O<sub>2</sub> against <italic>M. smegmatis</italic> was determined using a modified bacterial growth time course assay described under "<xref ref-type="sec" rid="s4">Materials and Methods</xref>". <italic>M. smegmatis</italic> strains were grown in LB at 37 degrees C overnight. This culture was then diluted (1:100) in 5 ml of fresh LB broth containing the indicated concentration of H<sub>2</sub>O<sub>2</sub>, and the culture was again incubated at 37 degrees C with shaking at 220 rpm for three days. Aliquots were taken at the indicated times, and the number of CFUs per ml (cfu/ml) was determined. Each analysis was performed in triplicate. Symbols are the average of three replicates, and error bars indicate the SDs (Standard Deviation) of three replicate samples. The recombinant mycobacterial strains are indicated. (<bold>B</bold>) ChIP assays for the effect of H<sub>2</sub>O<sub>2</sub> on the interaction of OxyS and its mutant proteins with <italic>katG</italic> promoter in <italic>M. smegmatis</italic>. The experiments were carried out as described under "<xref ref-type="sec" rid="s4">Materials and Methods</xref>". Recombinant <italic>M. smegmatis</italic> strain over-expressing OxyS or its mutant proteins was treated with H<sub>2</sub>O<sub>2</sub> (lane 2, 0 mM; lane 3, 2 mM) before cross-link. DNA recovered from the immunoprecipitates was amplified with primers specific for <italic>MsmkatGp</italic>. '+' refers to the immunoprecipitate obtained with OxyS antibodies, whereas '-' refers to the control in which ChIP was carried out without any primary antibodies. 'Input' refers to total genomic DNA prior to IP reaction and was used as a positive control in PCR.</p>
+          </caption>
+          <graphic xlink:href="pone.0030186.g005"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p><italic>M. tuberculosis</italic> can resist the damaging effects of reactive oxygen and nitrogen intermediates produced in the host cells and thus survive successfully for long periods of time <xref ref-type="bibr" rid="pone.0030186-Manca1">[2]</xref>, <xref ref-type="bibr" rid="pone.0030186-Yu1">[3]</xref>. However, the transcriptional regulatory processes involved in this mycobacterial defense mechanism are still unclear. In this study, we show that OxyS, a LysR-type transcriptional regulator, is an oxidative stress response regulator in <italic>M. tuberculosis</italic> that binds directly with the <italic>katG</italic> promoter region, which is located in the terminal part of the <italic>furA</italic> coding region. Furthermore, the DNA-binding activity of OxyS was found to be inhibited by H<sub>2</sub>O<sub>2</sub>. We characterized a conserved residue, which is situated within the DNA-binding domain of OxyS, important for DNA binding in response to oxidative stress. Finally, the expression level of <italic>katG</italic> was greatly reduced in the mycobacterial strain overexpressing OxyS and the recombinant strain had an elevated sensitivity to H<sub>2</sub>O<sub>2</sub>.Taken together, our results indicate that OxyS functions as a negative regulator of <italic>katG</italic> in response to oxidative stress in mycobacteria.</p>
+      <p>Response to oxidative stress plays an important role in pathogen-host interaction during infection <xref ref-type="bibr" rid="pone.0030186-Aderem1">[4]</xref> and in determining the intrinsic susceptibility of mycobacterial species to INH <xref ref-type="bibr" rid="pone.0030186-Zhang1">[6]</xref>. Both in <italic>M. tuberculosis</italic> and in <italic>M. smegmatis</italic>, the expression of <italic>katG</italic> is induced upon oxidative stress under the control of <italic>pfurA</italic>, and is negatively regulated by FurA <xref ref-type="bibr" rid="pone.0030186-Pym1">[7]</xref>, <xref ref-type="bibr" rid="pone.0030186-Milano1">[8]</xref>. However, it has been suggested that <italic>katG</italic> can be transcribed independent of <italic>furA</italic> in a fast-growing <italic>Mycobacterium</italic> sp. strain <xref ref-type="bibr" rid="pone.0030186-Lee1">[13]</xref>. It has recently been reported that in <italic>Caulobacter crescentus</italic>, the expression level of the <italic>katG</italic> gene is positively regulated by OxyR in a FurA-independent manner. OxyR was found to bind to a canonical OxyR binding site in the promoter region of <italic>katG</italic>, and this interaction was redox dependent, as only an oxidized form of the protein could bind to the <italic>katG</italic> promoter <xref ref-type="bibr" rid="pone.0030186-Italiani1">[14]</xref>. In the present study, we found that the DNA binding ability of OxyS was inhibited, not stimulated, by H<sub>2</sub>O<sub>2</sub>. Moreover, in <italic>M. smegmatis</italic>, the expression level of <italic>katG</italic> decreased when OxyS was over-expressed, while the expression level of <italic>furA</italic> showed no significant change, suggesting that the expression of <italic>katG</italic> is negatively regulated by OxyS, and the <italic>furA</italic> expression is not regulated by OxyS. Notably, the expression level of <italic>katG</italic> increased 2-fold in the OxyS-overexpressed mycobacterial strain after H<sub>2</sub>O<sub>2</sub> treatment (<xref ref-type="fig" rid="pone-0030186-g004">Fig. 4B</xref>). This result is consistent with an inhibitory effect of H<sub>2</sub>O<sub>2</sub> on the DNA-binding ability of OxyS that we observed. Interestingly, Domenech and his colleagues also observed an increase in KatG activity upon H<sub>2</sub>O<sub>2</sub> treatment in <italic>M. tuberculosis</italic> over-expressing OxyS <xref ref-type="bibr" rid="pone.0030186-Domenech1">[17]</xref>. In the present study, the morphology of <italic>M. smegmatis</italic> cells was also examined using scanning electron microscopy (SEM) to further investigate the reason for the increased sensitivity of <italic>M. smegmatis</italic> strains over-expressing OxyS to H<sub>2</sub>O<sub>2</sub>. Over-expression of OxyS in <italic>M. smegmatis</italic> had no obvious effect on cell morphology when compared with <italic>M. smegmatis</italic> cells harboring empty vectors (<xref ref-type="supplementary-material" rid="pone.0030186.s010">Fig. S8</xref>). Therefore, the effect of over-expression of OxyS on the sensitivity of <italic>M. smegmatis</italic> to H<sub>2</sub>O<sub>2</sub> was not due to the changes in cell morphology.</p>
+      <p>In the current study, by using a bacterial one hybrid system, we found that the reporter genes (<italic>HIS3-aadA</italic>) downstream the <italic>katG</italic> promoter could be successfully activated (<xref ref-type="fig" rid="pone-0030186-g002">Fig. 2B</xref>), which indicating the existance of regulatory elements in this region. We also found using <italic>in vivo</italic> and <italic>in vitro</italic> assays that MtbOxyS can directly interact with the promoter region of <italic>katG</italic> by binding to a typical LysR type T-N<sub>11</sub>-A motif in the <italic>katG</italic> promoter. Two OxyS binding boxes in the promoter region of <italic>katG</italic> were identified. However, only one major protein/DNA complex band was observed in our EMSA assays (<xref ref-type="fig" rid="pone-0030186-g002">Fig. 2D</xref>). This may due to the different binding preference of OxyS to these boxes or the cooperative binding of these two boxes by OxyS. Indeed, through a blast assay of the <italic>katG</italic> promoters from different mycobacterial species, we found that OxyS box1 was the most conserved motif (<xref ref-type="fig" rid="pone-0030186-g003">Fig. 3C</xref>). This suggests a common regulatory mechanism of <italic>katG</italic> expression by OxyS among different mycobacterial species. Interestingly, the binding motif for OxyS identified in the current study also shows similarity to the binding motif for OxyR in <italic>C. crescentus</italic> <xref ref-type="bibr" rid="pone.0030186-Italiani1">[14]</xref>.</p>
+      <p>Cysteine residues have been shown to be responsible for redox sensing <xref ref-type="bibr" rid="pone.0030186-Chen1">[20]</xref> - <xref ref-type="bibr" rid="pone.0030186-Singh1">[22]</xref>. OxyR senses H<sub>2</sub>O<sub>2</sub> and is activated through the formation of a transient disulphide bond between Cys199 and Cys208 in its regulatory domain <xref ref-type="bibr" rid="pone.0030186-Zheng1">[23]</xref>. Chen <italic>et al.</italic> have recently reported an OxyR sensor with one cysteine residue, and divided the OxyR family into two classes: typical 2-Cys OxyR and 1-Cys OxyR <xref ref-type="bibr" rid="pone.0030186-Chen1">[20]</xref>. In the present study, we found that all the cysteine residues in OxyS could sense the oxidative signals, but Cys25 was the only regulatory cysteine residue which could both sense the oxidative signal and regulate the DNA binding ability of OxyS under oxidative stress. This represents an interesting redox sensing and regulatory mechanism through a cysteine residue in the DNA binding domain in mycobacteria. The electrophoretic mobility of OxyS and its mutant variants were changed under oxidative stress and the DNA binding ability of OxyS was inhibited after H<sub>2</sub>O<sub>2</sub> treatment. These characteristics are similar to that of FurA, an oxidative stress-responsive protein which regulates the expression of <italic>katG</italic> in <italic>M. tuberculosis</italic> <xref ref-type="bibr" rid="pone.0030186-Sala1">[9]</xref>. The regions upstream of the <italic>katG</italic> gene in <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic> were found to be highly conserved <xref ref-type="bibr" rid="pone.0030186-Master1">[12]</xref>, suggesting a putative common regulatory mechanism in these two species. In the present study, we found that OxyS could interact with the promoter of <italic>katG</italic> in both <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic>. Furthermore, we identified a LysR family transcriptional regulator (MSMEG_0156) which shares 62% amino acid identity with MtbOxyS in a blast assay (<xref ref-type="table" rid="pone-0030186-t001">Table 1</xref>). The regulatory cysteine residue Cys25 is conserved in both of these proteins.</p>
+      <p>OxyR regulates KatG and other proteins induced by exposure to H<sub>2</sub>O<sub>2</sub> in <italic>E. coli</italic> <xref ref-type="bibr" rid="pone.0030186-Christman1">[24]</xref>. However, the <italic>oxyR</italic> gene in <italic>M. tuberculosis</italic> harbors multiple mutations <xref ref-type="bibr" rid="pone.0030186-Deretic1">[25]</xref>, <xref ref-type="bibr" rid="pone.0030186-Sherman1">[26]</xref> that render it inactive. The alterations in <italic>oxyR</italic> are conserved in all members of the <italic>M. tuberculosis</italic> complex, including <italic>M. africanum</italic>, <italic>M. bovis</italic>, and <italic>M. microti</italic> <xref ref-type="bibr" rid="pone.0030186-Deretic1">[25]</xref>, with minor variations <xref ref-type="bibr" rid="pone.0030186-Sreevatsan1">[27]</xref>. Moreover, no potential OxyR-encoding sequences could be detected in <italic>M. smegmatis</italic> <xref ref-type="bibr" rid="pone.0030186-Dhandayuthapani1">[28]</xref>. In contrast, intact <italic>oxyR</italic> genes have been found in <italic>M. leprae</italic> <xref ref-type="bibr" rid="pone.0030186-Deretic1">[25]</xref>, <xref ref-type="bibr" rid="pone.0030186-Sherman1">[26]</xref> and <italic>M. avium</italic> <xref ref-type="bibr" rid="pone.0030186-Sherman1">[26]</xref>. In the present study, we showed that the OxyS proteins from both <italic>M. tuberculosis</italic> and <italic>M. smegmatis</italic> can respond to H<sub>2</sub>O<sub>2</sub> stress and regulate the expression of the <italic>katG</italic> gene. This lends support to the interesting possibility that given the lack of functional OxyR, OxyS could be an alternative regulator of the response to oxidative stress in these mycobacterial species.</p>
+      <p>In conclusion, we have provided evidence to show that OxyS, a LysR-type transcriptional regulator, functions as an oxidative stress response regulator in <italic>M. tuberculosis</italic>. OxyS negatively regulates the expression of the <italic>katG</italic> gene and responds to oxidative stress through its unique cysteine residue situated in the DNA-binding domain. The DNA binding ability of OxyS was shown to be inhibited by H<sub>2</sub>O<sub>2</sub>. A conserved T-N<sub>11</sub>-A and GC-rich motif for OxyS binding in the promoter region of <italic>katG</italic> was characterized. The mycobacterial strain over-expressing OxyS had increased sensitivity to H<sub>2</sub>O<sub>2</sub>. These findings suggested a new function for the mycobacterial OxyS gene and a regulatory mechanism for their adaptation to oxidative stress.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial strains, plasmids, enzymes and chemicals</title>
+        <p><italic>Escherichia coli</italic> BL21 (DE3) strains, purchased from Novagen, were used as the host strain to express <italic>M. tuberculosis</italic> OxyS. pBT, pTRG vectors and <italic>E. coli</italic> host strains XR were purchased from Stratagene. pET28a was purchased from Novagen. Restriction enzymes, T4 ligase, and modification enzymes were from TaKaRa Biotech. Pyrobest DNA polymerase and deoxynucleoside triphosphates (dNTPs) were purchased from TaKaRa Biotech. DNA purification kits were purchased from Watson Biotechnologies. All antibiotics were purchased from TaKaRa Biotech. Ni-NTA (Ni<sup>2+</sup>-nitrilotriacetate) agarose columns were obtained from Qiagen. All DNA and oligonucleotides were synthesized by Invitrogen (<xref ref-type="supplementary-material" rid="pone.0030186.s001">Table S1</xref>).</p>
+      </sec>
+      <sec id="s4b">
+        <title>Site-directed mutagenesis</title>
+        <p>To identify the oxidative stress-sensing sites, site-directed mutations were introduced into the cysteine residues in the <italic>oxyS</italic> gene by overlap PCR <xref ref-type="bibr" rid="pone.0030186-Zhang2">[29]</xref>. Sequences of mutated oligonucleotides are listed in <xref ref-type="supplementary-material" rid="pone.0030186.s001">Table S1</xref>. All fragments were ligated into pET28a and were subsequently sequenced to confirm the presence of the site-directed mutations.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Cloning, expression and purification of recombinant proteins</title>
+        <p>The <italic>M. tuberculosis oxyS</italic> gene was amplified from genomic DNA using the High Fidelity PCR system (TaKaRa) with appropriate primers and cloned into the pET28a over-expression vectors to produce recombinant vectors (<xref ref-type="supplementary-material" rid="pone.0030186.s002">Table S2</xref>). <italic>E. coli</italic> BL21 (DE3) cells transformed with the recombinant plasmid were grown at 37 degrees C for 5 hours in 1 liter of LB medium containing 30 microg/ml<sup>-1</sup> kanamycin, and at 20 degrees C for 15 hours after 0.5 mM IPTG (isopropyl beta-D-1-thiogalactopyranoside) was added. Purification of recombinant proteins was carried out as described in a previous study <xref ref-type="bibr" rid="pone.0030186-He1">[30]</xref>. Purified proteins were more than 99% pure as determined by SDS-PAGE. The gels were stained with coomassie blue R-250 and destined with 5% methanol, 10% acetic acid until the background was clear. Protein concentrations were determined by spectrophotometric absorbance at 260 nm according to Gill and Hippel <xref ref-type="bibr" rid="pone.0030186-Gill1">[31]</xref>. Native PAGE for OxyS and its mutant proteins were performed at room temperature with the use of 12% non-denaturing polyacrylamide gels. Electrophoresis gels were run at a constant voltage of 125 V in 37 mM Tris - glycine buffer (pH 8.9) until the tracking dye reached the bottom of the gel. The gels were then stained and destained as described above.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Bacterial one-hybrid analysis</title>
+        <p>The regulatory sequences of the <italic>katG</italic> gene or <italic>Rv3911</italic>, a sequence used as negative control, were cloned into the reporter genes upstream of <italic>HIS3-aadA</italic> of the reporter vector pBXcmT (<xref ref-type="supplementary-material" rid="pone.0030186.s002">Table S2</xref>) <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. OxyS was fused to the N-terminal domain of the alpha-subunit of RNA polymerase in the pTRG vector (Stratagene). The bacterial one-hybrid assay was carried out as described in a previous study <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>. The reporter strain was co-transformed with pBX and pTRG recombinant plasmids. The colonies (reporter strain contains the indicated pBX and pTRG recombinant plasmids) were selected on plates containing 15 mM 3-AT (3-amino-1,2,4-triazole) and 8 microg/ml streptomycin, while plates that did not contain 3-AT and streptomycin were used as controls. Detection of protein-DNA interactions was based on transcriptional activation of the reporter genes, <italic>HIS3</italic> and <italic>aadA</italic>, which allows growth in the presence of 3-AT and streptomycin, respectively. Co-transformants containing pBX-Rv2031p and pTRG-Rv3133c were used as positive controls and were expected to grow on the selective screening medium, while co-transformants containing pBX-Rv2031p and pTRG-Rv3133c-deltaC were used as negative controls <xref ref-type="bibr" rid="pone.0030186-Guo1">[19]</xref>.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Chromatin immunoprecipitation (ChIP) assays</title>
+        <p>Actively growing cultures were treated with 1% (v/v) formaldehyde at room temperature for 10 minutes under gentle shaking and the reaction was stopped by adding glycine (at a final concentration of 0.125 M) for 10 minutes with gentle shaking. Cross-linked cells were collected by centrifugation and washed twice with PBS and once with TBSTT (150 mM NaCl, 20 mM Tris-HCl pH 7.5, 10 mM EDTA, 0.1% (v/v) Triton X-100, 0.1% (v/v) Tween 20) to remove excess formaldehyde. Cells were resuspended in 1 ml of TBSTT, sonicated on ice with 20 pulses of 20 seconds and 40% amplitude. The average DNA fragment size obtained was approximately 0.5 kb. Cell debris was removed by centrifugation and the clear supernatant was stored as total lysate. Typically, 100 microl of the supernatant was used as input. 900 microl of the supernatant was incubated for 3 h on a rocker at 4 degrees C with 10 microl of antibodies against OxyS, and then the complexes were immunoprecipitated with 20 microl 50% protein A-agarose for 1 h on a rocker at 4 degrees C. A parallel ChIP experiment without the OxyS antibody was set up as a negative control. The immunocomplex was recovered by centrifugation, washed five times with TBSTT, and resuspended with 100 microl TE buffer (20 mM Tris-HCl pH 7.8, 10 mM EDTA, 0.5% (w/v) SDS). Crosslinking was reversed at 65 degrees C for 6 h. The DNA samples were purified, resuspended in 50 microl TE buffer and analyzed by PCR. Each experiment was performed in duplicate, and repeated twice. The amplified promoter fragments were 350 bp in length. The amplification protocol included one cycle of 5 min at 95 degrees C, and 32 cycles of three steps each: 1 min at 95 degrees C, 1 min at 60 degrees C, and 1 min at 72 degrees C. Primer sequences are indicated in <xref ref-type="supplementary-material" rid="pone.0030186.s001">Table S1</xref>.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Electrophoretic mobility shift assays (EMSA)</title>
+        <p>The binding of OxyS to the <italic>katG</italic> promoter was investigated using a modified electrophoretic mobility shift assay as previously published <xref ref-type="bibr" rid="pone.0030186-He1">[30]</xref> with the following changes. The forward primers were FITC-labeled at their 5' termini (<xref ref-type="supplementary-material" rid="pone.0030186.s001">Table S1</xref>). The double-stranded substrates were prepared according to a previously published procedure <xref ref-type="bibr" rid="pone.0030186-He1">[30]</xref>. The reactions (10 microl) for measuring mobility shift contained FITC-labeled DNA substrate and various amounts of OxyS at different concentrations diluted in a buffer containing 20 mM Tris-HCl, pH 7.5, 100 mM NaCl, and 2 mM EDTA. Reactions were performed at room temperature for 20 min, and loaded onto 6% polyacrylamide/bis (37.5:1) gels in 0.5xTris-borate-EDTA (TBE) buffer, and run at a constant voltage of 130 V for 60 min. Images of the gels were acquired using a Typhoon scanner (GE Healthcare).</p>
+      </sec>
+      <sec id="s4g">
+        <title>DNase I footprinting assays</title>
+        <p>The 100 bp (foot1) and 110 bp (foot2) <italic>katG</italic> promoter regions were amplified from genomic DNA using the primers foot1f and foot1r, and foot2f and foot2r, respectively. Both foot1f and foot2f were FITC-labeled (<xref ref-type="supplementary-material" rid="pone.0030186.s001">Table S1</xref>). The purified substrates were then subjected to the same binding reaction as in the electrophoretic mobility shift assay described above. DNase I footprinting assays were performed as previously described <xref ref-type="bibr" rid="pone.0030186-Li1">[32]</xref>. The ladders for foot1 and foot2 were produced using the Sanger dideoxy method using foot1f and foot2f primers, respectively.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Quantitative real-time PCR (qRT-PCR)</title>
+        <p>For real-time PCR analysis, gene-specific primers (<xref ref-type="supplementary-material" rid="pone.0030186.s001">Table S1</xref>) were used and first-strand cDNAs were synthesized using the SuperScript II reverse transcriptase (Invitrogen) according to the manufacturer's instructions. Each PCR reaction (20 microl) contained 10 microl of 2x SYBR Green Master Mix Reagent (Applied Biosystems), 1.0 microl of cDNA samples, and 200 nM gene-specific primers. The reactions were performed in Bio-Rad IQ5 Real-time PCR machine. The thermocycling conditions were as follows: 95 degrees C for 5 min, and 40 cycles at 95 degrees C for 30 s, 60 degrees C for 30 s and 72 degrees C for 30 s. Amplification specificity was assessed by conducting a melting curve analysis. Gene expression levels were normalized to the levels of 16S rRNA transcripts. The degrees of change in expression were calculated using the 2<sup>-DeltaDeltaCt</sup> method <xref ref-type="bibr" rid="pone.0030186-Livak1">[33]</xref>.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Bacterial growth time course assays</title>
+        <p>The antimicrobial activity of H<sub>2</sub>O<sub>2</sub> against <italic>M. smegmatis</italic> was determined using a modified bacterial growth time course assay. <italic>M. smegmatis</italic> was grown in LB at 37 degrees C overnight. This culture was then diluted (1:100) in 5 ml of fresh LB broth containing the indicated concentration of H<sub>2</sub>O<sub>2</sub>, and the culture was again incubated at 37 degrees C with shaking at 220 rpm for three days. Samples were taken at various time points (0, 12, 24, 36, 48, and 60 h). All assays were performed three times.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0030186.s001">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Primers used in this study.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s001.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s002">
+        <label>Table S2</label>
+        <caption>
+          <p>
+            <bold>Plasmids and recombinant vectors used in this study.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s002.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s003">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Alignment of protein sequences of OxyS and its identified orthologs across the mycobacteria.</bold> Amino acid alignments of orthologous proteins of OxyS from different mycobacteria were performed using local BioEdit software. Residues identical for all proteins are boxed in black, and residues similar for all proteins are boxed in gray. Cysteine residues and the helix-turn-helix motif were indicated. M. tu, <italic>Mycobacterium tuberculosis</italic> H37Rv; M. bo, <italic>Mycobacterium bovis</italic> AF2122/97; M. ka, <italic>Mycobacterium kansasii</italic> ATCC 12478; M. ma, <italic>Mycobacterium marinum</italic> M; M. le, <italic>Mycobacterium leprae</italic> TN; M. av, <italic>Mycobacterium avium</italic> subsp. paratuberculosis K-10; M. in, <italic>Mycobacterium intracellulare</italic> ATCC 13950; M. ul, <italic>Mycobacterium ulcerans</italic> Agy99; M. sm, <italic>Mycobacterium smegmatis</italic> str. mc<sup>2</sup>155.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s003.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s004">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Alignment of promoter sequences of </bold><bold><italic>katG</italic></bold><bold> gene in </bold><bold><italic>M. tuberculosis</italic></bold><bold> (Rv1908c_up) and </bold><bold><italic>M. smegmatis</italic></bold><bold> (MSMEG_6384_up).</bold> The conserved OxyS binding site (OxyS box1) was indicated.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s004.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s005">
+        <label>Figure S3</label>
+        <caption>
+          <p><bold>Expression and purification of OxyS and its mutant proteins.</bold> His-tagged OxyS and its mutant proteins were expressed and affinity purified as described under "<xref ref-type="sec" rid="s4">Materials and Methods</xref>". Proteins were resolved in 12% SDS-PAGE and the gel was stained with coomassie blue. (<bold>A</bold>) Lane 1, uninduced lysate; lane 2 to lane 6, induced lysate. Protein expression was induced at at 20 degrees C for 15 hours after 0.5 mM IPTG (isopropyl beta-D-1-thiogalactopyranoside) was added. (<bold>B</bold>) Affinity purified His-OxyS and its mutant proteins. The samples are indicated at the top of the figure. Bands of the correct size are indicated by an arrow on the right of the panel.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s005.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s006">
+        <label>Figure S4</label>
+        <caption>
+          <p><bold>Mapping the binding regions for OxyS in the </bold><bold><italic>katG</italic></bold><bold> promoter.</bold> (<bold>A</bold>) Schematic representation of several short DNA fragments generated in this study. <italic>katGp</italic>, <italic>katGp1</italic> and <italic>katGp2</italic> were used as DNA substrates in EMSA assays. Both foot1 and foot2 were used as DNA substrates in DNase I footprinting assays. (<bold>B</bold>) EMSA assays for the interactions of OxyS with different DNA fragments. OxyS bound to <italic>katGp</italic> and <italic>katGp2</italic>, but not <italic>katGp1</italic>. The EMSA reactions (10 microl) for measuring mobility shift contained FITC-labeled DNA substrate and increasing amount of OxyS (100 nM, 200 nM, 300 nM and 400 nM). The protein/DNA complexes are indicated by arrows on the right of the panels. (<bold>C</bold>) Unlabeled DNA substrates were used to compete with the FITC-labeled DNA. Unlabeled <italic>katGp2</italic>, but not <italic>katGp1</italic>, could competitively inhibit the binding of OxyS to the FITC-labeled <italic>katGp</italic>. The protein/DNA complexes are indicated by arrows on the right of the panels.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s006.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s007">
+        <label>Figure S5</label>
+        <caption>
+          <p><bold>Interaction of OxyS with </bold><bold><italic>M. smegmatis katG</italic></bold><bold> promoter (</bold><bold><italic>MsmkatGp</italic></bold><bold>).</bold> (<bold>A</bold>) ChIP assays for the interaction of OxyS with the <italic>MsmkatG</italic> promoter <italic>in vivo</italic>. DNA recovered from the immunoprecipitates was amplified with primers specific for either <italic>MsmkatGp</italic> or a negative control promoter <italic>MSMEG_1432p</italic>. '+' refers to the immunoprecipitate obtained with OxyS antibodies, whereas '-' refers to the control in which ChIP was carried out without any primary antibodies. 'Input' refers to total genomic DNA prior to IP reaction and was used as a positive control in PCR. (<bold>B</bold>) EMSA assays for the interaction of OxyS with <italic>MsmkatGp</italic>. The EMSA reactions (10 microl) for measuring mobility shift contained FITC-labeled DNA substrate and increasing amount of OxyS (100 nM, 200 nM, 300 nM and 400 nM). Unlabeled <italic>MsmkatGp</italic> was used to compete with the FITC-labeled DNA. The protein/DNA complexes are indicated by arrows on the right of the panels.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s007.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s008">
+        <label>Figure S6</label>
+        <caption>
+          <p><bold>Effect of H<sub>2</sub>O<sub>2</sub> or DTT on the electrophoretic mobilities of OxyS and its mutant proteins was measured by native-PAGE.</bold> Purified <italic>M. tuberculosis</italic> OxyS and its mutants (1.5 microg) were run in the first lane. Equivalent samples were mixed with either DTT (lane 2) or H<sub>2</sub>O<sub>2</sub> (lane 3) at the concentrations of 3 mM for 30 min at room temperature, respectively. Native PAGE for OxyS and its mutant proteins were performed at room temperature with the use of 12% non-denaturing polyacrylamide gels. The oxidized and reduced protein bands were indicated on the right of the panels.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s008.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s009">
+        <label>Figure S7</label>
+        <caption>
+          <p><bold>Effects of H<sub>2</sub>O<sub>2</sub> on the growth of recombinant mycobacterial strains measured by detailed bacterial growth time course assays.</bold> Recombinant mycobacterial strains were treated with 0 mM, 1 mM, 2 mM, 3 mM and 4 mM H<sub>2</sub>O<sub>2</sub>. Aliquots were taken at the indicated times. Each analysis was performed in triplicate. Symbols are the average of three replicates, and error bars indicate the SDs (Standard Deviation) of three replicate samples. The recombinant mycobacterial strains are indicated by black boxes (Msm/pMV261) or hollow triangles (Msm/pMV261-OxyS), respectively.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s009.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0030186.s010">
+        <label>Figure S8</label>
+        <caption>
+          <p><bold>Assays of cell morphology by scanning electron microscopy.</bold> <italic>M. smegmatis</italic> cells prepared for scanning electron microscopy (SEM) were grown in LB at 37 degrees C for 24 hours. After giving a heat shock at 42 degrees C for 1 hour and incubating at 37 degrees C for additional 4 hours, the cells were harvested by centrifugation. The bacterial pellets were then resuspended and incubated at 4 degrees C for 24 hours in 2.5% (v/v) glutardialdehyde solution. The cells were washed twice in double-distilled water and then dehydrated with a series of 15 min treatments in 30, 50, 75, 85, 95 and 100% ethanol respectively. The final treatment in 100% ethanol was repeated to ensure complete dehydration. Samples were critical-point dried, sputter-coated with gold, and observed using a scanning electron microscope (S570; Hitachi, Tokyo, Japan). The images were taken at 15,000x magnification (bars, 1 microm).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0030186.s010.tif" mimetype="image" mime-subtype="tiff">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This work was supported by the National Natural Science Foundation of China (31025002, 30930003), the Fundamental Research Funds for the Central Universities (2011PY140) and Hubei Chutian Scholar Program (to Z-GH). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0030186-Nguyen1">
+        <label>1</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Nguyen</surname><given-names>L</given-names></name><name><surname>Pieters</surname><given-names>J</given-names></name></person-group>             <year>2005</year>             <article-title>The Trojan horse: survival tactics of pathogenic mycobacteria in macrophages.</article-title>             <source>Trends Cell Biol</source>             <volume>15</volume>             <fpage>269</fpage>             <lpage>276</lpage>          <pub-id pub-id-type="pmid">15866031</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Manca1">
+        <label>2</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Manca</surname><given-names>C</given-names></name><name><surname>Paul</surname><given-names>S</given-names></name><name><surname>Barry</surname><given-names>CE</given-names></name><name><surname>Freedman</surname><given-names>VH</given-names></name><name><surname>Kaplan</surname><given-names>G</given-names></name></person-group>             <year>1999</year>             <article-title><italic>Mycobacterium tuberculosis</italic> catalase and peroxidase activities and resistance to oxidative killing in human monocytes <italic>in vitro</italic>.</article-title>             <source>Infect Immun</source>             <volume>67</volume>             <fpage>74</fpage>             <lpage>79</lpage>          <pub-id pub-id-type="pmid">9864198</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Yu1">
+        <label>3</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Yu</surname><given-names>K</given-names></name><name><surname>Mitchell</surname><given-names>C</given-names></name><name><surname>Xing</surname><given-names>Y</given-names></name><name><surname>Magliozzo</surname><given-names>RS</given-names></name><name><surname>Bloom</surname><given-names>BR</given-names></name><etal/></person-group>             <year>1999</year>             <article-title>Toxicity of nitrogen oxides and related oxidants on mycobacteria: <italic>M. tuberculosis</italic> is resistant to peroxynitrite anion.</article-title>             <source>Tuber Lung Dis</source>             <volume>79</volume>             <fpage>191</fpage>             <lpage>198</lpage>          <pub-id pub-id-type="pmid">10692986</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Aderem1">
+        <label>4</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Aderem</surname><given-names>A</given-names></name><name><surname>Underhill</surname><given-names>DM</given-names></name></person-group>             <year>1999</year>             <article-title>Mechanisms of phagocytosis in macrophages.</article-title>             <source>Annu Rev Immunol</source>             <volume>17</volume>             <fpage>593</fpage>             <lpage>623</lpage>          <pub-id pub-id-type="pmid">10358769</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Jittawuttipoka1">
+        <label>5</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Jittawuttipoka</surname><given-names>T</given-names></name><name><surname>Buranajitpakorn</surname><given-names>S</given-names></name><name><surname>Vattanaviboon</surname><given-names>P</given-names></name><name><surname>Mongkolsuk</surname><given-names>S</given-names></name></person-group>             <year>2009</year>             <article-title>The catalase-peroxidase KatG is required for virulence of <italic>Xanthomonas campestris</italic> pv. campestris in a host plant by providing protection against low levels of H<sub>2</sub>O<sub>2</sub>.</article-title>             <source>J Bacteriol</source>             <volume>191</volume>             <fpage>7372</fpage>             <lpage>7377</lpage>          <pub-id pub-id-type="pmid">19783631</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Zhang1">
+        <label>6</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Heym</surname><given-names>B</given-names></name><name><surname>Allen</surname><given-names>B</given-names></name><name><surname>Young</surname><given-names>D</given-names></name><name><surname>Cole</surname><given-names>S</given-names></name></person-group>             <year>1992</year>             <article-title>The catalase-peroxidase gene and isoniazid resistance of <italic>Mycobacterium tuberculosis</italic>.</article-title>             <source>Nature</source>             <volume>358</volume>             <fpage>591</fpage>             <lpage>593</lpage>          <pub-id pub-id-type="pmid">1501713</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Pym1">
+        <label>7</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Pym</surname><given-names>AS</given-names></name><name><surname>Domenech</surname><given-names>P</given-names></name><name><surname>Honore</surname><given-names>N</given-names></name><name><surname>Song</surname><given-names>J</given-names></name><name><surname>Deretic</surname><given-names>V</given-names></name><etal/></person-group>             <year>2001</year>             <article-title>Regulation of catalase-peroxidase (KatG) expression, isoniazid sensitivity and virulence by <italic>furA</italic> of <italic>Mycobacterium tuberculosis</italic>.</article-title>             <source>Mol Microbiol</source>             <volume>40</volume>             <fpage>879</fpage>             <lpage>889</lpage>          <pub-id pub-id-type="pmid">11401695</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Milano1">
+        <label>8</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Milano</surname><given-names>A</given-names></name><name><surname>Forti</surname><given-names>F</given-names></name><name><surname>Sala</surname><given-names>C</given-names></name><name><surname>Riccardi</surname><given-names>G</given-names></name><name><surname>Ghisotti</surname><given-names>D</given-names></name></person-group>             <year>2001</year>             <article-title>Transcriptional regulation of <italic>furA</italic> and <italic>katG</italic> upon oxidative stress in <italic>Mycobacterium smegmatis</italic>.</article-title>             <source>J Bacteriol</source>             <volume>183</volume>             <fpage>6801</fpage>             <lpage>6806</lpage>          <pub-id pub-id-type="pmid">11698368</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Sala1">
+        <label>9</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Sala</surname><given-names>C</given-names></name><name><surname>Forti</surname><given-names>F</given-names></name><name><surname>Di Florio</surname><given-names>E</given-names></name><name><surname>Canneva</surname><given-names>F</given-names></name><name><surname>Milano</surname><given-names>A</given-names></name><etal/></person-group>             <year>2003</year>             <article-title><italic>Mycobacterium tuberculosis</italic> FurA autoregulates its own expression.</article-title>             <source>J Bacteriol</source>             <volume>185</volume>             <fpage>5357</fpage>             <lpage>5362</lpage>          <pub-id pub-id-type="pmid">12949087</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Sala2">
+        <label>10</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Sala</surname><given-names>C</given-names></name><name><surname>Forti</surname><given-names>F</given-names></name><name><surname>Magnoni</surname><given-names>F</given-names></name><name><surname>Ghisotti</surname><given-names>D</given-names></name></person-group>             <year>2008</year>             <article-title>The <italic>katG</italic> mRNA of <italic>Mycobacterium tuberculosis</italic> and <italic>Mycobacterium smegmatis</italic> is processed at its 5' end and is stabilized by both a polypurine sequence and translation initiation.</article-title>             <source>BMC Mol Biol</source>             <volume>9</volume>             <fpage>33</fpage>          <pub-id pub-id-type="pmid">18394163</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Zahrt1">
+        <label>11</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zahrt</surname><given-names>TC</given-names></name><name><surname>Song</surname><given-names>J</given-names></name><name><surname>Siple</surname><given-names>J</given-names></name><name><surname>Deretic</surname><given-names>V</given-names></name></person-group>             <year>2001</year>             <article-title>Mycobacterial FurA is a negative regulator of catalase-peroxidase gene <italic>katG</italic>.</article-title>             <source>Mol Microbiol</source>             <volume>39</volume>             <fpage>1174</fpage>             <lpage>1185</lpage>          <pub-id pub-id-type="pmid">11251835</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Master1">
+        <label>12</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Master</surname><given-names>S</given-names></name><name><surname>Zahrt</surname><given-names>TC</given-names></name><name><surname>Song</surname><given-names>J</given-names></name><name><surname>Deretic</surname><given-names>V</given-names></name></person-group>             <year>2001</year>             <article-title>Mapping of <italic>Mycobacterium tuberculosis katG</italic> promoters and their differential expression in infected macrophages.</article-title>             <source>J Bacteriol</source>             <volume>183</volume>             <fpage>4033</fpage>             <lpage>4039</lpage>          <pub-id pub-id-type="pmid">11395468</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Lee1">
+        <label>13</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Lee</surname><given-names>HI</given-names></name><name><surname>Yoon</surname><given-names>JH</given-names></name><name><surname>Nam</surname><given-names>JS</given-names></name><name><surname>Kim</surname><given-names>YM</given-names></name><name><surname>Ro</surname><given-names>YT</given-names></name></person-group>             <year>2010</year>             <article-title>Cloning, expression and characterization of the catalase-peroxidase (KatG) gene from a fast-growing <italic>Mycobacterium sp.</italic> strain JC1 DSM 3803.</article-title>             <source>J Biochem</source>             <volume>147</volume>             <fpage>511</fpage>             <lpage>522</lpage>          <pub-id pub-id-type="pmid">19933836</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Italiani1">
+        <label>14</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Italiani</surname><given-names>VC</given-names></name><name><surname>da Silva Neto</surname><given-names>JF</given-names></name><name><surname>Braz</surname><given-names>VS</given-names></name><name><surname>Marques</surname><given-names>MV</given-names></name></person-group>             <year>2011</year>             <article-title>Regulation of catalase-peroxidase KatG is OxyR dependent and Fur independent in <italic>Caulobacter crescentus</italic>.</article-title>             <source>J Bacteriol</source>             <volume>193</volume>             <fpage>1734</fpage>             <lpage>1744</lpage>          <pub-id pub-id-type="pmid">21257767</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-PagnRamos1">
+        <label>15</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Pagan-Ramos</surname><given-names>E</given-names></name><name><surname>Song</surname><given-names>J</given-names></name><name><surname>McFalone</surname><given-names>M</given-names></name><name><surname>Mudd</surname><given-names>MH</given-names></name><name><surname>Deretic</surname><given-names>V</given-names></name></person-group>             <year>1998</year>             <article-title>Oxidative stress response and characterization of the <italic>oxyR-ahpC</italic> and <italic>furA-katG</italic> loci in <italic>Mycobacterium marinum</italic>.</article-title>             <source>J Bacteriol</source>             <volume>180</volume>             <fpage>4856</fpage>             <lpage>4864</lpage>          <pub-id pub-id-type="pmid">9733688</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Kim1">
+        <label>16</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Kim</surname><given-names>SO</given-names></name><name><surname>Merchant</surname><given-names>K</given-names></name><name><surname>Nudelman</surname><given-names>R</given-names></name><name><surname>Beyer</surname><given-names>WF</given-names><suffix>Jr</suffix></name><name><surname>Keng</surname><given-names>T</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>OxyR: a molecular code for redox-related signaling.</article-title>             <source>Cell</source>             <volume>109</volume>             <fpage>383</fpage>             <lpage>396</lpage>          <pub-id pub-id-type="pmid">12015987</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Domenech1">
+        <label>17</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Domenech</surname><given-names>P</given-names></name><name><surname>Honore</surname><given-names>N</given-names></name><name><surname>Heym</surname><given-names>B</given-names></name><name><surname>Cole</surname><given-names>ST</given-names></name></person-group>             <year>2001</year>             <article-title>Role of OxyS of <italic>Mycobacterium tuberculosis</italic> in oxidative stress: overexpression confers increased sensitivity to organic hydroperoxides.</article-title>             <source>Microbes Infect</source>             <volume>3</volume>             <fpage>713</fpage>             <lpage>721</lpage>          <pub-id pub-id-type="pmid">11489419</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Maddocks1">
+        <label>18</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Maddocks</surname><given-names>SE</given-names></name><name><surname>Oyston</surname><given-names>PC</given-names></name></person-group>             <year>2008</year>             <article-title>Structure and function of the LysR-type transcriptional regulator (LTTR) family proteins.</article-title>             <source>Microbiology</source>             <volume>154</volume>             <fpage>3609</fpage>             <lpage>3623</lpage>          <pub-id pub-id-type="pmid">19047729</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Guo1">
+        <label>19</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Guo</surname><given-names>M</given-names></name><name><surname>Feng</surname><given-names>H</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Wang</surname><given-names>W</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Dissecting transcription regulatory pathways through a new bacterial one-hybrid reporter system.</article-title>             <source>Genome Res</source>             <volume>19</volume>             <fpage>1301</fpage>             <lpage>1308</lpage>          <pub-id pub-id-type="pmid">19228590</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Chen1">
+        <label>20</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Chen</surname><given-names>H</given-names></name><name><surname>Xu</surname><given-names>G</given-names></name><name><surname>Zhao</surname><given-names>Y</given-names></name><name><surname>Tian</surname><given-names>B</given-names></name><name><surname>Lu</surname><given-names>H</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>A novel OxyR sensor and regulator of hydrogen peroxide stress with one cysteine residue in <italic>Deinococcus radiodurans</italic>.</article-title>             <source>PLoS One</source>             <volume>3</volume>             <fpage>e1602</fpage>          <pub-id pub-id-type="pmid">18270589</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Green1">
+        <label>21</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Green</surname><given-names>J</given-names></name><name><surname>Paget</surname><given-names>MS</given-names></name></person-group>             <year>2004</year>             <article-title>Bacterial redox sensors.</article-title>             <source>Nat Rev Microbiol</source>             <volume>2</volume>             <fpage>954</fpage>             <lpage>966</lpage>          <pub-id pub-id-type="pmid">15550941</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Singh1">
+        <label>22</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Singh</surname><given-names>A</given-names></name><name><surname>Guidry</surname><given-names>L</given-names></name><name><surname>Narasimhulu</surname><given-names>KV</given-names></name><name><surname>Mai</surname><given-names>D</given-names></name><name><surname>Trombley</surname><given-names>J</given-names></name><etal/></person-group>             <year>2007</year>             <article-title><italic>Mycobacterium tuberculosis</italic> WhiB3 responds to O<sub>2</sub> and nitric oxide via its (4Fe-4S) cluster and is essential for nutrient starvation survival.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>104</volume>             <fpage>11562</fpage>             <lpage>11567</lpage>          <pub-id pub-id-type="pmid">17609386</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Zheng1">
+        <label>23</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zheng</surname><given-names>M</given-names></name><name><surname>Aslund</surname><given-names>F</given-names></name><name><surname>Storz</surname><given-names>G</given-names></name></person-group>             <year>1998</year>             <article-title>Activation of the OxyR transcription factor by reversible disulfide bond formation.</article-title>             <source>Science</source>             <volume>279</volume>             <fpage>1718</fpage>             <lpage>1721</lpage>          <pub-id pub-id-type="pmid">9497290</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Christman1">
+        <label>24</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Christman</surname><given-names>MF</given-names></name><name><surname>Storz</surname><given-names>G</given-names></name><name><surname>Ames</surname><given-names>BN</given-names></name></person-group>             <year>1989</year>             <article-title>OxyR, a positive regulator of hydrogen peroxide-inducible genes in <italic>Escherichia coli</italic> and <italic>Salmonella typhimurium</italic>, is homologous to a family of bacterial regulatory proteins.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>86</volume>             <fpage>3484</fpage>             <lpage>3488</lpage>          <pub-id pub-id-type="pmid">2471187</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Deretic1">
+        <label>25</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Deretic</surname><given-names>V</given-names></name><name><surname>Philipp</surname><given-names>W</given-names></name><name><surname>Dhandayuthapani</surname><given-names>S</given-names></name><name><surname>Mudd</surname><given-names>MH</given-names></name><name><surname>Curcic</surname><given-names>R</given-names></name><etal/></person-group>             <year>1995</year>             <article-title><italic>Mycobacterium tuberculosis</italic> is a natural mutant with an inactivated oxidative-stress regulatory gene: implications for sensitivity to isoniazid.</article-title>             <source>Mol Microbiol</source>             <volume>17</volume>             <fpage>889</fpage>             <lpage>900</lpage>          <pub-id pub-id-type="pmid">8596438</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Sherman1">
+        <label>26</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Sherman</surname><given-names>DR</given-names></name><name><surname>Sabo</surname><given-names>PJ</given-names></name><name><surname>Hickey</surname><given-names>MJ</given-names></name><name><surname>Arain</surname><given-names>TM</given-names></name><name><surname>Mahairas</surname><given-names>GG</given-names></name><etal/></person-group>             <year>1995</year>             <article-title>Disparate responses to oxidative stress in saprophytic and pathogenic mycobacteria.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>92</volume>             <fpage>6625</fpage>             <lpage>6629</lpage>          <pub-id pub-id-type="pmid">7604044</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Sreevatsan1">
+        <label>27</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Sreevatsan</surname><given-names>S</given-names></name><name><surname>Escalante</surname><given-names>P</given-names></name><name><surname>Pan</surname><given-names>X</given-names></name><name><surname>Gillies</surname><given-names>DA</given-names></name><name><surname>Siddiqui</surname><given-names>S</given-names></name><etal/></person-group>             <year>1996</year>             <article-title>Identification of a polymorphic nucleotide in <italic>oxyR</italic> specific for <italic>Mycobacterium bovis</italic>.</article-title>             <source>J Clin Microbiol</source>             <volume>34</volume>             <fpage>2007</fpage>             <lpage>2010</lpage>          <pub-id pub-id-type="pmid">8818900</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Dhandayuthapani1">
+        <label>28</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Dhandayuthapani</surname><given-names>S</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Mudd</surname><given-names>MH</given-names></name><name><surname>Deretic</surname><given-names>V</given-names></name></person-group>             <year>1996</year>             <article-title>Oxidative stress response and its role in sensitivity to isoniazid in mycobacteria: characterization and inducibility of <italic>ahpC</italic> by peroxides in <italic>Mycobacterium smegmatis</italic> and lack of expression in <italic>M. aurum</italic> and <italic>M. tuberculosis</italic>.</article-title>             <source>J Bacteriol</source>             <volume>178</volume>             <fpage>3641</fpage>             <lpage>3649</lpage>          <pub-id pub-id-type="pmid">8655566</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Zhang2">
+        <label>29</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Zhang</surname><given-names>H</given-names></name><name><surname>Deng</surname><given-names>JY</given-names></name><name><surname>Bi</surname><given-names>LJ</given-names></name><name><surname>Zhou</surname><given-names>YF</given-names></name><name><surname>Zhang</surname><given-names>ZP</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Characterization of <italic>Mycobacterium tuberculosis</italic> nicotinamidase/pyrazinamidase.</article-title>             <source>FEBS J</source>             <volume>275</volume>             <fpage>753</fpage>             <lpage>762</lpage>          <pub-id pub-id-type="pmid">18201201</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-He1">
+        <label>30</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>He</surname><given-names>ZG</given-names></name><name><surname>Rezende</surname><given-names>LF</given-names></name><name><surname>Willcox</surname><given-names>S</given-names></name><name><surname>Griffith</surname><given-names>JD</given-names></name><name><surname>Richardson</surname><given-names>CC</given-names></name></person-group>             <year>2003</year>             <article-title>The carboxyl-terminal domain of bacteriophage T7 single-stranded DNA-binding protein modulates DNA binding and interaction with T7 DNA polymerase.</article-title>             <source>J Biol Chem</source>             <volume>278</volume>             <fpage>29538</fpage>             <lpage>29545</lpage>          <pub-id pub-id-type="pmid">12766155</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Gill1">
+        <label>31</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Gill</surname><given-names>SC</given-names></name><name><surname>Hippel</surname><given-names>PH</given-names></name></person-group>             <year>1989</year>             <article-title>Calculation of protein extinction coefficients from amino acid sequence data.</article-title>             <source>Anal Biochem</source>             <volume>182</volume>             <fpage>319</fpage>             <lpage>326</lpage>          <pub-id pub-id-type="pmid">2610349</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Li1">
+        <label>32</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Zeng</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>H</given-names></name><name><surname>He</surname><given-names>ZG</given-names></name></person-group>             <year>2010</year>             <article-title>The characterization of conserved binding motifs and potential target genes for <italic>M. tuberculosis</italic> MtrAB reveals a link between the two-component system and the drug resistance of <italic>M. smegmatis</italic>.</article-title>             <source>BMC Microbiol</source>             <volume>10</volume>             <fpage>242</fpage>          <pub-id pub-id-type="pmid">20843371</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Livak1">
+        <label>33</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Livak</surname><given-names>KJ</given-names></name><name><surname>Schmittgen</surname><given-names>TD</given-names></name></person-group>             <year>2001</year>             <article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method.</article-title>             <source>Methods</source>             <volume>25</volume>             <fpage>402</fpage>             <lpage>408</lpage>          <pub-id pub-id-type="pmid">11846609</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Arnold1">
+        <label>34</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Arnold</surname><given-names>K</given-names></name><name><surname>Bordoli</surname><given-names>L</given-names></name><name><surname>Kopp</surname><given-names>J</given-names></name><name><surname>Schwede</surname><given-names>T</given-names></name></person-group>             <year>2006</year>             <article-title>The SWISS-MODEL workspace: a web-based environment for protein structure homology modelling.</article-title>             <source>Bioinformatics</source>             <volume>22</volume>             <fpage>195</fpage>             <lpage>201</lpage>          <pub-id pub-id-type="pmid">16301204</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Muraoka1">
+        <label>35</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Muraoka</surname><given-names>S</given-names></name><name><surname>Okumura</surname><given-names>R</given-names></name><name><surname>Ogawa</surname><given-names>N</given-names></name><name><surname>Nonaka</surname><given-names>T</given-names></name><name><surname>Miyashita</surname><given-names>K</given-names></name><etal/></person-group>             <year>2003</year>             <article-title>Crystal structure of a full-length LysR-type transcriptional regulator, CbnR: unusual combination of two subunit forms and molecular bases for causing and changing DNA bend.</article-title>             <source>J Mol Biol</source>             <volume>328</volume>             <fpage>555</fpage>             <lpage>566</lpage>          <pub-id pub-id-type="pmid">12706716</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0030186-Stover1">
+        <label>36</label>
+        <element-citation publication-type="journal">             <person-group person-group-type="author"><name><surname>Stover</surname><given-names>CK</given-names></name><name><surname>de la Cruz</surname><given-names>VF</given-names></name><name><surname>Fuerst</surname><given-names>TR</given-names></name><name><surname>Burlein</surname><given-names>JE</given-names></name><name><surname>Benson</surname><given-names>LA</given-names></name><etal/></person-group>             <year>1991</year>             <article-title>New use of BCG for recombinant vaccines.</article-title>             <source>Nature</source>             <volume>351</volume>             <fpage>456</fpage>             <lpage>460</lpage>          <pub-id pub-id-type="pmid">1904554</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

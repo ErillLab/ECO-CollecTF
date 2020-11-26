@@ -1,0 +1,2982 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Mol Biol</journal-id>
+      <journal-title>BMC Molecular Biology</journal-title>
+      <issn pub-type="epub">1471-2199</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">18005413</article-id>
+      <article-id pub-id-type="pmc">2222622</article-id>
+      <article-id pub-id-type="publisher-id">1471-2199-8-104</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2199-8-104</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The DeoR-type transcriptional regulator SugR acts as a repressor for genes encoding the phosphoenolpyruvate:sugar phosphotransferase system (PTS) in <italic>Corynebacterium glutamicum</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="A1" contrib-type="author">
+          <name>
+            <surname>Gaigalat</surname>
+            <given-names>Lars</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>lars.gaigalat@Genetik.Uni-Bielefeld.DE</email>
+        </contrib>
+        <contrib id="A2" contrib-type="author">
+          <name>
+            <surname>Schluter</surname>
+            <given-names>Jan-Philip</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>jschluet@Genetik.Uni-Bielefeld.DE</email>
+        </contrib>
+        <contrib id="A3" contrib-type="author">
+          <name>
+            <surname>Hartmann</surname>
+            <given-names>Michelle</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>hartmann@isas.de</email>
+        </contrib>
+        <contrib id="A4" contrib-type="author">
+          <name>
+            <surname>Mormann</surname>
+            <given-names>Sascha</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I4">4</xref>
+          <email>smormann@Genetik.Uni-Bielefeld.DE</email>
+        </contrib>
+        <contrib id="A5" contrib-type="author">
+          <name>
+            <surname>Tauch</surname>
+            <given-names>Andreas</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>tauch@Genetik.Uni-Bielefeld.DE</email>
+        </contrib>
+        <contrib id="A6" contrib-type="author">
+          <name>
+            <surname>Puhler</surname>
+            <given-names>Alfred</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>puehler@Genetik.Uni-Bielefeld.DE</email>
+        </contrib>
+        <contrib id="A7" corresp="yes" contrib-type="author">
+          <name>
+            <surname>Kalinowski</surname>
+            <given-names>Jorn</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>Joern.Kalinowski@Genetik.Uni-Bielefeld.DE</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Institut fur Genomforschung, Universitat Bielefeld, D-33594 Bielefeld, Germany</aff>
+      <aff id="I2"><label>2</label>Lehrstuhl fur Genetik, Universitat Bielefeld, D-33594 Bielefeld, Germany</aff>
+      <aff id="I3"><label>3</label>ISAS  -  Institute for Analytical Sciences, Department of Metabolomics, Bunsen-Kirchhoff-Str. 11, 44139 Dortmund, Germany</aff>
+      <aff id="I4"><label>4</label>University of Applied Sciences Lippe and Hoexter, Life Science Technologies, Laboratory of Microbiology, Liebigstr. 87, 32657 Lemgo, Germany</aff>
+      <pub-date pub-type="collection">
+        <year>2007</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>11</month>
+        <year>2007</year>
+      </pub-date>
+      <volume>8</volume>
+      <fpage>104</fpage>
+      <lpage>104</lpage>
+      <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/1471-2199/8/104"/>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>2</month>
+          <year>2007</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>11</month>
+          <year>2007</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2007 Gaigalat et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2007</copyright-year>
+        <copyright-holder>Gaigalat et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+          <!--<rdf xmlns="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:dcterms="http://purl.org/dc/terms"><Work xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about=""><license rdf:resource="http://creativecommons.org/licenses/by/2.0"/><dc:type rdf:resource="http://purl.org/dc/dcmitype/Text"/><dc:author>
+               Gaigalat
+               Lars
+               
+               
+               lars.gaigalat@Genetik.Uni-Bielefeld.DE
+            </dc:author><dc:title>
+            The DeoR-type transcriptional regulator SugR acts as a repressor for genes encoding the phosphoenolpyruvate:sugar phosphotransferase system (PTS) in Corynebacterium glutamicum
+         </dc:title><dc:date>2007</dc:date><dcterms:bibliographicCitation>BMC Molecular Biology 8(1): 104-. (2007)</dcterms:bibliographicCitation><dc:identifier type="sici">1471-2199(2007)8:1&#x0003c;104&#x0003e;</dc:identifier><dcterms:isPartOf>urn:ISSN:1471-2199</dcterms:isPartOf><License rdf:about="http://creativecommons.org/licenses/by/2.0"><permits rdf:resource="http://web.resource.org/cc/Reproduction" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/Distribution" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Notice" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Attribution" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" xmlns=""/></License></Work></rdf>-->
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>The major uptake system responsible for the transport of fructose, glucose, and sucrose in <italic>Corynebacterium glutamicum </italic>ATCC 13032 is the phosphoenolpyruvate:sugar phosphotransferase system (PTS). The genes encoding PTS components, namely <italic>ptsI</italic>, <italic>ptsH</italic>, and <italic>ptsF </italic>belong to the fructose-PTS gene cluster, whereas <italic>ptsG </italic>and <italic>ptsS </italic>are located in two separate regions of the <italic>C. glutamicum </italic>genome. Due to the localization within and adjacent to the fructose-PTS gene cluster, two genes coding for DeoR-type transcriptional regulators, <italic>cg2118 </italic>and <italic>sugR</italic>, are putative candidates involved in the transcriptional regulation of the fructose-PTS cluster genes.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Four transcripts of the extended fructose-PTS gene cluster that comprise the genes <italic>sugR-cg2116</italic>, <italic>ptsI</italic>, <italic>cg2118-fruK-ptsF</italic>, and <italic>ptsH</italic>, respectively, were characterized. In addition, it was shown that transcription of the fructose-PTS gene cluster is enhanced during growth on glucose or fructose when compared to acetate. Subsequently, the two genes <italic>sugR </italic>and <italic>cg2118 </italic>encoding for DeoR-type regulators were mutated and PTS gene transcription was found to be strongly enhanced in the presence of acetate only in the <italic>sugR </italic>deletion mutant. The SugR regulon was further characterized by microarray hybridizations using the <italic>sugR </italic>mutant and its parental strain, revealing that also the PTS genes <italic>ptsG </italic>and <italic>ptsS </italic>belong to this regulon. Binding of purified SugR repressor protein to a 21 bp sequence identified the SugR binding site as an AC-rich motif. The two experimentally identified SugR binding sites in the fructose-PTS gene cluster are located within or downstream of the mapped promoters, typical for transcriptional repressors. Effector studies using electrophoretic mobility shift assays (EMSA) revealed the fructose PTS-specific metabolite fructose-1-phosphate (F-1-P) as a highly efficient, negative effector of the SugR repressor, acting in the micromolar range. Beside F-1-P, other sugar-phosphates like fructose-1,6-bisphosphate (F-1,6-P) and glucose-6-phosphate (G-6-P) also negatively affect SugR-binding, but in millimolar concentrations.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>In <italic>C. glutamicum </italic>ATCC 13032 the DeoR-type regulator SugR acts as a pleiotropic transcriptional repressor of all described PTS genes. Thus, in contrast to most DeoR-type repressors described, SugR is able to act also on the transcription of the distantly located genes <italic>ptsG </italic>and <italic>ptsS </italic>of <italic>C. glutamicum</italic>. Transcriptional repression of the fructose-PTS gene cluster is observed during growth on acetate and transcription is derepressed in the presence of the PTS sugars glucose and fructose. This derepression of the fructose-PTS gene cluster is mainly modulated by the negative effector F-1-P, but reduced sensitivity to the other effectors, F-1,6-P or G-6-P might cause differential transcriptional regulation of genes of the general part of the PTS (<italic>ptsI, ptsH</italic>) and associated genes encoding sugar-specific functions (<italic>ptsF, ptsG, ptsS</italic>).</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>A sugar transport system which is widespread among various microorganisms is the phosphoenolpyruvate:sugar phosphotransferase system (PTS) [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>]. The PTS is characterized by the uptake of the carbon source, which is simultaneously phosphorylated resulting in intracellular sugar-phosphate. The transfer of the phosphate group to its substrate consists of five distinct reactions. The first step is the autophosphorylation of enzymeI, where phosphoenolpyruvate acts as the phosphate donor. Secondly, enzymeI transfers the phosphate group to the His-15 residue of the HPr protein. EnzymeI and HPr together are designated the general or central part of the PTS. HPr, in turn, transfers the phosphate group to the substrate-specific enzymesII. In general, enzymeII consists of two hydrophilic domains (IIA and IIB) and one transmembrane domain (IIC). Subsequently, the phosphate group is transferred within the enzymeII complex from domain IIA to domain IIB. The IIC-domain transports the substrate into the cell and the phosphate group is finally transfered from IIB to the substrate and the phosphorylated sugar is released into the cytoplasm [<xref ref-type="bibr" rid="B3">3</xref>].</p>
+      <p>The fast growing, Gram-positive bacterium <italic>Corynebacterium glutamicum </italic>is widely used for the fermentative production of amino acids [<xref ref-type="bibr" rid="B4">4</xref>] and the PTS system is the major uptake system responsible for the transport of fructose, glucose, and sucrose in this organism [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>]. In <italic>C. glutamicum </italic>ATCC 13032 five genes were identified, which encode proteins with known functions in the PTS (Table <xref ref-type="table" rid="T1">1</xref>). In detail, <italic>ptsI </italic>encodes the enzymeI and <italic>ptsH </italic>the enzyme HPr of the general part of the PTS [<xref ref-type="bibr" rid="B7">7</xref>]. Furthermore, <italic>ptsG </italic>encodes the sugar-specific enzymeII involved in the uptake of glucose, <italic>ptsS </italic>is involved in sucrose uptake, and finally <italic>ptsF </italic>is responsible for the uptake of fructose [<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref>]. However, physiological results were already obtained for the function of all PTS genes with known function in <italic>C. glutamicum </italic>[<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B9">9</xref>]. Additionally, for the general part of the PTS, the activities of enzymeI and HPr were demonstrated in a cell-free assay. PTS-dependent transport and the physiological function of the <italic>ptsG </italic>gene in the uptake of glucose were also investigated [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B10">10</xref>]. Genetically engineered mutations in the putative glucose- and sucrose-specific enzymesII encoded by <italic>ptsG </italic>and <italic>ptsS</italic>, revealed impaired growth on glucose and sucrose, respectively, indicating glucose transport by PtsG and sucrose transport by PtsS [<xref ref-type="bibr" rid="B8">8</xref>]. Inactivation of the <italic>ptsF </italic>gene resulted in a significantly reduced growth on fructose as a sole carbon source, therewith indicating the function of PtsF in fructose uptake [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref>]. Furthermore, PtsF-defective mutants showed a diminished growth rate compared to the wild type with sucrose as a sole carbon source, and additionally an accumulation of external fructose during exponential growth [<xref ref-type="bibr" rid="B6">6</xref>]. Due to the lack of a fructokinase activity in <italic>C. glutamicum </italic>the internally liberated fructose, resulting from the cleavage of sucrose-6-phosphate taken up by PtsS, cannot be metabolized and is exported [<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B8">8</xref>]. Therefore, PtsF activity is also necessary to import the external fructose in order to completely metabolize sucrose. Furthermore, Moon et al. [<xref ref-type="bibr" rid="B8">8</xref>] identified one enzymeII encoded by <italic>cg3365 </italic>and <italic>cg3366 </italic>with unknown substrate specifity.</p>
+      <table-wrap position="float" id="T1">
+        <label>Table 1</label>
+        <caption>
+          <p>Molecular characteristics of PTS and putative PTS associated genes of <italic>C. glutamicum </italic>ATCC13032</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <thead>
+            <tr>
+              <td/>
+              <td align="left">
+                <bold>CDS</bold>
+                <sup>1</sup>
+              </td>
+              <td align="center">
+                <bold>NCBI No.</bold>
+                <sup>2</sup>
+              </td>
+              <td align="center">
+                <bold>gene name</bold>
+              </td>
+              <td align="center">
+                <bold>size [aa]</bold>
+              </td>
+              <td align="center">
+                <bold>size [kDa]</bold>
+              </td>
+              <td align="center">
+                <bold>Annotation</bold>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left">
+                <bold>ext.</bold>
+              </td>
+              <td align="left">
+                <italic>cg2115</italic>
+              </td>
+              <td align="center">NCgl1856</td>
+              <td align="center">
+                <italic>sugR</italic>
+              </td>
+              <td align="center">259</td>
+              <td align="center">27.6</td>
+              <td align="left">Transcriptional regulator protein, DeoR-family</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg2116</italic>
+              </td>
+              <td align="center">NCgl1857</td>
+              <td align="center">-</td>
+              <td align="center">320</td>
+              <td align="center">34.1</td>
+              <td align="left">Putative 1-phosphofructokinase</td>
+            </tr>
+            <tr>
+              <td align="left">
+                <bold>fructose-PTS</bold>
+              </td>
+              <td align="left">
+                <italic>cg2117</italic>
+              </td>
+              <td align="center">NCgl1858</td>
+              <td align="center">
+                <italic>ptsI</italic>
+              </td>
+              <td align="center">568</td>
+              <td align="center">59.6</td>
+              <td align="left">Phosphotransferase system (PTS), enzyme I</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg2118</italic>
+              </td>
+              <td align="center">NCgl1859</td>
+              <td align="center">-</td>
+              <td align="center">264</td>
+              <td align="center">28.0</td>
+              <td align="left">Putative transcriptional regulator protein, DeoR-family</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg2119</italic>
+              </td>
+              <td align="center">NCgl1860</td>
+              <td align="center">
+                <italic>fruK</italic>
+              </td>
+              <td align="center">330</td>
+              <td align="center">34.0</td>
+              <td align="left">1-phosphofructokinase</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg2120</italic>
+              </td>
+              <td align="center">NCgl1861</td>
+              <td align="center">
+                <italic>ptsF</italic>
+              </td>
+              <td align="center">688</td>
+              <td align="center">70.5</td>
+              <td align="left">Fructose-specific PTS component, enzyme IIABC</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg2121</italic>
+              </td>
+              <td align="center">NCgl1862</td>
+              <td align="center">
+                <italic>ptsH</italic>
+              </td>
+              <td align="center">89</td>
+              <td align="center">9.1</td>
+              <td align="left">Phosphocarrier protein HPr, PTS component</td>
+            </tr>
+            <tr>
+              <td align="left">
+                <bold>non clustered</bold>
+              </td>
+              <td align="left">
+                <italic>cg1537</italic>
+              </td>
+              <td align="center">NCgl1305</td>
+              <td align="center">
+                <italic>ptsG</italic>
+              </td>
+              <td align="center">683</td>
+              <td align="center">72.6</td>
+              <td align="left">Glucose-specific PTS component, enzyme IIBCA</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg2925</italic>
+              </td>
+              <td align="center">NCgl2553</td>
+              <td align="center">
+                <italic>ptsS</italic>
+              </td>
+              <td align="center">661</td>
+              <td align="center">69.1</td>
+              <td align="left">Sucrose-specific PTS component, enzyme IIBCA</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg3365</italic>
+              </td>
+              <td align="center">NCgl2933</td>
+              <td align="center">
+                <italic>-</italic>
+              </td>
+              <td align="center">513</td>
+              <td align="center">52.7</td>
+              <td align="left">L-ascorbate type PTS component, enzyme IIC</td>
+            </tr>
+            <tr>
+              <td/>
+              <td align="left">
+                <italic>cg3366</italic>
+              </td>
+              <td align="center">NCgl2934</td>
+              <td align="center">
+                <italic>-</italic>
+              </td>
+              <td align="center">270</td>
+              <td align="center">29.0</td>
+              <td align="left">L-ascorbate type PTS component, enzyme IIAB</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <p><sup>1 </sup>Coding sequences (CDS) are numbered in reference to the complete genome sequence of <italic>C. glutamicum </italic>(GenBank accession number BX927147).</p>
+          <p><sup>2 </sup>Numbers in the genome database of the National Center for Biotechnology Information (NCBI No.).</p>
+        </table-wrap-foot>
+      </table-wrap>
+      <p>The transcriptional regulation of genes involved in PTS transport are well studied in a variety of Gram-negative and low-G+C Gram-positive bacteria [<xref ref-type="bibr" rid="B12">12</xref>-<xref ref-type="bibr" rid="B15">15</xref>]. However, little is known about gene regulation of PTS in Corynebacteria. An HPr-kinase/phosphatase activity as well as the essentially conserved serine-residue 46 in the HPr amino acid sequence, which exerts carbon catabolite control in low-G+C Gram-positive bacteria, was not detected in <italic>C. glutamicum </italic>[<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B16">16</xref>]. Additionally, genes encoding transcriptional antiterminators of the BglG-family like GlcT of <italic>B. subtilis </italic>(regulation of the <italic>ptsGHI </italic>operon) or BglG of <italic>E. coli </italic>(regulation of the beta-glucoside PTS) are only represented by a pseudogene in the genome of <italic>C. glutamicum </italic>ATCC 13032 (<italic>cg3144</italic>'/NCgl2743') [<xref ref-type="bibr" rid="B17">17</xref>]. However, it has to be noted that other <italic>C. glutamicum </italic>isolates apparently have functional copies of antiterminator-like genes as well as additional genes for enzymes II [<xref ref-type="bibr" rid="B18">18</xref>]. As another transcriptional regulatory system, in the low G+C Gram-positive bacterium <italic>Streptococcus gordonii </italic>the DeoR-type regulator FruR was characterized, which controls fructose-PTS gene expression in dependence of fructose, sucrose or xylitol [<xref ref-type="bibr" rid="B15">15</xref>]. The expression of the PTS genes <italic>ptsF</italic>, <italic>ptsG</italic>, and <italic>ptsS </italic>in <italic>C. glutamicum </italic>was initially considered to be constitutive [<xref ref-type="bibr" rid="B19">19</xref>], but recently, <italic>ptsG </italic>transcription was observed to be induced by switching from biomass to L-lysine production [<xref ref-type="bibr" rid="B20">20</xref>]. However, a global carbon regulation in <italic>Corynebacterium glutamicum </italic>could not be observed until now, but candidate genes associated with the PTS were recently reviewed [<xref ref-type="bibr" rid="B21">21</xref>].</p>
+      <p>The aim of this study was the characterization of the transcriptional regulation of PTS genes in <italic>C. glutamicum</italic>. By first analysing gene transcription in the fructose-PTS gene cluster and transcriptional regulation of all known PTS genes, we found a PTS-sugar specific transcriptional regulation of all PTS genes. By deletion mutagenesis of <italic>cg2115 </italic>(<italic>sugR</italic>) and expression analysis by real-time-RT-PCR and microarray hybridization, SugR was identified as a pleiotropic transcriptional regulator of all PTS genes. Electrophoretic mobility shift assays with purified SugR protein were employed to determine the SugR binding sites and its effector metabolites.</p>
+      <p>During the preparation of this manuscript, Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>] reported the identification of the DeoR-type transcriptional regulator encoded by the gene <italic>sugR </italic>in <italic>C. glutamicum</italic>, acting as a transcriptional repressor of the <italic>ptsG </italic>gene. By comparing a <italic>sugR </italic>mutant with its parent strain by microarray hybridization, these authors found that the <italic>ptsF </italic>and <italic>ptsS </italic>genes are under the control of this regulator, which they termed SugR. The transcriptional role of SugR was extended in this work to the fructose-PTS cluster genes <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, and <italic>ptsH </italic>and completes the understanding for the expression of all described PTS genes in <italic>C. glutamicum </italic>in general and the expression of the genes of the fructose-PTS cluster in detail. Furthermore, the effector studies in this work points to a sugar specific regulation of these genes similar to the TrmB regulator of <italic>Thermococcus litoralis </italic>and <italic>Pyrococcus furiosus </italic>[<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>].</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>The extended fructose-PTS gene cluster of <italic>C. glutamicum </italic>contains four transcriptional units</title>
+        <p>In the genome of <italic>C. glutamicum </italic>ATCC 13032 [<xref ref-type="bibr" rid="B17">17</xref>], the locations of the five PTS genes <italic>ptsI</italic>, <italic>ptsH</italic>,<italic>ptsF</italic>, <italic>ptsG</italic>, and <italic>ptsS </italic>were identified. On this account, the PTS genes can be grouped into the fructose-PTS gene cluster (<italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH</italic>) and the distantly located glucose- and sucrose-PTS genes <italic>ptsG </italic>and <italic>ptsS</italic>, respectively, as well as the hitherto uncharacterized genes <italic>cg3365 </italic>and <italic>cg3366 </italic>(Table <xref ref-type="table" rid="T1">1</xref>). The genes <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH </italic>of the fructose-PTS cluster together with the region encoding <italic>sugR </italic>and <italic>cg2116 </italic>form the extended fructose-PTS gene cluster (Table <xref ref-type="table" rid="T1">1</xref>).</p>
+        <p>In order to analyse the transcriptional organization of the extended fructose-PTS gene cluster, mRNA transcripts overlapping adjacent coding regions were investigated by real-time RT-PCR. In these experiments, mRNAs spanning the intergenic regions between <italic>sugR </italic>and <italic>cg2116</italic>, <italic>cg2118 </italic>and <italic>fruK</italic>, <italic>fruK </italic>and <italic>ptsF</italic>, and between <italic>ptsF </italic>and <italic>ptsH</italic>, respectively, were detected in the <italic>C. glutamicum </italic>strain RES167 grown on glucose (data not shown). However, a non-coding region of 188 bp between the coding regions of <italic>ptsF </italic>and <italic>ptsH </italic>was observed indicating a possible promoter upstream of <italic>ptsH</italic>. Considering these observations and the localization of <italic>ptsI </italic>on the opposite strand, it is most likely, that the genes <italic>sugR</italic>-<italic>cg2116 </italic>and <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>form two operons, whereas <italic>ptsI </italic>is monocistronic. Although a read-through transcription from <italic>ptsF </italic>to <italic>ptsH </italic>was detected, the <italic>ptsH </italic>gene is probably also transcribed monocistronically. The operon predictions by the computer program VIMSS [<xref ref-type="bibr" rid="B25">25</xref>] and the predicted positions of transcriptional terminators 3' of <italic>cg2116</italic>, <italic>ptsI </italic>and <italic>ptsH </italic>determined by the computer program TransTerm [<xref ref-type="bibr" rid="B26">26</xref>], depicted as stem-loop structures in Fig. <xref ref-type="fig" rid="F1">1A</xref>, support this view.</p>
+        <fig position="float" id="F1">
+          <label>Figure 1</label>
+          <caption>
+            <p>The transcriptional organization of the genes in the extended fructose-PTS cluster of <italic>C. glutamicum</italic>. A) The extended fructose-PTS gene cluster as well as its transcriptional elements are depicted. Gene overlapping RT-PCR products are indicated by black bars and numbered. Transcriptional terminators predicted by TransTerm [26] are denoted as stem loop structures. Positions of the transcription start sites are indicated by arrows. B) The detailed sequences for the promoters P<sub><italic>sugR</italic></sub>, P<sub><italic>ptsI</italic></sub>, P<sub><italic>cg</italic><italic>2118</italic></sub>, and P<sub><italic>ptsH</italic></sub>. Transcription starts (+1), the distances to the translation start (in parentheses), and the start codons (underlined) are shown. The deduced-10 and -35 promoter regions are highlighted by dark and light grey boxes, respectively.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-1"/>
+        </fig>
+        <p>Consistent with these interpretations, four transcriptional start sites were localized upstream from the genes <italic>sugR</italic>, <italic>ptsI</italic>, <italic>cg2118</italic>, and <italic>ptsH</italic>, using the <underline>r</underline>apid <underline>a</underline>mplification of <underline>c</underline>DNA <underline>e</underline>nds (RACE) method (Fig. <xref ref-type="fig" rid="F1">1</xref>). The deduced promoter sequences showed similarities to the sequences of the -10 (Tac/taaT) and -35 (TTTGCC/TTGGCA/TTGCCA) regions of the <italic>C. glutamicum </italic>consensus promoter [<xref ref-type="bibr" rid="B27">27</xref>]. The promoter of the <italic>cg2118-fruK-ptsF </italic>operon showed the highest similarity to the consensus promoter, whereas the promoters of <italic>sugR-cg2116</italic>, <italic>ptsI</italic>, and <italic>ptsH </italic>were less conserved, especially in the -35 region, (Fig. <xref ref-type="fig" rid="F1">1B</xref>). Furthermore, it was found that the divergent promoters P<sub><italic>ptsI </italic></sub>and P<sub><italic>cg</italic><italic>2118</italic></sub>produce mRNAs overlapping by a complementary sequence of 14 nucleotides.</p>
+      </sec>
+      <sec>
+        <title>Transcription of the fructose-PTS gene cluster is enhanced in <italic>C. glutamicum </italic>cultures grown on glucose or fructose when compared to cultures grown on acetate</title>
+        <p>In order to investigate a carbon source-dependent expression of the genes belonging to the extended fructose-PTS gene cluster, the transcription levels were investigated by RT-PCR experiments. For this purpose, total mRNA was isolated from <italic>C. glutamicum </italic>RES167, grown in minimal media containing acetate, glucose or fructose as a sole carbon source. Glucose and fructose were employed as PTS sugars requiring the expression of the PTS gene cluster for their uptake, whereas acetate represents a non-PTS carbon source. The relative mRNA amounts of the genes belonging to the extended fructose-PTS cluster (<italic>sugR </italic>to <italic>ptsH</italic>) were determined using real-time RT-PCR. The values from the glucose- and fructose-grown cultures were compared to those obtained from cultures grown on acetate (Fig. <xref ref-type="fig" rid="F2">2</xref>). The mRNA levels of <italic>sugR </italic>and <italic>cg2116 </italic>showed only minor changes during growth on glucose and fructose in comparison to acetate. In contrast to this, all genes of the fructose-PTS gene cluster from <italic>cg2117 </italic>(<italic>ptsI</italic>) to <italic>cg2120 </italic>(<italic>ptsH</italic>) showed significantly higher mRNA levels during growth on glucose and fructose. The levels of the genes <italic>ptsI </italic>and <italic>ptsH </italic>did not differ between cells grown on glucose and fructose. This is in accordance with the need for expression in the presence of both sugars. In contrast to this, mRNA isolated from fructose grown cultures showed significantly higher transcription of <italic>cg2118</italic>, <italic>fruK</italic>, and <italic>ptsF</italic>. The different expression patterns of <italic>cg2118</italic>, <italic>fruK</italic>, and <italic>ptsF </italic>in cultures grown on glucose or fructose as sole carbon sources correlated with the requirement of the cell for a higher expression of the fructose-specific enzymeII (<italic>ptsF</italic>) and the 1-phosphofructokinase encoded by <italic>fruK </italic>with fructose as the sole carbon source. These results are a clear indication for a carbon source-dependent transcriptional regulation of the genes of the PTS cluster.</p>
+        <fig position="float" id="F2">
+          <label>Figure 2</label>
+          <caption>
+            <p>Transcriptional regulation of the extended PTS cluster genes of <italic>C. glutamicum </italic>cultures grown in liquid media containing glucose, fructose, or acetate. The strain RES167 was grown in liquid media containing glucose, fructose, or acetate. By RT-PCR the mRNA levels of the genes <italic>sugR</italic>, <italic>cg2116</italic>, <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH </italic>of cultures grown in glucose (white bars) or fructose (grey bars) were compared to those of cultures grown in acetate containing media. Results are means of four measurements from two biological replicates. Standard deviations are indicated by error bars.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>The sugR gene is involved in the transcriptional regulation of the fructose-PTS cluster containing <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH </italic>of <italic>C. glutamicum</italic></title>
+        <p>Due to the classification of <italic>sugR </italic>and <italic>cg2118 </italic>as DeoR-type regulators, they are both interesting candidate genes for investigating their involvement in the carbon source-dependent transcriptional regulation of the fructose-PTS cluster genes. Single deletion mutants of <italic>sugR </italic>and <italic>cg2118 </italic>were constructed by gene replacement in <italic>C. glutamicum </italic>RES167 in order to elucidate the possible roles in this regulation (data not shown). These deletions removed 242 of 780 nucleotides from the <italic>sugR </italic>coding region and 674 of 795 nucleotides from the <italic>cg2118 </italic>coding region, rendering the respective gene non-functional and resulting in strains LG01 (RES167 Delta<italic>sugR</italic>) and LG02 (RES167 Delta<italic>cg2118</italic>), respectively.</p>
+        <p>The possible involvement of <italic>sugR </italic>or <italic>cg2118 </italic>in transcriptional regulation of <italic>ptsI</italic>, the <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>operon, and <italic>ptsH </italic>was determined by real-time RT-PCR. For these experiments, total mRNAs isolated from RES167 and the mutant strains LG01 and LG02 were used. The cells were grown in shaking flasks in liquid minimal media with 2% acetate as sole carbon source. Acetate as the sole carbon source was chosen, because an increased transcription of the fructose-PTS cluster genes could be observed when RES167 was grown on glucose and fructose instead on acetate. Therefore, growth on acetate may cause the transcriptional repression of the fructose-PTS cluster genes. To find out whether the <italic>sugR </italic>or the <italic>cg2118 </italic>gene product is involved in the transcriptional regulation of the fructose-PTS cluster genes, the expression in the two deletion mutants LG01 and LG02 was compared to the expression in the RES167 strain when all strains were grown on acetate. The analysis revealed a strongly increased transcription of the fructose-PTS cluster genes <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH </italic>in the <italic>sugR </italic>mutant LG01 (Fig. <xref ref-type="fig" rid="F3">3</xref>). In contrast to this, the transcription of the fructose-PTS cluster genes in the <italic>cg2118 </italic>mutant LG02 was only weakly influenced. It is therefore concluded, that the <italic>sugR </italic>gene product downregulates transcription of the fructose-PTS gene cluster during growth on acetate, whereas <italic>cg2118 </italic>and its gene product does not seem to be involved in the transcription of the fructose-PTS cluster genes under the applied experimental conditions.</p>
+        <fig position="float" id="F3">
+          <label>Figure 3</label>
+          <caption>
+            <p>Relative gene expressions of <italic>C. glutamicum </italic>fructose-PTS cluster genes in dependence on the regulatory genes <italic>sugR </italic>and <italic>cg2118</italic>. The <italic>C. glutamicum </italic>strains LG01, LG02, and RES167 were grown in liquid media containing acetate as sole carbon source. By RT-PCR the mRNA levels of the fructose-PTS cluster genes <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH </italic>of the mutant strains LG01 and LG02 were compared to those of RES167. Due to the deletion of the <italic>cg2118 </italic>coding region, the expression of the truncated <italic>cg2118 </italic>gene in the mutant LG02 could not be determined. Results are means of four measurements from two biological replicates. Standard deviations are indicated by error bars.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-3"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>The <italic>sugR </italic>gene of <italic>C. glutamicum </italic>is involved in the repression of PTS gene transcription</title>
+        <p>Comparative microarray hybridization experiments with total mRNA isolated from the <italic>cg2115 </italic>deletion mutant LG01 and the parental strain RES167 both grown on acetate were conducted in order to explore the complete SugR regulon. In the microarray experiments using the <italic>C. glutamicum </italic>whole-genome DNA microarray described previously [<xref ref-type="bibr" rid="B28">28</xref>], two biological replicates were hybridized, simultaneously applying label-swapping. The results of the microarray experiments comparing the <italic>sugR </italic>mutant and the RES167 strain revealed 23 genes with increased and five genes with decreased transcript levels in the <italic>sugR </italic>mutant. All genes of the fructose-PTS gene cluster were found in the group of genes with induced transcript levels (Fig. <xref ref-type="fig" rid="F4">4</xref> and Table <xref ref-type="table" rid="T2">2</xref>). Interestingly, the genes <italic>ptsG </italic>and <italic>ptsS</italic>, which encode the enzyme II proteins for the uptake of glucose and sucrose, respectively, were also found to have an elevated expression level. To confirm the microarray results, subsequent real-time RT-PCR measurements were conducted, which validated the enhanced transcription of <italic>ptsG </italic>and <italic>ptsS </italic>in the <italic>sugR </italic>mutant with ratios of 16.8 and 101.8 compared to RES167, respectively. Beside the PTS genes, the transcriptional levels of <italic>ldh </italic>and <italic>adhA </italic>encoding lactate dehydrogenase and alcohol dehydrogenase, respectively, were found to be significantly increased. Significant increases in transcript levels were also observed for <italic>cg2025 </italic>and <italic>cg2026</italic>, encoding hypothetical proteins. Besides <italic>ldh </italic>and <italic>adhA</italic>, no further genes with known function in carbon metabolism were found to be significantly induced.</p>
+        <fig position="float" id="F4">
+          <label>Figure 4</label>
+          <caption>
+            <p>Analyses of the transcriptomes of the <italic>C. glutamicum sugR </italic>mutant LG01 and its parent strain RES167 by microarray hybridizations. The strains were grown in liquid minimal media containing acetate as sole carbon source. Global gene expression of LG01 was compared to that of RES167 using microarray analyses performed on two biological and two technical replicates. Genes found to be significantly differentially expressed (m-value  GTEQ   +-  1) are indicated by green (elevated expression) or red (decreased expression) dots, respectively. Gene names belonging to the fructose-PTS gene cluster are boxed, and the non clustered PTS genes are underlined.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-4"/>
+        </fig>
+        <table-wrap position="float" id="T2">
+          <label>Table 2</label>
+          <caption>
+            <p>Differentially expressed genes deduced from the DNA microarray hybridization experiment comparing the transcriptomes of the <italic>sugR </italic>mutant LG01 with its parent strain RES167 during growth on acetate</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <td align="center">
+                  <bold>CDS</bold>
+                </td>
+                <td align="center">
+                  <bold>NCBI No.</bold>
+                </td>
+                <td align="center">
+                  <bold>Gene name</bold>
+                </td>
+                <td align="center">
+                  <bold>m-value</bold>
+                </td>
+                <td align="center">
+                  <bold>a-value</bold>
+                </td>
+                <td align="center">
+                  <bold>Annotation</bold>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">
+                  <italic>cg2026</italic>
+                </td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">3.53</td>
+                <td align="center">11.68</td>
+                <td align="left">Hypothetical protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2925</italic>
+                </td>
+                <td align="center">NCgl2553</td>
+                <td align="center">
+                  <italic>ptsS</italic>
+                </td>
+                <td align="center">3.39</td>
+                <td align="center">11.87</td>
+                <td align="left">Phosphotransferase system (PTS), sucrose-specific enzyme IIBCA component</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2120</italic>
+                </td>
+                <td align="center">NCgl1861</td>
+                <td align="center">
+                  <italic>ptsF</italic>
+                </td>
+                <td align="center">3.27</td>
+                <td align="center">12.04</td>
+                <td align="left">Phosphotransferase system (PTS), fructose-specific enzyme IIABC component</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg3107</italic>
+                </td>
+                <td align="center">NCgl2709</td>
+                <td align="center">
+                  <italic>adhA</italic>
+                </td>
+                <td align="center">3.23</td>
+                <td align="center">13.00</td>
+                <td align="left">Alcohol dehydrogenase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2118</italic>
+                </td>
+                <td align="center">NCgl1859</td>
+                <td align="center">-</td>
+                <td align="center">3.00</td>
+                <td align="center">12.00</td>
+                <td align="left">Transcriptional regulator protein, DeoR-family</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg1537</italic>
+                </td>
+                <td align="center">NCgl1305</td>
+                <td align="center">
+                  <italic>ptsG</italic>
+                </td>
+                <td align="center">2.70</td>
+                <td align="center">11.97</td>
+                <td align="left">Phosphotransferase system (PTS), glucose-specific enzyme IIBCA component</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2119</italic>
+                </td>
+                <td align="center">NCgl1860</td>
+                <td align="center">
+                  <italic>fruK</italic>
+                </td>
+                <td align="center">2.67</td>
+                <td align="center">11.59</td>
+                <td align="left">1-Phosphofructokinase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2025</italic>
+                </td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">2.62</td>
+                <td align="center">11.43</td>
+                <td align="left">Hypothetical protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2034</italic>
+                </td>
+                <td align="center">NCgl1739</td>
+                <td align="center">-</td>
+                <td align="center">2.38</td>
+                <td align="center">11.24</td>
+                <td align="left">Hypothetical protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2117</italic>
+                </td>
+                <td align="center">NCgl1858</td>
+                <td align="center">
+                  <italic>ptsI</italic>
+                </td>
+                <td align="center">2.13</td>
+                <td align="center">12.28</td>
+                <td align="left">Phosphotransferase system (PTS), Enzyme I</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg3219</italic>
+                </td>
+                <td align="center">NCgl2810</td>
+                <td align="center">
+                  <italic>ldh</italic>
+                </td>
+                <td align="center">1.88</td>
+                <td align="center">13.51</td>
+                <td align="left">L-Lactate dehydrogenase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2001</italic>
+                </td>
+                <td align="center">NCgl1708</td>
+                <td align="center">-</td>
+                <td align="center">1.82</td>
+                <td align="center">10.75</td>
+                <td align="left">Conserved hypothetical protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg1992</italic>
+                </td>
+                <td align="center">NCgl1699</td>
+                <td align="center">-</td>
+                <td align="center">1.55</td>
+                <td align="center">11.25</td>
+                <td align="left">Hypothetical protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2121</italic>
+                </td>
+                <td align="center">NCgl1862</td>
+                <td align="center">
+                  <italic>ptsH</italic>
+                </td>
+                <td align="center">1.39</td>
+                <td align="center">13.62</td>
+                <td align="left">Phosphotransferase system (PTS), phosphocarrier protein HPr</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg0683</italic>
+                </td>
+                <td align="center">NCgl0565</td>
+                <td align="center">-</td>
+                <td align="center">1.39</td>
+                <td align="center">11.50</td>
+                <td align="left">Putative permease</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2030</italic>
+                </td>
+                <td align="center">NCgl1735</td>
+                <td align="center">-</td>
+                <td align="center">1.31</td>
+                <td align="center">10.61</td>
+                <td align="left">Hypothetical protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg1761</italic>
+                </td>
+                <td align="center">NCgl1500</td>
+                <td align="center">
+                  <italic>nifS2</italic>
+                </td>
+                <td align="center">1.19</td>
+                <td align="center">13.00</td>
+                <td align="left">Cysteine desulfhydrase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg0812</italic>
+                </td>
+                <td align="center">NCgl0678</td>
+                <td align="center">
+                  <italic>dtsR1</italic>
+                </td>
+                <td align="center">1.18</td>
+                <td align="center">13.13</td>
+                <td align="left">Acetyl/propionyl-CoA carboxylase, beta chain</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg3112</italic>
+                </td>
+                <td align="center">NCgl2713</td>
+                <td align="center">
+                  <italic>cysZ</italic>
+                </td>
+                <td align="center">1.15</td>
+                <td align="center">12.19</td>
+                <td align="left">Sulfate transporter</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg0898</italic>
+                </td>
+                <td align="center">NCgl0754</td>
+                <td align="center">-</td>
+                <td align="center">1.14</td>
+                <td align="center">11.73</td>
+                <td align="left">Pyridoxine biosynthesis enzyme</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2033</italic>
+                </td>
+                <td align="center">NCgl1738</td>
+                <td align="center">-</td>
+                <td align="center">1.12</td>
+                <td align="center">10.89</td>
+                <td align="left">Putative secreted protein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2703</italic>
+                </td>
+                <td align="center">NCgl2373</td>
+                <td align="center">-</td>
+                <td align="center">1.07</td>
+                <td align="center">11.98</td>
+                <td align="left">ABC-type putative sugar transporter, permease subunit</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg1290</italic>
+                </td>
+                <td align="center">NCgl1094</td>
+                <td align="center">
+                  <italic>metE</italic>
+                </td>
+                <td align="center">1.00</td>
+                <td align="center">14.45</td>
+                <td align="left">5-Methyltetrahydropteroyltriglutamate-homocysteine methyltransferase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg3096</italic>
+                </td>
+                <td align="center">NCgl2698</td>
+                <td align="center">-</td>
+                <td align="center">-1.00</td>
+                <td align="center">13.42</td>
+                <td align="left">Aldehyde dehydrogenase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2911</italic>
+                </td>
+                <td align="center">NCgl2539</td>
+                <td align="center">-</td>
+                <td align="center">-1.00</td>
+                <td align="center">14.12</td>
+                <td align="left">ABC-type putative Mn/Zn transporter, substrate-binding lipoprotein</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg1055</italic>
+                </td>
+                <td align="center">NCgl0888</td>
+                <td align="center">
+                  <italic>menG</italic>
+                </td>
+                <td align="center">-1.21</td>
+                <td align="center">12.74</td>
+                <td align="left">S-Adenosylmethionine:2-demethylmenaquinone methyltransferase</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg2320</italic>
+                </td>
+                <td align="center">NCgl2034</td>
+                <td align="center">-</td>
+                <td align="center">-1.25</td>
+                <td align="center">13.24</td>
+                <td align="left">Putative transcriptional regulator, ArsR-family</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <italic>cg3057</italic>
+                </td>
+                <td align="center">NCgl2664</td>
+                <td align="center">-</td>
+                <td align="center">-2.10</td>
+                <td align="center">13.37</td>
+                <td align="left">Putative secreted protein</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>1 </sup>Coding sequences (CDS) are numbered in reference to the complete genome sequence of <italic>C. glutamicum </italic>(GenBank accession number BX927147)</p>
+            <p><sup>2 </sup>Numbers in the genome database of the National Center for Biotechnology Information (NCBI No.)</p>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Since Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>] also compared global transcript levels by microarray hybridizations in a <italic>sugR </italic>mutant and its parent strain, the resulting stimulon can be compared to the one obtained in this work. In the intersection of the genes showing elevated transcript levels in both experiments, only the PTS genes mentioned above are apparent. The remaining genes corresponding to each stimulon are different between both studies and might be a result of the different growth conditions used (LB versus minimal media with acetate) or might be results of an indirect effect of the derepression of PTS gene transcription.</p>
+      </sec>
+      <sec>
+        <title>The SugR protein of <italic>C. glutamicum </italic>binds to sequences located upstream of the coding regions of <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>ptsH</italic>, <italic>ptsG</italic>, and <italic>ptsS</italic></title>
+        <p>To verify the direct involvement of the SugR protein in the regulation of the PTS gene cluster electrophoretic mobility shift assays (EMSA) were performed. For these experiments the SugR protein was purified after overexpression in <italic>E. coli </italic>as an N-terminal translational fusion with a self-cleavable intein tag using the pTYB1 vector [<xref ref-type="bibr" rid="B29">29</xref>]. The advantage of this system is that the native protein can be obtained without an additional attached tag sequence. The quality of the purified protein was controlled by 1-dimensional SDS-PAGE and its size was estimated to be ~28 kDa. This observation is in accordance with the annotation of the <italic>sugR </italic>coding region, which is predicted to encode a 27.6 kDa protein with an N-terminal DeoR-domain comprising a helix-turn-helix (HTH) motif. The identity of SugR was subsequently confirmed by peptide mass fingerprinting using MALDI-TOF mass spectrometry (data not shown).</p>
+        <p>As binding partners for SugR in the EMSA experiments, overlapping and fluorescently-labeled PCR fragments from the intergenic regions between <italic>ptsI </italic>and <italic>cg2118</italic>, as well as the regions upstream from the coding regions of <italic>sugR, ptsH, ptsG, ptsS, adhA, cg2025</italic>, and <italic>cg2026 </italic>were generated. As negative controls, internal DNA fragments of the <italic>cg2118- </italic>and <italic>ptsH-</italic>coding region were also produced by PCR and incubated with the purified protein to test for non-specific binding of the protein (data not shown).</p>
+        <p>For the gel retardation experiments 15 pmol of the SugR protein and 0.05 pmol of the fluorescently-labeled PCR fragments were used. It was shown that SugR caused band-shifts in experiments with DNA fragments I1, I2, and I4 located in the <italic>ptsI</italic>-<italic>cg2118 </italic>intergenic region (Fig. <xref ref-type="fig" rid="F5">5</xref>). Furthermore, binding of the purified SugR protein was observed to the DNA fragment H1 which is located upstream of the <italic>ptsH </italic>coding region, to the fragments G1 and G2 located upstream of the <italic>ptsG </italic>coding region and to the fragments S1 to S3 derived upstream of the coding region of <italic>ptsS</italic>.</p>
+        <fig position="float" id="F5">
+          <label>Figure 5</label>
+          <caption>
+            <p>Electrophoretic mobility shift assays (EMSA) with selected upstream DNA fragments of PTS coding regions using the purified SugR protein. The physical maps of the extended fructose-PTS gene cluster as well as of the genes <italic>ptsG </italic>and <italic>ptsS </italic>are shown. Beneath the maps the fluorescently labelled PCR fragments are indicated which were used for EMSA studies. These studies were carried out with 15 pmol of purified SugR protein and 0.05 pmol of labeled PCR fragments. The results obtained for each PCR fragment are presented by agarose gel photos. In each picture, the left lane shows the shift in presence of the SugR protein, whereas the right lane shows the negative control without added SugR protein. Transcriptional terminators are denoted as stem loop structures.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-5"/>
+        </fig>
+        <p>The promoter region of <italic>sugR </italic>was also tested for SugR binding, but no shifts of the labeled PCR fragments were detected (Fig. <xref ref-type="fig" rid="F5">5</xref>). Furthermore, labeled PCR fragments upstream of the <italic>cg2025</italic>, <italic>cg2026</italic>, and <italic>adhA </italic>coding regions were tested in EMSA experiments, but no binding of SugR was observed (data not shown).</p>
+      </sec>
+      <sec>
+        <title>The <italic>C. glutamicum </italic>SugR repressor binds to two 21 bp DNA regions interfering with <italic>ptsI </italic>and <italic>cg2118-fruK-ptsF </italic>transcription</title>
+        <p>As described above, SugR binding was detected to the DNA fragments I2 and I4 located in the intergenic region between <italic>ptsI </italic>and <italic>cg2118</italic>. In contrast, no binding to the DNA fragment I3 was observed. These observations helped to identify two genetic regions A and B which are proposed to carry the specific binding sites for SugR (Fig. <xref ref-type="fig" rid="F6">6A</xref>). Region A is a 59 bp long sub-region of the DNA fragment I2 and region B is a 87 bp long sub-region of I4. DNA sequence comparison of regionA to regionB revealed highly similar sequences of 21 nucleotides in length. To confirm these motifs as putative SugR binding sequences, double-stranded(ds)-oligonucleotides perfectly matching the 21 nucleotides with four flanking basepairs, representing the original genomic sequence on both sides, were used in competitive EMSA experiments and denoted as oligoA and oligoB, respectively (Fig. <xref ref-type="fig" rid="F6">6B</xref>). Interestingly, both oligonucleotides were able to displace the labeled DNA fragment I2. To further verify the binding sequence of SugR, ds-oligonucleotides with transversions of the four flanking basepairs of oligoA and oligoB, resulted in oligoAt and oligoBt, respectively, which were used in additional EMSA experiments (Fig. <xref ref-type="fig" rid="F6">6B</xref>). OligoAt and oligoBt, however, showed no differences in the competitory EMSA experiments compared to oligoA and oligoB, defining both 21 bp long binding motifs as sufficient for SugR binding. According to the localization of the two SugR binding motifs in regionA and regionB of the DNA fragments I2 and I4, respectively (Fig. <xref ref-type="fig" rid="F6">6A</xref>), these two motifs were named motifA and motifB.</p>
+        <fig position="float" id="F6">
+          <label>Figure 6</label>
+          <caption>
+            <p>Identification of the SugR binding motifs by competitve EMSA studies. A) Detailed view of the <italic>ptsI/cg2118 </italic>intergenic region. For EMSA studies 15 pmol of the DNA fragments I2, I3, and I4 were used with 0.05 pmol of SugR protein. The DNA fragment I3 showed no binding of SugR, confining fragment A and fragment B carrying one SugR binding motif each. Similar sequences representing putative binding motifs in the fragments A and B are highlighted in bold letters. B) Validation of the binding motifs by competitive EMSA experiments. OligoA and oligoB represent doublestranded(ds)-oligonucleotides carrying the similar sequences of fragment A and B, respectively, with native bordering sequences. OligoAt and oligoBt represent those with modified bordering sequences. All four ds-oligonucleotides were used as competetive DNA fragments in EMSA experiments using 15 pmol purified SugR protein and 0.05 pmol of labeled DNA fragment I2. The I2/SugR-mixture was incubated with indicated amounts of the competitory (ds)-oligonucleotides. The mixture of the DNA fragment I2 and the SugR protein was used as positive control and the DNA fragment I2 alone as negative control.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-6"/>
+        </fig>
+        <p>Subsequently, the positions of the two 21 bp SugR binding sequences motifA and motifB were mapped in the intergenic region between the coding regions of <italic>ptsI </italic>and <italic>cg2118 </italic>(Fig. <xref ref-type="fig" rid="F7">7</xref>). The two experimentally proven binding motifs in the intergenic region between <italic>ptsI </italic>and <italic>cg2118 </italic>are located within P<sub><italic>cg</italic><italic>2118</italic></sub>and downstream of P<sub><italic>ptsI </italic></sub>(motifA), or downstream the P<sub><italic>cg</italic><italic>2118</italic></sub>(motifB), respectively. Due to the divergent orientation of the coding regions <italic>ptsI </italic>and <italic>cg2118 </italic>and the overlapping transcripts from the promoters P<sub><italic>cg</italic><italic>2118</italic></sub>and P<sub><italic>ptsI</italic></sub>, binding of SugR to motifA will interfere with transcription from both promoters, whereas the binding of SugR to motifB will only interfere with the transcription from P<sub><italic>cg</italic><italic>2118</italic></sub>.</p>
+        <fig position="float" id="F7">
+          <label>Figure 7</label>
+          <caption>
+            <p>The organization of the intergenic region between the <italic>C. glutamicum </italic>genes <italic>ptsI </italic>and <italic>cg2118 </italic>containing the binding motifs A and B. The double stranded sequence of the intergenic region between <italic>ptsI </italic>and <italic>cg2118 </italic>is shown. The experimentally proven binding motifs A and B are also boxed. The transcriptional start sites for the two genes are indicated as P<sub><italic>ptsI </italic></sub>and P<sub><italic>cg</italic><italic>2118</italic></sub>. The predicted -10 and -35 promoter regions are shown as dark grey boxes, respectively. The translational start codons of <italic>ptsI </italic>and <italic>cg2118 </italic>are underlined.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-7"/>
+        </fig>
+        <p>To find additional binding sites of SugR, sequence alignments of motifA and motifB to the upstream coding regions of <italic>ptsH</italic>, <italic>ptsG </italic>and <italic>ptsS </italic>were conducted. In these alignments, only DNA regions which showed a band-shift in the EMSA experiments were used.</p>
+        <p>By this, two putative binding motifs were found upstream of the coding regions of <italic>ptsH </italic>and <italic>ptsG </italic>and <italic>ptsS </italic>namely ptsH1, ptsH2 and ptsG1, ptsG2 and ptsS1, ptsS2 respectively (Fig. <xref ref-type="fig" rid="F8">8</xref>). Concluding, these experiments led to the identification of eight binding motifs. Two validated SugR binding sequences motifA and motifB located in the intergenic region of <italic>ptsI </italic>and <italic>cg2118</italic>, as well as six putative binding motifs located upstream of the coding regions of <italic>ptsH</italic>, <italic>ptsG</italic>, and <italic>ptsS</italic>. Sequence alignments of all eight motifs revealed that the six nucleotides ACAAAC in the 5'- and the four nucleotides AACA in the 3'-region were well conserved (Fig. <xref ref-type="fig" rid="F8">8</xref>). Additionally, a predominant occurence was observed for cytosine and adenine nucleotides at positions 9 to 17 of the consensus motif. The characteristics of the putative consensus motif were determined as an A+C-rich and non-palindromic sequence (Fig. <xref ref-type="fig" rid="F8">8</xref>).</p>
+        <fig position="float" id="F8">
+          <label>Figure 8</label>
+          <caption>
+            <p>Comparison of experimentally determined and predicted SugR binding sites located upstream of the coding regions of <italic>ptsI</italic>, <italic>cg2118, ptsH</italic>, <italic>ptsG</italic>, and <italic>ptsS </italic>and construction of a consensus sequence. A) Predicted binding motifs were determined by sequence comparisons of proven motifA and motifB to the DNA fragments showing positive SugR binding in the EMSA studies. Proven and predicted motifs are separated by a horizontal, dashed line. Boxed letters in the experimentally proven motifs A and B and the putative SugR binding sequences located upstream the coding regions of <italic>ptsH</italic>, <italic>ptsG</italic>, and <italic>ptsS </italic>denote identical nucleotides in all sequences. Distances to the according translation starts (TL) are indicated. B) A frequency plot of the deduced consensus sequence of all motifs is constructed by means of the WebLogo tool. The overall height of each stack of letters indicates the sequence conservation at each position of the 21-bp motif, whereas the height of each symbol within the stack reflects the relative frequency of the corresponding nucleotide at that position.</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-8"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>The effectors fructose-1-phosphate, fructose-1,6-bisphosphate, and glucose-6-phosphate influence the binding activity of the SugR repressor</title>
+        <p>In order to determine the effector substances influencing the activity of SugR, additional EMSA experiments were carried out. In these experiments, the SugR-I2 complex was incubated with fructose-1-phosphate (F-1-P) which exclusively occurs when fructose is taken up by the fructose-specific PTS. Additionally, glucose-6-phosphate (G-6-P) occurring during the transport of glucose by the glucose-specific PTS component PtsG, fructose-1,6-bisphosphate (F-1,6-P) and fructose-6-phosphate (F-6-P), originating from the consumption of different sugars, as intermediates of glycolysis were used. Furthermore, the non-phosphorylated substrates of PtsF and PtsG, fructose and glucose, respectively, as well as acetate were used.</p>
+        <p>A loss of SugR binding to the DNA fragment I2 was observed to different extents using increasing concentrations of F-1-P, F-1,6-P, and G-6-P (Fig. <xref ref-type="fig" rid="F9">9</xref>). Using F-1-P as effector substance a clear effect at concentrations equal to and exceeding 10 muM could be observed. In the case of F-1,6-P, significantly higher concentrations of the effector substance ( GTEQ  5 mM) for resolving the SugR-I2 complex had to be applied. Additionally, G-6-P showed significant influence on the SugR-I2 complex only at concentrations above 10 mM. The binding of SugR to the DNA fragment I2 was not influenced by F-6-P concentrations up to 60 mM (Fig. <xref ref-type="fig" rid="F9">9</xref>). Additionally, no influence was observed on SugR binding using the non-phosphorylated sugars glucose and fructose as well as acetate at concentrations up to 60 mM (data not shown).</p>
+        <fig position="float" id="F9">
+          <label>Figure 9</label>
+          <caption>
+            <p>Identification of effector substances inactivating the repressor protein SugR. Electrophoretic mobility shift analysis of 15 pmol purified SugR protein complexed with 0.05 pmol of the DNA fragment I2 in the presence of different putative effectors were conducted. Effectors applied to the SugR/I2-complex at varying concentrations as described were A) fructose-1-phosphate (F-1-P), B) fructose-1,6-bisphosphate (F-1,6-P), C) fructose-6-phosphate (F-6-P), and D) glucose-6-phosphate (G-6-P)</p>
+          </caption>
+          <graphic xlink:href="1471-2199-8-104-9"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <sec>
+        <title>The <italic>C. glutamicum </italic>regulatory gene <italic>sugR </italic>is involved in the repression of the PTS genes</title>
+        <p>In an initial study four putative transcripts were identified by RT-PCR covering <italic>sugR </italic>and <italic>cg2116</italic>, which are co-transcribed, <italic>ptsI </italic>and <italic>ptsH</italic>, which are transcribed monocistronically, and the <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>operon. Coherent with this was the experimental identification of four promoters upstream of the coding regions of <italic>sugR</italic>, <italic>ptsI</italic>, <italic>cg2118</italic>, and <italic>ptsH</italic>.</p>
+        <p>In the <italic>C. glutamicum </italic>strain RES167 the transcript levels of <italic>ptsI</italic>, the <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>operon and of <italic>ptsH </italic>were considerably higher on the PTS sugars glucose and fructose in comparison to the non-PTS carbon source acetate. It is interesting to note, that the transcript levels of these five genes were moderately induced in glucose-grown cells, whereas in fructose-grown cells the transcript level of the <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>operon, specifically necessary for the transport and metabolism of fructose, was much stronger induced than that of the general PTS genes <italic>ptsI </italic>and <italic>ptsH</italic>. This indicates a differential activation of transcription for the general and the fructose-specific part of the fructose-PTS gene cluster.</p>
+        <p>Microarray hybridizations comparing global transcript levels in the <italic>C. glutamicum sugR </italic>mutant LG01 and its parent strain, both grown on acetate, helped to confine the genes belonging to the stimulon of the LG01 mutant. For this, it was interesting to note that together with the genes of the fructose-PTS cluster, the distantly located PTS genes <italic>ptsG </italic>and <italic>ptsS </italic>were also found to be derepressed in the <italic>sugR </italic>mutant. These results were subsequently verified by using the more sensitive real-time RT-PCR technique verifying the expansion of the putative SugR regulon to the non-clustered PTS genes <italic>ptsG </italic>and <italic>ptsS</italic>.</p>
+        <p>In a parallel study, Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>] analyzed the same regulatory genes by constructing mutants and analysing effects on the regulation of PTS genes. They initially focussed on transcriptional regulation of <italic>ptsG </italic>and showed that this gene was transcriptionally regulated by the product of the <italic>sugR </italic>gene. By using microarray analysis to compare the global transcription levels of the <italic>sugR </italic>mutant to the parental strain grown on LB medium, they also ensured that <italic>ptsS </italic>and the genes <italic>cg2118 </italic>and <italic>ptsF </italic>are under the same transcriptional control. However, in their study the gene carrying the regulatory function was named <italic>sugR</italic>. By our microarray results, we were able to extend the SugR regulon by adding <italic>fruK </italic>and the genes encoding the general part of the PTS, <italic>ptsI </italic>and <italic>ptsH</italic>. Hence, this work shows that all functionally characterized PTS genes are under the control of the SugR regulator.</p>
+        <p>In our microarray analysis, differential regulation of the genes <italic>cg3365 </italic>and <italic>cg3366</italic>, putatively encoding a PTS component of a hitherto unknown function, was not detected. Therefore, these genes might not be a part of the SugR regulon. In contrast to this, elevated transcript levels were detected for the genes <italic>cg2025 </italic>and <italic>cg2026</italic>, encoding proteins of unknown function, and <italic>adhA</italic>, putatively encoding a Zn-dependent alcohol dehydrogenase. But, EMSA studies only confirmed the <italic>in vitro </italic>binding of SugR upstream to the according coding regions of the PTS genes. The significant expression changes of <italic>cg2025</italic>, <italic>cg2026</italic>, and <italic>adhA </italic>are therefore most likely indirect effects of the <italic>sugR </italic>mutation.</p>
+        <p>An autoregulation of SugR is unlikely, because real-time RT-PCR experiments showed only marginal deviations in the transcriptional regulation of the <italic>sugR</italic>-<italic>cg2116 </italic>operon in the <italic>sugR </italic>mutant in comparison with its parent strain. Coherent with this, binding of purified SugR protein upstream of the coding sequence of <italic>sugR </italic>was not detected.</p>
+      </sec>
+      <sec>
+        <title>The DeoR-type regulator SugR acts as a repressor on transcription of all PTS genes in <italic>C. glutamicum</italic></title>
+        <p>In electrophoretic mobility shift assays (EMSA), binding of the native, purified SugR protein to DNA fragments located upstream of the coding sequences of <italic>ptsI</italic>, <italic>ptsH</italic>, <italic>ptsG</italic>, <italic>ptsS</italic>, and the <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>operon was detected. This result substantiated the identification of these genes as part of the SugR regulon. Binding of SugR to its target genes occurs in the absence of effectors and transcription is negatively affected as described above. Therefore, SugR acts as repressor of transcription on PTS genes.</p>
+        <p>The results obtained in this work correlate well with the current knowledge, where DeoR-type regulators of Gram-positive bacteria often act as repressor of sugar-specific PTS genes responsible for the uptake and metabolism of sugars like fructose (<italic>Lactococcuslactis</italic>, [<xref ref-type="bibr" rid="B13">13</xref>]; <italic>Streptococcus gordonii</italic>, [<xref ref-type="bibr" rid="B15">15</xref>]), lactose (<italic>L. lactis</italic>, [<xref ref-type="bibr" rid="B30">30</xref>]; <italic>Staphylococcus aureus</italic>, [<xref ref-type="bibr" rid="B31">31</xref>]), and sorbose (<italic>L. casei</italic>; [<xref ref-type="bibr" rid="B32">32</xref>]). In <italic>Bacillus subtilis </italic>DeoR-type regulators are also involved in the transcriptional regulation of deoxyribonucleoside degradation [<xref ref-type="bibr" rid="B33">33</xref>]. The function of DeoR-type regulators was further investigated in the Gram-negative organisms <italic>E. coli </italic>and <italic>Salmonella enterica </italic>where they have transcriptional influences on non-PTS operons involved in the metabolism of deoxyribose [<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B35">35</xref>]. A common feature of the described DeoR-type regulators is the transcriptional control restricted to neighboring genes. Solely the DeoR-type regulator DeoT of <italic>E. coli </italic>has potential target genes of various metabolic pathways distributed in diverse genetic loci and was designated as a master regulator [<xref ref-type="bibr" rid="B36">36</xref>]. In accordance to the distribution of the PTS genes in the <italic>C. glutamicum </italic>genome, the SugR repressor can be designated as a pleitropic regulator of the PTS genes.</p>
+      </sec>
+      <sec>
+        <title>The SugR binding site comprises a 21-base pair AC-rich motif</title>
+        <p>The sequence comparisons of the SugR binding motifs led to a putative consensus sequence, which consists of two conserved non-palindromic flanking regions and an AC-rich center region. The DeoR regulators described for <italic>E. coli </italic>(DeoR), <italic>B. subtilis </italic>(DeoR), and <italic>Salmonella enterica </italic>(DeoQ) [<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B35">35</xref>] are recognizing palindromic sequences, as well as the the DeoR-type regulator which is responsible for the transcriptional regulation of the fructose-pts gene cluster in <italic>Streptococcus gordonii </italic>(FruR) [<xref ref-type="bibr" rid="B15">15</xref>]. In addition the DeoR-type regulator of the fructose-PTS gene cluster of <italic>Lactococcus lactis </italic>(FruR) potentially binds to four repeating non-palindromic sequences [<xref ref-type="bibr" rid="B13">13</xref>]. The putative consensus sequence of the SugR binding site, however, neither shows significant similarity to the known palindromic binding sequences, nor to the non-palindromic sequences of DeoR-type repressors mentioned above.</p>
+        <p>In their parallel study, Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>] studied the binding of SugR (SugR), modified and purified by an aminoterminal decahistidine tag, to the <italic>ptsG </italic>upstream region. By comparing the results obtained from EMSA experiments using overlapping DNA fragments, they confined the binding site to a 23 bp sequence in which they found an 8 nt motif (5'-GTCGGACA-3') which is partly conserved in the upstream regions of <italic>ptsS </italic>and <italic>cg2118</italic>. Although the possibility remains that the SugR binding site is shorter than the 21 nucleotides as predicted here, the 8nt possibly involved in the binding of SugR as defined by Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>] is included in a putative 21 nt sequence (ptsG2) postulated in this work.</p>
+        <p>The two experimentally determined SugR binding motifsA and B are located in the intergenic region between <italic>ptsI </italic>and <italic>cg2118 </italic>and are therefore of special interest. On one hand, motifA is overlapping the promoter region of P<sub><italic>cg</italic><italic>2118</italic></sub>and located downstream of P<sub><italic>ptsI</italic></sub>, on the other hand motifB is located downstream the promoter P<sub><italic>cg</italic><italic>2118</italic></sub>. The binding within or downstream the promoter region is common to transcriptional repressors [<xref ref-type="bibr" rid="B38">38</xref>]. Therefore, the binding of SugR in the operator region of <italic>ptsI </italic>and <italic>cg2118 </italic>apparently results in the repression of the transcription of the divergently orientated genes. Even though the SugR binding sites upstream of the <italic>ptsG </italic>coding region, detected in the work of Engels et al. [<xref ref-type="bibr" rid="B22">22</xref>] and this work are located upstream the promoter P<sub><italic>ptsG</italic></sub>, a spacing of 30 bp to the -35<sup>th </sup>nucleotide may be sufficient for transcriptional repression by SugR. However, the maximal repression of the <italic>deo </italic>operon in <italic>E. coli </italic>is produced by DeoR binding to three operator sequences which are overlapping and located upstream of the transcription start sites [<xref ref-type="bibr" rid="B34">34</xref>], resulting in cooperative binding of different regulatory sequences leading to gene repression [<xref ref-type="bibr" rid="B39">39</xref>]. Such behaviour is putatively not present in <italic>C. glutamicum </italic>since a SugR binding to DNA fragments located between transcription and translation start (fragments G3 to G5; Fig. <xref ref-type="fig" rid="F5">5</xref>) was not observed. However, further binding sites located in the coding region of <italic>ptsG </italic>were not ruled out by experimental approaches and therefore the repression of <italic>ptsG </italic>transcription by SugR remains unclear.</p>
+      </sec>
+      <sec>
+        <title>Fructose-1-phosphate and other sugar phosphates act as effectors releasing SugR from its binding sites</title>
+        <p>The strong effect of F-1-P on SugR binding to the <italic>ptsI</italic>-<italic>cg2118 </italic>intergenic region is very interesting, since F-1-P is a metabolite mainly occuring during the uptake of fructose mediated by PtsF. Therefore, F-1-P is an ideal intracellular substance for sensing the presence of external fructose and efficiently induces expression of the genes encoding the general and fructose-specific parts of the PTS, <italic>ptsI</italic>, <italic>ptsH</italic>, and <italic>ptsF</italic>, respectively. Once external fructose is consumed, the F-1-P concentration is reduced by the activity of 1-phosphofructokinase encoded by <italic>fruK </italic>converting F-1-P to the less effective metabolite F-1,6-P. Although, the internal concentration of F-1-P in <italic>C. glutamicum </italic>grown on glucose or fructose is unknown, the internal concentrations of the effector substances G-6-P could be determined to 8 mM or 15 mM and of F-1,6-P to 23 mM or 46 mM grown on glucose or fructose, respectively. Comparing the internal amounts of G-6-P and F-1,6-P to the amounts used for the EMSA-studies suggests that SugR is negatively influenced by theses effectors <italic>in vivo</italic>. During the consumption of the F-1,6-P pool, the regulatory system might return to a maximal repressed state. The effector substance F-1-P was also shown to specifically affect the global regulator Cra of <italic>E. coli </italic>[<xref ref-type="bibr" rid="B40">40</xref>,<xref ref-type="bibr" rid="B41">41</xref>]. It is furthermore described as the main effector for the FruR repressors of the fructose operon in <italic>Streptococcus gordonii </italic>[<xref ref-type="bibr" rid="B15">15</xref>] and <italic>Spiroplasma citri </italic>[<xref ref-type="bibr" rid="B14">14</xref>].</p>
+        <p>Besides the intermediate occuring during the consumption of glucose and fructose, namely F-1,6-P, the product of glucose uptake via the PTS, namely G-6-P, is apparently able to affect SugR binding activity and to derepress transcription of the PTS genes. This would be necessary at least for the genes of the general part of the PTS (<italic>ptsI</italic>, <italic>ptsH</italic>) and for the distantly located <italic>ptsG </italic>gene. However, much higher concentrations of F-1,6-P or G-6-P are necessary for resolving the DNA-SugR protein complex. These results were confirmed by the RT-PCR data for the wildtype, where the transcription of the fructose-PTS cluster genes of cells grown on glucose did not reach the induction levels of cells grown on fructose, indicating higher activity of SugR on glucose then on fructose and resulting in higher induction levels of the fructose-PTS cluster genes on fructose.</p>
+        <p>As a striking difference, Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>] identified F-6-P as the only effector of SugR (SugR) when bound to the <italic>ptsG </italic>upstream region. F-6-P is the successive metabolic intermediate produced from G-6-P by the phosphoglucose isomerase. Therefore, F-6-P is a suitable candidate for the cell to determine whether glucose is externally available.</p>
+        <p>In the experiments performed with the <italic>ptsI</italic>-<italic>cg2118 </italic>intergenic region, no effect on SugR binding was observed for F-6-P up to concentrations exceeding 20 mM, which were applied for full resolution of the complex between SugR (SugR) and the <italic>ptsG </italic>upstream region in the study of Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>]. However, internal concentrations of 13 mM or 3 mM and 1 mM or 2 mM F-6-P were determined for <italic>C. glutamicum </italic>grown on glucose and fructose, respectively [<xref ref-type="bibr" rid="B42">42</xref>,<xref ref-type="bibr" rid="B19">19</xref>], ranging below the amounts used for the EMSA studies here.</p>
+        <p>In addition, the divergent promoters P<sub><italic>ptsI </italic></sub>and P<sub><italic>cg</italic><italic>2118</italic></sub>are coordinately regulated as shown by the mRNA measurements in the <italic>sugR </italic>mutant compared to the parental strain. However, divergently transcribed genes were already described, e.g. for the <italic>C. glutamicum </italic>genes <italic>aceA </italic>and <italic>aceB </italic>[<xref ref-type="bibr" rid="B43">43</xref>]. The corresponding promoters partly overlap by their -10 region and regulation of the divergent genes <italic>aceA </italic>and <italic>aceB </italic>is obtained by binding of the regulator RamB to one binding site located in the intergenic region [<xref ref-type="bibr" rid="B44">44</xref>]. Hence, switching between the repressive and the activated state is coordinately triggered. Nevertheless, the <italic>aceA </italic>and <italic>aceB </italic>promoters are only overlapping by their promoter sequence. The promoters P<sub><italic>ptsI </italic></sub>and P<sub><italic>cg</italic><italic>2118</italic></sub>are producing transcripts, which are complementary by 14 nucleotides, whereby the overlapping mRNA transcripts do not influence the regulatory coupling of the divergent genes <italic>ptsI </italic>and <italic>cg2118</italic>, but represent a hence unique promotor structure in <italic>C. glutamicum</italic>.</p>
+        <p>As mentioned above, binding of SugR to motifB only interferes with <italic>cg2118</italic>-<italic>fruK</italic>-<italic>ptsF </italic>transcription providing the opportunity for the cell to differentially regulate expression of the fructose-specific part, and the <italic>ptsI </italic>and <italic>ptsH </italic>gene of the general part of the PTS as observed for fructose and glucose grown cells. In detail, the expression of the PTS gene cluster in <italic>C. glutamicum </italic>grown on acetate was compared to the one on fructose and glucose, respectively, indicates that the complete gene cluster is derepressed in the presence of glucose. In the presence of fructose, however, the expression of the fructose-specific genes <italic>fruK </italic>and <italic>ptsF </italic>is significantly higher than the expression of <italic>ptsI </italic>and <italic>ptsH</italic>. Therefore, the level of the transcription from P<sub><italic>cg</italic><italic>2118</italic></sub>is somehow further adjusted by the actual carbon source, whereas the transcription from P<sub><italic>ptsI </italic></sub>and P<sub><italic>ptsH </italic></sub>remains unaffected. At the moment it is not clear how this differential regulation, affecting the transcription from P<sub><italic>cg</italic><italic>2118</italic></sub>, is exerted. It is possible that the SugR-DNA complexes react differentially to different effectors as it is shown for the SugR (SugR) binding site upstream of the coding region of <italic>ptsG </italic>[<xref ref-type="bibr" rid="B22">22</xref>]. This differential behaviour might be interpreted in a sense that SugR is able to form complexes with individual binding sites that have different sensitivities to sugar phosphates. A sugar specific regulation of different genes was also observed in the hyperthermophilic archaeon <italic>Pyrococcus furiosus</italic>, where the transcriptional regulator of the trehalose/maltose and the maltodextrin ABC transporter TrmB is inactivated by the effectors maltose and trehalose or maltotriose and sucrose, respectively [<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. However, the regulation of different genes by recognition of varying effectors could be an adequate explanation for the differing effectors determined by Engels [<xref ref-type="bibr" rid="B22">22</xref>] and this work. Furthermore, it can not be excluded that other regulators may play a role in the differential expression of the PTS gene cluster. The function of the second DeoR-type regulator gene located in the PTS gene cluster <italic>cg2118 </italic>in transcriptional regulation of the PTS gene cluster remained unclear. The deletion mutant of <italic>cg2118</italic>, however, showed no influence on transcription of the PTS genes under the tested conditions, therefore leaving the potential targets of Cg2118 unknown. However, a <italic>sugR</italic>/<italic>cg2118 </italic>double mutant (strain LG03) was constructed and investigated with RT-PCR compared to the <italic>sugR </italic>single mutant, but no further induction of the transcription levels were observed for the fructose PTS cluster genes when both strains were grown on fructose or acetate (data not shown). Furthermore, the Cg2118 protein was purified by the IMPACT-method described and EMSA-studies were carried out with the intergenic region of <italic>ptsI</italic>/<italic>cg2118 </italic>and the upstream region of <italic>ptsH</italic>. Binding of Cg2118 to the corresponding DNA-fragments was not detected (data not shown). Further microarray experiments with the deletion mutant of <italic>cg2118 </italic>will be a subject of further studies and may reveal the function and the regulon of Cg2118.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>The detailed investigation of the transcriptional regulation revealed the DeoR-type regulator SugR to be responsible for the repression of the fructose-PTS cluster genes <italic>ptsI</italic>, <italic>cg2118</italic>, <italic>fruK</italic>, <italic>ptsF</italic>, and <italic>ptsH</italic>, as well as of the distantly located PTS-genes <italic>ptsG </italic>and <italic>ptsS</italic>. These results were confirmed by the determined promotor and SugR-binding sequences, extending the knowledge on PTS-dependent transcriptional regulation.</p>
+      <p>The main negative effector of SugR with regard to the fructose-PTS genes (F-1-P), was different to that identified in the study concentrating on the regulation of <italic>ptsG </italic>(F-6-P) by Engels and Wendisch [<xref ref-type="bibr" rid="B22">22</xref>]. In combination, these results indicated that SugR is able to regulate genes in dependence on the presence of different effectors, reflecting a hitherto unknown regulatory mechanism in Corynebacteria.</p>
+      <p>It remains to be assessed whether the arrangement and sequence composition of the SugR-binding sites are responsible for the recognition of different effectors by SugR. Further experiments dealing with the mutational analyses of the SugR-binding sites could clarify this issue.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Strains and media</title>
+        <p>Bacterial strains and plasmids used in this study are listed in Table <xref ref-type="table" rid="T3">3</xref>. All <italic>C. glutamicum </italic>strains were cultivated in shaking flasks at 30 degrees C with 150 rpm in minimal medium MM1. The growth medium contained 2% (w/v) carbon source dependent on the test setup (glucose, fructose, and sodium-acetate), 1% (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 0.3% urea, 0.1% K<sub>2</sub>HPO<sub>4</sub>; pH 7.2. After autoclaving the following substrates were added: 50 <italic>mu</italic>gl<sup>-1 </sup>biotin and 0.1% (v/v) trace element solution containing 2 gl<sup>-1 </sup>FeSO<sub>4 </sub>x 7H<sub>2</sub>O, 2 gl<sup>-1 </sup>MnSO<sub>4 </sub>x 1H<sub>2</sub>O and 50 gl<sup>-1 </sup>NaCl. <italic>E. coli </italic>DH5alpha MCR and JM109 were grown in shaking flasks at 37 degrees C with 150 rpm in Luria-Bertani (LB) medium [<xref ref-type="bibr" rid="B45">45</xref>]. For plasmid selection the following antibiotics were used: ampicillin (100 <italic>mu</italic>gml<sup>-1 </sup>for <italic>E. coli</italic>), kanamycin (50 <italic>mu</italic>gml<sup>-1 </sup>for <italic>E. coli </italic>and 25 <italic>mu</italic>gml<sup>-1 </sup>for <italic>C. glutamicum</italic>), and nalidixic acid 50 <italic>mu</italic>gml<sup>-1 </sup>for <italic>C. glutamicum </italic>selection.</p>
+        <table-wrap position="float" id="T3">
+          <label>Table 3</label>
+          <caption>
+            <p>Bacterial strains and plasmids used</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <td align="center">
+                  <bold>Strain or plasmid</bold>
+                </td>
+                <td align="center">
+                  <bold>Relevant markers, phenotypes, and characteristics</bold>
+                </td>
+                <td align="left">
+                  <bold>Reference or origin</bold>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center"><italic>C. glutamicum </italic>strains</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="center">RES167</td>
+                <td align="left">Restriction deficient mutant of <italic>C. glutamicum </italic>ATCC* 13032, Delta (<italic>cglIM-cglIR-cglIIR</italic>), Nx<sup>r</sup></td>
+                <td align="left">[47]</td>
+              </tr>
+              <tr>
+                <td align="center">LG01</td>
+                <td align="left">RES167 with <italic>sugR </italic>deletion, after double crossover with pLMJ1, Nx<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center">LG02</td>
+                <td align="left">RES167 with <italic>cg2118 </italic>deletion, after double crossover with pLMJ2, Nx<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center">LG03</td>
+                <td align="left">RES167 with <italic>cg2118</italic>/<italic>sugR </italic>double-deletion, after double crossover with pLMJ1 and pLMJ2, Nx<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center"><italic>E. coli </italic>strains</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="center">ER2566</td>
+                <td align="left">F-&#xEB;-<italic>fhuA</italic>2 [lon] <italic>ompT lacZ</italic>::T7 gene1 <italic>gal sulA</italic>11 Delta(<italic>mcrC-mrr</italic>)114::IS10 R(<italic>mcr</italic>-73::miniTn10-TetS)2 R(<italic>zgb</italic>-210::Tn10)(TetS) <italic>endA</italic>1 [<italic>dcm</italic>]</td>
+                <td align="left">New England Biolabs</td>
+              </tr>
+              <tr>
+                <td align="center">JM109</td>
+                <td align="left"><italic>recA</italic>1, <italic>endA</italic>1, <italic>gyrA</italic>96, <italic>thi</italic>, <italic>hsdR</italic>17, <italic>supE</italic>44, <italic>relA</italic>1, Delta(<italic>lac-proAB</italic>)/F' [<italic>traD</italic>36, <italic>proAB</italic><sup>+</sup>, <italic>lacI</italic><sup>q</sup>, <italic>lacZ</italic>DeltaM15]</td>
+                <td align="left">Takara Bio Inc.</td>
+              </tr>
+              <tr>
+                <td align="center">LG21</td>
+                <td align="left">JM109 with expression vector pLGI1 for plasmid isolation, Ap<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center">LG31</td>
+                <td align="left">ER2566 with expression vector pLGI1 for the overexpression of SugR, Ap<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center">Plasmids</td>
+                <td/>
+                <td/>
+              </tr>
+              <tr>
+                <td align="center">pK18<italic>mobsac</italic>B</td>
+                <td align="left">mobilizable <italic>E. coli </italic>cloning vector, allows for double crossover in <italic>C. glutamicum</italic>, <italic>sacB</italic>, <italic>lacZ</italic>alpha, Km<sup>r</sup></td>
+                <td align="left">[50]</td>
+              </tr>
+              <tr>
+                <td align="center">pZErO-2</td>
+                <td align="left"><italic>E. coli </italic>vector, <italic>lac </italic>promoter, <italic>lacZ</italic>alpha, <italic>ccdB </italic>lethal gene, Km<sup>r</sup></td>
+                <td align="left">Invitrogen</td>
+              </tr>
+              <tr>
+                <td align="center">pTYB1</td>
+                <td align="left"><italic>E. coli </italic>expression vector, C-terminal intein tag, T7 promoter, <italic>lacI</italic>, <italic>rrnB </italic>T1, Ap<sup>r</sup></td>
+                <td align="left">New England Biolabs</td>
+              </tr>
+              <tr>
+                <td align="center">pLMJ1</td>
+                <td align="left">pK18<italic>mobsacB </italic>containing 588 bp <italic>sugR </italic>deletion fragment (sugR-d1/4), obtained by <italic>Eco</italic>RI-<italic>Bam</italic>HI fusion, Km<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center">pLMJ2</td>
+                <td align="left">pK18<italic>mobsacB </italic>containing 1117 bp <italic>cg2118 </italic>deletion fragment (cg2118-d1/4), obtained by <italic>Bgl</italic>II-<italic>Eco</italic>RI fusion, Km<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+              <tr>
+                <td align="center">pLGI1</td>
+                <td align="left">pTYB1 containing <italic>sugR </italic>(777 bp), obtained by NdeI-SapI fusion, Ap<sup>r</sup></td>
+                <td align="left">This work</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>* American Type Culture Collection</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>PCR techniques</title>
+        <p>PCR experiments were performed by using the DNA Engine Dyad thermocycler (PTC-0220) from MJ research Inc. (Watertown, Mass.). Oligonuleotides were obtained from Operon (Qiagen, Germany). Amplification of DNA was performed with Phusion Hot Start DNA polymerase (New England Biolabs, USA), which features proof-reading activity. Initial denaturation of the template DNA was carried out at 96 degrees C for 4 min. The PCR cycle started with denaturation for 30 s, followed by annealing at primer dependent temperature at T<sub>m </sub>(2AT + 4GC) [<xref ref-type="bibr" rid="B46">46</xref>], and extension at 72 degrees C whereas amplification time was chosen corresponding to fragment length and speed of the polymerase. The cycle was repeated 34 times, followed by a final extension step for 7 min at 72 degrees C. Purification of the PCR products was carried out by using a PCR Purification Spin kit (Qiagen, Hilden, Germany).</p>
+      </sec>
+      <sec>
+        <title>DNA isolation, transfer and manipulation</title>
+        <p><italic>E. coli </italic>DH5alpha MCR was used for routine recombinant DNA experiments. Plasmid DNA of <italic>E. coli </italic>was isolated by means of the GenElute bacterial DNA isolation kit (Sigma Aldrich, Steinheim Germany). DNA-modification, analysis by gel-electrophoresis, and ligation were applied as standard procedures [<xref ref-type="bibr" rid="B45">45</xref>]. Restriction endonucleases and T4 DNA ligase were obtained from Amersham-Pharmacia (Freiburg, Germany) and Roche (Mannheim, Germany). Plasmid DNA was introduced into <italic>E. coli </italic>and <italic>C. glutamicum </italic>strains by electroporation as described previously [<xref ref-type="bibr" rid="B47">47</xref>,<xref ref-type="bibr" rid="B48">48</xref>] employing the Bio-Rad Gene Pulser system (Bio-Rad, Munich, Germany).</p>
+      </sec>
+      <sec>
+        <title>Construction of the <italic>C. glutamicum </italic>deletion mutant strains</title>
+        <p>The plasmids pLMJ1 and pLMJ2 carrying deletion fragments of the genes <italic>sugR </italic>and <italic>cg2118 </italic>were constructed using the GeneSOEing method based on the PCR-mediated recombination as described by Horton <italic>et al</italic>. [<xref ref-type="bibr" rid="B49">49</xref>] (Table <xref ref-type="table" rid="T3">3</xref>). Artificial <italic>Mun</italic>I- and <italic>Bam</italic>HI-sites for <italic>sugR </italic>and <italic>Bgl</italic>II- and <italic>Eco</italic>RI-sites for <italic>cg2118 </italic>were added by 5'-primer extension on both ends of the deletion fragment. Subsequently the resulting fragments were cleaved by the corresponding restriction enzymes and cloned into the pK18<italic>mobsacB </italic>vector. The resulting plasmids pLMJ1, pLMJ2 were transferred by electroporation into <italic>C. glutamicum </italic>RES167 [<xref ref-type="bibr" rid="B47">47</xref>] and therefore used to introduce the deletions by homologous recombination into <italic>C. glutamicum </italic>[<xref ref-type="bibr" rid="B50">50</xref>]. Thus the <italic>C. glutamicum </italic>mutant strains LG01, LG02, and LG03 carrying deletions of the genes <italic>sugR</italic>, <italic>cg2118</italic>, and a <italic>sugR/cg2118 </italic>double deletion were obtained.</p>
+        <p>The <italic>sugR</italic>, <italic>cg2118</italic>, and <italic>sugR/cg2118 </italic>deletion mutant strains were subsequently verified by PCR using additional primers positioned outside of the deletion construct as described by Ruckert <italic>et al</italic>. [<xref ref-type="bibr" rid="B51">51</xref>]).</p>
+      </sec>
+      <sec>
+        <title>Genetic construction, expression and purification of heterologous expressed Intein-coupled protein SugR</title>
+        <p>The SugR protein was purified by a translational fusion to intein and subsequent affinity purification performed by the IMPACT-CN system (New England Biolabs, USA), which allows the purification of the target protein without any remaining tag by thiol-induced self-cleavage of the intein. The <italic>sugR </italic>expression plasmids (pLGI1) was constructed by PCR amplification of a 777 bp fragment, including the complete <italic>sugR </italic>gene, except the stopcodon to verify C-terminal fusion of the desired protein with a 55 kDa intein-tag of the pTYB-1 vector (New England Biolabs, USA). At the 5' end an artificial <italic>Nde</italic>I-site and at the 3' end of the fragment an artificial <italic>Sap</italic>I-site was added by 5' primer extension. As recommended by the vendor the <italic>Nde</italic>I-site contains an ATG sequence for translation initiation and the <italic>Sap</italic>I-site places the C-terminus of the target protein immediately adjacent to the intein cleavage site and results in the purification of a target protein without any extra vector-derived residues at its C-terminus. After cleavage with <italic>Sap</italic>I and <italic>Nde</italic>I the fragment was directed cloned into the expression vector pTYB1 that was cleaved in an analogous manner before. Introduction of the plasmids into <italic>E. coli </italic>JM109 for cloning and into <italic>E. coli </italic>ER2566 for expression and purification resulted in the mutant strains LG21 and LG31, respectively.</p>
+        <p><italic>E. coli </italic>ER2566 containing pLGI1 used for heterologous expression of SugR was grown as a preculture o/N in 10 ml LB media with 100 mugml<sup>-1 </sup>ampicillin at 37 degrees C. The main culture with a volume of 250 ml was inoculated with a cell density of 0.1 x 10<sup>8 </sup>cells x ml<sup>-1 </sup>and grown to an o.D. of 0.5 to 0.8 at 37 degrees C. The expression of the proteins was acheived by IPTG (0.5 mM) induction of the <italic>lac</italic>-promoter and lowering the culture temperature to 16 degrees C in order to optimize T7 RNA-polymerase transcription. The culture was grown o/N and all cells were pelleted by 6450 x <italic>g </italic>for 15 min at 4 degrees C. The pellet was then resuspended in 25 ml lysis buffer (20 mM Na<sub>2</sub>HPO<sub>4</sub>, 500 mM NaCl, 1 mM EDTA, 0.1 % TritonX-100, 20 muM PMSF, 0.1 mM TCEP, pH 8.0) and the cells were disrupted by french press procedure at medium speed with 2000 psi repeating 3 times. The debris was pelleted at 6450 x <italic>g </italic>for 30 min at 4 degrees C. The supernatant containing the crude protein extract was collected for IMPACT-CN purification (New England Biolabs, USA).</p>
+        <p>A 14 ml Protino column (Macherey and Nagel, Germany) was prepared with 7 ml of chitin beads and topped with a polycarbonate filter. Subsequently the packed column was equilibrated by washing with ten column volumes of precooled (4 degrees C) column buffer (20 mM Na<sub>2</sub>HPO<sub>4</sub>, 500 mM NaCl, 1 mM EDTA, pH 8.0). Afterwards the column is ready for sample loading at 0.5 - 1 mlmin<sup>-1</sup>. Again the column was washed with ten column volumes of column buffer which can be adjusted upto 1 M NaCl. The cleavage of the intein is induced by washing with three column volumes of cleavage buffer (20 mM Na<sub>2</sub>HPO<sub>4</sub>, 500 mM NaCl, 1 mM EDTA, 50 mM DTT, pH 8.0), sealing the column to prevent drying and subsequent incubation at 4 degrees C for 16 h. The elution of the recombinant protein can be performed by washing the column with 1 - 1.5 volumes of column buffer. In this case the elution volume of 7.5 ml was applied to the column and the flowthrough was collected for the subsequent concentration step with Amicon Ultra-4 centrifugal filter device with a MW cutoff of 5 kDa (Millipore, USA) down to an approximative volume of 250 <italic>mu</italic>l. The concentrated elution fraction was washed twice with washing buffer (20 mM Na<sub>2</sub>HPO<sub>4</sub>, 10 mM NaCl, pH 8.0) again to a total volume of 250 <italic>mu</italic>l. Different aliquots of the purification procedure can be collected (e.g. crude protein extract, flow through after the binding, and washing fractions) and tested with the purified protein by 1D-SDS-PAGE.</p>
+      </sec>
+      <sec>
+        <title>Separation of cytoplasmic proteins of <italic>C. glutamicum </italic>RES167</title>
+        <p>One-dimensional denaturing sodium dodecyl sulfate polyacrylamide gel electroporesis (1D-SDS-PAGE) to separate proteins was used as described by Laemmli <italic>et al</italic>. [<xref ref-type="bibr" rid="B52">52</xref>] with a 4% stacking gel and a 12.5% resolving gel. Samples were denaturated in the presence of 2% SDS and 4% mercaptoethanol in Tris-HCl buffer (60 mM, pH 6.8) by heating to 100 degrees C for 5 min. Apparent molecular weights were derived from the relative mobility of standard proteins as given in the Fermentas Protein Ladder (Fermentas Life Sciences GmbH, St. Leon-Roth).</p>
+        <p>Subsequently SugR identification was obtained by peptide mass fingerprint analysis [<xref ref-type="bibr" rid="B53">53</xref>] utilizing the Bruker Ultraflex MALDI-TOF mass spectrometer (Bruker Daltonic, Bremen, Germany). Therefore, protein spots, which should be identified, were excised from the Coomassie stained gel and digested with a modified Trypsin enzyme (Promega, Mannheim, Germany). The protocol for tryptic digest and the settings of the MALDI-TOF-MS were described previously [<xref ref-type="bibr" rid="B52">52</xref>]. Peptide fingerprints thus obtained were compared with <italic>in silico </italic>generated tryptic fingerprints derived from the <italic>C. glutamicum </italic>ATCC 13032 genome data [<xref ref-type="bibr" rid="B17">17</xref>] by using the MASCOT software (MATRIX Science Ltd., London, UK; [<xref ref-type="bibr" rid="B54">54</xref>]). Best hits identified the corresponding genes of the proteins analyzed.</p>
+      </sec>
+      <sec>
+        <title>Operator binding assays by electrophoretic mobility shift assay (EMSA) with purified SugR</title>
+        <p>EMSA studies were performed with a set of Cy3-labeled PCR products, which were amplified using appropiate Cy3-labeled 20 mers (Operon, Germany). Unlabeled oligonucleotides representing putative binding sequences in front of <italic>sugR</italic>, <italic>ptsI</italic>/<italic>cg2118</italic>, and <italic>ptsH </italic>were annealed with the corresponding complementary oligonucleotides under standard conditions [<xref ref-type="bibr" rid="B47">47</xref>]. The resulting double-stranded oligonucleotides were purified by means of Qiagen MinElute columns and used in EMSA displacement experiments.</p>
+        <p>During all EMSA studies 15 pmol of purified SugR protein was added to 4 mul reaction buffer (1 mM MgCl<sub>2</sub>, 0.5 mM EDTA, 0.5 mM DTT, 100 mM NaCl, 10 mM Tris, 20% glycerin, pH 7.5). Subsequently, 3 mul 87.9% glycerine, 0.05 pmol of Cy3-labeled PCR product and H<sub>2</sub>O was added to get a final volume of 15 mul. The assay was incubated at RT for 5 min and then separated with a 2% agarose gel prepared in gel buffer (40 mM Tris, 10 mM sodium acetate, 1 mM EDTA, pH7.8). A voltage of 14 Vcm<sup>-1 </sup>was applied for 35 min. The gel was then scanned with the Typhoon 8600 Variable Mode Imager (Amersham Biosciences Europe, Germany). During effector screening studies, the purified SugR protein was incubated at RT for 10 min with acetate, glucose, fructose, fructose-1-phosphate, fructose-1,6-bisphosphate, fructose-6-phosphate, or glucose-6-phosphate prior to the addition of the Cy3-labeled PCR product. During EMSA competitory experiments, the purified SugR protein was added to reaction buffer, mixed with unlabeled competitor oligonucleotide and incubated at RT for 5 min prior to adding the labeled PCR fragments. After addition of the Cy3-labeled PCR product, the assay was incubated for additional 5 min before separating by gel electrophoresis.</p>
+      </sec>
+      <sec>
+        <title>Total RNA Isolation from <italic>C. glutamicum </italic>cultures</title>
+        <p>Cultures were grown to the logarithmic growth phase (o.D.600 = 10) and 1 x 10<sup>9 </sup>cells were harvested by centrifugation at 16,000 x <italic>g </italic>for 15s. The supernatant was removed by pipetting and the pellet immediately frozen in liquid nitrogen. The frozen cells were resuspended in 800 <italic>mu</italic>l RLT-buffer (Rneasy Mini Kit, Qiagen) and instantly disrupted by means of the Ribolyser instrument (Hybaid, Heidelberg, Germany). Disruption was performed by three time intervals of 30s at speed-level 6.5 with intermediary cooling of the probes on ice for 1 min. Preparation of total RNA from <italic>C. glutamicum </italic>cells was performed as described by Huser <italic>et al</italic>. [<xref ref-type="bibr" rid="B55">55</xref>].</p>
+      </sec>
+      <sec>
+        <title>Determination of transcription starts by 5'-RACE</title>
+        <p>Total RNA was isolated as described above. Primers binding downstream of the annotated translation starts of <italic>sugR</italic>, <italic>ptsI</italic>, <italic>cg2118</italic>, and <italic>ptsH </italic>were used along with 1.5 <italic>mu</italic>g of total RNA for cDNA synthesis. The cDNA was then modified and amplified using the 5'RACE Kit (Roche Diagnostics) according to the supplier's protocol. Resulting PCR products were ligated into the vector pCR2.1 by applying the TOPO TA cloning system and chemically competent <italic>E. coli </italic>TOP10 cells (Invitrogen). Sequencing of cloned RACE products was carried out by IIT Biotech (Bielefeld, Germany).</p>
+      </sec>
+      <sec>
+        <title>Relative quantification of mRNA levels using real-time RT-PCR</title>
+        <p>RT-PCR primers were designed to amplify an intergenic region of the analyzed gene of about 150 - 200 bp length with the Primer Design 4.2 software (Sci Ed Software) and were purchased from Operon (Qiagen, Germany). The real-time RT-PCR experiment was performed using the LightCycler instrument (Roche, Germany) in combination with the QuantiTect SYBR Green RT-PCR Kit (Qiagen, Germany) mixed with the specific primers and 300 ng of sample RNA.</p>
+        <p>The RT-PCR program consists of 3 segments starting with the reverse transcription at 50 degrees C for 20 min, followed by the initial activation of the HotStar Taq DNA polymerase at 95 degrees C for 15 min. Thirdly the RT-PCR step was performed 55 times in cycles of: 95 degrees C for 15s, 55 degrees C for 30s, and 72 degrees C for 20s. The melting curve was recorded over a range of 65 to 95 degrees C with a heating slope of 0.1 degrees C pers at continuous fluorescence measurement. The crossing point for each gene and condition was calculated by the data analysis method provided by the LightCycler software, using the maximum increase or acceleration of fluorescence.</p>
+      </sec>
+      <sec>
+        <title>Microarray experiments and analysis</title>
+        <p>Total RNA isolated from <italic>C. glutamicum </italic>was also used for global transcriptional analyses. The cDNA synthesis and array hybridization were performed as described by Huser <italic>et al</italic>. [<xref ref-type="bibr" rid="B55">55</xref>]. Data analysis was performed with the ImaGene V6.0 and EMMA V2.2 [<xref ref-type="bibr" rid="B56">56</xref>] software packages. Evaluation of the hybridization experiment was done as described by Rey <italic>et al</italic>. [<xref ref-type="bibr" rid="B57">57</xref>] using an <italic>m</italic>-value cutoff of  +-  1, which corresponds to expression changes equal or greater than 2 fold. Furthermore, <italic>m</italic>-values were considered as significant if the Student's t-test resulted in a <italic>p</italic>-value  LTEQ  0.05. The microarrays used represent all 3002 coding regions of <italic>C. glutamicum </italic>RES167 as 70 mer oligonucleotides.</p>
+      </sec>
+      <sec>
+        <title>Bioinformatic tools used to analyse nucleotide sequences</title>
+        <p>For interpreting the data of the <italic>C. glutamicum </italic>ATCC 13032 genome project the automated sequence investigation program GenDB [<xref ref-type="bibr" rid="B58">58</xref>] was used. Sequence comparisons were carried out by using the ClustalX software [<xref ref-type="bibr" rid="B59">59</xref>].</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>LG carried out the experimental work and drafted the manuscript. JPS participated during the microarray analyses. MH constructed the <italic>cg2118 </italic>deletion mutant. SM participated during experimental work and illustration design. AT participated in supervision. AP aided in coordination and participated in supervision. JK conceived of the study and participated in coordination and supervision. All authors read and approved the final manuscript.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <sec>
+        <title>Acknowledgements</title>
+        <p>We like to thank Dr. Andrea Huser for providing the microarray technique and support by conducting the microarray hybridization as well as the Bundesministerium fur Bildung und Forschung for financial support.</p>
+      </sec>
+    </ack>
+    <ref-list>
+      <ref id="B1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Postma</surname>
+              <given-names>PW</given-names>
+            </name>
+            <name>
+              <surname>Lengeler</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>GR</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphoenolpyruvate:carbohydrate phosphotransferase systems of bacteria</article-title>
+          <source>Microbiol Rev</source>
+          <year>1993</year>
+          <volume>57</volume>
+          <fpage>543</fpage>
+          <lpage>594</lpage>
+          <pub-id pub-id-type="pmid">8246840</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deutscher</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Francke</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Postma</surname>
+              <given-names>PW</given-names>
+            </name>
+          </person-group>
+          <article-title>How phosphotransferase system-related protein phosphorylation regulates carbohydrate metabolism in bacteria</article-title>
+          <source>Microbiol Mol Biol Rev</source>
+          <year>2006</year>
+          <volume>70</volume>
+          <fpage>939</fpage>
+          <lpage>1031</lpage>
+          <pub-id pub-id-type="pmid">17158705</pub-id>
+          <pub-id pub-id-type="doi">10.1128/MMBR.00024-06</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robillard</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Broos</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure/function studies on the bacterial carbohydrate transporters, enzymes II, of the phosphoenolpyruvate-dependent phosphotransferase system</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>1999</year>
+          <volume>1422</volume>
+          <fpage>73</fpage>
+          <lpage>104</lpage>
+          <pub-id pub-id-type="pmid">10393270</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hermann</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Industrial production of amino acids by coryneform bacteria</article-title>
+          <source>Journal of biotechnology</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>155</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="pmid">12948636</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-1656(03)00149-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malin</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Bourd</surname>
+              <given-names>GI</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphotransferase-dependent glucose transport in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Journal of Applied Bacteriology</source>
+          <year>1991</year>
+          <volume>71</volume>
+          <fpage>517</fpage>
+          <lpage>523</lpage>
+        </citation>
+      </ref>
+      <ref id="B6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dominguez</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Lindley</surname>
+              <given-names>ND</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete Sucrose Metabolism Requires Fructose Phosphotransferase Activity in <italic>Corynebacterium glutamicum</italic>. To Ensure Phosphorylation of Liberated Fructose</article-title>
+          <source>Appl Environ Micorbiol</source>
+          <year>1996</year>
+          <volume>62</volume>
+          <fpage>3878</fpage>
+          <lpage>3880</lpage>
+        </citation>
+      </ref>
+      <ref id="B7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parche</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Burkovski</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sprenger</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Weil</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Kramer</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Titgemeyer</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Corynebacterium glutamicum</italic>: a dissection of the PTS</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2001</year>
+          <volume>3</volume>
+          <fpage>423</fpage>
+          <lpage>428</lpage>
+          <pub-id pub-id-type="pmid">11361073</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moon</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Analyses of enzyme II gene mutants for sugar transport and heterologous expression of fructokinase gene in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>FEMS Microbiology Letters</source>
+          <year>2005</year>
+          <volume>244</volume>
+          <fpage>259</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="pmid">15766777</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.femsle.2005.01.053</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Titgemeyer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hillen</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Global control of sugar metabolism: a gram-positive solution</article-title>
+          <source>Antonie Van Leeuwenhoek</source>
+          <year>2002</year>
+          <volume>82</volume>
+          <fpage>59</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="pmid">12369205</pub-id>
+          <pub-id pub-id-type="doi">10.1023/A:1020628909429</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Sung</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>TK</given-names>
+            </name>
+          </person-group>
+          <article-title>Nucleotide sequence of the gene encoding the <italic>Corynebacterium glutamicum </italic>mannose enzyme II and analyses of the deduced protein sequence</article-title>
+          <source>FEMS microbiology letters</source>
+          <year>1994</year>
+          <volume>119</volume>
+          <fpage>137</fpage>
+          <lpage>145</lpage>
+          <pub-id pub-id-type="pmid">8039653</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.1994.tb06880.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mori</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Shiio</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphenolpyruvate: Sugar phosphotransferase systems and sugar metabolism in <italic>Brevibacterium flavum</italic></article-title>
+          <source>Agr Biol Chem</source>
+          <year>1987</year>
+          <volume>51</volume>
+          <fpage>2671</fpage>
+          <lpage>2678</lpage>
+        </citation>
+      </ref>
+      <ref id="B12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ryu</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ramseier</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Michotey</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Saier</surname>
+              <given-names>MH</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Garges</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of the FruR regulator on transcription of the pts operon in <italic>Escherichia coli</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>1995</year>
+          <volume>270</volume>
+          <fpage>2489</fpage>
+          <lpage>2496</lpage>
+          <pub-id pub-id-type="pmid">7852310</pub-id>
+          <pub-id pub-id-type="doi">10.1074/jbc.270.6.2489</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barriere</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Veiga-da-Cunha</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pons</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Guedon</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>van Hijum</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Kok</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kuipers</surname>
+              <given-names>OP</given-names>
+            </name>
+            <name>
+              <surname>Ehrlich</surname>
+              <given-names>DS</given-names>
+            </name>
+            <name>
+              <surname>Renault</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Fructose utilization in <italic>Lactococcus lactis </italic>as a model for low-GC gram-positive bacteria: its regulator, signal, and DNA-binding site</article-title>
+          <source>J Bacteriol</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>3752</fpage>
+          <lpage>3761</lpage>
+          <pub-id pub-id-type="pmid">15901699</pub-id>
+          <pub-id pub-id-type="doi">10.1128/JB.187.11.3752-3761.2005</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gaurivaud</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Laigret</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Verdin</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Garnier</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bove</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Fructose operon mutants of <italic>Spiroplasma citri</italic></article-title>
+          <source>Microbiology</source>
+          <year>2000</year>
+          <volume>146</volume>
+          <fpage>2229</fpage>
+          <lpage>2236</lpage>
+          <pub-id pub-id-type="pmid">10974110</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loo</surname>
+              <given-names>CY</given-names>
+            </name>
+            <name>
+              <surname>Mitrakul</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Voss</surname>
+              <given-names>IB</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>CV</given-names>
+            </name>
+            <name>
+              <surname>Ganeshkumar</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of an inducible fructose phosphotransferase operon in <italic>Streptococcus gordonii </italic>biofilm formation</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>185</volume>
+          <fpage>6241</fpage>
+          <lpage>6254</lpage>
+          <pub-id pub-id-type="pmid">14563858</pub-id>
+          <pub-id pub-id-type="doi">10.1128/JB.185.21.6241-6254.2003</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parche</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Thomae</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Schlicht</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Titgemeyer</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Corynebacterium diphtheriae</italic>: a PTS view to the genome</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2001</year>
+          <volume>3</volume>
+          <fpage>415</fpage>
+          <lpage>422</lpage>
+          <pub-id pub-id-type="pmid">11361072</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bathe</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bartels</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bischoff</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Bott</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Burkovski</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Dusch</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Eggeling</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Eikmanns</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Gaigalat</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Goesmann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hartmann</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Huthmacher</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kramer</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Linke</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>McHardy</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Mockel</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Pfefferle</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rey</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Ruckert</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Rupp</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Sahm</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wendisch</surname>
+              <given-names>VF</given-names>
+            </name>
+            <name>
+              <surname>Wiegrabe</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The complete <italic>Corynebacterium glutamicum </italic>ATCC 13032 genome sequence and its impact on the production of L-aspartate-derived amino acids and vitamins</article-title>
+          <source>J Biotechnol</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>5</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="pmid">12948626</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-1656(03)00154-8</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kotrba</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Inui</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Yukawa</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>A single V317A or V317M substitution in Enzyme II of a newly identified beta-glucoside phosphotransferase and utilization system of <italic>Corynebacterium glutamicum </italic>R extends its specificity towards cellobiose</article-title>
+          <source>Microbiology (Reading, England)</source>
+          <year>2003</year>
+          <volume>149</volume>
+          <fpage>1569</fpage>
+          <lpage>1580</lpage>
+          <pub-id pub-id-type="pmid">12777497</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dominguez</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Rollin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Guyonvarch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Guerquin-Kern</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Cocaign-Bousquet</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lindley</surname>
+              <given-names>ND</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon-flux distribution in the central metabolic pathways of <italic>Corynebacterium glutamicum </italic>during growth on fructose</article-title>
+          <source>Eur J Biochem</source>
+          <year>1998</year>
+          <volume>254</volume>
+          <fpage>96</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="pmid">9652400</pub-id>
+          <pub-id pub-id-type="doi">10.1046/j.1432-1327.1998.2540096.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kromer</surname>
+              <given-names>JO</given-names>
+            </name>
+            <name>
+              <surname>Sorgenfrei</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Klopprogge</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Heinzle</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Wittmann</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>In-Depth Profiling of Lysine-Producing <italic>Corynebacterium glutamicum </italic>by Combined Analysis of the Transcriptome, Metabolome, and Fluxome</article-title>
+          <source>Journal of Bacteriology</source>
+          <year>2003</year>
+          <volume>186</volume>
+          <fpage>1769</fpage>
+          <lpage>1784</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.6.1769-1784.2004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moon</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>SK</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JK</given-names>
+            </name>
+          </person-group>
+          <article-title>The phosphotransferase system of <italic>Corynebacterium glutamicum</italic>: features of sugar transport and carbon regulation</article-title>
+          <source>J Mol Microbiol Biotechnol</source>
+          <year>2007</year>
+          <volume>12</volume>
+          <fpage>43</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">17183210</pub-id>
+          <pub-id pub-id-type="doi">10.1159/000096458</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engels</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Wendisch</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>The DeoR-type regulator SugR represses expression of <italic>ptsG </italic>in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>2955</fpage>
+          <lpage>2966</lpage>
+          <pub-id pub-id-type="pmid">17293426</pub-id>
+          <pub-id pub-id-type="doi">10.1128/JB.01596-06</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Moulakakis</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Koning</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Hausner</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Thomm</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Boos</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>TrmB, a sugar sensing regulator of ABC transporter genes in <italic>Pyrococcus furiosus</italic>, exhibits dual promoter specificity and is controlled by different inducers</article-title>
+          <source>Mol Microbiol</source>
+          <year>2005</year>
+          <volume>57</volume>
+          <fpage>1797</fpage>
+          <lpage>1807</lpage>
+          <pub-id pub-id-type="pmid">16135241</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2005.04804.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Surma</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Seitz</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hausner</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Thomm</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Boos</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential signal transduction via TrmB, a sugar sensing transcriptional repressor of Pyrococcus furiosus</article-title>
+          <source>Mol Microbiol</source>
+          <year>2007</year>
+          <volume>64</volume>
+          <fpage>1499</fpage>
+          <lpage>1505</lpage>
+          <pub-id pub-id-type="pmid">17504272</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2007.05737.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Price</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Alm</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Arkin</surname>
+              <given-names>AP</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel method for accurate operon predictions in all sequenced prokaryotes</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2005</year>
+          <volume>33</volume>
+          <fpage>880</fpage>
+          <lpage>892</lpage>
+          <pub-id pub-id-type="pmid">15701760</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/gki232</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ermolaeva</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Khalak</surname>
+              <given-names>HG</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>HO</given-names>
+            </name>
+            <name>
+              <surname>Salzberg</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of transcription terminators in bacterial genomes</article-title>
+          <source>J Mol Biol</source>
+          <year>2000</year>
+          <volume>301</volume>
+          <fpage>27</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="pmid">10926490</pub-id>
+          <pub-id pub-id-type="doi">10.1006/jmbi.2000.3836</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Patek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Nesvera</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Guyonvarch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Reyes</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Leblon</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Promoters of <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Journal of Biotechnology</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>311</fpage>
+          <lpage>323</lpage>
+          <pub-id pub-id-type="pmid">12948648</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-1656(03)00155-X</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brune</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Jochmann</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Brinkrolf</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Huser</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Gerstmeir</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Eikmanns</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The IclR-type transcriptional repressor LtbR regulates the expression of leucine and tryptophan biosynthesis genes in the amino acid producer <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <fpage>2720</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="pmid">17259312</pub-id>
+          <pub-id pub-id-type="doi">10.1128/JB.01876-06</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chong</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Montello</surname>
+              <given-names>GE</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cantor</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>MQ</given-names>
+            </name>
+            <name>
+              <surname>Benner</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Utilizing the C-terminal cleavage activity of a protein splicing element to purify recombinant proteins in a single chromatographic step</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1998</year>
+          <volume>26</volume>
+          <fpage>5109</fpage>
+          <lpage>5115</lpage>
+          <pub-id pub-id-type="pmid">9801307</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/26.22.5109</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Rooijen</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>de Vos</surname>
+              <given-names>WM</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning, transcriptional analysis, and nucleotide sequence of lacR, a gene encoding the repressor of the lactose phosphotransferase system of <italic>Lactococcus lactis</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>1990</year>
+          <volume>265</volume>
+          <fpage>18499</fpage>
+          <lpage>18503</lpage>
+          <pub-id pub-id-type="pmid">2120234</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oskouian</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>GC</given-names>
+            </name>
+          </person-group>
+          <article-title>Repression and catabolite repression of the lactose operon of <italic>Staphylococcus aureus</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>1990</year>
+          <volume>172</volume>
+          <fpage>3804</fpage>
+          <lpage>3812</lpage>
+          <pub-id pub-id-type="pmid">2163387</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yebra</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Veyrat</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Perez-Martinez</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetics of L-sorbose transport and metabolism in <italic>Lactobacillus casei</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>155</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="pmid">10613875</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saxild</surname>
+              <given-names>HH</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>LN</given-names>
+            </name>
+            <name>
+              <surname>Hammer</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Dra-nupC-pdp operon of <italic>Bacillus subtilis</italic>: nucleotide sequence, induction by deoxyribonucleosides, and transcriptional regulation by the <italic>deoR</italic>-encoded DeoR repressor protein</article-title>
+          <source>J Bacteriol</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>424</fpage>
+          <lpage>434</lpage>
+          <pub-id pub-id-type="pmid">8550462</pub-id>
+        </citation>
+      </ref>
+      <ref id="B34">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Valentin-Hansen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Albrechtsen</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Love Larsen</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA-protein recognition: demonstration of three genetically separated operator elements that are required for repression of the <italic>Escherichia coli </italic>deoCABD promoters by the DeoR repressor</article-title>
+          <source>Embo J</source>
+          <year>1986</year>
+          <volume>5</volume>
+          <fpage>2015</fpage>
+          <lpage>2021</lpage>
+          <pub-id pub-id-type="pmid">3019678</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Christensen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Borza</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dandanell</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Gilles</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Barzu</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Kelln</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Neuhard</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of expression of the 2-deoxy-D-ribose utilization regulon, <italic>deoQKPX</italic>, from <italic>Salmonella enterica </italic>serovar typhimurium</article-title>
+          <source>J Bacteriol</source>
+          <year>2003</year>
+          <volume>185</volume>
+          <fpage>6042</fpage>
+          <lpage>6050</lpage>
+          <pub-id pub-id-type="pmid">14526015</pub-id>
+          <pub-id pub-id-type="doi">10.1128/JB.185.20.6042-6050.2003</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elgrably-Weiss</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schlosser-Silverman</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Rosenshine</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Altuvia</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>DeoT, a DeoR-type transcriptional regulator of multiple target genes</article-title>
+          <source>FEMS Microbiol Lett</source>
+          <year>2006</year>
+          <volume>254</volume>
+          <fpage>141</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="pmid">16451192</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.2005.00020.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeng</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Saxild</surname>
+              <given-names>HH</given-names>
+            </name>
+            <name>
+              <surname>Switzer</surname>
+              <given-names>RL</given-names>
+            </name>
+          </person-group>
+          <article-title>Purification and characterization of the DeoR repressor of <italic>Bacillus subtilis</italic></article-title>
+          <source>Journal of bacteriology</source>
+          <year>2000</year>
+          <volume>182</volume>
+          <fpage>1916</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="pmid">10714997</pub-id>
+          <pub-id pub-id-type="doi">10.1128/JB.182.7.1916-1922.2000</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Babu</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Teichmann</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional determinants of transcription factors in <italic>Escherichia coli</italic>: protein families and binding sites</article-title>
+          <source>Trends in Genetics</source>
+          <year>2003</year>
+          <volume>19</volume>
+          <fpage>75</fpage>
+          <lpage>79</lpage>
+          <pub-id pub-id-type="pmid">12547514</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-9525(02)00039-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dandanell</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Valentin-Hansen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Larsen</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Hammer</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-range cooperativity between gene regulatory sequences in a prokaryote</article-title>
+          <source>Nature</source>
+          <year>1987</year>
+          <volume>325</volume>
+          <fpage>823</fpage>
+          <lpage>826</lpage>
+          <pub-id pub-id-type="pmid">3547140</pub-id>
+          <pub-id pub-id-type="doi">10.1038/325823a0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramseier</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Negre</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Cortay</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Scarabel</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cozzone</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Saier</surname>
+              <given-names>MH</given-names>
+              <suffix>Jr</suffix>
+            </name>
+          </person-group>
+          <article-title>In vitro binding of the pleiotropic transcriptional regulatory protein, FruR, to the fru, pps, ace, pts and icd operons of <italic>Escherichia coli </italic>and <italic>Salmonella typhimurium</italic></article-title>
+          <source>J Mol Biol</source>
+          <year>1993</year>
+          <volume>234</volume>
+          <fpage>28</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">8230205</pub-id>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1993.1561</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saier</surname>
+              <given-names>MH</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Ramseier</surname>
+              <given-names>TM</given-names>
+            </name>
+          </person-group>
+          <article-title>The catabolite repressor/activator (Cra) protein of enteric bacteria</article-title>
+          <source>Journal of bacteriology</source>
+          <year>1996</year>
+          <volume>178</volume>
+          <fpage>3411</fpage>
+          <lpage>3417</lpage>
+          <pub-id pub-id-type="pmid">8655535</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Georgi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rittmann</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wendisch</surname>
+              <given-names>VF</given-names>
+            </name>
+          </person-group>
+          <article-title>Lysine and glutamate production by <italic>Corynebacterium glutamicum </italic>on glucose, fructose and sucrose: roles of malic enzyme and fructose-1,6-bisphosphate</article-title>
+          <source>Metabolic Engineering</source>
+          <year>2005</year>
+          <volume>7</volume>
+          <fpage>291</fpage>
+          <lpage>301</lpage>
+          <pub-id pub-id-type="pmid">15979917</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.ymben.2005.05.001</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerstmeir</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wendisch</surname>
+              <given-names>VF</given-names>
+            </name>
+            <name>
+              <surname>Schnicke</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ruan</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Farwick</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Reinscheid</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Eikmanns</surname>
+              <given-names>BJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Acetate metabolism and its regulation in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Journal of biotechnology</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>99</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">12948633</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-1656(03)00167-6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerstmeir</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Cramer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Dangel</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Eikmanns</surname>
+              <given-names>BJ</given-names>
+            </name>
+          </person-group>
+          <article-title>RamB, a novel transcriptional regulator of genes involved in acetate metabolism of <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Bacetriol</source>
+          <year>2004</year>
+          <volume>186</volume>
+          <fpage>2798</fpage>
+          <lpage>2809</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.186.9.2798-2809.2004</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45">
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sambrook</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Fritsch</surname>
+              <given-names>EF</given-names>
+            </name>
+            <name>
+              <surname>Maniatis</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <source>Molecular Cloning: A Laboratory Manual</source>
+          <year>1989</year>
+          <publisher-name>Cold Spring Harbor. NY, USA: Cold Spring Harbor Laboratory Press:</publisher-name>
+        </citation>
+      </ref>
+      <ref id="B46">
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suggs</surname>
+              <given-names>SV</given-names>
+            </name>
+            <name>
+              <surname>Hirose</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Miyake</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kawashima</surname>
+              <given-names>EH</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Itakura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Wallace</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Brown DD, Fox CF</surname>
+            </name>
+          </person-group>
+          <source>Use of synthetic oligo deoxyribonucleotides for the isolation of specific cloned DNA sequences</source>
+          <year>1981</year>
+          <publisher-name>Developemental biology using purified genes Academic Press, New York</publisher-name>
+          <fpage>683</fpage>
+          <lpage>693</lpage>
+        </citation>
+      </ref>
+      <ref id="B47">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kirchner</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Loffler</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Gotker</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient electrotransformation of <italic>Corynebacterium diphtheriae </italic>with a mini-replicon derived from the <italic>Corynebacterium glutamicum </italic>plasmid pGA1</article-title>
+          <source>Curr Microbiol</source>
+          <year>2002</year>
+          <volume>45</volume>
+          <fpage>362</fpage>
+          <lpage>367</lpage>
+          <pub-id pub-id-type="pmid">12232668</pub-id>
+          <pub-id pub-id-type="doi">10.1007/s00284-002-3728-3</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haynes</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Britz</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrotransformation of <italic>Brevibacterium lactofermentum </italic>and <italic>Corynebacterium glutamicum</italic>: growth in Tween 80 increases transformation frequencies</article-title>
+          <source>FEMS Microbiol Letters</source>
+          <year>1989</year>
+          <volume>61</volume>
+          <fpage>329</fpage>
+          <lpage>334</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6968.1989.tb03646.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horton</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>PCR-mediated recombination and mutagenesis. SOEing together tailor-made genes</article-title>
+          <source>Mol Biotechnol</source>
+          <year>1995</year>
+          <volume>3</volume>
+          <fpage>93</fpage>
+          <lpage>99</lpage>
+          <pub-id pub-id-type="pmid">7620981</pub-id>
+          <pub-id pub-id-type="doi">10.1007/BF02789105</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schafer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Jager</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Thierbach</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Small mobilizable multi-purpose cloning vectors derived from the <italic>Escherichia coli </italic>plasmids pK18 and pK19: selection of defined deletions in the chromosome of <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Gene</source>
+          <year>1994</year>
+          <volume>145</volume>
+          <fpage>69</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="pmid">8045426</pub-id>
+          <pub-id pub-id-type="doi">10.1016/0378-1119(94)90324-7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B51">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruckert</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide analysis of the L-methionine biosynthetic pathway in <italic>Corynebacterium glutamicum </italic>by targeted gene deletion and homologous complementation</article-title>
+          <source>J Biotechnol</source>
+          <year>2003</year>
+          <volume>104</volume>
+          <fpage>213</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="pmid">12948640</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-1656(03)00158-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laemmli</surname>
+              <given-names>UK</given-names>
+            </name>
+          </person-group>
+          <article-title>Cleavage of structural proteins during the assembly of the head of bacteriophage T4</article-title>
+          <source>Nature</source>
+          <year>1970</year>
+          <volume>227</volume>
+          <fpage>680</fpage>
+          <lpage>685</lpage>
+          <pub-id pub-id-type="pmid">5432063</pub-id>
+          <pub-id pub-id-type="doi">10.1038/227680a0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henzel</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Billeci</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Stults</surname>
+              <given-names>JT</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Grimley</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Identifying proteins from two-dimensional gels by molecular mass searching of peptide fragments in protein sequence databases</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1993</year>
+          <volume>90</volume>
+          <fpage>5011</fpage>
+          <lpage>5015</lpage>
+          <pub-id pub-id-type="pmid">8506346</pub-id>
+          <pub-id pub-id-type="doi">10.1073/pnas.90.11.5011</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perkins</surname>
+              <given-names>DN</given-names>
+            </name>
+            <name>
+              <surname>Pappin</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Creasy</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Cottrell</surname>
+              <given-names>JS</given-names>
+            </name>
+          </person-group>
+          <article-title>Probability-based protein identification by searching sequence databases using mass spectrometry data</article-title>
+          <source>Electrophoresis</source>
+          <year>1999</year>
+          <volume>20</volume>
+          <fpage>3551</fpage>
+          <lpage>3567</lpage>
+          <pub-id pub-id-type="pmid">10612281</pub-id>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1522-2683(19991201)20:18&lt;3551::AID-ELPS3551&gt;3.0.CO;2-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huser</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Brune</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Dondrup</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Plassmeier</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiegrabe</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a <italic>Corynebacterium glutamicum </italic>DNA microarray and validation by genome-wide expression profiling during growth with propionate as carbon source</article-title>
+          <source>J Biotechnol</source>
+          <year>2003</year>
+          <volume>106</volume>
+          <fpage>269</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="pmid">14651867</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.jbiotec.2003.08.006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B56">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dondrup</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goesmann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bartels</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Krause</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Linke</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Rupp</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Sczyrba</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>EMMA: a platform for consistent storage and efficient analysis of microarray data</article-title>
+          <source>Journal of biotechnology</source>
+          <year>2003</year>
+          <volume>106</volume>
+          <fpage>135</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">14651856</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.jbiotec.2003.08.010</pub-id>
+        </citation>
+      </ref>
+      <ref id="B57">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rey</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Nentwich</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Koch</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Ruckert</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tauch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The McbR repressor modulated by the effector substance S-adenosylhomocysteine controls directly the transcription of a regulon involved in sulphur metabolism of <italic>Corynebacterium glutamicum </italic>ATCC 13032</article-title>
+          <source>Mol Microbiol</source>
+          <year>2005</year>
+          <volume>56</volume>
+          <fpage>871</fpage>
+          <lpage>887</lpage>
+          <pub-id pub-id-type="pmid">15853877</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2005.04586.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B58">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meyer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Goesmann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>McHardy</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Bartels</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bekel</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Clausen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kalinowski</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Linke</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Rupp</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Giegerich</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Puhler</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>GenDB-an open source genome annotation system for prokaryote genomes</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>2187</fpage>
+          <lpage>2195</lpage>
+          <pub-id pub-id-type="pmid">12682369</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/gkg312</pub-id>
+        </citation>
+      </ref>
+      <ref id="B59">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thompson</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Plewniak</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Jeanmougin</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Higgins</surname>
+              <given-names>DG</given-names>
+            </name>
+          </person-group>
+          <article-title>The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1997</year>
+          <volume>25</volume>
+          <fpage>4876</fpage>
+          <lpage>4882</lpage>
+          <pub-id pub-id-type="pmid">9396791</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/25.24.4876</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

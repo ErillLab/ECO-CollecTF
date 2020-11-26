@@ -1,0 +1,2013 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">BMC Biol</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1741-7007</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24377418</article-id>
+      <article-id pub-id-type="pmc">3899939</article-id>
+      <article-id pub-id-type="publisher-id">1741-7007-11-122</article-id>
+      <article-id pub-id-type="doi">10.1186/1741-7007-11-122</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>IpsA, a novel LacI-type regulator, is required for inositol-derived lipid formation in <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Baumgart</surname>
+            <given-names>Meike</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>m.baumgart@fz-juelich.de</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Luder</surname>
+            <given-names>Kerstin</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>k.luder@gmx.de</email>
+        </contrib>
+        <contrib contrib-type="author" id="A3">
+          <name>
+            <surname>Grover</surname>
+            <given-names>Shipra</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>SXG068@bham.ac.uk</email>
+        </contrib>
+        <contrib contrib-type="author" id="A4">
+          <name>
+            <surname>Gatgens</surname>
+            <given-names>Cornelia</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>c.gaetgens@fz-juelich.de</email>
+        </contrib>
+        <contrib contrib-type="author" id="A5">
+          <name>
+            <surname>Besra</surname>
+            <given-names>Gurdyal S</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>g.besra@bham.ac.uk</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A6">
+          <name>
+            <surname>Frunzke</surname>
+            <given-names>Julia</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>j.frunzke@fz-juelich.de</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Institut fur Bio- und Geowissenschaften, IBG-1: Biotechnologie, Forschungszentrum Julich, 52425 Julich, Germany</aff>
+      <aff id="I2"><label>2</label>School of Biosciences, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK</aff>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>11</volume>
+      <fpage>122</fpage>
+      <lpage>122</lpage>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>9</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>12</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2013 Baumgart et al.; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Baumgart et al.; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.biomedcentral.com/1741-7007/11/122"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>The development of new drugs against tuberculosis and diphtheria is focused on disrupting the biogenesis of the cell wall, the unique architecture of which confers resistance against current therapies. The enzymatic pathways involved in the synthesis of the cell wall by these pathogens are well understood, but the underlying regulatory mechanisms are largely unknown.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Here, we characterize IpsA, a LacI-type transcriptional regulator conserved among <italic>Mycobacteria</italic> and <italic>Corynebacteria</italic> that plays a role in the regulation of cell wall biogenesis. IpsA triggers <italic>myo</italic>-inositol formation by activating <italic>ino1</italic>, which encodes inositol phosphate synthase. An <italic>ipsA</italic> deletion mutant of <italic>Corynebacterium glutamicum</italic> cultured on glucose displayed significantly impaired growth and presented an elongated cell morphology. Further studies revealed the absence of inositol-derived lipids in the cell wall and a complete loss of mycothiol biosynthesis. The phenotype of the <italic>C. glutamicum ipsA</italic> deletion mutant was complemented to different extend by homologs from <italic>Corynebacterium diphtheriae</italic> (dip1969) and <italic>Mycobacterium tuberculosis</italic> (rv3575), indicating the conserved function of IpsA in the pathogenic species. Additional targets of IpsA with putative functions in cell wall biogenesis were identified and IpsA was shown to bind to a conserved palindromic motif within the corresponding promoter regions. <italic>Myo</italic>-inositol was identified as an effector of IpsA, causing the dissociation of the IpsA-DNA complex <italic>in vitro</italic>.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>This characterization of IpsA function and of its regulon sheds light on the complex transcriptional control of cell wall biogenesis in the mycolata taxon and generates novel targets for drug development.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <kwd>Transcriptional regulator</kwd>
+        <kwd>
+          <italic>Corynebacterium glutamicum</italic>
+        </kwd>
+        <kwd>
+          <italic>Corynebacterium diphtheriae</italic>
+        </kwd>
+        <kwd>
+          <italic>Mycobacterium tuberculosis</italic>
+        </kwd>
+        <kwd>Cell wall synthesis</kwd>
+        <kwd>Mycolic acids</kwd>
+        <kwd>Mycothiol</kwd>
+        <kwd>Inositol</kwd>
+        <kwd>LM</kwd>
+        <kwd>LAM</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>The human pathogens <italic>Mycobacterium tuberculosis</italic> and <italic>Corynebacterium diphtheriae,</italic> as well as many related species of the order <italic>Corynebacteriales,</italic> share a distinctive cell wall architecture that plays an important role in virulence and imparts effective protection against harsh environmental conditions and resistance to therapies [<xref ref-type="bibr" rid="B1">1</xref>]. One unique feature of these cell walls is the presence of long-chain alpha-alkyl, beta-hydroxy fatty acids, called mycolic acids, which form a second bilayer close to the cell surface that is similar to the outer membrane of Gram-negative bacteria [<xref ref-type="bibr" rid="B2">2</xref>]. The enzymes and regulatory mechanisms involved in biosynthesis of the cell walls are primary targets for the development of new drugs.</p>
+      <p>A great deal is known about these bacterial cell walls (Figure <xref ref-type="fig" rid="F1">1</xref>A). The plasma membranes are rich in phospholipids, such as phosphatidylglycerol, diphosphatidylglycerol and phosphatidylinositol (PI). While inositol is an essential polyol in eukaryotes, in eubacteria it is present only in the order <italic>Corynebacteriales</italic> where it serves both as a cell wall component and as a building block of mycothiol (MSH), the major antioxidant in <italic>Mycobacteria</italic>, similar to glutathione [<xref ref-type="bibr" rid="B3">3</xref>]. One function of PI is to anchor cell wall lipoglycans, specifically PI mannosides (PIMs), lipomannan (LM) and liporarabinomannan (LAM), to the plasma membrane [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B4">4</xref>]. The biogenesis of LAM is performed in consecutive steps in the following order: PI->PIM->LM->LAM.</p>
+      <fig id="F1" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p><bold>IpsA plays an essential role in the integrity of the cell wall of </bold><bold><italic>Corynebacteriales</italic></bold><bold>. (A)</bold> Current model of the structure of the cell wall of <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic>. <bold>(B)</bold> Comparison of the organization of the IpsA genome locus in <italic>C. glutamicum</italic> and related species. IpsA and homologous proteins are shown in black. Data were taken from [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>]. The percentage identity of the amino acid sequences to IpsA from <italic>C. glutamicum</italic> was taken from NCBI Blast. hp, hypothetical protein. <bold>(C, D)</bold> Growth curves <bold>(C)</bold> and phenotype <bold>(D)</bold> of <italic>C. glutamicum</italic> wild-type and Delta<italic>ipsA</italic>. Results in <bold>(C)</bold> show the growth (backscatter) from sequential cultures in minimal medium with glucose or <italic>myo</italic>-inositol as carbon source. After reaching the stationary phase, the cells were diluted into fresh medium at an initial OD<sub>600</sub> of 1. Shown are three glucose cultures and the third <italic>myo</italic>-inositol culture (n = 3). In <bold>(D)</bold>, DNA was stained with 4',6-diamidino-2-phenylindole (DAPI) (cyan) and lipophilic regions with nile red (red). The scale bar is 5 mum.</p>
+        </caption>
+        <graphic xlink:href="1741-7007-11-122-1"/>
+      </fig>
+      <p>In <italic>Mycobacteria</italic>, there is a three-step process for synthesis of PI. Step 1 is cyclization of glucose-6-phosphate to 1D-<italic>myo</italic>-inositol-3-phosphate, a reaction that is catalyzed by a <italic>myo</italic>-inositol phosphate synthase, Ino1 (Rv0046c) [<xref ref-type="bibr" rid="B7">7</xref>]. In step 2, the 1D-<italic>myo-</italic>inositol-3-phosphate is dephosphorylated by inositol monophosphatase (IMP) [<xref ref-type="bibr" rid="B8">8</xref>] to yield <italic>myo</italic>-inositol. Step 3 is the transfer of diacylglycerol (DAG) from cytidine diphosphate-diacylglycerol (CDP-DAG) to <italic>myo-</italic>inositol by a PI synthase, PgsA (Rv2612c) [<xref ref-type="bibr" rid="B9">9</xref>]. The enzymes Ino1 and PgsA are essential for the viability of <italic>Mycobacteria</italic>[<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>]. An <italic>ino1</italic> mutant of <italic>M. tuberculosis</italic> grows <italic>in vitro</italic> only in the presence of high inositol concentrations and was no longer able to kill SCID mice (see Movahedzadeh <italic>et al</italic>., [<xref ref-type="bibr" rid="B10">10</xref>]). In <italic>Mycobacterium smegmatis</italic>, <italic>ino1</italic> has been shown to be essential for growth in the absence of exogenous inositol [<xref ref-type="bibr" rid="B12">12</xref>]. Ino1 has therefore been proposed as a target for the development of new antibiotics [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B13">13</xref>].</p>
+      <p>In contrast to the wealth of knowledge about the biogenesis of cell walls, little is known about the regulatory circuits that control these processes [<xref ref-type="bibr" rid="B4">4</xref>]. IpsA was chosen as target for further studies from a set of mutants strains as a Delta<italic>ipsA</italic> mutant displayed a drastically altered cell morphology hinting towards a function in the control of cell wall biosynthesis. The catabolism of <italic>myo</italic>-inositol has been examined in <italic>C. glutamicum</italic>[<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>] but regulation of <italic>myo</italic>-inositol formation has not been deeply investigated up until now. Here, a regulator of inositol synthesis in the model organism <italic>C. glutamicum</italic> is described. Named IpsA, it is a novel LacI-type regulator that acts as an inositol-dependent transcriptional activator of the <italic>myo</italic>-inositol phosphate synthase gene. IpsA function is conserved throughout <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic>, including the prominent pathogenic species <italic>C. diphtheriae</italic> and <italic>M. tuberculosis</italic>.</p>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>IpsA is a novel LacI-type regulator conserved in the <italic>Corynebacteriales</italic></title>
+        <p>IpsA was assigned by homology to the LacI family of transcriptional regulators, which often coordinate the available nutrients with the expression of catabolic genes [<xref ref-type="bibr" rid="B16">16</xref>]. The corresponding genomic loci display a remarkable level of conservation across the <italic>Corynebacteriales</italic> (Figure <xref ref-type="fig" rid="F1">1</xref>B). In previous studies, the structure of IpsA (Cg2910) was analyzed (PDB:3H5T); its physiological function is the subject of this study.</p>
+      </sec>
+      <sec>
+        <title>IpsA deletion affects cell shape and growth</title>
+        <p>To gain insight into the function and possible target genes of IpsA, an in-frame deletion mutant was constructed. Growth rates and final backscatter of Delta<italic>ipsA</italic> cells were significantly below control levels using minimal medium with glucose as carbon source, and these shortfalls increased in magnitude with successive subcultivation (Figure <xref ref-type="fig" rid="F1">1</xref>C). The morphology of the mutant strain was altered, as revealed by fluorescence microscopy with staining of DNA (4',6-diamidino-2-phenylindole (DAPI)) and membranes (nile red). Delta<italic>ipsA</italic> cells formed chain-like structures and failed to divide properly. DNA in the cells was unevenly distributed and was frequently found in the extracellular space, indicative of severe damage to the cell membrane and/or the cell wall (Figure <xref ref-type="fig" rid="F1">1</xref>D, for a larger sample see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S1). Membrane staining revealed several intact cell septa in the unshaped mutant cells.</p>
+        <p>Both the growth defect and altered morphology could be partially overcome by plasmid-encoded <italic>ipsA</italic> under control of the native or an inducible promoter (data not shown). These efforts revealed that increased levels of IpsA also affect growth of <italic>C. glutamicum</italic>. Full restoration of the wild-type phenotype was only achieved when <italic>ipsA</italic> was reintegrated into the mutant strain (intergenic region cg1121 to cg1122) and expressed from its native promoter (Figure <xref ref-type="fig" rid="F2">2</xref>A, B). When the cells were cultivated with <italic>myo</italic>-inositol instead of glucose as carbon source, no differences were observed between the wild-type and Delta<italic>ipsA</italic> strains in terms of growth and morphology (Figure <xref ref-type="fig" rid="F1">1</xref>C, D).</p>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Complementation of the Delta</bold><bold><italic>ipsA </italic></bold><bold>phenotype with </bold><bold><italic>ipsA </italic></bold><bold>and the target gene </bold><bold><italic>ino1 </italic></bold><bold>(cg3323)</bold><bold><italic>.</italic></bold> For chromosomal complementation, the gene <italic>ipsA</italic> was integrated into the intergenic region of cg1121 to cg1122 under control of the native promoter. <bold>(A)</bold> Growth of the strains in CGXII minimal medium with 2% (w/v) glucose as carbon source. The average and standard deviation of three biological replicates is shown. <bold>(B)</bold> Fluorescence microscopy images of stationary phase cells of the cultures presented in (A). <bold>(C)</bold> Plasmid-based complementation with the target gene <italic>ino1</italic> (cg3323). The strains were cultivated in CGXII minimal medium with 2% (w/v) glucose and 50 muM isopropyl beta-<sc>d</sc>-1-thiogalactopyranoside (IPTG) for induction of <italic>ino1</italic> expression.</p>
+          </caption>
+          <graphic xlink:href="1741-7007-11-122-2"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>The impact of <italic>ipsA</italic> mutation on transcription</title>
+        <p>To elucidate the transcriptional changes caused by the deletion of <italic>ipsA</italic>, DNA microarray experiments were performed. More than 450 genes showed alterations in mRNA level greater than a factor of 2, using cells in the exponential growth phase (OD<sub>600</sub> = 5) cultivated in minimal medium with glucose as carbon source (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S3, full data deposited in GEO database [<xref ref-type="bibr" rid="B17">17</xref>] under accession number GSE50210).</p>
+        <p>The expression of the gene cg3323, which encodes a <italic>myo</italic>-inositol phosphate synthase (<italic>ino1)</italic>, and of the operon (cg0044 to cg0046), which encodes an uncharacterized ABC transporter, was reduced by more than a factor of ten in the mutant strain (Table <xref ref-type="table" rid="T1">1</xref>). Other downregulated genes included a flavin-containing monooxygenase (cg3195), a hypothetical endoglucanase (cg2896), and two further transporters (cg0621 to cg0623 and cg2181 to cg2184) (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S3). Among the strongly upregulated genes was a cluster encoding enzymes for inositol catabolism (cg3389 to cg3392), an operon encoding both <italic>menE</italic> and a putative integral membrane protein (cg0533 to cg0534), and a putative dinucleotide-binding enzyme (cg1421). Many of the affected genes are components of the DtxR stimulon, which plays a central role in iron homeostasis in <italic>C. glutamicum</italic>[<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref>]. We speculate that these changes are the result of an impaired iron uptake of the mutant strain due to the defects in the cell wall. In combination with the observed growth phenotype of the mutant strain, the alterations in gene expression indicate that IpsA is a major regulator of inositol-derived cell wall components.</p>
+        <table-wrap position="float" id="T1">
+          <label>Table 1</label>
+          <caption>
+            <p>Transcriptome analysis of an IpsA deletion mutant</p>
+          </caption>
+          <table frame="hsides" rules="groups" border="1">
+            <colgroup>
+              <col align="left"/>
+              <col align="left"/>
+              <col align="left"/>
+              <col align="left"/>
+            </colgroup>
+            <thead valign="top">
+              <tr>
+                <th align="center">
+                  <bold>Locus tag</bold>
+                </th>
+                <th align="left">
+                  <bold>Gene</bold>
+                </th>
+                <th align="left">
+                  <bold>Annotated function</bold>
+                </th>
+                <th align="left">
+                  <bold>Ratio</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="center" valign="bottom">cg3323<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>ino1</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom"><italic>Myo</italic>-inositol phosphate synthase<hr/></td>
+                <td align="left" valign="bottom">0.047<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg0044<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>rbsB</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">ABC transporter/periplasmic <sc>d</sc>-ribose-binding protein<hr/></td>
+                <td align="left" valign="bottom">0.082<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg0045<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>-</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">Probable ABC transport protein, membrane component<hr/></td>
+                <td align="left" valign="bottom">0.138<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg2910<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>-</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">Transcriptional regulator, LacI family<hr/></td>
+                <td align="left" valign="bottom">0.173<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg3195<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>-</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">Flavin-containing monooxygenase<hr/></td>
+                <td align="left" valign="bottom">0.178<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg0046<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>-</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">Probable ABC transport protein, ATP-binding component<hr/></td>
+                <td align="left" valign="bottom">0.323<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg3210<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>-</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">Cell envelope-related transcriptional regulator<hr/></td>
+                <td align="left" valign="bottom">0.411<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg1421<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>-</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom">Putative dinucleotide-binding enzyme<hr/></td>
+                <td align="left" valign="bottom">5.214<hr/></td>
+              </tr>
+              <tr>
+                <td align="center" valign="bottom">cg0533<hr/></td>
+                <td align="left" valign="bottom">
+                  <italic>menE</italic>
+                  <hr/>
+                </td>
+                <td align="left" valign="bottom"><italic>O</italic>-succinylbenzoic acid-CoA ligase<hr/></td>
+                <td align="left" valign="bottom">5.467<hr/></td>
+              </tr>
+              <tr>
+                <td align="center">cg0534</td>
+                <td align="left">
+                  <italic>-</italic>
+                </td>
+                <td align="left">Putative integral membrane protein</td>
+                <td align="left">5.597</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>mRNA ratios (Delta<italic>ipsA</italic>/wild-type) of IpsA target genes in microarray experiments are shown. Presented are all genes where binding of IpsA could be shown in electrophoretic mobility shift assays (EMSAs) as well as IpsA itself, confirming the deletion.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Identification of direct IpsA target promoters</title>
+        <p>The microarray experiments revealed several putative target genes of IpsA. To determine whether these genes are directly regulated by IpsA, the promoter regions of the respective genes were tested in electrophoretic mobility shift assays (EMSAs) for the formation of complexes with purified IpsA protein. We analyzed the promoters of all genes that were more than fourfold regulated but excluded ribosomal proteins and genes belonging to the DtxR/RipA regulon. DNA fragments (approximately 500 bp) covering the promoter regions of putative target genes, were incubated with increasing IpsA-His concentrations. IpsA-His bound with high affinity to the promoter regions of cg0044 and <italic>ino1</italic> (cg3323) and with lower affinity to the promoter regions of cg0534 (a putative integral membrane protein), cg1421 (a putative dinucleotide binding enzyme), cg1476 (<italic>thiC</italic>, thiamine biosynthesis protein ThiC), cg1918 (a putative secreted protein), and cg3195 (flavin containing monooxygenase) (Figure <xref ref-type="fig" rid="F3">3</xref>; all tested fragments are shown in Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S3).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>Target genes, effector and binding sites of IpsA. (A)</bold> Binding of IpsA to 30 bp oligonucleotides covering the binding sites in the putative target promoters. As negative control the oligonucleotide cg3323-d (sequence AGGTCTGATTTCTGCTGGGAATCCCCACAT) was used, which is located immediately downstream of the IpsA binding sites in the cg3323 promoter. <bold>(B)</bold> The influence of intermediates in inositol metabolism (5 mM each) on the binding of IpsA to the <italic>ino1</italic> promoter. <italic>myo</italic>-I, <italic>myo</italic>-inositol; I1P, 1D-<italic>myo</italic>-inositol-1-phosphate; I3P, 1D-<italic>myo</italic>-inositol-3-phosphate; G6P, glucose-6-phosphate. <bold>(C)</bold> The IpsA consensus motif predicted by MEME [<xref ref-type="bibr" rid="B20">20</xref>] and an overview of the sites in the corresponding promoter regions. <bold>(D)</bold> Promoter-fusion studies using the promoter of <italic>ino1</italic> fused to <italic>eyfp</italic> (pJC1-Pcg3323-eyfp). The specific fluorescence of ATCC 13032 containing this plasmid on glucose was set to 1 and the other values were calculated accordingly.</p>
+          </caption>
+          <graphic xlink:href="1741-7007-11-122-3"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Determination of the IpsA DNA binding site</title>
+        <p>Using EMSAs, two separate binding sites were identified in the promoter of <italic>ino1</italic> and one in the promoter of cg0044 (Figure <xref ref-type="fig" rid="F3">3</xref>A and Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S4). Analysis of these sites using the motif-based sequence analysis tool MEME [<xref ref-type="bibr" rid="B20">20</xref>] revealed a conserved palindromic motif, which was subsequently verified by mutational analysis (Figure <xref ref-type="fig" rid="F4">4</xref>). In particular, the central six base pairs appear to be crucial for IpsA binding. The preliminary motif was used to search for further binding sites in putative target genes and across the genome of <italic>C. glutamicum</italic>. Binding sites were identified by EMSAs using oligonucleotides in the promoters of cg1421, cg3195, cg3210 and cg0534 (Table <xref ref-type="table" rid="T1">1</xref>, Figure <xref ref-type="fig" rid="F3">3</xref>A and Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S5). The identified motifs were used to define the IpsA consensus motif shown in Figure <xref ref-type="fig" rid="F3">3</xref>C.</p>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>Mutational analysis of one of the IpsA binding sites in the </bold><bold><italic>ino1 </italic></bold><bold>promoter.</bold> The importance of the predicted DNA sequence motif for IpsA binding was tested in electrophoretic mobility shift assays (EMSAs) with DNA fragments in which three nucleotides of the proposed motif were exchanged, as indicated. A + indicates that the mutated fragment was bound with the same affinity as the unaltered wild-type fragment (positive control); (+) indicates that the mutated fragment was shifted, but with lower affinity; - indicates that the mutated fragment was not shifted. In the case of M3 and M4, binding was completely abolished by the mutation, indicating that the six central base pairs are crucial for IpsA binding. For M1, M2 and M6 a slight decrease of binding was observed. The binding of M5 was unchanged.</p>
+          </caption>
+          <graphic xlink:href="1741-7007-11-122-4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title><italic>Myo</italic>-inositol is an effector molecule of IpsA</title>
+        <p>The enzyme encoded by the main IpsA target gene is Ino1, a <italic>myo</italic>-inositol phosphate synthase that catalyzes the formation of 1D-<italic>myo-</italic>inositol-3-phosphate from glucose-6-phosphate [<xref ref-type="bibr" rid="B7">7</xref>]. We tested several metabolites involved in the relevant pathway for their influence on the formation of the IpsA-DNA complex. A clear backshift was observed for <italic>myo</italic>-inositol but not for 1D-<italic>myo-</italic>inositol-1-phosphate, 1D-<italic>myo-</italic>inositol-3-phosphate or glucose-6-phosphate (Figure <xref ref-type="fig" rid="F3">3</xref>B). The effect of <italic>myo</italic>-inositol could be observed at concentrations down to 0.2 mM (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S6). This effect is specific for IpsA DNA binding, as the addition of up to 50 mM <italic>myo</italic>-inositol did not have any effect on the formation of an unrelated protein-DNA complex (for example, AcnR and the <italic>acn</italic> promoter, Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S7).</p>
+      </sec>
+      <sec>
+        <title>IpsA is required for inositol-dependent regulation of <italic>ino1</italic></title>
+        <p>The major function of IpsA revealed thus far is the activation of <italic>ino1</italic> in the absence of external inositol. Consistent with this, the growth and cell morphology of the Delta<italic>ipsA</italic> strain is complemented by the constitutive expression of <italic>ino1</italic> under standard conditions (Figure <xref ref-type="fig" rid="F2">2</xref>C). To study the influence of IpsA and <italic>myo-</italic>inositol on the expression of <italic>ino1 in vivo</italic>, we fused the <italic>ino1</italic> promoter to <italic>eyfp</italic> (enhanced yellow fluorescent protein) and monitored the fluorescence output of the wild-type and the Delta<italic>ipsA</italic> strain during growth on glucose and <italic>myo</italic>-inositol (Figure <xref ref-type="fig" rid="F3">3</xref>D). Strong promoter activity was observed in the wild-type during growth on glucose. Expression of <italic>eyfp</italic> was significantly decreased in the <italic>ipsA</italic> deletion strain and was lower still when either strain was cultivated with <italic>myo</italic>-inositol as the carbon source.</p>
+      </sec>
+      <sec>
+        <title>IpsA function is conserved in <italic>C. diphtheriae</italic> and <italic>M. tuberculosis</italic></title>
+        <p>The conservation of IpsA in the <italic>Corynebacteriales</italic> suggests that it may play a similar role in pathogenic relatives. To assess this possibility, we tested <italic>in vivo</italic> complementation of <italic>C. glutamicum</italic> Delta<italic>ipsA</italic> with the IpsA homologs of <italic>M. tuberculosis</italic> (Rv3575) and <italic>C. diphtheriae</italic> (DIP1969). Partial complementation of growth and morphology was achieved (Figure <xref ref-type="fig" rid="F5">5</xref>A-C). Growth was still slightly retarded but the final OD was significantly increased in comparison with the Delta<italic>ipsA</italic> strain. Likewise, the morphological phenotype of the complemented strains fell in between the wild-type and the Delta<italic>ipsA</italic> strain, with a slightly better complementation by DIP1969 compared to Rv3575. Most cells displayed the wild-type morphology and, while some chain-like cell clusters were observed (Figure <xref ref-type="fig" rid="F5">5</xref>C), these were shorter than clusters of the Delta<italic>ipsA</italic> strain (Figure <xref ref-type="fig" rid="F1">1</xref>D).</p>
+        <fig id="F5" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>IpsA in </bold><bold><italic>Corynebacterium diphtheriae </italic></bold><bold>and </bold><bold><italic>Mycobacterium tuberculosis</italic></bold><bold>.</bold><italic>Corynebacterium glutamicum</italic> Delta<italic>ipsA</italic> carrying the plasmids pAN6, pAN6-DIP1969 or pAN6-rv3573 and <italic>C. glutamicum</italic> wild-type with pAN6 as control were cultivated in CGXII with glucose without isopropyl beta-<sc>d</sc>-1-thiogalactopyranoside (IPTG) <bold>(A)</bold> or with 50 muM IPTG <bold>(B)</bold>. <bold>(C)</bold> Microscopic phenotypes of the complemented strains. DNA was stained with 4',6-diamidino-2-phenylindole (DAPI) (cyan) and lipophilic regions with nile red (red), scale bar 5 mum. <bold>(D)</bold> Oligonucleotides (30 bp, 1 muM for DIP0021 and DIP0115, 0.5 muM for Rv0047 and the negative control) covering the predicted binding sites in the promoter regions of the respective genes were incubated with IpsA at the given concentrations and analyzed on 15% native polyacrylamide gels. In <italic>M. tuberculosis</italic>, Rv0046 is organized in an operon with Rv0047. A binding site was identified within the open reading frame (ORF) of Rv0047, suggesting the occurrence of a second promoter upstream of <italic>ino1</italic>. <bold>(E)</bold> IpsA binding motif derived from the high affinity <italic>C. glutamicum</italic> targets and the <italic>C. diphtheriae</italic> and <italic>M. tuberculosis</italic> binding sites.</p>
+          </caption>
+          <graphic xlink:href="1741-7007-11-122-5"/>
+        </fig>
+        <p>We also tested the binding of IpsA to the promoter regions of <italic>C. diphtheriae</italic> and <italic>M. tuberculosis</italic> homologs of cg3323 and cg0044 using EMSAs (Figure <xref ref-type="fig" rid="F5">5</xref>D). <italic>C. glutamicum</italic> IpsA bound strongly to the <italic>C. diphtheriae</italic> promoters DIP0115 and DIP0021 and the binding sites were determined (Figure <xref ref-type="fig" rid="F5">5</xref>E and Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S8). In <italic>M. tuberculosis</italic>, Rv0046c is organized in an operon with Rv0047c. A binding site was identified within the open reading frame (ORF) of Rv0047c, suggesting the occurrence of a second promoter upstream of <italic>ino1</italic> (Figure <xref ref-type="fig" rid="F5">5</xref>E).</p>
+      </sec>
+      <sec>
+        <title>Mycothiol synthesis is abolished in <italic>C. glutamicum del-ipsA</italic></title>
+        <p>Besides being a precursor of PI and derived lipids, <italic>myo</italic>-inositol is one of the building blocks of mycothiol, the major antioxidant of <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic>. Therefore, we measured mycothiol in a set of our strains (Figure <xref ref-type="fig" rid="F6">6</xref>) using a method previously published for <italic>C. glutamicum</italic>[<xref ref-type="bibr" rid="B21">21</xref>]. The mycothiol peak was identified by comparison of wild-type chromatograms with those of a mutant depleted in mycothiol synthesis (Delta<italic>mshC</italic>). To proof that the corresponding peak, lacking in Delta<italic>mshC,</italic> represents mycothiol, thiols were blocked with NMM (<italic>N</italic>-methyl-maleimide) prior to derivatization with bromobimane. In this sample, the largest peak of the wild-type at 5.6 minutes was indeed absent the two control samples. In fact, this mycothiol peak was absent in the Delta<italic>ipsA</italic> strain but could fully be restored by plasmid-based expression of <italic>ipsA</italic> (Figure <xref ref-type="fig" rid="F6">6</xref>). Interestingly, the mycothiol measurements showed a partial complementation with the <italic>ipsA</italic> homologs from <italic>C. diphtheriae</italic> and <italic>M. tuberculosis</italic>, which is in line with our previous findings regarding growth and morphology of cross-complemented strains (Figure <xref ref-type="fig" rid="F5">5</xref>).</p>
+        <fig id="F6" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p><bold>Determination of mycothiol production in </bold><bold><italic>Corynebacterium glutamicum </italic></bold><bold>wild-type and different mutants and complemented strains.</bold> The mycothiol was derivatized using bromobimane, separated by high-performance liquid chromatography (HPLC) and monitored using a fluorescence detector (390 nm excitation and 475 nm emission). As control, the mycothiol deficient strain Delta<italic>mshC</italic> was used as well as a wild-type sample that had been treated with <italic>N</italic>-methyl-maleimide (NMM) to block thiols prior to derivatization. The peak assumed to be mycothiol is marked with a dotted line. Presented is a representative chromatogram of three biological replicates each.</p>
+          </caption>
+          <graphic xlink:href="1741-7007-11-122-6"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>PI-based glycolipid synthesis is lost in <italic>C. glutamicum del-ipsA</italic></title>
+        <p>To study the effect of IpsA on the formation of PI-based phosphoglycolipids, [<sup>14</sup>C]-labeled polar lipids were extracted from wild-type and <italic>del-ipsA C. glutamicum</italic>. The glycolipid profiles were examined using two-dimensional thin-layer chromatography (2D-TLC) (Figure <xref ref-type="fig" rid="F7">7</xref>). The wild-type strain showed presence of AcPIM<sub>2,</sub> PI, Gl-A (GlcAGroAc<sub>2</sub>) and Gl-X (ManGlcAGroAc<sub>2</sub>) in lipid extracts as compared to known standards and previous studies [<xref ref-type="bibr" rid="B22">22</xref>], isolated from the cells grown with either <italic>myo</italic>-inositol or glucose. Under normal conditions, <italic>C. glutamicum</italic> produces both PI and Gl-X, which is an alternative glycolipid anchor to PI for synthesis of Cg-LM. The glycolipid Gl-X is derived from Gl-A, its precursor product. Although both PI and Gl-X can be visualized on TLC analysis, the formation of Gl-X is distinguished only in the case of mutants lacking PI, as both Gl-X and PI do not separate out as distinct spots [<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. However, Gl-A appears as a distinct spot on the TLC results in both wild-type and mutant strains. For convenience, the TLC results for polar lipid extracts from the <italic>ipsA</italic> mutant defective in PI synthesis have been marked to depict Gl-X at the same position at which PI is depicted in the wild-type and complemented strains. The labeling for Gl-A remained unchanged. Interestingly, the complete absence of AcPIM<sub>2</sub> was observed in lipid extracts isolated from <italic>C. glutamicum del-ipsA</italic> when cultured in minimal media supplemented with glucose indicating the loss of PI-based glycolipid synthesis in the mutant (Figure <xref ref-type="fig" rid="F7">7</xref>B). The lipid profiles of complemented strains <italic>C. glutamicum DeltaipsA</italic>::pK18-ipsA and <italic>C. glutamicum</italic> Delta<italic>ipsA</italic> harboring cg3323 and DIP1969 in plasmid pAN6, were identical to the wild-type when grown on glucose, demonstrating successful complementation of the loss of gene function in these strains (Figure <xref ref-type="fig" rid="F7">7</xref>C-E). However, the lipid extracts from <italic>C. glutamicum</italic> Delta<italic>ipsA</italic> harboring Rv3575 in plasmid pAN6 cultured under the same conditions displayed no complementation as none of the components was stained with phosphate stain (results not shown). The lipid extracts isolated from the mutant and complemented strains cultured in minimal media supplemented with <italic>myo</italic>-inositol were similar to wild-type, with distinct AcPIM<sub>2</sub> and PI production (Figure <xref ref-type="fig" rid="F7">7</xref>G, H and Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S9).</p>
+        <fig id="F7" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p><bold>Two-dimensional thin-layer chromatography (2D-TLC) analysis of [</bold><sup><bold>14</bold></sup><bold>C]-labeled polar lipids from </bold><bold><italic>Corynebacterium glutamicum </italic></bold><bold>cells grown in glucose (A-F) or </bold><bold><italic>myo</italic></bold><bold>-inositol (G-H). </bold><bold>(A)</bold> and <bold>(G)</bold><italic>C. glutamicum</italic> ATCC 13032, <bold>(B)</bold> and <bold>(H)</bold> ATCC 13032 Delta<italic>ipsA,</italic><bold>(C)</bold> ATCC 13032 Delta<italic>ipsA</italic> pAN6-cg3323<italic>,</italic><bold>(D)</bold> ATCC 13032 Delta<italic>ipsA</italic>::pK18int-ipsA<italic>,</italic><bold>(E)</bold> ATCC 13032 Delta<italic>ipsA</italic> pAN6-DIP1969 and <bold>(F)</bold> ATCC 13032 Delta<italic>ipsA</italic> pAN6-Rv3575. The cells were cultured in CGXII with either glucose <bold>(A-F)</bold> or <italic>myo</italic>-inositol <bold>(G, H)</bold>. PI, phosphatidylinositol; TMCM, trehalose monocorynomycolate; GMCM, glucose monocorynomycolate; Ac<sub>1</sub>PIM<sub>2</sub>, monoacylated phosphatidyl <italic>myo</italic>-inositol dimannoside; GlcAGroAc<sub>2</sub>, 1,2-di-<italic>O</italic>-C<sub>16</sub>/C<sub>18:1</sub>-(alpha-<sc>d</sc>-glucopyranosyluronic acid)-(1->3)-glycerol (GL-A); ManGlcAGroAc<sub>2</sub> 1,2-di-<italic>O-</italic>C<sub>16</sub>/C<sub>18:1</sub>-(alpha-<sc>d</sc>-mannopyranosyl)-(1->4)-(alpha-<sc>d</sc>-glucopyranosyluronic acid)-(1->3)-glycerol (GL-X).</p>
+          </caption>
+          <graphic xlink:href="1741-7007-11-122-7"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Analysis of lipoglycan extracts</title>
+        <p>Since the lipoglycans LM and LAM are built on PIMs which are mannosylated products of PI, the effect of IpsA was also studied on these lipoglycans extracted from the wild-type, <italic>C. glutamicum del-ipsA</italic> and the complemented strains (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S10A). LAM and Cg-LM-A/B were clearly present in extracts from the wild-type cultured in glucose or <italic>myo</italic>-inositol. However, the lipoglycan extracts from the mutant <italic>C. glutamicum del-ipsA</italic> grown on glucose revealed no LAM while a band corresponding to Cg-LM-B could be observed. On glucose the complemented strains <italic>C. glutamicum</italic> Delta<italic>ipsA</italic>::pK18-ipsA and <italic>C. glutamicum</italic> Delta<italic>ipsA</italic> containing plasmid encoded Cg3323 and DIP1969 exhibited lipoglycan profiles identical to the wild-type as distinct bands corresponding to both LAM and Cg-LM-A/B. However, no band corresponding to LAM was observed in lipoglycan extracts of <italic>C. glutamicum</italic> Delta<italic>ipsA</italic> complemented with Rv3575c in pAN6 plasmid grown in minimal media supplemented with glucose. Instead, a band corresponding to Cg-LM-B was evident. The lipoglycan extracts isolated from the mutant and complemented strains cultured in minimal media supplemented with <italic>myo</italic>-inositol were similar to wild-type with distinct LM and LAM (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S10B).</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>The metabolic pathways for biogenesis of the cell wall in <italic>Mycobacteria</italic> and <italic>Corynebacteria</italic> are well characterized, with few gaps remaining to be filled. In contrast, the regulation of these processes remains largely undiscovered. Here, we describe the novel transcriptional regulator IpsA, which functions as an activator of <italic>ino1</italic> and other target genes most likely involved in the synthesis of inositol-derived cell wall components and mycothiol (MSH) in <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic> (Figure <xref ref-type="fig" rid="F8">8</xref>). <italic>Myo</italic>-inositol was shown to act as effector of IpsA and our studies are consistent with a conserved function for this regulator throughout the <italic>Corynebacteriales</italic>.</p>
+      <fig id="F8" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p><bold>Model of IpsA function.</bold> In <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic>, <italic>myo</italic>-inositol (<italic>m</italic>Ino) is an important building block for cell wall components and mycothiol. <italic>m</italic>Ino can be taken up from the culture medium or synthesized from glucose-6-phosphate (G6P) via 1D-<italic>myo</italic>-inositol-3-phosphate (I3P). When <italic>m</italic>Ino concentration is low, IpsA activates <italic>ino1</italic>, encoding <italic>myo</italic>-inositol phosphate synthase, which catalyzes the formation of I3P from G6P. Besides <italic>ino1</italic>, IpsA activates or represses several other targets of unknown function.</p>
+        </caption>
+        <graphic xlink:href="1741-7007-11-122-8"/>
+      </fig>
+      <p>The polyol <italic>myo</italic>-inositol has an important function in <italic>Mycobacteria</italic> and <italic>Corynebacteria</italic>: it serves as the key building block for a large class of cell wall phospholipids, as well as for the antioxidant MSH [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B3">3</xref>]. Several studies have illustrated the potential of the underlying biosynthetic pathways as putative drug targets [<xref ref-type="bibr" rid="B13">13</xref>]. For example, an <italic>ino1</italic> mutant of <italic>M. tuberculosis</italic> can only grow in the presence of high concentrations of <italic>myo</italic>-inositol [<xref ref-type="bibr" rid="B10">10</xref>] and a <italic>M. tuberculosis</italic> mutant defective in MSH biosynthesis requires catalase for growth on plates [<xref ref-type="bibr" rid="B25">25</xref>]. Our studies have shown that the deletion of <italic>ipsA</italic> leads to a complete loss of mycothiol biosynthesis, demonstrating the importance of IpsA also for this metabolic pathway.</p>
+      <p><italic>Myo</italic>-inositol and its phosphate derivatives are common substances in eukaryotes and are therefore present in significant quantities in the natural habitats of <italic>M. tuberculosis</italic>, <italic>C. diphtheriae</italic> (the human body) and <italic>C. glutamicum</italic> (soil) [<xref ref-type="bibr" rid="B26">26</xref>]. It has been shown that <italic>myo</italic>-inositol can be used by <italic>C. glutamicum</italic> as a carbon and energy source, and several transporters, enzymes and regulators of the catabolic pathway have been identified [<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>]. In the present study, microarray analysis revealed that the two main target genes of IpsA, <italic>ino1</italic> and cg0044, are strongly downregulated during growth on inositol compared to growth on glucose, which is in line with IpsA being an inositol-dependent activator of both genes/operons [<xref ref-type="bibr" rid="B14">14</xref>].</p>
+      <p>Bioinformatic analysis of <italic>ipsA</italic> and its homologs in other <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic> revealed conservation of the gene among these species (Figure <xref ref-type="fig" rid="F1">1</xref>B). In many genomes of the <italic>Corynebacteriales, ipsA</italic> is located next to <italic>znuACB</italic>, which encodes a putative zinc transport system regulated by Zur [<xref ref-type="bibr" rid="B27">27</xref>]. Furthermore, genes involved in the biosynthesis of trehalose (<italic>otsAB</italic>), which is also an important component of the cell wall of the <italic>Corynebacteriales,</italic> are frequently located downstream of <italic>ipsA</italic>, but their orientations are divergent [<xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref>]. The product of the main target gene of IpsA, Ino1, contains a zinc ion in its catalytic center and needs NAD<sup>+</sup> for its reaction [<xref ref-type="bibr" rid="B30">30</xref>].</p>
+      <p>The transcriptional organization of <italic>ino1</italic> differs between <italic>Corynebacteria</italic> and <italic>Mycobacteria.</italic> While <italic>ino1</italic> is the only gene in the transcriptional unit in <italic>Corynebacteria</italic>, it is cotranscribed with a preceded, uncharacterized PadR-like transcriptional regulator in <italic>Mycobacteria</italic>[<xref ref-type="bibr" rid="B31">31</xref>] (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S11). Given the genomic organization, we suspect that this regulator is an additional player in the control of <italic>ino1</italic> expression.</p>
+      <p>That <italic>ino1</italic> is the main target gene of IpsA is supported by the observation that the <italic>ipsA</italic> phenotype was complemented by overexpression of <italic>ino1</italic>. One could assume that this is the only real target gene of IpsA, but it is not unlikely, that other target genes only appear to be important under different conditions, for example, another carbon source or certain stress conditions. Based on DNA Microarrays and EMSAs we identified several other direct target genes of IpsA, all of which were previously uncharacterized. The operon cg0044 to cg0046 encodes an ABC transporter of unknown function. It may be involved in the uptake of inositol(-derived) carbohydrates required for cell wall biogenesis. The product of cg3210 is annotated as a cell envelope-related transcriptional regulator of the LytR type. It has a transmembrane domain and is conserved in <italic>Corynebacteria</italic> and <italic>Mycobacteria</italic>. Cg1421 is a putative dinucleotide-binding enzyme that has some similarity with coenzyme F420-dependent NADP oxidoreductases. Cg3195 is annotated as a flavin-containing monooxygenase and has, like Cg1421, a NAD(P) binding domain. As many MSH-dependent detoxification reactions require NAD or NADP as cofactors [<xref ref-type="bibr" rid="B3">3</xref>], Cg1421 and Cg3195 may be involved in cofactor supply or regeneration for these processes. The operon cg0534 to cg0533 encodes a putative integral membrane protein of the YphA family and <italic>menE</italic>, an <italic>O</italic>-succinylbenzoic acid-CoA ligase. Although the functions of the target genes besides <italic>ino1</italic> are largely unknown, there are some clear links to cell wall synthesis and regulation, and likely also to MSH-associated reactions. Thus, our analysis of the IpsA regulon has revealed several novel and interesting targets for further studies.</p>
+      <p>Among the target genes of IpsA are not only activated but also repressed genes. The localization of the IpsA binding site in the particular promoter regions matches very well with the type of regulation (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S5). For the activated genes (cg3323, cg0044, cg3210, and cg3195) IpsA binding sites are located upstream of the -35 region. In the promoters of the repressed genes (cg1421 and cg0534) the IpsA binding sites overlap with the -35 and/or the -10 region. This is a further indication that the altered mRNA level we see in the DNA microarrays is a direct effect of the IpsA deletion.</p>
+      <p>The structure-function relationship of IpsA is comparable to other members of the LacI family of transcriptional regulators. They all contain a DNA-binding domain at the N-terminus of the protein, composed of three alpha-helices that form a helix-turn-helix motif that binds to the major groove of the operator. The tetramerization of LacI takes place at the C-terminus, at residues 340 to 357, (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S12) [<xref ref-type="bibr" rid="B32">32</xref>]. These residues are missing in IpsA, which is in agreement with our gel filtration analysis that indicated a dimeric conformation for IpsA. A computational analysis of many LacI regulators and binding sites revealed a highly conserved hydrophobic amino acid at position 54 (mostly leucine, L64 in IpsA), which inserts into a conserved, central CG group in the operator. This group is present in both binding motifs of the <italic>ino1</italic> promoter in <italic>C. glutamicum</italic>[<xref ref-type="bibr" rid="B33">33</xref>].</p>
+      <p>The formation of 1D-<italic>myo-</italic>inositol-3-phosphate from glucose-6-phosphate by Ino1 represents the first step of PI synthesis; it provides the scaffold on which cell wall components such as PIMs, LM and LAM are built. Our chromatographic analysis of radiolabelled polar lipid extracts of the mutant <italic>C. glutamicum del-ipsA</italic> grown in minimal media with glucose generated a characteristic phenotype, namely that the mutant strain was deficient in AcPIM<sub>2</sub> and PI while Gl-A and Gl-X were unaffected. In addition, the mutant strain grown on minimal media supplemented with glucose failed to produce PI-based LAM. Instead, the GL-X-based LM, Cg-LM-B was apparent on sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) analysis of lipoglycans, which could explain why <italic>C. glutamicum del-ipsA</italic> can grow over several cultivations without supplementation with <italic>myo</italic>-inositol [<xref ref-type="bibr" rid="B1">1</xref>]. This LM-B was not found in <italic>Mycobacteria</italic>. The polar lipid and lipoglycan extracts from the complemented strain <italic>C. glutamicum del-ipsA</italic>::pK18<italic>-</italic>ipsA grown on minimal media supplemented with glucose displayed normal levels of AcPIM<sub>2</sub>, PI, LM and LAM biosynthesis, with profiles identical to wild-type. These data are consistent with the view that IpsA affects an early stage of PI biosynthesis, namely the expression of <italic>ino1</italic>. In fact, the polar lipid and lipoglycan extracts obtained from Delta<italic>ipsA</italic> complemented with plasmid-encoded <italic>ino1</italic> also displayed lipid profiles identical to that of the wild-type, indicating involvement of IpsA in transcriptional activation of <italic>ino1</italic> expression. The results imply that in absence of IpsA, PI-based PIMs, LM and LAM are not synthesized as the mutant strain no longer produces the inositol monophosphate synthase required for synthesis of <italic>myo</italic>-inositol, a substrate for PI production. The polar lipid extracts of <italic>C. glutamicum del-ipsA</italic> complemented with the homolog from <italic>C. diphtheriae</italic> exhibited a profile akin to wild-type. Thus DIP1969 is a functional equivalent of IpsA and can be designated as transcriptional activator of <italic>ino1</italic> (DIP0115) in this pathogenic species. For the homolog of Rv3575 the situation is not as clear as for DIP1969. Although we see a positive effect on growth and a partial complementation in terms of mycothiol biosynthesis and morphological phenotype, no PI derived lipids could be identified on the TLC results. One possible explanation for this is that most of the inositol formed is channeled towards mycothiol. Consequently, a low amount of PI derived lipids might be formed, sufficient for partial complementation of the phenotype but still too low for detection by TLC. Furthermore, the differences in <italic>M. tuberculosis</italic> IpsA structure, binding affinity and specificity can also be a reason for the only partial complementation. The fact that we did observe partial complementation with respect to most phenotypes tested hints at least to a very similar function in <italic>M. tuberculosis</italic>.</p>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>Conclusions</title>
+      <p>In this study, we have characterized the LacI regulator IpsA as a first regulator of inositol anabolism in the <italic>Corynebacteriales.</italic> The findings provide insights into the regulatory mechanisms involved in processes that have been identified as promising targets for drug development. IpsA itself could be such a target, if a <italic>myo-</italic>inositol analog could be developed that blocks activation of <italic>ino1</italic>; it is noteworthy that a trehalose analog with a bacteriostatic effect on <italic>Mycobacterium aurum</italic> has been reported [<xref ref-type="bibr" rid="B34">34</xref>]<italic>.</italic> Finally, the IpsA regulon delivers a promising starting point for the analysis of further, so far unstudied players in cell wall synthesis in this important class of bacteria.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Bacterial strains, plasmids and growth media</title>
+        <p>The bacterial strains and plasmids used in this study are listed in Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S1. The <italic>C. glutamicum</italic> type strain ATCC 13032 was used as wild-type. Growth experiments were performed at 30 degrees C and 1,200 rpm in a Biolector system (m2p-labs, Baesweiler, Germany) in 48-well FlowerPlates containing 750 muL CGXII minimal medium [<xref ref-type="bibr" rid="B35">35</xref>] supplemented with 3,4-dihydroxybenzoate (30 mg/L) and carbon source as indicated. If appropriate, 25 mug/mL kanamycin was added. All cloning was performed in <italic>Escherichia coli</italic> DH5alpha cultivated at 37 degrees C in lysogeny broth (LB, [<xref ref-type="bibr" rid="B36">36</xref>]) with 50 mug/L kanamycin.</p>
+      </sec>
+      <sec>
+        <title>Recombinant DNA work</title>
+        <p>Routine methods such as polymerase chain reaction (PCR), DNA restriction and ligation were performed using standard protocols [<xref ref-type="bibr" rid="B36">36</xref>-<xref ref-type="bibr" rid="B38">38</xref>]. The oligonucleotides used in this study were obtained from Eurofins MWG Operon (Ebersberg, Germany) and are listed in Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S2. DNA sequencing was performed by Eurofins MWG Operon (Ebersberg, Germany). The Delta<italic>ipsA</italic> mutant of <italic>C. glutamicum</italic> was constructed via a two-step homologous recombination protocol as described previously [<xref ref-type="bibr" rid="B39">39</xref>]. For further details regarding plasmid and mutant construction, see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>.</p>
+      </sec>
+      <sec>
+        <title>DNA microarrays</title>
+        <p>For transcriptome analysis, <italic>C. glutamicum</italic> wild-type and Delta<italic>ipsA</italic> cells were grown in 5 mL BHI (brain-heart infusion, Becton, Dickinson and Company, Le Pont de Claix, France) for about 6 h at 30 degrees C. A second precultivation was performed in CGXII minimal medium containing 2% (w/v) glucose as carbon source. The main cultures were inoculated to an OD of 0.5 in CGXII minimal medium with 2% (w/v) glucose. At an OD of 5 the cells were harvested by centrifugation (4,120 <italic>g</italic>, 10 minutes and 4 degrees C). The cell pellet was subsequently frozen in liquid nitrogen and stored at -70 degrees C. The preparation of total RNA was performed as described previously with the RNeasy Kit from Qiagen (Hilden, Germany) [<xref ref-type="bibr" rid="B40">40</xref>]. Synthesis of fluorescently-labeled cDNA was carried out as described in [<xref ref-type="bibr" rid="B40">40</xref>,<xref ref-type="bibr" rid="B41">41</xref>]. Purified cDNA samples to be compared were pooled and the prepared two-color samples were hybridized at 65 degrees C while rotating for 17 h using Agilent's Gene Expression Hybridization Kit (Agilent, Bobligen, Germany), hybridization oven and hybridization chamber. After hybridization, the arrays were washed using Agilent's Wash Buffer Kit according to the manufacturer's instructions. Fluorescence of hybridized DNA microarrays was determined at 532 nm (Cy3) and 635 nm (Cy5) at 5 mum resolution with a GenePix 4000B laser scanner and GenePix Pro 6.0 software (Molecular Devices, Sunnyvale, CA, USA). Fluorescence images were saved to raw data files in TIFF format (GenePix Pro 6.0). Quantitative TIFF image analysis was carried out using GenePix image analysis software and results were saved as GPR-file (GenePix Pro 6.0). For background correction of spot intensities, ratio calculation and ratio normalization, GPR-files were processed using the BioConductor R-packages limma and marray [<xref ref-type="bibr" rid="B42">42</xref>]. Array data were deposited in the GEO database [<xref ref-type="bibr" rid="B43">43</xref>] under accession number GSE50210.</p>
+      </sec>
+      <sec>
+        <title>Overproduction and purification of IpsA</title>
+        <p><italic>E. coli</italic> BL21(DE3) carrying the expression plasmids pET-TEV-ipsA or pAN6-ipsA-STREP were grown in LB medium at 37 degrees C and 120 rpm. IpsA overproduction was induced by addition of 50 muM isopropyl beta-<sc>d</sc>-1-thiogalactopyranoside (IPTG) followed by cultivation at 16 degrees C for 20 h before the cells were harvested by centrifugation. Nickel chelate and StrepTactin affinity chromatography were performed as described previously [<xref ref-type="bibr" rid="B44">44</xref>,<xref ref-type="bibr" rid="B45">45</xref>]. For further purification and determination of the molecular weight, gel filtration was performed using a Superdex (TM)  200 10/300 GL column (GE Healthcare, Munich, Germany) (buffer: 50 mM Tris-HCl pH 8, 250 mM NaCl, 1 mM dithiothreitol (DTT)). Note that the IpsA-variant with the C-terminal STREP-tag formed less aggregates than the variant with the His<sub>10</sub>-tag and eluted at a volume corresponding to 79 kDa, suggesting dimer formation (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S2). The protein was concentrated, flash frozen in liquid nitrogen and stored in the gel filtration buffer at -70 degrees C.</p>
+      </sec>
+      <sec>
+        <title>Electrophoretic mobility shift assays (EMSAs)</title>
+        <p>EMSAs were performed as described previously with the following modifications [<xref ref-type="bibr" rid="B46">46</xref>]. Unless otherwise stated, the STREP-tag variant was used for the EMSAs. Purified IpsA was incubated with DNA fragments (30 to 500 bp, final concentration 0.028 to 1 muM) in binding buffer (50 mM Tris-HCl pH 7.5, 40 mM KCl, 5 mM MgCl<sub>2</sub>) in a total volume of 10 muL. Electrophoresis was performed with 10% to 15% native polyacrylamide gels at room temperature and 150 or 180 V for 45 to 60 minutes (depending on the size of the DNA fragments). For the testing of effector molecules, IpsA was first incubated with the putative effector for 20 minutes at room temperature, followed by addition of the DNA, further 20 minutes incubation and electrophoresis as described above. As control AcnR protein and the <italic>acn</italic> promoter fragment was used as described in [<xref ref-type="bibr" rid="B47">47</xref>] (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S7).</p>
+      </sec>
+      <sec>
+        <title>Fluorescence microscopy</title>
+        <p>For recording fluorescence microscopy images, cells were centrifuged and resuspended in phosphate-buffered saline (PBS, 137 mM NaCl, 2.7 mM KCl, 4.3 mM Na<sub>2</sub>HPO<sub>4</sub>, 1.4 mM KH<sub>2</sub>PO<sub>4</sub>, pH 7.3) containing 200 ng/mL DAPI and 300 ng/mL nile red. After 5 to 10 minutes incubation at room temperature, the cells were analyzed on agar pads using a Zeiss Axioplan 2 imaging microscope that was equipped with an AxioCam MRm camera and a Plan-Apochromat 100x, 1.40 Oil DIC oil-immersion objective. Digital images were acquired and analyzed with AxioVision 4.6 software (Zeiss, Gottingen, Germany).</p>
+      </sec>
+      <sec>
+        <title>Promoter fusion studies</title>
+        <p>To analyze the regulation of the <italic>ino1</italic> promoter by IpsA <italic>in vivo</italic>, a DNA fragment covering the cg3323 promoter region was fused to the <italic>eyfp</italic>-coding sequence (pJC1<bold>-</bold>Pcg3323-eYFP). Wild-type and Delta<italic>ipsA</italic> cells were transformed with the resulting plasmid and the fluorescence output was analyzed on minimal medium with 2% (w/v) glucose or <italic>myo</italic>-inositol in the Biolector system.</p>
+      </sec>
+      <sec>
+        <title>Extraction and determination of mycothiol</title>
+        <p>The determination of mycothiol was carried out as described [<xref ref-type="bibr" rid="B21">21</xref>]. Briefly, cells were first cultivated in BHI medium for 6 h and then twice in CGXII minimal medium with 4% (w/v) as carbon source at 30 degrees C and 120 rpm for 16 h and 24 h, respectively. 200 mg of wet cells were resuspended in 1 mL of warm (60 degrees C) acetonitrile containing 20 mM Tris-HCl, pH 8.0 and 2 mM bromobimane (Sigma-Aldrich, Taufkirchen near Munich, Germany), sonificated for 20 s and further incubated in a 60 degrees C water bath for 15 minutes in the dark. The samples were acidified with 5 muL of 5 M methanesulfonic acid and the cellular debris was removed by centrifugation at 16,000 <bold>
+<italic>g</italic>
+</bold> for 10 minutes. The supernatants were filtered and diluted fivefold in 10 mM methanesulfonic acid. A wild-type control sample was incubated with 5 mM NMM to block the thiol groups prior to derivatization with bromobimane. The sample were analyzed using a C<sub>18</sub> column (LiChrospher RP 18, 125 x 4 mm) and the solvents A (100 mM sodium acetate buffer pH 7.2) and B (100% methanol) a flow rate of 0.7 mL/minute and the following gradient: 0 minutes, 15% B; 1 minute, 15% B; 1.5 minutes, 35% B; 11 minutes, 80% B; 12 minutes, 95% B; 13 minutes 100% B. The peak assumed to be mycothiol (5.61 minutes) was identified by comparison of the wild-type chromatogram with the one from the Delta<italic>mshC</italic> strain and the NMM treated sample. Furthermore this peak appears shortly after glutathione (5.14) as published for a similar method [<xref ref-type="bibr" rid="B48">48</xref>].</p>
+      </sec>
+      <sec>
+        <title>Growth of bacteria for lipid and lipoglycan analysis</title>
+        <p>Overnight cultures of <italic>C. glutamicum</italic> ATCC 13032, <italic>C. glutamicum</italic> Delta<italic>ipsA</italic>, <italic>C. glutamicum</italic> Delta<italic>ipsA</italic>::pK18int-ipsA<italic>,</italic> and <italic>C. glutamicum</italic> Delta<italic>ipsA</italic> harboring <italic>ino1</italic> (cg3323), Rv3575 and DIP1969 in plasmid pAN6 were pregrown in 20 mL of 3.7% brain-heart-glucose bouillon (Sigma-Aldrich, Gillingham, UK) containing Kanamycin (25 mug/mL). The cells were washed once with PBS, used to inoculate a second preculture to an OD<sub>600</sub> of 1 in 50 mL CGXII minimal medium (50 mL) supplemented with 2% glucose and incubated with gentle shaking overnight at 30 degrees C. The cells of the second preculture were washed once with PBS and used to inoculate the main cultures to an OD<sub>600</sub> of 0.1 in 10 mL CGXII minimal medium (10 mL), supplemented with either 2% glucose or 2% <italic>myo</italic>-inositol and grown until early log phase. At early log phase, the cells were labeled with 1 muCi/mL [1,2-<sup>14</sup>C]-acetate (1.66 to 2.22GBq/mmol, PerkinElmer Inc., Waltham, Massachusetts, USA) and incubated overnight at 30 degrees C with gentle shaking. The cells were recovered following centrifugation at 3,500 <bold>
+<italic>g</italic>
+</bold> and dried.</p>
+      </sec>
+      <sec>
+        <title>Analysis of polar lipids and lipoglycans</title>
+        <p>The cell cultivation procedure for the following experiments is described in the Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>. Polar and apolar lipid extracts were prepared from the dried cell pellets using established procedures [<xref ref-type="bibr" rid="B49">49</xref>]. The dried polar lipid extracts were resuspended in CHCl<sub>3</sub>:CH<sub>3</sub>OH (100 muL, 2: 1, v/v) and the incorporation of [1,2-<sup>14</sup>C] acetate in lipid extracts determined by counting an aliquot (5%) using scintillation fluid (5 mL). To analyze the lipid profiles, equal counts of polar lipid extracts (20,000 cpm) were applied to silica thin layer chromatography (silica gel 60 F<sub>254</sub> Merck 5554, TLC plates) and developed using the solvent system: CHCl<sub>3</sub>:CH<sub>3</sub>OH:H<sub>2</sub>O (60:30:6, v/v/v) in the first dimension and CHCl<sub>3</sub>:CH<sub>3</sub>CO<sub>2</sub>H:CH<sub>3</sub>OH:H<sub>2</sub>O (40:25:3:6, v/v/v/v) in the second dimension. The autoradiograms were obtained by exposing the TLC results to X-ray films (Kodak-Biomax MR Kodak, Rochester, New York, USA) for 48 h.</p>
+        <p>Lipoglycans were extracted using previously described protocols [<xref ref-type="bibr" rid="B50">50</xref>]. Briefly, dried cell pellets from a 10 mL volume culture were resuspended in water and refluxed five times with equal volume of 50% aqueous C<sub>2</sub>H<sub>5</sub>OH at 85 degrees C, for 6 h intervals. The suspension was centrifuged and the supernatant recovered between each extraction following centrifugation. The combined supernatant fractions were dried and subjected to hot phenol-H<sub>2</sub>O treatment at 65 degrees C. The aqueous phase containing the crude lipoglycan fraction was recovered and dialyzed (molecular weight cut-off 3.5 KDa) against water. The dialyzed fraction was dried and 20 mug of lipoglycans loaded on a 15% SDS-PAGE gel. The lipoglycans were visualized using Pro-Q emerald glycoprotein stain (Life Technologies, Darmstadt, Germany).</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Abbreviations</title>
+      <p>BHI: brain-heart infusion; CDP-DAG: cytidine diphosphate-diacylglycerol; DAG: diacyl-glycerol; eyfp: enhanced yellow fluorescent protein; GL-A: GlcAGroAc<sub>2</sub>; 1,2-di-<italic>O</italic>-C<sub>16</sub>/C<sub>18:1</sub>-(alpha-<sc>d</sc>-glucopyranosyluronic acid)-(1->3)-glycerol; GL-X: ManGlcAGroAc<sub>2</sub>; 1,2-di-<italic>O-</italic>C<sub>16</sub>/C<sub>18:1</sub>-(alpha-<sc>d</sc>-mannopyranosyl)-(1->4)-(alpha-<sc>d</sc>-glucopyranosyluronic acid)-(1->3)-glycerol; IMP: inositol monophosphatase; LAM: liporarabinomannan; LM: lipomannan; MSH: mycothiol; PBS: phosphate-buffered saline; PI: phosphatidylinositol; PIMs: PI mannosides.</p>
+    </sec>
+    <sec>
+      <title>Competing interests</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>MB designed and coordinated the study, constructed the mutant, performed the microarray experiments, the mycothiol measurements and fluorescence microscopy and prepared the figures. KL and CG carried out the recombinant DNA work, the electrophoretic mobility shift assays (EMSAs), the protein purification, the promoter fusion studies and the growth experiments. SG and GSB performed and analyzed the cell wall lipid studies and prepared the respective parts of the manuscript. MB and JF conceived of the study and wrote the manuscript. All authors read and approved the final manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1</title>
+          <p>Additional methods, figures and tables.</p>
+        </caption>
+        <media xlink:href="1741-7007-11-122-S1.pdf">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>This work was supported by the German Ministry of Education and Research (BMBF, grant 0316017B) and by the Helmholtz Association (Young Investigator grant VH-NG-716). We thank Tino Polen for help with the microarray analyses, Jan van Ooyen for help with high-performance liquid chromatography (HPLC) measurements, the students Jakob Schlegel and Sebastian Schnorrenberg for their contribution to this project, Antonia Heyer for providing plasmid pJC1-venus-term, Jorn Kalinowski for information about transcriptional start sites as well as Lothar Eggeling and Simon Klaffl for discussion.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mishra</surname>
+            <given-names>AK</given-names>
+          </name>
+          <name>
+            <surname>Driessen</surname>
+            <given-names>NN</given-names>
+          </name>
+          <name>
+            <surname>Appelmelk</surname>
+            <given-names>BJ</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <article-title>Lipoarabinomannan and related glycoconjugates: structure, biogenesis and role in <italic>Mycobacterium tuberculosis</italic> physiology and host-pathogen interaction</article-title>
+          <source>FEMS Microbiol Rev</source>
+          <year>2011</year>
+          <volume>11</volume>
+          <fpage>1126</fpage>
+          <lpage>1157</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6976.2011.00276.x</pub-id>
+          <pub-id pub-id-type="pmid">21521247</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Eggeling</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <name>
+            <surname>Alderwick</surname>
+            <given-names>L</given-names>
+          </name>
+          <person-group person-group-type="editor">Burkovski A</person-group>
+          <article-title>Structure and synthesis of the cell wall</article-title>
+          <source>Corynebacteria: genomics and molecular biology</source>
+          <year>2008</year>
+          <publisher-name>Wymondham, UK: Caister Academic Press</publisher-name>
+          <fpage>267</fpage>
+          <lpage>294</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Fahey</surname>
+            <given-names>RC</given-names>
+          </name>
+          <article-title>Glutathione analogs in prokaryotes</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>1830</year>
+          <volume>11</volume>
+          <fpage>3182</fpage>
+          <lpage>3198</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Morita</surname>
+            <given-names>YS</given-names>
+          </name>
+          <name>
+            <surname>Fukuda</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Sena</surname>
+            <given-names>CBC</given-names>
+          </name>
+          <name>
+            <surname>Yamaryo-Botte</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>McConville</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Kinoshita</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Inositol lipid metabolism in mycobacteria: biosynthesis and regulatory mechanisms</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>1810</year>
+          <volume>11</volume>
+          <fpage>630</fpage>
+          <lpage>641</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="other">
+          <comment>
+            <ext-link ext-link-type="uri" xlink:href="http://www.microbesonline.org">http://www.microbesonline.org</ext-link>
+          </comment>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Alm</surname>
+            <given-names>EJ</given-names>
+          </name>
+          <name>
+            <surname>Huang</surname>
+            <given-names>KH</given-names>
+          </name>
+          <name>
+            <surname>Price</surname>
+            <given-names>MN</given-names>
+          </name>
+          <name>
+            <surname>Koche</surname>
+            <given-names>RP</given-names>
+          </name>
+          <name>
+            <surname>Keller</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Dubchak</surname>
+            <given-names>IL</given-names>
+          </name>
+          <name>
+            <surname>Arkin</surname>
+            <given-names>AP</given-names>
+          </name>
+          <article-title>The MicrobesOnline web site for comparative genomics</article-title>
+          <source>Genome Res</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>1015</fpage>
+          <lpage>1022</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.3844805</pub-id>
+          <pub-id pub-id-type="pmid">15998914</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bachhawat</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Mande</surname>
+            <given-names>SC</given-names>
+          </name>
+          <article-title>Identification of the <italic>INO1</italic> gene of <italic>Mycobacterium tuberculosis</italic> H37Rv reveals a novel class of inositol-1-phosphate synthase enzyme</article-title>
+          <source>J Mol Biol</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <fpage>531</fpage>
+          <lpage>536</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1999.2980</pub-id>
+          <pub-id pub-id-type="pmid">10448034</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nigou</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <article-title>Characterization and regulation of inositol monophosphatase activity in <italic>Mycobacterium smegmatis</italic></article-title>
+          <source>Biochem J</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <fpage>385</fpage>
+          <lpage>390</lpage>
+          <pub-id pub-id-type="pmid">11772411</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Movahedzadeh</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Wheeler</surname>
+            <given-names>PR</given-names>
+          </name>
+          <name>
+            <surname>Dinadayala</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Av-Gay</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Parish</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Daffe</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Stoker</surname>
+            <given-names>NG</given-names>
+          </name>
+          <article-title>Inositol monophosphate phosphatase genes of <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>BMC Microbiol</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>50</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2180-10-50</pub-id>
+          <pub-id pub-id-type="pmid">20167072</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Movahedzadeh</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Smith</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Norman</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>Dinadayala</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Murray-Rust</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Russell</surname>
+            <given-names>DG</given-names>
+          </name>
+          <name>
+            <surname>Kendall</surname>
+            <given-names>SL</given-names>
+          </name>
+          <name>
+            <surname>Rison</surname>
+            <given-names>SC</given-names>
+          </name>
+          <name>
+            <surname>McAlister</surname>
+            <given-names>MS</given-names>
+          </name>
+          <name>
+            <surname>Bancroft</surname>
+            <given-names>GJ</given-names>
+          </name>
+          <name>
+            <surname>McDonald</surname>
+            <given-names>NQ</given-names>
+          </name>
+          <name>
+            <surname>Daffe</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Av-Gay</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Stoker</surname>
+            <given-names>NG</given-names>
+          </name>
+          <article-title>The <italic>Mycobacterium tuberculosis ino1</italic> gene is essential for growth and virulence</article-title>
+          <source>Mol Microbiol</source>
+          <year>2004</year>
+          <volume>11</volume>
+          <fpage>1003</fpage>
+          <lpage>1014</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03900.x</pub-id>
+          <pub-id pub-id-type="pmid">14763976</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Jackson</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Crick</surname>
+            <given-names>DC</given-names>
+          </name>
+          <name>
+            <surname>Brennan</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <article-title>Phosphatidylinositol is an essential phospholipid of mycobacteria</article-title>
+          <source>J Biol Chem</source>
+          <year>2000</year>
+          <volume>11</volume>
+          <fpage>30092</fpage>
+          <lpage>30099</lpage>
+          <pub-id pub-id-type="pmid">10889206</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Haites</surname>
+            <given-names>RE</given-names>
+          </name>
+          <name>
+            <surname>Morita</surname>
+            <given-names>YS</given-names>
+          </name>
+          <name>
+            <surname>McConville</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Jacobe</surname>
+            <given-names>HB</given-names>
+          </name>
+          <article-title>Function of phosphatidylinositol in mycobacteria</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>10981</fpage>
+          <lpage>10987</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M413443200</pub-id>
+          <pub-id pub-id-type="pmid">15634688</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hernick</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Mycothiol: a target for potentiation of rifampin and other antibiotics against <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Expert Rev Anti Infect Ther</source>
+          <year>2013</year>
+          <volume>11</volume>
+          <fpage>49</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1586/eri.12.152</pub-id>
+          <pub-id pub-id-type="pmid">23428102</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Krings</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Krumbach</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Bathe</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Kelle</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Wendisch</surname>
+            <given-names>VF</given-names>
+          </name>
+          <name>
+            <surname>Sahm</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Eggeling</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Characterization of <italic>myo</italic>-inositol utilization by <italic>Corynebacterium glutamicum</italic>: the stimulon, identification of transporters, and influence on L-lysine formation</article-title>
+          <source>J Bacteriol</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>8054</fpage>
+          <lpage>8061</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00935-06</pub-id>
+          <pub-id pub-id-type="pmid">16997948</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Klaffl</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Brocker</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kalinowski</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Eikmanns</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Complex regulation of the PEP carboxykinase gene <italic>pck</italic> and characterization of its GntR-type regulator IolR as a repressor of <italic>myo</italic>-inositol utilization genes in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2013</year>
+          <volume>11</volume>
+          <fpage>4283</fpage>
+          <lpage>4296</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00265-13</pub-id>
+          <pub-id pub-id-type="pmid">23873914</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Swint-Kruse</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Matthews</surname>
+            <given-names>KS</given-names>
+          </name>
+          <article-title>Allostery in the Lacl/GaIR family: variations on a theme</article-title>
+          <source>Curr Opin Microbiol</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>129</fpage>
+          <lpage>137</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mib.2009.01.009</pub-id>
+          <pub-id pub-id-type="pmid">19269243</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="other">
+          <comment>
+            <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo">http://www.ncbi.nlm.nih.gov/geo</ext-link>
+          </comment>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wennerhold</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The DtxR regulon of <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Bacteriol</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>2907</fpage>
+          <lpage>2918</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.188.8.2907-2918.2006</pub-id>
+          <pub-id pub-id-type="pmid">16585752</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wennerhold</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Krug</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The AraC-type regulator RipA represses aconitase and other iron proteins from <italic>Corynebacterium</italic> under iron limitation and is itself repressed by DtxR</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>40500</fpage>
+          <lpage>40508</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M508693200</pub-id>
+          <pub-id pub-id-type="pmid">16179344</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Bailey</surname>
+            <given-names>TL</given-names>
+          </name>
+          <name>
+            <surname>Elkan</surname>
+            <given-names>C</given-names>
+          </name>
+          <source>"Fitting a mixture model by expectation maximization to discover motifs in biopolymers", Proceedings of the Second International Conference on Intelligent Systems for Molecular Biology</source>
+          <year>1994</year>
+          <publisher-name>Menlo Park, Ca: AAAI Press</publisher-name>
+          <fpage>28</fpage>
+          <lpage>36</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Feng</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Che</surname>
+            <given-names>YS</given-names>
+          </name>
+          <name>
+            <surname>Milse</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Yin</surname>
+            <given-names>YJ</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Ruckert</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Shen</surname>
+            <given-names>XH</given-names>
+          </name>
+          <name>
+            <surname>Qi</surname>
+            <given-names>SW</given-names>
+          </name>
+          <name>
+            <surname>Kalinowski</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>SJ</given-names>
+          </name>
+          <article-title>The gene <italic>ncgl2918</italic> encodes a novel maleylpyruvate isomerase that needs mycothiol as cofactor and links mycothiol biosynthesis and gentisate assimilation in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>10778</fpage>
+          <lpage>10785</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M513192200</pub-id>
+          <pub-id pub-id-type="pmid">16481315</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tatituri</surname>
+            <given-names>RV</given-names>
+          </name>
+          <name>
+            <surname>Illarionov</surname>
+            <given-names>PA</given-names>
+          </name>
+          <name>
+            <surname>Dover</surname>
+            <given-names>LG</given-names>
+          </name>
+          <name>
+            <surname>Nigou</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Gilleron</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hitchen</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Krumbach</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Morris</surname>
+            <given-names>HR</given-names>
+          </name>
+          <name>
+            <surname>Spencer</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Dell</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Eggeling</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <article-title>Inactivation of <italic>Corynebacterium glutamicum</italic> NCgl0452 and the role of MgtA in the biosynthesis of a novel mannosylated glycolipid involved in lipomannan biosynthesis</article-title>
+          <source>J Biol Chem</source>
+          <year>2007</year>
+          <volume>11</volume>
+          <fpage>4561</fpage>
+          <lpage>4572</lpage>
+          <pub-id pub-id-type="pmid">17179146</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mishra</surname>
+            <given-names>AK</given-names>
+          </name>
+          <name>
+            <surname>Klein</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Gurcha</surname>
+            <given-names>SS</given-names>
+          </name>
+          <name>
+            <surname>Alderwick</surname>
+            <given-names>LJ</given-names>
+          </name>
+          <name>
+            <surname>Babu</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Hitchen</surname>
+            <given-names>PG</given-names>
+          </name>
+          <name>
+            <surname>Morris</surname>
+            <given-names>HR</given-names>
+          </name>
+          <name>
+            <surname>Dell</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <name>
+            <surname>Eggeling</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Structural characterization and functional properties of a novel lipomannan variant isolated from a <italic>Corynebacterium glutamicum pimB'</italic> mutant</article-title>
+          <source>Antonie Van Leeuwenhoek</source>
+          <year>2008</year>
+          <volume>11</volume>
+          <fpage>277</fpage>
+          <lpage>287</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10482-008-9243-1</pub-id>
+          <pub-id pub-id-type="pmid">18421567</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mishra</surname>
+            <given-names>AK</given-names>
+          </name>
+          <name>
+            <surname>Batt</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Krumbach</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Eggeling</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <article-title>Characterization of the <italic>Corynebacterium glutamicum</italic> Delta<italic>pimB'</italic> Delta<italic>mgtA</italic> double deletion mutant and the role of <italic>Mycobacterium tuberculosis</italic> orthologues Rv2188c and Rv0557 in glycolipid biosynthesis</article-title>
+          <source>J Bacteriol</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>4465</fpage>
+          <lpage>4472</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01729-08</pub-id>
+          <pub-id pub-id-type="pmid">19395496</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Vilch&#xE8;ze</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Av-Gay</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Attarian</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Hazbon</surname>
+            <given-names>MH</given-names>
+          </name>
+          <name>
+            <surname>Colangeli</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Alland</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Sacchettini</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Jacobs</surname>
+            <given-names>WR</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <article-title>Mycothiol biosynthesis is essential for ethionamide susceptibility in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Mol Microbiol</source>
+          <year>2008</year>
+          <volume>11</volume>
+          <fpage>1316</fpage>
+          <lpage>1329</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2008.06365.x</pub-id>
+          <pub-id pub-id-type="pmid">18651841</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Turner</surname>
+            <given-names>BL</given-names>
+          </name>
+          <name>
+            <surname>Paphazy</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Haygarth</surname>
+            <given-names>PM</given-names>
+          </name>
+          <name>
+            <surname>McKelvie</surname>
+            <given-names>ID</given-names>
+          </name>
+          <article-title>Inositol phosphates in the environment</article-title>
+          <source>Philos T Roy Soc B</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <fpage>449</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="doi">10.1098/rstb.2001.0837</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schroder</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Jochmann</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Rodionov</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Tauch</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>The Zur regulon of <italic>Corynebacterium glutamicum</italic> ATCC 13032</article-title>
+          <source>BMC Genomics</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>12</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2164-11-12</pub-id>
+          <pub-id pub-id-type="pmid">20055984</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tropis</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Meniche</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Wolf</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Gebhardt</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Strelkov</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Chami</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Schomburg</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Kramer</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Morbach</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Daffe</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The crucial role of trehalose and structurally related oligosaccharides in the biosynthesis and transfer of mycolic acids in corynebacterineae</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>26573</fpage>
+          <lpage>26585</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M502104200</pub-id>
+          <pub-id pub-id-type="pmid">15901732</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Murphy</surname>
+            <given-names>HN</given-names>
+          </name>
+          <name>
+            <surname>Stewart</surname>
+            <given-names>GR</given-names>
+          </name>
+          <name>
+            <surname>Mischenko</surname>
+            <given-names>VV</given-names>
+          </name>
+          <name>
+            <surname>Apt</surname>
+            <given-names>AS</given-names>
+          </name>
+          <name>
+            <surname>Harris</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>McAlister</surname>
+            <given-names>MSB</given-names>
+          </name>
+          <name>
+            <surname>Driscoll</surname>
+            <given-names>PC</given-names>
+          </name>
+          <name>
+            <surname>Young</surname>
+            <given-names>DB</given-names>
+          </name>
+          <name>
+            <surname>Robertson</surname>
+            <given-names>BD</given-names>
+          </name>
+          <article-title>The OtsAB pathway is essential for trehalose biosynthesis in <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>14524</fpage>
+          <lpage>14529</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M414232200</pub-id>
+          <pub-id pub-id-type="pmid">15703182</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Norman</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>McAlister</surname>
+            <given-names>MSB</given-names>
+          </name>
+          <name>
+            <surname>Murray-Rust</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Movahedzadeh</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Stoker</surname>
+            <given-names>NG</given-names>
+          </name>
+          <name>
+            <surname>McDonald</surname>
+            <given-names>NQ</given-names>
+          </name>
+          <article-title>Crystal structure of inositol 1-phosphate synthase from <italic>Mycobacterium tuberculosis</italic>, a key enzyme in phosphatidylinositol synthesis</article-title>
+          <source>Structure</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <fpage>393</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0969-2126(02)00718-9</pub-id>
+          <pub-id pub-id-type="pmid">12005437</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Roback</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Beard</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Baumann</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Gille</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Henry</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Krohn</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Wiste</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Voskuil</surname>
+            <given-names>MI</given-names>
+          </name>
+          <name>
+            <surname>Rainville</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Rutherford</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>A predicted operon map for <italic>Mycobacterium tuberculosis</italic></article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2007</year>
+          <volume>11</volume>
+          <fpage>5085</fpage>
+          <lpage>5095</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkm518</pub-id>
+          <pub-id pub-id-type="pmid">17652327</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bell</surname>
+            <given-names>CE</given-names>
+          </name>
+          <name>
+            <surname>Lewis</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The Lac repressor: a second generation of structural and functional studies</article-title>
+          <source>Curr Opin Struct Biol</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>19</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0959-440X(00)00180-9</pub-id>
+          <pub-id pub-id-type="pmid">11179887</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Camas</surname>
+            <given-names>FM</given-names>
+          </name>
+          <name>
+            <surname>Alm</surname>
+            <given-names>EJ</given-names>
+          </name>
+          <name>
+            <surname>Poyatos</surname>
+            <given-names>JF</given-names>
+          </name>
+          <article-title>Local gene regulation details a recognition code within the LacI transcriptional factor family</article-title>
+          <source>PLoS Comput Biol</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>11</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Belisle</surname>
+            <given-names>JT</given-names>
+          </name>
+          <name>
+            <surname>Vissa</surname>
+            <given-names>VD</given-names>
+          </name>
+          <name>
+            <surname>Sievert</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Takayama</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Brennan</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Besra</surname>
+            <given-names>GS</given-names>
+          </name>
+          <article-title>Role of the major antigen of <italic>Mycobacterium tuberculosis</italic> in cell wall biogenesis</article-title>
+          <source>Science</source>
+          <year>1997</year>
+          <volume>11</volume>
+          <fpage>1420</fpage>
+          <lpage>1422</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.276.5317.1420</pub-id>
+          <pub-id pub-id-type="pmid">9162010</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Keilhauer</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Eggeling</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Sahm</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Isoleucine synthesis in <italic>Corynebacterium glutamicum</italic> - Molecular analysis of the <italic>Ilvb-Ilvn-Ilvc</italic> Operon</article-title>
+          <source>J Bacteriol</source>
+          <year>1993</year>
+          <volume>11</volume>
+          <fpage>5595</fpage>
+          <lpage>5603</lpage>
+          <pub-id pub-id-type="pmid">8366043</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Sambrook</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Russell</surname>
+            <given-names>DW</given-names>
+          </name>
+          <source>Molecular cloning: A Laboratory Manual</source>
+          <year>2001</year>
+          <edition>3</edition>
+          <publisher-name>Cold Spring Harbor, NY: Cold Spring Harbor Laboratory Press</publisher-name>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hanahan</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>Studies on transformation of <italic>Escherichia coli</italic> with plasmids</article-title>
+          <source>J Mol Biol</source>
+          <year>1983</year>
+          <volume>11</volume>
+          <fpage>557</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-2836(83)80284-8</pub-id>
+          <pub-id pub-id-type="pmid">6345791</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>van der Rest</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Lange</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Molenaar</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>A heat shock following electroporation induces highly efficient transformation of <italic>Corynebacterium glutamicum</italic> with xenogeneic plasmid DNA</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <fpage>541</fpage>
+          <lpage>545</lpage>
+          <pub-id pub-id-type="doi">10.1007/s002530051557</pub-id>
+          <pub-id pub-id-type="pmid">10570802</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Niebisch</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Molecular analysis of the cytochrome <italic>bc</italic><sub>1</sub><italic>-aa</italic><sub>3</sub> branch of the <italic>Corynebacterium glutamicum</italic> respiratory chain containing an unusual diheme cytochrome <italic>c</italic><sub>1</sub></article-title>
+          <source>Arch Microbiol</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>282</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1007/s002030100262</pub-id>
+          <pub-id pub-id-type="pmid">11382224</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Moker</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Brocker</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Schaffer</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Kramer</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Morbach</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Deletion of the genes encoding the MtrA-MtrB two-component system of <italic>Corynebacterium glutamicum</italic> has a strong influence on cell morphology, antibiotics susceptibility and expression of genes involved in osmoprotection</article-title>
+          <source>Mol Microbiol</source>
+          <year>2004</year>
+          <volume>11</volume>
+          <fpage>420</fpage>
+          <lpage>438</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.2004.04249.x</pub-id>
+          <pub-id pub-id-type="pmid">15469514</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lange</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Rittmann</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Wendisch</surname>
+            <given-names>VF</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Sahm</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Global expression profiling and physiological characterization of <italic>Corynebacterium glutamicum</italic> grown in the presence of L-valine</article-title>
+          <source>Appl Environ Microbiol</source>
+          <year>2003</year>
+          <volume>11</volume>
+          <fpage>2521</fpage>
+          <lpage>2532</lpage>
+          <pub-id pub-id-type="doi">10.1128/AEM.69.5.2521-2532.2003</pub-id>
+          <pub-id pub-id-type="pmid">12732517</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Smyth</surname>
+            <given-names>GK</given-names>
+          </name>
+          <person-group person-group-type="editor">Gentleman R, Carey VJ, Huber W, Irizarry RA, Dudoit S</person-group>
+          <article-title>Limma: linear models for microarray data</article-title>
+          <source>Bioinformatics and Computational Biology Solutions Using R and Bioconductor</source>
+          <year>2005</year>
+          <publisher-name>New York, NY: Springer</publisher-name>
+          <fpage>397</fpage>
+          <lpage>420</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Edgar</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Domrachev</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Lash</surname>
+            <given-names>AE</given-names>
+          </name>
+          <article-title>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>207</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/30.1.207</pub-id>
+          <pub-id pub-id-type="pmid">11752295</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Garcia-Nafria</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Baumgart</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Wilkinson</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Wilson</surname>
+            <given-names>KS</given-names>
+          </name>
+          <article-title>The <italic>Corynebacterium glutamicum</italic> aconitase repressor: scratching around for crystals</article-title>
+          <source>Acta Crystallogr Sect F Struct Biol Cryst Commun</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>1074</fpage>
+          <lpage>1077</lpage>
+          <pub-id pub-id-type="doi">10.1107/S1744309110029015</pub-id>
+          <pub-id pub-id-type="pmid">20823530</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Niebisch</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Kabus</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Schultz</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Weil</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Corynebacterial protein kinase G controls 2-oxoglutarate dehydrogenase activity via the phosphorylation status of the OdhI protein</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>11</volume>
+          <fpage>12300</fpage>
+          <lpage>12307</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M512515200</pub-id>
+          <pub-id pub-id-type="pmid">16522631</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Heyer</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Gatgens</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Hentschel</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Kalinowski</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Frunzke</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>The two-component system ChrSA is crucial for haem tolerance and interferes with HrrSA in haem-dependent gene regulation in <italic>Corynebacterium glutamicum</italic></article-title>
+          <source>Microbiology</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <fpage>3020</fpage>
+          <lpage>3031</lpage>
+          <pub-id pub-id-type="doi">10.1099/mic.0.062638-0</pub-id>
+          <pub-id pub-id-type="pmid">23038807</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Garcia-Nafria</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Baumgart</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Turkenburg</surname>
+            <given-names>JP</given-names>
+          </name>
+          <name>
+            <surname>Wilkinson</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Bott</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Wilson</surname>
+            <given-names>KS</given-names>
+          </name>
+          <article-title>Crystal and solution studies reveal that the transcriptional regulator <italic>AcnR</italic> of <italic>Corynebacterium glutamicum</italic> is regulated by Citrate-Mg<sup>2+</sup> binding to a non-canonical pocket</article-title>
+          <source>J Biol Chem</source>
+          <year>2013</year>
+          <volume>11</volume>
+          <fpage>15800</fpage>
+          <lpage>15812</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M113.462440</pub-id>
+          <pub-id pub-id-type="pmid">23589369</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Anderberg</surname>
+            <given-names>SJ</given-names>
+          </name>
+          <name>
+            <surname>Newton</surname>
+            <given-names>GL</given-names>
+          </name>
+          <name>
+            <surname>Fahey</surname>
+            <given-names>RC</given-names>
+          </name>
+          <article-title>Mycothiol biosynthesis and metabolism - Cellular levels of potential intermediates in the biosynthesis and degradation of mycothiol in <italic>Mycobacterium smegmatis</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>1998</year>
+          <volume>11</volume>
+          <fpage>30391</fpage>
+          <lpage>30397</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.273.46.30391</pub-id>
+          <pub-id pub-id-type="pmid">9804803</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>Dobson</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Minnikin</surname>
+            <given-names>DE</given-names>
+          </name>
+          <name>
+            <surname>Minnikin</surname>
+            <given-names>SM</given-names>
+          </name>
+          <name>
+            <surname>Parlett</surname>
+            <given-names>JH</given-names>
+          </name>
+          <name>
+            <surname>Goodfellow</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Ridell</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Magnusson</surname>
+            <given-names>M</given-names>
+          </name>
+          <person-group person-group-type="editor">M. G, E. MD</person-group>
+          <article-title>Systematic analysis of complex mycobacterial lipids</article-title>
+          <source>Chemical Methods in Bacterial Systematics, Volume 1</source>
+          <year>1985</year>
+          <publisher-name>London, UK: Academic Press</publisher-name>
+          <fpage>237</fpage>
+          <lpage>265</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B50">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ludwiczak</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Brando</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Monsarrat</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Puzo</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>Structural characterization of <italic>Mycobacterium tuberculosis</italic> lipoarabinomannans by the combination of capillary electrophoresis and matrix-assisted laser desorption/ionization time of-flight mass spectrometry</article-title>
+          <source>Anal Chem</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>2323</fpage>
+          <lpage>2330</lpage>
+          <pub-id pub-id-type="doi">10.1021/ac001368h</pub-id>
+          <pub-id pub-id-type="pmid">11393859</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+

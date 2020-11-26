@@ -1,0 +1,110 @@
+Results and discussion
+
+Phenotypic analyses of the fur mutant
+
+A deletion mutant of Fur was constructed from wild-type S. oneidensis strain MR-1.
+The fur mutant formed smaller colonies than wild-type strain after two days' incubation at 30 degrees C (Fig. 1), suggestive of a growth deficiency caused by Fur inactivation.
+Moreover, colonies of the fur mutant appeared paler in color than MR-1 colonies.
+Wild-type S. oneidensis colonies have characteristic reddish or pink pigments, which is attributed to high heme content in the cells [17].
+The pale color of colonies of the fur mutant suggested that there was less heme, presumably due to the low level of intracellular iron as a heme co-factor.
+The low level of intracellular iron has been documented in an E. coli fur mutant [26].
+
+To test the role of Fur in the response of S. oneidensis to iron, we grew the fur mutant and the wild-type strain in LB medium with different concentrations of the iron chelator 2, 2'-dipyridyl to create iron depletion conditions.
+LB medium contains ~17 uM iron, hence it is considered as an iron-rich medium [26].
+In LB, the fur mutant displayed longer lag phase, slower growth rate at logarithmic phase and lower cell density at stationary phase than MR-1 (Fig. 2).
+When iron was depleted from the growth medium by addition of iron chelator, both strains clearly displayed growth inhibition.
+Interestingly, when both strains were grown with 160 uM iron chelator, no significant difference was detected between the mutant and MR-1.
+With 240 uM iron chelator, the fur mutant displayed a much shorter lag phase than MR-1 and reached a higher cell density at stationary phase, suggesting that the fur mutant better tolerated the iron depletion stress.
+
+Fur is a pleiotropic transcriptional factor controlling the expression of both iron-regulated and non-iron-regulated genes [9].
+Fur has been implicated in acid tolerance response, since E. coli and Salmonella typhimurium harboring fur mutations are acid-sensitive [27,28].
+Therefore, the acid tolerance of S. oneidensisfur mutant was examined.
+Wild-type and the fur mutant were grown in LB medium buffered at pH5.5 and 7 (Fig. 3).
+At pH of 5.5, the fur mutant but not wild-type strain had severe growth defect, demonstrating that the fur mutant was more sensitive to acidic condition.
+
+
+
+Microarray experiments
+
+For microarray experiments, mid-log phase grown fur mutant was treated with iron chelator for one hour and then ferrous sulfate.
+The concentration of 160 uM iron chelator was used for iron depletion during the microarray experiments because growth was clearly inhibited, but not completely abolished at this concentration (Fig. 2).
+Samples were collected at multiple time points during iron depletion and repletion and used for global transcriptomic analyses.
+To allow for comparison of any pairs of samples, S. oneidensis genomic DNA was used as a common reference in each microarray experiment (see Methods and Materials for details).
+This strategy has been successfully employed in several studies [29-32].
+In addition, since S. oneidensisfur mutant in previous studies was generated from a rifampin-resistant strain (DSP10) instead of wild-type S. oneidensis MR-1, we decided to repeat the microarray comparison between the fur mutant and wild-type under aerobic condition, using the fur mutant derived from MR-1.
+Therefore, MR-1 was grown in LB to mid-logarithmic phase, RNA was prepared and used for microarray experiments.
+This allowed for comparison of gene expression profiles of the fur mutant and MR-1 (see below).
+To evaluate the reliability of microarray data, quantitative RT-PCR was performed on a few selected genes (Additional file Additional file 1).
+A high Pearson correlation coefficient of 0.92 was observed between RT-PCR and microarray results.
+
+
+
+Fur-regulated genes
+
+Global gene expression profiles of the fur mutant and MR-1 grown in LB medium were compared.
+A total number of 118 and 56 genes were significantly up- and down- regulated, respectively (Fig. 4).
+As commonly seen in microarray datasets, a large portion of up- or down-regulated genes corresponded to genes with unknown function, indicating a much broader modulon than deduced by gene annotation alone.
+Among the genes with defined functions (Table 1), two groups of genes were most noticeable: genes encoding iron acquisition proteins and ribosome proteins.
+The high level induction of iron acquisition genes agreed with the expected role of Fur in regulating iron uptake and transport.
+It provided an explanation for the better growth of the fur mutant under iron-depleted condition (Fig. 2), since the up-regulation of iron acquisition genes imposed an advantage for rapid adaptation to the iron depletion.
+The induction of genes encoding ribosomal proteins was rather unexpected, as the fur mutant grown in LB medium displayed growth defects.
+It was possible that these genes were induced to accommodate the requirement to synthesize iron acquisition proteins induced by iron depletion.
+Alternatively, their induction could be due to cellular response to overcome the growth deficiency in LB.
+Notably, a <term sem="ECO:0000028" id="T1" ECOConfidence="Medium" AssertionStrength="Medium" Category="BioProc" NextSentence="Yes" NegativeStatement="Yes">conserved Fur binding motif could be identified in the promoter region of almost all of the iron acquisition genes in Table 1, while no ribosome subunit gene except SO0232 had a Fur binding motif in its promoter</term id="T1"> (data not shown).
+Therefore, it was likely that genes encoding ribosome proteins were not the direct targets of Fur.
+Lastly, several acid resistance systems have been characterized in gamma-proteobacteria [33,34].
+However, expression of components of these systems (e.g. Crp, RpoS, glutamate-, arginine- and lysine-decarboxylases) was not significantly altered in the fur mutant.
+Since the acid tolerance of the fur mutant was reduced, it was possible that these genes were regulated at post-transcriptional level, or the core components of these systems were not yet annotated in S. oneidensis, or S. oneidensis could employ a novel and yet unidentified mechanism for acid tolerance response.
+
+
+
+Iron-responsive and Fur-independent biological processes
+
+The microarray analyses of the fur mutant indicated that fewer genes was significantly regulated at early time points than later in both iron depletion and repletion, and there were more down regulated genes than up regulated genes during iron depletion (Fig. 5A).
+Few genes encoding iron acquisition or ribosome proteins were among those up or down regulated, suggesting that their regulation was strictly Fur-dependent.
+Meanwhile, a group of genes related to anaerobic energy transport was repressed by iron depletion (Fig. 5B), but not identified in Fur regulon shown above (Table 1).
+Therefore, this process was iron responsive but Fur independent.
+These genes include formate dehydrogenase and multiple c-type cytochromes that are involved in anaerobic energy respiration.
+For example, FccA is a fumarate reductase; CymA is a key protein controlling respiration with a variety of electron acceptors, while MtrC/OmcB is an outer membrane protein required for metal reduction.
+A logical explanation of the repression by iron is that under the tested condition, these genes are non-essential, iron-using proteins.
+Upon iron depletion, they are repressed to release previously sequestrated iron to increase free intracellular iron pool.
+This mechanism has been well documented in E. coli[4,35] as mediated by Fur and a small RNA RyhB.
+However, in S. oneidensis this biological process must be controlled by iron-responsive regulator(s) other than Fur.
+Another notable iron-responsive and Fur-independent process was aerobic energy transport, including TCA cycle enzymes malate dehydrogenase (Mdh), succinate dehydrogenase (SdhC), isocitrate dehydrogenase (SO1538) and citrate synthase (GltA).
+Other related genes include succinylarginine dihydrolase(AstB) and isovaleryl-CoA dehydrogenase (Ivd).
+Notably, in contrast to the genes involved in anaerobic energy transport, these genes were induced by iron depletion (Fig. 5C), suggesting that it was more energy-consuming for coping with iron starvation than the energetic need for normal growth.
+
+
+
+Gene co-expression network
+
+Genes with the highest fold changes are not necessarily the most important genes for a given condition, since there usually is a dissociation between gene expression and physiological phenotype [36].
+Moreover, a large number of significantly regulated genes are linked to hypothetical proteins.
+To gain more insights into their functions, a gene co-expression network was constructed (Additional file Additional file 2A).
+Microarray data have frequently been used for gene annotation based on the observation that genes with similar expression patterns are more likely to be functionally related, that is, "guilt by association", despite the fact that co-expression does not necessarily indicate a causal relationship at the transcriptional level.
+This fact is exploited in the "majority-rule" method of network annotation in which a gene is annotated based on the most commonly occurring functions of its co-expressed partners.
+
+Functionally related genes were indeed grouped together in all clusters of the gene network that we constructed (Additional file Additional file 2A).
+For example, one cluster contains eleven genes encoding heat shock proteins (DnaK, DnaJ, HslV, HslU, HtpG, Lon, SecB, PrlC, ClpB, GroEL and GroES) and three unknown genes (Fig. 6A).
+These heat shock proteins function to accelerate turnovers of denatured or unfolded proteins and respond to multiple stress conditions [37].
+Their identification in this study is expected since lack of iron as protein cofactor would impair the functionality of a number of proteins.
+Furthermore, it can be predicted based on the cluster that the unknown genes in this cluster might function in stress response.
+This prediction is further supported by their operon structures.
+SO4161 is immediately upstream of heat shock HslU and HslV and might form an operon together.
+Similarly, SO2017 could form another operon with the upstream gene encoding heat shock protein HtpG.
+Finally, when the <term sem="ECO:0000028" id="T2" ECOConfidence="High" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No">Gibbs Motif Sampler</term id="T2"> [38] was employed to search the promoter regions of genes in this cluster for common sequence motif(s), a conserved RpoH (sigma32) binding site was identified (Fig. 6A).
+In E. coli, RpoH directs the RNAP holoenzymes to specifically transcribed genes encoding heat shock proteins.
+Its presence in the promoter regions of SO2017 and SO4161 provides further evidence that these two genes play a role in stress response.
+
+Another large cluster contains many c-type cytochromes (e.g. CymA, MtrA, MtrC and OmcA) and their related genes such as heme exporters and alcohol dehydrogenases (Fig. 6B).
+Many of them were considered as iron-responsive but Fur-independent, as discussed in the previous section.
+When the <term sem="ECO:0005531" id="T3" ECOConfidence="Medium" AssertionStrength="High" Category="SeqFeat" NextSentence="No" NegativeStatement="No">Gibbs Motif Sampler</term id="T3"> was applied, a palindromic sequence of "AAATGTGATCNNGNTCACA NTT" (Fig. 6B) was identified with statistical significance.
+This sequence is almost identical to the known binding motif of an E. coli global transcriptional factor Crp (AAATGTGATCTAGATCACA TTT) [39].
+In S. oneidensis, crp mutants are deficient in reducing Fe(III), Mn(IV), nitrate, fumarate and DMSO as electron acceptors [40].
+The identification of a highly conserved Crp-binding site at the promoters of genes in this cluster provides an explanation for the phenotypes of crp mutants.
+Crp might act as a master regulator of anaerobic energy transport; its inactivation leads to repression of multiple branches of anaerobic energy transport pathway.
+Notably, the regulation of Crp to anaerobic energy transport is iron-responsive but Fur-independent, since most genes in this cluster shows little expression difference between the fur mutant and wild-type.
+
+
+
+

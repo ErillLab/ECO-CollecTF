@@ -1,0 +1,1443 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30533034</article-id>
+      <article-id pub-id-type="pmc">6289460</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0208976</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-18-29641</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Molecular Biology</subject>
+            <subj-group>
+              <subject>Molecular Biology Techniques</subject>
+              <subj-group>
+                <subject>Gene Mapping</subject>
+                <subj-group>
+                  <subject>Restriction Fragment Mapping</subject>
+                  <subj-group>
+                    <subject>Electrophoretic Mobility Shift Assay</subject>
+                  </subj-group>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Molecular Biology Techniques</subject>
+            <subj-group>
+              <subject>Gene Mapping</subject>
+              <subj-group>
+                <subject>Restriction Fragment Mapping</subject>
+                <subj-group>
+                  <subject>Electrophoretic Mobility Shift Assay</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Database and Informatics Methods</subject>
+            <subj-group>
+              <subject>Bioinformatics</subject>
+              <subj-group>
+                <subject>Sequence Analysis</subject>
+                <subj-group>
+                  <subject>Sequence Motif Analysis</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Organisms</subject>
+            <subj-group>
+              <subject>Bacteria</subject>
+              <subj-group>
+                <subject>Enterobacteriaceae</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Molecular Biology</subject>
+            <subj-group>
+              <subject>Molecular Biology Techniques</subject>
+              <subj-group>
+                <subject>Artificial Gene Amplification and Extension</subject>
+                <subj-group>
+                  <subject>Polymerase Chain Reaction</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Molecular Biology Techniques</subject>
+            <subj-group>
+              <subject>Artificial Gene Amplification and Extension</subject>
+              <subj-group>
+                <subject>Polymerase Chain Reaction</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Electrophoretic Techniques</subject>
+            <subj-group>
+              <subject>Gel Electrophoresis</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and Analysis Methods</subject>
+          <subj-group>
+            <subject>Electrophoretic Techniques</subject>
+            <subj-group>
+              <subject>Gel Electrophoresis</subject>
+              <subj-group>
+                <subject>Agarose Gel Electrophoresis</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and life sciences</subject>
+          <subj-group>
+            <subject>Molecular biology</subject>
+            <subj-group>
+              <subject>Molecular biology techniques</subject>
+              <subj-group>
+                <subject>Molecular probe techniques</subject>
+                <subj-group>
+                  <subject>DNA probes</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Research and analysis methods</subject>
+          <subj-group>
+            <subject>Molecular biology techniques</subject>
+            <subj-group>
+              <subject>Molecular probe techniques</subject>
+              <subj-group>
+                <subject>DNA probes</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v3">
+          <subject>Biology and Life Sciences</subject>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subj-group>
+                <subject>Gene Regulation</subject>
+                <subj-group>
+                  <subject>Transcriptional Control</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The plasmid-encoded transcription factor ArdK contributes to the repression of the IMP-6 metallo-beta-lactamase gene <italic>bla</italic><sub>IMP-6</sub>, leading to a carbapenem-susceptible phenotype in the <italic>bla</italic><sub>IMP-6</sub>-positive <italic>Escherichia coli</italic> strain A56-1S</article-title>
+        <alt-title alt-title-type="running-head">ArdK contributes to the repression of IMP-6 MBL production</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6685-6053</contrib-id>
+          <name>
+            <surname>Segawa</surname>
+            <given-names>Takaya</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Formal analysis</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Visualization</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  original draft</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor001">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sekizuka</surname>
+            <given-names>Tsuyoshi</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Software</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Suzuki</surname>
+            <given-names>Satowa</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  review &amp; editing</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shibayama</surname>
+            <given-names>Keigo</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Supervision</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  review &amp; editing</role>
+          <xref ref-type="aff" rid="aff003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matsui</surname>
+            <given-names>Mari</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Data curation</role>
+          <role content-type="http://credit.casrai.org/">Investigation</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  review &amp; editing</role>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kuroda</surname>
+            <given-names>Makoto</given-names>
+          </name>
+          <role content-type="http://credit.casrai.org/">Conceptualization</role>
+          <role content-type="http://credit.casrai.org/">Methodology</role>
+          <role content-type="http://credit.casrai.org/">Project administration</role>
+          <role content-type="http://credit.casrai.org/">Writing  -  review &amp; editing</role>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001"><label>1</label>
+<addr-line>Pathogen Genomics Center, National Institute of Infectious Diseases, Shinjuku-ku, Tokyo, Japan</addr-line></aff>
+      <aff id="aff002"><label>2</label>
+<addr-line>Antimicrobial Resistance Research Center, National Institute of Infectious Diseases, Higashimurayama, Tokyo, Japan</addr-line></aff>
+      <aff id="aff003"><label>3</label>
+<addr-line>Bacteriology II, National Institute of Infectious Diseases, Musashimurayama, Tokyo, Japan</addr-line></aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Chang</surname>
+            <given-names>Yung-Fu</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Cornell University, UNITED STATES</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>tsegawa@nih.go.jp</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>12</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>12</issue>
+      <elocation-id>e0208976</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>10</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>11</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 Segawa et al</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <copyright-holder>Segawa et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="pone.0208976.pdf"/>
+      <abstract>
+        <p>Carbapenemase-producing Enterobacteriaceae (CPE) are a global concern because these bacteria are resistant to almost all beta-lactams. Horizontal interspecies gene transfer via plasmid conjugation has increased the global dissemination of CPE. Recently, an Enterobacteriaceae strain positive for carbapenemase gene but showing a carbapenem-susceptible phenotype was identified, suggesting that these susceptible strains may be challenging to detect solely via antimicrobial susceptibility tests without molecular analysis. Here, we isolated a <italic>bla</italic><sub>IMP-6</sub> carbapenemase-gene positive but imipenem- and meropenem-susceptible <italic>Escherichia coli</italic> (ISMS-E) strain A56-1S (imipenem and meropenem minimum inhibitory concentration,  LTEQ  0.125 mg/L), from a human urine specimen in Japan. A56-1S was carbapenemase negative by the Carba NP test, suggesting that IMP-6 production was low or undetectable. Thus, to characterize the mechanism of this phenotype, a meropenem-resistant <italic>E</italic>. <italic>coli</italic> A56-1R strain was obtained using meropenem-selection. A56-1R was positive for carbapenemase production by the Carba NP test, and <italic>bla</italic><sub>IMP-6</sub> transcription in A56-1R was 53-fold higher than in A56-1S, indicating that <italic>bla</italic><sub>IMP-6</sub> in A56-1S is negatively regulated at the transcriptional level. Comparative genomic analysis between the two strains revealed that the alleviation of restriction of DNA (<italic>ardK</italic>) gene encoding a putative transcription factor is disrupted by the IS<italic>26</italic> insertion in A56-1R. A cotransformation assay of <italic>ardK</italic> and the regulatory element upstream of <italic>bla</italic><sub>IMP-6</sub> showed repression of <italic>bla</italic><sub>IMP-6</sub> transcription, indicating that ArdK negatively modulates <italic>bla</italic><sub>IMP-6</sub> transcription. ArdK binding and affinity assays demonstrated that ArdK directly binds to the regulatory element upstream of <italic>bla</italic><sub>IMP-6</sub> with dissociation constant values comparable to those of general transcription factors. The IMP-6 carbapenemase showed low hydrolytic activity against imipenem, resulting in an imipenem-susceptible and meropenem-resistant (ISMR) phenotype (previously reported as a stealth phenotype). However, the low expression of IMP-6 in the A56-1S strain could be a typical characteristic of ISMS-E due to gene repression, indicating that conventional antimicrobial susceptibility tests might be unable to detect such strains even when using both imipenem and meropenem. Bacteria that exhibit the ISMS phenotype could play a potential role as undetectable reservoirs and might facilitate gene transfer to other organisms while avoiding detection.</p>
+      </abstract>
+      <funding-group>
+        <award-group id="award001">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100009619</institution-id>
+              <institution>Japan Agency for Medical Research and Development</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>JP16fk0108119</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Kuroda</surname>
+              <given-names>Makoto</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <award-group id="award002">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100009619</institution-id>
+              <institution>Japan Agency for Medical Research and Development</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>JP16fk0108305</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Kuroda</surname>
+              <given-names>Makoto</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <award-group id="award003">
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100009619</institution-id>
+              <institution>Japan Agency for Medical Research and Development</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>JP17fk0108121</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Kuroda</surname>
+              <given-names>Makoto</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+        <funding-statement>This study was supported by the Research Program on Emerging and Re-emerging Infectious Diseases from the Japan Agency for Medical Research and Development (<ext-link ext-link-type="uri" xlink:href="https://www.amed.go.jp/en/">https://www.amed.go.jp/en/</ext-link>; grant numbers: JP16fk0108119, JP16fk0108305, and JP17fk0108121). The funders played no role in designing the study, collecting the data, analyzing the data, deciding to publish, or preparing the manuscript. There was no additional external funding received for this study.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="3"/>
+        <page-count count="15"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>All relevant data are within the manuscript and its Supporting Information files.</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec001">
+      <title>Introduction</title>
+      <p>The spread of carbapenem-resistant Enterobacteriaceae (CRE) is a global concern, because carbapenem is considered the last resort for treating infectious diseases caused by gram-negative bacteria, such as Enterobacteriaceae. Carbapenemase-producing Enterobacteriaceae (CPE) are resistant to almost all beta-lactams, and the plasmid-borne carbapenemase genes can be transferred to other bacteria by conjugation [<xref rid="pone.0208976.ref001" ref-type="bibr">1</xref> - <xref rid="pone.0208976.ref003" ref-type="bibr">3</xref>].</p>
+      <p>To date, meropenem (MEM) susceptibility testing remains the most efficient method for screening CPE, and provides the best balance between sensitivity and specificity [<xref rid="pone.0208976.ref004" ref-type="bibr">4</xref>]. The minimum inhibitory concentration (MIC) breakpoint of Enterobacteriaceae for MEM is defined under the European Committee on Antimicrobial Susceptibility Testing (EUCAST) guidelines as, susceptible for  LTEQ  2 mg/L and resistant for &gt; 8 mg/L [<xref rid="pone.0208976.ref005" ref-type="bibr">5</xref>]. For CPE detection, MIC breakpoints do not always exhibit good sensitivity. Therefore, the EUCAST recommends the detection of potential CPE with lower screening cut-off values (e.g., MEM MIC &gt; 0.125 mg/L) for further investigation [<xref rid="pone.0208976.ref006" ref-type="bibr">6</xref>].</p>
+      <p>In 2010, we collected clinical isolates of Enterobacteriaceae resistant to fluoroquinolone, aminoglycoside, and either carbapenem (IPM or MEM MIC  GTEQ  8 mg/L) or ceftazidime (MIC  GTEQ  32 mg/L), from hospitals in Japan to investigate the dissemination of carbapenemase producers. In this survey, ceftazidime resistance was also investigated to identify carbapenemase producers with imipenem (IPM) MICs below the breakpoint [<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]. In total, we collected 153 potential CPE, on which PCR-based investigation (<italic>bla</italic><sub>NDM-1</sub>, <italic>bla</italic><sub>KPC</sub>, <italic>bla</italic><sub>IMP</sub>, <italic>bla</italic><sub>VIM-2</sub>, <italic>bla</italic><sub>OXA-48-like</sub>) was performed [<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]. Among these clinical isolates, we identified one <italic>Escherichia coli</italic> isolate (designated A56-1S) carrying <italic>bla</italic><sub>IMP-6</sub> but exhibiting an IPM-susceptible MEM-susceptible (ISMS) phenotype (IPM and MEM MICs  LTEQ  0.125 mg/L, which is below the screening cut-off value for CPE) and negative for carbapenemase production by the Carba NP test. Based on these phenotypes, A56-1S was not recognized as an IMP-6 producer.</p>
+      <p>Compared to IMP-1 metallo-beta-lactamase (MBL), IMP-6 MBL is an IMP variant with a S214G amino acid substitution in the catalytic domain. As a result, IMP-6 exhibits significantly weakened enzymatic activity towards IPM but not MEM [<xref rid="pone.0208976.ref008" ref-type="bibr">8</xref>] and IMP-6 producers of the Enterobacteriaceae generally exhibit an IPM-susceptible MEM-resistant (ISMR) phenotype upon MIC testing [<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>,<xref rid="pone.0208976.ref009" ref-type="bibr">9</xref>,<xref rid="pone.0208976.ref010" ref-type="bibr">10</xref>]. Therefore, MEM is recommended for the detection of IMP-6 producers. The Carba NP test is also recommended to improve the detection of IMP-6 producers because of its high sensitivity. However, we identified the Carba NP test-negative <italic>bla</italic><sub>IMP-6</sub>-positive <italic>E</italic>. <italic>coli</italic> A56-1S strain. We therefore speculated that IMP-6 expression in A56-1S could be significantly repressed, resulting in an ISMS phenotype.</p>
+      <p>Here, we performed comparative genomic as well as transcriptional analysis, and carbapenemase-production assays to demonstrate that the mechanism behind ISMS phenotype is involved to all phenotypes associated with carbapenem susceptibility.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="sec002">
+      <title>Materials and methods</title>
+      <sec id="sec003">
+        <title>Bacterial strains</title>
+        <p>The ISMS <italic>bla</italic><sub>IMP-6</sub>-harboring <italic>E</italic>. <italic>coli</italic> strain A56-1S was isolated from a urine specimen of a patient in Japan (<xref rid="pone.0208976.t001" ref-type="table">Table 1</xref>). The MEM-resistant <italic>E</italic>. <italic>coli</italic> A56-1R strain was selected from a A56-1S culture grown at 35 degrees C for 18 h on Luria-Bertani (LB) agar supplemented with 1 mg/L MEM as a selection agent. A single colony was then cultured on fresh LB agar with MEM. The <italic>bla</italic><sub>IMP-6</sub> sequence was determined using PCR and direct sequencing as previously reported [<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>].</p>
+        <table-wrap id="pone.0208976.t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Bacterial strains and plasmids used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0208976.t001g" xlink:href="pone.0208976.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="justify" colspan="2" rowspan="1">Strain or plasmid</th>
+                  <th align="justify" rowspan="1" colspan="1">Description</th>
+                  <th align="justify" rowspan="1" colspan="1"/>
+                  <th align="justify" rowspan="1" colspan="1">Reference or source</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>Strains (<italic>E</italic>. <italic>coli</italic>)</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>A56-1S</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1"><bold>Clinical isolate harboring <italic>bla</italic></bold><sub><bold>IMP-6</bold></sub>
+<bold>from a patient urine sample. Imipenem and meropenem susceptible phenotype.</bold></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>A56-1R</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>Strain selected from A56-1S with MEM selection. Imipenem susceptible but meropenem resistant phenotype.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>OmniMAX</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold><italic>E</italic>. <italic>coli</italic> strain for cloning assay.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Thermo Fisher Scientific</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Omni-UPS</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>OmniMAX transfected with pACYC184-UPS.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Omni-UPS_A</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>OmniMAX transfected with pACYC184-UPS and pCR-XL-2- <italic>ardK</italic>.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Omni-UPS_mA</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>OmniMAX transfected with pACYC184-UPS and pCR-XL-2- m<italic>ardK</italic>.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Omni-UPR</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>OmniMAX transfected with pACYC184-UPR.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Omni-UPR_A</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>OmniMAX transfected with pACYC184-UPR and pCR-XL-2-<italic>ardK</italic>.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Omni-UPR_mA</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>OmniMAX transfected with pACYC184-UPR and pCR-XL-2-m<italic>ardK</italic>.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>Plasmids</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pA56-1S</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>
+                      <italic>bla</italic>
+                    </bold>
+                    <sub>
+                      <bold>CTX-M-2</bold>
+                    </sub>
+                    <bold>, <italic>bla</italic></bold>
+                    <sub>
+                      <bold>IMP-6</bold>
+                    </sub>
+                    <bold>, <italic>sul1</italic>, <italic>aadA2</italic>, <italic>tetA</italic></bold>
+                    <break/>
+                    <bold>53-kbp IncN wild-type plasmid in A56-1S.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study (GenBank ID: AP018362)</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pA56-1R</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>
+                      <italic>bla</italic>
+                    </bold>
+                    <sub>
+                      <bold>CTX-M-2</bold>
+                    </sub>
+                    <bold>, <italic>bla</italic></bold>
+                    <sub>
+                      <bold>IMP-6</bold>
+                    </sub>
+                    <bold>, <italic>sul1</italic>, <italic>aadA2</italic>, <italic>tetA</italic></bold>
+                    <break/>
+                    <bold>53-kbp IncN plasmid in A56-1R.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study (GenBank ID: AP018363)</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pCR-XL-2-TOPO</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>Vector for cloning <italic>ardK</italic>.</bold>
+                    <break/>
+                    <bold>Selectable marker, Ampicillin and Kanamycin resistance genes.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Thermo Fisher Scientific</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pCR-XL-2-<italic>ardK</italic></bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>pCR-XL-2-TOPO carrying <italic>ardK</italic> in multiple cloning site</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pCR-XL-2-m<italic>ardK</italic></bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>pCR-XL-2-TOPO carrying mutated <italic>ardK</italic> in multiple cloning site</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pACYC184</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1"><bold>Vector for cloning region upstream of <italic>bla</italic></bold><sub><bold>IMP-6</bold></sub>.<break/><bold>Selectable marker, Chloramphenicol and Tetracycline resistance genes.</bold></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Nippon Gene</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pACYC184-UPS</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1"><bold>pACYC184 carrying region upstream of <italic>bla</italic></bold><sub><bold>IMP-6</bold></sub>
+<bold>of A56-1S behind <italic>tetC</italic></bold></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pACYC184-UPR</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1"><bold>pACYC184 carrying region upstream of <italic>bla</italic></bold><sub><bold>IMP-6</bold></sub>
+<bold>of A56-1R behind <italic>tetC</italic></bold></td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pET SUMO</bold>
+                  </td>
+                  <td align="left" colspan="2" rowspan="1">
+                    <bold>Vector for expression of His-tagged protein.</bold>
+                    <break/>
+                    <bold>Selectable marker, Kanamycin resistance gene.</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Thermo Fisher Scientific</bold>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="sec004">
+        <title>Antimicrobial susceptibility testing and CPE screening</title>
+        <p>Antimicrobial susceptibility to ceftazidime (CAZ), cefmetazole (CMZ), cefotaxime (CTX), amikacin (AMK), gentamicin (GEN), ciprofloxacin (CIP), fosfomycin (FOF), and trimethoprim-sulfamethoxazole (SXT) was tested with a Vitek2 system (Sysmex bioMerieux Co., Ltd., Tokyo, Japan). The agar dilution method was used to determine susceptibility to IPM and MEM. Antimicrobial breakpoints were determined using guidelines in EUCAST Clinical breakpoints-bacteria (v 8.1) [<xref rid="pone.0208976.ref005" ref-type="bibr">5</xref>]. Carbapenemase production by both strains was determined using the Carba NP test, as described previously [<xref rid="pone.0208976.ref011" ref-type="bibr">11</xref>].</p>
+      </sec>
+      <sec id="sec005">
+        <title>Measurement of carbapenemase gene transcript by quantitative reverse transcription PCR (qRT-PCR)</title>
+        <p>To analyze IMP-6 MBL production, the transcript levels of <italic>bla</italic><sub>IMP-6</sub> was measured by qRT-PCR. Total bacterial RNA was prepared from bacteria grown in 5 mL of LB broth to an optical density of 0.2 - 0.3 (OD<sub>600</sub>) measured using a GENESYS 20 visible spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA). One mL of the bacterial culture was centrifuged at 10,000 x <italic>g</italic> for 1 min at 20 degrees C to collect the bacterial pellet, which was resuspended in 300 muL TE buffer [1 mM Tris-HCl (pH 7.8), 0.1 mM EDTA]. Then, 30 muL of 10% sodium dodecyl sulfate (SDS) and 330 muL of acid phenol (Wako, Osaka, Japan) were added to the suspension and mixed using a vortex mixer for 1 min. This mixture was then centrifuged at 15,000 x <italic>g</italic> for 10 min at 20 degrees C. The supernatant was collected, and total RNA was purified using the RecoverAll Total Nucleic Acid Isolation Kit for FFPE (Thermo Fisher Scientific) following the manufacturer's instructions. The total RNA concentration was measured by a Qubit 2.0 fluorometer and the Qubit RNA BR Assay Kit (Thermo Fisher Scientific). qRT-PCR was performed with the ReverTra Ace qPCR RT Kit and KOD SYBR qPCR Mix (Toyobo, Osaka, Japan) using qPCR primers (<xref rid="pone.0208976.t002" ref-type="table">Table 2</xref>). The cycling conditions were as follows, 98 degrees C for 2 min, followed by 40 cycles at 98 degrees C for 10 s, 58 degrees C for 10 s, and 68 degrees C for 30 s. Fluorescence intensities were measured using a QuantStudio 3 real-time PCR system (Thermo Fisher Scientific). The results were normalized using expression of the RNA polymerase beta-subunit (<italic>rpoB</italic>) gene as internal control, as previously reported [<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>].</p>
+        <table-wrap id="pone.0208976.t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Oligonucleotides used in this study.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0208976.t002g" xlink:href="pone.0208976.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="justify" rowspan="1" colspan="1">Name</th>
+                  <th align="justify" rowspan="1" colspan="1">Sequence (5'-3')</th>
+                  <th align="justify" rowspan="1" colspan="1">Reference or source</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>IMP-6_qPCR_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GTTTTGCAGCATTGCTACCG</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">[<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>IMP-6_qPCR_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>CCCCACCCGTTAACTTCTTC</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">[<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>rpoB_qPCR_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GAGTTCTTCGGTTCCAGCCA</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">[<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>rpoB_qPCR_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GAGTGCGGAGATACGACGTT</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">[<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>IntI1_pACYC184_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GAGTGGAACCAACCGGTAACAGCCTTTCTGGCTG</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>IntI1_pACYC184_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GTATCGTGGTATCACTTAGTTGCTTGGTTTTGATGG</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pACYC184_InFusion_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GTGATACCACGATACTATGAC</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>pACYC184_InFusion_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>CGGTTGGTTCCACTCTCTGTTG</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold><italic>ardK</italic>_cloning_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GAGTGGAACCAACCGCTGCTGCCGCACCGGGCC</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold><italic>ardK</italic>_cloning_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GTATCGTGGTATCACTTATTTTTTTTCCATTTCCGAG</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold><italic>ardK</italic>_TA_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>ATGGCTCAGAAAAACAGAAT</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold><italic>ardK</italic>_TA_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>TTATTTTTTTTCCATTTCCGAGGTCG</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>ArdK_EMSA_region_F_5_biotin</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>AGGAAATACGCGGTCGTTAC</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>ArdK_EMSA_region_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GAATAAGACAAAAGGCTGCC</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>ArdK_EMSA_region_1_F</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>AGGAAATACGCGGTCGTTACCCGCTCAGGT</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>ArdK_EMSA_region_5_R</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>GAATAAGACAAAAGGCTGCCTCATCGCTAA</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>This study</bold>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="sec006">
+        <title>Preparation of chromosomal and plasmid DNA for next-generation sequencing (NGS)</title>
+        <p>To separate plasmids from chromosomal DNA, S1 nuclease pulsed-field gel electrophoresis (PFGE) was performed according to Barton et al. with modifications [<xref rid="pone.0208976.ref012" ref-type="bibr">12</xref>]. The total DNA in agarose gel plugs was incubated in distilled water for 30 min at 20 degrees C. Then, the plugs were incubated with 30 U of S1 nuclease (TaKaRa, Shiga, Japan) for 30 min at 4 degrees C, followed by incubation for 40 min at 37 degrees C. Reactions were stopped by incubation for 5 min at 20 degrees C with 0.5 M EDTA. The plugs were rinsed using 10 mM Tris-HCl/1 mM EDTA (pH 8.0) and incubated for 1 h at 4 degrees C with 0.5 x TBE buffer (50 mM Tris, 45 mM boric acid, and 0.5 mM EDTA). The total DNA digested with S1 nuclease in plugs was loaded onto a 1% agarose gel and run with a CHEF Mapper XA pulsed-field electrophoresis system (Bio-Rad, Hercules, CA, USA) at 14 degrees C in 0.5 x TBE buffer for 20 h under the following conditions: auto algorithm, 20-kb low molecular weight (MW), 250-kb high MW, and 6.0 V/cm. After electrophoresis, the agarose gel was stained with SYBR Gold nucleic acid gel stain (1/10,000 dilution; Thermo Fisher Scientific) for 1 h at 20 degrees C. Bands were visualized using a WSE-5200A Printgraph 2M system (ATTO, Tokyo, Japan). The visualized bands were collected and stored at -30 degrees C until whole-genome analysis was performed.</p>
+      </sec>
+      <sec id="sec007">
+        <title>Whole-genome analysis</title>
+        <p>Chromosomal and plasmid DNA were purified with the Zymoclean Gel DNA Recovery Kit (Zymo Research, Irvine, CA, USA), which was followed by DNA-Seq library preparation using the Nextera XT DNA Sample Preparation Kit (Illumina, San Diego, CA, USA), as previously described [<xref rid="pone.0208976.ref013" ref-type="bibr">13</xref>]. DNA libraries were sequenced on a MiSeq system (Illumina) in accordance with the manufacturer's instructions (2 x 300-mer, paired end).</p>
+        <p>For PacBio long-read sequencing, long DNA fragments were prepared by extracting the bacterial cell pellet from a 20-ml overnight culture in SDS-phenol/chloroform with bead-beating for 10 min in ZR BashingBead Lysis Tubes (Zymo Research). After centrifugation at 10,000 x g for 5 min, the upper phase was subjected to electrophoresis on a 1% TAE (40 mM Tris-acetate, 1 mM EDTA) conventional agarose gel. The agarose gel was stained with fluorescent DNA-intercalating dye (GelRed; Biotium, Fremont, CA, USA), bands within the targeted DNA size range (15 - 40 kb) were excised under a Safe Imager blue light transilluminator (Thermo Fisher Scientific) to avoid DNA damage, and the DNA was purified using the Zymoclean Large Fragment DNA Recovery Kit (Zymo Research). Purified DNA was used to prepare a SMRTbell library (PacBio, Menlo Park, CA, USA). Single molecule real time (SMRT) sequencing was performed for one library on one SMRT cell with P6C4 chemistry on a PacBio RSII sequencer. To obtain the whole-genome sequence in circular form, the raw polymerase reads were analyzed using the HGAP v3.0 pipeline based on Celera <italic>de novo</italic> assembler and Quiver polishing script [<xref rid="pone.0208976.ref014" ref-type="bibr">14</xref>].</p>
+        <p>The class 1 integron has been classified as In1568 (<italic>intI1</italic>, <italic>dfrA14</italic>Delta3::IS<italic>26</italic>, Delta<italic>aacA4</italic>, <italic>bla</italic><sub>IMP-6</sub>, <italic>aadA2</italic>, and <italic>gcu52</italic>) and In1569 ((<italic>intI1</italic>, <italic>dfrA14</italic>Delta3::IS<italic>26</italic>) in the INTEGRALL database (<ext-link ext-link-type="uri" xlink:href="http://integrall.bio.ua.pt/">http://integrall.bio.ua.pt/</ext-link>) [<xref rid="pone.0208976.ref015" ref-type="bibr">15</xref>].</p>
+      </sec>
+      <sec id="sec008">
+        <title>Plasmid construction</title>
+        <p>DNA fragments of the intact and mutated <italic>ardK</italic> genes were amplified from pA56-1S (GenBank ID: AP018362) and pA56-1R (GenBank ID: AP018363) genomic DNA, respectively, using primers <italic>ardK</italic>_cloning_F and R (<xref rid="pone.0208976.t002" ref-type="table">Table 2</xref>). The <italic>ardK</italic> PCR products were cloned with pCR-XL-2-TOPO (Thermo Fisher Scientific) following the manufacturer's instructions.</p>
+        <p>DNA fragments from the region upstream of <italic>bla</italic><sub>IMP-6</sub> were amplified from pA56-1S (UPS; 3,524 bp; 3,193 - 6,716 nt in GenBank ID: AP018362) genomic DNA using IntI1_pACYC184_F and R, and from pA56-1R (UPR; 2,246 bp; 51,305 - 53,550 nt in GenBank ID: AP018363) genomic DNA using <italic>ardK</italic>_cloning_F and IntI1_pACYC184_R. The pACYC184 vector (Nippon Gene Co., Ltd., Tokyo, Japan) was linearized by PCR using the primer pair pACYC184_InFusion_F and R. PCR was performed with KOD FX Neo (Toyobo), and the cycling conditions were 95 degrees C for 2 min; 40 cycles of 98 degrees C for 10 s, 60 degrees C for 30 s, and 68 degrees C for 2 min, and a final extension at 68 degrees C for 5 min. The PCR products from the region upstream of <italic>bla</italic><sub>IMP-6</sub> were inserted into a linearized pACYC184 vector using the In-Fusion HD Cloning Kit (TaKaRa). The cloned plasmids were propagated in One Shot OmniMAX 2 T1 Chemically Competent <italic>E</italic>. <italic>coli</italic> (Thermo Fisher Scientific) and purified using the PureYield Plasmid Miniprep System (Promega, Madison, WI, USA).</p>
+        <p>These plasmids were transformed into OmniMAX bacteria, and transformants carrying both UPS/UPR and intact/mutated <italic>ardK</italic> were selected using chloramphenicol and kanamycin. Some transformants were isolated and subjected to MEM susceptibility testing using broth microdilution, and carbapenemase production using the Carba NP test.</p>
+      </sec>
+      <sec id="sec009">
+        <title>Purification of recombinant protein</title>
+        <p>To prepare recombinant intact ArdK and mutated ArdK (mArdK) using the Champion pET SUMO Protein Expression System (Thermo Fisher Scientific), DNA fragments were amplified from A56-1S and A56-1R genomic DNA using primers <italic>ardK</italic>_TA_F and R (<xref rid="pone.0208976.t002" ref-type="table">Table 2</xref>). PCR was performed using Ex Taq DNA Polymerase (TaKaRa), amplicons cloned into linearized pET SUMO and transformed into One Shot Mach1-T1 chemically competent <italic>E</italic>. <italic>coli</italic> (Thermo Fisher Scientific) in accordance with the manufacturer's instructions. The cloned plasmid was purified using the PureYield Plasmid Miniprep System (Promega) and transformed into BL21 (DE3) <italic>E</italic>. <italic>coli</italic>. Cultures were grown in 50 mL of LB broth containing 50 mg/L kanamycin to an OD<sub>600</sub> of 0.5, and protein expression was induced with 1 mM isopropyl-beta-<sc>D</sc>-thiogalactopyranoside (IPTG), which was followed by incubation at 37 degrees C for 6 h. The His6-SUMO-tagged recombinant proteins were purified under native conditions with TALON spin columns (TaKaRa) following the manufacturer's instructions.</p>
+      </sec>
+      <sec id="sec010">
+        <title>Electrophoretic mobility shift assay (EMSA)</title>
+        <p>The ArdK-binding region on the plasmid was identified by EMSA. Biotin-labeled and unlabeled 107 bp DNA probes upstream of <italic>bla</italic><sub>IMP-6</sub> (pA56-1S, 4,760 - 4,866 nt) were amplified using primers (<xref rid="pone.0208976.t002" ref-type="table">Table 2</xref>) ArdK_EMSA_region_F_5_biotin and ArdK_EMSA_region_R for biotin-labeled probe and ArdK_EMSA_region_1_F and ArdK_EMSA_region_5_R for unlabeled probe. EMSA was performed using the LightShift Chemiluminescent EMSA Kit (Thermo Fisher Scientific) following the manufacturer's instructions with modifications. Then, 3 fmol of the biotin-labeled probes was incubated with 30 pmol of purified protein in a solution containing 20 mM Tris (pH 7.5), 100 mM KCl, 2 mM DTT, 10 mM EDTA, and 50 mg/L poly(dI-dC) at 20 degrees C for 20 min. For the competition binding assay, 3 ng of double-stranded DNA purified from mammalian cells (Vero cells) was included in the binding reactions. The reactions were loaded on a 5% polyacrylamide TBE gel and electrophoresed at 100 V for 60 min at 4 degrees C. Bands were detected using the Fusion SL4 imaging system (Vilber Lourmat, Marne-la-Vallee, France).</p>
+      </sec>
+      <sec id="sec011">
+        <title>Binding assay using biolayer interferometry</title>
+        <p>The interaction between ArdK and the 107 bp DNA probe upstream of <italic>bla</italic><sub>IMP-6</sub> (pA56-1S; 4,760 - 4,866 nt) was analyzed by biolayer interferometry using the Octet RED96 system (Pall Corp. ForteBIO, Fremont, CA, USA). The assays were performed using 200 muL of 1 x kinetics buffer (Pall Corp. ForteBIO) per well according to manufacturer's instructions. A baseline was established in the buffer for 1 min, and the biotin-labeled probes (10 pmol) were loaded onto streptavidin sensors (Pall Corp. ForteBIO) for 5 min. The sensors were washed for 1 min and exposed to recombinant ArdK at different concentrations (0.2 - 0.8 nM) for 5 min (association step), which was followed by a dissociation step for 5 min. The binding kinetics were analyzed using Octet data acquisition software v 9.0 (Pall Corp. ForteBIO). The experiments were performed in duplicate.</p>
+      </sec>
+      <sec id="sec012">
+        <title>Nucleotide sequence accession numbers</title>
+        <p>The complete, annotated plasmid sequences of pA56-1S and pA56-1R were deposited in a public database of DNA Data Bank of Japan (accession numbers: pA56-1S, AP018362; pA56-1R, AP018363). The short- and long-read sequences of DNA-Seq were deposited in the DNA Data Bank of Japan (BioProject PRJDB6276, BioSample SSUB008334, DRA accession DRA006165).</p>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="sec013">
+      <title>Results</title>
+      <sec id="sec014">
+        <title>Differences in antimicrobial susceptibility patterns between A56-1S and A56-1R</title>
+        <p>We selected the MEM-resistant <italic>E</italic>. <italic>coli</italic> strain A56-1R from A56-1S by culturing on LB agar supplemented with 1 mg/L MEM (<xref rid="pone.0208976.t001" ref-type="table">Table 1</xref>). The antimicrobial susceptibility patterns of A56-1S and A56-1R were tested using the agar dilution method and a Vitek2 instrument (<xref rid="pone.0208976.t003" ref-type="table">Table 3</xref>). A56-1S was resistant to CAZ, CTX, GEN, CIP and SXT, and exhibited high or intermediate susceptibility to IPM, MEM, AMK and FOF (<xref rid="pone.0208976.t003" ref-type="table">Table 3</xref>). The antimicrobial susceptibility pattern of A56-1R was similar to that of A56-1S with the exception of its response to CAZ, IPM and MEM (<xref rid="pone.0208976.t003" ref-type="table">Table 3</xref>). For example, the MEM MIC of A56-1R was over 256-fold higher than that of A56-1S. Both A56-1S and A56-1R tested positive for <italic>bla</italic><sub>IMP-6</sub> and <italic>bla</italic><sub>CTX-M</sub> via PCR amplification.</p>
+        <table-wrap id="pone.0208976.t003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Antimicrobial susceptibility profiles of A56-1S and A56-1R strains.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0208976.t003g" xlink:href="pone.0208976.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="center" rowspan="1" colspan="1"/>
+                  <th align="center" colspan="4" rowspan="1">Minimum inhibitory concentration (mg/L)</th>
+                </tr>
+                <tr>
+                  <th align="center" rowspan="2" colspan="1">Strain</th>
+                  <th align="center" rowspan="2" colspan="1">A56-1S</th>
+                  <th align="center" rowspan="2" colspan="1">A56-1R</th>
+                  <th align="center" colspan="2" rowspan="1">MIC breakpoint<xref ref-type="table-fn" rid="t003fn003"><sup><italic>C</italic></sup></xref></th>
+                </tr>
+                <tr>
+                  <th align="center" rowspan="1" colspan="1">S</th>
+                  <th align="center" rowspan="1" colspan="1">R</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>IPM</bold>
+                    <xref ref-type="table-fn" rid="t003fn001">
+                      <sup>
+                        <bold>
+                          <italic>a</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>0.06</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>0.25</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  2</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 8</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>MEM</bold>
+                    <xref ref-type="table-fn" rid="t003fn001">
+                      <sup>
+                        <bold>
+                          <italic>a</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>0.125</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>32</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  2</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 8</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>CAZ</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>16</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  64</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  1</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 4</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>CMZ</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>32</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  64</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>-</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>-</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>CTX</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  64</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  64</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  1</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 2</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>AMK</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  2</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  2</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  8</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 16</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>GEN</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  16</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  16</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  2</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 4</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>CIP</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  4</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  4</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  0.25</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 0.5</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>FOF</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  16</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  16</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  32</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 32</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>SXT</bold>
+                    <xref ref-type="table-fn" rid="t003fn002">
+                      <sup>
+                        <bold>
+                          <italic>b</italic>
+                        </bold>
+                      </sup>
+                    </xref>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  320</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> GTEQ  320</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold> LTEQ  2/38</bold>
+                  </td>
+                  <td align="center" rowspan="1" colspan="1">
+                    <bold>&gt; 4/76</bold>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t003fn001">
+              <p><sup><italic>a</italic></sup>Agar dilution method</p>
+            </fn>
+            <fn id="t003fn002">
+              <p><sup><italic>b</italic></sup>Vitek2</p>
+            </fn>
+            <fn id="t003fn003">
+              <p><sup><italic>c</italic></sup>EUCAST Clinical breakpoints-bacteria (v 8.1)</p>
+            </fn>
+            <fn id="t003fn004">
+              <p>AMK, amikacin; CAZ, ceftazidime; CIP, ciprofloxacin; CMZ, cefmetazole; CTX, cefotaxime; FOF, fosfomycin; GEN, gentamicin; IPM, imipenem; MEM, meropenem; SXT, trimethoprim-sulfamethoxazole; S, susceptible; R, resistant; -, not listed.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="sec015">
+        <title>Differences in IMP-6 MBL production and <italic>bla</italic><sub>IMP-6</sub> transcript levels between A56-1S and A56-1R</title>
+        <p>Differences in carbapenemase expression between A56-1S and A56-1R was tested by qRT-PCR of <italic>bla</italic><sub>IMP-6</sub> and the Carba NP test. The qRT-PCR analysis showed that the <italic>bla</italic><sub>IMP-6</sub> transcript level was 53-fold higher in A56-1R compared to A56-1S (<xref ref-type="fig" rid="pone.0208976.g001">Fig 1A</xref>). In the Carba NP test, A56-1S was negative and A56-1R was positive for carbapenemase production (<xref ref-type="fig" rid="pone.0208976.g001">Fig 1B</xref>). Therefore, carbapenemase production by these strains correlate with the observed meropenem susceptibility (<xref rid="pone.0208976.t003" ref-type="table">Table 3</xref>).</p>
+        <fig id="pone.0208976.g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.g001</object-id>
+          <label>Fig 1</label>
+          <caption>
+            <title>Differences in carbapenemase production and <italic>bla</italic><sub>IMP-6</sub> gene expression between A56-1S and A56-1R.</title>
+            <p>For A56-1S and A56-1R, the carbapenemase production and <italic>bla</italic><sub>IMP-6</sub> transcript levels were analyzed using the Carba NP test and qRT-PCR, respectively. (A) The <italic>bla</italic><sub>IMP-6</sub> transcript levels were normalized to <italic>rpoB</italic> transcript levels. The graphs show the means of <italic>bla</italic><sub>IMP-6</sub> transcript level in each strain. The error bars show standard deviation of three replicates. The asterisk indicates a significant difference at <italic>p</italic> &lt; 0.05 by Welch's <italic>t</italic>-test. (B) In the Carba NP test, IPM hydrolysis by carbapenemase produces acid, leading to a change in color of phenol red from red (negative) to yellow (positive).</p>
+          </caption>
+          <graphic xlink:href="pone.0208976.g001"/>
+        </fig>
+      </sec>
+      <sec id="sec016">
+        <title>Comparative genome analysis between A56-1S and A56-1R</title>
+        <p>To analyze the difference in <italic>bla</italic><sub>IMP-6</sub> transcript levels between A56-1S and A56-1R, whole-genome sequencing was performed using NGS. The chromosomal and plasmid DNA were separated by S1 nuclease PFGE, and one chromosomal and three plasmid bands were observed for both strains (data not shown). We observed that the <italic>bla</italic><sub>IMP-6</sub>-positive plasmids pA56-1S (GenBank ID: AP018362) and pA56-1R (GenBank ID: AP018363) were part of the IncN incompatibility group and carried other antimicrobial resistance genes (<italic>bla</italic><sub>CTX-M-2</sub>, <italic>sul1</italic>, <italic>aadA2</italic>, <italic>tetA</italic>), a class 1 integron-integrase gene (<italic>intI1</italic>), and a conjugative transfer operon (<xref ref-type="fig" rid="pone.0208976.g002">Fig 2</xref>). Upstream of <italic>bla</italic><sub>IMP-6</sub> are located the promoters of <italic>intI1</italic> and <italic>ardK</italic> on pA56-1S and pA56-1R, respectively (<xref ref-type="fig" rid="pone.0208976.g002">Fig 2</xref>). A pairwise homology alignment showed that the proportion of homologous regions (at  GTEQ  99% nucleotide identity) between pA56-1S and pKPI-6 of <italic>Klebsiella pneumoniae</italic> KPI-6 strain (GenBank ID: AB616660 [<xref rid="pone.0208976.ref009" ref-type="bibr">9</xref>]) was 90.6% (<xref ref-type="fig" rid="pone.0208976.g002">Fig 2</xref>), suggesting that these plasmids share a common backbone.</p>
+        <fig id="pone.0208976.g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title>Schematic representation and pair-wise alignment of the <italic>bla</italic><sub>IMP-6</sub>-positive plasmids pKPI-6, pA56-1S, and pA56-1R.</title>
+            <p>The sequences of pA56-1S and pA56-1R were compared with the sequence of pKPI-6. The gene clusters of pA56-1S and pA56-1R were identical, with the exception of an additional IS<italic>26</italic> insertion in <italic>ardK</italic> on pA56-1R and subsequent inversion of the additional IS<italic>26</italic> sequence. The colored boxes indicate homologous regions with 100% nucleotide identity. Pink, the same orientation; blue, inversion; green, inverted insertion of an additional IS<italic>26</italic> element. Notable genes are represented by red, <italic>ardK</italic>; orange, integrase; green, IS<italic>26</italic>; blue, antimicrobial resistance genes; gray, hypothetical protein. Red arrowheads indicate conserved upstream (CUP) sequences which represent ArdK binding sites. Bent arrows indicate promoters upstream of <italic>bla</italic><sub>IMP-6</sub>.</p>
+          </caption>
+          <graphic xlink:href="pone.0208976.g002"/>
+        </fig>
+        <p>There is a 791-bp difference in sequence length between pA56-1S (53,198 bp) and pA56-1R (53,989 bp) due to an additional IS<italic>26</italic> element that was transposed into the alleviation of restriction of DNA (<italic>ardK</italic>) coding sequence on pA56-1R, along with IS<italic>26-</italic>mediated inversion (<xref ref-type="fig" rid="pone.0208976.g002">Fig 2</xref>). This additional IS<italic>26</italic> element and the associated inversion caused disruption of the <italic>ardK</italic> gene, the product of which ArdK, is predicted to be a transcription factor belonging to the family of transcriptional repressor TrfB, as determined by its amino acid sequence using InterPro (similar to protein motif IPR032428). No sequence variations were identified in the chromosomal and other <italic>bla</italic><sub>IMP-6</sub>-negative plasmid sequences between A56-1S and A56-1R (data not shown).</p>
+      </sec>
+      <sec id="sec017">
+        <title>Repression of IMP-6 MBL production by ArdK</title>
+        <p>To determine whether ArdK mutated by IS<italic>26</italic> insertion is involved in <italic>bla</italic><sub>IMP-6</sub> expression, differences in IMP-6 MBL production between transformants with ArdK and mutated ArdK were analyzed using a <italic>bla</italic><sub>IMP-6</sub>-based reporter assay. The <italic>ardK</italic> genes and regions upstream of <italic>bla</italic><sub>IMP-6</sub> from pA56-1S (UPS) and pA56-1R (UPR) were cloned separately into plasmids and transformed into an <italic>E</italic>. <italic>coli</italic> OmniMAX laboratory strain free from IncN-related genes including <italic>ardK</italic>, UPS and UPR on pA56-1S/pA56-1R (<xref ref-type="fig" rid="pone.0208976.g003">Fig 3</xref>). The transformants were tested using the Carba NP test and broth microdilution. The transformant carrying UPS (Omni-UPS) was positive on the Carba NP test and showed a MEM MIC of &gt; 32 mg/L, suggesting that Omni-UPS produced IMP-6 MBL (<xref ref-type="fig" rid="pone.0208976.g003">Fig 3</xref>). The cotransformant with <italic>ardK</italic> (Omni-UPS_A) demonstrated negative results on the Carba NP test and MEM MIC of 0.25 - 0.5 mg/L, whereas the cotransformant with mutated <italic>ardK</italic> (Omni-UPS_mA) was positive on the Carba NP test and showed MEM MIC of &gt; 32 mg/L (<xref ref-type="fig" rid="pone.0208976.g003">Fig 3</xref>), suggesting markedly reduced carbapenemase production in cotransformants carrying intact <italic>ardK</italic>. in addition, the Carba NP test and MEM MIC for UPR suggest that ArdK can modulate the expression of <italic>bla</italic><sub>IMP-6</sub> in transformants carrying either UPS or UPR (<xref ref-type="fig" rid="pone.0208976.g003">Fig 3</xref>).</p>
+        <fig id="pone.0208976.g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.g003</object-id>
+          <label>Fig 3</label>
+          <caption>
+            <title>Analysis of repression of IMP-6 MBL production by ArdK using a reporter gene assay.</title>
+            <p>To determine whether ArdK could repress IMP-6 MBL production, a <italic>bla</italic><sub>IMP-6</sub> reporter gene assay was performed using intact or mutated <italic>ardK</italic> gene. A schematic of the plasmid combinations is shown. Carbapenemase production and MEM susceptibility were tested by the Carba NP test and broth microdilution, respectively. In the Carba NP test, IPM hydrolysis by carbapenemase produces acid, leading to a change in color of phenol red from red (negative) to yellow (positive).</p>
+          </caption>
+          <graphic xlink:href="pone.0208976.g003"/>
+        </fig>
+      </sec>
+      <sec id="sec018">
+        <title>Characterization of the ArdK binding region on pA56-1S</title>
+        <p>The above results suggest that ArdK could repress the transcription of <italic>bla</italic><sub>IMP-6</sub> (<xref ref-type="fig" rid="pone.0208976.g003">Fig 3</xref>). To identify the ArdK binding region upstream of <italic>bla</italic><sub>IMP-6</sub>, EMSA was performed using a biotin-labeled DNA probe upstream of <italic>bla</italic><sub>IMP-6</sub> on pA56-1S. Three ArdK binding sites CUP5, CUPA and CUPB have been previously reported as conserved upstream sequences involved in the regulation of <italic>ardB</italic>, <italic>ardK</italic> and <italic>repA</italic>, respectively, on the IncN plasmid [<xref rid="pone.0208976.ref016" ref-type="bibr">16</xref>]. Comparative analysis of the upstream region of <italic>bla</italic><sub>IMP-6</sub> and these three sequences showed that the 13 consensus nucleotides (CUPA56, 4812 - 4824 nt in pA56-1S) were well aligned (CUP5, 84.6%; CUPB, 84.6%; CUPA, 69.2%; <xref ref-type="fig" rid="pone.0208976.g004">Fig 4A</xref>). A 107-bp DNA probe that included the consensus nucleotides labeled by biotin was amplified from pA56-1S, and EMSA was performed with the probe and recombinant ArdK (intact form on pA56-1S) or mArdK (C-terminus-deleted form on pA56-1R; <xref ref-type="fig" rid="pone.0208976.g004">Fig 4B</xref>). The results showed that the band corresponding to the probe was shifted by ArdK binding but not by mArdK. A nonspecific competition assay using a 30-fold weight excess of unlabeled mammalian genomic DNA showed that specific ArdK binding was retained as the band shift without competitor inhibition (<xref ref-type="fig" rid="pone.0208976.g004">Fig 4B</xref>). The binding affinity of ArdK for the 107 bp DNA probe was analyzed using the Octet RED96 system, and the equilibrium dissociation constant (<italic>K</italic>d) value was 2.93  +-  0.0673 x 10<sup>-8</sup> M (<xref ref-type="fig" rid="pone.0208976.g004">Fig 4C</xref>).</p>
+        <fig id="pone.0208976.g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0208976.g004</object-id>
+          <label>Fig 4</label>
+          <caption>
+            <title>Characterization of the ArdK binding DNA sequence upstream of <italic>bla</italic><sub>IMP-6</sub> on pA56-1S by EMSA.</title>
+            <p>The ArdK binding site was identified by EMSA. (A) The region upstream of <italic>bla</italic><sub>IMP-6</sub> on pA56-1S was compared with the ArdK binding sites of the CUP sequences, and the 13 consensus nucleotides (pA56-1S, 4812 - 4824 nt) were extracted from this region. (B) EMSA was performed with ArdK and the biotin-labeled 107 bp DNA probe (pA56-1S, 4760 - 4866 nt), which included the consensus sequence. For nonspecific competition assay, unlabeled mammalian genomic DNA was used as the nonspecific competitor. The arrows labeled complex and free probe correspond to bands of intact ArdK-DNA probe complex and DNA probe only, respectively. I, intact ArdK; M, mutated ArdK (mArdK); +, present; -, absent. (C) Determination of the DNA-binding affinity of ArdK. The binding affinity of ArdK to the biotin-labeled 107 bp DNA probe was measured using Octet. ArdK bound to the probe in 0 - 300 s (association step), and impurities were removed in 300 - 600 s (dissociation step). The colored lines indicate each ArdK concentration: orange, 0 nM; green, 0.2 nM; blue, 0.4 nM; red, 0.8 nM.</p>
+          </caption>
+          <graphic xlink:href="pone.0208976.g004"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec019">
+      <title>Discussion</title>
+      <p>We investigated the mechanism of repression of carbapenemase production in <italic>bla</italic><sub>IMP-6</sub>-positive ISMS <italic>E</italic>. <italic>coli</italic> A56-1S by comparative genomics with MEM-resistant A56-1R, revealing the presence of an <italic>ardK</italic> mutation by IS<italic>26</italic> insertion in pA56-1R (Figs <xref ref-type="fig" rid="pone.0208976.g002">2</xref>, <xref ref-type="fig" rid="pone.0208976.g003">3</xref> and <xref ref-type="fig" rid="pone.0208976.g005">5</xref>). The <italic>ardK</italic> gene is ubiquitously present on IncN plasmids and encodes the alleviation of restriction of DNA (ArdK) protein [<xref rid="pone.0208976.ref016" ref-type="bibr">16</xref>,<xref rid="pone.0208976.ref017" ref-type="bibr">17</xref>], which represses the transcription of genes such as <italic>ardA</italic> on the same plasmid [<xref rid="pone.0208976.ref016" ref-type="bibr">16</xref>]. ArdA contribute to overcoming the host restriction barrier during bacterial conjugation [<xref rid="pone.0208976.ref018" ref-type="bibr">18</xref>,<xref rid="pone.0208976.ref019" ref-type="bibr">19</xref>]. Moreover, ArdK can control the expression of replication protein RepA which affects the replication and copy number of the plasmid, suggesting that ArdK may contribute to establishing plasmid in a new host by controlling the expression of ArdA and RepA [<xref rid="pone.0208976.ref016" ref-type="bibr">16</xref>].</p>
+      <fig id="pone.0208976.g005" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0208976.g005</object-id>
+        <label>Fig 5</label>
+        <caption>
+          <title>Schematic representation of the transcriptional regulation of <italic>bla</italic><sub>IMP-6</sub> by ArdK.</title>
+        </caption>
+        <graphic xlink:href="pone.0208976.g005"/>
+      </fig>
+      <p>ArdK can also modulate its own expression by binding to the CUPA sequence that overlaps with the <italic>ardK</italic> promoter region and corresponds to the binding regions on pA56-1S (52,695 - 52,721 nt) and pA56-1R (53,486 - 53,512 nt) [<xref rid="pone.0208976.ref016" ref-type="bibr">16</xref>]. In this study, a novel ArdK binding sequence (CUPA56) was identified upstream of <italic>bla</italic><sub>IMP-6</sub> on pA56-1S, suggesting that the expression of <italic>bla</italic><sub>IMP-6</sub> is repressed by the binding of ArdK to CUPA56 in A56-1S (<xref ref-type="fig" rid="pone.0208976.g004">Fig 4</xref>). The consensus sequence of CUPA56 (4,812 - 4,824 nt in pA56-1S) comprises 10 nucleotides of <italic>dfrA</italic> and 3 nucleotides of the inverted repeat of IS<italic>26</italic>, suggesting that CUPA56 is the result of the insertion of IS<italic>26</italic> into <italic>dfrA</italic>.</p>
+      <p>The <italic>ardK</italic> gene disruption was caused by the insertion of duplicated IS<italic>26</italic> into the <italic>ardK</italic> gene in A56-1R. Moreover, IS<italic>26</italic> plays a major role in the acquisition and dissemination of antibiotic resistance in gram-negative bacteria [<xref rid="pone.0208976.ref020" ref-type="bibr">20</xref> - <xref rid="pone.0208976.ref023" ref-type="bibr">23</xref>], and many bacteria that have developed antibacterial resistance as a result of IS<italic>26</italic>-related transposition have been isolated from hospitals [<xref rid="pone.0208976.ref024" ref-type="bibr">24</xref>,<xref rid="pone.0208976.ref025" ref-type="bibr">25</xref>].</p>
+      <p>The results of the EMSA and biolayer interferometry assay indicate that ArdK can act as a transcriptional regulator, with a <italic>K</italic>d value comparable to the binding affinity of well-characterized regulators such as RNA polymerase-sigma<sup>54</sup> and SoxS (<xref ref-type="fig" rid="pone.0208976.g004">Fig 4</xref>) [<xref rid="pone.0208976.ref026" ref-type="bibr">26</xref> - <xref rid="pone.0208976.ref028" ref-type="bibr">28</xref>].</p>
+      <p>The pA56-1S plasmid was shown to be similar to the pKPI-6 IncN plasmid carrying <italic>bla</italic><sub>IMP-6</sub> and <italic>ardK</italic> in the <italic>K</italic>. <italic>pneumoniae</italic> KPI-6 strain, which was isolated in Japan in 2009 [<xref rid="pone.0208976.ref009" ref-type="bibr">9</xref>], suggesting that these plasmids could have the same origin (<xref ref-type="fig" rid="pone.0208976.g002">Fig 2</xref>). Enterobacteriaceae carrying pKPI-6-related plasmids have also been identified in various regions of western Japan [<xref rid="pone.0208976.ref017" ref-type="bibr">17</xref>]. The sequence upstream of <italic>bla</italic><sub>IMP-6</sub> on pKPI-6 was distinct from that on pA56-1S (<xref ref-type="fig" rid="pone.0208976.g002">Fig 2</xref>), and the ArdK binding sequence CUPA56 was not found on pKPI-6, suggesting that ArdK could not downregulate <italic>bla</italic><sub>IMP-6</sub> expression on pKPI-6 because of a lack of CUP elements.</p>
+      <p>IMP-6 producers such as KPI-6 and A56-1R exhibit an ISMR phenotype because the carbapenemase activity of IMP-6 MBL against IPM is far weaker than that against MEM [<xref rid="pone.0208976.ref009" ref-type="bibr">9</xref>,<xref rid="pone.0208976.ref010" ref-type="bibr">10</xref>], and are difficult to identify as CPE based on IPM susceptibility alone [<xref rid="pone.0208976.ref009" ref-type="bibr">9</xref>,<xref rid="pone.0208976.ref017" ref-type="bibr">17</xref>]. However, when using the high sensitivity Carb NP test, IMP-6 producers showing the ISMR phenotype were detectable (<xref ref-type="fig" rid="pone.0208976.g001">Fig 1</xref>) [<xref rid="pone.0208976.ref007" ref-type="bibr">7</xref>]. A56-1S, which exhibits an ISMS phenotype (the MEM MIC of A56-1S is below the screening cut-off value) due to the low expression of IMP-6 MBL, is undetectable by antimicrobial susceptibility testing and even by the Carba NP test. Therefore, genetic screening methods, such as PCR and whole-genome sequencing, are indispensable for detecting ISMS phenotype strains and preventing the dissemination of these strains in hospitals and community environments.</p>
+      <p>In conclusion, comparative analysis between IMP-6 MBL non-producing A56-1S and producing A56-1R strains revealed that the transcription factor ArdK contributes to repression of <italic>bla</italic><sub>IMP-6</sub> transcription (<xref ref-type="fig" rid="pone.0208976.g005">Fig 5</xref>). The mechanism of repression by ArdK was analyzed with a reporter assay, EMSA, and kinetic characterization. In these results, it was demonstrated that ArdK plays a key role in the repression of IMP-6 MBL production by binding to the regions upstream of <italic>bla</italic><sub>IMP-6</sub> (CUP elements), leading to the ISMS phenotype of A56-1S. Most bacteria that exhibit an ISMS phenotype might be undetectable via routine antimicrobial susceptibility tests, and these bacteria might contribute to the dissemination of carbapenemase genes. Consequently, the ISMS phenotype bacteria play a potential role as undetected reservoirs of the carbapenemase gene.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0208976.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Nordmann</surname><given-names>P</given-names></name>, <name><surname>Naas</surname><given-names>T</given-names></name>, <name><surname>Poirel</surname><given-names>L</given-names></name>. <article-title>Global Spread of Carbapenemase-producing Enterobacteriaceae</article-title>. <source>Emerg Infect Dis</source>. <year>2011</year>;<volume>17</volume>: <fpage>1791</fpage> - <lpage>1798</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid1710.110655">10.3201/eid1710.110655</ext-link>
+<pub-id pub-id-type="pmid">22000347</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Zarrilli</surname><given-names>R</given-names></name>, <name><surname>Pournaras</surname><given-names>S</given-names></name>, <name><surname>Giannouli</surname><given-names>M</given-names></name>, <name><surname>Tsakris</surname><given-names>A</given-names></name>. <article-title>Global evolution of multidrug-resistant <italic>Acinetobacter baumannii</italic> clonal lineages</article-title>. <source>Int J Antimicrob Agents</source>. <year>2013</year>;<volume>41</volume>: <fpage>11</fpage> - <lpage>19</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijantimicag.2012.09.008">10.1016/j.ijantimicag.2012.09.008</ext-link>
+<pub-id pub-id-type="pmid">23127486</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Dortet</surname><given-names>L</given-names></name>, <name><surname>Poirel</surname><given-names>L</given-names></name>, <name><surname>Al Yaqoubi</surname><given-names>F</given-names></name>, <name><surname>Nordmann</surname><given-names>P</given-names></name>. <article-title>NDM-1, OXA-48 and OXA-181 carbapenemase-producing Enterobacteriaceae in Sultanate of Oman</article-title>. <source>Clin Microbiol Infect</source>. <year>2012</year>;<volume>18</volume>: <fpage>E144</fpage> - <lpage>E148</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1469-0691.2012.03796.x">10.1111/j.1469-0691.2012.03796.x</ext-link>
+<pub-id pub-id-type="pmid">22404169</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Fattouh</surname><given-names>R</given-names></name>, <name><surname>Tijet</surname><given-names>N</given-names></name>, <name><surname>McGeer</surname><given-names>A</given-names></name>, <name><surname>Poutanen</surname><given-names>SM</given-names></name>, <name><surname>Melano</surname><given-names>RG</given-names></name>, <name><surname>Patel</surname><given-names>SN</given-names></name>. <article-title>What Is the Appropriate Meropenem MIC for Screening of Carbapenemase-Producing Enterobacteriaceae in Low-Prevalence Settings?</article-title>
+<source>Antimicrob Agents Chemother</source>. <year>2016</year>;<volume>60</volume>: <fpage>1556</fpage> - <lpage>9</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.02304-15">10.1128/AAC.02304-15</ext-link>
+<pub-id pub-id-type="pmid">26711746</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="other">EUCAST. Clinical breakpoints-bacteria (v 8.1). 2018. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Breakpoint_tables/v_8.1_Breakpoint_Tables.pdf">http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Breakpoint_tables/v_8.1_Breakpoint_Tables.pdf</ext-link></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="other">EUCAST guidelines for detection of resistance mechanisms and specific resistances of clinical and/or epidemiological importance. 2013 pp. 1 - 40. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Resistace_mechanisms/EUCAST_detection_of_resitance_mechanisms_v1.0_20131211.pdf">http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Resistace_mechanisms/EUCAST_detection_of_resitance_mechanisms_v1.0_20131211.pdf</ext-link></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Segawa</surname><given-names>T</given-names></name>, <name><surname>Matsui</surname><given-names>M</given-names></name>, <name><surname>Suzuki</surname><given-names>M</given-names></name>, <name><surname>Tsutsui</surname><given-names>A</given-names></name>, <name><surname>Kuroda</surname><given-names>M</given-names></name>, <name><surname>Shibayama</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Utilizing the Carba NP test as an indicator of expression level of carbapenemase genes in Enterobacteriaceae</article-title>. <source>J Microbiol Methods</source>. <year>2017</year>;<volume>133</volume>: <fpage>35</fpage> - <lpage>39</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mimet.2016.12.015">10.1016/j.mimet.2016.12.015</ext-link>
+<pub-id pub-id-type="pmid">28007530</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Oelschlaeger</surname><given-names>P</given-names></name>, <name><surname>Mayo</surname><given-names>SL</given-names></name>, <name><surname>Pleiss</surname><given-names>J</given-names></name>. <article-title>Impact of remote mutations on metallo-beta-lactamase substrate specificity: Implications for the evolution of antibiotic resistance</article-title>. <source>Protein Sci</source>. <year>2005</year>;<volume>14</volume>: <fpage>765</fpage> - <lpage>774</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1110/ps.041093405">10.1110/ps.041093405</ext-link>
+<pub-id pub-id-type="pmid">15722450</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Shigemoto</surname><given-names>N</given-names></name>, <name><surname>Kuwahara</surname><given-names>R</given-names></name>, <name><surname>Kayama</surname><given-names>S</given-names></name>, <name><surname>Shimizu</surname><given-names>W</given-names></name>, <name><surname>Onodera</surname><given-names>M</given-names></name>, <name><surname>Yokozaki</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Emergence in Japan of an imipenem-susceptible, meropenem-resistant <italic>Klebsiella pneumoniae</italic> carrying <italic>bla</italic>IMP-6</article-title>. <source>Diagn Microbiol Infect Dis</source>. <year>2012</year>;<volume>72</volume>: <fpage>109</fpage> - <lpage>112</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diagmicrobio.2011.09.019">10.1016/j.diagmicrobio.2011.09.019</ext-link>
+<pub-id pub-id-type="pmid">22078906</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Yano</surname><given-names>H</given-names></name>, <name><surname>Kuga</surname><given-names>A</given-names></name>, <name><surname>Okamoto</surname><given-names>R</given-names></name>, <name><surname>Kitasato</surname><given-names>H</given-names></name>, <name><surname>Kobayashi</surname><given-names>T</given-names></name>, <name><surname>Inoue</surname><given-names>M</given-names></name>. <article-title>Plasmid-encoded metallo-beta-lactamase (IMP-6) conferring resistance to carbapenems, especially meropenem</article-title>. <source>Antimicrob Agents Chemother</source>. <year>2001</year>;<volume>45</volume>: <fpage>1343</fpage> - <lpage>1348</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.45.5.1343-1348.2001">10.1128/AAC.45.5.1343-1348.2001</ext-link>
+<pub-id pub-id-type="pmid">11302793</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Nordmann</surname><given-names>P</given-names></name>, <name><surname>Poirel</surname><given-names>L</given-names></name>, <name><surname>Dortet</surname><given-names>L</given-names></name>. <article-title>Rapid detection of carbapenemase-producing Enterobacteriaceae</article-title>. <source>Emerg Infect Dis</source>. <year>2012</year>;<volume>18</volume>: <fpage>1503</fpage> - <lpage>1507</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid1809.120355">10.3201/eid1809.120355</ext-link>
+<pub-id pub-id-type="pmid">22932472</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Barton</surname><given-names>BM</given-names></name>, <name><surname>Harding</surname><given-names>GP</given-names></name>, <name><surname>Zuccarelli</surname><given-names>AJ</given-names></name>. <article-title>A general method for detecting and sizing large plasmids</article-title>. <source>Anal Biochem</source>. <year>1995</year>;<volume>226</volume>: <fpage>235</fpage> - <lpage>240</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/abio.1995.1220">10.1006/abio.1995.1220</ext-link>
+<pub-id pub-id-type="pmid">7793624</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Akiba</surname><given-names>M</given-names></name>, <name><surname>Sekizuka</surname><given-names>T</given-names></name>, <name><surname>Yamashita</surname><given-names>A</given-names></name>, <name><surname>Kuroda</surname><given-names>M</given-names></name>, <name><surname>Fujii</surname><given-names>Y</given-names></name>, <name><surname>Murata</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Distribution and relationships of antimicrobial resistance determinants among extended-spectrum-cephalosporin-resistant or carbapenem-resistant <italic>Escherichia coli</italic> isolates from rivers and sewage treatment plants in India</article-title>. <source>Antimicrob Agents Chemother</source>. <year>2016</year>;<volume>60</volume>: <fpage>2972</fpage> - <lpage>2980</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.01950-15">10.1128/AAC.01950-15</ext-link>
+<pub-id pub-id-type="pmid">26953207</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Chin</surname><given-names>C-SS</given-names></name>, <name><surname>Alexander</surname><given-names>DH</given-names></name>, <name><surname>Marks</surname><given-names>P</given-names></name>, <name><surname>Klammer</surname><given-names>AA</given-names></name>, <name><surname>Drake</surname><given-names>J</given-names></name>, <name><surname>Heiner</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data</article-title>. <source>Nat Methods</source>. <year>2013</year>;<volume>10</volume>: <fpage>563</fpage> - <lpage>569</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nmeth.2474">10.1038/nmeth.2474</ext-link>
+<pub-id pub-id-type="pmid">23644548</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Moura</surname><given-names>A</given-names></name>, <name><surname>Soares</surname><given-names>M</given-names></name>, <name><surname>Pereira</surname><given-names>C</given-names></name>, <name><surname>Leit&#xE3;o</surname><given-names>N</given-names></name>, <name><surname>Henriques</surname><given-names>I</given-names></name>, <name><surname>Correia</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>INTEGRALL: a database and search engine for integrons, integrases and gene cassettes</article-title>. <source>Bioinformatics</source>. <year>2009</year>;<volume>25</volume>: <fpage>1096</fpage> - <lpage>1098</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btp105">10.1093/bioinformatics/btp105</ext-link>
+<pub-id pub-id-type="pmid">19228805</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Delver</surname><given-names>EP</given-names></name>, <name><surname>Belogurov</surname><given-names>AA</given-names></name>. <article-title>Organization of the leading region of IncN plasmid pKM101 (R46): a regulation controlled by CUP sequence elements</article-title>. <source>J Mol Biol</source>. <year>1997</year>;<volume>271</volume>: <fpage>13</fpage> - <lpage>30</lpage>. <pub-id pub-id-type="pmid">9300052</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Kayama</surname><given-names>S</given-names></name>, <name><surname>Shigemoto</surname><given-names>N</given-names></name>, <name><surname>Kuwahara</surname><given-names>R</given-names></name>, <name><surname>Oshima</surname><given-names>K</given-names></name>, <name><surname>Hirakawa</surname><given-names>H</given-names></name>, <name><surname>Hisatsune</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>Complete nucleotide sequence of the IncN plasmid encoding IMP-6 and CTX-M-2 from emerging carbapenem-resistant Enterobacteriaceae in Japan</article-title>. <source>Antimicrob Agents Chemother</source>. <year>2015</year>;<volume>59</volume>: <fpage>1356</fpage> - <lpage>1359</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.04759-14">10.1128/AAC.04759-14</ext-link>
+<pub-id pub-id-type="pmid">25487806</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Belogurov</surname><given-names>AA</given-names></name>, <name><surname>Delver</surname><given-names>EP</given-names></name>, <name><surname>Rodzevich O</surname><given-names>V</given-names></name>. <article-title>IncN plasmid pKM101 and IncI1 plasmid ColIb-P9 encode homologous antirestriction proteins in their leading regions</article-title>. <source>J Bacteriol</source>. <year>1992</year>;<volume>174</volume>: <fpage>5079</fpage> - <lpage>5085</lpage>. <pub-id pub-id-type="pmid">1321121</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Belogurov</surname><given-names>AA</given-names></name>, <name><surname>Delver</surname><given-names>EP</given-names></name>, <name><surname>Rodzevich</surname><given-names>O V</given-names></name>. <article-title>Plasmid pKM101 encodes two nonhomologous antirestriction proteins (ArdA and ArdB) whose expression is controlled by homologous regulatory sequences</article-title>. <source>J Bacteriol</source>. <year>1993</year>;<volume>175</volume>: <fpage>4843</fpage> - <lpage>4850</lpage>. <pub-id pub-id-type="pmid">8393008</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Harmer</surname><given-names>CJ</given-names></name>, <name><surname>Moran</surname><given-names>RA</given-names></name>, <name><surname>Hall</surname><given-names>RM</given-names></name>. <article-title>Movement of IS<italic>26</italic>-associated antibiotic resistance genes occurs via a translocatable unit that includes a single IS<italic>26</italic> and preferentially inserts adjacent to another IS<italic>26</italic></article-title>. <source>MBio</source>. <year>2014</year>;<volume>5</volume>: <fpage>e01801</fpage> - <lpage>14</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/mBio.01801-14">10.1128/mBio.01801-14</ext-link>
+<pub-id pub-id-type="pmid">25293759</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Miriagou</surname><given-names>V</given-names></name>, <name><surname>Carattoli</surname><given-names>A</given-names></name>, <name><surname>Tzelepi</surname><given-names>E</given-names></name>, <name><surname>Villa</surname><given-names>L</given-names></name>, <name><surname>Tzouvelekis</surname><given-names>LS</given-names></name>. <article-title>IS<italic>26</italic>-associated In4-type integrons forming multiresistance loci in enterobacterial plasmids</article-title>. <source>Antimicrob Agents Chemother</source>. <year>2005</year>;<volume>49</volume>: <fpage>3541</fpage> - <lpage>3543</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/AAC.49.8.3541-3543.2005">10.1128/AAC.49.8.3541-3543.2005</ext-link>
+<pub-id pub-id-type="pmid">16048979</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Harmer</surname><given-names>CJ</given-names></name>, <name><surname>Hall</surname><given-names>RM</given-names></name>. <article-title>IS<italic>26</italic>-Mediated Formation of Transposons Carrying Antibiotic Resistance Genes</article-title>. <source>mSphere</source>. <year>2016</year>;<volume>1</volume>: <fpage>e00038</fpage> - <lpage>16</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/mSphere.00038-16">10.1128/mSphere.00038-16</ext-link>
+<pub-id pub-id-type="pmid">27303727</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Loli</surname><given-names>A</given-names></name>, <name><surname>Tzouvelekis</surname><given-names>LS</given-names></name>, <name><surname>Tzelepi</surname><given-names>E</given-names></name>, <name><surname>Carattoli</surname><given-names>A</given-names></name>, <name><surname>Vatopoulos</surname><given-names>AC</given-names></name>, <name><surname>Tassios</surname><given-names>PT</given-names></name>, <etal>et al</etal>
+<article-title>Sources of diversity of carbapenem resistance levels in <italic>Klebsiella pneumoniae</italic> carrying <italic>bla</italic>VIM-1</article-title>. <source>J Antimicrob Chemother</source>. <year>2006</year>;<volume>58</volume>: <fpage>669</fpage> - <lpage>672</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jac/dkl302">10.1093/jac/dkl302</ext-link>
+<pub-id pub-id-type="pmid">16870645</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Ho</surname><given-names>PL</given-names></name>, <name><surname>Chan</surname><given-names>J</given-names></name>, <name><surname>Lo</surname><given-names>WU</given-names></name>, <name><surname>Lai</surname><given-names>EL</given-names></name>, <name><surname>Cheung</surname><given-names>YY</given-names></name>, <name><surname>Lau</surname><given-names>TCK</given-names></name>, <etal>et al</etal>
+<article-title>Prevalence and molecular epidemiology of plasmid-mediated fosfomycin resistance genes among blood and urinary <italic>Escherichia coli</italic> isolates</article-title>. <source>J Med Microbiol</source>. <year>2013</year>;<volume>62</volume>: <fpage>1707</fpage> - <lpage>1713</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1099/jmm.0.062653-0">10.1099/jmm.0.062653-0</ext-link>
+<pub-id pub-id-type="pmid">23988630</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>S-Y</given-names></name>, <name><surname>Park</surname><given-names>Y-J</given-names></name>, <name><surname>Yu</surname><given-names>JK</given-names></name>, <name><surname>Jung</surname><given-names>S</given-names></name>, <name><surname>Kim</surname><given-names>Y</given-names></name>, <name><surname>Jeong</surname><given-names>SH</given-names></name>, <etal>et al</etal>
+<article-title>Prevalence of acquired fosfomycin resistance among extended-spectrum beta-lactamase-producing <italic>Escherichia coli</italic> and <italic>Klebsiella pneumoniae</italic> clinical isolates in Korea and IS<italic>26</italic>-composite transposon surrounding <italic>fosA3</italic></article-title>. <source>J Antimicrob Chemother</source>. <year>2012</year>;<volume>67</volume>: <fpage>2843</fpage> - <lpage>2847</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jac/dks319">10.1093/jac/dks319</ext-link>
+<pub-id pub-id-type="pmid">22893681</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Demple</surname><given-names>B.</given-names></name>
+<article-title>Redox signaling and gene control in the <italic>Escherichia coli soxRS</italic> oxidative stress regulon-a review</article-title>. <source>Gene</source>. <year>1996</year>;<volume>179</volume>: <fpage>53</fpage> - <lpage>57</lpage>. <pub-id pub-id-type="pmid">8955629</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>Z</given-names></name>, <name><surname>Demples</surname><given-names>B</given-names></name>. <article-title>SoxS, an Activator of Superoxide Stress Genes in <italic>Escherichia coli</italic></article-title>. <source>J Biol Chem</source>. <year>1994</year>;<volume>269</volume>: <fpage>18371</fpage> - <lpage>18377</lpage>. <pub-id pub-id-type="pmid">8034583</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0208976.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Vogel</surname><given-names>SK</given-names></name>, <name><surname>Schulz</surname><given-names>A</given-names></name>, <name><surname>Rippe</surname><given-names>K</given-names></name>. <article-title>Binding affinity of <italic>Escherichia coli</italic> RNA polymerase-sigma54 holoenzyme for the <italic>glnAp2</italic>, <italic>nifH</italic> and <italic>nifL</italic> promoters</article-title>. <source>Nucleic Acids Res</source>. <year>2002</year>;<volume>30</volume>: <fpage>4094</fpage> - <lpage>4101</lpage>. <pub-id pub-id-type="pmid">12235394</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+

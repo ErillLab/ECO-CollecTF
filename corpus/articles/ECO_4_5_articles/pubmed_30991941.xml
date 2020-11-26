@@ -1,0 +1,2381 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Genomics</journal-id>
+      <journal-id journal-id-type="iso-abbrev">BMC Genomics</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Genomics</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2164</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30991941</article-id>
+      <article-id pub-id-type="pmc">6469107</article-id>
+      <article-id pub-id-type="publisher-id">5619</article-id>
+      <article-id pub-id-type="doi">10.1186/s12864-019-5619-z</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Tracing the phylogenetic history of the Crl regulon through the <italic>Bacteria</italic> and <italic>Archaea</italic> genomes</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2178-4006</contrib-id>
+          <name>
+            <surname>Santos-Zavaleta</surname>
+            <given-names>A.</given-names>
+          </name>
+          <address>
+            <email>asantos@ccg.unam.mx</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Perez-Rueda</surname>
+            <given-names>E.</given-names>
+          </name>
+          <address>
+            <email>ernesto.perez@iimas.unam.mx</email>
+          </address>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sanchez-Perez</surname>
+            <given-names>M.</given-names>
+          </name>
+          <address>
+            <email>mishael@ccg.unam.mx</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Velazquez-Ramirez</surname>
+            <given-names>D. A.</given-names>
+          </name>
+          <address>
+            <email>dvelazqu@ccg.unam.mx</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Collado-Vides</surname>
+            <given-names>J.</given-names>
+          </name>
+          <address>
+            <email>collado@ccg.unam.mx</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2159 0001</institution-id><institution-id institution-id-type="GRID">grid.9486.3</institution-id><institution>Programa de Genomica Computacional, Centro de Ciencias Genomicas, </institution><institution>Universidad Nacional Autonoma de Mexico, </institution></institution-wrap>62210 Cuernavaca, Morelos Mexico </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2159 0001</institution-id><institution-id institution-id-type="GRID">grid.9486.3</institution-id><institution>Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, Sede Merida, Universidad Nacional Autonoma de Mexico, Unidad Academica de Ciencias y Tecnologia, </institution></institution-wrap>97302 Merida, Yucatan Mexico </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0487 8785</institution-id><institution-id institution-id-type="GRID">grid.412199.6</institution-id><institution>Centro de Genomica y Bioinformatica, Facultad de Ciencias, Universidad Mayor, </institution></institution-wrap>Santiago, Chile </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>16</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <volume>20</volume>
+      <elocation-id>299</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>2</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>3</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s). 2019</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <sec>
+          <title>Background</title>
+          <p id="Par1">Crl, identified for curli production, is a small transcription factor that stimulates the association of the sigma<sup>S</sup> factor (RpoS) with the RNA polymerase core through direct and specific interactions, increasing the transcription rate of genes during the transition from exponential to stationary phase at low temperatures, using indole as an effector molecule. The lack of a comprehensive collection of information on the Crl regulon makes it difficult to identify a dominant function of Crl and to generate any hypotheses concerning its taxonomical distribution in archaeal and bacterial organisms.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p id="Par2">In this work, based on a systematic literature review, we identified the first comprehensive dataset of 86 genes under the control of Crl in the bacterium <italic>Escherichia coli</italic> K-12; those genes correspond to 40% of the sigma<sup>S</sup> regulon in this bacterium. Based on an analysis of orthologs in 18 archaeal and 69 bacterial taxonomical divisions and using <italic>E. coli</italic> K-12 as a framework, we suggest three main events that resulted in this regulon's actual form: (i) in a first step, <italic>rpoS</italic>, a gene widely distributed in bacteria and archaea cellular domains, was recruited to regulate genes involved in ancient metabolic processes, such as those associated with glycolysis and the tricarboxylic acid cycle; (ii) in a second step, the regulon recruited those genes involved in metabolic processes, which are mainly taxonomically constrained to <italic>Proteobacteria</italic>, with some secondary losses, such as those genes involved in responses to stress or starvation and cell adhesion, among others; and (iii) in a posterior step, Crl might have been recruited in <italic>Enterobacteriaceae</italic>; because its taxonomical pattern constrained to this bacterial order, however further analysis are necessary.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p id="Par3">Therefore, we suggest that the regulon Crl is highly flexible for phenotypic adaptation, probably as consequence of the diverse growth environments associated with all organisms in which members of this regulatory network are present.</p>
+        </sec>
+        <sec>
+          <title>Electronic supplementary material</title>
+          <p>The online version of this article (10.1186/s12864-019-5619-z) contains supplementary material, which is available to authorized users.</p>
+        </sec>
+      </abstract>
+      <kwd-group xml:lang="en">
+        <title>Keywords</title>
+        <kwd>Crl regulon</kwd>
+        <kwd>Stress response</kwd>
+        <kwd>Transcription factors</kwd>
+        <kwd>Comparative genomics</kwd>
+        <kwd>Bacteria</kwd>
+        <kwd>Archaea</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000009</institution-id>
+              <institution>Foundation for the National Institutes of Health</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>R01GM110597</award-id>
+          <award-id>U24GM077678</award-id>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution>Direccion General de Asuntos del Personal Academico, Universidad Nacional Autonoma de Mexico (MX)</institution>
+          </funding-source>
+          <award-id>PAPIIT IN-201117</award-id>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; The Author(s) 2019</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1">
+      <title>Background</title>
+      <p id="Par29">Gene expression in bacteria is coordinated through the DNA-binding transcription factors (TFs), blocking or allowing the access of the RNA polymerase (RNAP)-sigma factor to the promoter and providing bacteria with the ability to activate or repress multiple genes under different metabolic stimuli or growth conditions. In the bacterium <italic>Escherichia coli</italic> K-12, seven sigma factors have been experimentally identified, together with around 300 different TFs responsible for recognizing and activating almost all of their genes [<xref ref-type="bibr" rid="CR1">1</xref>]. Among these, RpoD, or sigma<sup>70</sup>, regulates around 40% of the total gene repertoire, whereas alternative sigma factors such as RpoS (sigma<sup>S</sup>), the master regulator of the stationary-phase response [<xref ref-type="bibr" rid="CR2">2</xref>], regulate between 5 and 10% of the total genes in <italic>E. coli</italic> K-12 [<xref ref-type="bibr" rid="CR3">3</xref>].</p>
+      <p id="Par30">Sigma factors and TFs regulate a large diversity of genes, hierarchically organized in regulons [<xref ref-type="bibr" rid="CR4">4</xref>]. Previous comparative genomics studies have suggested that regulons exhibit considerable plasticity across the evolution of bacterial species [<xref ref-type="bibr" rid="CR5">5</xref>]. In this regard, comparison of the gene composition of the PhoPQ regulon in <italic>E. coli</italic> and <italic>Salmonella enterica</italic> serovar Typhimurium revealed a very small overlap in both species, suggesting a low similarity in composition between the target genes that are regulated by PhoP in <italic>S.</italic> Typhimurium strains and in <italic>E. coli</italic> K-12 [<xref ref-type="bibr" rid="CR6">6</xref>]. Incidentally, this plasticity in bacterial regulons is evidence of lineage-specific modifications [<xref ref-type="bibr" rid="CR7">7</xref>].</p>
+      <p id="Par31">We conducted an exhaustive analysis concerning the conservation of the Crl regulon in Bacteria and Archaea cellular domains, using as a reference the currently known system in <italic>E. coli</italic> K-12. Contrary to the most common regulatory mechanisms that involve the direct binding to operators or activators, Crl is an RNAP holoenzyme assembly factor that was originally identified in curli production. It is expressed at low temperatures (30  degrees C) [<xref ref-type="bibr" rid="CR8">8</xref>] during the transition phase between the exponential and stationary phases, under low osmolarity, as well as in stationary phase [<xref ref-type="bibr" rid="CR9">9</xref>]. In <italic>E. coli</italic>, Crl has a global regulatory effect in stationary phase, through sigma<sup>S</sup>, as it reorganizes the transcriptional machinery [<xref ref-type="bibr" rid="CR10">10</xref>], stimulating the association of sigma<sup>S</sup> with the RNAP core, tilting the competition between sigma<sup>S</sup> and sigma<sup>70</sup> during the stationary phase in response to different stress conditions [<xref ref-type="bibr" rid="CR11">11</xref>, <xref ref-type="bibr" rid="CR12">12</xref>] [<xref ref-type="bibr" rid="CR8">8</xref>, <xref ref-type="bibr" rid="CR13">13</xref>]; its production is concomitant with the accumulation of sigma<sup>S</sup> [<xref ref-type="bibr" rid="CR8">8</xref>].</p>
+      <p id="Par32">Assembling the different pieces of the Crl regulon and its regulatory network into one global picture is one of our objectives in this work. The evaluation of this regulon in <italic>Bacteria</italic> and <italic>Archaea</italic> will provide clues about how the regulation of genes by Crl has been recruited in all the organisms, i.e., if the regulated genes were recruited similar to Crl or if they followed different pathways. To this end, 86 genes under the control of Crl in <italic>E. coli</italic> K-12 were compiled from exhaustive literature searches. To our knowledge, this is the first attempt to describe the genes regulated by Crl in <italic>E. coli</italic> K-12; in addition, few Crl homologs were identified among bacterial and archaeal genomes, constrained to <italic>Enterobacteriaceae</italic> species. Finally, members of the regulon were identified as widely distributed beyond enterobacteria, suggesting that Crl was recruited in a secondary evolutionary event to regulate a specific subset of genes, most likely genes involved in a functional response in enterobacteria to contend against starvation.</p>
+    </sec>
+    <sec id="Sec2">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>86 genes belong to the Crl regulon</title>
+        <p id="Par33">Available information regarding the Crl regulon was gathered through an exhaustive review of the literature. In this regard, diverse experimental evidences were considered significant for determining the association between the regulated genes and Crl protein regulator, such as gene expression analysis (transcriptional fusions), mapping of signal intensities (RNA-seq or microarray analysis), and inferences made from a mutant phenotype (mutation of a TF with a visible cell phenotype), among other analyses. Therefore, 86 genes were included in this work as members of the sigmaS sigmulon, of which 37 had already been reported in both RegulonDB and EcoCyc database; whereas, 49 genes identified by microarray data and <italic>crl rpoS</italic> double mutants [<xref ref-type="bibr" rid="CR8">8</xref> - <xref ref-type="bibr" rid="CR16">16</xref>], in previous works were also added (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>). From the 86 genes identified as members of this regulon (see Table <xref rid="Tab1" ref-type="table">1</xref> and Fig. <xref rid="Fig1" ref-type="fig">1</xref>), 34 have a sigma<sup>S</sup>-type promoter experimentally determined and 8 genes have 13 sigma<sup>S</sup>-type promoters predicted by computational approaches [<xref ref-type="bibr" rid="CR17">17</xref>]. These 86 genes are organized in 77 transcription units (TUs), where 52% are TUs with only one gene.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Genes regulated by Crl in <italic>Escherichia coli</italic></p></caption><table frame="hsides" rules="groups"><thead><tr><th>Gene</th><th>Bnumber</th><th>TU(s)</th><th>TFs</th><th>Effect of Crl</th><th>Evidence</th><th>Reference(s)</th><th>GO Terms</th></tr></thead><tbody><tr><td>
+<italic>aat</italic>
+</td><td>b0885</td><td>
+<italic>aat</italic>
+</td><td/><td>+</td><td>GEA and IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>protein catabolic process, ubiquitin-dependent protein catabolic process via the N-end rule pathway</td></tr><tr><td>
+<italic>accB</italic>
+</td><td>b3255</td><td>
+<italic>accBC</italic>
+</td><td>AccB (-), FadR(+)</td><td>+</td><td>GEA and IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>lipid metabolic process, fatty acid metabolic process, fatty acid biosynthetic process</td></tr><tr><td>
+<italic>accC</italic>
+</td><td>b3256</td><td>
+<italic>accBC</italic>
+</td><td>AccB (-), FadR(+)</td><td>+</td><td>GEA and IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>lipid metabolic process, fatty acid metabolic process, fatty acid biosynthetic process, metabolic process, negative regulation of fatty acid biosynthetic process, malonyl-CoA biosynthetic process</td></tr><tr><td>
+<italic>acnB</italic>
+</td><td>b0118</td><td>
+<italic>acnB</italic>
+</td><td>CRP(+) ArcA(-), Cra(-), Fis (-)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>regulation of translation, propionate catabolic process, 2-methylcitrate cycle, glyoxylate cycle, tricarboxylic acid cycle metabolic process</td></tr><tr><td>
+<italic>ada</italic>
+</td><td>b2213</td><td>
+<italic>ada-</italic>
+<bold><italic>alkB</italic></bold>
+</td><td>Ada(+/-)</td><td>+</td><td>GEA</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>DNA dealkylation involved in DNA repair, regulation of transcription, cellular response to DNA damage stimulus, metabolic process, methylation, DNA demethylation</td></tr><tr><td>
+<italic>allR</italic>
+</td><td>b0506</td><td>
+<italic>allR</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>regulation of transcription, cellular response to DNA damage stimulus, negative regulation of transcription</td></tr><tr><td>
+<italic>bfr</italic>
+</td><td>b3336</td><td>
+<bold><italic>bfd</italic></bold>
+<italic>-bfr</italic>
+</td><td/><td>+</td><td>MSI, IMP</td><td>[<xref ref-type="bibr" rid="CR40">40</xref>]<sup>MSI</sup>, [<xref ref-type="bibr" rid="CR11">11</xref>]<sup>IMP</sup></td><td>iron ion transport, cellular iron ion homeostasis, intracellular sequestering of iron ion, oxidation-reduction process</td></tr><tr><td>
+<italic>bglG</italic>
+</td><td>b3723</td><td>
+<italic>bglG</italic>
+<break/>
+<italic>bglG</italic>
+<bold><italic>FB</italic></bold>
+</td><td>CRP (+), Fis (-), H-NS (-), LeuO (+), RcsB-BglJ (+), StpA (-)</td><td> - </td><td>MSI, IMP</td><td>[<xref ref-type="bibr" rid="CR16">16</xref>]</td><td>regulation of transcription, positive regulation of transcription</td></tr><tr><td>
+<italic>bioB</italic>
+</td><td>b0775</td><td>
+<italic>bioB</italic>
+<bold><italic>FCD</italic></bold>
+</td><td>BirA (-)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>biotin biosynthetic process</td></tr><tr><td>
+<italic>cbpA</italic>
+</td><td>b1000</td><td>
+<italic>cbpA</italic>
+<bold><italic>M</italic></bold>
+</td><td>Fis (-)</td><td>+</td><td>GEA</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>protein folding</td></tr><tr><td>
+<italic>crl</italic>
+</td><td>b0240</td><td>
+<italic>crl</italic>
+</td><td>Fur (-)</td><td> - </td><td>MSI, IMP</td><td>[<xref ref-type="bibr" rid="CR12">12</xref>]</td><td>regulation of transcription, DNA-templated, cellular protein complex assembly, positive regulation of transcription</td></tr><tr><td>
+<italic>csgA</italic>
+</td><td>b1042</td><td>
+<italic>csgBAC</italic>
+</td><td>CpxR (-), CsgD (+), FliZ (-)</td><td>+</td><td>APPH, MSI, IMP, GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR8">8</xref>] <sup>APPH, MSI, IMP</sup>, [<xref ref-type="bibr" rid="CR9">9</xref>] <sup>GEA, IMP</sup></td><td>cell adhesion, single-species biofilm formation, amyloid fibril formation</td></tr><tr><td>
+<italic>csgB</italic>
+</td><td>b1041</td><td>
+<italic>csgBAC</italic>
+</td><td>CpxR(-), CsgD(+), FliZ(-)</td><td>+</td><td>APPH, MSI, IMP, GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR8">8</xref>] <sup>APPH, MSI, IMP</sup>, [<xref ref-type="bibr" rid="CR9">9</xref>] <sup>GEA, IMP</sup></td><td>cell adhesion, single-species biofilm formation, amyloid fibril formation</td></tr><tr><td>
+<italic>csgC</italic>
+</td><td>b1043</td><td>
+<italic>csgBAC</italic>
+</td><td>CpxR (-), CsgD (+), FliZ (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>csgD</italic>
+</td><td>b1040</td><td>
+<italic>csgD</italic>
+<bold><italic>EFG</italic></bold>
+</td><td>BasR (+), Cra (+), CRP (+), CsgD (+), IHF (+), MlrA (+), OmpR (+), RcdA (+), CpxR(-), FliZ (-), RcsAB (-), RstA (-)</td><td>+</td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>regulation of single-species biofilm formation</td></tr><tr><td>
+<italic>cstA</italic>
+</td><td>b0598</td><td>
+<italic>cstA</italic>
+</td><td>CRP (+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>cellular response to starvation</td></tr><tr><td>
+<italic>cysP</italic>
+</td><td>b2425</td><td>
+<italic>cysP</italic>
+<bold><italic>UWAM</italic></bold>
+</td><td>CysB (+), H-NS (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>sulfur compound metabolic process, transport, sulfate transport, sulfate transmembrane transport</td></tr><tr><td>
+<italic>djlC (ybeV)</italic>
+</td><td>b0649</td><td>
+<bold><italic>ybeU</italic></bold>
+<italic>-djlC</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>positive regulation of ATPase activity</td></tr><tr><td>
+<italic>dps</italic>
+</td><td>b0812</td><td>
+<italic>dps</italic>
+</td><td>Fis(-), H-NS(-),IHF(+), MntR(-), OxyR(+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>cellular iron ion homeostasis, response to stress, chromosome condensation, response to starvation, oxidation-reduction process</td></tr><tr><td>
+<italic>fbaB</italic>
+</td><td>b2097</td><td>
+<italic>fbaB</italic>
+</td><td>Cra(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>glycolytic process, transcription</td></tr><tr><td>
+<italic>flgM</italic>
+</td><td>b1071</td><td><italic>flgM</italic><bold><italic>N</italic></bold>,<break/>
+<italic>flg</italic>
+<bold><italic>A</italic></bold>
+<italic>M</italic>
+<bold><italic>N</italic></bold>
+</td><td>CsgD(-)</td><td> - </td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>regulation of transcription, bacterial-type flagellum organization, negative regulation of proteolysis, negative regulation of transcription</td></tr><tr><td>
+<italic>fliA</italic>
+</td><td>b1922</td><td>
+<italic>fliA</italic>
+<bold><italic>Z</italic></bold>
+<italic>-tcyJ</italic>
+</td><td>H-NS(+), MatA(-), SutR(-), NsrR(-), CsgD(-), FlhDC(+)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>transcription initiation from bacterial-type RNAP promoter, sporulation resulting in formation of a cellular spore</td></tr><tr><td>
+<italic>fur</italic>
+</td><td>b0683</td><td>
+<italic>fur</italic>
+<break/>
+<bold><italic>fldA-uof</italic></bold>
+<italic>-fur</italic>
+<break/>
+<bold><italic>uof</italic></bold>
+<italic>-fur</italic>
+</td><td>CRP(+), Fur(-)</td><td>+</td><td>MSI, IMP</td><td>[<xref ref-type="bibr" rid="CR12">12</xref>]</td><td>regulation of transcription, negative regulation of transcription</td></tr><tr><td>
+<italic>gadA</italic>
+</td><td>b3517</td><td>
+<italic>gadA</italic>
+<bold><italic>X</italic></bold>
+</td><td>AdiY(+), ArcA(+), CRP(-), FNR(-), Fis(-), GadE-RcsB(+), GadW(+-), GadX(+), H-NS(-), RcsB(-), TorR(-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>glutamate metabolic process, carboxylic acid metabolic process, intracellular pH elevation</td></tr><tr><td>
+<italic>gadB</italic>
+</td><td>b1493</td><td>
+<italic>gadBC</italic>
+</td><td>AdiY(+),CRP(-), Fis(-), FliZ(-), GadE(+), GadW(+-), GadX(+), RcsB(+)</td><td>+</td><td>MSI, GEA</td><td>[<xref ref-type="bibr" rid="CR40">40</xref>]<sup>MSI</sup>, [<xref ref-type="bibr" rid="CR13">13</xref>]<sup>GEA</sup></td><td>glutamate metabolic process, carboxylic acid metabolic process, intracellular pH elevation</td></tr><tr><td>
+<italic>gadC</italic>
+</td><td>b1492</td><td>
+<italic>gadBC</italic>
+</td><td>AdiY(+), CRP(-), Fis(-), FliZ(-), GadE(+), GadW(+-), GadX(+), RcsB(+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>amino acid transmembrane transport, transport, amino acid transport, intracellular pH elevation</td></tr><tr><td>
+<italic>gadE</italic>
+</td><td>b3512</td><td>
+<italic>gadE-</italic>
+<bold><italic>mdtEF</italic></bold>
+<break/>
+<italic>gadE</italic>
+</td><td>ArcA(+), CRP(-), EvgA(+), FliZ(-), GadE(+), GadW(+), GadX(+), H-NS(-), PhoP(+), YdeO(+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>regulation of transcription</td></tr><tr><td>
+<italic>gadW</italic>
+</td><td>b3515</td><td>
+<italic>gadW</italic>
+</td><td>GadW (+), GadX (-), H-NS(-), PhoP (+), SdiA (+), YdeO (+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>regulation of transcription, cellular response to DNA damage stimulus</td></tr><tr><td>
+<italic>glgS</italic>
+</td><td>b3049</td><td>
+<italic>glgS</italic>
+</td><td>CRP(+)</td><td>+</td><td>GEA</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>glycogen biosynthetic process, positive regulation of cellular carbohydrate metabolic process, negative regulation of single-species biofilm formation on inanimate substrate, negative regulation of bacterial-type flagellum-dependent cell motility</td></tr><tr><td>
+<italic>glnH</italic>
+</td><td>b0811</td><td>
+<italic>glnH</italic>
+<bold><italic>PQ</italic></bold>
+</td><td>IHF(+), NtrC(+/-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>transport, amino acid transport</td></tr><tr><td>
+<italic>gltA</italic>
+</td><td>b0720</td><td>
+<italic>gltA</italic>
+</td><td>ArcA(-), CRP(+), IHF(+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>tricarboxylic acid cycle, metabolic process, cellular carbohydrate metabolic process</td></tr><tr><td>
+<italic>grxB</italic>
+</td><td>b1064</td><td>
+<italic>grxB</italic>
+</td><td/><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>cell redox homeostasis, oxidation-reduction process</td></tr><tr><td>
+<italic>hdeA</italic>
+</td><td>b3510</td><td>
+<italic>hdeAB-</italic>
+<bold><italic>yhiD</italic></bold>
+</td><td>FliZ(-), GadE(+), GadW(+/-), GadX(+/-), H-NS(-), Lrp(-), MarA(-), PhoP(+), RcsB(+), TorR(+)</td><td>+</td><td>MSI, GEA</td><td>[<xref ref-type="bibr" rid="CR40">40</xref>]<sup>MSI</sup>, [<xref ref-type="bibr" rid="CR13">13</xref>]<sup>GEA</sup></td><td>cellular response to stress, cellular response to acidic pH</td></tr><tr><td>
+<italic>hdeB</italic>
+</td><td>b3509</td><td>
+<italic>hdeAB-</italic>
+<bold><italic>yhiD</italic></bold>
+</td><td>FliZ(-), GadE(+), GadW(+/-), GadX(+/-), H-NS(-), Lrp(-), MarA(-), PhoP(+), RcsB(+), TorR(+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>response to pH change, cellular response to stress</td></tr><tr><td>
+<italic>hdeD</italic>
+</td><td>b3511</td><td>
+<italic>hdeD</italic>
+</td><td>GadE(+), GadX(+), H-NS(-), PhoP(+),RcsB(+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>response to pH change</td></tr><tr><td>
+<italic>hdhA</italic>
+</td><td>b1619</td><td>
+<italic>hdhA</italic>
+</td><td/><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>lipid metabolic process, metabolic process, steroid metabolic process, lipid catabolic process, bile acid, catabolic process, protein homotetramerization, oxidation-reduction process</td></tr><tr><td>
+<italic>iadA</italic>
+</td><td>b4328</td><td>
+<bold><italic>yjiH</italic></bold>
+<italic>G-iadA</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>proteolysis</td></tr><tr><td>
+<italic>luxS (ygaG)</italic>
+</td><td>b2687</td><td>
+<italic>luxS</italic>
+</td><td/><td>+</td><td>MSI, GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]<sup>MSI</sup>, [<xref ref-type="bibr" rid="CR11">11</xref>] <sup>GEA, IMP</sup></td><td>cell-cell signaling involved in quorum sensing, L-methionine biosynthetic process from S-adenosylmethionine, quorum sensing</td></tr><tr><td>
+<italic>malE</italic>
+</td><td>b4034</td><td>
+<italic>malE</italic>
+<bold><italic>FG</italic></bold>
+</td><td>CRP(+), CreB(-), Fis(+), MalT(+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>cellular response to DNA damage stimulus, carbohydrate transport, maltose transport, detection of maltose stimulus, maltodextrin transport, cell chemotaxis</td></tr><tr><td>
+<italic>msrB</italic>
+</td><td>b1778</td><td>
+<italic>msrB</italic>
+</td><td/><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>protein repair, response to oxidative stress</td></tr><tr><td>
+<italic>narU</italic>
+</td><td>b1469</td><td>
+<italic>narU</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>nitrate transport, nitrite transport, nitrate assimilation</td></tr><tr><td>
+<italic>ompF</italic>
+</td><td>b0929</td><td>
+<italic>ompF</italic>
+</td><td>CRP(+), CpxR(-), EnvY(+), Fur(+), IHF(+/-), OmpR(+/-), PhoB(+), RstA(-)</td><td> - </td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR41">41</xref>]</td><td>transport, ion transport, ion transport, drug transmembrane transport, bacteriocin transport</td></tr><tr><td>
+<italic>ompT</italic>
+</td><td>b0565</td><td>
+<italic>ompT</italic>
+<break/>
+<bold><italic>envY</italic></bold>
+<italic>-ompT</italic>
+</td><td>PhoP(+)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>proteolysis</td></tr><tr><td>
+<italic>ompX</italic>
+</td><td>b1482</td><td>
+<italic>ompX</italic>
+</td><td>FNR(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td/></tr><tr><td>
+<italic>osmC</italic>
+</td><td>b4376</td><td>
+<italic>osmC</italic>
+</td><td>H-NS(-), Lrp(+/-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>hyperosmotic response, response to oxidative stress, response to hydroperoxide, oxidation-reduction process</td></tr><tr><td>
+<italic>osmY</italic>
+</td><td>b1388</td><td>
+<italic>osmY</italic>
+</td><td>CRP(-), Fis(-), FliZ(-), IHF(-), Lrp(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>response to osmotic stress</td></tr><tr><td>
+<italic>paaA</italic>
+</td><td>b1389</td><td>
+<italic>paaAB</italic>
+<bold><italic>C</italic></bold>
+<italic>D</italic>
+<bold><italic>E</italic></bold>
+<italic>F</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+<bold><italic>IJ</italic></bold>
+<italic>K</italic>
+</td><td>CRP(+), IHF(+), PaaX(-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>phenylacetate catabolic process, oxidation-reduction process</td></tr><tr><td>
+<italic>paaB</italic>
+</td><td>b1391</td><td>
+<italic>paaAB</italic>
+<bold><italic>C</italic></bold>
+<italic>D</italic>
+<bold><italic>E</italic></bold>
+<italic>F</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+<bold><italic>IJ</italic></bold>
+<italic>K</italic>
+</td><td>CRP (+), IHF (+), PaaX (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>phenylacetate catabolic process</td></tr><tr><td>
+<italic>paaD</italic>
+</td><td>b1393</td><td>
+<italic>paaAB</italic>
+<bold><italic>C</italic></bold>
+<italic>D</italic>
+<bold><italic>E</italic></bold>
+<italic>F</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+<bold><italic>IJ</italic></bold>
+<italic>K</italic>
+</td><td>CRP (+), IHF (+), PaaX (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>phenylacetate catabolic process</td></tr><tr><td>
+<italic>paaF</italic>
+</td><td>b1395</td><td>
+<italic>paaAB</italic>
+<bold><italic>C</italic></bold>
+<italic>D</italic>
+<bold><italic>E</italic></bold>
+<italic>F</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+<bold><italic>IJ</italic></bold>
+<italic>K</italic>
+</td><td>CRP (+), IHF (+), PaaX (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>lipid metabolic process, fatty acid metabolic process, phenylacetate catabolic process</td></tr><tr><td>
+<italic>paaH</italic>
+</td><td>b1398</td><td>
+<italic>paaAB</italic>
+<bold><italic>C</italic></bold>
+<italic>D</italic>
+<bold><italic>E</italic></bold>
+<italic>F</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+<bold><italic>IJ</italic></bold>
+<italic>K</italic>
+</td><td>CRP(+), IHF(+), PaaX(-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>fatty acid metabolic process, phenylacetate catabolic process, oxidation-reduction process</td></tr><tr><td>
+<italic>paaK</italic>
+</td><td>b3916</td><td>
+<italic>paaAB</italic>
+<bold><italic>C</italic></bold>
+<italic>D</italic>
+<bold><italic>E</italic></bold>
+<italic>F</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+<bold><italic>IJ</italic></bold>
+<italic>K</italic>
+</td><td>CRP(+), IHF(+), PaaX(-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>metabolic process, phenylacetate catabolic process</td></tr><tr><td>
+<italic>pfkA</italic>
+</td><td>b0871</td><td>
+<italic>pfkA</italic>
+</td><td>Cra(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>fructose 6-phosphate metabolic process, glycolytic process</td></tr><tr><td>
+<italic>poxB</italic>
+</td><td>b4226</td><td>
+<italic>poxB,</italic>
+<break/>
+<italic>poxB-l</italic>
+<bold><italic>taE-ybjT</italic></bold>
+</td><td>Cra(+), MarA(+), SoxS (+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>pyruvate metabolic process, oxidation-reduction process</td></tr><tr><td>
+<italic>ppa</italic>
+</td><td>b0384</td><td>
+<italic>ppa</italic>
+</td><td/><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>phosphate-containing compound metabolic process</td></tr><tr><td>
+<italic>psiF</italic>
+</td><td>b1676</td><td>
+<bold><italic>phoA</italic></bold>
+<italic>-psiF</italic>
+</td><td>PhoB(+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>pykF</italic>
+</td><td>b1235</td><td>
+<italic>pykF</italic>
+</td><td>Cra(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>glycolytic process, metabolic process, response to heat, phosphorylation</td></tr><tr><td>
+<italic>rssB</italic>
+</td><td>b0721</td><td>
+<italic>rssB</italic>
+</td><td/><td>+</td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>protein destabilization, positive regulation of proteolysis, regulation of nucleic acid-templated transcription (phosphorelay signal transduction system)</td></tr><tr><td>
+<italic>sdhC</italic>
+</td><td>b4719</td><td>
+<italic>sdhC</italic>
+<bold><italic>DAB</italic></bold>
+<italic>-sucA</italic>
+<bold><italic>BC</italic></bold>
+<italic>D</italic>
+</td><td>CRP(+), Fur(+), ArcA(+/-), Fnr(-)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>aerobic respiration. Cytochrome complex assembly, tricarboxylic acid cycle, oxidation-reduction process</td></tr><tr><td>
+<italic>sdsN</italic>
+</td><td>b1646</td><td>
+<italic>sdsN</italic>
+</td><td/><td>+</td><td>GEA</td><td>[<xref ref-type="bibr" rid="CR42">42</xref>]</td><td>small RNA</td></tr><tr><td>
+<italic>sodC</italic>
+</td><td>b4059</td><td>
+<italic>sodC</italic>
+</td><td/><td>+</td><td>GEA</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>superoxide metabolic process, removal of superoxide radicals, oxidation-reduction process</td></tr><tr><td>
+<italic>ssb</italic>
+</td><td>b0726</td><td>
+<italic>ssb</italic>
+</td><td>ArcA(-), LexA(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>recombinational repair, DNA replication, cellular response to DNA damage stimulus, SOS response</td></tr><tr><td>
+<italic>sucA</italic>
+</td><td>b0729</td><td>
+<italic>sucA</italic>
+<bold><italic>B</italic></bold>
+<break/>
+<italic>sucA</italic>
+<bold><italic>BC</italic></bold>
+<italic>D</italic>
+</td><td>ArcA(+/-), FNR(-), IHF(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>glycolytic process, tricarboxylic acid cycle, metabolic process, oxidation-reduction process</td></tr><tr><td>
+<italic>sucD</italic>
+</td><td>b2464</td><td>
+<italic>sucA</italic>
+<bold><italic>B</italic></bold>
+<break/>
+<italic>sucA</italic>
+<bold><italic>BC</italic></bold>
+<italic>D</italic>
+</td><td>ArcA(+/-),FNR(-),IHF(-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>tricarboxylic acid cycle, metabolic process, protein autophosphorylation</td></tr><tr><td>
+<italic>talA</italic>
+</td><td>b1886</td><td>
+<italic>talA-</italic>
+<bold><italic>tktB</italic></bold>
+</td><td>CreB(+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>carbohydrate metabolic process, pentose-phosphate shunt</td></tr><tr><td>
+<italic>tar</italic>
+</td><td>b1920</td><td>
+<italic>tar-</italic>
+<bold><italic>tap-cheRBYZ</italic></bold>
+</td><td>Fnr(+)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>chemotaxis, signal transduction</td></tr><tr><td>
+<italic>tcyJ (fliY)</italic>
+</td><td>b3116</td><td>
+<italic>tcyJ</italic>
+<break/>
+<italic>fliA</italic>
+<bold><italic>Z</italic></bold>
+<italic>-tcyJ</italic>
+</td><td>H-NS(+), MatA(-), SutR(-), NsrR(-), CsgD(-), FlhDC(+)</td><td> - </td><td>IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]</td><td>L-cystine transport</td></tr><tr><td>
+<italic>tdcC</italic>
+</td><td>b3708</td><td>
+<italic>tdc</italic>
+<bold><italic>AB</italic></bold>
+<italic>C</italic>
+<bold><italic>DEFG</italic></bold>
+<italic>, tdc</italic>
+<bold><italic>B</italic></bold>
+<italic>C</italic>
+<bold><italic>DEFG</italic></bold>
+</td><td>CRP(+), FNR(+), IHF(+), TdcA(+), TdcR (+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>L-serine transport, threonine transport, proton transport, serine transport</td></tr><tr><td>
+<italic>tnaA</italic>
+</td><td>b3453</td><td>
+<italic>tna</italic>
+<bold><italic>C</italic></bold>
+<italic>A</italic>
+<bold>B</bold>
+</td><td>CRP(+), TorR (+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>cellular amino acid metabolic process, aromatic amino acid family metabolic process</td></tr><tr><td>
+<italic>ugpB</italic>
+</td><td>b3495</td><td>
+<italic>ugpB</italic>
+<bold><italic>AECQ</italic></bold>
+</td><td>CRP(+), PhoB(+/-)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>glycerophosphodiester transport, transport, glycerol-3-phosphate transport</td></tr><tr><td>
+<italic>uspA</italic>
+</td><td>b0607</td><td>
+<italic>uspA</italic>
+</td><td>FadR(-), IHF(+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>response to stress</td></tr><tr><td>
+<italic>uspG (ybdQ)</italic>
+</td><td>b1004</td><td>
+<italic>uspG</italic>
+</td><td/><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td>response to stress, protein adenylylation, protein autophosphorylation, nucleotide phosphorylation, regulation of cell motility</td></tr><tr><td>
+<italic>wrbA</italic>
+</td><td>b0453</td><td>
+<italic>wrbA-</italic>
+<bold><italic>yccJ</italic></bold>
+</td><td>CsgD(+)</td><td>+</td><td>MSI, GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR13">13</xref>]<sup>MSI</sup>, [<xref ref-type="bibr" rid="CR11">11</xref>] <sup>GEA, IMP</sup></td><td>response to oxidative stress, negative regulation of transcription</td></tr><tr><td>
+<italic>ybaY</italic>
+</td><td>b0753</td><td>
+<italic>ybaY</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>ybgS</italic>
+</td><td>b0897</td><td>
+<italic>ybgS</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>ycaC</italic>
+</td><td>b1674</td><td>
+<italic>ycaC</italic>
+</td><td>BaeR(+), Fnr(-)</td><td>+</td><td>MSI, GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]<sup>MSI</sup>, [<xref ref-type="bibr" rid="CR11">11</xref>] <sup>GEA, IMP</sup></td><td>metabolic process</td></tr><tr><td>
+<italic>ydhY</italic>
+</td><td>b1784</td><td>
+<italic>ydhY</italic>
+<bold><italic>VWXUT</italic></bold>
+</td><td>FNR (+), NarL (-), NarP (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>oxidation-reduction process</td></tr><tr><td>
+<italic>yeaH</italic>
+</td><td>b2013</td><td>
+<italic>yea</italic>
+<bold><italic>G</italic></bold>
+<italic>H</italic>
+</td><td>NtrC (+)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>yeeE</italic>
+</td><td>b2665</td><td>
+<italic>yeeE</italic>
+<bold><italic>D</italic></bold>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>ygaU</italic>
+</td><td>b3535</td><td>
+<italic>ygaU</italic>
+</td><td>CpxR (+)</td><td>+</td><td>GEA, IMP</td><td>[<xref ref-type="bibr" rid="CR11">11</xref>]</td><td/></tr><tr><td>
+<italic>yhjR</italic>
+</td><td>b3555</td><td>
+<italic>yhjR</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>bacterial cellulose biosynthetic process</td></tr><tr><td>
+<italic>yiaG</italic>
+</td><td>b4045</td><td>
+<italic>yiaG</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td>regulation of transcription</td></tr><tr><td>
+<italic>yjbJ</italic>
+</td><td>b4329</td><td>
+<italic>yjbJ</italic>
+</td><td>FliZ (-)</td><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>yjiG</italic>
+</td><td>b1044</td><td>
+<bold><italic>yjiH</italic></bold>
+<italic>G-iadA</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>ymdA</italic>
+</td><td>b1138</td><td>
+<italic>ymdA</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr><tr><td>
+<italic>ymfE</italic>
+</td><td>b0885</td><td>
+<italic>ymfED</italic>
+</td><td/><td>+</td><td>MSI</td><td>[<xref ref-type="bibr" rid="CR10">10</xref>]</td><td/></tr></tbody></table><table-wrap-foot><p>Genes regulated by Crl, Bnumbers, TUs to which they belong (in bold are possible candidates regulated by Crl, since they are controlled by Crl and sigma<sup>S</sup>, but they did not have a change of expression in the data we evaluated), TFs regulating the TU, the effect of Crl, evidences, references, and associated GO terms. Experimental evidence types supporting regulation by Crl: <italic>APPH</italic> Assay of protein purified to homogeneity, <italic>GEA</italic> Gene expression analysis, transcriptional fusions (<italic>lacZ</italic>), <italic>MSI</italic> Mapping of signal intensities, such as RNA-seq or microarray analysis; <italic>IMP</italic> Inferred from mutant phenotype (such as a mutation of a TF that has a visible cell phenotype and it is inferred that the regulator might be regulating the genes responsible for the phenotype). Growth conditions were 30  degrees C, as the stationary phase was induced for all experiments. All experiments were done with <italic>E. coli</italic> K-12 or derivative strains. This information, including regulatory interactions can be accessed at RegulonDB (<ext-link ext-link-type="uri" xlink:href="http://regulondb.ccg.unam.mx/">http://regulondb.ccg.unam.mx/</ext-link>) by consulting the Crl regulon</p></table-wrap-foot></table-wrap><fig id="Fig1"><label>Fig. 1</label><caption><p>Crl regulatory network in <italic>E. coli</italic> K-12. In green are those genes regulated positively and in red those regulated negatively. The regulatory effects of additional TFs are shown as green solid lines for activation and red solid lines for repression</p></caption><graphic xlink:href="12864_2019_5619_Fig1_HTML" id="MO1"/></fig></p>
+        <p id="Par34">Previously, genes under the control of Crl were classified in four main categories depending on their role(s) in the cell: DNA metabolism, central metabolism, response to environmental modifications, and miscellaneous [<xref ref-type="bibr" rid="CR11">11</xref>]. Based on Gene Ontology (GO) annotations, multifunctional classification, and KEGG pathway maps to categorize functions, Crl-regulated genes appear to be involved in metabolic processes such as energy metabolism, amino acid, carbohydrate, and lipid metabolism, and biosynthetic processes such as glycan biosynthesis and biosynthesis of other secondary metabolites, among other metabolic processes. These functions correlate with results of the enrichment analysis using PANTHER, which showed that catabolic processes, metabolic processes, and cellular responses to xenobiotic stimuli were overrepresented among the functions associated with genes under the control of Crl (See Fig. <xref rid="Fig2" ref-type="fig">2</xref>).<fig id="Fig2"><label>Fig. 2</label><caption><p>Functions associated with genes under the control of Crl. GOs and Multifun-associated genes under Crl control and enrichment analysis with the PANTHER classification system and Multifun. Categories of KEGG used to classify GOs and Multifun terms are shown on the X-axis, and the number of GOs associated with each category are shown on the Y-axis</p></caption><graphic xlink:href="12864_2019_5619_Fig2_HTML" id="MO2"/></fig></p>
+        <p id="Par35">In general, genes under Crl control are involved in regulating many aspects of cellular metabolism through Crl's interaction with a subset of genes of the sigma<sup>S</sup> regulon [<xref ref-type="bibr" rid="CR8">8</xref>] in addition to quorum sensing playing a major role in cell-to-cell communication during stationary phase and in different processes such as biofilm formation or virulence, transporters [<xref ref-type="bibr" rid="CR11">11</xref>] and genes involved in the uptake and utilization of beta-glucosides [<xref ref-type="bibr" rid="CR16">16</xref>].</p>
+      </sec>
+      <sec id="Sec4">
+        <title>Composition of the Crl regulon</title>
+        <p id="Par36">In order to determine whether additional TFs also regulate the genes under the control of Crl, RegulonDB was used to evaluate how genes associated with Crl are also regulated by alternative TFs or sigma factors. A total of 24 genes were identified as exclusively controlled by Crl, whereas 62 are regulated by additional TFs (See Additional file <xref rid="MOESM2" ref-type="media">2</xref>). In this regard, 55 different TFs are involved in the regulation of genes associated with Crl, including Crp, IHF, H-NS, Fis, FNR, ArcA, GadX, GadW, GadE, and CsgD (Table <xref rid="Tab1" ref-type="table">1</xref>), suggesting that all genes regulated by Crl are also involved in multiple functions beyond the stationary phase, or, alternatively, phase transition has to regulate genes involved in large number of different functions. It is interesting that six of seven global regulators identified in the regulatory network of <italic>E. coli</italic> are also associated with the set regulated by Crl. Another way to look at this small network is that 19 genes of the total of Crl-regulated genes are regulated by one TF, 11 by two TFs, and 14 by three different TFs. Therefore, Crl is regulating positively 73 (85%) genes, whereas 12 (15%) genes are regulated negatively (Table <xref rid="Tab1" ref-type="table">1</xref>). The predominance of positive regulation suggests that genes associated with this regulon are in high demand according the demand theory suggested by Savageau [<xref ref-type="bibr" rid="CR18">18</xref>], and the activities of their proteins are enhanced to contend with varied environmental stimuli. Thirty-four of the 86 genes have a sigma<sup>S</sup>-type promoter that was experimentally determined (RegulonDB). Finally, the promoters of 49 genes identified as members of Crl and of the sigma<sup>S</sup> sigmulon, based on transcriptional fusions and microarray analysis data, remain to be experimentally determined.</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Phylogenetic analysis of Crl</title>
+        <p id="Par37">In order to evaluate the phylogenetic history of Crl across the bacterial and archaeal cellular domains, its homologs were identified as described in the Methods section, and a phylogenetic tree with maximum likelihood was generated (Fig. <xref rid="Fig3" ref-type="fig">3</xref> and Additional file <xref rid="MOESM3" ref-type="media">3</xref>). From this analysis, we found that Crl and its homologs are distributed almost exclusively among <italic>Gammaproteobacteria</italic> but do not share homology with proteins from other taxonomical divisions, as has been previously noted for <italic>E. coli</italic>, <italic>Vibrio</italic> spp., <italic>Citrobacter</italic> spp., <italic>Salmonella</italic> spp., and <italic>Enterobacter aerogenes</italic> [<xref ref-type="bibr" rid="CR16">16</xref>]. Additional information suggests that Crl is less widespread and less conserved at the sequence level than sigma<sup>S</sup> [<xref ref-type="bibr" rid="CR19">19</xref>]. In this regard, four conserved residues (Y22, F53, W56, and W82) are important for Crl activity and for Crl-sigma<sup>S</sup> interaction but not for Crl stability in <italic>S</italic>. <italic>Typhimurium</italic> [<xref ref-type="bibr" rid="CR19">19</xref>]. On one hand it is probable that Crl homologs exist in some sigma<sup>S</sup>-containing bacteria; however, some species might use alternative strategies to favor sigma<sup>S</sup> interaction with the core of the RNAP [<xref ref-type="bibr" rid="CR19">19</xref>]. Therefore, our phylogenetic analysis suggests that Crl is a protein conserved and constrained to <italic>Gammaproteobacteria</italic>, such as in <italic>Vibrio</italic> spp., <italic>Klebsiella</italic> spp., <italic>Enterobacter</italic> spp., and <italic>Escherichia coli</italic>. Contrary to Crl, several other of the TFs that co-regulate the Crl regulon, are present beyond the gamma-proteobacterial, probably pre-dating regulation of some of the target genes, which have been more recently subject to Crl regulation.<fig id="Fig3"><label>Fig. 3</label><caption><p>Phylogenetic tree of Crl. Phylogenetic tree based on Crl of <italic>E. coli</italic> and homologs in other organisms generated via maximum likelihood analysis, with 1000 replicates. Species with bootstrap values higher than 60% are displayed. The black triangles to the right of the branches indicate multiple species for those genera</p></caption><graphic xlink:href="12864_2019_5619_Fig3_HTML" id="MO3"/></fig></p>
+        <p id="Par38">In addition, homologous of Crl were found in low copy numbers, i.e., one Crl-like protein per genome. This information, together with the distribution of sigma<sup>S</sup>, suggests that the regulator was recruited as an element to regulate a subset of sigma<sup>S</sup>-regulated genes in <italic>Gammaproteobacteria</italic>. In this regard, it is interesting that genes under the control of Crl contain an UP element with A/T-rich DNA sequence upstream of a poorly conserved - 35 promoter which may serve for alpha subunit binding of RNAP; suggesting that Crl could play a fundamental role in the contacts between RNAP and its promoter [<xref ref-type="bibr" rid="CR13">13</xref>]. In addition, Crl would increase transcription rate during the transition from growing to stationary phase at low temperatures [<xref ref-type="bibr" rid="CR8">8</xref>], using indole as an effector molecule. In summary, this result opens the question explored in the follow section of whether genes regulated by Crl are also constrained to this taxonomical division.</p>
+      </sec>
+      <sec id="Sec6">
+        <title>Taxonomical distribution of Crl-regulated genes</title>
+        <p id="Par39">Based on the identification of orthologs of 86 Crl-regulated genes, we evaluated their taxonomical distribution across archaea and bacteria sequence genomes, as described in Methods (See Fig. <xref rid="Fig4" ref-type="fig">4</xref> and Additional file <xref rid="MOESM4" ref-type="media">4</xref>). Based on a taxonomical profile, we determined that the evolution of the Crl regulon seems to have involved diverse losses and gains of regulatory interactions. It is possible that large portions of the regulatory network associated with Crl evolved through extensive genetic changes during the evolution of the species studied. Indeed, we suggest three main events modeled the evolution of this regulon: (i) the regulation of a large number of genes widely distributed among <italic>Bacteria</italic> and <italic>Archaea</italic>, such as those genes involved in ancient metabolic processes such as glycolysis (<italic>fbaB</italic>, <italic>pykF</italic>, <italic>pfkA,</italic> and <italic>sucA</italic>) and those involved in the tricarboxylic acid cycle (<italic>gltA</italic> and <italic>sucD</italic>) [<xref ref-type="bibr" rid="CR20">20</xref>]; (ii) the regulation of genes with a distribution pattern mainly constrained to <italic>Proteobacteria</italic>, with some secondary losses in other organisms, such as those genes involved in response to stress and starvation (<italic>cstA</italic> and <italic>hdcA</italic>) or cell adhesion (<italic>csgA</italic> and <italic>csgB</italic>), among others; and (iii) the recruitment of Crl as a consequence of its emergence in <italic>Enterobacteriales</italic>. It is interesting that Crl-regulated genes are also part of the sigma<sup>S</sup> sigmulon, where there are no essential genes [<xref ref-type="bibr" rid="CR21">21</xref> - <xref ref-type="bibr" rid="CR24">24</xref>]. All these elements suggest that the Crl regulon is highly flexible for phenotypic adaptation, probably as a consequence of the diverse growth environments associated with the organisms in which members of this regulatory network are present.<fig id="Fig4"><label>Fig. 4</label><caption><p>Taxonomic distribution of orthologs from the perspective of <italic>E. coli</italic> K-12. A single linkage-clustering algorithm with no leaf order optimization was applied with Pearson distance as the similarity measure. The display clustering results were obtained using the MeV program [<xref ref-type="bibr" rid="CR39">39</xref>]. The conserved groups across the different taxonomic groups are indicated. Each column denotes Crl-regulated genes, whereas rows denote taxonomic groups. The bar at the top of the figure indicates the relative abundance of orthologs per group, represented as a percentage, where a value of 1 corresponds to 100% presence and 0% indicates a division without any ortholog of the Crl regulon in the taxonomic group</p></caption><graphic xlink:href="12864_2019_5619_Fig4_HTML" id="MO4"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="Sec7">
+      <title>Conclusions</title>
+      <p id="Par40">Crl stimulates -but can also repress- the association of sigma<sup>S</sup> with the RNAP core in <italic>E. coli</italic> K-12 through direct and specific interactions, increasing, or decreasing, the transcription rate of a subset of genes of the sigma<sup>S</sup> sigmulon. This TF has been described during the transition to stationary phase at low temperatures. In our work, based on an exhaustive literature search, we found 86 genes under the control of Crl in <italic>E. coli</italic>. We considered that the quality of the experiments could compensate the few number of papers where evidences associated to the <italic>rpoS-crl</italic> and its target genes; such as microarray analysis, mutations, assay with purified proteins, among others; however, a large number of records and sources were evaluated to consider the dataset as significant. Indeed, all interactions reported in this work meet the same criteria to be considered in RegulonDB. These protein-coding genes were retrieved mainly from microarray and mutation analyses, among other experimentally supported evidence. Gathering this regulon offers a wider physiological role than previously assumed for Crl. Certainly, these genes are associated with multiple functions, including xenobiotic processes, biofilm formation, metabolic, catabolic, and biosynthetic processes, responses to different stress conditions, and protein assembly, amino acid transport, and transcriptional processes, among others. The diverse functions regulated by Crl suggest that these genes play a fundamental role in multiple functions to respond to environmental changes, mainly those associated with stationary-phase growth at low temperatures. In addition, we conducted an exhaustive analysis concerning the conservation of the regulon Crl among the Bacteria and Archaea genomes, using as starting point, the knowledge gathered for <italic>E. coli</italic> K-12. From this analysis, Crl was identified in low copy numbers and constrained to the <italic>Enterobacteriales</italic> order, whereas the homologs of all regulated genes were found to be widely distributed beyond enterobacteria, suggesting that Crl was recruited in a secondary event to regulate a specific subset of genes for which the regulation (stimulation or repression) of Crl and sigma<sup>S</sup> helps bacteria in the phase transition.</p>
+    </sec>
+    <sec id="Sec8">
+      <title>Methods</title>
+      <sec id="Sec9">
+        <title>Identification of Crl-regulated genes</title>
+        <p id="Par41">We performed an exhaustive search of the literature related to Crl (GI: 114152792) in <italic>E. coli</italic> K-12 in PubMed [<xref ref-type="bibr" rid="CR25">25</xref>] under the following search strategy: coli in the title (to exclude spurious articles) and crl, rpoS (ID: NP_417221) and regulation both in title and in all fields in their different combinations (coli[all field] crl[all field] rpos[all field] regulation[all field]; coli[ti] rpoS[ti] regulation[ti]; coli[ti] crl[all field] rpos[all field] regulation[all field]; coli[ti] crl[ti] regulation[all field]; coli[ti] rpoS[ti] crl[all field] regulation[all field]; coli[ti] rpoS[ti] crl[ti] regulation[all field]). Fifty nine unique articles with different search profiles were obtained and exhaustively revised, from which, 10 were selected since they contained information on regulatory interactions in <italic>E. coli</italic> on <italic>rpoS-crl</italic> and its target genes, such as microarray analysis, mutations, and assay with purified proteins, among others (Table <xref rid="Tab1" ref-type="table">1</xref>). Finally, we searched for gene/operon notes in RegulonDB and EcoCyc [<xref ref-type="bibr" rid="CR3">3</xref>, <xref ref-type="bibr" rid="CR26">26</xref>] for Crl interactions and sigma<sup>S</sup> promoters, for assembling the network of regulation of Crl.</p>
+        <p id="Par42">The regulatory network generated was displayed using the Cytoscape program, version 3.3.0 [<xref ref-type="bibr" rid="CR27">27</xref>], with information obtained in the identified papers as well as information contained in RegulonDB [<xref ref-type="bibr" rid="CR3">3</xref>]. Genes under Crl control were classified based on Gene Ontology (GO) annotations (<ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org/">http://www.geneontology.org/</ext-link>) using the Gene Association Format (GAF 2.0) as well as the Multifun classification scheme [<xref ref-type="bibr" rid="CR28">28</xref>]. An enrichment analysis was carried out to find overrepresented annotations, using the PANTHER Classification system program, version 12.0; selecting biological processes and <italic>E. coli</italic> as parameters [<xref ref-type="bibr" rid="CR29">29</xref>, <xref ref-type="bibr" rid="CR30">30</xref>]. In addition, we used KEGG to categorize the functions of GOs (<ext-link ext-link-type="uri" xlink:href="http://www.genome.jp/kegg-bin/show_organism?menu_type=pathway_maps&amp;org=eco">http://www.genome.jp/kegg-bin/show_organism?menu_type=pathway_maps&amp;org=eco</ext-link>) [<xref ref-type="bibr" rid="CR31">31</xref>].</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Identification of Crl homologs</title>
+        <p id="Par43">The Crl protein sequence of <italic>E. coli</italic> K-12 (ID: 114152792) was used as the seed to scan all the bacterial and archaeal genomes via a BLASTp search (BLAST version 2.2.30+) [<xref ref-type="bibr" rid="CR32">32</xref>] (E-value  LTEQ 10<sup>- 3</sup> and coverage  GTEQ 60%). All proteins were compared and aligned using the Muscle algorithm [<xref ref-type="bibr" rid="CR33">33</xref>] with default parameters, and results were manually edited with the program Jalview. Finally, a phylogeny was inferred by the maximum likelihood method with 1000 replicates by using the program MEGA [<xref ref-type="bibr" rid="CR34">34</xref>] and the Tamura-Nei model.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Identification of orthologous genes</title>
+        <p id="Par44">Orthologous genes have been classically defined as encoding proteins in different species that evolved from a common ancestor via speciation [<xref ref-type="bibr" rid="CR35">35</xref>] and have retained the same function. In this work, orthologs were identified by searching for bidirectional best hits (BDBHs) in other organisms [<xref ref-type="bibr" rid="CR36">36</xref>] considering the same conditions as [<xref ref-type="bibr" rid="CR36">36</xref>] an <italic>E</italic>-value  LTEQ  of 1e- 6; database size fixed (-<italic>z</italic> 5e+ 8), soft filtering of low information content (the -F 'm S' option), the Smith - Waterman alignment (-s T), and a coverage of at least 60%.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Taxonomical distribution of orthologous genes</title>
+        <p id="Par45">In order to evaluate the taxonomical distribution of the genes belonging to the Crl regulon, 5321 complete genomes were downloaded from the NCBI's Refseq genome database [<xref ref-type="bibr" rid="CR37">37</xref>] and open reading frames (ORFs) that encode predicted proteins were considered. Redundancy was excluded using a web-based tool [<xref ref-type="bibr" rid="CR38">38</xref>] considering a Genome Similarity Score GCCa GTEQ 0.95 [<xref ref-type="bibr" rid="CR38">38</xref>]<bold>.</bold> In this representative genome dataset, orthologs were traced along 18 archaeal and 69 bacterial cellular divisions. To this end, the relative abundance of the orthologs was calculated as the fraction of genomes in the group that had one ortholog, divided by the total number of genomes per phylum, i.e., the ratio (total number of orthologs in a phylum) / (total number of organisms in phylum). The corresponding matrix was analyzed with a hierarchical complete linkage-clustering algorithm with correlation uncentered as the similarity measure. We used the program MeV to perform the analyses (<ext-link ext-link-type="uri" xlink:href="http://mev.tm4.org/">http://mev.tm4.org/</ext-link>) [<xref ref-type="bibr" rid="CR39">39</xref>].</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Additional files</title>
+      <sec id="Sec13">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="12864_2019_5619_MOESM1_ESM.docx"><label>Additional file 1:</label><caption><p>New members of the RpoS-Crl regulon. (DOCX 23 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="12864_2019_5619_MOESM2_ESM.docx"><label>Additional file 2:</label><caption><p>Number of regulated genes by different transcription factor in Crl Regulon. (DOCX 15 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="12864_2019_5619_MOESM3_ESM.txt"><label>Additional file 3:</label><caption><p>Homologs of Crl in Bacteria and Archaea genomes. (TXT 64 kb)</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="12864_2019_5619_MOESM4_ESM.gz"><label>Additional file 4:</label><caption><p>Orthologs of Crl regulon in Bacteria and Archaea genomes. (GZ 1446 kb)</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>APPH</term>
+          <def>
+            <p id="Par4">Assay of protein purified to homogeneity</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>BDBHs</term>
+          <def>
+            <p id="Par5">Bidirectional best hits</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>BLASTp</term>
+          <def>
+            <p id="Par6">Basic Local Alignment Search Tool (proteins)</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Crl</term>
+          <def>
+            <p id="Par7">Curling genes regulatory protein</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Ecocyc</term>
+          <def>
+            <p id="Par8"><italic>E. coli</italic> metabolic database</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GAF</term>
+          <def>
+            <p id="Par9">cGMP-specific phosphodiesterase, adenylyl cyclase and FhlA domain</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GCCa</term>
+          <def>
+            <p id="Par10">Genome Similarity Score</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GEA</term>
+          <def>
+            <p id="Par11">Gene expression analysis, transcriptional fusions (<italic>lacZ</italic>)</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GO</term>
+          <def>
+            <p id="Par12">Gene onthology</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>IMP</term>
+          <def>
+            <p id="Par13">Inferred from mutant phenotype (such as a mutation of a TF that has a visible cell phenotype and it is inferred that the regulator might be regulating the genes responsible for the phenotype)</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Jalview</term>
+          <def>
+            <p id="Par14">Java alignment editor</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>KEGG</term>
+          <def>
+            <p id="Par15">Kyoto encyclopedia of genes and genomes database</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MEGA</term>
+          <def>
+            <p id="Par16">Molecular Evolutionary Genetics Analysis</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MSI</term>
+          <def>
+            <p id="Par17">Mapping of signal intensities, such as RNA-seq or microarray analysis</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>Muscle</term>
+          <def>
+            <p id="Par18">Multiple sequence comparison by Log-expectation</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>ORFs</term>
+          <def>
+            <p id="Par19">Open reading frames</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PANTHER</term>
+          <def>
+            <p id="Par20">Protein analysis through evolutionary relationships classification system</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PhoPQ</term>
+          <def>
+            <p id="Par21">Two-component system of virulence and adaptation</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RegulonDB</term>
+          <def>
+            <p id="Par22">Regulon database</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RNAP</term>
+          <def>
+            <p id="Par23">RNA polymerase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RNA-seq</term>
+          <def>
+            <p id="Par24">RNA sequencing</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RpoD</term>
+          <def>
+            <p id="Par25">RNA polymerase sigma factor D</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>RpoS</term>
+          <def>
+            <p id="Par26">RNA polymerase sigma factor S</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>TFs</term>
+          <def>
+            <p id="Par27">Transcription factors</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>TUs</term>
+          <def>
+            <p id="Par28">Transcription units</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We acknowledge contributions by Cesar Bonavides-Martinez for his technical help; and Joaquin Morales, Sandra Sauza, and Israel Sanchez are very much appreciated for their computational support.</p>
+      <sec id="FPar1">
+        <title>Funding</title>
+        <p id="Par46">Publication of this article was funded by National Institute of General Medical Sciences of the National Institutes of Health under Award Numbers [R01GM110597, U24GM077678]; and DGAPA-UNAM IN-201117.</p>
+      </sec>
+      <sec id="FPar2" sec-type="data-availability">
+        <title>Availability of data and materials</title>
+        <p id="Par47">All data generated or analyzed during this study are included in this published article and its supplementary information files.</p>
+      </sec>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Authors' contributions</title>
+      <p>ASZ, JCV and EPR conceived and designed the research. EPR and ASZ designed and drafted the manuscript, contributed equally in the development of this work and they are the major contributors in writing the manuscript. MSP and EPR performed the bioinformatics analysis. MSP and DAVR gathered the regulation of the network. ASZ and DAVR contributed to the data extraction, and curation of the processed data of the articles. EPR performed the phylogenetic analyzes. All authors read and approved the final manuscript.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <sec id="FPar3">
+        <title>Ethics approval and consent to participate</title>
+        <p>Not applicable.</p>
+      </sec>
+      <sec id="FPar4">
+        <title>Consent for publication</title>
+        <p>Not applicable.</p>
+      </sec>
+      <sec id="FPar5">
+        <title>Competing interests</title>
+        <p>The authors declare that they have no competing interests.</p>
+      </sec>
+      <sec id="FPar6">
+        <title>Publisher's Note</title>
+        <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </sec>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perez-Rueda</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tenorio-Salgado</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Huerta-Saquero</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Balderas-Martinez</surname>
+              <given-names>YI</given-names>
+            </name>
+            <name>
+              <surname>Moreno-Hagelsieb</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>The functional landscape bound to the transcription factors of Escherichia coli K-12</article-title>
+          <source>Comput Biol Chem</source>
+          <year>2015</year>
+          <volume>58</volume>
+          <fpage>93</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compbiolchem.2015.06.002</pub-id>
+          <pub-id pub-id-type="pmid">26094112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Landini</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Egli</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wolf</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lacour</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>sigmaS, a major player in the response to environmental stresses in Escherichia coli: role, regulation and mechanisms of promoter recognition</article-title>
+          <source>Environ Microbiol Rep</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1111/1758-2229.12112</pub-id>
+          <pub-id pub-id-type="pmid">24596257</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gama-Castro</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Salgado</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Santos-Zavaleta</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Ledezma-Tejeida</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Muniz-Rascado</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Sotelo</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Alquicira-Hernandez</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Martinez-Flores</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Pannier</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Castro-Mondragon</surname>
+              <given-names>JA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RegulonDB version 9.0: high-level integration of gene regulation, coexpression, motif clustering and beyond</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2016</year>
+          <volume>44</volume>
+          <issue>D1</issue>
+          <fpage>D133</fpage>
+          <lpage>D143</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkv1156</pub-id>
+          <pub-id pub-id-type="pmid">26527724</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dufour</surname>
+              <given-names>YS</given-names>
+            </name>
+            <name>
+              <surname>Kiley</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Donohue</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Reconstruction of the core and extended regulons of global transcription factors</article-title>
+          <source>PLoS Genet</source>
+          <year>2010</year>
+          <volume>6</volume>
+          <issue>7</issue>
+          <fpage>e1001027</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1001027</pub-id>
+          <pub-id pub-id-type="pmid">20661434</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lozada-Chavez</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Janga</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Collado-Vides</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Bacterial regulatory networks are extremely flexible in evolution</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2006</year>
+          <volume>34</volume>
+          <issue>12</issue>
+          <fpage>3434</fpage>
+          <lpage>3445</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkl423</pub-id>
+          <pub-id pub-id-type="pmid">16840530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monsieurs</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>De Keersmaecker</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Navarre</surname>
+              <given-names>WW</given-names>
+            </name>
+            <name>
+              <surname>Bader</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>De Smet</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>McClelland</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>FC</given-names>
+            </name>
+            <name>
+              <surname>De Moor</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Vanderleyden</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Marchal</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of the PhoPQ regulon in Escherichia coli and Salmonella typhimurium</article-title>
+          <source>J Mol Evol</source>
+          <year>2005</year>
+          <volume>60</volume>
+          <issue>4</issue>
+          <fpage>462</fpage>
+          <lpage>474</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00239-004-0212-7</pub-id>
+          <pub-id pub-id-type="pmid">15883881</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Ochman</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Origins of flagellar gene operons and secondary flagellar systems</article-title>
+          <source>J Bacteriol</source>
+          <year>2007</year>
+          <volume>189</volume>
+          <issue>19</issue>
+          <fpage>7098</fpage>
+          <lpage>7104</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.00643-07</pub-id>
+          <pub-id pub-id-type="pmid">17644605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bougdour</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lelong</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Geiselmann</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Crl, a low temperature-induced protein in Escherichia coli that binds directly to the stationary phase sigma subunit of RNA polymerase</article-title>
+          <source>J Biol Chem</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <issue>19</issue>
+          <fpage>19540</fpage>
+          <lpage>19550</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M314145200</pub-id>
+          <pub-id pub-id-type="pmid">14978043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arnqvist</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Olsen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pfeifer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Normark</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The Crl protein activates cryptic genes for curli formation and fibronectin binding in Escherichia coli HB101</article-title>
+          <source>Mol Microbiol</source>
+          <year>1992</year>
+          <volume>6</volume>
+          <issue>17</issue>
+          <fpage>2443</fpage>
+          <lpage>2452</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.1992.tb01420.x</pub-id>
+          <pub-id pub-id-type="pmid">1357528</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Typas</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Barembruch</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Possling</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hengge</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Stationary phase reorganisation of the Escherichia coli transcription machinery by Crl protein, a fine-tuner of sigmas activity and levels</article-title>
+          <source>EMBO J</source>
+          <year>2007</year>
+          <volume>26</volume>
+          <issue>6</issue>
+          <fpage>1569</fpage>
+          <lpage>1578</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7601629</pub-id>
+          <pub-id pub-id-type="pmid">17332743</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lelong</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Aguiluz</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Luche</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kuhn</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Garin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Rabilloud</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Geiselmann</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The Crl-RpoS regulon of Escherichia coli</article-title>
+          <source>Mol Cell Proteomics</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <issue>4</issue>
+          <fpage>648</fpage>
+          <lpage>659</lpage>
+          <pub-id pub-id-type="doi">10.1074/mcp.M600191-MCP200</pub-id>
+          <pub-id pub-id-type="pmid">17224607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lelong</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Rolland</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Louwagie</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Garin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Geiselmann</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutual regulation of Crl and Fur in Escherichia coli W3110</article-title>
+          <source>Mol Cell Proteomics</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <issue>4</issue>
+          <fpage>660</fpage>
+          <lpage>668</lpage>
+          <pub-id pub-id-type="doi">10.1074/mcp.M600192-MCP200</pub-id>
+          <pub-id pub-id-type="pmid">17224606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dudin</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Lacour</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Geiselmann</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression dynamics of RpoS/Crl-dependent genes in Escherichia coli</article-title>
+          <source>Res Microbiol</source>
+          <year>2013</year>
+          <volume>164</volume>
+          <issue>8</issue>
+          <fpage>838</fpage>
+          <lpage>847</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.resmic.2013.07.002</pub-id>
+          <pub-id pub-id-type="pmid">23867204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olsen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Arnqvist</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hammar</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sukupolvi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Normark</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The RpoS sigma factor relieves H-NS-mediated transcriptional repression of csgA, the subunit gene of fibronectin-binding curli in Escherichia coli</article-title>
+          <source>Mol Microbiol</source>
+          <year>1993</year>
+          <volume>7</volume>
+          <issue>4</issue>
+          <fpage>523</fpage>
+          <lpage>536</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2958.1993.tb01143.x</pub-id>
+          <pub-id pub-id-type="pmid">8459772</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pratt</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>The response regulator SprE controls the stability of RpoS</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <issue>6</issue>
+          <fpage>2488</fpage>
+          <lpage>2492</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.93.6.2488</pub-id>
+          <pub-id pub-id-type="pmid">8637901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schnetz</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Silencing of the Escherichia coli bgl operon by RpoS requires Crl</article-title>
+          <source>Microbiology (Reading, England)</source>
+          <year>2002</year>
+          <volume>148</volume>
+          <issue>Pt 8</issue>
+          <fpage>2573</fpage>
+          <lpage>2578</lpage>
+          <pub-id pub-id-type="doi">10.1099/00221287-148-8-2573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huerta</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Collado-Vides</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals</article-title>
+          <source>J Mol Biol</source>
+          <year>2003</year>
+          <volume>333</volume>
+          <issue>2</issue>
+          <fpage>261</fpage>
+          <lpage>278</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmb.2003.07.017</pub-id>
+          <pub-id pub-id-type="pmid">14529615</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Savageau</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Demand theory of gene regulation. I. Quantitative development of the theory</article-title>
+          <source>Genetics</source>
+          <year>1998</year>
+          <volume>149</volume>
+          <issue>4</issue>
+          <fpage>1665</fpage>
+          <lpage>1676</lpage>
+          <pub-id pub-id-type="pmid">9691027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monteil</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Kolb</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>D'Alayer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Beguin</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Norel</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of conserved amino acid residues of the Salmonella sigmaS chaperone Crl involved in Crl-sigmaS interactions</article-title>
+          <source>J Bacteriol</source>
+          <year>2010</year>
+          <volume>192</volume>
+          <issue>4</issue>
+          <fpage>1075</fpage>
+          <lpage>1087</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.01197-09</pub-id>
+          <pub-id pub-id-type="pmid">20008066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dandekar</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Schuster</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Snel</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Huynen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bork</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathway alignment: application to the comparative analysis of glycolytic enzymes</article-title>
+          <source>Biochem J</source>
+          <year>1999</year>
+          <volume>343</volume>
+          <issue>Pt 1</issue>
+          <fpage>115</fpage>
+          <lpage>124</lpage>
+          <pub-id pub-id-type="doi">10.1042/bj3430115</pub-id>
+          <pub-id pub-id-type="pmid">10493919</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Patten</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Schellhorn</surname>
+              <given-names>HE</given-names>
+            </name>
+          </person-group>
+          <article-title>Positive selection for loss of RpoS function in Escherichia coli</article-title>
+          <source>Mutat Res</source>
+          <year>2004</year>
+          <volume>554</volume>
+          <issue>1 - 2</issue>
+          <fpage>193</fpage>
+          <lpage>203</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mrfmmm.2004.04.013</pub-id>
+          <pub-id pub-id-type="pmid">15450418</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dong</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Schellhorn</surname>
+              <given-names>HE</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of RpoS in global gene expression of Escherichia coli in minimal media</article-title>
+          <source>Mol Gen Genomics</source>
+          <year>2009</year>
+          <volume>281</volume>
+          <issue>1</issue>
+          <fpage>19</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00438-008-0389-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zambrano</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Siegele</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Almiron</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tormo</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kolter</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbial competition: Escherichia coli mutants that take over stationary phase cultures</article-title>
+          <source>Science</source>
+          <year>1993</year>
+          <volume>259</volume>
+          <issue>5102</issue>
+          <fpage>1757</fpage>
+          <lpage>1760</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.7681219</pub-id>
+          <pub-id pub-id-type="pmid">7681219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cavaliere</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Norel</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent advances in the characterization of Crl, the unconventional activator of the stress sigma factor sigmaS/RpoS</article-title>
+          <source>Biomol Concepts</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <issue>3</issue>
+          <fpage>197</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="pmid">27180360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geer</surname>
+              <given-names>LY</given-names>
+            </name>
+            <name>
+              <surname>Marchler-Bauer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Geer</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Bryant</surname>
+              <given-names>SH</given-names>
+            </name>
+          </person-group>
+          <article-title>The NCBI BioSystems database</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <issue>Database issue</issue>
+          <fpage>D492</fpage>
+          <lpage>D496</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkp858</pub-id>
+          <pub-id pub-id-type="pmid">19854944</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keseler</surname>
+              <given-names>IM</given-names>
+            </name>
+            <name>
+              <surname>Mackie</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Santos-Zavaleta</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Billington</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Bonavides-Martinez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Caspi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Fulcher</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Gama-Castro</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kothari</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Krummenacker</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The EcoCyc database: reflecting new knowledge about Escherichia coli K-12</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <issue>D1</issue>
+          <fpage>D543</fpage>
+          <lpage>D550</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw1003</pub-id>
+          <pub-id pub-id-type="pmid">27899573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shannon</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Markiel</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Ozier</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Baliga</surname>
+              <given-names>NS</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>JT</given-names>
+            </name>
+            <name>
+              <surname>Ramage</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Amin</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schwikowski</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ideker</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytoscape: a software environment for integrated models of biomolecular interaction networks</article-title>
+          <source>Genome Res</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <issue>11</issue>
+          <fpage>2498</fpage>
+          <lpage>2504</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.1239303</pub-id>
+          <pub-id pub-id-type="pmid">14597658</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Serres</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Riley</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products</article-title>
+          <source>Microb Comp Genomics</source>
+          <year>2000</year>
+          <volume>5</volume>
+          <issue>4</issue>
+          <fpage>205</fpage>
+          <lpage>222</lpage>
+          <pub-id pub-id-type="doi">10.1089/mcg.2000.5.205</pub-id>
+          <pub-id pub-id-type="pmid">11471834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ashburner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ball</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Blake</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Botstein</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Butler</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Cherry</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Dolinski</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Dwight</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Eppig</surname>
+              <given-names>JT</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Gene ontology: tool for the unification of biology. The gene ontology consortium</article-title>
+          <source>Nat Genet</source>
+          <year>2000</year>
+          <volume>25</volume>
+          <issue>1</issue>
+          <fpage>25</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1038/75556</pub-id>
+          <pub-id pub-id-type="pmid">10802651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Kejariwal</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Karlak</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Daverman</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Diemer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Muruganujan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Narechania</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>PANTHER: a library of protein families and subfamilies indexed by function</article-title>
+          <source>Genome Res</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <issue>9</issue>
+          <fpage>2129</fpage>
+          <lpage>2141</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.772403</pub-id>
+          <pub-id pub-id-type="pmid">12952881</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanehisa</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Furumichi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tanabe</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Morishima</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>KEGG: new perspectives on genomes, pathways, diseases and drugs</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <issue>D1</issue>
+          <fpage>D353</fpage>
+          <lpage>D361</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw1092</pub-id>
+          <pub-id pub-id-type="pmid">27899662</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Altschul</surname>
+              <given-names>SF</given-names>
+            </name>
+            <name>
+              <surname>Madden</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Lipman</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1997</year>
+          <volume>25</volume>
+          <issue>17</issue>
+          <fpage>3389</fpage>
+          <lpage>3402</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/25.17.3389</pub-id>
+          <pub-id pub-id-type="pmid">9254694</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edgar</surname>
+              <given-names>RC</given-names>
+            </name>
+          </person-group>
+          <article-title>MUSCLE: multiple sequence alignment with high accuracy and high throughput</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <issue>5</issue>
+          <fpage>1792</fpage>
+          <lpage>1797</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh340</pub-id>
+          <pub-id pub-id-type="pmid">15034147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Stecher</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Filipski</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGA6: molecular evolutionary genetics analysis version 6.0</article-title>
+          <source>Mol Biol Evol</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <issue>12</issue>
+          <fpage>2725</fpage>
+          <lpage>2729</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/mst197</pub-id>
+          <pub-id pub-id-type="pmid">24132122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fitch</surname>
+              <given-names>WM</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinguishing homologous from analogous proteins</article-title>
+          <source>Syst Zool</source>
+          <year>1970</year>
+          <volume>19</volume>
+          <issue>2</issue>
+          <fpage>99</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.2307/2412448</pub-id>
+          <pub-id pub-id-type="pmid">5449325</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moreno-Hagelsieb</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Latimer</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Choosing BLAST options for better detection of orthologs as reciprocal best hits</article-title>
+          <source>Bioinformatics</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <issue>3</issue>
+          <fpage>319</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btm585</pub-id>
+          <pub-id pub-id-type="pmid">18042555</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haft</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>DiCuccio</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Badretdin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Brover</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Chetvernin</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>O'Neill</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Chitsaz</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Derbyshire</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Gonzales</surname>
+              <given-names>NR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RefSeq: an update on prokaryotic genome annotation and curation</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <issue>D1</issue>
+          <fpage>D851</fpage>
+          <lpage>D860</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx1068</pub-id>
+          <pub-id pub-id-type="pmid">29112715</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moreno-Hagelsieb</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>ElSherbiny</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenomic clustering for selecting non-redundant genomes for comparative genomics</article-title>
+          <source>Bioinformatics</source>
+          <year>2013</year>
+          <volume>29</volume>
+          <issue>7</issue>
+          <fpage>947</fpage>
+          <lpage>949</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btt064</pub-id>
+          <pub-id pub-id-type="pmid">23396122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saeed</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Bhagabati</surname>
+              <given-names>NK</given-names>
+            </name>
+            <name>
+              <surname>Braisted</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Sharov</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Howe</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Thiagarajan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Quackenbush</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>TM4 microarray software suite</article-title>
+          <source>Methods Enzymol</source>
+          <year>2006</year>
+          <volume>411</volume>
+          <fpage>134</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0076-6879(06)11009-5</pub-id>
+          <pub-id pub-id-type="pmid">16939790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weber</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Polen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Heuveling</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wendisch</surname>
+              <given-names>VF</given-names>
+            </name>
+            <name>
+              <surname>Hengge</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide analysis of the general stress response network in Escherichia coli: sigmaS-dependent genes, promoters, and sigma factor selectivity</article-title>
+          <source>J Bacteriol</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <issue>5</issue>
+          <fpage>1591</fpage>
+          <lpage>1603</lpage>
+          <pub-id pub-id-type="doi">10.1128/JB.187.5.1591-1603.2005</pub-id>
+          <pub-id pub-id-type="pmid">15716429</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pratt</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Silhavy</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Crl stimulates RpoS activity during stationary phase</article-title>
+          <source>Mol Microbiol</source>
+          <year>1998</year>
+          <volume>29</volume>
+          <issue>5</issue>
+          <fpage>1225</fpage>
+          <lpage>1236</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2958.1998.01007.x</pub-id>
+          <pub-id pub-id-type="pmid">9767590</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Updegrove</surname>
+              <given-names>TB</given-names>
+            </name>
+            <name>
+              <surname>Livingston</surname>
+              <given-names>NN</given-names>
+            </name>
+            <name>
+              <surname>Storz</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Protection against deleterious nitrogen compounds: role of sigmaS-dependent small RNAs encoded adjacent to sdiA</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2016</year>
+          <volume>44</volume>
+          <issue>14</issue>
+          <fpage>6935</fpage>
+          <lpage>6948</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw404</pub-id>
+          <pub-id pub-id-type="pmid">27166377</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+

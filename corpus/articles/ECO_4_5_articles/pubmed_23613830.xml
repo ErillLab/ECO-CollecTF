@@ -1,0 +1,825 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23613830</article-id>
+      <article-id pub-id-type="pmc">3629212</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-00586</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0061312</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacterial Pathogens</subject>
+              <subj-group>
+                <subject>Streptococci</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Virology</subject>
+              <subj-group>
+                <subject>Viral Evolution</subject>
+                <subject>Virulence Factors and Mechanisms</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Microbial Pathogens</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Infectious Diseases</subject>
+            <subj-group>
+              <subject>Bacterial Diseases</subject>
+              <subj-group>
+                <subject>Group A streptococcal infection</subject>
+                <subject>Streptococcal Infections</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Transcriptional Regulation of a Bacteriophage Encoded Extracellular DNase (Spd-3) by Rgg in <italic>Streptococcus pyogenes</italic></article-title>
+        <alt-title alt-title-type="running-head">Rgg Mediated Regulation of <italic>spd-3</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Anbalagan</surname>
+            <given-names>Srivishnupriya</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chaussee</surname>
+            <given-names>Michael S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1"/>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <addr-line>Division of Basic Biomedical Sciences, The Sanford School of Medicine of the University of South Dakota, Vermillion, South Dakota, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Biswas</surname>
+            <given-names>Indranil</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University of Kansas Medical Center, United States of America</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>Michael.Chaussee@usd.edu</email></corresp>
+        <fn fn-type="conflict">
+          <p><bold>Competing Interests: </bold>Michael S. Chaussee serves as a PLOS ONE Editorial Board member. This does not alter the authors' adherence to all the PLOS ONE policies on sharing data and materials.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: MSC SA. Performed the experiments: SA. Analyzed the data: MSC SA. Contributed reagents/materials/analysis tools: SA MSC. Wrote the paper: SA MSC.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>4</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>4</issue>
+      <elocation-id>e61312</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>2</day>
+          <month>1</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>3</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Anbalagan, Chaussee</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The <italic>Streptococcus pyogenes</italic> transcriptional regulator Rgg controls the expression of virulence-associated genes encoded both within the core genome and within horizontally transmissible DNA such as temperate bacteriophage. Previously, we showed that Rgg binds to the non-coding DNA upstream of the bacteriophage gene encoding an extracellular DNase Spd-3. In the current study, we further characterized Rgg-mediated regulation of <italic>spd-3</italic> expression. Two <italic>spd-3</italic> transcripts were identified by northern blotting. The 5' ends were 27 and 594 nucleotides upstream of the start codon as determined with primer extension analysis and 5' RACE (rapid amplification of c-DNA ends), respectively. Results obtained with gel shift assays showed that purified Rgg bound specifically to non-coding DNA containing the promoters of both transcripts. Transcriptional fusion analyses confirmed the presence of Rgg-repressible promoters within these DNA regions. In addition, repression was associated with direct DNA binding by Rgg as determined with chromatin immunoprecipitation (ChIP) coupled with quantitative PCR (qPCR). The results show that the chromosomally encoded transcriptional regulator, Rgg, directly represses both bacteriophage promoters controlling the expression of Spd-3. The results provide new information regarding the regulation of prophage encoded virulence factors of <italic>S. pyogenes</italic> and highlight the complex evolutionary history of <italic>S. pyogenes</italic> and temperate bacteriophage.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>Funding was provided by the Sanford School of Medicine of the University of South Dakota and by National Institutes of Health grant 2 P20 RR016479 from the INBRE Program of the National Center for Research Resources. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="8"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p><italic>Streptococcus pyogenes</italic> causes several human diseases ranging in severity from self-limiting pharyngitis to life-threatening necrotizing fasciitis and streptococcal toxic shock syndrome <xref ref-type="bibr" rid="pone.0061312-Cunningham1">[1]</xref>. The virulence of the pathogen varies temporally over the course of decades due to changes in both the pathogen and human immunity <xref ref-type="bibr" rid="pone.0061312-Stevens1">[2]</xref>, <xref ref-type="bibr" rid="pone.0061312-Musser1">[3]</xref>. The determination of the genome sequences of several isolates revealed a theoretically limitless <italic>pan</italic>-genome, or mobilome, comprised of mobile genetic elements (MGE) including bacteriophages, integrative conjugative elements, transposons, and insertion sequences <xref ref-type="bibr" rid="pone.0061312-Musser1">[3]</xref> - <xref ref-type="bibr" rid="pone.0061312-Medini1">[5]</xref>. MGEs significantly alter the composition of the chromosome. For example, between two and eight complete or partial bacteriophage genomes are present in the genomes of <italic>S. pyogenes</italic> and bacteriophage DNA can account for up to 12% of the chromosome <xref ref-type="bibr" rid="pone.0061312-Ferretti1">[6]</xref>, <xref ref-type="bibr" rid="pone.0061312-Banks2">[7]</xref>. Often, the bacteriophage encode virulence factors including superantigens <xref ref-type="bibr" rid="pone.0061312-Zabriskie1">[8]</xref> and extracellular nucleases <xref ref-type="bibr" rid="pone.0061312-Broudy1">[9]</xref>, <xref ref-type="bibr" rid="pone.0061312-Ferretti2">[10]</xref>, which profoundly influence interactions between the pathogen and its human host. Thus, chromosomal heterogeneity, including variation in the number and types of prophage within a chromosome, is responsible for much of the genetic diversity observed among clinical isolates and contributes to the clinical and temporal variation in the outcome of human colonization with <italic>S. pyogene</italic>s <xref ref-type="bibr" rid="pone.0061312-Banks2">[7]</xref>, <xref ref-type="bibr" rid="pone.0061312-Aziz1">[11]</xref> - <xref ref-type="bibr" rid="pone.0061312-Beres2">[13]</xref>.</p>
+      <p><italic>S. pyogenes</italic> can produce up to four extracellular DNases <xref ref-type="bibr" rid="pone.0061312-Wannamaker1">[14]</xref>, <xref ref-type="bibr" rid="pone.0061312-Winter1">[15]</xref>. One (MF-1/DNaseB) is chromosomally encoded and is adjacent to <italic>rgg</italic> (also known as <italic>ropB</italic>
+<xref ref-type="bibr" rid="pone.0061312-Lyon1">[16]</xref>), which encodes a global transcriptional regulator <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>. The remainder are encoded by prophage. Therefore, the number of extracellular DNases potentially produced by an isolate varies depending on the prophage content of the chromosome.</p>
+      <p>Extracellular DNases have long been thought to be important in liquefying pus to promote bacterial dissemination. In addition, prophage-encoded extracellular DNase degrades bacterial DNA following induction of the lytic phase, which can further reduce viscosity at the site of colonization and promote transmission of the progeny virions to new bacterial hosts <xref ref-type="bibr" rid="pone.0061312-Broudy1">[9]</xref>. More recently, the prophage encoded extracellular nuclease Sda1 was found to degrade neutrophil extracellular traps (NETs) <xref ref-type="bibr" rid="pone.0061312-Buchanan1">[18]</xref>. NETs are a component of innate immunity and are composed of a scaffold of neutrophil-derived chromatin and antimicrobial peptides, which entraps and kills microbes, including <italic>S. pyogenes</italic>
+<xref ref-type="bibr" rid="pone.0061312-Amulic1">[19]</xref>. Degradation of bacterial DNA also decreases macrophage mediated killing of <italic>S. pyogenes</italic> due to decreased stimulation of toll-like receptor 9, which recognizes unmethylated CpG-rich DNA <xref ref-type="bibr" rid="pone.0061312-Uchiyama1">[20]</xref>. Thus, extracellular DNase's promote pathogen dissemination and survival, although some appear to be relatively more important than others <xref ref-type="bibr" rid="pone.0061312-Buchanan1">[18]</xref>, <xref ref-type="bibr" rid="pone.0061312-Sumby1">[21]</xref>. Importantly, the exoproteins contribute to virulence in both mouse models of invasive infection <xref ref-type="bibr" rid="pone.0061312-Uchiyama1">[20]</xref> and in a cynomolgus macaque model of pharyngitis <xref ref-type="bibr" rid="pone.0061312-Sumby1">[21]</xref>.</p>
+      <p>The serotype M49 strain NZ131 possesses three prophages <xref ref-type="bibr" rid="pone.0061312-McShan1">[22]</xref>, including one consisting of only 16 kb that presumably has decayed. The remaining two prophages, NZ131.2 and NZ131.3, are 37,895 and 47,501 bp, respectively. NZ131.2 encodes a superantigen known as streptococcal pyrogenic exotoxin H (SpeH; <xref ref-type="bibr" rid="pone.0061312-Proft1">[23]</xref>) and NZ131.3 encodes an extracellular nuclease known as Spd-3. Thus, strain NZ131 has two extracellular nucleases, the chromosomally encoded SdaB (MF-1) and the prophage encoded Spd-3.</p>
+      <p>Inactivation of the gene encoding the transcriptional regulator Rgg increased expression of both SdaB (Spy49_1692c; Mf-1) and Spd-3 (Spy49_1455) in the post-exponential phase of growth <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>. Subsequently, we found that Rgg binds to non-coding prophage DNA upstream of <italic>spd-3</italic>
+<xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>. The purpose of the current study was to characterize further the role of Rgg in the regulation of the prophage encoded DNase Spd-3.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Identification of <italic>spd-3</italic> Transcripts</title>
+        <p>As an initial step to characterize the regulation of <italic>spd-3</italic> expression, northern blotting was done using RNA isolated during the post-exponential phase of growth from both the wild-type <italic>S. pyogenes</italic> strain NZ131 and an <italic>rgg</italic> mutant. Two distinct transcripts were detected and both were more abundant in the mutant strain compared to the wild-type strain (<xref ref-type="fig" rid="pone-0061312-g001">Fig. 1</xref>), which was consistent with our previous finding that Rgg represses <italic>spd-3</italic> expression <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>. The more abundant transcript was approximately 925 bp in length and accounted for 65% of the transcript signal, as determined by densitometry.</p>
+        <fig id="pone-0061312-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Detection of <italic>spd-3</italic> transcripts.</title>
+            <p>Northern blotting using an <italic>spd-3</italic> specific probe and RNA isolated from the wild type (wt) and the <italic>rgg</italic> mutant (<italic>rgg</italic>) strains showed two transcripts in the sample obtained from the mutant strain. The approximate sizes were determined by using an RNA ladder (not shown).</p>
+          </caption>
+          <graphic xlink:href="pone.0061312.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>Mapping the <italic>spd-3</italic> Transcriptional Start Sites</title>
+        <p>Primer extension analysis was used to determine the 5' termini of the two transcripts. Extension with primer spd3PEc_96 (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>) showed a transcript that originated 27 bp upstream of the predicted <italic>spd-3</italic> open reading frame (ORF) (<xref ref-type="fig" rid="pone-0061312-g002">Fig. 2</xref>). This origin, coupled with a putative transcriptional terminator 91 bp downstream of the <italic>spd-3</italic> ORF, predicted a 919 bp transcript, which corresponded to the more abundant approximately 925 bp transcript detected by northern blotting (<xref ref-type="fig" rid="pone-0061312-g001">Fig. 1</xref>). A variety of primers were used in attempts to identify the start site of the longer transcript by using primer extension; however, we were unable to do so, possibly due to secondary structure formed within the large untranslated region. As an alternative approach, 5' RACE was used and the results showed that the 5' terminus was 594 bp upstream of the <italic>spd-3</italic> start codon (<xref ref-type="fig" rid="pone-0061312-g003">Fig 3</xref>). The results predicted a 1,487 bp transcript, which also correlated with the size of the larger transcript identified with northern blotting (<xref ref-type="fig" rid="pone-0061312-g001">Fig. 1</xref>). In addition, the start of transcription coincided with the non-coding DNA region previously shown to be bound by Rgg <italic>in vivo</italic> during the exponential phase of growth <xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>. Analyses of the DNA proximal to the transcriptional start sites revealed the presence of putative -10 and -35 RNA polymerase binding sites (<xref ref-type="fig" rid="pone-0061312-g003">Fig. 3</xref>). The two transcriptional start sites were designated P<sub>1</sub> and P<sub>2</sub> (<xref ref-type="fig" rid="pone-0061312-g003">Fig. 3</xref>).</p>
+        <fig id="pone-0061312-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Primer extension analysis of <italic>spd-3</italic> transcripts.</title>
+            <p>RNA isolated from the wt (lane 5) and <italic>rgg</italic> mutant strain (lane 6) was used to identify the 5' end of the <italic>spd-3</italic> transcript. The DNA sequence (G A T C) generated from the non-coding DNA upstream of <italic>spd-3</italic> (lanes 1 - 4) is shown. The antisense strand DNA sequence proximal to the 5' end is shown to the right and bold type indicates the start of the transcript.</p>
+          </caption>
+          <graphic xlink:href="pone.0061312.g002"/>
+        </fig>
+        <fig id="pone-0061312-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Schematic location of the two <italic>spd-3</italic> promoters.</title>
+            <p>Transcriptional start sites are indicted by asterisks and bold face. The predicted -10 and -35 RNA polymerase binding sites of each promoter are indicated with bold type and underlined. A putative ribosome binding sites (RBS) associated with P<sub>2</sub> is similarly indicated. The Spd-3 start codon is shown in italics and bold type. Dotted lines indicate the target DNAs used with ChIP-qPCR, gel-shft assays, and transcriptional fusion assays. The lollipop symbol indicates the location of a putative transcriptional terminator.</p>
+          </caption>
+          <graphic xlink:href="pone.0061312.g003"/>
+        </fig>
+        <table-wrap id="pone-0061312-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Oligonucleotides.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0061312-t001-1" xlink:href="pone.0061312.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Primer</td>
+                  <td align="left" rowspan="1" colspan="1">Sequence<xref ref-type="table-fn" rid="nt101">a</xref> (5' - 3')</td>
+                  <td align="left" rowspan="1" colspan="1">Reference or source</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3fwd</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCCAGACCCTTGCTGCTAATCCA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3rev</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGTGCCTGTAAAATACGAATAAATAAGT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3fwd1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGCGTAGCATTTAAATAAACGGAA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3rev1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGCAAGGAGGGTAAAAATGCTAAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pspd3_IRfwd</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GC<underline>GGATCC</underline>GTCGGACTAGTCTATGACAAA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pspd3_IRrev</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GC<underline>CTCGAG</underline>ATCCATGTCCTCCTTTTATTATTTAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3_237fwd</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TTTTACCCTCCTACTTATTTATTCG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3_300_BamHIfwd</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GC<underline>GGATCC</underline>CGGAATTAATTAAAATATTTTTGTCC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3_378_XhoIrev</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GC<underline>CTCGAG</underline>AAGTAGCGGGAGAAGTGCTAATGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">groEL2fwd</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCTACTCGACGTAACATTGTG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">groEL2rev</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGAGCCTTCGTACCCAGCAT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3_cfwd</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GC<underline>GGATCC</underline>ATGTCTAAATCAAATCGTCGTA</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3_crev</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GC<underline>CTCGAG</underline>TTCGGTTTCTAAATTACTATCTTC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3_PEc_96</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">TCTGGCTGCCGTAACAGTACTTGTG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">spd3prx36</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GAAGTAGCGGGAGAAGTGCTAATGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AAP-G</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGCCACGCGTCGACTAGTACGGGGGGGGGGG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">LucRev1</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GCCAAGCTGGAATTCGAGCTCCCAT</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Nested prx</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGACAAAAATATTTTAATTAATTCCG</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">AUAP</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <named-content content-type="gene">GGCCACGCGTCGACTAGTAC</named-content>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a</label>
+              <p>Underlined nucleotides are restriction sites incorporated into primer.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2c">
+        <title>Rgg Binds Specifically to DNA Containing the P1 and P2 Promoters</title>
+        <p>ChIP coupled with DNA genechips (ChIP-chip) and gel-shift assays previously showed that Rgg binds to P<sub>1</sub>
+<xref ref-type="bibr" rid="pone.0061312-Anbalagan2">[25]</xref>; however, we did not previously detect binding to P<sub>2</sub>. Therefore, we re-analyzed Rgg binding to both sites by using the more sensitive ChIP-qPCR procedure. As expected, DNA containing P<sub>1</sub> was enriched by approximately 9-fold in strain SA5, which encodes an Rgg-Myc fusion protein used to facilitate immunoprecipitation, compared to the control strain (<xref ref-type="fig" rid="pone-0061312-g004">Fig. 4</xref>). In addition, the P<sub>2</sub> region was enriched nearly 75-fold (<xref ref-type="fig" rid="pone-0061312-g004">Fig. 4</xref>). The results show that Rgg binds to both the P<sub>1</sub> and P<sub>2</sub> DNA (<xref ref-type="fig" rid="pone-0061312-g004">Fig. 4</xref>). Binding near P2 was further evaluated with gel-shift assays and the results confirmed that Rgg specifically binds to DNA containing P<sub>2</sub> (<xref ref-type="fig" rid="pone-0061312-g005">Fig. 5</xref>).</p>
+        <fig id="pone-0061312-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Rgg binds <italic>in vivo</italic> to <italic>spd-3</italic> promoter regions P1 and P2.</title>
+            <p>ChIP and qPCR was used to measure the amount of P1 (Panel A) and P2 (Panel B) containing DNA bound by Rgg. Experiments were conducted at least three times, and the means and standard deviations are shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0061312.g004"/>
+        </fig>
+        <fig id="pone-0061312-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Rgg binds specifically to P2.</title>
+            <p>Rgg binding to the non-coding DNA upstream of <italic>spd-3</italic> containing P2 was assessed by incubating with 0, 6.5, 26, 39 and 52 pmoles (Lanes 1 - 6) of purified Rgg with radiolabeled target DNA. Lane 7) Specific un-labeled competing DNA was added to the reaction. Lane 8) Labeled non-specific DNA (<italic>groEL)</italic> was added to the reaction.</p>
+          </caption>
+          <graphic xlink:href="pone.0061312.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>Rgg Directly Regulates <italic>spd-3</italic> Expression</title>
+        <p>To characterize the two <italic>spd-3</italic> promoters further, prophage DNA regions bound by Rgg (P1 and P2) were cloned adjacent to a promoterless firefly luciferase (<italic>luc</italic>) gene present in the shuttle plasmid pKSM720 <xref ref-type="bibr" rid="pone.0061312-Kinkel1">[26]</xref>. The recombinant plasmids were used to transform both the wild-type and the <italic>rgg</italic> mutant strains to determine if expression from P1 and P2 was regulated by Rgg. The use of the plasmid based reporter system also allowed us to measure promoter activity apart from the prophage, thus avoiding confounding factors potentially associated with prophage induction, such as variation in gene copy number. Promoter activity was detected with P<sub>2</sub> DNA and the presence of Rgg in the wild-type strain decreased transcription, consistent with other data indicating that Rgg represses <italic>spd-3</italic> transcription (<xref ref-type="table" rid="pone-0061312-t002">Table 2</xref>). Similarly, a fragment containing both <italic>spd-3</italic> promoters (P1 and P2), showed significantly more activity compared to the fragment containing only P2 (<xref ref-type="table" rid="pone-0061312-t002">Table 2</xref>). Again, more promoter activity was detected in the <italic>rgg</italic> mutant strain, consistent with Rgg-dependent repression of <italic>spd-3</italic> expression by direct binding to the promoter regions (<xref ref-type="table" rid="pone-0061312-t002">Table 2</xref>).</p>
+        <table-wrap id="pone-0061312-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Both <italic>spd-3</italic> promoters (P1 and P2) are repressed by Rgg.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0061312-t002-2" xlink:href="pone.0061312.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Promoter</td>
+                  <td colspan="2" align="left" rowspan="1">[Luciferase] units</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">wild-type</td>
+                  <td align="left" rowspan="1" colspan="1"><italic>rgg</italic> mutant</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">P2<xref ref-type="table-fn" rid="nt102">a</xref></td>
+                  <td align="left" rowspan="1" colspan="1">145 (69)</td>
+                  <td align="left" rowspan="1" colspan="1">35,857 (20,462)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">P1 &amp; P2<xref ref-type="table-fn" rid="nt102">a</xref></td>
+                  <td align="left" rowspan="1" colspan="1">1,486 (855)</td>
+                  <td align="left" rowspan="1" colspan="1">335,979 (61,184)</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt102">
+              <label>a</label>
+              <p>A 457 bp fragment containing the P2 promoter or a 761 bp fragment containing both the P1 and P2 promoters was cloned adjacent to the luciferase reporter gene. The mean (standard deviation) from independent experiments is shown.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2e">
+        <title>Rgg Acts in <italic>cis</italic> to regulate <italic>spd-3</italic> Promoters</title>
+        <p>Finally, we used the transcriptional reporter system and ChiP-qPCR to determine if Rgg bound in <italic>cis</italic> to regulate expression of the <italic>luc</italic> gene. One PCR primer was specific to <italic>luc</italic> and a second was upstream of P<sub>1</sub>. The results showed that Rgg bound directly to the plasmid DNA to repress expression of <italic>luc</italic> (<xref ref-type="fig" rid="pone-0061312-g006">Fig. 6</xref>).</p>
+        <fig id="pone-0061312-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Rgg binds to episomal P2 containing DNA.</title>
+            <p>The amount of the non-coding DNA upstream of <italic>spd-3</italic> cloned into a transcriptional reporter fusion plasmid was measured by quantitative PCR, as a negative control, <italic>groEL</italic> in ChIP samples obtained from the <italic>rgg</italic> mutant and strain SA6. Experiments were conducted at least three times, and the means and standard deviations are shown.</p>
+          </caption>
+          <graphic xlink:href="pone.0061312.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>Temperate bacteriophage can ferry virulence-associated genes encoding a variety of toxigenic and enzymatic exoproteins among bacteria. In <italic>S. pyogenes</italic>, prophages encode superantigens, which are responsible for toxic shock syndrome; extracellular DNases, which assist in the pathogen's escape from the innate immune response; and surface exposed proteins, which have not been characterized. Despite the importance of the gene products to human diseases caused by <italic>S. pyogenes</italic>, comparatively little is known about the regulation of their expression. Here, we examined the role of Rgg in the repression of the bacteriophage encoded extracellular DNase Spd-3. Two <italic>spd-3</italic> transcripts were identified and the 5' termini determined. The abundance of both transcripts was elevated in an <italic>rgg</italic> mutant strain and Rgg bound to DNA containing the promoters of both transcripts, indicating that Rgg binding represses expression. To analyze regulation outside the context of the prophage, which can excise from the chromosome and thereby increase <italic>spd-3</italic> copy number, a plasmid-based reporter system was used to measure <italic>spd-3</italic> promoter activity. The results confirmed that Rgg repressed expression from both promoters. Finally we showed with ChIP-qPCR that Rgg bound to DNA in <italic>cis</italic> to effect transcription of the reporter gene. The results show that the chromosomally encoded regulator Rgg represses expression of the prophage-encoded virulence gene <italic>spd-3</italic> expression by direct binding to prophage promoters.</p>
+      <p>Rgg regulates dozens of genes in strain NZ131 in a growth-phase associated manner, including many known to contribute to virulence <xref ref-type="bibr" rid="pone.0061312-Lyon1">[16]</xref>, <xref ref-type="bibr" rid="pone.0061312-Chaussee1">[27]</xref>, <xref ref-type="bibr" rid="pone.0061312-Chaussee2">[28]</xref>. It does so, in part, by changing its DNA binding specificity in response to glycolytic flux via direct protein-protein interaction with LacD.1 <xref ref-type="bibr" rid="pone.0061312-Loughman1">[29]</xref>. In addition, Rgg binds to hydrophobic peptides, which modulates regulatory activity <xref ref-type="bibr" rid="pone.0061312-Shelburne1">[30]</xref>, <xref ref-type="bibr" rid="pone.0061312-Federle1">[31]</xref>. The genes controlled by Rgg are functionally diverse and include both cell-associated proteins and soluble exoproteins associated with virulence <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>, <xref ref-type="bibr" rid="pone.0061312-Anbalagan2">[25]</xref>. For example, Rgg represses expression of the cell wall-associated antiphagocytic M protein in the exponential phase of growth and activates expression of a secreted cysteine protease SpeB in the post-exponential phase <xref ref-type="bibr" rid="pone.0061312-Lyon1">[16]</xref>, <xref ref-type="bibr" rid="pone.0061312-Chaussee1">[27]</xref>, <xref ref-type="bibr" rid="pone.0061312-Chaussee3">[32]</xref>. The results of the current study, together with results from previous studies, show that Rgg coordinates the expression of both prophage and chromosomally-encoded virulence genes in response to environmental cues. Consistent with these findings, Rgg contributes to the outcome of <italic>S. pyogenes</italic> infection as assessed with animal models and as observed in human epidemics of invasive disease <xref ref-type="bibr" rid="pone.0061312-Olsen1">[33]</xref>
+<xref ref-type="bibr" rid="pone.0061312-Carroll1">[34]</xref>.</p>
+      <p>Excision of prophage from the chromosome is associated with increased gene copy number and often with simultaneous expression of prophage-encoded virulence genes. In some instances the repressor of the lytic phase also directly represses expression the prophage-encoded virulence genes. For example, expression of the prophage-encoded Shiga toxin (StxAB) in <italic>Escherichia coli</italic> is primarily controlled by a prophage repressor that also controls lysogeny <xref ref-type="bibr" rid="pone.0061312-Wagner1">[35]</xref>, <xref ref-type="bibr" rid="pone.0061312-Neely1">[36]</xref>; thus <italic>stxAB</italic> expression is dependent on prophage induction. In contrast, expression of the prophage-encoded cholera toxin (Ctx) is controlled by several chromosomally encoded regulators and is not dependent on induction of the encoding prophage <xref ref-type="bibr" rid="pone.0061312-Waldor1">[37]</xref>. Thus two paradigms have emerged from the study of the regulation of prophage encoded virulence factors.</p>
+      <p>In <italic>S. pyogenes</italic>, expression of prophage encoded virulence genes, including those encoding superantigens, has been associated with the induction of prophage <xref ref-type="bibr" rid="pone.0061312-Banks1">[4]</xref>, <xref ref-type="bibr" rid="pone.0061312-Zabriskie1">[8]</xref>, <xref ref-type="bibr" rid="pone.0061312-Broudy1">[9]</xref>; however, induction does not appear to be necessary for expression <xref ref-type="bibr" rid="pone.0061312-Banks1">[4]</xref>. Moreover, expression of the phage-encoded extracellular DNase Sdn (SpyM3_1409) decreases following mitomycin C induction of prophage, despite an increase in <italic>sdn</italic> copy number <xref ref-type="bibr" rid="pone.0061312-Banks1">[4]</xref>. In this study, we showed that Rgg directly represses the promoters controlling <italic>spd-3</italic> expression, even in the absence of prophage induction, as determined by using a plasmid based reporter system. Although our investigation focused on the regulation of <italic>spd-3</italic> expression, the results are consistent with a model in which the expression of prophage encoded virulence factors in <italic>S. pyogenes</italic> is not dependent on induction the lytic cycle and is controlled, at least in part, by chromosomally encoded regulatory loci. Given the relevance of prophage encoded superantigens and secreted DNases to human disease, additional investigation into the regulation of other prophage-encoded virulence factors is warranted.</p>
+      <p>Phenotypic variation is a hallmark of many pathogens, including <italic>S. pyogenes</italic>, and can result in heterogeneous clinical outcomes of infection. We previously showed that Rgg binds to non-coding DNA upstream of a prophage integrase/excisionase (Spy49_0746c) to repress expression <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>, <xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>. Increased expression of the integrase/exicisionase in an <italic>rgg</italic> mutant strain was associated with a decrease in the frequency of prophage excision from the chromosome <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>. The current study extends the idea that Rgg regulates specific prophage encoded genes, which alters the phenotype of the pathogen. Given the tremendous variation in the number and composition of bacteriophage among different isolates of <italic>S. pyogenes</italic>
+<xref ref-type="bibr" rid="pone.0061312-Banks2">[7]</xref>, we speculate that the direct regulation of MGEs by Rgg contributes, directly or indirectly, to the variation in the Rgg regulon observed among various isolates of <italic>S. pyogenes</italic>
+<xref ref-type="bibr" rid="pone.0061312-Chaussee4">[38]</xref> and potentially the clinical outcome of human infection.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Bacterial Strains and Culture Conditions</title>
+        <p><italic>S. pyogenes</italic> strain NZ131 (serotype M49) was isolated from a patient with acute post-streptococcal glomerulonephritis (<xref ref-type="table" rid="pone-0061312-t003">Table 3</xref>) <xref ref-type="bibr" rid="pone.0061312-McShan1">[22]</xref>. NZ131 and its genetic derivatives including <italic>rgg</italic>- (32) and SA5 and have been previously described (24). <italic>S. pyogenes</italic> strains were grown with Todd-Hewitt broth (Becton Dickinson, Spark, MD) containing 0.2% (wt/vol) yeast extract at 37 degrees C in a 5% CO<sub>2</sub> atmosphere without agitation. <italic>E. coli</italic> DH5alpha was grown with Luria-Bertani medium at 37 degrees C with agitation. When necessary, antibiotics was added to the growth media at the following concentrations: carbenicillin at 100 microg/ml for <italic>E. coli</italic>; spectinomycin at 100 microg/ml for both <italic>E. coli</italic> and <italic>S. pyogenes</italic>; erythromycin at 2.5 microg/ml for <italic>S. pyogenes</italic>; kanamycin at 50 microg/ml for <italic>E. coli</italic> and 500 microg/ml for <italic>S. pyogenes</italic>.</p>
+        <table-wrap id="pone-0061312-t003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0061312.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Bacterial strains and plasmids.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0061312-t003-3" xlink:href="pone.0061312.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Strain or plasmid</td>
+                  <td align="left" rowspan="1" colspan="1">Description</td>
+                  <td align="left" rowspan="1" colspan="1">Source or reference</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>Strains</bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <bold>
+                      <italic>E. coli</italic>
+                    </bold>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">DH5alpha</td>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>hsdR17 recA1 gyrA endA1 relA1</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">Invitrogen</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" rowspan="1">
+                    <bold>
+                      <italic>S. pyogenes</italic>
+                    </bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">NZ131</td>
+                  <td align="left" rowspan="1" colspan="1">M49 serotype</td>
+                  <td align="left" rowspan="1" colspan="1">D.R. Martin, New Zealand</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>rgg-</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 <italic>rgg</italic> mutant, Em<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">32</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>&#x2003;SA5</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1">NZ131<italic>rgg<sup>-</sup></italic> complemented with pSA3, Em<sup>R</sup>, Kan<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+                    <italic>SA6</italic>
+                  </td>
+                  <td align="left" rowspan="1" colspan="1"><italic>SA5</italic> transformed with pSA12</td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>&#x2003;</italic>wt::<italic>luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 transformed with pKSM720, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">wt::P<italic>spd3-luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 transformed with pSA6, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">wt::P<italic>spd3-379luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 transformed with pSA27, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">wt::P<italic>spd3-457luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 transformed with pSA28, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>&#x2003;rgg-</italic>::<italic>luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131<italic>rgg</italic> mutant transformed with pKSM720, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>&#x2003;rgg-</italic>:: P<italic>spd3-luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 <italic>rgg</italic> mutant transformed with pSA12, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>rgg-</italic>::P<italic>spd3-379luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 transformed with pSA27, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"><italic>rgg-</italic>::P<italic>spd3-457luc</italic></td>
+                  <td align="left" rowspan="1" colspan="1">NZ131 transformed with pSA28, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" rowspan="1">
+                    <bold>Plasmids</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pGEM-T-Easy</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pKSM720</td>
+                  <td align="left" rowspan="1" colspan="1">GAS replicating plasmid with firefly luciferase and RBS, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">26</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pSA12</td>
+                  <td align="left" rowspan="1" colspan="1">Non-coding region upstream of <italic>spd-3</italic> was cloned into pKSM720, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pSA27</td>
+                  <td align="left" rowspan="1" colspan="1">Non-coding region between -761 and -382 upstream of <italic>spd-3</italic> was clonedinto pKSM720, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pSA28</td>
+                  <td align="left" rowspan="1" colspan="1">Non-coding region between -1 and -457 upstream of <italic>spd-3</italic> was clonedinto pKSM720, Spec<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">pSA29</td>
+                  <td align="left" rowspan="1" colspan="1">Non-coding region between -225 and -472 upstream of <italic>spd-3</italic> was clonedinto pGEM-T-easy vector, Amp<sup>R</sup></td>
+                  <td align="left" rowspan="1" colspan="1">This study</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="s4b">
+        <title>DNA Manipulation</title>
+        <p>To isolate plasmid DNA from <italic>E. coli</italic>, either the QIAprep Spin Miniprep Kit (Qiagen, Valencia, CA) or Maxi/Midi prep purification systems (Qiagen) was used. DNA fragments were PCR amplified with GoTaq DNA polymerase (Promega, Madison, WI) and the amplified DNA was separated by using agarose gel electrophoresis and purified using the SpinPrep Gel DNA kit (EMD Milliopore, Darmstadt, Germany). DNA sequencing to confirm various constructs was done at Iowa State University (Ames, IA).</p>
+      </sec>
+      <sec id="s4c">
+        <title>Promoter Activity Assays</title>
+        <p>A shuttle plasmid (pKSM720) containing <italic>luc</italic>
+<xref ref-type="bibr" rid="pone.0061312-Kinkel1">[26]</xref>, which encodes firefly luciferase, was used to construct transcriptional fusions. Two DNA regions upstream of <italic>spd-3</italic> (-761 to -382 and -1 to -237) were amplified using pspd3_IRfwd and spd3_378_XhoIrev; spd3_237fwd and pspd3_IRrev primer combinations, respectively (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>). The 379 bp and 237 bp DNA fragments were gel purified, digested with <italic>BamH</italic>I and <italic>Xho</italic>I, and cloned 5' to <italic>luc</italic> between <italic>Bgl</italic>II and <italic>Xho</italic>I of pKSM720 (<xref ref-type="table" rid="pone-0061312-t003">Table 3</xref>) to create pSA27 and pSA28, respectively (<xref ref-type="table" rid="pone-0061312-t003">Table 3</xref>). NZ131 was transformed with pKSM720, pSA27, and pSA28 by electroporation to create wt::<italic>luc</italic>, wt::P<italic>spd3-379luc</italic>, and wt::P<italic>spd3-</italic>457<italic>luc</italic>, respectively (<xref ref-type="table" rid="pone-0061312-t003">Table 3</xref>). Similarly, the NZ131 <italic>rgg</italic> mutant was transformed with pKSM720, pSA27, and pSA28 to create <italic>rgg<sup>-</sup></italic>::<italic>luc</italic>, <italic>rgg-</italic>::P<italic>spd3-379luc</italic>, and <italic>rgg<sup>-</sup></italic>::P<italic>spd3-457luc</italic>, respectively (<xref ref-type="table" rid="pone-0061312-t003">Table 3</xref>). Construction of the recombinant plasmids was confirmed by PCR. The <italic>S. pyogenes</italic> strains containing the transcriptional fusion plasmids were grown with THY broth to the exponential phase of growth (<italic>A</italic><sub>600</sub>~0.35) and luciferase activity was measured according to manufacturer's instructions (Promega).</p>
+      </sec>
+      <sec id="s4d">
+        <title>Electrophoretic Mobility Shift Assays (EMSA)</title>
+        <p>An Rgg-maltose binding protein fusion protein (Rgg-MBP) was expressed in <italic>E. coli</italic> and purified as previously described <xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>. Non-coding DNA upstream of <italic>spd-3</italic> (corresponding to nucleotides -1 to -457 bp relative to the <italic>spd-3</italic> start codon) was amplified by using primers spd3fwd1 and spd3rev1 primers and NZ131 genomic DNA as a template (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>). The fragment was isolated by using agarose gel electrophoresis, purified, and cloned into pGEM-T-easy (Promega, Madison, WI) to create pSA29. As a non-specific control of DNA binding, a similarly sized fragment was similarly prepared by using groEL2fwd and groEL2rev primers, which are specific to the <italic>groEL</italic> ORF (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>). The fragments were excised from pGEM-T easy, gel purified, dephosphorylated, and end labeled with [gamma<sup>32</sup>P] ATP using polynucleotide kinase. Different amounts of Rgg-MBP were incubated in 25 microl of binding buffer (25 mM Tris-Cl, pH 7.5, 0.1 mM EDTA, 75 mM NaCl, 1 mM dithiothreitol, 10% glycerol, and 0.5 microg/ml of calf thymus DNA) at room temperature for 20 min. Competition experiments were conducted by including unlabeled DNA prior to protein addition. The reaction mixtures were separated with a 6% nondenaturing polyacrylamide gel. The gels were dried, exposed to an Amersham Biosciences storage phosphor screen and imaged with a Typhoon 9400 instrument (GE Healthcare, Piscataway, N.J.).</p>
+      </sec>
+      <sec id="s4e">
+        <title>RNA Isolation and Northern Blotting</title>
+        <p>Overnight cultures of NZ131 and the <italic>rgg</italic> mutant were inoculated into 40-ml THY broth to an <italic>A</italic><sub>600</sub> of 0.08. The cultures were grown to the post-exponential phase of growth (<italic>A</italic><sub>600</sub> ~ 0.6). Total RNA was isolated as described previously <xref ref-type="bibr" rid="pone.0061312-Dmitriev1">[17]</xref>. The concentration and quality of RNA was assessed with an Agilent 2100 Bioanalyzer (Agilent, Palo Alto, CA) using an RNA 6000 Nano LabChip kit (Agilent). Fifteen micrograms of total RNA from each strain was separated with a 1.5% agarose-0.66 M formaldehyde gel in morpholinepropanesulfonic acid (MOPS) running buffer (20 mM MOPS, 10 mM sodium acetate, 2 mM EDTA; pH 7.0). RNA was blotted onto Hybond N<sup>+</sup> membranes (GE Healthcare Biosciences, Pittsburgh, PA.) with the Turboblotter alkaline transfer system (Schleicher &amp; Schuell, Keene, N.H.), according to the manufacturer's instructions. RNA was fixed to the membrane by baking at 80 degrees C for 30 min. The <italic>spd-3</italic> coding DNA was amplified using spd3_cfwd and spd3_crev primers (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>), separated by agarose gel electrophoresis, the fragment excised from the gel, and purified as described above. Using the purified <italic>spd-3</italic> coding DNA as a template, [alpha-<sup>32</sup>P]dCTP radiolabelled probes were synthesized by the random-primed method (Ready-To-Go Labeling Kit; Pharmacia). Membranes were hybridized under aqueous conditions at 65 degrees C with the radiolabelled probes. The blots were washed and exposed to an Amersham Biosciences storage phosphor screen and imaged with a Typhoon instrument.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Primer Extension Analysis</title>
+        <p>The 5' end of the <italic>spd-3</italic> transcript was determined with 15 microg of RNA isolated from NZ131 and the <italic>rgg</italic> mutant using an AMV reverse transcriptase primer extension kit (Promega) according to manufacturer's instructions. The spd3PEc_96 primer (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>) was end-labeled with [gamma<sup>32</sup>P] ATP using polynucleotide kinase and the extension products were separated with a 6% polyacrylamide-urea sequencing gel. The 5' end was mapped by comparison to a sequencing reaction generated with a SequiTherm EXCEL (TM)  II DNA Sequencing Kit (Epicentre Biotechnologes, Madison, Wisconsin) with the end-labeled spd3PEc_96 and a DNA template that contained the entire non-coding DNA upstream of <italic>spd-3</italic>.</p>
+      </sec>
+      <sec id="s4g">
+        <title>5' Rapid Amplification of c-DNA Ends (5'-RACE)</title>
+        <p>The 5' end of the larger <italic>spd-3</italic> transcript was determined using the 5' RACE System for Rapid Amplification of cDNA Ends, Version 2.0 (Invitrogen, Carlsbad, California) according to manufacturer's instructions. First strand cDNA was synthesized using 15 microg of total RNA, the gene specific primer spd3prx36, and Superscript III Reverse Transcriptase (Invitrogen). After the first strand cDNA synthesis, the mRNA template was removed with the RNase cocktail (Ambion, Austin, Texas). Single stranded cDNA was purified using a DNA Clean and Concentrator-5 kit (Zymo Research Irvine, California). A homopolymeric tail was added to the 3'-end of the cDNA using recombinant TdT (Invitrogen) and dCTP. Five microL of dC-tailed single stranded c-DNA was amplified using abridged anchor primer (AAP-G) and nested prx primers (<xref ref-type="table" rid="pone-0061312-t001">Table 1</xref>). The amplified product was diluted 100-fold and 5 microL was used in a second-round of PCR amplification with abridged universal amplification primer (AUAP) and nested prx primers. The PCR products were separated by electrophoresis on a 1% agarose gel, purified, and sequenced at the Iowa State Sequencing facility.</p>
+      </sec>
+      <sec id="s4h">
+        <title>ChIP-qPCR</title>
+        <p>A ChIP assay was performed using the experimental protocol previously described <xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>. Briefly, cultures of <italic>S. pyogenes</italic> strains <italic>rgg<sup>-</sup></italic>
+<xref ref-type="bibr" rid="pone.0061312-Chaussee3">[32]</xref> and SA5 (encoding an Rgg-myc fusion protein <xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>) were grown to an <italic>A</italic><sub>600</sub> of approximately 0.6, which corresponds to the post-exponential phase of growth. The cultures were treated with 1% formaldehyde (w/v). DNA bound to Rgg-Myc was immunoprecipitated with a monoclonal antibody to Myc (Invitrogen, Carlsbad, CA). Control samples were similarly prepared from an NZ131 <italic>rgg</italic> mutant strain. Immunoprecipitated DNA was purified and specific regions quantitated with PCR using ABsolute SYBR Green ROX Mix (ABgene House, Surrey, United Kingdom). Primer pairs pspd3_IRfwd, spd3_378_XhoIrev and Spd3_237fwd, pspd3_IRrev were used to quantitate DNA containing P1 and P2, respectively (<xref ref-type="table" rid="pone-0061312-t002">Table 2</xref>). Primers pspd3_IRfwd and LucRev1 were used to measure DNA cloned upstream of the <italic>luc</italic> gene (<xref ref-type="table" rid="pone-0061312-t002">Table 2</xref>). For the control region, primers groEL2fwd and groEL2rev were used (<xref ref-type="table" rid="pone-0061312-t002">Table 2</xref>). Enrichment was normalized to the amount of non-specific <italic>groEL</italic> DNA in precipitated samples, as previously described <xref ref-type="bibr" rid="pone.0061312-Anbalagan1">[24]</xref>.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Dr. Adhar Manna for technical assistance.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0061312-Cunningham1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Cunningham</surname><given-names>MW</given-names></name> (<year>2000</year>) <article-title>Pathogenesis of group A streptococcal infections</article-title>. <source>Clin Microbiol Rev</source><volume>13</volume>: <fpage>470</fpage> - <lpage>511</lpage><pub-id pub-id-type="pmid">10885988</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Stevens1">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Stevens</surname><given-names>DL</given-names></name> (<year>1992</year>) <article-title>Invasive group A streptococcus infections</article-title>. <source>Clin Infect Dis</source><volume>14</volume>: <fpage>2</fpage> - <lpage>11</lpage><pub-id pub-id-type="pmid">1571429</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Musser1">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><collab>Musser JM, Shelburne SA, 3rd</collab> (<year>2009</year>) <article-title>A decade of molecular pathogenomic analysis of group A Streptococcus</article-title>. <source>J Clin Invest</source><volume>119</volume>: <fpage>2455</fpage> - <lpage>2463</lpage><pub-id pub-id-type="pmid">19729843</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Banks1">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Banks</surname><given-names>DJ</given-names></name>, <name><surname>Lei</surname><given-names>B</given-names></name>, <name><surname>Musser</surname><given-names>JM</given-names></name> (<year>2003</year>) <article-title>Prophage induction and expression of prophage-encoded virulence factors in group A Streptococcus serotype M3 strain MGAS315</article-title>. <source>Infect Immun</source><volume>71</volume>: <fpage>7079</fpage> - <lpage>7086</lpage><pub-id pub-id-type="pmid">14638798</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Medini1">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Medini</surname><given-names>D</given-names></name>, <name><surname>Donati</surname><given-names>C</given-names></name>, <name><surname>Tettelin</surname><given-names>H</given-names></name>, <name><surname>Masignani</surname><given-names>V</given-names></name>, <name><surname>Rappuoli</surname><given-names>R</given-names></name> (<year>2005</year>) <article-title>The microbial pan-genome</article-title>. <source>Curr Opin Genet Dev</source><volume>15</volume>: <fpage>589</fpage> - <lpage>594</lpage><pub-id pub-id-type="pmid">16185861</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Ferretti1">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Ferretti</surname><given-names>JJ</given-names></name>, <name><surname>Ajdic</surname><given-names>D</given-names></name>, <name><surname>McShan</surname><given-names>WM</given-names></name> (<year>2004</year>) <article-title>Comparative genomics of streptococcal species</article-title>. <source>Indian J Med Res</source><volume>119</volume> Suppl: 1 - 6</mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Banks2">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Banks</surname><given-names>DJ</given-names></name>, <name><surname>Beres</surname><given-names>SB</given-names></name>, <name><surname>Musser</surname><given-names>JM</given-names></name> (<year>2002</year>) <article-title>The fundamental contribution of phages to GAS evolution, genome diversification and strain emergence</article-title>. <source>Trends Microbiol</source><volume>10</volume>: <fpage>515</fpage> - <lpage>521</lpage><pub-id pub-id-type="pmid">12419616</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Zabriskie1">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Zabriskie</surname><given-names>JB</given-names></name> (<year>1964</year>) <article-title>The Role of Temperate Bacteriophage in the Production of Erythrogenic Toxin by Group a Streptococci</article-title>. <source>J Exp Med</source><volume>119</volume>: <fpage>761</fpage> - <lpage>780</lpage><pub-id pub-id-type="pmid">14157029</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Broudy1">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Broudy</surname><given-names>TB</given-names></name>, <name><surname>Pancholi</surname><given-names>V</given-names></name>, <name><surname>Fischetti</surname><given-names>VA</given-names></name> (<year>2002</year>) <article-title>The in vitro interaction of Streptococcus pyogenes with human pharyngeal cells induces a phage-encoded extracellular DNase</article-title>. <source>Infect Immun</source><volume>70</volume>: <fpage>2805</fpage> - <lpage>2811</lpage><pub-id pub-id-type="pmid">12010966</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Ferretti2">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Ferretti</surname><given-names>JJ</given-names></name>, <name><surname>McShan</surname><given-names>WM</given-names></name>, <name><surname>Ajdic</surname><given-names>D</given-names></name>, <name><surname>Savic</surname><given-names>DJ</given-names></name>, <name><surname>Savic</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>Complete genome sequence of an M1 strain of Streptococcus pyogenes</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>98</volume>: <fpage>4658</fpage> - <lpage>4663</lpage><pub-id pub-id-type="pmid">11296296</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Aziz1">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Aziz</surname><given-names>RK</given-names></name>, <name><surname>Kotb</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>Rise and persistence of global M1T1 clone of Streptococcus pyogenes</article-title>. <source>Emerg Infect Dis</source><volume>14</volume>: <fpage>1511</fpage> - <lpage>1517</lpage><pub-id pub-id-type="pmid">18826812</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Beres1">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Beres</surname><given-names>SB</given-names></name>, <name><surname>Carroll</surname><given-names>RK</given-names></name>, <name><surname>Shea</surname><given-names>PR</given-names></name>, <name><surname>Sitkiewicz</surname><given-names>I</given-names></name>, <name><surname>Martinez-Gutierrez</surname><given-names>JC</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Molecular complexity of successive bacterial epidemics deconvoluted by comparative pathogenomics</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>107</volume>: <fpage>4371</fpage> - <lpage>4376</lpage><pub-id pub-id-type="pmid">20142485</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Beres2">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Beres</surname><given-names>SB</given-names></name>, <name><surname>Sylva</surname><given-names>GL</given-names></name>, <name><surname>Barbian</surname><given-names>KD</given-names></name>, <name><surname>Lei</surname><given-names>B</given-names></name>, <name><surname>Hoff</surname><given-names>JS</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Genome sequence of a serotype M3 strain of group A Streptococcus: phage-encoded toxins, the high-virulence phenotype, and clone emergence</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>99</volume>: <fpage>10078</fpage> - <lpage>10083</lpage><pub-id pub-id-type="pmid">12122206</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Wannamaker1">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Wannamaker</surname><given-names>LW</given-names></name> (<year>1958</year>) <article-title>The differentiation of three distinct desoxyrlbonucleases of group A Streptococci</article-title>. <source>J Exp Med</source><volume>107</volume>: <fpage>797</fpage> - <lpage>812</lpage><pub-id pub-id-type="pmid">13539305</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Winter1">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Winter</surname><given-names>JE</given-names></name>, <name><surname>Bernheimer</surname><given-names>AW</given-names></name> (<year>1964</year>) <article-title>The Deoxyribonucleases of Streptococcus Pyogens</article-title>. <source>J Biol Chem</source><volume>239</volume>: <fpage>215</fpage> - <lpage>221</lpage><pub-id pub-id-type="pmid">14114847</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Lyon1">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Lyon</surname><given-names>WR</given-names></name>, <name><surname>Gibson</surname><given-names>CM</given-names></name>, <name><surname>Caparon</surname><given-names>MG</given-names></name> (<year>1998</year>) <article-title>A role for trigger factor and an rgg-like regulator in the transcription, secretion and processing of the cysteine proteinase of Streptococcus pyogenes</article-title>. <source>Embo J</source><volume>17</volume>: <fpage>6263</fpage> - <lpage>6275</lpage><pub-id pub-id-type="pmid">9799235</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Dmitriev1">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Dmitriev</surname><given-names>AV</given-names></name>, <name><surname>McDowell</surname><given-names>EJ</given-names></name>, <name><surname>Kappeler</surname><given-names>KV</given-names></name>, <name><surname>Chaussee</surname><given-names>MA</given-names></name>, <name><surname>Rieck</surname><given-names>LD</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The Rgg regulator of Streptococcus pyogenes influences utilization of nonglucose carbohydrates, prophage induction, and expression of the NAD-glycohydrolase virulence operon</article-title>. <source>J Bacteriol</source><volume>188</volume>: <fpage>7230</fpage> - <lpage>7241</lpage><pub-id pub-id-type="pmid">17015662</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Buchanan1">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Buchanan</surname><given-names>JT</given-names></name>, <name><surname>Simpson</surname><given-names>AJ</given-names></name>, <name><surname>Aziz</surname><given-names>RK</given-names></name>, <name><surname>Liu</surname><given-names>GY</given-names></name>, <name><surname>Kristian</surname><given-names>SA</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>DNase expression allows the pathogen group A Streptococcus to escape killing in neutrophil extracellular traps</article-title>. <source>Curr Biol</source><volume>16</volume>: <fpage>396</fpage> - <lpage>400</lpage><pub-id pub-id-type="pmid">16488874</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Amulic1">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Amulic</surname><given-names>B</given-names></name>, <name><surname>Hayes</surname><given-names>G</given-names></name> (<year>2011</year>) <article-title>Neutrophil extracellular traps</article-title>. <source>Curr Biol</source><volume>21</volume>: <fpage>R297</fpage> - <lpage>298</lpage><pub-id pub-id-type="pmid">21549944</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Uchiyama1">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Uchiyama</surname><given-names>S</given-names></name>, <name><surname>Andreoni</surname><given-names>F</given-names></name>, <name><surname>Schuepbach</surname><given-names>RA</given-names></name>, <name><surname>Nizet</surname><given-names>V</given-names></name>, <name><surname>Zinkernagel</surname><given-names>AS</given-names></name> (<year>2012</year>) <article-title>DNase Sda1 allows invasive M1T1 Group A Streptococcus to prevent TLR9-dependent recognition</article-title>. <source>PLoS Pathog</source><volume>8</volume>: <fpage>e1002736</fpage><pub-id pub-id-type="pmid">22719247</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Sumby1">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Sumby</surname><given-names>P</given-names></name>, <name><surname>Barbian</surname><given-names>KD</given-names></name>, <name><surname>Gardner</surname><given-names>DJ</given-names></name>, <name><surname>Whitney</surname><given-names>AR</given-names></name>, <name><surname>Welty</surname><given-names>DM</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Extracellular deoxyribonuclease made by group A Streptococcus assists pathogenesis by enhancing evasion of the innate immune response</article-title>. <source>Proc Natl Acad Sci U S A</source><volume>102</volume>: <fpage>1679</fpage> - <lpage>1684</lpage><pub-id pub-id-type="pmid">15668390</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-McShan1">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>McShan</surname><given-names>WM</given-names></name>, <name><surname>Ferretti</surname><given-names>JJ</given-names></name>, <name><surname>Karasawa</surname><given-names>T</given-names></name>, <name><surname>Suvorov</surname><given-names>AN</given-names></name>, <name><surname>Lin</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Genome sequence of a nephritogenic and highly transformable M49 strain of Streptococcus pyogenes</article-title>. <source>J Bacteriol</source><volume>190</volume>: <fpage>7773</fpage> - <lpage>7785</lpage><pub-id pub-id-type="pmid">18820018</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Proft1">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Proft</surname><given-names>T</given-names></name>, <name><surname>Moffatt</surname><given-names>SL</given-names></name>, <name><surname>Berkahn</surname><given-names>CJ</given-names></name>, <name><surname>Fraser</surname><given-names>JD</given-names></name> (<year>1999</year>) <article-title>Identification and characterization of novel superantigens from Streptococcus pyogenes</article-title>. <source>J Exp Med</source><volume>189</volume>: <fpage>89</fpage> - <lpage>102</lpage><pub-id pub-id-type="pmid">9874566</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Anbalagan1">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Anbalagan</surname><given-names>S</given-names></name>, <name><surname>McShan</surname><given-names>WM</given-names></name>, <name><surname>Dunman</surname><given-names>PM</given-names></name>, <name><surname>Chaussee</surname><given-names>MS</given-names></name> (<year>2011</year>) <article-title>Identification of Rgg binding sites in the Streptococcus pyogenes chromosome</article-title>. <source>J Bacteriol</source><volume>193</volume>: <fpage>4933</fpage> - <lpage>4942</lpage><pub-id pub-id-type="pmid">21764942</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Anbalagan2">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Anbalagan</surname><given-names>S</given-names></name>, <name><surname>Dmitriev</surname><given-names>A</given-names></name>, <name><surname>McShan</surname><given-names>WM</given-names></name>, <name><surname>Dunman</surname><given-names>PM</given-names></name>, <name><surname>Chaussee</surname><given-names>MS</given-names></name> (<year>2012</year>) <article-title>Growth phase-dependent modulation of Rgg binding specificity in Streptococcus pyogenes</article-title>. <source>J Bacteriol</source><volume>194</volume>: <fpage>3961</fpage> - <lpage>3971</lpage><pub-id pub-id-type="pmid">22636768</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Kinkel1">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Kinkel</surname><given-names>TL</given-names></name>, <name><surname>McIver</surname><given-names>KS</given-names></name> (<year>2008</year>) <article-title>CcpA-mediated repression of streptolysin S expression and virulence in the group A streptococcus</article-title>. <source>Infect Immun</source><volume>76</volume>: <fpage>3451</fpage> - <lpage>3463</lpage><pub-id pub-id-type="pmid">18490461</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Chaussee1">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Chaussee</surname><given-names>MS</given-names></name>, <name><surname>Somerville</surname><given-names>GA</given-names></name>, <name><surname>Reitzer</surname><given-names>L</given-names></name>, <name><surname>Musser</surname><given-names>JM</given-names></name> (<year>2003</year>) <article-title>Rgg Coordinates Virulence Factor Synthesis and Metabolism in Streptococcus pyogenes</article-title>. <source>J Bacteriol</source><volume>185</volume>: <fpage>6016</fpage> - <lpage>6024</lpage><pub-id pub-id-type="pmid">14526012</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Chaussee2">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Chaussee</surname><given-names>MS</given-names></name>, <name><surname>Watson</surname><given-names>RO</given-names></name>, <name><surname>Smoot</surname><given-names>JC</given-names></name>, <name><surname>Musser</surname><given-names>JM</given-names></name> (<year>2001</year>) <article-title>Identification of Rgg-regulated exoproteins of Streptococcus pyogenes</article-title>. <source>Infect Immun</source><volume>69</volume>: <fpage>822</fpage> - <lpage>831</lpage><pub-id pub-id-type="pmid">11159974</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Loughman1">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Loughman</surname><given-names>JA</given-names></name>, <name><surname>Caparon</surname><given-names>MG</given-names></name> (<year>2006</year>) <article-title>A novel adaptation of aldolase regulates virulence in Streptococcus pyogenes</article-title>. <source>Embo J</source><volume>25</volume>: <fpage>5414</fpage> - <lpage>5422</lpage><pub-id pub-id-type="pmid">17066081</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Shelburne1">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><collab>Shelburne SA, 3rd, Olsen RJ, Makthal N, Brown NG, Sahasrabhojane P, et al</collab> (<year>2011</year>) <article-title>An amino-terminal signal peptide of Vfr protein negatively influences RopB-dependent SpeB expression and attenuates virulence in Streptococcus pyogenes</article-title>. <source>Mol Microbiol</source><volume>82</volume>: <fpage>1481</fpage> - <lpage>1495</lpage><pub-id pub-id-type="pmid">22040048</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Federle1">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Federle</surname><given-names>M</given-names></name> (<year>2012</year>) <article-title>Pathogenic streptococci speak, but what are they saying?</article-title><source>Virulence</source><volume>3</volume>: <fpage>92</fpage> - <lpage>94</lpage><pub-id pub-id-type="pmid">22286703</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Chaussee3">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Chaussee</surname><given-names>MS</given-names></name>, <name><surname>Ajdic</surname><given-names>D</given-names></name>, <name><surname>Ferretti</surname><given-names>JJ</given-names></name> (<year>1999</year>) <article-title>The rgg gene of Streptococcus pyogenes NZ131 positively influences extracellular SPE B production</article-title>. <source>Infect Immun</source><volume>67</volume>: <fpage>1715</fpage> - <lpage>1722</lpage><pub-id pub-id-type="pmid">10085009</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Olsen1">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Olsen</surname><given-names>RJ</given-names></name>, <name><surname>Laucirica</surname><given-names>DR</given-names></name>, <name><surname>Watkins</surname><given-names>ME</given-names></name>, <name><surname>Feske</surname><given-names>ML</given-names></name>, <name><surname>Garcia-Bustillos</surname><given-names>JR</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Polymorphisms in regulator of protease B (RopB) alter disease phenotype and strain virulence of serotype M3 group A Streptococcus</article-title>. <source>J Infect Dis</source><volume>205</volume>: <fpage>1719</fpage> - <lpage>1729</lpage><pub-id pub-id-type="pmid">22262791</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Carroll1">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><collab>Carroll RK, Shelburne SA, 3rd, Olsen RJ, Suber B, Sahasrabhojane P, et al</collab> (<year>2011</year>) <article-title>Naturally occurring single amino acid replacements in a regulatory protein alter streptococcal gene expression and virulence in mice</article-title>. <source>J Clin Invest</source><volume>121</volume>: <fpage>1956</fpage> - <lpage>1968</lpage><pub-id pub-id-type="pmid">21490401</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Wagner1">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Wagner</surname><given-names>PL</given-names></name>, <name><surname>Neely</surname><given-names>MN</given-names></name>, <name><surname>Zhang</surname><given-names>X</given-names></name>, <name><surname>Acheson</surname><given-names>DW</given-names></name>, <name><surname>Waldor</surname><given-names>MK</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>Role for a phage promoter in Shiga toxin 2 expression from a pathogenic Escherichia coli strain</article-title>. <source>J Bacteriol</source><volume>183</volume>: <fpage>2081</fpage> - <lpage>2085</lpage><pub-id pub-id-type="pmid">11222608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Neely1">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Neely</surname><given-names>MN</given-names></name>, <name><surname>Friedman</surname><given-names>DI</given-names></name> (<year>1998</year>) <article-title>Functional and genetic analysis of regulatory regions of coliphage H-19B: location of shiga-like toxin and lysis genes suggest a role for phage functions in toxin release</article-title>. <source>Mol Microbiol</source><volume>28</volume>: <fpage>1255</fpage> - <lpage>1267</lpage><pub-id pub-id-type="pmid">9680214</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Waldor1">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Waldor</surname><given-names>MK</given-names></name>, <name><surname>Friedman</surname><given-names>DI</given-names></name> (<year>2005</year>) <article-title>Phage regulatory circuits and virulence gene expression</article-title>. <source>Curr Opin Microbiol</source><volume>8</volume>: <fpage>459</fpage> - <lpage>465</lpage><pub-id pub-id-type="pmid">15979389</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0061312-Chaussee4">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Chaussee</surname><given-names>MS</given-names></name>, <name><surname>Liu</surname><given-names>J</given-names></name>, <name><surname>Stevens</surname><given-names>DL</given-names></name>, <name><surname>Ferretti</surname><given-names>JJ</given-names></name> (<year>1996</year>) <article-title>Genetic and phenotypic diversity among isolates of Streptococcus pyogenes from invasive infections</article-title>. <source>J Infect Dis</source><volume>173</volume>: <fpage>901</fpage> - <lpage>908</lpage><pub-id pub-id-type="pmid">8603969</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
+
+
+
