@@ -4,5 +4,7 @@ python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_1_2 ECO_annotation_1_2 3 tea
 
 python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_3 ECO_annotation3 3 team_2_pairs.txt ..\eco_v2018-09-14.obo T1 D1 A2
 
+python ECO-CollecTF_run_iaa_scripts.py \path\to\ECO_4 ECO_annotation_4_5 4 team_4_pairs.txt ..\eco_v2018-09-14.obo A1 A2 D1 M2
+
 The IAA scores will be in the IAA subdirs under the corpus (one per corpus), IAA_sent_iaa_k_avg.txt and IAA_multi_label_iaa_kwic_avg.txt.
 
